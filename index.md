@@ -15,4 +15,5 @@ This is a test.  This is only a test.
   * definitely does not work
 * Testing [md wiki from html](wiki4/LArSoftWiki.md)
   * Oops, we have a ton of header stuff from redmine.
+  * Links need editing from /redmine/.../name to name.md
 
