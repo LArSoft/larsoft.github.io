@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Using art in LArSoft - LArSoft - Fermilab Redmine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0oMq36C+dsS+Vp09rXPjYxOlHT8e6zKiWLnhC4Lsuc44bc5CICOKsqchcuRnnrd0evzGy4Uf8+Yhdc9QiBnmeg==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico?1560171137' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/application.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css?1601072360" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1601072362"></script>
+<script src="/redmine/javascripts/application.js?1601072361"></script>
+<script src="/redmine/javascripts/responsive.js?1601072360"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_countable_headers/stylesheets/countable_headers.css?1604432132" />  <script src="/redmine/plugin_assets/redmine_sortable_table/javascripts/sortable_table.js?1601318223"></script><link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_sortable_table/stylesheets/sortable_table.css?1601318223" /> <link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_group_assignee/stylesheets/tab_content_assignees.css?1604592738" />
+<!-- page specific tags -->
+  <script src="/redmine/javascripts/attachments.js?1601072363"></script>
+</head>
+<body class="project-larsoft controller-wiki action-show">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="wiki_pages" value="1" />
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/redmine/users/7">garren</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li><li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/7">garren</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li><li><a class="my-page" href="/redmine/my/page">My page</a></li><li><a class="projects" href="/redmine/projects">Projects</a></li><li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" value="subprojects" />
+        <input type="hidden" name="wiki_pages" value="1" />
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/larsoft/search?scope=subprojects">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">LArSoft</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/redmine/projects/autocomplete.js?jump=wiki" autocomplete="off" /></div><div class="drdn-items projects selection"><a title="Accelerator Modeling" href="/redmine/projects/accelerator-modeling?jump=wiki"><span style="padding-left:0px;">Accelerator Modeling</span></a><a title="ArgoNeuT Offline" href="/redmine/projects/t962offline?jump=wiki"><span style="padding-left:0px;">ArgoNeuT Offline</span></a><a title="artdaq" href="/redmine/projects/artdaq?jump=wiki"><span style="padding-left:0px;">artdaq</span></a><a title="artdaq Demo" href="/redmine/projects/artdaq-demo?jump=wiki"><span style="padding-left:16px;">artdaq Demo</span></a><a title="artdaq Core Demo" href="/redmine/projects/artdaq-core-demo?jump=wiki"><span style="padding-left:32px;">artdaq Core Demo</span></a><a title="artdaq Utilities" href="/redmine/projects/artdaq-utilities?jump=wiki"><span style="padding-left:16px;">artdaq Utilities</span></a><a title="artdaq database" href="/redmine/projects/artdaq-database?jump=wiki"><span style="padding-left:32px;">artdaq database</span></a><a title="artdaq-mfextensions" href="/redmine/projects/mf-extensions?jump=wiki"><span style="padding-left:16px;">artdaq-mfextensions</span></a><a title="artg4" href="/redmine/projects/artg4?jump=wiki"><span style="padding-left:0px;">artg4</span></a><a title="artg4 Geant N02 example" href="/redmine/projects/artg4geantn02?jump=wiki"><span style="padding-left:16px;">artg4 Geant N02 example</span></a><a title="artg4example" href="/redmine/projects/artg4example?jump=wiki"><span style="padding-left:16px;">artg4example</span></a><a title="cet-is" href="/redmine/projects/cet-is?jump=wiki"><span style="padding-left:0px;">cet-is</span></a><a title="art" href="/redmine/projects/art?jump=wiki"><span style="padding-left:16px;">art</span></a><a title="art Hough" href="/redmine/projects/art-hough?jump=wiki"><span style="padding-left:32px;">art Hough</span></a><a title="art-workbook" href="/redmine/projects/art-workbook?jump=wiki"><span style="padding-left:32px;">art-workbook</span></a><a title="art_root_io" href="/redmine/projects/art_root_io?jump=wiki"><span style="padding-left:32px;">art_root_io</span></a><a title="artExtensions" href="/redmine/projects/artextensions?jump=wiki"><span style="padding-left:16px;">artExtensions</span></a><a title="Systematics Tools" href="/redmine/projects/systematicstools?jump=wiki"><span style="padding-left:32px;">Systematics Tools</span></a><a title="artUtilScripts" href="/redmine/projects/artutilscripts?jump=wiki"><span style="padding-left:16px;">artUtilScripts</span></a><a title="canvas" href="/redmine/projects/canvas?jump=wiki"><span style="padding-left:16px;">canvas</span></a><a title="canvas_root_io" href="/redmine/projects/canvas_root_io?jump=wiki"><span style="padding-left:32px;">canvas_root_io</span></a><a title="cet-is-private" href="/redmine/projects/cet-is-private?jump=wiki"><span style="padding-left:16px;">cet-is-private</span></a><a title="cet-is-public" href="/redmine/projects/cet-is-public?jump=wiki"><span style="padding-left:16px;">cet-is-public</span></a><a title="cetbuildtools" href="/redmine/projects/cetbuildtools?jump=wiki"><span style="padding-left:16px;">cetbuildtools</span></a><a title="cetlib" href="/redmine/projects/cetlib?jump=wiki"><span style="padding-left:16px;">cetlib</span></a><a title="cetlib_except" href="/redmine/projects/cetlib_except?jump=wiki"><span style="padding-left:32px;">cetlib_except</span></a><a title="CetModules" href="/redmine/projects/cetmodules?jump=wiki"><span style="padding-left:16px;">CetModules</span></a><a title="cetpkgsupport" href="/redmine/projects/cetpkgsupport?jump=wiki"><span style="padding-left:16px;">cetpkgsupport</span></a><a title="Chris Green&#39;s Stuff" href="/redmine/projects/cet-chg?jump=wiki"><span style="padding-left:16px;">Chris Green&#39;s Stuff</span></a><a title="CosmoSIS UPS" href="/redmine/projects/cosmosis_ups?jump=wiki"><span style="padding-left:16px;">CosmoSIS UPS</span></a><a title="cpp0x" href="/redmine/projects/cpp0x?jump=wiki"><span style="padding-left:16px;">cpp0x</span></a><a title="critic" href="/redmine/projects/critic?jump=wiki"><span style="padding-left:16px;">critic</span></a><a title="DocDB migration" href="/redmine/projects/docdb-migration?jump=wiki"><span style="padding-left:16px;">DocDB migration</span></a><a title="El Capitan Support" href="/redmine/projects/el-capitan-support?jump=wiki"><span style="padding-left:16px;">El Capitan Support</span></a><a title="fhicl" href="/redmine/projects/fhicl?jump=wiki"><span style="padding-left:16px;">fhicl</span></a><a title="fhicl-cpp" href="/redmine/projects/fhicl-cpp?jump=wiki"><span style="padding-left:32px;">fhicl-cpp</span></a><a title="fhicl-py" href="/redmine/projects/fhicl-py?jump=wiki"><span style="padding-left:32px;">fhicl-py</span></a><a title="Framework Build Instructions" href="/redmine/projects/build-framework?jump=wiki"><span style="padding-left:16px;">Framework Build Instructions</span></a><a title="hep_hpc_toolkit" href="/redmine/projects/hep_hpc_toolkit?jump=wiki"><span style="padding-left:32px;">hep_hpc_toolkit</span></a><a title="gallery" href="/redmine/projects/gallery?jump=wiki"><span style="padding-left:16px;">gallery</span></a><a title="hep_concurrency" href="/redmine/projects/hep_concurrency?jump=wiki"><span style="padding-left:16px;">hep_concurrency</span></a><a title="Lynn Garren&#39;s notes" href="/redmine/projects/lynn-garren-s-notes?jump=wiki"><span style="padding-left:16px;">Lynn Garren&#39;s notes</span></a><a title="messagefacility" href="/redmine/projects/messagefacility?jump=wiki"><span style="padding-left:16px;">messagefacility</span></a><a title="mrb" href="/redmine/projects/mrb?jump=wiki"><span style="padding-left:16px;">mrb</span></a><a title="SciSoft" href="/redmine/projects/scisoft?jump=wiki"><span style="padding-left:16px;">SciSoft</span></a><a title="Spack Planning" href="/redmine/projects/spack-planning?jump=wiki"><span style="padding-left:16px;">Spack Planning</span></a><a title="VMs and Containers" href="/redmine/projects/vms-and-containers?jump=wiki"><span style="padding-left:16px;">VMs and Containers</span></a><a title="ubuntu vm" href="/redmine/projects/ubuntu-vm?jump=wiki"><span style="padding-left:32px;">ubuntu vm</span></a><a title="cet-pythia6" href="/redmine/projects/cet-pythia6?jump=wiki"><span style="padding-left:16px;">cet-pythia6</span></a><a title="splines" href="/redmine/projects/splines?jump=wiki"><span style="padding-left:16px;">splines</span></a><a title="studio" href="/redmine/projects/studio?jump=wiki"><span style="padding-left:16px;">studio</span></a><a title="tag_suite" href="/redmine/projects/tag_suite?jump=wiki"><span style="padding-left:16px;">tag_suite</span></a><a title="art/LArSoft Course" href="/redmine/projects/art-larsoft-course?jump=wiki"><span style="padding-left:0px;">art/LArSoft Course</span></a><a title="LArIAT" href="/redmine/projects/lardbt?jump=wiki"><span style="padding-left:0px;">LArIAT</span></a><a title="LArIAT Online" href="/redmine/projects/lariat-online?jump=wiki"><span style="padding-left:16px;">LArIAT Online</span></a><a title="LArSoft" class="selected" href="/redmine/projects/larsoft?jump=wiki"><span style="padding-left:0px;">LArSoft</span></a><a title="ArgoNeuT code" href="/redmine/projects/argoneutcode?jump=wiki"><span style="padding-left:16px;">ArgoNeuT code</span></a><a title="ArgoNeuT Analysis" href="/redmine/projects/t962ana?jump=wiki"><span style="padding-left:32px;">ArgoNeuT Analysis</span></a><a title="LAr-Continuous-Integration" href="/redmine/projects/lar-ci?jump=wiki"><span style="padding-left:16px;">LAr-Continuous-Integration</span></a><a title="LAr1ND code" href="/redmine/projects/lar1ndcode?jump=wiki"><span style="padding-left:16px;">LAr1ND code</span></a><a title="LArAdmin" href="/redmine/projects/laradmin?jump=wiki"><span style="padding-left:16px;">LArAdmin</span></a><a title="LArAna" href="/redmine/projects/larana?jump=wiki"><span style="padding-left:16px;">LArAna</span></a><a title="LArCore" href="/redmine/projects/larcore?jump=wiki"><span style="padding-left:16px;">LArCore</span></a><a title="LArCoreAlg" href="/redmine/projects/larcorealg?jump=wiki"><span style="padding-left:16px;">LArCoreAlg</span></a><a title="LArCoreObj" href="/redmine/projects/larcoreobj?jump=wiki"><span style="padding-left:16px;">LArCoreObj</span></a><a title="LArData" href="/redmine/projects/lardata?jump=wiki"><span style="padding-left:16px;">LArData</span></a><a title="LArDataAlg" href="/redmine/projects/lardataalg?jump=wiki"><span style="padding-left:16px;">LArDataAlg</span></a><a title="LArDataObj" href="/redmine/projects/lardataobj?jump=wiki"><span style="padding-left:16px;">LArDataObj</span></a><a title="LArEventDisplay" href="/redmine/projects/lareventdisplay?jump=wiki"><span style="padding-left:16px;">LArEventDisplay</span></a><a title="LArEvt" href="/redmine/projects/larevt?jump=wiki"><span style="padding-left:16px;">LArEvt</span></a><a title="LArExamples" href="/redmine/projects/larexamples?jump=wiki"><span style="padding-left:16px;">LArExamples</span></a><a title="LArG4" href="/redmine/projects/larg4?jump=wiki"><span style="padding-left:16px;">LArG4</span></a><a title="larliteintegration" href="/redmine/projects/sketch?jump=wiki"><span style="padding-left:16px;">larliteintegration</span></a><a title="LArPandora" href="/redmine/projects/larpandora?jump=wiki"><span style="padding-left:16px;">LArPandora</span></a><a title="LArPandoraContent" href="/redmine/projects/larpandoracontent?jump=wiki"><span style="padding-left:16px;">LArPandoraContent</span></a><a title="LArReco" href="/redmine/projects/larreco?jump=wiki"><span style="padding-left:16px;">LArReco</span></a><a title="LArRecoDNN" href="/redmine/projects/larrecodnn?jump=wiki"><span style="padding-left:16px;">LArRecoDNN</span></a><a title="LArRelTools" href="/redmine/projects/larreltools?jump=wiki"><span style="padding-left:16px;">LArRelTools</span></a><a title="larshoweralg" href="/redmine/projects/larshoweralg?jump=wiki"><span style="padding-left:16px;">larshoweralg</span></a><a title="LArSim" href="/redmine/projects/larsim?jump=wiki"><span style="padding-left:16px;">LArSim</span></a><a title="LArSimAlg" href="/redmine/projects/larsimalg?jump=wiki"><span style="padding-left:16px;">LArSimAlg</span></a><a title="LArSimObj" href="/redmine/projects/larsimobj?jump=wiki"><span style="padding-left:16px;">LArSimObj</span></a><a title="LArSimTools" href="/redmine/projects/larsimtools?jump=wiki"><span style="padding-left:16px;">LArSimTools</span></a><a title="LArSoft-SVN (legacy site)" href="/redmine/projects/larsoftsvn?jump=wiki"><span style="padding-left:16px;">LArSoft-SVN (legacy site)</span></a><a title="LArSoft Alpha Test" href="/redmine/projects/larsoft-alpha?jump=wiki"><span style="padding-left:32px;">LArSoft Alpha Test</span></a><a title="LArSoft Experiments Alpha Test" href="/redmine/projects/larsoft-experiment-alpha?jump=wiki"><span style="padding-left:48px;">LArSoft Experiments Alpha Test</span></a><a title="LArSoftObj" href="/redmine/projects/larsoftobj?jump=wiki"><span style="padding-left:16px;">LArSoftObj</span></a><a title="LArSystematics" href="/redmine/projects/larsystematics?jump=wiki"><span style="padding-left:16px;">LArSystematics</span></a><a title="LArTestAlg" href="/redmine/projects/lartestalg?jump=wiki"><span style="padding-left:16px;">LArTestAlg</span></a><a title="LArToolObj" href="/redmine/projects/lartoolobj?jump=wiki"><span style="padding-left:16px;">LArToolObj</span></a><a title="LArUtils" href="/redmine/projects/larutils?jump=wiki"><span style="padding-left:16px;">LArUtils</span></a><a title="larwirecell" href="/redmine/projects/larwirecell?jump=wiki"><span style="padding-left:16px;">larwirecell</span></a><a title="LBNE code" href="/redmine/projects/lbnecode?jump=wiki"><span style="padding-left:16px;">LBNE code</span></a><a title="NuSystematics" href="/redmine/projects/nusystematics?jump=wiki"><span style="padding-left:16px;">NuSystematics</span></a><a title="parsegdml" href="/redmine/projects/parsegdml?jump=wiki"><span style="padding-left:16px;">parsegdml</span></a><a title="uBooNE code" href="/redmine/projects/uboonecode?jump=wiki"><span style="padding-left:16px;">uBooNE code</span></a><a title="CC1pi" href="/redmine/projects/cc1pi?jump=wiki"><span style="padding-left:32px;">CC1pi</span></a><a title="UBooNE alg" href="/redmine/projects/uboonealg?jump=wiki"><span style="padding-left:32px;">UBooNE alg</span></a><a title="uBAna" href="/redmine/projects/ubana?jump=wiki"><span style="padding-left:32px;">uBAna</span></a><a title="uBCRT" href="/redmine/projects/ubcrt?jump=wiki"><span style="padding-left:32px;">uBCRT</span></a><a title="uBCV" href="/redmine/projects/ubcv?jump=wiki"><span style="padding-left:32px;">uBCV</span></a><a title="uBCore" href="/redmine/projects/ubcore?jump=wiki"><span style="padding-left:32px;">uBCore</span></a><a title="uBEvt" href="/redmine/projects/ubevt?jump=wiki"><span style="padding-left:32px;">uBEvt</span></a><a title="uBLite" href="/redmine/projects/ublite?jump=wiki"><span style="padding-left:32px;">uBLite</span></a><a title="uBObj" href="/redmine/projects/ubobj?jump=wiki"><span style="padding-left:32px;">uBObj</span></a><a title="uBRaw" href="/redmine/projects/ubraw?jump=wiki"><span style="padding-left:32px;">uBRaw</span></a><a title="uBReco" href="/redmine/projects/ubreco?jump=wiki"><span style="padding-left:32px;">uBReco</span></a><a title="uBSim" href="/redmine/projects/ubsim?jump=wiki"><span style="padding-left:32px;">uBSim</span></a><a title="uBXSec" href="/redmine/projects/ubxsec?jump=wiki"><span style="padding-left:32px;">uBXSec</span></a><a title="lar_ci" href="/redmine/projects/lar_ci?jump=wiki"><span style="padding-left:0px;">lar_ci</span></a><a title="darkart" href="/redmine/projects/darkart?jump=wiki"><span style="padding-left:0px;">darkart</span></a><a title="darkmon" href="/redmine/projects/darkmon?jump=wiki"><span style="padding-left:0px;">darkmon</span></a><a title="darkside-public" href="/redmine/projects/darkside-public?jump=wiki"><span style="padding-left:0px;">darkside-public</span></a><a title="darksidecore" href="/redmine/projects/darksidecore?jump=wiki"><span style="padding-left:0px;">darksidecore</span></a><a title="ds50daq" href="/redmine/projects/ds50daq?jump=wiki"><span style="padding-left:0px;">ds50daq</span></a><a title="DUNE" href="/redmine/projects/dune?jump=wiki"><span style="padding-left:0px;">DUNE</span></a><a title="DUNE Approved Plots" href="/redmine/projects/dune-approved-plots?jump=wiki"><span style="padding-left:16px;">DUNE Approved Plots</span></a><a title="Dune Computing" href="/redmine/projects/dune-computing?jump=wiki"><span style="padding-left:16px;">Dune Computing</span></a><a title="duneutil" href="/redmine/projects/duneutil?jump=wiki"><span style="padding-left:32px;">duneutil</span></a><a title="DUNE DAQ" href="/redmine/projects/dune-daq?jump=wiki"><span style="padding-left:16px;">DUNE DAQ</span></a><a title="DUNE NearDet Design" href="/redmine/projects/dune-neardet-design?jump=wiki"><span style="padding-left:16px;">DUNE NearDet Design</span></a><a title="dunetpc" href="/redmine/projects/dunetpc?jump=wiki"><span style="padding-left:16px;">dunetpc</span></a><a title="protoduneana" href="/redmine/projects/protoduneana?jump=wiki"><span style="padding-left:32px;">protoduneana</span></a><a title="upd" href="/redmine/projects/upd?jump=wiki"><span style="padding-left:0px;">upd</span></a><a title="ups" href="/redmine/projects/ups?jump=wiki"><span style="padding-left:0px;">ups</span></a><a title="Fermi Redmine" href="/redmine/projects/fermi-redmine?jump=wiki"><span style="padding-left:0px;">Fermi Redmine</span></a><a title="Projects for Monitoring Redmine Health" href="/redmine/projects/test-p1?jump=wiki"><span style="padding-left:16px;">Projects for Monitoring Redmine Health</span></a><a title="redmine-lib" href="/redmine/projects/redmine-lib?jump=wiki"><span style="padding-left:16px;">redmine-lib</span></a><a title="g4hpc" href="/redmine/projects/g4hpc?jump=wiki"><span style="padding-left:0px;">g4hpc</span></a><a title="g4hpcbenchmarks" href="/redmine/projects/g4hpcbenchmarks?jump=wiki"><span style="padding-left:16px;">g4hpcbenchmarks</span></a><a title="HepPDT" href="/redmine/projects/heppdt?jump=wiki"><span style="padding-left:0px;">HepPDT</span></a><a title="ICARUS LArSoft" href="/redmine/projects/icaruscode?jump=wiki"><span style="padding-left:0px;">ICARUS LArSoft</span></a><a title="icarus_data" href="/redmine/projects/icarus_data?jump=wiki"><span style="padding-left:16px;">icarus_data</span></a><a title="icarusutil" href="/redmine/projects/icarusutil?jump=wiki"><span style="padding-left:16px;">icarusutil</span></a><a title="LAr Batch Tools" href="/redmine/projects/larbatch?jump=wiki"><span style="padding-left:0px;">LAr Batch Tools</span></a><a title="LBNE Utilities" href="/redmine/projects/lbneutil?jump=wiki"><span style="padding-left:0px;">LBNE Utilities</span></a><a title="DAQ" href="/redmine/projects/mu2edaq?jump=wiki"><span style="padding-left:0px;">DAQ</span></a><a title="mu2e_artdaq" href="/redmine/projects/mu2e_artdaq?jump=wiki"><span style="padding-left:16px;">mu2e_artdaq</span></a><a title="Mu2e DAQ Computing" href="/redmine/projects/mu2e-daq-computing?jump=wiki"><span style="padding-left:16px;">Mu2e DAQ Computing</span></a><a title="mu2e DCS" href="/redmine/projects/mu2e-dcs?jump=wiki"><span style="padding-left:16px;">mu2e DCS</span></a><a title="Mu2e Raw Data" href="/redmine/projects/mu2e-raw-data?jump=wiki"><span style="padding-left:16px;">Mu2e Raw Data</span></a><a title="Databases" href="/redmine/projects/databases?jump=wiki"><span style="padding-left:0px;">Databases</span></a><a title="Detector Construction DB" href="/redmine/projects/mu2e_detector_construction_db?jump=wiki"><span style="padding-left:16px;">Detector Construction DB</span></a><a title="Offline Software" href="/redmine/projects/offlinesoftware?jump=wiki"><span style="padding-left:0px;">Offline Software</span></a><a title="G4beamline" href="/redmine/projects/mu2eofflinesoftwareg4beamline?jump=wiki"><span style="padding-left:16px;">G4beamline</span></a><a title="Grid Scripts" href="/redmine/projects/mu2egrid?jump=wiki"><span style="padding-left:16px;">Grid Scripts</span></a><a title="Muon g-2" href="/redmine/projects/g-2?jump=wiki"><span style="padding-left:0px;">Muon g-2</span></a><a title="Calorimeter CDR req." href="/redmine/projects/calorequirements?jump=wiki"><span style="padding-left:16px;">Calorimeter CDR req.</span></a><a title="g-2 Art Examples" href="/redmine/projects/gm2artexamples?jump=wiki"><span style="padding-left:16px;">g-2 Art Examples</span></a><a title="g-2 CDR" href="/redmine/projects/gm2cdr?jump=wiki"><span style="padding-left:16px;">g-2 CDR</span></a><a title="g-2 DAQ" href="/redmine/projects/gm2daq?jump=wiki"><span style="padding-left:16px;">g-2 DAQ</span></a><a title="g-2 DQM" href="/redmine/projects/gm2dqm?jump=wiki"><span style="padding-left:32px;">g-2 DQM</span></a><a title="g-2 public" href="/redmine/projects/gm2public?jump=wiki"><span style="padding-left:16px;">g-2 public</span></a><a title="g-2 Release Tools" href="/redmine/projects/gm2releasetools?jump=wiki"><span style="padding-left:16px;">g-2 Release Tools</span></a><a title="g2MIGTRACE" href="/redmine/projects/g2migtrace?jump=wiki"><span style="padding-left:16px;">g2MIGTRACE</span></a><a title="g2mtanalysismacros" href="/redmine/projects/g2mtanalysismacros?jump=wiki"><span style="padding-left:16px;">g2mtanalysismacros</span></a><a title="g-2 SRBD" href="/redmine/projects/g-2-srbd?jump=wiki"><span style="padding-left:16px;">g-2 SRBD</span></a><a title="g-2 TDR" href="/redmine/projects/gm2tdr?jump=wiki"><span style="padding-left:16px;">g-2 TDR</span></a><a title="gm2analyses" href="/redmine/projects/gm2analyses?jump=wiki"><span style="padding-left:16px;">gm2analyses</span></a><a title="gm2aux" href="/redmine/projects/gm2aux?jump=wiki"><span style="padding-left:16px;">gm2aux</span></a><a title="gm2beams" href="/redmine/projects/gm2beams?jump=wiki"><span style="padding-left:16px;">gm2beams</span></a><a title="gm2calo" href="/redmine/projects/gm2calo?jump=wiki"><span style="padding-left:16px;">gm2calo</span></a><a title="gm2dataproducts" href="/redmine/projects/gm2dataproducts?jump=wiki"><span style="padding-left:16px;">gm2dataproducts</span></a><a title="gm2field" href="/redmine/projects/gm2field?jump=wiki"><span style="padding-left:16px;">gm2field</span></a><a title="gm2fieldanalyzer" href="/redmine/projects/gm2fieldanalyzer?jump=wiki"><span style="padding-left:32px;">gm2fieldanalyzer</span></a><a title="gm2fielddaq" href="/redmine/projects/gm2fielddaq?jump=wiki"><span style="padding-left:32px;">gm2fielddaq</span></a><a title="gm2fieldsignal" href="/redmine/projects/gm2fieldsignal?jump=wiki"><span style="padding-left:32px;">gm2fieldsignal</span></a><a title="gm2geom" href="/redmine/projects/gm2geom?jump=wiki"><span style="padding-left:16px;">gm2geom</span></a><a title="gm2mcdataproducts" href="/redmine/projects/gm2mcdataproducts?jump=wiki"><span style="padding-left:16px;">gm2mcdataproducts</span></a><a title="gm2midas" href="/redmine/projects/gm2midas?jump=wiki"><span style="padding-left:16px;">gm2midas</span></a><a title="gm2midastoart" href="/redmine/projects/gm2midastoart?jump=wiki"><span style="padding-left:16px;">gm2midastoart</span></a><a title="gm2MTest2012" href="/redmine/projects/gm2mtest2012?jump=wiki"><span style="padding-left:16px;">gm2MTest2012</span></a><a title="gm2optics" href="/redmine/projects/gm2optics?jump=wiki"><span style="padding-left:16px;">gm2optics</span></a><a title="gm2planning" href="/redmine/projects/gm2planning?jump=wiki"><span style="padding-left:16px;">gm2planning</span></a><a title="gm2reconeast" href="/redmine/projects/gm2reconeast?jump=wiki"><span style="padding-left:16px;">gm2reconeast</span></a><a title="gm2ringsim" href="/redmine/projects/gm2ringsim?jump=wiki"><span style="padding-left:16px;">gm2ringsim</span></a><a title="gm2SoftwareTools" href="/redmine/projects/gm2softwaretools?jump=wiki"><span style="padding-left:16px;">gm2SoftwareTools</span></a><a title="gm2strawtracking" href="/redmine/projects/gm2strawtracking?jump=wiki"><span style="padding-left:16px;">gm2strawtracking</span></a><a title="gm2swdocs" href="/redmine/projects/gm2swdocs?jump=wiki"><span style="padding-left:16px;">gm2swdocs</span></a><a title="gm2test" href="/redmine/projects/gm2test?jump=wiki"><span style="padding-left:16px;">gm2test</span></a><a title="gm2tracker" href="/redmine/projects/gm2tracker?jump=wiki"><span style="padding-left:16px;">gm2tracker</span></a><a title="gm2trackerdaq" href="/redmine/projects/gm2trackerdaq?jump=wiki"><span style="padding-left:16px;">gm2trackerdaq</span></a><a title="gm2unpackers" href="/redmine/projects/gm2unpackers?jump=wiki"><span style="padding-left:16px;">gm2unpackers</span></a><a title="gm2util" href="/redmine/projects/gm2util?jump=wiki"><span style="padding-left:16px;">gm2util</span></a><a title="gm2viz" href="/redmine/projects/gm2viz?jump=wiki"><span style="padding-left:16px;">gm2viz</span></a><a title="gm2vtk" href="/redmine/projects/gm2vtk?jump=wiki"><span style="padding-left:16px;">gm2vtk</span></a><a title="g-2 Field Shimming Paper" href="/redmine/projects/gm2fsp?jump=wiki"><span style="padding-left:16px;">g-2 Field Shimming Paper</span></a><a title="gm2db" href="/redmine/projects/gm2db?jump=wiki"><span style="padding-left:16px;">gm2db</span></a><a title="gm2ilratio" href="/redmine/projects/gm2ilratio?jump=wiki"><span style="padding-left:16px;">gm2ilratio</span></a><a title="gm2reconita" href="/redmine/projects/gm2reconita?jump=wiki"><span style="padding-left:16px;">gm2reconita</span></a><a title="gm2sc" href="/redmine/projects/gm2sc?jump=wiki"><span style="padding-left:16px;">gm2sc</span></a><a title="gm2simvalidation" href="/redmine/projects/gm2simvalidation?jump=wiki"><span style="padding-left:16px;">gm2simvalidation</span></a><a title="gm2templates" href="/redmine/projects/gm2templates?jump=wiki"><span style="padding-left:16px;">gm2templates</span></a><a title="NOvA-ART" href="/redmine/projects/novaart?jump=wiki"><span style="padding-left:0px;">NOvA-ART</span></a><a title="NOvA validation" href="/redmine/projects/nova-validation?jump=wiki"><span style="padding-left:16px;">NOvA validation</span></a><a title="NuTools" href="/redmine/projects/nutools?jump=wiki"><span style="padding-left:0px;">NuTools</span></a><a title="NuEvdb" href="/redmine/projects/nuevdb?jump=wiki"><span style="padding-left:16px;">NuEvdb</span></a><a title="NuG4" href="/redmine/projects/nug4?jump=wiki"><span style="padding-left:16px;">NuG4</span></a><a title="NuGen" href="/redmine/projects/nugen?jump=wiki"><span style="padding-left:16px;">NuGen</span></a><a title="NuRandom" href="/redmine/projects/nurandom?jump=wiki"><span style="padding-left:16px;">NuRandom</span></a><a title="NuSimData" href="/redmine/projects/nusimdata?jump=wiki"><span style="padding-left:16px;">NuSimData</span></a><a title="NuSoft/NuTools" href="/redmine/projects/nusoftart?jump=wiki"><span style="padding-left:16px;">NuSoft/NuTools</span></a><a title="PPFX" href="/redmine/projects/ppfx?jump=wiki"><span style="padding-left:16px;">PPFX</span></a><a title="OSG-Geant4-OSGMM" href="/redmine/projects/osg-geant4-osgmm?jump=wiki"><span style="padding-left:0px;">OSG-Geant4-OSGMM</span></a><a title="SBND code" href="/redmine/projects/sbndcode?jump=wiki"><span style="padding-left:0px;">SBND code</span></a><a title="SBND utility scripts" href="/redmine/projects/sbndutil?jump=wiki"><span style="padding-left:0px;">SBND utility scripts</span></a><a title="IF Data Handling Client Tools (ifdhc)" href="/redmine/projects/ifdhc?jump=wiki"><span style="padding-left:0px;">IF Data Handling Client Tools (ifdhc)</span></a><a title="IFDH Art interface" href="/redmine/projects/ifdh-art?jump=wiki"><span style="padding-left:16px;">IFDH Art interface</span></a><a title="Simulation Tools and Features" href="/redmine/projects/stf?jump=wiki"><span style="padding-left:0px;">Simulation Tools and Features</span></a><a title="artg4tk" href="/redmine/projects/artg4tk?jump=wiki"><span style="padding-left:16px;">artg4tk</span></a><a title="DoSSiER" href="/redmine/projects/dossier?jump=wiki"><span style="padding-left:16px;">DoSSiER</span></a><a title="Geant4Reweight" href="/redmine/projects/geant4reweight?jump=wiki"><span style="padding-left:16px;">Geant4Reweight</span></a><a title="uBooNE Reconstruction" href="/redmine/projects/uboone-reconstruction?jump=wiki"><span style="padding-left:0px;">uBooNE Reconstruction</span></a><a title="uBooNE Utilities" href="/redmine/projects/ubutil?jump=wiki"><span style="padding-left:0px;">uBooNE Utilities</span></a><a title="detsim.fnal.gov" href="/redmine/projects/detsim-fnal-gov?jump=wiki"><span style="padding-left:0px;">detsim.fnal.gov</span></a><a title="SoftRelTools" href="/redmine/projects/softreltools?jump=wiki"><span style="padding-left:0px;">SoftRelTools</span></a><a title="Spack Infrastructure" href="/redmine/projects/spack-infrastructure?jump=wiki"><span style="padding-left:0px;">Spack Infrastructure</span></a></div><div class="drdn-items all-projects selection"><a href="/redmine/projects?jump=wiki">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="current-project">LArSoft</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li>
+<a id="new-object" onclick="toggleNewObjectDropdown(); return false;" class="new-object" href="#"> + </a>
+<ul class="menu-children"><li><a accesskey="7" class="new-issue-sub" href="/redmine/projects/larsoft/issues/new">New issue</a></li><li><a class="new-issue-category" href="/redmine/projects/larsoft/issue_categories/new">New category</a></li><li><a class="new-version" href="/redmine/projects/larsoft/versions/new">New version</a></li><li><a class="new-timelog" href="/redmine/projects/larsoft/time_entries/new">Log time</a></li><li><a class="new-document" href="/redmine/projects/larsoft/documents/new">New document</a></li><li><a class="new-wiki-page" href="/redmine/projects/larsoft/wiki/new">New wiki page</a></li><li><a class="new-file" href="/redmine/projects/larsoft/files/new">New file</a></li></ul>
+</li><li><a class="overview" href="/redmine/projects/larsoft">Overview</a></li><li><a class="activity" href="/redmine/projects/larsoft/activity">Activity</a></li><li><a class="roadmap" href="/redmine/projects/larsoft/roadmap">Roadmap</a></li><li><a class="issues" href="/redmine/projects/larsoft/issues">Issues</a></li><li><a class="time-entries" href="/redmine/projects/larsoft/time_entries">Spent time</a></li><li><a class="gantt" href="/redmine/projects/larsoft/issues/gantt">Gantt</a></li><li><a class="calendar" href="/redmine/projects/larsoft/issues/calendar">Calendar</a></li><li><a class="documents" href="/redmine/projects/larsoft/documents">Documents</a></li><li><a class="wiki selected" href="/redmine/projects/larsoft/wiki">Wiki</a></li><li><a class="files" href="/redmine/projects/larsoft/files">Files</a></li><li><a class="repository" href="/redmine/projects/larsoft/repository">Repository</a></li><li><a class="settings" href="/redmine/projects/larsoft/settings">Settings</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+          
+<h3>Wiki</h3>
+<ul>
+  <li><a href="/redmine/projects/larsoft/wiki">Start page</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/index">Index by title</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/date_index">Index by date</a></li>
+</ul>
+
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+<a class="icon icon-add" data-remote="true" href="/redmine/projects/larsoft/wiki/new">New wiki page</a>
+  <a class="icon icon-edit" accesskey="e" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit">Edit</a>
+  <a class="wiki_page-19710-watcher icon icon-fav-off" data-remote="true" rel="nofollow" data-method="post" href="/redmine/watchers/watch?object_id=19710&amp;object_type=wiki_page">Watch</a>
+  <a class="icon icon-lock" rel="nofollow" data-method="post" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/protect?protected=1">Lock</a>
+  
+  <a class="icon icon-move" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/rename">Rename</a>
+  <a data-confirm="Are you sure?" class="icon icon-del" rel="nofollow" data-method="delete" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft">Delete</a>
+<a class="icon icon-history" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/history">History</a>
+</div>
+
+<p class="breadcrumb"><a href="/redmine/projects/larsoft/wiki/LArSoftWiki">LArSoftWiki</a> » <a href="/redmine/projects/larsoft/wiki/LArSoft_Internals">LArSoft Internals</a> » </p>
+
+
+<div class="wiki wiki-page">
+  <ul class="toc right"><li><strong>Table of contents</strong></li><li><a href="#Using-art-in-LArSoft">Using art in LArSoft</a><ul><li><a href="#Basic-Concepts">Basic Concepts</a><ul><li><a href="#artEDProducer">art::EDProducer</a></li><li><a href="#artEDAnalyzer">art::EDAnalyzer</a></li><li><a href="#artEDProducerAnalyzerFilterbeginJob-endJob-etc">art::EDProducer/Analyzer/Filter::beginJob, endJob, etc.</a></li><li><a href="#artEvent">art::Event</a></li><li><a href="#artValidHandle-and-artHandle">art::ValidHandle and art::Handle</a></li><li><a href="#Upcast-on-read">Upcast on read</a></li><li><a href="#cetsearch_path">cet::search_path</a></li><li><a href="#FHiCL-configuration-fhiclParameterSet-and-fhiclTable">FHiCL configuration: fhicl::ParameterSet and fhicl::Table</a></li><li><a href="#artServiceHandle">art::ServiceHandle</a></li><li><a href="#artTFileService">art::TFileService</a></li><li><a href="#Message-Facility-and-MessageLogger">Message Facility and MessageLogger</a></li><li><a href="#artException">art::Exception</a></li><li><a href="#artPtrltTgt-and-artPtrVectorltTgt">art::Ptr&lt;T&gt; and art::PtrVector&lt;T&gt;</a></li><li><a href="#artAssns">art::Assns</a></li><li><a href="#artRandomNumberGenerator-Service">art::RandomNumberGenerator Service</a></li></ul>
+</li><li><a href="#Making-Objects-to-Store-in-the-Output">Making Objects to Store in the Output</a></li><li><a href="#Schema-Evolution-for-Data-Products">Schema Evolution for Data Products</a></li><li><a href="#Making-a-Module">Making a Module</a><ul><li><a href="#A-word-about-Algorithm-objects">A word about Algorithm objects</a></li></ul>
+</li><li><a href="#Checking-the-Configuration-of-a-ROOT-file">Checking the Configuration of a ROOT file</a></li></ul></li></ul>
+
+
+	<a name="Using-art-in-LArSoft"></a>
+<h1  class="wiki-class-count">Using art in LArSoft<a href="#Using-art-in-LArSoft" class="wiki-anchor">&para;</a></h1>
+
+
+	<p>The <em>art</em> framework interface makes use of the following basic ideas - all the algorithms are stored in modules and the event information is accessed using objects living in the art namespace.  The I/O uses ROOT, but it is not based on <code>TObject</code>.</p>
+
+
+	<p>For information on using <em>art</em>, please examine the <a href="http://art.fnal.gov/art-workbook/" class="external">art workbook</a>. It may also be useful to issue the command <code>art --help</code>.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-2"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=2">Edit this section</a></div><a name="Basic-Concepts"></a>
+<h2  class="wiki-class-count">Basic Concepts<a href="#Basic-Concepts" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>The <code>art</code> namespace contains, among other things, handles to information stored in an event.  Objects that are stored in an event are collectively known as <a href="https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data_Product_Design_Guide" class="external"><em>data products</em></a>.  They can either be added to an event using an <code>art::EDProducer</code> or <code>art::EDFilter</code> derived module, and they can be retrieved and operated on using an <code>art::EDAnalyzer</code> module. <em>Once an object has been stored in the event, its data cannot be altered</em> (a modified copy can be added to the event instead).</p>
+
+
+	<p>Other namespaces include:</p>
+
+
+	<ul>
+	<li><code>fhicl</code> - the namespace corresponding to the <code>ParameterSet</code> and <code>Table</code> information described below </li>
+		<li><code>cet</code> - the namespace where exceptions and some other utilities live</li>
+		<li><code>mf</code> - the namespace of the message logger facility</li>
+	</ul>
+
+
+There is a link to the interface for each concept in the heading for that concept. The first three sections below, <code>art::EDProducer</code>, <code>art::EDAnalyzer</code>, <code>art::EDFilter</code> are the three main classes from which probably <em>all</em> module classes will derive. These are used to:
+	<ol>
+	<li>add a data product to the event record, or </li>
+		<li>read a data product from the event record and do analysis but not write to the event record and </li>
+		<li>use the event record to determine if you want to keep this event at all to write to an output stream.</li>
+	</ol>
+
+
+	<p>There are a number of features in art that can be found by issuing the command <code>art --help</code>. This will display options such as:</p>
+
+
+<pre>
+art --print-description &lt;module_type&gt;
+</pre>
+
+	<p>There are also <code>--print-available-modules</code> and <code>--print-available-services</code> options available.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-3"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=3">Edit this section</a></div><a name="artEDProducer"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDProducer.h" class="external"><code>art::EDProducer</code></a><a href="#artEDProducer" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>This is a type of module that makes data products and stores them in the <code>art::Event</code>. The module takes a <a class="wiki-page" href="/redmine/projects/fhicl-cpp/wiki/Wiki">fhicl::ParameterSet</a> or <a class="wiki-page" href="/redmine/projects/art/wiki/Configuration_validation_and_description">art::EDProducer::Table</a> in the constructor and uses that to configure that module.</p>
+
+
+	<p>The module can also implement a reconfigure method to allow for run time reconfiguration, for example while running the event display. This feature is not well supported in LArSoft, and you should not rely on it.</p>
+
+
+	<p>The user must supply the implementation for the <code>art::EDProducer::produce()</code> method to create and store data products.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-4"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=4">Edit this section</a></div><a name="artEDAnalyzer"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDAnalyzer.h" class="external"><code>art::EDAnalyzer</code></a><a href="#artEDAnalyzer" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>This is a type of module that analyzes data products but cannot write them in an <code>art::Event</code>. The module takes a <a class="wiki-page" href="/redmine/projects/fhicl-cpp/wiki/Wiki">fhicl::ParameterSet</a> or <a class="wiki-page" href="/redmine/projects/art/wiki/Configuration_validation_and_description">art::EDAnalyzer::Table</a> in the constructor and uses that to configure that module.</p>
+
+
+	<p>The user must supply the implementation for the <code>art::EDAnalyzer::analyze()</code> method.<br />h3(count). <a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDFilter.h" class="external"><code>art::EDFilter</code></a></p>
+
+
+	<p>The object allows the user to filter events based on information obtained about the event itself.  Following modules can decide to process or ignore an event, according to the response of one or more filters.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-5"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=5">Edit this section</a></div><a name="artEDProducerAnalyzerFilterbeginJob-endJob-etc"></a>
+<h3  class="wiki-class-count"><code>art::EDProducer</code>/<code>Analyzer</code>/<code>Filter::beginJob</code>, <code>endJob</code>, etc.<a href="#artEDProducerAnalyzerFilterbeginJob-endJob-etc" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>These are methods that do tasks that are needed only once a job starts, ends, or a run starts or ends, etc.  For example, a <code>beginJob</code> method would likely contain definitions of histograms that might need to be filled during the operation of the module. A <code>beginRun</code> method could contain definitions of properties that can change from run to run (e.g. electron lifetime, temperature etc... ).</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-6"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=6">Edit this section</a></div><a name="artEvent"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Principal/Event.h" class="external"><code>art::Event</code></a><a href="#artEvent" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>The <code>art::Event</code> is the primary way to access products made by <code>art::EDProducer</code> type modules.</p>
+
+
+	<p>It also provides the user with information about an event such as the run, event number, etc through methods like</p>
+
+
+<pre><code class="cpp syntaxhl"><span class="CodeRay">
+<span class="comment">// assume we have an art::Event &#38;evt</span>
+
+<span class="comment">// get the run number. RunNumber_t is a typedef to unsigned int</span>
+art::RunNumber_t run = evt.run();
+
+<span class="comment">// get the subrun number. SubRunNumber_t is a typedef to unsigned int</span>
+art::SubRunNumber_t subRun = evt.subRun();
+
+<span class="comment">// get the time stamp.  art::Timestamp::value() returns a TimeValue_t which is a typedef to unsigned long long.</span>
+<span class="comment">// The conventional use is for the upper 32 bits to have the seconds since 1970 epoch and the lower 32 bits to be</span>
+<span class="comment">// the number of nanoseconds within the current second.</span>
+art::Timestamp ts = evt.time();
+
+<span class="comment">// make it into a TTimeStamp</span>
+TTimeStamp tts(ts.timeHigh(), ts.timeLow());
+
+<span class="comment">// get the event number - this calls a reference to art::EventID().  EventNumber_t is a typedef to unsigned int</span>
+art::EventNumber_t event = evt.id().event();
+</span></code></pre>
+
+	<p>The header files for the classes mentioned above are at:</p>
+
+
+	<ul>
+	<li><a href="https://cdcvs.fnal.gov/redmine/projects/canvas/repository/changes/canvas/Persistency/Provenance/EventID.h" class="external"><code>canvas/Persistency/Provenance/EventID.h</code></a></li>
+		<li><a href="https://cdcvs.fnal.gov/redmine/projects/canvas/repository/revisions/master/entry/canvas/Persistency/Provenance/Timestamp.h" class="external"><code>canvas/Persistency/Provenance/Timestamp.h</code></a></li>
+	</ul>
+
+
+	<p>The <code>art::Event</code> can also be used to access products, by asking it to return an <code>art::Handle</code>.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-7"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=7">Edit this section</a></div><a name="artValidHandle-and-artHandle"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/changes/art/Framework/Principal/Handle.h" class="external"><code>art::ValidHandle</code> and <code>art::Handle</code></a><a href="#artValidHandle-and-artHandle" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>An <code>art::ValidHandle</code> or an <code>art::Handle</code> is what is returned to an <em>art</em> module when a data product is requested.  The request can either be from a <code>art::EDProducer</code> that is attempting to get objects stored in a previous reconstruction or analysis step, or it can be from a <code>art::EDAnalyzer</code> that is attempting to do some analysis task using the information in the object.  For example, to get the data product <code>mp::MyProd</code> from the event, one should do</p>
+
+
+<pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="directive">auto</span> mplistHandle = evt.getValidHandle&lt;std::vector&lt;mp::MyProd&gt;&gt;(<span class="string"><span class="delimiter">&quot;</span><span class="content">modulelabel</span><span class="delimiter">&quot;</span></span>);
+</span></code></pre>
+
+	<p>where <code>evt</code> is an object of type <code>art::Event</code>.</p>
+
+
+	<p>You must specify the type of the data product: in this case, it is a collection of <code>mp::MyProd</code>, specifically a <code>std::vector&lt;mp::MyProd&gt;</code>. The <code>"modulelabel"</code> string is a shortcut: your program should use a <code>art::InputTag</code> instead, that is more specific and easy to identify as an input when reading the code. Usually, the label associated to the module that produced the data product you need is enough (e.g. <code>"largeant"</code> or <code>"daq"</code>).</p>
+
+
+	<p>A <code>art::ValidHandle</code> always points to an existing and available data product, and if the data product is not available, an exception is thrown.  Note that retrieved data products are <strong>always immutable</strong> and cannot be changed.  An alternative way to read a data product is by getting a <code>art::Handle</code> via <code>art::Event::getByLabel()</code> call, but then you have to check if it found it (return value <code>true</code>) and if not, do the right thing.</p>
+
+
+	<p>You can also get all the data product of a given type out of the event using the <code>art::Event::getByType</code> method:</p>
+
+
+<pre><code class="cpp syntaxhl"><span class="CodeRay">std::vector&lt;art::Handle&lt;std::vector&lt;mp::MyProd&gt;&gt;&gt; mpHandles;
+evt.getManyByType(mpHandles);
+</span></code></pre>
+
+	<p>Notice that no module label is used because we are getting all objects of the specified type out of the event.</p>
+
+
+	<p><code>art::Handle</code> looks like a pointer in the code in that the data members of the object being handled are accessed using the <code>-></code> operator (it's a "smart pointer").  For example, to get the size of the vector of <code>mp::MyProd</code> one can do</p>
+
+
+<pre><code class="cpp syntaxhl"><span class="CodeRay">mpcollHandle-&gt;size();
+</span></code></pre>
+
+	<p>To use the objects in the handle collection, you can</p>
+
+
+	<ul>
+	<li>Use the <code>art::ValidHandle</code> directly, <br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="comment">// in the code below, ev is an art::Event...</span>
+<span class="directive">auto</span> hnd = evt.getValidHandle&lt;std::vector&lt;mp::MyProd&gt;&gt;(<span class="string"><span class="delimiter">&quot;</span><span class="content">...</span><span class="delimiter">&quot;</span></span>); <span class="comment">// use the appropriate input tag, not &quot;...&quot; </span>
+
+<span class="keyword">for</span> (mp::MyProd const&#38; prod: *hnd) {
+  <span class="comment">// do something with prod</span>
+}
+</span></code></pre></li>
+	</ul>
+
+
+	<ul>
+	<li>Get the collection from the <code>art::ValidHandle</code>,<br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="comment">// in the code below, ev is an art::Event...</span>
+<span class="directive">auto</span> hnd = evt.getValidHandle&lt;std::vector&lt;mp::MyProd&gt;&gt;(<span class="string"><span class="delimiter">&quot;</span><span class="content">...</span><span class="delimiter">&quot;</span></span>); <span class="comment">// use the appropriate input tag, not &quot;...&quot; </span>
+std::vector&lt;mp::MyProd&gt; const&#38; prodvec(*hnd);
+
+<span class="keyword">for</span> (mp::MyProd const&#38; prod: prodvec) {
+  <span class="comment">// do something with prod</span>
+}
+</span></code></pre></li>
+	</ul>
+
+
+	<p>Occasionally, it is necessary to sort such a collection, in which case, a sorted container of pointers to the original collection can be used (e.g.):</p>
+
+
+<pre><code class="cpp syntaxhl"><span class="CodeRay">std::vector&lt;mp::MyProd <span class="directive">const</span>*&gt; ptrColl;
+<span class="keyword">for</span> (mp::MyProd const&#38; prod: prodvec)
+  ptrColl.push_back(&#38;prod);
+</span></code></pre>
+
+	<p>or, in a more C++-aware style using functions from the <code>algorithm</code> or <code>larcorealg/CoreUtils/operations.h</code> C++ headers<sup><a href="#fn1">1</a></sup>:</p>
+
+
+<pre><code class="cpp syntaxhl"><span class="CodeRay">std::vector&lt;mp::MyProd <span class="directive">const</span>*&gt; ptrColl(prodvec.size());
+std::transform(cbegin(prodvec), cend(prodvec), begin(ptrColl), [](auto&#38; p) { <span class="keyword">return</span> &amp;p; }); 
+
+<span class="comment">// or using the LArSoft utility:</span>
+std::transform(cbegin(prodvec), cend(prodvec), begin(ptrColl), util::takeAddress);
+</span></code></pre>(<a href="https://nusoft.fnal.gov/larsoft/doxsvn/html/namespaceutil.html#a1b7b3801e849acc3b819c67e57bff2f3" class="external"><code>util::takeAddress()</code></a> is defined in <span style="font-style: monospace;"><a class="source" href="/redmine/projects/larcorealg/repository/entry/larcorealg/CoreUtils/operations.h">larcorealg:source:larcorealg/CoreUtils/operations.h</a></span>).
+
+	<p>Also remember that as long as the pointers in your collection are from the data product, you can track back the index of the item in the data product (for example, <code>prodPtr - &#38;prodvec.front()</code> for your vector of pointers, and <code>prodIter - prodvec.begin()</code>, or <code>std::distance(prodvec.begin(), prodIter)</code>, for iterator vectors).</p>
+
+
+	<p>In all cases, you won't be able to change the <em>content</em> of a <code>mp::MyProd</code> object in the data product.</p>
+
+
+	<p><strong>NB</strong> Only <code>art::PtrVector&lt;mp::MyProd&gt;</code> and <code>std::vector&lt;art::Ptr&lt;mp::MyProd&gt;></code> correctly save the references to objects made in other modules, so if you want to save the collection, it must be one of them:<br /><pre><code class="cpp syntaxhl"><span class="CodeRay">art::PtrVector&lt;mp::MyProd&gt; ptrColl;
+<span class="keyword">for</span> (size_t i = <span class="integer">0</span>; i &lt; hnd-&gt;size(); ++i)
+  ptrColl.push_back( { hnd, i } );
+</span></code></pre><br />(the braces construct in place the argument that <code>art::PtrVector::push_back</code> expects, that is a <code>art::Ptr&lt;mp::MyProd&gt;</code>, out of the handle and the index of the element in the data product that handle points to).</p>
+
+
+<hr />
+
+
+	<p id="fn1" class="footnote"><sup>1</sup> Note that the right <code>cbegin()</code>, <code>cend()</code> and <code>begin()</code> functions are picked by the compiler from the "proper namespace" depending on the type of <code>prod</code> (usually <code>prod</code> is a <code>std::vector</code>, so the proper namespace is <code>std</code>): this is called <a href="https://en.cppreference.com/w/cpp/language/adl" class="external">argument-dependent lookup</a>.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-8"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=8">Edit this section</a></div><a name="Upcast-on-read"></a>
+<h3  class="wiki-class-count">Upcast on read<a href="#Upcast-on-read" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>The upcast on read functionality can be used to read back objects written into a file that follow a simple inheritance scheme, i.e. reading in objects of a derived type using the base class type.<br />For instance, imagine that <code>recob::Track</code> inherited from a <code>recob::Prong</code>.  A collection of tracks, data product of type <code>std::vector&lt;recob::Track&gt;</code>, can be retrieved from the <code>art::Event</code> by passing a <code>std::vector&lt;recob::Prong const*&gt;</code> to the <code>art::Event::getView()</code> method:</p>
+
+
+<pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="comment">// declare the std::vector</span>
+std::vector&lt;<span class="directive">const</span> recob::Prong*&gt; prongs;
+
+<span class="comment">// Read in the list of recob::Tracks we made in fTrackInputTag as recob::Prongs.</span>
+evt.getView(fTrackInputTag, prongs)
+</span></code></pre>
+
+	<p>If you write an algorithm (a function) that uses prongs in this way:<br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="directive">void</span> doSomething(std::vector&lt;recob::Prong <span class="directive">const</span>*&gt;&#38; prongs);
+</span></code></pre><br />you can use it with any data product derived from <code>recob::Prong</code>.</p>
+
+
+	<blockquote>
+		<p>LArSoft strongly discourages the use of polymorphism (that is, inheritance with virtual functions) in data products. Occurrences of inheritance in data products at all are rare (if any), as the preferred solution is containment: the "derived" class contains a "base" class as a data member.</p>
+	</blockquote>
+
+
+	<p>Note that the vector is of constant pointers of the requested type.  You shouldn't save these vectors anywhere (i.e. as collections in other data objects).</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-9"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=9">Edit this section</a></div><a name="cetsearch_path"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/cetlib/repository/revisions/master/entry/cetlib/search_path.h" class="external"><code>cet::search_path</code></a><a href="#cetsearch_path" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>This is a utility that will search a list of predefined directories for a relative location of a file.  For instance, if you want to use the geometry definition for a detector, <code>mydet.gdml</code>, as the input for the <code>Geometry</code> service, you would pass the geometry service the value <code>"mydet.gdml"</code> as a <code>std::string</code>.  The <code>cet::search_path</code> object then searches through the previously defined <code>$FW_SEARCH_PATH</code> variable to see if it can locate the specified file.  It will then allow access to information about the file, including its full path.  This is helpful when writing code that needs data files that could be on a different path depending on the execution environment (e.g. a BlueArc area when running locally, but dCache when running on the grid), or for generic code that can't know where customisation points are (e.g. a experiment-specific data area), or for versioned data whose path includes a version number and therefore can change (e.g. the deployed UPS products).  The necessary variables are set when a user sets up the environment.</p>
+
+
+	<p>An example of using <code>cet::search_path</code> to find a file your code needs can be found in <a href="https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/revisions/develop/entry/larexamples/Services/ShowerCalibrationGalore/Providers/ShowerCalibrationGaloreFromPID.cxx" title="@OpenROOTdirectory@ method" class="external">LArSoft's <code>ShowerCalibrationGaloreByPID</code> example</a>.<br />Here is another:<br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="comment">// this is the name of the GDML file, from configuration</span>
+std::<span class="predefined-type">string</span> GDMLname = pset.get&lt;std::<span class="predefined-type">string</span>&gt;(<span class="string"><span class="delimiter">&quot;</span><span class="content">GDML</span><span class="delimiter">&quot;</span></span>);
+
+cet::search_path sp(<span class="string"><span class="delimiter">&quot;</span><span class="content">FW_SEARCH_PATH</span><span class="delimiter">&quot;</span></span>);
+
+<span class="comment">// taking a parameter from the parameter set passed into the geometry as the first argument,</span>
+<span class="comment">// the second argument is the local variable where to store the full path - both are std::string objects</span>
+<span class="comment">// return value is true unless the file could not be found</span>
+<span class="keyword">if</span> (!sp.find_file(GDMLname, fGDMLFile) {
+  <span class="comment">// failed to resolve the file name</span>
+  <span class="keyword">throw</span> art::Exception(art::errors::Configuration)
+    &lt;&lt; <span class="string"><span class="delimiter">&quot;</span><span class="content">geometry file '</span><span class="delimiter">&quot;</span></span> &lt;&lt; GDMLname &lt;&lt; <span class="string"><span class="delimiter">&quot;</span><span class="content">' not found!</span><span class="delimiter">&quot;</span></span>;
+}
+</span></code></pre></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-10"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=10">Edit this section</a></div><a name="FHiCL-configuration-fhiclParameterSet-and-fhiclTable"></a>
+<h3  class="wiki-class-count">FHiCL configuration: <code>fhicl::ParameterSet</code> and <code>fhicl::Table</code><a href="#FHiCL-configuration-fhiclParameterSet-and-fhiclTable" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>Either objects keep track of the configuration passed to the current <em>art</em> module or service.<br />The configuration is read from files in a specific language, <a href="https://cdcvs.fnal.gov/redmine/documents/327" class="external">FHiCL</a>, and <em>art</em> distributes to each module and service the chunk of configuration that pertains that module and service. For examples on using FHiCL, please read/listen to the information available at: <a class="external" href="http://larsoft.org/configuration/">http://larsoft.org/configuration/</a></p>
+
+
+The interpretation of that information can follow one of two possible approaches:
+	<ul>
+	<li><code>fhicl::ParameterSet</code> is the old way to access configuration; access can be done in one line, does not impose any structure, and it is documented in <a class="wiki-page" href="/redmine/projects/fhicl-cpp/wiki/Wiki">fhicl::ParameterSet</a>. Being the first one, this is what most of LArSoft still uses.</li>
+		<li><code>fhicl::Table</code> is the new way of accessing configuration: it provides validation of the configuration (that is, it will warn if there is unexpected additional configuration, that is usually just a typo) and can be used to provide users with run-time documentation about the configuration. It requires some structure and is in general somehow less flexible than the above. It is the future, and many of the newest modules in LArSoft adopt it. The documentation is split in two areas:
+	<ul>
+	<li><em>art</em>'s <a class="wiki-page" href="/redmine/projects/art/wiki/Configuration_validation_and_description">Configuration validation and description</a> wiki page describes how to set up a self-validating configuration in a <em>art</em> module or service</li>
+		<li>FHiCL's <a class="wiki-page" href="/redmine/projects/fhicl-cpp/wiki/Configuration_validation_and_fhiclcpp_types">Configuration validation and fhiclcpp types</a> wiki page describes how to write the content of that configuration</li>
+	</ul></li>
+	</ul>
+
+
+	<p><a href="https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/revisions/develop/entry/larexamples" class="external">All the examples in <code>larexamples</code></a> use the self-validating configuration.</p>
+
+
+In both approaches, each element of the configuration is translated into a C++ data type, whether a trivial type or a class. Some examples:
+	<table>
+		<tr>
+			<td> type </td>
+			<td> <code>fhicl::ParameterSet</code> approach </td>
+			<td> <code>fhicl::Table</code> approach </td>
+		</tr>
+		<tr>
+			<td> <code>bool</code> </td>
+			<td> <code>pset.get&lt;bool&gt;("MyBool")</code> </td>
+			<td> <code>fhicl::Atom&lt;bool&gt;{ fhicl::Name{"MyBool"} };</code> </td>
+		</tr>
+		<tr>
+			<td> <code>int</code> </td>
+			<td> <code>pset.get&lt;int&gt;("MyInt")</code> </td>
+			<td> <code>fhicl::Atom&lt;int&gt;{ fhicl::Name{"MyInt"} };</code> </td>
+		</tr>
+		<tr>
+			<td> <code>unsigned int</code> </td>
+			<td> <code>pset.get&lt;unsigned int&gt;("MyUInt", 18U)</code> </td>
+			<td> <code>fhicl::Atom&lt;unsigned int&gt;{ fhicl::Name{"MyUInt"}, 18U };</code> </td>
+			<td> <em>(with default value <code>18</code>)</em> </td>
+		</tr>
+		<tr>
+			<td> <code>double</code> </td>
+			<td> <code>pset.get&lt;double&gt;("MyReal")</code> </td>
+			<td> <code>fhicl::Atom&lt;double&gt;{ fhicl::Name{"MyReal"} };</code> </td>
+		</tr>
+		<tr>
+			<td> <code>std::vector&lt;int&gt;</code> </td>
+			<td> <code>pset.get&lt;std::vector&lt;int&gt;>("MyVInt")</code> </td>
+			<td> <code>fhicl::Sequence&lt;int&gt;{ fhicl::Name{"MyVInt"} };</code> </td>
+		</tr>
+		<tr>
+			<td> <code>std::string</code> </td>
+			<td> <code>pset.get&lt;std::string&gt;("MyString")</code> </td>
+			<td> <code>fhicl::Atom&lt;std::string&gt;{ fhicl::Name{"MyString"} };</code> </td>
+		</tr>
+		<tr>
+			<td> <code>std::vector&lt;std::string&gt;</code> </td>
+			<td> <code>pset.get&lt;std::vector&lt;std::string&gt;>("MyVString")</code> </td>
+			<td> <code>fhicl::Sequence&lt;std::string&gt;{ fhicl::Name{"MyVString"} };</code> </td>
+		</tr>
+		<tr>
+			<td> <code>art::InputTag</code> </td>
+			<td> <code>pset.get&lt;art::InputTag&gt;("inputLabel")</code> </td>
+			<td> <code>fhicl::Atom&lt;art::InputTag&gt;{ fhicl::Name{"inputLabel"} };</code> </td>
+		</tr>
+		<tr>
+			<td> parameter set </td>
+			<td> <code>pset.get&lt;fhicl::ParameterSet&gt;("subConfig")</code> </td>
+			<td> <code>fhicl::Table&lt;SubConfigStruct&gt;{ fhicl::Name{"subConfig"} };</code> </td>
+		</tr>
+	</table>
+
+
+
+
+	<p>The <code>art::InputTag</code> is <strong>the</strong> recommended way to read an input data product label from configuration.<br />The latter example allows to read a chunk of configuration enclosed in nested braces. This is useful to isolate and organise parameters belonging to different algorithms. The configuration validation approach requires the specific structure of that parameters subset to be defined in a C data structure.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-11"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=11">Edit this section</a></div><a name="artServiceHandle"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/changes/art/Framework/Services/Registry/ServiceHandle.h" class="external"><code>art::ServiceHandle</code></a><a href="#artServiceHandle" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>The <code>art::ServiceHandle</code> is a handle with the semantics of a smart pointer, just like the <code>art::ValidHandle</code> above. The resource it handles is not data, but code.<br />In particular, any instance of this class points to the same <em>art</em> service object (that is a <em>singleton</em>).</p>
+
+
+	<p>A <em>art</em> service can be used within any <em>art</em> module. Services can be configured using the job configuration file.  A typical example of the use of a service is the detector geometry.  The <code>Geometry</code> service is needed in most modules, but you don't want to keep making new instances of the geometry.  Additionally, the different detectors may have to set different parameter values that should be handled in the job configuration.</p>
+
+
+	<p>LArSoft services pursue the factorization of the services into a framework interface (<em>art</em> service described above) and a <em>service provider</em> independent of any framework.<br />For this reason you will see calls to LArSoft's <code>lar::providerFrom()</code> in place of the <code>art::ServiceHandle</code> instance you would expect. For example:<br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="directive">auto</span> <span class="directive">const</span>* geom = lar::providerFrom&lt;geo::Geometry&gt;();
+</span></code></pre><br />replaces <code>art::ServiceHandle&lt;geo::Geometry&gt; geom;</code>. The <code>auto</code> type is effective type of the service provider, that is not <code>geo::Geometry</code>.<br />We encourage to call <code>lar::providerFrom()</code> no more than once per event (and suggesting no less), and to save it for further use as in the example above.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-12"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=12">Edit this section</a></div><a name="artTFileService"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Services/Optional/TFileService.h" class="external"><code>art::TFileService</code></a><a href="#artTFileService" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>This is a specialized service that connects up to the file where histograms made by modules are to be stored.  It provides a mechanism for making <code>TObject</code> to be stored in that file and managing the memory for those objects.  For example</p>
+
+
+<pre><code class="cpp syntaxhl"><span class="CodeRay">    <span class="comment">// get the geometry to figure out something for the histogram</span>
+    <span class="directive">auto</span> <span class="directive">const</span>* geom = lar::providerFrom&lt;geo::Geometry&gt;();
+
+    <span class="comment">// get access to the TFile service</span>
+    art::ServiceHandle&lt;art::TFileService&gt; tfs;
+
+    <span class="comment">// make the histogram - fHist is assumed to have been declared in the .h file</span>
+    fHist    = tfs-&gt;make&lt;TH1D&gt;(<span class="string"><span class="delimiter">&quot;</span><span class="content">channels</span><span class="delimiter">&quot;</span></span>,  <span class="string"><span class="delimiter">&quot;</span><span class="content">;channel;# PE</span><span class="delimiter">&quot;</span></span>,  geo-&gt;Nchannels(), <span class="integer">0</span>, geo-&gt;Nchannels());
+
+    <span class="comment">// note that ROOT does not automatically register TGraphs into a TFile;</span>
+    <span class="comment">// so we tell TFileService to register it for us;</span>
+    <span class="comment">// the register function demands name and title of the new object,</span>
+    <span class="comment">// followed by the object constructor arguments; here we use the default constructor</span>
+    <span class="comment">// (therefore, no additional constructor arguments) and will set number of points and values later</span>
+    fGraph   = tfs-&gt;makeAndRegister&lt;TGraph&gt;(<span class="string"><span class="delimiter">&quot;</span><span class="content">channelGraph</span><span class="delimiter">&quot;</span></span>, <span class="string"><span class="delimiter">&quot;</span><span class="content">Graph title;channel;# PE</span><span class="delimiter">&quot;</span></span>);
+
+</span></code></pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-13"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=13">Edit this section</a></div><a name="Message-Facility-and-MessageLogger"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility" class="external">Message Facility</a> and MessageLogger<a href="#Message-Facility-and-MessageLogger" class="wiki-anchor">&para;</a></h3>
+
+
+	<p><strong>The Message Levels</strong></p>
+
+
+	<p>The MessageLogger provides several levels of messages that can be used to print information to an output log.  The decision of which level to use is your first way to determine how frequently your message will be printed.  If you choose the INFO level, then typically all such messages are printed; if instead you choose the DEBUG level, then typically those messages are not printed unless a specific environmental flag is set or the message service is configured properly.</p>
+
+
+	<p>The levels most likely to be useful are LOG_DEBUG, mf::LogInfo, mf::LogVerbatim, mf::LogWarning and mf::LogError.  Note there is no mf:: in front of LOG_DEBUG because it is a macro that will include the file and line numbers of the code producing the output.  These are listed in order of severity and have the following behaviors:</p>
+
+
+	<ul>
+	<li>LogInfo, LogWarning, and LogError represent three levels of "severity" of the message. It is possible (see MessageLogger Parameters ) to configure the job to ignore all LogInfo messages, or all messages of severity less than LogError.</li>
+		<li>LogVerbatim is identical in all ways to LogInfo, except that absolutely no message formatting is performed, and no context, module, or other information is appended to the message. This is appropriate, for example, if the program has prepared a nicely-formatted table for output.</li>
+		<li>The category should specify what this message is about. The category will generally appear as the first part of the message, but it also plays two other roles:<br />  1. It is possible to set limits on how many times some specific type of message will be sent to the outputs of the logger. By "type" we mean any messages with some specific category. See MessageLogger Parameters for details.<br />  2. When message statistics are provided, the counts of how many times messages of a given type were issued are keyed to category, module label, and (if provided) subroutine. <br />      Normally a category name should be up to 20 characters long, without special characters other than underscore.</li>
+		<li>It is unnecessary to explicitly specify the module label or the run/event number; these are automatically provided by the logger.</li>
+		<li>An arbitrary number of additional objects << a << b << ... << z can be appended to the message. These can be strings, ints, doubles, or any object that has an operator<< to an ostream. (Or the message can be issued with no additional objects at all.)</li>
+		<li>There is no need to add spaces at the beginning or end of text items sent to the message, or to add text separators between numerical items. This spacing is taken care of by the logger. However, if any item appended to a message ends in a space, then it is assumed that the user is handling spacing explicitly, and no further automatic spaces are inserted for that message.</li>
+		<li>There is no need to affix any sort of endl; when the statement ends the message will be dispatched.</li>
+		<li>Newline characters can be included in the objects appended to the message. These will be used in formatting the message. But they are generally not necessary: Line breaks are automatically inserted if the next appended object would cause the line to exceed 80 characters. </li>
+		<li>LOG_DEBUG is identical to the others, except:
+	<ul>
+	<li>LOG_DEBUG affixes the <i>FILE</i> and <i>LINE</i> number to the message.</li>
+		<li>LOG_DEBUG messages are considered to be lower in severity than LogInfo messages.</li>
+		<li>By default, LOG_DEBUG messages will be rapidly discarded with a minimum of overhead. The user must specify in the .fcl file LOG_DEBUG messages from various modules that are to be enabled</li>
+		<li>Because it must get <i>FILE</i> and <i>LINE</i> from the spot issuing the message, LOG_DEBUG is implemented as a macro rather than a free function.</li>
+		<li>Because LOG_DEBUG is a macro, it is not prepended with the mf:: namespace designation.</li>
+	</ul></li>
+	</ul>
+
+
+	<p><strong>Using the Message Service in Code</strong></p>
+
+
+	<p>In order to issue messages, the module must include the MessageLogger header:</p>
+
+
+<pre><code class="c syntaxhl"><span class="CodeRay"><span class="preprocessor">#include</span> <span class="include">&quot;messagefacility/MessageLogger/MessageLogger.h&quot;</span> 
+</span></code></pre>
+
+	<p>Having included the necessary MessageLogger header, when code wishes to issue a message, one of these functions can be used:</p>
+
+
+<pre><code class="c syntaxhl"><span class="CodeRay">mf::LogError    (<span class="string"><span class="delimiter">&quot;</span><span class="content">category</span><span class="delimiter">&quot;</span></span>) &lt;&lt; a &lt;&lt; b &lt;&lt; ... &lt;&lt; z;
+mf::LogWarning  (<span class="string"><span class="delimiter">&quot;</span><span class="content">category</span><span class="delimiter">&quot;</span></span>) &lt;&lt; a &lt;&lt; b &lt;&lt; ... &lt;&lt; z;
+mf::LogInfo     (<span class="string"><span class="delimiter">&quot;</span><span class="content">category</span><span class="delimiter">&quot;</span></span>) &lt;&lt; a &lt;&lt; b &lt;&lt; ... &lt;&lt; z;
+mf::LogVerbatim (<span class="string"><span class="delimiter">&quot;</span><span class="content">category</span><span class="delimiter">&quot;</span></span>) &lt;&lt; a &lt;&lt; b &lt;&lt; ... &lt;&lt; z;
+LOG_DEBUG       (<span class="string"><span class="delimiter">&quot;</span><span class="content">category</span><span class="delimiter">&quot;</span></span>) &lt;&lt; a &lt;&lt; b &lt;&lt; ... &lt;&lt; z;
+</span></code></pre>
+
+	<p>The easiest way to produce output that is formatted to your specifications is to emply the mf::LogVerbatim level.  This level has absolutely no extra formatting from the message service tacked on to it and most closely resembles what one would expect from std::cout.</p>
+
+
+	<p>You can use std formatting functions in all message service levels.  For example</p>
+
+
+<pre>
+mf::LogVerbatim("MyMessageStream") &lt;&lt; "define the width of the following field to be 5, " 
+                                   &lt;&lt; std::setw(5) &lt;&lt; 999 
+                                   &lt;&lt; " and now define the precision of the following field to be 1, " 
+                                   &lt;&lt; std::setprecision(2) &lt;&lt; 1.00012;
+</pre>
+
+	<p>The above example uses mf::LogVerbatim, but the same would work in LOG_DEBUG, mf::LogInfo, mf::LogWarning, and mf::LogError.</p>
+
+
+	<p><strong>Configuring the Message Service</strong></p>
+
+
+	<p>Here is a <a href="https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Tutorial_for_MessageFacility_v12_Configuration" class="external">tutorial</a> for configuring the message facility.  Below are some helpful tips for configuring message output.</p>
+
+
+	<p>The .fcl file controlling the job should contain the line</p>
+
+
+<pre>
+message:      @local::standard_xxx
+</pre>
+
+	<p>in the services block of the file, where xxx indicates the message level severity. The various predefined configurations are defined in the <a class="source" href="/redmine/projects/larsoft/repository/entry/trunk/Utilities/messageservice.fcl">source:trunk/Utilities/messageservice.fcl</a> file.  Those options are</p>
+
+
+<pre>
+standard_debug
+standard_info
+standard_warning
+standard_error
+</pre>
+
+	<p><strong>NB</strong> you can only use one of the above in a job .fcl file.</p>
+
+
+	<p>The MessageLogger can be configured to set the number of messages printed and to send each class of message to a different output stream. For example, see the standard_warning configuration of the <a class="source" href="/redmine/projects/larsoft/repository/entry/trunk/Utilities/messageservice.fcl">source:trunk/Utilities/messageservice.fcl</a> file, which is repeated here</p>
+
+
+<pre>
+standard_warning: { 
+
+ destinations:  #defines the behavior of the configuration
+ {  
+  warningmsg:   #conveniently defined name for a destination, this is not a FHICL key word
+  {
+   type:      "cout"      #tells the message service to output this destination to cout
+   threshold: "WARNING"   #tells the message service that this destination applies to WARNING and higher level messages
+   append:    true        #says to append all messages to the output
+   categories:            #these correspond to the strings in the mf::LogWarning("") calls in the code
+   {
+     default:             #defines a default behavior, this is a FHICL key word
+     {
+      limit:       1000   #limits the total number of messages in this category to 1000
+      timespan:    60     #in seconds, tells the message service it can output 1000 messages from this category every minute
+     }
+
+     RecoBaseDefaultCtor: #an example of a loud category in LArSoft mf::LogWarning messages
+     {
+      limit: 10           #limit the total number printed to 10
+      timespan: 600       #only print this category every 5 minutes
+     }
+
+   } # end categories
+  } # end warningmsg
+ } # end destinations
+} # end standard_warning
+</pre>
+
+	<p>If one wanted to add another category in the job control .fcl file, it can be done with these lines after the services block:</p>
+
+
+<pre>
+services.message.destinations.warningmsg.categories.YourStringHere: { limit: 100 timespan: 60 }
+</pre>
+
+	<p>If instead, you want to add some message printing for info level messages you can add the following to the fcl file after the services block:</p>
+
+
+<pre>
+services.message.destinations.infomsg: {
+   type:      "cout"      #tells the message service to output this destination to cout
+   threshold: "INFO"      #tells the message service that this destination applies to INFO and higher level messages
+   append:    true        #says to append all messages to the output
+   categories{
+     default:        {limit: 0}  #don't print anything at the infomsg level except the explicitly named categories
+     YourStringHere: {limit: 100 timespan: 60 }
+     YourOtherString:{limit: 1   timespan: 1000} 
+  }
+}
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-14"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=14">Edit this section</a></div><a name="artException"></a>
+<h3  class="wiki-class-count">art::Exception<a href="#artException" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>art::Exception is defined in canvas (./canvas/Utilities/Exception.h).<br /><a href="http://nusoft.fnal.gov/larsoft/doxsvn/html/Exception_8h_source.html" class="external">Doxygen source file</a></p>
+
+
+	<p>The use of the art::Exception can be configured to skip a module, or skip to the next event, run, etc.  Different exception classes can be set to do different things. Since LArSoft is built upon art, the art::Exception is preferred to the cet::exception.</p>
+
+
+<pre><code class="c syntaxhl"><span class="CodeRay"><span class="keyword">if</span>(x &gt; <span class="integer">2</span>) throw art::Exception(<span class="string"><span class="delimiter">&quot;</span><span class="content">SomeUsefulDescription</span><span class="delimiter">&quot;</span></span>) &lt;&lt; <span class="string"><span class="delimiter">&quot;</span><span class="content">x = </span><span class="delimiter">&quot;</span></span> &lt;&lt; x &lt;&lt; <span class="string"><span class="delimiter">&quot;</span><span class="content"> is too big</span><span class="delimiter">&quot;</span></span>;
+</span></code></pre>
+
+	<p>The default behavior of the framework upon catching an exception is to rethrow (except for some system exceptions, which skip the event). However, one can specify the behavior for exceptions with the following configuration fragment:</p>
+
+
+<pre>
+services.scheduler.XXXX: [ "SomeUsefulDescription", "SomeOtherUsefulDescription", ... ]
+</pre> 
+
+where <code>XXX</code> can be:
+	<ul>
+	<li><code>Rethrow</code>;</li>
+		<li><code>IgnoreCompletely</code>;</li>
+		<li><code>SkipEvent</code>;</li>
+		<li><code>FailModule</code> (behave as if the module returned a failure value for this event);</li>
+		<li><code>FailPath</code> (behave as if the path rejected this event).</li>
+	</ul>
+
+
+	<p>Note that the <code>FailModule</code> setting does not imply a path rejection if the module throwing the exception so configured is a filter set to "VETO" or "IGNORE."</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-15"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=15">Edit this section</a></div><a name="artPtrltTgt-and-artPtrVectorltTgt"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Persistency/Common/Ptr.h" class="external">art::Ptr&lt;T&gt;</a> and <a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Persistency/Common/PtrVector.h" class="external">art::PtrVector&lt;T&gt;</a><a href="#artPtrltTgt-and-artPtrVectorltTgt" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>The art::Ptr&lt;T&gt; is a template class that acts like a ROOT TRef.  It provides a linkage between objects written into different areas of the event (and output file).  For example, the rb::Cluster object holds an art::PtrVector&lt;recob::Hit&gt; pointing to the hits contained in the recob::Cluster.  The art::Ptr&lt;T&gt; behaves like a pointer (ie you access the methods of the T using the "->").  It also has functionality to return the actual pointer to the object in question using art::Ptr&lt;T&gt;::get() or to check if the art::Ptr&lt;T&gt; is pointing to a legitimate object using art::Ptr&lt;T&gt;::isNull().</p>
+
+
+	<p>An art::Ptr&lt;T&gt; can only be made from an object that has been stored in the event record and is being fetched from the event record.  Put another way, you can only make an art::Ptr&lt;T&gt; if you have an art::Handle to a collection of objects of type T.  art::Ptr&lt;T&gt; cannot be instantiated like an object of type T,</p>
+
+
+<pre><code class="c syntaxhl"><span class="CodeRay"><span class="comment">// The following line will NOT work</span>
+art::Ptr&lt;T&gt; myt = new T(); 
+</span></code></pre>
+
+	<p>or similar will not work because the object you are interested in for that code has not been first stored in the event record.</p>
+
+
+	<p>Please see this <a href="https://cdcvs.fnal.gov/redmine/projects/art/wiki/A_note_on_the_behavior_of_Ptr" class="external">note</a> about art::Ptrs as well.</p>
+
+
+	<p>An art::PtrVector&lt;T&gt; is a vector of art::Ptr&lt;T&gt; objects.  It provides the basic functionality you would expect from a std::vector, including iterators, size(), begin() and end() methods.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-16"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=16">Edit this section</a></div><a name="artAssns"></a>
+<h3  class="wiki-class-count"><a href="https://cdcvs.fnal.gov/redmine/projects/canvas/repository/changes/canvas/Persistency/Common/Assns.h" class="external">art::Assns</a><a href="#artAssns" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>art::Assns are a way to associate (Assns is a contraction for associations) objects of one type with another.  For example, you may want to associate a recob::Cluster with the recob::Hit objects comprising the recob::Cluster.  The art:Assns object allows you to navigate these associations bidirectionally, that is you can ask a recob::Cluster which recob::Hits it contains, as well as as a recob::Hit to which recob::Cluster it belongs.  The art::Assns also allow us to avoid storing these connections in the higher level object that is being associated.  Instead the associations are stored in the event record.</p>
+
+
+	<p>A set of utility functions to perform the necessary steps to associate objects for storage in the art::Event are found in<br /><a class="source" href="/redmine/projects/larsoft/repository/entry/trunk/Utilities/AssociationUtil.h">source:trunk/Utilities/AssociationUtil.h</a>  There are also methods to retrieve a collection of objects of one type that are not associated with objects of another type.  Those methods allow one to retrieve, for example, all recob::Hits from an event that are not associated with recob::Tracks.  The comments in that file describe how to use the functions.</p>
+
+
+	<p>To make use of the associations and retrieve objects from the file, one would do</p>
+
+
+<pre><code class="cpp syntaxhl"><span class="CodeRay">
+<span class="comment">// below trackListHandle is of type art::Handle&lt; std::vector&lt;recob::Track&gt; &gt;, </span>
+<span class="comment">// evt is an art::Event, and trackCreatorModule is an std::string holding the </span>
+<span class="comment">// label of the module making the tracks and the associations of hits to tracks</span>
+art::FindMany&lt;recob::Hit&gt; fmh(trackListHandle, evt, trackCreatorModule);
+
+<span class="comment">// loop over all tracks in the handle and get their hits</span>
+<span class="keyword">for</span>(size_t t = <span class="integer">0</span>; t &lt; trackListHandle-&gt;size(); ++t){
+   std::vector&lt;<span class="directive">const</span> recob::Hit*&gt; hits = fmh.at(t);
+}
+
+<span class="comment">// can also get a collection of art::Ptrs instead of const pointers</span>
+art::FindManyP&lt;recob::Hit&gt; fmh(trackListHandle, evt, trackCreatorModule);
+
+<span class="comment">// loop over all tracks in the handle and get their hits</span>
+<span class="keyword">for</span>(size_t t = <span class="integer">0</span>; t &lt; trackListHandle-&gt;size(); ++t){
+   std::vector&lt;art::Ptr&lt;recob::Hit&gt; &gt; hits = fmh.at(t);
+}
+</span></code><br /></pre>
+
+	<p>One can also use the art::FindOne and art::FindOneP, see the detailed description on how to use art::Assns is <a href="https://cdcvs.fnal.gov/redmine/projects/art/wiki/Inter-Product_References" class="external">here.</a>  The art::FindOne returns a cet::maybe_ref, whose interface is defined <a href="http://cdcvs.fnal.gov/lxr/cetlib/source/cetlib/maybe_ref.h#044" class="external">here.</a>  The cet::maybe_ref can be tested for validity, allowing a user to be sure a valid association was created.</p>
+
+
+	<p><strong>NB</strong> The art::FindMany(P) and art::FindOne(P) are smart query objects and should only be instantiated once for a given collection.  If they are instantiated once for each item in a art::Handle, art::PtrVector, art::View or std::vector< art::Ptr&lt;T&gt; > then a heavy performance price will be paid as a lookup table is made multiple times.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-17"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=17">Edit this section</a></div><a name="artRandomNumberGenerator-Service"></a>
+<h3  class="wiki-class-count">art::RandomNumberGenerator Service<a href="#artRandomNumberGenerator-Service" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>A nice description of how to use this service can be found <a href="http://mu2e.fnal.gov/public/hep/computing/Random.shtml" class="external">here</a>.  Note that this write up is for the older fw implementation of art, but there are only minor differences.</p>
+
+
+	<p>To store the <a href="https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Persistency/Common/RNGsnapshot.h" class="external">state</a> of the random number engines for each event one must add the RandomNumberSaver module to the list of physics producers to be run by the job.  The necessary line to add to the fcl file is</p>
+
+
+<pre>
+physics{
+ producers{
+   ...
+   rns: { module_type: "RandomNumberSaver" }
+ }
+
+ ...
+}
+</pre>
+
+	<p>A more detailed description of how to use the service in your code and store the state of the generator in the event record and retrieve it later is located <a class="wiki-page new" href="/redmine/projects/larsoft/wiki/Saving_and_recovering_random_number_generator_states_?parent=Using_art_in_LArSoft">here</a>.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-18"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=18">Edit this section</a></div><a name="Making-Objects-to-Store-in-the-Output"></a>
+<h2  class="wiki-class-count">Making Objects to Store in the Output<a href="#Making-Objects-to-Store-in-the-Output" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>Making objects to store in the art::Event is a straightforward operation.  The first step is to declare a container for the objects,</p>
+
+
+<pre>
+std::unique_ptr&lt;std::vector&lt;mp::MyProd&gt; &gt; mpCollection(new std::vector&lt;mp::MyProd&gt;);
+</pre>
+
+	<p>Here we used the std::auto_ptr because it handles the cleanup of the memory for the collection for us.</p>
+
+
+	<p>The mpCollection now behaves just like a std::vector, except one accesses the std::vector methods using the "->" operator.  Once the collection has been filled (and it can be a collection of just one object), it is written to the event by doing</p>
+
+
+<pre>
+event.put(std::move(mpCollection));
+</pre>
+
+	<p>Now the ownership of the collection belongs to the event and the user cannot modify the collection or the objects in the collection any more.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-19"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=19">Edit this section</a></div><a name="Schema-Evolution-for-Data-Products"></a>
+<h2  class="wiki-class-count">Schema Evolution for Data Products<a href="#Schema-Evolution-for-Data-Products" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>Data products may change over time and we will want to do everything we can to ensure backwards compatibility between old and new versions.  Please see <a href="https://cdcvs.fnal.gov/redmine/projects/art/wiki/Facilitating_Schema_Evolution_for_Data_Products" class="external">this page</a> on the ART wiki for information on how to evolve a data product while still maintaining backwards compatibility.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-20"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=20">Edit this section</a></div><a name="Making-a-Module"></a>
+<h2  class="wiki-class-count">Making a Module<a href="#Making-a-Module" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>Below are examples of how to make both an EDProducer module and an EDAnalyzer module.  The examples show a basic .cc file for each.</p>
+
+
+	<p><strong>Important</strong> Module names may not contain underscores. Underscores are special characters used by the ART system for storing data products in an event to label the products according to what module, instance and process created them.  Using underscores in module names will result in your job not running.</p>
+
+
+	<p>The artmod command is useful for generating these files required for plugging a new module (Analyzer, Producer, or Filter) into the framework. The command documents itself:</p>
+
+
+	<p><code>% artmod --help</code></p>
+
+
+	<p>Suppose I'm working in a package called "MyPackage" which uses the namespace "mp" and I want to create a producer module called "MyProducer".  Moreover, assume that I want to include certain methods from the art::EDProducer base class, like art::EDProducer::beginJob() and art::EDProducer::reconfigure():</p>
+
+
+	<p><code>% artmod --header-loc MyPackage -e beginJob -e reconfigure producer mp::MyProducer</code></p>
+
+
+	<p>I can also pass it methods specific to my module using the -e tag as long as the interface is completely defined, ie</p>
+
+
+	<p><code>% artmod --header-loc MyPackage -e beginJob -e reconfigure -e "bool CheckSomethingOut(double d)" producer mp::MyProducer</code></p>
+
+
+	<p>Similarly I could pass data members like</p>
+
+
+	<p><code>% artmod --header-loc MyPackage -e beginJob -e reconfigure -e "bool CheckSomethingOut(double d)" -e "double fMyDouble" producer mp::MyProducer</code></p>
+
+
+	<p>Read the help screen for more details.</p>
+
+
+	<p><strong>NB Objects are stored in the art::Event as collections of references, not pointers.  You need to get them out of the event as collections of references, not pointers.</strong></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-21"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=21">Edit this section</a></div><a name="A-word-about-Algorithm-objects"></a>
+<h3 >A word about Algorithm objects<a href="#A-word-about-Algorithm-objects" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>Before describing how to use the ART module objects, it is worth discussing a complementary concept used in LArSoft.</p>
+
+
+	<p>In LArSoft we have the concept of an Algorithm object.  Its basic purpose is to take data products in and return either new or modified data products back to the user.  In almost all cases, the user will be a EDProducer or EDFilter type module.  The reason to have this additional type of object, which is not defined in the ART framework, is to facilitate use of algorithms in multiple modules.  That is, a user may write a module that makes use of both Algorithm objects A&#38;B while another may only want to use Algorithm object A. If the algorithm code is written outside of the modules, then the code can be reused in many modules.</p>
+
+
+	<p>The Algorithm objects that are used in modules should have constructors that take a fhicl::ParameterSet const&#38; p as an argument, and they must also define reconfigure(fhicl::ParameterSet const&#38; p) methods.  The constructor should call the reconfigure method in order to configure any parameters needed by the Algorithm.  The modules owning the Algorithm object should call the Algorithm's reconfigure method from within the module reconfigure method.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-22"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/edit?section=22">Edit this section</a></div><a name="Checking-the-Configuration-of-a-ROOT-file"></a>
+<h2  class="wiki-class-count">Checking the Configuration of a ROOT file<a href="#Checking-the-Configuration-of-a-ROOT-file" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>To dump the information regarding all the <code>ParameterSet</code> stored in a given art data file, then the program <code>config_dumper</code> is useful:<br /><pre>
+$ config_dumper -P file_name.root
+</pre></p>
+
+
+	<p>Use <code>config_dumper --help</code> to find the available options.</p>
+</div>
+
+
+<fieldset class="collapsible collapsed hide-when-print">
+  <legend onclick="toggleFieldset(this);">Files (0)</legend>
+  <div style="display: none;">
+
+  
+  
+  <div id="wiki_add_attachment">
+    <form id="add_attachment_form" enctype="multipart/form-data" action="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft/add_attachment" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4V/HOPyng2nvNY/1FivBvOFk6xgNVxhkzAur4LQy0RQLsSOlfDp/H/ZCYCzcxpWriD0w7Jaj2SC1x4W7vseOoA==" />
+      <div class="box">
+      <p>
+<span class="attachments_form">
+  <span class="attachments_fields">
+  </span>
+  <span class="add_attachment" style="">
+    <input type="file" name="attachments[dummy][file]" class="file_selector filedrop" multiple="multiple" onchange="addInputFiles(this);" data-max-file-size="419430400" data-max-file-size-message="This file cannot be uploaded because it exceeds the maximum allowed file size (400 MB)" data-max-concurrent-uploads="2" data-upload-path="/redmine/uploads.js" data-param="attachments" data-description="true" data-description-placeholder="Optional description" />
+    (Maximum size: 400 MB)
+  </span>
+</span>
+
+</p>
+      </div>
+      <input type="submit" name="commit" value="Add" />
+</form>  </div>
+</div>
+</fieldset>
+
+<p class="other-formats">Also available in:  <span><a class="pdf" rel="nofollow" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft.pdf">PDF</a></span>
+  <span><a class="html" rel="nofollow" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft.html">HTML</a></span>
+  <span><a class="txt" rel="nofollow" href="/redmine/projects/larsoft/wiki/Using_art_in_LArSoft.txt">TXT</a></span>
+</p>
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2019 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

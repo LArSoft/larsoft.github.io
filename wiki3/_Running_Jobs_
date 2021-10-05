@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title> Running Jobs  - LArSoft - Fermilab Redmine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="LI8osbS28bYYk+JyhTVQJFJqdjwXd5p+mb+1/7JcoJbGYcwsNCsNwAHkDatP2AQzOzOtyIyDWzrgc5ukuKn/Ig==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico?1560171137' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/application.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css?1601072360" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1601072362"></script>
+<script src="/redmine/javascripts/application.js?1601072361"></script>
+<script src="/redmine/javascripts/responsive.js?1601072360"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_countable_headers/stylesheets/countable_headers.css?1604432132" />  <script src="/redmine/plugin_assets/redmine_sortable_table/javascripts/sortable_table.js?1601318223"></script><link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_sortable_table/stylesheets/sortable_table.css?1601318223" /> <link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_group_assignee/stylesheets/tab_content_assignees.css?1604592738" />
+<!-- page specific tags -->
+  <script src="/redmine/javascripts/attachments.js?1601072363"></script>
+</head>
+<body class="project-larsoft controller-wiki action-show">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="wiki_pages" value="1" />
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/redmine/users/7">garren</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li><li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/7">garren</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li><li><a class="my-page" href="/redmine/my/page">My page</a></li><li><a class="projects" href="/redmine/projects">Projects</a></li><li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" value="subprojects" />
+        <input type="hidden" name="wiki_pages" value="1" />
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/larsoft/search?scope=subprojects">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">LArSoft</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/redmine/projects/autocomplete.js?jump=wiki" autocomplete="off" /></div><div class="drdn-items projects selection"><a title="Accelerator Modeling" href="/redmine/projects/accelerator-modeling?jump=wiki"><span style="padding-left:0px;">Accelerator Modeling</span></a><a title="ArgoNeuT Offline" href="/redmine/projects/t962offline?jump=wiki"><span style="padding-left:0px;">ArgoNeuT Offline</span></a><a title="artdaq" href="/redmine/projects/artdaq?jump=wiki"><span style="padding-left:0px;">artdaq</span></a><a title="artdaq Demo" href="/redmine/projects/artdaq-demo?jump=wiki"><span style="padding-left:16px;">artdaq Demo</span></a><a title="artdaq Core Demo" href="/redmine/projects/artdaq-core-demo?jump=wiki"><span style="padding-left:32px;">artdaq Core Demo</span></a><a title="artdaq Utilities" href="/redmine/projects/artdaq-utilities?jump=wiki"><span style="padding-left:16px;">artdaq Utilities</span></a><a title="artdaq database" href="/redmine/projects/artdaq-database?jump=wiki"><span style="padding-left:32px;">artdaq database</span></a><a title="artdaq-mfextensions" href="/redmine/projects/mf-extensions?jump=wiki"><span style="padding-left:16px;">artdaq-mfextensions</span></a><a title="artg4" href="/redmine/projects/artg4?jump=wiki"><span style="padding-left:0px;">artg4</span></a><a title="artg4 Geant N02 example" href="/redmine/projects/artg4geantn02?jump=wiki"><span style="padding-left:16px;">artg4 Geant N02 example</span></a><a title="artg4example" href="/redmine/projects/artg4example?jump=wiki"><span style="padding-left:16px;">artg4example</span></a><a title="cet-is" href="/redmine/projects/cet-is?jump=wiki"><span style="padding-left:0px;">cet-is</span></a><a title="art" href="/redmine/projects/art?jump=wiki"><span style="padding-left:16px;">art</span></a><a title="art Hough" href="/redmine/projects/art-hough?jump=wiki"><span style="padding-left:32px;">art Hough</span></a><a title="art-workbook" href="/redmine/projects/art-workbook?jump=wiki"><span style="padding-left:32px;">art-workbook</span></a><a title="art_root_io" href="/redmine/projects/art_root_io?jump=wiki"><span style="padding-left:32px;">art_root_io</span></a><a title="artExtensions" href="/redmine/projects/artextensions?jump=wiki"><span style="padding-left:16px;">artExtensions</span></a><a title="Systematics Tools" href="/redmine/projects/systematicstools?jump=wiki"><span style="padding-left:32px;">Systematics Tools</span></a><a title="artUtilScripts" href="/redmine/projects/artutilscripts?jump=wiki"><span style="padding-left:16px;">artUtilScripts</span></a><a title="canvas" href="/redmine/projects/canvas?jump=wiki"><span style="padding-left:16px;">canvas</span></a><a title="canvas_root_io" href="/redmine/projects/canvas_root_io?jump=wiki"><span style="padding-left:32px;">canvas_root_io</span></a><a title="cet-is-private" href="/redmine/projects/cet-is-private?jump=wiki"><span style="padding-left:16px;">cet-is-private</span></a><a title="cet-is-public" href="/redmine/projects/cet-is-public?jump=wiki"><span style="padding-left:16px;">cet-is-public</span></a><a title="cetbuildtools" href="/redmine/projects/cetbuildtools?jump=wiki"><span style="padding-left:16px;">cetbuildtools</span></a><a title="cetlib" href="/redmine/projects/cetlib?jump=wiki"><span style="padding-left:16px;">cetlib</span></a><a title="cetlib_except" href="/redmine/projects/cetlib_except?jump=wiki"><span style="padding-left:32px;">cetlib_except</span></a><a title="CetModules" href="/redmine/projects/cetmodules?jump=wiki"><span style="padding-left:16px;">CetModules</span></a><a title="cetpkgsupport" href="/redmine/projects/cetpkgsupport?jump=wiki"><span style="padding-left:16px;">cetpkgsupport</span></a><a title="Chris Green&#39;s Stuff" href="/redmine/projects/cet-chg?jump=wiki"><span style="padding-left:16px;">Chris Green&#39;s Stuff</span></a><a title="CosmoSIS UPS" href="/redmine/projects/cosmosis_ups?jump=wiki"><span style="padding-left:16px;">CosmoSIS UPS</span></a><a title="cpp0x" href="/redmine/projects/cpp0x?jump=wiki"><span style="padding-left:16px;">cpp0x</span></a><a title="critic" href="/redmine/projects/critic?jump=wiki"><span style="padding-left:16px;">critic</span></a><a title="DocDB migration" href="/redmine/projects/docdb-migration?jump=wiki"><span style="padding-left:16px;">DocDB migration</span></a><a title="El Capitan Support" href="/redmine/projects/el-capitan-support?jump=wiki"><span style="padding-left:16px;">El Capitan Support</span></a><a title="fhicl" href="/redmine/projects/fhicl?jump=wiki"><span style="padding-left:16px;">fhicl</span></a><a title="fhicl-cpp" href="/redmine/projects/fhicl-cpp?jump=wiki"><span style="padding-left:32px;">fhicl-cpp</span></a><a title="fhicl-py" href="/redmine/projects/fhicl-py?jump=wiki"><span style="padding-left:32px;">fhicl-py</span></a><a title="Framework Build Instructions" href="/redmine/projects/build-framework?jump=wiki"><span style="padding-left:16px;">Framework Build Instructions</span></a><a title="hep_hpc_toolkit" href="/redmine/projects/hep_hpc_toolkit?jump=wiki"><span style="padding-left:32px;">hep_hpc_toolkit</span></a><a title="gallery" href="/redmine/projects/gallery?jump=wiki"><span style="padding-left:16px;">gallery</span></a><a title="hep_concurrency" href="/redmine/projects/hep_concurrency?jump=wiki"><span style="padding-left:16px;">hep_concurrency</span></a><a title="Lynn Garren&#39;s notes" href="/redmine/projects/lynn-garren-s-notes?jump=wiki"><span style="padding-left:16px;">Lynn Garren&#39;s notes</span></a><a title="messagefacility" href="/redmine/projects/messagefacility?jump=wiki"><span style="padding-left:16px;">messagefacility</span></a><a title="mrb" href="/redmine/projects/mrb?jump=wiki"><span style="padding-left:16px;">mrb</span></a><a title="SciSoft" href="/redmine/projects/scisoft?jump=wiki"><span style="padding-left:16px;">SciSoft</span></a><a title="Spack Planning" href="/redmine/projects/spack-planning?jump=wiki"><span style="padding-left:16px;">Spack Planning</span></a><a title="VMs and Containers" href="/redmine/projects/vms-and-containers?jump=wiki"><span style="padding-left:16px;">VMs and Containers</span></a><a title="ubuntu vm" href="/redmine/projects/ubuntu-vm?jump=wiki"><span style="padding-left:32px;">ubuntu vm</span></a><a title="cet-pythia6" href="/redmine/projects/cet-pythia6?jump=wiki"><span style="padding-left:16px;">cet-pythia6</span></a><a title="splines" href="/redmine/projects/splines?jump=wiki"><span style="padding-left:16px;">splines</span></a><a title="studio" href="/redmine/projects/studio?jump=wiki"><span style="padding-left:16px;">studio</span></a><a title="tag_suite" href="/redmine/projects/tag_suite?jump=wiki"><span style="padding-left:16px;">tag_suite</span></a><a title="art/LArSoft Course" href="/redmine/projects/art-larsoft-course?jump=wiki"><span style="padding-left:0px;">art/LArSoft Course</span></a><a title="LArIAT" href="/redmine/projects/lardbt?jump=wiki"><span style="padding-left:0px;">LArIAT</span></a><a title="LArIAT Online" href="/redmine/projects/lariat-online?jump=wiki"><span style="padding-left:16px;">LArIAT Online</span></a><a title="LArSoft" class="selected" href="/redmine/projects/larsoft?jump=wiki"><span style="padding-left:0px;">LArSoft</span></a><a title="ArgoNeuT code" href="/redmine/projects/argoneutcode?jump=wiki"><span style="padding-left:16px;">ArgoNeuT code</span></a><a title="ArgoNeuT Analysis" href="/redmine/projects/t962ana?jump=wiki"><span style="padding-left:32px;">ArgoNeuT Analysis</span></a><a title="LAr-Continuous-Integration" href="/redmine/projects/lar-ci?jump=wiki"><span style="padding-left:16px;">LAr-Continuous-Integration</span></a><a title="LAr1ND code" href="/redmine/projects/lar1ndcode?jump=wiki"><span style="padding-left:16px;">LAr1ND code</span></a><a title="LArAdmin" href="/redmine/projects/laradmin?jump=wiki"><span style="padding-left:16px;">LArAdmin</span></a><a title="LArAna" href="/redmine/projects/larana?jump=wiki"><span style="padding-left:16px;">LArAna</span></a><a title="LArCore" href="/redmine/projects/larcore?jump=wiki"><span style="padding-left:16px;">LArCore</span></a><a title="LArCoreAlg" href="/redmine/projects/larcorealg?jump=wiki"><span style="padding-left:16px;">LArCoreAlg</span></a><a title="LArCoreObj" href="/redmine/projects/larcoreobj?jump=wiki"><span style="padding-left:16px;">LArCoreObj</span></a><a title="LArData" href="/redmine/projects/lardata?jump=wiki"><span style="padding-left:16px;">LArData</span></a><a title="LArDataAlg" href="/redmine/projects/lardataalg?jump=wiki"><span style="padding-left:16px;">LArDataAlg</span></a><a title="LArDataObj" href="/redmine/projects/lardataobj?jump=wiki"><span style="padding-left:16px;">LArDataObj</span></a><a title="LArEventDisplay" href="/redmine/projects/lareventdisplay?jump=wiki"><span style="padding-left:16px;">LArEventDisplay</span></a><a title="LArEvt" href="/redmine/projects/larevt?jump=wiki"><span style="padding-left:16px;">LArEvt</span></a><a title="LArExamples" href="/redmine/projects/larexamples?jump=wiki"><span style="padding-left:16px;">LArExamples</span></a><a title="LArG4" href="/redmine/projects/larg4?jump=wiki"><span style="padding-left:16px;">LArG4</span></a><a title="larliteintegration" href="/redmine/projects/sketch?jump=wiki"><span style="padding-left:16px;">larliteintegration</span></a><a title="LArPandora" href="/redmine/projects/larpandora?jump=wiki"><span style="padding-left:16px;">LArPandora</span></a><a title="LArPandoraContent" href="/redmine/projects/larpandoracontent?jump=wiki"><span style="padding-left:16px;">LArPandoraContent</span></a><a title="LArReco" href="/redmine/projects/larreco?jump=wiki"><span style="padding-left:16px;">LArReco</span></a><a title="LArRecoDNN" href="/redmine/projects/larrecodnn?jump=wiki"><span style="padding-left:16px;">LArRecoDNN</span></a><a title="LArRelTools" href="/redmine/projects/larreltools?jump=wiki"><span style="padding-left:16px;">LArRelTools</span></a><a title="larshoweralg" href="/redmine/projects/larshoweralg?jump=wiki"><span style="padding-left:16px;">larshoweralg</span></a><a title="LArSim" href="/redmine/projects/larsim?jump=wiki"><span style="padding-left:16px;">LArSim</span></a><a title="LArSimAlg" href="/redmine/projects/larsimalg?jump=wiki"><span style="padding-left:16px;">LArSimAlg</span></a><a title="LArSimObj" href="/redmine/projects/larsimobj?jump=wiki"><span style="padding-left:16px;">LArSimObj</span></a><a title="LArSimTools" href="/redmine/projects/larsimtools?jump=wiki"><span style="padding-left:16px;">LArSimTools</span></a><a title="LArSoft-SVN (legacy site)" href="/redmine/projects/larsoftsvn?jump=wiki"><span style="padding-left:16px;">LArSoft-SVN (legacy site)</span></a><a title="LArSoft Alpha Test" href="/redmine/projects/larsoft-alpha?jump=wiki"><span style="padding-left:32px;">LArSoft Alpha Test</span></a><a title="LArSoft Experiments Alpha Test" href="/redmine/projects/larsoft-experiment-alpha?jump=wiki"><span style="padding-left:48px;">LArSoft Experiments Alpha Test</span></a><a title="LArSoftObj" href="/redmine/projects/larsoftobj?jump=wiki"><span style="padding-left:16px;">LArSoftObj</span></a><a title="LArSystematics" href="/redmine/projects/larsystematics?jump=wiki"><span style="padding-left:16px;">LArSystematics</span></a><a title="LArTestAlg" href="/redmine/projects/lartestalg?jump=wiki"><span style="padding-left:16px;">LArTestAlg</span></a><a title="LArToolObj" href="/redmine/projects/lartoolobj?jump=wiki"><span style="padding-left:16px;">LArToolObj</span></a><a title="LArUtils" href="/redmine/projects/larutils?jump=wiki"><span style="padding-left:16px;">LArUtils</span></a><a title="larwirecell" href="/redmine/projects/larwirecell?jump=wiki"><span style="padding-left:16px;">larwirecell</span></a><a title="LBNE code" href="/redmine/projects/lbnecode?jump=wiki"><span style="padding-left:16px;">LBNE code</span></a><a title="NuSystematics" href="/redmine/projects/nusystematics?jump=wiki"><span style="padding-left:16px;">NuSystematics</span></a><a title="parsegdml" href="/redmine/projects/parsegdml?jump=wiki"><span style="padding-left:16px;">parsegdml</span></a><a title="uBooNE code" href="/redmine/projects/uboonecode?jump=wiki"><span style="padding-left:16px;">uBooNE code</span></a><a title="CC1pi" href="/redmine/projects/cc1pi?jump=wiki"><span style="padding-left:32px;">CC1pi</span></a><a title="UBooNE alg" href="/redmine/projects/uboonealg?jump=wiki"><span style="padding-left:32px;">UBooNE alg</span></a><a title="uBAna" href="/redmine/projects/ubana?jump=wiki"><span style="padding-left:32px;">uBAna</span></a><a title="uBCRT" href="/redmine/projects/ubcrt?jump=wiki"><span style="padding-left:32px;">uBCRT</span></a><a title="uBCV" href="/redmine/projects/ubcv?jump=wiki"><span style="padding-left:32px;">uBCV</span></a><a title="uBCore" href="/redmine/projects/ubcore?jump=wiki"><span style="padding-left:32px;">uBCore</span></a><a title="uBEvt" href="/redmine/projects/ubevt?jump=wiki"><span style="padding-left:32px;">uBEvt</span></a><a title="uBLite" href="/redmine/projects/ublite?jump=wiki"><span style="padding-left:32px;">uBLite</span></a><a title="uBObj" href="/redmine/projects/ubobj?jump=wiki"><span style="padding-left:32px;">uBObj</span></a><a title="uBRaw" href="/redmine/projects/ubraw?jump=wiki"><span style="padding-left:32px;">uBRaw</span></a><a title="uBReco" href="/redmine/projects/ubreco?jump=wiki"><span style="padding-left:32px;">uBReco</span></a><a title="uBSim" href="/redmine/projects/ubsim?jump=wiki"><span style="padding-left:32px;">uBSim</span></a><a title="uBXSec" href="/redmine/projects/ubxsec?jump=wiki"><span style="padding-left:32px;">uBXSec</span></a><a title="lar_ci" href="/redmine/projects/lar_ci?jump=wiki"><span style="padding-left:0px;">lar_ci</span></a><a title="darkart" href="/redmine/projects/darkart?jump=wiki"><span style="padding-left:0px;">darkart</span></a><a title="darkmon" href="/redmine/projects/darkmon?jump=wiki"><span style="padding-left:0px;">darkmon</span></a><a title="darkside-public" href="/redmine/projects/darkside-public?jump=wiki"><span style="padding-left:0px;">darkside-public</span></a><a title="darksidecore" href="/redmine/projects/darksidecore?jump=wiki"><span style="padding-left:0px;">darksidecore</span></a><a title="ds50daq" href="/redmine/projects/ds50daq?jump=wiki"><span style="padding-left:0px;">ds50daq</span></a><a title="DUNE" href="/redmine/projects/dune?jump=wiki"><span style="padding-left:0px;">DUNE</span></a><a title="DUNE Approved Plots" href="/redmine/projects/dune-approved-plots?jump=wiki"><span style="padding-left:16px;">DUNE Approved Plots</span></a><a title="Dune Computing" href="/redmine/projects/dune-computing?jump=wiki"><span style="padding-left:16px;">Dune Computing</span></a><a title="duneutil" href="/redmine/projects/duneutil?jump=wiki"><span style="padding-left:32px;">duneutil</span></a><a title="DUNE DAQ" href="/redmine/projects/dune-daq?jump=wiki"><span style="padding-left:16px;">DUNE DAQ</span></a><a title="DUNE NearDet Design" href="/redmine/projects/dune-neardet-design?jump=wiki"><span style="padding-left:16px;">DUNE NearDet Design</span></a><a title="dunetpc" href="/redmine/projects/dunetpc?jump=wiki"><span style="padding-left:16px;">dunetpc</span></a><a title="protoduneana" href="/redmine/projects/protoduneana?jump=wiki"><span style="padding-left:32px;">protoduneana</span></a><a title="upd" href="/redmine/projects/upd?jump=wiki"><span style="padding-left:0px;">upd</span></a><a title="ups" href="/redmine/projects/ups?jump=wiki"><span style="padding-left:0px;">ups</span></a><a title="Fermi Redmine" href="/redmine/projects/fermi-redmine?jump=wiki"><span style="padding-left:0px;">Fermi Redmine</span></a><a title="Projects for Monitoring Redmine Health" href="/redmine/projects/test-p1?jump=wiki"><span style="padding-left:16px;">Projects for Monitoring Redmine Health</span></a><a title="redmine-lib" href="/redmine/projects/redmine-lib?jump=wiki"><span style="padding-left:16px;">redmine-lib</span></a><a title="g4hpc" href="/redmine/projects/g4hpc?jump=wiki"><span style="padding-left:0px;">g4hpc</span></a><a title="g4hpcbenchmarks" href="/redmine/projects/g4hpcbenchmarks?jump=wiki"><span style="padding-left:16px;">g4hpcbenchmarks</span></a><a title="HepPDT" href="/redmine/projects/heppdt?jump=wiki"><span style="padding-left:0px;">HepPDT</span></a><a title="ICARUS LArSoft" href="/redmine/projects/icaruscode?jump=wiki"><span style="padding-left:0px;">ICARUS LArSoft</span></a><a title="icarus_data" href="/redmine/projects/icarus_data?jump=wiki"><span style="padding-left:16px;">icarus_data</span></a><a title="icarusutil" href="/redmine/projects/icarusutil?jump=wiki"><span style="padding-left:16px;">icarusutil</span></a><a title="LAr Batch Tools" href="/redmine/projects/larbatch?jump=wiki"><span style="padding-left:0px;">LAr Batch Tools</span></a><a title="LBNE Utilities" href="/redmine/projects/lbneutil?jump=wiki"><span style="padding-left:0px;">LBNE Utilities</span></a><a title="DAQ" href="/redmine/projects/mu2edaq?jump=wiki"><span style="padding-left:0px;">DAQ</span></a><a title="mu2e_artdaq" href="/redmine/projects/mu2e_artdaq?jump=wiki"><span style="padding-left:16px;">mu2e_artdaq</span></a><a title="Mu2e DAQ Computing" href="/redmine/projects/mu2e-daq-computing?jump=wiki"><span style="padding-left:16px;">Mu2e DAQ Computing</span></a><a title="mu2e DCS" href="/redmine/projects/mu2e-dcs?jump=wiki"><span style="padding-left:16px;">mu2e DCS</span></a><a title="Mu2e Raw Data" href="/redmine/projects/mu2e-raw-data?jump=wiki"><span style="padding-left:16px;">Mu2e Raw Data</span></a><a title="Databases" href="/redmine/projects/databases?jump=wiki"><span style="padding-left:0px;">Databases</span></a><a title="Detector Construction DB" href="/redmine/projects/mu2e_detector_construction_db?jump=wiki"><span style="padding-left:16px;">Detector Construction DB</span></a><a title="Offline Software" href="/redmine/projects/offlinesoftware?jump=wiki"><span style="padding-left:0px;">Offline Software</span></a><a title="G4beamline" href="/redmine/projects/mu2eofflinesoftwareg4beamline?jump=wiki"><span style="padding-left:16px;">G4beamline</span></a><a title="Grid Scripts" href="/redmine/projects/mu2egrid?jump=wiki"><span style="padding-left:16px;">Grid Scripts</span></a><a title="Muon g-2" href="/redmine/projects/g-2?jump=wiki"><span style="padding-left:0px;">Muon g-2</span></a><a title="Calorimeter CDR req." href="/redmine/projects/calorequirements?jump=wiki"><span style="padding-left:16px;">Calorimeter CDR req.</span></a><a title="g-2 Art Examples" href="/redmine/projects/gm2artexamples?jump=wiki"><span style="padding-left:16px;">g-2 Art Examples</span></a><a title="g-2 CDR" href="/redmine/projects/gm2cdr?jump=wiki"><span style="padding-left:16px;">g-2 CDR</span></a><a title="g-2 DAQ" href="/redmine/projects/gm2daq?jump=wiki"><span style="padding-left:16px;">g-2 DAQ</span></a><a title="g-2 DQM" href="/redmine/projects/gm2dqm?jump=wiki"><span style="padding-left:32px;">g-2 DQM</span></a><a title="g-2 public" href="/redmine/projects/gm2public?jump=wiki"><span style="padding-left:16px;">g-2 public</span></a><a title="g-2 Release Tools" href="/redmine/projects/gm2releasetools?jump=wiki"><span style="padding-left:16px;">g-2 Release Tools</span></a><a title="g2MIGTRACE" href="/redmine/projects/g2migtrace?jump=wiki"><span style="padding-left:16px;">g2MIGTRACE</span></a><a title="g2mtanalysismacros" href="/redmine/projects/g2mtanalysismacros?jump=wiki"><span style="padding-left:16px;">g2mtanalysismacros</span></a><a title="g-2 SRBD" href="/redmine/projects/g-2-srbd?jump=wiki"><span style="padding-left:16px;">g-2 SRBD</span></a><a title="g-2 TDR" href="/redmine/projects/gm2tdr?jump=wiki"><span style="padding-left:16px;">g-2 TDR</span></a><a title="gm2analyses" href="/redmine/projects/gm2analyses?jump=wiki"><span style="padding-left:16px;">gm2analyses</span></a><a title="gm2aux" href="/redmine/projects/gm2aux?jump=wiki"><span style="padding-left:16px;">gm2aux</span></a><a title="gm2beams" href="/redmine/projects/gm2beams?jump=wiki"><span style="padding-left:16px;">gm2beams</span></a><a title="gm2calo" href="/redmine/projects/gm2calo?jump=wiki"><span style="padding-left:16px;">gm2calo</span></a><a title="gm2dataproducts" href="/redmine/projects/gm2dataproducts?jump=wiki"><span style="padding-left:16px;">gm2dataproducts</span></a><a title="gm2field" href="/redmine/projects/gm2field?jump=wiki"><span style="padding-left:16px;">gm2field</span></a><a title="gm2fieldanalyzer" href="/redmine/projects/gm2fieldanalyzer?jump=wiki"><span style="padding-left:32px;">gm2fieldanalyzer</span></a><a title="gm2fielddaq" href="/redmine/projects/gm2fielddaq?jump=wiki"><span style="padding-left:32px;">gm2fielddaq</span></a><a title="gm2fieldsignal" href="/redmine/projects/gm2fieldsignal?jump=wiki"><span style="padding-left:32px;">gm2fieldsignal</span></a><a title="gm2geom" href="/redmine/projects/gm2geom?jump=wiki"><span style="padding-left:16px;">gm2geom</span></a><a title="gm2mcdataproducts" href="/redmine/projects/gm2mcdataproducts?jump=wiki"><span style="padding-left:16px;">gm2mcdataproducts</span></a><a title="gm2midas" href="/redmine/projects/gm2midas?jump=wiki"><span style="padding-left:16px;">gm2midas</span></a><a title="gm2midastoart" href="/redmine/projects/gm2midastoart?jump=wiki"><span style="padding-left:16px;">gm2midastoart</span></a><a title="gm2MTest2012" href="/redmine/projects/gm2mtest2012?jump=wiki"><span style="padding-left:16px;">gm2MTest2012</span></a><a title="gm2optics" href="/redmine/projects/gm2optics?jump=wiki"><span style="padding-left:16px;">gm2optics</span></a><a title="gm2planning" href="/redmine/projects/gm2planning?jump=wiki"><span style="padding-left:16px;">gm2planning</span></a><a title="gm2reconeast" href="/redmine/projects/gm2reconeast?jump=wiki"><span style="padding-left:16px;">gm2reconeast</span></a><a title="gm2ringsim" href="/redmine/projects/gm2ringsim?jump=wiki"><span style="padding-left:16px;">gm2ringsim</span></a><a title="gm2SoftwareTools" href="/redmine/projects/gm2softwaretools?jump=wiki"><span style="padding-left:16px;">gm2SoftwareTools</span></a><a title="gm2strawtracking" href="/redmine/projects/gm2strawtracking?jump=wiki"><span style="padding-left:16px;">gm2strawtracking</span></a><a title="gm2swdocs" href="/redmine/projects/gm2swdocs?jump=wiki"><span style="padding-left:16px;">gm2swdocs</span></a><a title="gm2test" href="/redmine/projects/gm2test?jump=wiki"><span style="padding-left:16px;">gm2test</span></a><a title="gm2tracker" href="/redmine/projects/gm2tracker?jump=wiki"><span style="padding-left:16px;">gm2tracker</span></a><a title="gm2trackerdaq" href="/redmine/projects/gm2trackerdaq?jump=wiki"><span style="padding-left:16px;">gm2trackerdaq</span></a><a title="gm2unpackers" href="/redmine/projects/gm2unpackers?jump=wiki"><span style="padding-left:16px;">gm2unpackers</span></a><a title="gm2util" href="/redmine/projects/gm2util?jump=wiki"><span style="padding-left:16px;">gm2util</span></a><a title="gm2viz" href="/redmine/projects/gm2viz?jump=wiki"><span style="padding-left:16px;">gm2viz</span></a><a title="gm2vtk" href="/redmine/projects/gm2vtk?jump=wiki"><span style="padding-left:16px;">gm2vtk</span></a><a title="g-2 Field Shimming Paper" href="/redmine/projects/gm2fsp?jump=wiki"><span style="padding-left:16px;">g-2 Field Shimming Paper</span></a><a title="gm2db" href="/redmine/projects/gm2db?jump=wiki"><span style="padding-left:16px;">gm2db</span></a><a title="gm2ilratio" href="/redmine/projects/gm2ilratio?jump=wiki"><span style="padding-left:16px;">gm2ilratio</span></a><a title="gm2reconita" href="/redmine/projects/gm2reconita?jump=wiki"><span style="padding-left:16px;">gm2reconita</span></a><a title="gm2sc" href="/redmine/projects/gm2sc?jump=wiki"><span style="padding-left:16px;">gm2sc</span></a><a title="gm2simvalidation" href="/redmine/projects/gm2simvalidation?jump=wiki"><span style="padding-left:16px;">gm2simvalidation</span></a><a title="gm2templates" href="/redmine/projects/gm2templates?jump=wiki"><span style="padding-left:16px;">gm2templates</span></a><a title="NOvA-ART" href="/redmine/projects/novaart?jump=wiki"><span style="padding-left:0px;">NOvA-ART</span></a><a title="NOvA validation" href="/redmine/projects/nova-validation?jump=wiki"><span style="padding-left:16px;">NOvA validation</span></a><a title="NuTools" href="/redmine/projects/nutools?jump=wiki"><span style="padding-left:0px;">NuTools</span></a><a title="NuEvdb" href="/redmine/projects/nuevdb?jump=wiki"><span style="padding-left:16px;">NuEvdb</span></a><a title="NuG4" href="/redmine/projects/nug4?jump=wiki"><span style="padding-left:16px;">NuG4</span></a><a title="NuGen" href="/redmine/projects/nugen?jump=wiki"><span style="padding-left:16px;">NuGen</span></a><a title="NuRandom" href="/redmine/projects/nurandom?jump=wiki"><span style="padding-left:16px;">NuRandom</span></a><a title="NuSimData" href="/redmine/projects/nusimdata?jump=wiki"><span style="padding-left:16px;">NuSimData</span></a><a title="NuSoft/NuTools" href="/redmine/projects/nusoftart?jump=wiki"><span style="padding-left:16px;">NuSoft/NuTools</span></a><a title="PPFX" href="/redmine/projects/ppfx?jump=wiki"><span style="padding-left:16px;">PPFX</span></a><a title="OSG-Geant4-OSGMM" href="/redmine/projects/osg-geant4-osgmm?jump=wiki"><span style="padding-left:0px;">OSG-Geant4-OSGMM</span></a><a title="SBND code" href="/redmine/projects/sbndcode?jump=wiki"><span style="padding-left:0px;">SBND code</span></a><a title="SBND utility scripts" href="/redmine/projects/sbndutil?jump=wiki"><span style="padding-left:0px;">SBND utility scripts</span></a><a title="IF Data Handling Client Tools (ifdhc)" href="/redmine/projects/ifdhc?jump=wiki"><span style="padding-left:0px;">IF Data Handling Client Tools (ifdhc)</span></a><a title="IFDH Art interface" href="/redmine/projects/ifdh-art?jump=wiki"><span style="padding-left:16px;">IFDH Art interface</span></a><a title="Simulation Tools and Features" href="/redmine/projects/stf?jump=wiki"><span style="padding-left:0px;">Simulation Tools and Features</span></a><a title="artg4tk" href="/redmine/projects/artg4tk?jump=wiki"><span style="padding-left:16px;">artg4tk</span></a><a title="DoSSiER" href="/redmine/projects/dossier?jump=wiki"><span style="padding-left:16px;">DoSSiER</span></a><a title="Geant4Reweight" href="/redmine/projects/geant4reweight?jump=wiki"><span style="padding-left:16px;">Geant4Reweight</span></a><a title="uBooNE Reconstruction" href="/redmine/projects/uboone-reconstruction?jump=wiki"><span style="padding-left:0px;">uBooNE Reconstruction</span></a><a title="uBooNE Utilities" href="/redmine/projects/ubutil?jump=wiki"><span style="padding-left:0px;">uBooNE Utilities</span></a><a title="detsim.fnal.gov" href="/redmine/projects/detsim-fnal-gov?jump=wiki"><span style="padding-left:0px;">detsim.fnal.gov</span></a><a title="SoftRelTools" href="/redmine/projects/softreltools?jump=wiki"><span style="padding-left:0px;">SoftRelTools</span></a><a title="Spack Infrastructure" href="/redmine/projects/spack-infrastructure?jump=wiki"><span style="padding-left:0px;">Spack Infrastructure</span></a></div><div class="drdn-items all-projects selection"><a href="/redmine/projects?jump=wiki">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="current-project">LArSoft</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li>
+<a id="new-object" onclick="toggleNewObjectDropdown(); return false;" class="new-object" href="#"> + </a>
+<ul class="menu-children"><li><a accesskey="7" class="new-issue-sub" href="/redmine/projects/larsoft/issues/new">New issue</a></li><li><a class="new-issue-category" href="/redmine/projects/larsoft/issue_categories/new">New category</a></li><li><a class="new-version" href="/redmine/projects/larsoft/versions/new">New version</a></li><li><a class="new-timelog" href="/redmine/projects/larsoft/time_entries/new">Log time</a></li><li><a class="new-document" href="/redmine/projects/larsoft/documents/new">New document</a></li><li><a class="new-wiki-page" href="/redmine/projects/larsoft/wiki/new">New wiki page</a></li><li><a class="new-file" href="/redmine/projects/larsoft/files/new">New file</a></li></ul>
+</li><li><a class="overview" href="/redmine/projects/larsoft">Overview</a></li><li><a class="activity" href="/redmine/projects/larsoft/activity">Activity</a></li><li><a class="roadmap" href="/redmine/projects/larsoft/roadmap">Roadmap</a></li><li><a class="issues" href="/redmine/projects/larsoft/issues">Issues</a></li><li><a class="time-entries" href="/redmine/projects/larsoft/time_entries">Spent time</a></li><li><a class="gantt" href="/redmine/projects/larsoft/issues/gantt">Gantt</a></li><li><a class="calendar" href="/redmine/projects/larsoft/issues/calendar">Calendar</a></li><li><a class="documents" href="/redmine/projects/larsoft/documents">Documents</a></li><li><a class="wiki selected" href="/redmine/projects/larsoft/wiki">Wiki</a></li><li><a class="files" href="/redmine/projects/larsoft/files">Files</a></li><li><a class="repository" href="/redmine/projects/larsoft/repository">Repository</a></li><li><a class="settings" href="/redmine/projects/larsoft/settings">Settings</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+          
+<h3>Wiki</h3>
+<ul>
+  <li><a href="/redmine/projects/larsoft/wiki">Start page</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/index">Index by title</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/date_index">Index by date</a></li>
+</ul>
+
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+<a class="icon icon-add" data-remote="true" href="/redmine/projects/larsoft/wiki/new">New wiki page</a>
+  <a class="icon icon-edit" accesskey="e" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit">Edit</a>
+  <a class="wiki_page-12601-watcher icon icon-fav-off" data-remote="true" rel="nofollow" data-method="post" href="/redmine/watchers/watch?object_id=12601&amp;object_type=wiki_page">Watch</a>
+  <a class="icon icon-lock" rel="nofollow" data-method="post" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/protect?protected=1">Lock</a>
+  
+  <a class="icon icon-move" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/rename">Rename</a>
+  <a data-confirm="Are you sure?" class="icon icon-del" rel="nofollow" data-method="delete" href="/redmine/projects/larsoft/wiki/_Running_Jobs_">Delete</a>
+<a class="icon icon-history" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/history">History</a>
+</div>
+
+<p class="breadcrumb"><a href="/redmine/projects/larsoft/wiki/LArSoftWiki">LArSoftWiki</a> » <a href="/redmine/projects/larsoft/wiki/Using_LArSoft">Using LArSoft</a> » </p>
+
+
+<div class="wiki wiki-page">
+  <ul class="toc"><li><strong>Table of contents</strong></li><li><a href="#Running-Jobs">Running Jobs</a><ul><li><a href="#The-Job-Configuration">The Job Configuration</a><ul><li><a href="#Key-Concepts-in-FHiCL">Key Concepts in FHiCL</a></li><li><a href="#FHiCL-Rules">FHiCL Rules</a></li><li><a href="#Example-configuration-file-detsimmodulesfcl">Example configuration file: detsimmodules.fcl</a></li><li><a href="#Configuring-the-message-service">Configuring the message service</a><ul><li><a href="#Debug-messages">Debug messages</a></li></ul>
+</li><li><a href="#Example-job-script-prodgeniefcl">Example job script: prodgenie.fcl</a></li><li><a href="#How-to-override-a-default-parameter">How to override a default parameter</a></li><li><a href="#fhicl-Emacs-syntax-highlighting">fhicl Emacs syntax highlighting</a></li></ul>
+</li><li><a href="#Executable-and-command-line-options">Executable and command line options</a></li><li><a href="#Running-a-Job">Running a Job</a></li><li><a href="#Why-did-my-job-fail">Why did my job fail?</a></li><li><a href="#Submitting-Jobs-to-the-compute-farms">Submitting Jobs to the compute farms</a></li></ul></li></ul>
+
+
+	<a name="Running-Jobs"></a>
+<h1 >Running Jobs<a href="#Running-Jobs" class="wiki-anchor">&para;</a></h1>
+
+
+	<p>This page describes the job configuration file (often, in jargon: <em>FHiCL file</em>) and how to run a job using one.</p>
+
+
+	<p>It is assumed that you have previously read the <a class="wiki-page" href="/redmine/projects/larsoft/wiki/_Quick-start_guide_to_using_and_developing_LArSoft_code_"> Quick-start guide to using and developing LArSoft code </a> and the information on <a class="wiki-page" href="/redmine/projects/larsoft/wiki/Using_LArSoft_on_the_GPVM_nodes">Using LArSoft on the GPVM nodes</a>.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-2"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=2">Edit this section</a></div><a name="The-Job-Configuration"></a>
+<h2 >The Job Configuration<a href="#The-Job-Configuration" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>Once a base release is set up, it is easy to run a job. The basic unit for running a job is the job-control script, written in the FHICL language. The FHICL language provides a simple mechanism for including parameter set configurations from different files such that many job configuration files can use the same configuration for a module or service.</p>
+
+
+	<p>There is also a <a href="https://cdcvs.fnal.gov/redmine/projects/fhicl/wiki" class="external">FHiCL quick start guide</a> available for more details.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-3"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=3">Edit this section</a></div><a name="Key-Concepts-in-FHiCL"></a>
+<h3 >Key Concepts in FHiCL<a href="#Key-Concepts-in-FHiCL" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>There are a few key concepts to writing a FHICL job control script.  In order, they are</p>
+
+
+	<ol>
+	<li>Including previously defined configurations for services and modules from other files.  This is done using <code>#include</code> statements. <strong>Be sure you don't have any trailing space or tab characters</strong> on the <code>#include</code> line.</li>
+		<li>Service block, denoted by <code>services: { }</code>  This block will contain configurations for ART specific services such as the <code>TFileService</code> and the <code>RandomNumberGenerator</code>.  It also contains the configuration of LArSoft specific services<sup><a href="#fn1">1</a></sup>.</li>
+		<li>Source block, denoted by <code>source: { }</code>.  This block tells the job what kind of source to expect (<code>EmptyEvent</code> in the case of Monte Carlo generation, <code>RootInput</code> in the case of anything downstream of a Monte Carlo generator or reconstruction, and specific modules for data from the detector), the file name for the input source if appropriate, and how many events to process.  Both the file name and number of events to process can be specified on the command line.</li>
+		<li>Output block, denoted by <code>outputs: { }</code>  This block tells the job what kind of output to make, i.e. <code>RootOutput</code>, and what the name of the output file should be.  The output file name can be specified on the command line.  It is possible to define more than one output file if one wanted to run a job that produced different output files based on filter criteria - i.e. empty events are put in one file and events with neutrinos in them are put in another. Multiple output files can only be specified in the job configuration file, not from the command line.</li>
+		<li>Physics block, denoted by <code>physics: { }</code>  This block is where all producer, analyzer, and filter modules are configured.  Sequences of producer and filter modules to run is defined in user-named <em>paths</em> in this block.  The list of analyzers and output modules to run is defined in a separate user-named path.  The block also defines two keyword parameters, <code>trigger_paths</code> and <code>end_paths</code>.  <code>trigger_paths</code> contains all producer and filter paths to run, and <code>end_paths</code> contains the analyzer and output path.</li>
+	</ol>
+
+
+	<p>Comments may be included in FHiCL configuration files using the "#" character.  The <code>#include</code> is a keyword so that the parser knows not to ignore what comes after "#include<sup><a href="#fn2">2</a></sup>".</p>
+
+
+	<p id="fn1" class="footnote"><sup>1</sup> In old FHiCL files you will notice that LArSoft and in general non-art service configuration is enclosed in a <code>user</code> block, that is now deprecated.</p>
+
+
+	<p id="fn2" class="footnote"><sup>2</sup> Note that the FHiCL parser can't recognize a comment on the same line as a <code>#include</code> directive.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-4"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=4">Edit this section</a></div><a name="FHiCL-Rules"></a>
+<h3 >FHiCL Rules<a href="#FHiCL-Rules" class="wiki-anchor">&para;</a></h3>
+
+
+There are a few of rules to keep in mind about FHiCL:
+	<ul>
+	<li>The value of the <code>process_name</code> parameter may not contain underscores as the process name is used in the ROOT file branch name.  Module labels may not contain underscores either, for the same reason.</li>
+		<li>Parameter set names may not contain numbers, periods, backslashes, stars, etc. They may contain underscores.</li>
+		<li>Put the values for all string parameters in double quotes, <code>"..."</code></li>
+		<li>Specify input vectors using <code>[ , , ]</code>, i.e. if you want a vector of doubles do <code>MyVector: [1.0, 3e-9, -900.]</code></li>
+		<li>You pick out configurations from the <code>PROLOG</code> section(s), usually defined in the <code>#include</code> files, using the <code> @local::</code> syntax.  The value after the "<code>::</code>" is the name of the configuration specified in the <code>PROLOG</code> (see the next bullet)</li>
+		<li>You can override the value of an included configuration. For example, imagine there is a configuration specified in a included file called <code>mymoduleconfig</code> and it contains the value <code>-5</code> for the parameter named <code>myint</code>. One can load the configuration and then change the value of <code>myint</code> by doing the following:
+	<ol>
+	<li>inside the producers block:<br /><pre>
+physics: {
+  producers: {
+    # ...
+    mymod: @local::mymoduleconfig
+  }
+}
+</pre></li>
+		<li>out of the physics block <br /><pre>
+physics.producer.mymod.myint: 1
+</pre><br />The last value for a parameter always wins. If the second line was repeated with the value <code>2</code> instead of <code>1</code>, the job would run with <code>myint</code> as <code>2</code>.<br />Also note that in the example the original content of <code>mymoduleconfig</code> is not changed when the content of <code>mymod</code> is.</li>
+	</ol></li>
+	</ul>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-5"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=5">Edit this section</a></div><a name="Example-configuration-file-detsimmodulesfcl"></a>
+<h3 >Example configuration file: <code>detsimmodules.fcl</code><a href="#Example-configuration-file-detsimmodulesfcl" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>An example of a file with predefined configurations for modules is in the <a href="https://cdcvs.fnal.gov/redmine/projects/larsim/repository/revisions/develop/entry/DetSim/detsimmodules.fcl" class="external">larsim/DetSim/detsimmodules.fcl</a> file.<br />All the definitions are inside a prologue block.<br />The following is an excerpt taken from LArSoft <code>v05_00_00</code> (experiments now use their specific <code>detsimmodule_Xxxx.fcl</code> configuration file though):</p>
+
+
+<pre>
+BEGIN_PROLOG
+
+standard_simwire:
+{
+  module_type:        "SimWire" 
+  DriftEModuleLabel:  "largeant" 
+  NoiseFact:           0.0132      # Noise Scale
+  NoiseWidth:         62.4         # Exponential Noise width (kHz)
+  LowCutoff:           7.5         # Low frequency filter cutoff (kHz)
+  FieldBins:          75
+  Col3DCorrection:    2.5
+  Ind3DCorrection:    1.5
+  ColFieldRespAmp:    0.0354
+  IndFieldRespAmp:    0.018
+  ShapeTimeConst:     [ 3000., 900. ]
+  CompressionType:    "none" 
+}
+
+argoneut_simwireana: @local::standard_simwireana
+
+###
+### ... and more configurations ...
+###
+
+END_PROLOG
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-6"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=6">Edit this section</a></div><a name="Configuring-the-message-service"></a>
+<h3 >Configuring the <a href="https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility#Using-MessageFacility" class="external">message service</a><a href="#Configuring-the-message-service" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>Several standard configurations for the message service are in <a href="https://cdcvs.fnal.gov/redmine/projects/lardata/repository/revisions/develop/entry/Utilities/messageservice.fcl" class="external">lardata/Utilities/messageservice.fcl</a>.  There is one configuration for each level of message output - Debug, Info, Warning, and Error.  These configurations will be applied to each message level that is specified and those of higher priority.  For example, the Info configuration will print out Info, Warning and Error level messages while the Warning configuration only print outs Warning and Error level messages. The "standard" debug configurations will cause the messages to go to a specified output file, <code>debug.log</code>. The Error configuration redirect to standard error stream (like <code>std::cerr</code>), while the others print into the standard output (<code>std::cout</code>). All impose some limits on the repetition of some frequent messages.<br />Remember that to use one of these "standard" configurations you need to include it in your FCL file: they are standard, not default.<br />If you want to define your own configuration, please take a look at the comments in <a href="https://cdcvs.fnal.gov/redmine/projects/lardata/repository/revisions/develop/entry/Utilities/messageservice.fcl" class="external">lardata/Utilities/messageservice.fcl</a> file to determine how to do so.</p>
+
+
+	<p>Examples of how to include the usual use of the message service configurations are in the example files below.</p>
+
+
+	<p>To get a different level of output from just one module (say <code>DBSCAN</code>) one would do:</p>
+
+
+<pre>
+services:
+{
+  # Load the service that manages root files for histograms.
+  TFileService: { fileName: "reco_hist.root" }
+  Timing:       {}
+  RandomNumberGenerator: {} #ART native random number generator
+
+  # configure the message service with the INFO for DBSCAN
+  # and WARNING level for everything else
+  message: { 
+    destinations: {  
+      infomsg: {
+        type: "cout" 
+        threshold: "INFO" 
+        append: true
+        category: {
+           DBSCAN: {
+             reportEvery: 1
+           }
+        }
+      }
+      warningmsg: {
+        type:      "cout"    
+        threshold: "WARNING" 
+        append:    true        
+        categories: {
+          default: {
+            limit:       1000   
+            timespan:    60    
+          }
+        } # end categories
+      } # end warningmsg
+    } # end destinations
+  } # end standard_warning
+
+  user:         @local::argoneut_services          
+}
+</pre>
+
+	<div class="contextual heading-4" title="Edit this section" id="section-7"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=7">Edit this section</a></div><a name="Debug-messages"></a>
+<h4 >Debug messages<a href="#Debug-messages" class="wiki-anchor">&para;</a></h4>
+
+
+Note that debugging messages are treated in a special way:
+	<ol>
+	<li>there are two ways to print a debug message in the code: by using <code>mf::LogDebug</code>, and by using <code>LOG_DEBUG</code> macro; the messages using the latter will not be present when a non-debug qualifier (<code>prof</code> and <code>opt</code>) is used. In fact, no code is generated at all from a <code>LOG_DEBUG</code> call unless using a <code>debug</code> qualified build</li>
+		<li>debug output from modules is selectively enabled by the <code>debugModules</code> list; to enable all the messages, use <code>debugModules: [ "*" ]</code></li>
+	</ol>
+
+
+	<p>Also remember that, depending on the configuration, the debug output could be not shown on screen, but only stored in a file (e.g. <code>debug.log</code>).</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-8"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=8">Edit this section</a></div><a name="Example-job-script-prodgeniefcl"></a>
+<h3 >Example job script: <code>prodgenie.fcl</code><a href="#Example-job-script-prodgeniefcl" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>To see an example job script to produce Monte Carlo events, go to: <a href="https://cdcvs.fnal.gov/redmine/projects/larsim/repository/revisions/develop/entry/EventGenerator/GENIE/prodgenie.fcl" class="external">larsim/EventGenerator/GENIE/prodgenie.fcl</a> .  The job defined by this script will generate neutrino interactions using GENIE, run them through Geant4, do the electron transport and then simulate the electronics.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-9"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=9">Edit this section</a></div><a name="How-to-override-a-default-parameter"></a>
+<h3 >How to override a default parameter<a href="#How-to-override-a-default-parameter" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>If you want to override a default parameter that has been included from a predefined parameter set, you must specify which parameter and its value as</p>
+
+
+<pre>
+mainBlock.subBlock.label.parameterName: newValue
+</pre>
+
+	<p>where</p>
+
+
+	<ul>
+	<li><code>mainBlock</code> can be <code>services</code> or <code>physics</code> </li>
+		<li><code>subBlock</code> can be <code>producers</code>, <code>filters</code>, or <code>analyzers</code>, skipped in case of services, and <code>user</code> for old service configuration</li>
+		<li><code>label</code> is the name of the desired service or module instance in a producers, filters, or analyzers block</li>
+		<li><code>parameterName</code> is the name of the desired parameter</li>
+		<li><code>newValue</code> is the desired new value; a list or entire block (that is, a brace-enclosed sequence of <code>key: value</code> pairs) can be specified</li>
+	</ul>
+
+
+	<p>These lines must go after the <code>mainBlock</code> and be outside of any other block.</p>
+
+
+	<p>For example, if one wanted to change the default value of the <code>HitsModuleLabel</code> parameter in the <code>dbcluster</code> module instance in the previous section, one would put<br /><pre>
+physics.producers.dbcluster.HitsModuleLabel: "differentHitModuleLabel" 
+</pre><br />Note that FHiCL allows for completely replacing a list but not for changing its size (i.e., it's not possible to add an element to an existing list).</p>
+
+
+	<p>This behavior is general: FHiCL only allows to replace elements. For example, if one wants to change both <code>eps</code> and <code>epstwo</code> parameters,<br /><pre>
+physics.producers.dbcluster.DBScanAlg: { # WRONG!!!
+  eps:    1.1
+  epstwo: 1.6
+}
+</pre> will not work, because it is replacing the whole <code>physics.producers.dbcluster.DBScanAlg</code> parameter set, thus removing e.g. the parameter <code>minPts</code>.<br />The correct way to change parameters is to think of that as <em>replacing</em> them, and to point exactly at each of them:<br /><pre>
+physics.producers.dbcluster.DBScanAlg.eps:    1.1
+physics.producers.dbcluster.DBScanAlg.epstwo: 1.6
+</pre> will leave the other parameters (e.g., <code>minPts</code>) unchanged.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-10"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=10">Edit this section</a></div><a name="fhicl-Emacs-syntax-highlighting"></a>
+<h3 >fhicl Emacs syntax highlighting<a href="#fhicl-Emacs-syntax-highlighting" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>If you use Emacs as your editor, you can put the following into your <code>.emacs</code> file in your home directory to cause it to display <code>.fcl</code> files with syntax highlighting</p>
+
+
+<pre>
+(setq fclKeywords
+'(
+  ;; This, due to poor language design, conflicts with comments and fails
+  ("#include" . font-lock-keyword-face)
+  ("@local" . font-lock-keyword-face)
+  ;; All these names are magic, I think
+
+("process_name:\\|services:\\|source:\\|outputs:\\|physics\\|producers:\\|filters:\\|analyzers:" . font-lock-builtin-face)
+  ("true\\|false" . font-lock-builtin-face)
+  ;; Variable definitions are followed by colons
+
+  ("[a-zA-Z0-9_]*:" . font-lock-variable-name-face)
+ )
+)
+
+;; Python mode gets us comment handling and indentation at colons
+
+(define-derived-mode fcl-mode python-mode
+ (setq mode-name "FHICL")
+ (setq font-lock-defaults '(fclKeywords))
+;;  (setq tab-width 2) ;; Doesn't seem to work
+
+)
+
+(add-to-list 'auto-mode-alist '("\\.fcl\\'" . fcl-mode))
+</pre>
+
+	<blockquote>
+		<p>Please use <em>only spaces</em> for alignment: it's not the perfect solution, but it makes people using different editors see the same code alignment.</p>
+	</blockquote>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-11"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=11">Edit this section</a></div><a name="Executable-and-command-line-options"></a>
+<h2 >Executable and command line options<a href="#Executable-and-command-line-options" class="wiki-anchor">&para;</a></h2>
+
+
+Currently there is one executable to run in LArSoft. The executable to run a typical reconstruction or analysis job is <code>lar</code> which is placed in the user's path by the setup script. To see what options are available do<br /><pre>
+$ lar -h
+</pre><br />Some of the most useful options (from <code>lar</code> version <code>v1_17_05</code>) are:
+	<ul>
+	<li><code>-c</code>/<code>--config</code> <code>configfile</code>: specify the job configuration (FHiCL) file</li>
+		<li><code>--print-available</code> what: list all available plugins: <code>module</code>, <code>service</code>, <code>source</code>, <code>plugin</code></li>
+		<li><code>--print-description</code> what: print description of specified <code>module</code>, <code>service</code>, <code>source</code>, or other plugin</li>
+		<li><code>-s</code>/<code>--source</code> file: source ROOT data file (may be specified more than once)</li>
+		<li><code>-S</code>/<code>--source-list</code> filelist: text file containing a list of source files to read, one per line</li>
+		<li><code>-n</code>/<code>--nevts</code> number: number of events to process</li>
+		<li><code>--nskip</code> number: number of events to skip</li>
+		<li><code>--rethrow-all</code>: all exceptions are propagated rather than handled by art</li>
+		<li><code>--config-out</code> newfile: before running the job, creates a text file with the complete job configuration</li>
+	</ul>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-12"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=12">Edit this section</a></div><a name="Running-a-Job"></a>
+<h2 >Running a Job<a href="#Running-a-Job" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>To run the job defined by the script above, do<br /><pre>
+$ lar -c job/prodgenie.fcl
+</pre></p>
+
+
+One can stop a job in two ways:
+	<ol>
+	<li>press &lt;Ctrl&gt;+&lt;C&gt; once: the job will complete at the end of the current module. If the job is running in the background type <code>kill -9 %jobID</code> on the command line.</li>
+		<li>press &lt;Ctrl&gt;+&lt;C&gt; twice: the job should stop immediately and, depending on the shall settings, might produce a core dump.</li>
+	</ol>
+
+
+	<p>If you want to have your job keep running even if you get disconnected from a remote session, depending on your shell you might need to start it with:<br /><pre>
+$ nohup lar job/prodgenie.fcl &gt;&#38; pg.out
+</pre></p>
+
+
+	<p>To stop such a job, then do<br /><pre>
+$ pgrep lar # to find the job ID (use ps to disambiguate if more than one lar process are running)
+$ kill -INT jobID
+</pre></p>
+
+
+	<p>One can print out the configuration of the job without starting the executable by:<br /><pre>
+$ ART_DEBUG_CONFIG=1 lar -c prodgenie.fcl
+</pre><br />in <code>bash</code>, or<br /><pre>
+&gt; env ART_DEBUG_CONFIG=1 lar -c prodgenie.fcl
+</pre><br />in C-shell, which produces the output<br /><pre>
+** ART_DEBUG_CONFIG is defined: config debug output follows **
+all_modules: [ "out1" 
+             , "daq" 
+             , "generator" 
+             , "largeant" 
+             , "rns" 
+             ]
+outputs: { out1: { fileName: "genie_gen.root" 
+                   module_label: "out1" 
+                   module_type: "RootOutput" 
+                 }
+         }
+physics: { end_paths: [ "stream1" ]
+           producers: { daq: { Col3DCorrection: 2.5
+                               ColFieldRespAmp: 3.54e-2
+                               CompressionType: "none" 
+                               DriftEModuleLabel: "largeant" 
+                               FieldBins: 75
+                               Ind3DCorrection: 1.5
+                               IndFieldRespAmp: 1.8e-2
+                               LowCutoff: 7.5
+                               NoiseFact: 1.32e-1
+                               NoiseWidth: 6.24e1
+                               ResponseFile: "shape-argo.root" 
+                               ShapeTimeConst: [ 3000
+                                               , 900
+                                               ]
+                               module_label: "daq" 
+                               module_type: "SimWireT962" 
+                             }
+                        generator: { BeamCenter: [ -1400
+                                                 , -350
+                                                 , 0
+                                                 ]
+[...]
+</pre></p>
+
+
+	<p>This functionality is particularly helpful when trying to debug what input parameters were passed to the job.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-13"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=13">Edit this section</a></div><a name="Why-did-my-job-fail"></a>
+<h2 >Why did my job fail?<a href="#Why-did-my-job-fail" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>In case of failure, <code>art</code> usually provides some information about the failure.</p>
+
+
+	<p>If a job fails, look at the warnings printed to the screen or any output log files.</p>
+
+
+	<p>Also check in the <a class="wiki-page" href="/redmine/projects/larsoft/wiki/Breaking_Changes">breaking changes</a> page for information about problems (and solutions) caused by changes to the code.</p>
+
+
+You can ask help to the <a class="email" href="mailto:larsoft@fnal.gov">larsoft@fnal.gov</a> mailing list, or open a issue in the appropriate tracker (usually <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/issues" class="external">the LArSoft one</a>), or to <a class="email" href="mailto:art-users@fnal.gov">art-users@fnal.gov</a> .<br />The usual bug report rules apply: include at least
+	<ul>
+	<li>the full command line of the failing command</li>
+		<li>a full path to the input files</li>
+		<li>which LArSoft release you are using</li>
+		<li>the complete error message.</li>
+	</ul>
+
+
+	<p>If a bug should be reported to the <a class="email" href="mailto:art-users@fnal.gov">art-users@fnal.gov</a> list, attach the <em>complete output of the job</em> to the email.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-14"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_Running_Jobs_/edit?section=14">Edit this section</a></div><a name="Submitting-Jobs-to-the-compute-farms"></a>
+<h2 >Submitting Jobs to the compute farms<a href="#Submitting-Jobs-to-the-compute-farms" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>We have to find out where the page with the submission instructions went (<strong>TODO</strong>!).</p>
+</div>
+
+
+<fieldset class="collapsible collapsed hide-when-print">
+  <legend onclick="toggleFieldset(this);">Files (0)</legend>
+  <div style="display: none;">
+
+  
+  
+  <div id="wiki_add_attachment">
+    <form id="add_attachment_form" enctype="multipart/form-data" action="/redmine/projects/larsoft/wiki/_Running_Jobs_/add_attachment" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XGZavhflb+qjqZ2jQPTRgyXjuVOD3BpiowF4lr/EyCW2iL4jl3iTnLrecnqKGYWUTLpipxgo2ybazVbNtTGXkQ==" />
+      <div class="box">
+      <p>
+<span class="attachments_form">
+  <span class="attachments_fields">
+  </span>
+  <span class="add_attachment" style="">
+    <input type="file" name="attachments[dummy][file]" class="file_selector filedrop" multiple="multiple" onchange="addInputFiles(this);" data-max-file-size="419430400" data-max-file-size-message="This file cannot be uploaded because it exceeds the maximum allowed file size (400 MB)" data-max-concurrent-uploads="2" data-upload-path="/redmine/uploads.js" data-param="attachments" data-description="true" data-description-placeholder="Optional description" />
+    (Maximum size: 400 MB)
+  </span>
+</span>
+
+</p>
+      </div>
+      <input type="submit" name="commit" value="Add" />
+</form>  </div>
+</div>
+</fieldset>
+
+<p class="other-formats">Also available in:  <span><a class="pdf" rel="nofollow" href="/redmine/projects/larsoft/wiki/_Running_Jobs_.pdf">PDF</a></span>
+  <span><a class="html" rel="nofollow" href="/redmine/projects/larsoft/wiki/_Running_Jobs_.html">HTML</a></span>
+  <span><a class="txt" rel="nofollow" href="/redmine/projects/larsoft/wiki/_Running_Jobs_.txt">TXT</a></span>
+</p>
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2019 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

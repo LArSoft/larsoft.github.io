@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title> AnalysisExample  - LArSoft - Fermilab Redmine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="5R5FoMZR/ynEWHqwzH9O5SGs/jvttOn1RK81WSsoYJQP8KE9RswDX90vlWkGkhrySPUlz3ZAKLE9YxsCId0/IA==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico?1560171137' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/application.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css?1601072360" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1601072362"></script>
+<script src="/redmine/javascripts/application.js?1601072361"></script>
+<script src="/redmine/javascripts/responsive.js?1601072360"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_countable_headers/stylesheets/countable_headers.css?1604432132" />  <script src="/redmine/plugin_assets/redmine_sortable_table/javascripts/sortable_table.js?1601318223"></script><link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_sortable_table/stylesheets/sortable_table.css?1601318223" /> <link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_group_assignee/stylesheets/tab_content_assignees.css?1604592738" />
+<!-- page specific tags -->
+  <script src="/redmine/javascripts/attachments.js?1601072363"></script>
+</head>
+<body class="project-larsoft controller-wiki action-show">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="wiki_pages" value="1" />
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/redmine/users/7">garren</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li><li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/7">garren</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li><li><a class="my-page" href="/redmine/my/page">My page</a></li><li><a class="projects" href="/redmine/projects">Projects</a></li><li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" value="subprojects" />
+        <input type="hidden" name="wiki_pages" value="1" />
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/larsoft/search?scope=subprojects">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">LArSoft</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/redmine/projects/autocomplete.js?jump=wiki" autocomplete="off" /></div><div class="drdn-items projects selection"><a title="Accelerator Modeling" href="/redmine/projects/accelerator-modeling?jump=wiki"><span style="padding-left:0px;">Accelerator Modeling</span></a><a title="ArgoNeuT Offline" href="/redmine/projects/t962offline?jump=wiki"><span style="padding-left:0px;">ArgoNeuT Offline</span></a><a title="artdaq" href="/redmine/projects/artdaq?jump=wiki"><span style="padding-left:0px;">artdaq</span></a><a title="artdaq Demo" href="/redmine/projects/artdaq-demo?jump=wiki"><span style="padding-left:16px;">artdaq Demo</span></a><a title="artdaq Core Demo" href="/redmine/projects/artdaq-core-demo?jump=wiki"><span style="padding-left:32px;">artdaq Core Demo</span></a><a title="artdaq Utilities" href="/redmine/projects/artdaq-utilities?jump=wiki"><span style="padding-left:16px;">artdaq Utilities</span></a><a title="artdaq database" href="/redmine/projects/artdaq-database?jump=wiki"><span style="padding-left:32px;">artdaq database</span></a><a title="artdaq-mfextensions" href="/redmine/projects/mf-extensions?jump=wiki"><span style="padding-left:16px;">artdaq-mfextensions</span></a><a title="artg4" href="/redmine/projects/artg4?jump=wiki"><span style="padding-left:0px;">artg4</span></a><a title="artg4 Geant N02 example" href="/redmine/projects/artg4geantn02?jump=wiki"><span style="padding-left:16px;">artg4 Geant N02 example</span></a><a title="artg4example" href="/redmine/projects/artg4example?jump=wiki"><span style="padding-left:16px;">artg4example</span></a><a title="cet-is" href="/redmine/projects/cet-is?jump=wiki"><span style="padding-left:0px;">cet-is</span></a><a title="art" href="/redmine/projects/art?jump=wiki"><span style="padding-left:16px;">art</span></a><a title="art Hough" href="/redmine/projects/art-hough?jump=wiki"><span style="padding-left:32px;">art Hough</span></a><a title="art-workbook" href="/redmine/projects/art-workbook?jump=wiki"><span style="padding-left:32px;">art-workbook</span></a><a title="art_root_io" href="/redmine/projects/art_root_io?jump=wiki"><span style="padding-left:32px;">art_root_io</span></a><a title="artExtensions" href="/redmine/projects/artextensions?jump=wiki"><span style="padding-left:16px;">artExtensions</span></a><a title="Systematics Tools" href="/redmine/projects/systematicstools?jump=wiki"><span style="padding-left:32px;">Systematics Tools</span></a><a title="artUtilScripts" href="/redmine/projects/artutilscripts?jump=wiki"><span style="padding-left:16px;">artUtilScripts</span></a><a title="canvas" href="/redmine/projects/canvas?jump=wiki"><span style="padding-left:16px;">canvas</span></a><a title="canvas_root_io" href="/redmine/projects/canvas_root_io?jump=wiki"><span style="padding-left:32px;">canvas_root_io</span></a><a title="cet-is-private" href="/redmine/projects/cet-is-private?jump=wiki"><span style="padding-left:16px;">cet-is-private</span></a><a title="cet-is-public" href="/redmine/projects/cet-is-public?jump=wiki"><span style="padding-left:16px;">cet-is-public</span></a><a title="cetbuildtools" href="/redmine/projects/cetbuildtools?jump=wiki"><span style="padding-left:16px;">cetbuildtools</span></a><a title="cetlib" href="/redmine/projects/cetlib?jump=wiki"><span style="padding-left:16px;">cetlib</span></a><a title="cetlib_except" href="/redmine/projects/cetlib_except?jump=wiki"><span style="padding-left:32px;">cetlib_except</span></a><a title="CetModules" href="/redmine/projects/cetmodules?jump=wiki"><span style="padding-left:16px;">CetModules</span></a><a title="cetpkgsupport" href="/redmine/projects/cetpkgsupport?jump=wiki"><span style="padding-left:16px;">cetpkgsupport</span></a><a title="Chris Green&#39;s Stuff" href="/redmine/projects/cet-chg?jump=wiki"><span style="padding-left:16px;">Chris Green&#39;s Stuff</span></a><a title="CosmoSIS UPS" href="/redmine/projects/cosmosis_ups?jump=wiki"><span style="padding-left:16px;">CosmoSIS UPS</span></a><a title="cpp0x" href="/redmine/projects/cpp0x?jump=wiki"><span style="padding-left:16px;">cpp0x</span></a><a title="critic" href="/redmine/projects/critic?jump=wiki"><span style="padding-left:16px;">critic</span></a><a title="DocDB migration" href="/redmine/projects/docdb-migration?jump=wiki"><span style="padding-left:16px;">DocDB migration</span></a><a title="El Capitan Support" href="/redmine/projects/el-capitan-support?jump=wiki"><span style="padding-left:16px;">El Capitan Support</span></a><a title="fhicl" href="/redmine/projects/fhicl?jump=wiki"><span style="padding-left:16px;">fhicl</span></a><a title="fhicl-cpp" href="/redmine/projects/fhicl-cpp?jump=wiki"><span style="padding-left:32px;">fhicl-cpp</span></a><a title="fhicl-py" href="/redmine/projects/fhicl-py?jump=wiki"><span style="padding-left:32px;">fhicl-py</span></a><a title="Framework Build Instructions" href="/redmine/projects/build-framework?jump=wiki"><span style="padding-left:16px;">Framework Build Instructions</span></a><a title="hep_hpc_toolkit" href="/redmine/projects/hep_hpc_toolkit?jump=wiki"><span style="padding-left:32px;">hep_hpc_toolkit</span></a><a title="gallery" href="/redmine/projects/gallery?jump=wiki"><span style="padding-left:16px;">gallery</span></a><a title="hep_concurrency" href="/redmine/projects/hep_concurrency?jump=wiki"><span style="padding-left:16px;">hep_concurrency</span></a><a title="Lynn Garren&#39;s notes" href="/redmine/projects/lynn-garren-s-notes?jump=wiki"><span style="padding-left:16px;">Lynn Garren&#39;s notes</span></a><a title="messagefacility" href="/redmine/projects/messagefacility?jump=wiki"><span style="padding-left:16px;">messagefacility</span></a><a title="mrb" href="/redmine/projects/mrb?jump=wiki"><span style="padding-left:16px;">mrb</span></a><a title="SciSoft" href="/redmine/projects/scisoft?jump=wiki"><span style="padding-left:16px;">SciSoft</span></a><a title="Spack Planning" href="/redmine/projects/spack-planning?jump=wiki"><span style="padding-left:16px;">Spack Planning</span></a><a title="VMs and Containers" href="/redmine/projects/vms-and-containers?jump=wiki"><span style="padding-left:16px;">VMs and Containers</span></a><a title="ubuntu vm" href="/redmine/projects/ubuntu-vm?jump=wiki"><span style="padding-left:32px;">ubuntu vm</span></a><a title="cet-pythia6" href="/redmine/projects/cet-pythia6?jump=wiki"><span style="padding-left:16px;">cet-pythia6</span></a><a title="splines" href="/redmine/projects/splines?jump=wiki"><span style="padding-left:16px;">splines</span></a><a title="studio" href="/redmine/projects/studio?jump=wiki"><span style="padding-left:16px;">studio</span></a><a title="tag_suite" href="/redmine/projects/tag_suite?jump=wiki"><span style="padding-left:16px;">tag_suite</span></a><a title="art/LArSoft Course" href="/redmine/projects/art-larsoft-course?jump=wiki"><span style="padding-left:0px;">art/LArSoft Course</span></a><a title="LArIAT" href="/redmine/projects/lardbt?jump=wiki"><span style="padding-left:0px;">LArIAT</span></a><a title="LArIAT Online" href="/redmine/projects/lariat-online?jump=wiki"><span style="padding-left:16px;">LArIAT Online</span></a><a title="LArSoft" class="selected" href="/redmine/projects/larsoft?jump=wiki"><span style="padding-left:0px;">LArSoft</span></a><a title="ArgoNeuT code" href="/redmine/projects/argoneutcode?jump=wiki"><span style="padding-left:16px;">ArgoNeuT code</span></a><a title="ArgoNeuT Analysis" href="/redmine/projects/t962ana?jump=wiki"><span style="padding-left:32px;">ArgoNeuT Analysis</span></a><a title="LAr-Continuous-Integration" href="/redmine/projects/lar-ci?jump=wiki"><span style="padding-left:16px;">LAr-Continuous-Integration</span></a><a title="LAr1ND code" href="/redmine/projects/lar1ndcode?jump=wiki"><span style="padding-left:16px;">LAr1ND code</span></a><a title="LArAdmin" href="/redmine/projects/laradmin?jump=wiki"><span style="padding-left:16px;">LArAdmin</span></a><a title="LArAna" href="/redmine/projects/larana?jump=wiki"><span style="padding-left:16px;">LArAna</span></a><a title="LArCore" href="/redmine/projects/larcore?jump=wiki"><span style="padding-left:16px;">LArCore</span></a><a title="LArCoreAlg" href="/redmine/projects/larcorealg?jump=wiki"><span style="padding-left:16px;">LArCoreAlg</span></a><a title="LArCoreObj" href="/redmine/projects/larcoreobj?jump=wiki"><span style="padding-left:16px;">LArCoreObj</span></a><a title="LArData" href="/redmine/projects/lardata?jump=wiki"><span style="padding-left:16px;">LArData</span></a><a title="LArDataAlg" href="/redmine/projects/lardataalg?jump=wiki"><span style="padding-left:16px;">LArDataAlg</span></a><a title="LArDataObj" href="/redmine/projects/lardataobj?jump=wiki"><span style="padding-left:16px;">LArDataObj</span></a><a title="LArEventDisplay" href="/redmine/projects/lareventdisplay?jump=wiki"><span style="padding-left:16px;">LArEventDisplay</span></a><a title="LArEvt" href="/redmine/projects/larevt?jump=wiki"><span style="padding-left:16px;">LArEvt</span></a><a title="LArExamples" href="/redmine/projects/larexamples?jump=wiki"><span style="padding-left:16px;">LArExamples</span></a><a title="LArG4" href="/redmine/projects/larg4?jump=wiki"><span style="padding-left:16px;">LArG4</span></a><a title="larliteintegration" href="/redmine/projects/sketch?jump=wiki"><span style="padding-left:16px;">larliteintegration</span></a><a title="LArPandora" href="/redmine/projects/larpandora?jump=wiki"><span style="padding-left:16px;">LArPandora</span></a><a title="LArPandoraContent" href="/redmine/projects/larpandoracontent?jump=wiki"><span style="padding-left:16px;">LArPandoraContent</span></a><a title="LArReco" href="/redmine/projects/larreco?jump=wiki"><span style="padding-left:16px;">LArReco</span></a><a title="LArRecoDNN" href="/redmine/projects/larrecodnn?jump=wiki"><span style="padding-left:16px;">LArRecoDNN</span></a><a title="LArRelTools" href="/redmine/projects/larreltools?jump=wiki"><span style="padding-left:16px;">LArRelTools</span></a><a title="larshoweralg" href="/redmine/projects/larshoweralg?jump=wiki"><span style="padding-left:16px;">larshoweralg</span></a><a title="LArSim" href="/redmine/projects/larsim?jump=wiki"><span style="padding-left:16px;">LArSim</span></a><a title="LArSimAlg" href="/redmine/projects/larsimalg?jump=wiki"><span style="padding-left:16px;">LArSimAlg</span></a><a title="LArSimObj" href="/redmine/projects/larsimobj?jump=wiki"><span style="padding-left:16px;">LArSimObj</span></a><a title="LArSimTools" href="/redmine/projects/larsimtools?jump=wiki"><span style="padding-left:16px;">LArSimTools</span></a><a title="LArSoft-SVN (legacy site)" href="/redmine/projects/larsoftsvn?jump=wiki"><span style="padding-left:16px;">LArSoft-SVN (legacy site)</span></a><a title="LArSoft Alpha Test" href="/redmine/projects/larsoft-alpha?jump=wiki"><span style="padding-left:32px;">LArSoft Alpha Test</span></a><a title="LArSoft Experiments Alpha Test" href="/redmine/projects/larsoft-experiment-alpha?jump=wiki"><span style="padding-left:48px;">LArSoft Experiments Alpha Test</span></a><a title="LArSoftObj" href="/redmine/projects/larsoftobj?jump=wiki"><span style="padding-left:16px;">LArSoftObj</span></a><a title="LArSystematics" href="/redmine/projects/larsystematics?jump=wiki"><span style="padding-left:16px;">LArSystematics</span></a><a title="LArTestAlg" href="/redmine/projects/lartestalg?jump=wiki"><span style="padding-left:16px;">LArTestAlg</span></a><a title="LArToolObj" href="/redmine/projects/lartoolobj?jump=wiki"><span style="padding-left:16px;">LArToolObj</span></a><a title="LArUtils" href="/redmine/projects/larutils?jump=wiki"><span style="padding-left:16px;">LArUtils</span></a><a title="larwirecell" href="/redmine/projects/larwirecell?jump=wiki"><span style="padding-left:16px;">larwirecell</span></a><a title="LBNE code" href="/redmine/projects/lbnecode?jump=wiki"><span style="padding-left:16px;">LBNE code</span></a><a title="NuSystematics" href="/redmine/projects/nusystematics?jump=wiki"><span style="padding-left:16px;">NuSystematics</span></a><a title="parsegdml" href="/redmine/projects/parsegdml?jump=wiki"><span style="padding-left:16px;">parsegdml</span></a><a title="uBooNE code" href="/redmine/projects/uboonecode?jump=wiki"><span style="padding-left:16px;">uBooNE code</span></a><a title="CC1pi" href="/redmine/projects/cc1pi?jump=wiki"><span style="padding-left:32px;">CC1pi</span></a><a title="UBooNE alg" href="/redmine/projects/uboonealg?jump=wiki"><span style="padding-left:32px;">UBooNE alg</span></a><a title="uBAna" href="/redmine/projects/ubana?jump=wiki"><span style="padding-left:32px;">uBAna</span></a><a title="uBCRT" href="/redmine/projects/ubcrt?jump=wiki"><span style="padding-left:32px;">uBCRT</span></a><a title="uBCV" href="/redmine/projects/ubcv?jump=wiki"><span style="padding-left:32px;">uBCV</span></a><a title="uBCore" href="/redmine/projects/ubcore?jump=wiki"><span style="padding-left:32px;">uBCore</span></a><a title="uBEvt" href="/redmine/projects/ubevt?jump=wiki"><span style="padding-left:32px;">uBEvt</span></a><a title="uBLite" href="/redmine/projects/ublite?jump=wiki"><span style="padding-left:32px;">uBLite</span></a><a title="uBObj" href="/redmine/projects/ubobj?jump=wiki"><span style="padding-left:32px;">uBObj</span></a><a title="uBRaw" href="/redmine/projects/ubraw?jump=wiki"><span style="padding-left:32px;">uBRaw</span></a><a title="uBReco" href="/redmine/projects/ubreco?jump=wiki"><span style="padding-left:32px;">uBReco</span></a><a title="uBSim" href="/redmine/projects/ubsim?jump=wiki"><span style="padding-left:32px;">uBSim</span></a><a title="uBXSec" href="/redmine/projects/ubxsec?jump=wiki"><span style="padding-left:32px;">uBXSec</span></a><a title="lar_ci" href="/redmine/projects/lar_ci?jump=wiki"><span style="padding-left:0px;">lar_ci</span></a><a title="darkart" href="/redmine/projects/darkart?jump=wiki"><span style="padding-left:0px;">darkart</span></a><a title="darkmon" href="/redmine/projects/darkmon?jump=wiki"><span style="padding-left:0px;">darkmon</span></a><a title="darkside-public" href="/redmine/projects/darkside-public?jump=wiki"><span style="padding-left:0px;">darkside-public</span></a><a title="darksidecore" href="/redmine/projects/darksidecore?jump=wiki"><span style="padding-left:0px;">darksidecore</span></a><a title="ds50daq" href="/redmine/projects/ds50daq?jump=wiki"><span style="padding-left:0px;">ds50daq</span></a><a title="DUNE" href="/redmine/projects/dune?jump=wiki"><span style="padding-left:0px;">DUNE</span></a><a title="DUNE Approved Plots" href="/redmine/projects/dune-approved-plots?jump=wiki"><span style="padding-left:16px;">DUNE Approved Plots</span></a><a title="Dune Computing" href="/redmine/projects/dune-computing?jump=wiki"><span style="padding-left:16px;">Dune Computing</span></a><a title="duneutil" href="/redmine/projects/duneutil?jump=wiki"><span style="padding-left:32px;">duneutil</span></a><a title="DUNE DAQ" href="/redmine/projects/dune-daq?jump=wiki"><span style="padding-left:16px;">DUNE DAQ</span></a><a title="DUNE NearDet Design" href="/redmine/projects/dune-neardet-design?jump=wiki"><span style="padding-left:16px;">DUNE NearDet Design</span></a><a title="dunetpc" href="/redmine/projects/dunetpc?jump=wiki"><span style="padding-left:16px;">dunetpc</span></a><a title="protoduneana" href="/redmine/projects/protoduneana?jump=wiki"><span style="padding-left:32px;">protoduneana</span></a><a title="upd" href="/redmine/projects/upd?jump=wiki"><span style="padding-left:0px;">upd</span></a><a title="ups" href="/redmine/projects/ups?jump=wiki"><span style="padding-left:0px;">ups</span></a><a title="Fermi Redmine" href="/redmine/projects/fermi-redmine?jump=wiki"><span style="padding-left:0px;">Fermi Redmine</span></a><a title="Projects for Monitoring Redmine Health" href="/redmine/projects/test-p1?jump=wiki"><span style="padding-left:16px;">Projects for Monitoring Redmine Health</span></a><a title="redmine-lib" href="/redmine/projects/redmine-lib?jump=wiki"><span style="padding-left:16px;">redmine-lib</span></a><a title="g4hpc" href="/redmine/projects/g4hpc?jump=wiki"><span style="padding-left:0px;">g4hpc</span></a><a title="g4hpcbenchmarks" href="/redmine/projects/g4hpcbenchmarks?jump=wiki"><span style="padding-left:16px;">g4hpcbenchmarks</span></a><a title="HepPDT" href="/redmine/projects/heppdt?jump=wiki"><span style="padding-left:0px;">HepPDT</span></a><a title="ICARUS LArSoft" href="/redmine/projects/icaruscode?jump=wiki"><span style="padding-left:0px;">ICARUS LArSoft</span></a><a title="icarus_data" href="/redmine/projects/icarus_data?jump=wiki"><span style="padding-left:16px;">icarus_data</span></a><a title="icarusutil" href="/redmine/projects/icarusutil?jump=wiki"><span style="padding-left:16px;">icarusutil</span></a><a title="LAr Batch Tools" href="/redmine/projects/larbatch?jump=wiki"><span style="padding-left:0px;">LAr Batch Tools</span></a><a title="LBNE Utilities" href="/redmine/projects/lbneutil?jump=wiki"><span style="padding-left:0px;">LBNE Utilities</span></a><a title="DAQ" href="/redmine/projects/mu2edaq?jump=wiki"><span style="padding-left:0px;">DAQ</span></a><a title="mu2e_artdaq" href="/redmine/projects/mu2e_artdaq?jump=wiki"><span style="padding-left:16px;">mu2e_artdaq</span></a><a title="Mu2e DAQ Computing" href="/redmine/projects/mu2e-daq-computing?jump=wiki"><span style="padding-left:16px;">Mu2e DAQ Computing</span></a><a title="mu2e DCS" href="/redmine/projects/mu2e-dcs?jump=wiki"><span style="padding-left:16px;">mu2e DCS</span></a><a title="Mu2e Raw Data" href="/redmine/projects/mu2e-raw-data?jump=wiki"><span style="padding-left:16px;">Mu2e Raw Data</span></a><a title="Databases" href="/redmine/projects/databases?jump=wiki"><span style="padding-left:0px;">Databases</span></a><a title="Detector Construction DB" href="/redmine/projects/mu2e_detector_construction_db?jump=wiki"><span style="padding-left:16px;">Detector Construction DB</span></a><a title="Offline Software" href="/redmine/projects/offlinesoftware?jump=wiki"><span style="padding-left:0px;">Offline Software</span></a><a title="G4beamline" href="/redmine/projects/mu2eofflinesoftwareg4beamline?jump=wiki"><span style="padding-left:16px;">G4beamline</span></a><a title="Grid Scripts" href="/redmine/projects/mu2egrid?jump=wiki"><span style="padding-left:16px;">Grid Scripts</span></a><a title="Muon g-2" href="/redmine/projects/g-2?jump=wiki"><span style="padding-left:0px;">Muon g-2</span></a><a title="Calorimeter CDR req." href="/redmine/projects/calorequirements?jump=wiki"><span style="padding-left:16px;">Calorimeter CDR req.</span></a><a title="g-2 Art Examples" href="/redmine/projects/gm2artexamples?jump=wiki"><span style="padding-left:16px;">g-2 Art Examples</span></a><a title="g-2 CDR" href="/redmine/projects/gm2cdr?jump=wiki"><span style="padding-left:16px;">g-2 CDR</span></a><a title="g-2 DAQ" href="/redmine/projects/gm2daq?jump=wiki"><span style="padding-left:16px;">g-2 DAQ</span></a><a title="g-2 DQM" href="/redmine/projects/gm2dqm?jump=wiki"><span style="padding-left:32px;">g-2 DQM</span></a><a title="g-2 public" href="/redmine/projects/gm2public?jump=wiki"><span style="padding-left:16px;">g-2 public</span></a><a title="g-2 Release Tools" href="/redmine/projects/gm2releasetools?jump=wiki"><span style="padding-left:16px;">g-2 Release Tools</span></a><a title="g2MIGTRACE" href="/redmine/projects/g2migtrace?jump=wiki"><span style="padding-left:16px;">g2MIGTRACE</span></a><a title="g2mtanalysismacros" href="/redmine/projects/g2mtanalysismacros?jump=wiki"><span style="padding-left:16px;">g2mtanalysismacros</span></a><a title="g-2 SRBD" href="/redmine/projects/g-2-srbd?jump=wiki"><span style="padding-left:16px;">g-2 SRBD</span></a><a title="g-2 TDR" href="/redmine/projects/gm2tdr?jump=wiki"><span style="padding-left:16px;">g-2 TDR</span></a><a title="gm2analyses" href="/redmine/projects/gm2analyses?jump=wiki"><span style="padding-left:16px;">gm2analyses</span></a><a title="gm2aux" href="/redmine/projects/gm2aux?jump=wiki"><span style="padding-left:16px;">gm2aux</span></a><a title="gm2beams" href="/redmine/projects/gm2beams?jump=wiki"><span style="padding-left:16px;">gm2beams</span></a><a title="gm2calo" href="/redmine/projects/gm2calo?jump=wiki"><span style="padding-left:16px;">gm2calo</span></a><a title="gm2dataproducts" href="/redmine/projects/gm2dataproducts?jump=wiki"><span style="padding-left:16px;">gm2dataproducts</span></a><a title="gm2field" href="/redmine/projects/gm2field?jump=wiki"><span style="padding-left:16px;">gm2field</span></a><a title="gm2fieldanalyzer" href="/redmine/projects/gm2fieldanalyzer?jump=wiki"><span style="padding-left:32px;">gm2fieldanalyzer</span></a><a title="gm2fielddaq" href="/redmine/projects/gm2fielddaq?jump=wiki"><span style="padding-left:32px;">gm2fielddaq</span></a><a title="gm2fieldsignal" href="/redmine/projects/gm2fieldsignal?jump=wiki"><span style="padding-left:32px;">gm2fieldsignal</span></a><a title="gm2geom" href="/redmine/projects/gm2geom?jump=wiki"><span style="padding-left:16px;">gm2geom</span></a><a title="gm2mcdataproducts" href="/redmine/projects/gm2mcdataproducts?jump=wiki"><span style="padding-left:16px;">gm2mcdataproducts</span></a><a title="gm2midas" href="/redmine/projects/gm2midas?jump=wiki"><span style="padding-left:16px;">gm2midas</span></a><a title="gm2midastoart" href="/redmine/projects/gm2midastoart?jump=wiki"><span style="padding-left:16px;">gm2midastoart</span></a><a title="gm2MTest2012" href="/redmine/projects/gm2mtest2012?jump=wiki"><span style="padding-left:16px;">gm2MTest2012</span></a><a title="gm2optics" href="/redmine/projects/gm2optics?jump=wiki"><span style="padding-left:16px;">gm2optics</span></a><a title="gm2planning" href="/redmine/projects/gm2planning?jump=wiki"><span style="padding-left:16px;">gm2planning</span></a><a title="gm2reconeast" href="/redmine/projects/gm2reconeast?jump=wiki"><span style="padding-left:16px;">gm2reconeast</span></a><a title="gm2ringsim" href="/redmine/projects/gm2ringsim?jump=wiki"><span style="padding-left:16px;">gm2ringsim</span></a><a title="gm2SoftwareTools" href="/redmine/projects/gm2softwaretools?jump=wiki"><span style="padding-left:16px;">gm2SoftwareTools</span></a><a title="gm2strawtracking" href="/redmine/projects/gm2strawtracking?jump=wiki"><span style="padding-left:16px;">gm2strawtracking</span></a><a title="gm2swdocs" href="/redmine/projects/gm2swdocs?jump=wiki"><span style="padding-left:16px;">gm2swdocs</span></a><a title="gm2test" href="/redmine/projects/gm2test?jump=wiki"><span style="padding-left:16px;">gm2test</span></a><a title="gm2tracker" href="/redmine/projects/gm2tracker?jump=wiki"><span style="padding-left:16px;">gm2tracker</span></a><a title="gm2trackerdaq" href="/redmine/projects/gm2trackerdaq?jump=wiki"><span style="padding-left:16px;">gm2trackerdaq</span></a><a title="gm2unpackers" href="/redmine/projects/gm2unpackers?jump=wiki"><span style="padding-left:16px;">gm2unpackers</span></a><a title="gm2util" href="/redmine/projects/gm2util?jump=wiki"><span style="padding-left:16px;">gm2util</span></a><a title="gm2viz" href="/redmine/projects/gm2viz?jump=wiki"><span style="padding-left:16px;">gm2viz</span></a><a title="gm2vtk" href="/redmine/projects/gm2vtk?jump=wiki"><span style="padding-left:16px;">gm2vtk</span></a><a title="g-2 Field Shimming Paper" href="/redmine/projects/gm2fsp?jump=wiki"><span style="padding-left:16px;">g-2 Field Shimming Paper</span></a><a title="gm2db" href="/redmine/projects/gm2db?jump=wiki"><span style="padding-left:16px;">gm2db</span></a><a title="gm2ilratio" href="/redmine/projects/gm2ilratio?jump=wiki"><span style="padding-left:16px;">gm2ilratio</span></a><a title="gm2reconita" href="/redmine/projects/gm2reconita?jump=wiki"><span style="padding-left:16px;">gm2reconita</span></a><a title="gm2sc" href="/redmine/projects/gm2sc?jump=wiki"><span style="padding-left:16px;">gm2sc</span></a><a title="gm2simvalidation" href="/redmine/projects/gm2simvalidation?jump=wiki"><span style="padding-left:16px;">gm2simvalidation</span></a><a title="gm2templates" href="/redmine/projects/gm2templates?jump=wiki"><span style="padding-left:16px;">gm2templates</span></a><a title="NOvA-ART" href="/redmine/projects/novaart?jump=wiki"><span style="padding-left:0px;">NOvA-ART</span></a><a title="NOvA validation" href="/redmine/projects/nova-validation?jump=wiki"><span style="padding-left:16px;">NOvA validation</span></a><a title="NuTools" href="/redmine/projects/nutools?jump=wiki"><span style="padding-left:0px;">NuTools</span></a><a title="NuEvdb" href="/redmine/projects/nuevdb?jump=wiki"><span style="padding-left:16px;">NuEvdb</span></a><a title="NuG4" href="/redmine/projects/nug4?jump=wiki"><span style="padding-left:16px;">NuG4</span></a><a title="NuGen" href="/redmine/projects/nugen?jump=wiki"><span style="padding-left:16px;">NuGen</span></a><a title="NuRandom" href="/redmine/projects/nurandom?jump=wiki"><span style="padding-left:16px;">NuRandom</span></a><a title="NuSimData" href="/redmine/projects/nusimdata?jump=wiki"><span style="padding-left:16px;">NuSimData</span></a><a title="NuSoft/NuTools" href="/redmine/projects/nusoftart?jump=wiki"><span style="padding-left:16px;">NuSoft/NuTools</span></a><a title="PPFX" href="/redmine/projects/ppfx?jump=wiki"><span style="padding-left:16px;">PPFX</span></a><a title="OSG-Geant4-OSGMM" href="/redmine/projects/osg-geant4-osgmm?jump=wiki"><span style="padding-left:0px;">OSG-Geant4-OSGMM</span></a><a title="SBND code" href="/redmine/projects/sbndcode?jump=wiki"><span style="padding-left:0px;">SBND code</span></a><a title="SBND utility scripts" href="/redmine/projects/sbndutil?jump=wiki"><span style="padding-left:0px;">SBND utility scripts</span></a><a title="IF Data Handling Client Tools (ifdhc)" href="/redmine/projects/ifdhc?jump=wiki"><span style="padding-left:0px;">IF Data Handling Client Tools (ifdhc)</span></a><a title="IFDH Art interface" href="/redmine/projects/ifdh-art?jump=wiki"><span style="padding-left:16px;">IFDH Art interface</span></a><a title="Simulation Tools and Features" href="/redmine/projects/stf?jump=wiki"><span style="padding-left:0px;">Simulation Tools and Features</span></a><a title="artg4tk" href="/redmine/projects/artg4tk?jump=wiki"><span style="padding-left:16px;">artg4tk</span></a><a title="DoSSiER" href="/redmine/projects/dossier?jump=wiki"><span style="padding-left:16px;">DoSSiER</span></a><a title="Geant4Reweight" href="/redmine/projects/geant4reweight?jump=wiki"><span style="padding-left:16px;">Geant4Reweight</span></a><a title="uBooNE Reconstruction" href="/redmine/projects/uboone-reconstruction?jump=wiki"><span style="padding-left:0px;">uBooNE Reconstruction</span></a><a title="uBooNE Utilities" href="/redmine/projects/ubutil?jump=wiki"><span style="padding-left:0px;">uBooNE Utilities</span></a><a title="detsim.fnal.gov" href="/redmine/projects/detsim-fnal-gov?jump=wiki"><span style="padding-left:0px;">detsim.fnal.gov</span></a><a title="SoftRelTools" href="/redmine/projects/softreltools?jump=wiki"><span style="padding-left:0px;">SoftRelTools</span></a><a title="Spack Infrastructure" href="/redmine/projects/spack-infrastructure?jump=wiki"><span style="padding-left:0px;">Spack Infrastructure</span></a></div><div class="drdn-items all-projects selection"><a href="/redmine/projects?jump=wiki">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="current-project">LArSoft</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li>
+<a id="new-object" onclick="toggleNewObjectDropdown(); return false;" class="new-object" href="#"> + </a>
+<ul class="menu-children"><li><a accesskey="7" class="new-issue-sub" href="/redmine/projects/larsoft/issues/new">New issue</a></li><li><a class="new-issue-category" href="/redmine/projects/larsoft/issue_categories/new">New category</a></li><li><a class="new-version" href="/redmine/projects/larsoft/versions/new">New version</a></li><li><a class="new-timelog" href="/redmine/projects/larsoft/time_entries/new">Log time</a></li><li><a class="new-document" href="/redmine/projects/larsoft/documents/new">New document</a></li><li><a class="new-wiki-page" href="/redmine/projects/larsoft/wiki/new">New wiki page</a></li><li><a class="new-file" href="/redmine/projects/larsoft/files/new">New file</a></li></ul>
+</li><li><a class="overview" href="/redmine/projects/larsoft">Overview</a></li><li><a class="activity" href="/redmine/projects/larsoft/activity">Activity</a></li><li><a class="roadmap" href="/redmine/projects/larsoft/roadmap">Roadmap</a></li><li><a class="issues" href="/redmine/projects/larsoft/issues">Issues</a></li><li><a class="time-entries" href="/redmine/projects/larsoft/time_entries">Spent time</a></li><li><a class="gantt" href="/redmine/projects/larsoft/issues/gantt">Gantt</a></li><li><a class="calendar" href="/redmine/projects/larsoft/issues/calendar">Calendar</a></li><li><a class="documents" href="/redmine/projects/larsoft/documents">Documents</a></li><li><a class="wiki selected" href="/redmine/projects/larsoft/wiki">Wiki</a></li><li><a class="files" href="/redmine/projects/larsoft/files">Files</a></li><li><a class="repository" href="/redmine/projects/larsoft/repository">Repository</a></li><li><a class="settings" href="/redmine/projects/larsoft/settings">Settings</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+          
+<h3>Wiki</h3>
+<ul>
+  <li><a href="/redmine/projects/larsoft/wiki">Start page</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/index">Index by title</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/date_index">Index by date</a></li>
+</ul>
+
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+<a class="icon icon-add" data-remote="true" href="/redmine/projects/larsoft/wiki/new">New wiki page</a>
+  <a class="icon icon-edit" accesskey="e" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit">Edit</a>
+  <a class="wiki_page-12392-watcher icon icon-fav-off" data-remote="true" rel="nofollow" data-method="post" href="/redmine/watchers/watch?object_id=12392&amp;object_type=wiki_page">Watch</a>
+  <a class="icon icon-lock" rel="nofollow" data-method="post" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/protect?protected=1">Lock</a>
+  
+  <a class="icon icon-move" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/rename">Rename</a>
+  <a data-confirm="Are you sure?" class="icon icon-del" rel="nofollow" data-method="delete" href="/redmine/projects/larsoft/wiki/_AnalysisExample_">Delete</a>
+<a class="icon icon-history" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/history">History</a>
+</div>
+
+<p class="breadcrumb"><a href="/redmine/projects/larsoft/wiki/LArSoftWiki">LArSoftWiki</a> » <a href="/redmine/projects/larsoft/wiki/Using_LArSoft">Using LArSoft</a> » </p>
+
+
+<div class="wiki wiki-page">
+  <ul class="toc"><li><strong>Table of contents</strong></li><li><a href="#Getting-started-with-an-analysis-task">Getting started with an analysis task</a><ul><li><ul><li><ul><li><a href="#Assumptions">Assumptions</a></li><li><a href="#Cautions">Cautions</a></li><li><a href="#Alternatives">Alternatives</a></li><li><a href="#Be-patient">Be patient</a></li></ul>
+</li></ul>
+</li><li><a href="#Set-up-the-LArSoft-environment">Set up the LArSoft environment</a></li><li><a href="#Set-up-a-working-directory">Set up a working directory</a></li><li><a href="#Checkout-the-AnalysisExample-package-to-your-development-directory">Checkout the AnalysisExample package to your development directory</a><ul><li><a href="#The-larexamples-version-tag">The larexamples version tag</a></li></ul>
+</li><li><a href="#Copying-and-renaming-AnalysisExample-to-YourTask">Copying and renaming AnalysisExample to ${YourTask}</a><ul><li><a href="#Create-a-product">Create a product</a></li><li><a href="#mrb-bookkeeping">mrb bookkeeping</a></li><li><a href="#Copy-AnalysisExample">Copy AnalysisExample</a></li><li><a href="#Change-the-name">Change the name</a></li><li><a href="#Test-compile">Test compile</a></li><li><a href="#Does-it-work">Does it work?</a><ul><li><a href="#Doing-a-complete-generationsimulationreconstruction-test">Doing a complete generation/simulation/reconstruction test</a></li></ul>
+</li></ul>
+</li><li><a href="#Other-tips">Other tips</a><ul><li><a href="#Quick-set-up">Quick set-up</a></li><li><a href="#Getting-information">Getting information</a></li><li><a href="#Browsing-code-on-the-web">Browsing code on the web</a></li><li><a href="#Browsing-code-in-UNIX">Browsing code in UNIX</a></li></ul>
+</li><li><a href="#Other-links">Other links</a></li></ul></li></ul>
+
+
+	<a name="Getting-started-with-an-analysis-task"></a>
+<h1 >Getting started with an analysis task<a href="#Getting-started-with-an-analysis-task" class="wiki-anchor">&para;</a></h1>
+
+
+	<p>This page goes along with the <a href="https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/revisions/develop/show/larexamples/AnalysisExample" class="external">AnalysisExample</a> package in LArSoft. It provides an example of how to get started writing code to perform an analysis task on an event file created by LArSoft. It's meant for newcomers to LArSoft.</p>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-2"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=2">Edit this section</a></div><a name="Assumptions"></a>
+<h4 >Assumptions<a href="#Assumptions" class="wiki-anchor">&para;</a></h4>
+	<ul>
+	<li>You are moderately familiar with <a href="http://unix.t-a-y-l-o-r.com/index.html" class="external">UNIX</a>.
+    * You have a passing acquaintance with <a href="http://root.cern.ch" class="external">ROOT</a>.
+    * You've at least glanced at some of the other pages in this wiki.
+    * You're willing to roll up your sleeves and get your hands dirty with <a href="http://www.cplusplus.com/doc/tutorial/" class="external">C++</a> and <a href="http://www.cs.brown.edu/people/jak/proglang/cpp/stltut/tut.html" class="external">STL</a>.
+    * You're working with a file that contains LArSoft art::Event records. 
+    * Your goal is to analyze a file created by the LArSoft package, or perhaps try to understand some basic LArSoft concepts.</li>
+	</ul>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-3"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=3">Edit this section</a></div><a name="Cautions"></a>
+<h4 >Cautions<a href="#Cautions" class="wiki-anchor">&para;</a></h4>
+	<ul>
+	<li>If you've been given a file that contains a ROOT n-tuple, then you don't need this page. Just start using ROOT (there's a nice <a href="http://www.nevis.columbia.edu/~seligman/root-class/" class="external">tutorial</a>) and work with the n-tuple.</li>
+	</ul>
+	<ul>
+	<li>If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You'll learn something about the development environment and how to read data from LArSoft event records; you won't learn how to <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#artEDProducer" class="external">create producer or filter packages</a>, how to <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#Making-Objects-to-Store-in-the-Output" class="external">write data</a> or <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#artAssns" class="external">create associations</a>, how to <a href="https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide" class="external">save your work in a git repository</a>, etc. You probably want to read <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Developing_With_LArSoft" class="external">Developing with LArSoft</a> instead.</li>
+	</ul>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-4"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=4">Edit this section</a></div><a name="Alternatives"></a>
+<h4 >Alternatives<a href="#Alternatives" class="wiki-anchor">&para;</a></h4>
+
+
+	<p>Aside from AnalysisExample, there are other packages you may want to consider for extracting n-tuples from LArSoft event records. Here are the differences:</p>
+	<ul>
+	<li><a href="https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/AnalysisTree_variables#What-is-AnalysisTree" class="external">AnalysisTree</a> is primarily meant for MicroBooNE users. It reads a file of events and creates a generic n-tuple. The n-tuple is fairly complete, and there's a good chance that the data you're looking for is in there. However, AnalysisTree's n-tuple does not have every bit of data recorded in LArSoft (e.g., the sim::SimChannel information used to derive dE/dx in AnalysisExample).</li>
+	</ul>
+	<ul>
+	<li><a href="http://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=3183" class="external">LArLite</a> is a MicroBooNE-based tool for simplified data analysis on LArSoft events. It's more user-friendly than LArSoft. However, LArSoft event files have to be converted into LArLite's format before you can use the tool. Also, as with AnalysisTree, not every data item is copied from a LArSoft event record into a LArLite file (though the <a href="mailto:kazuhiro@nevis.columbia.edu">developer</a> responds to requests very quickly). </li>
+	</ul>
+	<ul>
+	<li><a href="https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/" class="external">Gallery</a> is a package for reading files that contain art::Event records. The package itself does not depend on art, and can be simply run without using FHiCL files and the like. There are some nice examples of how to use Gallery <a href="https://github.com/marcpaterno/gallery-demo" class="external">here</a>. However, you have to be familiar with <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft" class="external">art input protocols</a> (as demonstrated in the AnalysisExample code). Also, Gallery does not support art Services and Algorithms; you have to use other tools if you need access to, for example, detector information or simulation parameters (also demonstrated in AnalysisExample). </li>
+	</ul>
+	<ul>
+	<li>AnalysisExample, an <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#artEDAnalyzer" class="external">art::EDAnalyzer</a>, gives you access to all the data objects in LArSoft event records, and all of the art/LArSoft methods and services. It's also useful as a way to learn how to use the LArSoft framework. However, it is not as simple to use as the previous tools; simplicity is not a virtue of LArSoft.</li>
+	</ul>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-5"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=5">Edit this section</a></div><a name="Be-patient"></a>
+<h4 >Be patient<a href="#Be-patient" class="wiki-anchor">&para;</a></h4>
+
+
+	<p>The art/LArSoft framework is actively evolving. It's possible that some of the steps below no longer work as is (everything has been verified as of July-2017). If something goes wrong, the following resources may help:</p>
+	<ul>
+	<li><a class="wiki-page" href="/redmine/projects/larsoft/wiki/_Quick-start_guide_to_using_and_developing_LArSoft_code_">LArSoft Quick-Start Guide</a>
+    * <a class="wiki-page" href="/redmine/projects/mrb/wiki/MrbUserGuide">MRB user guide</a></li>
+	</ul>
+
+
+	<p>This page covers much the same ground as the <a class="wiki-page" href="/redmine/projects/larsoft/wiki/_Quick-start_guide_to_using_and_developing_LArSoft_code_">quick-start guide</a>, but this tutorial is focused on analysis tasks, and it explains the reason why everything works as we go along. Hopefully you'll have enough clues to solve any problems that come up.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-6"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=6">Edit this section</a></div><a name="Set-up-the-LArSoft-environment"></a>
+<h2 >Set up the LArSoft environment<a href="#Set-up-the-LArSoft-environment" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>You have to set up the LArSoft development environment for your installation. Look up the instructions for your location; e.g. <a class="wiki-page" href="/redmine/projects/larsoft/wiki/_Quick-start_guide_to_using_and_developing_LArSoft_code_">Fermilab</a> or <a href="https://twiki.nevis.columbia.edu/twiki/bin/view/Main/LArSoftAtNevis" class="external">Nevis</a>.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-7"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=7">Edit this section</a></div><a name="Set-up-a-working-directory"></a>
+<h2 >Set up a working directory<a href="#Set-up-a-working-directory" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>This is described in the <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_Quick-start_guide_to_using_and_developing_LArSoft_code_" class="external">quick-start guide</a>. You'll typically be working with files created by a specific release of LArSoft.</p>
+
+
+	<p>In this example, I'll assume you want your working directory to be <code>lardev</code> in your home directory, and you plan to work on files created with release v06_44_00. I'm also going to use shell variables when I can, so you can see what's optional and what you can easily change. Let's set up this brand-new development directory:</p>
+
+
+<pre>
+source /nevis/amsterdam/share/seligman/microboone/setup_uboone.sh
+# At Fermilab, use these commands:
+#    For uBooNE:  source /grid/fermiapp/products/uboone/setup_uboone.sh
+#    For DUNE:    source /grid/fermiapp/lbne/software/setup_lbne.sh
+#    For SBND:    source /grid/fermiapp/products/lar1nd/setup_lar1nd.sh
+#
+myDev=~/lardev                           # Define your development directory. 
+mkdir -p ${myDev}                        # Create the working directory, if it's not there already. 
+cd ${myDev}                              # Go there.
+vers=v06_44_00                           # Store the larsoft version in a variable for these example commands.
+comp=e14                                 # Compiler version. "ups list -aK+ uboonecode" will tell you which to use.
+                                         # (replace "uboonecode" with your experiment's repository; e.g., dunetpc)
+type=debug                               # Use "debug" when developing; "prof" for production.
+mrb newDev -v ${vers} -q ${comp}:${type} # Install the stuff needed to work with mrb+git
+# 'mrb newDev' tells you to do this
+source ./localProducts_larsoft_${vers}_${comp}_${type}/setup  
+</pre>
+
+	<p>Remember, you only have to do the above once. Afterwards, when you log in, you'll run the mrb+git setup, followed by the setup for your development directory. For example, at Nevis, this would be:</p>
+
+
+<pre>
+source /nevis/amsterdam/share/seligman/microboone/setup_uboone.sh
+myDev=~/lardev
+vers=v06_44_00
+comp=e14
+type=debug 
+source ${myDev}/localProducts_larsoft_${vers}_${comp}_${type}/setup 
+</pre>
+
+	<p>Since you have to type the same commands every time you want to work with LArSoft, you may want to set up a command alias that does it for you. For example, if you're at Fermilab, you could include the following lines in <code>~/.bashrc</code>:</p>
+
+
+<pre>
+export myDev=~/lardev
+vers=v06_44_00
+comp=e14
+type=debug 
+alias MBD="source /grid/fermiapp/uboone/software/setup_uboone.sh; source ${myDev}/localProducts_larsoft_${vers}_${comp}_${type}/setup" 
+</pre>
+
+	<p>"MBD" stands for "MicroBooNE Development", but you could use any alias you wish. Remember that the alias command must be a single line in the file, even though it may be displayed as more than one line above.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-8"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=8">Edit this section</a></div><a name="Checkout-the-AnalysisExample-package-to-your-development-directory"></a>
+<h2 >Checkout the AnalysisExample package to your development directory<a href="#Checkout-the-AnalysisExample-package-to-your-development-directory" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>The best way to get AnalysisExample and its associated documentation is by checking out the <code>larexamples</code> product from the repository. (As you will learn as you work with LArSoft, you can only checkout code on the "product" level; you cannot just checkout an individual package.) This is covered in the <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_Quick-start_guide_to_using_and_developing_LArSoft_code_" class="external">quick-start guide</a>. I'm going to do this with variables, as I did above:</p>
+
+
+<pre>
+cd ${MRB_SOURCE}                          # Go to your srcs directory
+mrb gitCheckout -t LARSOFT_SUITE_${vers} larexamples  # Checkout the larexamples product, which includes AnalysisExample
+cd ${MRB_BUILDDIR}                        # Go to your build directory
+mrbsetenv                                 # Create the bookkeeping files needed to compile programs.
+</pre>
+
+	<p>As a quick check, let's compile the code to see if there are any outstanding problems:</p>
+
+
+<pre>
+mrb install                               # Compile the code in ${MRB_SOURCE} and put the results in ${MRB_INSTALL}
+</pre>
+
+	<p>The <code>larexamples</code> product includes other example code in addition to AnalysisExample; you'll see that code compile as well. If you'd like to learn more about those Algorithm and Service examples, see <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/LArSoft_examples" class="external">LArSoft Examples</a>.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-9"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=9">Edit this section</a></div><a name="The-larexamples-version-tag"></a>
+<h3 >The <code>larexamples</code> version tag<a href="#The-larexamples-version-tag" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>A note about the <code>-t</code> option in the mrb gitCheckout line above:</p>
+
+
+	<p>The -t option specifies the version tag. Without it, you get the most up-to-date version of the code, in the develop branch. However, we specified a particular version of <code>larsoft</code> above (look for when we used the variable <code>${vers}</code>). As you may have already learned, <code>larsoft</code> consists of groups or products (<code>larsim</code>, <code>larreco</code>, <code>larexamples</code>, etc.) and each of the those products has its own version number that's independent of the overall <code>larsoft</code> version number.</p>
+
+
+	<p>For this analysis task, we want to maintain consistency between the version of <code>larsoft</code> we set up and the version of <code>larexamples</code> that we checkout. The <code>-t LARSOFT_SUITE_${vers}</code> makes sure of this, since as each product is updated by the software librarian it's given an associated tag of <code>LARSOFT_SUITE_&lt;larsoft-version&gt;</code>.</p>
+
+
+	<p>For this particular example, it probably doesn't make much difference; the <code>larexamples</code> package is updated so infrequently that the most up-to-date version probably matches the <code>larsoft</code> version you want to use. However, as you move on to more complex <code>larsoft</code> development tasks, you may want to think about the tags of the sub-products that you checkout. That's why we're making a big fuss about <code>-t</code> right now.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-10"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=10">Edit this section</a></div><a name="Copying-and-renaming-AnalysisExample-to-YourTask"></a>
+<h2 >Copying and renaming AnalysisExample to ${YourTask}<a href="#Copying-and-renaming-AnalysisExample-to-YourTask" class="wiki-anchor">&para;</a></h2>
+
+
+	<p><em>Warning:</em> At this point, you may be tempted to go into <code>${MRB_SOURCE}/larexamples/larexamples/AnalysisExample</code> and start making changes. <strong>Don't do this! No!</strong></p>
+
+
+	<p>Why not? Because if you were to <code>git push</code> any of the those changes, they'd affect the "official" version of <code>AnalysisExample</code>, which exists as an example for everyone to use for their analysis (you figured that out, didn't you?). You don't want to alter AnalysisExample. You want to copy it and make changes to your copy.</p>
+
+
+	<p>As noted above, the mrb+git system organizes packages (e.g., HitFinder, ClusterFinder) into groups or products that can be set up with <a href="https://cdcvs.fnal.gov/redmine/projects/ups/wiki/UPSV4TOC" class="external">UPS</a> (e.g., <code>larreco</code>); here's a list of the <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_LArSoft_repositories_packages_and_dependencies_" class="external">groups</a>. I'm going to assume that you'll create a product of your own. Let's call it <code>myntuples</code>; product names must be in lower-case.</p>
+
+
+	<p>In your product will be all the ntuple packages you're going to create based on AnalysisExample; e.g., MyEnergyStudy, MyEfficiencyHistograms. Or perhaps you'll just create one package, but with many modules; e.g., create a MyNtuples package and within it create files like MyEnergyStudy_module.cc, MyEfficiencyHistograms_module.cc. Either approach will work.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-11"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=11">Edit this section</a></div><a name="Create-a-product"></a>
+<h3 >Create a product<a href="#Create-a-product" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>We start by creating a new mrb product:</p>
+
+
+<pre>
+cd ${MRB_SOURCE}
+# Again, I'm using variables.
+myProject=myntuples                      
+# Create a blank product.
+mrb newProduct ${myProject}
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-12"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=12">Edit this section</a></div><a name="mrb-bookkeeping"></a>
+<h3 >mrb bookkeeping<a href="#mrb-bookkeeping" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>Next comes a bit of bookkeeping that <code>mrb newProduct</code> omits: you need to manually set which version of larsoft and other products for mrb to use. You'll receive a warning about this when you run <code>mrb newProduct</code>; the warning in this case is:</p>
+
+
+<pre>
+   Check myntuples/ups/product_deps
+   Check myntuples/CMakeLists.txt file
+   Acc code in myntuples/myntuples
+</pre>
+
+	<p>Typically, all you have to do is type the following commands:</p>
+
+
+<pre>
+# Tell mrb the required larsoft version for your new product
+mrb uv larsoft ${vers}
+# Tell mrb to update CMakeLists.txt with the latest version numbers of the products.
+mrb uc 
+
+# Optional; if you want to define a version number for your new product.
+# The version number can be anything you want.
+myProjectVersion=v00_00_05                 
+mrb uv ${myProject} ${myProjectVersion}   
+
+# "mrb uv" tells you to do this. If everything were perfect it would not be needed,
+# but things are _not_ perfect and you're going to see at least one error message.  
+cd ${MRB_BUILDDIR}            
+mrbsetenv                  
+</pre>
+
+	<p>The error message looks something like this:<br /><pre>
+ERROR: Version conflict -- dependency tree requires versions conflicting with current setup of product gcc: version v4_8_1 vs v6_3_0
+</pre></p>
+
+
+	<p>This suggests that while we told mrb to update the version of LArSoft (via <code>mrb uv</code> above), we also need to update the version of gcc to <code>v6_3_0</code>:<br /><pre>
+cd ${MRB_SOURCE}/${myProject}
+mrb uv gcc v6_3_0
+</pre></p>
+
+
+	<p>Then try <code>mrbsetenv</code> again:<br /><pre>
+cd ${MRB_BUILDDIR}            
+mrbsetenv                  
+</pre></p>
+
+
+	<p>Now it works. You've just solved your first product-dependency issue!</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-13"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=13">Edit this section</a></div><a name="Copy-AnalysisExample"></a>
+<h3 >Copy AnalysisExample<a href="#Copy-AnalysisExample" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>Instead of writing a new product from scratch, we're going to copy AnalysisExample:</p>
+
+
+<pre>
+# Again with the variables...
+myPackage=MyEnergyAnalysis
+
+# Go to my product directory...
+# (Why the stuttering of ${myProject}/${myProject}? It has to do with
+# how mrb+cmake organizes the compilation process, and also wanting to include
+# a directory prefix in C++ include statements. Just treat it as a given
+# that all product directories occur twice.)
+cd ${MRB_SOURCE}/${myProject}/${myProject}
+
+# ...and copy the AnalysisExample package from larexamples to 
+# my product directory. 
+cp -arv ${MRB_SOURCE}/larexamples/larexamples/AnalysisExample/ .
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-14"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=14">Edit this section</a></div><a name="Change-the-name"></a>
+<h3 >Change the name<a href="#Change-the-name" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>We've copied the package. Now we have to copy and edit the CMakeLists.txt files for the new product and for the products on which it depends. I'm going to use the UNIX utility <a href="http://www.grymoire.com/Unix/Sed.html" class="external">sed</a> to make the changes.</p>
+
+
+<pre>
+# Copy the larexamples/AnalysisExample CMakeLists.txt files
+cp -v ${MRB_SOURCE}/larexamples/CMakeLists.txt ${MRB_SOURCE}/${myProject}
+cp -v ${MRB_SOURCE}/larexamples/larexamples/CMakeLists.txt ${MRB_SOURCE}/${myProject}/${myProject}
+
+# This "magical invocation" means: Change all occurrences of "larexamples' to ${myProject}
+# and change all occurrences of "AnalysisExample" to ${myPackage} in the CMakeLists.txt files.
+# Also, delete any lines with "Services" and "Algorithms" (which were needed to compile larexamples,
+# but are not needed for our new product that is derived solely from AnalysisExample).
+sed -i -e "s/larexamples/${myProject}/g; s/AnalysisExample/${myPackage}/g; /Services/d; /Algorithms/d" \
+   ${MRB_SOURCE}/${myProject}/CMakeLists.txt \
+   ${MRB_SOURCE}/${myProject}/${myProject}/CMakeLists.txt
+</pre>
+
+	<p>The name AnalysisExample occurs frequently in this directory, both for the names of the files and within the files themselves. You don't want to use the name "AnalysisExample" anywhere; you want to use the name of <em>your</em> task. There's a script in the directory that will simplify the job of renaming everything.</p>
+
+
+<pre>
+mv AnalysisExample ${myPackage}
+cd ${myPackage}
+./rename.sh ${myPackage}
+</pre>
+
+	<p>The name you give to the <code>rename.sh</code> script has to be the same as the renamed AnalysisExample directory; I've made sure of this by using the shell variable in the previous lines.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-15"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=15">Edit this section</a></div><a name="Test-compile"></a>
+<h3 >Test compile<a href="#Test-compile" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>Finally, we have to add new files to our build directory for our new package:</p>
+
+
+<pre>
+cd ${MRB_BUILDDIR}
+mrbsetenv
+</pre>
+
+	<p>Go ahead and compile. You'll see your new product being compiled as well. Afterwards, you can check that your product is in <code>${MRB_INSTALL}</code>:</p>
+
+
+<pre>
+mrb install                    # Compile programs.
+ls ${MRB_INSTALL}              # A quick look at the directories created.
+find $MRB_INSTALL -name \*${myPackage}\*.so  # A quick look at the library you created.
+ups list -aK+ ${myProject}     # You'll see it listed with the version you
+                               # assigned, ${myProjectVersion}, in "mrb uv" above.
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-16"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=16">Edit this section</a></div><a name="Does-it-work"></a>
+<h3 >Does it work?<a href="#Does-it-work" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>Read the file README.md, which will lead you to ADDITIONAL_NOTES.md, which in turn will take you to the rest of the files in the directory. There's lots of comments to get you started. These files are in <code>${MRB_SOURCE}/${myProject}/${myProject}/${myPackage}</code>.</p>
+
+
+	<p>Assume you have an input (or "source") file that contains simulated and reconstructed events created by a LArSoft simulation job: <code>~/larwork/events.root</code>. Then you can run the MyEnergyStudy.fcl command file with the following (for more about the <code>lar</code> command, see <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_Running_Jobs_" class="external">Running Jobs</a>):<br /><pre>
+lar -c MyEnergyStudy.fcl -s ~/larwork/events.root -T ~/larwork/myhistogram.root
+</pre></p>
+
+
+	<p>If you read README.md, you saw that the function of the example program is to create histograms and n-tuples; these will be in the file indicated by the -T option (<code>~/larwork/myhistogram.root</code> in this example). Take a look at them using ROOT:</p>
+
+
+<pre>
+root -l ~/larwork/myhistogram.root
+TBrowser tb
+# ... and start clicking around.
+</pre>
+
+	<div class="contextual heading-4" title="Edit this section" id="section-17"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=17">Edit this section</a></div><a name="Doing-a-complete-generationsimulationreconstruction-test"></a>
+<h4 >Doing a complete generation/simulation/reconstruction test<a href="#Doing-a-complete-generationsimulationreconstruction-test" class="wiki-anchor">&para;</a></h4>
+
+
+	<p>If you want to just run AnalysisExample to see what it does, you'll have to generate, simulate, and reconstruct events. For a simple test using the MicroBooNE detector, do the following: Copy <code>$UBOONEDIR_DIR/job/prodsingle_uboone.fcl</code> to your working area. As noted in the <code>AnalysisExample/ADDITIONAL_NOTES.md</code>, add the following line to the end of <code>prodsingle_uboone.fcl</code>:</p>
+
+
+<pre>
+services.LArG4Parameters.KeepEMShowerDaughters: true
+</pre>
+
+	<p>Then you should be able to execute the following (note: this worked in Aug-2017):</p>
+
+
+<pre>
+lar -c prodsingle_uboone.fcl -o mygen.root
+lar -c standard_detsim_uboone.fcl -s mygen.root \
+    -o mydetsim.root
+lar -c reco_uboone_mcc8_driver_stage1and2.fcl \
+    -s mydetsim.root -o myreco.root
+</pre>
+
+	<p>Then you should be able to run AnalysisExample:</p>
+
+
+<pre>
+lar -c AnalysisExample.fcl -s myreco.root -T AnalysisExample.root
+</pre>
+
+	<p>You may want to check <a href="https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Guide_to_Using_FCL_files_in_MicroBooNE" class="external">Using FCL files in MicroBooNE</a> to understand why and how this all works.</p>
+
+
+	<p>If you're working on an experiment other than MicroBooNE, you'll have to ask around and/or do some detective work to locate the standard single-particle generation, simulation, and reconstruction .fcl files for your experiment.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-18"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=18">Edit this section</a></div><a name="Other-tips"></a>
+<h2 >Other tips<a href="#Other-tips" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>It's time to start your work. Unless you happen to be looking at the dE/dx for primary particles in an event, you'll have to edit the code to do what you want.</p>
+
+
+<pre>
+cd ${MRB_SOURCE}/${myProject}/${myProject}/${myPackage}
+# ... and start editing code!
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-19"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=19">Edit this section</a></div><a name="Quick-set-up"></a>
+<h3 >Quick set-up<a href="#Quick-set-up" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>The <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_Quick-start_guide_to_using_and_developing_LArSoft_code_" class="external">quick-start guide</a> may give you the impression that you have to type in many shell commands every time you work with mrb+git; maybe this guide has given you that impression as well. Actually, once you've completed the one-time setups, and provided you don't plan to check in your code to the main git repository, things are pretty simple.</p>
+
+
+	<p>Here's what I do when I login (I work on MicroBooNE):</p>
+
+
+<pre>
+my_dev=~/mydev
+my_version=v06_44_00
+my_compiler=e14
+my_type=debug
+
+source /a/share/amsterdam/seligman/microboone/setup_uboone.sh
+setup uboonecode ${my_version} -q ${my_type}:${my_compiler}
+source ${my_dev}/localProducts_larsoft_${my_version}_${my_compiler}_${my_type}/setup
+mrbsetenv
+cd ${MRB_SOURCE}
+</pre>
+
+	<p>... and I'm ready to go. Of course, I don't type all that in; I've got a script that does it for me. (If you have an account at Nevis, take a look at <code>/nevis/amsterdam/share/seligman/microboone/develop_uboone.sh</code>.) I compile using <code>mrb i</code> when I make changes, and run it using <code>lar -c ...</code>. The only time I have to re-visit the build directory is if I add a new package:</p>
+
+
+<pre>
+cd $MRB_SOURCE
+mrb newProduct newstuff
+mrb uv larsoft ${my_version}
+cd newstuff
+mkdir NewCode
+# ... fiddle with mrb uv and edit CMakeLists.txt files; 
+# then create beautiful code in NewCode
+cd $MRB_BUILDDIR
+mrbsetenv    # create the files for newstuff
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-20"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=20">Edit this section</a></div><a name="Getting-information"></a>
+<h3 >Getting information<a href="#Getting-information" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>The following resources may help you with ROOT:</p>
+	<ul>
+	<li><a href="http://root.cern.ch/" class="external">ROOT web site</a>
+    * <a href="http://root.cern.ch/drupal/content/users-guide" class="external">ROOT User's Guide</a>
+    * the Nevis <a href="http://www.nevis.columbia.edu/~seligman/root-class/" class="external">ROOT tutorial</a></li>
+	</ul>
+
+
+	<p>In addition to this, you'll probably have to become a "code detective" and use the code and comments in other packages to understand what to do in your own code.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-21"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=21">Edit this section</a></div><a name="Browsing-code-on-the-web"></a>
+<h3 >Browsing code on the web<a href="#Browsing-code-on-the-web" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>If you want to browse the code in one of the package groups (e.g., <code>larsim</code>, <code>larreco</code>, <code>uboonecode</code>), you can use the Redmine repository listings at FNAL. The "magic formula" is:<br /><pre>
+https://cdcvs.fnal.gov/redmine/projects/&lt;group-name&gt;/repository
+</pre></p>
+
+
+	<p>So if you want to look at the package group <code>larreco</code>, you'd visit the URL <a class="external" href="https://cdcvs.fnal.gov/redmine/projects/larreco/repository">https://cdcvs.fnal.gov/redmine/projects/larreco/repository</a></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-22"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=22">Edit this section</a></div><a name="Browsing-code-in-UNIX"></a>
+<h3 >Browsing code in UNIX<a href="#Browsing-code-in-UNIX" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>My preferred way is to look at the code as it's stored on the local computer cluster. After you've set up LArSoft, you can find the code for a given package group in the directory:</p>
+
+
+<pre>
+$&lt;GROUP-NAME&gt;_DIR/source/&lt;group-name&gt;
+</pre>
+
+	<p>If you wanted to look at the packages in group <code>larsim</code>, you can do:</p>
+
+
+<pre>
+ls $LARSIM_DIR/source/larsim
+</pre>
+
+	<p>Good luck!</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-23"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/_AnalysisExample_/edit?section=23">Edit this section</a></div><a name="Other-links"></a>
+<h2 >Other links<a href="#Other-links" class="wiki-anchor">&para;</a></h2>
+
+
+	<p><a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft" class="external">Using ART in LArSoft</a><br /><a href="http://nusoft.fnal.gov/larsoft/doxsvn/html/" class="external">Doxgen LArSoft documentation</a><br /><a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_Running_Jobs_" class="external">Running jobs</a><br /><a href="https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/Configuration_validation_and_fhiclcpp_types" class="external">FHiCL Configuration validation</a><br /><a href="https://cdcvs.fnal.gov/redmine/projects/art/wiki/Configuration_validation_and_description" class="external">FHiCL Configuration description</a></p>
+</div>
+
+
+<fieldset class="collapsible collapsed hide-when-print">
+  <legend onclick="toggleFieldset(this);">Files (0)</legend>
+  <div style="display: none;">
+
+  
+  
+  <div id="wiki_add_attachment">
+    <form id="add_attachment_form" enctype="multipart/form-data" action="/redmine/projects/larsoft/wiki/_AnalysisExample_/add_attachment" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="MkBj4ptYGHdggk0mlPN+6PAt8KiLWOFsRM+F3XHlnbHYrod/G8XkAXn1ov9eHir/mXQrXBCsICg9A6uGexDCBQ==" />
+      <div class="box">
+      <p>
+<span class="attachments_form">
+  <span class="attachments_fields">
+  </span>
+  <span class="add_attachment" style="">
+    <input type="file" name="attachments[dummy][file]" class="file_selector filedrop" multiple="multiple" onchange="addInputFiles(this);" data-max-file-size="419430400" data-max-file-size-message="This file cannot be uploaded because it exceeds the maximum allowed file size (400 MB)" data-max-concurrent-uploads="2" data-upload-path="/redmine/uploads.js" data-param="attachments" data-description="true" data-description-placeholder="Optional description" />
+    (Maximum size: 400 MB)
+  </span>
+</span>
+
+</p>
+      </div>
+      <input type="submit" name="commit" value="Add" />
+</form>  </div>
+</div>
+</fieldset>
+
+<p class="other-formats">Also available in:  <span><a class="pdf" rel="nofollow" href="/redmine/projects/larsoft/wiki/_AnalysisExample_.pdf">PDF</a></span>
+  <span><a class="html" rel="nofollow" href="/redmine/projects/larsoft/wiki/_AnalysisExample_.html">HTML</a></span>
+  <span><a class="txt" rel="nofollow" href="/redmine/projects/larsoft/wiki/_AnalysisExample_.txt">TXT</a></span>
+</p>
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2019 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

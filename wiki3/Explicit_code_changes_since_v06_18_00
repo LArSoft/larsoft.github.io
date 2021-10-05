@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Explicit code changes since v06 18 00 - LArSoft - Fermilab Redmine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Qu4qgDCGgS/dKyTbN3MWh9XFCWUkfBlnG/VcLaArySGoAM4dsBt9WcRcywL9nkKQvJzSkb+I2CNiOXJ2qt6WlQ==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico?1560171137' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/application.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css?1601072360" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1601072362"></script>
+<script src="/redmine/javascripts/application.js?1601072361"></script>
+<script src="/redmine/javascripts/responsive.js?1601072360"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_countable_headers/stylesheets/countable_headers.css?1604432132" />  <script src="/redmine/plugin_assets/redmine_sortable_table/javascripts/sortable_table.js?1601318223"></script><link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_sortable_table/stylesheets/sortable_table.css?1601318223" /> <link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_group_assignee/stylesheets/tab_content_assignees.css?1604592738" />
+<!-- page specific tags -->
+  <script src="/redmine/javascripts/attachments.js?1601072363"></script>
+</head>
+<body class="project-larsoft controller-wiki action-show">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="wiki_pages" value="1" />
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/redmine/users/7">garren</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li><li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/7">garren</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li><li><a class="my-page" href="/redmine/my/page">My page</a></li><li><a class="projects" href="/redmine/projects">Projects</a></li><li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" value="subprojects" />
+        <input type="hidden" name="wiki_pages" value="1" />
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/larsoft/search?scope=subprojects">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">LArSoft</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/redmine/projects/autocomplete.js?jump=wiki" autocomplete="off" /></div><div class="drdn-items projects selection"><a title="Accelerator Modeling" href="/redmine/projects/accelerator-modeling?jump=wiki"><span style="padding-left:0px;">Accelerator Modeling</span></a><a title="ArgoNeuT Offline" href="/redmine/projects/t962offline?jump=wiki"><span style="padding-left:0px;">ArgoNeuT Offline</span></a><a title="artdaq" href="/redmine/projects/artdaq?jump=wiki"><span style="padding-left:0px;">artdaq</span></a><a title="artdaq Demo" href="/redmine/projects/artdaq-demo?jump=wiki"><span style="padding-left:16px;">artdaq Demo</span></a><a title="artdaq Core Demo" href="/redmine/projects/artdaq-core-demo?jump=wiki"><span style="padding-left:32px;">artdaq Core Demo</span></a><a title="artdaq Utilities" href="/redmine/projects/artdaq-utilities?jump=wiki"><span style="padding-left:16px;">artdaq Utilities</span></a><a title="artdaq database" href="/redmine/projects/artdaq-database?jump=wiki"><span style="padding-left:32px;">artdaq database</span></a><a title="artdaq-mfextensions" href="/redmine/projects/mf-extensions?jump=wiki"><span style="padding-left:16px;">artdaq-mfextensions</span></a><a title="artg4" href="/redmine/projects/artg4?jump=wiki"><span style="padding-left:0px;">artg4</span></a><a title="artg4 Geant N02 example" href="/redmine/projects/artg4geantn02?jump=wiki"><span style="padding-left:16px;">artg4 Geant N02 example</span></a><a title="artg4example" href="/redmine/projects/artg4example?jump=wiki"><span style="padding-left:16px;">artg4example</span></a><a title="cet-is" href="/redmine/projects/cet-is?jump=wiki"><span style="padding-left:0px;">cet-is</span></a><a title="art" href="/redmine/projects/art?jump=wiki"><span style="padding-left:16px;">art</span></a><a title="art Hough" href="/redmine/projects/art-hough?jump=wiki"><span style="padding-left:32px;">art Hough</span></a><a title="art-workbook" href="/redmine/projects/art-workbook?jump=wiki"><span style="padding-left:32px;">art-workbook</span></a><a title="art_root_io" href="/redmine/projects/art_root_io?jump=wiki"><span style="padding-left:32px;">art_root_io</span></a><a title="artExtensions" href="/redmine/projects/artextensions?jump=wiki"><span style="padding-left:16px;">artExtensions</span></a><a title="Systematics Tools" href="/redmine/projects/systematicstools?jump=wiki"><span style="padding-left:32px;">Systematics Tools</span></a><a title="artUtilScripts" href="/redmine/projects/artutilscripts?jump=wiki"><span style="padding-left:16px;">artUtilScripts</span></a><a title="canvas" href="/redmine/projects/canvas?jump=wiki"><span style="padding-left:16px;">canvas</span></a><a title="canvas_root_io" href="/redmine/projects/canvas_root_io?jump=wiki"><span style="padding-left:32px;">canvas_root_io</span></a><a title="cet-is-private" href="/redmine/projects/cet-is-private?jump=wiki"><span style="padding-left:16px;">cet-is-private</span></a><a title="cet-is-public" href="/redmine/projects/cet-is-public?jump=wiki"><span style="padding-left:16px;">cet-is-public</span></a><a title="cetbuildtools" href="/redmine/projects/cetbuildtools?jump=wiki"><span style="padding-left:16px;">cetbuildtools</span></a><a title="cetlib" href="/redmine/projects/cetlib?jump=wiki"><span style="padding-left:16px;">cetlib</span></a><a title="cetlib_except" href="/redmine/projects/cetlib_except?jump=wiki"><span style="padding-left:32px;">cetlib_except</span></a><a title="CetModules" href="/redmine/projects/cetmodules?jump=wiki"><span style="padding-left:16px;">CetModules</span></a><a title="cetpkgsupport" href="/redmine/projects/cetpkgsupport?jump=wiki"><span style="padding-left:16px;">cetpkgsupport</span></a><a title="Chris Green&#39;s Stuff" href="/redmine/projects/cet-chg?jump=wiki"><span style="padding-left:16px;">Chris Green&#39;s Stuff</span></a><a title="CosmoSIS UPS" href="/redmine/projects/cosmosis_ups?jump=wiki"><span style="padding-left:16px;">CosmoSIS UPS</span></a><a title="cpp0x" href="/redmine/projects/cpp0x?jump=wiki"><span style="padding-left:16px;">cpp0x</span></a><a title="critic" href="/redmine/projects/critic?jump=wiki"><span style="padding-left:16px;">critic</span></a><a title="DocDB migration" href="/redmine/projects/docdb-migration?jump=wiki"><span style="padding-left:16px;">DocDB migration</span></a><a title="El Capitan Support" href="/redmine/projects/el-capitan-support?jump=wiki"><span style="padding-left:16px;">El Capitan Support</span></a><a title="fhicl" href="/redmine/projects/fhicl?jump=wiki"><span style="padding-left:16px;">fhicl</span></a><a title="fhicl-cpp" href="/redmine/projects/fhicl-cpp?jump=wiki"><span style="padding-left:32px;">fhicl-cpp</span></a><a title="fhicl-py" href="/redmine/projects/fhicl-py?jump=wiki"><span style="padding-left:32px;">fhicl-py</span></a><a title="Framework Build Instructions" href="/redmine/projects/build-framework?jump=wiki"><span style="padding-left:16px;">Framework Build Instructions</span></a><a title="hep_hpc_toolkit" href="/redmine/projects/hep_hpc_toolkit?jump=wiki"><span style="padding-left:32px;">hep_hpc_toolkit</span></a><a title="gallery" href="/redmine/projects/gallery?jump=wiki"><span style="padding-left:16px;">gallery</span></a><a title="hep_concurrency" href="/redmine/projects/hep_concurrency?jump=wiki"><span style="padding-left:16px;">hep_concurrency</span></a><a title="Lynn Garren&#39;s notes" href="/redmine/projects/lynn-garren-s-notes?jump=wiki"><span style="padding-left:16px;">Lynn Garren&#39;s notes</span></a><a title="messagefacility" href="/redmine/projects/messagefacility?jump=wiki"><span style="padding-left:16px;">messagefacility</span></a><a title="mrb" href="/redmine/projects/mrb?jump=wiki"><span style="padding-left:16px;">mrb</span></a><a title="SciSoft" href="/redmine/projects/scisoft?jump=wiki"><span style="padding-left:16px;">SciSoft</span></a><a title="Spack Planning" href="/redmine/projects/spack-planning?jump=wiki"><span style="padding-left:16px;">Spack Planning</span></a><a title="VMs and Containers" href="/redmine/projects/vms-and-containers?jump=wiki"><span style="padding-left:16px;">VMs and Containers</span></a><a title="ubuntu vm" href="/redmine/projects/ubuntu-vm?jump=wiki"><span style="padding-left:32px;">ubuntu vm</span></a><a title="cet-pythia6" href="/redmine/projects/cet-pythia6?jump=wiki"><span style="padding-left:16px;">cet-pythia6</span></a><a title="splines" href="/redmine/projects/splines?jump=wiki"><span style="padding-left:16px;">splines</span></a><a title="studio" href="/redmine/projects/studio?jump=wiki"><span style="padding-left:16px;">studio</span></a><a title="tag_suite" href="/redmine/projects/tag_suite?jump=wiki"><span style="padding-left:16px;">tag_suite</span></a><a title="art/LArSoft Course" href="/redmine/projects/art-larsoft-course?jump=wiki"><span style="padding-left:0px;">art/LArSoft Course</span></a><a title="LArIAT" href="/redmine/projects/lardbt?jump=wiki"><span style="padding-left:0px;">LArIAT</span></a><a title="LArIAT Online" href="/redmine/projects/lariat-online?jump=wiki"><span style="padding-left:16px;">LArIAT Online</span></a><a title="LArSoft" class="selected" href="/redmine/projects/larsoft?jump=wiki"><span style="padding-left:0px;">LArSoft</span></a><a title="ArgoNeuT code" href="/redmine/projects/argoneutcode?jump=wiki"><span style="padding-left:16px;">ArgoNeuT code</span></a><a title="ArgoNeuT Analysis" href="/redmine/projects/t962ana?jump=wiki"><span style="padding-left:32px;">ArgoNeuT Analysis</span></a><a title="LAr-Continuous-Integration" href="/redmine/projects/lar-ci?jump=wiki"><span style="padding-left:16px;">LAr-Continuous-Integration</span></a><a title="LAr1ND code" href="/redmine/projects/lar1ndcode?jump=wiki"><span style="padding-left:16px;">LAr1ND code</span></a><a title="LArAdmin" href="/redmine/projects/laradmin?jump=wiki"><span style="padding-left:16px;">LArAdmin</span></a><a title="LArAna" href="/redmine/projects/larana?jump=wiki"><span style="padding-left:16px;">LArAna</span></a><a title="LArCore" href="/redmine/projects/larcore?jump=wiki"><span style="padding-left:16px;">LArCore</span></a><a title="LArCoreAlg" href="/redmine/projects/larcorealg?jump=wiki"><span style="padding-left:16px;">LArCoreAlg</span></a><a title="LArCoreObj" href="/redmine/projects/larcoreobj?jump=wiki"><span style="padding-left:16px;">LArCoreObj</span></a><a title="LArData" href="/redmine/projects/lardata?jump=wiki"><span style="padding-left:16px;">LArData</span></a><a title="LArDataAlg" href="/redmine/projects/lardataalg?jump=wiki"><span style="padding-left:16px;">LArDataAlg</span></a><a title="LArDataObj" href="/redmine/projects/lardataobj?jump=wiki"><span style="padding-left:16px;">LArDataObj</span></a><a title="LArEventDisplay" href="/redmine/projects/lareventdisplay?jump=wiki"><span style="padding-left:16px;">LArEventDisplay</span></a><a title="LArEvt" href="/redmine/projects/larevt?jump=wiki"><span style="padding-left:16px;">LArEvt</span></a><a title="LArExamples" href="/redmine/projects/larexamples?jump=wiki"><span style="padding-left:16px;">LArExamples</span></a><a title="LArG4" href="/redmine/projects/larg4?jump=wiki"><span style="padding-left:16px;">LArG4</span></a><a title="larliteintegration" href="/redmine/projects/sketch?jump=wiki"><span style="padding-left:16px;">larliteintegration</span></a><a title="LArPandora" href="/redmine/projects/larpandora?jump=wiki"><span style="padding-left:16px;">LArPandora</span></a><a title="LArPandoraContent" href="/redmine/projects/larpandoracontent?jump=wiki"><span style="padding-left:16px;">LArPandoraContent</span></a><a title="LArReco" href="/redmine/projects/larreco?jump=wiki"><span style="padding-left:16px;">LArReco</span></a><a title="LArRecoDNN" href="/redmine/projects/larrecodnn?jump=wiki"><span style="padding-left:16px;">LArRecoDNN</span></a><a title="LArRelTools" href="/redmine/projects/larreltools?jump=wiki"><span style="padding-left:16px;">LArRelTools</span></a><a title="larshoweralg" href="/redmine/projects/larshoweralg?jump=wiki"><span style="padding-left:16px;">larshoweralg</span></a><a title="LArSim" href="/redmine/projects/larsim?jump=wiki"><span style="padding-left:16px;">LArSim</span></a><a title="LArSimAlg" href="/redmine/projects/larsimalg?jump=wiki"><span style="padding-left:16px;">LArSimAlg</span></a><a title="LArSimObj" href="/redmine/projects/larsimobj?jump=wiki"><span style="padding-left:16px;">LArSimObj</span></a><a title="LArSimTools" href="/redmine/projects/larsimtools?jump=wiki"><span style="padding-left:16px;">LArSimTools</span></a><a title="LArSoft-SVN (legacy site)" href="/redmine/projects/larsoftsvn?jump=wiki"><span style="padding-left:16px;">LArSoft-SVN (legacy site)</span></a><a title="LArSoft Alpha Test" href="/redmine/projects/larsoft-alpha?jump=wiki"><span style="padding-left:32px;">LArSoft Alpha Test</span></a><a title="LArSoft Experiments Alpha Test" href="/redmine/projects/larsoft-experiment-alpha?jump=wiki"><span style="padding-left:48px;">LArSoft Experiments Alpha Test</span></a><a title="LArSoftObj" href="/redmine/projects/larsoftobj?jump=wiki"><span style="padding-left:16px;">LArSoftObj</span></a><a title="LArSystematics" href="/redmine/projects/larsystematics?jump=wiki"><span style="padding-left:16px;">LArSystematics</span></a><a title="LArTestAlg" href="/redmine/projects/lartestalg?jump=wiki"><span style="padding-left:16px;">LArTestAlg</span></a><a title="LArToolObj" href="/redmine/projects/lartoolobj?jump=wiki"><span style="padding-left:16px;">LArToolObj</span></a><a title="LArUtils" href="/redmine/projects/larutils?jump=wiki"><span style="padding-left:16px;">LArUtils</span></a><a title="larwirecell" href="/redmine/projects/larwirecell?jump=wiki"><span style="padding-left:16px;">larwirecell</span></a><a title="LBNE code" href="/redmine/projects/lbnecode?jump=wiki"><span style="padding-left:16px;">LBNE code</span></a><a title="NuSystematics" href="/redmine/projects/nusystematics?jump=wiki"><span style="padding-left:16px;">NuSystematics</span></a><a title="parsegdml" href="/redmine/projects/parsegdml?jump=wiki"><span style="padding-left:16px;">parsegdml</span></a><a title="uBooNE code" href="/redmine/projects/uboonecode?jump=wiki"><span style="padding-left:16px;">uBooNE code</span></a><a title="CC1pi" href="/redmine/projects/cc1pi?jump=wiki"><span style="padding-left:32px;">CC1pi</span></a><a title="UBooNE alg" href="/redmine/projects/uboonealg?jump=wiki"><span style="padding-left:32px;">UBooNE alg</span></a><a title="uBAna" href="/redmine/projects/ubana?jump=wiki"><span style="padding-left:32px;">uBAna</span></a><a title="uBCRT" href="/redmine/projects/ubcrt?jump=wiki"><span style="padding-left:32px;">uBCRT</span></a><a title="uBCV" href="/redmine/projects/ubcv?jump=wiki"><span style="padding-left:32px;">uBCV</span></a><a title="uBCore" href="/redmine/projects/ubcore?jump=wiki"><span style="padding-left:32px;">uBCore</span></a><a title="uBEvt" href="/redmine/projects/ubevt?jump=wiki"><span style="padding-left:32px;">uBEvt</span></a><a title="uBLite" href="/redmine/projects/ublite?jump=wiki"><span style="padding-left:32px;">uBLite</span></a><a title="uBObj" href="/redmine/projects/ubobj?jump=wiki"><span style="padding-left:32px;">uBObj</span></a><a title="uBRaw" href="/redmine/projects/ubraw?jump=wiki"><span style="padding-left:32px;">uBRaw</span></a><a title="uBReco" href="/redmine/projects/ubreco?jump=wiki"><span style="padding-left:32px;">uBReco</span></a><a title="uBSim" href="/redmine/projects/ubsim?jump=wiki"><span style="padding-left:32px;">uBSim</span></a><a title="uBXSec" href="/redmine/projects/ubxsec?jump=wiki"><span style="padding-left:32px;">uBXSec</span></a><a title="lar_ci" href="/redmine/projects/lar_ci?jump=wiki"><span style="padding-left:0px;">lar_ci</span></a><a title="darkart" href="/redmine/projects/darkart?jump=wiki"><span style="padding-left:0px;">darkart</span></a><a title="darkmon" href="/redmine/projects/darkmon?jump=wiki"><span style="padding-left:0px;">darkmon</span></a><a title="darkside-public" href="/redmine/projects/darkside-public?jump=wiki"><span style="padding-left:0px;">darkside-public</span></a><a title="darksidecore" href="/redmine/projects/darksidecore?jump=wiki"><span style="padding-left:0px;">darksidecore</span></a><a title="ds50daq" href="/redmine/projects/ds50daq?jump=wiki"><span style="padding-left:0px;">ds50daq</span></a><a title="DUNE" href="/redmine/projects/dune?jump=wiki"><span style="padding-left:0px;">DUNE</span></a><a title="DUNE Approved Plots" href="/redmine/projects/dune-approved-plots?jump=wiki"><span style="padding-left:16px;">DUNE Approved Plots</span></a><a title="Dune Computing" href="/redmine/projects/dune-computing?jump=wiki"><span style="padding-left:16px;">Dune Computing</span></a><a title="duneutil" href="/redmine/projects/duneutil?jump=wiki"><span style="padding-left:32px;">duneutil</span></a><a title="DUNE DAQ" href="/redmine/projects/dune-daq?jump=wiki"><span style="padding-left:16px;">DUNE DAQ</span></a><a title="DUNE NearDet Design" href="/redmine/projects/dune-neardet-design?jump=wiki"><span style="padding-left:16px;">DUNE NearDet Design</span></a><a title="dunetpc" href="/redmine/projects/dunetpc?jump=wiki"><span style="padding-left:16px;">dunetpc</span></a><a title="protoduneana" href="/redmine/projects/protoduneana?jump=wiki"><span style="padding-left:32px;">protoduneana</span></a><a title="upd" href="/redmine/projects/upd?jump=wiki"><span style="padding-left:0px;">upd</span></a><a title="ups" href="/redmine/projects/ups?jump=wiki"><span style="padding-left:0px;">ups</span></a><a title="Fermi Redmine" href="/redmine/projects/fermi-redmine?jump=wiki"><span style="padding-left:0px;">Fermi Redmine</span></a><a title="Projects for Monitoring Redmine Health" href="/redmine/projects/test-p1?jump=wiki"><span style="padding-left:16px;">Projects for Monitoring Redmine Health</span></a><a title="redmine-lib" href="/redmine/projects/redmine-lib?jump=wiki"><span style="padding-left:16px;">redmine-lib</span></a><a title="g4hpc" href="/redmine/projects/g4hpc?jump=wiki"><span style="padding-left:0px;">g4hpc</span></a><a title="g4hpcbenchmarks" href="/redmine/projects/g4hpcbenchmarks?jump=wiki"><span style="padding-left:16px;">g4hpcbenchmarks</span></a><a title="HepPDT" href="/redmine/projects/heppdt?jump=wiki"><span style="padding-left:0px;">HepPDT</span></a><a title="ICARUS LArSoft" href="/redmine/projects/icaruscode?jump=wiki"><span style="padding-left:0px;">ICARUS LArSoft</span></a><a title="icarus_data" href="/redmine/projects/icarus_data?jump=wiki"><span style="padding-left:16px;">icarus_data</span></a><a title="icarusutil" href="/redmine/projects/icarusutil?jump=wiki"><span style="padding-left:16px;">icarusutil</span></a><a title="LAr Batch Tools" href="/redmine/projects/larbatch?jump=wiki"><span style="padding-left:0px;">LAr Batch Tools</span></a><a title="LBNE Utilities" href="/redmine/projects/lbneutil?jump=wiki"><span style="padding-left:0px;">LBNE Utilities</span></a><a title="DAQ" href="/redmine/projects/mu2edaq?jump=wiki"><span style="padding-left:0px;">DAQ</span></a><a title="mu2e_artdaq" href="/redmine/projects/mu2e_artdaq?jump=wiki"><span style="padding-left:16px;">mu2e_artdaq</span></a><a title="Mu2e DAQ Computing" href="/redmine/projects/mu2e-daq-computing?jump=wiki"><span style="padding-left:16px;">Mu2e DAQ Computing</span></a><a title="mu2e DCS" href="/redmine/projects/mu2e-dcs?jump=wiki"><span style="padding-left:16px;">mu2e DCS</span></a><a title="Mu2e Raw Data" href="/redmine/projects/mu2e-raw-data?jump=wiki"><span style="padding-left:16px;">Mu2e Raw Data</span></a><a title="Databases" href="/redmine/projects/databases?jump=wiki"><span style="padding-left:0px;">Databases</span></a><a title="Detector Construction DB" href="/redmine/projects/mu2e_detector_construction_db?jump=wiki"><span style="padding-left:16px;">Detector Construction DB</span></a><a title="Offline Software" href="/redmine/projects/offlinesoftware?jump=wiki"><span style="padding-left:0px;">Offline Software</span></a><a title="G4beamline" href="/redmine/projects/mu2eofflinesoftwareg4beamline?jump=wiki"><span style="padding-left:16px;">G4beamline</span></a><a title="Grid Scripts" href="/redmine/projects/mu2egrid?jump=wiki"><span style="padding-left:16px;">Grid Scripts</span></a><a title="Muon g-2" href="/redmine/projects/g-2?jump=wiki"><span style="padding-left:0px;">Muon g-2</span></a><a title="Calorimeter CDR req." href="/redmine/projects/calorequirements?jump=wiki"><span style="padding-left:16px;">Calorimeter CDR req.</span></a><a title="g-2 Art Examples" href="/redmine/projects/gm2artexamples?jump=wiki"><span style="padding-left:16px;">g-2 Art Examples</span></a><a title="g-2 CDR" href="/redmine/projects/gm2cdr?jump=wiki"><span style="padding-left:16px;">g-2 CDR</span></a><a title="g-2 DAQ" href="/redmine/projects/gm2daq?jump=wiki"><span style="padding-left:16px;">g-2 DAQ</span></a><a title="g-2 DQM" href="/redmine/projects/gm2dqm?jump=wiki"><span style="padding-left:32px;">g-2 DQM</span></a><a title="g-2 public" href="/redmine/projects/gm2public?jump=wiki"><span style="padding-left:16px;">g-2 public</span></a><a title="g-2 Release Tools" href="/redmine/projects/gm2releasetools?jump=wiki"><span style="padding-left:16px;">g-2 Release Tools</span></a><a title="g2MIGTRACE" href="/redmine/projects/g2migtrace?jump=wiki"><span style="padding-left:16px;">g2MIGTRACE</span></a><a title="g2mtanalysismacros" href="/redmine/projects/g2mtanalysismacros?jump=wiki"><span style="padding-left:16px;">g2mtanalysismacros</span></a><a title="g-2 SRBD" href="/redmine/projects/g-2-srbd?jump=wiki"><span style="padding-left:16px;">g-2 SRBD</span></a><a title="g-2 TDR" href="/redmine/projects/gm2tdr?jump=wiki"><span style="padding-left:16px;">g-2 TDR</span></a><a title="gm2analyses" href="/redmine/projects/gm2analyses?jump=wiki"><span style="padding-left:16px;">gm2analyses</span></a><a title="gm2aux" href="/redmine/projects/gm2aux?jump=wiki"><span style="padding-left:16px;">gm2aux</span></a><a title="gm2beams" href="/redmine/projects/gm2beams?jump=wiki"><span style="padding-left:16px;">gm2beams</span></a><a title="gm2calo" href="/redmine/projects/gm2calo?jump=wiki"><span style="padding-left:16px;">gm2calo</span></a><a title="gm2dataproducts" href="/redmine/projects/gm2dataproducts?jump=wiki"><span style="padding-left:16px;">gm2dataproducts</span></a><a title="gm2field" href="/redmine/projects/gm2field?jump=wiki"><span style="padding-left:16px;">gm2field</span></a><a title="gm2fieldanalyzer" href="/redmine/projects/gm2fieldanalyzer?jump=wiki"><span style="padding-left:32px;">gm2fieldanalyzer</span></a><a title="gm2fielddaq" href="/redmine/projects/gm2fielddaq?jump=wiki"><span style="padding-left:32px;">gm2fielddaq</span></a><a title="gm2fieldsignal" href="/redmine/projects/gm2fieldsignal?jump=wiki"><span style="padding-left:32px;">gm2fieldsignal</span></a><a title="gm2geom" href="/redmine/projects/gm2geom?jump=wiki"><span style="padding-left:16px;">gm2geom</span></a><a title="gm2mcdataproducts" href="/redmine/projects/gm2mcdataproducts?jump=wiki"><span style="padding-left:16px;">gm2mcdataproducts</span></a><a title="gm2midas" href="/redmine/projects/gm2midas?jump=wiki"><span style="padding-left:16px;">gm2midas</span></a><a title="gm2midastoart" href="/redmine/projects/gm2midastoart?jump=wiki"><span style="padding-left:16px;">gm2midastoart</span></a><a title="gm2MTest2012" href="/redmine/projects/gm2mtest2012?jump=wiki"><span style="padding-left:16px;">gm2MTest2012</span></a><a title="gm2optics" href="/redmine/projects/gm2optics?jump=wiki"><span style="padding-left:16px;">gm2optics</span></a><a title="gm2planning" href="/redmine/projects/gm2planning?jump=wiki"><span style="padding-left:16px;">gm2planning</span></a><a title="gm2reconeast" href="/redmine/projects/gm2reconeast?jump=wiki"><span style="padding-left:16px;">gm2reconeast</span></a><a title="gm2ringsim" href="/redmine/projects/gm2ringsim?jump=wiki"><span style="padding-left:16px;">gm2ringsim</span></a><a title="gm2SoftwareTools" href="/redmine/projects/gm2softwaretools?jump=wiki"><span style="padding-left:16px;">gm2SoftwareTools</span></a><a title="gm2strawtracking" href="/redmine/projects/gm2strawtracking?jump=wiki"><span style="padding-left:16px;">gm2strawtracking</span></a><a title="gm2swdocs" href="/redmine/projects/gm2swdocs?jump=wiki"><span style="padding-left:16px;">gm2swdocs</span></a><a title="gm2test" href="/redmine/projects/gm2test?jump=wiki"><span style="padding-left:16px;">gm2test</span></a><a title="gm2tracker" href="/redmine/projects/gm2tracker?jump=wiki"><span style="padding-left:16px;">gm2tracker</span></a><a title="gm2trackerdaq" href="/redmine/projects/gm2trackerdaq?jump=wiki"><span style="padding-left:16px;">gm2trackerdaq</span></a><a title="gm2unpackers" href="/redmine/projects/gm2unpackers?jump=wiki"><span style="padding-left:16px;">gm2unpackers</span></a><a title="gm2util" href="/redmine/projects/gm2util?jump=wiki"><span style="padding-left:16px;">gm2util</span></a><a title="gm2viz" href="/redmine/projects/gm2viz?jump=wiki"><span style="padding-left:16px;">gm2viz</span></a><a title="gm2vtk" href="/redmine/projects/gm2vtk?jump=wiki"><span style="padding-left:16px;">gm2vtk</span></a><a title="g-2 Field Shimming Paper" href="/redmine/projects/gm2fsp?jump=wiki"><span style="padding-left:16px;">g-2 Field Shimming Paper</span></a><a title="gm2db" href="/redmine/projects/gm2db?jump=wiki"><span style="padding-left:16px;">gm2db</span></a><a title="gm2ilratio" href="/redmine/projects/gm2ilratio?jump=wiki"><span style="padding-left:16px;">gm2ilratio</span></a><a title="gm2reconita" href="/redmine/projects/gm2reconita?jump=wiki"><span style="padding-left:16px;">gm2reconita</span></a><a title="gm2sc" href="/redmine/projects/gm2sc?jump=wiki"><span style="padding-left:16px;">gm2sc</span></a><a title="gm2simvalidation" href="/redmine/projects/gm2simvalidation?jump=wiki"><span style="padding-left:16px;">gm2simvalidation</span></a><a title="gm2templates" href="/redmine/projects/gm2templates?jump=wiki"><span style="padding-left:16px;">gm2templates</span></a><a title="NOvA-ART" href="/redmine/projects/novaart?jump=wiki"><span style="padding-left:0px;">NOvA-ART</span></a><a title="NOvA validation" href="/redmine/projects/nova-validation?jump=wiki"><span style="padding-left:16px;">NOvA validation</span></a><a title="NuTools" href="/redmine/projects/nutools?jump=wiki"><span style="padding-left:0px;">NuTools</span></a><a title="NuEvdb" href="/redmine/projects/nuevdb?jump=wiki"><span style="padding-left:16px;">NuEvdb</span></a><a title="NuG4" href="/redmine/projects/nug4?jump=wiki"><span style="padding-left:16px;">NuG4</span></a><a title="NuGen" href="/redmine/projects/nugen?jump=wiki"><span style="padding-left:16px;">NuGen</span></a><a title="NuRandom" href="/redmine/projects/nurandom?jump=wiki"><span style="padding-left:16px;">NuRandom</span></a><a title="NuSimData" href="/redmine/projects/nusimdata?jump=wiki"><span style="padding-left:16px;">NuSimData</span></a><a title="NuSoft/NuTools" href="/redmine/projects/nusoftart?jump=wiki"><span style="padding-left:16px;">NuSoft/NuTools</span></a><a title="PPFX" href="/redmine/projects/ppfx?jump=wiki"><span style="padding-left:16px;">PPFX</span></a><a title="OSG-Geant4-OSGMM" href="/redmine/projects/osg-geant4-osgmm?jump=wiki"><span style="padding-left:0px;">OSG-Geant4-OSGMM</span></a><a title="SBND code" href="/redmine/projects/sbndcode?jump=wiki"><span style="padding-left:0px;">SBND code</span></a><a title="SBND utility scripts" href="/redmine/projects/sbndutil?jump=wiki"><span style="padding-left:0px;">SBND utility scripts</span></a><a title="IF Data Handling Client Tools (ifdhc)" href="/redmine/projects/ifdhc?jump=wiki"><span style="padding-left:0px;">IF Data Handling Client Tools (ifdhc)</span></a><a title="IFDH Art interface" href="/redmine/projects/ifdh-art?jump=wiki"><span style="padding-left:16px;">IFDH Art interface</span></a><a title="Simulation Tools and Features" href="/redmine/projects/stf?jump=wiki"><span style="padding-left:0px;">Simulation Tools and Features</span></a><a title="artg4tk" href="/redmine/projects/artg4tk?jump=wiki"><span style="padding-left:16px;">artg4tk</span></a><a title="DoSSiER" href="/redmine/projects/dossier?jump=wiki"><span style="padding-left:16px;">DoSSiER</span></a><a title="Geant4Reweight" href="/redmine/projects/geant4reweight?jump=wiki"><span style="padding-left:16px;">Geant4Reweight</span></a><a title="uBooNE Reconstruction" href="/redmine/projects/uboone-reconstruction?jump=wiki"><span style="padding-left:0px;">uBooNE Reconstruction</span></a><a title="uBooNE Utilities" href="/redmine/projects/ubutil?jump=wiki"><span style="padding-left:0px;">uBooNE Utilities</span></a><a title="detsim.fnal.gov" href="/redmine/projects/detsim-fnal-gov?jump=wiki"><span style="padding-left:0px;">detsim.fnal.gov</span></a><a title="SoftRelTools" href="/redmine/projects/softreltools?jump=wiki"><span style="padding-left:0px;">SoftRelTools</span></a><a title="Spack Infrastructure" href="/redmine/projects/spack-infrastructure?jump=wiki"><span style="padding-left:0px;">Spack Infrastructure</span></a></div><div class="drdn-items all-projects selection"><a href="/redmine/projects?jump=wiki">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="current-project">LArSoft</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li>
+<a id="new-object" onclick="toggleNewObjectDropdown(); return false;" class="new-object" href="#"> + </a>
+<ul class="menu-children"><li><a accesskey="7" class="new-issue-sub" href="/redmine/projects/larsoft/issues/new">New issue</a></li><li><a class="new-issue-category" href="/redmine/projects/larsoft/issue_categories/new">New category</a></li><li><a class="new-version" href="/redmine/projects/larsoft/versions/new">New version</a></li><li><a class="new-timelog" href="/redmine/projects/larsoft/time_entries/new">Log time</a></li><li><a class="new-document" href="/redmine/projects/larsoft/documents/new">New document</a></li><li><a class="new-wiki-page" href="/redmine/projects/larsoft/wiki/new">New wiki page</a></li><li><a class="new-file" href="/redmine/projects/larsoft/files/new">New file</a></li></ul>
+</li><li><a class="overview" href="/redmine/projects/larsoft">Overview</a></li><li><a class="activity" href="/redmine/projects/larsoft/activity">Activity</a></li><li><a class="roadmap" href="/redmine/projects/larsoft/roadmap">Roadmap</a></li><li><a class="issues" href="/redmine/projects/larsoft/issues">Issues</a></li><li><a class="time-entries" href="/redmine/projects/larsoft/time_entries">Spent time</a></li><li><a class="gantt" href="/redmine/projects/larsoft/issues/gantt">Gantt</a></li><li><a class="calendar" href="/redmine/projects/larsoft/issues/calendar">Calendar</a></li><li><a class="documents" href="/redmine/projects/larsoft/documents">Documents</a></li><li><a class="wiki selected" href="/redmine/projects/larsoft/wiki">Wiki</a></li><li><a class="files" href="/redmine/projects/larsoft/files">Files</a></li><li><a class="repository" href="/redmine/projects/larsoft/repository">Repository</a></li><li><a class="settings" href="/redmine/projects/larsoft/settings">Settings</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+          
+<h3>Wiki</h3>
+<ul>
+  <li><a href="/redmine/projects/larsoft/wiki">Start page</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/index">Index by title</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/date_index">Index by date</a></li>
+</ul>
+
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+<a class="icon icon-add" data-remote="true" href="/redmine/projects/larsoft/wiki/new">New wiki page</a>
+  <a class="icon icon-edit" accesskey="e" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit">Edit</a>
+  <a class="wiki_page-21080-watcher icon icon-fav-off" data-remote="true" rel="nofollow" data-method="post" href="/redmine/watchers/watch?object_id=21080&amp;object_type=wiki_page">Watch</a>
+  <a class="icon icon-lock" rel="nofollow" data-method="post" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/protect?protected=1">Lock</a>
+  
+  <a class="icon icon-move" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/rename">Rename</a>
+  <a data-confirm="Are you sure?" class="icon icon-del" rel="nofollow" data-method="delete" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00">Delete</a>
+<a class="icon icon-history" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/history">History</a>
+</div>
+
+<p class="breadcrumb"><a href="/redmine/projects/larsoft/wiki/LArSoftWiki">LArSoftWiki</a> » <a href="/redmine/projects/larsoft/wiki/Using_LArSoft">Using LArSoft</a> » <a href="/redmine/projects/larsoft/wiki/LArSoft_release_list">LArSoft release list</a> » <a href="/redmine/projects/larsoft/wiki/ReleaseNotes061801">ReleaseNotes061801</a> » </p>
+
+
+<div class="wiki wiki-page">
+  <a name="Explicit-code-changes-since-v06_18_00"></a>
+<h1 >Explicit code changes since v06_18_00<a href="#Explicit-code-changes-since-v06_18_00" class="wiki-anchor">&para;</a></h1>
+
+
+	<ul class="toc right"><li><strong>Table of contents</strong></li><li><a href="#Explicit-code-changes-since-v06_18_00">Explicit code changes since v06_18_00</a><ul><li><a href="#larwirecell">larwirecell</a><ul><li><a href="#larwirecellLArInterfaceTest_modulecc">larwirecell/LArInterface/Test_module.cc</a></li><li><a href="#larwirecellLArInterfaceWireCellNoiseFilter_modulecc">larwirecell/LArInterface/WireCellNoiseFilter_module.cc</a></li><li><a href="#larwirecellLArInterfacewirecellmodulesfcl">larwirecell/LArInterface/wirecellmodules.fcl</a></li><li><a href="#larwirecellLArInterfacewirecellmodules_microboonefcl">larwirecell/LArInterface/wirecellmodules_microboone.fcl</a></li></ul>
+</li><li><a href="#larsim">larsim</a><ul><li><a href="#larsimEventGeneratorMARLEYMARLEYGen_modulecc">larsim/EventGenerator/MARLEY/MARLEYGen_module.cc</a></li><li><a href="#larsimMCCheaterPhotonBackTrackerh">larsim/MCCheater/PhotonBackTracker.h</a></li><li><a href="#larsimMCCheaterPhotonBackTracker_servicecc">larsim/MCCheater/PhotonBackTracker_service.cc</a></li><li><a href="#larsimMCCheaterphotonbacktrackerfcl">larsim/MCCheater/photonbacktracker.fcl</a></li></ul>
+</li><li><a href="#larreco">larreco</a><ul><li><a href="#larrecoHitFinderGausHitFinder_modulecc">larreco/HitFinder/GausHitFinder_module.cc</a></li><li><a href="#larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgcxx">larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx</a></li><li><a href="#larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgh">larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h</a></li><li><a href="#larrecoRecoAlgImagePatternAlgsscriptsutilspy">larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py</a></li><li><a href="#larrecoRecoAlgTrackKalmanFittercxx">larreco/RecoAlg/TrackKalmanFitter.cxx</a></li><li><a href="#larrecoTrackFinderKalmanFilterFinalTrackFitter_modulecc">larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc</a></li></ul>
+</li><li><a href="#larana">larana</a><ul><li><a href="#laranaOpticalDetectorOpHitFinderUtilFunccxx">larana/OpticalDetector/OpHitFinder/UtilFunc.cxx</a></li><li><a href="#laranaT0FinderPhotonCounterT0Matching_modulecc">larana/T0Finder/PhotonCounterT0Matching_module.cc</a></li></ul></li></ul></li></ul>
+
+
+	<p>These are changes in larsoft v06_18_01.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-2"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=2">Edit this section</a></div><a name="larwirecell"></a>
+<h2 >larwirecell<a href="#larwirecell" class="wiki-anchor">&para;</a></h2>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-3"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=3">Edit this section</a></div><a name="larwirecellLArInterfaceTest_modulecc"></a>
+<h3 >larwirecell/LArInterface/Test_module.cc<a href="#larwirecellLArInterfaceTest_modulecc" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larwirecell/LArInterface/Test_module.cc b/larwirecell/LArInterface/Test_module.cc
+deleted file mode 100644
+index ce609e9..0000000
+--- a/larwirecell/LArInterface/Test_module.cc
++++ /dev/null
+@@ -1,243 +0,0 @@
+-#ifndef TESTMODULE_H
+-#define TESTMODULE_H
+-
+-#include &lt;string&gt;
+-#include &lt;vector&gt;
+-#include &lt;iostream&gt;
+-
+-// Framework includes
+-#include "art/Framework/Principal/Event.h" 
+-//#include "fhiclcpp/ParameterSet.h" 
+-
+-#include "art/Framework/Core/ModuleMacros.h" 
+-#include "art/Framework/Core/EDProducer.h" 
+-#include "art/Framework/Principal/Handle.h" 
+-#include "art/Framework/Services/Optional/TFileService.h" 
+-#include "art/Framework/Services/Registry/ServiceHandle.h" 
+-#include "messagefacility/MessageLogger/MessageLogger.h" 
+-
+-#include "lardataobj/RawData/RawDigit.h" 
+-#include "lardataobj/RawData/raw.h" 
+-
+-#include &lt;numeric&gt;        // iota
+-#include "WireCellIface/SimpleFrame.h" 
+-#include "WireCellIface/SimpleTrace.h" 
+-#include "WireCellSigProc/OmnibusNoiseFilter.h" 
+-#include "WireCellSigProc/OneChannelNoise.h" 
+-#include "WireCellSigProc/CoherentNoiseSub.h" 
+-#include "WireCellSigProc/SimpleChannelNoiseDB.h" 
+-
+-using namespace WireCell;
+-using namespace std;
+-
+-//class TestTrace;
+-
+-namespace testalg {
+-
+-  class Test : public art::EDProducer {
+-
+-  public:
+-    explicit Test(fhicl::ParameterSet const&#38; pset);
+-    virtual ~Test();
+-
+-    void produce(art::Event &#38; evt);
+-    void reconfigure(fhicl::ParameterSet const&#38; pset);
+-    
+-    void beginJob();
+-    void endJob();
+-
+-  private:
+-
+-    //******************************
+-    //Variables Taken from FHICL File
+-    //std::string       fRawDigitModuleLabel;   //label for rawdigit module
+-  }; //end class Noise
+-
+-
+-  //-------------------------------------------------------------------
+-  Test::Test(fhicl::ParameterSet const&#38; pset)
+-    : EDProducer(){ 
+-    this-&gt;reconfigure(pset); 
+-    produces&lt;std::vector&lt;raw::RawDigit&gt; &gt;();
+-  }
+-
+-  //-------------------------------------------------------------------
+-  Test::~Test(){}
+-
+-  //-------------------------------------------------------------------
+-  void Test::reconfigure(fhicl::ParameterSet const&#38; pset){
+-  }
+-
+-  //-------------------------------------------------------------------
+-  void Test::beginJob(){
+-    art::ServiceHandle&lt;art::TFileService&gt; tfs;
+-    //art::ServiceHandle&lt;util::LArWireCellNoiseFilterService&gt; larWireCellNF;
+-    //larWireCellNF-&gt;print(17);
+-  }
+-
+-  //-------------------------------------------------------------------
+-  void Test::endJob(){
+-    art::ServiceHandle&lt;art::TFileService&gt; tfs;
+-  }
+-  
+-  //-------------------------------------------------------------------
+-  void Test::produce(art::Event &#38; evt){
+-    art::Handle&lt; std::vector&lt;raw::RawDigit&gt; &gt; rawDigitHandle;
+-    evt.getByLabel("daq",rawDigitHandle);
+-    std::vector&lt;raw::RawDigit&gt; const&#38; rawDigitVector(*rawDigitHandle);
+-    const unsigned int n_channels = rawDigitVector.size();
+-
+-    //skip empty events
+-    if( n_channels == 0 )
+-        return;
+-
+-    // S&#38;C microboone sampling parameter database
+-    const double tick = 0.5*units::microsecond;
+-    const int nsamples = 9595;
+-
+-    // Q&#38;D microboone channel map
+-    std::vector&lt;int&gt; uchans(2400), vchans(2400), wchans(3456);
+-    const int nchans = uchans.size() + vchans.size() + wchans.size();
+-    std::iota(uchans.begin(), uchans.end(), 0);
+-    std::iota(vchans.begin(), vchans.end(), vchans.size());
+-    std::iota(wchans.begin(), wchans.end(), vchans.size() + uchans.size());
+-
+-    // Q&#38;D nominal baseline
+-    const double unombl=2048.0, vnombl=2048.0, wnombl=400.0;
+-
+-    // Q&#38;D miss-configured channel database
+-    vector&lt;int&gt; miscfgchan;
+-    const double from_gain_mVfC=7.8, to_gain_mVfC=14.0,
+-    from_shaping=1.0*units::microsecond, to_shaping=2.0*units::microsecond;
+-    for (int ind=2016; ind&lt;= 2095; ++ind) { miscfgchan.push_back(ind); }
+-    for (int ind=2192; ind&lt;= 2303; ++ind) { miscfgchan.push_back(ind); }
+-    for (int ind=2352; ind&lt; 2400; ++ind) { miscfgchan.push_back(ind); }
+-
+-    // hard-coded bad channels
+-    vector&lt;int&gt; bad_channels;
+-    for (unsigned int i=0;i!=wchans.size();i++){
+-      if (i&gt;=7136 - 4800 &#38;&#38; i &lt;=7263 - 4800){
+-    if (i != 7200- 4800 &#38;&#38; i!=7215 - 4800)
+-      bad_channels.push_back(i+4800);
+-      }
+-    }
+-
+-    // Q&#38;D RC+RC time constant - all have same.
+-    const double rcrc = 1.0*units::millisecond;
+-    vector&lt;int&gt; rcrcchans(nchans);
+-    std::iota(rcrcchans.begin(), rcrcchans.end(), 0);
+-    
+-    //harmonic noises
+-    vector&lt;int&gt; harmonicchans(uchans.size() + vchans.size());
+-    std::iota(harmonicchans.begin(), harmonicchans.end(), 0);
+-    
+-    vector&lt;int&gt; special_chans;
+-    special_chans.push_back(2240);
+-
+-    WireCellSigProc::SimpleChannelNoiseDB::mask_t h36kHz(0,169,173);
+-    WireCellSigProc::SimpleChannelNoiseDB::mask_t h108kHz(0,513,516);
+-    WireCellSigProc::SimpleChannelNoiseDB::mask_t hspkHz(0,17,19);
+-    WireCellSigProc::SimpleChannelNoiseDB::multimask_t hharmonic;
+-    hharmonic.push_back(h36kHz);
+-    hharmonic.push_back(h108kHz);
+-    WireCellSigProc::SimpleChannelNoiseDB::multimask_t hspecial;
+-    hspecial.push_back(h36kHz);
+-    hspecial.push_back(h108kHz);
+-    hspecial.push_back(hspkHz);
+-
+-    // do the coherent subtraction
+-    std::vector&lt; std::vector&lt;int&gt; &gt; channel_groups;
+-    for (unsigned int i=0;i!=172;i++){
+-    //for (int i=150;i!=151;i++){
+-      std::vector&lt;int&gt; channel_group;
+-      for (int j=0;j!=48;j++){
+-    channel_group.push_back(i*48+j);
+-      }
+-      channel_groups.push_back(channel_group);
+-    }
+-
+-    auto noise = new WireCellSigProc::SimpleChannelNoiseDB;
+-    // initialize
+-    noise-&gt;set_sampling(tick, nsamples);
+-    // set nominal baseline
+-    noise-&gt;set_nominal_baseline(uchans, unombl);
+-    noise-&gt;set_nominal_baseline(vchans, vnombl);
+-    noise-&gt;set_nominal_baseline(wchans, wnombl);
+-    // set misconfigured channels
+-    noise-&gt;set_gains_shapings(miscfgchan, from_gain_mVfC, to_gain_mVfC, from_shaping, to_shaping);
+-    // do the RCRC
+-    noise-&gt;set_rcrc_constant(rcrcchans, rcrc);
+-    // set initial bad channels
+-    noise-&gt;set_bad_channels(bad_channels);
+-    // set the harmonic filter
+-    noise-&gt;set_filter(harmonicchans,hharmonic);
+-    noise-&gt;set_filter(special_chans,hspecial);
+-    noise-&gt;set_channel_groups(channel_groups);
+-    //Define database object    
+-    shared_ptr&lt;WireCell::IChannelNoiseDatabase&gt; noise_sp(noise);
+-
+-    auto one = new WireCellSigProc::OneChannelNoise;
+-    one-&gt;set_channel_noisedb(noise_sp);
+-    shared_ptr&lt;WireCell::IChannelFilter&gt; one_sp(one);
+-    auto many = new WireCellSigProc::CoherentNoiseSub;
+-    shared_ptr&lt;WireCell::IChannelFilter&gt; many_sp(many);
+-
+-    //define noisefilter object
+-    WireCellSigProc::OmnibusNoiseFilter bus;
+-    bus.set_channel_filters({one_sp});
+-    bus.set_grouped_filters({many_sp});
+-    bus.set_channel_noisedb(noise_sp);
+-
+-    //load waveforms into traces
+-    ITrace::vector traces;
+-    for(unsigned int ich=0; ich&lt;n_channels; ich++){
+-        const size_t n_samp = rawDigitVector.at(ich).NADC();
+-        if( n_samp == 0 )
+-          continue;
+-
+-    ITrace::ChargeSequence charges;
+-    for( unsigned int s = 0 ; s &lt; n_samp ; s++ ){
+-        float q = (float)rawDigitVector.at(ich).ADCs().at(s);
+-        charges.push_back(q);
+-    }
+-    unsigned int chan = rawDigitVector.at(ich).Channel();
+-    WireCell::SimpleTrace* st = new WireCell::SimpleTrace(chan, 0.0, charges);
+-    traces.push_back(ITrace::pointer(st));
+-    }
+-
+-    //Load traces into frame
+-    WireCell::SimpleFrame* sf = new WireCell::SimpleFrame(0, 0, traces);
+-    IFrame::pointer frame = IFrame::pointer(sf);
+-    IFrame::pointer quiet;
+-
+-    //Do filtering
+-    bus(frame, quiet);
+-
+-    //Output results
+-    std::unique_ptr&lt;std::vector&lt;raw::RawDigit&gt; &gt; filteredRawDigit(new std::vector&lt;raw::RawDigit&gt;);
+-    std::vector&lt; short &gt; waveform;
+-
+-    auto quiet_traces = quiet-&gt;traces();
+-    for (auto quiet_trace : *quiet_traces.get()) {
+-        //int tbin = quiet_trace-&gt;tbin();
+-        unsigned int ch = quiet_trace-&gt;channel();
+-        auto quiet_charges = quiet_trace-&gt;charge();
+-    int counter = 0;
+-    waveform.clear();
+-          for (auto q : quiet_charges) {
+-        waveform.push_back(q);
+-        counter++;
+-    }
+-    unsigned int n_samp = waveform.size();
+-    filteredRawDigit-&gt;emplace_back( raw::RawDigit( ch , n_samp, waveform, raw::kNone) );
+-    }
+-
+-    //filtered raw digits    
+-    evt.put(std::move(filteredRawDigit));
+-  }
+-  
+-  DEFINE_ART_MODULE(Test)
+-
+-} //end namespace testalg
+-
+-#endif //TESTMODULE_H
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-4"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=4">Edit this section</a></div><a name="larwirecellLArInterfaceWireCellNoiseFilter_modulecc"></a>
+<h3 >larwirecell/LArInterface/WireCellNoiseFilter_module.cc<a href="#larwirecellLArInterfaceWireCellNoiseFilter_modulecc" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larwirecell/LArInterface/WireCellNoiseFilter_module.cc b/larwirecell/LArInterface/WireCellNoiseFilter_module.cc
+new file mode 100644
+index 0000000..ae36738
+--- /dev/null
++++ b/larwirecell/LArInterface/WireCellNoiseFilter_module.cc
+@@ -0,0 +1,323 @@
++#ifndef WIRECELLNOISEFILTERMODULE_H   // &lt;--- this is not necessary since this file is not included...
++#define WIRECELLNOISEFILTERMODULE_H
++
++// Framework includes
++#include "art/Framework/Principal/Event.h" 
++
++#include "art/Framework/Core/ModuleMacros.h" 
++#include "art/Framework/Core/EDProducer.h" 
++#include "art/Framework/Principal/Handle.h" 
++#include "art/Framework/Services/Optional/TFileService.h" 
++#include "art/Framework/Services/Registry/ServiceHandle.h" 
++#include "messagefacility/MessageLogger/MessageLogger.h" 
++
++#include "lardataobj/RawData/RawDigit.h" 
++#include "lardataobj/RawData/raw.h" 
++
++#include &lt;numeric&gt;        // iota
++#include "WireCellUtil/Units.h" 
++#include "WireCellIface/SimpleFrame.h" 
++#include "WireCellIface/SimpleTrace.h" 
++#include "WireCellSigProc/OmnibusNoiseFilter.h" 
++#include "WireCellSigProc/OneChannelNoise.h" 
++#include "WireCellSigProc/CoherentNoiseSub.h" 
++#include "WireCellSigProc/SimpleChannelNoiseDB.h" 
++
++// Undefine the def in WireCellUtil/Units.h so we can regain the CLHEP definitions in the below header files
++// They don't have the "units" namespace...
++#undef HEP_SYSTEM_OF_UNITS_H
++
++#include "larevt/CalibrationDBI/Interface/DetPedestalService.h" 
++#include "larevt/CalibrationDBI/Interface/DetPedestalProvider.h" 
++#include "larevt/CalibrationDBI/Interface/ChannelStatusService.h" 
++#include "larevt/CalibrationDBI/Interface/ChannelStatusProvider.h" 
++#include "lardata/DetectorInfoServices/DetectorPropertiesService.h" 
++#include "larcore/Geometry/Geometry.h" 
++
++#include &lt;string&gt;
++#include &lt;vector&gt;
++#include &lt;iostream&gt;
++
++using namespace WireCell;
++//using namespace std;
++
++namespace noisefilteralg {
++
++class WireCellNoiseFilter : public art::EDProducer {
++
++public:
++    explicit WireCellNoiseFilter(fhicl::ParameterSet const&#38; pset);
++    virtual ~WireCellNoiseFilter();
++
++    void produce(art::Event &#38; evt);
++    void reconfigure(fhicl::ParameterSet const&#38; pset);
++    
++    void beginJob();
++    void endJob();
++
++private:
++    
++    void DoNoiseFilter(const std::vector&lt;raw::RawDigit&gt;&#38;, std::vector&lt;raw::RawDigit&gt;&#38;) const;
++
++    //******************************
++    //Variables Taken from FHICL File
++    std::string       fDigitModuleLabel;   //label for rawdigit module
++    bool              fDoNoiseFiltering;
++    bool              fTruncateTicks;
++    size_t            fWindowSize;
++    size_t            fNumTicksToDropFront;
++    
++    // services
++}; //end class Noise
++
++
++//-------------------------------------------------------------------
++WireCellNoiseFilter::WireCellNoiseFilter(fhicl::ParameterSet const&#38; pset)
++    : EDProducer()
++{
++    this-&gt;reconfigure(pset);
++    produces&lt;std::vector&lt;raw::RawDigit&gt; &gt;();
++}
++
++//-------------------------------------------------------------------
++WireCellNoiseFilter::~WireCellNoiseFilter(){}
++
++//-------------------------------------------------------------------
++void WireCellNoiseFilter::reconfigure(fhicl::ParameterSet const&#38; pset){
++    fDigitModuleLabel    = pset.get&lt;std::string&gt;("DigitModuleLabel",    "daq");
++    fDoNoiseFiltering    = pset.get&lt;bool&gt;       ("DoNoiseFiltering",    true );
++    fTruncateTicks       = pset.get&lt;bool&gt;       ("TruncateTicks",       true );
++    fWindowSize          = pset.get&lt;size_t&gt;     ("WindowSize",          6400 );
++    fNumTicksToDropFront = pset.get&lt;size_t&gt;     ("NumTicksToDropFront", 2400 );
++}
++
++//-------------------------------------------------------------------
++void WireCellNoiseFilter::beginJob(){
++    art::ServiceHandle&lt;art::TFileService&gt; tfs;
++    //art::ServiceHandle&lt;util::LArWireCellNoiseFilterService&gt; larWireCellNF;
++    //larWireCellNF-&gt;print(17);
++}
++
++//-------------------------------------------------------------------
++void WireCellNoiseFilter::endJob(){
++    art::ServiceHandle&lt;art::TFileService&gt; tfs;
++}
++  
++//-------------------------------------------------------------------
++void WireCellNoiseFilter::produce(art::Event &#38; evt)
++{
++    // Recover services we will need
++    const lariov::DetPedestalProvider&#38;   pedestalValues     = art::ServiceHandle&lt;lariov::DetPedestalService&gt;()-&gt;GetPedestalProvider();
++    const detinfo::DetectorProperties&#38;   detectorProperties = *lar::providerFrom&lt;detinfo::DetectorPropertiesService&gt;();
++    larana/T0Finder/PhotonCounterT0Matching_module.cc
++    art::Handle&lt; std::vector&lt;raw::RawDigit&gt; &gt; rawDigitHandle;
++    evt.getByLabel(fDigitModuleLabel,rawDigitHandle);
++    
++    // Define the output vector (in case we don't do anything)
++    std::unique_ptr&lt;std::vector&lt;raw::RawDigit&gt; &gt; filteredRawDigit(new std::vector&lt;raw::RawDigit&gt;);
++    
++    if (rawDigitHandle.isValid() &#38;&#38; rawDigitHandle-&gt;size() &gt; 0)
++    {
++        const std::vector&lt;raw::RawDigit&gt;&#38; rawDigitVector(*rawDigitHandle);
++        
++        if (fDoNoiseFiltering) DoNoiseFilter(rawDigitVector, *filteredRawDigit);
++        else
++        {
++            // Enable truncation
++            size_t startBin(0);
++            size_t stopBin(detectorProperties.NumberTimeSamples());
++            
++            if (fTruncateTicks)
++            {
++                startBin = fNumTicksToDropFront;
++                stopBin  = fNumTicksToDropFront + fWindowSize;
++            }
++            
++            raw::RawDigit::ADCvector_t outputVector(detectorProperties.NumberTimeSamples());
++            
++            for(const auto&#38; rawDigit : rawDigitVector)
++            {
++                if (rawDigit.NADC() &lt; detectorProperties.NumberTimeSamples()) continue;
++                
++                const raw::RawDigit::ADCvector_t&#38; rawAdcVec = rawDigit.ADCs();
++                
++                unsigned int channel  = rawDigit.Channel();
++                float        pedestal = pedestalValues.PedMean(channel);
++                
++                std::copy(rawAdcVec.begin() + startBin, rawAdcVec.begin() + stopBin, outputVector.begin());
++                
++                filteredRawDigit-&gt;emplace_back( raw::RawDigit( channel , outputVector.size(), outputVector, raw::kNone) );
++                filteredRawDigit-&gt;back().SetPedestal(pedestal,2.0);
++            }
++        }
++    }
++
++    //filtered raw digits    
++    evt.put(std::move(filteredRawDigit));
++}
++    
++void WireCellNoiseFilter::DoNoiseFilter(const std::vector&lt;raw::RawDigit&gt;&#38; inputWaveforms, std::vector&lt;raw::RawDigit&gt;&#38; outputWaveforms) const
++{
++    // Recover services we will need
++    const lariov::ChannelStatusProvider&#38; channelStatus      = art::ServiceHandle&lt;lariov::ChannelStatusService&gt;()-&gt;GetProvider();
++    const lariov::DetPedestalProvider&#38;   pedestalValues     = art::ServiceHandle&lt;lariov::DetPedestalService&gt;()-&gt;GetPedestalProvider();
++    const geo::GeometryCore&#38;             geometry           = *lar::providerFrom&lt;geo::Geometry&gt;();
++    const detinfo::DetectorProperties&#38;   detectorProperties = *lar::providerFrom&lt;detinfo::DetectorPropertiesService&gt;();
++    
++    const unsigned int n_channels = inputWaveforms.size();
++    
++    // S&#38;C microboone sampling parameter database
++    const double tick     = detectorProperties.SamplingRate(); // 0.5 * units::microsecond;
++    const size_t nsamples = detectorProperties.NumberTimeSamples();
++    
++    // Q&#38;D microboone channel map
++    std::vector&lt;int&gt; uchans(geometry.Nwires(0)), vchans(geometry.Nwires(1)), wchans(geometry.Nwires(2));
++    const int nchans = uchans.size() + vchans.size() + wchans.size();
++    std::iota(uchans.begin(), uchans.end(), 0);
++    std::iota(vchans.begin(), vchans.end(), vchans.size());
++    std::iota(wchans.begin(), wchans.end(), vchans.size() + uchans.size());
++    
++    // Q&#38;D nominal baseline
++    const double unombl=2048.0, vnombl=2048.0, wnombl=400.0;
++    
++    // Q&#38;D miss-configured channel database
++    std::vector&lt;int&gt; miscfgchan;
++    const double from_gain_mVfC=7.8, to_gain_mVfC=14.0,from_shaping=1.0*units::microsecond, to_shaping=2.0*units::microsecond;
++    for (int ind=2016; ind&lt;= 2095; ++ind) { miscfgchan.push_back(ind); }
++    for (int ind=2192; ind&lt;= 2303; ++ind) { miscfgchan.push_back(ind); }
++    for (int ind=2352; ind&lt; 2400; ++ind)  { miscfgchan.push_back(ind); }
++    
++    // Recover bad channels from the database
++    std::vector&lt;int&gt; bad_channels;
++    for(int channelIdx=0; channelIdx&lt;nchans; channelIdx++) if (channelStatus.IsBad(channelIdx)) bad_channels.push_back(channelIdx);
++    
++    // Q&#38;D RC+RC time constant - all have same.
++    const double rcrc = 1.0*units::millisecond;
++    std::vector&lt;int&gt; rcrcchans(nchans);
++    std::iota(rcrcchans.begin(), rcrcchans.end(), 0);
++    
++    //harmonic noises
++    std::vector&lt;int&gt; harmonicchans(uchans.size() + vchans.size());
++    std::iota(harmonicchans.begin(), harmonicchans.end(), 0);
++    
++    std::vector&lt;int&gt; special_chans;
++    special_chans.push_back(2240);
++    
++    WireCellSigProc::SimpleChannelNoiseDB::mask_t h36kHz(0,169,173);
++    WireCellSigProc::SimpleChannelNoiseDB::mask_t h108kHz(0,513,516);
++    WireCellSigProc::SimpleChannelNoiseDB::mask_t hspkHz(0,17,19);
++    WireCellSigProc::SimpleChannelNoiseDB::multimask_t hharmonic;
++    hharmonic.push_back(h36kHz);
++    hharmonic.push_back(h108kHz);
++    WireCellSigProc::SimpleChannelNoiseDB::multimask_t hspecial;
++    hspecial.push_back(h36kHz);
++    hspecial.push_back(h108kHz);
++    hspecial.push_back(hspkHz);
++    
++    // do the coherent subtraction
++    std::vector&lt; std::vector&lt;int&gt; &gt; channel_groups;
++    for (unsigned int i=0;i!=172;i++){
++        //for (int i=150;i!=151;i++){
++        std::vector&lt;int&gt; channel_group;
++        for (int j=0;j!=48;j++){
++            channel_group.push_back(i*48+j);
++        }
++        channel_groups.push_back(channel_group);
++    }
++    
++    auto noise = new WireCellSigProc::SimpleChannelNoiseDB;
++    // initialize
++    noise-&gt;set_sampling(tick, fWindowSize);
++    // set nominal baseline
++    noise-&gt;set_nominal_baseline(uchans, unombl);
++    noise-&gt;set_nominal_baseline(vchans, vnombl);
++    noise-&gt;set_nominal_baseline(wchans, wnombl);
++    // set misconfigured channels
++    noise-&gt;set_gains_shapings(miscfgchan, from_gain_mVfC, to_gain_mVfC, from_shaping, to_shaping);
++    // do the RCRC
++    noise-&gt;set_rcrc_constant(rcrcchans, rcrc);
++    // set initial bad channels
++    noise-&gt;set_bad_channels(bad_channels);
++    // set the harmonic filter
++    noise-&gt;set_filter(harmonicchans,hharmonic);
++    noise-&gt;set_filter(special_chans,hspecial);
++    noise-&gt;set_channel_groups(channel_groups);
++    //Define database object
++    std::shared_ptr&lt;WireCell::IChannelNoiseDatabase&gt; noise_sp(noise);
++    
++    auto one = new WireCellSigProc::OneChannelNoise;
++    one-&gt;set_channel_noisedb(noise_sp);
++    std::shared_ptr&lt;WireCell::IChannelFilter&gt; one_sp(one);
++    auto many = new WireCellSigProc::CoherentNoiseSub;
++    std::shared_ptr&lt;WireCell::IChannelFilter&gt; many_sp(many);
++    
++    //define noisefilter object
++    WireCellSigProc::OmnibusNoiseFilter bus;
++    bus.set_channel_filters({one_sp});
++    bus.set_grouped_filters({many_sp});
++    bus.set_channel_noisedb(noise_sp);
++    
++    // Enable truncation
++    size_t startBin(0);
++    size_t stopBin(nsamples);
++    
++    if (fTruncateTicks)
++    {
++        startBin = fNumTicksToDropFront;
++        stopBin  = fNumTicksToDropFront + fWindowSize;
++    }
++    
++    //load waveforms into traces
++    ITrace::vector traces;
++    for(unsigned int ich=0; ich&lt;n_channels; ich++)
++    {
++        if( inputWaveforms.at(ich).NADC() &lt; nsamples ) continue;
++        
++        const raw::RawDigit::ADCvector_t&#38; rawAdcVec = inputWaveforms.at(ich).ADCs();
++        
++        ITrace::ChargeSequence charges;
++        
++        charges.resize(fWindowSize);
++        
++        std::transform(rawAdcVec.begin() + startBin, rawAdcVec.begin() + stopBin, charges.begin(), [](auto&#38; adcVal){return float(adcVal);});
++        
++        unsigned int chan = inputWaveforms.at(ich).Channel();
++        WireCell::SimpleTrace* st = new WireCell::SimpleTrace(chan, 0.0, charges);
++        traces.push_back(ITrace::pointer(st));
++    }
++    
++    //Load traces into frame
++    WireCell::SimpleFrame* sf = new WireCell::SimpleFrame(0, 0, traces);
++    IFrame::pointer frame = IFrame::pointer(sf);
++    IFrame::pointer quiet;
++    
++    //Do filtering
++    bus(frame, quiet);
++    
++    //Output results
++    std::vector&lt; short &gt; waveform(fWindowSize);
++    
++    auto quiet_traces = quiet-&gt;traces();
++    for (auto quiet_trace : *quiet_traces.get()) {
++        //int tbin = quiet_trace-&gt;tbin();
++        unsigned int channel = quiet_trace-&gt;channel();
++        auto quiet_charges = quiet_trace-&gt;charge();
++        
++        // Recover the database version of the pedestal, we'll offset the waveforms so it matches
++        float pedestal = pedestalValues.PedMean(channel);
++        
++        std::transform(quiet_charges.begin(), quiet_charges.end(), waveform.begin(), [pedestal](auto charge){return std::round(charge+pedestal);});
++        
++        outputWaveforms.emplace_back( raw::RawDigit( channel , waveform.size(), waveform, raw::kNone) );
++        outputWaveforms.back().SetPedestal(pedestal,2.0);
++    }
++    
++    return;
++}
++
++  
++DEFINE_ART_MODULE(WireCellNoiseFilter)
++
++} //end namespace WireCellNoiseFilteralg
++
++#endif //WireCellNoiseFilterMODULE_H
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-5"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=5">Edit this section</a></div><a name="larwirecellLArInterfacewirecellmodulesfcl"></a>
+<h3 >larwirecell/LArInterface/wirecellmodules.fcl<a href="#larwirecellLArInterfacewirecellmodulesfcl" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larwirecell/LArInterface/wirecellmodules.fcl b/larwirecell/LArInterface/wirecellmodules.fcl
+new file mode 100644
+index 0000000..90af2f9
+--- /dev/null
++++ b/larwirecell/LArInterface/wirecellmodules.fcl
+@@ -0,0 +1,16 @@
++// from larreco/RecoAlg:
++#include "hitalgorithms.fcl" 
++
++BEGIN_PROLOG
++
++wirecellnoisefilter:
++{
++  module_type:         "WireCellNoiseFilter" 
++  DigitModuleLabel:    "daq"                  # RawDigit producer
++  DoNoiseFiltering:    true                   # Filter noise, false = pass through
++  TruncateTicks:       false                  # Truncate the waveoforms?
++  WindowSize:          9600                   # Total size of waveform
++  NumTicksToDropFront: 0                      # Number ticks to drop from front
++}
++
++END_PROLOG
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-6"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=6">Edit this section</a></div><a name="larwirecellLArInterfacewirecellmodules_microboonefcl"></a>
+<h3 >larwirecell/LArInterface/wirecellmodules_microboone.fcl<a href="#larwirecellLArInterfacewirecellmodules_microboonefcl" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larwirecell/LArInterface/wirecellmodules_microboone.fcl b/larwirecell/LArInterface/wirecellmodules_microboone.fcl
+new file mode 100644
+index 0000000..fad2929
+--- /dev/null
++++ b/larwirecell/LArInterface/wirecellmodules_microboone.fcl
+@@ -0,0 +1,11 @@
++#include "wirecellmodules.fcl" 
++
++BEGIN_PROLOG
++
++microboone_wirecellnoisefilter:                     @local::wirecellnoisefilter
++microboone_wirecellnoisefilter.DoNoiseFiltering:    true
++microboone_wirecellnoisefilter.TruncateTicks:       true
++microboone_wirecellnoisefilter.WindowSize:          6400
++microboone_wirecellnoisefilter.NumTicksToDropFront: 2400
++
++END_PROLOG
+</pre>
+
+	<div class="contextual heading-2" title="Edit this section" id="section-7"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=7">Edit this section</a></div><a name="larsim"></a>
+<h2 >larsim<a href="#larsim" class="wiki-anchor">&para;</a></h2>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-8"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=8">Edit this section</a></div><a name="larsimEventGeneratorMARLEYMARLEYGen_modulecc"></a>
+<h3 >larsim/EventGenerator/MARLEY/MARLEYGen_module.cc<a href="#larsimEventGeneratorMARLEYMARLEYGen_modulecc" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larsim/EventGenerator/MARLEY/MARLEYGen_module.cc b/larsim/EventGenerator/MARLEY/MARLEYGen_module.cc
+index 259f84b..6648eca 100644
+--- a/larsim/EventGenerator/MARLEY/MARLEYGen_module.cc
++++ b/larsim/EventGenerator/MARLEY/MARLEYGen_module.cc
+@@ -493,8 +493,8 @@ void evgen::MarleyGen::reconfigure_marley(const fhicl::ParameterSet&#38; p)
+
+   fhicl::ParameterSet source_params = p.get&lt;fhicl::ParameterSet&gt;("source");
+
+-  prepare_reactions(reactions);
+   prepare_structure(structure);
++  prepare_reactions(reactions);
+   prepare_neutrino_source(source_params);
+ }
+
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-9"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=9">Edit this section</a></div><a name="larsimMCCheaterPhotonBackTrackerh"></a>
+<h3 >larsim/MCCheater/PhotonBackTracker.h<a href="#larsimMCCheaterPhotonBackTrackerh" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larsim/MCCheater/PhotonBackTracker.h b/larsim/MCCheater/PhotonBackTracker.h
+index 28fe9ae..c222539 100644
+--- a/larsim/MCCheater/PhotonBackTracker.h
++++ b/larsim/MCCheater/PhotonBackTracker.h
+@@ -42,7 +42,7 @@ namespace cheat{
+   public:
+
+     PhotonBackTracker(fhicl::ParameterSet const&#38; pset,
+-        art::ActivityRegistry&#38;     reg);
++    art::ActivityRegistry&#38;     reg);
+     ~PhotonBackTracker();
+
+     void reconfigure(fhicl::ParameterSet const&#38; pset);
+@@ -80,7 +80,7 @@ namespace cheat{
+
+     // method to return a subset of allhits that are matched to a list of TrackIDs
+     const std::vector&lt;std::vector&lt;art::Ptr&lt;recob::OpHit&gt;&gt;&gt; TrackIDsToOpHits(std::vector&lt;art::Ptr&lt;recob::OpHit&gt;&gt; const&#38; allhits,
+-                                    std::vector&lt;int&gt; const&#38; tkIDs);
++                  std::vector&lt;int&gt; const&#38; tkIDs);
+
+     // method to return the EveIDs of particles contributing ionization
+     // electrons to the identified hit
+@@ -99,43 +99,43 @@ namespace cheat{
+     std::vector&lt;double&gt;  SimSDPsToXYZ(std::vector&lt;sim::SDP&gt; const&#38; ides);
+
+     // method to return the XYZ position of the weighted average energy deposition for a given hit
+-    std::vector&lt;double&gt;  OpHitToXYZ(art::Ptr&lt;recob::OpHit&gt; const&#38; hit);                  
++    std::vector&lt;double&gt;  OpHitToXYZ(art::Ptr&lt;recob::OpHit&gt; const&#38; hit);          
+
+     // method to return the XYZ position of a space point (unweighted average XYZ of component hits).
+ /*    std::vector&lt;double&gt; SpacePointToXYZ(art::Ptr&lt;recob::SpacePoint&gt; const&#38; spt,
+-                    art::Event                  const&#38; evt,
+-                    std::string                 const&#38; label);*/
++          art::Event                  const&#38; evt,
++          std::string                 const&#38; label);*/
+
+     // method to return the XYZ position of a space point (unweighted average XYZ of component hits).
+ /*    std::vector&lt;double&gt; SpacePointHitsToXYZ(art::PtrVector&lt;recob::Hit&gt; const&#38; hits);*/
+
+     // method to return the fraction of hits in a collection that come from the specified Geant4 track ids 
+     double              OpHitCollectionPurity(std::set&lt;int&gt;                              trackIDs, 
+-                        std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits);
++              std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits);
+
+     // method to return the fraction of all hits in an event from a specific set of Geant4 track IDs that are 
+     // represented in a collection of hits
+     double              OpHitCollectionEfficiency(std::set&lt;int&gt;                              trackIDs, 
+-                        std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits,
+-                        std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allhits);
++            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits,
++            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allhits);
+     double              OpHitCollectionEfficiency(std::set&lt;int&gt;                              trackIDs, 
+-                        std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits,
+-                        std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allhits,
+-                        geo::View_t                         const&#38; view);
++            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits,
++            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allhits,
++            geo::View_t                         const&#38; view);
+
+     // method to return the fraction of charge in a collection that come from the specified Geant4 track ids 
+     double              OpHitChargeCollectionPurity(std::set&lt;int&gt;                              trackIDs, 
+-                          std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits);
++              std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits);
+
+     // method to return the fraction of all charge in an event from a specific set of Geant4 track IDs that are 
+     // represented in a collection of hits
+     double              OpHitChargeCollectionEfficiency(std::set&lt;int&gt;                              trackIDs, 
+-                              std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits,
+-                              std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allhits);
++                  std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits,
++                  std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allhits);
+     double              OpHitChargeCollectionEfficiency(std::set&lt;int&gt;                              trackIDs, 
+-                              std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits,
+-                              std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allhits,
+-                              geo::View_t                         const&#38; view);
++                  std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; hits,
++                  std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allhits,
++                  geo::View_t                         const&#38; view);
+
+     // method to return all EveIDs corresponding to the current sim::ParticleList
+     std::set&lt;int&gt;       GetSetOfEveIDs();
+@@ -152,9 +152,9 @@ namespace cheat{
+     const std::vector&lt;const sim::OpDetBacktrackerRecord*&gt;&#38; OpDetBacktrackerRecords() const { return cOpDetBacktrackerRecords; } 
+
+     void ChannelToTrackSDPs(std::vector&lt;sim::TrackSDP&gt;&#38; trackSDPs,
+-              int channel,
+-              const double hit_start_time,
+-              const double hit_end_time);
++        int channel,
++        const double hit_start_time,
++        const double hit_end_time);
+
+   private:
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-10"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=10">Edit this section</a></div><a name="larsimMCCheaterPhotonBackTracker_servicecc"></a>
+<h3 >larsim/MCCheater/PhotonBackTracker_service.cc<a href="#larsimMCCheaterPhotonBackTracker_servicecc" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larsim/MCCheater/PhotonBackTracker_service.cc b/larsim/MCCheater/PhotonBackTracker_service.cc
+index 6e073c8..b6b5b6d 100644
+--- a/larsim/MCCheater/PhotonBackTracker_service.cc
++++ b/larsim/MCCheater/PhotonBackTracker_service.cc
+@@ -31,7 +31,7 @@ namespace cheat{
+
+   //----------------------------------------------------------------------
+   PhotonBackTracker::PhotonBackTracker(const fhicl::ParameterSet&#38; pset,
+-               art::ActivityRegistry&#38; reg)
++         art::ActivityRegistry&#38; reg)
+   {
+     reconfigure(pset);
+
+@@ -67,8 +67,8 @@ namespace cheat{
+     // if that is the case, we'll take care of it later
+     if(pHandle.failedToGet()){
+       mf::LogWarning("PhotonBackTracker") &lt;&lt; "failed to get handle to simb::MCParticle from " 
+-                    &lt;&lt; fG4ModuleLabel
+-                    &lt;&lt; ", return";
++            &lt;&lt; fG4ModuleLabel
++            &lt;&lt; ", return";
+       return;
+     }
+
+@@ -82,31 +82,31 @@ namespace cheat{
+
+     if( fo.isValid() ){
+       for(size_t p = 0; p &lt; pHandle-&gt;size(); ++p){
+-    
+-    simb::MCParticle *part = new simb::MCParticle(pHandle-&gt;at(p));
+-    fParticleList.Add(part);
+-    
+-    // get the simb::MCTruth associated to this sim::ParticleList
+-    try{
+-      art::Ptr&lt;simb::MCTruth&gt; mct = fo.at(p);
+-      if(fMCTruthList.size() &lt; 1) fMCTruthList.push_back(mct);
+-      else{
+-        // check that we are not adding a simb::MCTruth twice to the collection
+-        // we know that all the particles for a given simb::MCTruth are put into the
+-        // collection of particles at the same time, so we can just check that the 
+-        // current art::Ptr has a different id than the last one put 
+-        if(!(mct == fMCTruthList.back())) fMCTruthList.push_back(mct);
+-      }
+-      // fill the track id to mctruth index map
+-      fTrackIDToMCTruthIndex[pHandle-&gt;at(p).TrackId()] = fMCTruthList.size() - 1;
+-    }
+-    catch(cet::exception &#38;ex){
+-      mf::LogWarning("PhotonBackTracker") &lt;&lt; "unable to find MCTruth from ParticleList " 
+-                    &lt;&lt; "created in " &lt;&lt; fG4ModuleLabel &lt;&lt; " " 
+-                    &lt;&lt; "any attempt to get the MCTruth objects from " 
+-                    &lt;&lt; "the backtracker will fail\n" 
+-                    &lt;&lt; "message from caught exception:\n" &lt;&lt; ex;
+-    }    
++  
++  simb::MCParticle *part = new simb::MCParticle(pHandle-&gt;at(p));
++  fParticleList.Add(part);
++  
++  // get the simb::MCTruth associated to this sim::ParticleList
++  try{
++    art::Ptr&lt;simb::MCTruth&gt; mct = fo.at(p);
++    if(fMCTruthList.size() &lt; 1) fMCTruthList.push_back(mct);
++    else{
++      // check that we are not adding a simb::MCTruth twice to the collection
++      // we know that all the particles for a given simb::MCTruth are put into the
++      // collection of particles at the same time, so we can just check that the 
++      // current art::Ptr has a different id than the last one put 
++      if(!(mct == fMCTruthList.back())) fMCTruthList.push_back(mct);
++    }
++    // fill the track id to mctruth index map
++    fTrackIDToMCTruthIndex[pHandle-&gt;at(p).TrackId()] = fMCTruthList.size() - 1;
++  }
++  catch(cet::exception &#38;ex){
++    mf::LogWarning("PhotonBackTracker") &lt;&lt; "unable to find MCTruth from ParticleList " 
++          &lt;&lt; "created in " &lt;&lt; fG4ModuleLabel &lt;&lt; " " 
++          &lt;&lt; "any attempt to get the MCTruth objects from " 
++          &lt;&lt; "the backtracker will fail\n" 
++          &lt;&lt; "message from caught exception:\n" &lt;&lt; ex;
++  }  
+       }// end loop over particles to get MCTruthList  
+     }// end if fo.isValid()
+
+@@ -119,10 +119,10 @@ namespace cheat{
+     fParticleList.AdoptEveIdCalculator(new sim::EmEveIdCalculator);
+
+     LOG_DEBUG("PhotonBackTracker") &lt;&lt; "PhotonBackTracker has " &lt;&lt; cOpDetBacktrackerRecords.size()
+-                 &lt;&lt; " sim::OpDetBacktrackerRecords and " &lt;&lt; GetSetOfTrackIDs().size()
+-                 &lt;&lt; " tracks.  The particles are:\n" 
+-                 &lt;&lt; fParticleList
+-                 &lt;&lt; "\n the MCTruth information is\n";
++           &lt;&lt; " sim::OpDetBacktrackerRecords and " &lt;&lt; GetSetOfTrackIDs().size()
++           &lt;&lt; " tracks.  The particles are:\n" 
++           &lt;&lt; fParticleList
++           &lt;&lt; "\n the MCTruth information is\n";
+     for(size_t mc = 0; mc &lt; fMCTruthList.size(); ++mc)
+       LOG_DEBUG("PhotonBackTracker") &lt;&lt; *(fMCTruthList.at(mc).get());
+
+@@ -136,8 +136,8 @@ namespace cheat{
+
+     if(part_it == fParticleList.end()){
+       mf::LogWarning("PhotonBackTracker") &lt;&lt; "can't find particle with track id " 
+-                    &lt;&lt; id &lt;&lt; " in sim::ParticleList" 
+-                    &lt;&lt; " returning null pointer";
++            &lt;&lt; id &lt;&lt; " in sim::ParticleList" 
++            &lt;&lt; " returning null pointer";
+       return 0;
+     }
+
+@@ -161,8 +161,8 @@ namespace cheat{
+
+     if(/* mct &lt; 0 || */ mct &gt; fMCTruthList.size() ) 
+       throw cet::exception("PhotonBackTracker") &lt;&lt; "attempting to find MCTruth index for " 
+-                      &lt;&lt; "out of range value: " &lt;&lt; mct
+-                      &lt;&lt; "/" &lt;&lt; fMCTruthList.size() &lt;&lt; "\n";
++            &lt;&lt; "out of range value: " &lt;&lt; mct
++            &lt;&lt; "/" &lt;&lt; fMCTruthList.size() &lt;&lt; "\n";
+
+     return fMCTruthList[mct];
+   }
+@@ -179,12 +179,12 @@ namespace cheat{
+
+       // loop over the SDPMAP      
+       for(auto mapitr = pdTimeSDPmap.begin(); mapitr != pdTimeSDPmap.end(); mapitr++){
+-    
+-    // loop over the vector of SDP objects.
+-    const std::vector&lt;sim::SDP&gt;&#38; sdpvec = (*mapitr).second;
+-    for(size_t iv = 0; iv &lt; sdpvec.size(); ++iv){ 
+-      if( abs(sdpvec[iv].trackID) == id) sdps.push_back(sdpvec[iv]);
+-    }
++  
++  // loop over the vector of SDP objects.
++  const std::vector&lt;sim::SDP&gt;&#38; sdpvec = (*mapitr).second;
++  for(size_t iv = 0; iv &lt; sdpvec.size(); ++iv){ 
++    if( abs(sdpvec[iv].trackID) == id) sdps.push_back(sdpvec[iv]);
++  }
+
+       } // end loop over map from sim::OpDetBacktrackerRecord
+     } // end loop over sim::OpDetBacktrackerRecords
+@@ -221,14 +221,14 @@ namespace cheat{
+     const double start = (pTime-pWidth)*1000-fDelay;
+     const double end   = (pTime+pWidth)*1000-fDelay;
+
+-      this-&gt;ChannelToTrackSDPs(trackSDPs, opHit-&gt;OpChannel(), start, end);
++    this-&gt;ChannelToTrackSDPs(trackSDPs, opHit-&gt;OpChannel(), start, end);
+
+     return trackSDPs;
+   }
+
+   //----------------------------------------------------------------------
+   const std::vector&lt;std::vector&lt;art::Ptr&lt;recob::OpHit&gt;&gt;&gt; PhotonBackTracker::TrackIDsToOpHits(std::vector&lt;art::Ptr&lt;recob::OpHit&gt;&gt; const&#38; allOpHits, 
+-                                           std::vector&lt;int&gt; const&#38; tkIDs)
++                       std::vector&lt;int&gt; const&#38; tkIDs)
+   {
+     // returns a subset of the opHits in the allOpHits collection that are matched
+     // to MC particles listed in tkIDs
+@@ -369,7 +369,7 @@ namespace cheat{
+
+       // loop over the ides and extract the track ids
+       for(size_t i = 0; i &lt; trackSDPs.size(); ++i) {
+-    trackIDs.insert(trackSDPs[i].trackID);
++  trackIDs.insert(trackSDPs[i].trackID);
+       }
+
+       itr++;
+@@ -380,7 +380,7 @@ namespace cheat{
+
+   //----------------------------------------------------------------------
+   double PhotonBackTracker::OpHitCollectionPurity(std::set&lt;int&gt;                              trackIDs, 
+-                      std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits)
++            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits)
+   {
+     // get the list of EveIDs that correspond to the opHits in this collection
+     // if the EveID shows up in the input list of trackIDs, then it counts
+@@ -397,10 +397,10 @@ namespace cheat{
+       // don't double count if this opHit has more than one of the
+       // desired track IDs associated with it
+       for(size_t e = 0; e &lt; opHitTrackIDs.size(); ++e){
+-    if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end()){
+-      desired += 1.;
+-      break;
+-    }
++  if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end()){
++    desired += 1.;
++    break;
++  }
+       }
+
+     }// end loop over opHits
+@@ -413,7 +413,7 @@ namespace cheat{
+
+   //----------------------------------------------------------------------
+   double PhotonBackTracker::OpHitChargeCollectionPurity(std::set&lt;int&gt;                              trackIDs, 
+-                        std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits)
++            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits)
+   {
+     // get the list of EveIDs that correspond to the opHits in this collection
+     // if the EveID shows up in the input list of trackIDs, then it counts
+@@ -432,10 +432,10 @@ namespace cheat{
+       // don't double count if this opHit has more than one of the
+       // desired track IDs associated with it
+       for(size_t e = 0; e &lt; opHitTrackIDs.size(); ++e){
+-    if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end()){
+-      desired += opHit-&gt;Area();
+-      break;
+-    }
++  if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end()){
++    desired += opHit-&gt;Area();
++    break;
++  }
+       }
+
+     }// end loop over opHits
+@@ -449,16 +449,16 @@ namespace cheat{
+
+   //----------------------------------------------------------------------
+   double PhotonBackTracker::OpHitCollectionEfficiency(std::set&lt;int&gt;                              trackIDs, 
+-                          std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits,
+-                          std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allOpHits,
+-                          geo::View_t                         const&#38; view)
++                std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits,
++                std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allOpHits,
++                geo::View_t                         const&#38; view)
+   {
+      throw cet::exception("PhotonBackTracker")&lt;&lt;"This function is not supported. OpHits do not have type View.\n";
+   }
+
+   double PhotonBackTracker::OpHitCollectionEfficiency(std::set&lt;int&gt;                              trackIDs, 
+-                          std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits,
+-                          std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allOpHits)
++                std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits,
++                std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allOpHits)
+   {
+     // get the list of EveIDs that correspond to the opHits in this collection
+     // and the energy associated with the desired trackID
+@@ -478,11 +478,11 @@ namespace cheat{
+       // also don't double count if this opHit has more than one of the
+       // desired track IDs associated with it
+       for(size_t e = 0; e &lt; opHitTrackIDs.size(); ++e){
+-    if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end() &#38;&#38;
+-       opHitTrackIDs[e].energyFrac             &gt;= fMinOpHitEnergyFraction){
+-      desired += 1.;
+-      break;
+-    }
++  if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end() &#38;&#38;
++     opHitTrackIDs[e].energyFrac             &gt;= fMinOpHitEnergyFraction){
++    desired += 1.;
++    break;
++  }
+       }
+     }// end loop over opHits
+
+@@ -498,15 +498,15 @@ namespace cheat{
+       std::vector&lt;sim::TrackSDP&gt; opHitTrackIDs = this-&gt;OpHitToTrackID(opHit);
+
+       for(size_t e = 0; e &lt; opHitTrackIDs.size(); ++e){
+-    // don't worry about opHits where the energy fraction for the chosen
+-    // trackID is &lt; 0.1
+-    // also don't double count if this opHit has more than one of the
+-    // desired track IDs associated with it
+-    if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end() &#38;&#38;
+-       opHitTrackIDs[e].energyFrac             &gt;= fMinOpHitEnergyFraction){
+-      total += 1.;
+-      break;
+-    }
++  // don't worry about opHits where the energy fraction for the chosen
++  // trackID is &lt; 0.1
++  // also don't double count if this opHit has more than one of the
++  // desired track IDs associated with it
++  if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end() &#38;&#38;
++     opHitTrackIDs[e].energyFrac             &gt;= fMinOpHitEnergyFraction){
++    total += 1.;
++    break;
++  }
+       }
+
+     }// end loop over all opHits
+@@ -519,15 +519,15 @@ namespace cheat{
+
+   //----------------------------------------------------------------------
+   double PhotonBackTracker::OpHitChargeCollectionEfficiency(std::set&lt;int&gt;                              trackIDs, 
+-                            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits,
+-                            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allOpHits,
+-                            geo::View_t                         const&#38; view)
++                std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits,
++                std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allOpHits,
++                geo::View_t                         const&#38; view)
+   {
+      throw cet::exception("PhotonBackTracker")&lt;&lt;"This function is not supported. OpHits do not have type View.\n";
+   }
+   double PhotonBackTracker::OpHitChargeCollectionEfficiency(std::set&lt;int&gt;                              trackIDs, 
+-                            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits,
+-                            std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allOpHits)
++                std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; opHits,
++                std::vector&lt; art::Ptr&lt;recob::OpHit&gt; &gt; const&#38; allOpHits)
+   {
+     // get the list of EveIDs that correspond to the opHits in this collection
+     // and the energy associated with the desired trackID
+@@ -547,11 +547,11 @@ namespace cheat{
+       // also don't double count if this opHit has more than one of the
+       // desired track IDs associated with it
+       for(size_t e = 0; e &lt; opHitTrackIDs.size(); ++e){
+-    if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end() &#38;&#38;
+-       opHitTrackIDs[e].energyFrac             &gt;= fMinOpHitEnergyFraction){
+-      desired += opHit-&gt;Area();
+-      break;
+-    }
++  if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end() &#38;&#38;
++     opHitTrackIDs[e].energyFrac             &gt;= fMinOpHitEnergyFraction){
++    desired += opHit-&gt;Area();
++    break;
++  }
+       }
+     }// end loop over opHits
+
+@@ -567,15 +567,15 @@ namespace cheat{
+       std::vector&lt;sim::TrackSDP&gt; opHitTrackIDs = this-&gt;OpHitToTrackID(opHit);
+
+       for(size_t e = 0; e &lt; opHitTrackIDs.size(); ++e){
+-    // don't worry about opHits where the energy fraction for the chosen
+-    // trackID is &lt; 0.1
+-    // also don't double count if this opHit has more than one of the
+-    // desired track IDs associated with it
+-    if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end() &#38;&#38;
+-       opHitTrackIDs[e].energyFrac             &gt;= fMinOpHitEnergyFraction){
+-      total += opHit-&gt;Area();
+-      break;
+-    }
++  // don't worry about opHits where the energy fraction for the chosen
++  // trackID is &lt; 0.1
++  // also don't double count if this opHit has more than one of the
++  // desired track IDs associated with it
++  if(trackIDs.find(opHitTrackIDs[e].trackID) != trackIDs.end() &#38;&#38;
++     opHitTrackIDs[e].energyFrac             &gt;= fMinOpHitEnergyFraction){
++    total += opHit-&gt;Area();
++    break;
++  }
+       }
+
+     }// end loop over all opHits
+@@ -599,16 +599,16 @@ namespace cheat{
+
+     if(!opDet)
+       throw cet::exception("PhotonBackTracker") &lt;&lt; "No sim::OpDetBacktrackerRecord corresponding " 
+-                      &lt;&lt; "to opDetNum: " &lt;&lt; opDetNum &lt;&lt; "\n";
++            &lt;&lt; "to opDetNum: " &lt;&lt; opDetNum &lt;&lt; "\n";
+
+     return opDet;
+   }
+
+   //----------------------------------------------------------------------
+   void PhotonBackTracker::ChannelToTrackSDPs(std::vector&lt;sim::TrackSDP&gt;&#38;   trackSDPs,
+-                     int channel,
+-                     const double opHit_start_time,
+-                     const double opHit_end_time)
++             int channel,
++             const double opHit_start_time,
++             const double opHit_end_time)
+   {
+     trackSDPs.clear();
+
+@@ -629,7 +629,7 @@ namespace cheat{
+       // first get the total energy represented by all track ids for 
+       // this channel and range of tdc values
+       for(size_t e = 0; e &lt; simSDPs.size(); ++e)
+-    totalE += simSDPs[e].energy;
++  totalE += simSDPs[e].energy;
+
+       // protect against a divide by zero below
+@@ -638,21 +638,21 @@ namespace cheat{
+       // loop over the entries in the map and fill the input vectors
+
+       for(size_t e = 0; e &lt; simSDPs.size(); ++e){
+-    
+-    if(simSDPs[e].trackID == sim::NoParticleId) continue;
+-    
+-    sim::TrackSDP info;
+-    info.trackID    = simSDPs[e].trackID;
+-    info.energyFrac = simSDPs[e].energy/totalE;
+-    info.energy     = simSDPs[e].energy;
+-    
+-    trackSDPs.push_back(info);
+-    
++  
++  if(simSDPs[e].trackID == sim::NoParticleId) continue;
++  
++  sim::TrackSDP info;
++  info.trackID    = simSDPs[e].trackID;
++  info.energyFrac = simSDPs[e].energy/totalE;
++  info.energy     = simSDPs[e].energy;
++  
++  trackSDPs.push_back(info);
++  
+       }
+     }// end try
+     catch(cet::exception e){
+       mf::LogWarning("PhotonBackTracker") &lt;&lt; "caught exception \n" 
+-                    &lt;&lt; e;
++            &lt;&lt; e;
+     }
+
+     return;
+@@ -696,12 +696,12 @@ namespace cheat{
+       z += weight * sdp.z;
+
+     }// end loop over sim::SDPs
+-    
++  
+     // if the sum of the weights is still 0, then return
+     // the obviously stupid default values
+     if(w &lt; 1.e-5)
+       throw cet::exception("PhotonBackTracker") &lt;&lt; "No sim::SDPs providing non-zero number of photons" 
+-                      &lt;&lt; " can't determine originating location from truth\n";
++            &lt;&lt; " can't determine originating location from truth\n";
+
+     xyz[0] = x/w;
+     xyz[1] = y/w;
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-11"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=11">Edit this section</a></div><a name="larsimMCCheaterphotonbacktrackerfcl"></a>
+<h3 >larsim/MCCheater/photonbacktracker.fcl<a href="#larsimMCCheaterphotonbacktrackerfcl" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larsim/MCCheater/photonbacktracker.fcl b/larsim/MCCheater/photonbacktracker.fcl
+index b02c251..3934c9a 100644
+--- a/larsim/MCCheater/photonbacktracker.fcl
++++ b/larsim/MCCheater/photonbacktracker.fcl
+@@ -5,13 +5,7 @@ standard_photonbacktracker:
+  G4ModuleLabel:            "largeant" # module that produced the sim::Particle and sim::SimChannel objects
+  MinimumHitEnergyFraction: 0.1        # minimum fraction of energy a G4 trackID contributes to a hit to be 
+                                       # counted in hit based efficiency and purity calculations
++ Delay:                    0          #This number is the difference between when light arrives at the detector, and the time recorded in OpHits. This number is experiment specific and should be set by each experiment. 
+ }
+
+-jp250L_photonbacktracker:     @local::standard_photonbacktracker
+-bo_photonbacktracker:         @local::standard_photonbacktracker
+-argoneut_photonbacktracker:   @local::standard_photonbacktracker
+-microboone_photonbacktracker: @local::standard_photonbacktracker
+-dune35t_photonbacktracker:    @local::standard_photonbacktracker
+-dunefd_photonbacktracker:     @local::standard_photonbacktracker
+-
+ END_PROLOG
+</pre>
+
+	<div class="contextual heading-2" title="Edit this section" id="section-12"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=12">Edit this section</a></div><a name="larreco"></a>
+<h2 >larreco<a href="#larreco" class="wiki-anchor">&para;</a></h2>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-13"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=13">Edit this section</a></div><a name="larrecoHitFinderGausHitFinder_modulecc"></a>
+<h3 >larreco/HitFinder/GausHitFinder_module.cc<a href="#larrecoHitFinderGausHitFinder_modulecc" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larreco/HitFinder/GausHitFinder_module.cc b/larreco/HitFinder/GausHitFinder_module.cc
+index b35c72a..3273bd0 100644
+--- a/larreco/HitFinder/GausHitFinder_module.cc
++++ b/larreco/HitFinder/GausHitFinder_module.cc
+@@ -125,7 +125,7 @@ namespace hit{
+     size_t              fMaxMultiHit;              ///&lt;maximum hits for multi fit
+     int                 fAreaMethod;               ///&lt;Type of area calculation
+     std::vector&lt;double&gt; fAreaNorms;                ///&lt;factors for converting area to same units as peak height
+-    bool                fTryNplus1Fits;            ///&lt;whether we will (0) or won't (1) try n+1 fits
++    bool                fTryNplus1Fits;            ///&lt;whether we will (true) or won't (false) try n+1 fits
+     double                fChi2NDFRetry;             ///&lt;Value at which a second n+1 Fit will be tried
+     double                fChi2NDF;                  ///maximum Chisquared / NDF allowed for a hit to be saved
+     size_t              fNumBinsToAverage;         ///&lt; If bin averaging for peak finding, number bins to average
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-14"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=14">Edit this section</a></div><a name="larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgcxx"></a>
+<h3 >larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx<a href="#larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgcxx" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx b/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx
+index ed5a357..15c78f8 100644
+--- a/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx
++++ b/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx
+@@ -235,15 +235,17 @@ bool nnet::DataProviderAlg::bufferPatch(size_t wire, float drift) const
+     int d0 = fCurrentScaledDrift - halfSizeD;
+     int d1 = fCurrentScaledDrift + halfSizeD;
+
++    int wsize = fWireDriftData.size();
+     for (int w = w0, wpatch = 0; w &lt; w1; ++w, ++wpatch)
+     {
+         auto &#38; dst = fWireDriftPatch[wpatch];
+-        if ((w &gt;= 0) &#38;&#38; (w &lt; (int)fWireDriftData.size()))
++        if ((w &gt;= 0) &#38;&#38; (w &lt; wsize))
+         {
+             auto &#38; src = fWireDriftData[w];
++            int dsize = src.size();
+             for (int d = d0, dpatch = 0; d &lt; d1; ++d, ++dpatch)
+             {
+-                if ((d &gt;= 0) &#38;&#38; (d &lt; (int)src.size()))
++                if ((d &gt;= 0) &#38;&#38; (d &lt; dsize))
+                 {
+                     dst[dpatch] = src[d];
+                 }
+@@ -299,12 +301,30 @@ bool nnet::DataProviderAlg::isInsideFiducialRegion(unsigned int wire, float drif
+ }
+ // ------------------------------------------------------
+
++
++
++// ------------------------------------------------------
++// -------------------ModelInterface---------------------
++// ------------------------------------------------------
++
++std::string nnet::ModelInterface::findFile(const char* fileName) const
++{
++    std::string fname_out;
++    cet::search_path sp("FW_SEARCH_PATH");
++    if (!sp.find_file(fileName, fname_out))
++    {
++        throw art::Exception(art::errors::NotFound)
++            &lt;&lt; "Could not find the model file " &lt;&lt; fileName;
++    }
++    return fname_out;
++}
++
+ // ------------------------------------------------------
+ // -----------------MlpModelInterface--------------------
+ // ------------------------------------------------------
+
+ nnet::MlpModelInterface::MlpModelInterface(const char* xmlFileName) :
+-    m(xmlFileName)
++    m(nnet::ModelInterface::findFile(xmlFileName).c_str())
+ {
+     mf::LogInfo("MlpModelInterface") &lt;&lt; "MLP model loaded.";
+ }
+@@ -357,7 +377,7 @@ float nnet::MlpModelInterface::GetOneOutput(int neuronIndex) const
+ // ------------------------------------------------------
+
+ nnet::KerasModelInterface::KerasModelInterface(const char* modelFileName) :
+-    m(modelFileName)
++    m(nnet::ModelInterface::findFile(modelFileName).c_str())
+ {
+     mf::LogInfo("KerasModelInterface") &lt;&lt; "Keras model loaded.";
+ }
+@@ -649,6 +669,7 @@ bool nnet::TrainingDataAlg::setWireEdepsAndLabels(
+
+         int best_pdg = pdgs[i0] &#38; nnet::TrainingDataAlg::kPdgMask;
+         int vtx_flags = pdgs[i0] &#38; nnet::TrainingDataAlg::kVtxMask;
++        int type_flags = pdgs[i0] &#38; nnet::TrainingDataAlg::kTypeMask;
+         float max_edep = edeps[i0];
+         for (size_t k = i0 + 1; k &lt; i1; ++k)
+         {
+@@ -658,11 +679,13 @@ bool nnet::TrainingDataAlg::setWireEdepsAndLabels(
+                 max_edep = ek;
+                 best_pdg = pdgs[k] &#38; nnet::TrainingDataAlg::kPdgMask; // remember best matching pdg
+             }
++            type_flags |= pdgs[k] &#38; nnet::TrainingDataAlg::kTypeMask; // accumulate track type flags
+             vtx_flags |= pdgs[k] &#38; nnet::TrainingDataAlg::kVtxMask;   // accumulate all vtx flags
+         }
+
+         wEdep[i] = max_edep;
+
++        best_pdg |= type_flags;
+         if (fSaveVtxFlags) best_pdg |= vtx_flags;
+         wPdg[i] = best_pdg;
+     }
+@@ -701,6 +724,32 @@ nnet::TrainingDataAlg::WireDrift nnet::TrainingDataAlg::getProjection(double x,
+ }
+ // ------------------------------------------------------
+
++bool nnet::TrainingDataAlg::isMuonDecaying(const simb::MCParticle &#38; particle,
++    const std::unordered_map&lt; int, const simb::MCParticle* &gt; &#38; particleMap) const
++{
++    bool hasElectron = false, hasNuMu = false, hasNuE = false;
++
++    int pdg = abs(particle.PdgCode());
++    if ((pdg == 13) &#38;&#38; (particle.EndProcess() == "FastScintillation")) // potential muon decay at rest
++    {
++        unsigned int nSec = particle.NumberDaughters();
++        for (size_t d = 0; d &lt; nSec; ++d)
++        {
++            auto d_search = particleMap.find(particle.Daughter(d));
++            if (d_search != particleMap.end())
++            {
++                auto const &#38; daughter = *((*d_search).second);
++                int d_pdg = abs(daughter.PdgCode());
++                if (d_pdg == 11) hasElectron = true;
++                else if (d_pdg == 14) hasNuMu = true;
++                else if (d_pdg == 12) hasNuE = true;
++            }
++        }
++    }
++
++    return (hasElectron &#38;&#38; hasNuMu &#38;&#38; hasNuE);
++}
++
+ void nnet::TrainingDataAlg::collectVtxFlags(
+     std::unordered_map&lt; size_t, std::unordered_map&lt; int, int &gt; &gt; &#38; wireToDriftToVtxFlags,
+     const std::unordered_map&lt; int, const simb::MCParticle* &gt; &#38; particleMap,
+@@ -729,26 +778,11 @@ void nnet::TrainingDataAlg::collectVtxFlags(
+                 break;
+
+             case 13:   // mu+/-
+-                if ((particle.EndProcess() == "FastScintillation")) // potential decay at rest
+-                {
+-                    unsigned int nSec = particle.NumberDaughters();
+-                    
+-                    for (size_t d = 0; d &lt; nSec; ++d)
+-                    {
+-                        auto d_search = particleMap.find(particle.Daughter(d));
+-                        if (d_search != particleMap.end())
+-                        {
+-                            auto const &#38; daughter = *((*d_search).second);
+-                            int d_pdg = abs(daughter.PdgCode());
+-                            if (d_pdg == 11)
+-                            {
+-                                //std::cout &lt;&lt; "---&gt; mu decay to electron" &lt;&lt; std::endl;
+-                                flagsEnd = nnet::TrainingDataAlg::kDecay;
+-                                break;
+-                            }
+-                        }
+-                    }
+-                }
++                if (nnet::TrainingDataAlg::isMuonDecaying(particle, particleMap))
++                {
++                    //std::cout &lt;&lt; "---&gt; mu decay to electron" &lt;&lt; std::endl;
++                    flagsEnd = nnet::TrainingDataAlg::kDecay;
++                }
+                 break;
+
+             case 111:  // pi0
+@@ -941,19 +975,49 @@ bool nnet::TrainingDataAlg::setEventData(const art::Event&#38; event,
+                 {
+                     int pdg = 0;
+                     int tid = energyDeposit.trackID;
+-                    if (tid &lt; 0) { pdg = 11; tid = -tid; } // negative tid means it is EM activity
+-
+-                    auto search = particleMap.find(tid);
+-                    if (search == particleMap.end())
++                    if (tid &lt; 0) // negative tid means it is EM activity, and -tid is the mother
+                     {
+-                        mf::LogWarning("TrainingDataAlg") &lt;&lt; "PARTICLE NOT FOUND";
+-                        continue;
++                        pdg = 11; tid = -tid;
++                        
++                        auto search = particleMap.find(tid);
++                        if (search == particleMap.end())
++                        {
++                            mf::LogWarning("TrainingDataAlg") &lt;&lt; "PARTICLE NOT FOUND";
++                            continue;
++                        }
++                        auto const &#38; mother = *((*search).second); // mother particle of this EM
++                        int mPdg = abs(mother.PdgCode());
++                        if ((mPdg == 13) || (mPdg == 211) || (mPdg == 2212))
++                        {
++                            if (energyDeposit.numElectrons &gt; 10) pdg |= nnet::TrainingDataAlg::kDelta; // tag delta ray
++                        }
++                    }
++                    else
++                    {
++                        auto search = particleMap.find(tid);
++                        if (search == particleMap.end())
++                        {
++                            mf::LogWarning("TrainingDataAlg") &lt;&lt; "PARTICLE NOT FOUND";
++                            continue;
++                        }
++                        auto const &#38; particle = *((*search).second);
++                        pdg = abs(particle.PdgCode());
++
++                        if (pdg == 11) // electron, check if it is Michel
++                        {
++                            auto msearch = particleMap.find(particle.Mother());
++                            if (msearch != particleMap.end())
++                            {
++                                auto const &#38; mother = *((*msearch).second);
++                                if (nnet::TrainingDataAlg::isMuonDecaying(mother, particleMap))
++                                {
++                                    pdg |= nnet::TrainingDataAlg::kMichel; // tag Michel
++                                }
++                            }
++                        }
+                     }
+
+-                    auto const &#38; particle = *((*search).second);
+-                    if (!pdg) pdg = particle.PdgCode(); // not EM activity so read what PDG it is
+-
+-                    trackToPDG[energyDeposit.trackID] = abs(pdg);
++                    trackToPDG[energyDeposit.trackID] = pdg;
+
+                     double energy = energyDeposit.numElectrons * electronsToGeV;
+                     timeToTrackToCharge[time][energyDeposit.trackID] += energy;
+@@ -962,6 +1026,7 @@ bool nnet::TrainingDataAlg::setEventData(const art::Event&#38; event,
+               } // loop over time slices
+           } // for each SimChannel
+
++        int type_pdg_mask = nnet::TrainingDataAlg::kTypeMask | nnet::TrainingDataAlg::kPdgMask;
+         for (auto const &#38; ttc : timeToTrackToCharge)
+         {
+             float max_deposit = 0.0;
+@@ -974,11 +1039,11 @@ bool nnet::TrainingDataAlg::setEventData(const art::Event&#38; event,
+                     max_pdg = trackToPDG[tc.first];
+                 }            
+             }
+-            
++
+             if (ttc.first &lt; (int)labels_deposit.size())
+             {
+                 labels_deposit[ttc.first] = max_deposit;
+-                labels_pdg[ttc.first]     = max_pdg &#38; 0xFFFF;
++                labels_pdg[ttc.first]     = max_pdg &#38; type_pdg_mask;
+             }
+         }
+
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-15"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=15">Edit this section</a></div><a name="larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgh"></a>
+<h3 >larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h<a href="#larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgh" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h b/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h
+index 109af89..720fe78 100644
+--- a/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h
++++ b/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h
+@@ -168,7 +168,7 @@ public:
+ protected:
+     ModelInterface(void) { }
+
+-private:
++    std::string findFile(const char* fileName) const;
+ };
+ // ------------------------------------------------------
+
+@@ -258,18 +258,28 @@ class nnet::TrainingDataAlg : public nnet::DataProviderAlg
+ {
+ public:
+
++    enum EMask
++    {
++        kNone     = 0,
++        kPdgMask  = 0x00000FFF, // pdg code mask
++        kTypeMask = 0x0000F000, // track type mask
++        kVtxMask  = 0x0FFF0000  // vertex flags, still can use 0xFFFF0000 if more vtx types needed
++    };
++
++    enum ETrkType
++    {
++        kDelta  = 0x1000,      // delta electron
++        kMichel = 0x2000       // Michel electron
++    };
++
+     enum EVtxId
+     {
+-        kNone  = 0,
+         kNuNC  = 0x0010000, kNuCC = 0x0020000,                      // nu interaction type
+         kNuE   = 0x0100000, kNuMu = 0x0200000, kNuTau = 0x0400000,  // nu flavor
+         kHadr  = 0x1000000,    // hadronic inelastic scattering
+         kPi0   = 0x2000000,    // pi0 produced in this vertex
+         kDecay = 0x4000000,    // point of particle decay
+         kConv  = 0x8000000,    // gamma conversion
+-
+-        kVtxMask = 0x0FFF0000, // vertex flags, still can use 0xFFFF0000 if more vtx types needed
+-        kPdgMask = 0x0000FFFF  // pdg code mask (pdg is saved in the same int as vtx flags)
+     };
+
+     struct Config : public nnet::DataProviderAlg::Config
+@@ -336,6 +346,10 @@ private:
+         const std::unordered_map&lt; int, const simb::MCParticle* &gt; &#38; particleMap,
+         unsigned int view) const;
+
++    bool isMuonDecaying(
++        const simb::MCParticle &#38; particle,
++        const std::unordered_map&lt; int, const simb::MCParticle* &gt; &#38; particleMap) const;
++
+     std::vector&lt; std::vector&lt;float&gt; &gt; fWireDriftEdep;
+     std::vector&lt; std::vector&lt;int&gt; &gt; fWireDriftPdg;
+
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-16"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=16">Edit this section</a></div><a name="larrecoRecoAlgImagePatternAlgsscriptsutilspy"></a>
+<h3 >larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py<a href="#larrecoRecoAlgImagePatternAlgsscriptsutilspy" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py b/larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py
+index e620236..c8229a1 100644
+--- a/larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py
++++ b/larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py
+@@ -40,9 +40,9 @@ def get_data(fname, drift_margin = 0, crop = True):
+     A_pdg[deposit_th_ind] = 0
+     tracks = A_pdg.copy()
+     showers = A_pdg.copy()
+-    tracks[(A_pdg &#38; 0xFFFF) == 11] = 0
++    tracks[(A_pdg &#38; 0x0FFF) == 11] = 0
+     tracks[tracks &gt; 0]   = 1
+-    showers[(A_pdg &#38; 0xFFFF) != 11] = 0
++    showers[(A_pdg &#38; 0x0FFF) != 11] = 0
+     showers[showers &gt; 0] = 1
+     return A_raw, A_deposit, A_pdg, tracks, showers
+
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-17"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=17">Edit this section</a></div><a name="larrecoRecoAlgTrackKalmanFittercxx"></a>
+<h3 >larreco/RecoAlg/TrackKalmanFitter.cxx<a href="#larrecoRecoAlgTrackKalmanFittercxx" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larreco/RecoAlg/TrackKalmanFitter.cxx b/larreco/RecoAlg/TrackKalmanFitter.cxx
+index 19fe252..5bb6758 100644
+--- a/larreco/RecoAlg/TrackKalmanFitter.cxx
++++ b/larreco/RecoAlg/TrackKalmanFitter.cxx
+@@ -201,7 +201,6 @@ bool trkf::TrackKalmanFitter::fitTrack(const recob::Track&#38; track, const std::vec
+   for (auto itertrack = fittedTrack.getTrackMap().rbegin(); itertrack != fittedTrack.getTrackMap().rend(); ++itertrack) {
+     trkf::KHitTrack&#38; fwdTrack = itertrack-&gt;second;
+     trkf::KHitWireX khit(dynamic_cast&lt;const trkf::KHitWireX&#38;&gt;(*fwdTrack.getHit().get()));//need a non const copy in case we want to modify the error
+-    if (useRMS_) khit.setMeasError(khit.getMeasError()*khit.getHit()-&gt;RMS()*khit.getHit()-&gt;RMS()/(std::max(khit.getHit()-&gt;SigmaPeakTime()*khit.getHit()-&gt;SigmaPeakTime(),0.08333333333f)));
+
+     boost::optional&lt;double&gt; pdist = prop_-&gt;noise_prop(trf,khit.getMeasSurface(),trkf::Propagator::BACKWARD,true);
+     if (!pdist) {
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-18"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=18">Edit this section</a></div><a name="larrecoTrackFinderKalmanFilterFinalTrackFitter_modulecc"></a>
+<h3 >larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc<a href="#larrecoTrackFinderKalmanFilterFinalTrackFitter_modulecc" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc b/larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc
+index d6728d2..3bf23a1 100644
+--- a/larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc
++++ b/larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc
+@@ -197,6 +197,9 @@ trkf::KalmanFilterFinalTrackFitter::KalmanFilterFinalTrackFitter(trkf::KalmanFil
+
+   produces&lt;std::vector&lt;recob::Track&gt; &gt;();
+   produces&lt;art::Assns&lt;recob::Track, recob::Hit&gt; &gt;();
++  if (p_().options().trackFromPF()) {
++    produces&lt;art::Assns&lt;recob::PFParticle, recob::Track&gt; &gt;();
++  }
+
+   //throw expections to avoid possible silent failures due to incompatible configuration options
+   if (p_().options().trackFromPF()==0 &#38;&#38; p_().options().idFromPF())
+@@ -209,7 +212,7 @@ trkf::KalmanFilterFinalTrackFitter::KalmanFilterFinalTrackFitter(trkf::KalmanFil
+     throw cet::exception("KalmanFilterFinalTrackFitter") &lt;&lt; "Incompatible configuration parameters: cannot use dirFromVec=true with dirFromVtxPF=true." &lt;&lt; "\n";
+   unsigned int nPFroms = 0;
+   if (p_().options().pFromCalo())   nPFroms++;
+-  if (p_().options().pFromMSChi2())    nPFroms++;
++  if (p_().options().pFromMSChi2()) nPFroms++;
+   if (p_().options().pFromLength()) nPFroms++;
+   if (p_().options().pFromMC())     nPFroms++;
+   if (nPFroms&gt;1) {
+@@ -251,6 +254,8 @@ void trkf::KalmanFilterFinalTrackFitter::produce(art::Event &#38; e)
+   }
+
+   if (p_().options().trackFromPF()) {
++
++    auto outputPFAssn = std::make_unique&lt;art::Assns&lt;recob::PFParticle, recob::Track&gt; &gt;();
+
+     art::ValidHandle&lt;std::vector&lt;recob::PFParticle&gt; &gt; inputPFParticle = e.getValidHandle&lt;std::vector&lt;recob::PFParticle&gt; &gt;(pfParticleInputTag);
+     assocTracks = std::unique_ptr&lt;art::FindManyP&lt;recob::Track&gt; &gt;(new art::FindManyP&lt;recob::Track&gt;(inputPFParticle, e, pfParticleInputTag));
+@@ -297,8 +302,12 @@ void trkf::KalmanFilterFinalTrackFitter::produce(art::Event &#38; e)
+     for (auto const&#38; trhit: outHits) {
+       outputHits-&gt;addSingle(aptr, trhit);
+     }
++    outputPFAssn-&gt;addSingle(art::Ptr&lt;recob::PFParticle&gt;(inputPFParticle, iPF), aptr);
+       }
+     }
++    e.put(std::move(outputTracks));
++    e.put(std::move(outputHits));
++    e.put(std::move(outputPFAssn));
+   } else {
+
+     art::ValidHandle&lt;std::vector&lt;recob::Track&gt; &gt; inputTracks = e.getValidHandle&lt;std::vector&lt;recob::Track&gt; &gt;(trackInputTag);
+@@ -342,11 +351,9 @@ void trkf::KalmanFilterFinalTrackFitter::produce(art::Event &#38; e)
+     outputHits-&gt;addSingle(aptr, trhit);
+       }
+     }
++    e.put(std::move(outputTracks));
++    e.put(std::move(outputHits));
+   }
+-  
+-  e.put(std::move(outputTracks));
+-  e.put(std::move(outputHits));
+-  
+ }
+
+ double trkf::KalmanFilterFinalTrackFitter::setMomValue(art::Ptr&lt;recob::Track&gt; ptrack, const std::unique_ptr&lt;art::FindManyP&lt;anab::Calorimetry&gt; &gt;&#38; trackCalo, const double pMC, const int pId) const {
+
+</pre>
+
+	<div class="contextual heading-2" title="Edit this section" id="section-19"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=19">Edit this section</a></div><a name="larana"></a>
+<h2 >larana<a href="#larana" class="wiki-anchor">&para;</a></h2>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-20"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=20">Edit this section</a></div><a name="laranaOpticalDetectorOpHitFinderUtilFunccxx"></a>
+<h3 >larana/OpticalDetector/OpHitFinder/UtilFunc.cxx<a href="#laranaOpticalDetectorOpHitFinderUtilFunccxx" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larana/OpticalDetector/OpHitFinder/UtilFunc.cxx b/larana/OpticalDetector/OpHitFinder/UtilFunc.cxx
+index 8f6ec29..e09a8d8 100644
+--- a/larana/OpticalDetector/OpHitFinder/UtilFunc.cxx
++++ b/larana/OpticalDetector/OpHitFinder/UtilFunc.cxx
+@@ -66,7 +66,7 @@ namespace pmtana {
+
+     double bin_width = ((*res.second) - (*res.first)) / ((double)nbins);
+
+-    if(nbins==1) return ((*res.first) + bin_width /2.);
++    if(nbins==1 || bin_width == 0) return ((*res.first) + bin_width /2.);
+
+     //std::cout&lt;&lt;"Min: "&lt;&lt;(*res.first)&lt;&lt;" Max: "&lt;&lt;(*res.second)&lt;&lt;" Width: "&lt;&lt;bin_width&lt;&lt;std::endl;
+
+</pre>
+
+	<div class="contextual heading-3" title="Edit this section" id="section-21"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/edit?section=21">Edit this section</a></div><a name="laranaT0FinderPhotonCounterT0Matching_modulecc"></a>
+<h3 >larana/T0Finder/PhotonCounterT0Matching_module.cc<a href="#laranaT0FinderPhotonCounterT0Matching_modulecc" class="wiki-anchor">&para;</a></h3>
+
+
+<pre>
+diff --git a/larana/T0Finder/PhotonCounterT0Matching_module.cc b/larana/T0Finder/PhotonCounterT0Matching_module.cc
+index 9e1267a..4b4b4d8 100644
+--- a/larana/T0Finder/PhotonCounterT0Matching_module.cc
++++ b/larana/T0Finder/PhotonCounterT0Matching_module.cc
+@@ -125,6 +125,7 @@ private:
+   double fWeightOfDeltaYZ;
+   double fMatchCriteria;
+   double fPEThreshold;
++  bool   fVerbosity;
+
+   // Variables used in module.......
+   std::vector&lt;double&gt; trackStart;
+@@ -189,6 +190,8 @@ void lbne::PhotonCounterT0Matching::reconfigure(fhicl::ParameterSet const &#38; p)
+   fWeightOfDeltaYZ = (p.get&lt; double &gt; ("WeightOfDeltaYZ"   ) );
+   fMatchCriteria   = (p.get&lt; double &gt; ("MatchCriteria"     ) );
+   fPEThreshold     = (p.get&lt; double &gt; ("PEThreshold"       ) );
++
++  fVerbosity = (p.get&lt; bool &gt; ("Verbose",false) );
+ }
+
+ void lbne::PhotonCounterT0Matching::beginJob()
+@@ -219,7 +222,7 @@ void lbne::PhotonCounterT0Matching::beginJob()
+                     20, 0, 100, 60, 0, 300); 
+   hFitParam_Length = tfs-&gt;make&lt;TH2D&gt;("hFitParam_Length", "How fit correlates with track length; Fit correlation; Track Length (cm)", 50, 0, 250, 30, 0, 300);
+   hPhotonT0_MCT0   = tfs-&gt;make&lt;TH2D&gt;("hPhotonT0_MCT0"  , "Comparing Photon Counter reconstructed T0 against MCTruth T0; Photon Counter T0 (us); MCTruthT0 T0 (us)", 1760, -1600, 16000, 1760, -1600, 16000);
+-  hT0_diff_full    = tfs-&gt;make&lt;TH1D&gt;("hT0_diff_full"   , "Difference between MCTruth T0 and photon detector T0; Time difference (us); Number", 320, -1600, 1600);
++  hT0_diff_full    = tfs-&gt;make&lt;TH1D&gt;("hT0_diff_full"   , "Difference between MCTruth T0 and photon detector T0; Time difference (us); Number", 500, -2500, 2500);
+   hT0_diff_zoom    = tfs-&gt;make&lt;TH1D&gt;("hT0_diff_zoom"   , "Difference between MCTruth T0 and photon detector T0; Time difference (us); Number", 320, -1.6, 1.6);
+ }
+
+@@ -269,11 +272,12 @@ void lbne::PhotonCounterT0Matching::produce(art::Event &#38; evt)
+     size_t NTracks  = tracklist.size();
+     size_t NFlashes = flashlist.size();
+
+-    std::cout &lt;&lt; "There were " &lt;&lt; NTracks &lt;&lt; " tracks and " &lt;&lt; NFlashes &lt;&lt; " flashes in this event." &lt;&lt; std::endl;
++    if (fVerbosity)
++      std::cout &lt;&lt; "There were " &lt;&lt; NTracks &lt;&lt; " tracks and " &lt;&lt; NFlashes &lt;&lt; " flashes in this event." &lt;&lt; std::endl;
+
+     // Now to access PhotonCounter for each track... 
+     for(size_t iTrk=0; iTrk &lt; NTracks; ++iTrk) { 
+-      std::cout &lt;&lt; "\n New Track " &lt;&lt; (int)iTrk &lt;&lt; std::endl;
++      if (fVerbosity) std::cout &lt;&lt; "\n New Track " &lt;&lt; (int)iTrk &lt;&lt; std::endl;
+       // Reset Variables.
+       BestFlashTime = BestFitParam = BestTrackCentre_X = BestTrackLength = 9999;
+       BestTimeSepPredX = BestPredictedX = BestDeltaPredX = BestminYZSep = MCTruthT0 = 9999;
+@@ -292,13 +296,13 @@ void lbne::PhotonCounterT0Matching::produce(art::Event &#38; evt)
+           TrackLength);     
+
+       // Some cout statement about track properties.
+-      ///*
+-      std::cout &lt;&lt; trackStart[0] &lt;&lt; " " &lt;&lt; trackEnd[0] &lt;&lt; " " &lt;&lt; TrackLength_X &lt;&lt; " " &lt;&lt; TrackCentre_X 
+-        &lt;&lt; "\n" &lt;&lt; trackStart[1] &lt;&lt; " " &lt;&lt; trackEnd[1] &lt;&lt; " " &lt;&lt; TrackLength_Y &lt;&lt; " " &lt;&lt; TrackCentre_Y
+-        &lt;&lt; "\n" &lt;&lt; trackStart[2] &lt;&lt; " " &lt;&lt; trackEnd[2] &lt;&lt; " " &lt;&lt; TrackLength_Z &lt;&lt; " " &lt;&lt; TrackCentre_Z
+-        &lt;&lt; "\n" &lt;&lt; trkTimeStart  &lt;&lt; " " &lt;&lt; trkTimeEnd  &lt;&lt; " " &lt;&lt; trkTimeLengh  &lt;&lt; " " &lt;&lt; trkTimeCentre
+-        &lt;&lt; std::endl;
+-      //*/
++      if (fVerbosity) {
++    std::cout &lt;&lt; trackStart[0] &lt;&lt; " " &lt;&lt; trackEnd[0] &lt;&lt; " " &lt;&lt; TrackLength_X &lt;&lt; " " &lt;&lt; TrackCentre_X 
++          &lt;&lt; "\n" &lt;&lt; trackStart[1] &lt;&lt; " " &lt;&lt; trackEnd[1] &lt;&lt; " " &lt;&lt; TrackLength_Y &lt;&lt; " " &lt;&lt; TrackCentre_Y
++          &lt;&lt; "\n" &lt;&lt; trackStart[2] &lt;&lt; " " &lt;&lt; trackEnd[2] &lt;&lt; " " &lt;&lt; TrackLength_Z &lt;&lt; " " &lt;&lt; TrackCentre_Z
++          &lt;&lt; "\n" &lt;&lt; trkTimeStart  &lt;&lt; " " &lt;&lt; trkTimeEnd  &lt;&lt; " " &lt;&lt; trkTimeLengh  &lt;&lt; " " &lt;&lt; trkTimeCentre
++          &lt;&lt; std::endl;
++      }
+       // ----- Loop over flashes ------
+       for ( size_t iFlash=0; iFlash &lt; NFlashes; ++iFlash ) {
+     //Reset some flash specific quantities
+@@ -334,8 +338,10 @@ void lbne::PhotonCounterT0Matching::produce(art::Event &#38; evt)
+     else if (fMatchCriteria == 2) FitParam = DeltaPredX;
+
+     //----FLASH INFO-----
+-    std::cout &lt;&lt; "\nFlash " &lt;&lt; (int)iFlash &lt;&lt; " " &lt;&lt; TrackCentre_X &lt;&lt; ", " &lt;&lt; TimeSepPredX &lt;&lt; " - " &lt;&lt; PredictedX &lt;&lt; " = " &lt;&lt; DeltaPredX &lt;&lt; ", " &lt;&lt; minYZSep &lt;&lt; " -&gt; " &lt;&lt; FitParam &lt;&lt; std::endl; 
+-    
++    if (fVerbosity) {
++      std::cout &lt;&lt; "\nFlash " &lt;&lt; (int)iFlash &lt;&lt; " " &lt;&lt; TrackCentre_X &lt;&lt; ", " &lt;&lt; TimeSepPredX &lt;&lt; " - " &lt;&lt; PredictedX &lt;&lt; " = " 
++            &lt;&lt; DeltaPredX &lt;&lt; ", " &lt;&lt; minYZSep &lt;&lt; " -&gt; " &lt;&lt; FitParam &lt;&lt; std::endl; 
++    }
+     //----Select best flash------
+     //double YFitRegion = (-1 * DeltaPredX ) + 80;
+     //if ( minYZSep &gt; YFitRegion ) continue;
+
+</pre>
+</div>
+
+
+<fieldset class="collapsible collapsed hide-when-print">
+  <legend onclick="toggleFieldset(this);">Files (0)</legend>
+  <div style="display: none;">
+
+  
+  
+  <div id="wiki_add_attachment">
+    <form id="add_attachment_form" enctype="multipart/form-data" action="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00/add_attachment" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="FZclDCDFHRYuI5zkKUoYatOkZsqxBhlxVPLOmWHbE2X/ecGRoFjhYDdUcz3jp0x9uv29Piry2DUtPuDCay5M0Q==" />
+      <div class="box">
+      <p>
+<span class="attachments_form">
+  <span class="attachments_fields">
+  </span>
+  <span class="add_attachment" style="">
+    <input type="file" name="attachments[dummy][file]" class="file_selector filedrop" multiple="multiple" onchange="addInputFiles(this);" data-max-file-size="419430400" data-max-file-size-message="This file cannot be uploaded because it exceeds the maximum allowed file size (400 MB)" data-max-concurrent-uploads="2" data-upload-path="/redmine/uploads.js" data-param="attachments" data-description="true" data-description-placeholder="Optional description" />
+    (Maximum size: 400 MB)
+  </span>
+</span>
+
+</p>
+      </div>
+      <input type="submit" name="commit" value="Add" />
+</form>  </div>
+</div>
+</fieldset>
+
+<p class="other-formats">Also available in:  <span><a class="pdf" rel="nofollow" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00.pdf">PDF</a></span>
+  <span><a class="html" rel="nofollow" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00.html">HTML</a></span>
+  <span><a class="txt" rel="nofollow" href="/redmine/projects/larsoft/wiki/Explicit_code_changes_since_v06_18_00.txt">TXT</a></span>
+</p>
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2019 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

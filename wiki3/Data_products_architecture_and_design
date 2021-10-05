@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Data products architecture and design - LArSoft - Fermilab Redmine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fqYOximKLaFkCa6NWumuOuZLDLe5w/prJPOxehHP5WqUSOpbqRfR131+QVSQBPotjxLXQyI3Oy9dP58hGzq63g==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico?1560171137' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/application.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css?1601072360" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1601072362"></script>
+<script src="/redmine/javascripts/application.js?1601072361"></script>
+<script src="/redmine/javascripts/responsive.js?1601072360"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_countable_headers/stylesheets/countable_headers.css?1604432132" />  <script src="/redmine/plugin_assets/redmine_sortable_table/javascripts/sortable_table.js?1601318223"></script><link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_sortable_table/stylesheets/sortable_table.css?1601318223" /> <link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_group_assignee/stylesheets/tab_content_assignees.css?1604592738" />
+<!-- page specific tags -->
+  <script src="/redmine/javascripts/attachments.js?1601072363"></script>
+</head>
+<body class="project-larsoft controller-wiki action-show">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="wiki_pages" value="1" />
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/redmine/users/7">garren</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li><li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/7">garren</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li><li><a class="my-page" href="/redmine/my/page">My page</a></li><li><a class="projects" href="/redmine/projects">Projects</a></li><li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" value="subprojects" />
+        <input type="hidden" name="wiki_pages" value="1" />
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/larsoft/search?scope=subprojects">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">LArSoft</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/redmine/projects/autocomplete.js?jump=wiki" autocomplete="off" /></div><div class="drdn-items projects selection"><a title="Accelerator Modeling" href="/redmine/projects/accelerator-modeling?jump=wiki"><span style="padding-left:0px;">Accelerator Modeling</span></a><a title="ArgoNeuT Offline" href="/redmine/projects/t962offline?jump=wiki"><span style="padding-left:0px;">ArgoNeuT Offline</span></a><a title="artdaq" href="/redmine/projects/artdaq?jump=wiki"><span style="padding-left:0px;">artdaq</span></a><a title="artdaq Demo" href="/redmine/projects/artdaq-demo?jump=wiki"><span style="padding-left:16px;">artdaq Demo</span></a><a title="artdaq Core Demo" href="/redmine/projects/artdaq-core-demo?jump=wiki"><span style="padding-left:32px;">artdaq Core Demo</span></a><a title="artdaq Utilities" href="/redmine/projects/artdaq-utilities?jump=wiki"><span style="padding-left:16px;">artdaq Utilities</span></a><a title="artdaq database" href="/redmine/projects/artdaq-database?jump=wiki"><span style="padding-left:32px;">artdaq database</span></a><a title="artdaq-mfextensions" href="/redmine/projects/mf-extensions?jump=wiki"><span style="padding-left:16px;">artdaq-mfextensions</span></a><a title="artg4" href="/redmine/projects/artg4?jump=wiki"><span style="padding-left:0px;">artg4</span></a><a title="artg4 Geant N02 example" href="/redmine/projects/artg4geantn02?jump=wiki"><span style="padding-left:16px;">artg4 Geant N02 example</span></a><a title="artg4example" href="/redmine/projects/artg4example?jump=wiki"><span style="padding-left:16px;">artg4example</span></a><a title="cet-is" href="/redmine/projects/cet-is?jump=wiki"><span style="padding-left:0px;">cet-is</span></a><a title="art" href="/redmine/projects/art?jump=wiki"><span style="padding-left:16px;">art</span></a><a title="art Hough" href="/redmine/projects/art-hough?jump=wiki"><span style="padding-left:32px;">art Hough</span></a><a title="art-workbook" href="/redmine/projects/art-workbook?jump=wiki"><span style="padding-left:32px;">art-workbook</span></a><a title="art_root_io" href="/redmine/projects/art_root_io?jump=wiki"><span style="padding-left:32px;">art_root_io</span></a><a title="artExtensions" href="/redmine/projects/artextensions?jump=wiki"><span style="padding-left:16px;">artExtensions</span></a><a title="Systematics Tools" href="/redmine/projects/systematicstools?jump=wiki"><span style="padding-left:32px;">Systematics Tools</span></a><a title="artUtilScripts" href="/redmine/projects/artutilscripts?jump=wiki"><span style="padding-left:16px;">artUtilScripts</span></a><a title="canvas" href="/redmine/projects/canvas?jump=wiki"><span style="padding-left:16px;">canvas</span></a><a title="canvas_root_io" href="/redmine/projects/canvas_root_io?jump=wiki"><span style="padding-left:32px;">canvas_root_io</span></a><a title="cet-is-private" href="/redmine/projects/cet-is-private?jump=wiki"><span style="padding-left:16px;">cet-is-private</span></a><a title="cet-is-public" href="/redmine/projects/cet-is-public?jump=wiki"><span style="padding-left:16px;">cet-is-public</span></a><a title="cetbuildtools" href="/redmine/projects/cetbuildtools?jump=wiki"><span style="padding-left:16px;">cetbuildtools</span></a><a title="cetlib" href="/redmine/projects/cetlib?jump=wiki"><span style="padding-left:16px;">cetlib</span></a><a title="cetlib_except" href="/redmine/projects/cetlib_except?jump=wiki"><span style="padding-left:32px;">cetlib_except</span></a><a title="CetModules" href="/redmine/projects/cetmodules?jump=wiki"><span style="padding-left:16px;">CetModules</span></a><a title="cetpkgsupport" href="/redmine/projects/cetpkgsupport?jump=wiki"><span style="padding-left:16px;">cetpkgsupport</span></a><a title="Chris Green&#39;s Stuff" href="/redmine/projects/cet-chg?jump=wiki"><span style="padding-left:16px;">Chris Green&#39;s Stuff</span></a><a title="CosmoSIS UPS" href="/redmine/projects/cosmosis_ups?jump=wiki"><span style="padding-left:16px;">CosmoSIS UPS</span></a><a title="cpp0x" href="/redmine/projects/cpp0x?jump=wiki"><span style="padding-left:16px;">cpp0x</span></a><a title="critic" href="/redmine/projects/critic?jump=wiki"><span style="padding-left:16px;">critic</span></a><a title="DocDB migration" href="/redmine/projects/docdb-migration?jump=wiki"><span style="padding-left:16px;">DocDB migration</span></a><a title="El Capitan Support" href="/redmine/projects/el-capitan-support?jump=wiki"><span style="padding-left:16px;">El Capitan Support</span></a><a title="fhicl" href="/redmine/projects/fhicl?jump=wiki"><span style="padding-left:16px;">fhicl</span></a><a title="fhicl-cpp" href="/redmine/projects/fhicl-cpp?jump=wiki"><span style="padding-left:32px;">fhicl-cpp</span></a><a title="fhicl-py" href="/redmine/projects/fhicl-py?jump=wiki"><span style="padding-left:32px;">fhicl-py</span></a><a title="Framework Build Instructions" href="/redmine/projects/build-framework?jump=wiki"><span style="padding-left:16px;">Framework Build Instructions</span></a><a title="hep_hpc_toolkit" href="/redmine/projects/hep_hpc_toolkit?jump=wiki"><span style="padding-left:32px;">hep_hpc_toolkit</span></a><a title="gallery" href="/redmine/projects/gallery?jump=wiki"><span style="padding-left:16px;">gallery</span></a><a title="hep_concurrency" href="/redmine/projects/hep_concurrency?jump=wiki"><span style="padding-left:16px;">hep_concurrency</span></a><a title="Lynn Garren&#39;s notes" href="/redmine/projects/lynn-garren-s-notes?jump=wiki"><span style="padding-left:16px;">Lynn Garren&#39;s notes</span></a><a title="messagefacility" href="/redmine/projects/messagefacility?jump=wiki"><span style="padding-left:16px;">messagefacility</span></a><a title="mrb" href="/redmine/projects/mrb?jump=wiki"><span style="padding-left:16px;">mrb</span></a><a title="SciSoft" href="/redmine/projects/scisoft?jump=wiki"><span style="padding-left:16px;">SciSoft</span></a><a title="Spack Planning" href="/redmine/projects/spack-planning?jump=wiki"><span style="padding-left:16px;">Spack Planning</span></a><a title="VMs and Containers" href="/redmine/projects/vms-and-containers?jump=wiki"><span style="padding-left:16px;">VMs and Containers</span></a><a title="ubuntu vm" href="/redmine/projects/ubuntu-vm?jump=wiki"><span style="padding-left:32px;">ubuntu vm</span></a><a title="cet-pythia6" href="/redmine/projects/cet-pythia6?jump=wiki"><span style="padding-left:16px;">cet-pythia6</span></a><a title="splines" href="/redmine/projects/splines?jump=wiki"><span style="padding-left:16px;">splines</span></a><a title="studio" href="/redmine/projects/studio?jump=wiki"><span style="padding-left:16px;">studio</span></a><a title="tag_suite" href="/redmine/projects/tag_suite?jump=wiki"><span style="padding-left:16px;">tag_suite</span></a><a title="art/LArSoft Course" href="/redmine/projects/art-larsoft-course?jump=wiki"><span style="padding-left:0px;">art/LArSoft Course</span></a><a title="LArIAT" href="/redmine/projects/lardbt?jump=wiki"><span style="padding-left:0px;">LArIAT</span></a><a title="LArIAT Online" href="/redmine/projects/lariat-online?jump=wiki"><span style="padding-left:16px;">LArIAT Online</span></a><a title="LArSoft" class="selected" href="/redmine/projects/larsoft?jump=wiki"><span style="padding-left:0px;">LArSoft</span></a><a title="ArgoNeuT code" href="/redmine/projects/argoneutcode?jump=wiki"><span style="padding-left:16px;">ArgoNeuT code</span></a><a title="ArgoNeuT Analysis" href="/redmine/projects/t962ana?jump=wiki"><span style="padding-left:32px;">ArgoNeuT Analysis</span></a><a title="LAr-Continuous-Integration" href="/redmine/projects/lar-ci?jump=wiki"><span style="padding-left:16px;">LAr-Continuous-Integration</span></a><a title="LAr1ND code" href="/redmine/projects/lar1ndcode?jump=wiki"><span style="padding-left:16px;">LAr1ND code</span></a><a title="LArAdmin" href="/redmine/projects/laradmin?jump=wiki"><span style="padding-left:16px;">LArAdmin</span></a><a title="LArAna" href="/redmine/projects/larana?jump=wiki"><span style="padding-left:16px;">LArAna</span></a><a title="LArCore" href="/redmine/projects/larcore?jump=wiki"><span style="padding-left:16px;">LArCore</span></a><a title="LArCoreAlg" href="/redmine/projects/larcorealg?jump=wiki"><span style="padding-left:16px;">LArCoreAlg</span></a><a title="LArCoreObj" href="/redmine/projects/larcoreobj?jump=wiki"><span style="padding-left:16px;">LArCoreObj</span></a><a title="LArData" href="/redmine/projects/lardata?jump=wiki"><span style="padding-left:16px;">LArData</span></a><a title="LArDataAlg" href="/redmine/projects/lardataalg?jump=wiki"><span style="padding-left:16px;">LArDataAlg</span></a><a title="LArDataObj" href="/redmine/projects/lardataobj?jump=wiki"><span style="padding-left:16px;">LArDataObj</span></a><a title="LArEventDisplay" href="/redmine/projects/lareventdisplay?jump=wiki"><span style="padding-left:16px;">LArEventDisplay</span></a><a title="LArEvt" href="/redmine/projects/larevt?jump=wiki"><span style="padding-left:16px;">LArEvt</span></a><a title="LArExamples" href="/redmine/projects/larexamples?jump=wiki"><span style="padding-left:16px;">LArExamples</span></a><a title="LArG4" href="/redmine/projects/larg4?jump=wiki"><span style="padding-left:16px;">LArG4</span></a><a title="larliteintegration" href="/redmine/projects/sketch?jump=wiki"><span style="padding-left:16px;">larliteintegration</span></a><a title="LArPandora" href="/redmine/projects/larpandora?jump=wiki"><span style="padding-left:16px;">LArPandora</span></a><a title="LArPandoraContent" href="/redmine/projects/larpandoracontent?jump=wiki"><span style="padding-left:16px;">LArPandoraContent</span></a><a title="LArReco" href="/redmine/projects/larreco?jump=wiki"><span style="padding-left:16px;">LArReco</span></a><a title="LArRecoDNN" href="/redmine/projects/larrecodnn?jump=wiki"><span style="padding-left:16px;">LArRecoDNN</span></a><a title="LArRelTools" href="/redmine/projects/larreltools?jump=wiki"><span style="padding-left:16px;">LArRelTools</span></a><a title="larshoweralg" href="/redmine/projects/larshoweralg?jump=wiki"><span style="padding-left:16px;">larshoweralg</span></a><a title="LArSim" href="/redmine/projects/larsim?jump=wiki"><span style="padding-left:16px;">LArSim</span></a><a title="LArSimAlg" href="/redmine/projects/larsimalg?jump=wiki"><span style="padding-left:16px;">LArSimAlg</span></a><a title="LArSimObj" href="/redmine/projects/larsimobj?jump=wiki"><span style="padding-left:16px;">LArSimObj</span></a><a title="LArSimTools" href="/redmine/projects/larsimtools?jump=wiki"><span style="padding-left:16px;">LArSimTools</span></a><a title="LArSoft-SVN (legacy site)" href="/redmine/projects/larsoftsvn?jump=wiki"><span style="padding-left:16px;">LArSoft-SVN (legacy site)</span></a><a title="LArSoft Alpha Test" href="/redmine/projects/larsoft-alpha?jump=wiki"><span style="padding-left:32px;">LArSoft Alpha Test</span></a><a title="LArSoft Experiments Alpha Test" href="/redmine/projects/larsoft-experiment-alpha?jump=wiki"><span style="padding-left:48px;">LArSoft Experiments Alpha Test</span></a><a title="LArSoftObj" href="/redmine/projects/larsoftobj?jump=wiki"><span style="padding-left:16px;">LArSoftObj</span></a><a title="LArSystematics" href="/redmine/projects/larsystematics?jump=wiki"><span style="padding-left:16px;">LArSystematics</span></a><a title="LArTestAlg" href="/redmine/projects/lartestalg?jump=wiki"><span style="padding-left:16px;">LArTestAlg</span></a><a title="LArToolObj" href="/redmine/projects/lartoolobj?jump=wiki"><span style="padding-left:16px;">LArToolObj</span></a><a title="LArUtils" href="/redmine/projects/larutils?jump=wiki"><span style="padding-left:16px;">LArUtils</span></a><a title="larwirecell" href="/redmine/projects/larwirecell?jump=wiki"><span style="padding-left:16px;">larwirecell</span></a><a title="LBNE code" href="/redmine/projects/lbnecode?jump=wiki"><span style="padding-left:16px;">LBNE code</span></a><a title="NuSystematics" href="/redmine/projects/nusystematics?jump=wiki"><span style="padding-left:16px;">NuSystematics</span></a><a title="parsegdml" href="/redmine/projects/parsegdml?jump=wiki"><span style="padding-left:16px;">parsegdml</span></a><a title="uBooNE code" href="/redmine/projects/uboonecode?jump=wiki"><span style="padding-left:16px;">uBooNE code</span></a><a title="CC1pi" href="/redmine/projects/cc1pi?jump=wiki"><span style="padding-left:32px;">CC1pi</span></a><a title="UBooNE alg" href="/redmine/projects/uboonealg?jump=wiki"><span style="padding-left:32px;">UBooNE alg</span></a><a title="uBAna" href="/redmine/projects/ubana?jump=wiki"><span style="padding-left:32px;">uBAna</span></a><a title="uBCRT" href="/redmine/projects/ubcrt?jump=wiki"><span style="padding-left:32px;">uBCRT</span></a><a title="uBCV" href="/redmine/projects/ubcv?jump=wiki"><span style="padding-left:32px;">uBCV</span></a><a title="uBCore" href="/redmine/projects/ubcore?jump=wiki"><span style="padding-left:32px;">uBCore</span></a><a title="uBEvt" href="/redmine/projects/ubevt?jump=wiki"><span style="padding-left:32px;">uBEvt</span></a><a title="uBLite" href="/redmine/projects/ublite?jump=wiki"><span style="padding-left:32px;">uBLite</span></a><a title="uBObj" href="/redmine/projects/ubobj?jump=wiki"><span style="padding-left:32px;">uBObj</span></a><a title="uBRaw" href="/redmine/projects/ubraw?jump=wiki"><span style="padding-left:32px;">uBRaw</span></a><a title="uBReco" href="/redmine/projects/ubreco?jump=wiki"><span style="padding-left:32px;">uBReco</span></a><a title="uBSim" href="/redmine/projects/ubsim?jump=wiki"><span style="padding-left:32px;">uBSim</span></a><a title="uBXSec" href="/redmine/projects/ubxsec?jump=wiki"><span style="padding-left:32px;">uBXSec</span></a><a title="lar_ci" href="/redmine/projects/lar_ci?jump=wiki"><span style="padding-left:0px;">lar_ci</span></a><a title="darkart" href="/redmine/projects/darkart?jump=wiki"><span style="padding-left:0px;">darkart</span></a><a title="darkmon" href="/redmine/projects/darkmon?jump=wiki"><span style="padding-left:0px;">darkmon</span></a><a title="darkside-public" href="/redmine/projects/darkside-public?jump=wiki"><span style="padding-left:0px;">darkside-public</span></a><a title="darksidecore" href="/redmine/projects/darksidecore?jump=wiki"><span style="padding-left:0px;">darksidecore</span></a><a title="ds50daq" href="/redmine/projects/ds50daq?jump=wiki"><span style="padding-left:0px;">ds50daq</span></a><a title="DUNE" href="/redmine/projects/dune?jump=wiki"><span style="padding-left:0px;">DUNE</span></a><a title="DUNE Approved Plots" href="/redmine/projects/dune-approved-plots?jump=wiki"><span style="padding-left:16px;">DUNE Approved Plots</span></a><a title="Dune Computing" href="/redmine/projects/dune-computing?jump=wiki"><span style="padding-left:16px;">Dune Computing</span></a><a title="duneutil" href="/redmine/projects/duneutil?jump=wiki"><span style="padding-left:32px;">duneutil</span></a><a title="DUNE DAQ" href="/redmine/projects/dune-daq?jump=wiki"><span style="padding-left:16px;">DUNE DAQ</span></a><a title="DUNE NearDet Design" href="/redmine/projects/dune-neardet-design?jump=wiki"><span style="padding-left:16px;">DUNE NearDet Design</span></a><a title="dunetpc" href="/redmine/projects/dunetpc?jump=wiki"><span style="padding-left:16px;">dunetpc</span></a><a title="protoduneana" href="/redmine/projects/protoduneana?jump=wiki"><span style="padding-left:32px;">protoduneana</span></a><a title="upd" href="/redmine/projects/upd?jump=wiki"><span style="padding-left:0px;">upd</span></a><a title="ups" href="/redmine/projects/ups?jump=wiki"><span style="padding-left:0px;">ups</span></a><a title="Fermi Redmine" href="/redmine/projects/fermi-redmine?jump=wiki"><span style="padding-left:0px;">Fermi Redmine</span></a><a title="Projects for Monitoring Redmine Health" href="/redmine/projects/test-p1?jump=wiki"><span style="padding-left:16px;">Projects for Monitoring Redmine Health</span></a><a title="redmine-lib" href="/redmine/projects/redmine-lib?jump=wiki"><span style="padding-left:16px;">redmine-lib</span></a><a title="g4hpc" href="/redmine/projects/g4hpc?jump=wiki"><span style="padding-left:0px;">g4hpc</span></a><a title="g4hpcbenchmarks" href="/redmine/projects/g4hpcbenchmarks?jump=wiki"><span style="padding-left:16px;">g4hpcbenchmarks</span></a><a title="HepPDT" href="/redmine/projects/heppdt?jump=wiki"><span style="padding-left:0px;">HepPDT</span></a><a title="ICARUS LArSoft" href="/redmine/projects/icaruscode?jump=wiki"><span style="padding-left:0px;">ICARUS LArSoft</span></a><a title="icarus_data" href="/redmine/projects/icarus_data?jump=wiki"><span style="padding-left:16px;">icarus_data</span></a><a title="icarusutil" href="/redmine/projects/icarusutil?jump=wiki"><span style="padding-left:16px;">icarusutil</span></a><a title="LAr Batch Tools" href="/redmine/projects/larbatch?jump=wiki"><span style="padding-left:0px;">LAr Batch Tools</span></a><a title="LBNE Utilities" href="/redmine/projects/lbneutil?jump=wiki"><span style="padding-left:0px;">LBNE Utilities</span></a><a title="DAQ" href="/redmine/projects/mu2edaq?jump=wiki"><span style="padding-left:0px;">DAQ</span></a><a title="mu2e_artdaq" href="/redmine/projects/mu2e_artdaq?jump=wiki"><span style="padding-left:16px;">mu2e_artdaq</span></a><a title="Mu2e DAQ Computing" href="/redmine/projects/mu2e-daq-computing?jump=wiki"><span style="padding-left:16px;">Mu2e DAQ Computing</span></a><a title="mu2e DCS" href="/redmine/projects/mu2e-dcs?jump=wiki"><span style="padding-left:16px;">mu2e DCS</span></a><a title="Mu2e Raw Data" href="/redmine/projects/mu2e-raw-data?jump=wiki"><span style="padding-left:16px;">Mu2e Raw Data</span></a><a title="Databases" href="/redmine/projects/databases?jump=wiki"><span style="padding-left:0px;">Databases</span></a><a title="Detector Construction DB" href="/redmine/projects/mu2e_detector_construction_db?jump=wiki"><span style="padding-left:16px;">Detector Construction DB</span></a><a title="Offline Software" href="/redmine/projects/offlinesoftware?jump=wiki"><span style="padding-left:0px;">Offline Software</span></a><a title="G4beamline" href="/redmine/projects/mu2eofflinesoftwareg4beamline?jump=wiki"><span style="padding-left:16px;">G4beamline</span></a><a title="Grid Scripts" href="/redmine/projects/mu2egrid?jump=wiki"><span style="padding-left:16px;">Grid Scripts</span></a><a title="Muon g-2" href="/redmine/projects/g-2?jump=wiki"><span style="padding-left:0px;">Muon g-2</span></a><a title="Calorimeter CDR req." href="/redmine/projects/calorequirements?jump=wiki"><span style="padding-left:16px;">Calorimeter CDR req.</span></a><a title="g-2 Art Examples" href="/redmine/projects/gm2artexamples?jump=wiki"><span style="padding-left:16px;">g-2 Art Examples</span></a><a title="g-2 CDR" href="/redmine/projects/gm2cdr?jump=wiki"><span style="padding-left:16px;">g-2 CDR</span></a><a title="g-2 DAQ" href="/redmine/projects/gm2daq?jump=wiki"><span style="padding-left:16px;">g-2 DAQ</span></a><a title="g-2 DQM" href="/redmine/projects/gm2dqm?jump=wiki"><span style="padding-left:32px;">g-2 DQM</span></a><a title="g-2 public" href="/redmine/projects/gm2public?jump=wiki"><span style="padding-left:16px;">g-2 public</span></a><a title="g-2 Release Tools" href="/redmine/projects/gm2releasetools?jump=wiki"><span style="padding-left:16px;">g-2 Release Tools</span></a><a title="g2MIGTRACE" href="/redmine/projects/g2migtrace?jump=wiki"><span style="padding-left:16px;">g2MIGTRACE</span></a><a title="g2mtanalysismacros" href="/redmine/projects/g2mtanalysismacros?jump=wiki"><span style="padding-left:16px;">g2mtanalysismacros</span></a><a title="g-2 SRBD" href="/redmine/projects/g-2-srbd?jump=wiki"><span style="padding-left:16px;">g-2 SRBD</span></a><a title="g-2 TDR" href="/redmine/projects/gm2tdr?jump=wiki"><span style="padding-left:16px;">g-2 TDR</span></a><a title="gm2analyses" href="/redmine/projects/gm2analyses?jump=wiki"><span style="padding-left:16px;">gm2analyses</span></a><a title="gm2aux" href="/redmine/projects/gm2aux?jump=wiki"><span style="padding-left:16px;">gm2aux</span></a><a title="gm2beams" href="/redmine/projects/gm2beams?jump=wiki"><span style="padding-left:16px;">gm2beams</span></a><a title="gm2calo" href="/redmine/projects/gm2calo?jump=wiki"><span style="padding-left:16px;">gm2calo</span></a><a title="gm2dataproducts" href="/redmine/projects/gm2dataproducts?jump=wiki"><span style="padding-left:16px;">gm2dataproducts</span></a><a title="gm2field" href="/redmine/projects/gm2field?jump=wiki"><span style="padding-left:16px;">gm2field</span></a><a title="gm2fieldanalyzer" href="/redmine/projects/gm2fieldanalyzer?jump=wiki"><span style="padding-left:32px;">gm2fieldanalyzer</span></a><a title="gm2fielddaq" href="/redmine/projects/gm2fielddaq?jump=wiki"><span style="padding-left:32px;">gm2fielddaq</span></a><a title="gm2fieldsignal" href="/redmine/projects/gm2fieldsignal?jump=wiki"><span style="padding-left:32px;">gm2fieldsignal</span></a><a title="gm2geom" href="/redmine/projects/gm2geom?jump=wiki"><span style="padding-left:16px;">gm2geom</span></a><a title="gm2mcdataproducts" href="/redmine/projects/gm2mcdataproducts?jump=wiki"><span style="padding-left:16px;">gm2mcdataproducts</span></a><a title="gm2midas" href="/redmine/projects/gm2midas?jump=wiki"><span style="padding-left:16px;">gm2midas</span></a><a title="gm2midastoart" href="/redmine/projects/gm2midastoart?jump=wiki"><span style="padding-left:16px;">gm2midastoart</span></a><a title="gm2MTest2012" href="/redmine/projects/gm2mtest2012?jump=wiki"><span style="padding-left:16px;">gm2MTest2012</span></a><a title="gm2optics" href="/redmine/projects/gm2optics?jump=wiki"><span style="padding-left:16px;">gm2optics</span></a><a title="gm2planning" href="/redmine/projects/gm2planning?jump=wiki"><span style="padding-left:16px;">gm2planning</span></a><a title="gm2reconeast" href="/redmine/projects/gm2reconeast?jump=wiki"><span style="padding-left:16px;">gm2reconeast</span></a><a title="gm2ringsim" href="/redmine/projects/gm2ringsim?jump=wiki"><span style="padding-left:16px;">gm2ringsim</span></a><a title="gm2SoftwareTools" href="/redmine/projects/gm2softwaretools?jump=wiki"><span style="padding-left:16px;">gm2SoftwareTools</span></a><a title="gm2strawtracking" href="/redmine/projects/gm2strawtracking?jump=wiki"><span style="padding-left:16px;">gm2strawtracking</span></a><a title="gm2swdocs" href="/redmine/projects/gm2swdocs?jump=wiki"><span style="padding-left:16px;">gm2swdocs</span></a><a title="gm2test" href="/redmine/projects/gm2test?jump=wiki"><span style="padding-left:16px;">gm2test</span></a><a title="gm2tracker" href="/redmine/projects/gm2tracker?jump=wiki"><span style="padding-left:16px;">gm2tracker</span></a><a title="gm2trackerdaq" href="/redmine/projects/gm2trackerdaq?jump=wiki"><span style="padding-left:16px;">gm2trackerdaq</span></a><a title="gm2unpackers" href="/redmine/projects/gm2unpackers?jump=wiki"><span style="padding-left:16px;">gm2unpackers</span></a><a title="gm2util" href="/redmine/projects/gm2util?jump=wiki"><span style="padding-left:16px;">gm2util</span></a><a title="gm2viz" href="/redmine/projects/gm2viz?jump=wiki"><span style="padding-left:16px;">gm2viz</span></a><a title="gm2vtk" href="/redmine/projects/gm2vtk?jump=wiki"><span style="padding-left:16px;">gm2vtk</span></a><a title="g-2 Field Shimming Paper" href="/redmine/projects/gm2fsp?jump=wiki"><span style="padding-left:16px;">g-2 Field Shimming Paper</span></a><a title="gm2db" href="/redmine/projects/gm2db?jump=wiki"><span style="padding-left:16px;">gm2db</span></a><a title="gm2ilratio" href="/redmine/projects/gm2ilratio?jump=wiki"><span style="padding-left:16px;">gm2ilratio</span></a><a title="gm2reconita" href="/redmine/projects/gm2reconita?jump=wiki"><span style="padding-left:16px;">gm2reconita</span></a><a title="gm2sc" href="/redmine/projects/gm2sc?jump=wiki"><span style="padding-left:16px;">gm2sc</span></a><a title="gm2simvalidation" href="/redmine/projects/gm2simvalidation?jump=wiki"><span style="padding-left:16px;">gm2simvalidation</span></a><a title="gm2templates" href="/redmine/projects/gm2templates?jump=wiki"><span style="padding-left:16px;">gm2templates</span></a><a title="NOvA-ART" href="/redmine/projects/novaart?jump=wiki"><span style="padding-left:0px;">NOvA-ART</span></a><a title="NOvA validation" href="/redmine/projects/nova-validation?jump=wiki"><span style="padding-left:16px;">NOvA validation</span></a><a title="NuTools" href="/redmine/projects/nutools?jump=wiki"><span style="padding-left:0px;">NuTools</span></a><a title="NuEvdb" href="/redmine/projects/nuevdb?jump=wiki"><span style="padding-left:16px;">NuEvdb</span></a><a title="NuG4" href="/redmine/projects/nug4?jump=wiki"><span style="padding-left:16px;">NuG4</span></a><a title="NuGen" href="/redmine/projects/nugen?jump=wiki"><span style="padding-left:16px;">NuGen</span></a><a title="NuRandom" href="/redmine/projects/nurandom?jump=wiki"><span style="padding-left:16px;">NuRandom</span></a><a title="NuSimData" href="/redmine/projects/nusimdata?jump=wiki"><span style="padding-left:16px;">NuSimData</span></a><a title="NuSoft/NuTools" href="/redmine/projects/nusoftart?jump=wiki"><span style="padding-left:16px;">NuSoft/NuTools</span></a><a title="PPFX" href="/redmine/projects/ppfx?jump=wiki"><span style="padding-left:16px;">PPFX</span></a><a title="OSG-Geant4-OSGMM" href="/redmine/projects/osg-geant4-osgmm?jump=wiki"><span style="padding-left:0px;">OSG-Geant4-OSGMM</span></a><a title="SBND code" href="/redmine/projects/sbndcode?jump=wiki"><span style="padding-left:0px;">SBND code</span></a><a title="SBND utility scripts" href="/redmine/projects/sbndutil?jump=wiki"><span style="padding-left:0px;">SBND utility scripts</span></a><a title="IF Data Handling Client Tools (ifdhc)" href="/redmine/projects/ifdhc?jump=wiki"><span style="padding-left:0px;">IF Data Handling Client Tools (ifdhc)</span></a><a title="IFDH Art interface" href="/redmine/projects/ifdh-art?jump=wiki"><span style="padding-left:16px;">IFDH Art interface</span></a><a title="Simulation Tools and Features" href="/redmine/projects/stf?jump=wiki"><span style="padding-left:0px;">Simulation Tools and Features</span></a><a title="artg4tk" href="/redmine/projects/artg4tk?jump=wiki"><span style="padding-left:16px;">artg4tk</span></a><a title="DoSSiER" href="/redmine/projects/dossier?jump=wiki"><span style="padding-left:16px;">DoSSiER</span></a><a title="Geant4Reweight" href="/redmine/projects/geant4reweight?jump=wiki"><span style="padding-left:16px;">Geant4Reweight</span></a><a title="uBooNE Reconstruction" href="/redmine/projects/uboone-reconstruction?jump=wiki"><span style="padding-left:0px;">uBooNE Reconstruction</span></a><a title="uBooNE Utilities" href="/redmine/projects/ubutil?jump=wiki"><span style="padding-left:0px;">uBooNE Utilities</span></a><a title="detsim.fnal.gov" href="/redmine/projects/detsim-fnal-gov?jump=wiki"><span style="padding-left:0px;">detsim.fnal.gov</span></a><a title="SoftRelTools" href="/redmine/projects/softreltools?jump=wiki"><span style="padding-left:0px;">SoftRelTools</span></a><a title="Spack Infrastructure" href="/redmine/projects/spack-infrastructure?jump=wiki"><span style="padding-left:0px;">Spack Infrastructure</span></a></div><div class="drdn-items all-projects selection"><a href="/redmine/projects?jump=wiki">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="current-project">LArSoft</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li>
+<a id="new-object" onclick="toggleNewObjectDropdown(); return false;" class="new-object" href="#"> + </a>
+<ul class="menu-children"><li><a accesskey="7" class="new-issue-sub" href="/redmine/projects/larsoft/issues/new">New issue</a></li><li><a class="new-issue-category" href="/redmine/projects/larsoft/issue_categories/new">New category</a></li><li><a class="new-version" href="/redmine/projects/larsoft/versions/new">New version</a></li><li><a class="new-timelog" href="/redmine/projects/larsoft/time_entries/new">Log time</a></li><li><a class="new-document" href="/redmine/projects/larsoft/documents/new">New document</a></li><li><a class="new-wiki-page" href="/redmine/projects/larsoft/wiki/new">New wiki page</a></li><li><a class="new-file" href="/redmine/projects/larsoft/files/new">New file</a></li></ul>
+</li><li><a class="overview" href="/redmine/projects/larsoft">Overview</a></li><li><a class="activity" href="/redmine/projects/larsoft/activity">Activity</a></li><li><a class="roadmap" href="/redmine/projects/larsoft/roadmap">Roadmap</a></li><li><a class="issues" href="/redmine/projects/larsoft/issues">Issues</a></li><li><a class="time-entries" href="/redmine/projects/larsoft/time_entries">Spent time</a></li><li><a class="gantt" href="/redmine/projects/larsoft/issues/gantt">Gantt</a></li><li><a class="calendar" href="/redmine/projects/larsoft/issues/calendar">Calendar</a></li><li><a class="documents" href="/redmine/projects/larsoft/documents">Documents</a></li><li><a class="wiki selected" href="/redmine/projects/larsoft/wiki">Wiki</a></li><li><a class="files" href="/redmine/projects/larsoft/files">Files</a></li><li><a class="repository" href="/redmine/projects/larsoft/repository">Repository</a></li><li><a class="settings" href="/redmine/projects/larsoft/settings">Settings</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+          
+<h3>Wiki</h3>
+<ul>
+  <li><a href="/redmine/projects/larsoft/wiki">Start page</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/index">Index by title</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/date_index">Index by date</a></li>
+</ul>
+
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+<a class="icon icon-add" data-remote="true" href="/redmine/projects/larsoft/wiki/new">New wiki page</a>
+  <a class="icon icon-edit" accesskey="e" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit">Edit</a>
+  <a class="wiki_page-14207-watcher icon icon-fav-off" data-remote="true" rel="nofollow" data-method="post" href="/redmine/watchers/watch?object_id=14207&amp;object_type=wiki_page">Watch</a>
+  <a class="icon icon-lock" rel="nofollow" data-method="post" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/protect?protected=1">Lock</a>
+  
+  <a class="icon icon-move" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/rename">Rename</a>
+  <a data-confirm="Are you sure?" class="icon icon-del" rel="nofollow" data-method="delete" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design">Delete</a>
+<a class="icon icon-history" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/history">History</a>
+</div>
+
+<p class="breadcrumb"><a href="/redmine/projects/larsoft/wiki/LArSoftWiki">LArSoftWiki</a> » <a href="/redmine/projects/larsoft/wiki/Miscellaneous_Links">Miscellaneous Links</a> » </p>
+
+
+<div class="wiki wiki-page">
+  <a name="Data-architecture-where-we-stand-what-we-think"></a>
+<h1 >Data architecture: where we stand, what we think<a href="#Data-architecture-where-we-stand-what-we-think" class="wiki-anchor">&para;</a></h1>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-2"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=2">Edit this section</a></div><a name="Definition"></a>
+<h2 >Definition<a href="#Definition" class="wiki-anchor">&para;</a></h2>
+
+
+	<p><strong>Data product</strong>: a class representing data, that is stored in a ROOT tree</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-3"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=3">Edit this section</a></div><a name="Charge1"></a>
+<h2 >Charge<sup><a href="#fn1">1</a></sup><a href="#Charge1" class="wiki-anchor">&para;</a></h2>
+
+
+	<ul>
+	<li>periodically review the architecture of selected components and subsystems</li>
+		<li>also consider issues raised ad hoc</li>
+		<li>draft findings and recommendations for changes and improvements to the architecture</li>
+		<li>ensure that solutions will work for all the experiments</li>
+	</ul>
+
+
+<hr />
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-4"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=4">Edit this section</a></div><a name="Design-goals"></a>
+<h2 >Design goals<a href="#Design-goals" class="wiki-anchor">&para;</a></h2>
+
+
+	<ul>
+	<li>LArSoft should offer data products that can be read by other frameworks with no change in their source code</li>
+	</ul>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-5"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=5">Edit this section</a></div><a name="Design-principles"></a>
+<h3 >Design principles<a href="#Design-principles" class="wiki-anchor">&para;</a></h3>
+
+
+	<ul>
+	<li>each data product must represent to specific concept<sup><a href="#fn2">2</a></sup><br />  (different concepts want different data products)</li>
+		<li>data must be readable with bare C++ plus ROOT to allow different code to use it<sup><a href="#fn2">2</a></sup></li>
+		<li>data products should be fully expressed by pure C++ means</li>
+	</ul>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-6"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=6">Edit this section</a></div><a name="Questions"></a>
+<h4 >Questions<a href="#Questions" class="wiki-anchor">&para;</a></h4>
+
+
+	<p><strong>Q.</strong> Are dictionary libraries independent of art etc.?<br /><strong>A.</strong> Currently they are not.<br />     It might be possible to fix that for some of the products which do not explicitly require <code>art</code>.</p>
+
+
+<hr />
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-7"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=7">Edit this section</a></div><a name="Dependencies"></a>
+<h2 >Dependencies<a href="#Dependencies" class="wiki-anchor">&para;</a></h2>
+
+
+	<ul>
+	<li>C++11 is required to fully compile the data product classes</li>
+		<li>header files must be parsable with ROOT GenReflex<sup><a href="#fn2">2</a></sup><br />  (C++11-specific headers and constructs need to be enclosed in <code>#ifndef __GCCXML__</code> blocks)</li>
+		<li>data products can depend on ROOT<sup><a href="#fn2">2</a></sup></li>
+		<li>implementation of classes is allowed to use MessageFacility<sup><a href="#fn2">2</a></sup></li>
+	</ul>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-8"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=8">Edit this section</a></div><a name="Question"></a>
+<h4 >Question<a href="#Question" class="wiki-anchor">&para;</a></h4>
+
+
+Is CET library (cetlib) allowed in the implementation too<sup><a href="#fn2">2</a></sup>?
+	<ul>
+	<li>is contains the popular <code>cet::exception</code></li>
+		<li>some other part of the code <em>might</em> have to use <code>cet</code> search paths anyway</li>
+		<li>it requires Fermilab's cpp0x library (from LArSoft point of view, for no reason since we do use C++11)</li>
+		<li>it requires Boost libraries</li>
+	</ul>
+
+
+	<p>The only part positively needed is an exception that can be recognized by the frameworks (it could be derived from <code>std::exception</code>).</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-9"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=9">Edit this section</a></div><a name="Technical-guidelines"></a>
+<h2 >Technical guidelines<a href="#Technical-guidelines" class="wiki-anchor">&para;</a></h2>
+
+
+Data products can contain data members:
+	<ul>
+	<li>plain data</li>
+		<li>STL containers from standard C++03</li>
+		<li>ROOT objects</li>
+		<li>custom structures based on the above</li>
+	</ul>
+
+
+They must not contain:
+	<ul>
+	<li>C++11 structures<sup><a href="#fn2">2</a></sup> (e.g. no <code>std::array</code>)<br />  (ROOT GenReflex support would be very problematic)</li>
+		<li>CLHEP objects<sup><a href="#fn2">2</a></sup><br />  (typically its data structures have an equivalent in ROOT)</li>
+		<li>art objects<sup><a href="#fn2">2</a></sup><br />  (for framework independence)</li>
+	</ul>
+
+
+	<p>The data members will be /private/, accessed through the class interface<sup><a href="#fn2">2</a></sup>.<br />The interface should offer a read-only access<sup><a href="#fn2">2</a></sup>.<br />The object will not operate on its data, leaving the task to additional layers and algorithms<sup><a href="#fn2">2</a></sup>.</p>
+
+
+<hr />
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-10"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=10">Edit this section</a></div><a name="Recommended-data-structures"></a>
+<h3 >Recommended data structures<a href="#Recommended-data-structures" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>Suggestions:</p>
+
+
+	<table>
+		<tr>
+			<td> 3-vectors (position...)    </td>
+			<td> <code>TVector3</code> (unless there are data size issues) or <code>double[3]</code>? (both are currently used)               </td>
+		</tr>
+		<tr>
+			<td> 3-vectors (momentum...)    </td>
+			<td> <code>TVector3</code> or <code>float[3]</code> (as above, except that we don't have, nor need, more than 6 digits precision) </td>
+		</tr>
+		<tr>
+			<td> 4-vectors                  </td>
+			<td> <code>TLorentzVector</code> (unless there are data size issues)                                                   </td>
+		</tr>
+		<tr>
+			<td> error/correlation matrices </td>
+			<td> <code>TMatrixTSym<></code> or <code>float[6]</code>? (both <code>TMatrixD</code> and <code>double[6]</code> are currently used)                    </td>
+		</tr>
+		<tr>
+			<td> wire/time pair             </td>
+			<td> <code>short int[2]</code>, <code>float[2]</code>                                                                             </td>
+		</tr>
+		<tr>
+			<td> ...                        </td>
+			<td>                                                                                                        </td>
+		</tr>
+	</table>
+
+
+
+
+<hr />
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-11"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=11">Edit this section</a></div><a name="Semantics"></a>
+<h2 >Semantics<a href="#Semantics" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>Each data product represents a physics quantity or some concept.<br />First step: identify and define those concepts for the existing and needed objects.</p>
+
+
+	<p>In the standard MicroBooNE simulation + reconstruction chain, 34 classes from LArSoft (<code>lardata</code>) are used as data products, plus 4 more for simulation from <code>nutools</code>.</p>
+
+
+Let's start from the largest chunk of correlate objects: reconstruction (base)
+	<ul>
+	<li>live in <code>recob</code> namespace</li>
+		<li>connected to simulation (<code>sim</code> namespace) and raw data (<code>raw</code> namespace)</li>
+	</ul>
+
+
+This encompasses 13 LArSoft classes:
+	<ul>
+	<li><code>raw::RawDigit</code></li>
+		<li><code>recob::Cluster</code></li>
+		<li><code>recob::EndPoint2D</code></li>
+		<li><code>recob::Hit</code></li>
+		<li><code>recob::PFParticle</code></li>
+		<li><code>recob::Shower</code></li>
+		<li><code>recob::SpacePoint</code></li>
+		<li><code>recob::Track</code></li>
+		<li><code>recob::Vertex</code></li>
+		<li><code>recob::Wire</code></li>
+		<li><code>anab::Calorimetry</code></li>
+		<li><code>anab::CosmicTag</code></li>
+		<li><code>anab::ParticleID</code></li>
+	</ul>
+
+
+	<p><img src="recoblock_simple.svg" alt="" /><br /><img src="legend.svg" alt="" /></p>
+
+
+	<p>"(version with modules creating each associations)":recoblock_assns.svg</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-12"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=12">Edit this section</a></div><a name="rawRawDigit"></a>
+<h3 ><code>raw::RawDigit</code><a href="#rawRawDigit" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>The sequence of (uncalibrated?) ADC counts measured on one <em>channel</em> in the full time window.</p>
+	</blockquote>
+
+
+	<ul>
+	<li>can be compressed with one of a few standard algorithms</li>
+	</ul>
+
+
+	<p><img src="raw__RawDigit.svg" alt="" /></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-13"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=13">Edit this section</a></div><a name="recobWire"></a>
+<h3 ><code>recob::Wire</code><a href="#recobWire" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>The signal deposited on a single <em>channel</em> as function of data acquisition time (TDC).</p>
+	</blockquote>
+
+
+The signal may have been be zero-suppressed, filtered from noise and deconvoluted from electronics effects.
+	<ul>
+	<li>includes geometrical identification: type of signal (collection or induction) and wire direction (U, V or X)</li>
+		<li>it is possible to store exclusively the time slices where there was activity (<em>regions of interest</em>)</li>
+		<li>it can point to the <code>raw::RawDigit</code> object on its channel</li>
+	</ul>
+
+
+	<p><img src="recob__Wire.svg" alt="" /></p>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-14"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=14">Edit this section</a></div><a name="Recommended-actions"></a>
+<h4 >Recommended actions<a href="#Recommended-actions" class="wiki-anchor">&para;</a></h4>
+
+
+	<ul>
+	<li>remove <code>art::Ptr</code> from the data products<sup><a href="#fn3">3</a></sup></li>
+		<li>have modules create associations between <code>recob::Wire</code> and <code>raw::RawDigit</code> [3]</li>
+		<li>add channel ID data member to <code>recob::Wire</code> [3][4]</li>
+	</ul>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-15"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=15">Edit this section</a></div><a name="recobHit"></a>
+<h3 ><code>recob::Hit</code><a href="#recobHit" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>The observed charge from a travelling particle that drifted to a single <em>wire</em> .</p>
+	</blockquote>
+
+
+A hit describes the charge profile in time using a <em>shape hypothesis</em> .<br />Its position information is two-dimensional: wire location and time.<br />It includes:
+	<ul>
+	<li>parameters of the signal shape best fitting the calibrated charge (peak, width...)</li>
+		<li>the portion of wire readings it fits directly, and timing information</li>
+		<li>full geometrical identification (<code>geo::WireID</code>)</li>
+		<li>references to the channel (wire) where the charge was collected and its raw data</li>
+	</ul>
+
+
+	<p><img src="recob__Hit.svg" alt="" /></p>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-16"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=16">Edit this section</a></div><a name="Recommended-actions-2"></a>
+<h4 >Recommended actions<a href="#Recommended-actions-2" class="wiki-anchor">&para;</a></h4>
+
+
+	<ul>
+	<li>remove <code>art::Ptr</code> from the data products<sup><a href="#fn3">3</a></sup></li>
+		<li>have modules create associations between <code>recob::Hit</code> and <code>recob::Wire</code> [3]</li>
+		<li>add channel ID data member to <code>recob::Hit</code> [3][4]</li>
+		<li>make <code>fHitSignal</code> member private, add constructors to initialize it<sup><a href="#fn5">5</a></sup></li>
+	</ul>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-17"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=17">Edit this section</a></div><a name="Pending-questions"></a>
+<h4 >Pending questions<a href="#Pending-questions" class="wiki-anchor">&para;</a></h4>
+
+
+	<ul>
+	<li><code>fHitSignal</code> is never filled in LArSoft code... should it be? or should it be removed?</li>
+		<li><code>fView</code> and <code>fSignalType</code> are felt by MicroBooNE useless<sup><a href="#fn5">5</a></sup></li>
+	</ul>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-18"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=18">Edit this section</a></div><a name="recobCluster"></a>
+<h3 ><code>recob::Cluster</code><a href="#recobCluster" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>A sequence of hits showing geometrical correlation.</p>
+	</blockquote>
+
+
+Its position information is two-dimensional.<br />It includes:
+	<ul>
+	<li>initial and final position of the sequence (in wire&times;time), with uncertainties</li>
+		<li>full geometrical information (<code>geo::PlaneID</code>, wire direction)</li>
+		<li>total observed charge, dQ/dW and dT/dW (and errors)</li>
+	</ul>
+
+
+	<p><img src="recob__Cluster.svg" alt="" /></p>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-19"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=19">Edit this section</a></div><a name="Recommended-actions-3"></a>
+<h4 >Recommended actions<a href="#Recommended-actions-3" class="wiki-anchor">&para;</a></h4>
+
+
+	<ul>
+	<li>replace each of the positions and errors with two <code>float</code> or a <code>float[2]</code></li>
+		<li>replace <code>double</code> items with <code>float</code></li>
+	</ul>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-20"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=20">Edit this section</a></div><a name="recobEndPoint2D"></a>
+<h3 ><code>recob::EndPoint2D</code><a href="#recobEndPoint2D" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>Two-dimensional coordinate on a plane</p>
+
+
+	<h4>Questions
+	<ul>
+	<li>what is this supposed to represent?</li>
+	</ul></h4>
+
+
+	<p><img src="recob__EndPoint2D.svg" alt="" /></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-21"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=21">Edit this section</a></div><a name="recobTrack"></a>
+<h3 ><code>recob::Track</code><a href="#recobTrack" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>The observed information from a single physical particle with well-defined trajectory.</p>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-22"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=22">Edit this section</a></div><a name="Questions-2"></a>
+<h4 >Questions<a href="#Questions-2" class="wiki-anchor">&para;</a></h4>
+
+
+	<p><strong>Q.</strong> All the information? or just trajectory? or...?</p>
+
+
+	<p><img src="recob__Track.svg" alt="" /></p>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-23"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=23">Edit this section</a></div><a name="Recommended-action"></a>
+<h4 >Recommended action<a href="#Recommended-action" class="wiki-anchor">&para;</a></h4>
+
+
+	<ul>
+	<li>split into detected information (hit collection) and trajectory (geometrical)</li>
+	</ul>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-24"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=24">Edit this section</a></div><a name="recobShower"></a>
+<h3 ><code>recob::Shower</code><a href="#recobShower" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>The observed information from a single physical particle evolving in a shower.</p>
+	</blockquote>
+
+
+	<p><img src="recob__Shower.svg" alt="" /></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-25"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=25">Edit this section</a></div><a name="recobSpacePoint"></a>
+<h3 ><code>recob::SpacePoint</code><a href="#recobSpacePoint" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>A geometrical point in the detector.</p>
+	</blockquote>
+
+
+	<p><img src="recob__SpacePoint.svg" alt="" /></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-26"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=26">Edit this section</a></div><a name="recobVertex"></a>
+<h3 ><code>recob::Vertex</code><a href="#recobVertex" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>A point in the detector origin of particles</p>
+	</blockquote>
+
+
+	<p><img src="recob__Vertex.svg" alt="" /></p>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-27"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=27">Edit this section</a></div><a name="Questions-3"></a>
+<h4 >Questions<a href="#Questions-3" class="wiki-anchor">&para;</a></h4>
+
+
+	<ul>
+	<li>need uncertainty on vertex position... error matrix? independent variances?</li>
+	</ul>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-28"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=28">Edit this section</a></div><a name="anabCalorimetry"></a>
+<h3 ><code>anab::Calorimetry</code><a href="#anabCalorimetry" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>Calorimetric information of a particle.</p>
+	</blockquote>
+
+
+	<p><img src="anab__Calorimetry.svg" alt="" /></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-29"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=29">Edit this section</a></div><a name="anabCosmicTag"></a>
+<h3 ><code>anab::CosmicTag</code><a href="#anabCosmicTag" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>Cosmic-ray-like attributes of a particle.</p>
+	</blockquote>
+
+
+	<p><img src="anab__CosmicTag.svg" alt="" /></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-30"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=30">Edit this section</a></div><a name="anabParticleID"></a>
+<h3 ><code>anab::ParticleID</code><a href="#anabParticleID" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>Hypothesis on the nature of a particle.</p>
+	</blockquote>
+
+
+	<p><img src="anab__ParticleID.svg" alt="" /></p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-31"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/edit?section=31">Edit this section</a></div><a name="recobPFParticle"></a>
+<h3 ><code>recob::PFParticle</code><a href="#recobPFParticle" class="wiki-anchor">&para;</a></h3>
+
+
+	<blockquote>
+		<p>The evolution of a particle in the event (particle flow).</p>
+	</blockquote>
+
+
+	<ul>
+	<li>it is possible to attribute a very rough particle hypothesis</li>
+		<li>interface with <code>pandora</code></li>
+	</ul>
+
+
+	<p><img src="recob__PFParticle.svg" alt="" /></p>
+
+
+<hr />
+
+
+	<p id="fn1" class="footnote"><sup>1</sup> From discussion on <a href="https://indico.fnal.gov/conferenceDisplay.py?confId=8986" class="external">September 15, 2014</a> .</p>
+
+
+	<p id="fn2" class="footnote"><sup>2</sup> From discussion on <a href="https://indico.fnal.gov/conferenceDisplay.py?confId=8981" class="external">October 6, 2014</a> .</p>
+
+
+	<p id="fn3" class="footnote"><sup>3</sup> From discussion on <a href="https://indico.fnal.gov/conferenceDisplay.py?confId=8997" class="external">October 13, 2014</a> .</p>
+
+
+	<p id="fn4" class="footnote"><sup>4</sup> After discussion at [3], two proposals have been evaluated: adding the channel ID as a new data member, or adding it in the <code>geo::WireID</code> structure. No compelling reason was identified to prefer either. The decision was in the end taken from the idea of having <code>geo::WireID</code> reflect a strictly geometric concept, as opposed to integrate a data acquisition concept.</p>
+
+
+	<p id="fn5" class="footnote"><sup>5</sup> From discussion on MicroBooNE Analysis Tools meeting, October 16, 2014, and following private e-mail exchange with Brian Rebel.</p>
+</div>
+
+
+<fieldset class="collapsible collapsed hide-when-print">
+  <legend onclick="toggleFieldset(this);">Files (16)</legend>
+  <div style="display: none;">
+
+  <div class="attachments">
+<div class="contextual">
+  <a title="Edit attached files" class="icon-only icon-edit" href="/redmine/attachments/wiki_pages/14207/edit">Edit attached files</a>
+</div>
+<table>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20754/recoblock_simple.svg">recoblock_simple.svg</a>    <span class="size">(17.3 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20754/recoblock_simple.svg">recoblock_simple.svg</a>  </td>
+  <td>Common associations between reconstruction data products</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 04:05 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20754">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20755/raw__RawDigit.svg">raw__RawDigit.svg</a>    <span class="size">(2.19 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20755/raw__RawDigit.svg">raw__RawDigit.svg</a>  </td>
+  <td>raw::RawDigit class</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 04:05 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20755">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20757/recob__Cluster.svg">recob__Cluster.svg</a>    <span class="size">(3.43 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20757/recob__Cluster.svg">recob__Cluster.svg</a>  </td>
+  <td>recob::Cluster class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20757">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20758/recob__Hit.svg">recob__Hit.svg</a>    <span class="size">(5.85 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20758/recob__Hit.svg">recob__Hit.svg</a>  </td>
+  <td>recob::Hit class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20758">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20759/recob__EndPoint2D.svg">recob__EndPoint2D.svg</a>    <span class="size">(2.17 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20759/recob__EndPoint2D.svg">recob__EndPoint2D.svg</a>  </td>
+  <td>recob::EndPoint2D class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20759">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20760/recob__Track.svg">recob__Track.svg</a>    <span class="size">(2.26 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20760/recob__Track.svg">recob__Track.svg</a>  </td>
+  <td>recob::Track class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20760">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20761/recob__Shower.svg">recob__Shower.svg</a>    <span class="size">(2.19 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20761/recob__Shower.svg">recob__Shower.svg</a>  </td>
+  <td>recob::Shower class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20761">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20762/recob__SpacePoint.svg">recob__SpacePoint.svg</a>    <span class="size">(1.75 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20762/recob__SpacePoint.svg">recob__SpacePoint.svg</a>  </td>
+  <td>recob::SpacePoint class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20762">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20763/recob__Vertex.svg">recob__Vertex.svg</a>    <span class="size">(1.33 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20763/recob__Vertex.svg">recob__Vertex.svg</a>  </td>
+  <td>recob::Vertex class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20763">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20764/anab__Calorimetry.svg">anab__Calorimetry.svg</a>    <span class="size">(2.67 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20764/anab__Calorimetry.svg">anab__Calorimetry.svg</a>  </td>
+  <td>anab::Calorimetry class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20764">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20765/anab__CosmicTag.svg">anab__CosmicTag.svg</a>    <span class="size">(1.8 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20765/anab__CosmicTag.svg">anab__CosmicTag.svg</a>  </td>
+  <td>anab::CosmicTag class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20765">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20766/anab__ParticleID.svg">anab__ParticleID.svg</a>    <span class="size">(3.17 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20766/anab__ParticleID.svg">anab__ParticleID.svg</a>  </td>
+  <td>anab::ParticleID class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:10 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20766">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20767/recob__PFParticle.svg">recob__PFParticle.svg</a>    <span class="size">(1.79 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20767/recob__PFParticle.svg">recob__PFParticle.svg</a>  </td>
+  <td>recob::PFParticle class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:13 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20767">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20768/recob__Wire.svg">recob__Wire.svg</a>    <span class="size">(2.61 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20768/recob__Wire.svg">recob__Wire.svg</a>  </td>
+  <td>recob::Wire class (v03_01_00)</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/02/2014 08:13 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20768">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20815/recoblock_simple.svg">recoblock_simple.svg</a>    <span class="size">(16.7 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20815/recoblock_simple.svg">recoblock_simple.svg</a>  </td>
+  <td>Data product dependencies and associations for the &quot;RecoBase block&quot;</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/03/2014 08:24 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20815">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/20816/legend.svg">legend.svg</a>    <span class="size">(3.22 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/20816/legend.svg">legend.svg</a>  </td>
+  <td>Generic gGraph legend</td>
+  <td>
+      <span class="author">Gianluca Petrillo, 10/03/2014 08:24 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/20816">Delete</a>
+  </td>
+</tr>
+</table>
+</div>
+
+  
+  <div id="wiki_add_attachment">
+    <form id="add_attachment_form" enctype="multipart/form-data" action="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design/add_attachment" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2vX3p0x7tVBCOD/WWxkdp+dbHEpmZcCRP5gDXrWzd2MwGxM6zOZJJltP0A+R9EmwjgLHvv2RAdVGVC0Fv0Yo1w==" />
+      <div class="box">
+      <p>
+<span class="attachments_form">
+  <span class="attachments_fields">
+  </span>
+  <span class="add_attachment" style="">
+    <input type="file" name="attachments[dummy][file]" class="file_selector filedrop" multiple="multiple" onchange="addInputFiles(this);" data-max-file-size="419430400" data-max-file-size-message="This file cannot be uploaded because it exceeds the maximum allowed file size (400 MB)" data-max-concurrent-uploads="2" data-upload-path="/redmine/uploads.js" data-param="attachments" data-description="true" data-description-placeholder="Optional description" />
+    (Maximum size: 400 MB)
+  </span>
+</span>
+
+</p>
+      </div>
+      <input type="submit" name="commit" value="Add" />
+</form>  </div>
+</div>
+</fieldset>
+
+<p class="other-formats">Also available in:  <span><a class="pdf" rel="nofollow" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design.pdf">PDF</a></span>
+  <span><a class="html" rel="nofollow" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design.html">HTML</a></span>
+  <span><a class="txt" rel="nofollow" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design.txt">TXT</a></span>
+</p>
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2019 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

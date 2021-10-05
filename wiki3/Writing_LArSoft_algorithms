@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Writing LArSoft algorithms - LArSoft - Fermilab Redmine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="J+hqpWmIe4PslHwaglhKg0gCPds0+iU2e1ZqQDaHb+HNBo446RWH9fXjk8NItR6UIVvmL68O5HICmkQbPHIwVQ==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico?1560171137' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/application.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css?1601072360" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1601072362"></script>
+<script src="/redmine/javascripts/application.js?1601072361"></script>
+<script src="/redmine/javascripts/responsive.js?1601072360"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_countable_headers/stylesheets/countable_headers.css?1604432132" />  <script src="/redmine/plugin_assets/redmine_sortable_table/javascripts/sortable_table.js?1601318223"></script><link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_sortable_table/stylesheets/sortable_table.css?1601318223" /> <link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_group_assignee/stylesheets/tab_content_assignees.css?1604592738" />
+<!-- page specific tags -->
+  <script src="/redmine/javascripts/attachments.js?1601072363"></script>
+</head>
+<body class="project-larsoft controller-wiki action-show">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="wiki_pages" value="1" />
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/redmine/users/7">garren</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li><li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/7">garren</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li><li><a class="my-page" href="/redmine/my/page">My page</a></li><li><a class="projects" href="/redmine/projects">Projects</a></li><li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" value="subprojects" />
+        <input type="hidden" name="wiki_pages" value="1" />
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/larsoft/search?scope=subprojects">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">LArSoft</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/redmine/projects/autocomplete.js?jump=wiki" autocomplete="off" /></div><div class="drdn-items projects selection"><a title="Accelerator Modeling" href="/redmine/projects/accelerator-modeling?jump=wiki"><span style="padding-left:0px;">Accelerator Modeling</span></a><a title="ArgoNeuT Offline" href="/redmine/projects/t962offline?jump=wiki"><span style="padding-left:0px;">ArgoNeuT Offline</span></a><a title="artdaq" href="/redmine/projects/artdaq?jump=wiki"><span style="padding-left:0px;">artdaq</span></a><a title="artdaq Demo" href="/redmine/projects/artdaq-demo?jump=wiki"><span style="padding-left:16px;">artdaq Demo</span></a><a title="artdaq Core Demo" href="/redmine/projects/artdaq-core-demo?jump=wiki"><span style="padding-left:32px;">artdaq Core Demo</span></a><a title="artdaq Utilities" href="/redmine/projects/artdaq-utilities?jump=wiki"><span style="padding-left:16px;">artdaq Utilities</span></a><a title="artdaq database" href="/redmine/projects/artdaq-database?jump=wiki"><span style="padding-left:32px;">artdaq database</span></a><a title="artdaq-mfextensions" href="/redmine/projects/mf-extensions?jump=wiki"><span style="padding-left:16px;">artdaq-mfextensions</span></a><a title="artg4" href="/redmine/projects/artg4?jump=wiki"><span style="padding-left:0px;">artg4</span></a><a title="artg4 Geant N02 example" href="/redmine/projects/artg4geantn02?jump=wiki"><span style="padding-left:16px;">artg4 Geant N02 example</span></a><a title="artg4example" href="/redmine/projects/artg4example?jump=wiki"><span style="padding-left:16px;">artg4example</span></a><a title="cet-is" href="/redmine/projects/cet-is?jump=wiki"><span style="padding-left:0px;">cet-is</span></a><a title="art" href="/redmine/projects/art?jump=wiki"><span style="padding-left:16px;">art</span></a><a title="art Hough" href="/redmine/projects/art-hough?jump=wiki"><span style="padding-left:32px;">art Hough</span></a><a title="art-workbook" href="/redmine/projects/art-workbook?jump=wiki"><span style="padding-left:32px;">art-workbook</span></a><a title="art_root_io" href="/redmine/projects/art_root_io?jump=wiki"><span style="padding-left:32px;">art_root_io</span></a><a title="artExtensions" href="/redmine/projects/artextensions?jump=wiki"><span style="padding-left:16px;">artExtensions</span></a><a title="Systematics Tools" href="/redmine/projects/systematicstools?jump=wiki"><span style="padding-left:32px;">Systematics Tools</span></a><a title="artUtilScripts" href="/redmine/projects/artutilscripts?jump=wiki"><span style="padding-left:16px;">artUtilScripts</span></a><a title="canvas" href="/redmine/projects/canvas?jump=wiki"><span style="padding-left:16px;">canvas</span></a><a title="canvas_root_io" href="/redmine/projects/canvas_root_io?jump=wiki"><span style="padding-left:32px;">canvas_root_io</span></a><a title="cet-is-private" href="/redmine/projects/cet-is-private?jump=wiki"><span style="padding-left:16px;">cet-is-private</span></a><a title="cet-is-public" href="/redmine/projects/cet-is-public?jump=wiki"><span style="padding-left:16px;">cet-is-public</span></a><a title="cetbuildtools" href="/redmine/projects/cetbuildtools?jump=wiki"><span style="padding-left:16px;">cetbuildtools</span></a><a title="cetlib" href="/redmine/projects/cetlib?jump=wiki"><span style="padding-left:16px;">cetlib</span></a><a title="cetlib_except" href="/redmine/projects/cetlib_except?jump=wiki"><span style="padding-left:32px;">cetlib_except</span></a><a title="CetModules" href="/redmine/projects/cetmodules?jump=wiki"><span style="padding-left:16px;">CetModules</span></a><a title="cetpkgsupport" href="/redmine/projects/cetpkgsupport?jump=wiki"><span style="padding-left:16px;">cetpkgsupport</span></a><a title="Chris Green&#39;s Stuff" href="/redmine/projects/cet-chg?jump=wiki"><span style="padding-left:16px;">Chris Green&#39;s Stuff</span></a><a title="CosmoSIS UPS" href="/redmine/projects/cosmosis_ups?jump=wiki"><span style="padding-left:16px;">CosmoSIS UPS</span></a><a title="cpp0x" href="/redmine/projects/cpp0x?jump=wiki"><span style="padding-left:16px;">cpp0x</span></a><a title="critic" href="/redmine/projects/critic?jump=wiki"><span style="padding-left:16px;">critic</span></a><a title="DocDB migration" href="/redmine/projects/docdb-migration?jump=wiki"><span style="padding-left:16px;">DocDB migration</span></a><a title="El Capitan Support" href="/redmine/projects/el-capitan-support?jump=wiki"><span style="padding-left:16px;">El Capitan Support</span></a><a title="fhicl" href="/redmine/projects/fhicl?jump=wiki"><span style="padding-left:16px;">fhicl</span></a><a title="fhicl-cpp" href="/redmine/projects/fhicl-cpp?jump=wiki"><span style="padding-left:32px;">fhicl-cpp</span></a><a title="fhicl-py" href="/redmine/projects/fhicl-py?jump=wiki"><span style="padding-left:32px;">fhicl-py</span></a><a title="Framework Build Instructions" href="/redmine/projects/build-framework?jump=wiki"><span style="padding-left:16px;">Framework Build Instructions</span></a><a title="hep_hpc_toolkit" href="/redmine/projects/hep_hpc_toolkit?jump=wiki"><span style="padding-left:32px;">hep_hpc_toolkit</span></a><a title="gallery" href="/redmine/projects/gallery?jump=wiki"><span style="padding-left:16px;">gallery</span></a><a title="hep_concurrency" href="/redmine/projects/hep_concurrency?jump=wiki"><span style="padding-left:16px;">hep_concurrency</span></a><a title="Lynn Garren&#39;s notes" href="/redmine/projects/lynn-garren-s-notes?jump=wiki"><span style="padding-left:16px;">Lynn Garren&#39;s notes</span></a><a title="messagefacility" href="/redmine/projects/messagefacility?jump=wiki"><span style="padding-left:16px;">messagefacility</span></a><a title="mrb" href="/redmine/projects/mrb?jump=wiki"><span style="padding-left:16px;">mrb</span></a><a title="SciSoft" href="/redmine/projects/scisoft?jump=wiki"><span style="padding-left:16px;">SciSoft</span></a><a title="Spack Planning" href="/redmine/projects/spack-planning?jump=wiki"><span style="padding-left:16px;">Spack Planning</span></a><a title="VMs and Containers" href="/redmine/projects/vms-and-containers?jump=wiki"><span style="padding-left:16px;">VMs and Containers</span></a><a title="ubuntu vm" href="/redmine/projects/ubuntu-vm?jump=wiki"><span style="padding-left:32px;">ubuntu vm</span></a><a title="cet-pythia6" href="/redmine/projects/cet-pythia6?jump=wiki"><span style="padding-left:16px;">cet-pythia6</span></a><a title="splines" href="/redmine/projects/splines?jump=wiki"><span style="padding-left:16px;">splines</span></a><a title="studio" href="/redmine/projects/studio?jump=wiki"><span style="padding-left:16px;">studio</span></a><a title="tag_suite" href="/redmine/projects/tag_suite?jump=wiki"><span style="padding-left:16px;">tag_suite</span></a><a title="art/LArSoft Course" href="/redmine/projects/art-larsoft-course?jump=wiki"><span style="padding-left:0px;">art/LArSoft Course</span></a><a title="LArIAT" href="/redmine/projects/lardbt?jump=wiki"><span style="padding-left:0px;">LArIAT</span></a><a title="LArIAT Online" href="/redmine/projects/lariat-online?jump=wiki"><span style="padding-left:16px;">LArIAT Online</span></a><a title="LArSoft" class="selected" href="/redmine/projects/larsoft?jump=wiki"><span style="padding-left:0px;">LArSoft</span></a><a title="ArgoNeuT code" href="/redmine/projects/argoneutcode?jump=wiki"><span style="padding-left:16px;">ArgoNeuT code</span></a><a title="ArgoNeuT Analysis" href="/redmine/projects/t962ana?jump=wiki"><span style="padding-left:32px;">ArgoNeuT Analysis</span></a><a title="LAr-Continuous-Integration" href="/redmine/projects/lar-ci?jump=wiki"><span style="padding-left:16px;">LAr-Continuous-Integration</span></a><a title="LAr1ND code" href="/redmine/projects/lar1ndcode?jump=wiki"><span style="padding-left:16px;">LAr1ND code</span></a><a title="LArAdmin" href="/redmine/projects/laradmin?jump=wiki"><span style="padding-left:16px;">LArAdmin</span></a><a title="LArAna" href="/redmine/projects/larana?jump=wiki"><span style="padding-left:16px;">LArAna</span></a><a title="LArCore" href="/redmine/projects/larcore?jump=wiki"><span style="padding-left:16px;">LArCore</span></a><a title="LArCoreAlg" href="/redmine/projects/larcorealg?jump=wiki"><span style="padding-left:16px;">LArCoreAlg</span></a><a title="LArCoreObj" href="/redmine/projects/larcoreobj?jump=wiki"><span style="padding-left:16px;">LArCoreObj</span></a><a title="LArData" href="/redmine/projects/lardata?jump=wiki"><span style="padding-left:16px;">LArData</span></a><a title="LArDataAlg" href="/redmine/projects/lardataalg?jump=wiki"><span style="padding-left:16px;">LArDataAlg</span></a><a title="LArDataObj" href="/redmine/projects/lardataobj?jump=wiki"><span style="padding-left:16px;">LArDataObj</span></a><a title="LArEventDisplay" href="/redmine/projects/lareventdisplay?jump=wiki"><span style="padding-left:16px;">LArEventDisplay</span></a><a title="LArEvt" href="/redmine/projects/larevt?jump=wiki"><span style="padding-left:16px;">LArEvt</span></a><a title="LArExamples" href="/redmine/projects/larexamples?jump=wiki"><span style="padding-left:16px;">LArExamples</span></a><a title="LArG4" href="/redmine/projects/larg4?jump=wiki"><span style="padding-left:16px;">LArG4</span></a><a title="larliteintegration" href="/redmine/projects/sketch?jump=wiki"><span style="padding-left:16px;">larliteintegration</span></a><a title="LArPandora" href="/redmine/projects/larpandora?jump=wiki"><span style="padding-left:16px;">LArPandora</span></a><a title="LArPandoraContent" href="/redmine/projects/larpandoracontent?jump=wiki"><span style="padding-left:16px;">LArPandoraContent</span></a><a title="LArReco" href="/redmine/projects/larreco?jump=wiki"><span style="padding-left:16px;">LArReco</span></a><a title="LArRecoDNN" href="/redmine/projects/larrecodnn?jump=wiki"><span style="padding-left:16px;">LArRecoDNN</span></a><a title="LArRelTools" href="/redmine/projects/larreltools?jump=wiki"><span style="padding-left:16px;">LArRelTools</span></a><a title="larshoweralg" href="/redmine/projects/larshoweralg?jump=wiki"><span style="padding-left:16px;">larshoweralg</span></a><a title="LArSim" href="/redmine/projects/larsim?jump=wiki"><span style="padding-left:16px;">LArSim</span></a><a title="LArSimAlg" href="/redmine/projects/larsimalg?jump=wiki"><span style="padding-left:16px;">LArSimAlg</span></a><a title="LArSimObj" href="/redmine/projects/larsimobj?jump=wiki"><span style="padding-left:16px;">LArSimObj</span></a><a title="LArSimTools" href="/redmine/projects/larsimtools?jump=wiki"><span style="padding-left:16px;">LArSimTools</span></a><a title="LArSoft-SVN (legacy site)" href="/redmine/projects/larsoftsvn?jump=wiki"><span style="padding-left:16px;">LArSoft-SVN (legacy site)</span></a><a title="LArSoft Alpha Test" href="/redmine/projects/larsoft-alpha?jump=wiki"><span style="padding-left:32px;">LArSoft Alpha Test</span></a><a title="LArSoft Experiments Alpha Test" href="/redmine/projects/larsoft-experiment-alpha?jump=wiki"><span style="padding-left:48px;">LArSoft Experiments Alpha Test</span></a><a title="LArSoftObj" href="/redmine/projects/larsoftobj?jump=wiki"><span style="padding-left:16px;">LArSoftObj</span></a><a title="LArSystematics" href="/redmine/projects/larsystematics?jump=wiki"><span style="padding-left:16px;">LArSystematics</span></a><a title="LArTestAlg" href="/redmine/projects/lartestalg?jump=wiki"><span style="padding-left:16px;">LArTestAlg</span></a><a title="LArToolObj" href="/redmine/projects/lartoolobj?jump=wiki"><span style="padding-left:16px;">LArToolObj</span></a><a title="LArUtils" href="/redmine/projects/larutils?jump=wiki"><span style="padding-left:16px;">LArUtils</span></a><a title="larwirecell" href="/redmine/projects/larwirecell?jump=wiki"><span style="padding-left:16px;">larwirecell</span></a><a title="LBNE code" href="/redmine/projects/lbnecode?jump=wiki"><span style="padding-left:16px;">LBNE code</span></a><a title="NuSystematics" href="/redmine/projects/nusystematics?jump=wiki"><span style="padding-left:16px;">NuSystematics</span></a><a title="parsegdml" href="/redmine/projects/parsegdml?jump=wiki"><span style="padding-left:16px;">parsegdml</span></a><a title="uBooNE code" href="/redmine/projects/uboonecode?jump=wiki"><span style="padding-left:16px;">uBooNE code</span></a><a title="CC1pi" href="/redmine/projects/cc1pi?jump=wiki"><span style="padding-left:32px;">CC1pi</span></a><a title="UBooNE alg" href="/redmine/projects/uboonealg?jump=wiki"><span style="padding-left:32px;">UBooNE alg</span></a><a title="uBAna" href="/redmine/projects/ubana?jump=wiki"><span style="padding-left:32px;">uBAna</span></a><a title="uBCRT" href="/redmine/projects/ubcrt?jump=wiki"><span style="padding-left:32px;">uBCRT</span></a><a title="uBCV" href="/redmine/projects/ubcv?jump=wiki"><span style="padding-left:32px;">uBCV</span></a><a title="uBCore" href="/redmine/projects/ubcore?jump=wiki"><span style="padding-left:32px;">uBCore</span></a><a title="uBEvt" href="/redmine/projects/ubevt?jump=wiki"><span style="padding-left:32px;">uBEvt</span></a><a title="uBLite" href="/redmine/projects/ublite?jump=wiki"><span style="padding-left:32px;">uBLite</span></a><a title="uBObj" href="/redmine/projects/ubobj?jump=wiki"><span style="padding-left:32px;">uBObj</span></a><a title="uBRaw" href="/redmine/projects/ubraw?jump=wiki"><span style="padding-left:32px;">uBRaw</span></a><a title="uBReco" href="/redmine/projects/ubreco?jump=wiki"><span style="padding-left:32px;">uBReco</span></a><a title="uBSim" href="/redmine/projects/ubsim?jump=wiki"><span style="padding-left:32px;">uBSim</span></a><a title="uBXSec" href="/redmine/projects/ubxsec?jump=wiki"><span style="padding-left:32px;">uBXSec</span></a><a title="lar_ci" href="/redmine/projects/lar_ci?jump=wiki"><span style="padding-left:0px;">lar_ci</span></a><a title="darkart" href="/redmine/projects/darkart?jump=wiki"><span style="padding-left:0px;">darkart</span></a><a title="darkmon" href="/redmine/projects/darkmon?jump=wiki"><span style="padding-left:0px;">darkmon</span></a><a title="darkside-public" href="/redmine/projects/darkside-public?jump=wiki"><span style="padding-left:0px;">darkside-public</span></a><a title="darksidecore" href="/redmine/projects/darksidecore?jump=wiki"><span style="padding-left:0px;">darksidecore</span></a><a title="ds50daq" href="/redmine/projects/ds50daq?jump=wiki"><span style="padding-left:0px;">ds50daq</span></a><a title="DUNE" href="/redmine/projects/dune?jump=wiki"><span style="padding-left:0px;">DUNE</span></a><a title="DUNE Approved Plots" href="/redmine/projects/dune-approved-plots?jump=wiki"><span style="padding-left:16px;">DUNE Approved Plots</span></a><a title="Dune Computing" href="/redmine/projects/dune-computing?jump=wiki"><span style="padding-left:16px;">Dune Computing</span></a><a title="duneutil" href="/redmine/projects/duneutil?jump=wiki"><span style="padding-left:32px;">duneutil</span></a><a title="DUNE DAQ" href="/redmine/projects/dune-daq?jump=wiki"><span style="padding-left:16px;">DUNE DAQ</span></a><a title="DUNE NearDet Design" href="/redmine/projects/dune-neardet-design?jump=wiki"><span style="padding-left:16px;">DUNE NearDet Design</span></a><a title="dunetpc" href="/redmine/projects/dunetpc?jump=wiki"><span style="padding-left:16px;">dunetpc</span></a><a title="protoduneana" href="/redmine/projects/protoduneana?jump=wiki"><span style="padding-left:32px;">protoduneana</span></a><a title="upd" href="/redmine/projects/upd?jump=wiki"><span style="padding-left:0px;">upd</span></a><a title="ups" href="/redmine/projects/ups?jump=wiki"><span style="padding-left:0px;">ups</span></a><a title="Fermi Redmine" href="/redmine/projects/fermi-redmine?jump=wiki"><span style="padding-left:0px;">Fermi Redmine</span></a><a title="Projects for Monitoring Redmine Health" href="/redmine/projects/test-p1?jump=wiki"><span style="padding-left:16px;">Projects for Monitoring Redmine Health</span></a><a title="redmine-lib" href="/redmine/projects/redmine-lib?jump=wiki"><span style="padding-left:16px;">redmine-lib</span></a><a title="g4hpc" href="/redmine/projects/g4hpc?jump=wiki"><span style="padding-left:0px;">g4hpc</span></a><a title="g4hpcbenchmarks" href="/redmine/projects/g4hpcbenchmarks?jump=wiki"><span style="padding-left:16px;">g4hpcbenchmarks</span></a><a title="HepPDT" href="/redmine/projects/heppdt?jump=wiki"><span style="padding-left:0px;">HepPDT</span></a><a title="ICARUS LArSoft" href="/redmine/projects/icaruscode?jump=wiki"><span style="padding-left:0px;">ICARUS LArSoft</span></a><a title="icarus_data" href="/redmine/projects/icarus_data?jump=wiki"><span style="padding-left:16px;">icarus_data</span></a><a title="icarusutil" href="/redmine/projects/icarusutil?jump=wiki"><span style="padding-left:16px;">icarusutil</span></a><a title="LAr Batch Tools" href="/redmine/projects/larbatch?jump=wiki"><span style="padding-left:0px;">LAr Batch Tools</span></a><a title="LBNE Utilities" href="/redmine/projects/lbneutil?jump=wiki"><span style="padding-left:0px;">LBNE Utilities</span></a><a title="DAQ" href="/redmine/projects/mu2edaq?jump=wiki"><span style="padding-left:0px;">DAQ</span></a><a title="mu2e_artdaq" href="/redmine/projects/mu2e_artdaq?jump=wiki"><span style="padding-left:16px;">mu2e_artdaq</span></a><a title="Mu2e DAQ Computing" href="/redmine/projects/mu2e-daq-computing?jump=wiki"><span style="padding-left:16px;">Mu2e DAQ Computing</span></a><a title="mu2e DCS" href="/redmine/projects/mu2e-dcs?jump=wiki"><span style="padding-left:16px;">mu2e DCS</span></a><a title="Mu2e Raw Data" href="/redmine/projects/mu2e-raw-data?jump=wiki"><span style="padding-left:16px;">Mu2e Raw Data</span></a><a title="Databases" href="/redmine/projects/databases?jump=wiki"><span style="padding-left:0px;">Databases</span></a><a title="Detector Construction DB" href="/redmine/projects/mu2e_detector_construction_db?jump=wiki"><span style="padding-left:16px;">Detector Construction DB</span></a><a title="Offline Software" href="/redmine/projects/offlinesoftware?jump=wiki"><span style="padding-left:0px;">Offline Software</span></a><a title="G4beamline" href="/redmine/projects/mu2eofflinesoftwareg4beamline?jump=wiki"><span style="padding-left:16px;">G4beamline</span></a><a title="Grid Scripts" href="/redmine/projects/mu2egrid?jump=wiki"><span style="padding-left:16px;">Grid Scripts</span></a><a title="Muon g-2" href="/redmine/projects/g-2?jump=wiki"><span style="padding-left:0px;">Muon g-2</span></a><a title="Calorimeter CDR req." href="/redmine/projects/calorequirements?jump=wiki"><span style="padding-left:16px;">Calorimeter CDR req.</span></a><a title="g-2 Art Examples" href="/redmine/projects/gm2artexamples?jump=wiki"><span style="padding-left:16px;">g-2 Art Examples</span></a><a title="g-2 CDR" href="/redmine/projects/gm2cdr?jump=wiki"><span style="padding-left:16px;">g-2 CDR</span></a><a title="g-2 DAQ" href="/redmine/projects/gm2daq?jump=wiki"><span style="padding-left:16px;">g-2 DAQ</span></a><a title="g-2 DQM" href="/redmine/projects/gm2dqm?jump=wiki"><span style="padding-left:32px;">g-2 DQM</span></a><a title="g-2 public" href="/redmine/projects/gm2public?jump=wiki"><span style="padding-left:16px;">g-2 public</span></a><a title="g-2 Release Tools" href="/redmine/projects/gm2releasetools?jump=wiki"><span style="padding-left:16px;">g-2 Release Tools</span></a><a title="g2MIGTRACE" href="/redmine/projects/g2migtrace?jump=wiki"><span style="padding-left:16px;">g2MIGTRACE</span></a><a title="g2mtanalysismacros" href="/redmine/projects/g2mtanalysismacros?jump=wiki"><span style="padding-left:16px;">g2mtanalysismacros</span></a><a title="g-2 SRBD" href="/redmine/projects/g-2-srbd?jump=wiki"><span style="padding-left:16px;">g-2 SRBD</span></a><a title="g-2 TDR" href="/redmine/projects/gm2tdr?jump=wiki"><span style="padding-left:16px;">g-2 TDR</span></a><a title="gm2analyses" href="/redmine/projects/gm2analyses?jump=wiki"><span style="padding-left:16px;">gm2analyses</span></a><a title="gm2aux" href="/redmine/projects/gm2aux?jump=wiki"><span style="padding-left:16px;">gm2aux</span></a><a title="gm2beams" href="/redmine/projects/gm2beams?jump=wiki"><span style="padding-left:16px;">gm2beams</span></a><a title="gm2calo" href="/redmine/projects/gm2calo?jump=wiki"><span style="padding-left:16px;">gm2calo</span></a><a title="gm2dataproducts" href="/redmine/projects/gm2dataproducts?jump=wiki"><span style="padding-left:16px;">gm2dataproducts</span></a><a title="gm2field" href="/redmine/projects/gm2field?jump=wiki"><span style="padding-left:16px;">gm2field</span></a><a title="gm2fieldanalyzer" href="/redmine/projects/gm2fieldanalyzer?jump=wiki"><span style="padding-left:32px;">gm2fieldanalyzer</span></a><a title="gm2fielddaq" href="/redmine/projects/gm2fielddaq?jump=wiki"><span style="padding-left:32px;">gm2fielddaq</span></a><a title="gm2fieldsignal" href="/redmine/projects/gm2fieldsignal?jump=wiki"><span style="padding-left:32px;">gm2fieldsignal</span></a><a title="gm2geom" href="/redmine/projects/gm2geom?jump=wiki"><span style="padding-left:16px;">gm2geom</span></a><a title="gm2mcdataproducts" href="/redmine/projects/gm2mcdataproducts?jump=wiki"><span style="padding-left:16px;">gm2mcdataproducts</span></a><a title="gm2midas" href="/redmine/projects/gm2midas?jump=wiki"><span style="padding-left:16px;">gm2midas</span></a><a title="gm2midastoart" href="/redmine/projects/gm2midastoart?jump=wiki"><span style="padding-left:16px;">gm2midastoart</span></a><a title="gm2MTest2012" href="/redmine/projects/gm2mtest2012?jump=wiki"><span style="padding-left:16px;">gm2MTest2012</span></a><a title="gm2optics" href="/redmine/projects/gm2optics?jump=wiki"><span style="padding-left:16px;">gm2optics</span></a><a title="gm2planning" href="/redmine/projects/gm2planning?jump=wiki"><span style="padding-left:16px;">gm2planning</span></a><a title="gm2reconeast" href="/redmine/projects/gm2reconeast?jump=wiki"><span style="padding-left:16px;">gm2reconeast</span></a><a title="gm2ringsim" href="/redmine/projects/gm2ringsim?jump=wiki"><span style="padding-left:16px;">gm2ringsim</span></a><a title="gm2SoftwareTools" href="/redmine/projects/gm2softwaretools?jump=wiki"><span style="padding-left:16px;">gm2SoftwareTools</span></a><a title="gm2strawtracking" href="/redmine/projects/gm2strawtracking?jump=wiki"><span style="padding-left:16px;">gm2strawtracking</span></a><a title="gm2swdocs" href="/redmine/projects/gm2swdocs?jump=wiki"><span style="padding-left:16px;">gm2swdocs</span></a><a title="gm2test" href="/redmine/projects/gm2test?jump=wiki"><span style="padding-left:16px;">gm2test</span></a><a title="gm2tracker" href="/redmine/projects/gm2tracker?jump=wiki"><span style="padding-left:16px;">gm2tracker</span></a><a title="gm2trackerdaq" href="/redmine/projects/gm2trackerdaq?jump=wiki"><span style="padding-left:16px;">gm2trackerdaq</span></a><a title="gm2unpackers" href="/redmine/projects/gm2unpackers?jump=wiki"><span style="padding-left:16px;">gm2unpackers</span></a><a title="gm2util" href="/redmine/projects/gm2util?jump=wiki"><span style="padding-left:16px;">gm2util</span></a><a title="gm2viz" href="/redmine/projects/gm2viz?jump=wiki"><span style="padding-left:16px;">gm2viz</span></a><a title="gm2vtk" href="/redmine/projects/gm2vtk?jump=wiki"><span style="padding-left:16px;">gm2vtk</span></a><a title="g-2 Field Shimming Paper" href="/redmine/projects/gm2fsp?jump=wiki"><span style="padding-left:16px;">g-2 Field Shimming Paper</span></a><a title="gm2db" href="/redmine/projects/gm2db?jump=wiki"><span style="padding-left:16px;">gm2db</span></a><a title="gm2ilratio" href="/redmine/projects/gm2ilratio?jump=wiki"><span style="padding-left:16px;">gm2ilratio</span></a><a title="gm2reconita" href="/redmine/projects/gm2reconita?jump=wiki"><span style="padding-left:16px;">gm2reconita</span></a><a title="gm2sc" href="/redmine/projects/gm2sc?jump=wiki"><span style="padding-left:16px;">gm2sc</span></a><a title="gm2simvalidation" href="/redmine/projects/gm2simvalidation?jump=wiki"><span style="padding-left:16px;">gm2simvalidation</span></a><a title="gm2templates" href="/redmine/projects/gm2templates?jump=wiki"><span style="padding-left:16px;">gm2templates</span></a><a title="NOvA-ART" href="/redmine/projects/novaart?jump=wiki"><span style="padding-left:0px;">NOvA-ART</span></a><a title="NOvA validation" href="/redmine/projects/nova-validation?jump=wiki"><span style="padding-left:16px;">NOvA validation</span></a><a title="NuTools" href="/redmine/projects/nutools?jump=wiki"><span style="padding-left:0px;">NuTools</span></a><a title="NuEvdb" href="/redmine/projects/nuevdb?jump=wiki"><span style="padding-left:16px;">NuEvdb</span></a><a title="NuG4" href="/redmine/projects/nug4?jump=wiki"><span style="padding-left:16px;">NuG4</span></a><a title="NuGen" href="/redmine/projects/nugen?jump=wiki"><span style="padding-left:16px;">NuGen</span></a><a title="NuRandom" href="/redmine/projects/nurandom?jump=wiki"><span style="padding-left:16px;">NuRandom</span></a><a title="NuSimData" href="/redmine/projects/nusimdata?jump=wiki"><span style="padding-left:16px;">NuSimData</span></a><a title="NuSoft/NuTools" href="/redmine/projects/nusoftart?jump=wiki"><span style="padding-left:16px;">NuSoft/NuTools</span></a><a title="PPFX" href="/redmine/projects/ppfx?jump=wiki"><span style="padding-left:16px;">PPFX</span></a><a title="OSG-Geant4-OSGMM" href="/redmine/projects/osg-geant4-osgmm?jump=wiki"><span style="padding-left:0px;">OSG-Geant4-OSGMM</span></a><a title="SBND code" href="/redmine/projects/sbndcode?jump=wiki"><span style="padding-left:0px;">SBND code</span></a><a title="SBND utility scripts" href="/redmine/projects/sbndutil?jump=wiki"><span style="padding-left:0px;">SBND utility scripts</span></a><a title="IF Data Handling Client Tools (ifdhc)" href="/redmine/projects/ifdhc?jump=wiki"><span style="padding-left:0px;">IF Data Handling Client Tools (ifdhc)</span></a><a title="IFDH Art interface" href="/redmine/projects/ifdh-art?jump=wiki"><span style="padding-left:16px;">IFDH Art interface</span></a><a title="Simulation Tools and Features" href="/redmine/projects/stf?jump=wiki"><span style="padding-left:0px;">Simulation Tools and Features</span></a><a title="artg4tk" href="/redmine/projects/artg4tk?jump=wiki"><span style="padding-left:16px;">artg4tk</span></a><a title="DoSSiER" href="/redmine/projects/dossier?jump=wiki"><span style="padding-left:16px;">DoSSiER</span></a><a title="Geant4Reweight" href="/redmine/projects/geant4reweight?jump=wiki"><span style="padding-left:16px;">Geant4Reweight</span></a><a title="uBooNE Reconstruction" href="/redmine/projects/uboone-reconstruction?jump=wiki"><span style="padding-left:0px;">uBooNE Reconstruction</span></a><a title="uBooNE Utilities" href="/redmine/projects/ubutil?jump=wiki"><span style="padding-left:0px;">uBooNE Utilities</span></a><a title="detsim.fnal.gov" href="/redmine/projects/detsim-fnal-gov?jump=wiki"><span style="padding-left:0px;">detsim.fnal.gov</span></a><a title="SoftRelTools" href="/redmine/projects/softreltools?jump=wiki"><span style="padding-left:0px;">SoftRelTools</span></a><a title="Spack Infrastructure" href="/redmine/projects/spack-infrastructure?jump=wiki"><span style="padding-left:0px;">Spack Infrastructure</span></a></div><div class="drdn-items all-projects selection"><a href="/redmine/projects?jump=wiki">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="current-project">LArSoft</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li>
+<a id="new-object" onclick="toggleNewObjectDropdown(); return false;" class="new-object" href="#"> + </a>
+<ul class="menu-children"><li><a accesskey="7" class="new-issue-sub" href="/redmine/projects/larsoft/issues/new">New issue</a></li><li><a class="new-issue-category" href="/redmine/projects/larsoft/issue_categories/new">New category</a></li><li><a class="new-version" href="/redmine/projects/larsoft/versions/new">New version</a></li><li><a class="new-timelog" href="/redmine/projects/larsoft/time_entries/new">Log time</a></li><li><a class="new-document" href="/redmine/projects/larsoft/documents/new">New document</a></li><li><a class="new-wiki-page" href="/redmine/projects/larsoft/wiki/new">New wiki page</a></li><li><a class="new-file" href="/redmine/projects/larsoft/files/new">New file</a></li></ul>
+</li><li><a class="overview" href="/redmine/projects/larsoft">Overview</a></li><li><a class="activity" href="/redmine/projects/larsoft/activity">Activity</a></li><li><a class="roadmap" href="/redmine/projects/larsoft/roadmap">Roadmap</a></li><li><a class="issues" href="/redmine/projects/larsoft/issues">Issues</a></li><li><a class="time-entries" href="/redmine/projects/larsoft/time_entries">Spent time</a></li><li><a class="gantt" href="/redmine/projects/larsoft/issues/gantt">Gantt</a></li><li><a class="calendar" href="/redmine/projects/larsoft/issues/calendar">Calendar</a></li><li><a class="documents" href="/redmine/projects/larsoft/documents">Documents</a></li><li><a class="wiki selected" href="/redmine/projects/larsoft/wiki">Wiki</a></li><li><a class="files" href="/redmine/projects/larsoft/files">Files</a></li><li><a class="repository" href="/redmine/projects/larsoft/repository">Repository</a></li><li><a class="settings" href="/redmine/projects/larsoft/settings">Settings</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+          
+<h3>Wiki</h3>
+<ul>
+  <li><a href="/redmine/projects/larsoft/wiki">Start page</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/index">Index by title</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/date_index">Index by date</a></li>
+</ul>
+
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+<a class="icon icon-add" data-remote="true" href="/redmine/projects/larsoft/wiki/new">New wiki page</a>
+  <a class="icon icon-edit" accesskey="e" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/edit">Edit</a>
+  <a class="wiki_page-17238-watcher icon icon-fav-off" data-remote="true" rel="nofollow" data-method="post" href="/redmine/watchers/watch?object_id=17238&amp;object_type=wiki_page">Watch</a>
+  <a class="icon icon-lock" rel="nofollow" data-method="post" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/protect?protected=1">Lock</a>
+  
+  <a class="icon icon-move" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/rename">Rename</a>
+  <a data-confirm="Are you sure?" class="icon icon-del" rel="nofollow" data-method="delete" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms">Delete</a>
+<a class="icon icon-history" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/history">History</a>
+</div>
+
+<p class="breadcrumb"><a href="/redmine/projects/larsoft/wiki/LArSoftWiki">LArSoftWiki</a> » <a href="/redmine/projects/larsoft/wiki/Developing_With_LArSoft">Developing With LArSoft</a> » </p>
+
+
+<div class="wiki wiki-page">
+  <a name="Guidelines-on-writing-and-using-algorithms-in-LArSoft"></a>
+<h1 >Guidelines on writing (and using) algorithms in LArSoft<a href="#Guidelines-on-writing-and-using-algorithms-in-LArSoft" class="wiki-anchor">&para;</a></h1>
+
+
+	<ul class="toc right"><li><strong>Table of contents</strong></li><li><a href="#Guidelines-on-writing-and-using-algorithms-in-LArSoft">Guidelines on writing (and using) algorithms in LArSoft</a><ul><li><ul><li><a href="#Algorithm-factorization-model">Algorithm factorization model</a></li><li><a href="#Developing-a-new-algorithm">Developing a new algorithm</a></li><li><a href="#Service-and-algorithm-dependencies">Service and algorithm dependencies</a><ul><li><a href="#Dependencies-from-external-libraries">Dependencies from external libraries</a></li></ul>
+</li><li><a href="#Multi-threading-support">Multi-threading support</a></li></ul></li></ul></li></ul>
+
+
+An algorithm is a class, with one or more instances managed by user code, that performs a task or part of it. In the context of the <em>art</em> framework, an algorithm is used by an <em>art</em> module class. The best practice is to make the algorithm itself as independent as possible from the framework and use the module to provide the interface between the two. In other words, 
+	<ul>
+	<li><strong>algorithm</strong> class performs some or all the operations required for a task (e.g., "parametrize the shape of a hit")</li>
+		<li><strong>framework module</strong> (or simply <em>module</em>) class manages and coordinates its algorithms in order to produce and deliver a result to the framework</li>
+	</ul>
+
+
+Consider the <code>LineCluster</code> module:
+	<ul>
+	<li>the algorithm, <code>cluster::ClusterCrawlerAlg</code>, can be configured by a FHiCL parameter set, receives sets of reconstructed hits as input and produces sets of refined hits, clusters, vertices etc.</li>
+		<li>the module, <code>cluster::LineCluster</code>, creates, configures and owns a <code>cluster::ClusterCrawlerAlg</code> instance, reads the hit from <code>art::Event</code>, directs the steps of the algorithm, and stores its results back into <code>art::Event</code></li>
+	</ul>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-2"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/edit?section=2">Edit this section</a></div><a name="Algorithm-factorization-model"></a>
+<h3 >Algorithm factorization model<a href="#Algorithm-factorization-model" class="wiki-anchor">&para;</a></h3>
+
+
+As the unit of a modular system, an algorithm should:
+	<ul>
+	<li>perform one single task</li>
+		<li>delegate subtasks to other algorithms</li>
+		<li>minimize its dependencies (see in particular our <a class="wiki-page" href="/redmine/projects/larsoft/wiki/Architecture_revision#Factorization">factorization guidelines</a>)</li>
+	</ul>
+
+
+	<p>Independent algorithms are more portable and easy to test. Small, independent algorithms also form a strong foundation for solving complex problems. Some criteria for developing well-factorized and portable code are collected in our <a class="wiki-page" href="/redmine/projects/larsoft/wiki/Data_products_architecture_and_design">architecture guidelines</a>.</p>
+
+
+Additional requirements for a well-written LArSoft algorithm include:
+	<ul>
+	<li>uses standard LArSoft data products as input</li>
+		<li>delivers standard LArSoft data products as output</li>
+		<li>has well-documented interfaces</li>
+		<li>has comments where-ever the code is less than trivial</li>
+		<li>follows good coding practices and <a href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/The_rules_and_guidelines" class="external">LArSoft guidelines</a></li>
+		<li>follows LArSoft's <a class="wiki-page" href="/redmine/projects/larsoft/wiki/Architecture_revision#Interoperability">interoperability recommendations</a></li>
+	</ul>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-3"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/edit?section=3">Edit this section</a></div><a name="Developing-a-new-algorithm"></a>
+<h3 >Developing a new algorithm<a href="#Developing-a-new-algorithm" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>An algorithm devoted to cluster reconstruction may look as follows. Note this is an example for illustration, not existing code.<br /><pre><code class="cpp syntaxhl"><span class="CodeRay">
+  <span class="comment">/// Include plenty of documentation such as the purpose of the class, what it does, how to use it, any prerequisites, input assumptions, etc.</span>
+
+<span class="keyword">namespace</span> cluster {
+
+  <span class="keyword">class</span> <span class="class">MyClusterAlg</span> {
+      <span class="directive">public</span>:
+    <span class="comment">/// Constructor: configure the algorithm from a FHiCL parameter set</span>
+    MyAlgorithm(fhicl::ParameterSet const&#38; pset);
+
+    <span class="comment">/// Prepare to run the algorithm: receive updated geometry</span>
+    <span class="directive">void</span> Setup(geo::GeometryCore <span class="directive">const</span>*);
+
+    <span class="comment">/// Set the input to the algorithm</span>
+    <span class="directive">void</span> SetInputHits(std::vector&lt;recob::Hit&gt; const&#38; hits);
+
+    <span class="comment">/// Run the algorithm</span>
+    <span class="directive">void</span> Reconstruct();
+
+    <span class="comment">/// Extract the results (document here the format!)</span>
+    <span class="directive">void</span> GetClustersAndAssociations
+      (std::vector&lt;recob::Cluster&gt;&#38;, std::vector&lt;std::pair&lt;size_t, size_t&gt;&gt;&#38;);
+
+    <span class="comment">// ...</span>
+
+  }; <span class="comment">// class MyClusterAlg</span>
+
+} <span class="comment">// namespace cluster</span>
+</span></code></pre><br />The algorithm might also sport a <code>void Reconfigure(fhicl::ParameterSet const&#38;)</code> to change the configuration that was given on construction. It might also have a more compact method<br /><pre><code class="cpp syntaxhl"><span class="CodeRay">std::pair&lt;std::vector&lt;recob::Cluster&gt;, std::vector&lt;std::pair&lt;size_t, size_t&gt;&gt;&gt;
+Reconstruct(std::vector&lt;recob::Hit&gt; const&#38; hits);
+</span></code></pre><br />combining the input, reconstruction and output phase; this will reduce flexibility on caller side, but it's easier to write.</p>
+
+
+The algorithm <strong>must</strong> provide in its documentation all the information that is needed to use it; for example:
+	<ul>
+	<li>should the caller instantiate it once and reuse the same instance for every new event?</li>
+		<li>is the original collection of input hits required to be valid until <code>Reconstruct()</code> has been called and returned? or until <code>GetClustersAndAssociations()</code> has?</li>
+		<li>what is the format of the associations returned as result?</li>
+		<li>can <code>GetClustersAndAssociations()</code> be called many times, or after the first time it will "forget" the results?</li>
+	</ul>
+
+
+	<p>This model is by no mean the only one, but it's a reasonably good one for starting. It has been suggested that the algorithms be (almost) <em>stateless</em>, meaning that beside the configuration, nothing should be stored in its data members. This may be good or bad depending on the planned use. For example, it makes the algorithm very easy to be used in parallel. But since the state information needs to be <em>somewhere</em>, it might turn out not to be very different from instantiating a new algorithm for each thread.</p>
+
+
+	<p>Other details of the implementation are to the author, as long as their effects are well documented. The complete declaration of the algorithm above might look like:<br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="keyword">namespace</span> cluster {
+
+  <span class="comment">/**
+   * @brief Reconstructs clusters with a new, never seen before algorithm.
+   * 
+   * This algorithm reconstructs clusters using information exclusively from
+   * hits.
+   * 
+   * This algorithm requires a GeometryCore service provider that needs to be
+   * updated after first setting it only if the geometry service has changed
+   * memory location. After the set up, the algorithm can be used to reconstruct
+   * clusters from hits any number of times, each one following the cycle:
+   * 1. SetInputHits() to provide the input for cluster reconstruction
+   * 2. Reconstruct() to perform the reconstruction
+   * 3. GetClustersAndAssociations() to retrieve the results
+   * 
+   * Note that:
+   * - results can be retrieved only once; after that, a new input must be
+   *   provided
+   * - the /original/ input must be available until Reconstruct() has returned,
+   *   since this algorithm does not store a local copy of the input hits
+   * 
+   * 
+   * Configuration parameters
+   * =========================
+   * 
+   * - *Threshold* (real, mandatory): charge accumulated in a cluster in
+   *   calibrated ADC counts (same as Clusters::SummedADC())
+   * 
+   */</span>
+  <span class="keyword">class</span> <span class="class">MyClusterAlg</span> {
+      <span class="directive">public</span>:
+    <span class="comment">/// Constructor: configure the algorithm from a FHiCL parameter set</span>
+    MyAlgorithm(fhicl::ParameterSet const&#38; pset):
+      threshold(pset.get&lt;<span class="predefined-type">double</span>&gt;(<span class="string"><span class="delimiter">&quot;</span><span class="content">Threshold</span><span class="delimiter">&quot;</span></span>)) <span class="comment">// mandatory!</span>
+      {}
+
+    <span class="comment">/// Prepare to run the algorithm: receive updated geometry</span>
+    <span class="directive">void</span> Setup(geo::GeometryCore <span class="directive">const</span>* new_geom) { geom = new_geom; }
+
+    <span class="comment">/**
+     * @brief Record the input hit vector
+     * @param hits a (constant) reference to the input hits)
+     * 
+     * Note that the input hits are not copied and the hit collection must
+     * remain valid until after Reconstruct() has completed.
+     */</span>
+    <span class="directive">void</span> SetInputHits(std::vector&lt;recob::Hit&gt; const&#38; hits)
+      { ClearOutput(); pHits = &amp;hits; }
+
+    <span class="comment">/**
+     * @brief Run the algorithm
+     * @throw std::runtime_error in case of error
+     * 
+     * The original input hit vector must still be valid, and its information
+     * will be directly used.
+     */</span>
+    <span class="directive">void</span> Reconstruct();
+
+    <span class="comment">/**
+     * @brief Returns clusters and their associated hits
+     * @param clusters (output) a vector with all reconstructed clusters
+     * @param assoc_hits (output) hits associated to reconstructed clusters
+     * 
+     * The reconstructed information is moved into the arguments.
+     * After this call, the reconstructed information is lost and Reconstruct()
+     * needs to be executed again to regenerate it.
+     * 
+     * The format of assoc_hits is a list of pairs, the first being the index
+     * of a cluster from the clusters vector, the second being the index of one
+     * of the hits associated with that cluster, as seen in the input hit list.
+     * There are multiple hits associated with each cluster. The order of the
+     * associating pairs is not defined.
+     */</span>
+    <span class="directive">void</span> GetClustersAndAssociations(
+      std::vector&lt;recob::Cluster&gt;&#38; clusters,
+      std::vector&lt;std::pair&lt;size_t, size_t&gt;&gt;&#38; assoc_hits
+      )
+      {
+        clusters = std::move(Clusters);
+        assoc_hits = std::move(HitClusterAssns);
+        ClearInput();
+      }
+
+    <span class="comment">/// Forgets the input and destroys the output, preparing for a new execution</span>
+    <span class="directive">void</span> Clear() { ClearInput(); ClearOutput(); }
+
+      <span class="directive">public</span>:
+    geo::GeometryCore <span class="directive">const</span>* geom = <span class="predefined-constant">nullptr</span>; <span class="comment">///&lt; pointer to geometry service provider</span>
+
+    std::vector&lt;recob::Hit&gt; <span class="directive">const</span>* pHits = <span class="predefined-constant">nullptr</span>; <span class="comment">///&lt; pointer to input hits</span>
+
+    std::vector&lt;recob::Cluster&gt; Clusters; <span class="comment">///&lt; reconstructed clusters</span>
+    std::vector&lt;std::pair&lt;size_t, size_t&gt;&gt; HitClusterAssns; <span class="comment">///&lt; hit/cluster associations</span>
+
+    <span class="directive">void</span> ClearInput() { pHits = <span class="predefined-constant">nullptr</span>; }
+    <span class="directive">void</span> ClearOutput() { Clusters.clear(); HitClusterAssns.clear(); }
+
+  }; <span class="comment">// class MyClusterAlg</span>
+
+} <span class="comment">// namespace cluster</span>
+</span></code></pre><br />while the implementation would provide the implementation for <code>cluster::MyClusterAlg::Reconstruct()</code>.<br />Note that this algorithm <em>does</em> depend on LArSoft for the service provider definition and for the data format.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-4"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/edit?section=4">Edit this section</a></div><a name="Service-and-algorithm-dependencies"></a>
+<h3 >Service and algorithm dependencies<a href="#Service-and-algorithm-dependencies" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>The algorithm <strong>must</strong> obtain in the setup phase <em>all</em> the service providers it directly uses.<br />If e.g. <code>DetectorProperties</code> provider depends on <code>LArProperties</code> provider, and the algorithm needs both, the algorithm will not try to obtain <code>LArProperties</code> from <code>DetectorProperties</code>, but rather will require the caller to explicitly provide both. This ensures that the dependencies are explicit.</p>
+
+
+	<p>The algorithm may obtain other algorithms it needs from the caller, or it can instantiate them by itself, owning them. Depending on the algorithm, one or the other solution are better. We recommend the first second solution to be attempted for the highest-level algorithms, the ones delivering final products, since it makes them easier to use. We recommend that algorithm that instantiate subalgorithms require a separate sub-parameter-set for their configuration, like in:<br /><pre><code class="python syntaxhl"><span class="CodeRay">physics.producers.MyModule: {
+  module_type:  MyModule
+
+  <span class="predefined">input</span>:       <span class="string"><span class="delimiter">&quot;</span><span class="content">cchits</span><span class="delimiter">&quot;</span></span> 
+
+  hough: {
+    <span class="comment"># configuration for the Hough transform sub-algorithm</span>
+  }
+
+  stitch: {
+    <span class="comment"># configuration for the stitching transform sub-algorithm</span>
+  }
+
+}
+</span></code></pre></p>
+
+
+	<p>A <em>art</em> module running this algorithm would look like this:<br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="keyword">namespace</span> cluster {
+
+  <span class="comment">/// Never forget plenty of documentation!!</span>
+  <span class="keyword">class</span> <span class="class">MyCluster</span> {
+      <span class="directive">public</span>:
+    <span class="comment">/// Constructor</span>
+    MyCluster(fhicl::ParameterSet const&#38; pset);
+
+    <span class="comment">/// Reconstruct the clusters</span>
+    <span class="directive">void</span> produce(art::Event&#38;);
+
+      <span class="directive">protected</span>:
+    fhicl::ParameterSet config; <span class="comment">///&lt; copy of the algorithm configuration</span>
+    art::InputTag fHitLabel; <span class="comment">///&lt; input tag for the input hits</span>
+
+  }; <span class="comment">// class MyCluster</span>
+
+} <span class="comment">// namespace cluster</span>
+</span></code></pre></p>
+
+
+	<p>It is recommended, but not mandatory, to have the name of the module to reflect the name of the main algorithm when this makes sense.</p>
+
+
+	<p>A possible implementation could follow these lines:<br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="keyword">namespace</span> cluster {
+
+  MyCluster::MyCluster(fhicl::ParameterSet const&#38; pset)
+    : fHitLabel(pset.get&lt;art::InputTag&gt;(<span class="string"><span class="delimiter">&quot;</span><span class="content">Hits</span><span class="delimiter">&quot;</span></span>)) <span class="comment">// mandatory!</span>
+  {
+
+    produces&lt;std::vector&lt;recob::Cluster&gt;&gt;();
+    produces&lt;art::Assns&lt;recob::Hit, recob::Cluster&gt;&gt;();
+
+    config = pset; <span class="comment">// store a copy of the configuration for the algorithm</span>
+
+  } <span class="comment">// MyCluster::MyCluster()</span>
+
+  <span class="directive">void</span> MyCluster::produce(art::Event&#38; event) {
+
+    <span class="comment">// create a new instance of the algorithm</span>
+    cluster::MyClusterAlg algo(config);
+
+    <span class="comment">// set up up-to-date service provider pointers</span>
+    algo.Setup(lar::providerFrom&lt;geo::Geometry&gt;());
+
+    <span class="comment">// feed the input</span>
+    <span class="directive">auto</span> HitsHandle = event.getValidHandle&lt;std::vector&lt;recob::Hit&gt;&gt;(fHitLabel);
+    algo.SetInputHits(*HitsHandle);
+
+    <span class="comment">// run the algorithm</span>
+    algo.Reconstruct();
+
+    <span class="comment">// store the results</span>
+    <span class="comment">// - extract the raw results</span>
+    std::vector&lt;recob::Cluster&gt; Clusters;
+    std::vector&lt;std::pair&lt;size_t, size_t&gt;&gt; RawAssns;
+    algo.GetClustersAndAssociations(Clusters, RawAssns);
+
+    <span class="comment">// - convert the output into something storable</span>
+    art::Assns&lt;recob::Hit, recob::Cluster&gt; ArtAssns
+      = lar::ConvertPairsToAssociations(event, *<span class="local-variable">this</span>, Clusters, Hits, RawAssns);
+
+    <span class="comment">// - store into the event</span>
+    event.put(std::move(Clusters));
+    event.put(std::move(ArtAssns));
+
+  } <span class="comment">// MyCluster::produce()</span>
+
+} <span class="comment">// namespace cluster</span>
+</span></code></pre><br />The module has the simple task to configure the algorithm, get the input, execute the algorithm, and save the results.<br />Here we have been fundamentalist in avoiding any framework dependency in the algorithm. This results in a quite clumsy two-step procedure to produce the cluster-hit associations, where the algorithm produces <em>(cluster index, hit index)</em> pairs and a fictional <code>lar::ConvertPairsToAssociations()</code> takes care of creating the associations<sup><a href="#fn1">1</a></sup>.</p>
+
+
+	<p id="fn1" class="footnote"><sup>1</sup> Matter of fact, a <code>lar::ConvertPairsToAssociations()</code> template function <em>can</em> be implemented in a reasonably efficient way if there is demand for it.</p>
+
+
+	<div class="contextual heading-4" title="Edit this section" id="section-5"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/edit?section=5">Edit this section</a></div><a name="Dependencies-from-external-libraries"></a>
+<h4 >Dependencies from external libraries<a href="#Dependencies-from-external-libraries" class="wiki-anchor">&para;</a></h4>
+
+
+While <em>art</em> services and modules have no particular limitation to their depending from other libraries, service providers and algorithms do.<br />The current recommendation is not to trespass the border of what may be run in <a class="project" href="/redmine/projects/gallery">gallery</a>. This allows:
+	<ul>
+	<li>usage of common low level infrastructure for configuration (<a class="project" href="/redmine/projects/fhicl">fhicl</a>) and console output (<a class="project" href="/redmine/projects/messagefacility">messagefacility</a>)</li>
+		<li>access to <em>art</em> ROOT files containing LArSoft data products
+	<ul>
+	<li>this includes data product associations</li>
+	</ul></li>
+	</ul>
+
+
+This does <em>not</em> allow:
+	<ul>
+	<li>creation of data product in <em>art</em> fashion (you really have to use <em>art</em> for that)</li>
+		<li>creation of <code>art::Ptr</code> objects, even just local in the code (this is <em>not supported even in gallery</em>, which does support reading and using them)</li>
+		<li>direct access to <em>art</em> services (service providers are fine as long as they follow this same policy)</li>
+		<li>to be verified: direct access to <em>art</em> tools (a mechanism similar to service providers could be used to propagate them)</li>
+	</ul>
+
+
+	<p>In principle, dependencies might be reduced even further, by having code that can't read LArSoft data objects from <em>art</em> data products but can use them once read (this excludes dependency on gallery) and that can't use <code>art::Ptr</code> and <code>art::Assns</code> (this excludes also dependence on canvas, down to <code>cetlib</code>, but it comes with some cost).</p>
+
+
+According to this policy, the following constructs are allowed:
+	<ul>
+	<li>CLHEP (anything... but the only thing LArSoft uses by (<em>art</em>) choice as are random engines; for the rest, there are likely better alternatives)</li>
+		<li>ROOT (anything; nevertheless, <a class="wiki-page" href="/redmine/projects/larsoft/wiki/From_ROOT_vectors_(TVector3)_to_ROOT_GenVector">please avoid TVector3 and similar</a>)</li>
+		<li>Boost (be aware that C++17 includes a lot of the classes from Boost... time to get standard!)</li>
+		<li><a class="project" href="/redmine/projects/cetlib_except">cetlib_except</a> exceptions (<code>cet::exception</code>)</li>
+		<li>project:fhiclcpp configuration parsing (and its validation facilities as well!)</li>
+		<li><a class="project" href="/redmine/projects/messagefacility">messagefacility</a> functions (e.g. <code>mf::LogVerbatim</code> and <code>LOG_DEBUG()</code>)</li>
+		<li><code>art::Ptr</code> and <code>art::Assns</code>, which, despite the legacy name, are now in <a class="project" href="/redmine/projects/canvas">canvas</a></li>
+		<li><code>art::InputTag</code> (you rarely need it unless you are accessing the event, though)</li>
+		<li>any content from <a class="project" href="/redmine/projects/nusimdata">NuSimData</a> (pretty much only data products)</li>
+		<li>any content from <code>larcoreobj</code>, <code>larcorealg</code> and <code>lardataobj</code> (more to come in the future!)</li>
+	</ul>
+
+
+The following are also accepted when targeting only gallery compatibility, in that they are framework-specific but are by design supported by both gallery and <em>art</em>:
+	<ul>
+	<li><code>art::FindOne</code>, <code>art::FindOneP</code>, <code>art::FindMany</code> and <code>art::FindManyP</code> (be aware of their limitations: it's not unusual that a direct parsing of <code>art::Assns</code> is as easy and more efficient)</li>
+	</ul>
+
+
+The following are not allowed:
+	<ul>
+	<li>LArSoft repositories other than <code>larcoreobj</code>, <code>larcorealg</code> and <code>lardataobj</code>
+	<ul>
+	<li>actually, some libraries in other repositories are framework independent and waiting to be moved out (e.g. <code>lardata_DetectorInfo</code>), so depending on them is future-proof; ask!</li>
+	</ul>
+	</li>
+		<li>pretty much everything else in the <code>art</code> namespace (but ask if not mentioned here!)</li>
+		<li>access to <code>art::ServiceHandle</code> (expect to receive a service provider instead)</li>
+		<li>access to the <code>Event</code>, while sometimes still possible, is still discouraged for design reasons</li>
+	</ul>
+
+
+	<p>About the access to the <code>Event</code>: both <em>art</em> and gallery have an event type (<code>art::Event</code> and <code>gallery::Event</code>, respectively), which share some interface outlook (for example, both have a <code>getValidHandle()</code> method that returns a <code>ValidHandle</code> object whose class is defined in their respective namespace). With some care, it's possible to write code to read from an event object without knowing which that one is. For example:<br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="preprocessor">#include</span> <span class="include">&quot;nusimdata/SimulationBase/MCParticle.h&quot;</span> 
+<span class="preprocessor">#include</span> <span class="include">&quot;canvas/Utilities/InputTag.h&quot;</span> 
+<span class="preprocessor">#include</span> <span class="include">&lt;vector&gt;</span>
+
+<span class="keyword">class</span> <span class="class">MyAlg</span> {
+  art::InputTag fTruthTag;                                <span class="comment">///&lt; Label of the simulation producer (usually a `LArG4` instance)</span>
+  std::vector&lt;simb::MCParticle&gt; <span class="directive">const</span>* fMCPart = <span class="predefined-constant">nullptr</span>; <span class="comment">///&lt; Collection of simulated particles to work on.</span>
+    <span class="directive">public</span>:
+
+  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Event&gt;
+  <span class="directive">void</span> loadInput(Event const&#38; event)
+    {
+      fMCPart = &#38;*(event.<span class="keyword">template</span> getValidHandle&lt;std::vector&lt;simb::MCParticle&gt;&gt;(fTruthTag));
+    }
+
+}; <span class="comment">// class MyAlg</span></span></code></pre><br />Note that neither <em>art</em> nor gallery headers were included; it will be task of the caller to include the proper headers where calling <code>MyAlg::loadInput()</code>, and to link to the proper libraries.<br />It is still recommended that this approach is avoided whenever possible, that is when the type being read is already known. For example:<br /><pre><code class="cpp syntaxhl"><span class="CodeRay"><span class="preprocessor">#include</span> <span class="include">&quot;nusimdata/SimulationBase/MCParticle.h&quot;</span> 
+<span class="preprocessor">#include</span> <span class="include">&lt;vector&gt;</span>
+
+<span class="keyword">class</span> <span class="class">MyAlg</span> {
+  std::vector&lt;simb::MCParticle&gt; <span class="directive">const</span>* fMCPart = <span class="predefined-constant">nullptr</span>; <span class="comment">///&lt; Collection of simulated particles to work on.</span>
+    <span class="directive">public</span>:
+
+  <span class="directive">void</span> loadInput(std::vector&lt;simb::MCParticle&gt; const&#38; mcPart)
+    {
+      fMCPart = &amp;mcPart;
+    }
+
+}; <span class="comment">// class MyAlg</span></span></code></pre><br />which clearly states that the algorithm requires a collection of <code>simb::MCParticle</code>.</p>
+
+
+	<div class="contextual heading-3" title="Edit this section" id="section-6"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/edit?section=6">Edit this section</a></div><a name="Multi-threading-support"></a>
+<h3 >Multi-threading support<a href="#Multi-threading-support" class="wiki-anchor">&para;</a></h3>
+
+
+	<p>This model has not been confronted with multi threading yet.<br />Due to the local nature of the algorithms, they are often self-contained, and in those cases it should be easy to make them thread safe.</p>
+
+
+<hr />
+
+
+	<p>Note: These are guidelines for best practices. Some code may not currently follow these guidelines.</p>
+
+
+	<p><em>For questions, contact Gianluca Petrillo (<a class="email" href="mailto:petrillo@fnal.gov">petrillo@fnal.gov</a>).</em></p>
+</div>
+
+
+<fieldset class="collapsible collapsed hide-when-print">
+  <legend onclick="toggleFieldset(this);">Files (0)</legend>
+  <div style="display: none;">
+
+  
+  
+  <div id="wiki_add_attachment">
+    <form id="add_attachment_form" enctype="multipart/form-data" action="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms/add_attachment" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="O0fcRtluSrfcNbP4Ndnwh2ohcLihK2PvzOcRlRC1YgvRqTjbWfO2wcVCXCH/NKSQA3irTDrfoqu1Kz/OGkA9vw==" />
+      <div class="box">
+      <p>
+<span class="attachments_form">
+  <span class="attachments_fields">
+  </span>
+  <span class="add_attachment" style="">
+    <input type="file" name="attachments[dummy][file]" class="file_selector filedrop" multiple="multiple" onchange="addInputFiles(this);" data-max-file-size="419430400" data-max-file-size-message="This file cannot be uploaded because it exceeds the maximum allowed file size (400 MB)" data-max-concurrent-uploads="2" data-upload-path="/redmine/uploads.js" data-param="attachments" data-description="true" data-description-placeholder="Optional description" />
+    (Maximum size: 400 MB)
+  </span>
+</span>
+
+</p>
+      </div>
+      <input type="submit" name="commit" value="Add" />
+</form>  </div>
+</div>
+</fieldset>
+
+<p class="other-formats">Also available in:  <span><a class="pdf" rel="nofollow" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms.pdf">PDF</a></span>
+  <span><a class="html" rel="nofollow" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms.html">HTML</a></span>
+  <span><a class="txt" rel="nofollow" href="/redmine/projects/larsoft/wiki/Writing_LArSoft_algorithms.txt">TXT</a></span>
+</p>
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2019 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

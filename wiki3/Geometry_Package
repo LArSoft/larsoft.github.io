@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Geometry Package - LArSoft - Fermilab Redmine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Jb2rhuLDbPa12TlsOxPFUJYugAYZ+VNKzLeWiJ4oVYLPU08bYl6QgKyu1rXx/pFH/3db8oINkg61e7jTlN0KNg==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico?1560171137' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/application.css?1601072361" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css?1601072360" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1601072362"></script>
+<script src="/redmine/javascripts/application.js?1601072361"></script>
+<script src="/redmine/javascripts/responsive.js?1601072360"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_countable_headers/stylesheets/countable_headers.css?1604432132" />  <script src="/redmine/plugin_assets/redmine_sortable_table/javascripts/sortable_table.js?1601318223"></script><link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_sortable_table/stylesheets/sortable_table.css?1601318223" /> <link rel="stylesheet" media="screen" href="/redmine/plugin_assets/redmine_group_assignee/stylesheets/tab_content_assignees.css?1604592738" />
+<!-- page specific tags -->
+  <script src="/redmine/javascripts/attachments.js?1601072363"></script>
+</head>
+<body class="project-larsoft controller-wiki action-show">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="wiki_pages" value="1" />
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/redmine/users/7">garren</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li><li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/7">garren</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li><li><a class="my-page" href="/redmine/my/page">My page</a></li><li><a class="projects" href="/redmine/projects">Projects</a></li><li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/larsoft/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" value="subprojects" />
+        <input type="hidden" name="wiki_pages" value="1" />
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/larsoft/search?scope=subprojects">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">LArSoft</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/redmine/projects/autocomplete.js?jump=wiki" autocomplete="off" /></div><div class="drdn-items projects selection"><a title="Accelerator Modeling" href="/redmine/projects/accelerator-modeling?jump=wiki"><span style="padding-left:0px;">Accelerator Modeling</span></a><a title="ArgoNeuT Offline" href="/redmine/projects/t962offline?jump=wiki"><span style="padding-left:0px;">ArgoNeuT Offline</span></a><a title="artdaq" href="/redmine/projects/artdaq?jump=wiki"><span style="padding-left:0px;">artdaq</span></a><a title="artdaq Demo" href="/redmine/projects/artdaq-demo?jump=wiki"><span style="padding-left:16px;">artdaq Demo</span></a><a title="artdaq Core Demo" href="/redmine/projects/artdaq-core-demo?jump=wiki"><span style="padding-left:32px;">artdaq Core Demo</span></a><a title="artdaq Utilities" href="/redmine/projects/artdaq-utilities?jump=wiki"><span style="padding-left:16px;">artdaq Utilities</span></a><a title="artdaq database" href="/redmine/projects/artdaq-database?jump=wiki"><span style="padding-left:32px;">artdaq database</span></a><a title="artdaq-mfextensions" href="/redmine/projects/mf-extensions?jump=wiki"><span style="padding-left:16px;">artdaq-mfextensions</span></a><a title="artg4" href="/redmine/projects/artg4?jump=wiki"><span style="padding-left:0px;">artg4</span></a><a title="artg4 Geant N02 example" href="/redmine/projects/artg4geantn02?jump=wiki"><span style="padding-left:16px;">artg4 Geant N02 example</span></a><a title="artg4example" href="/redmine/projects/artg4example?jump=wiki"><span style="padding-left:16px;">artg4example</span></a><a title="cet-is" href="/redmine/projects/cet-is?jump=wiki"><span style="padding-left:0px;">cet-is</span></a><a title="art" href="/redmine/projects/art?jump=wiki"><span style="padding-left:16px;">art</span></a><a title="art Hough" href="/redmine/projects/art-hough?jump=wiki"><span style="padding-left:32px;">art Hough</span></a><a title="art-workbook" href="/redmine/projects/art-workbook?jump=wiki"><span style="padding-left:32px;">art-workbook</span></a><a title="art_root_io" href="/redmine/projects/art_root_io?jump=wiki"><span style="padding-left:32px;">art_root_io</span></a><a title="artExtensions" href="/redmine/projects/artextensions?jump=wiki"><span style="padding-left:16px;">artExtensions</span></a><a title="Systematics Tools" href="/redmine/projects/systematicstools?jump=wiki"><span style="padding-left:32px;">Systematics Tools</span></a><a title="artUtilScripts" href="/redmine/projects/artutilscripts?jump=wiki"><span style="padding-left:16px;">artUtilScripts</span></a><a title="canvas" href="/redmine/projects/canvas?jump=wiki"><span style="padding-left:16px;">canvas</span></a><a title="canvas_root_io" href="/redmine/projects/canvas_root_io?jump=wiki"><span style="padding-left:32px;">canvas_root_io</span></a><a title="cet-is-private" href="/redmine/projects/cet-is-private?jump=wiki"><span style="padding-left:16px;">cet-is-private</span></a><a title="cet-is-public" href="/redmine/projects/cet-is-public?jump=wiki"><span style="padding-left:16px;">cet-is-public</span></a><a title="cetbuildtools" href="/redmine/projects/cetbuildtools?jump=wiki"><span style="padding-left:16px;">cetbuildtools</span></a><a title="cetlib" href="/redmine/projects/cetlib?jump=wiki"><span style="padding-left:16px;">cetlib</span></a><a title="cetlib_except" href="/redmine/projects/cetlib_except?jump=wiki"><span style="padding-left:32px;">cetlib_except</span></a><a title="CetModules" href="/redmine/projects/cetmodules?jump=wiki"><span style="padding-left:16px;">CetModules</span></a><a title="cetpkgsupport" href="/redmine/projects/cetpkgsupport?jump=wiki"><span style="padding-left:16px;">cetpkgsupport</span></a><a title="Chris Green&#39;s Stuff" href="/redmine/projects/cet-chg?jump=wiki"><span style="padding-left:16px;">Chris Green&#39;s Stuff</span></a><a title="CosmoSIS UPS" href="/redmine/projects/cosmosis_ups?jump=wiki"><span style="padding-left:16px;">CosmoSIS UPS</span></a><a title="cpp0x" href="/redmine/projects/cpp0x?jump=wiki"><span style="padding-left:16px;">cpp0x</span></a><a title="critic" href="/redmine/projects/critic?jump=wiki"><span style="padding-left:16px;">critic</span></a><a title="DocDB migration" href="/redmine/projects/docdb-migration?jump=wiki"><span style="padding-left:16px;">DocDB migration</span></a><a title="El Capitan Support" href="/redmine/projects/el-capitan-support?jump=wiki"><span style="padding-left:16px;">El Capitan Support</span></a><a title="fhicl" href="/redmine/projects/fhicl?jump=wiki"><span style="padding-left:16px;">fhicl</span></a><a title="fhicl-cpp" href="/redmine/projects/fhicl-cpp?jump=wiki"><span style="padding-left:32px;">fhicl-cpp</span></a><a title="fhicl-py" href="/redmine/projects/fhicl-py?jump=wiki"><span style="padding-left:32px;">fhicl-py</span></a><a title="Framework Build Instructions" href="/redmine/projects/build-framework?jump=wiki"><span style="padding-left:16px;">Framework Build Instructions</span></a><a title="hep_hpc_toolkit" href="/redmine/projects/hep_hpc_toolkit?jump=wiki"><span style="padding-left:32px;">hep_hpc_toolkit</span></a><a title="gallery" href="/redmine/projects/gallery?jump=wiki"><span style="padding-left:16px;">gallery</span></a><a title="hep_concurrency" href="/redmine/projects/hep_concurrency?jump=wiki"><span style="padding-left:16px;">hep_concurrency</span></a><a title="Lynn Garren&#39;s notes" href="/redmine/projects/lynn-garren-s-notes?jump=wiki"><span style="padding-left:16px;">Lynn Garren&#39;s notes</span></a><a title="messagefacility" href="/redmine/projects/messagefacility?jump=wiki"><span style="padding-left:16px;">messagefacility</span></a><a title="mrb" href="/redmine/projects/mrb?jump=wiki"><span style="padding-left:16px;">mrb</span></a><a title="SciSoft" href="/redmine/projects/scisoft?jump=wiki"><span style="padding-left:16px;">SciSoft</span></a><a title="Spack Planning" href="/redmine/projects/spack-planning?jump=wiki"><span style="padding-left:16px;">Spack Planning</span></a><a title="VMs and Containers" href="/redmine/projects/vms-and-containers?jump=wiki"><span style="padding-left:16px;">VMs and Containers</span></a><a title="ubuntu vm" href="/redmine/projects/ubuntu-vm?jump=wiki"><span style="padding-left:32px;">ubuntu vm</span></a><a title="cet-pythia6" href="/redmine/projects/cet-pythia6?jump=wiki"><span style="padding-left:16px;">cet-pythia6</span></a><a title="splines" href="/redmine/projects/splines?jump=wiki"><span style="padding-left:16px;">splines</span></a><a title="studio" href="/redmine/projects/studio?jump=wiki"><span style="padding-left:16px;">studio</span></a><a title="tag_suite" href="/redmine/projects/tag_suite?jump=wiki"><span style="padding-left:16px;">tag_suite</span></a><a title="art/LArSoft Course" href="/redmine/projects/art-larsoft-course?jump=wiki"><span style="padding-left:0px;">art/LArSoft Course</span></a><a title="LArIAT" href="/redmine/projects/lardbt?jump=wiki"><span style="padding-left:0px;">LArIAT</span></a><a title="LArIAT Online" href="/redmine/projects/lariat-online?jump=wiki"><span style="padding-left:16px;">LArIAT Online</span></a><a title="LArSoft" class="selected" href="/redmine/projects/larsoft?jump=wiki"><span style="padding-left:0px;">LArSoft</span></a><a title="ArgoNeuT code" href="/redmine/projects/argoneutcode?jump=wiki"><span style="padding-left:16px;">ArgoNeuT code</span></a><a title="ArgoNeuT Analysis" href="/redmine/projects/t962ana?jump=wiki"><span style="padding-left:32px;">ArgoNeuT Analysis</span></a><a title="LAr-Continuous-Integration" href="/redmine/projects/lar-ci?jump=wiki"><span style="padding-left:16px;">LAr-Continuous-Integration</span></a><a title="LAr1ND code" href="/redmine/projects/lar1ndcode?jump=wiki"><span style="padding-left:16px;">LAr1ND code</span></a><a title="LArAdmin" href="/redmine/projects/laradmin?jump=wiki"><span style="padding-left:16px;">LArAdmin</span></a><a title="LArAna" href="/redmine/projects/larana?jump=wiki"><span style="padding-left:16px;">LArAna</span></a><a title="LArCore" href="/redmine/projects/larcore?jump=wiki"><span style="padding-left:16px;">LArCore</span></a><a title="LArCoreAlg" href="/redmine/projects/larcorealg?jump=wiki"><span style="padding-left:16px;">LArCoreAlg</span></a><a title="LArCoreObj" href="/redmine/projects/larcoreobj?jump=wiki"><span style="padding-left:16px;">LArCoreObj</span></a><a title="LArData" href="/redmine/projects/lardata?jump=wiki"><span style="padding-left:16px;">LArData</span></a><a title="LArDataAlg" href="/redmine/projects/lardataalg?jump=wiki"><span style="padding-left:16px;">LArDataAlg</span></a><a title="LArDataObj" href="/redmine/projects/lardataobj?jump=wiki"><span style="padding-left:16px;">LArDataObj</span></a><a title="LArEventDisplay" href="/redmine/projects/lareventdisplay?jump=wiki"><span style="padding-left:16px;">LArEventDisplay</span></a><a title="LArEvt" href="/redmine/projects/larevt?jump=wiki"><span style="padding-left:16px;">LArEvt</span></a><a title="LArExamples" href="/redmine/projects/larexamples?jump=wiki"><span style="padding-left:16px;">LArExamples</span></a><a title="LArG4" href="/redmine/projects/larg4?jump=wiki"><span style="padding-left:16px;">LArG4</span></a><a title="larliteintegration" href="/redmine/projects/sketch?jump=wiki"><span style="padding-left:16px;">larliteintegration</span></a><a title="LArPandora" href="/redmine/projects/larpandora?jump=wiki"><span style="padding-left:16px;">LArPandora</span></a><a title="LArPandoraContent" href="/redmine/projects/larpandoracontent?jump=wiki"><span style="padding-left:16px;">LArPandoraContent</span></a><a title="LArReco" href="/redmine/projects/larreco?jump=wiki"><span style="padding-left:16px;">LArReco</span></a><a title="LArRecoDNN" href="/redmine/projects/larrecodnn?jump=wiki"><span style="padding-left:16px;">LArRecoDNN</span></a><a title="LArRelTools" href="/redmine/projects/larreltools?jump=wiki"><span style="padding-left:16px;">LArRelTools</span></a><a title="larshoweralg" href="/redmine/projects/larshoweralg?jump=wiki"><span style="padding-left:16px;">larshoweralg</span></a><a title="LArSim" href="/redmine/projects/larsim?jump=wiki"><span style="padding-left:16px;">LArSim</span></a><a title="LArSimAlg" href="/redmine/projects/larsimalg?jump=wiki"><span style="padding-left:16px;">LArSimAlg</span></a><a title="LArSimObj" href="/redmine/projects/larsimobj?jump=wiki"><span style="padding-left:16px;">LArSimObj</span></a><a title="LArSimTools" href="/redmine/projects/larsimtools?jump=wiki"><span style="padding-left:16px;">LArSimTools</span></a><a title="LArSoft-SVN (legacy site)" href="/redmine/projects/larsoftsvn?jump=wiki"><span style="padding-left:16px;">LArSoft-SVN (legacy site)</span></a><a title="LArSoft Alpha Test" href="/redmine/projects/larsoft-alpha?jump=wiki"><span style="padding-left:32px;">LArSoft Alpha Test</span></a><a title="LArSoft Experiments Alpha Test" href="/redmine/projects/larsoft-experiment-alpha?jump=wiki"><span style="padding-left:48px;">LArSoft Experiments Alpha Test</span></a><a title="LArSoftObj" href="/redmine/projects/larsoftobj?jump=wiki"><span style="padding-left:16px;">LArSoftObj</span></a><a title="LArSystematics" href="/redmine/projects/larsystematics?jump=wiki"><span style="padding-left:16px;">LArSystematics</span></a><a title="LArTestAlg" href="/redmine/projects/lartestalg?jump=wiki"><span style="padding-left:16px;">LArTestAlg</span></a><a title="LArToolObj" href="/redmine/projects/lartoolobj?jump=wiki"><span style="padding-left:16px;">LArToolObj</span></a><a title="LArUtils" href="/redmine/projects/larutils?jump=wiki"><span style="padding-left:16px;">LArUtils</span></a><a title="larwirecell" href="/redmine/projects/larwirecell?jump=wiki"><span style="padding-left:16px;">larwirecell</span></a><a title="LBNE code" href="/redmine/projects/lbnecode?jump=wiki"><span style="padding-left:16px;">LBNE code</span></a><a title="NuSystematics" href="/redmine/projects/nusystematics?jump=wiki"><span style="padding-left:16px;">NuSystematics</span></a><a title="parsegdml" href="/redmine/projects/parsegdml?jump=wiki"><span style="padding-left:16px;">parsegdml</span></a><a title="uBooNE code" href="/redmine/projects/uboonecode?jump=wiki"><span style="padding-left:16px;">uBooNE code</span></a><a title="CC1pi" href="/redmine/projects/cc1pi?jump=wiki"><span style="padding-left:32px;">CC1pi</span></a><a title="UBooNE alg" href="/redmine/projects/uboonealg?jump=wiki"><span style="padding-left:32px;">UBooNE alg</span></a><a title="uBAna" href="/redmine/projects/ubana?jump=wiki"><span style="padding-left:32px;">uBAna</span></a><a title="uBCRT" href="/redmine/projects/ubcrt?jump=wiki"><span style="padding-left:32px;">uBCRT</span></a><a title="uBCV" href="/redmine/projects/ubcv?jump=wiki"><span style="padding-left:32px;">uBCV</span></a><a title="uBCore" href="/redmine/projects/ubcore?jump=wiki"><span style="padding-left:32px;">uBCore</span></a><a title="uBEvt" href="/redmine/projects/ubevt?jump=wiki"><span style="padding-left:32px;">uBEvt</span></a><a title="uBLite" href="/redmine/projects/ublite?jump=wiki"><span style="padding-left:32px;">uBLite</span></a><a title="uBObj" href="/redmine/projects/ubobj?jump=wiki"><span style="padding-left:32px;">uBObj</span></a><a title="uBRaw" href="/redmine/projects/ubraw?jump=wiki"><span style="padding-left:32px;">uBRaw</span></a><a title="uBReco" href="/redmine/projects/ubreco?jump=wiki"><span style="padding-left:32px;">uBReco</span></a><a title="uBSim" href="/redmine/projects/ubsim?jump=wiki"><span style="padding-left:32px;">uBSim</span></a><a title="uBXSec" href="/redmine/projects/ubxsec?jump=wiki"><span style="padding-left:32px;">uBXSec</span></a><a title="lar_ci" href="/redmine/projects/lar_ci?jump=wiki"><span style="padding-left:0px;">lar_ci</span></a><a title="darkart" href="/redmine/projects/darkart?jump=wiki"><span style="padding-left:0px;">darkart</span></a><a title="darkmon" href="/redmine/projects/darkmon?jump=wiki"><span style="padding-left:0px;">darkmon</span></a><a title="darkside-public" href="/redmine/projects/darkside-public?jump=wiki"><span style="padding-left:0px;">darkside-public</span></a><a title="darksidecore" href="/redmine/projects/darksidecore?jump=wiki"><span style="padding-left:0px;">darksidecore</span></a><a title="ds50daq" href="/redmine/projects/ds50daq?jump=wiki"><span style="padding-left:0px;">ds50daq</span></a><a title="DUNE" href="/redmine/projects/dune?jump=wiki"><span style="padding-left:0px;">DUNE</span></a><a title="DUNE Approved Plots" href="/redmine/projects/dune-approved-plots?jump=wiki"><span style="padding-left:16px;">DUNE Approved Plots</span></a><a title="Dune Computing" href="/redmine/projects/dune-computing?jump=wiki"><span style="padding-left:16px;">Dune Computing</span></a><a title="duneutil" href="/redmine/projects/duneutil?jump=wiki"><span style="padding-left:32px;">duneutil</span></a><a title="DUNE DAQ" href="/redmine/projects/dune-daq?jump=wiki"><span style="padding-left:16px;">DUNE DAQ</span></a><a title="DUNE NearDet Design" href="/redmine/projects/dune-neardet-design?jump=wiki"><span style="padding-left:16px;">DUNE NearDet Design</span></a><a title="dunetpc" href="/redmine/projects/dunetpc?jump=wiki"><span style="padding-left:16px;">dunetpc</span></a><a title="protoduneana" href="/redmine/projects/protoduneana?jump=wiki"><span style="padding-left:32px;">protoduneana</span></a><a title="upd" href="/redmine/projects/upd?jump=wiki"><span style="padding-left:0px;">upd</span></a><a title="ups" href="/redmine/projects/ups?jump=wiki"><span style="padding-left:0px;">ups</span></a><a title="Fermi Redmine" href="/redmine/projects/fermi-redmine?jump=wiki"><span style="padding-left:0px;">Fermi Redmine</span></a><a title="Projects for Monitoring Redmine Health" href="/redmine/projects/test-p1?jump=wiki"><span style="padding-left:16px;">Projects for Monitoring Redmine Health</span></a><a title="redmine-lib" href="/redmine/projects/redmine-lib?jump=wiki"><span style="padding-left:16px;">redmine-lib</span></a><a title="g4hpc" href="/redmine/projects/g4hpc?jump=wiki"><span style="padding-left:0px;">g4hpc</span></a><a title="g4hpcbenchmarks" href="/redmine/projects/g4hpcbenchmarks?jump=wiki"><span style="padding-left:16px;">g4hpcbenchmarks</span></a><a title="HepPDT" href="/redmine/projects/heppdt?jump=wiki"><span style="padding-left:0px;">HepPDT</span></a><a title="ICARUS LArSoft" href="/redmine/projects/icaruscode?jump=wiki"><span style="padding-left:0px;">ICARUS LArSoft</span></a><a title="icarus_data" href="/redmine/projects/icarus_data?jump=wiki"><span style="padding-left:16px;">icarus_data</span></a><a title="icarusutil" href="/redmine/projects/icarusutil?jump=wiki"><span style="padding-left:16px;">icarusutil</span></a><a title="LAr Batch Tools" href="/redmine/projects/larbatch?jump=wiki"><span style="padding-left:0px;">LAr Batch Tools</span></a><a title="LBNE Utilities" href="/redmine/projects/lbneutil?jump=wiki"><span style="padding-left:0px;">LBNE Utilities</span></a><a title="DAQ" href="/redmine/projects/mu2edaq?jump=wiki"><span style="padding-left:0px;">DAQ</span></a><a title="mu2e_artdaq" href="/redmine/projects/mu2e_artdaq?jump=wiki"><span style="padding-left:16px;">mu2e_artdaq</span></a><a title="Mu2e DAQ Computing" href="/redmine/projects/mu2e-daq-computing?jump=wiki"><span style="padding-left:16px;">Mu2e DAQ Computing</span></a><a title="mu2e DCS" href="/redmine/projects/mu2e-dcs?jump=wiki"><span style="padding-left:16px;">mu2e DCS</span></a><a title="Mu2e Raw Data" href="/redmine/projects/mu2e-raw-data?jump=wiki"><span style="padding-left:16px;">Mu2e Raw Data</span></a><a title="Databases" href="/redmine/projects/databases?jump=wiki"><span style="padding-left:0px;">Databases</span></a><a title="Detector Construction DB" href="/redmine/projects/mu2e_detector_construction_db?jump=wiki"><span style="padding-left:16px;">Detector Construction DB</span></a><a title="Offline Software" href="/redmine/projects/offlinesoftware?jump=wiki"><span style="padding-left:0px;">Offline Software</span></a><a title="G4beamline" href="/redmine/projects/mu2eofflinesoftwareg4beamline?jump=wiki"><span style="padding-left:16px;">G4beamline</span></a><a title="Grid Scripts" href="/redmine/projects/mu2egrid?jump=wiki"><span style="padding-left:16px;">Grid Scripts</span></a><a title="Muon g-2" href="/redmine/projects/g-2?jump=wiki"><span style="padding-left:0px;">Muon g-2</span></a><a title="Calorimeter CDR req." href="/redmine/projects/calorequirements?jump=wiki"><span style="padding-left:16px;">Calorimeter CDR req.</span></a><a title="g-2 Art Examples" href="/redmine/projects/gm2artexamples?jump=wiki"><span style="padding-left:16px;">g-2 Art Examples</span></a><a title="g-2 CDR" href="/redmine/projects/gm2cdr?jump=wiki"><span style="padding-left:16px;">g-2 CDR</span></a><a title="g-2 DAQ" href="/redmine/projects/gm2daq?jump=wiki"><span style="padding-left:16px;">g-2 DAQ</span></a><a title="g-2 DQM" href="/redmine/projects/gm2dqm?jump=wiki"><span style="padding-left:32px;">g-2 DQM</span></a><a title="g-2 public" href="/redmine/projects/gm2public?jump=wiki"><span style="padding-left:16px;">g-2 public</span></a><a title="g-2 Release Tools" href="/redmine/projects/gm2releasetools?jump=wiki"><span style="padding-left:16px;">g-2 Release Tools</span></a><a title="g2MIGTRACE" href="/redmine/projects/g2migtrace?jump=wiki"><span style="padding-left:16px;">g2MIGTRACE</span></a><a title="g2mtanalysismacros" href="/redmine/projects/g2mtanalysismacros?jump=wiki"><span style="padding-left:16px;">g2mtanalysismacros</span></a><a title="g-2 SRBD" href="/redmine/projects/g-2-srbd?jump=wiki"><span style="padding-left:16px;">g-2 SRBD</span></a><a title="g-2 TDR" href="/redmine/projects/gm2tdr?jump=wiki"><span style="padding-left:16px;">g-2 TDR</span></a><a title="gm2analyses" href="/redmine/projects/gm2analyses?jump=wiki"><span style="padding-left:16px;">gm2analyses</span></a><a title="gm2aux" href="/redmine/projects/gm2aux?jump=wiki"><span style="padding-left:16px;">gm2aux</span></a><a title="gm2beams" href="/redmine/projects/gm2beams?jump=wiki"><span style="padding-left:16px;">gm2beams</span></a><a title="gm2calo" href="/redmine/projects/gm2calo?jump=wiki"><span style="padding-left:16px;">gm2calo</span></a><a title="gm2dataproducts" href="/redmine/projects/gm2dataproducts?jump=wiki"><span style="padding-left:16px;">gm2dataproducts</span></a><a title="gm2field" href="/redmine/projects/gm2field?jump=wiki"><span style="padding-left:16px;">gm2field</span></a><a title="gm2fieldanalyzer" href="/redmine/projects/gm2fieldanalyzer?jump=wiki"><span style="padding-left:32px;">gm2fieldanalyzer</span></a><a title="gm2fielddaq" href="/redmine/projects/gm2fielddaq?jump=wiki"><span style="padding-left:32px;">gm2fielddaq</span></a><a title="gm2fieldsignal" href="/redmine/projects/gm2fieldsignal?jump=wiki"><span style="padding-left:32px;">gm2fieldsignal</span></a><a title="gm2geom" href="/redmine/projects/gm2geom?jump=wiki"><span style="padding-left:16px;">gm2geom</span></a><a title="gm2mcdataproducts" href="/redmine/projects/gm2mcdataproducts?jump=wiki"><span style="padding-left:16px;">gm2mcdataproducts</span></a><a title="gm2midas" href="/redmine/projects/gm2midas?jump=wiki"><span style="padding-left:16px;">gm2midas</span></a><a title="gm2midastoart" href="/redmine/projects/gm2midastoart?jump=wiki"><span style="padding-left:16px;">gm2midastoart</span></a><a title="gm2MTest2012" href="/redmine/projects/gm2mtest2012?jump=wiki"><span style="padding-left:16px;">gm2MTest2012</span></a><a title="gm2optics" href="/redmine/projects/gm2optics?jump=wiki"><span style="padding-left:16px;">gm2optics</span></a><a title="gm2planning" href="/redmine/projects/gm2planning?jump=wiki"><span style="padding-left:16px;">gm2planning</span></a><a title="gm2reconeast" href="/redmine/projects/gm2reconeast?jump=wiki"><span style="padding-left:16px;">gm2reconeast</span></a><a title="gm2ringsim" href="/redmine/projects/gm2ringsim?jump=wiki"><span style="padding-left:16px;">gm2ringsim</span></a><a title="gm2SoftwareTools" href="/redmine/projects/gm2softwaretools?jump=wiki"><span style="padding-left:16px;">gm2SoftwareTools</span></a><a title="gm2strawtracking" href="/redmine/projects/gm2strawtracking?jump=wiki"><span style="padding-left:16px;">gm2strawtracking</span></a><a title="gm2swdocs" href="/redmine/projects/gm2swdocs?jump=wiki"><span style="padding-left:16px;">gm2swdocs</span></a><a title="gm2test" href="/redmine/projects/gm2test?jump=wiki"><span style="padding-left:16px;">gm2test</span></a><a title="gm2tracker" href="/redmine/projects/gm2tracker?jump=wiki"><span style="padding-left:16px;">gm2tracker</span></a><a title="gm2trackerdaq" href="/redmine/projects/gm2trackerdaq?jump=wiki"><span style="padding-left:16px;">gm2trackerdaq</span></a><a title="gm2unpackers" href="/redmine/projects/gm2unpackers?jump=wiki"><span style="padding-left:16px;">gm2unpackers</span></a><a title="gm2util" href="/redmine/projects/gm2util?jump=wiki"><span style="padding-left:16px;">gm2util</span></a><a title="gm2viz" href="/redmine/projects/gm2viz?jump=wiki"><span style="padding-left:16px;">gm2viz</span></a><a title="gm2vtk" href="/redmine/projects/gm2vtk?jump=wiki"><span style="padding-left:16px;">gm2vtk</span></a><a title="g-2 Field Shimming Paper" href="/redmine/projects/gm2fsp?jump=wiki"><span style="padding-left:16px;">g-2 Field Shimming Paper</span></a><a title="gm2db" href="/redmine/projects/gm2db?jump=wiki"><span style="padding-left:16px;">gm2db</span></a><a title="gm2ilratio" href="/redmine/projects/gm2ilratio?jump=wiki"><span style="padding-left:16px;">gm2ilratio</span></a><a title="gm2reconita" href="/redmine/projects/gm2reconita?jump=wiki"><span style="padding-left:16px;">gm2reconita</span></a><a title="gm2sc" href="/redmine/projects/gm2sc?jump=wiki"><span style="padding-left:16px;">gm2sc</span></a><a title="gm2simvalidation" href="/redmine/projects/gm2simvalidation?jump=wiki"><span style="padding-left:16px;">gm2simvalidation</span></a><a title="gm2templates" href="/redmine/projects/gm2templates?jump=wiki"><span style="padding-left:16px;">gm2templates</span></a><a title="NOvA-ART" href="/redmine/projects/novaart?jump=wiki"><span style="padding-left:0px;">NOvA-ART</span></a><a title="NOvA validation" href="/redmine/projects/nova-validation?jump=wiki"><span style="padding-left:16px;">NOvA validation</span></a><a title="NuTools" href="/redmine/projects/nutools?jump=wiki"><span style="padding-left:0px;">NuTools</span></a><a title="NuEvdb" href="/redmine/projects/nuevdb?jump=wiki"><span style="padding-left:16px;">NuEvdb</span></a><a title="NuG4" href="/redmine/projects/nug4?jump=wiki"><span style="padding-left:16px;">NuG4</span></a><a title="NuGen" href="/redmine/projects/nugen?jump=wiki"><span style="padding-left:16px;">NuGen</span></a><a title="NuRandom" href="/redmine/projects/nurandom?jump=wiki"><span style="padding-left:16px;">NuRandom</span></a><a title="NuSimData" href="/redmine/projects/nusimdata?jump=wiki"><span style="padding-left:16px;">NuSimData</span></a><a title="NuSoft/NuTools" href="/redmine/projects/nusoftart?jump=wiki"><span style="padding-left:16px;">NuSoft/NuTools</span></a><a title="PPFX" href="/redmine/projects/ppfx?jump=wiki"><span style="padding-left:16px;">PPFX</span></a><a title="OSG-Geant4-OSGMM" href="/redmine/projects/osg-geant4-osgmm?jump=wiki"><span style="padding-left:0px;">OSG-Geant4-OSGMM</span></a><a title="SBND code" href="/redmine/projects/sbndcode?jump=wiki"><span style="padding-left:0px;">SBND code</span></a><a title="SBND utility scripts" href="/redmine/projects/sbndutil?jump=wiki"><span style="padding-left:0px;">SBND utility scripts</span></a><a title="IF Data Handling Client Tools (ifdhc)" href="/redmine/projects/ifdhc?jump=wiki"><span style="padding-left:0px;">IF Data Handling Client Tools (ifdhc)</span></a><a title="IFDH Art interface" href="/redmine/projects/ifdh-art?jump=wiki"><span style="padding-left:16px;">IFDH Art interface</span></a><a title="Simulation Tools and Features" href="/redmine/projects/stf?jump=wiki"><span style="padding-left:0px;">Simulation Tools and Features</span></a><a title="artg4tk" href="/redmine/projects/artg4tk?jump=wiki"><span style="padding-left:16px;">artg4tk</span></a><a title="DoSSiER" href="/redmine/projects/dossier?jump=wiki"><span style="padding-left:16px;">DoSSiER</span></a><a title="Geant4Reweight" href="/redmine/projects/geant4reweight?jump=wiki"><span style="padding-left:16px;">Geant4Reweight</span></a><a title="uBooNE Reconstruction" href="/redmine/projects/uboone-reconstruction?jump=wiki"><span style="padding-left:0px;">uBooNE Reconstruction</span></a><a title="uBooNE Utilities" href="/redmine/projects/ubutil?jump=wiki"><span style="padding-left:0px;">uBooNE Utilities</span></a><a title="detsim.fnal.gov" href="/redmine/projects/detsim-fnal-gov?jump=wiki"><span style="padding-left:0px;">detsim.fnal.gov</span></a><a title="SoftRelTools" href="/redmine/projects/softreltools?jump=wiki"><span style="padding-left:0px;">SoftRelTools</span></a><a title="Spack Infrastructure" href="/redmine/projects/spack-infrastructure?jump=wiki"><span style="padding-left:0px;">Spack Infrastructure</span></a></div><div class="drdn-items all-projects selection"><a href="/redmine/projects?jump=wiki">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="current-project">LArSoft</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li>
+<a id="new-object" onclick="toggleNewObjectDropdown(); return false;" class="new-object" href="#"> + </a>
+<ul class="menu-children"><li><a accesskey="7" class="new-issue-sub" href="/redmine/projects/larsoft/issues/new">New issue</a></li><li><a class="new-issue-category" href="/redmine/projects/larsoft/issue_categories/new">New category</a></li><li><a class="new-version" href="/redmine/projects/larsoft/versions/new">New version</a></li><li><a class="new-timelog" href="/redmine/projects/larsoft/time_entries/new">Log time</a></li><li><a class="new-document" href="/redmine/projects/larsoft/documents/new">New document</a></li><li><a class="new-wiki-page" href="/redmine/projects/larsoft/wiki/new">New wiki page</a></li><li><a class="new-file" href="/redmine/projects/larsoft/files/new">New file</a></li></ul>
+</li><li><a class="overview" href="/redmine/projects/larsoft">Overview</a></li><li><a class="activity" href="/redmine/projects/larsoft/activity">Activity</a></li><li><a class="roadmap" href="/redmine/projects/larsoft/roadmap">Roadmap</a></li><li><a class="issues" href="/redmine/projects/larsoft/issues">Issues</a></li><li><a class="time-entries" href="/redmine/projects/larsoft/time_entries">Spent time</a></li><li><a class="gantt" href="/redmine/projects/larsoft/issues/gantt">Gantt</a></li><li><a class="calendar" href="/redmine/projects/larsoft/issues/calendar">Calendar</a></li><li><a class="documents" href="/redmine/projects/larsoft/documents">Documents</a></li><li><a class="wiki selected" href="/redmine/projects/larsoft/wiki">Wiki</a></li><li><a class="files" href="/redmine/projects/larsoft/files">Files</a></li><li><a class="repository" href="/redmine/projects/larsoft/repository">Repository</a></li><li><a class="settings" href="/redmine/projects/larsoft/settings">Settings</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+          
+<h3>Wiki</h3>
+<ul>
+  <li><a href="/redmine/projects/larsoft/wiki">Start page</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/index">Index by title</a></li>
+  <li><a href="/redmine/projects/larsoft/wiki/date_index">Index by date</a></li>
+</ul>
+
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+<a class="icon icon-add" data-remote="true" href="/redmine/projects/larsoft/wiki/new">New wiki page</a>
+  <a class="icon icon-edit" accesskey="e" href="/redmine/projects/larsoft/wiki/Geometry_Package/edit">Edit</a>
+  <a class="wiki_page-22769-watcher icon icon-fav-off" data-remote="true" rel="nofollow" data-method="post" href="/redmine/watchers/watch?object_id=22769&amp;object_type=wiki_page">Watch</a>
+  <a class="icon icon-lock" rel="nofollow" data-method="post" href="/redmine/projects/larsoft/wiki/Geometry_Package/protect?protected=1">Lock</a>
+  
+  <a class="icon icon-move" href="/redmine/projects/larsoft/wiki/Geometry_Package/rename">Rename</a>
+  <a data-confirm="Are you sure?" class="icon icon-del" rel="nofollow" data-method="delete" href="/redmine/projects/larsoft/wiki/Geometry_Package">Delete</a>
+<a class="icon icon-history" href="/redmine/projects/larsoft/wiki/Geometry_Package/history">History</a>
+</div>
+
+<p class="breadcrumb"><a href="/redmine/projects/larsoft/wiki/LArSoftWiki">LArSoftWiki</a> » <a href="/redmine/projects/larsoft/wiki/Developing_With_LArSoft">Developing With LArSoft</a> » </p>
+
+
+<div class="wiki wiki-page">
+  <ul class="toc right"><li><strong>Table of contents</strong></li><li><a href="#Geometry-Package">Geometry Package</a><ul><li><a href="#How-a-LArTPC-works">How a LArTPC works</a></li><li><a href="#How-LArSoft-geometry-fits-in">How LArSoft geometry fits in</a></li><li><a href="#Geometry-model-in-LArSoft">Geometry model in LArSoft</a></li><li><a href="#What-you-can-do-with-the-geometry">What you can do with the geometry</a></li><li><a href="#LArSoft-geometry-evolution">LArSoft geometry evolution</a></li><li><a href="#Future-projects">Future projects</a></li><li><a href="#Writing-and-visualizing-your-own-geometry">Writing and visualizing your own geometry</a></li></ul></li></ul>
+
+
+	<a name="Geometry-Package"></a>
+<h1  class="wiki-class-count">Geometry Package<a href="#Geometry-Package" class="wiki-anchor">&para;</a></h1>
+
+
+	<p>Different detectors are represented in the Geometry Package of LArSoft.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-2"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Geometry_Package/edit?section=2">Edit this section</a></div><a name="How-a-LArTPC-works"></a>
+<h2  class="wiki-class-count">How a LArTPC works<a href="#How-a-LArTPC-works" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>Since neutrino interactions with matter are rare, physicists operate detectors with massive amounts of target material for runs lasting many years. Collisions between neutrinos and atoms in the target material produce particles which can be detected. Cosmic rays and other backgrounds also produce particles which must be distinguished from those produced by the neutrino interactions. The detectors record the tracks of charged particles traversing them.  A conceptual view of the detection process in a single-phase Liquid Argon Time Projection Chamber (LArTPC) is available in the following 30-second animation: <a class="external" href="https://www.youtube.com/watch?v=R5G1_hW0ZUA">https://www.youtube.com/watch?v=R5G1_hW0ZUA</a>. In contrast to the timescale shown in the animation, in a real detector the ionization drifts at a speed that is orders of magnitude slower than the velocity of the muon. As a result, the ionization left in the detector retains the shape of the deposited charge in space, thereby creating a 3D image of the energy deposition from all of the charged particles created in the interaction. This agglomeration then drifts (more or less) intact to the anode plane. The time at which the drifting electrons arrive at the anode can be measured, and if the production time is known, then the distance from the anode to the production point can be established.</p>
+
+
+	<p>LArTPCs are particle detectors that use electric fields, and possibly magnetic fields, in a large volume of liquid argon within a cryostat to obtain multiple two-dimensional images of particle trajectories.  One goal of reconstruction software is to form a three-dimensional model of an interaction based on the two-dimensional information recorded by the detector. A time projection chamber (TPC) is constructed of an anode plane, a cathode plane and a field cage that shapes the electric field between them. Large detectors are modular and may have multiple cathode and anode planes. Within a detector, a series of anode plane assemblies may be installed next to each other to form one large anode plane.  Anode plane assemblies are abbreviated APAs and cathode plane assemblies are abbreviated CPAs.</p>
+
+
+	<p>When a bias voltage is applied, an approximately uniform electric field is created in the volume between the anode and cathode planes. A charged particle traversing this volume leaves a trail of ionization in the ultra-pure liquid argon. The electrons drift toward the anode plane, inducing electric currents in planes of sensing wires or some other sensing structure located near or on the anode plane. The current-signal waveforms from all sensing elements are amplified and digitized by front-end electronics and transmitted through immersed cables to a data acquisition (DAQ) system outside the cryostat. Scintillation light created along the path of ionization is observed by photodetectors, and provides the absolute time of the event.</p>
+
+
+Experiments may have more than one kind of LArTPC:
+	<ul>
+	<li>In a single-phase LArTPC, the anode is composed of wire planes or other sensing elements in the liquid argon volume. The electric field and drift direction of most single-phase TPCs is directed horizontally. </li>
+		<li>In a dual-phase LArTPC, ionization charge is extracted from the liquid, then amplified and detected in gaseous argon above the liquid surface. In a dual-phase TPC, the drift direction must be vertical or close to it because the liquid-gas boundary is horizontal.</li>
+	</ul>
+
+
+	<p>Due to the small drift velocity in liquid argon, the Lorentz angle for useful magnetic fields is very small and is usually neglected. Space-charge buildup can affect the local drift direction and make it differ from the average applied electric field however. The effect of space charge on the electron drift is parameterized as a distortion in the arrival times and locations of the drifting charge as a function of the production point.</p>
+
+
+	<p>To fully support any TPC, arbitrary electric field and drift directions must be supported.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-3"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Geometry_Package/edit?section=3">Edit this section</a></div><a name="How-LArSoft-geometry-fits-in"></a>
+<h2  class="wiki-class-count">How LArSoft geometry fits in<a href="#How-LArSoft-geometry-fits-in" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>LArSoft is a simulation, reconstruction and analysis framework for LArTPCs. Currently, only anode planes with sense wires or strips are supported, though efforts based on LArSoft simulate pixel-based detectors are underway. Different detectors are represented in the LArSoft geometry.</p>
+
+
+The LArSoft geometry provides descriptions of the physical structures and materials in the detector. Some important specifiable parameters in the detector geometry include:
+	<ul>
+	<li>the position of the detector relative to the beam</li>
+		<li>the structure and material properties of the cathode planes</li>
+		<li>where individual photon detectors are</li>
+		<li>the placement of wires and the distance between them within a plane</li>
+		<li>the distances between the wire planes</li>
+		<li>the details of the material surrounding the cryostat</li>
+		<li>the composition of the overburden</li>
+		<li>transformations between coordinate systems attached to various elements and global coordinates</li>
+	</ul>
+
+
+	<p>The geometry also provides a mapping between sensing elements such as wires or strips and DAQ channels.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-4"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Geometry_Package/edit?section=4">Edit this section</a></div><a name="Geometry-model-in-LArSoft"></a>
+<h2  class="wiki-class-count">Geometry model in LArSoft<a href="#Geometry-model-in-LArSoft" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>The geometry description is hierarchically organized, with volume names and containership relations shown in Figure 1. <br /><img src="/redmine/attachments/download/43098/hierarchy.png" title="Hierarchy of geometry volumes" alt="Hierarchy of geometry volumes" style="width: 90%;" alt="" /></p>
+
+
+	<p>Figure 1:  <em>LArSoft’s geometry volume hierarchy diagram.  Each instance can be repeated multiple times, indicated by the ...n labels, though n can be different for each kind of volume.</em></p>
+
+
+A volume is the space contained within a set of closed surfaces. In the LArSoft Geometry, there is a hierarchy of volumes. Within each volume, there is a set of structures that are described, each of which may contain other volumes. Details about the lower-level volumes are found inside each element. Naming conventions are shown in Figure 1: volumes are named “vol” + name from Figure 1 + additional characters specifying which instance it is. Examples are given below.
+	<ul>
+	<li>The World volume volWorld contains everything else including DetEnclosure and surrounding material. It contains all elements of the geometry that are to be accounted for in the simulation and should be sized adequately to account for any features of the detector surroundings that are important for the simulation. For example, if there is a mass of rock near the detector that could alter the cosmic ray flux, it should be simulated.  One has a choice of parameterizing the cosmic-ray flux at a fixed surface instead of using GEANT, as GEANT may not be the most efficient or correct program for propagating muons through very long distances of rock. The volWorld has only one instance and contains volDetEnclosure.</li>
+		<li>Detector Enclosure (volDetEnclosure) contains the cryostat and auxiliary detectors. It must be unique.</li>
+		<li>Cryostat is a description of all the material that is the cryostat. In MicroBooNE, there is a description of a cylinder with end caps. In DUNE, cryostats are rectangular prisms. In LArSoft geometry, the cryostat is of arbitrary shape and size. The class that represents the cryostat needs to be able to describe any cryostat shape. It can contain many TPCs.</li>
+		<li>Time Projection Chamber (volTPC) has a drift volume, a uniform electric field, and is read out by the wires within a single anode frame. The use of TPC in LArSoft comes from the time when every experiment had one TPC. With larger detectors, this may be better referred to as a ‘Drift volume’ since it may not have walls whereas a TPC does.  Each TPC contains only one volTPCActive and many volTPCPlaneXXX volumes.</li>
+		<li>volTPCActive defines the active volume of liquid argon in which drifting ionization and scintillation photons are simulated. Any liquid argon that is outside of the drift field would not be part of volTPCActive, but it still contributes to energy loss, showering, and all of GEANT’s physics processes; it just doesn’t contribute to the readout. Moreover, it is assumed that volTPCActive is simply a volume, i.e. a box, of liquid argon with no subvolumes inside. If we want the argon between the wire planes to be active, the GEANT4 region can be extended to handle this, but it requires changes to the current code. The thought is that this would only be required for single-phase because its the one that has an inter-plane region that could be sensitive.</li>
+		<li>volTPCWire describes a wire segment in the detector. The word wire refers to a straight segment of a physical wire in one TPC. A wire that wraps around an APA frame consists of several of these segments.</li>
+		<li>volTPCPlane describes a wire plane in the detector. It ends at the boundaries of the Anode Plane Assembly. </li>
+		<li>volOpDetSensitive describes optical detectors’ sensitive elements.</li>
+		<li>volAuxDet represents auxiliary detectors.</li>
+		<li>volAuxDetSensitive is associated with the sensitive elements of the auxiliary detectors.  These are typically used for cosmic-ray taggers or beam-related detectors.</li>
+	</ul>
+
+
+	<p>Most of these elements are represented in LArSoft by a class for that type of element  (<code>geo::CryostatGeo, geo::TPCGeo</code>, ...). Each of the cryostats, TPCs, planes and wires has its own instance.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-5"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Geometry_Package/edit?section=5">Edit this section</a></div><a name="What-you-can-do-with-the-geometry"></a>
+<h2  class="wiki-class-count">What you can do with the geometry<a href="#What-you-can-do-with-the-geometry" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>The geometry package contains classes related to the geometry representation. Classes represent planes, TPCs, cryostats. Geometry service and geometry services provider, Geometry-core, are in the geometry package as well as classes that perform sorting functions for experiments.</p>
+
+
+	<p><img src="/redmine/attachments/download/43101/wirebase.png" style="width: 50%;" alt="" /></p>
+
+
+	<p>Wire base (in <code>geo::PlaneGeo</code>), geometry information for a single readout plane. Knowing a position in the detector, can know how it relates to the wire planes. So can figure out how far it is from the plane, what is the nearest wire along the nominal drift direction, etc.</p>
+
+
+	<p><img src="/redmine/attachments/download/43100/framebase.png" style="width: 50%;" alt="" /></p>
+
+
+	<p>Frame base (also in geo::PlaneGeo): Given how the point relates to the frame of the plane, can determine how the point relates to the wires on the plane.</p>
+
+
+	<p>Can get things like the drift distance from the plane <code>pid.<br />geo::PlaneGeo const&#38; plane = geom.Plane(pid); <br />double driftDistance = plane.DistanceFromPlane(p);</code></p>
+
+
+	<p>To get the nearest channel, one uses <code>GeometryCore: <br />TVector3 p_inside = geom.Plane(pid).MovePointOverPlane(p); <br />raw::ChannelID_t channel = geom.NearestChannel(p_inside, pid);</code> <br />because <code>geo::PlaneGeo</code> is not supposed to know about channels. Experiment-specific details are provided in a later section.</p>
+
+
+	<p>The geometry service provides access to information within LArSoft via methods that give answers to particular questions. Each function relies on the underlying geometry. Most geometry methods accept objects of type <code>TVector3</code> for points and vectors.</p>
+
+
+Questions that can be answered:
+	<ol>
+	<li>Which TPC contains the point <code>P</code>?<br />To represent the point and find its TPC, the developer can use a vector object.<br /><code>geo::TPCID tpcid = geom.FindTPCAtPosition(P);</code> <br />If the point <code>of_interest</code> doesn’t reside in any of the TPCs, the returned id (<code>tpcid</code>) is ‘invalid’. This can be checked via <code>tpcid.isValid</code> or <code>bool(tpcid</code>).</li>
+		<li>What is the drift distance of point <code>Q</code> from the wire plane <code>pid</code>? <br />This information is extracted from the plane object. <br /><code>geo::PlaneGeo const&#38; plane = geom.Plane(pid); <br />double driftDistance = plane.DistanceFromPlane(Q);</code><br />The variable <code>driftDistance</code> contains the information on the drift distance.</li>
+		<li>Where is a cluster of ionized electrons at point <code>C</code> after drifting by 10.5 centimeters? <br />Let the <code>TPC</code> object translate it (note that it’s 10.5 cm closer to the anode): <br /><code>geo::TPCGeo const&#38; TPC = geom.TPC(tpcid); <br />TPC.DriftPoint(C, 10.5);</code> <br />The content of the variable <code>C</code> is updated to contain the value of the translated point. <br />Plane objects can do the same:<br /><code>geo::PlaneGeo const&#38; plane = geom.Plane(pid); <br />plane.DriftPoint(C, 10.5);</code> <br />Now, the content of the variable <code>checking</code> contains the value of the translated point.</li>
+		<li>How to know if projection of point <code>where_is_this</code> falls inside plane <code>pid</code>? <br />This information is extracted from the plane object:<br /><code>bool onPlane = geom.Plane(pid).isProjectionOnPlane(where_is_this);</code> </li>
+		<li>How to find the point closest to point <code>var_p</code> on plane <code>pid</code>? <br />The plane can “move” a point (or projection) to the closest border when it’s out of it: <br /><code>TVector3 p_inside = geom.Plane(pid).MovePointOverPlane(var_p);</code> <br />The result is guaranteed to be inside the plane (point <code>var_p</code> is unchanged).</li>
+		<li>What is the wire coordinate of point <code>this_point</code> on plane <code>pid</code>? This is looking for a real number expressing the position of the point projection on the wires. For example, if the project falls on wire number 5, we expect the result to be 5.0.<br /><code>double wc1 = geom.Plane(pid).WireCoordinate(this_point); <br />double wc2 = geom.WireCoordinate(this_point, pid);</code> <br />There are two methods here: the first queries the plane object (obtained with <code>geom.Plane(pid)</code>), while the second goes directly to the geometry service provider. They are equivalent, but you may prefer the first one if you need to do more things with the plane object afterwards, or if you have that object available already (in which case you don’t need to discover it with the <code>geom.Plane(pid)</code> query either).<br />Note: this is different from the legacy <code>WireCoordinate(y, z)</code> (in <code>GeometryCore</code> and <code>ChannelMapAlg</code>), which takes only two coordinates as arguments. The new method is universal and takes a complete 3D point. <br />If we wanted the same projection measured in centimetres (<code>wc</code>): <br /><code>double wc1 = geom.Plane(pid).PlaneCoordinate(this_point);</code> <br />and for a point on wire 5 on a 0.3 mm pitch plane, we would get 1.5 (centimeters).</li>
+		<li>How to find the wire closest to point <code>of_interest</code> on plane <code>pid</code>? <br />By putting together the recipes above: <br /><code>geo::PlaneGeo const&#38; plane = geom->Plane(pid); <br />geo::WireID wid = plane.NearestWireID(plane.MovePointOverPlane(of_interest));</code> <br />(using <code>GeometryCore::NearestWireID()</code> is equivalent here but slightly less efficient because the plane needs to be found twice). <br />To get the nearest channel, instead, one has to go via <code>GeometryCore: <br />TVector3 p_inside = geom.Plane(pid).MovePointOverPlane(of_interest); <br />raw::ChannelID_t channel = geom.NearestChannel(p_inside, pid);</code> <br />because <code>geo::PlaneGeo</code> is not supposed to know about channels.</li>
+		<li>I measured a hit on wire a of plane <code>b</code> and a hit on wire <code>c</code> on plane <code>d</code> and they describe the same energy deposit. What should I find on plane <code>e</code> which is another view of the same information?<br />Since you have three views, checking the other plane would help you determine if your information is consistent so you can be more confident that your assumption that they describe the same energy deposit is correct.<br />Answer: Not implemented, so far. </li>
+		<li>Where do wires <code>e</code> and <code>f</code> intersect? <br />Nowhere. A projection plane must be defined, and a coordinate system on it to correctly express a “where”. The physical wires do not intersect. You want to know where they look like they intersect, but you need a projection plane for that.</li>
+		<li>I measured a hit on wire <code>a</code> of plane <code>b</code> and a hit on wire <code>c</code> on plane <code>s</code> and they describe the same energy deposit. I also measured the drift distance <code>d</code>. Where was the energy deposited in space?<br />Answer: Not implemented.</li>
+		<li>Which are the coordinates of  point <code>of_interest</code> on plane <code>pid</code>? <br />Assuming we are talking of the plane frame: <br /><code>geo::PlaneGeo::WidthDepthProjection_t proj = geom.Plane(pid).PointWidthDepthProjection(of_interest);<br />double w_coord = proj.X(), d_coord = proj.Y();</code></li>
+	</ol>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-6"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Geometry_Package/edit?section=6">Edit this section</a></div><a name="LArSoft-geometry-evolution"></a>
+<h2  class="wiki-class-count">LArSoft geometry evolution<a href="#LArSoft-geometry-evolution" class="wiki-anchor">&para;</a></h2>
+
+
+LArSoft release 6.28 changed the geometry to support dual-phase TPCs, which caused several assumptions to be removed or to change:
+	<ul>
+	<li>the drift direction is no longer assumed to be along x, but can be on any axis</li>
+		<li>the projection of a point on a plane is no longer assumed to have coordinates (y,z) </li>
+		<li>views no longer are assumed to measure a coordinate growing with z </li>
+		<li>the outer plane cannot be assumed to have drift coordinate 0 (same as drift distance)</li>
+	</ul>
+
+
+	<p>When updating code, understanding the assumptions at the time the code was written may help explain why certain options were chosen.</p>
+
+
+	<p>Note, that with ProtoDUNE Dual Phase, drift direction is necessarily upward  (+y).</p>
+
+
+Detector description elements are present at many levels: 
+	<ul>
+	<li>source GDML file (needed by Geant4), optionally ROOT file too </li>
+		<li>ROOT via TGeoManager, ROOT owns a complete translation of the source in terms of TGeoVolume objects </li>
+		<li>LArSoft has a reduced translation that includes specific classes for wires, TPCs, and other relevant components</li>
+		<li>Geant4 will own its own representation out of the source when run</li>
+	</ul>
+
+
+	<p><img src="/redmine/attachments/download/43099/source-representation.png" style="width: 50%;" alt="" /></p>
+
+
+The existing geometry model has two services when configuring:
+	<ul>
+	<li><code>geo::Geometry</code> (service provider: <code>geo::GeometryCore</code>): people interactions
+	<ul>
+	<li>manages the ROOT geometry description and its GDML source </li>
+		<li>provides access to LArSoft description of detector components </li>
+		<li>facilitates iteration on detector components by type </li>
+		<li>describes relations between components </li>
+		<li>delegates to its “channel mapping” algorithm:
+	<ul>
+	<li>mapping logical readout channels and wires </li>
+		<li>view and signal type of planes </li>
+		<li>“wire coordinate” of a point, nearest wire</li>
+	</ul>
+	</li>
+	</ul>
+	</li>
+		<li><code>geo::ExptGeoHelperInterface:</code> experiment customization
+	<ul>
+	<li>implemented by each experiment (“standard” available) </li>
+		<li>chooses the implementation of channel mapping (<code>geo::ChannelMapAlg</code>) </li>
+		<li>chooses the procedures to sort geometry elements (<code>geo::GeoObjectSorter</code>)</li>
+	</ul></li>
+	</ul>
+
+
+	<p>Most geometry functionality is now in <code>geo::GeometryCore</code>.</p>
+
+
+	<p>More than one wire might be in the same TPC readout channel when TPCs share APAs. For experiments, like MicroBooNE, whose TPCs don’t share APAs, each channel is assigned to a single wire. ProtoDUNE dual-phase has multiple TPCs but don’t share APAs. (Single-phase has multiple TPCs that do share APAs.) The code used to assume that each wire was on one TPC readout channel, but that assumption is no longer valid.</p>
+
+
+The abstraction of drift direction can be framed in a broader context. The drift direction is from the TPC active volume to the wire planes ⇒ owned by the TPC, defined by the geometry source. The coordinate measured by a wire plane (“wire coordinate”, wc) is orthogonal to the wires ⇒ owned by the plane, defined by the geometry sorting. Plane “width” and “depth” directions follow the plane frame sides ⇒ owned by the plane, defined by geometry source + convention. We still make some basic assumptions: 
+	<ul>
+	<li>y is “up” (where cosmic rays pour from) </li>
+		<li>drift direction orthogonal to the planes </li>
+		<li>perfectly spaced rigid wires </li>
+		<li>shape of wire plane frame is rectangle</li>
+	</ul>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-7"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Geometry_Package/edit?section=7">Edit this section</a></div><a name="Future-projects"></a>
+<h2  class="wiki-class-count">Future projects<a href="#Future-projects" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>VolTPC may need to include the volume between the planes since there can be argon there, so there can be charged depositions there. (The 35-ton TPC paper studies this very effect.) If experiments have a mesh, they have this issue, or if a frame acts like a mesh.</p>
+
+
+	<div class="contextual heading-2" title="Edit this section" id="section-8"><a class="icon-only icon-edit" href="/redmine/projects/larsoft/wiki/Geometry_Package/edit?section=8">Edit this section</a></div><a name="Writing-and-visualizing-your-own-geometry"></a>
+<h2  class="wiki-class-count">Writing and visualizing your own geometry<a href="#Writing-and-visualizing-your-own-geometry" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>The Geometry Description Markup Language is an application-independent geometry description format based on XML. <a class="external" href="http://gdml.web.cern.ch/GDML/">http://gdml.web.cern.ch/GDML/</a>  There exist two toolkit bindings for GDML, the Geant4 binding and the ROOT binding, both integrated within the respective frameworks. Both bindings support reading and writing GDML files.</p>
+
+
+	<p>The <a href="http://lcgapp.cern.ch/project/simu/framework/GDML/doc/GDMLmanual.pdf" class="external">GDML manual</a> provides the structure and commands. (They’re called tags in GDML.) The Geant4 binding for GDML begins with three examples, which demonstrate the reading and writing out of different geometry configurations from/to GDML files. Instructions on how to visualize GDML files outside of LArSoft using Geant4 locally can be found in the <a href="http://geant4.web.cern.ch/geant4/UserDocumentation/Doxygen/examples_doc/html/ExampleG01.html" class="external">Geant4 User Documentation</a>. The main advantage of using one of the built-in examples of Geant4 to visualize a GDML file is a menu listing all components of the geometry described in the GDML file. This menu makes it easy for the user to display or hide specific parts of the geometry without knowing a priori which name was designated to them.</p>
+
+
+	<p>The ROOT binding for GDML is integrated within the ROOT framework. Information on importing or exporting GDML files can be found in the general ROOT manual. But the description of the GDML Schema is application-independent and therefore is relevant for both Geant4 and ROOT users.</p>
+
+
+	<p>For a simple example, set up a ROOT installation, taking special care of using the --enable-gdml option when compiling. You may want to example ROOT's web catalog on how to load a gdml file using the TGeoManager class:<br /><a class="external" href="https://root.cern.ch/doc/master/classTGeoManager.html">https://root.cern.ch/doc/master/classTGeoManager.html</a></p>
+
+
+	<p>The simplest way is:<br /><code>{<br />gSystem->Load("libGeom");<br />gSystem->Load("libGdml");<br />TGeoManager::Import("myfile.gdml");<br />gGeoManager->FindVolumeFast("volWorld")->Draw("ogl");<br />}</code></p>
+
+
+	<p>This will display your geometry onscreen, supposing your World Volume is named volWorld. Note, the string ‘volWorld’ relates back to the description of Figure 1. The code can be searched to find strings that are used in the GDML files. For a given detector, experiments maintain their detector-geometry description in <a href="http://gdml.web.cern.ch/GDML/" class="external">GDML</a> files. The concepts behind GDML (such as the hierarchy of shapes, materials, and physical volumes) will be familiar to anyone who's worked with other physics modeling packages, such as <a href="http://geant4.web.cern.ch/geant4/" class="external">Geant4</a> or <a href="http://atlas.web.cern.ch/Atlas/GROUPS/DATABASE/detector_description/Geometry_Kernel_Classes.pdf" class="external">GeoModel</a>. In LArSoft, the use of GDML is affected by the need to preserve geometry files associated with existing detectors and some limitations with ROOT.</p>
+
+
+	<p>The numbering part of the string, such as volTPC+instance number, is arbitrary, but strings have to be unique. The Geometry part of it must follow the convention outlined in the description of Figure 1.<br />More information is under development at<br /><a class="external" href="https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Creating_GDML_">https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Creating_GDML_</a></p>
+</div>
+
+
+<fieldset class="collapsible collapsed hide-when-print">
+  <legend onclick="toggleFieldset(this);">Files (4)</legend>
+  <div style="display: none;">
+
+  <div class="attachments">
+<div class="contextual">
+  <a title="Edit attached files" class="icon-only icon-edit" href="/redmine/attachments/wiki_pages/22769/edit">Edit attached files</a>
+</div>
+<table>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/43098/hierarchy.png">hierarchy.png</a>    <span class="size">(119 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/43098/hierarchy.png">hierarchy.png</a>  </td>
+  <td>Hierarchy of geometry volumes</td>
+  <td>
+      <span class="author">Katherine Lato, 08/10/2017 02:14 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/43098">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/43099/source-representation.png">source-representation.png</a>    <span class="size">(58.3 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/43099/source-representation.png">source-representation.png</a>  </td>
+  <td></td>
+  <td>
+      <span class="author">Katherine Lato, 08/10/2017 02:17 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/43099">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/43100/framebase.png">framebase.png</a>    <span class="size">(165 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/43100/framebase.png">framebase.png</a>  </td>
+  <td></td>
+  <td>
+      <span class="author">Katherine Lato, 08/10/2017 02:17 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/43100">Delete</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a class="icon icon-attachment" href="/redmine/attachments/43101/wirebase.png">wirebase.png</a>    <span class="size">(152 KB)</span>
+    <a class="icon-only icon-download" title="Download" href="/redmine/attachments/download/43101/wirebase.png">wirebase.png</a>  </td>
+  <td></td>
+  <td>
+      <span class="author">Katherine Lato, 08/10/2017 02:17 PM</span>
+  </td>
+  <td>
+      <a data-confirm="Are you sure?" class="delete icon-only icon-del" title="Delete" rel="nofollow" data-method="delete" href="/redmine/attachments/43101">Delete</a>
+  </td>
+</tr>
+</table>
+</div>
+
+  
+  <div id="wiki_add_attachment">
+    <form id="add_attachment_form" enctype="multipart/form-data" action="/redmine/projects/larsoft/wiki/Geometry_Package/add_attachment" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="U4iIxenMyJmJxzP6+a3ny4BiubfXyRKPrDpRLEXJJKK5ZmxYaVE075Cw3CMzQLPc6TtiQ0w908vV9n93Tzx7Fg==" />
+      <div class="box">
+      <p>
+<span class="attachments_form">
+  <span class="attachments_fields">
+  </span>
+  <span class="add_attachment" style="">
+    <input type="file" name="attachments[dummy][file]" class="file_selector filedrop" multiple="multiple" onchange="addInputFiles(this);" data-max-file-size="419430400" data-max-file-size-message="This file cannot be uploaded because it exceeds the maximum allowed file size (400 MB)" data-max-concurrent-uploads="2" data-upload-path="/redmine/uploads.js" data-param="attachments" data-description="true" data-description-placeholder="Optional description" />
+    (Maximum size: 400 MB)
+  </span>
+</span>
+
+</p>
+      </div>
+      <input type="submit" name="commit" value="Add" />
+</form>  </div>
+</div>
+</fieldset>
+
+<p class="other-formats">Also available in:  <span><a class="pdf" rel="nofollow" href="/redmine/projects/larsoft/wiki/Geometry_Package.pdf">PDF</a></span>
+  <span><a class="html" rel="nofollow" href="/redmine/projects/larsoft/wiki/Geometry_Package.html">HTML</a></span>
+  <span><a class="txt" rel="nofollow" href="/redmine/projects/larsoft/wiki/Geometry_Package.txt">TXT</a></span>
+</p>
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2019 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
