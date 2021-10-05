@@ -1,0 +1,119 @@
+
+h1. Updating code to GCC 6
+
+{{>toc}}
+
+Starting with _art_ 2.6, GCC 6 is an available option as compiler.
+UPS packages using it are denoted by the @e14@ qualifier (as opposed to @e10@ for GCC 4.9.3a).
+
+The new compiler:
+* is not binary-compatible with GCC 4: libraries compiled with GCC 4 _might_ have issues when loaded by programs compiled with GCC 6, and vice versa. This is called a ABI(Application Binary Interface) change
+* has a more complete support for newer C++ standards (C++14 and some expected in C++17)
+* it has an improved detection of potential errors in the code
+
+The last feature in particular might cause some warnings and errors[1] to appear in code which GCC 4 was happy with.
+This page collects some of the most common issues we encountered.
+LArSoft @develop@ branches have been updated, as tracked in issue #16096. User branches, instead, haven&#39;t been touched and there is a good chance that if you have an old branch you&#39;ll have to chisel some error out.
+
+fn1. As a reminder, LArSoft settings escalate all warnings to errors, which can&#39;t be ignored.
+
+h2(count). Variable length array (@vla@)
+
+A variable length array is a C array whose size is not known at compile time, usually from a variable. For example:
+<pre><code class="cpp">auto const nPlanes = TPC.Nplanes();
+int chargePerPlane[nPlanes];</code></pre>
+In this snippet, @chargePerPlane@ _is_ a variable length array, because its size @nPlanes@ is not known at compile time (in fact, its value comes from the geometry description which is loaded from a GDML file at run time). Don&#39;t let yourself mislead by the fact that @nPlanes@ is declared @const@: that is just a variable whose value can&#39;t be changed, which is not enough as array size specifiers go.
+
+Variable length arrays were never in C++ standard, although many compilers would allow them as "extensions"; they are instead in C (as opposed to C++) standard, currently as an "optional" feature.
+The common solution is to use a dynamically allocated vector:
+<pre><code class="cpp">auto const nPlanes = TPC.Nplanes();
+std::vector<int> chargePerPlane(nPlanes, 0);</code></pre>
+If this has too big an impact to the performance of your code (which might well be), please discuss 
+the issue with "LArSoft":mailto:larsoft@fnal.gov. There are alternative solutions which may be better, or worse.
+
+h2(count). Indentations
+
+The compiler checks the code for misleading indentations.  This can happen when curly braces are not used after an @if@ statement.  In at least one case, this check turned up an actual bug where two lines were meant to be within the if block.
+The following examples of bad indentation come from LArSoft and experiment code:
+<pre><code class="cpp">
+if (btrack.NumberFitMomentum() > 0)
+  //mom = btrack.VertexMomentum();
+// fill bezier track reco branches
+TrackID = iTrk;  //bezier has some screwed up track IDs
+</code></pre> (likely, the line with assignment to @mom@ was commented out later, resulting in a bug).
+The following is a "false positive": GCC will suspect that we might have meant to have the second if nested into the first one:
+<pre><code class="cpp">if(eff[plane] == 0) eff[plane] = 0.001; if(pur[plane] == 0) pur[plane] = 0.001;</code></pre>
+In the following, the align suggests that the last @return@ be under the @if@ statement (another false positive):
+<pre><code class="cpp">
+else if (a.fSeedPoint[1] != b.fSeedPoint[1])
+  return a.fSeedPoint[1] < b.fSeedPoint[1];
+
+  return a.fSeedPoint[0] < b.fSeedPoint[0];
+</code></pre>
+The following has a spurious semicolon immediately after the @if@ clause.
+<pre><code class="cpp">
+if (plane >= planehits.size());
+  throw cet::exception("TrackKalmanCheater") << "plane " << plane << "...\n";
+</code></pre>
+It was likely in some unused code, or it would throw an exception every single time...
+Note that here "false positive" means that the dreadfully aligned code, interpreted according to the C++ rules, yielded the intended behaviour. But it _still_ is dreadfully indented.
+
+{{collapse((see some solutions to the above...))
+Solutions are to use proper indentations and/or define the proper blocks within braces:
+<pre><code class="cpp">
+if (btrack.NumberFitMomentum() > 0) {
+  //mom = btrack.VertexMomentum();
+}
+// fill bezier track reco branches
+TrackID = iTrk;  //bezier has some screwed up track IDs
+</code></pre>
+(in this case, it&#39;s better to comment everything out, or even better, just remove it, since commented out code is usually useless, except the cases where it is dangerous).
+<pre><code class="cpp">if(eff[plane] == 0) eff[plane] = 0.001;
+if(pur[plane] == 0) pur[plane] = 0.001;</code></pre>
+<pre><code class="cpp">
+else if (a.fSeedPoint[1] != b.fSeedPoint[1])
+  return a.fSeedPoint[1] < b.fSeedPoint[1];
+
+return a.fSeedPoint[0] < b.fSeedPoint[0];
+</code></pre>
+<pre><code class="cpp">
+if (plane >= planehits.size())
+  throw cet::exception("TrackKalmanCheater") << "plane " << plane << "...\n";
+</code></pre>
+}}
+
+
+
+h2(count). Headers
+
+Sometimes code works because a required system header has been included upstream.  When the compiler changes, the set of upstream headers might also change.  Whenever code is using a variable directly, the appropriate header should be explicitly included.
+
+Here is a simple example of a missing header.  This particular problem can be resolved by adding #include <numeric> to OpFlashAlg.cxx.
+<pre>
+[ 92%] Building CXX object larana/larana/OpticalDetector/CMakeFiles/larana_OpticalDetector.dir/OpFlashAlg.cxx.o
+/home/garren/scratch/larsoft/dev/srcs/larana/larana/OpticalDetector/OpFlashAlg.cxx: In function ‘std::vector<int> opdet::sort_permutation(const std::vector<T>&amp;, int, Compare)’:
+/home/garren/scratch/larsoft/dev/srcs/larana/larana/OpticalDetector/OpFlashAlg.cxx:738:5: error: ‘iota’ is not a member of ‘std’
+     std::iota(p.begin(), p.end(), 0);
+     ^~~
+</pre>
+Missing headers are not always this easy to spot.  See #16112 for another example.
+This site can be very helpful in identifying the correct C++ header: http://en.cppreference.com/w/cpp/algorithm
+
+h2(count). Missing parenthesis
+
+This test can be misinterpreted by a compiler:
+<pre>
+if(evdlayoutopt->fMakeClusters == 1 &amp;&amp; !evdlayoutopt->fMakeSeeds == 1){ ...
+</pre>
+The error:
+<pre>
+[ 98%] Building CXX object lareventdisplay/lareventdisplay/EventDisplay/CMakeFiles/lareventdisplay_EventDisplay.dir/TWQProjectionView.cxx.o
+/home/garren/scratch/larsoft/dev/srcs/lareventdisplay/lareventdisplay/EventDisplay/TWQProjectionView.cxx: In static member function ‘static void evd::TWQProjectionView::MouseDispatch(int, void*)’:
+/home/garren/scratch/larsoft/dev/srcs/lareventdisplay/lareventdisplay/EventDisplay/TWQProjectionView.cxx:527:72: error: logical not is only applied to the left hand side of comparison [-Werror=logical-not-parentheses]
+       if(evdlayoutopt->fMakeClusters == 1 &amp;&amp; !evdlayoutopt->fMakeSeeds == 1){ wqpp->SetClusters(plane);}
+                                                                        ^~
+</pre>
+The solution is to use parenthesis to make sure the code is interpreted as intended:
+<pre>
+if((evdlayoutopt->fMakeClusters == 1) &amp;&amp; !(evdlayoutopt->fMakeSeeds == 1)){ ...
+</pre>

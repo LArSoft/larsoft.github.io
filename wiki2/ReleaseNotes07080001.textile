@@ -1,0 +1,96 @@
+
+h1. LArSoft v07_08_00_01 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v07_08_00_01":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_08_00_01/larsoft-v07_08_00_01.html
+Download instructions for "just larsoftobj v07_05_02":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_05_02/larsoftobj-v07_05_02.html
+
+h2. Purpose
+
+* special release for protoDUNE #21290 
+
+h2. New features
+
+* identical to v07_08_00 except for dependencies
+
+h2. Updated dependencies
+
+* ifbeam v2_2_10
+* ifdh_art v2_06_10
+* nutools v2_24_07 
+
+h1. Change List
+
+h2. larsoft v07_08_00_01
+
+* 2018-11-01  Lynn Garren : larsoft v07_08_00_01
+
+h2. lareventdisplay v07_01_10_01
+
+* 2018-11-01  Lynn Garren : for larsoft v07_08_00_01
+
+h2. larexamples v07_00_13_01
+
+* 2018-11-01  Lynn Garren : for larsoft v07_08_00_01
+
+h2. larg4 v07_01_08_01
+
+* 2018-11-01  Lynn Garren : for larsoft v07_08_00_01
+
+h2. larpandora v07_02_00_01
+
+* 2018-11-01  Lynn Garren : for larsoft v07_08_00_01
+
+h2. larwirecell v07_02_03_01
+
+* 2018-11-01  Lynn Garren : for larsoft v07_08_00_01
+
+h2. larana v07_02_06_01
+
+* 2018-11-01  Lynn Garren : for larsoft v07_08_00_01
+
+h2. larreco v07_06_00_01
+
+* 2018-11-01  Lynn Garren : for larsoft v07_08_00_01
+
+h2. larsim v07_04_03_01
+
+* 2018-11-01  Lynn Garren : for larsoft v07_08_00_01
+
+h2. larevt v07_01_00_01
+
+* 2018-11-01  Lynn Garren : for larsoft v07_08_00_01
+
+h2. lardata v07_00_12_01
+
+* 2018-11-01  Lynn Garren : lardata v07_00_12_01
+
+h2. larcore v07_00_04
+
+
+
+h2. larpandoracontent v03_14_02
+
+
+
+h2. larsoftobj v07_05_02
+
+
+
+h2. lardataobj v07_02_04
+
+
+
+h2. lardataalg v07_02_03
+
+
+
+h2. larcorealg v07_02_01
+
+
+
+h2. larcoreobj v07_00_01
+
+

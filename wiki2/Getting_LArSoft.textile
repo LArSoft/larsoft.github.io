@@ -1,0 +1,23 @@
+
+h1. Getting LArSoft
+
+You may either download binaries to your computer from "SciSoft":http://scisoft.fnal.gov/scisoft/bundles/larsoft/ or mount the cvmfs distribution.  If you have a stable internet connection, you will probably be happy with cvmfs. 
+
+h2. Installation Procedures
+
+* [[ Supported Platforms ]]
+* [[Installation_procedures| installing a LArSoft release ]]
+* [[LArSoft_release_list|list of LArSoft releases]]
+* [[LArSoft release naming policy|LArSoft release naming and retention policy]]
+
+h2. LArSoft cvmfs
+
+
+The LArSoft code is available on cvmfs at /cvmfs/fermilab.opensciencegrid.org/products/larsoft/
+This is a complete copy of /grid/fermiapp/products/larsoft
+The cvmfs area is automatically updated nightly, but we also update manually when a new release is available.
+
+[[LArSoft_cvmfs_page|cvmfs instructions]]
+
+
+

@@ -1,0 +1,63 @@
+
+h1. LArSoft examples
+
+{{>toc}}
+
+bq. Note that a single example is often not enough for your real purpose.
+We expect users to copy pieces from different examples to make up their solution, and the @README@ files try to highlight which are the most serviceable parts to be exported to other code.
+
+h2. List of examples
+
+|. Type                 |. Short description                                                               |. name                       |. Where to find it |
+|/4. service            | a simple service, following the factorization model                              | @AtomicNumber@              | larexamples:source:larexamples/Services/AtomicNumber |
+|                         a simple service depending on other services                                     |                             | LArSoft&#39;s @detinfo::DetectorPropertiesServiceStandard@ has this feature |
+|                         a simple service, with experiment-specific implementations                       | @ShowerCalibrationGalore@   | larexamples:source:larexamples/Services/ShowerCalibrationGalore |
+|                         similar to @ShowerCalibrationGalore@, but needs to know about new run and events | @TBD3@                      | nowhere yet |
+|/4. algorithm + module | a trivial reconstruction algorithm using services, with a unit test              | @RemoveIsolatedSpacePoints@ | larexamples:source:larexamples/Algorithms/RemoveIsolatedSpacePoints |
+|                         a trivial producer module with a integration test                                |                             | will appear in the "_art_ workbook":http://art.fnal.gov/art-workbook-versions |
+|                         a trivial producer module with a @lar_ci@ integration test                       | @TBD5@                      | nowhere yet |
+|                         a module producing a new data product and its associations                       | @TotallyCheatTracks@        | larexamples:source:larexamples/Algorithms/TotallyCheatTracks |
+| analysis module       | [[ AnalysisExample |accesses reconstructed and simulated data]]                  | @AnalysisExample@           | larexamples:source:larexamples/AnalysisExample |
+
+Tests are in the matching @test/...@ directory (for example, a service in @larexamples/Services/AtomicNumber/Services@ will have its tests in @test/Services/AtomicNumberService/Services@).
+
+A "section in LArSoft doxygen page":http://nusoft.fnal.gov/larsoft/doxsvn/html/modules.html also lists most of the examples.
+
+h2. Services
+
+We provide a few examples of services.
+How to pick the right one?
+* *factorization*: do you need to split the actual code providing the service from the specificity of the _art_ framework?
+** _yes_: *you do*. This is a major LArSoft recommendation. If you think you don&#39;t need it, please discuss with LArSoft team. All examples currently follow this model, the simplest being %{color: green}@AtomicNumber@%.
+* *experiment-specific implementation*: is it apparent that different experiments or scenarios will need different implementations?
+** _yes_: for example, it uses database access[1]; or it uses one of many specific models available in your experiment (e.g. assumptions based on the candidate geometry) => %{color: green}@ShowerCalibrationGalore@% (nice name!)
+** _no_: it uses no specific experiment assumptions or dependencies. Even in this case some time should be devoted to the interface design, so that the jump to the experiment-dependent implementation will not be too troublesome. But you want => %{color: green}@AtomicNumber@%
+* *automatic calls*: does the service need to react when a new run or event happens, or to some other framework status?
+** _yes_: take a look at %{color: green}@TBD3@% to see how to add that feature on top of @ShowerCalibrationGalore@
+** _no_: never mind then, @TBD3@ does not help you
+* *unit tests*: do you plan to have this service used in others&#39; unit tests? (note that the question is not if you plan to write a test: that, you just have to)
+** _yes_: take a look at the unit tests for %{color: green}@ShowerCalibrationGalore@%; the unit tests are for those very services, but the set up of the test environment is just the same.
+** _no_: no problem.
+
+fn1. ... and, as of LArSoft 5, we are far from having converged on a single database access model or interface.
+
+h2. Algorithms and modules
+
+A guide to find your example:
+* *unit test*: do I need to have a unit test for my algorithm?
+** _yes_: *you do*. LArSoft *strongly* encourages writing tests for services (all the examples come with one), algorithms, producer and filter modules, and for analyzer modules whose results are important in production. Take a look at %{color: green}@RemoveIsolatedSpacePoints@%
+** _no_: if you have a analyzer module that does not use any algorithm specific to it and produces output and plots that are not critical, you _might_ get away without a test. For example, @AnalysisTree@ is *not* in this case, since, for example, its output has to be parseable by other analyses.
+* *integration test*: do I need to have a integration test for my module?
+** _yes_: you _likely_ do. %{color: green}@TBD5@% shows you how to write one.
+** _no_: think again. Integration tests, even simple ones, help find mess in your results from upstream changes.
+* *data products*: do I need to save my results into a new data product?
+** _yes_: the design of a new data product is not as trivial as one would hope, and LArSoft is full of bad examples. Discuss with the experts in your experiment on the need of it (maybe there is already something like that?), and with them and/or LArSoft and _art_ teams about their design. If you are so unlucky that people does like and use your product, the outcome of the design process may have a huge impact in the future. The example, %{color: green}@TotallyCheatTracks@%, does not explain how to design a data product, but it shows how to shove a well designed one into LArSoft
+** _no_: you may stick with @RemoveIsolatedSpacePoints@ or @TBD5@
+* *associations*: do I need to create associations between input and output objects, or between output objects?
+** _yes_: check the %{color: green}@TBD7@% example; if some of the produced objects are from a new data product type, also check @TotallyCheatTracks@.
+** _no_: if you are writing a producer, think it well: associations of output with input often end up being useful. 
+
+
+--- 
+
+_For questions or request of new examples, please contact "Gianluca Petrillo":mailto:petrillo@fnal.gov or any person in the LArSoft project team._

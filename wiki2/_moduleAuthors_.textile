@@ -1,0 +1,546 @@
+
+h1.  LArSoft Authors
+
+{{TOC}}
+
+
+The initial list of authors was created from the svn author list as of Jan. 22, 2014. 
+ *This information is out of date. Please don&#39;t use.*
+
+Primary authors are designated with "(primary author)".  
+Instead of removing authors from the list, please designate them as "(no longer active)"
+
+h1. All Authors
+
+ahack379 = Ariana Hackenburg <ahack379@fnal.gov>
+andrzejs = Andrzej Szelc <andrzejs@fnal.gov>
+baller = Bruce Baller <baller@fnal.gov>
+bcarls = Benjamin Carls <bcarls@fnal.gov>
+bjpjones = Benjamin Jones <bjpjones@fnal.gov>
+blake = Andy Blake <blake@hep.phy.cam.ac.uk>
+bpage = Brian Page <bpage@fnal.gov>
+brebel = Brian Rebel <brebel@fnal.gov>
+cadams = Corey Adams <cadams@fnal.gov>
+cbrasco = Christina Brasco <cbrasco@fnal.gov>
+cschiu = Christie Chiu <cschiu@fnal.gov>
+dmckee = David Mckee <dmckee@fnal.gov>
+echurch = Eric Church <echurch@fnal.gov>
+ellenk = Ellen Klein <ellenk@fnal.gov>
+georgiak = Georgia Karagiorgi <georgiak@fnal.gov>
+greenc = Christopher Green <greenc@fnal.gov>
+greenlee = Herbert Greenlee <greenlee@fnal.gov>
+guardi = Elena Guardincerri <guardi@fnal.gov>
+guenette = Roxanne Guenette <guenette@fnal.gov>
+iwai = Eito Iwai <iwai@fnal.gov>
+jasaadi = Jonathan Asaadi <jasaadi@fnal.gov>
+jti3 = Jonathan Insler <jti3@fnal.gov>
+kirby = Michael Kirby <kirby@fnal.gov>
+kpartyka = Kinga Partyka <kpartyka@fnal.gov>
+kterao = Kazuhiro Terao <kterao@fnal.gov>
+lockwitz = Sarah Lockwitz <lockwitz@fnal.gov>
+mengel = Marc Mengel <mengel@fnal.gov>
+miceli = Tia Miceli <tiamiceli@gmail.com>
+mstancar = Michelle Stancari <mstancar@fnal.gov>
+palamara = Ornella Palamara <palamara@fnal.gov>
+patch = Adam Patch <patch@fnal.gov>
+pkryczyn = Pawel Kryczynski <pkryczyn@fnal.gov>
+rhatcher = Robert Hatcher <rhatcher@fnal.gov>
+rs = Erica Snider <rs@fnal.gov>
+saima = Saima Farooq <saima@fnal.gov>
+seligman = William Seligman <seligman@nevis.columbia.edu>
+seongtae = Seong Tae Park <seongtae@fnal.gov>
+soderber = Mitchell Soderberg <soderber@fnal.gov>
+spitz7 = Joshua Spitz <spitz7@fnal.gov>
+strauss = Thomas Strauss <strauss@fnal.gov>
+talion = Tyler Alion <talion@fnal.gov>
+tjyang = Tingjun Yang <tjyang@fnal.gov>
+trj = Thomas Junk <trj@fnal.gov>
+wketchum = Wesley Ketchum <wketchum@fnal.gov>
+zarko = Zarko Pavlovic <zarko@fnal.gov>
+zpli = Zepeng Li <zpli@fnal.gov>
+
+h1. Module Authors
+
+
+h2. AnalysisAlg
+
+* baller (primary)
+* brebel
+* tjyang (primary)
+
+h2. AnalysisBase
+
+* andrzejs (primary)
+* bjpjones (primary)
+* brebel
+* tjyang (primary)
+
+h2. AnalysisExample
+
+* brebel
+* greenc
+* seligman (primary)
+* seongtae
+
+h2. CalData
+
+* andrzejs (primary)
+* baller
+* bcarls
+* bpage
+* brebel
+* echurch
+* greenc
+* greenlee
+* jti3
+* lockwitz
+* spitz7 (no longer active)
+* talion
+* tjyang
+* trj
+
+h2. Calorimetry
+
+* andrzejs
+* baller
+* bcarls
+* bjpjones
+* brebel
+* greenc (no longer active)
+* jti3
+* kpartyka (no longer active)
+* palamara
+* tjyang (primary)
+* wketchum
+
+h2. ClusterFinder
+
+* andrzejs 
+* baller (primary)
+* bcarls (primary)
+* bjpjones
+* bpage
+* brebel
+* cadams
+* dmckee
+* echurch
+* greenc
+* jasaadi
+* jti3
+* kpartyka (no longer active)
+* kterao
+* soderber
+* spitz7 (no longer active)
+* talion
+* tjyang
+* wketchum
+
+h2. DetSim
+
+* andrzejs (primary)
+* bcarls
+* bpage
+* brebel
+* dmckee
+* echurch
+* georgiak
+* greenc
+* greenlee (primary)
+* jti3
+* lockwitz
+* spitz7 (no longer active)
+* talion
+* trj
+
+h2. EventDisplay
+
+* andrzejs
+* baller
+* bcarls
+* bjpjones
+* brebel (primary)
+* echurch
+* ellenk
+* greenc
+* greenlee
+* mstancar
+* saima
+* soderber
+* talion
+* tjyang
+* trj
+* wketchum
+
+h2. EventFinder
+
+* bcarls
+* brebel
+* echurch
+* greenc
+
+h2. EventGenerator
+
+* andrzejs
+* bcarls
+* bjpjones
+* brebel (primary)
+* dmckee
+* echurch
+* greenc
+* greenlee
+* guenette
+* saima
+* seligman
+* soderber
+* spitz7 (no longer active)
+* talion
+* tjyang
+* trj
+* zpli
+
+h2. Filters
+
+* andrzejs
+* baller
+* bcarls
+* bpage
+* brebel
+* cadams
+* echurch
+* greenc
+* saima
+* soderber
+* spitz7 (no longer active)
+* tjyang
+
+h2. Genfit
+
+* echurch (primary)
+* greenc
+
+h2. Geometry
+
+* ahack379
+* andrzejs
+* bcarls
+* bjpjones
+* brebel (primary)
+* cbrasco
+* dmckee
+* echurch
+* greenc 
+* greenlee
+* guardi
+* kirby
+* kpartyka (no longer active)
+* miceli
+* mstancar
+* patch
+* pkryczyn
+* rs
+* seligman
+* soderber
+* spitz7 (no longer active)
+* talion
+* tjyang
+* trj
+* zpli
+
+h2. HitFinder
+
+* bcarls
+* bpage
+* brebel
+* dmckee
+* echurch
+* greenc 
+* jasaadi (primary)
+* lockwitz
+* soderber
+* spitz7 (no longer active)
+* talion (primary)
+* tjyang
+* wketchum (primary)
+
+h2. LArG4
+
+* andrzejs
+* baller
+* bcarls
+* bjpjones
+* brebel (primary)
+* dmckee
+* echurch
+* greenc 
+* jti3
+* miceli
+* rhatcher
+* seligman
+* spitz7 (no longer active)
+* talion
+* tjyang
+* trj
+* zpli
+
+h2. LArPandoraAlgorithms
+
+* blake (primary author)
+
+h2. LArPandoraInterface
+
+* blake (primary author)
+* brebel
+
+h2. MCCheater
+
+* bcarls
+* brebel (primary)
+* greenc 
+* greenlee
+* talion
+* tjyang
+
+h2. OpticalDetector
+
+* bcarls
+* bjpjones (primary)
+* brebel
+* cschiu
+* greenc 
+* kterao
+* seligman
+* talion
+* wketchum
+* zpli
+
+h2. OpticalDetectorData
+
+* seligman
+
+h2. ParticleIdentification
+
+* bcarls
+* brebel
+* greenc 
+* tjyang (primary)
+
+h2. PhotonPropagation
+
+* bcarls
+* bjpjones (primary)
+* brebel
+* echurch
+* greenc 
+* talion
+* zpli
+
+h2. RawData
+
+* andrzejs
+* bjpjones
+* brebel (primary)
+* cschiu
+* echurch
+* greenc (no longer active)
+* iwai
+* jasaadi
+* jti3
+* kpartyka (no longer active)
+* mstancar
+* soderber
+* tjyang
+* trj
+* zarko
+* zpli
+
+h2. RecoAlg
+
+* andrzejs (primary)
+* baller (primary)
+* bcarls (primary)
+* bjpjones (primary)
+* brebel
+* cadams
+* echurch
+* greenlee (primary)
+* kterao
+* talion (primary)
+* tjyang (primary)
+* wketchum (primary)
+
+h2. RecoBase
+
+* andrzejs
+* bcarls
+* bjpjones
+* brebel (primary)
+* cadams
+* cschiu
+* echurch
+* greenc 
+* greenlee
+* jasaadi
+* jti3
+* saima
+* soderber
+* spitz7 (no longer active)
+* talion
+* tjyang
+* wketchum
+
+h2. RecoObjects
+
+* bjpjones  (primary)
+* brebel
+* greenlee  (primary)
+
+h2. ShowerFinder
+
+* andrzejs  (primary)
+* bcarls
+* brebel
+* echurch
+* greenc 
+* guenette
+* jasaadi
+* kterao
+* strauss
+* tjyang
+* wketchum
+
+h2. SimpleTypesAndConstants
+
+* andrzejs
+* baller
+* brebel (primary)
+* echurch
+* greenc 
+* jti3
+* talion
+* trj
+
+h2. Simulation
+
+* andrzejs
+* baller
+* bcarls
+* bjpjones
+* brebel (primary)
+* dmckee
+* echurch
+* greenc 
+* kpartyka (no longer active)
+* lockwitz
+* miceli
+* seligman
+* talion
+* zpli
+
+h2. SummaryData
+
+* brebel (primary)
+* greenc 
+
+h2. TrackFinder
+
+* andrzejs
+* bcarls
+* bjpjones (primary)
+* bpage
+* brebel (primary)
+* dmckee
+* echurch (primary)
+* greenc 
+* greenlee (primary)
+* lockwitz
+* saima
+* soderber (primary)
+* spitz7 (no longer active)
+* talion
+* tjyang
+* wketchum
+
+h2. TriggerAlgo
+
+* kterao  (primary)
+
+h2. Utilities
+
+* andrzejs (primary)
+* baller
+* bcarls
+* bjpjones (primary)
+* bpage
+* brebel (primary)
+* dmckee
+* echurch
+* georgiak
+* greenc 
+* greenlee
+* jasaadi
+* jti3
+* lockwitz
+* mstancar
+* palamara
+* seligman
+* soderber
+* spitz7(no longer active)
+* talion
+* tjyang
+* trj
+* wketchum
+
+h2. VertexFinder
+
+* bcarls
+* bpage
+* brebel
+* echurch
+* greenc 
+* jasaadi (primary)
+* kpartyka (no longer active)
+* saima
+* spitz7 (no longer active)
+* tjyang
+* wketchum  (primary)
+
+h1. Obsolete Modules
+
+h2. Monitoring (this module is obsolete)
+
+* brebel
+
+h2. setup (SRT initialization scripts)
+
+* andrzejs
+* bjpjones
+* brebel
+* dmckee
+* echurch
+* greenc 
+* greenlee
+* kirby
+* kpartyka
+* kterao
+* palamara
+* seligman
+* soderber
+* spitz7
+* tjyang
+
+
+h2. SRT_LAR (LArSoft SRT)
+
+* andrzejs
+* bjpjones
+* brebel
+* dmckee
+* echurch
+* greenc
+* greenlee
+* kirby
+* kterao
+* seligman
+* tjyang
+
+

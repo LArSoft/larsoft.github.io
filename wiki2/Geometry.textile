@@ -1,0 +1,10 @@
+
+{{toc}}
+
+h1. Geometry
+
+*This information has been replaced by: https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Geometry_Package* as of 8/24/17.
+
+Here&#39;s the  [[pre-2016 geometry information]]
+
+

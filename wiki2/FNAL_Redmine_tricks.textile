@@ -1,0 +1,244 @@
+
+h1. FNAL Redmine tricks
+
+{{>toc}}
+
+h2. Empty page - for testing
+
+An empty page for your tests: [[LArSoft Redmine sandbox]]; remember to clean up after yourself!
+
+h2. Calling macros
+
+A macro can be called by enclosing its name in double braces; for example:
+<pre>{{hello_world(arg="argument text")
+  block of text
+}}</pre>
+
+bq. {{hello_world(arg="argument text")
+  block of text
+}}
+
+
+h2. Syntax highlight for code
+
+The standard way to get some syntax highlight is to switch to HTML mode with.
+
+Class names are
+
+| C       | @c@       | |
+| C++     | @cpp@     | (does not know C++11 keywords) |
+| python  | @python@  | |
+| ruby    | @ruby@    | |
+| JSON    | @json@    | |
+| bash    | n/a       | |
+| FHiCL   | n/a       | (try with @python@) |
+
+{{collapse(Example with C++ code (class: "cpp"))
+<pre><code class="cpp">
+  /**
+   * @file   ServiceUtils.h
+   * @brief  Utility functions in `lar` namespace to interface with art services
+   * @author me@fnal.gov
+   * @date   October 9th, 2015
+   */
+  #ifndef COREUTILS_SERVICEUTILS_H
+  #define COREUTILS_SERVICEUTILS_H
+
+  // framework libraries
+  #include "art/Framework/Services/Registry/ServiceHandle.h"
+  #include "art/Utilities/Exception.h"
+  #include "cetlib/demangle.h"
+  
+  // C/C++ standard libraries
+  #include <typeinfo>
+  #include <type_traits> // std::is_copy_assignable<>, ...
+  
+  namespace lar {
+    
+    /**
+     * @brief  Returns a constant pointer to the provider of specified service
+     * @tparam SERVICE the class of the service that is needed
+     * @return a constant, non-null pointer to the service provider
+     * @throw  art::Exception if service returns a null pointer
+     *
+     * The service class is required to have a `provider_type` and a `provider()`
+     * members defined.
+     */
+    template <typename SERVICE>
+    SERVICE const* providerFrom() {
+      // if you get a compilation error here,
+      // the service class your code is asking for does not comply with LArSoft
+      // service class requirements
+      static_assert(
+           !std::is_copy_constructible<typename SERVICE::provider_type>::value
+        &amp;&amp; !std::is_move_constructible<typename SERVICE::provider_type>::value
+        &amp;&amp; !std::is_copy_assignable<typename SERVICE::provider_type>::value
+        &amp;&amp; !std::is_move_assignable<typename SERVICE::provider_type>::value,
+        "LArSoft service provider classes must not be copyable nor moveable!");
+      SERVICE const* pProv = art::ServiceHandle<SERVICE>()->provider();
+      if (!pProv) {
+        throw art::Exception(art::errors::NotFound)
+          << "Service " << cet::demangle(typeid(SERVICE).name())
+          << " returned a null provider!";
+      }
+      return pProv;
+    } // providerFrom()
+    
+  } // namespace lar
+
+  #endif // COREUTILS_SERVICEUTILS_H
+</code></pre>
+}}
+ 
+{{collapse(Example with C code (class: "c"))
+<pre><code class="c">
+  #include <stdio.h>
+  
+  int main() {
+    int const n = 10;
+    for (int i = 0; i < n; ++i) {
+      printf ("Loop: %d\n", i);
+    } /* for */
+    return 0;
+  } /* main() */
+</code></pre>
+}}
+
+{{collapse(Example with python code (class: "python"))
+<pre><code class="python">
+  import sys
+  
+  if __name__ == "__main__":
+    print "%s got %d command line arguments: &#39;%s&#39;." \
+      % (sys.argv[0], len(sys.argv) - 1, "&#39;, &#39;".join(sys.argv[1:]))
+    sys.exit(0)
+  # main
+</code></pre>
+}}
+
+{{collapse(Example with FHiCL code (class: not supported but "python" may do))
+<pre><code class="python">
+#include "services.fcl"
+
+BEGIN_PROLOG
+my_service: { 
+  service_provider: "ReallyMyService"
+  
+  lower_limit: 10
+  upper_limit: 20
+  
+} # my service
+END_PROLOG
+
+services: {
+  IMyService: @local::my_service
+}
+
+services.IMyService.upper_limit: 30
+services.IMyService.upper_limit: @erase
+</code></pre>
+}}
+
+{{collapse(Example with BASH code (class: not supported))
+<pre><code>
+#!/usr/bin/env bash
+#
+# Print the full patch of each argument
+#
+
+function ExpandPath() {
+  local Path="$1"
+  readlink -f "$Path"
+} # ExpandPath()
+
+
+for Param in "$@" ; do
+  ExpandPath "$Param"
+done
+
+</code></pre>
+}}
+
+h2. References to other redmine locations
+
+* *issue trackers*: @issue #1083@ renders as: issue #1083 (grayed and barred if closed); the numbering is unique within Fermilab Redmine
+* *source code*:
+** @source:bin/CMakeLists.txt@ renders as: source:bin/CMakeLists.txt
+** @lardata:source:ups/product_deps@ renders as: lardata:source:ups/product_deps
+* *commits*: @lardata:commit:ce08cb0c03376890c3e9339edf95d9ce10ffb377@ or shortened @lardata:commit:ce08cb0@ render as lardata:commit:ce08cb0c03376890c3e9339edf95d9ce10ffb377 and lardata:commit:ce08cb0 respectively (both point to the same place)
+* *wiki pages*: the labels can be obtained from the page and section titles, removing all "special" characters
+** @[[art:]]@ points to the main wiki page of _art_ Redmine project: [[art:]] (@[[art:|art wiki]]@ typesets the specified label: [[art:|art wiki]])
+** @[[FNAL Redmine tricks]]@ points to this wiki page: [[FNAL Redmine tricks]] (@[[FNAL Redmine tricks|tricks]]@ typesets the specified label: [[FNAL Redmine tricks|tricks]])
+** @[[FNAL Redmine tricks#References to other redmine locations]]@ points to this paragraph: [[FNAL Redmine tricks#References to other redmine locations]] (label syntax available as above)
+** @[[art:Configuration validation and description]]@ points to a specific wiki page of the redmine project _art_: [[art:Configuration validation and description]] (label syntax available as above)
+* *projects*: @project:art@ renders as project:art
+* *versions*: versions are declared in the @Settings@ panel of a Redmine project
+** @version:v06_49_00@ renders as version:v06_49_00
+** @art:version:2.09.00@ renders as art:version:2.09.00
+
+h2. Custom macro test
+
+_(this is currently incorrect or not working)_
+
+macro :my_macro, :desc => &#39;This is a custom macro&#39; do |obj, args|
+  # args is an array
+  # and this macro does not accept a block of text
+end
+
+{{my_macro}}
+
+
+h2. Collapsing text
+
+The following macro creates a collapsible window with the specified text as short description.
+The extended text can contain macros; e.g.:
+<pre>{{collapse(View details...)
+  bq. {{child_pages}}
+  This is a block of text that is collapsed by default.
+  It can be expanded by clicking a link.
+}}</pre>
+
+{{collapse(View details...)
+  bq. {{child_pages}}
+  This is a block of text that is collapsed by default.
+  It can be expanded by clicking a link.
+}}
+
+
+h2. Mathematical formulas with LaTeX
+
+<pre>{{latex($\beta\tau\Theta\theta$)}}</pre>
+
+bq. {{latex($\beta\tau\Theta\theta$)}}
+
+h2. Other tricks with LaTeX
+
+Today&#39;s date:
+<pre>{{latex(\today)}}</pre>
+
+{{latex(\today)}}
+
+Minutes since midnight: 
+<pre>{{latex(\the\time)}}</pre>
+
+{{latex(\the\time)}}
+
+Note: The above do not seem to consistently update when the page is edited.
+
+h2. DOT graphs
+
+This seems not to work...
+<pre>{{graphviz( a -> b ;)}}</pre>
+
+bq. {{graphviz( a -> b ;)}}
+
+
+h2. List of supported macros
+
+The following list can be rendered by running the @{{macro_list}}@ macro:
+
+--- 
+
+{{macro_list}}
+
+---

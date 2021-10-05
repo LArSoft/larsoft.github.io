@@ -1,0 +1,46 @@
+
+h1. LArSoft v02_05_01 Release Notes
+
+[[LArSoft_release_list|list of LArSoft releases]]
+
+h2. larsoft v02_05_01
+
+* 2014-08-14  Lynn Garren : for larsoft v02_05_01
+
+h2. lareventdisplay v02_05_01
+
+* 2014-08-14  Lynn Garren : for larsoft v02_05_01
+
+h2. larexamples v02_05_01
+
+* 2014-08-14  Lynn Garren : for larsoft v02_05_01
+
+h2. larpandora v02_05_01
+
+* 2014-08-14  Andrew Blake : Quick protection against flip-flopping between two degenerate solutions in splitting/merging algorithm. Just bail out after 100 iterations.
+* 2014-08-14  Wesley Ketchum : fix suggested by John M. and Andy B. to keep from passing in unavailable clusters
+
+h2. larana v02_05_01
+
+* 2014-08-14  Lynn Garren : for larsoft v02_05_01
+
+h2. larreco v02_05_01
+
+* 2014-08-14  Lynn Garren : for larsoft v02_05_01
+
+h2. larsim v02_05_01
+
+* 2014-08-14  Lynn Garren : for larsoft v02_05_01
+
+h2. larevt v02_05_01
+
+* 2014-08-14  Lynn Garren : for larsoft v02_05_01
+
+h2. lardata v02_05_01
+
+* 2014-08-14  Tingjun Yang : temporarily put back argoneut_larfft for lbne event display, will clean up fcl later
+
+h2. larcore v02_05_01
+
+* 2014-08-13  Gianluca Petrillo : geo::Wire::GetCenter() sped up; adding GetStart() and GetEnd()
+

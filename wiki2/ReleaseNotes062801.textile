@@ -1,0 +1,92 @@
+
+h1. LArSoft v06_28_01 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v06_28_01":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_28_01/larsoft-v06_28_01.html
+Download instructions for "just larsoftobj v1_14_00":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_14_00/larsoftobj-v1_14_00.html
+
+h2. Purpose
+
+* changes to develop since v06_28_00
+
+h2. New features
+
+h2. Bug fixes
+
+h2. Updated dependencies
+
+h1. Change List
+
+h2. larsoft v06_28_01
+
+* 2017-03-21  Lynn Garren : larsoft v06_28_01 for larsoft v06_28_01
+* 2017-03-21  Lynn Garren : update product versions
+
+h2. lareventdisplay v06_03_02
+
+* 2017-03-21  Lynn Garren : lareventdisplay v06_03_02 for larsoft v06_28_01
+
+h2. larexamples v06_01_18
+
+
+
+h2. larpandora v06_08_04
+
+* 2017-03-21  Lynn Garren : larpandora v06_08_04 for larsoft v06_28_01
+
+h2. larwirecell v06_01_00
+
+
+
+h2. larana v06_03_22
+
+* 2017-03-21  Lynn Garren : larana v06_03_22 for larsoft v06_28_01
+
+h2. larreco v06_22_01
+
+* 2017-03-21  Lynn Garren : larreco v06_22_01 for larsoft v06_28_01
+* 2017-03-20  Robert Sulej : split example configurations so each applicationhas its own file, should be easier to follow
+* 2017-03-19  Robert Sulej : Merge branch &#39;develop&#39; of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
+* 2017-03-19  Robert Sulej : more convenient directory names for data sets
+
+h2. larsim v06_14_00
+
+
+
+h2. larevt v06_07_12
+
+
+
+h2. lardata v06_16_00
+
+
+
+h2. larcore v06_06_00
+
+
+
+h2. larpandoracontent v03_02_00
+
+
+
+h2. larsoftobj v1_14_00
+
+
+
+h2. lardataobj v1_13_01
+
+
+
+h2. larcoreobj v1_08_00
+
+
+
+h2. larbatch v01_28_00
+
+
+
+h2. larutils v1_12_01
+
+

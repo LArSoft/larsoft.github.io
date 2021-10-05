@@ -1,0 +1,90 @@
+
+h1. LArSoft v05_01_01 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+"Download instructions":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_01_01/larsoft-v05_01_01.html
+
+h2. Purpose
+
+* fixes for genie 2.10.4
+
+h2. New features
+
+* larana feature/tjyang_crhitremovalupdate
+** CRHitRemoval_module.cc removes cosmic ray hits and creates a new list of hits. However, it does not create hit-wire and hit-rawdigit associations, which causes problems for some use cases.
+** CRHitRemoval_module.cc has been modified to add hit-wire and hit-rawdigit associations.
+
+h2. Bug fixes
+
+* larsim genie.fcl updated with appropriate information for genie 2.10.4
+** see #11794
+
+h2. Updated dependencies
+
+| Product | Version | Qualifiers | Notes |
+| nutools | v1_23_01 | e9 |  #11794 |
+| genie | v2_10_4a | e9:r5 | includes gevgen_fnal executable |
+| cetbuildtools | v4_18_03 |  | #11708 |
+
+
+h1. Change List
+
+h2. larsoft v05_01_01
+
+* 2016-02-24  Lynn Garren : larsoft v05_01_01 for larsoft v05_01_01
+* 2016-02-24  Lynn Garren : genie v2_10_4a
+* 2016-02-24  Lynn Garren : add cetbuildtools v4_18_03
+* 2016-02-24  Lynn Garren : update product versions
+* 2016-02-24  Lynn Garren : update dependency database
+* 2016-02-19  Lynn Garren : larsoft v05_01_00
+* 2016-02-18  Gianluca Petrillo : Added heuristics to UpdateCoreServices.py not to warn about members moved from LArProperties to DetectorProperties when it is believed that the code has been already fixed. Works fairly well except on lardata.
+
+h2. lareventdisplay v05_01_01
+
+* 2016-02-24  Lynn Garren : lareventdisplay v05_01_01 for larsoft v05_01_01
+
+h2. larexamples v05_00_03
+
+* 2016-02-24  Lynn Garren : larexamples v05_00_03 for larsoft v05_01_01
+
+h2. larpandora v05_00_03
+
+* 2016-02-24  Lynn Garren : larpandora v05_00_03 for larsoft v05_01_01
+
+h2. larana v05_01_00
+
+* 2016-02-24  Lynn Garren : larana v05_01_00 for larsoft v05_01_01
+* 2016-02-20  Tingjun Yang : Add hit-wire and hit-rawdigit associaitons.
+
+h2. larreco v05_01_01
+
+* 2016-02-24  Lynn Garren : larreco v05_01_01 for larsoft v05_01_01
+* 2016-02-24  Jonathan Davies : Fixing bug in RawHitFinder which was causing raw adcs to not be filled when the Compression Type was set to kNone
+
+h2. larsim v05_00_03
+
+* 2016-02-24  Lynn Garren : larsim v05_00_03 for larsoft v05_01_01
+* 2016-02-23  Lynn Garren : changes for genie v2_10_4
+
+h2. larevt v05_00_03
+
+* 2016-02-24  Lynn Garren : larevt v05_00_03 for larsoft v05_01_01
+
+h2. lardata v05_01_01
+
+* 2016-02-24  Lynn Garren : lardata v05_01_01 for larsoft v05_01_01
+
+h2. larcore v05_00_01
+
+
+
+h2. larbatch v01_20_04
+
+
+
+h2. larutils v1_05_02
+
+
+

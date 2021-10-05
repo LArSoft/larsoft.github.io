@@ -1,0 +1,100 @@
+
+h1. LArSoft v05_03_00_rc1 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+"Download instructions":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_03_00_rc1/larsoft-v05_03_00_rc1.html
+
+h2. Purpose
+
+* use geant4 10.1.p03
+** This release candidate is on branch v05_03_00_rc
+** There is also a v05_03_00_rc branch and v05_03_00_rc1 tag for argoneutcode, dunetpc, lariatsoft, and uboonecode.
+
+h2. New features
+
+* use geant4 10.1.p03
+
+h2. Bug fixes
+
+* The gdml files and the scripts that generate them declare density units to be either "g/cm3" or "g/cc".  However, geant4 only recognizes "g/cm3".  With geant4 10.1.p03, density values declared as "g/cc" are set to zero and a warning is issued.  We have replaced "g/cc" with "g/cm3" in the v05_03_00_rc branch of larcore, dunetpc, lariatsoft, and uboonecode.
+
+
+h2. Updated dependencies
+
+| Product | Version | Qualifiers | Notes |
+| geant4 | v4_10_1_p03 | e9 |  |
+| nutools | v1_24_00 | e9 |  |
+|  g4emlow      |        v6_41 |  |  |
+| g4neutron     |       v4_5 |  |  |
+| g4neutronxs   |       v1_4 |  |  |
+| g4photon      |       v3_1 |  |  |
+| g4radiative   |       v4_2  |  |  |
+
+
+h1. Change List
+
+h2. larsoft v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : for geant4 10.1.p03
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+* 2016-03-09  Lynn Garren : Merge branch &#39;feature/lg_for_geant4_10&#39; into v05_03_00_rc
+* 2016-03-04  Lynn Garren : v05_30_00_rc for geant4 10.1.p03
+
+h2. lareventdisplay v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+* 2016-03-09  Lynn Garren : Merge branch &#39;feature/lg_for_geant4_10&#39; into v05_03_00_rc
+* 2016-03-04  Lynn Garren : v05_30_00_rc for geant4 10.1.p03
+
+h2. larexamples v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+
+h2. larpandora v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+
+h2. larana v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+* 2016-03-09  Lynn Garren : Merge branch &#39;feature/lg_for_geant4_10&#39; into v05_03_00_rc
+* 2016-03-04  Lynn Garren : v05_30_00_rc for geant4 10.1.p03
+
+h2. larreco v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+
+h2. larsim v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+* 2016-03-09  Lynn Garren : Merge branch &#39;feature/lg_for_geant4_10&#39; into v05_03_00_rc
+* 2016-03-04  Lynn Garren : v05_30_00_rc for geant4 10.1.p03
+* 2016-03-02  Lynn Garren : try to match updated interfaces
+* 2016-03-02  Lynn Garren : need to defined the physics vector
+* 2016-03-02  Lynn Garren : can also use aParticleIterator here
+* 2016-03-02  Lynn Garren : here we can use aParticleIterator
+
+h2. larevt v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+* 2016-03-09  Lynn Garren : Merge branch &#39;feature/lg_for_geant4_10&#39; into v05_03_00_rc
+* 2016-03-04  Lynn Garren : v05_30_00_rc for geant4 10.1.p03
+
+h2. lardata v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+* 2016-03-09  Lynn Garren : Merge branch &#39;feature/lg_for_geant4_10&#39; into v05_03_00_rc
+* 2016-03-04  Lynn Garren : v05_30_00_rc for geant4 10.1.p03
+* 2016-03-04  Lynn Garren : Merge branch &#39;develop&#39; into feature/lg_for_geant4_10
+* 2016-03-02  Lynn Garren : use nutools v1_24_00 with geant4 v4_10_1_p03
+
+h2. larcore v05_03_00_rc1
+
+* 2016-03-10  Lynn Garren : v05_03_00_rc1 for geant4 10.1.p03
+* 2016-03-09  Lynn Garren : the correct units are g/cm3, not g/cc
+* 2016-03-04  Lynn Garren : v05_30_00_rc for geant4 10.1.p03
+* 2016-03-02  Lynn Garren : do not define GDML_SCHEMA_DIR here
+
+

@@ -1,0 +1,85 @@
+
+h1. LArSoft v05_14_01 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+"Download instructions":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_14_01/larsoft-v05_14_01.html
+
+h2. Purpose
+
+* updates to develop since v05_14_00
+
+h2. New features
+
+* larexamples/gp_Example
+
+h2. Bug fixes
+
+h2. Updated dependencies
+
+h1. Change List
+
+h2. larsoft v05_14_01
+
+* 2016-07-06  Patrick Gartung : revert larbatch version
+* 2016-07-06  Patrick Gartung : update product versions
+* 2016-07-06  Patrick Gartung : larsoft v05_14_01 for larsoft v05_14_01
+* 2016-07-06  Patrick Gartung : update dependency database
+
+h2. lareventdisplay v05_07_04
+
+* 2016-07-06  Patrick Gartung : lareventdisplay v05_07_04 for larsoft v05_14_01
+
+h2. larexamples v05_08_00
+
+* 2016-07-06  Patrick Gartung : larexamples v05_08_00 for larsoft v05_14_01
+* 2016-07-05  Gianluca Petrillo : Converted test to use StopWatch class from larcore/TestUtils .
+* 2016-07-05  Gianluca Petrillo : Documentation fixes
+* 2016-07-05  Gianluca Petrillo : File documentation now in Doxygen format
+* 2016-07-05  Gianluca Petrillo : Updated AnalysisExample.
+* 2016-06-30  Gianluca Petrillo : Merge branch &#39;feature/gp_ServiceExample&#39; into develop
+* 2016-06-30  Gianluca Petrillo : Merge remote-tracking branch &#39;origin/develop&#39; into feature/gp_ServiceExample
+* 2016-06-28  Gianluca Petrillo : Merge remote-tracking branch &#39;origin/develop&#39; into feature/gp_ServiceExample
+* 2016-06-24  Gianluca Petrillo : Intermediate commit
+
+h2. larpandora v05_09_09
+
+* 2016-07-06  Patrick Gartung : larpandora v05_09_09 for larsoft v05_14_01
+
+h2. larana v05_09_06
+
+* 2016-07-06  Patrick Gartung : larana v05_09_06 for larsoft v05_14_01
+
+h2. larreco v05_13_01
+
+* 2016-07-06  Patrick Gartung : larreco v05_13_01 for larsoft v05_14_01
+
+h2. larsim v05_14_01
+
+* 2016-07-06  Patrick Gartung : larsim v05_14_01 for larsoft v05_14_01
+
+h2. larevt v05_07_04
+
+* 2016-07-06  Patrick Gartung : larevt v05_07_04 for larsoft v05_14_01
+
+h2. lardata v05_09_02
+
+* 2016-07-06  Patrick Gartung : lardata v05_09_02 for larsoft v05_14_01
+* 2016-06-29  Gianluca Petrillo : Added utility class to manage multi-dimension containers
+
+h2. larcore v05_08_02
+
+* 2016-07-06  Patrick Gartung : larcore v05_08_02 for larsoft v05_14_01
+* 2016-07-05  Gianluca Petrillo : Added StopWatch class to measure time intervals.
+
+h2. larbatch v01_22_01
+
+
+
+h2. larutils v1_06_05
+
+* 2016-07-06  Patrick Gartung : larutils v1_06_05 for larsoft v05_14_01
+* 2016-07-06  Patrick Gartung : larutils v1_06_05 for larsoft v05_14_01
+* 2016-07-04  Lynn Garren : update for latest releases
+

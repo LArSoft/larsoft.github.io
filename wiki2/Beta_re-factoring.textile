@@ -1,0 +1,71 @@
+
+h1. Beta re-factoring
+
+Note:  svn snapshot taken at revision 5127
+
+Note:  these "completed" steps might need to be repeated
+They are not currently included in the scripts. 
+
+* Create lbnecode package. Attach to lbnecode repository
+* Create lbne/Geometry/gdml
+* Add LBNEGeometryHelper* to lbnecode/lbne/Geometry (from svn version)
+  Make changes noted in the files
+* Add add_subdirectory(lbne) to lbnecode/CMakeLists.txt
+
+* Create uboonecode package. Attach to uboonecode repository
+* Create uboone/Geometry/gdml
+* Add add_subdirectory(uboone) to uboone/CMakeLists.txt
+* Add approp CMakeLists.txt files to uboone/Geometry, uboone/Geometry/gdml,     
+
+
+Need to:
+* Update all top-level package CMakeList files 
+
+All git moves for the following content is scripted on the link at the bottom of this page, except installation of ExptGeoHelperInterface. No file contents are altered by the move scripts. The removes are not yet scripted because sample files need to be made first. Defer deletion until the end.
+
+* In larcore:
+** Install ExptGeoHelperInterface.h in larcore/Geometry
+** Update Geometry.h, Geometry_service.cc to use ExptGeoHelperInterface.h
+** Move LBNE gdml and gdml/lbne files into lbnecode/lbne/Geometry/gdml
+*** Keep example copies in larcore
+** Move LBNE fcl files into lbnecode/lbne/Geometry/*
+*** Keep example copies in larcore
+*** Check/update include paths for moved files
+** Move uB gdml and gdml/microboone/* files into uboonecode/uboone/Geometry/gdml
+*** Keep sample copies in larcore
+** Move uB fcl files into uboonecode/uboone/Geometry/*
+*** Keep sample copies in larcore
+*** Check/update include paths for moved files
+
+* In lardata:
+** Move RawData/utils/LArRawInputDriverUBooNE* and RawData/utils/boonetypes.h to uboonecode/uboone/RawData/utils/ . Update include paths.
+** Move Utilities/SignalShapingServiceLBNE* to lbnecode/lbne/Utilities/
+*** Update include paths.
+*** Include paths in larevt/CalData and larsim/DetSim/SimWireLBNE*
+** Move Utilities/SignalShapingServiceMicroBooNE* to uboonecode/uboone/Utilities/
+*** Update include paths.
+*** Include paths in larevt/CalData/CalWireMicroBooNE_module.cc and larsim/DetSim/SimWireMicroBooNE_module.cc
+** Copy sample Utilities/*lbne*fcl and Utilities/*microboone*fcl and *uboone*fcl variants to 
+   Utilities with "sample" name appended.
+   Move Utilities/*lbne*fcl to lbnecode/lbne/Utilities
+   Check/update include paths
+** Move Utilities/*microboone*fcl and Utilities/*uboone*fcl to uboonecode/uboone/Utilities/
+   Check/update include paths
+** Move Utilities/*lbne*fcl and Utilities/*uboone*fcl and Utilities/*microboone* as appropriate.
+*** Check fcl include paths.
+
+
+* In larevt:
+** Move CalData/CalWire*LBNE* to lbnecode/lbne/CalData/
+*** Update include paths
+** Move CalData/CalWire*MicroBooNE* to uboonecode/uboone/CalData
+*** Update include paths
+** Move directory CalData/MicrobooneResponseFile to uboonecode/uboone/CalDadta/MicrobooneResponseFile/
+*** Update include paths (including for fcl files)
+
+
+[[Beta re-factoring scripts]]
+
+
+
+

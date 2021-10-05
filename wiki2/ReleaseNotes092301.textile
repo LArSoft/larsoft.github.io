@@ -1,0 +1,119 @@
+
+h1. LArSoft v09_23_01 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v09_23_01":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_23_01/larsoft-v09_23_01.html
+Download instructions for "just larsoftobj v09_05_03":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_03/larsoftobj-v09_05_03.html
+
+h2. Purpose
+
+* hot fix
+
+h2. New features
+
+h2. Bug fixes
+
+* The larsoft v09_23_00 product stack did not include libtorch v1_6_0b.  Therefore, the larpandoracontent libLArPandoraDLContent.so library was not built.  That problem is fixed in this release.  
+
+h2. Updated dependencies
+
+* mrb v4_04_03
+** find nusystematics and systematicstools in LArSoft github
+
+h1. Change List
+
+h2. larsoft v09_23_01
+
+* 2021-05-20  Lynn Garren : larsoft v09_23_01 for larsoft v09_23_01
+* 2021-05-20  Lynn Garren : mrb v4_04_03
+* 2021-05-20  Lynn Garren : nulite v3_09_02d with triton, tensorflow, and libtorch
+
+h2. lareventdisplay v09_01_09
+
+
+
+h2. larexamples v09_01_09
+
+
+
+h2. larpandora v09_05_12
+
+* 2021-05-20  Lynn Garren : larpandora v09_05_12 for larsoft v09_23_01
+
+h2. larsimrad v09_01_09
+
+
+
+h2. larrecodnn v09_07_00
+
+
+
+h2. larwirecell v09_02_07
+
+
+
+h2. larana v09_02_05
+
+
+
+h2. larreco v09_06_05
+
+
+
+h2. larsim v09_13_02
+
+
+
+h2. larg4 v09_03_06
+
+
+
+h2. larevt v09_02_05
+
+
+
+h2. lardata v09_02_03
+
+
+
+h2. larcore v09_02_01
+
+
+
+h2. larpandoracontent v03_22_11_01
+
+* 2021-05-20  Lynn Garren : larpandoracontent v03_22_11_01 for larsoft v09_23_01
+
+h2. larsoftobj v09_05_03
+
+
+
+h2. lardataobj v09_01_02
+
+
+
+h2. lardataalg v09_04_03
+
+
+
+h2. larcorealg v09_01_01
+
+
+
+h2. larcoreobj v09_02_00
+
+
+
+h2. webevd v09_05_04
+
+
+
+h2. larbatch v01_56_01
+
+
+
+h2. larutils v1_28_00
+
+

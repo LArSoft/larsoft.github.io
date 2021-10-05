@@ -1,0 +1,39 @@
+
+h1. How to tag and build a LArSoft vx_yy_zz release
+
+{{>TOC}}
+
+Builds are made with Jenkins, and tagging is done on a local development machine.  The instructions presume that the local development machine has products installed in /products.  If the products are installed elsewhere, use that directory.
+
+We are using a procedure that mimics git flow instead of using it directly.
+
+Guiding philosophy: the code should build consistently before the tagging process starts.  This means that we make a test build first and commit fixes to develop if necessary.   We are also now running the quick CI tests locally.
+
+h2(count). [[Overview of Building a LArSoft Release]]
+
+h2(count). [[Informal list of experiment contacts]]
+
+h2(count). Archival instructions for working with redmine repositories.
+
+Although these instructions are archival, much of the information remains relevant.
+
+h3(count). [[Overview of Building a LArSoft Release from redmine]]
+
+h3(count). [[LArSoft Release Build Preliminary Steps]]
+
+h3(count). [[Create a Working Branch]]
+
+h3(count). [[Update versions]]
+
+h3(count). [[Run the quick CI tests]]
+
+h3(count). [[Create Tags for a LArSoft Release Build]]
+
+h3(count). [[LArSoft Release Official Build]]
+
+h3(count). [[Install for cvmfs]]
+
+h3(count). [[LArSoft Release Final Steps]]
+
+h3(count). [[Special Instructions for Major Releases]]
+

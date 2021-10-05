@@ -1,0 +1,156 @@
+
+{{>toc}}
+
+h1. LArSoftWiki
+
+
+
+The LArSoft software is designed to work for all planned and running liquid argon experiments at Fermilab. It is written in C++ and built on the "ROOT":http://root.cern.ch data analysis software, and the "art":https://cdcvs.fnal.gov/redmine/projects/artdaq analysis framework supported by the Fermilab Scientific Computing Division for intensity frontier experiments.
+
+  * *[[ Quick-start guide to using and developing LArSoft code ]]*
+
+h1. Preliminaries
+
+
+* Fermilab computing accounts:  see the [[larsoftsvn:Fermilab Computing Access]] page if you need an account.
+* See [[larsoftsvn:Load Balanced Access to General Purpose VMs]] for information on accessing experiment VMs at Fermilab (e.g., lbnegpvm0X, uboonegpvm0X, etc., collectively known as GPCF.).
+* See the "documentation section":https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/LArSoftWiki#Documentation for information on working with LArSoft, and using git, git flow, mrb and other tools you will need.
+* *[[ Supported platforms ]]*
+* To join the LArSoft mailing list, please follow "these instructions":http://listserv.fnal.gov/users.asp#subscribe%20to%20list using the list name LARSOFT
+* To get write access to the repositories, send email to rs@fnal.gov, echurch@fnal.gov, greenlee@fnal.gov, trj@fnal.gov.
+
+h2. Where to find the software
+
+* [[ LArSoft repositories, packages and dependencies | What are the repository names and what is in them?]]
+* LArSoft module [[ moduleAuthors | authors ]] and [[Librarians|librarians]]
+* [[ The Fermilab core LArSoft installation | The core LArSoft installation at Fermilab ]]
+* [[ Experiment-specific code and re-factoring ]]
+* [[ Sub-package locations ]] (e.g., in which repository can I find the @HitFinder@ sub-package?)
+* [[ Download instructions ]]
+* [[ LArSoft cvmfs ]]
+
+h3. "LArSoft Doxygen":http://nusoft.fnal.gov/larsoft/doxsvn/html/index.html - comments in the code are incorporated into documentation by "Doxygen":http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html
+
+h1. Releases
+
+[[LArSoft release list|List of LArSoft releases.]] (Temporarily includes lbnecode and uboonecode)
+[[LArSoft release management]] (instructions for the release manager)
+[[Breaking Changes]] (or "after the update my code shows 179 compiling errors! HEEELP!!")
+
+
+h1. Documentation
+
+h2. Overview of the user and developer environment
+
+* [[ The user environment ]] 
+* [[ The developer environment ]]
+
+
+
+h2. Working with LArSoft
+
+h3. How to use the repositories and the build system
+
+  * *[[ Quick-start guide to using and developing LArSoft code ]]*
+  * [[ LArSoft repositories, packages and dependencies ]]
+  * [[The rules and guidelines|Coding guidelines]] 
+
+h3. The framework and the LArSoft suite
+
+  * [[larsoftsvn:Using the Framework]]
+  * "ART Tutorial":http://oink.fnal.gov/
+  * [[larsoftsvn:NuSoft and LArSoft|nutools and LArSoft]]
+  * [[Using LArSoft on the GPVM nodes]]
+  * [[larsoftsvn:Package Documentation]]
+  * [[larsoftsvn:Geometry]]
+  * [[larsoftsvn:Reconstruction]]
+  * [[larsoftsvn:Simulation]]
+  * [[larsoftsvn:Space Points]]
+  * [[larsoftsvn:Seed Finding and Bezier Tracking]]
+  * [[larsoftsvn:Optical Simulations]]
+
+  * "Past LArSoft meeting presentations -- A wealth of physics/technical information (some of which may be out of date since the transition to git / mrb / ups).":https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/documents
+
+
+
+
+h2. Links to the tools used to work with the software
+
+git and git flow:
+* [[cet-is-public:git flow quick start]] (edited 2/4/2013).
+* [[cet-is-public:GitTipsAndTricks|Git Tips and Tricks]] (Note that "git help" works, but "man git" and "git help <command>" does not on any of the gpvm machines. Nor do any of the "git <command> -h" commands.) For the purposes of LArSoft development, please please ignore the workflow advice as anything other than an example of how to use various git commands to do specific tasks.
+
+Understanding CMakeLists.txt and product_deps files
+* [[cet-is-public:Cetbuildtools cmake modules]]:  such as @cet_make@ and @cet_add_compiler_flags@. Used in @CMakeLists.txt@ files throughout LArSoft
+* [[cet-is-public:Art cmake modules]]: such as @art_make@ and @simple_plugin@. Used in @CMakeLists.txt@ files throughout LArSoft
+* [[cet-is-public:Defining products in the CET build environment]]: explains the @product_deps@ file
+* [[cet-is-public:AddingProductDependencies|Adding Product Dependencies]]: how to edit the @product_deps@ and @CMakeLists.txt@ files to add dependencies
+* [[cet-is-public:CodeTips|Various helpful tips for coding in the CET C++ environment]]: things you hope you never need to know
+* [[cet-is-public:Building your own code with cmake]]:  pointer to a _really_ simple example
+
+mrb and ups:
+*  mrb : the multi-repository build tool
+** "mrb reference guide":https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbRefereceGuide
+** mrb calls @buildtool@ (from the @cetbuildtools@ product) to perform the build. "Documentation for buildtool":https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/Buildtool_script
+*  "Re-locatable" ups. (Documentation in preparation)
+* [[cet-is-public:AboutQualifiers|About qualifiers]]:  the things after "-q" in setup <prod> <ver> -q <qual>
+
+
+h1. How-to
+
+* [[ AnalysisExample | Getting started with an analysis task ]]
+* [[ Running Jobs ]]
+
+
+h2. Advanced technical how-to&#39;s
+
+h2. Release procedures
+
+h2. [[ LArSoft cvmfs ]]
+
+
+h1. Walk-through exercises
+
+h1. LArSoft code management and distribution
+
+* [[Adding / removing users]]
+* [[Admin scripts]]
+* [[LArSoft release management]] 
+* [[LArSoft release naming policy]]
+* [[Procedure to create a new version of larsoft_data]]
+* [[Installation procedures]]
+* [[Nightly builds]]
+* [[Integration build and test system]]
+* [[Release notes template]]
+
+h1. [[LArSoft continuous integration system]]
+
+h1. Legacy Redmine project sites
+
+These were the sites used when LArSoft was developed under cvs and svn + SoftRelTools, respectively:
+
+[[larsoft-cvs:| LArSoft-cvs wiki for the legacy cvs-based LArSoft project]]
+[[larsoftsvn:| LArSoft-svn wiki for the legacy svn-based LArSoft project]]
+
+As of Jan 24, 2014, LArSoft transitioned from svn / SRT to git / mrb / ups, but we retain the legacy projects for historical reasons.
+
+h1. Working areas
+
+
+[[ Detailed documentation on using and developing LArSoft code ]] : under development -- not a resource
+
+[[ Draft quick start revisions ]]
+
+[[ Profiling LArSoft ]]
+
+[[Random number generators in art]]
+
+[[Debugging LArSoft]]
+
+Old pages that are no longer relevant or maintainted:
+
+* [[Beta re-factoring]]
+* *Beta testers:  [[ Special instructions for beta testers | read this first ]]*
+* *[[ Special instructions for beta testers ]]*
+* [[LArSoft production transition timeline|Timeline for the production migration to git / mrb / ups]]
+* [[ Production transition checklist ]]

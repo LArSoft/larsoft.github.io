@@ -1,0 +1,124 @@
+
+h1. LArSoft v08_62_01 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v08_62_01":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_62_01/larsoft-v08_62_01.html
+Download instructions for "just larsoftobj v08_29_03":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_03/larsoftobj-v08_29_03.html
+
+h2. Purpose
+
+* changes in develop
+* approved PRs
+
+h2. New features
+
+h2. Bug fixes
+
+* larreco PR 17
+** Protect against matrix invert failure for ArgoNeuT
+
+h2. Updated dependencies
+
+* pandora v03_15_00a
+
+h1. Change List
+
+h2. larsoft v08_62_01
+
+* 2020-08-14  Lynn Garren : larsoft v08_62_01 for larsoft v08_62_01
+* 2020-08-14  Lynn Garren : product versions
+* 2020-08-07  Lynn Garren : nulite v3_07_02b
+
+h2. lareventdisplay v08_12_26
+
+* 2020-08-14  Lynn Garren : lareventdisplay v08_12_26 for larsoft v08_62_01
+
+h2. larexamples v08_06_25
+
+
+
+h2. larg4 v08_15_00
+
+
+
+h2. larpandora v08_13_06
+
+* 2020-08-14  Lynn Garren : larpandora v08_13_06 for larsoft v08_62_01
+
+h2. larsimrad v08_00_03
+
+
+
+h2. larrecodnn v08_06_06
+
+* 2020-08-14  Lynn Garren : larrecodnn v08_06_06 for larsoft v08_62_01
+
+h2. larwirecell v08_12_17
+
+
+
+h2. larana v08_17_18
+
+* 2020-08-14  Lynn Garren : larana v08_17_18 for larsoft v08_62_01
+
+h2. larreco v08_32_11
+
+* 2020-08-14  Lynn Garren : larreco v08_32_11 for larsoft v08_62_01
+* 2020-08-14  Lynn Garren : Merge pull request #17 from brballer/develop
+* 2020-08-13  Bruce Baller : Back out product_deps
+* 2020-08-12  Bruce Baller : Add try-catch around matrix invert in PFPUtils. Remove call to unused function ChkEndKink.
+
+h2. larsim v08_33_00
+
+
+
+h2. larevt v08_12_01
+
+
+
+h2. lardata v08_15_10
+
+
+
+h2. larcore v08_11_10
+
+
+
+h2. larpandoracontent v03_19_02
+
+* 2020-08-14  Lynn Garren : larpandoracontent v03_19_02 for larsoft v08_62_01
+* 2020-08-14  Lynn Garren : larpandoracontent v03_19_02 with pandora v03_15_00a
+
+h2. larsoftobj v08_29_03
+
+
+
+h2. lardataobj v08_11_03
+
+
+
+h2. lardataalg v08_13_15
+
+
+
+h2. larcorealg v08_22_02
+
+
+
+h2. larcoreobj v08_12_01
+
+
+
+h2. webevd v08_01_00
+
+
+
+h2. larbatch v01_52_02
+
+
+
+h2. larutils v1_26_01
+
+

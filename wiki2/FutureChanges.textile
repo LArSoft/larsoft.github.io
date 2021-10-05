@@ -1,0 +1,23 @@
+
+h1. Changes Expected for Future Releases
+
+These are short term plans.
+
+LArSoft "pull requests":https://github.com/orgs/LArSoft/projects/2
+
+h2. Week of Sept. 27
+
+h2. Coming soon
+
+*  ifdhc v2_5_15
+**  fix for token support (not yet in use by larsoft, we think)
+
+
+
+h2. Cleanup 
+
+* remove all releases prior to the v06 series, including production
+* retain v03_08_02 for SBND
+* retain v05_14_00 for DUNE
+* retain v05_08_00_01 for MicroBooNE
+

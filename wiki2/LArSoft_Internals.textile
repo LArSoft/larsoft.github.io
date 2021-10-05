@@ -1,0 +1,88 @@
+
+h1. LArSoft Internals
+
+{{>toc}}
+
+h2(count). LArSoft code management and distribution
+
+* [[Adding / removing users]]
+* [[Admin scripts]]
+* [[LArSoft release management]] 
+** [[How_to_tag_and_build_a_LArSoft_vx_yy_zz_release|How to tag and build a normal LArSoft vxx_yy_zz release]]
+** [[How to tag and build a LArSoft patch release]]
+** [[Installing products on cvmfs]]
+* [[Informal list of experiment contacts]]
+* [[Policy for development from a tagged release]]
+* [[Procedure to create a new version of larsoft_data|Procedure to create a new version of larsoft_data, uboone_data, etc.]]
+* [[Installation procedures]]
+* [[LArSoft cvmfs]]
+* [[Nightly builds]] (no longer done)
+
+h2(count). Repository cleanup
+
+* [[Removing old feature branches]]
+* [[Removing old history]]
+
+h2(count). Truncating commit history
+
+* [[Truncating commit history at svn to git transition]]
+
+h2(count). who does what
+
+[[What Lynn does]]
+
+h2(count). Pages to update and move
+
+Some pages in LArSoft have a combination of useful and out-of-date information. It would be good to at least remove the out-of-date material, even better would be to update it. The following is a list. Feel free to revise any of the pages and suggest where they should go. (Note, some information may belong partly on larsoft.org and partly in redmine.)
+  
+* [[Using LArSoft on the GPVM nodes]] - review and update (and place in [[Developing with LArSoft]]  or [[Using LArSoft]])
+* [[larsoft:Package Documentation]] - out of date?
+* [[larsoft:Geometry]] - should this be split between "larsoft.org":http://larsoft.org/important-concepts-in-larsoft/geometry/ and [[Developing with LArSoft]] could be under Designing, or under Examples.
+* [[larsoft:Reconstruction]] - merge into larsoft.org?
+* [[larsoft:Simulation]] - update code references, split?
+* [[larsoft:Space Points]] - out of date?
+* [[larsoftsvn:Seed Finding and Bezier Tracking]] - look at legacy info, maybe delete, or find owner?
+* [[larsoftsvn:Optical Simulations]] - - look at legacy info, update, split?
+* [[dependencies]] 
+
+
+h2(count). [[FNAL Redmine tricks]]
+
+h2(count). Ongoing Projects
+
+[[Architecture revision]]
+* [[Data products architecture and design]]
+** [[DataProductsArchitectureActionItems|action items]]
+* [[Data product revision (phase II)]]
+
+[[Usability improvements]]
+
+[[LArSoft License]]
+
+h2(count). Code cleanup
+
+* [[Services and modules scheduled for removal]]
+
+h2(count). Completed Projects
+
+[[Building with clang]]
+[[Migration to root 6]]
+
+h2(count). LArSoft code analysis 
+
+* "Code analysis process":https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Code_analysis_process_and_tools
+* [[Code and Performance analysis tools]]
+* [[PMA module code analysis]]
+
+h2(count). Profiling tests
+
+* [[ProtoDUNE and DUNE Far Detector simulation and reconstruction workflows (v06_57_00)]]
+
+h2(count). Legacy Redmine project sites
+
+These were the sites used when LArSoft was developed under cvs and svn + SoftRelTools, respectively:
+
+[[larsoft-cvs:| LArSoft-cvs wiki for the legacy cvs-based LArSoft project]]
+[[larsoftsvn:| LArSoft-svn wiki for the legacy svn-based LArSoft project]]
+
+As of Jan 24, 2014, LArSoft transitioned from svn / SRT to git / mrb / ups, but we retain the legacy projects for historical reasons.

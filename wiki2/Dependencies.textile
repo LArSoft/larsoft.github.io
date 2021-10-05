@@ -1,0 +1,33 @@
+
+h1. Dependencies
+
+
+Revising the chart
+<pre>
+
+larcoreobj <--------  larcorealg <------larcore
+       ^                   ^               ^
+       |    ^              |               |
+       |      \            |               |
+       |       \           |               |
+lardataobj <--------  lardataalg <------lardata
+       |      ^            ^               ^
+       |        \          |               |
+       |         \         |               |
+larevtobj <--------   larevtalg <------larevt
+                           ^               ^
+                           |               |
+                           |               |
+
+                       larsimalg <------larsim
+                                           ^
+                                           |
+                                           |
+
+                                         larreco
+
+</pre>
+
+Direction of arrow is direction of dependency.
+
+

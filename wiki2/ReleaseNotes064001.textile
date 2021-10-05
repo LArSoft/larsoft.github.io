@@ -1,0 +1,124 @@
+
+h1. LArSoft v06_40_01 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v06_40_01":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_40_01/larsoft-v06_40_01.html
+Download instructions for "just larsoftobj v1_21_00":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_21_00/larsoftobj-v1_21_00.html
+
+h2. Purpose
+
+* changes to develop since v06_39_00
+* ifdhc v2_0_8
+
+h2. New features
+
+* ifdhc and ifdhc_config v2_0_8: preferring file:/// paths to gsiftp:/// paths for bluearc volumes if fhey are mounted locally (we have gotten numerous complaints due to not having this in v2_x and various volumes having been unmounted from the bestman server) 
+
+h2. Bug fixes
+
+* ifdh_art: fix art_sam_wrap.sh
+
+
+h2. Updated dependencies
+
+
+| Product | Version | Qualifiers | Notes |
+| nutools | v2_14_01 | e14 | [[nutools:NuTools_Release_Notes#nutools-v2_14_01]] |
+| ifdhc   |  v2_0_8 | e14 | |
+| ifdh_art | v2_02_00 | e14:nu:s50 | fix for #16804 |
+
+
+h1. Change List
+
+h2. larsoft v06_40_01
+
+* 2017-06-14  Lynn Garren : larsoft v06_40_01 for larsoft v06_40_01
+* 2017-06-14  Lynn Garren : update for nutools v2_14_01
+
+h2. lareventdisplay v06_06_01
+
+* 2017-06-14  Lynn Garren : lareventdisplay v06_06_01 for larsoft v06_40_01
+
+h2. larexamples v06_04_01
+
+* 2017-06-14  Lynn Garren : larexamples v06_04_01 for larsoft v06_40_01
+
+h2. larpandora v06_13_01
+
+* 2017-06-14  Lynn Garren : larpandora v06_13_01 for larsoft v06_40_01
+
+h2. larwirecell v06_05_01
+
+* 2017-06-14  Lynn Garren : larwirecell v06_05_01 for larsoft v06_40_01
+
+h2. larana v06_07_01
+
+* 2017-06-14  Lynn Garren : larana v06_07_01 for larsoft v06_40_01
+
+h2. larreco v06_31_01
+
+* 2017-06-14  Lynn Garren : larreco v06_31_01 for larsoft v06_40_01
+* 2017-06-13  Lynn Garren : larsoft v06_40_00
+* 2017-06-13  Robert Sulej : add more of usually used parameters
+* 2017-06-13  Robert Sulej : add more plotting the cnn output
+* 2017-06-10  Robert Sulej : update and improve the script for displaying the network outputs
+* 2017-06-09  Robert Sulej : from now use one script for em-trk-michel-none and optionally remove michel labels for 3-class training
+* 2017-06-09  Robert Sulej : Merge branch &#39;develop&#39; of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
+* 2017-06-09  Robert Sulej : add calibration and noise testing configurations to example fcl files
+* 2017-06-09  Robert Sulej : add cluster index to information dumped with hits
+
+h2. larsim v06_24_01
+
+* 2017-06-14  Lynn Garren : larsim v06_24_01 for larsoft v06_40_01
+
+h2. larevt v06_14_01
+
+* 2017-06-14  Lynn Garren : larevt v06_14_01 for larsoft v06_40_01
+
+h2. lardata v06_22_01
+
+* 2017-06-14  Lynn Garren : lardata v06_22_01 for larsoft v06_40_01
+
+h2. larcore v06_10_00
+
+
+
+h2. larpandoracontent v03_07_01
+
+
+
+h2. larsoftobj v1_21_00
+
+
+
+h2. lardataobj v1_17_00
+
+
+
+h2. larcoreobj v1_14_00
+
+
+
+h2. larbatch v01_32_01
+
+
+
+h2. larutils v1_16_00
+
+* 2017-06-14  Lynn Garren : larutils v1_16_00 for larsoft v06_40_01
+* 2017-06-14  Herbert Greenlee : Revert to using official repo.
+* 2017-06-14  Herbert Greenlee : Revert to using official repo.
+* 2017-06-12  Herbert Greenlee : Fix repo name.
+* 2017-06-12  Herbert Greenlee : Switch to other repo.
+* 2017-06-12  Herbert Greenlee : Merge branch &#39;develop&#39; of ssh://cdcvs.fnal.gov/cvs/projects/larutils into develop
+* 2017-06-12  Herbert Greenlee : Switch to hbg fememulator.
+* 2017-06-09  Lynn Garren : fix typo
+* 2017-06-09  Lynn Garren : add s50
+* 2017-06-09  Lynn Garren : use version
+* 2017-06-09  Lynn Garren : Merge branch &#39;develop&#39; of ssh://cdcvs.fnal.gov/cvs/projects/larutils into develop
+* 2017-06-09  Lynn Garren : build larsoftobj by itself
+* 2017-06-09  Herbert Greenlee : Strip kernel minor version from os flavor for macos builds.
+* 2017-06-09  Herbert Greenlee : Echo $PRODUCTS.
+

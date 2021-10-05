@@ -1,0 +1,65 @@
+
+h1. cvmfs Migration Plan
+
+{{>TOC}}
+
+h2. Executive summary
+
+As has been noted, the time between when we install files into /grid/fermiapp/products/larsoft and when they appear on /cvmfs/fermilab.opensciencegrid.org/products/larsoft can be several hours because the files must first be copied via rsync to cvmfs and then published.  This time delay is problematic.
+
+We now have a dedicated larsoft cvmfs area: /cvmfs/larsoft.opensciencegrid.org, where we can install products directly onto cvmfs.  Releases will be announced after the cvmfs publish step, but there will still be some delay while the cvmfs staging collects the changes.
+
+Experiments will need to change their setup scripts to add /cvmfs/larsoft.opensciencegrid.org/products.  No other changes are necessary.  This is just a change in where the larsoft products are found.
+
+Recall that once "cvmfs is installed":https://opensciencegrid.github.io/docs/worker-node/install-cvmfs/, you should be able to access any cvmfs repository.
+
+h2. Releases to be installed 
+
+* We think that most people are either using a production release or a recent larsoft release.  
+* We plan to install the following releases in /cvmfs/larsoft.opensciencegrid.org/products
+** recent larsoft releases starting with v06_69_01
+** all v06 production releases
+** v05_14_00 for DUNE
+** v05_08_00_01 for MicroBooNE
+** v03_08_02 for SBND
+* Other releases may be installed upon request.
+
+h2. Production releases for /cvmfs/larsoft.opensciencegrid.org/products
+
+This is a short list.  The full list of releases is available [[LArSoft_release_list|here]].
+
+|_. LArSoft Production Release |_. LArSoftObj Release |_. Date |_. Purpose |_. Changes / notes |_. Full release notes |
+| future    |  |  |  | | [[FutureChanges|Changes Expected for Future Releases]] |
+| *v06_70_01_01* | v1_41_01 | 03/13/2018 |  | requested by SBND for SBN workshop | [[ReleaseNotes06700101|Release Notes]] |
+| *v06_26_01_10* | v1_11_00_05 | 01/31/2018 |  | requested by MicroBooNE | [[ReleaseNotes06260110|Release Notes]] |
+| *v06_26_01_09* | v1_11_00_04 | 12/12/2017 |  | requested by MicroBooNE, uses art v2_05_01 | [[ReleaseNotes06260109|Release Notes]] |
+| *v06_26_01_08* | v1_11_00_03 | 11/20/2017 |  | requested by MicroBooNE | [[ReleaseNotes06260108|Release Notes]] |
+| *v06.26.01.07* |  | 10/19/2017 |  | for MicroBooNE | [[ReleaseNotes06260107|Release Notes]] |
+| *v06.26.01.05* |  | 09/12/2017 | Production Release | for MicroBooNE | [[ReleaseNotes06260105|Release Notes]] |
+| *v06.26.01.04* |  | 08/05/2017 | Production Release  | for MicroBooNE | [[ReleaseNotes06260104|Release Notes]] |
+| *v06.26.01.03* |  | 06/13/2017 | Production Release | for MicroBooNE | [[ReleaseNotes06260103|Release Notes]] |
+| *v06.26.01.02* |  | 05/04/2017 | Production Release | for MicroBooNE | [[ReleaseNotes06260102|Release Notes]] |
+| *v06.26.01.01* |  | 04/04/2017 | Production Release |  for MicroBooNE | [[ReleaseNotes06260101|Release Notes]] |
+| *v06.30.00* |  | 04/03/2017 | Production Release | first release with art 2.06.03, ProtoDUNE production | [[ReleaseNotes063000|Release Notes]] |
+| *v06.26.01* |  | 02/23/2017 | Production Release | for MicroBooNE mcc8 | [[ReleaseNotes062601|Release Notes]] |
+| *v06.05.00* |  | 08/31/2016 | Integration Release | DUNE MCC7.2 | [[ReleaseNotes060500|Release Notes]] |
+| *v06.04.01* |  | 08/24/2016 | Weekly Tag | DUNE MCC7.1 | [[ReleaseNotes060401|Release Notes]] |
+| *v06.02.00* |  | 08/05/2016 | Integration Release | DUNE MCC7.0 | [[ReleaseNotes060200|Release Notes]] |
+
+|_. Release |_. Date |_. Purpose |_. Changes / notes |_. Full release notes |
+| *v05.08.00.01* | 11/03/2016 | Production Release | requested by MicroBooNE | [[ReleaseNotes05080001|Release Notes]] |
+| *v05.14.00* | 06/29/2016 | Integration release | DUNE 35t production | [[ReleaseNotes051400|Release Notes]] |
+| *v03.08.02* | 02/12/2015 | Final tag | rollup tag preceeding v04_00_00 - retain for SBND | [[ReleaseNotes030802|Release Notes]]  |
+
+h2.  Removing the old product area
+
+* We plan to freeze and then remove /grid/fermiapp/products/larsoft
+** The date for this is not yet established.
+* We are aware that there are problems using cvmfs on the Jenkins macOS build machines.
+** A CI update scheduled for March 20 is expected to help.
+** After the March 20 CI update, we will work to see if cvmfs can be used reliably on the Jenkins build machines.
+** If there is still a problem, we will work with the experiments to find reasonable solution.
+
+h2. Reporting problems
+
+Please either open a "LArSoft redmine issue":https://cdcvs.fnal.gov/redmine/projects/larsoft/issues/new or send email to larsoft-team@fnal.gov

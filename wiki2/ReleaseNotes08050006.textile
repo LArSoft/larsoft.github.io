@@ -1,0 +1,96 @@
+
+h1. LArSoft v08_05_00_06 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v08_05_00_06":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_05_00_06/larsoft-v08_05_00_06.html
+Download instructions for "just larsoftobj v08_03_00_02":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_03_00_02/larsoftobj-v08_03_00_02.html
+
+h2. Purpose
+
+Update to GENIE v3.0.4 for MicroBooNE MCC9
+
+h2. New features
+
+h2. Bug fixes
+
+h2. Updated dependencies
+
+nutools v2_27_04
+genie v3_00_04
+
+h1. Change List
+
+h2. larsoft v08_05_00_06
+
+* 2019-04-16  Steven Gardiner : larsoft v08_05_00_06 for larsoft v08_05_00_06
+* 2019-04-16  Steven Gardiner : product versions
+
+h2. lareventdisplay v08_02_00_05
+
+* 2019-04-16  Steven Gardiner : lareventdisplay v08_02_00_05 for larsoft v08_05_00_06
+
+h2. larexamples v08_01_00_05
+
+* 2019-04-16  Steven Gardiner : larexamples v08_01_00_05 for larsoft v08_05_00_06
+
+h2. larg4 v08_01_00_05
+
+* 2019-04-16  Steven Gardiner : larg4 v08_01_00_05 for larsoft v08_05_00_06
+
+h2. larpandora v08_03_00_05
+
+* 2019-04-16  Steven Gardiner : larpandora v08_03_00_05 for larsoft v08_05_00_06
+
+h2. larwirecell v08_02_00_06
+
+* 2019-04-16  Steven Gardiner : larwirecell v08_02_00_06 for larsoft v08_05_00_06
+
+h2. larana v08_01_00_05
+
+* 2019-04-16  Steven Gardiner : larana v08_01_00_05 for larsoft v08_05_00_06
+
+h2. larreco v08_04_00_05
+
+* 2019-04-16  Steven Gardiner : larreco v08_04_00_05 for larsoft v08_05_00_06
+
+h2. larsim v08_02_00_05
+
+* 2019-04-16  Steven Gardiner : larsim v08_02_00_05 for larsoft v08_05_00_06
+* 2019-04-16  Steven Gardiner : Update CMakeLists.txt for EventWeight in order for it to link correctly to nutools v2_27_04
+* 2019-04-16  Steven Gardiner : Refactor the EventWeight module to use the new evgb::SetEventGeneratorListAndTune() function to configure GENIE.
+
+h2. larevt v08_01_00_05
+
+* 2019-04-16  Steven Gardiner : larevt v08_01_00_05 for larsoft v08_05_00_06
+
+h2. lardata v08_02_00_04
+
+* 2019-04-16  Steven Gardiner : lardata v08_02_00_04 for larsoft v08_05_00_06
+
+h2. larcore v08_01_00_02
+
+
+
+h2. larpandoracontent v03_14_04
+
+
+
+h2. larsoftobj v08_03_00_02
+
+
+
+h2. lardataobj v08_01_00_02
+
+
+
+h2. lardataalg v08_03_00_02
+
+
+
+h2. larcorealg v08_01_00_02
+
+
+
+h2. larcoreobj v08_01_00_02

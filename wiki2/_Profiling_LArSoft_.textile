@@ -1,0 +1,63 @@
+
+{{toc}}
+
+5/3/16 - this information was moved to the Tools &amp; Techniques section under Developing with LArSoft.
+This page will be deleted after 6/5/16 unless someone objects.
+7/6/16 - I indicated where things moved to--will unlink this page. 
+
+h3. Utilities
+
+I am using some "utility" scripts to automate things I do often. Some of these have a "legacy" version linked at the bottom of this page.
+
+* @larrun.sh@: run @lar@ in a sandbox in background; options to run out of the sandbox, in foreground, and with a profiling tool. Run it with @--help@. Note that the sandbox requires some care: file paths in the command line should be specified with an absolute path (configuration file should not need that)
+* @MonitorProcess.sh@: constantly monitors a running process, relates it to log file advancement and saves memory maps
+* @AddMemoryMap.py@: sorts and prints the memory maps saved by @MonitorProcess.sh@ or directly in @procfs@
+* @SortModuleTimes.py@: extracts statistics from a @lar@ log file running the @Timing@ service
+* @largit.sh@: runs the same @git@ command in all the git packages under @MRB_SOURCE@ directory
+* @larcommand.sh@
+
+
+h1. Tools for memory profiling
+
+valgrid, memcheck, massif, dhap, igperf
+moved to: https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Memory_profiling_tools
+
+h2. @SimpleMemoryCheck@ (Art module)
+
+moved to: https://cdcvs.fnal.gov/redmine/projects/art/wiki/MemoryTracker
+
+
+h1. Tools for time profiling
+
+moved to: https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Time_profiling_tools
+
+
+h2. Open|SpeedShop
+
+h1. Profiling of standard runs
+
+|^.
+|_. Configuration file[1]           |_. parameters |_. LArSoft version |_. run on |_. profiling tools                                   |_. time per event |_. peak memory usage |
+|-.
+| @prodsingle_lbnefd_memory.fcl@    | @-s 10@      | circa @v1_00_02@  | 20140206 | none                                                | ~1&#39;              | 2361.6 MiB          |
+|                                   |              |                   | 20140210 | [[ Profiling LArSoft #valgrind-massif-tool|massif]] | running (~50&#39;[2]) |                     |
+| @standard_reco_lbnefd_memory.fcl@ | @-s 10@      | circa @v1_00_02@  | 20140210 | none                                                | crashed          |                     |
+|                                   |              |                   | 20140210 | [[ Profiling LArSoft #valgrind-massif-tool|massif]] | crashed          |                     |
+
+h2. Other runs
+
+* [[prodsingle_uboone]]
+* [[prodgenie_bnb_nu_cosmic_3window_uboone]]
+* [[standard_g4_uboone]]
+* [[standard_detsim_3window_uboone]]
+* [[standard_reco_uboone_nowires]]
+* [[reco_1w_FULL_pandora]]
+
+
+fn1. The @_memory@ variant includes the original configuration file ad adds the [[ Profiling LArSoft #simplememorycheck-art-module|SimpleMemoryCheck]] module.
+
+fn2. This figure excludes the very first event, which could be slowed down by first-time initialization.
+
+---
+
+Created by: "Gianluca Petrillo (petrillo@fnal.gov)":mailto:petrillo@fnal.gov

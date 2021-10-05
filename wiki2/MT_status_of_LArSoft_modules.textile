@@ -1,0 +1,7 @@
+
+h1. Guidelines for writing thread-safe modules
+
+# Remove class data members that are intended to be valid for each event. 
+# If @TFileService@ is used in event-level functions, then
+## If using a shared module, @serialize(...)@ must be called inside the constructor body, or
+## Use a legacy module

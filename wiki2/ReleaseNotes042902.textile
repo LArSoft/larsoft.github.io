@@ -1,0 +1,78 @@
+
+h1. LArSoft v04_29_02 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+"Download instructions":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_29_02/larsoft-v04_29_02.html
+
+h2. Purpose
+
+* Changes to develop since v04_29_01
+
+h2. New features
+
+h2. Bug fixes
+
+h2. Updated dependencies
+
+h1. Change List
+
+h2. larsoft v04_29_02
+
+* 2015-11-11  Lynn Garren : larsoft v04_29_02 for larsoft v04_29_02
+* 2015-11-11  Lynn Garren : update product versions
+
+h2. lareventdisplay v04_12_04
+
+* 2015-11-11  Lynn Garren : lareventdisplay v04_12_04 for larsoft v04_29_02
+* 2015-11-06  Tingjun Yang : Add shower start point in the Ortho3D views.
+* 2015-11-06  Tingjun Yang : Add a function of Draw2DSlopeEndPoints to work better with multiple TPCs.
+
+h2. larexamples v04_06_04
+
+
+
+h2. larpandora v04_08_05
+
+* 2015-11-11  Lynn Garren : larpandora v04_08_05 for larsoft v04_29_02
+
+h2. larana v04_16_01
+
+* 2015-11-11  Lynn Garren : larana v04_16_01 for larsoft v04_29_02
+
+h2. larreco v04_23_00
+
+* 2015-11-11  Lynn Garren : larreco v04_23_00 for larsoft v04_29_02
+* 2015-11-11  Tingjun Yang : Change ConvertTicksToX to ConvertXToTicks
+* 2015-11-11  Dorota Stefan : part of corrections from Gianluca adopted
+* 2015-11-10  Dorota Stefan : add conversion from dqdx to dedx
+* 2015-11-09  Dorota Stefan : add possibility to get info about nhits used by selectInitialHits function
+* 2015-11-08  Mike Wallbank : Fixed an issue which occassionally led to the initial track-like part of the shower to be oriented incorrectly
+
+h2. larsim v04_14_02
+
+
+
+h2. larevt v04_13_04
+
+
+
+h2. lardata v04_18_02
+
+
+
+h2. larcore v04_20_00
+
+
+
+h2. larbatch v01_19_01
+
+* 2015-11-11  Lynn Garren : larbatch v01_19_01 for larsoft v04_29_02
+* 2015-11-06  Herbert Greenlee : Remove all instances where project.py tries to modify files.
+* 2015-11-05  Herbert Greenlee : Use jobsub -f to transfer files to worker.
+* 2015-11-04  Herbert Greenlee : Only save unique subruns.
+
+h2. larutils v1_04_03
+
+

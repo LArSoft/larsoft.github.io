@@ -1,0 +1,93 @@
+
+h1. LArSoft v08_00_00_03 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v08_00_00_03":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_00_00_03/larsoft-v08_00_00_03.html
+Download instructions for "just larsoftobj v08_00_00":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_00_00/larsoftobj-v08_00_00.html
+
+h2. Purpose
+
+* requested patch release
+
+h2. New features
+
+h2. Bug fixes
+
+h2. Updated dependencies
+
+h1. Change List
+
+h2. larsoft v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : Update build configs.
+* 2020-05-13  Herbert Greenlee : For larsoft v08_00_00_03.
+* 2020-05-13  Herbert Greenlee : larsoft v08_00_00_03 for larsoft v08_00_00_03
+* 2020-05-12  Herbert Greenlee : Larsoft v08_00_00_03.
+
+h2. lareventdisplay v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : larsoft v08_00_00_03
+
+h2. larexamples v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : larexamples v08_00_00_03 for larsoft v08_00_00_03
+
+h2. larg4 v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : larg4 v08_00_00_03 for larsoft v08_00_00_03
+
+h2. larpandora v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : larpandora v08_00_00_03 for larsoft v08_00_00_03
+
+h2. larwirecell v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : larwirecell v08_00_00_03 for larsoft v08_00_00_03
+
+h2. larana v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : larsoft v08_00_00_03
+
+h2. larreco v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : larreco v08_00_00_03 for larsoft v08_00_00_03
+
+h2. larsim v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : larsim v08_00_00_03 for larsoft v08_00_00_03
+
+h2. larevt v08_00_00_03
+
+* 2020-05-13  Herbert Greenlee : larevt v08_00_00_03 for larsoft v08_00_00_03
+* 2020-05-12  Herbert Greenlee : Merge remote-tracking branch &#39;origin/feature/greenlee_sqlite_mcc9reco1&#39; into v08_00_00_br
+* 2020-04-09  Herbert Greenlee : Remove active IOV constraint.
+
+h2. lardata v08_00_00
+
+
+
+h2. larcore v08_00_00
+
+
+
+h2. larsoftobj v08_00_00
+
+
+
+h2. lardataobj v08_00_00
+
+
+
+h2. lardataalg v08_00_00
+
+
+
+h2. larcorealg v08_00_00
+
+
+
+h2. larcoreobj v08_00_00
+
+

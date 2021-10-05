@@ -1,0 +1,135 @@
+
+h1. LArSoft v08_27_02 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v08_27_02":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_27_02/larsoft-v08_27_02.html
+Download instructions for "just larsoftobj v08_17_01":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_17_01/larsoftobj-v08_17_01.html
+
+h2. Purpose
+
+* changes in develop
+* approved feature branches
+
+h2. New features
+
+* optimized GausHitFinder 
+** https://indico.fnal.gov/event/21261/contribution/1/material/slides/0.pdf 
+** larreco feature/team_gshf-larsoft has been merged with develop
+* larpandoracontent and larpandora feature/larpandoracontent_v03_15_03
+**    A change to the inheritance structure of the master algorithm allowing external uses to register algorithms in the Pandora cosmic and neutrino reconstruction chains.
+**    A fix in the untarring command used by the Coverity static analysis tool.
+**    A configurable cut added that will skip the reconstruction if an event contains an excessive number of hits (by default this cut is std::numeric_limits<int>::max(), so is effectively off).
+**    A modification to the way a matching map between reconstructed and MC particles is used to avoid an exception being thrown when validating the reconstruction.  This only occurs in a small number of events.
+
+
+h2. Bug fixes
+
+h2. Updated dependencies
+
+* ups v6_0_8
+** Improvements in the setup and setups scripts.  
+** Everything else is the same as v6_0_7.
+
+
+
+h1. Change List
+
+h2. larsoft v08_27_02
+
+* 2019-08-06  Lynn Garren : larsoft v08_27_02 for larsoft v08_27_02
+* 2019-08-06  Lynn Garren : update versions
+
+h2. lareventdisplay v08_08_06
+
+* 2019-08-06  Lynn Garren : lareventdisplay v08_08_06 for larsoft v08_27_02
+* 2019-08-06  Lynn Garren : larsoft v08_27_01
+* 2019-07-25  Usher, Tracy L : Merge branch &#39;develop&#39; of ssh://cdcvs.fnal.gov/cvs/projects/lareventdisplay into develop
+* 2019-07-25  Usher, Tracy L : Modifying the size of the output space points, draw "lines" by using closely spaced points.
+* 2019-07-25  Usher, Tracy L : Fix the issue with only displaying raw display for last TPC
+
+h2. larexamples v08_02_13
+
+
+
+h2. larg4 v08_03_11
+
+
+
+h2. larpandora v08_07_10
+
+* 2019-08-06  Lynn Garren : larpandora v08_07_10 for larsoft v08_27_02
+
+h2. larwirecell v08_05_11
+
+
+
+h2. larana v08_10_06
+
+* 2019-08-06  Lynn Garren : larana v08_10_06 for larsoft v08_27_02
+
+h2. larreco v08_16_03
+
+* 2019-08-06  Lynn Garren : Merge branch &#39;develop&#39; into release/v08_27_02
+* 2019-08-06  Lynn Garren : only use the OpenMP flags when OpenMP is found
+* 2019-08-06  Lynn Garren : larreco v08_16_03 for larsoft v08_27_02
+* 2019-08-06  Lynn Garren : larsoft v08_27_01
+* 2019-08-01  Aaron Higuera Pichardo : Fix a bug in the initialize of the hit position and remove detprop->ConvertTicksToX()
+* 2019-07-31  Tingjun Yang : Change hit index to be the index in the whole hit collection rather than hits associated with the shower.
+* 2019-07-26  Sophie Berkman : Make ROOT fitter the default hit finder.
+* 2019-07-25  Lynn Garren : pragma needs to be on outermost loop
+* 2019-07-25  Lynn Garren : remove unused variable
+* 2019-07-25  Lynn Garren : fix header path
+* 2019-07-25  Lynn Garren : Merge branch &#39;develop&#39; into feature/team_gshf-larsoft
+* 2019-07-18  Lynn Garren : Add GSHF Marqdt fitter and account for offset (startTime) in waveform
+
+h2. larsim v08_11_01
+
+
+
+h2. larevt v08_06_04
+
+
+
+h2. lardata v08_07_02
+
+
+
+h2. larcore v08_04_07
+
+
+
+h2. larpandoracontent v03_15_03
+
+* 2019-08-06  Lynn Garren : larpandoracontent v03_15_03 for larsoft v08_27_02
+
+h2. larsoftobj v08_17_01
+
+
+
+h2. lardataobj v08_04_07
+
+
+
+h2. lardataalg v08_08_02
+
+
+
+h2. larcorealg v08_14_00
+
+
+
+h2. larcoreobj v08_05_01
+
+
+
+h2. larbatch v01_51_06
+
+* 2019-08-06  Lynn Garren : larbatch v01_51_06 for larsoft v08_27_02
+* 2019-07-31  Herbert Greenlee : Improve handling of file list queries and file list definitions.
+* 2019-07-30  Herbert Greenlee : Remove directory from arguments of --init-script, --init-source, and --end-script options.
+
+h2. larutils v1_24_00
+
+

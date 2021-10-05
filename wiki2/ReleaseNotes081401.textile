@@ -1,0 +1,116 @@
+
+h1. LArSoft v08_14_01 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v08_14_01":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_14_01/larsoft-v08_14_01.html
+Download instructions for "just larsoftobj v08_09_00":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_09_00/larsoftobj-v08_09_00.html
+
+h2. Purpose
+
+* changes in develop
+
+h2. New features
+
+* save the track trajectory hit index (key) in anab::Calorimetry TpIndices
+** modification of the original "proposal":https://indico.fnal.gov/event/20287/contribution/1/material/slides/0.pdf
+
+
+h2. Bug fixes
+
+h2. Updated dependencies
+
+h1. Change List
+
+h2. larsoft v08_14_01
+
+* 2019-04-02  Lynn Garren : product  versions
+* 2019-04-02  Lynn Garren : larsoft v08_14_01 for larsoft v08_14_01
+
+h2. lareventdisplay v08_04_01
+
+* 2019-04-02  Lynn Garren : lareventdisplay v08_04_01 for larsoft v08_14_01
+
+h2. larexamples v08_01_13
+
+* 2019-04-02  Lynn Garren : larexamples v08_01_13 for larsoft v08_14_01
+
+h2. larg4 v08_01_11
+
+
+
+h2. larpandora v08_05_06
+
+* 2019-04-02  Lynn Garren : larpandora v08_05_06 for larsoft v08_14_01
+
+h2. larwirecell v08_03_04
+
+
+
+h2. larana v08_04_04
+
+* 2019-04-02  Lynn Garren : larana v08_04_04 for larsoft v08_14_01
+
+h2. larreco v08_10_05
+
+* 2019-04-02  Lynn Garren : larreco v08_10_05 for larsoft v08_14_01
+* 2019-03-28  Lynn Garren : larsoft v08_14_00
+* 2019-03-28  Justin Hugon : Calorimetry: store hit index instead of TP index
+* 2019-03-15  Justin Hugon : Calorimetry: Set tpIndex in output product
+* 2019-03-28  Tingjun Yang : Require at least 2 hits in a view before reconstructing calorimetric information.
+* 2019-03-28  Tingjun Yang : Merge branch &#39;develop&#39; of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
+* 2019-03-28  Tingjun Yang : Require at least 2 hits in a view before reconstructing calorimetric information.
+* 2019-03-28  Tingjun Yang : Require at least 2 hits in a view before reconstructing calorimetric information.
+
+h2. larsim v08_04_04
+
+* 2019-04-02  Lynn Garren : larsim v08_04_04 for larsoft v08_14_01
+* 2019-03-28  Jason Stock : Merge remote branch &#39;remotes/origin/feature/JStock_EveIdCalcUpdate&#39; into develop
+* 2019-03-09  Jason Stock : Adding the ability to set the EveIdCalculator from a fcl file.
+
+h2. larevt v08_02_07
+
+
+
+h2. lardata v08_03_08
+
+
+
+h2. larcore v08_02_04
+
+
+
+h2. larpandoracontent v03_14_05
+
+
+
+h2. larsoftobj v08_09_00
+
+
+
+h2. lardataobj v08_02_05
+
+
+
+h2. lardataalg v08_04_04
+
+
+
+h2. larcorealg v08_06_00
+
+
+
+h2. larcoreobj v08_02_02
+
+
+
+h2. larbatch v01_50_01
+
+* 2019-04-02  Lynn Garren : larbatch v01_50_01 for larsoft v08_14_01
+* 2019-03-28  Herbert Greenlee : Merge branch &#39;develop&#39; of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
+* 2019-03-28  Herbert Greenlee : Add blacklist xml element form project and stage.
+
+h2. larutils v1_23_13
+
+

@@ -1,0 +1,101 @@
+
+h1. Memory profiling tools
+
+{{>toc}}
+
+h2. valgrind
+
+* open source
+* mature
+* does not require recompilation (debugging symbols are used if present)
+* user guide: http://valgrind.org/docs/manual/manual.html
+
+is a way to determine which method is using the most resources in a job.
+A @valgrind@ binary is now distributed with "LArSoft bundle":http://scisoft.fnal.gov/scisoft/bundles/larsoft: you can set it up with @setup valgrind v3_13_0@ (or the right version: ask @ups list -aK+ valgrind@). Check out [[art:Getting started with valgrind|instructions]] at project:art wiki as well.
+
+To get the latest version of valgrind (which at the time of writing, 20170808, is 3.13.0), instead, "download":http://valgrind.org/downloads/current.html and install valgrind in your home directory:
+<pre># Download valgrind
+tar xjvf valgrind-<version>.tar.bz2
+cd valgrind-<version>
+./configure --prefix=$HOME
+make install</pre>
+
+This will install valgrind in @~/bin@ and @~/lib@ of your account.
+
+h2. Memory leaks
+
+"Valgrind":http://valgrind.org/docs/manual/manual.html is actually a suite of tools. The default tool is "memcheck":http://valgrind.org/docs/manual/mc-manual.html, which hunts for memory leaks:
+<pre>valgrind `which lar` -c prodgenie.fcl | tee memcheck.txt</pre>
+Breaking down the above line:
+
+| @valgrind@ | running valgrind from the current directory (you may need the full valgrind executable path) |
+| @`which lar`@ | returns the location of the @lar@ executable as an argument to valgrind |
+| @-c prodgenie.fcl@ | typical @lar@ arguments; can be whatever you want |
+| @tee memcheck.txt@ | display the output on the screen _and_ write it to file @memcheck.txt@ |
+
+bq. *Warning:* The above command will take many hours or days to execute; _valgrind_ is _*slow*_. A better strategy is edit your FHiCL job configuration so you&#39;re only executing the particular module in question (e.g. @largeant@ or @simwire@).
+
+The _memcheck_ tool should also be supported by @larrun.sh@ as @larrun.sh --memcheck@.
+
+
+h2. Memory use
+
+If you&#39;re looking for which part of your program is using large chunks of memory, the appropriate tool is "massif":http://valgrind.org/docs/manual/ms-manual.html. 
+<pre>valgrind --tool=massif --time-unit=B `which lar` -c prodgenie.fcl | tee massif.txt</pre>
+This (_very slow_) process will produce an additional file in the directory from which the command was executed: @massif.out.<pid>@, where @<pid>@ is the process id of that run of @lar@. To interpret the contents of this file, use _valgrind_ @ms_print@ utility:
+<pre>ms_print massif.out.<pid> | less</pre>
+There is also a handy visualization tool in KDE4 called @massif-visualizer@ (by now, you will have to use some virtual machine to get it; needless to say, the latest SLF7 is old enough for this).
+
+bq. In comparison with _massif_, _memcheck_ feels fast.
+
+The script @larrun.sh@ supports _massif_ via @--massif@ option.
+
+As always, one has to understand the precise way the tool works, or be surprised. @massif@ tracks the dynamic (heap) memory allocation performed by @new@, @malloc@ and friends. They handle the heap as they like, which is usually to book some large chunk of memory (in POSIX and BSD, by @mmap@) and then they slice it as needed. Even more interesting, the memory @free@&#39;d or @delete@&#39;d is not necessarily immediately returned to the operating system. Programs like @top@ and the generic information in the @proc@ filesystem do not descend into this slicing mechanism, and show an amount of memory sensibly larger than the actual requested heap size.
+
+The largest figure in @/proc/PID/status@ (&amp;ldquo;VmSize&amp;rdquo;) includes shared libraries, heap, stack and the unused allocated memory all together. _massif_ only talks used heap (and, optionally, stacks).
+
+
+h2. Execution speed
+
+If one is looking for which portions of the program are being called most often, the appropriate tool is "callgrind":http://valgrind.org/docs/manual/cl-manual.html.
+<pre>valgrind --tool=callgrind  `which lar` -c prodgenie.fcl | tee callgrind.txt</pre>
+As with _massif_, the file @callgrind.out.<pid>@ will be produced. Use @callgrind_annotate@ to interpret this file:
+<pre>callgrind_annotate callgrind.out.<pid> | less</pre>
+
+However, _callgrind_ is the slowest of these tools; for example, if it is run it on a "vanilla" @prodgenie.fcl@ script (which processes 10 events), it will probably take a week to execute. Fortunately, one can obtain a snapshot of the information accumulated by a running instance of _callgrind_. First, find the process id (pid):
+<pre>ps -u $USER | grep callgrind</pre>
+The first number is the pid. Then use @callgrind_control@ to get a snapshot:
+<pre>callgrind_control <pid> --dump
+ls -blarth callgrind.*</pre>
+One will see a @callgrind.out.<pid>.N@ file on which one can run @callgrind_annotate@.
+For KDE, a @kcachegrind@ is available which has some pitfalls but is still invaluable in navigating the plenty of information from _callgrind_ (and, you may guess, _cachegrind_).
+
+bq. Do not take _callgrind_ at face value: _valgrind_ is a CPU emulator, and it may grossly overestimate parts of the execution time by ignoring optimisations and tricks your particular CPU may be using. The best way to identify the slowest part of a job is via a sample profiler. _callgrind_ may be useful to explore the flow of the execution though, and sometimes it can point to a code line inside a function which takes lot of time to execute (but again, it may very well be wrong).
+
+h3. @dhap@ tool
+
+Another heap analyser. Not tested yet.
+It should be supported as @larrun.sh --dhap@.
+
+
+h2. Ignominous Profiler (@igprof@)
+
+* open source
+* mature
+* does not require recompilation for simple memory usage monitoring
+* requires injection of markers in the code to trigger detailed memory mapping
+* can profile CPU time instead of memory
+
+[[ igprof profiler|Instructions to obtain it]] are available (so far, for Linux only).
+The detailed memory mapping must be triggered. This makes the tool complementary to, for example, [[ Profiling LArSoft #valgrind-massif-tool|valgrind]].
+We can get a snapshot at precisely the point we want, but we can&#39;t find out where precisely we want it.
+
+
+h2. "MemoryTracker - art module":https://cdcvs.fnal.gov/redmine/projects/art/wiki/MemoryTracker
+
+Memory tracker is a _art_ service provided with the _art_ distribution. It writes its detailed information into a SQL database, that can be later unrolled and analysed.
+It is [[art:MemoryTracker|documented in _art_ wiki]].
+
+----
+
+%{color: gray}For questions, contact "Gianluca Petrillo (petrillo@fnal.gov)":mailto:petrillo@fnal.gov.%

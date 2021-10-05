@@ -1,0 +1,11 @@
+
+h1.  Using HPC with LArSoft 
+
+
+h2. GPU as a Service (GPUaaS)
+
+Details on accessing GPU resources from Grid Jobs is described in [[ GPU as a Service ]].
+
+h2. Other types of HPC
+
+Will be filled in as links are made available.

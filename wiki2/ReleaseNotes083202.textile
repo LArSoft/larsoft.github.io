@@ -1,0 +1,105 @@
+
+h1. LArSoft v08_32_02 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+Download instructions for "larsoft v08_32_02":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_32_02/larsoft-v08_32_02.html
+Download instructions for "just larsoftobj v08_18_01":http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_18_01/larsoftobj-v08_18_01.html
+
+h2. Purpose
+
+* changes in develop
+
+h2. New features
+
+h2. Bug fixes
+
+h2. Updated dependencies
+
+h1. Change List
+
+h2. larsoft v08_32_02
+
+* 2019-10-15  Lynn Garren : larsoft v08_32_02 for larsoft v08_32_02
+* 2019-10-15  Lynn Garren : product versions
+
+h2. lareventdisplay v08_08_17
+
+* 2019-10-15  Lynn Garren : lareventdisplay v08_08_17 for larsoft v08_32_02
+
+h2. larexamples v08_02_22
+
+
+
+h2. larg4 v08_04_01
+
+
+
+h2. larpandora v08_07_21
+
+* 2019-10-15  Lynn Garren : larpandora v08_07_21 for larsoft v08_32_02
+
+h2. larwirecell v08_06_00
+
+
+
+h2. larana v08_10_17
+
+* 2019-10-15  Lynn Garren : larana v08_10_17 for larsoft v08_32_02
+
+h2. larreco v08_19_02
+
+* 2019-10-15  Lynn Garren : larreco v08_19_02 for larsoft v08_32_02
+* 2019-10-09  Lynn Garren : larsoft v08_32_01
+* 2019-10-09  Tingjun Yang : Merge remote-tracking branch &#39;origin/feature/lhw_tfFix&#39; into develop
+* 2019-10-09  Tingjun Yang : Add module to check CNN score for each hit.
+* 2019-09-10  Leigh Whitehead : Update TF interface to use a single CPU
+
+h2. larsim v08_13_03
+
+
+
+h2. larevt v08_06_11
+
+
+
+h2. lardata v08_08_00
+
+
+
+h2. larcore v08_05_02
+
+
+
+h2. larpandoracontent v03_15_07
+
+
+
+h2. larsoftobj v08_18_01
+
+
+
+h2. lardataobj v08_05_01
+
+
+
+h2. lardataalg v08_08_07
+
+
+
+h2. larcorealg v08_14_04
+
+
+
+h2. larcoreobj v08_05_05
+
+
+
+h2. larbatch v01_51_08
+
+
+
+h2. larutils v1_24_04
+
+

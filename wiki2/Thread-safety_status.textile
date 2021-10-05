@@ -1,0 +1,371 @@
+
+h1. Thread-safety status
+
+{{collapse(Algorithms)
+
+|{background:#333}. *%{color:white}Algorithm%* |{background:#333}. *%{color:white}Repository%* |{background:#333}. *%{color:white}Thread-safe%* |{background:#333}. *%{color:white}Notes%* |
+| @HitFilterAlg@ | @larreco@ |{background:#d1fecf}. Yes|
+}}
+
+---
+
+{{collapse(Modules)
+
+|{background:#333}. *%{color:white}Module%* |{background:#333}. *%{color:white}Type%* |{background:#333}. *%{color:white}Repository%* |{background:#333}. *%{color:white}Flavor%* |{background:#333}. *%{color:white}Notes%* |
+| @ADCFilter@ | @filter@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @APAHitFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @AggregateEvent@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @AggregateVertex@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @AggregateVertexAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @AnalysisExample@ | @analyzer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @AssnAnalyzer@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @AssnProducer1@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @AssnProducer2@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @AssnsChainClusterMaker@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @AssnsChainHitMaker@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @AssnsChainPFParticleMaker@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @AssnsChainShowerMaker@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @AssnsChainTest@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @AtomicNumberTest@ | @analyzer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @BackTrackerLoader@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @BeamFlashCompatibilityCheck@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @BeamFlashTrackMatchTagger@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @BezierCalorimetry@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @BezierTrackerModule@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @BlipMaker@ | @producer@ | @larwirecell@ |{background:#fecfcf}. @Legacy@ |
+| @BlurredClustering@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @BoDataFrameInput@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @CCTrackMaker@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @CORSIKAGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @CRHitRemoval@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @CRHitRemovalByPCA@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @CalWire@ | @producer@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @CalWireAna@ | @analyzer@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @CalWireT962@ | @producer@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @Calorimetry@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @CellTree@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ChargedSpacePointProxyInputMaker@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @ChargedSpacePointProxyTest@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @CheckAuxDetHit@ | @analyzer@ | @larg4@ |{background:#fecfcf}. @Legacy@ |
+| @CheckBackTracking@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @CheckDataProductSize@ | @analyzer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @CheckMCParticle@ | @analyzer@ | @larg4@ |{background:#fecfcf}. @Legacy@ |
+| @CheckSimEnergyDeposit@ | @analyzer@ | @larg4@ |{background:#fecfcf}. @Legacy@ |
+| @Chi2ParticleID@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @Cluster3D@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ClusterAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ClusterCheater@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ClusterCrawler@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ClusterPCA@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ClusteringValidation@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @CollectionMerging@ | @producer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @CollectionSplitting@ | @producer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @ComputePi@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @ConsolidatedPFParticleAnalysisTemplate@ | @analyzer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @CornerFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @CosmicClusterTagger@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @CosmicPCAxisTagger@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @CosmicPFParticleTagger@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @CosmicRemovalAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @CosmicTrackTagger@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @CosmicTracker@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @CosmicsGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @CreateHybridLibrary@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @DBCluster3D@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @DBcluster@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @DBclusterAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @DPRawHitFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @DisambigCheater@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @Disturbance@ | @producer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @DumpChannelMap@ | @analyzer@ | @larcore@ |{background:#fecfcf}. @Legacy@ |
+| @DumpChargedSpacePoints@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpCheatTracks@ | @analyzer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @DumpClusters@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpGTruth@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @DumpGeometry@ | @analyzer@ | @larcore@ |{background:#fecfcf}. @Legacy@ |
+| @DumpHits@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpMCParticles@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @DumpMCShowers@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @DumpMCTracks@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @DumpMCTruth@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @DumpOpDetBacktrackerRecords@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @DumpOpDetWaveforms@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpPCAxes@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpPFParticles@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpRawDigits@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpSeeds@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpSimChannels@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @DumpSimPhotons@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @DumpSimPhotonsLite@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpSpacePoints@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpTracks@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpVertices@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @DumpWires@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @EMShower@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @EMShower3D@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @EVD@ | @analyzer@ | @lareventdisplay@ |{background:#fecfcf}. @Legacy@ |
+| @EmTrackClusterId2out@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @EmTrackClusterId3out@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @EmTrackMichelId@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @EmptyFilter@ | @filter@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @EndPointModule@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @EventButcher@ | @producer@ | @larwirecell@ |{background:#fecfcf}. @Legacy@ |
+| @EventCheater@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @EventFilter@ | @filter@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @EventMaker@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @EventTimeFilter@ | @filter@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @EventWeight@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @Exploder@ | @analyzer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @FFTHitFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @FFTTest@ | @analyzer@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @FIFOHistogramAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @FeatureTracker@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @FeatureVertexFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @FeatureVertexFinderAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @FileMuons@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @FilterCryostatNus@ | @filter@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @FilterGenInTime@ | @filter@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @FilterNoDirtNeutrinos@ | @filter@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @FilterNoMCParticles@ | @filter@ | @larsim@ |{background:#d1fecf}. @Shared@ | with async event-level calls |
+| @FilterPrimaryPDG@ | @filter@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @FilterSimPhotonTime@ | @filter@ | @larsim@ |{background:#d1fecf}. @Shared@ | with serialized event-level calls if debug set; otherwise async event-level calls|
+| @FilterStoppingMuon@ | @filter@ | @larsim@ |{background:#d1fecf}. @Shared@ | with async event-level calls |
+| @FinalStateParticleFilter@ | @filter@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @FinalStateSelectFilter@ | @filter@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @FlashClusterMatch@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @FlashHypothesisAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @FlashPurityCheckAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @FuzzyClusterMerger@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @GENIEGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @GaisserParam@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @GausHitFinder@ | @producer@ | @larreco@ |{background:#d1fecf}. @Shared@ | with async event-level calls |
+| @GausHitFinderAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @GeneralCalorimetry@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @GeometryIteratorLoopTest@ | @analyzer@ | @larcore@ |{background:#fecfcf}. @Legacy@ |
+| @GeometryTest@ | @analyzer@ | @larcore@ |{background:#fecfcf}. @Legacy@ |
+| @GraphCluster@ | @producer@ | @lareventdisplay@ |{background:#fecfcf}. @Legacy@ |
+| @HarrisVertexFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @HitAnaModule@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @HitCheater@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @HitCollectionCreatorTest@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @HitDataProductChecker@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @HitFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @HitFinderAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @HoughLineFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @HoughLineFinderAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ISCalculationAna@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @IntVectorProducer@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @KalmanFilterFinalTrackFitter@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @KalmanFilterTrajectoryFitter@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @LArG4@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @LArG4Ana@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @LArG4ParticleFilter@ | @filter@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @LArPandoraEventDump@ | @analyzer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @LArPandoraExternalEventBuilding@ | @producer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @LArPandoraShowerCreation@ | @producer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @LArPandoraTrackCreation@ | @producer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @LArPropTest@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @LArSimChannelAna@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @LEDCalibrationAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @Landed@ | @analyzer@ | @lareventdisplay@ |{background:#fecfcf}. @Legacy@ |
+| @LightSource@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @LineCluster@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @LineMerger@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @MARLEYGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @MARLEYTimeGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @MCBTDemo@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @MCHitAnaExample@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @MCHitFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @MCParticleHitMatching@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @MCParticleShowerMatching@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @MCParticleTrackMatching@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @MCReco@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @MCSFitProducer@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @MCTruthT0Matching@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @MUSUN@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @MVAPID@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @MagDriftAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @MergeEMShower3D@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @MergeSimSources@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @MergeWireCell@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @MultiEMShowers@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @MuonFilter@ | @filter@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @MuonTrackingEff@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @NDKGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @NUANCEGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @NeutrinoShowerEff@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @NeutrinoTrackingEff@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @NeutronOsc@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @NuShowerEff@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @NucleonDecay@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @OpDigiAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OpFlashAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OpFlashFinder@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OpFlashMCTruthAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OpFlashSimpleAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OpHitAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OpHitFinder@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OpMCDigi@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OptDetDigitizer@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OpticalRawDigitReformatter@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @OpticalRecoAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @PFPAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @PFParticleAnalysis@ | @analyzer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @PFParticleCosmicAna@ | @analyzer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @PFParticleHitDumper@ | @analyzer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @PFParticleMonitoring@ | @analyzer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @PFParticleTrackAna@ | @analyzer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @PFParticleValidation@ | @analyzer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @PIDAAnalyzer@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @PMAlgTrackMaker@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @PMAlgTrajFitter@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @PMTAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @ParticleDecayId@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ParticleMaker@ | @producer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @PhotonBackTrackerLoader@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @PhotonCounterT0Matching@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @PhotonLibraryAnalyzer@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @PhotonLibraryPropagation@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @PlotSpacePoints@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @PointIdEffTest@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @PointIdTrainingData@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @PrimaryVertexFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @PrintCalorimetry@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ProxyBaseTest@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @PtrMakerAnalyzer@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @PtrMakerProducer@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @PtrMakerProducer2@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @RFFHitFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @RadioGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @RawHitFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @RecoCheckAna@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @RecoProxyUsageExample@ | @analyzer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @RecompressRawDigits@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @RemoveIsolatedSpacePoints@ | @producer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @SNNueAr40CCGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @SeedAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @SeedFinderModule@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ServicePackTest@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @ShiftEdepSCE@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @ShowerCalibrationGaloreTest@ | @analyzer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @ShowerCheater@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ShowerFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ShowerQuality@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ShowerReco@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @ShowerReco3D@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @SimDriftElectrons@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @SimPhotonCounter@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @SimWire@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @SimWireAna@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @SimpleChannelStatusTest@ | @analyzer@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @SimpleClusterMerger@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @SimpleLineCluster@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @SingleGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @SmallClusterFilter@ | @filter@ | @larevt@ |{background:#fecfcf}. @Legacy@ |
+| @SmallClusterFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @SpacePointAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @SpacePointCheater@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @SpacePointFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @SpacePointMaker@ | @producer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @SpacePointSolver@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @SpacePts@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @StandardPandora@ | @producer@ | @larpandora@ |{background:#fecfcf}. @Legacy@ |
+| @TCShower@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TCShowerAnalysis@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TCShowerElectronLikelihood@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TCShowerTemplateMaker@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TCTrack@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TTHitFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TTSpacePointFinder@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TestGeneratedEventTimestamp@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @TextFileGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @TotallyCheatTracker@ | @producer@ | @larexamples@ |{background:#fecfcf}. @Legacy@ |
+| @ToyOneShowerGen@ | @producer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @Track3DKalman@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @Track3DKalmanHit@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @Track3DKalmanSPS@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @Track3Dreco@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackAna@ | @analyzer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackCalorimetry@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackCheater@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackContainmentAnalyzer@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @TrackContainmentTagger@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @TrackKalmanCheater@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackPFParticleMatch@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @TrackProducerFromPFParticle@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackProducerFromTrack@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackProducerFromTrackTrajectory@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackProxyHitMaker@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @TrackProxyTest@ | @analyzer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @TrackProxyTrackMaker@ | @producer@ | @lardata@ |{background:#fecfcf}. @Legacy@ |
+| @TrackShowerHits@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackStitcher@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @TrackTimeAssoc@ | @producer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @TrackTimeAssocAna@ | @analyzer@ | @larana@ |{background:#fecfcf}. @Legacy@ |
+| @TrajCluster@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @VertexCheater@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @VertexFinder2D@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @VertexFitter@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @VertexMatch@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @WienerFilterAna@ | @analyzer@ | @larsim@ |{background:#fecfcf}. @Legacy@ |
+| @WireCellNoiseFilter@ | @producer@ | @larwirecell@ |{background:#fecfcf}. @Legacy@ |
+| @WireCellToolkit@ | @producer@ | @larwirecell@ |{background:#d1fecf}. @Shared@ | _Serialized on each event_ |
+| @fuzzyCluster@ | @producer@ | @larreco@ |{background:#fecfcf}. @Legacy@ |
+| @larg4Main@ | @producer@ | @larg4@ |{background:#fecfcf}. @Legacy@ |
+}}
+
+---
+
+{{collapse(Services)
+
+|{background:#333}. *%{color:white}Service%* |{background:#333}. *%{color:white}Repository%* |{background:#333}. *%{color:white}Scope%* |{background:#333}. *%{color:white}Notes%* |
+| @AnalysisDrawingOptions@ | @lareventdisplay@ |{background:#fecfcf}. @LEGACY@ |
+| @AtomicNumberService@ | @larexamples@ |{background:#fcf3cf}. @GLOBAL@ | On Kyle&#39;s local branch; not yet pushed to remote |
+| @AuxDetGeometry@ | @larcore@ |{background:#d1fecf}. @SHARED@ |
+| @BackTrackerService@ | @larsim@ |{background:#fecfcf}. @LEGACY@ |
+| @ColorDrawingOptions@ | @lareventdisplay@ |{background:#fecfcf}. @LEGACY@ |
+| @DatabaseUtil@ | @lardata@ |{background:#fecfcf}. @LEGACY@ |
+| @DefaultOpDetResponse@ | @larana@ |{background:#fcf3cf}. @GLOBAL@ | On Kyle&#39;s local branch; not yet pushed to remote |
+| @DetectorClocksServiceStandard@ | @lardata@ |{background:#d1fecf}. @SHARED@  | _Implements DetectorClocksService_ |
+| @DetectorPropertiesServiceStandard@ | @lardata@ |{background:#d1fecf}. @SHARED@ | _Implements DetectorPropertiesService_ |
+| @EvdLayoutOptions@ | @lareventdisplay@ |{background:#fecfcf}. @LEGACY@ |
+| @Geometry@ | @larcore@ |{background:#d1fecf}. @SHARED@ |
+| @InfoTransfer@ | @lareventdisplay@ |{background:#fecfcf}. @LEGACY@ |
+| @LArFFT@ | @lardata@ |{background:#fecfcf}. @LEGACY@ |
+| @LArG4Detector@ | @larg4@ |{background:#fecfcf}. @LEGACY@ |
+| @LArG4Parameters@ | @larsim@ |{background:#d1fecf}. @SHARED@  |
+| @LArPropertiesServiceStandard@ | @lardata@ |{background:#d1fecf}. @SHARED@  | _Implements LArPropertiesService_ |
+| @LArVoxelCalculator@ | @larsim@ |{background:#d1fecf}. @SHARED@  |
+| @MCTruthEventAction@ | @larg4@ |{background:#fecfcf}. @LEGACY@ |
+| @MicrobooneOpDetResponse@ | @larana@ |{background:#fcf3cf}. @GLOBAL@ | On Kyle&#39;s branch; not yet pushed to remote |
+| @OpDigiProperties@ | @larana@ |{background:#fecfcf}. @LEGACY@ |
+| @ParticleInventoryService@ | @larsim@ |{background:#fecfcf}. @LEGACY@ |
+| @ParticleListAction@ | @larg4@ |{background:#fecfcf}. @LEGACY@ |
+| @PhotonBackTrackerService@ | @larsim@ |{background:#fecfcf}. @LEGACY@ |
+| @PhotonCalibratorServiceStandard@ | @larreco@ |{background:#fecfcf}. @LEGACY@ |
+| @PhotonVisibilityService@ | @larsim@ |{background:#fecfcf}. @LEGACY@ |
+| @RawDrawingOptions@ | @lareventdisplay@ |{background:#fecfcf}. @LEGACY@ |
+| @RecoDrawingOptions@ | @lareventdisplay@ |{background:#fecfcf}. @LEGACY@ |
+| @RootGraphicsEnablingService@ | @larpandora@ |{background:#fecfcf}. @LEGACY@ |
+| @SIOVChannelStatusService@ | @larevt@ |{background:#fecfcf}. @LEGACY@ |
+| @SIOVDetPedestalService@ | @larevt@ |{background:#fecfcf}. @LEGACY@ |
+| @SIOVElectronicsCalibService@ | @larevt@ |{background:#fecfcf}. @LEGACY@ |
+| @SIOVPmtGainService@ | @larevt@ |{background:#fecfcf}. @LEGACY@ |
+| @ShowerCalibrationGaloreFromPIDService@ | @larexamples@ |{background:#fecfcf}. @LEGACY@ |
+| @ShowerCalibrationGaloreScaleService@ | @larexamples@ |{background:#fecfcf}. @LEGACY@ |
+| @SimpleChannelStatusService@ | @larevt@ |{background:#d1fecf}. @SHARED@ | _Implements ChannelStatusService_ |
+| @SimulationDrawingOptions@ | @lareventdisplay@ |{background:#fecfcf}. @LEGACY@ |
+| @SpaceChargeServiceStandard@ | @larevt@ |{background:#d1fecf}. @SHARED@  | _Implements SpaceChargeService_ |
+| @StandardGeometryHelper@ | @larcore@ |{background:#d1fecf}. @SHARED@ | _Implements ExptGeoHelperInterface_ |
+}}
+
+---
+
+{{collapse(Tools)
+
+|{background:#333}. *%{color:white}Tool%* |{background:#333}. *%{color:white}Repository%* |{background:#333}. *%{color:white}Thread-safe%* |{background:#333}. *%{color:white}Notes%* |
+| @CandHitMorphological@ | @larreco@ |{background:#fecfcf}. No| _Implements ICandidateHitFinder_ |
+| @CandHitDerivative@ | @larreco@ |{background:#fecfcf}. No| _Implements ICandidateHitFinder_ |
+| @CandHitStandard@ | @larreco@ |{background:#d1fecf}. Yes| _Implements ICandidateHitFinder_ |
+| @PeakFitterMarqdt@ | @larreco@ |{background:#d1fecf}. Yes| _Implements IPeakFitter_ |
+}}

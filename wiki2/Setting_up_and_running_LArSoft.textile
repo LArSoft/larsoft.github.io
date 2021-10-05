@@ -1,0 +1,74 @@
+
+h1. Setting up a working directory to develop LArSoft
+
+DRAFT - Do Not Use yet - DRAFT - 7/31/18
+
+Background:
+
+* Note: LArSoft is designed to be run by experiments, so most people set up LArSoft for a specific experiment. You do this via the setup guide for your experiment. (https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Quick_Links)
+* The core LArSoft code lives in a set of git repositories maintained by the LArSoft core team. Can view the code organization at http://larsoft.org/larsoft-code-organization/ 
+* If you do not have code changes to LArSoft code itself, you may just set up the appropriate products and run.
+* This page is meant to be as short as possible, but being concise means leaving out everything but the straightforward case.  Users need to know many things, but including all the options becomes unwieldy. If there is something you think should be included, please "email the LArSoft team":mailto:larsoft-team@fnal.gov
+
+To set up and run LArSoft, the user must:
+# Run a setup script
+## Source <experiment specific script>
+## This tells "UPS":https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/AboutUPS where to find the programs needed (like UPS itself, git, MRB, ROOT, and LArSoft). A UPS product is a software package set up and distributed via "UPS, Unix Product Support":https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/AboutUPS.) Each "UPS":https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/AboutUPS product is entirely self-contained, aside from dependencies.
+## Specific example for SBND:
+##* using "CVMFS":https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/Computing_resources#CVMFS source /cvmfs/sbnd.opensciencegrid.org/products/sbnd/setup_sbnd.sh
+##* using a local UPS database /path/to/products filled with "pullProducts":https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/Using_LArSoft_on_a_local_machine#Downloading-a-binary-distribution-with-pullProducts
+source /path/to/products/setup
+export MRB_PROJECT=larsoft
+setup mrb
+## Specific example for DUNE:
+##* source /grid/fermiapp/products/dune/setup_dune.sh
+## Can find links to all LArSoft Collaboration experiments at: https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Quick_Links 
+&amp;nbsp;
+# Create a new development area. This creates a number of subdirectories.
+## mkdir <working_dir> #Do not use your home directory, as the libraries you build can get large.
+## cd <working_dir>
+## mrb newDev or mrb n
+## #May need to specific the version and qualified unless larsoft product is set up.
+mrb newDev -v <version> -q <qualifiers>
+ #Can find out the larsoft releases
+ups list -aK+ larsoft
+ #May want to just make the products area (checks that src, build are already there)
+mrb newDev -p
+## Can see mrb newDev options at: https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbRefereceGuide#newDev-n 
+&amp;nbsp;
+# Set up a LArSoft release - Can be "Integration or Production":http://larsoft.org/larsoft-releases/
+setup larsoft vXXX -q e15:<prof|debug>
+&amp;nbsp;
+# Set up local products
+source localProducts_larsoft_vxx_xx_xx_ex_prof/setup
+&amp;nbsp;
+# Check out code from repository
+## cd $MRB_SOURCE
+## mrb gitCheckout <thecode>
+##* This will get the code from current development head. If you want code with a different version of LArSoft, use -t with mrb g
+##* mrb g -t LARSOFT_SUITE_vxx_xx_xx <thecode>
+##* mrb g larsoft_suite
+##* mrb g larsoftobj_suite
+&amp;nbsp;
+# Build and test the code, all commands must be run in the same shell.
+## cd $MRB_BUILDDIR
+## mrbsetenv  #set up development environment
+## mrb t (build and test) -jN #N is number of parallel build streams
+##* mrb z (zapBuild) #to get rid of what you just built
+## May need to fix code, rebuild, retest.
+&amp;nbsp;
+# Once the code works as expected, publish it to a feature branch.
+
+A simple view
+# mkdir my_larsoft
+# source <experiment_setup_script>
+# cd my_larsoft/
+# mrb newDev -vvxx_xx_xx -q <e15:debug>
+# source localProducts_larsoft_vxx_xx_xx_ex_prof/setup
+# cd $MRB_SOURCE
+# mrb g larsoft_suite
+# mrb g larsoftobj_suite
+# cd $MRB_BUILDDIR
+# mrbsetenv
+# mrb t -jN
+

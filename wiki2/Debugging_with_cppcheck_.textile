@@ -1,0 +1,29 @@
+
+h1. Debugging with cppcheck 
+
+<pre>
+7/19/16 update: setup cppcheck v1_58
+does not work:
+ERROR: Product &#39;cppcheck&#39; (with qualifiers &#39;&#39;), has no v1_58 version (or may not exist)
+
+so tried: ups list -aK+ cppcheck
+and the list is empty.
+</pre>
+
+Checking your code for non-compile time errors with cppcheck.
+
+cppcheck is a very handy tool available for checking your code that gcc can&#39;t catch like array out of bound error and can also be used for optimization.  The tool is documented "here.":http://sourceforge.net/apps/mediawiki/cppcheck/index.php?title=Main_Page
+
+It is setup at Fermilab using ups.  To do so you can
+
+<pre>
+setup cppcheck v1_58
+</pre>
+
+You then test the code in directory MyDir by doing
+
+<pre>
+cppcheck --enable=style MyDir
+</pre>
+
+It will print out details for optimizing or fixing your code.

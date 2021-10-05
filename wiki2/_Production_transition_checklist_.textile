@@ -1,0 +1,36 @@
+
+h1.  Production transition checklist 
+
+| *Due Date* | *Task* | *Status / comments* |
+| Fri Jan 17 | Transition dry run                   | Finished Jan. 18 |
+| Mon Jan 20 | Update documentation                 |  |
+| Mon Jan 20 | After 18:00 - copy and preserve copy
+               of beta repositories                 | Done. |
+| Mon Jan 20 | After above:  delete contents of 
+               beta repositories                    | Done. |
+| Tue Jan 21 | Test svn lockout script              | Done. To activate, cp start-commit.closed start-commit. check chmod +x |
+|    Tue Jan 21        | Deploy svn lockout              | Done. |
+|    Tue Jan 21        | Tag final svn release (Rebel/Church)              | Done. |
+|            | Create final svn build (Rebel/Church)               | Done. |
+|  Tue Jan 21          | Begin svn to git (Garren)              
+               Assume that re-factoring into 
+               lbnecode and uboonecode is performed
+               in this process                          | Done. (Will fix re-factoring errors 
+                                                          in new releases.)  |
+|            | Rename "Larsoft (beta)" --> "LArSoft"
+               and make LArSoft-SVN a sub-project of LArSoft | Done. |
+|            | Copy lbnecode and uboonecode build 
+               files from preserved beta into new 
+               lbnecode and uboonecode                  | Done. |
+|            | Complete Geometry and include path changes | Done. |
+|            | Create / build / install larsoft v1_00_00 | v1_00_01 is released  |
+| Thu Jan 23 | Create / build / install lbnecode v1_00_00 | v1_00_01 is released |
+| Thu Jan 23 | Create / build / install uboonecode v1_00_00 | v1_00_01 is released  |
+|            | Validate larsoft / lbnecode / uboonecode | Adequate for release   |
+| Fri Jan 24 | Nightly build operating for larsoft / 
+               lbnecode / uboonecode                     | Done. |
+| Fri Jan 24 | By 7:00 am, change svn start-commit message | Released v1_00_01 at 14:00 CST, 24-Jan-2014.
+                                                             svn access still open to managers. |
+
+
+

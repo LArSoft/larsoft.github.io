@@ -1,0 +1,90 @@
+
+h1. LArSoft v04_36_01 Release Notes
+
+{{>TOC}}
+
+[[LArSoft_release_list|list of LArSoft releases]]
+"Download instructions":http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_36_01/larsoft-v04_36_01.html
+
+h2. Purpose
+
+* final release before v05
+
+h2. New features
+
+* larpandora updates
+
+h2. Bug fixes
+
+h2. Updated dependencies
+
+| Product | Version | Qualifiers | Notes |
+| larpandoracontent | v02_04_00 | e9:nu | |
+
+
+h1. Change List
+
+h2. larsoft v04_36_01
+
+* 2016-02-09  Lynn Garren : larsoft v04_36_01 for larsoft v04_37_00
+* 2016-02-09  Lynn Garren : update product versions
+* 2016-02-09  Lynn Garren : update dependency database
+
+h2. lareventdisplay v04_14_03
+
+
+
+h2. larexamples v04_06_14
+
+
+
+h2. larpandora v04_10_00
+
+* 2016-02-09  Lynn Garren : larpandora v04_10_00 for larsoft v04_37_00
+* 2016-02-03  John Marshall : Add configurable option: whether to run Pandora particle stitching instance.
+* 2016-02-02  John Marshall : Allow processing to continue if GetVolumeIdNumber explicity vetoes a specific drift volume.
+* 2016-02-02  John Marshall : Stitching config file is now an optional parameter.
+* 2016-02-01  John Marshall : Update event writing xml snippet.
+* 2016-02-01  John Marshall : PandoraSettings update.
+* 2016-02-01  John Marshall : Add Input and Output settings classes, plus start to tidy-up header file includes, prefering forward-declarations in header files where possible.
+* 2016-02-01  John Marshall : Incremental improvements. Need to pack-up input and output parameters into parameters instances owned by the LArPandora instance.
+* 2016-01-29  John Marshall : Incremental improvements.
+* 2016-01-28  John Marshall : First, coarse pass over LArPandora migration to MultiPandoraApi and restructuring.
+
+h2. larana v04_18_01
+
+* 2016-02-09  Lynn Garren : larana v04_18_01 for larsoft v04_37_00
+
+h2. larreco v04_30_01
+
+* 2016-02-09  Lynn Garren : larreco v04_30_01 for larsoft v04_37_00
+* 2016-02-05  Robert Sulej : Merge branch &#39;develop&#39; of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
+* 2016-02-05  Robert Sulej : cut track and add new one if 2D cluster merged two particles that are well recognized in the other view
+
+h2. larsim v04_21_00
+
+
+
+h2. larevt v04_14_04
+
+
+
+h2. lardata v04_22_01
+
+
+
+h2. larcore v04_26_00
+
+
+
+h2. larbatch v01_20_03
+
+
+
+h2. larutils v1_05_01
+
+* 2016-02-09  Lynn Garren : larutils v1_05_01 for larsoft v04_37_00
+* 2016-02-04  Lynn Garren : larsoft v04_36_00
+* 2016-02-04  Lynn Garren : updating nu release to pull
+
+

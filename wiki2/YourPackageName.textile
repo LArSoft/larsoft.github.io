@@ -1,0 +1,30 @@
+
+{{toc}}
+
+h1. <PackageName>
+
+Put your package&#39;s name in place of <PackageName>.  Put your contact info under this heading, ie
+
+Author: Brian Rebel, brebel@fnal.gov
+
+h2. Summary
+
+A concise, but complete, statement of what this thing does.
+
+* *Input*: objects... 
+* *Output*: objects...
+
+h2. List of Parameters for the Modules in your Package
+
+Make a table describing the available parameters in each module, like
+
+|Parameter|Type  |Default Value|Description|
+|CmToInch |double|2.54         |number of cm in one inch|
+
+h2. Usage
+
+This is how you use it.
+
+h3. Technical description
+
+A technical description of how it works.  No need to skimp on the details here.
