@@ -8,5 +8,6 @@ This is a test.  This is only a test.
 * Testing [md wiki](wiki1/LArSoftWiki.md) 
 * Testing [textile wiki](wiki2/LArSoftWiki.textile)
   * As you can see, textile pages are not going to work.
-  * Fortunately, we can use pandoc to convert from textile to markdown.
+  * Although we can use pandoc to convert from textile to markdown, a lot of hand editing is required.
+  
 
