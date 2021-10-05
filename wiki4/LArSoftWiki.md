@@ -2,7 +2,7 @@
 LArSoftWiki[¶](#LArSoftWiki)
 ============================
 
-> [Quick Links](/redmine/projects/larsoft/wiki/Quick_Links)
+> [Quick Links](Quick_Links.md)
 
 **LArSoft has moved to GitHub!** [Learn the new
 procedures](/redmine/projects/larsoft/wiki/Working_with_Github)
@@ -32,7 +32,7 @@ section](/redmine/projects/larsoft/wiki/LArSoftWiki/edit?section=3)
 > This covers the preliminaries needed to get started, where to find
 > releases, using LArSoft with your experiment and where to find the
 > software.\
-> [Quick Links](/redmine/projects/larsoft/wiki/Quick_Links)
+> [Quick Links](Quick_Links.md)
 
 [Edit this
 section](/redmine/projects/larsoft/wiki/LArSoftWiki/edit?section=4)
