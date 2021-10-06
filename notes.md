@@ -1,5 +1,11 @@
 # Testing various methods of moving wiki pages from redmine to github
 
+## Things we need
+
+* A Jekyll theme.  First pass is using the minimal theme.  Any theme we choose must allow us to display a logo. 
+* We need a few site wide navigation links.  Either in the left sidebar from the minimal theme or across the top.  Can be done with css?
+* Will play with themes.  Can only use one at a time.
+
 ## Test wiki conversion
 
 Athough it is possible to upload the html and textile files directly,
