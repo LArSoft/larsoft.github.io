@@ -15,6 +15,8 @@ but LArSoft has too many pages for this to be useful.
 Instead, we are looking at a script to strip the headers and footers off the files,
 either before or after conversion.
 
+* Testing - best option so far [md wiki from html](wiki4/LArSoftWiki.md)
+  * using convert.sh which is currently available [here](convert.sh)
 * Testing [md wiki](wiki1/LArSoftWiki.md) 
   * pages here were converted from textile
   * pandoc -f textile -t markdown -s ../wiki2/Quick_Links.textile -o Quick_Links.md
@@ -23,8 +25,4 @@ either before or after conversion.
   * Although we can use pandoc to convert from textile to markdown, a lot of hand editing is required.
 * Rashly uploading [html files](wiki3/LArSoftWiki)
   * definitely does not work
-* Testing [md wiki from html](wiki4/LArSoftWiki.md)
-  * pandoc -f html -t markdown -s ../wiki2/Quick_Links -o Quick_Links.md
-  * Oops, we have a ton of header stuff from redmine.
-  * Links need editing from /redmine/.../name to name.md
 
