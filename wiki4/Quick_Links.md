@@ -1,4 +1,3 @@
-
 Quick Links[¶](#Quick-Links)
 ============================
 
@@ -6,51 +5,26 @@ Quick Start Guides - experiment specific
 
 -   [MicroBooNE](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide)
 -   [DUNE](https://cdcvs.fnal.gov/redmine/projects/dunetpc/wiki/_Tutorial_)
--   [ProtoDUNE--DUNE
-    35-t](https://cdcvs.fnal.gov/redmine/projects/35ton/wiki/Getting_Started_Examples)
+-   [ProtoDUNE–DUNE 35-t](https://cdcvs.fnal.gov/redmine/projects/35ton/wiki/Getting_Started_Examples)
 -   [SBND](https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/How_to_setup_your_directory_and_launch_your_first_job)
 -   [ArgoNeuT](https://cdcvs.fnal.gov/redmine/projects/argoneutcode/wiki)
 -   [LArIAT](https://cdcvs.fnal.gov/redmine/projects/lardbt/wiki/Setting_up_the_Offline_Software)
 -   [ICARUS](https://cdcvs.fnal.gov/redmine/projects/icaruscode/wiki/The_ICARUS_Guide_to_using_LArSoft)
--   [LArSoft General Quick Start
-    Guide](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_Quick-start_guide_to_using_and_developing_LArSoft_code_)
-    (For new experiments to use as a base for developing a guide.)
+-   [LArSoft General Quick Start Guide](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_) (For new experiments to use as a base for developing a guide.)
 
-[List of LArSoft
-releases](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/LArSoft_release_list)
+[List of LArSoft releases](https://cdcvs.fnal.govLArSoft_release_list)
 
-[List of supported
-platforms](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_Supported_platforms_)
+[List of supported platforms](https://cdcvs.fnal.gov_Supported_platforms_)
 
-[Packages and
-dependencies](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_LArSoft_repositories_packages_and_dependencies_)
+[Packages and dependencies](https://cdcvs.fnal.gov_LArSoft_repositories_packages_and_dependencies_)
 
-[Working with GitHub and LArSoft pull
-requests](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Working_with_GitHub)
+[Working with GitHub and LArSoft pull requests](https://cdcvs.fnal.govWorking_with_GitHub)
 
-[Training videos and presentations on
-LArSoft](http://larsoft.org/training/)
+[Training videos and presentations on LArSoft](http://larsoft.org/training/)
 
-[A video introduction to LArSoft by Ruth Pordes and Erica
-Snider](http://vms.fnal.gov/w1/Lectures/LarSoft/160805Pordes/index.htm)\
-[PDF of the paper for the above
-video](https://indico.cern.ch/event/432527/contributions/1071433/attachments/1319976/1981094/LArSoftICHEP_V05.pdf)
+[A video introduction to LArSoft by Ruth Pordes and Erica Snider](http://vms.fnal.gov/w1/Lectures/LarSoft/160805Pordes/index.htm)\
+[PDF of the paper for the above video](https://indico.cern.ch/event/432527/contributions/1071433/attachments/1319976/1981094/LArSoftICHEP_V05.pdf)
 
-[Presentations in
-Indico](https://indico.fnal.gov/categoryDisplay.py?categId=233)
+[Presentations in Indico](https://indico.fnal.gov/categoryDisplay.py?categId=233)
 
-[LArSoft documentation from the
-code](http://nusoft.fnal.gov/larsoft/doxsvn/html "Doxygen")
-
-Files (0)
-
-(Maximum size: 400 MB)
-
-Also available in: [PDF](/redmine/projects/larsoft/wiki/Quick_Links.pdf)
-[HTML](/redmine/projects/larsoft/wiki/Quick_Links.html)
-[TXT](/redmine/projects/larsoft/wiki/Quick_Links.txt)
-
-Loading...
-
-Powered by [Redmine](https://www.redmine.org/) © 2006-2019 Jean-Philippe
-Lang
+[LArSoft documentation from the code](http://nusoft.fnal.gov/larsoft/doxsvn/html "Doxygen")
