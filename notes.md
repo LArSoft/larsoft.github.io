@@ -5,8 +5,13 @@
 * A Jekyll theme.  First pass is using the minimal theme.  Any theme we choose must allow us to display a logo. 
 * We need a few site wide navigation links.  Either in the left sidebar from the minimal theme or across the top.  Can be done with css?
 * Will play with themes.  Can only use one at a time.
+  * so far, this minimal theme seems to be the only approved (safe) theme that also displays our logo
 * Investigation of the [SBN site code](https://github.com/SBNSoftware/SBNSoftware.github.io) is very helpful.  See, for instance, the [navigation header](https://github.com/SBNSoftware/SBNSoftware.github.io/blob/master/_data/navigation.yml)
-* Breadcrumbs -  See https://github.com/wikimedia/mediawiki-extensions-BreadCrumbs
+* Breadcrumbs 
+  * See https://github.com/wikimedia/mediawiki-extensions-BreadCrumbs - alas we are not a wikimedia site
+  * These are more interesting: 
+    * https://blog.benoitblanchon.fr/dead-simple-breadcrumbs-for-github-pages/
+    * https://blog.benoitblanchon.fr/semi-automatic-breadcrumbs-for-github-pages/
 
 ## Test wiki conversion
 
