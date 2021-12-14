@@ -1,9 +1,0 @@
-
-h1. Some C++ good practices
-
-We collect here some frequently asked questions and tricks about using C++:
-
-* [[Which types should go in my C++ function arguments?]]
-* [[Updating code to GCC 6|The compiler started complaining after upgrading to GCC 6...]]
-
-Please ask for more, or for clarifications, to the "_art_ expert":mailto:art-users@fnal.gov or to the "LArSoft team":mailto:larsoft@fnal.gov.

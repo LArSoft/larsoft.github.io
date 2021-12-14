@@ -1,9 +1,0 @@
-
-h1. TrackFinder
-
-The package maintainer is Herb Greenlee (greenlee@fnal.gov).
-
-h2. SimpleTracker
-
-h2. Track3Dreco
-

@@ -1,9 +1,0 @@
-
-h1. Message Facility
-
-Documentation on message facility is in [[messagefacility:|its own wiki]]. In particular:
-
- * [[messagefacility:Tutorial for MessageFacility v12 Configuration|configuring it with FHiCL (tutorial)]]
- * [[messagefacility:Using MessageFacility|using it in your code]]
-
-

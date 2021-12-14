@@ -1,6 +1,0 @@
-
-h1. OpticalDetectorData
-
-This contains data classes associated with simulating the ADCs and FEM (Front-End Modules) associated with the optical detectors (PMTs). There&#39;s a little more information on the [[optical simulations]] page. 
-
-As of June 2013, the classes in this package tend to be MicroBooNE-specific. 
