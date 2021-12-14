@@ -1,9 +1,7 @@
 #!/bin/bash
 
-#  * pandoc -f html -t markdown -s ../wiki2/Quick_Links -o Quick_Links.md
-#        "--no-wrap",
-#        "--smart",
-#        "--strict",
+# basic pandoc command
+#  pandoc --no-wrap --smart -f html -t markdown -s <file> -o <file>.md
 
 ################################################################################
 
