@@ -25,9 +25,6 @@ final_markdown=${input_file}.md
 # strip off header and footer
 # <div class="wiki wiki-page">
 # <fieldset class="collapsible collapsed hide-when-print">
-#[Edit this section](/redmine/projects/larsoft/wiki/LArSoftWiki/edit?section=6)
-#/redmine/projects/larsoft/wiki/
-
 #cat ${input_file} | sed -e '1,/<div.id="content">/'d -e '/<div.id="wiki_add_attachment">/,$d' > ${short_file}
 #cat ${input_file} | sed -e '1,/<div class="wiki wiki-page">/'d -e '/<div.id="wiki_add_attachment">/,$d' > ${short_file}
 cat ${input_file} | sed -e '1,/<div class="wiki wiki-page">/'d -e '/<fieldset class="collapsible collapsed hide-when-print">/,$d' > ${short_file}
@@ -35,7 +32,11 @@ cat ${input_file} | sed -e '1,/<div class="wiki wiki-page">/'d -e '/<fieldset cl
 # convert
 pandoc --no-wrap --smart -f html -t markdown -s ${short_file} -o ${output_file}
 
+#  more cleanup
+#[Edit this section](/redmine/projects/larsoft/wiki/LArSoftWiki/edit?section=6)
+#/redmine/projects/larsoft/wiki/
 cat  ${output_file} | grep -v '\[Edit' | sed -e 's%/redmine/projects/larsoft/wiki/%%'g > ${final_markdown}
+
 
 exit 0
 
