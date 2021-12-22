@@ -3,7 +3,7 @@ LArSoftWiki
 
 > [Quick Links](Quick_Links)
 
-**LArSoft git repositories have moved to GitHub!** [Learn the new procedures](Working_with_Github)
+**LArSoft git repositories have moved to GitHub!** [Learn the new procedures](Working_with_GitHub)
 
 For general information on LArSoft, including links to videos and presentations, start at [https://larsoft.org/](https://larsoft.org/)
 
