@@ -27,9 +27,8 @@ It is possible to download the pages individually by hand,
 but LArSoft has too many pages for this to be useful.
 Instead, we are looking at a script to strip the headers and footers off the files,
 either before or after conversion.
-
-* Testing - best option so far [md wiki from html](wiki4/LArSoftWiki.md)
-  * using convert.sh which is currently available [here](convert.sh)
+* Testing with [convert.pl](convert.pl) [md wiki from html](wiki/LArSoftWiki.md)
+* Testing with older [convert.sh](convert.sh) [md wiki from html](wiki4/LArSoftWiki.md)
 
 *  Copying textile pages does not work.
   * Among other things, the internal links are not respected.  This is probably because github uses different textile conventions.
