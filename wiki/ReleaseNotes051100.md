@@ -43,7 +43,7 @@ New features
 Breaking changes
 --------------------------------------
 
--   [use LArSeedService](https://cdcvs.fnal.govBreaking_Changes#SeedService-from-artextensions-replaced-by-LArSeedService)
+-   [use LArSeedService](Breaking_Changes#SeedService-from-artextensions-replaced-by-LArSeedService)
 
 Bug fixes
 ------------------------

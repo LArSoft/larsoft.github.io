@@ -214,4 +214,4 @@ This will display your geometry onscreen, supposing your World Volume is named v
 
 The numbering part of the string, such as volTPC+instance number, is arbitrary, but strings have to be unique. The Geometry part of it must follow the convention outlined in the description of Figure 1.\
 More information is under development at\
-[https://cdcvs.fnal.govCreating\_GDML\_](https://cdcvs.fnal.govCreating_GDML_)
+[Creating\_GDML\_](Creating_GDML_)

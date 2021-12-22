@@ -108,7 +108,7 @@ You have no checked out code
 This is the simplest possible case. We suggest that you start from a fresh login.
 
 1.  setup TOP\_PRODUCT NEW\_RELEASE\_VERSION -q QUALIFIERS
-2.  See [Quick Links](https://cdcvs.fnal.govQuick_Links) for experiment-specific instructions on getting started
+2.  See [Quick Links](Quick_Links) for experiment-specific instructions on getting started
 
 Updating your own package
 --------------------------------------------------------

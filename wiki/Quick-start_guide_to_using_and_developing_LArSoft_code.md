@@ -86,7 +86,7 @@ or\
 
 If off-site, the appropriate script should be modified to reflect the locations of local product installations.
 
--   Perform the next step **only** if you want to run code in a frozen LArSoft release **and** are interested in running jobs specific to experiments other than DUNE and uBooNE. All other users should skip to the [Create a working area](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_#Create-a-working-area-2) step.
+-   Perform the next step **only** if you want to run code in a frozen LArSoft release **and** are interested in running jobs specific to experiments other than DUNE and uBooNE. All other users should skip to the [Create a working area](_Quick-start_guide_to_using_and_developing_LArSoft_code_#Create-a-working-area-2) step.
 
 ### Run non-DUNE or non-uBoonE jobs using only a frozen LArSoft release
 
@@ -216,7 +216,7 @@ Annotated quick-start guide
 Initial setup
 --------------------------------
 
-The first time you start a mrb project, you’ll need to define various things. (The setup for an existing working area is slightly different, and is described [here](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_#Setup-work-environment-for-an-existing-working-area-from-a-fresh-login)
+The first time you start a mrb project, you’ll need to define various things. (The setup for an existing working area is slightly different, and is described [here](_Quick-start_guide_to_using_and_developing_LArSoft_code_#Setup-work-environment-for-an-existing-working-area-from-a-fresh-login)
 
 There are experiment-specific setup scripts to perform setup. For example.
 

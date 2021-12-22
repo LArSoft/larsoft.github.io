@@ -303,7 +303,7 @@ The generated release notes contain an informative header and a list of commits 
 
 When copying the generated release notes, it is important to use cat so that lines are not wrapped. Commands such as more or less will wrap lines, which breaks the generated html.
 
-The top line of the the generated ReleaseNotes file is copied to the [https://cdcvs.fnal.govLArSoft\_release\_list](https://cdcvs.fnal.govLArSoft_release_list) table. The remainder of the file is used to make the actual release notes. Notes about each release must be added by hand to the top section of the release notes.\
+The top line of the the generated ReleaseNotes file is copied to the [LArSoft\_release\_list](LArSoft_release_list) table. The remainder of the file is used to make the actual release notes. Notes about each release must be added by hand to the top section of the release notes.\
 
     make-release-notes <top directory> <tag> <previous tag>
     (e.g., make-release-notes `pwd` v08_42_00 v08_41_01)

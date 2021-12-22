@@ -49,4 +49,4 @@ e10 and e15 qualified versions of igprof are available.
 -   IgProf home page: [http://igprof.org/](http://igprof.org/)
 -   installation: see [http://igprof.org/install.html](http://igprof.org/install.html)
 
-For a more recent example, see [https://cdcvs.fnal.govProtoDUNE\_and\_DUNE\_Far\_Detector\_simulation\_and\_reconstruction\_workflows\_(v06\_57\_00)\#Profiling-memory-and-CPU-performance](https://cdcvs.fnal.govProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00)#Profiling-memory-and-CPU-performance)
+For a more recent example, see [ProtoDUNE\_and\_DUNE\_Far\_Detector\_simulation\_and\_reconstruction\_workflows\_(v06\_57\_00)\#Profiling-memory-and-CPU-performance](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00)#Profiling-memory-and-CPU-performance)

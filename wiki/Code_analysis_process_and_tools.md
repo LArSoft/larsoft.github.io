@@ -176,7 +176,7 @@ The details of the follow-up work, as for the code analysis meetings, should be 
 Reference
 ------------------------
 
-The above process is based on the recommendations at [http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=5765](http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=5765) which modified the original process at [https://cdcvs.fnal.govCode\_analysis\_process\_and\_tools/4](https://cdcvs.fnal.govCode_analysis_process_and_tools/4)
+The above process is based on the recommendations at [http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=5765](http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=5765) which modified the original process at [Code\_analysis\_process\_and\_tools/4](Code_analysis_process_and_tools/4)
 
 History
 --------------------

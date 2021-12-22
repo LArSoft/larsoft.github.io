@@ -4,7 +4,7 @@ Process for contributing code to LArSoft
 Process for contributing a non-architectural, non-breaking change to LArSoft:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1.  Become familiar with the [design principles](http://larsoft.org/important-concepts-in-larsoft/design/) and [coding guidelines](https://cdcvs.fnal.govThe_rules_and_guidelines) of LArSoft.
+1.  Become familiar with the [design principles](http://larsoft.org/important-concepts-in-larsoft/design/) and [coding guidelines](The_rules_and_guidelines) of LArSoft.
 2.  Develop the code including comments, tests and documentation.
 3.  Offer it by talking about it to LArSoft team members and maybe give a presentation at the [LArSoft Coordination Meeting.](https://indico.fnal.gov/categoryDisplay.py?categId=405)
 
@@ -16,7 +16,7 @@ Process for contributing an architectural, breaking change to LArSoft:
     -   May find that the feature, or a suitable alternative, is already in LArSoft, thus saving the need to develop it again.
     -   At this point, a decision will be made as to whether further discussion or review is needed, and where that discussion should take place. If other experts are likely to be required, a plan for including them in the process will be developed. The division of labor for the architectural changes will be discussed as well.
 
-3.  Developer learns/reviews the [design principles](http://larsoft.org/important-concepts-in-larsoft/design/) and [coding guidelines](https://cdcvs.fnal.govThe_rules_and_guidelines) of LArSoft.
+3.  Developer learns/reviews the [design principles](http://larsoft.org/important-concepts-in-larsoft/design/) and [coding guidelines](The_rules_and_guidelines) of LArSoft.
 4.  Developer prepares a straw proposal or prototype for the change.
 5.  For major changes as determined in step (2), the proposal should be presented at the biweekly [LArSoft Coordination Meeting.](https://indico.fnal.gov/categoryDisplay.py?categId=405) Depending on the feedback, more than one presentation may be useful.
 6.  The developer writes the code, including comments, tests, and examples as needed, and keeps the LArSoft team informed on the status of work.

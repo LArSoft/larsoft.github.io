@@ -46,7 +46,7 @@ For a detailed example (from a particular project, so there is some project-spec
 Dealing with breaking changes
 ----------------------------------------------------------------
 
-If you’re unsure what a breaking change is, read the [description of breaking changes](https://cdcvs.fnal.govGetting_new_code_into_a_LArSoft_release)
+If you’re unsure what a breaking change is, read the [description of breaking changes](Getting_new_code_into_a_LArSoft_release)
 
 To help in fixing, there is important information in the [Breaking Changes](Breaking_Changes) wiki page.
 

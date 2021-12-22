@@ -15,7 +15,7 @@ This information is based on [Dune’s writeup](https://cdcvs.fnal.gov/redmine/p
 
 Allinea Forge is a commercially-available suite including a [debugger](https://www.allinea.com/sites/default/files/uploads/Datasheets/allinea_ddt.pdf) (`ddt`) and a [profiling tool](http://www.allinea.com/products/map/features) (`map`). The `ddt` debugger is a GUI frontend to the `gdb` debugging tool.
 
-Fermilab has a few licenses available: see [details below](https://cdcvs.fnal.govDebugging_LArSoft_with_Allinea/#Licenses)
+Fermilab has a few licenses available: see [details below](Debugging_LArSoft_with_Allinea/#Licenses)
 
 Debugging videos demos and tutorials are available at: [https://www.allinea.com/debugger-videos](https://www.allinea.com/debugger-videos).
 

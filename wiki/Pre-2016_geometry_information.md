@@ -22,9 +22,9 @@
 Pre-2016 geometry information
 ================================================================
 
-Pictures for this information can be found at: [https://cdcvs.fnal.govGeometry/](https://cdcvs.fnal.govGeometry/)
+Pictures for this information can be found at: [Geometry/](Geometry/)
 
-Up to date Geometry information can be found at: [https://cdcvs.fnal.govGeometry\_Package](https://cdcvs.fnal.govGeometry_Package)
+Up to date Geometry information can be found at: [Geometry\_Package](Geometry_Package)
 
 The maintainer of this package is Gianluca Petrillo, .
 

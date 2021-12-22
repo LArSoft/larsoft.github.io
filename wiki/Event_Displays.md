@@ -10,7 +10,7 @@ The LArSoft event display strategy is to provide support for community developed
     Very slow for large detectors.\
     Works for all detectors. Can display multiple data items and labels at once. It can be extended to display information within any data product and associations.\
     Runs in LArSoft only – not gallery\
-    Redmine [https://cdcvs.fnal.govEventDisplay](https://cdcvs.fnal.govEventDisplay)
+    Redmine [EventDisplay](EventDisplay)
 2.  TITUS (Qt based)\
     Combination of python (3) and C++ and is based on the PyQT5 interface. \
     Lead developer: Marco Del Tutto\

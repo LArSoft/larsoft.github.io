@@ -5,7 +5,7 @@ DRAFT - Do Not Use yet - DRAFT - 7/31/18
 
 Background:
 
--   Note: LArSoft is designed to be run by experiments, so most people set up LArSoft for a specific experiment. You do this via the setup guide for your experiment. ([https://cdcvs.fnal.govQuick\_Links](https://cdcvs.fnal.govQuick_Links))
+-   Note: LArSoft is designed to be run by experiments, so most people set up LArSoft for a specific experiment. You do this via the setup guide for your experiment. ([Quick\_Links](Quick_Links))
 -   The core LArSoft code lives in a set of git repositories maintained by the LArSoft core team. Can view the code organization at [http://larsoft.org/larsoft-code-organization/](http://larsoft.org/larsoft-code-organization/)
 -   If you do not have code changes to LArSoft code itself, you may just set up the appropriate products and run.
 -   This page is meant to be as short as possible, but being concise means leaving out everything but the straightforward case. Users need to know many things, but including all the options becomes unwieldy. If there is something you think should be included, please [email the LArSoft team](mailto:larsoft-team@fnal.gov)
@@ -25,7 +25,7 @@ To set up and run LArSoft, the user must:
     4.  Specific example for DUNE:
         -   source /grid/fermiapp/products/dune/setup\_dune.sh
 
-    5.  Can find links to all LArSoft Collaboration experiments at: [https://cdcvs.fnal.govQuick\_Links](https://cdcvs.fnal.govQuick_Links) \
+    5.  Can find links to all LArSoft Collaboration experiments at: [Quick\_Links](Quick_Links) \
         Â
 
 2.  Create a new development area. This creates a number of subdirectories.

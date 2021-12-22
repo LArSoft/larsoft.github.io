@@ -74,7 +74,7 @@ larsoft
 [https://github.com/LArSoft/larsoft](https://github.com/LArSoft/larsoft) \
  (A product used to set up the others with a single command.)
 
-Although you can use git clone to download a copy of each repository to your local area, additional steps are needed to use, build or develop the software. Go back to [Step 1 under Using LArSoft](https://cdcvs.fnal.govUsing_LArSoft) for more information.
+Although you can use git clone to download a copy of each repository to your local area, additional steps are needed to use, build or develop the software. Go back to [Step 1 under Using LArSoft](Using_LArSoft) for more information.
 
 In addition to the above repositories, there is an external product `larsoft_data` that contains certain data files that were previously stored in `svn` in locations that were included in `FW_SEARCH_PATH`. Setting up the `larsoft` product will set up `larsoft_data` and make the appropriate additions to `FW_SEARCH_PATH`.
 

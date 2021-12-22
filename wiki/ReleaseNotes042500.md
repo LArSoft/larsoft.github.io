@@ -57,7 +57,7 @@ Bug fixes
 Known issues
 ------------------------------
 
-Although all available tests passed, there are still some issues with the [Channel Status service changes](https://cdcvs.fnal.govBreaking_Changes#ChannelStatus-readiness)
+Although all available tests passed, there are still some issues with the [Channel Status service changes](Breaking_Changes#ChannelStatus-readiness)
 
 Updated dependencies
 ----------------------------------------------

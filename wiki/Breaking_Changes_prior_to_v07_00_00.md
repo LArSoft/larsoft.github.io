@@ -486,8 +486,8 @@ lar::PtrMaker moved to art
 **Affects**: all code using `lar::PtrMaker` will get a compilation error and a message like:\
 
     In file included from MyModule_module.cc:11:0:
-    lardata/Utilities/PtrMaker.h:46:159: note: #pragma message: lar::PtrMaker has become art::PtrMaker (see https://cdcvs.fnal.govBreaking_Changes#larPtrMaker-moved-to-art .
-     #pragma message("lar::PtrMaker has become art::PtrMaker (see https://cdcvs.fnal.govBreaking_Changes#larPtrMaker-moved-to-art .")
+    lardata/Utilities/PtrMaker.h:46:159: note: #pragma message: lar::PtrMaker has become art::PtrMaker (see Breaking_Changes#larPtrMaker-moved-to-art .
+     #pragma message("lar::PtrMaker has become art::PtrMaker (see Breaking_Changes#larPtrMaker-moved-to-art .")
                                                                                                                                                                    ^
     MyModule_module.cc: In member function ‘virtual void MyModule::produce(art::Event&)’:
     MyModule_module.cc:115:3: error: ‘PtrMaker’ is not a member of ‘lar’
@@ -709,7 +709,7 @@ Repackaging of data products and adoption of ROOT 6
 Moved test utility headers and libraries
 --------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_13\_00](https://cdcvs.fnal.govReleaseNotes051300)\
+**When was committed**: [v05\_13\_00](ReleaseNotes051300)\
 **Failure when not fixed**: compilation error: headers `lardata/DetectorInfo/Provider*.h` and `test/Geometry/*.h` not found; linker errors: `-ltest_Geometry` library not found\
 **Fix**: run the fix script from `larsoft` repository: `${LARSOFT_DIR}/bin/UpdateTestInfrastructure.py -Uv <repository path>`; check the proposed changes and, if they look reasonable, add a `--doit` argument. Or else, fix the `#include` and library names manually:
 
@@ -725,7 +725,7 @@ Moved test utility headers and libraries
 SpaceCharge improvements require new call
 ----------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_12\_00](https://cdcvs.fnal.govReleaseNotes051200)\
+**When was committed**: [v05\_12\_00](ReleaseNotes051200)\
 **Failure when not fixed**:\
 
     %MSG-w LArVoxelReadout:  LArG4:largeant 27-May-2016 13:08:05 CDT run: 1 subRun: 0 event: 10
@@ -745,7 +745,7 @@ SpaceCharge improvements require new call
 SeedService from artextensions replaced by LArSeedService
 ------------------------------------------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_11\_00](https://cdcvs.fnal.govReleaseNotes051100)\
+**When was committed**: [v05\_11\_00](ReleaseNotes051100)\
 **Motivation**: branching from `artextensions`’s `SeedService` to add custom features\
 **Affects**: all code and configuration files using `SeedService` service\
 **Failure when not fixed**:
@@ -757,7 +757,7 @@ SeedService from artextensions replaced by LArSeedService
 Explicit override of `LArG4` random seeds
 --------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_09\_00](https://cdcvs.fnal.govReleaseNotes050900)\
+**When was committed**: [v05\_09\_00](ReleaseNotes050900)\
 **Motivation**: particle, electron and photon generation by Geant4 is now independent of their transportation to TPC wires and optical systems\
 **Affects**: `LArG4` module configurations explicitly specifying the random seed (`Seed` parameter)\
 **Failure when not fixed**: will throw an exception (`Configuration` error) at run time when constructing `LArG4` module\
@@ -769,7 +769,7 @@ Explicit override of `LArG4` random seeds
 `sim::ParticleList` can’t be copied any more
 -----------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_09\_00](https://cdcvs.fnal.govReleaseNotes050900)\
+**When was committed**: [v05\_09\_00](ReleaseNotes050900)\
 **Motivation**: Copy of `sim@ParticleList` objects is extremely expensive and most often not needed. The copy constructor and assignment have been removed to avoid the accidental use of copy, and replaced with move operations.\
 **Affects**: Code trying (most likely, inadvertently) to copy the particle list.\
 **Failure when not fixed**: Compilation error: copy constructor (`sim::ParticleList::ParticleList (sim::ParticleList const&)`) or copy assignment operator (`sim::ParticleList& sim::ParticleList::operator= (sim::ParticleList const&)`) are deleted\
@@ -778,7 +778,7 @@ Explicit override of `LArG4` random seeds
 Photon Library returns plain data rather than vectors
 ----------------------------------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_09\_00](https://cdcvs.fnal.govReleaseNotes050900)\
+**When was committed**: [v05\_09\_00](ReleaseNotes050900)\
 **Motivation**: The photon library contains a map of a vector of “visibility” information in a discretized representation of the TPC active volume (*voxels*). The visibility information consists of the number of photons per energy seen by each of the photodetector channels. The number of voxels needs to be very high (in MicroBooNE it is currently 2.25M) and the information was represented by a nested vector (`std::vector<std::vector<float>>`), the outer vector being indexed by voxel. Changing this representation into a flat vector with proper indicing support saves about 50 MB of memory.\
 **Affects**: code querying `PhotonVisibilityService::GetCounts()`, including e.g. `PhotonVisibilityService::GetAllVisibilities()` that uses it internally\
 **Failure when not fixed**: compilation error asserting that a `float const*` can’t be converted into a `std::vector<float>` or that `float const*` has no member functions (`at()`, `size()`, etc.)\
@@ -791,7 +791,7 @@ Photon Library returns plain data rather than vectors
 photon detector reconstruction
 ------------------------------------------------------------------
 
-**When was committed**: [v05\_04\_00](https://cdcvs.fnal.govReleaseNotes050400)\
+**When was committed**: [v05\_04\_00](ReleaseNotes050400)\
 **Motivation**: There is be a separate module to produce OpHits – OpHitFinder\_module, while OpFlashFinder\_module will produce only OpFlashes and OpHit-OpFlash associations (previously both OpHits and OpFlashes were produced in OpFlashFinder).\
 **Affects**: all code running photon detector reconstruction \
 **Failure when not fixed**: FHiCL files stop running properly\
@@ -835,7 +835,7 @@ photon detector reconstruction
 Moving `recob::Track` methods out of the class
 ----------------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_04\_00](https://cdcvs.fnal.govReleaseNotes050400)\
+**When was committed**: [v05\_04\_00](ReleaseNotes050400)\
 **Motivation**: data products should have minimal dependencies, but `recob::Track` depended on `Geometry` service. Functionality of the two offending methods have been moved into `lardata/RecoBaseArt/TrackUtils.h` as `lar::utils::TrackPitchInView` (was `recob::Track::TrackPitchInView`) and `lar::utils::TrackProjectedLength()` (from `recob::Track::ProjectedLength()`). They take the same arguments and return the same value as before, except that the reference to a track has been added as the first argument.\
 **Affects**: calls to `recob::Track::PitchInView()` and `recob::Track::ProjectedLength()`\
 **Failure when not fixed**: compiler error: `‘const class recob::Track’ has no member named ‘PitchInView’` (the same with `` `ProjectedLength` ``)\
@@ -848,7 +848,7 @@ Moving `recob::Track` methods out of the class
 Repository structure refactoring
 ----------------------------------------------------------------------
 
-**When was committed**: [v05\_00\_00](https://cdcvs.fnal.govReleaseNotes050000)\
+**When was committed**: [v05\_00\_00](ReleaseNotes050000)\
 **Motivation**: uniforming to the include path standard `#include "reponame/path/header.h"` used everywhere else in FNAL products except nutools\
 **Affects**: all code based on versions of LArSoft before `v05_00_00`\
 **Failure when not fixed**: compiler errors: missing header\
@@ -858,7 +858,7 @@ Core service refactoring
 ------------------------------------------------------
 
 **Related issue:** [\#10888](/redmine/issues/10888 "Feature: Complete first round of services re-architecture (Closed)")\
-**When was committed**: [v05\_00\_00](https://cdcvs.fnal.govReleaseNotes050000)\
+**When was committed**: [v05\_00\_00](ReleaseNotes050000)\
 **Motivation**: refactoring of core services to apply service factorization model and allow experiment-specific implementations\
 **Affects**: all code based on versions of LArSoft before `v05_00_00` that uses core services (`LArProperties`, `DetectorProperties`, `TimeService` and possibly others) \
 **Failure when not fixed**: compiler errors (unknown class, undefined service class methods) and run-time errors (on service initialization)\
@@ -868,7 +868,7 @@ Data products must be put into the event
 --------------------------------------------------------------------------------------
 
 **Related issue:** [\#7852](/redmine/issues/7852 "Feature: A module failing to put() a product it produces() should be an error (Closed)")\
-**When was committed**: [v04\_28\_00](https://cdcvs.fnal.govReleaseNotes042800)\
+**When was committed**: [v04\_28\_00](ReleaseNotes042800)\
 **Motivation**: *art* new feature: producer and filter modules promise on construction that they will deliver some data products; the expected behaviour is for them to keep that promise. Failure to do so now triggers an exception.\
 **Affects**: producer and filter modules that by design or by mistake declare with `produces<>()` that they would put a product into the event, but then for at least one event they don’t\
 **Failure when not fixed**: when `produce()`/`filter()` method returns from processing a given event, and any promised products has not been put into that event, an exception like the following one will be thrown:\
@@ -940,8 +940,8 @@ Unreadable old data files
 --------------------------------------------------------
 
 **Related issue:** [\#10614](/redmine/issues/10614 "Bug: larsoft v04_27_00 with art v1_16_02 cannot read old MC/data files (Closed)")\
-**When was committed**: [v04\_27\_00](https://cdcvs.fnal.govReleaseNotes042700)\
-**Fixed in:** [v04\_28\_00](https://cdcvs.fnal.govReleaseNotes042800)\
+**When was committed**: [v04\_27\_00](ReleaseNotes042700)\
+**Fixed in:** [v04\_28\_00](ReleaseNotes042800)\
 **Motivation**: *art* update\
 **Affects**: `v04_27_00` and `v04_27_01` reading all input files created with LArSoft older than `v04_27_00`\
 **Does not affect**: files created with LArSoft `v04_27_00` or newer, read by any LArSoft version\
@@ -952,7 +952,7 @@ IChannelStatusService readiness
 --------------------------------------------------------------------
 
 **Related issue:** [\#1083](/redmine/issues/1083 "Bug: filter::ChannelFilter should be made into a service (Closed)")\
-**When was committed**: [v04\_25\_00](https://cdcvs.fnal.govRelease_Notes_04_25_00#LArSoft-v04_25_00-Release-Notes)\
+**When was committed**: [v04\_25\_00](Release_Notes_04_25_00#LArSoft-v04_25_00-Release-Notes)\
 **Motivation**: a new `IChannelStatusService` is introduced replacing the old `ChannelFilter` class to provide information about TPC channel quality\
 **Change**: new service configuration is needed.\
 **Affects**: all FHiCL configurations running modules or algorithms that use `ChannelFilter` or the `IChannelStatusService` replacement\
@@ -992,7 +992,7 @@ Removed generic service configuration
 --------------------------------------------------------------------------------
 
 **Related issue:** [\#5100](/redmine/issues/5100 "Support: Remove dependency on services.fcl and evdservices.fcl from experiment specific .fcl files (Closed)")\
-**When was committed**: [v02\_05\_02](https://cdcvs.fnal.govRelease_Notes_02_05_02#LArSoft-v02_05_02-Release-Notes)\
+**When was committed**: [v02\_05\_02](Release_Notes_02_05_02#LArSoft-v02_05_02-Release-Notes)\
 **Motivation**: configuration of service entangled settings for different experiments, resulting in epic unmaintainability \
 **Change**: `services.fcl` and `evdservices.fcl` have been removed; see also [LArSoft Librarians’ meeting on August 26, 2014](https://indico.fnal.gov/getFile.py/access?contribId=4&resId=0&materialId=slides&confId=8869)\
 **Affects**: configuration (FHiCL) files including directly `services.fcl` or `evdservices.fcl`\
@@ -1003,7 +1003,7 @@ Relocation of `TrackIDE`
 ----------------------------------------------------
 
 **Related issue:** none\
-**When was committed**: [v02\_05\_00](https://cdcvs.fnal.govRelease_Notes_02_05_00#LArSoft-v02_05_00-Release-Notes)\
+**When was committed**: [v02\_05\_00](Release_Notes_02_05_00#LArSoft-v02_05_00-Release-Notes)\
 **Motivation**: `TrackIDE` class represents a general simulation concept, not specific to “cheating” \
 **Change**: `TrackIDE` has been placed into a different namespace and header file: from `cheat::TrackIDE` living in `MCCheater/BackTracker.h`, into `SimChannel.h` as `sim::TrackIDE` \
 **Affects**: code referring to `cheat::TrackIDE` class\

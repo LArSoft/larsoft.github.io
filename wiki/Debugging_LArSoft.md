@@ -13,7 +13,7 @@ Debugging LArSoft code
 RogueWave TotalView
 --------------------------------------------
 
-**NOTE: TotalView is a commercial debugger whose license Fermilab used to pay, but it is being replaced by [Allinea](https://cdcvs.fnal.govDebugging_LArSoft_with_Allinea)**
+**NOTE: TotalView is a commercial debugger whose license Fermilab used to pay, but it is being replaced by [Allinea](Debugging_LArSoft_with_Allinea)**
 
 The information on totalview is here in case licenses are available from another source.
 

@@ -93,6 +93,8 @@ sub process_file {
   open(POUT, "> $mfile") or die "Couldn't open $mfile";
   while ( $line=<PIN> ) {
     chop $line;
+# (https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki)
+    $line =~ s/https\:\/\/cdcvs\.fnal\.gov\/redmine\/projects\/larsoft\/wiki\///g;
     $line =~ s/\/redmine\/projects\/larsoft\/wiki\///g;
     $newline = $line;
     if( $line =~ '[¶]' ) {

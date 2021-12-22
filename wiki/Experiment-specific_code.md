@@ -19,7 +19,7 @@ Experiment-specific code, such as fcl and geometry (GDML) files, field, are in t
   icaruscode     ssh:///cvs/projects/icaruscode        –                  [redmine](https://cdcvs.fnal.gov/redmine/projects/icaruscode/repository)
   -------------- ------------------------------------- ------------------ --------------------------------------------------------------------------
 
-See the [experiment-specific pages](https://cdcvs.fnal.govQuick_Links) for instructions on how to use code in these repositories.
+See the [experiment-specific pages](Quick_Links) for instructions on how to use code in these repositories.
 
 [Code moved from core LArSoft to lbnecode](_Code_moved_from_core_LArSoft_to_lbnecode_) (`lbnecode` was migrated to dunetpc on Aug. 16, 2015)\
 [Code moved from core LArSoft to uboonecode](_Code_moved_from_core_LArSoft_to_uboonecode_)

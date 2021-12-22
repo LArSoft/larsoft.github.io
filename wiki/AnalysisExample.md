@@ -37,7 +37,7 @@ This page goes along with the [AnalysisExample](https://cdcvs.fnal.gov/redmine/p
 
 -   If you’ve been given a file that contains a ROOT n-tuple, then you don’t need this page. Just start using ROOT (there’s a nice [tutorial](http://www.nevis.columbia.edu/~seligman/root-class/)) and work with the n-tuple.
 
--   If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You’ll learn something about the development environment and how to read data from LArSoft event records; you won’t learn how to [create producer or filter packages](https://cdcvs.fnal.govUsing_art_in_LArSoft#artEDProducer), how to [write data](https://cdcvs.fnal.govUsing_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](https://cdcvs.fnal.govUsing_art_in_LArSoft#artAssns), how to [save your work in a git repository](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide), etc. You probably want to read [Developing with LArSoft](https://cdcvs.fnal.govDeveloping_With_LArSoft) instead.
+-   If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You’ll learn something about the development environment and how to read data from LArSoft event records; you won’t learn how to [create producer or filter packages](Using_art_in_LArSoft#artEDProducer), how to [write data](Using_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](Using_art_in_LArSoft#artAssns), how to [save your work in a git repository](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide), etc. You probably want to read [Developing with LArSoft](Developing_With_LArSoft) instead.
 
 #### Alternatives
 
@@ -47,9 +47,9 @@ Aside from AnalysisExample, there are other packages you may want to consider fo
 
 -   [LArLite](http://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=3183) is a MicroBooNE-based tool for simplified data analysis on LArSoft events. It’s more user-friendly than LArSoft. However, LArSoft event files have to be converted into LArLite’s format before you can use the tool. Also, as with AnalysisTree, not every data item is copied from a LArSoft event record into a LArLite file (though the [developer](mailto:kazuhiro@nevis.columbia.edu) responds to requests very quickly).
 
--   [Gallery](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/) is a package for reading files that contain art::Event records. The package itself does not depend on art, and can be simply run without using FHiCL files and the like. There are some nice examples of how to use Gallery [here](https://github.com/marcpaterno/gallery-demo). However, you have to be familiar with [art input protocols](https://cdcvs.fnal.govUsing_art_in_LArSoft) (as demonstrated in the AnalysisExample code). Also, Gallery does not support art Services and Algorithms; you have to use other tools if you need access to, for example, detector information or simulation parameters (also demonstrated in AnalysisExample).
+-   [Gallery](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/) is a package for reading files that contain art::Event records. The package itself does not depend on art, and can be simply run without using FHiCL files and the like. There are some nice examples of how to use Gallery [here](https://github.com/marcpaterno/gallery-demo). However, you have to be familiar with [art input protocols](Using_art_in_LArSoft) (as demonstrated in the AnalysisExample code). Also, Gallery does not support art Services and Algorithms; you have to use other tools if you need access to, for example, detector information or simulation parameters (also demonstrated in AnalysisExample).
 
--   AnalysisExample, an [art::EDAnalyzer](https://cdcvs.fnal.govUsing_art_in_LArSoft#artEDAnalyzer), gives you access to all the data objects in LArSoft event records, and all of the art/LArSoft methods and services. It’s also useful as a way to learn how to use the LArSoft framework. However, it is not as simple to use as the previous tools; simplicity is not a virtue of LArSoft.
+-   AnalysisExample, an [art::EDAnalyzer](Using_art_in_LArSoft#artEDAnalyzer), gives you access to all the data objects in LArSoft event records, and all of the art/LArSoft methods and services. It’s also useful as a way to learn how to use the LArSoft framework. However, it is not as simple to use as the previous tools; simplicity is not a virtue of LArSoft.
 
 #### Be patient
 
@@ -67,7 +67,7 @@ You have to set up the LArSoft development environment for your installation. Lo
 Set up a working directory
 ----------------------------------------------------------
 
-This is described in the [quick-start guide](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_). You’ll typically be working with files created by a specific release of LArSoft.
+This is described in the [quick-start guide](_Quick-start_guide_to_using_and_developing_LArSoft_code_). You’ll typically be working with files created by a specific release of LArSoft.
 
 In this example, I’ll assume you want your working directory to be `lardev` in your home directory, and you plan to work on files created with release v06\_44\_00. I’m also going to use shell variables when I can, so you can see what’s optional and what you can easily change. Let’s set up this brand-new development directory:
 
@@ -110,7 +110,7 @@ Since you have to type the same commands every time you want to work with LArSof
 Checkout the AnalysisExample package to your development directory
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-The best way to get AnalysisExample and its associated documentation is by checking out the `larexamples` product from the repository. (As you will learn as you work with LArSoft, you can only checkout code on the “product” level; you cannot just checkout an individual package.) This is covered in the [quick-start guide](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_). I’m going to do this with variables, as I did above:
+The best way to get AnalysisExample and its associated documentation is by checking out the `larexamples` product from the repository. (As you will learn as you work with LArSoft, you can only checkout code on the “product” level; you cannot just checkout an individual package.) This is covered in the [quick-start guide](_Quick-start_guide_to_using_and_developing_LArSoft_code_). I’m going to do this with variables, as I did above:
 
     cd ${MRB_SOURCE}                          # Go to your srcs directory
     mrb gitCheckout -t LARSOFT_SUITE_${vers} larexamples  # Checkout the larexamples product, which includes AnalysisExample
@@ -121,7 +121,7 @@ As a quick check, let’s compile the code to see if there are any outstanding p
 
     mrb install                               # Compile the code in ${MRB_SOURCE} and put the results in ${MRB_INSTALL}
 
-The `larexamples` product includes other example code in addition to AnalysisExample; you’ll see that code compile as well. If you’d like to learn more about those Algorithm and Service examples, see [LArSoft Examples](https://cdcvs.fnal.govLArSoft_examples).
+The `larexamples` product includes other example code in addition to AnalysisExample; you’ll see that code compile as well. If you’d like to learn more about those Algorithm and Service examples, see [LArSoft Examples](LArSoft_examples).
 
 ### The `larexamples` version tag
 
@@ -140,7 +140,7 @@ Copying and renaming AnalysisExample to \${YourTask}
 
 Why not? Because if you were to `git push` any of the those changes, they’d affect the “official” version of `AnalysisExample`, which exists as an example for everyone to use for their analysis (you figured that out, didn’t you?). You don’t want to alter AnalysisExample. You want to copy it and make changes to your copy.
 
-As noted above, the mrb+git system organizes packages (e.g., HitFinder, ClusterFinder) into groups or products that can be set up with [UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/UPSV4TOC) (e.g., `larreco`); here’s a list of the [groups](https://cdcvs.fnal.gov_LArSoft_repositories_packages_and_dependencies_). I’m going to assume that you’ll create a product of your own. Let’s call it `myntuples`; product names must be in lower-case.
+As noted above, the mrb+git system organizes packages (e.g., HitFinder, ClusterFinder) into groups or products that can be set up with [UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/UPSV4TOC) (e.g., `larreco`); here’s a list of the [groups](_LArSoft_repositories_packages_and_dependencies_). I’m going to assume that you’ll create a product of your own. Let’s call it `myntuples`; product names must be in lower-case.
 
 In your product will be all the ntuple packages you’re going to create based on AnalysisExample; e.g., MyEnergyStudy, MyEfficiencyHistograms. Or perhaps you’ll just create one package, but with many modules; e.g., create a MyNtuples package and within it create files like MyEnergyStudy\_module.cc, MyEfficiencyHistograms\_module.cc. Either approach will work.
 
@@ -256,7 +256,7 @@ Go ahead and compile. You’ll see your new product being compiled as well. Afte
 
 Read the file README.md, which will lead you to ADDITIONAL\_NOTES.md, which in turn will take you to the rest of the files in the directory. There’s lots of comments to get you started. These files are in `${MRB_SOURCE}/${myProject}/${myProject}/${myPackage}`.
 
-Assume you have an input (or “source”) file that contains simulated and reconstructed events created by a LArSoft simulation job: `~/larwork/events.root`. Then you can run the MyEnergyStudy.fcl command file with the following (for more about the `lar` command, see [Running Jobs](https://cdcvs.fnal.gov_Running_Jobs_)):\
+Assume you have an input (or “source”) file that contains simulated and reconstructed events created by a LArSoft simulation job: `~/larwork/events.root`. Then you can run the MyEnergyStudy.fcl command file with the following (for more about the `lar` command, see [Running Jobs](_Running_Jobs_)):\
 
     lar -c MyEnergyStudy.fcl -s ~/larwork/events.root -T ~/larwork/myhistogram.root
 
@@ -298,7 +298,7 @@ It’s time to start your work. Unless you happen to be looking at the dE/dx for
 
 ### Quick set-up
 
-The [quick-start guide](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_) may give you the impression that you have to type in many shell commands every time you work with mrb+git; maybe this guide has given you that impression as well. Actually, once you’ve completed the one-time setups, and provided you don’t plan to check in your code to the main git repository, things are pretty simple.
+The [quick-start guide](_Quick-start_guide_to_using_and_developing_LArSoft_code_) may give you the impression that you have to type in many shell commands every time you work with mrb+git; maybe this guide has given you that impression as well. Actually, once you’ve completed the one-time setups, and provided you don’t plan to check in your code to the main git repository, things are pretty simple.
 
 Here’s what I do when I login (I work on MicroBooNE):
 
@@ -356,8 +356,8 @@ Good luck!
 Other links
 ----------------------------
 
-[Using ART in LArSoft](https://cdcvs.fnal.govUsing_art_in_LArSoft)\
+[Using ART in LArSoft](Using_art_in_LArSoft)\
 [Doxgen LArSoft documentation](http://nusoft.fnal.gov/larsoft/doxsvn/html/)\
-[Running jobs](https://cdcvs.fnal.gov_Running_Jobs_)\
+[Running jobs](_Running_Jobs_)\
 [FHiCL Configuration validation](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/Configuration_validation_and_fhiclcpp_types)\
 [FHiCL Configuration description](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Configuration_validation_and_description)

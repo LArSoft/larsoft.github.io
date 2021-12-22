@@ -38,7 +38,7 @@ Quick links for Developing with LArSoft
 ------------------------------------------------------------------------------------
 
 -   [Overview page for using LArSoft with GitHub](Working_with_Github)
--   [LArSoft repositories packages and dependencies](https://cdcvs.fnal.gov_LArSoft_repositories_packages_and_dependencies_)
+-   [LArSoft repositories packages and dependencies](_LArSoft_repositories_packages_and_dependencies_)
 -   [Concepts in LArSoft](http://larsoft.org/important-concepts-in-larsoft/)
 
 Platforms
