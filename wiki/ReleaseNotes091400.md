@@ -1,4 +1,4 @@
-LArSoft v09\_14\_00 Release Notes(#LArSoft-v09_14_00-Release-Notes)
+LArSoft v09\_14\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_14\_00 Release Notes(#LArSoft-v09_14_00-Release-Notes)
 Download instructions for [larsoft v09\_14\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_14_00/larsoft-v09_14_00.html)\
 Download instructions for [just larsoftobj v09\_04\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_04_01/larsoftobj-v09_04_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandoracontent PR 17
@@ -63,7 +63,7 @@ New features(#New-features)
 -   larrecodnn PR 14
     -   Add a separate label for SimChannel. This is needed for ProtoDUNE refactored simulation. The changes were made by Leigh Whitehead.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larreco PR 26
@@ -74,31 +74,31 @@ Bug fixes(#Bug-fixes)
     -   Fix a few glitches due to residual hardcoded view numbers
     -   Fix a few glitches with axis labels due to residual hardcoded view numbers which have been wrong since VD support was added.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v4\_04\_02
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_14\_00(#larsoft-v09_14_00)
+larsoft v09\_14\_00
 ------------------------------------------
 
 -   2021-01-21 Lynn Garren : larsoft v09\_14\_00 for larsoft v09\_14\_00
 -   2021-01-21 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_19(#lareventdisplay-v09_00_19)
+lareventdisplay v09\_00\_19
 ----------------------------------------------------------
 
 -   2021-01-21 Lynn Garren : lareventdisplay v09\_00\_19 for larsoft v09\_14\_00
 
-larexamples v09\_00\_18(#larexamples-v09_00_18)
+larexamples v09\_00\_18
 --------------------------------------------------
 
 -   2021-01-21 Lynn Garren : larexamples v09\_00\_18 for larsoft v09\_14\_00
 
-larpandora v09\_04\_00(#larpandora-v09_04_00)
+larpandora v09\_04\_00
 ------------------------------------------------
 
 -   2021-01-21 Lynn Garren : larpandora v09\_04\_00 for larsoft v09\_14\_00
@@ -109,12 +109,12 @@ larpandora v09\_04\_00(#larpandora-v09_04_00)
 -   2020-10-06 Etienne Chardonnet : Added new member variables and their associated Get functions in LArDaughterDriftVolume class
 -   2020-10-06 Etienne Chardonnet : Now filling the new LArCaloHitParameter member m\_daughterVolumeId
 
-larsimrad v09\_00\_18(#larsimrad-v09_00_18)
+larsimrad v09\_00\_18
 ----------------------------------------------
 
 -   2021-01-21 Lynn Garren : larsimrad v09\_00\_18 for larsoft v09\_14\_00
 
-larrecodnn v09\_04\_00(#larrecodnn-v09_04_00)
+larrecodnn v09\_04\_00
 ------------------------------------------------
 
 -   2021-01-21 Lynn Garren : larrecodnn v09\_04\_00 for larsoft v09\_14\_00
@@ -128,39 +128,39 @@ larrecodnn v09\_04\_00(#larrecodnn-v09_04_00)
 -   2021-01-13 Tingjun Yang : Move and rename fcl files.
 -   2021-01-13 Tingjun Yang : Commit for Leigh Whitehead to add a separate label for SimChannel.
 
-larwirecell v09\_01\_11(#larwirecell-v09_01_11)
+larwirecell v09\_01\_11
 --------------------------------------------------
 
 -   2021-01-21 Lynn Garren : larwirecell v09\_01\_11 for larsoft v09\_14\_00
 
-larana v09\_00\_19(#larana-v09_00_19)
+larana v09\_00\_19
 ----------------------------------------
 
 -   2021-01-21 Lynn Garren : larana v09\_00\_19 for larsoft v09\_14\_00
 
-larreco v09\_04\_09(#larreco-v09_04_09)
+larreco v09\_04\_09
 ------------------------------------------
 
 -   2021-01-21 Lynn Garren : larreco v09\_04\_09 for larsoft v09\_14\_00
 -   2021-01-21 Lynn Garren : Merge pull request \#26 from PetrilloAtWork/feature/gp\_clustermodulesconf
 -   2021-01-14 Gianluca Petrillo : Including missing configuration in clustermodules.fcl
 
-larsim v09\_07\_06(#larsim-v09_07_06)
+larsim v09\_07\_06
 ----------------------------------------
 
 -   2021-01-21 Lynn Garren : larsim v09\_07\_06 for larsoft v09\_14\_00
 
-larg4 v09\_02\_02(#larg4-v09_02_02)
+larg4 v09\_02\_02
 --------------------------------------
 
 -   2021-01-21 Lynn Garren : larg4 v09\_02\_02 for larsoft v09\_14\_00
 
-larevt v09\_01\_05(#larevt-v09_01_05)
+larevt v09\_01\_05
 ----------------------------------------
 
 -   2021-01-21 Lynn Garren : larevt v09\_01\_05 for larsoft v09\_14\_00
 
-lardata v09\_01\_08(#lardata-v09_01_08)
+lardata v09\_01\_08
 ------------------------------------------
 
 -   2021-01-21 Lynn Garren : lardata v09\_01\_08 for larsoft v09\_14\_00
@@ -169,10 +169,10 @@ lardata v09\_01\_08(#lardata-v09_01_08)
 -   2021-01-14 Gianluca Petrillo : Added non-art unit test for \`associated\_groups\_with\_left()\`.
 -   2021-01-14 Gianluca Petrillo : Allow range-for on some associated\_groups\_with\_left() output.
 
-larcore v09\_01\_00(#larcore-v09_01_00)
+larcore v09\_01\_00
 ------------------------------------------
 
-larpandoracontent v03\_22\_04(#larpandoracontent-v03_22_04)
+larpandoracontent v03\_22\_04
 --------------------------------------------------------------
 
 -   2021-01-21 Lynn Garren : larpandoracontent v03\_22\_04 for larsoft v09\_14\_00
@@ -190,41 +190,41 @@ larpandoracontent v03\_22\_04(#larpandoracontent-v03_22_04)
 -   2020-08-14 Etienne Chardonnet : Added in TwoViewTransverseTracksAlgorithm and CosmicRayTrackRecoveryAlgorithm a check if compared clusters belong to the same daughter volume, this commit contains also the implementation of the check
 -   2020-08-13 Etienne Chardonnet : New member variable in LArCaloHit class to access DaughterVolumeID
 
-larsoftobj v09\_04\_01(#larsoftobj-v09_04_01)
+larsoftobj v09\_04\_01
 ------------------------------------------------
 
 -   2021-01-21 Lynn Garren : product versions
 -   2021-01-21 Lynn Garren : larsoftobj v09\_04\_01 for larsoft v09\_14\_00
 
-lardataobj v09\_00\_07(#lardataobj-v09_00_07)
+lardataobj v09\_00\_07
 ------------------------------------------------
 
 -   2021-01-21 Lynn Garren : lardataobj v09\_00\_07 for larsoft v09\_14\_00
 -   2021-01-21 Lynn Garren : Merge pull request \#11 from PetrilloAtWork/feature/gp\_ClusterPtrVect
 -   2021-01-14 Gianluca Petrillo : Added ROOT dictionary for std::vector\<art::Ptr\<recob::Cluster\>\>.
 
-lardataalg v09\_03\_05(#lardataalg-v09_03_05)
+lardataalg v09\_03\_05
 ------------------------------------------------
 
 -   2021-01-21 Lynn Garren : lardataalg v09\_03\_05 for larsoft v09\_14\_00
 
-larcorealg v09\_00\_02(#larcorealg-v09_00_02)
+larcorealg v09\_00\_02
 ------------------------------------------------
 
-larcoreobj v09\_01\_00(#larcoreobj-v09_01_00)
+larcoreobj v09\_01\_00
 ------------------------------------------------
 
-webevd v09\_01\_02(#webevd-v09_01_02)
+webevd v09\_01\_02
 ----------------------------------------
 
 -   2021-01-21 Lynn Garren : webevd v09\_01\_02 for larsoft v09\_14\_00
 -   2021-01-21 Lynn Garren : Merge pull request \#18 from cjbackhouse/bugfix/uv
 -   2021-01-20 Christopher Backhouse : Fix a few glitches with axis labels due to residual hardcoded view numbers which have been wrong since VD support was added.
 
-larbatch v01\_54\_01(#larbatch-v01_54_01)
+larbatch v01\_54\_01
 --------------------------------------------
 
-larutils v1\_27\_04(#larutils-v1_27_04)
+larutils v1\_27\_04
 ------------------------------------------
 
 -   2021-01-21 Lynn Garren : larutils v1\_27\_04 for larsoft v09\_14\_00

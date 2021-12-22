@@ -1,4 +1,4 @@
-LArSoft v09\_01\_00 Release Notes(#LArSoft-v09_01_00-Release-Notes)
+LArSoft v09\_01\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_01\_00 Release Notes(#LArSoft-v09_01_00-Release-Notes)
 Download instructions for [larsoft v09\_01\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_01_00/larsoft-v09_01_00.html)\
 Download instructions for [just larsoftobj v09\_00\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_00_02/larsoftobj-v09_00_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsim PR 34
@@ -57,7 +57,7 @@ New features(#New-features)
 -   larbatch PR 10
     -   bring in MicroBooNE changes
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lardataalg PR 9
@@ -72,64 +72,64 @@ Bug fixes(#Bug-fixes)
     -   Re-enable OpticalPhysics list accidentally disabled during v09 migration
     -   [\#24890](/redmine/issues/24890 "Bug: Full optical GEANT4 simulation not available in v09_00_00 (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_01\_00(#larsoft-v09_01_00)
+larsoft v09\_01\_00
 ------------------------------------------
 
 -   2020-09-03 Lynn Garren : larsoft v09\_01\_00 for larsoft v09\_01\_00
 -   2020-09-03 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_02(#lareventdisplay-v09_00_02)
+lareventdisplay v09\_00\_02
 ----------------------------------------------------------
 
 -   2020-09-03 Lynn Garren : lareventdisplay v09\_00\_02 for larsoft v09\_01\_00
 
-larexamples v09\_00\_02(#larexamples-v09_00_02)
+larexamples v09\_00\_02
 --------------------------------------------------
 
 -   2020-09-03 Lynn Garren : larexamples v09\_00\_02 for larsoft v09\_01\_00
 
-larg4 v09\_00\_02(#larg4-v09_00_02)
+larg4 v09\_00\_02
 --------------------------------------
 
 -   2020-09-03 Lynn Garren : larg4 v09\_00\_02 for larsoft v09\_01\_00
 
-larpandora v09\_00\_02(#larpandora-v09_00_02)
+larpandora v09\_00\_02
 ------------------------------------------------
 
 -   2020-09-03 Lynn Garren : larpandora v09\_00\_02 for larsoft v09\_01\_00
 
-larsimrad v09\_00\_02(#larsimrad-v09_00_02)
+larsimrad v09\_00\_02
 ----------------------------------------------
 
 -   2020-09-03 Lynn Garren : larsimrad v09\_00\_02 for larsoft v09\_01\_00
 
-larrecodnn v09\_00\_02(#larrecodnn-v09_00_02)
+larrecodnn v09\_00\_02
 ------------------------------------------------
 
 -   2020-09-03 Lynn Garren : larrecodnn v09\_00\_02 for larsoft v09\_01\_00
 
-larwirecell v09\_00\_02(#larwirecell-v09_00_02)
+larwirecell v09\_00\_02
 --------------------------------------------------
 
 -   2020-09-03 Lynn Garren : larwirecell v09\_00\_02 for larsoft v09\_01\_00
 
-larana v09\_00\_02(#larana-v09_00_02)
+larana v09\_00\_02
 ----------------------------------------
 
 -   2020-09-03 Lynn Garren : larana v09\_00\_02 for larsoft v09\_01\_00
 
-larreco v09\_00\_02(#larreco-v09_00_02)
+larreco v09\_00\_02
 ------------------------------------------
 
 -   2020-09-03 Lynn Garren : larreco v09\_00\_02 for larsoft v09\_01\_00
 
-larsim v09\_01\_00(#larsim-v09_01_00)
+larsim v09\_01\_00
 ----------------------------------------
 
 -   2020-09-03 Lynn Garren : larsim v09\_01\_00 for larsoft v09\_01\_00
@@ -146,50 +146,50 @@ larsim v09\_01\_00(#larsim-v09_01_00)
 -   2020-08-28 Gianluca Petrillo : LightSource correctly wraps after reaching the end of steering file
 -   2020-08-27 Iker de Icaza Astiz : Update the arapuca dims every time, both for direct and reflected hits
 
-larevt v09\_00\_02(#larevt-v09_00_02)
+larevt v09\_00\_02
 ----------------------------------------
 
 -   2020-09-03 Lynn Garren : larevt v09\_00\_02 for larsoft v09\_01\_00
 
-lardata v09\_00\_02(#lardata-v09_00_02)
+lardata v09\_00\_02
 ------------------------------------------
 
 -   2020-09-03 Lynn Garren : lardata v09\_00\_02 for larsoft v09\_01\_00
 
-larcore v09\_00\_00(#larcore-v09_00_00)
+larcore v09\_00\_00
 ------------------------------------------
 
-larpandoracontent v03\_19\_02(#larpandoracontent-v03_19_02)
+larpandoracontent v03\_19\_02
 --------------------------------------------------------------
 
-larsoftobj v09\_00\_02(#larsoftobj-v09_00_02)
+larsoftobj v09\_00\_02
 ------------------------------------------------
 
 -   2020-09-03 Lynn Garren : larsoftobj v09\_00\_02 for larsoft v09\_01\_00
 -   2020-09-03 Lynn Garren : product versions
 
-lardataobj v09\_00\_00(#lardataobj-v09_00_00)
+lardataobj v09\_00\_00
 ------------------------------------------------
 
-lardataalg v09\_00\_02(#lardataalg-v09_00_02)
+lardataalg v09\_00\_02
 ------------------------------------------------
 
 -   2020-09-03 Lynn Garren : lardataalg v09\_00\_02 for larsoft v09\_01\_00
 -   2020-09-03 Lynn Garren : Merge pull request \#9 from knoepfel/bugfix/knoepfel\_uninitialized\_variables
 -   2020-09-03 Kyle Knoepfel : Resolve bug [\#24903](/redmine/issues/24903 "Bug: Issue with Pandora and DetectorPropertyService in larsoft v09 (Closed)"): fix uninitialized variables
 
-larcorealg v09\_00\_00(#larcorealg-v09_00_00)
+larcorealg v09\_00\_00
 ------------------------------------------------
 
-larcoreobj v09\_00\_00(#larcoreobj-v09_00_00)
+larcoreobj v09\_00\_00
 ------------------------------------------------
 
-webevd v09\_00\_02(#webevd-v09_00_02)
+webevd v09\_00\_02
 ----------------------------------------
 
 -   2020-09-03 Lynn Garren : webevd v09\_00\_02 for larsoft v09\_01\_00
 
-larbatch v01\_53\_01(#larbatch-v01_53_01)
+larbatch v01\_53\_01
 --------------------------------------------
 
 -   2020-09-03 Lynn Garren : larbatch v01\_53\_01 for larsoft v09\_01\_00
@@ -214,5 +214,5 @@ larbatch v01\_53\_01(#larbatch-v01_53_01)
 -   2020-02-03 Herbert Greenlee : Get rid of pycurl. Use urllib instead.
 -   2020-01-15 Herbert Greenlee : Update documentary comments.
 
-larutils v1\_26\_01(#larutils-v1_26_01)
+larutils v1\_26\_01
 ------------------------------------------

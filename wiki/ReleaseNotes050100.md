@@ -1,4 +1,4 @@
-LArSoft v05\_01\_00 Release Notes(#LArSoft-v05_01_00-Release-Notes)
+LArSoft v05\_01\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,20 +24,20 @@ LArSoft v05\_01\_00 Release Notes(#LArSoft-v05_01_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_01_00/larsoft-v05_01_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop since v05\_00\_02
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   genie 2.10.4
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ --------------------------- -------
@@ -48,39 +48,39 @@ Updated dependencies(#Updated-dependencies)
   genie\_xsec     v2\_10\_2    default, defaultplusccmec   
   --------------- ------------ --------------------------- -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_01\_00(#larsoft-v05_01_00)
+larsoft v05\_01\_00
 ------------------------------------------
 
 -   2016-02-18 Lynn Garren : fix typo
 -   2016-02-18 Lynn Garren : larsoft v05\_01\_00 for larsoft v05\_01\_00
 -   2016-02-18 Lynn Garren : update product versions
 
-lareventdisplay v05\_01\_00(#lareventdisplay-v05_01_00)
+lareventdisplay v05\_01\_00
 ----------------------------------------------------------
 
 -   2016-02-18 Lynn Garren : lareventdisplay v05\_01\_00 for larsoft v05\_01\_00
 -   2016-02-16 Lynn Garren : Merge branch ‘v05\_00\_branch’ into dm
 -   2016-02-10 Tingjun Yang : Reimplement the fixes to the shower display.
 
-larexamples v05\_00\_02(#larexamples-v05_00_02)
+larexamples v05\_00\_02
 --------------------------------------------------
 
 -   2016-02-18 Lynn Garren : larexamples v05\_00\_02 for larsoft v05\_01\_00
 
-larpandora v05\_00\_02(#larpandora-v05_00_02)
+larpandora v05\_00\_02
 ------------------------------------------------
 
 -   2016-02-18 Lynn Garren : larpandora v05\_00\_02 for larsoft v05\_01\_00
 
-larana v05\_00\_02(#larana-v05_00_02)
+larana v05\_00\_02
 ----------------------------------------
 
 -   2016-02-18 Lynn Garren : larana v05\_00\_02 for larsoft v05\_01\_00
 
-larreco v05\_01\_00(#larreco-v05_01_00)
+larreco v05\_01\_00
 ------------------------------------------
 
 -   2016-02-18 Lynn Garren : larreco v05\_01\_00 for larsoft v05\_01\_00
@@ -93,32 +93,32 @@ larreco v05\_01\_00(#larreco-v05_01_00)
 -   2016-02-09 Bruce Baller : Comment out hit merge restoration code
 -   2016-02-09 Bruce Baller : Comment out hit merge restoration
 
-larsim v05\_00\_02(#larsim-v05_00_02)
+larsim v05\_00\_02
 ----------------------------------------
 
 -   2016-02-18 Lynn Garren : larsim v05\_00\_02 for larsoft v05\_01\_00
 
-larevt v05\_00\_02(#larevt-v05_00_02)
+larevt v05\_00\_02
 ----------------------------------------
 
 -   2016-02-18 Lynn Garren : larevt v05\_00\_02 for larsoft v05\_01\_00
 
-lardata v05\_01\_00(#lardata-v05_01_00)
+lardata v05\_01\_00
 ------------------------------------------
 
 -   2016-02-18 Lynn Garren : lardata v05\_01\_00 for larsoft v05\_01\_00
 
-larcore v05\_00\_01(#larcore-v05_00_01)
+larcore v05\_00\_01
 ------------------------------------------
 
-larbatch v01\_20\_04(#larbatch-v01_20_04)
+larbatch v01\_20\_04
 --------------------------------------------
 
 -   2016-02-18 Lynn Garren : larbatch v01\_20\_04 for larsoft v05\_01\_00
 -   2016-02-18 Lynn Garren : larbatch v01\_20\_04 for larsoft v05\_01\_00
 -   2016-02-16 Tingjun Yang : Use the old method to get crc if the new method does not work.
 
-larutils v1\_05\_02(#larutils-v1_05_02)
+larutils v1\_05\_02
 ------------------------------------------
 
 -   2016-02-18 Lynn Garren : larutils v1\_05\_02 for larsoft v05\_01\_00

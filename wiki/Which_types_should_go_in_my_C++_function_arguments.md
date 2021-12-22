@@ -1,9 +1,9 @@
-Which types should go in my C++ function arguments?(#Which-types-should-go-in-my-C-function-arguments)
+Which types should go in my C++ function arguments?
 =========================================================================================================
 
 The following apply to pure functions. If you are dealing with class methods, some points might be different.
 
-Decorators: pointers, references, constant references(#Decorators-pointers-references-constant-references) {.wiki-class-count}
+Decorators: pointers, references, constant references
 -------------------------------------------------------------------------------------------------------------
 
 So, you need to have a function that takes a vector of real numbers and a flag, and produces a different vector.\

@@ -1,4 +1,4 @@
-LArSoft v03\_08\_01 Release Notes(#LArSoft-v03_08_01-Release-Notes)
+LArSoft v03\_08\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -18,18 +18,18 @@ LArSoft v03\_08\_01 Release Notes(#LArSoft-v03_08_01-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_08_01/larsoft-v03_08_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Changes in develop since v03\_08\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ---------- ---------- ----------- ---------------------------
@@ -37,17 +37,17 @@ Updated dependencies(#Updated-dependencies)
   psycopg2   v2\_5\_4               by request for MicroBooNE
   ---------- ---------- ----------- ---------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_08\_01(#larsoft-v03_08_01)
+larsoft v03\_08\_01
 ------------------------------------------
 
 -   2015-02-04 Lynn Garren : adding psycopg2 to the distribution
 -   2015-02-04 Lynn Garren : update product list
 -   2015-02-03 Lynn Garren : build artextensions after ensuring cetbuildtools
 
-lareventdisplay v03\_04\_01(#lareventdisplay-v03_04_01)
+lareventdisplay v03\_04\_01
 ----------------------------------------------------------
 
 -   2015-02-04 Lynn Garren : lareventdisplay v03\_04\_01 for larsoft v03\_08\_01
@@ -55,13 +55,13 @@ lareventdisplay v03\_04\_01(#lareventdisplay-v03_04_01)
 -   2015-02-03 Tingjun Yang : Add XTicksOffset which will be removed in ConvertTicksToX.
 -   2015-02-03 Tingjun Yang : Check TPC ranges for multiple TPCs.
 
-larana v03\_04\_01(#larana-v03_04_01)
+larana v03\_04\_01
 ----------------------------------------
 
 -   2015-02-04 Lynn Garren : larana v03\_04\_01 for larsoft v03\_08\_01
 -   2015-01-31 Alex Himmel : Use unique histogram names, even if there is more than one pulse per channel per event, possible with long readout windows.
 
-larreco v03\_07\_01(#larreco-v03_07_01)
+larreco v03\_07\_01
 ------------------------------------------
 
 -   2015-02-04 Lynn Garren : larreco v03\_07\_01 for larsoft v03\_08\_01
@@ -69,7 +69,7 @@ larreco v03\_07\_01(#larreco-v03_07_01)
 -   2015-01-30 Gianluca Petrillo : Fixed a bug in FLAME algorithm (fuzzyClusterAlg). Also moved it a bit more toward C++.
 -   2015-01-30 Gianluca Petrillo : Removed hidden files.
 
-larbatch v01\_04\_00(#larbatch-v01_04_00)
+larbatch v01\_04\_00
 --------------------------------------------
 
 -   2015-02-04 Lynn Garren : larbatch v01\_04\_00 for larsoft v03\_08\_01
@@ -106,7 +106,7 @@ larbatch v01\_04\_00(#larbatch-v01_04_00)
 -   2015-01-20 Herbert Greenlee : Merge branch ‘develop’ into feature/greenlee\_gui
 -   2015-01-20 Herbert Greenlee : Add gui stuff.
 
-larutils v1\_00\_02(#larutils-v1_00_02)
+larutils v1\_00\_02
 ------------------------------------------
 
 -   2015-02-04 Lynn Garren : larutils v1\_00\_02 for larsoft v03\_08\_01

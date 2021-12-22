@@ -1,11 +1,11 @@
-Github labels used as status indicators(#Github-labels-used-as-status-indicators)
+Github labels used as status indicators
 ====================================================================================
 
 Labels on pull requests are used to indicate the status of the pull request within the approval workflow. The labels are automatically generated when the PR is created, and change in response to comments that trigger CI actions, indicate step approvals / rejections, or contain results from the CI system. Two special labels indicate the overall approval status, and third used to indicate that the PRs is linked to coordinated PRs in one or more other repositories. Such PRs are built and tested together.
 
 The labels have the format \<signature/process category prefix\>-\<status suffix\>, and bear colors that reflect the status. The “category” or “process” values correspond to steps in the approval workflow., as described below. The overall status and linked PR labels do not conform to this format.
 
-Process category labels(#Process-category-labels)
+Process category labels
 ----------------------------------------------------
 
 -   These process category prefixes are assigned for CI processes:
@@ -22,7 +22,7 @@ Process category labels(#Process-category-labels)
       -approved                the CI process succeeded
       -rejected                the CI process failed
 
-Signature category labels(#Signature-category-labels)
+Signature category labels
 --------------------------------------------------------
 
 -   The signature category is assigned depending on what files are changed in the pull request:
@@ -45,7 +45,7 @@ Level 1 managers sign off on all pull requests when they are ready to be merged.
     -rejected
     PR has been rejected PR by L1 or L2 manager
 
-Special labels(#Special-labels)
+Special labels
 ----------------------------------
 
 Two special labels/colors are added to a pull request to indicate the overall status.

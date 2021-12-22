@@ -1,7 +1,7 @@
-Data product revision (phase II)(#Data-product-revision-phase-II)
+Data product revision (phase II)
 ====================================================================
 
-Targets(#Targets)
+Targets
 --------------------
 
 Possible targets, to be discussed, include:

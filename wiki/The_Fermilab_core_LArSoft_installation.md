@@ -1,4 +1,4 @@
-The central repositories for core LArSoft(#The-central-repositories-for-core-LArSoft)
+The central repositories for core LArSoft
 ========================================================================================
 
 Central repositories contain the reference copy of the software. A release is made by extracting tagged code from the central repositories and creating a set of relocatable ups products. There is a one-to-one mapping of product to repository. Each repository and the associated product contain LArSoft software components that are within the same layer of functionality. All LArSoft repositories are found in the [LArSoft github organization](https://github.com/LArSoft)

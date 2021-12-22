@@ -1,7 +1,7 @@
 -   **Table of contents**
 -   [Geometry](#Geometry)
 
-Geometry(#Geometry)
+Geometry
 ======================
 
 **This information has been replaced by: [https://cdcvs.fnal.govGeometry\_Package](https://cdcvs.fnal.govGeometry_Package)** as of 8/24/17.

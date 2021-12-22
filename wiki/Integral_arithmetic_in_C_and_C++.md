@@ -1,7 +1,7 @@
-Integral arithmetic in C and C++(#Integral-arithmetic-in-C-and-C)
+Integral arithmetic in C and C++
 ====================================================================
 
-Unsigned comparison, and `std::abs()` ambiguity(#Unsigned-comparison-and-stdabs-ambiguity)
+Unsigned comparison, and `std::abs()` ambiguity
 ---------------------------------------------------------------------------------------------
 
 There are [clear rules in C](http://en.cppreference.com/w/cpp/language/operator_arithmetic), which are not always intuitive, about what type comes out of arithmetic operations between different types. Some are listed in this table:

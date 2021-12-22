@@ -1,4 +1,4 @@
-LArSoft v09\_10\_00 Release Notes(#LArSoft-v09_10_00-Release-Notes)
+LArSoft v09\_10\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_10\_00 Release Notes(#LArSoft-v09_10_00-Release-Notes)
 Download instructions for [larsoft v09\_10\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_10_00/larsoft-v09_10_00.html)\
 Download instructions for [just larsoftobj v09\_03\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_03_00/larsoftobj-v09_03_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsim now depends directly on larg4
@@ -59,22 +59,22 @@ New features(#New-features)
     -   Add support for reading from sqlite calibration databases
     -   [coordination meeting talk](https://indico.fnal.gov/event/46314/contributions/201503/attachments/136947/170545/larsoft_sqlite_nov3_2020.pdf)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larsim PR 52
     -   Fixed bug where ScintPreScale factor wasn’t being set
     -   In LegacyLArG4/ISCalculationCorrelated.cxx, which SBND still uses, the factor “fScintPreScale” was not being set. This is now retrieved from LArPropertiesServices, as expected. This bug is not present in the newer refactorized-LArG4 version of the alg (in IonizationAndScintillation).
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   geant4reweight v01\_06\_00
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_10\_00(#larsoft-v09_10_00)
+larsoft v09\_10\_00
 ------------------------------------------
 
 -   2020-11-20 Lynn Garren : build order matters
@@ -83,47 +83,47 @@ larsoft v09\_10\_00(#larsoft-v09_10_00)
 -   2020-11-19 Lynn Garren : product versions
 -   2020-11-19 Lynn Garren : removing unnecessary entries for larg4 and larreco
 
-lareventdisplay v09\_00\_13(#lareventdisplay-v09_00_13)
+lareventdisplay v09\_00\_13
 ----------------------------------------------------------
 
 -   2020-11-20 Lynn Garren : lareventdisplay v09\_00\_13 for larsoft v09\_10\_00
 
-larexamples v09\_00\_12(#larexamples-v09_00_12)
+larexamples v09\_00\_12
 --------------------------------------------------
 
 -   2020-11-20 Lynn Garren : larexamples v09\_00\_12 for larsoft v09\_10\_00
 
-larpandora v09\_03\_04(#larpandora-v09_03_04)
+larpandora v09\_03\_04
 ------------------------------------------------
 
 -   2020-11-20 Lynn Garren : larpandora v09\_03\_04 for larsoft v09\_10\_00
 
-larsimrad v09\_00\_12(#larsimrad-v09_00_12)
+larsimrad v09\_00\_12
 ----------------------------------------------
 
 -   2020-11-20 Lynn Garren : larsimrad v09\_00\_12 for larsoft v09\_10\_00
 
-larrecodnn v09\_02\_04(#larrecodnn-v09_02_04)
+larrecodnn v09\_02\_04
 ------------------------------------------------
 
 -   2020-11-20 Lynn Garren : larrecodnn v09\_02\_04 for larsoft v09\_10\_00
 
-larwirecell v09\_01\_06(#larwirecell-v09_01_06)
+larwirecell v09\_01\_06
 --------------------------------------------------
 
 -   2020-11-20 Lynn Garren : larwirecell v09\_01\_06 for larsoft v09\_10\_00
 
-larana v09\_00\_13(#larana-v09_00_13)
+larana v09\_00\_13
 ----------------------------------------
 
 -   2020-11-20 Lynn Garren : larana v09\_00\_13 for larsoft v09\_10\_00
 
-larreco v09\_04\_03(#larreco-v09_04_03)
+larreco v09\_04\_03
 ------------------------------------------
 
 -   2020-11-20 Lynn Garren : larreco v09\_04\_03 for larsoft v09\_10\_00
 
-larsim v09\_07\_00(#larsim-v09_07_00)
+larsim v09\_07\_00
 ----------------------------------------
 
 -   2020-11-20 Lynn Garren : larsim v09\_07\_00 for larsoft v09\_10\_00
@@ -151,12 +151,12 @@ larsim v09\_07\_00(#larsim-v09_07_00)
 -   2020-10-16 Patrick Green : restructured semi-analytic hits and timing to avoid duplicate calculations for fast and slow photons
 -   2020-10-15 Patrick Green : updated semi-analytic light simulation hits and transport time models in refactored LArG4 to bring in line with updates to LegacyLArG4
 
-larg4 v09\_01\_04(#larg4-v09_01_04)
+larg4 v09\_01\_04
 --------------------------------------
 
 -   2020-11-20 Lynn Garren : larg4 v09\_01\_04 for larsoft v09\_10\_00
 
-larevt v09\_01\_00(#larevt-v09_01_00)
+larevt v09\_01\_00
 ----------------------------------------
 
 -   2020-11-20 Lynn Garren : larevt v09\_01\_00 for larsoft v09\_10\_00
@@ -172,35 +172,35 @@ larevt v09\_01\_00(#larevt-v09_01_00)
 -   2020-05-12 Herbert Greenlee : Merge branch ‘feature/greenlee\_sqlite\_develop’ of github.com:uboone/larevt into develop
 -   2020-02-25 Herbert Greenlee : Add ability to read calibration data from sqlite.
 
-lardata v09\_01\_03(#lardata-v09_01_03)
+lardata v09\_01\_03
 ------------------------------------------
 
-larcore v09\_00\_01(#larcore-v09_00_01)
+larcore v09\_00\_01
 ------------------------------------------
 
-larpandoracontent v03\_22\_02(#larpandoracontent-v03_22_02)
+larpandoracontent v03\_22\_02
 --------------------------------------------------------------
 
-larsoftobj v09\_03\_00(#larsoftobj-v09_03_00)
+larsoftobj v09\_03\_00
 ------------------------------------------------
 
-lardataobj v09\_00\_02(#lardataobj-v09_00_02)
+lardataobj v09\_00\_02
 ------------------------------------------------
 
-lardataalg v09\_03\_00(#lardataalg-v09_03_00)
+lardataalg v09\_03\_00
 ------------------------------------------------
 
-larcorealg v09\_00\_01(#larcorealg-v09_00_01)
+larcorealg v09\_00\_01
 ------------------------------------------------
 
-larcoreobj v09\_00\_00(#larcoreobj-v09_00_00)
+larcoreobj v09\_00\_00
 ------------------------------------------------
 
-webevd v09\_00\_08(#webevd-v09_00_08)
+webevd v09\_00\_08
 ----------------------------------------
 
-larbatch v01\_54\_01(#larbatch-v01_54_01)
+larbatch v01\_54\_01
 --------------------------------------------
 
-larutils v1\_27\_02(#larutils-v1_27_02)
+larutils v1\_27\_02
 ------------------------------------------

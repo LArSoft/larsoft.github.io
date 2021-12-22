@@ -1,4 +1,4 @@
-LArSoft v04\_12\_00 Release Notes(#LArSoft-v04_12_00-Release-Notes)
+LArSoft v04\_12\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -25,14 +25,14 @@ LArSoft v04\_12\_00 Release Notes(#LArSoft-v04_12_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_12_00/larsoft-v04_12_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Include changes in development since v04\_11\_00.
 -   Merge larevt feature/usher\_uboone\_pedestal
 -   Merge lareventdisplay feature/usher\_uboone\_pedestals
 
-New features(#New-features)
+New features
 ------------------------------
 
 1.  Up until now we (MicroBooNE) have been retrieving the pedestals for the RawDigit waveforms from the RawDigit object itself. I believe this feature has already been deprecated, in any case with the data coming from MicroBooNE there are no pedestals in the RawDigits. Instead a set of channel-by-channel pedestals have already been determined and entered into a database, in fact the first implementation of the code to retrieve these pedestals is already in larevt. \
@@ -42,28 +42,28 @@ New features(#New-features)
      The interface remains the same for other experiments, in particular the Lariat folks should see no change to their use of this module.
 3.  Finally… the last issue that is being addressed in these updates, again MicroBooNE specific, is that the current noise run data does NOT contain a valid timestamp in the art::Event object. This is a MicroBooNE daq/swizzling/above-my-pay-grade problem, not a larsoft problem. So, in the case of MicroBooNE database queries, the invalid time stamp is temporarily replaced with a value corresponding to a date of around the end of May (as I recall) and will be until the timestamp becomes available.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Known Problems(#Known-Problems)
+Known Problems
 ----------------------------------
 
 -   [\#9108](/redmine/issues/9108 "Bug: Processing multiple files (Closed)")
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_12\_00(#larsoft-v04_12_00)
+larsoft v04\_12\_00
 ------------------------------------------
 
 -   2015-06-10 Lynn Garren : larsoft v04\_12\_00 for larsoft v04\_12\_00
 -   2015-06-10 Lynn Garren : update dependency database
 -   2015-06-10 Lynn Garren : update product versions
 
-lareventdisplay v04\_05\_00(#lareventdisplay-v04_05_00)
+lareventdisplay v04\_05\_00
 ----------------------------------------------------------
 
 -   2015-06-10 Lynn Garren : lareventdisplay v04\_05\_00 for larsoft v04\_12\_00
@@ -77,22 +77,22 @@ lareventdisplay v04\_05\_00(#lareventdisplay-v04_05_00)
 -   2015-06-02 Tingjun Yang : Replace ChannelsIntersect with WireIDsIntersect.
 -   2015-05-26 Tracy Usher : Primary change is to switch to using the detector pedestal algorithm to return the pedestals for RawDigits. Among other things allows access to the MicroBooNE pedestal database for real data. For other experiments the default is to return a fhicl controllable constant per wire plane. Also, temporarily add some protection against invalid channel numbers present in MicroBooNE noise data, again waiting for “correct” solution.
 
-larexamples v04\_04\_10(#larexamples-v04_04_10)
+larexamples v04\_04\_10
 --------------------------------------------------
 
 -   2015-06-10 Lynn Garren : larexamples v04\_04\_10 for larsoft v04\_12\_00
 
-larpandora v04\_04\_10(#larpandora-v04_04_10)
+larpandora v04\_04\_10
 ------------------------------------------------
 
 -   2015-06-10 Lynn Garren : larpandora v04\_04\_10 for larsoft v04\_12\_00
 
-larana v04\_07\_02(#larana-v04_07_02)
+larana v04\_07\_02
 ----------------------------------------
 
 -   2015-06-10 Lynn Garren : larana v04\_07\_02 for larsoft v04\_12\_00
 
-larreco v04\_08\_00(#larreco-v04_08_00)
+larreco v04\_08\_00
 ------------------------------------------
 
 -   2015-06-10 Lynn Garren : larreco v04\_08\_00 for larsoft v04\_12\_00
@@ -116,12 +116,12 @@ larreco v04\_08\_00(#larreco-v04_08_00)
 -   2015-05-26 Tingjun Yang : Separate algorithm from module. Also use Bruce’s TrackTrajectoryAlg to reconstruct track trajectory.
 -   2015-05-26 Tingjun Yang : Use the middle of points as xOrigin instead of the beginning. Also relax the requirement on chgSum cut to reconstruct the last trajectory point.
 
-larsim v04\_07\_06(#larsim-v04_07_06)
+larsim v04\_07\_06
 ----------------------------------------
 
 -   2015-06-10 Lynn Garren : larsim v04\_07\_06 for larsoft v04\_12\_00
 
-larevt v04\_08\_00(#larevt-v04_08_00)
+larevt v04\_08\_00
 ----------------------------------------
 
 -   2015-06-10 Lynn Garren : larevt v04\_08\_00 for larsoft v04\_12\_00
@@ -129,23 +129,23 @@ larevt v04\_08\_00(#larevt-v04_08_00)
 -   2015-06-04 Tracy Usher : Updating the current ChannelFilter implementation for use in eliminating the non-physical channels read out in the MicroBooNE noise data. The original concept is now extended to assign a status, from an enumerated list, to a channel with current values: GOOD, NOISY, DEAD and NOTPHYSICAL. The object is also modified to include the current list of known noisy wires from David (via Leon) and to suppress spurious messages. It is believed this object will eventually become a larsoft service with access to a database…
 -   2015-05-26 Tracy Usher : Temporary modification to include a call to “update” passing a reference to the art::Event object. For current uboone noise data this sets a time stamp to a constant value (since current time stamps in the data are invalid). For simulation or other experiments which are not accessing a pedestals database the default action, which is independent of the timestamp, is to return a constant pedestal value per wire plane.
 
-lardata v04\_08\_01(#lardata-v04_08_01)
+lardata v04\_08\_01
 ------------------------------------------
 
 -   2015-06-10 Lynn Garren : lardata v04\_08\_01 for larsoft v04\_12\_00
 
-larcore v04\_10\_01(#larcore-v04_10_01)
+larcore v04\_10\_01
 ------------------------------------------
 
 -   2015-06-10 Lynn Garren : larcore v04\_10\_01 for larsoft v04\_12\_00
 -   2015-06-09 Lynn Garren : Merge branch ‘release/v04\_11\_00’ into develop
 -   2015-06-05 Gianluca Petrillo : Bug fix: compiler was able to implicitly convert geometry IDs into integers. Updated test to detect this bug.
 
-larbatch v01\_10\_00(#larbatch-v01_10_00)
+larbatch v01\_10\_00
 --------------------------------------------
 
 -   2015-06-10 Lynn Garren : larbatch v01\_10\_00 for larsoft v04\_12\_00
 -   2015-06-10 Herbert Greenlee : Pubs-related features, improvements, and bug fixes.
 
-larutils v1\_00\_11(#larutils-v1_00_11)
+larutils v1\_00\_11
 ------------------------------------------

@@ -1,25 +1,25 @@
-LArSoft v02\_05\_00 Release Notes(#LArSoft-v02_05_00-Release-Notes)
+LArSoft v02\_05\_00 Release Notes
 ======================================================================
 
 [list of LArSoft releases](LArSoft_release_list)
 
-larsoft v02\_05\_00(#larsoft-v02_05_00)
+larsoft v02\_05\_00
 ------------------------------------------
 
 -   2014-08-12 Lynn Garren : for larsoft v02\_05\_00
 -   2014-08-12 Lynn Garren : releaseDB/base\_dependency\_database for v02\_05\_00
 
-lareventdisplay v02\_05\_00(#lareventdisplay-v02_05_00)
+lareventdisplay v02\_05\_00
 ----------------------------------------------------------
 
 -   2014-08-12 Lynn Garren : for larsoft v02\_05\_00
 
-larexamples v02\_05\_00(#larexamples-v02_05_00)
+larexamples v02\_05\_00
 --------------------------------------------------
 
 -   2014-08-12 Lynn Garren : for larsoft v02\_05\_00
 
-larpandora v02\_05\_00(#larpandora-v02_05_00)
+larpandora v02\_05\_00
 ------------------------------------------------
 
 -   2014-08-12 Andrew Blake : Fixing offsets in x,y,z positions assigned to new recob::SpacePoints
@@ -37,7 +37,7 @@ larpandora v02\_05\_00(#larpandora-v02_05_00)
 -   2014-08-01 Andrew Blake : Updating to recob::PFParticle
 -   2014-08-01 Andrew Blake : Implementation of reco::Particle
 
-larana v02\_05\_00(#larana-v02_05_00)
+larana v02\_05\_00
 ----------------------------------------
 
 -   2014-08-12 Lynn Garren : add missing library and remove misleading comments
@@ -77,7 +77,7 @@ larana v02\_05\_00(#larana-v02_05_00)
 -   2014-05-29 Wesley Ketchum : Merge remote-tracking branch ‘origin/develop’ into feature/wketchum\_CosmicTag
 -   2014-05-27 Wesley Ketchum : changes to use the cosmicTag product
 
-larreco v02\_05\_00(#larreco-v02_05_00)
+larreco v02\_05\_00
 ------------------------------------------
 
 -   2014-08-12 Wesley Ketchum : Merge remote-tracking branch ‘origin/feature/MultiScatter’ into develop
@@ -129,7 +129,7 @@ larreco v02\_05\_00(#larreco-v02_05_00)
 -   2014-08-04 Kalousis Leonidas : MultiScatter: Implementing Segmentation Algorithm
 -   2014-08-04 Kalousis Leonidas : MultiScatter first commit, uo to the seg algo
 
-larsim v02\_05\_00(#larsim-v02_05_00)
+larsim v02\_05\_00
 ----------------------------------------
 
 -   2014-08-12 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
@@ -143,17 +143,17 @@ larsim v02\_05\_00(#larsim-v02_05_00)
 -   2014-08-06 Gianluca Petrillo : BackTracker: (1) removed an almost unused member whose initialiazation took ages (2) removed an unnecessary copy (3) interface expanded to return non-const vectors when proper
 -   2014-08-06 Eric Church : NoDirtFilter now works
 
-larevt v02\_05\_00(#larevt-v02_05_00)
+larevt v02\_05\_00
 ----------------------------------------
 
 -   2014-08-12 Lynn Garren : for larsoft v02\_05\_00
 
-lardata v02\_05\_00(#lardata-v02_05_00)
+lardata v02\_05\_00
 ------------------------------------------
 
 -   2014-08-12 Lynn Garren : for larsoft v02\_05\_00
 
-larcore v02\_05\_00(#larcore-v02_05_00)
+larcore v02\_05\_00
 ------------------------------------------
 
 -   2014-08-08 Tingjun Yang : change message level from VERBATIM to DEBUG

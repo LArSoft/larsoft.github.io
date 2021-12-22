@@ -1,4 +1,4 @@
-LArSoft v06\_26\_01\_05 Release Notes(#LArSoft-v06_26_01_05-Release-Notes)
+LArSoft v06\_26\_01\_05 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -27,50 +27,50 @@ LArSoft v06\_26\_01\_05 Release Notes(#LArSoft-v06_26_01_05-Release-Notes)
 Download instructions for [larsoft v06\_26\_01\_05](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_26_01_05/larsoft-v06_26_01_05.html)\
 Download instructions for [just larsoftobj v1\_11\_00\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_11_00_02/larsoftobj-v1_11_00_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   requested by MicroBooNE
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_26\_01\_05(#larsoft-v06_26_01_05)
+larsoft v06\_26\_01\_05
 -------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 
-lareventdisplay v06\_02\_14\_05(#lareventdisplay-v06_02_14_05)
+lareventdisplay v06\_02\_14\_05
 -----------------------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 
-larexamples v06\_01\_15\_03(#larexamples-v06_01_15_03)
+larexamples v06\_01\_15\_03
 ---------------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 
-larpandora v06\_08\_00\_05(#larpandora-v06_08_00_05)
+larpandora v06\_08\_00\_05
 -------------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 -   2017-08-31 John Marshall : LArShowerPfo parameters m\_showerMinLayerPosition and m\_showerMaxLayerPosition no longer present in larpandoracontent v03\_07\_04.
 
-larwirecell v06\_00\_13\_05(#larwirecell-v06_00_13_05)
+larwirecell v06\_00\_13\_05
 ---------------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 
-larana v06\_03\_18\_05(#larana-v06_03_18_05)
+larana v06\_03\_18\_05
 -----------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
@@ -81,41 +81,41 @@ larana v06\_03\_18\_05(#larana-v06_03_18_05)
 -   2017-08-14 Andrew Furmanski : Don’t use BackTracker::TrackIDToParticle as it loses the knowledge of the art shared pointer - changed to loop internally
 -   2017-08-14 Andrew Furmanski : Added direct association between Track and MCParticle, and fixed compiler errors.
 
-larreco v06\_20\_00\_05(#larreco-v06_20_00_05)
+larreco v06\_20\_00\_05
 -------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 -   2017-08-17 Giuseppe Cerati : add TrajectoryMCSFitter
 
-larsim v06\_13\_01\_03(#larsim-v06_13_01_03)
+larsim v06\_13\_01\_03
 -----------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 
-larevt v06\_07\_09\_03(#larevt-v06_07_09_03)
+larevt v06\_07\_09\_03
 -----------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 
-lardata v06\_14\_04\_02(#lardata-v06_14_04_02)
+lardata v06\_14\_04\_02
 -------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 
-larcore v06\_05\_03\_01(#larcore-v06_05_03_01)
+larcore v06\_05\_03\_01
 -------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 
-larpandoracontent v03\_07\_02\_04(#larpandoracontent-v03_07_02_04)
+larpandoracontent v03\_07\_02\_04
 ---------------------------------------------------------------------
 
-larsoftobj v1\_11\_00\_02(#larsoftobj-v1_11_00_02)
+larsoftobj v1\_11\_00\_02
 -----------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
 
-lardataobj v1\_11\_00\_02(#lardataobj-v1_11_00_02)
+lardataobj v1\_11\_00\_02
 -----------------------------------------------------
 
 -   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05

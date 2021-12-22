@@ -1,4 +1,4 @@
-LArSoft v07\_06\_00 Release Notes(#LArSoft-v07_06_00-Release-Notes)
+LArSoft v07\_06\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v07\_06\_00 Release Notes(#LArSoft-v07_06_00-Release-Notes)
 Download instructions for [larsoft v07\_06\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_06_00/larsoft-v07_06_00.html)\
 Download instructions for [just larsoftobj v07\_03\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_03_00/larsoftobj-v07_03_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   move MCDumpers to lardataalg from larsim [\#18281](/redmine/issues/18281 "Necessary Maintenance: Move dumper algorithms in a art-independent repository (Closed)")
@@ -53,10 +53,10 @@ New features(#New-features)
     -   larana feature/jsoto\_opdigiproperties\_chargenormalization
     -   OpDigiProperties\_service provides a feature to read a waveform, and it normalizes it by its amplitude. DUNE needs to normalize by the charge (its integral). Implemented with a new fhicl parameter (false by default) that changes the normalization.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   systematics packages added to distribution
@@ -64,10 +64,10 @@ Updated dependencies(#Updated-dependencies)
     -   systematicstools v00\_01\_01
     -   nusystematics v00\_01\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v07\_06\_00(#larsoft-v07_06_00)
+larsoft v07\_06\_00
 ------------------------------------------
 
 -   2018-09-11 Lynn Garren : larsoft v07\_06\_00 for larsoft v07\_06\_00
@@ -75,39 +75,39 @@ larsoft v07\_06\_00(#larsoft-v07_06_00)
 -   2018-09-11 Lynn Garren : update dependency database
 -   2018-09-10 Lynn Garren : add systematicstools and nusystematics
 
-lareventdisplay v07\_01\_04(#lareventdisplay-v07_01_04)
+lareventdisplay v07\_01\_04
 ----------------------------------------------------------
 
 -   2018-09-11 Lynn Garren : lareventdisplay v07\_01\_04 for larsoft v07\_06\_00
 
-larexamples v07\_00\_07(#larexamples-v07_00_07)
+larexamples v07\_00\_07
 --------------------------------------------------
 
 -   2018-09-11 Lynn Garren : larexamples v07\_00\_07 for larsoft v07\_06\_00
 
-larg4 v07\_01\_02(#larg4-v07_01_02)
+larg4 v07\_01\_02
 --------------------------------------
 
 -   2018-09-11 Lynn Garren : larg4 v07\_01\_02 for larsoft v07\_06\_00
 -   2018-09-09 Saba Sehrish : updated header for MCDumpers to lardataalg
 
-larpandora v07\_01\_04(#larpandora-v07_01_04)
+larpandora v07\_01\_04
 ------------------------------------------------
 
 -   2018-09-11 Lynn Garren : larpandora v07\_01\_04 for larsoft v07\_06\_00
 
-larwirecell v07\_01\_01(#larwirecell-v07_01_01)
+larwirecell v07\_01\_01
 --------------------------------------------------
 
 -   2018-09-11 Lynn Garren : larwirecell v07\_01\_01 for larsoft v07\_06\_00
 
-larana v07\_02\_00(#larana-v07_02_00)
+larana v07\_02\_00
 ----------------------------------------
 
 -   2018-09-11 Lynn Garren : larana v07\_02\_00 for larsoft v07\_06\_00
 -   2018-09-11 Jose Soto : Added a fhicl parameter to normalize the waveform by the charge
 
-larreco v07\_04\_00(#larreco-v07_04_00)
+larreco v07\_04\_00
 ------------------------------------------
 
 -   2018-09-11 Lynn Garren : larreco v07\_04\_00 for larsoft v07\_06\_00
@@ -193,38 +193,38 @@ larreco v07\_04\_00(#larreco-v07_04_00)
 -   2018-06-08 Rory Fitzpatrick : added description to top of tcshower module
 -   2018-06-08 Rory Fitzpatrick : initial commit of tcshower module
 
-larsim v07\_03\_00(#larsim-v07_03_00)
+larsim v07\_03\_00
 ----------------------------------------
 
 -   2018-09-11 Lynn Garren : larsim v07\_03\_00 for larsoft v07\_06\_00
 -   2018-09-09 Saba Sehrish : moved MCDumpers to lardataalg, updated headers
 
-larevt v07\_00\_07(#larevt-v07_00_07)
+larevt v07\_00\_07
 ----------------------------------------
 
 -   2018-09-11 Lynn Garren : larevt v07\_00\_07 for larsoft v07\_06\_00
 
-lardata v07\_00\_07(#lardata-v07_00_07)
+lardata v07\_00\_07
 ------------------------------------------
 
 -   2018-09-11 Lynn Garren : lardata v07\_00\_07 for larsoft v07\_06\_00
 
-larcore v07\_00\_02(#larcore-v07_00_02)
+larcore v07\_00\_02
 ------------------------------------------
 
-larpandoracontent v03\_14\_01(#larpandoracontent-v03_14_01)
+larpandoracontent v03\_14\_01
 --------------------------------------------------------------
 
-larsoftobj v07\_03\_00(#larsoftobj-v07_03_00)
+larsoftobj v07\_03\_00
 ------------------------------------------------
 
 -   2018-09-11 Lynn Garren : larsoftobj v07\_03\_00 for larsoft v07\_06\_00
 -   2018-09-11 Lynn Garren : update versions
 
-lardataobj v07\_02\_02(#lardataobj-v07_02_02)
+lardataobj v07\_02\_02
 ------------------------------------------------
 
-lardataalg v07\_01\_00(#lardataalg-v07_01_00)
+lardataalg v07\_01\_00
 ------------------------------------------------
 
 -   2018-09-12 Lynn Garren : MCdumpers require lardataobj
@@ -232,17 +232,17 @@ lardataalg v07\_01\_00(#lardataalg-v07_01_00)
 -   2018-09-11 Lynn Garren : lardataalg v07\_01\_00 for larsoft v07\_06\_00
 -   2018-09-09 Saba Sehrish : Moved MCDumpers from larsim to lardataalg
 
-larcorealg v07\_01\_01(#larcorealg-v07_01_01)
+larcorealg v07\_01\_01
 ------------------------------------------------
 
-larcoreobj v07\_00\_01(#larcoreobj-v07_00_01)
+larcoreobj v07\_00\_01
 ------------------------------------------------
 
-larbatch v01\_44\_02(#larbatch-v01_44_02)
+larbatch v01\_44\_02
 --------------------------------------------
 
 -   2018-09-11 Lynn Garren : larbatch v01\_44\_02 for larsoft v07\_06\_00
 -   2018-09-08 Herbert Greenlee : Add support for pndr files.
 
-larutils v1\_23\_01(#larutils-v1_23_01)
+larutils v1\_23\_01
 ------------------------------------------

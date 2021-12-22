@@ -1,4 +1,4 @@
-LArSoft v09\_18\_00 Release Notes(#LArSoft-v09_18_00-Release-Notes)
+LArSoft v09\_18\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_18\_00 Release Notes(#LArSoft-v09_18_00-Release-Notes)
 Download instructions for [larsoft v09\_18\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_18_00/larsoft-v09_18_00.html)\
 Download instructions for [just larsoftobj v09\_05\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_01/larsoftobj-v09_05_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco PR 29
@@ -56,20 +56,20 @@ New features(#New-features)
     -   This PR addresses an issue in which a cosmic ray cluster with fewer than 3 hits could be considered for matching via a sliding linear fit, which would in turn throw an exception due to insufficient hits for the procedure.
     -   This PR also includes a minor update to conditional expressions in the deep learning library that would fail to build if LArContent was built without Pandora Monitoring enabled, and a build flag update to avoid suppressing sign comparison warnings in the Pandora standalone build (and therefore matching the warnings generated in a LArSoft build). The build for the LArSoft context is unchanged.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   artg4tk v10\_02\_01
 -   wirecell v0\_14\_0e
 -   spdlog v1\_8\_2
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_18\_00(#larsoft-v09_18_00)
+larsoft v09\_18\_00
 ------------------------------------------
 
 -   2021-03-10 Lynn Garren : larsoft v09\_18\_00 for larsoft v09\_18\_00
@@ -77,42 +77,42 @@ larsoft v09\_18\_00(#larsoft-v09_18_00)
 -   2021-03-09 Lynn Garren : update the compiler build section
 -   2021-03-09 Lynn Garren : adding stan build cfg file
 
-lareventdisplay v09\_01\_04(#lareventdisplay-v09_01_04)
+lareventdisplay v09\_01\_04
 ----------------------------------------------------------
 
 -   2021-03-10 Lynn Garren : lareventdisplay v09\_01\_04 for larsoft v09\_18\_00
 
-larexamples v09\_01\_04(#larexamples-v09_01_04)
+larexamples v09\_01\_04
 --------------------------------------------------
 
 -   2021-03-10 Lynn Garren : larexamples v09\_01\_04 for larsoft v09\_18\_00
 
-larpandora v09\_05\_05(#larpandora-v09_05_05)
+larpandora v09\_05\_05
 ------------------------------------------------
 
 -   2021-03-10 Lynn Garren : larpandora v09\_05\_05 for larsoft v09\_18\_00
 
-larsimrad v09\_01\_04(#larsimrad-v09_01_04)
+larsimrad v09\_01\_04
 ----------------------------------------------
 
 -   2021-03-10 Lynn Garren : larsimrad v09\_01\_04 for larsoft v09\_18\_00
 
-larrecodnn v09\_06\_03(#larrecodnn-v09_06_03)
+larrecodnn v09\_06\_03
 ------------------------------------------------
 
 -   2021-03-10 Lynn Garren : larrecodnn v09\_06\_03 for larsoft v09\_18\_00
 
-larwirecell v09\_02\_03(#larwirecell-v09_02_03)
+larwirecell v09\_02\_03
 --------------------------------------------------
 
 -   2021-03-10 Lynn Garren : larwirecell v09\_02\_03 for larsoft v09\_18\_00
 
-larana v09\_01\_04(#larana-v09_01_04)
+larana v09\_01\_04
 ----------------------------------------
 
 -   2021-03-10 Lynn Garren : larana v09\_01\_04 for larsoft v09\_18\_00
 
-larreco v09\_06\_00(#larreco-v09_06_00)
+larreco v09\_06\_00
 ------------------------------------------
 
 -   2021-03-10 Lynn Garren : larreco v09\_06\_00 for larsoft v09\_18\_00
@@ -174,26 +174,26 @@ larreco v09\_06\_00(#larreco-v09_06_00)
 -   2020-04-24 Tracy Usher : Formatting
 -   2020-04-24 Tracy Usher : Questioning the need to stretch the long hits… but allowing the possibility.
 
-larsim v09\_10\_03(#larsim-v09_10_03)
+larsim v09\_10\_03
 ----------------------------------------
 
 -   2021-03-10 Lynn Garren : larsim v09\_10\_03 for larsoft v09\_18\_00
 
-larg4 v09\_03\_03(#larg4-v09_03_03)
+larg4 v09\_03\_03
 --------------------------------------
 
 -   2021-03-10 Lynn Garren : larg4 v09\_03\_03 for larsoft v09\_18\_00
 
-larevt v09\_02\_02(#larevt-v09_02_02)
+larevt v09\_02\_02
 ----------------------------------------
 
-lardata v09\_02\_01(#lardata-v09_02_01)
+lardata v09\_02\_01
 ------------------------------------------
 
-larcore v09\_02\_01(#larcore-v09_02_01)
+larcore v09\_02\_01
 ------------------------------------------
 
-larpandoracontent v03\_22\_08(#larpandoracontent-v03_22_08)
+larpandoracontent v03\_22\_08
 --------------------------------------------------------------
 
 -   2021-03-10 Lynn Garren : larpandoracontent v03\_22\_08 for larsoft v09\_18\_00
@@ -203,22 +203,22 @@ larpandoracontent v03\_22\_08(#larpandoracontent-v03_22_08)
 -   2021-03-02 Andrew Chappell : Avoid empty conditional expression body when building without Pandora Monitoring
 -   2021-03-02 Andrew Chappell : Avoid sliding fits for low hit clusters in CosmicRayTrackRecovery
 
-larsoftobj v09\_05\_01(#larsoftobj-v09_05_01)
+larsoftobj v09\_05\_01
 ------------------------------------------------
 
-lardataobj v09\_01\_01(#lardataobj-v09_01_01)
+lardataobj v09\_01\_01
 ------------------------------------------------
 
-lardataalg v09\_04\_01(#lardataalg-v09_04_01)
+lardataalg v09\_04\_01
 ------------------------------------------------
 
-larcorealg v09\_01\_01(#larcorealg-v09_01_01)
+larcorealg v09\_01\_01
 ------------------------------------------------
 
-larcoreobj v09\_02\_00(#larcoreobj-v09_02_00)
+larcoreobj v09\_02\_00
 ------------------------------------------------
 
-webevd v09\_05\_02(#webevd-v09_05_02)
+webevd v09\_05\_02
 ----------------------------------------
 
 -   2021-03-10 Lynn Garren : webevd v09\_05\_02 for larsoft v09\_18\_00
@@ -226,8 +226,8 @@ webevd v09\_05\_02(#webevd-v09_05_02)
 -   2021-03-08 Christopher Backhouse : More succinct way to check for getByLabel success.
 -   2021-03-05 Christopher Backhouse : Protection against dropped products.
 
-larbatch v01\_54\_01(#larbatch-v01_54_01)
+larbatch v01\_54\_01
 --------------------------------------------
 
-larutils v1\_27\_04(#larutils-v1_27_04)
+larutils v1\_27\_04
 ------------------------------------------

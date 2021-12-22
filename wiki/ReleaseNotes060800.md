@@ -1,4 +1,4 @@
-LArSoft v06\_08\_00 Release Notes(#LArSoft-v06_08_00-Release-Notes)
+LArSoft v06\_08\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -27,50 +27,50 @@ LArSoft v06\_08\_00 Release Notes(#LArSoft-v06_08_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_08_00/larsoft-v06_08_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop since v06\_07\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_08\_00(#larsoft-v06_08_00)
+larsoft v06\_08\_00
 ------------------------------------------
 
 -   2016-09-28 Lynn Garren : larsoft v06\_08\_00 for larsoft v06\_08\_00
 -   2016-09-28 Lynn Garren : update product versions
 
-lareventdisplay v06\_01\_06(#lareventdisplay-v06_01_06)
+lareventdisplay v06\_01\_06
 ----------------------------------------------------------
 
 -   2016-09-28 Lynn Garren : lareventdisplay v06\_01\_06 for larsoft v06\_08\_00
 
-larexamples v06\_00\_10(#larexamples-v06_00_10)
+larexamples v06\_00\_10
 --------------------------------------------------
 
 -   2016-09-28 Lynn Garren : larexamples v06\_00\_10 for larsoft v06\_08\_00
 
-larpandora v06\_01\_01(#larpandora-v06_01_01)
+larpandora v06\_01\_01
 ------------------------------------------------
 
 -   2016-09-28 Lynn Garren : larpandora v06\_01\_01 for larsoft v06\_08\_00
 
-larana v06\_01\_07(#larana-v06_01_07)
+larana v06\_01\_07
 ----------------------------------------
 
 -   2016-09-28 Lynn Garren : larana v06\_01\_07 for larsoft v06\_08\_00
 
-larreco v06\_06\_00(#larreco-v06_06_00)
+larreco v06\_06\_00
 ------------------------------------------
 
 -   2016-09-28 Lynn Garren : larreco v06\_06\_00 for larsoft v06\_08\_00
@@ -101,17 +101,17 @@ larreco v06\_06\_00(#larreco-v06_06_00)
 -   2016-09-23 Robert Sulej : add validation of fhicl params
 -   2016-09-23 Robert Sulej : add brief description on the top
 
-larsim v06\_03\_06(#larsim-v06_03_06)
+larsim v06\_03\_06
 ----------------------------------------
 
 -   2016-09-28 Lynn Garren : larsim v06\_03\_06 for larsoft v06\_08\_00
 
-larevt v06\_02\_02(#larevt-v06_02_02)
+larevt v06\_02\_02
 ----------------------------------------
 
 -   2016-09-28 Lynn Garren : larevt v06\_02\_02 for larsoft v06\_08\_00
 
-lardata v06\_06\_00(#lardata-v06_06_00)
+lardata v06\_06\_00
 ------------------------------------------
 
 -   2016-09-28 Lynn Garren : lardata v06\_06\_00 for larsoft v06\_08\_00
@@ -125,22 +125,22 @@ lardata v06\_06\_00(#lardata-v06_06_00)
 -   2016-09-07 Gianluca Petrillo : DumpPFParticles can create GraphViz DOT graphs
 -   2016-09-07 Gianluca Petrillo : DumpPFParticles is better protected from cyclical graphs
 
-larcore v06\_02\_02(#larcore-v06_02_02)
+larcore v06\_02\_02
 ------------------------------------------
 
-larsoftobj v1\_07\_00(#larsoftobj-v1_07_00)
+larsoftobj v1\_07\_00
 ----------------------------------------------
 
-lardataobj v1\_07\_00(#lardataobj-v1_07_00)
+lardataobj v1\_07\_00
 ----------------------------------------------
 
-larcoreobj v1\_05\_00(#larcoreobj-v1_05_00)
+larcoreobj v1\_05\_00
 ----------------------------------------------
 
-larbatch v01\_23\_06(#larbatch-v01_23_06)
+larbatch v01\_23\_06
 --------------------------------------------
 
-larutils v1\_08\_06(#larutils-v1_08_06)
+larutils v1\_08\_06
 ------------------------------------------
 
 -   2016-09-28 Lynn Garren : larutils v1\_08\_06 for larsoft v06\_08\_00

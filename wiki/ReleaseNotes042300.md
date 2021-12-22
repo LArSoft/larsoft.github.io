@@ -1,4 +1,4 @@
-LArSoft v04\_23\_00 Release Notes(#LArSoft-v04_23_00-Release-Notes)
+LArSoft v04\_23\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,57 +24,57 @@ LArSoft v04\_23\_00 Release Notes(#LArSoft-v04_23_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_23_00/larsoft-v04_23_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in development since v04\_22\_00
 -   features
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larcore feature/gp\_FixGeometryReload
 -   lardata and larsim feature/zennamo\_MCShowerdEdx
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_23\_00(#larsoft-v04_23_00)
+larsoft v04\_23\_00
 ------------------------------------------
 
 -   2015-09-16 Lynn Garren : because the nu distribution has a different pandora, we start with artbase
 -   2015-09-16 Lynn Garren : larsoft v04\_23\_00 for larsoft v04\_23\_00
 -   2015-09-16 Lynn Garren : update product versions
 
-lareventdisplay v04\_08\_01(#lareventdisplay-v04_08_01)
+lareventdisplay v04\_08\_01
 ----------------------------------------------------------
 
 -   2015-09-16 Lynn Garren : lareventdisplay v04\_08\_01 for larsoft v04\_23\_00
 
-larexamples v04\_05\_04(#larexamples-v04_05_04)
+larexamples v04\_05\_04
 --------------------------------------------------
 
 -   2015-09-16 Lynn Garren : cetbuildtools v4\_13\_00 needs an updated setup\_for\_development
 -   2015-09-16 Lynn Garren : larexamples v04\_05\_04 for larsoft v04\_23\_00
 
-larpandora v04\_06\_01(#larpandora-v04_06_01)
+larpandora v04\_06\_01
 ------------------------------------------------
 
 -   2015-09-16 Lynn Garren : larpandora v04\_06\_01 for larsoft v04\_23\_00
 
-larana v04\_12\_03(#larana-v04_12_03)
+larana v04\_12\_03
 ----------------------------------------
 
 -   2015-09-16 Lynn Garren : larana v04\_12\_03 for larsoft v04\_23\_00
 -   2015-09-11 drinkingkazu : Use more optimal indexing than just using OpDetWaveform’s time which could be many, many micro-seconds… this probably used to be a sample number which is limited to some finite integer within a frame –kazu
 
-larreco v04\_17\_01(#larreco-v04_17_01)
+larreco v04\_17\_01
 ------------------------------------------
 
 -   2015-09-16 Lynn Garren : larreco v04\_17\_01 for larsoft v04\_23\_00
@@ -83,7 +83,7 @@ larreco v04\_17\_01(#larreco-v04_17_01)
 -   2015-09-15 Mike Wallbank : Updated parameters for the MergeClusters algorithm
 -   2015-09-15 Mike Wallbank : Improvements to cluster algorithm; rewrite of the cluster merging algorithm
 
-larsim v04\_10\_00(#larsim-v04_10_00)
+larsim v04\_10\_00
 ----------------------------------------
 
 -   2015-09-16 Lynn Garren : cetbuildtools v4\_13\_00 needs an updated setup\_for\_development
@@ -95,13 +95,13 @@ larsim v04\_10\_00(#larsim-v04_10_00)
 -   2015-07-14 Joseph Zennamo : Filling MCShower radial dEdx and the MCShower direction from the inital energy deposits
 -   2015-07-09 Joseph Zennamo : Filling MCShower dEdx, using a signed distance to start point plane. Includes extra iteration through Shower Daughters.
 
-larevt v04\_10\_01(#larevt-v04_10_01)
+larevt v04\_10\_01
 ----------------------------------------
 
 -   2015-09-16 Lynn Garren : cetbuildtools v4\_13\_00 needs an updated setup\_for\_development
 -   2015-09-16 Lynn Garren : larevt v04\_10\_01 for larsoft v04\_23\_00
 
-lardata v04\_14\_00(#lardata-v04_14_00)
+lardata v04\_14\_00
 ------------------------------------------
 
 -   2015-09-16 Lynn Garren : cetbuildtools v4\_13\_00 needs an updated setup\_for\_development
@@ -128,7 +128,7 @@ lardata v04\_14\_00(#lardata-v04_14_00)
 -   2015-07-06 Joseph Zennamo : Merge branch ‘master’ of ssh://cdcvs.fnal.gov/cvs/projects/lardata into feature/zennamo\_MCShowerdEdx
 -   2015-07-06 Joseph Zennamo : Changed MCShower to include dEdx variable for filling
 
-larcore v04\_17\_00(#larcore-v04_17_00)
+larcore v04\_17\_00
 ------------------------------------------
 
 -   2015-09-16 Lynn Garren : cetbuildtools v4\_13\_00 needs an updated setup\_for\_development
@@ -136,12 +136,12 @@ larcore v04\_17\_00(#larcore-v04_17_00)
 -   2015-09-10 Gianluca Petrillo : Workaround for geometry reloading bug: GDML was not really reloaded. the bug was introduced with the AuxDetGeometry service hack.
 -   2015-09-10 Gianluca Petrillo : Reimplemented TPCGeo::Plane(geo::View) to provide some check on the argument. Replaced a static variable with a member one. Static variables are trouble.
 
-larbatch v01\_15\_00(#larbatch-v01_15_00)
+larbatch v01\_15\_00
 --------------------------------------------
 
 -   2015-09-16 Lynn Garren : larbatch v01\_15\_00 for larsoft v04\_23\_00
 -   2015-09-14 Herbert Greenlee : Modify upload function to use symbolic links where appropriate.
 -   2015-09-14 Herbert Greenlee : Add “shorten” action in output menu.
 
-larutils v1\_03\_01(#larutils-v1_03_01)
+larutils v1\_03\_01
 ------------------------------------------

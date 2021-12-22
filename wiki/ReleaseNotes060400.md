@@ -1,4 +1,4 @@
-LArSoft v06\_04\_00 Release Notes(#LArSoft-v06_04_00-Release-Notes)
+LArSoft v06\_04\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -27,14 +27,14 @@ LArSoft v06\_04\_00 Release Notes(#LArSoft-v06_04_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_04_00/larsoft-v06_04_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   art bug fixes
 -   integrate approved features
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   art v2\_03\_00 has improved handling of fastcloning [\#13275](/redmine/issues/13275 "Feature: Disabling fast cloning on data products with updated checksum (Closed)")
@@ -46,14 +46,14 @@ New features(#New-features)
 -   larcore/CoreUtils/quiet\_Math\_Functor.h replaces larreco/RecoAlg/RootMathFunctor.h
     -   RootMathFunctor.h did not restore the pragma state after including Math/Functor.h. This sometimes masked other warnings.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   art v2\_03\_00
     -   bug fix for [\#13564](/redmine/issues/13564 "Bug: Assertion failure on maybeInvalidateRangeSet(): Assertion `!principalRS.ranges().empty()' failed. (Closed)") (reported by LArIAT)
     -   bug fix [\#13446](/redmine/issues/13446 "Bug: service libraries now need a link to the root core library (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   -------------- ------------ ------------ -------------------------------------------------------------------------
@@ -67,10 +67,10 @@ Updated dependencies(#Updated-dependencies)
   mrb            v1\_08\_00                provide more information when mrbsetenv fails
   -------------- ------------ ------------ -------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_04\_00(#larsoft-v06_04_00)
+larsoft v06\_04\_00
 ------------------------------------------
 
 -   2016-08-18 Lynn Garren : larsoft v06\_04\_00 for larsoft v06\_04\_00
@@ -82,29 +82,29 @@ larsoft v06\_04\_00(#larsoft-v06_04_00)
 -   2016-08-11 Lynn Garren : qt and geant4
 -   2016-08-10 Gianluca Petrillo : Added script RemoveUserFromServiceConfig.py to remove the “user” layer from art service configuration in FHiCL.
 
-lareventdisplay v06\_01\_00(#lareventdisplay-v06_01_00)
+lareventdisplay v06\_01\_00
 ----------------------------------------------------------
 
 -   2016-08-18 Lynn Garren : lareventdisplay v06\_01\_00 for larsoft v06\_04\_00
 -   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
 
-larexamples v06\_00\_04(#larexamples-v06_00_04)
+larexamples v06\_00\_04
 --------------------------------------------------
 
 -   2016-08-18 Lynn Garren : larexamples v06\_00\_04 for larsoft v06\_04\_00
 
-larpandora v06\_00\_05(#larpandora-v06_00_05)
+larpandora v06\_00\_05
 ------------------------------------------------
 
 -   2016-08-18 Lynn Garren : larpandora v06\_00\_05 for larsoft v06\_04\_00
 
-larana v06\_01\_01(#larana-v06_01_01)
+larana v06\_01\_01
 ----------------------------------------
 
 -   2016-08-18 Lynn Garren : larana v06\_01\_01 for larsoft v06\_04\_00
 -   2016-08-18 Lynn Garren : quiet the deprecation warnings from root Math/Functor.h
 
-larreco v06\_03\_00(#larreco-v06_03_00)
+larreco v06\_03\_00
 ------------------------------------------
 
 -   2016-08-18 Lynn Garren : larreco v06\_03\_00 for larsoft v06\_04\_00
@@ -155,7 +155,7 @@ larreco v06\_03\_00(#larreco-v06_03_00)
 -   2016-05-31 Robert Sulej : remove old code version
 -   2016-05-31 Robert Sulej : prepare for module split
 
-larsim v06\_03\_00(#larsim-v06_03_00)
+larsim v06\_03\_00
 ----------------------------------------
 
 -   2016-08-18 Lynn Garren : larsim v06\_03\_00 for larsoft v06\_04\_00
@@ -173,13 +173,13 @@ larsim v06\_03\_00(#larsim-v06_03_00)
 -   2016-07-03 Steven Gardiner : Add module that provides an interface to the MARLEY (Model of Argon Reaction Low Energy Yields) event generator for tens-of-MeV neutrinos in liquid argon. For more information, see [http://marleygen.org](http://marleygen.org).
 -   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
 
-larevt v06\_01\_00(#larevt-v06_01_00)
+larevt v06\_01\_00
 ----------------------------------------
 
 -   2016-08-18 Lynn Garren : larevt v06\_01\_00 for larsoft v06\_04\_00
 -   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
 
-lardata v06\_03\_00(#lardata-v06_03_00)
+lardata v06\_03\_00
 ------------------------------------------
 
 -   2016-08-18 Lynn Garren : lardata v06\_03\_00 for larsoft v06\_04\_00
@@ -187,34 +187,34 @@ lardata v06\_03\_00(#lardata-v06_03_00)
 -   2016-08-16 Gianluca Petrillo : Adding configuration for resource tracking services
 -   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
 
-larcore v06\_02\_00(#larcore-v06_02_00)
+larcore v06\_02\_00
 ------------------------------------------
 
 -   2016-08-18 Lynn Garren : larcore v06\_02\_00 for larsoft v06\_04\_00
 -   2016-08-18 Lynn Garren : finally remove files now in larcoreobj
 -   2016-08-18 Lynn Garren : quiet the deprecation warnings from root Math/Functor.h
 
-larsimobj v1\_05\_02(#larsimobj-v1_05_02)
+larsimobj v1\_05\_02
 --------------------------------------------
 
 -   2016-08-18 Lynn Garren : larsimobj v1\_05\_02 for larsoft v06\_04\_00
 -   2016-08-08 Lynn Garren : Merge tag ‘v1\_05\_01’ into develop
 
-lardataobj v1\_04\_02(#lardataobj-v1_04_02)
+lardataobj v1\_04\_02
 ----------------------------------------------
 
 -   2016-08-18 Lynn Garren : lardataobj v1\_04\_02 for larsoft v06\_04\_00
 -   2016-08-11 Gianluca Petrillo : Removing duplicate FHiCL file (should be only in lardata)
 
-larcoreobj v1\_04\_02(#larcoreobj-v1_04_02)
+larcoreobj v1\_04\_02
 ----------------------------------------------
 
 -   2016-08-18 Lynn Garren : larcoreobj v1\_04\_02 for larsoft v06\_04\_00
 
-larbatch v01\_23\_04(#larbatch-v01_23_04)
+larbatch v01\_23\_04
 --------------------------------------------
 
-larutils v1\_08\_02(#larutils-v1_08_02)
+larutils v1\_08\_02
 ------------------------------------------
 
 -   2016-08-18 Lynn Garren : larutils v1\_08\_02 for larsoft v06\_04\_00

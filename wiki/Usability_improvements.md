@@ -1,7 +1,7 @@
-Usability improvements(#Usability-improvements)
+Usability improvements
 ==================================================
 
-Goals(#Goals)
+Goals
 ----------------
 
 Have LArSoft as a friendly platform as possible for the Experiment members to
@@ -10,7 +10,7 @@ Have LArSoft as a friendly platform as possible for the Experiment members to
 
 **Delivery time: June 2016 (“phase 1”)**
 
-The plan(#The-plan)
+The plan
 ----------------------
 
 The potential targets are listed in the next section.\
@@ -24,7 +24,7 @@ Due to the time span of this project, the first choices are reported in this tab
   [Access to indirectly associated objects](Usability_improvements)             TBD            scheduled to start on June/July
   ------------------------------------------------------------------------------------------------------------ -------------- ---------------------------------
 
-Targets(#Targets)
+Targets
 --------------------
 
 A number of people within a wide range of roles and expertise have been actively interviewed, and information has been collected during support requests.\
@@ -35,7 +35,7 @@ Collection will continue, mostly as side effect of support requests.
 
 Part of the interview results is strictly *art* framework improvements or feature extensions, and they haven’t been listed here.
 
-### Configuration(#Configuration)
+### Configuration
 
   ---------------------------------------------- ------------------ -------------- ---------- --------------- --------------------------------------
                                                  source             contributors   delivery   effort          status
@@ -43,14 +43,14 @@ Part of the interview results is strictly *art* framework improvements or featur
   Service configuration inheritance from input   Herbert Greenlee                             not scheduled   To do: submit *art* feature request
   ---------------------------------------------- ------------------ -------------- ---------- --------------- --------------------------------------
 
-#### Configuration language(#Configuration-language)
+#### Configuration language
 
 FHiCL configuration language could evolve to allow for parametric configuration that allows easy reuse of template configurations.\
 Despite some level of reusability, running for example two clustering modules differing by a single parameter and then a tracking module on each of them is more complicate than it should be.
 
 > The size of this request requires multi-month dedicated effort by FHiCL maintainers.
 
-#### Services inheriting configuration from input file(#Services-inheriting-configuration-from-input-file)
+#### Services inheriting configuration from input file
 
 Most of the services are *required* to have the same configuration as in the previous jobs the input comes from.\
 Failure to enforce this causes subtle errors. Multiple instances of this problem have been met in MicroBooNE, while dealing with `develop`-level reconstruction code on production level input files, and DUNE, when testing different geometries and settings.\
@@ -64,7 +64,7 @@ Expected 3 week of work to get first service on proprietary solution; 0.5 to 1 w
 
 -   submit feature request for the general solution to *art* and let the stakeholders decide whether they are interested;
 
-### Coding(#Coding)
+### Coding
 
 source
 
@@ -116,7 +116,7 @@ LArSoft (and *art*?) team
 
 *not scheduled*
 
-#### Code examples(#Code-examples)
+#### Code examples
 
 Copying existing code is a standard practice for LArSoft developers, which has fed diffusion and adoption of unwanted, non-optimal and dangerous patterns.\
 Authors should be provided with examples from where to grow their code. These examples should:
@@ -134,7 +134,7 @@ A *incomplete* list of examples to be created:
 -   a new service (factorization model included)
 -   a new service (factorization model and experiment-specific included)
 
-#### Code templates(#Code-templates)
+#### Code templates
 
 Templates are counterparts of examples that are supposed to be used by an author to start new code.\
 Differences with examples:
@@ -152,7 +152,7 @@ Possible themes:
 -   algorithm + module template
 -   service templates
 
-### Data access(#Data-access)
+### Data access
 
   ----------------------- -------- --------------------------- ----------------- --------- --------
                           source   contributors                delivery          effort    status
@@ -162,17 +162,17 @@ Possible themes:
   associations chains              LArSoft (and *art*?) team   TBD                         
   ----------------------- -------- --------------------------- ----------------- --------- --------
 
-#### Complete event view(#Complete-event-view)
+#### Complete event view
 
 An *event view* is an object that can provide a collection of objects for any relevant physics class, with no need for the caller to specify where each collection comes from.\
 This is envisioned as a analysis support tool configured centrally by e.g., a physics group, where it is decided which reconstructed track collection to use, which calorimetry, etc.\
 The object should be configured by FHiCL language.
 
-#### Association utilities(#Association-utilities)
+#### Association utilities
 
 The focus is on three aspects of use of associations: creation, query and chain query.
 
-##### Creation of associations with data products(#Creation-of-associations-with-data-products)
+##### Creation of associations with data products
 
 LArSoft `CreateAssns()` functions have become quite hard to use and often they are adding complication to user code rather than simplifying it. A common creation pattern is for a module to produce:
 
@@ -185,16 +185,16 @@ If this pattern is uniform and repeated enough, supporting utilities should be w
 
 ^1^ One such attempt for the specific use case of hit creation is `recob::HitCollectionCreator` (`lardata/lardata/RecoBaseArt/HitCreator.h`), which might be defined “moderately successful” in that I received a single unsolicited fairly positive statement and no negative statement about its usefulness.
 
-##### Access to associated objects(#Access-to-associated-objects)
+##### Access to associated objects
 
 A common usage pattern is to have an *object* (as opposed to an index) and to look for its associated objects.\
 This might be made simpler with a proper query object.
 
-##### Access to indirectly associated objects(#Access-to-indirectly-associated-objects)
+##### Access to indirectly associated objects
 
 Under some assumptions, the query of objects only indirectly associated should be made easy (e.g. tracks -\> … -\> hits).
 
-### Run-time interface(#Run-time-interface)
+### Run-time interface
 
 The user needs to know that an error message on the output is something to be fixed, and the same for a warning.\
 Module output to console needs to be cleaned and made readable.
@@ -243,7 +243,7 @@ calorimetry
 
 *not scheduled*
 
-### Environment(#Environment)
+### Environment
 
   ----------------------- -------- -------------- ----------------- -------- -------------------------
                           source   contributors   delivery          effort   status
@@ -251,20 +251,20 @@ calorimetry
   VNC for event display                                                      request to CD
   ----------------------- -------- -------------- ----------------- -------- -------------------------
 
-#### Machine devoted to code building(#Machine-devoted-to-code-building)
+#### Machine devoted to code building
 
 DUNE seems to have benefited from having a machine exclusively devoted to, and optimized for, software building.\
 All the experiments may be interested in having such a machine.\
 But we leave to each experiment the decision to request one.
 
-#### VNC for event displaying from GPVMs(#VNC-for-event-displaying-from-GPVMs)
+#### VNC for event displaying from GPVMs
 
 Remote event display with the X11 protocol is extremely demanding of the network resources.\
 Other protocols, like VNC, may be much better suited for slowly changing display applications like this one.
 
 The first step should be for the GPVMs to enable the ability to host a VNC server.
 
-Further ideas scoped out of “phase 1” usability project(#Further-ideas-scoped-out-of-phase-1-usability-project)
+Further ideas scoped out of “phase 1” usability project
 ------------------------------------------------------------------------------------------------------------------
 
 Visual FHiCL aids:

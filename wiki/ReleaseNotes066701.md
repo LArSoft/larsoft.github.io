@@ -1,4 +1,4 @@
-LArSoft v06\_67\_01 Release Notes(#LArSoft-v06_67_01-Release-Notes)
+LArSoft v06\_67\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,63 +31,63 @@ LArSoft v06\_67\_01 Release Notes(#LArSoft-v06_67_01-Release-Notes)
 Download instructions for [larsoft v06\_67\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_67_01/larsoft-v06_67_01.html)\
 Download instructions for [just larsoftobj v1\_39\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_39_00/larsoftobj-v1_39_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved features
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardata feature/gp\_AssnsChain
     -   `lar::FindManyInChainP`
     -   a utility similar to FindManyP, to extract associated elements across a chain of associations (like obtainingPFParticles ~~\> Hits from associations PFParticles \<-~~\> Tracks \<–\> Clusters \<–\> Hits).
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   ifdhc v2\_3\_1
 -   nutools v2\_17\_03
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_67\_01(#larsoft-v06_67_01)
+larsoft v06\_67\_01
 ------------------------------------------
 
 -   2018-02-06 Lynn Garren : larsoft v06\_67\_01 for larsoft v06\_67\_01
 -   2018-02-06 Lynn Garren : update product versions
 
-lareventdisplay v06\_17\_01(#lareventdisplay-v06_17_01)
+lareventdisplay v06\_17\_01
 ----------------------------------------------------------
 
 -   2018-02-06 Lynn Garren : lareventdisplay v06\_17\_01 for larsoft v06\_67\_01
 
-larexamples v06\_10\_01(#larexamples-v06_10_01)
+larexamples v06\_10\_01
 --------------------------------------------------
 
 -   2018-02-06 Lynn Garren : larexamples v06\_10\_01 for larsoft v06\_67\_01
 
-larpandora v06\_22\_01(#larpandora-v06_22_01)
+larpandora v06\_22\_01
 ------------------------------------------------
 
 -   2018-02-06 Lynn Garren : larpandora v06\_22\_01 for larsoft v06\_67\_01
 
-larwirecell v06\_10\_01(#larwirecell-v06_10_01)
+larwirecell v06\_10\_01
 --------------------------------------------------
 
 -   2018-02-06 Lynn Garren : larwirecell v06\_10\_01 for larsoft v06\_67\_01
 
-larana v06\_16\_01(#larana-v06_16_01)
+larana v06\_16\_01
 ----------------------------------------
 
 -   2018-02-06 Lynn Garren : larana v06\_16\_01 for larsoft v06\_67\_01
 
-larreco v06\_54\_01(#larreco-v06_54_01)
+larreco v06\_54\_01
 ------------------------------------------
 
 -   2018-02-06 Lynn Garren : larreco v06\_54\_01 for larsoft v06\_67\_01
@@ -96,7 +96,7 @@ larreco v06\_54\_01(#larreco-v06_54_01)
 -   2018-02-02 Lynn Garren : larsoft v06\_67\_00
 -   2018-02-01 Gianluca Petrillo : Remove unused variable.
 
-larsim v06\_40\_01(#larsim-v06_40_01)
+larsim v06\_40\_01
 ----------------------------------------
 
 -   2018-02-06 Lynn Garren : larsim v06\_40\_01 for larsoft v06\_67\_01
@@ -107,12 +107,12 @@ larsim v06\_40\_01(#larsim-v06_40_01)
 -   2018-02-01 Christopher Backhouse : First attempt at interpolation feature for photon library. Needs documentation and testing (probably doesn’t work yet), but PhotonLibraryAnalyzer doesn’t actually call getVisibility() so need to do some work there to see the effects of this.
 -   2018-02-01 Christopher Backhouse : Simplify implementation of GetVoxelID().
 
-larevt v06\_18\_01(#larevt-v06_18_01)
+larevt v06\_18\_01
 ----------------------------------------
 
 -   2018-02-06 Lynn Garren : larevt v06\_18\_01 for larsoft v06\_67\_01
 
-lardata v06\_39\_01(#lardata-v06_39_01)
+lardata v06\_39\_01
 ------------------------------------------
 
 -   2018-02-06 Lynn Garren : disable testAssnsChainUtils for now
@@ -127,28 +127,28 @@ lardata v06\_39\_01(#lardata-v06_39_01)
 -   2017-07-05 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp\_AssnsChain
 -   2017-06-30 Gianluca Petrillo : First implementation of lar::FindAllP() to navigate chains of associations.
 
-larcore v06\_17\_00(#larcore-v06_17_00)
+larcore v06\_17\_00
 ------------------------------------------
 
-larpandoracontent v03\_09\_04(#larpandoracontent-v03_09_04)
+larpandoracontent v03\_09\_04
 --------------------------------------------------------------
 
-larsoftobj v1\_39\_00(#larsoftobj-v1_39_00)
+larsoftobj v1\_39\_00
 ----------------------------------------------
 
-lardataobj v1\_28\_00(#lardataobj-v1_28_00)
+lardataobj v1\_28\_00
 ----------------------------------------------
 
-larcorealg v1\_17\_00(#larcorealg-v1_17_00)
+larcorealg v1\_17\_00
 ----------------------------------------------
 
-larcoreobj v1\_20\_00(#larcoreobj-v1_20_00)
+larcoreobj v1\_20\_00
 ----------------------------------------------
 
-larbatch v01\_36\_01(#larbatch-v01_36_01)
+larbatch v01\_36\_01
 --------------------------------------------
 
-larutils v1\_20\_08(#larutils-v1_20_08)
+larutils v1\_20\_08
 ------------------------------------------
 
 -   2018-02-06 Lynn Garren : larutils v1\_20\_08 for larsoft v06\_67\_01

@@ -1,4 +1,4 @@
-LArSoft release list(#LArSoft-release-list)
+LArSoft release list
 ==============================================
 
 [LArSoft release naming and retention policy](LArSoft_release_naming_policy)

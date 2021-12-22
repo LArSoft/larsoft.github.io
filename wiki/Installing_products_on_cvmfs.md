@@ -1,11 +1,11 @@
-Installing products on cvmfs(#Installing-products-on-cvmfs)
+Installing products on cvmfs
 ==============================================================
 
 In most circumstances, users are expected to get the larsoft release from cvmfs. There is a README in cvmfslarsoft with basic instructions.
 
 Because the home directory is tiny by design, we use a temporary directory on cvmfs when installing products. It is important to make sure this directory is empty before finalizing the download via cvmfs publish. Note that if there are real problems, you can always abort the cvmfs transaction.
 
-basic steps(#basic-steps)
+basic steps
 ----------------------------
 
 -   login to your cvmfs distribution account
@@ -23,7 +23,7 @@ basic steps(#basic-steps)
 -   If everything is good, publish the transaction
 -   The “cvmfs abort” command can be used to abort everything and return to the state before you started working.
 
-LArSoft specific example(#LArSoft-specific-example)
+LArSoft specific example
 ------------------------------------------------------
 
 For LArSoft, we wrote a script to call pullProducts. The installBundle.sh script will download for all supported platforms.

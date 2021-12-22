@@ -1,4 +1,4 @@
-LArSoft v06\_44\_00 Release Notes(#LArSoft-v06_44_00-Release-Notes)
+LArSoft v06\_44\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,25 +31,25 @@ LArSoft v06\_44\_00 Release Notes(#LArSoft-v06_44_00-Release-Notes)
 Download instructions for [larsoft v06\_44\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_44_00/larsoft-v06_44_00.html)\
 Download instructions for [just larsoftobj v1\_23\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_23_01/larsoftobj-v1_23_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branch
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardata and larsim feature/dgg\_lightpropv2
     -   This is a breaking change
     -   feature/team\_lightpropv2 is available for dunetpc, icaruscode, and lariatsoft
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larcorealg fixes [\#17123](/redmine/issues/17123 "Bug: GeometryCore::WireIDsIntersect() gives wrong intersection points in TVector3 version (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ --------------------------------------------------------------------------------------------------
@@ -61,16 +61,16 @@ Updated dependencies(#Updated-dependencies)
   mrb             v1\_09\_03                
   --------------- ------------ ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_44\_00(#larsoft-v06_44_00)
+larsoft v06\_44\_00
 ------------------------------------------
 
 -   2017-07-18 Lynn Garren : larsoft v06\_44\_00 for larsoft v06\_44\_00
 -   2017-07-18 Lynn Garren : update product versions
 
-lareventdisplay v06\_10\_00(#lareventdisplay-v06_10_00)
+lareventdisplay v06\_10\_00
 ----------------------------------------------------------
 
 -   2017-07-18 Lynn Garren : lareventdisplay v06\_10\_00 for larsoft v06\_44\_00
@@ -96,27 +96,27 @@ lareventdisplay v06\_10\_00(#lareventdisplay-v06_10_00)
 -   2017-03-16 baller : Color code the shower cone by dE/dx
 -   2017-03-14 baller : Draw showers in 2D
 
-larexamples v06\_05\_01(#larexamples-v06_05_01)
+larexamples v06\_05\_01
 --------------------------------------------------
 
 -   2017-07-18 Lynn Garren : larexamples v06\_05\_01 for larsoft v06\_44\_00
 
-larpandora v06\_15\_01(#larpandora-v06_15_01)
+larpandora v06\_15\_01
 ------------------------------------------------
 
 -   2017-07-18 Lynn Garren : larpandora v06\_15\_01 for larsoft v06\_44\_00
 
-larwirecell v06\_05\_05(#larwirecell-v06_05_05)
+larwirecell v06\_05\_05
 --------------------------------------------------
 
 -   2017-07-18 Lynn Garren : larwirecell v06\_05\_05 for larsoft v06\_44\_00
 
-larana v06\_08\_01(#larana-v06_08_01)
+larana v06\_08\_01
 ----------------------------------------
 
 -   2017-07-18 Lynn Garren : larana v06\_08\_01 for larsoft v06\_44\_00
 
-larreco v06\_35\_00(#larreco-v06_35_00)
+larreco v06\_35\_00
 ------------------------------------------
 
 -   2017-07-18 Lynn Garren : larreco v06\_35\_00 for larsoft v06\_44\_00
@@ -131,7 +131,7 @@ larreco v06\_35\_00(#larreco-v06_35_00)
 -   2017-07-06 Christoph Alt : Implemented N+1 fitting for bad fits
 -   2017-06-23 Christoph Alt : Added refitting option to the algorithm
 
-larsim v06\_27\_00(#larsim-v06_27_00)
+larsim v06\_27\_00
 ----------------------------------------
 
 -   2017-07-18 Lynn Garren : larsim v06\_27\_00 for larsoft v06\_44\_00
@@ -141,12 +141,12 @@ larsim v06\_27\_00(#larsim-v06_27_00)
 -   2017-07-02 Diego Gamez : including g4 default opBoundary option
 -   2017-07-02 Diego Gamez : including g4 default opBoundary option
 
-larevt v06\_15\_01(#larevt-v06_15_01)
+larevt v06\_15\_01
 ----------------------------------------
 
 -   2017-07-18 Lynn Garren : larevt v06\_15\_01 for larsoft v06\_44\_00
 
-lardata v06\_25\_00(#lardata-v06_25_00)
+lardata v06\_25\_00
 ------------------------------------------
 
 -   2017-07-18 Lynn Garren : lardata v06\_25\_00 for larsoft v06\_44\_00
@@ -157,35 +157,35 @@ lardata v06\_25\_00(#lardata-v06_25_00)
 -   2017-07-02 Diego Gamez : including g4 opBoundary option
 -   2017-07-02 Diego Gamez : including g4 opBoundary option
 
-larcore v06\_13\_01(#larcore-v06_13_01)
+larcore v06\_13\_01
 ------------------------------------------
 
 -   2017-07-18 Lynn Garren : larcore v06\_13\_01 for larsoft v06\_44\_00
 
-larpandoracontent v03\_07\_02(#larpandoracontent-v03_07_02)
+larpandoracontent v03\_07\_02
 --------------------------------------------------------------
 
-larsoftobj v1\_23\_01(#larsoftobj-v1_23_01)
+larsoftobj v1\_23\_01
 ----------------------------------------------
 
 -   2017-07-18 Lynn Garren : larsoftobj v1\_23\_01 for larsoft v06\_44\_00
 -   2017-07-18 Lynn Garren : update product versions
 
-lardataobj v1\_18\_00(#lardataobj-v1_18_00)
+lardataobj v1\_18\_00
 ----------------------------------------------
 
-larcorealg v1\_05\_01(#larcorealg-v1_05_01)
+larcorealg v1\_05\_01
 ----------------------------------------------
 
 -   2017-07-18 Lynn Garren : larcorealg v1\_05\_01 for larsoft v06\_44\_00
 -   2017-07-12 Lynn Garren : larsoft v06\_43\_00
 -   2017-07-12 Gianluca Petrillo : Fixed an include path contained in a script.
 
-larcoreobj v1\_15\_01(#larcoreobj-v1_15_01)
+larcoreobj v1\_15\_01
 ----------------------------------------------
 
-larbatch v01\_32\_03(#larbatch-v01_32_03)
+larbatch v01\_32\_03
 --------------------------------------------
 
-larutils v1\_16\_00(#larutils-v1_16_00)
+larutils v1\_16\_00
 ------------------------------------------

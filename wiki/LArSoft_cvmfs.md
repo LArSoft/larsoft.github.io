@@ -1,10 +1,10 @@
-LArSoft cvmfs(#LArSoft-cvmfs)
+LArSoft cvmfs
 ================================
 
 -   /cvmfs/larsoft.opensciencegrid.org
 -   [Installing products on cvmfs](Installing_products_on_cvmfs)
 
-General instructions for managing software(#General-instructions-for-managing-software)
+General instructions for managing software
 ------------------------------------------------------------------------------------------
 
 -   login as cvmfslarsoft@oasiscfs
@@ -22,7 +22,7 @@ General instructions for managing software(#General-instructions-for-managing-so
         -   This processes all the changes, makes them part of the published repository, and makes the repository read-only again.
     -   Updates should then appear on worker nodes typically within a half hour, but sometimes it will be longer if the update was large or if the Stratum 1 is busy with doing a large update of another repository.
 
-Install a larsoft release(#Install-a-larsoft-release)
+Install a larsoft release
 --------------------------------------------------------
 
 -   The product directory is /cvmfs/larsoft.opensciencegrid.org/products

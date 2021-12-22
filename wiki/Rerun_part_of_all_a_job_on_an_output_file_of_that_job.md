@@ -1,4 +1,4 @@
-Rerun part or all a job on an output file of that job(#Rerun-part-or-all-a-job-on-an-output-file-of-that-job)
+Rerun part or all a job on an output file of that job
 ================================================================================================================
 
 Say you have run the configuration `myJob.fcl`, which has produced the output file `myOutput.root`.\
@@ -14,7 +14,7 @@ In the following we assume that the output file you are going to recycle contain
 
 > **Note:** these procedures do not guarantee that the random number sequences will be the same as in the original job. To achieve that, additional effort might be needed.
 
-Regenerate all the data products from a job(#Regenerate-all-the-data-products-from-a-job)
+Regenerate all the data products from a job
 --------------------------------------------------------------------------------------------
 
 You first need to know which is the process name of the previous job.\
@@ -44,7 +44,7 @@ You will also want to make sure that:
 
 In alternative, you can make the FHiCL file as you prefer, as long as the `source.inputCommands` configuration is present.
 
-Regenerate the data products from selected modules in a job(#Regenerate-the-data-products-from-selected-modules-in-a-job)
+Regenerate the data products from selected modules in a job
 ----------------------------------------------------------------------------------------------------------------------------
 
 This procedure is in principle similar to the previous one where you regenerate the whole job, but it takes a bit longer to prepare.\
@@ -88,7 +88,7 @@ The following excerpt should inspire you the solution, but the actual details ma
     physics.trigger_paths: [ reco ]
     physics.reco: [ "module1", "module2", ... , "moduleN" ]
 
-The *art* branch name(#The-art-branch-name)
+The *art* branch name
 ----------------------------------------------
 
 The specification of *art* branches used in `inputCommands` of `RootInput` (and also in `outputCommands` from `RootOutput` are in the form:\

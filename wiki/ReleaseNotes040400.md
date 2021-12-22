@@ -1,4 +1,4 @@
-LArSoft v04\_04\_00 Release Notes(#LArSoft-v04_04_00-Release-Notes)
+LArSoft v04\_04\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,26 +24,26 @@ LArSoft v04\_04\_00 Release Notes(#LArSoft-v04_04_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_04_00/larsoft-v04_04_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Changes since v04\_03\_03. This release will be used for the MicroBoone MCC6 reconstruction phase.
 
-New features(#New-features)
+New features
 ------------------------------
 
 larevt includes a new package, CalibrationDBI, which relies on libwda. This code is NOT compiled.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_04\_00(#larsoft-v04_04_00)
+larsoft v04\_04\_00
 ------------------------------------------
 
 -   2015-04-09 Lynn Garren : Merge branch ‘release/v04\_04\_00’
@@ -52,23 +52,23 @@ larsoft v04\_04\_00(#larsoft-v04_04_00)
 -   2015-04-09 Lynn Garren : larsoft v04\_04\_00 for larsoft v04\_04\_00
 -   2015-04-09 Lynn Garren : new CalibrationDBI headers
 
-lareventdisplay v04\_03\_04(#lareventdisplay-v04_03_04)
+lareventdisplay v04\_03\_04
 ----------------------------------------------------------
 
 -   2015-04-09 Lynn Garren : lareventdisplay v04\_03\_04 for larsoft v04\_04\_00
 
-larexamples v04\_03\_04(#larexamples-v04_03_04)
+larexamples v04\_03\_04
 --------------------------------------------------
 
 -   2015-04-09 Lynn Garren : larexamples v04\_03\_04 for larsoft v04\_04\_00
 -   2015-04-07 William Seligman : Updating a few comments.
 
-larpandora v04\_03\_04(#larpandora-v04_03_04)
+larpandora v04\_03\_04
 ------------------------------------------------
 
 -   2015-04-09 Lynn Garren : larpandora v04\_03\_04 for larsoft v04\_04\_00
 
-larana v04\_04\_00(#larana-v04_04_00)
+larana v04\_04\_00
 ----------------------------------------
 
 -   2015-04-09 Lynn Garren : larana v04\_04\_00 for larsoft v04\_04\_00
@@ -77,7 +77,7 @@ larana v04\_04\_00(#larana-v04_04_00)
 -   2015-04-02 Anne Schukraft : new calorimetry constants for v04\_03\_02 Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larana into develop
 -   2015-04-02 Anne Schukraft : new calorimetry constants for v04\_03\_02
 
-larreco v04\_03\_04(#larreco-v04_03_04)
+larreco v04\_03\_04
 ------------------------------------------
 
 -   2015-04-09 Lynn Garren : larreco v04\_03\_04 for larsoft v04\_04\_00
@@ -88,12 +88,12 @@ larreco v04\_03\_04(#larreco-v04_03_04)
 -   2015-04-06 Tingjun Yang : change double to float
 -   2015-04-06 Bruce Baller : uB hit finding cuts tuning + CCTrackMaker bug fix
 
-larsim v04\_03\_04(#larsim-v04_03_04)
+larsim v04\_03\_04
 ----------------------------------------
 
 -   2015-04-09 Lynn Garren : larsim v04\_03\_04 for larsoft v04\_04\_00
 
-larevt v04\_04\_00(#larevt-v04_04_00)
+larevt v04\_04\_00
 ----------------------------------------
 
 -   2015-04-09 Lynn Garren : Merge branch ‘release/v04\_04\_00’
@@ -125,14 +125,14 @@ larevt v04\_04\_00(#larevt-v04_04_00)
 -   2015-02-11 drinkingkazu : Well… forgotten to include in build –kazu
 -   2015-02-11 drinkingkazu : Add CalibrationDBI for testing w/ Brandon –kazu
 
-lardata v04\_03\_04(#lardata-v04_03_04)
+lardata v04\_03\_04
 ------------------------------------------
 
 -   2015-04-09 Lynn Garren : lardata v04\_03\_04 for larsoft v04\_04\_00
 -   2015-04-08 Gianluca Petrillo : Fixed Track::operator\<\< ()
 -   2015-04-03 Alex Himmel : Update the comments in the code related to units to be consistent with actual usage. Changes only to comments, not to functionality.
 
-larcore v04\_03\_03(#larcore-v04_03_03)
+larcore v04\_03\_03
 ------------------------------------------
 
 -   2015-04-09 Lynn Garren : larcore v04\_03\_03 for larsoft v04\_04\_00
@@ -140,7 +140,7 @@ larcore v04\_03\_03(#larcore-v04_03_03)
 -   2015-04-03 Mike Wallbank : Reverting to previous versions after accidentally pushing rather than publishing branch
 -   2015-04-03 Mike Wallbank : Changes to the lbne specific geometry service to add channel mapping for the optical detectors
 
-larbatch v01\_05\_00(#larbatch-v01_05_00)
+larbatch v01\_05\_00
 --------------------------------------------
 
 -   2015-04-09 Lynn Garren : larbatch v01\_05\_00 for larsoft v04\_04\_00
@@ -169,5 +169,5 @@ larbatch v01\_05\_00(#larbatch-v01_05_00)
 -   2015-04-03 Herbert Greenlee : Fix formatting.
 -   2015-04-03 Herbert Greenlee : Add python script merge\_json.py.
 
-larutils v1\_00\_07(#larutils-v1_00_07)
+larutils v1\_00\_07
 ------------------------------------------

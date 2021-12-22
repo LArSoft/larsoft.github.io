@@ -1,12 +1,12 @@
-Data architecture: where we stand, what we think(#Data-architecture-where-we-stand-what-we-think)
+Data architecture: where we stand, what we think
 ====================================================================================================
 
-Definition(#Definition)
+Definition
 --------------------------
 
 **Data product**: a class representing data, that is stored in a ROOT tree
 
-Charge^[1](#fn1)^(#Charge1)
+Charge^[1](#fn1)^
 ------------------------------
 
 -   periodically review the architecture of selected components and subsystems
@@ -16,19 +16,19 @@ Charge^[1](#fn1)^(#Charge1)
 
 * * * * *
 
-Design goals(#Design-goals)
+Design goals
 ------------------------------
 
 -   LArSoft should offer data products that can be read by other frameworks with no change in their source code
 
-### Design principles(#Design-principles)
+### Design principles
 
 -   each data product must represent to specific concept^[2](#fn2)^\
      (different concepts want different data products)
 -   data must be readable with bare C++ plus ROOT to allow different code to use it^[2](#fn2)^
 -   data products should be fully expressed by pure C++ means
 
-#### Questions(#Questions)
+#### Questions
 
 **Q.** Are dictionary libraries independent of art etc.?\
 **A.** Currently they are not.\
@@ -36,7 +36,7 @@ Design goals(#Design-goals)
 
 * * * * *
 
-Dependencies(#Dependencies)
+Dependencies
 ------------------------------
 
 -   C++11 is required to fully compile the data product classes
@@ -45,7 +45,7 @@ Dependencies(#Dependencies)
 -   data products can depend on ROOT^[2](#fn2)^
 -   implementation of classes is allowed to use MessageFacility^[2](#fn2)^
 
-#### Question(#Question)
+#### Question
 
 Is CET library (cetlib) allowed in the implementation too^[2](#fn2)^?
 
@@ -56,7 +56,7 @@ Is CET library (cetlib) allowed in the implementation too^[2](#fn2)^?
 
 The only part positively needed is an exception that can be recognized by the frameworks (it could be derived from `std::exception`).
 
-Technical guidelines(#Technical-guidelines)
+Technical guidelines
 ----------------------------------------------
 
 Data products can contain data members:
@@ -81,7 +81,7 @@ The object will not operate on its data, leaving the task to additional layers a
 
 * * * * *
 
-### Recommended data structures(#Recommended-data-structures)
+### Recommended data structures
 
 Suggestions:
 
@@ -96,7 +96,7 @@ Suggestions:
 
 * * * * *
 
-Semantics(#Semantics)
+Semantics
 ------------------------
 
 Each data product represents a physics quantity or some concept.\
@@ -130,7 +130,7 @@ This encompasses 13 LArSoft classes:
 
 “(version with modules creating each associations)”:recoblock\_assns.svg
 
-### `raw::RawDigit`(#rawRawDigit)
+### `raw::RawDigit`
 
 > The sequence of (uncalibrated?) ADC counts measured on one *channel* in the full time window.
 
@@ -138,7 +138,7 @@ This encompasses 13 LArSoft classes:
 
 ![](raw__RawDigit.svg)
 
-### `recob::Wire`(#recobWire)
+### `recob::Wire`
 
 > The signal deposited on a single *channel* as function of data acquisition time (TDC).
 
@@ -150,13 +150,13 @@ The signal may have been be zero-suppressed, filtered from noise and deconvolute
 
 ![](recob__Wire.svg)
 
-#### Recommended actions(#Recommended-actions)
+#### Recommended actions
 
 -   remove `art::Ptr` from the data products^[3](#fn3)^
 -   have modules create associations between `recob::Wire` and `raw::RawDigit` [3]
 -   add channel ID data member to `recob::Wire` [3][4]
 
-### `recob::Hit`(#recobHit)
+### `recob::Hit`
 
 > The observed charge from a travelling particle that drifted to a single *wire* .
 
@@ -171,19 +171,19 @@ It includes:
 
 ![](recob__Hit.svg)
 
-#### Recommended actions(#Recommended-actions-2)
+#### Recommended actions
 
 -   remove `art::Ptr` from the data products^[3](#fn3)^
 -   have modules create associations between `recob::Hit` and `recob::Wire` [3]
 -   add channel ID data member to `recob::Hit` [3][4]
 -   make `fHitSignal` member private, add constructors to initialize it^[5](#fn5)^
 
-#### Pending questions(#Pending-questions)
+#### Pending questions
 
 -   `fHitSignal` is never filled in LArSoft code… should it be? or should it be removed?
 -   `fView` and `fSignalType` are felt by MicroBooNE useless^[5](#fn5)^
 
-### `recob::Cluster`(#recobCluster)
+### `recob::Cluster`
 
 > A sequence of hits showing geometrical correlation.
 
@@ -196,12 +196,12 @@ It includes:
 
 ![](recob__Cluster.svg)
 
-#### Recommended actions(#Recommended-actions-3)
+#### Recommended actions
 
 -   replace each of the positions and errors with two `float` or a `float[2]`
 -   replace `double` items with `float`
 
-### `recob::EndPoint2D`(#recobEndPoint2D)
+### `recob::EndPoint2D`
 
 Two-dimensional coordinate on a plane
 
@@ -211,61 +211,61 @@ Two-dimensional coordinate on a plane
 
 ![](recob__EndPoint2D.svg)
 
-### `recob::Track`(#recobTrack)
+### `recob::Track`
 
 The observed information from a single physical particle with well-defined trajectory.
 
-#### Questions(#Questions-2)
+#### Questions
 
 **Q.** All the information? or just trajectory? or…?
 
 ![](recob__Track.svg)
 
-#### Recommended action(#Recommended-action)
+#### Recommended action
 
 -   split into detected information (hit collection) and trajectory (geometrical)
 
-### `recob::Shower`(#recobShower)
+### `recob::Shower`
 
 > The observed information from a single physical particle evolving in a shower.
 
 ![](recob__Shower.svg)
 
-### `recob::SpacePoint`(#recobSpacePoint)
+### `recob::SpacePoint`
 
 > A geometrical point in the detector.
 
 ![](recob__SpacePoint.svg)
 
-### `recob::Vertex`(#recobVertex)
+### `recob::Vertex`
 
 > A point in the detector origin of particles
 
 ![](recob__Vertex.svg)
 
-#### Questions(#Questions-3)
+#### Questions
 
 -   need uncertainty on vertex position… error matrix? independent variances?
 
-### `anab::Calorimetry`(#anabCalorimetry)
+### `anab::Calorimetry`
 
 > Calorimetric information of a particle.
 
 ![](anab__Calorimetry.svg)
 
-### `anab::CosmicTag`(#anabCosmicTag)
+### `anab::CosmicTag`
 
 > Cosmic-ray-like attributes of a particle.
 
 ![](anab__CosmicTag.svg)
 
-### `anab::ParticleID`(#anabParticleID)
+### `anab::ParticleID`
 
 > Hypothesis on the nature of a particle.
 
 ![](anab__ParticleID.svg)
 
-### `recob::PFParticle`(#recobPFParticle)
+### `recob::PFParticle`
 
 > The evolution of a particle in the event (particle flow).
 

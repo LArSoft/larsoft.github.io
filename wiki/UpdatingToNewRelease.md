@@ -10,7 +10,7 @@
     -   [Your experiment repository/feature branch is not ready yet for the latest LArSoft release](#Your-experiment-repositoryfeature-branch-is-not-ready-yet-for-the-latest-LArSoft-release)
 -   [If cetpkgsupport was updated](#If-cetpkgsupport-was-updated)
 
-What to do when there is a new release(#What-to-do-when-there-is-a-new-release)
+What to do when there is a new release
 ==================================================================================
 
 Conventions used in this document:\
@@ -20,7 +20,7 @@ TOP\_PRODUCT - generally this is larsoft, lbnecode, etc.\
 QUALIFIERS - qualifiers associated with the TOP\_PRODUCT\
 WORKING\_DIRECTORY - directory where you ran the mrb newDev command
 
-Reference Documentation(#Reference-Documentation)
+Reference Documentation
 ----------------------------------------------------
 
 mrb - the multi-repository build tool\
@@ -31,7 +31,7 @@ UPS - Unix Product Support
 -   [mrb trouble shooting](/redmine/projects/mrb/wiki/Trouble_Shooting)
 -   [UPS Documentation](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/Documentation)
 
-Preliminaries(#Preliminaries)
+Preliminaries
 --------------------------------
 
 1.  type “ups active” to see what is in your current environment
@@ -40,7 +40,7 @@ Preliminaries(#Preliminaries)
 2.  type “unsetup\_all” and reestablish your basic working environment
 3.  If at all possible, simply logout and start from a fresh login
 
-Using a new release with your existing source code directory(#Using-a-new-release-with-your-existing-source-code-directory)
+Using a new release with your existing source code directory
 ------------------------------------------------------------------------------------------------------------------------------
 
 When a new LArSoft release is available and you want to develop against the new LArSoft release
@@ -88,7 +88,7 @@ When a new LArSoft release is available and you want to develop against the new 
         mrbsetenv
         mrb i -jN #rebuild
 
-Getting more information(#Getting-more-information)
+Getting more information
 ------------------------------------------------------
 
 1.  To see a list of lar packages in a given larsoft release:
@@ -99,10 +99,10 @@ Getting more information(#Getting-more-information)
 2.  To see the complete set of dependencies:
     -   ups depend larsoft -v RELEASE\_VERSION -q QUALIFIERS
 
-Other use cases(#Other-use-cases)
+Other use cases
 ====================================
 
-You have no checked out code(#You-have-no-checked-out-code)
+You have no checked out code
 --------------------------------------------------------------
 
 This is the simplest possible case. We suggest that you start from a fresh login.
@@ -110,7 +110,7 @@ This is the simplest possible case. We suggest that you start from a fresh login
 1.  setup TOP\_PRODUCT NEW\_RELEASE\_VERSION -q QUALIFIERS
 2.  See [Quick Links](https://cdcvs.fnal.govQuick_Links) for experiment-specific instructions on getting started
 
-Updating your own package(#Updating-your-own-package)
+Updating your own package
 --------------------------------------------------------
 
 1.  Change the dependencies (larsoft and any other package that is explicitly listed in ups/product\_deps)\
@@ -118,7 +118,7 @@ Updating your own package(#Updating-your-own-package)
         mrb uv larsoft NEW_RELEASE_VERSION
         mrb uv product version
 
-Your experiment repository/feature branch is not ready yet for the latest LArSoft release(#Your-experiment-repositoryfeature-branch-is-not-ready-yet-for-the-latest-LArSoft-release)
+Your experiment repository/feature branch is not ready yet for the latest LArSoft release
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This is the scenario:
@@ -142,7 +142,7 @@ If you opt for the latter, in the meanwhile you need to:
 -   check out, for all the LArSoft repositories in your working area, the `LARSOFT_SUITE` tag matching your experiment LArSoft dependency (`git checkout LARSOFT_SUITE_v07_08_00`)
 -   go again through the instructions in the main part of this document, setting up the working area for the new, albeit not the latest, release (now `07_08_00`) etc., but leave the LArSoft repositories at the `LARSOFT_SUITE_...` tag you just checked out; noyr that `mrb uv larsoft v07_08_00` should at this point have no effect
 
-If cetpkgsupport was updated(#If-cetpkgsupport-was-updated)
+If cetpkgsupport was updated
 ==============================================================
 
 Or what to do when you see errors like this:\

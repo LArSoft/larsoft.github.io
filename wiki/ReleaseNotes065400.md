@@ -1,4 +1,4 @@
-LArSoft v06\_54\_00 Release Notes(#LArSoft-v06_54_00-Release-Notes)
+LArSoft v06\_54\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,13 +31,13 @@ LArSoft v06\_54\_00 Release Notes(#LArSoft-v06_54_00-Release-Notes)
 Download instructions for [larsoft v06\_54\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_54_00/larsoft-v06_54_00.html)\
 Download instructions for [just larsoftobj v1\_29\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_29_00/larsoftobj-v1_29_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branch
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   new GENIE release
@@ -49,10 +49,10 @@ New features(#New-features)
     -   also lariatsoft, icaruscode and dunetpc
     -   There have been for a while two sources to get the view information from. One of them has been ignored and is now removed.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ---------- -------------- ------------ -------------------------------------------------------------------------------------------------
@@ -63,32 +63,32 @@ Updated dependencies(#Updated-dependencies)
   wirecell   v0\_6\_2       e14          
   ---------- -------------- ------------ -------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_54\_00(#larsoft-v06_54_00)
+larsoft v06\_54\_00
 ------------------------------------------
 
 -   2017-10-18 Lynn Garren : larsoft v06\_54\_00 for larsoft v06\_54\_00
 -   2017-10-18 Lynn Garren : update dependency database
 -   2017-10-18 Lynn Garren : using nutools v2\_16\_05
 
-lareventdisplay v06\_13\_01(#lareventdisplay-v06_13_01)
+lareventdisplay v06\_13\_01
 ----------------------------------------------------------
 
 -   2017-10-18 Lynn Garren : lareventdisplay v06\_13\_01 for larsoft v06\_54\_00
 
-larexamples v06\_07\_05(#larexamples-v06_07_05)
+larexamples v06\_07\_05
 --------------------------------------------------
 
 -   2017-10-18 Lynn Garren : larexamples v06\_07\_05 for larsoft v06\_54\_00
 
-larpandora v06\_17\_02(#larpandora-v06_17_02)
+larpandora v06\_17\_02
 ------------------------------------------------
 
 -   2017-10-18 Lynn Garren : larpandora v06\_17\_02 for larsoft v06\_54\_00
 
-larwirecell v06\_08\_00(#larwirecell-v06_08_00)
+larwirecell v06\_08\_00
 --------------------------------------------------
 
 -   2017-10-18 Lynn Garren : larwirecell v06\_08\_00 for larsoft v06\_54\_00
@@ -101,12 +101,12 @@ larwirecell v06\_08\_00(#larwirecell-v06_08_00)
 -   2017-10-06 Brett Viren : Fix bug so we actually save the RawDigits.
 -   2017-10-06 Brett Viren : New general purpose frame saver.
 
-larana v06\_10\_06(#larana-v06_10_06)
+larana v06\_10\_06
 ----------------------------------------
 
 -   2017-10-18 Lynn Garren : larana v06\_10\_06 for larsoft v06\_54\_00
 
-larreco v06\_43\_00(#larreco-v06_43_00)
+larreco v06\_43\_00
 ------------------------------------------
 
 -   2017-10-18 Lynn Garren : larreco v06\_43\_00 for larsoft v06\_54\_00
@@ -139,7 +139,7 @@ larreco v06\_43\_00(#larreco-v06_43_00)
 -   2017-09-26 Giuseppe Cerati : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
 -   2017-09-26 Giuseppe Cerati : remove printout
 
-larsim v06\_32\_00(#larsim-v06_32_00)
+larsim v06\_32\_00
 ----------------------------------------
 
 -   2017-10-18 Lynn Garren : larsim v06\_32\_00 for larsoft v06\_54\_00
@@ -147,34 +147,34 @@ larsim v06\_32\_00(#larsim-v06_32_00)
 -   2017-10-13 Lynn Garren : larsoft v06\_53\_00
 -   2017-10-12 Steven Gardiner : Fix bug that prevented evgen::MARLEYHelper from loading user-defined neutrino spectra from TGraph or TH1D objects stored in ROOT files.
 
-larevt v06\_16\_05(#larevt-v06_16_05)
+larevt v06\_16\_05
 ----------------------------------------
 
 -   2017-10-18 Lynn Garren : larevt v06\_16\_05 for larsoft v06\_54\_00
 
-lardata v06\_31\_01(#lardata-v06_31_01)
+lardata v06\_31\_01
 ------------------------------------------
 
 -   2017-10-18 Lynn Garren : lardata v06\_31\_01 for larsoft v06\_54\_00
 
-larcore v06\_15\_02(#larcore-v06_15_02)
+larcore v06\_15\_02
 ------------------------------------------
 
 -   2017-10-18 Lynn Garren : larcore v06\_15\_02 for larsoft v06\_54\_00
 
-larpandoracontent v03\_08\_01(#larpandoracontent-v03_08_01)
+larpandoracontent v03\_08\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_29\_00(#larsoftobj-v1_29_00)
+larsoftobj v1\_29\_00
 ----------------------------------------------
 
 -   2017-10-18 Lynn Garren : larsoftobj v1\_29\_00 for larsoft v06\_54\_00
 -   2017-10-17 Lynn Garren : update product versions
 
-lardataobj v1\_21\_01(#lardataobj-v1_21_01)
+lardataobj v1\_21\_01
 ----------------------------------------------
 
-larcorealg v1\_09\_00(#larcorealg-v1_09_00)
+larcorealg v1\_09\_00
 ----------------------------------------------
 
 -   2017-10-18 Lynn Garren : larcorealg v1\_09\_00 for larsoft v06\_54\_00
@@ -182,13 +182,13 @@ larcorealg v1\_09\_00(#larcorealg-v1_09_00)
 -   2017-10-16 Gianluca Petrillo : View infrastructure removed from channel mapping.
 -   2017-10-11 Gianluca Petrillo : Geometry and all its objects can now print their content.
 
-larcoreobj v1\_16\_00(#larcoreobj-v1_16_00)
+larcoreobj v1\_16\_00
 ----------------------------------------------
 
-larbatch v01\_32\_05(#larbatch-v01_32_05)
+larbatch v01\_32\_05
 --------------------------------------------
 
-larutils v1\_20\_00(#larutils-v1_20_00)
+larutils v1\_20\_00
 ------------------------------------------
 
 -   2017-10-18 Lynn Garren : larutils v1\_20\_00 for larsoft v06\_54\_00

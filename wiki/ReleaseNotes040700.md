@@ -1,4 +1,4 @@
-LArSoft v04\_07\_00 Release Notes(#LArSoft-v04_07_00-Release-Notes)
+LArSoft v04\_07\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -23,19 +23,19 @@ LArSoft v04\_07\_00 Release Notes(#LArSoft-v04_07_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_07_00/larsoft-v04_07_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   [T0 data product and Gaisser muon generator](https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=9922)
 -   [Cluster Crawler updates](https://indico.fnal.gov/getFile.py/access?contribId=4&resId=0&materialId=slides&confId=9819)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ----------- ---------------------------
@@ -43,22 +43,22 @@ Updated dependencies(#Updated-dependencies)
   larsoft\_data   v0\_04\_00               new pdf/Gaisser directory
   --------------- ------------ ----------- ---------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_07\_00(#larsoft-v04_07_00)
+larsoft v04\_07\_00
 ------------------------------------------
 
 -   2015-05-07 Lynn Garren : larsoft v04\_07\_00 for larsoft v04\_07\_00
 -   2015-05-07 Lynn Garren : update product versions
 -   2015-05-07 Lynn Garren : update dependency database
 
-lareventdisplay v04\_04\_03(#lareventdisplay-v04_04_03)
+lareventdisplay v04\_04\_03
 ----------------------------------------------------------
 
 -   2015-05-07 Lynn Garren : lareventdisplay v04\_04\_03 for larsoft v04\_07\_00
 
-larexamples v04\_04\_03(#larexamples-v04_04_03)
+larexamples v04\_04\_03
 --------------------------------------------------
 
 -   2015-05-07 Lynn Garren : larexamples v04\_04\_03 for larsoft v04\_07\_00
@@ -68,7 +68,7 @@ larpandora v04\_04\_03
 
 -   2015-05-07 Lynn Garren : larpandora v04\_04\_03 for larsoft v04\_07\_00
 
-larana v04\_06\_01(#larana-v04_06_01)
+larana v04\_06\_01
 ----------------------------------------
 
 -   2015-05-07 Lynn Garren : larana v04\_06\_01 for larsoft v04\_07\_00
@@ -88,7 +88,7 @@ larana v04\_06\_01(#larana-v04_06_01)
 -   2015-03-31 Thomas Warburton : Adding T0 correction to XYZ
 -   2015-03-30 Thomas Warburton : Changing Calorimetry to accomodate a T0
 
-larreco v04\_05\_00(#larreco-v04_05_00)
+larreco v04\_05\_00
 ------------------------------------------
 
 -   2015-05-07 Lynn Garren : larreco v04\_05\_00 for larsoft v04\_07\_00
@@ -167,7 +167,7 @@ larreco v04\_05\_00(#larreco-v04_05_00)
 -   2015-03-10 Gianluca Petrillo : CCHitFinder: cleaned included headers
 -   2015-03-10 Gianluca Petrillo : Added simple module to dump recob:Hit content on screen for test purposes
 
-larsim v04\_06\_00(#larsim-v04_06_00)
+larsim v04\_06\_00
 ----------------------------------------
 
 -   2015-05-07 Lynn Garren : larsim v04\_06\_00 for larsoft v04\_07\_00
@@ -184,7 +184,7 @@ larsim v04\_06\_00(#larsim-v04_06_00)
 -   2015-03-30 Thomas Warburton : Changes needed for adding a new event generator based on gaissers parameterisation.
 -   2015-03-30 Thomas Warburton : Changes needed for adding a new event generator based on gaissers parameterisation.
 
-larevt v04\_06\_00(#larevt-v04_06_00)
+larevt v04\_06\_00
 ----------------------------------------
 
 -   2015-05-07 Lynn Garren : larevt v04\_06\_00 for larsoft v04\_07\_00
@@ -192,7 +192,7 @@ larevt v04\_06\_00(#larevt-v04_06_00)
 -   2015-04-30 Brandon Eberly : remove art dependency from IOVTimeStamp
 -   2015-04-30 Brandon Eberly : Snapshot no longer inherits from std::vector
 
-lardata v04\_06\_00(#lardata-v04_06_00)
+lardata v04\_06\_00
 ------------------------------------------
 
 -   2015-05-07 Lynn Garren : lardata v04\_06\_00 for larsoft v04\_07\_00
@@ -222,7 +222,7 @@ lardata v04\_06\_00(#lardata-v04_06_00)
 -   2015-03-13 Gianluca Petrillo : Added a HitCollectionAssociator creating the associations of a existing collection of hits with wires and raw digits
 -   2015-03-10 Gianluca Petrillo : Added two fields to the output of recob::Hit::operator\<\<
 
-larcore v04\_06\_00(#larcore-v04_06_00)
+larcore v04\_06\_00
 ------------------------------------------
 
 -   2015-05-07 Lynn Garren : larcore v04\_06\_00 for larsoft v04\_07\_00
@@ -249,7 +249,7 @@ larcore v04\_06\_00(#larcore-v04_06_00)
 -   2015-03-19 Gianluca Petrillo : Extended the Geometry interface using geometry ID structures
 -   2015-03-19 Gianluca Petrillo : Added facility for range-loops over all cryostats, TPCs, planes and wires
 
-larbatch v01\_06\_01(#larbatch-v01_06_01)
+larbatch v01\_06\_01
 --------------------------------------------
 
 -   2015-05-07 Lynn Garren : larbatch v01\_06\_01 for larsoft v04\_07\_00
@@ -258,5 +258,5 @@ larbatch v01\_06\_01(#larbatch-v01_06_01)
 -   2015-05-05 Tingjun Yang : Use ifdh cp (without –force=expgridftp) to copy input tarball and input files as suggested by Marc Mengel.
 -   2015-05-01 Herbert Greenlee : Add list of (run, subrun) pairs to metadata generated by root\_metadata.py.
 
-larutils v1\_00\_09(#larutils-v1_00_09)
+larutils v1\_00\_09
 ------------------------------------------

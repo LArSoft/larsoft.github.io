@@ -1,4 +1,4 @@
-LArSoft v06\_75\_00 Release Notes(#LArSoft-v06_75_00-Release-Notes)
+LArSoft v06\_75\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,14 +31,14 @@ LArSoft v06\_75\_00 Release Notes(#LArSoft-v06_75_00-Release-Notes)
 Download instructions for [larsoft v06\_75\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_75_00/larsoft-v06_75_00.html) \
 Download instructions for [just larsoftobj v1\_43\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_43_01/larsoftobj-v1_43_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   merge feature branches
 -   geant4 bug fix release
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   feature/JStock\_PBTPIDep of larsim
@@ -54,22 +54,22 @@ New features(#New-features)
     -   dunetpc feature/chalt\_Tensorflow
     -   lariatsoft feature/team\_issue19539
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larana feature/usher\_fixassociationstool bug fix
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nutools v2\_21\_02
 -   geant4 v4\_10\_3\_p03b
 -   cetbuildtools v7\_03\_02
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_75\_00(#larsoft-v06_75_00)
+larsoft v06\_75\_00
 ------------------------------------------
 
 -   2018-04-25 Lynn Garren : larsoft v06\_75\_00 for larsoft v06\_75\_00
@@ -77,34 +77,34 @@ larsoft v06\_75\_00(#larsoft-v06_75_00)
 -   2018-04-20 Lynn Garren : for nutools v2\_21\_02
 -   2018-04-25 Lynn Garren : update products
 
-lareventdisplay v06\_19\_03(#lareventdisplay-v06_19_03)
+lareventdisplay v06\_19\_03
 ----------------------------------------------------------
 
 -   2018-04-25 Lynn Garren : lareventdisplay v06\_19\_03 for larsoft v06\_75\_00
 -   2018-04-20 Christoph Alt : Reading fit amplitude from feature vector (instead of recob::Hit)
 
-larexamples v06\_13\_03(#larexamples-v06_13_03)
+larexamples v06\_13\_03
 --------------------------------------------------
 
 -   2018-04-25 Lynn Garren : larexamples v06\_13\_03 for larsoft v06\_75\_00
 
-larpandora v06\_26\_03(#larpandora-v06_26_03)
+larpandora v06\_26\_03
 ------------------------------------------------
 
 -   2018-04-25 Lynn Garren : larpandora v06\_26\_03 for larsoft v06\_75\_00
 
-larwirecell v06\_12\_03(#larwirecell-v06_12_03)
+larwirecell v06\_12\_03
 --------------------------------------------------
 
 -   2018-04-25 Lynn Garren : larwirecell v06\_12\_03 for larsoft v06\_75\_00
 
-larana v06\_19\_03(#larana-v06_19_03)
+larana v06\_19\_03
 ----------------------------------------
 
 -   2018-04-25 Lynn Garren : larana v06\_19\_03 for larsoft v06\_75\_00
 -   2018-04-24 Usher, Tracy L : Indirect associations were not being formed correctly, changing to index scheme to get them right… requires a change to the fcl file definitions as well
 
-larreco v06\_60\_00(#larreco-v06_60_00)
+larreco v06\_60\_00
 ------------------------------------------
 
 -   2018-04-25 Lynn Garren : larreco v06\_60\_00 for larsoft v06\_75\_00
@@ -114,7 +114,7 @@ larreco v06\_60\_00(#larreco-v06_60_00)
 -   2018-04-20 Christoph Alt : Merge branch ‘develop’ into feature/chalt\_Tensorflow
 -   2018-04-12 Christoph Alt : Move all tensorflow code to dedicated directory. Split up larreco\_RecoAlg\_ImagePatternAlgs\_PointIdAlg library.
 
-larsim v06\_45\_00(#larsim-v06_45_00)
+larsim v06\_45\_00
 ----------------------------------------
 
 -   2018-04-25 Lynn Garren : larsim v06\_45\_00 for larsoft v06\_75\_00
@@ -156,40 +156,40 @@ larsim v06\_45\_00(#larsim-v06_45_00)
 -   2018-02-04 Jason Stock : Missed a few files in the last commit.
 -   2018-02-04 Jason Stock : First full implimentation of the PhotonBackTrackerService/PhotonBackTracker with Gallery compliance.
 
-larevt v06\_20\_03(#larevt-v06_20_03)
+larevt v06\_20\_03
 ----------------------------------------
 
 -   2018-04-25 Lynn Garren : larevt v06\_20\_03 for larsoft v06\_75\_00
 
-lardata v06\_43\_03(#lardata-v06_43_03)
+lardata v06\_43\_03
 ------------------------------------------
 
 -   2018-04-25 Lynn Garren : lardata v06\_43\_03 for larsoft v06\_75\_00
 -   2018-04-20 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lardata into develop
 -   2018-04-20 Herbert Greenlee : Fix memory overwrite.
 
-larcore v06\_19\_01(#larcore-v06_19_01)
+larcore v06\_19\_01
 ------------------------------------------
 
-larpandoracontent v03\_11\_01(#larpandoracontent-v03_11_01)
+larpandoracontent v03\_11\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_43\_01(#larsoftobj-v1_43_01)
+larsoftobj v1\_43\_01
 ----------------------------------------------
 
-lardataobj v1\_31\_00(#lardataobj-v1_31_00)
+lardataobj v1\_31\_00
 ----------------------------------------------
 
-larcorealg v1\_19\_01(#larcorealg-v1_19_01)
+larcorealg v1\_19\_01
 ----------------------------------------------
 
-larcoreobj v1\_23\_00(#larcoreobj-v1_23_00)
+larcoreobj v1\_23\_00
 ----------------------------------------------
 
-larbatch v01\_39\_00(#larbatch-v01_39_00)
+larbatch v01\_39\_00
 --------------------------------------------
 
-larutils v1\_22\_04(#larutils-v1_22_04)
+larutils v1\_22\_04
 ------------------------------------------
 
 -   2018-04-25 Lynn Garren : larutils v1\_22\_04 for larsoft v06\_75\_00

@@ -1,4 +1,4 @@
-LArSoft v06\_12\_00 Release Notes(#LArSoft-v06_12_00-Release-Notes)
+LArSoft v06\_12\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -27,7 +27,7 @@ LArSoft v06\_12\_00 Release Notes(#LArSoft-v06_12_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_12_00/larsoft-v06_12_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   merge branches for [\#9264](/redmine/issues/9264 "Feature: Support reconstruction of objects from channel/time space (Closed)")
@@ -35,7 +35,7 @@ Purpose(#Purpose)
 -   pandora v03\_00\_00
 -   calorimetry updates
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Calorimetry reconstruction using lifetime from database
@@ -51,10 +51,10 @@ New features(#New-features)
     -   move larreco/Calorimetry/calorimetry\_argoneut.fcl to argoneutcode T962Utilities/calorimetry\_argoneut.fcl
     -   remove larreco/Calorimetry/calorimetry\_bo.fcl
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- ------------- ------------ -------
@@ -62,40 +62,40 @@ Updated dependencies(#Updated-dependencies)
   pandora   v03\_00\_00   e10          
   --------- ------------- ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_12\_00(#larsoft-v06_12_00)
+larsoft v06\_12\_00
 ------------------------------------------
 
 -   2016-10-18 Lynn Garren : larsoft v06\_12\_00 for larsoft v06\_12\_00
 -   2016-10-18 Lynn Garren : update product versions
 -   2016-10-13 Lynn Garren : add El Capitan
 
-lareventdisplay v06\_01\_09(#lareventdisplay-v06_01_09)
+lareventdisplay v06\_01\_09
 ----------------------------------------------------------
 
 -   2016-10-18 Lynn Garren : lareventdisplay v06\_01\_09 for larsoft v06\_12\_00
 
-larexamples v06\_00\_13(#larexamples-v06_00_13)
+larexamples v06\_00\_13
 --------------------------------------------------
 
 -   2016-10-18 Lynn Garren : larexamples v06\_00\_13 for larsoft v06\_12\_00
 
-larpandora v06\_02\_00(#larpandora-v06_02_00)
+larpandora v06\_02\_00
 ------------------------------------------------
 
 -   2016-10-18 Lynn Garren : larpandora v06\_02\_00 for larsoft v06\_12\_00
 -   2016-10-14 John Marshall : Required updates to build against LArPandoraContent v03\_00\_00 and PandoraSDK v03-00-00.
 
-larana v06\_03\_01(#larana-v06_03_01)
+larana v06\_03\_01
 ----------------------------------------
 
 -   2016-10-18 Lynn Garren : larana v06\_03\_01 for larsoft v06\_12\_00
 -   2016-10-18 mthiesse : Change 35ton MC parameter to be consistent with half-field running
 -   2016-10-17 Lynn Garren : close the group so doxygen does not complain
 
-larreco v06\_09\_00(#larreco-v06_09_00)
+larreco v06\_09\_00
 ------------------------------------------
 
 -   2016-10-18 Lynn Garren : larreco v06\_09\_00 for larsoft v06\_12\_00
@@ -145,7 +145,7 @@ larreco v06\_09\_00(#larreco-v06_09_00)
 -   2016-10-11 Bruce Baller : Define default value of MakeNewHits.
 -   2016-10-10 Bruce Baller : Comment out debugging stuff.
 
-larsim v06\_05\_01(#larsim-v06_05_01)
+larsim v06\_05\_01
 ----------------------------------------
 
 -   2016-10-18 Lynn Garren : larsim v06\_05\_01 for larsoft v06\_12\_00
@@ -156,7 +156,7 @@ larsim v06\_05\_01(#larsim-v06_05_01)
 -   2016-10-15 William Foreman : More realistic LAr scintillation in lightsource module
 -   2016-10-06 Joseph Zennamo : Adding Bug fixes from Matt Toups, specifically the wire parameterization in the optical simulation
 
-larevt v06\_04\_00(#larevt-v06_04_00)
+larevt v06\_04\_00
 ----------------------------------------
 
 -   2016-10-18 Lynn Garren : larevt v06\_04\_00 for larsoft v06\_12\_00
@@ -164,14 +164,14 @@ larevt v06\_04\_00(#larevt-v06_04_00)
 -   2016-09-28 Brandon Eberly : Add drift time argument to lifetime function
 -   2016-09-27 Brandon Eberly : Interface classes for electron lifetime service and provider
 
-lardata v06\_07\_01(#lardata-v06_07_01)
+lardata v06\_07\_01
 ------------------------------------------
 
 -   2016-10-18 Lynn Garren : lardata v06\_07\_01 for larsoft v06\_12\_00
 -   2016-10-14 Gianluca Petrillo : Bug fix on primary particle drawing of DumpPFParticles module graphs
 -   2016-10-14 Gianluca Petrillo : Added documentation of particle graphs to DumpPFParticles module
 
-larcore v06\_03\_00(#larcore-v06_03_00)
+larcore v06\_03\_00
 ------------------------------------------
 
 -   2016-10-18 Lynn Garren : larcore v06\_03\_00 for larsoft v06\_12\_00
@@ -192,26 +192,26 @@ larcore v06\_03\_00(#larcore-v06_03_00)
 -   2015-06-24 Gianluca Petrillo : Added mapping between TPC and TPC sets, and between readout planes and plane wires. Untested.
 -   2015-06-22 Gianluca Petrillo : Added readout::TPCsetID and readout::ROPID identifier classes, and their unit tests
 
-larsoftobj v1\_08\_00(#larsoftobj-v1_08_00)
+larsoftobj v1\_08\_00
 ----------------------------------------------
 
 -   2016-10-18 Lynn Garren : larsoftobj v1\_08\_00 for larsoft v06\_12\_00
 
-lardataobj v1\_07\_01(#lardataobj-v1_07_01)
+lardataobj v1\_07\_01
 ----------------------------------------------
 
 -   2016-10-18 Lynn Garren : lardataobj v1\_07\_01 for larsoft v06\_12\_00
 
-larcoreobj v1\_06\_00(#larcoreobj-v1_06_00)
+larcoreobj v1\_06\_00
 ----------------------------------------------
 
 -   2016-10-18 Lynn Garren : larcoreobj v1\_06\_00 for larsoft v06\_12\_00
 -   2016-10-12 Gianluca Petrillo : Added readout-level geometry IDs.
 
-larbatch v01\_23\_07(#larbatch-v01_23_07)
+larbatch v01\_23\_07
 --------------------------------------------
 
-larutils v1\_10\_00(#larutils-v1_10_00)
+larutils v1\_10\_00
 ------------------------------------------
 
 -   2016-10-18 Lynn Garren : larutils v1\_10\_00 for larsoft v06\_12\_00

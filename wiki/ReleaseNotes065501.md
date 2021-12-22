@@ -1,4 +1,4 @@
-LArSoft v06\_55\_01 Release Notes(#LArSoft-v06_55_01-Release-Notes)
+LArSoft v06\_55\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,62 +31,62 @@ LArSoft v06\_55\_01 Release Notes(#LArSoft-v06_55_01-Release-Notes)
 Download instructions for [larsoft v06\_55\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_55_01/larsoft-v06_55_01.html)\
 Download instructions for [just larsoftobj v1\_29\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_29_02/larsoftobj-v1_29_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   [\#17708](/redmine/issues/17708 "Bug: SimPhotonCounter causes significant memory usage for DUNE library generation. (Closed)")
 -   larwirecell feature/bv\_wct-0.6.2
 -   lardata feature/gp\_Issue17672 (remove legacy PtrMaker.h header)
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   genie\_xsec v2\_12\_8
 -   genie\_phyopt v2\_12\_8
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_55\_01(#larsoft-v06_55_01)
+larsoft v06\_55\_01
 ------------------------------------------
 
 -   2017-10-31 Lynn Garren : larsoft v06\_55\_01 for larsoft v06\_55\_01
 -   2017-10-31 Lynn Garren : update product versions
 -   2017-10-25 Lynn Garren : s56
 
-lareventdisplay v06\_14\_01(#lareventdisplay-v06_14_01)
+lareventdisplay v06\_14\_01
 ----------------------------------------------------------
 
 -   2017-10-31 Lynn Garren : lareventdisplay v06\_14\_01 for larsoft v06\_55\_01
 
-larexamples v06\_07\_07(#larexamples-v06_07_07)
+larexamples v06\_07\_07
 --------------------------------------------------
 
 -   2017-10-31 Lynn Garren : larexamples v06\_07\_07 for larsoft v06\_55\_01
 -   2017-10-27 Jason Stock : Updating notes to include ParticleInventory
 
-larpandora v06\_17\_04(#larpandora-v06_17_04)
+larpandora v06\_17\_04
 ------------------------------------------------
 
 -   2017-10-31 Lynn Garren : larpandora v06\_17\_04 for larsoft v06\_55\_01
 
-larwirecell v06\_08\_02(#larwirecell-v06_08_02)
+larwirecell v06\_08\_02
 --------------------------------------------------
 
 -   2017-10-31 Lynn Garren : larwirecell v06\_08\_02 for larsoft v06\_55\_01
 -   2017-10-31 Lynn Garren : Merge branch ‘feature/bv\_wct-0.6.2’ into release/v06\_55\_01
 -   2017-10-27 Brett Viren : Save also the detailed channel mask information in addition to just a list of ‘bad’ channels
 
-larana v06\_11\_01(#larana-v06_11_01)
+larana v06\_11\_01
 ----------------------------------------
 
 -   2017-10-31 Lynn Garren : larana v06\_11\_01 for larsoft v06\_55\_01
@@ -98,7 +98,7 @@ larana v06\_11\_01(#larana-v06_11_01)
 -   2017-10-22 Jason Stock : Initial removal of the old BackTracker service and integration of BackTrackerService and ParticleInventoryService
 -   2017-10-22 Jason Stock : Removing tabs from CMakeList files
 
-larreco v06\_44\_01(#larreco-v06_44_01)
+larreco v06\_44\_01
 ------------------------------------------
 
 -   2017-10-31 Lynn Garren : larreco v06\_44\_01 for larsoft v06\_55\_01
@@ -159,7 +159,7 @@ larreco v06\_44\_01(#larreco-v06_44_01)
 -   2017-10-13 baller : Comment out new code for testing.
 -   2017-10-13 baller : fixed bug
 
-larsim v06\_33\_01(#larsim-v06_33_01)
+larsim v06\_33\_01
 ----------------------------------------
 
 -   2017-10-31 Lynn Garren : larsim v06\_33\_01 for larsoft v06\_55\_01
@@ -173,12 +173,12 @@ larsim v06\_33\_01(#larsim-v06_33_01)
 -   2017-10-27 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock\_BackTrackerIntegratedUpdate
 -   2017-10-26 Jason Stock : BackTracker Integrated Update. Pre Test 1
 
-larevt v06\_16\_07(#larevt-v06_16_07)
+larevt v06\_16\_07
 ----------------------------------------
 
 -   2017-10-31 Lynn Garren : larevt v06\_16\_07 for larsoft v06\_55\_01
 
-lardata v06\_31\_03(#lardata-v06_31_03)
+lardata v06\_31\_03
 ------------------------------------------
 
 -   2017-10-31 Lynn Garren : lardata v06\_31\_03 for larsoft v06\_55\_01
@@ -189,33 +189,33 @@ lardata v06\_31\_03(#lardata-v06_31_03)
 -   2017-10-27 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lardata into feature/JStock\_BackTrackerIntegratedUpdate
 -   2017-10-26 Jason Stock : BackTracker Update. Pre Test 1
 
-larcore v06\_15\_04(#larcore-v06_15_04)
+larcore v06\_15\_04
 ------------------------------------------
 
 -   2017-10-31 Lynn Garren : larcore v06\_15\_04 for larsoft v06\_55\_01
 
-larpandoracontent v03\_08\_01(#larpandoracontent-v03_08_01)
+larpandoracontent v03\_08\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_29\_02(#larsoftobj-v1_29_02)
+larsoftobj v1\_29\_02
 ----------------------------------------------
 
 -   2017-10-31 Lynn Garren : larsoftobj v1\_29\_02 for larsoft v06\_55\_01
 -   2017-10-31 Lynn Garren : update product versions
 
-lardataobj v1\_21\_03(#lardataobj-v1_21_03)
+lardataobj v1\_21\_03
 ----------------------------------------------
 
 -   2017-10-31 Lynn Garren : lardataobj v1\_21\_03 for larsoft v06\_55\_01
 
-larcorealg v1\_09\_02(#larcorealg-v1_09_02)
+larcorealg v1\_09\_02
 ----------------------------------------------
 
 -   2017-10-31 Lynn Garren : larcorealg v1\_09\_02 for larsoft v06\_55\_01
 -   2017-10-25 Lynn Garren : larsoft v06\_55\_00
 -   2017-10-25 Gianluca Petrillo : Increased the maximum GDML depth for search of geometry elements.
 
-larcoreobj v1\_16\_02(#larcoreobj-v1_16_02)
+larcoreobj v1\_16\_02
 ----------------------------------------------
 
 -   2017-10-31 Lynn Garren : larcoreobj v1\_16\_02 for larsoft v06\_55\_01
@@ -223,8 +223,8 @@ larcoreobj v1\_16\_02(#larcoreobj-v1_16_02)
 -   2017-10-30 Gianluca Petrillo : Added speed of light in physical constants.
 -   2017-10-24 Gianluca Petrillo : Channel ID turned into generic int type.
 
-larbatch v01\_32\_06(#larbatch-v01_32_06)
+larbatch v01\_32\_06
 --------------------------------------------
 
-larutils v1\_20\_01(#larutils-v1_20_01)
+larutils v1\_20\_01
 ------------------------------------------

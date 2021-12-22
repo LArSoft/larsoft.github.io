@@ -1,4 +1,4 @@
-LArSoft v04\_05\_00 Release Notes(#LArSoft-v04_05_00-Release-Notes)
+LArSoft v04\_05\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,12 +24,12 @@ LArSoft v04\_05\_00 Release Notes(#LArSoft-v04_05_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_05_00/larsoft-v04_05_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 [Changes approved April 14, 2015](https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=9819)
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larcore:
@@ -51,40 +51,40 @@ New features(#New-features)
     -   feature/ahimmel\_scintPreScale
     -   feature/ahimmel\_SharedOpticalRawDigit
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v1\_04\_04
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_05\_00(#larsoft-v04_05_00)
+larsoft v04\_05\_00
 ------------------------------------------
 
 -   2015-04-16 Lynn Garren : larsoft v04\_05\_00 for larsoft v04\_05\_00
 -   2015-04-16 Lynn Garren : product versions
 -   2015-04-16 Lynn Garren : releaseDB/base\_dependency\_database for v04\_05\_00
 
-lareventdisplay v04\_03\_05(#lareventdisplay-v04_03_05)
+lareventdisplay v04\_03\_05
 ----------------------------------------------------------
 
 -   2015-04-16 Lynn Garren : lareventdisplay v04\_03\_05 for larsoft v04\_05\_00
 
-larexamples v04\_03\_05(#larexamples-v04_03_05)
+larexamples v04\_03\_05
 --------------------------------------------------
 
 -   2015-04-16 Lynn Garren : larexamples v04\_03\_05 for larsoft v04\_05\_00
 
-larpandora v04\_03\_05(#larpandora-v04_03_05)
+larpandora v04\_03\_05
 ------------------------------------------------
 
 -   2015-04-16 Lynn Garren : larpandora v04\_03\_05 for larsoft v04\_05\_00
 
-larana v04\_04\_01(#larana-v04_04_01)
+larana v04\_04\_01
 ----------------------------------------
 
 -   2015-04-16 Lynn Garren : larana v04\_04\_01 for larsoft v04\_05\_00
@@ -128,7 +128,7 @@ larana v04\_04\_01(#larana-v04_04_01)
 -   2015-03-17 Tingjun Yang : Merge branch ‘develop’ into feature/SharedOpticalRawDigit
 -   2015-03-17 Tingjun Yang : Make OpFlashAlg work for both OpticalRawDigit and FIFOChannel. Thanks Gianluca for the C++ lecture again!
 
-larreco v04\_03\_05(#larreco-v04_03_05)
+larreco v04\_03\_05
 ------------------------------------------
 
 -   2015-04-16 Lynn Garren : larreco v04\_03\_05 for larsoft v04\_05\_00
@@ -138,7 +138,7 @@ larreco v04\_03\_05(#larreco-v04_03_05)
 -   2015-04-15 Bruce Baller : Fix indexing error in FindMaybeVertices.
 -   2015-04-10 Kalousis Leonidas : fix issue with segmentation steps
 
-larsim v04\_04\_00(#larsim-v04_04_00)
+larsim v04\_04\_00
 ----------------------------------------
 
 -   2015-04-16 Lynn Garren : Merge branch ‘feature/ahimmel\_NewOpticalChannelMap’ into release/v04\_05\_00
@@ -151,13 +151,13 @@ larsim v04\_04\_00(#larsim-v04_04_00)
 -   2015-04-05 Alex Himmel : Change photon library loading to determine \# channels from the photon library, since the library may or may not have the same number of channels as are at the end of OpDetResponseInterface.
 -   2015-02-06 Alex Himmel : Get scintillation yields that have had prescales applied.
 
-larevt v04\_04\_01(#larevt-v04_04_01)
+larevt v04\_04\_01
 ----------------------------------------
 
 -   2015-04-16 Lynn Garren : larevt v04\_04\_01 for larsoft v04\_05\_00
 -   2015-04-16 Lynn Garren : larevt v04\_04\_01 for larsoft v04\_05\_00
 
-lardata v04\_04\_00(#lardata-v04_04_00)
+lardata v04\_04\_00
 ------------------------------------------
 
 -   2015-04-16 Lynn Garren : lardata v04\_04\_00 for larsoft v04\_05\_00
@@ -191,7 +191,7 @@ lardata v04\_04\_00(#lardata-v04_04_00)
 -   2015-01-30 Alex Himmel : A first attempt at re-designing the OpticalRawDigit to be less uboone-specific. - Inverted the inheritance so now FIFOChannel is derived from OpticalRawDigit. - OpticalRawDigit now has just a time, a channel, and the waveform. - A Frame() function which just returns zero is kept for now so that algorithms which expect multiple frames can still be used. May want to deprecate this out in the future as algorithms are developed. - TimeSlice\_t was made an unsigned long so it can hold the 64 bit NOvA-type time stamp used in the LBNE electronics.
 -   2015-01-30 Alex Himmel : A first attempt at re-designing the OpticalRawDigit to be less uboone-specific. - Inverted the inheritance so now FIFOChannel is derived from OpticalRawDigit. - OpticalRawDigit now has just a time, a channel, and the waveform. - A Frame() function which just returns zero is kept for now so that algorithms which expect multiple frames can still be used. May want to deprecate this out in the future as algorithms are developed. - TimeSlice\_t was made an unsigned long so it can hold the 64 bit NOvA-type time stamp used in the LBNE electronics.
 
-larcore v04\_04\_00(#larcore-v04_04_00)
+larcore v04\_04\_00
 ------------------------------------------
 
 -   2015-04-16 Lynn Garren : larcore v04\_04\_00 for larsoft v04\_05\_00
@@ -205,7 +205,7 @@ larcore v04\_04\_00(#larcore-v04_04_00)
 -   2015-04-04 Alex Himmel : Fix default return values.
 -   2015-04-04 Mike Wallbank : Changes to the geometry services to include functionality for optical channel mapping
 
-larbatch v01\_05\_01(#larbatch-v01_05_01)
+larbatch v01\_05\_01
 --------------------------------------------
 
 -   2015-04-16 Lynn Garren : larbatch v01\_05\_01 for larsoft v04\_05\_00
@@ -214,5 +214,5 @@ larbatch v01\_05\_01(#larbatch-v01_05_01)
 -   2015-04-10 Herbert Greenlee : Add SAM analysis functions.
 -   2015-04-10 Herbert Greenlee : Improved error message (from Kirby).
 
-larutils v1\_00\_07(#larutils-v1_00_07)
+larutils v1\_00\_07
 ------------------------------------------

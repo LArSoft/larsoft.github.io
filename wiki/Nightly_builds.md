@@ -1,4 +1,4 @@
-Nightly builds(#Nightly-builds)
+Nightly builds
 ==================================
 
 ***LArSoft no longer makes nightly builds. Their functionality has been replaced by the CI tests*.**
@@ -27,7 +27,7 @@ The following cron jobs are set up to run the nightly build. The time span betwe
         20 0 * * * /grid/fermiapp/larsoft/home/larsoft/code/laradmin/nightly/nightly_wrapper.sh larsoft
         00 3 * * * /grid/fermiapp/larsoft/home/larsoft/code/laradmin/nightly/nightly_wrapper.sh uboone
 
-System recovery or set-up(#System-recovery-or-set-up)
+System recovery or set-up
 --------------------------------------------------------
 
 The script laradmin/nightly/init\_nightly.sh creates the work areas for the nightly build. See that script and the laradmin/nightly/README file for details on how to set up the nightly build area.

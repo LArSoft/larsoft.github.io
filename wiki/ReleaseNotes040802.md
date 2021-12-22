@@ -1,4 +1,4 @@
-LArSoft v04\_08\_02 Release Notes(#LArSoft-v04_08_02-Release-Notes)
+LArSoft v04\_08\_02 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,73 +24,73 @@ LArSoft v04\_08\_02 Release Notes(#LArSoft-v04_08_02-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_08_02/larsoft-v04_08_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Changes to development since v04\_08\_01
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_08\_02(#larsoft-v04_08_02)
+larsoft v04\_08\_02
 ------------------------------------------
 
 -   2015-05-27 Lynn Garren : update product versions
 -   2015-05-27 Lynn Garren : larsoft v04\_08\_02 for larsoft v04\_08\_02
 
-lareventdisplay v04\_04\_06(#lareventdisplay-v04_04_06)
+lareventdisplay v04\_04\_06
 ----------------------------------------------------------
 
 -   2015-05-27 Lynn Garren : lareventdisplay v04\_04\_06 for larsoft v04\_08\_02
 
-larexamples v04\_04\_06(#larexamples-v04_04_06)
+larexamples v04\_04\_06
 --------------------------------------------------
 
 -   2015-05-27 Lynn Garren : larexamples v04\_04\_06 for larsoft v04\_08\_02
 
-larpandora v04\_04\_06(#larpandora-v04_04_06)
+larpandora v04\_04\_06
 ------------------------------------------------
 
 -   2015-05-27 Lynn Garren : larpandora v04\_04\_06 for larsoft v04\_08\_02
 
-larana v04\_06\_04(#larana-v04_06_04)
+larana v04\_06\_04
 ----------------------------------------
 
 -   2015-05-27 Lynn Garren : larana v04\_06\_04 for larsoft v04\_08\_02
 -   2015-05-26 Thomas Warburton : Re-tuning lbne35t calorimetry constants.
 
-larreco v04\_06\_01(#larreco-v04_06_01)
+larreco v04\_06\_01
 ------------------------------------------
 
 -   2015-05-27 Lynn Garren : larreco v04\_06\_01 for larsoft v04\_08\_02
 
-larsim v04\_07\_02(#larsim-v04_07_02)
+larsim v04\_07\_02
 ----------------------------------------
 
 -   2015-05-27 Lynn Garren : larsim v04\_07\_02 for larsoft v04\_08\_02
 
-larevt v04\_07\_00(#larevt-v04_07_00)
+larevt v04\_07\_00
 ----------------------------------------
 
 -   2015-05-27 Lynn Garren : larevt v04\_07\_00 for larsoft v04\_08\_02
 -   2015-05-22 Brandon Eberly : Default fcl file for database interface
 
-lardata v04\_07\_00(#lardata-v04_07_00)
+lardata v04\_07\_00
 ------------------------------------------
 
-larcore v04\_07\_01(#larcore-v04_07_01)
+larcore v04\_07\_01
 ------------------------------------------
 
-larbatch v01\_08\_00(#larbatch-v01_08_00)
+larbatch v01\_08\_00
 --------------------------------------------
 
 -   2015-05-27 Lynn Garren : larbatch v01\_08\_00 for larsoft v04\_08\_02
@@ -113,5 +113,5 @@ larbatch v01\_08\_00(#larbatch-v01_08_00)
 -   2015-05-15 Herbert Greenlee : Merge branch ‘develop’ into feature/greenlee\_pubs2
 -   2015-05-14 Herbert Greenlee : Add features that are intended to support pubs.
 
-larutils v1\_00\_10(#larutils-v1_00_10)
+larutils v1\_00\_10
 ------------------------------------------

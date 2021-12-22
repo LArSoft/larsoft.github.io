@@ -1,4 +1,4 @@
-LArSoft v06\_69\_00 Release Notes(#LArSoft-v06_69_00-Release-Notes)
+LArSoft v06\_69\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -32,18 +32,18 @@ LArSoft v06\_69\_00 Release Notes(#LArSoft-v06_69_00-Release-Notes)
 Download instructions for [larsoft v06\_69\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_69_00/larsoft-v06_69_00.html)\
 Download instructions for [just larsoftobj v1\_40\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_40_01/larsoftobj-v1_40_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   approved changes
 
-Breaking Changes(#Breaking-Changes)
+Breaking Changes
 --------------------------------------
 
 -   nutools geniehelper now uses the ifdh\_art service instead of calling ifdhc directly.
     -   add an “IFDH: {}” line to the services block of appropriate prodgenie fcl files.
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   feature/TrkShwId3D
@@ -58,39 +58,39 @@ New features(#New-features)
     -   propagate the new BackTrackerMatching data product into the larpandora Producer and Analyser modules
 -   build larbatch as current
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larreco - resolve [\#19067](/redmine/issues/19067 "Bug: Trajcluster segfault (Resolved)")
     -   this bug fix also included a change to data products
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nutools v2\_18\_01 with NOvA updates
 -   dk2nu is now dk2nugenie and dk2nudata so data products can be accessed via gallery
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_69\_00(#larsoft-v06_69_00)
+larsoft v06\_69\_00
 ------------------------------------------
 
 -   2018-02-21 Lynn Garren : larsoft v06\_69\_00 for larsoft v06\_69\_00
 -   2018-02-21 Lynn Garren : update versions
 -   2018-02-14 Lynn Garren : fix oversight
 
-lareventdisplay v06\_17\_03(#lareventdisplay-v06_17_03)
+lareventdisplay v06\_17\_03
 ----------------------------------------------------------
 
 -   2018-02-21 Lynn Garren : lareventdisplay v06\_17\_03 for larsoft v06\_69\_00
 
-larexamples v06\_10\_03(#larexamples-v06_10_03)
+larexamples v06\_10\_03
 --------------------------------------------------
 
 -   2018-02-21 Lynn Garren : larexamples v06\_10\_03 for larsoft v06\_69\_00
 
-larpandora v06\_24\_00(#larpandora-v06_24_00)
+larpandora v06\_24\_00
 ------------------------------------------------
 
 -   2018-02-21 Lynn Garren : larpandora v06\_24\_00 for larsoft v06\_69\_00
@@ -103,17 +103,17 @@ larpandora v06\_24\_00(#larpandora-v06_24_00)
 -   2018-02-18 Andrew Blake : Add functionality to perform reco/truth matching using back-tracker information
 -   2018-02-18 Andrew Blake : Add an option to use bcak-tracker reco/truth matching in all LArPandoraAnalysis analyzer modules. Also, add separate labels for tracks and showers (to accommodate their production by separate modules), remove the separate label for clusters, and remove checks on seeds altogether. LArPandoraAnalysis analyzer modules will now look for PFParticle/T0 associations rather than Track/T0 associations.
 
-larwirecell v06\_10\_03(#larwirecell-v06_10_03)
+larwirecell v06\_10\_03
 --------------------------------------------------
 
 -   2018-02-21 Lynn Garren : larwirecell v06\_10\_03 for larsoft v06\_69\_00
 
-larana v06\_17\_01(#larana-v06_17_01)
+larana v06\_17\_01
 ----------------------------------------
 
 -   2018-02-21 Lynn Garren : larana v06\_17\_01 for larsoft v06\_69\_00
 
-larreco v06\_55\_00(#larreco-v06_55_00)
+larreco v06\_55\_00
 ------------------------------------------
 
 -   2018-02-21 Lynn Garren : larreco v06\_55\_00 for larsoft v06\_69\_00
@@ -208,7 +208,7 @@ larreco v06\_55\_00(#larreco-v06_55_00)
 -   2018-01-20 baller : Allow using the old or new backtrackers.
 -   2018-01-20 baller : code cleanup
 
-larsim v06\_41\_00(#larsim-v06_41_00)
+larsim v06\_41\_00
 ----------------------------------------
 
 -   2018-02-21 Lynn Garren : larsim v06\_41\_00 for larsoft v06\_69\_00
@@ -217,43 +217,43 @@ larsim v06\_41\_00(#larsim-v06_41_00)
 -   2018-02-12 Marco Del Tutto : adjusting fcls - ub fcls are in uboonecode, here keep only the general config for genie reweight, and an example for running
 -   2018-02-09 Marco Del Tutto : Core of EventWeight migrated from uboonecode to larsim
 
-larevt v06\_18\_03(#larevt-v06_18_03)
+larevt v06\_18\_03
 ----------------------------------------
 
 -   2018-02-21 Lynn Garren : larevt v06\_18\_03 for larsoft v06\_69\_00
 
-lardata v06\_39\_03(#lardata-v06_39_03)
+lardata v06\_39\_03
 ------------------------------------------
 
 -   2018-02-21 Lynn Garren : lardata v06\_39\_03 for larsoft v06\_69\_00
 -   2018-02-21 Lynn Garren : use nutools v2\_18\_02
 -   2018-02-16 Giuseppe Cerati : add elmass
 
-larcore v06\_17\_01(#larcore-v06_17_01)
+larcore v06\_17\_01
 ------------------------------------------
 
-larpandoracontent v03\_10\_00(#larpandoracontent-v03_10_00)
+larpandoracontent v03\_10\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_40\_01(#larsoftobj-v1_40_01)
+larsoftobj v1\_40\_01
 ----------------------------------------------
 
 -   2018-02-21 Lynn Garren : larsoftobj v1\_40\_01 for larsoft v06\_69\_00
 -   2018-02-21 Lynn Garren : update versions
 
-lardataobj v1\_28\_02(#lardataobj-v1_28_02)
+lardataobj v1\_28\_02
 ----------------------------------------------
 
 -   2018-02-21 Lynn Garren : lardataobj v1\_28\_02 for larsoft v06\_69\_00
 -   2018-02-21 Lynn Garren : use nusimdata v1\_10\_00
 
-larcorealg v1\_17\_01(#larcorealg-v1_17_01)
+larcorealg v1\_17\_01
 ----------------------------------------------
 
-larcoreobj v1\_21\_00(#larcoreobj-v1_21_00)
+larcoreobj v1\_21\_00
 ----------------------------------------------
 
-larbatch v01\_37\_00(#larbatch-v01_37_00)
+larbatch v01\_37\_00
 --------------------------------------------
 
 -   2018-02-21 Lynn Garren : larbatch v01\_37\_00 for larsoft v06\_69\_00
@@ -269,5 +269,5 @@ larbatch v01\_37\_00(#larbatch-v01_37_00)
 -   2018-02-14 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
 -   2018-02-14 Herbert Greenlee : Only make one tarball on batch worker.
 
-larutils v1\_21\_00(#larutils-v1_21_00)
+larutils v1\_21\_00
 ------------------------------------------

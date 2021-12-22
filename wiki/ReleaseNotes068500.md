@@ -1,4 +1,4 @@
-LArSoft v06\_85\_00 Release Notes(#LArSoft-v06_85_00-Release-Notes)
+LArSoft v06\_85\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -32,7 +32,7 @@ LArSoft v06\_85\_00 Release Notes(#LArSoft-v06_85_00-Release-Notes)
 Download instructions for [larsoft v06\_85\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_85_00/larsoft-v06_85_00.html)\
 Download instructions for [just larsoftobj v1\_50\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_50_00/larsoftobj-v1_50_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
@@ -40,7 +40,7 @@ Purpose(#Purpose)
 -   use art v2\_11\_03
 -   add e17 support
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   updates to lardataobj and larsim
@@ -59,30 +59,30 @@ New features(#New-features)
 
 ^1^ Actually, all particles with PDG ID 22 (γ) and 0 (*Rootino*… seriously!) with energy below 100 eV will be drawn.
 
-Known problems(#Known-problems)
+Known problems
 ----------------------------------
 
 -   larsim
     -   sim::TrackIDE is not filled in BackTracker.cc
     -   The fix is in the head of develop, but missed this release.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   art v2\_11\_03
 -   nutools v2\_24\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_85\_00(#larsoft-v06_85_00)
+larsoft v06\_85\_00
 ------------------------------------------
 
 -   2018-07-25 Lynn Garren : larsoft v06\_85\_00 for larsoft v06\_85\_00
 -   2018-07-25 Lynn Garren : update versions
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-lareventdisplay v06\_22\_00(#lareventdisplay-v06_22_00)
+lareventdisplay v06\_22\_00
 ----------------------------------------------------------
 
 -   2018-07-25 Lynn Garren : lareventdisplay v06\_22\_00 for larsoft v06\_85\_00
@@ -90,19 +90,19 @@ lareventdisplay v06\_22\_00(#lareventdisplay-v06_22_00)
 -   2018-07-23 Gianluca Petrillo : Added option to visualize scintillation photons in 3D display
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larexamples v06\_14\_06(#larexamples-v06_14_06)
+larexamples v06\_14\_06
 --------------------------------------------------
 
 -   2018-07-25 Lynn Garren : larexamples v06\_14\_06 for larsoft v06\_85\_00
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larpandora v06\_31\_04(#larpandora-v06_31_04)
+larpandora v06\_31\_04
 ------------------------------------------------
 
 -   2018-07-25 Lynn Garren : larpandora v06\_31\_04 for larsoft v06\_85\_00
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larwirecell v06\_14\_06(#larwirecell-v06_14_06)
+larwirecell v06\_14\_06
 --------------------------------------------------
 
 -   2018-07-25 Lynn Garren : larwirecell v06\_14\_06 for larsoft v06\_85\_00
@@ -111,7 +111,7 @@ larwirecell v06\_14\_06(#larwirecell-v06_14_06)
 -   2018-07-24 Usher, Tracy L : Modifications (mostly) as directed by Brett to enable ability to change input source
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larana v06\_21\_01(#larana-v06_21_01)
+larana v06\_21\_01
 ----------------------------------------
 
 -   2018-07-25 Lynn Garren : larana v06\_21\_01 for larsoft v06\_85\_00
@@ -119,7 +119,7 @@ larana v06\_21\_01(#larana-v06_21_01)
 -   2018-07-23 Lynn Garren : add e17 qualifier
 -   2018-07-19 Jose Alfonso Soto : Fixed reading the InputModule parameter as a vector
 
-larreco v06\_64\_02(#larreco-v06_64_02)
+larreco v06\_64\_02
 ------------------------------------------
 
 -   2018-07-25 Lynn Garren : Merge branch ‘release/v06\_85\_00’
@@ -129,7 +129,7 @@ larreco v06\_64\_02(#larreco-v06_64_02)
 -   2018-07-24 Kyle Knoepfel : Adjustments to support e17.
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larsim v06\_53\_00(#larsim-v06_53_00)
+larsim v06\_53\_00
 ----------------------------------------
 
 -   2018-07-25 Lynn Garren : larsim v06\_53\_00 for larsoft v06\_85\_00
@@ -140,13 +140,13 @@ larsim v06\_53\_00(#larsim-v06_53_00)
 -   2018-07-23 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp\_PhotonLibrary
 -   2018-07-22 Gianluca Petrillo : PhotonLibrary now allocates memory lazy.
 
-larevt v06\_22\_04(#larevt-v06_22_04)
+larevt v06\_22\_04
 ----------------------------------------
 
 -   2018-07-25 Lynn Garren : larevt v06\_22\_04 for larsoft v06\_85\_00
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-lardata v06\_47\_03(#lardata-v06_47_03)
+lardata v06\_47\_03
 ------------------------------------------
 
 -   2018-07-25 Lynn Garren : lardata v06\_47\_03 for larsoft v06\_85\_00
@@ -156,27 +156,27 @@ lardata v06\_47\_03(#lardata-v06_47_03)
 -   2018-07-23 Gianluca Petrillo : Possible fix to a GCC 7 complaint.
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larcore v06\_21\_02(#larcore-v06_21_02)
+larcore v06\_21\_02
 ------------------------------------------
 
 -   2018-07-25 Lynn Garren : larcore v06\_21\_02 for larsoft v06\_85\_00
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larpandoracontent v03\_13\_02(#larpandoracontent-v03_13_02)
+larpandoracontent v03\_13\_02
 --------------------------------------------------------------
 
 -   2018-07-25 Lynn Garren : larpandoracontent v03\_13\_02 for larsoft v06\_85\_00
 -   2018-07-25 Lynn Garren : v03\_13\_02 with e17 support
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larsoftobj v1\_50\_00(#larsoftobj-v1_50_00)
+larsoftobj v1\_50\_00
 ----------------------------------------------
 
 -   2018-07-25 Lynn Garren : larsoftobj v1\_50\_00 for larsoft v06\_85\_00
 -   2018-07-25 Lynn Garren : update versions
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-lardataobj v1\_36\_00(#lardataobj-v1_36_00)
+lardataobj v1\_36\_00
 ----------------------------------------------
 
 -   2018-07-25 Lynn Garren : Merge branch ‘develop’ into release/v06\_85\_00
@@ -194,25 +194,25 @@ lardataobj v1\_36\_00(#lardataobj-v1_36_00)
 -   2018-07-22 Gianluca Petrillo : Added \`data\_address()\` and \`shrink\_to\_fit()\` to \`util::LazyVector\`.
 -   2018-07-20 Gianluca Petrillo : util::LazyVector, single block “sparse” vector.
 
-lardataalg v1\_02\_01(#lardataalg-v1_02_01)
+lardataalg v1\_02\_01
 ----------------------------------------------
 
 -   2018-07-25 Lynn Garren : lardataalg v1\_02\_01 for larsoft v06\_85\_00
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larcorealg v1\_24\_01(#larcorealg-v1_24_01)
+larcorealg v1\_24\_01
 ----------------------------------------------
 
 -   2018-07-25 Lynn Garren : larcorealg v1\_24\_01 for larsoft v06\_85\_00
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larcoreobj v1\_24\_01(#larcoreobj-v1_24_01)
+larcoreobj v1\_24\_01
 ----------------------------------------------
 
 -   2018-07-25 Lynn Garren : larcoreobj v1\_24\_01 for larsoft v06\_85\_00
 -   2018-07-23 Lynn Garren : add e17 qualifier
 
-larbatch v01\_43\_00(#larbatch-v01_43_00)
+larbatch v01\_43\_00
 --------------------------------------------
 
 -   2018-07-25 Lynn Garren : larbatch v01\_43\_00 for larsoft v06\_85\_00
@@ -223,7 +223,7 @@ larbatch v01\_43\_00(#larbatch-v01_43_00)
 -   2018-07-18 Lynn Garren : larsoft v06\_84\_00
 -   2018-07-18 Herbert Greenlee : Make condor\_hadd\_sam.sh more compatible with latest version of condor\_lar.sh.
 
-larutils v1\_22\_09(#larutils-v1_22_09)
+larutils v1\_22\_09
 ------------------------------------------
 
 -   2018-07-25 Lynn Garren : larutils v1\_22\_09 for larsoft v06\_85\_00

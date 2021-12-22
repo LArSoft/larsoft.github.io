@@ -1,4 +1,4 @@
-LArSoft v08\_58\_00 Release Notes(#LArSoft-v08_58_00-Release-Notes)
+LArSoft v08\_58\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -35,13 +35,13 @@ LArSoft v08\_58\_00 Release Notes(#LArSoft-v08_58_00-Release-Notes)
 Download instructions for [larsoft v08\_58\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_58_00/larsoft-v08_58_00.html)\
 Download instructions for [just larsoftobj v08\_29\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_02/larsoftobj-v08_29_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandora PR 9
@@ -77,21 +77,21 @@ New features(#New-features)
     -   It can be noted that the “fixes” at point 2 are very little about actions and a lot about marking assumptions throughout the code.\
         The hope is that this will make a bit easier to have full support of semi-analytic, which the SBN program is studying as an option, model for detectors like ICARUS. That will be Redmine issue [\#24601](/redmine/issues/24601 "Necessary Maintenance: Scintillation visibility by semi-analytic parametrization not supported for multi-cryostat detectors (Accepted)")
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larsoft PR 15
     -   use python 3
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v4\_01\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_58\_00(#larsoft-v08_58_00)
+larsoft v08\_58\_00
 ------------------------------------------
 
 -   2020-07-16 Lynn Garren : larsoft v08\_58\_00 for larsoft v08\_58\_00
@@ -99,20 +99,20 @@ larsoft v08\_58\_00(#larsoft-v08_58_00)
 -   2020-07-15 Lynn Garren : Merge pull request \#15 from PetrilloAtWork/feature/gp\_Py3update
 -   2020-07-14 Gianluca Petrillo : Updated python library to support Python 3
 
-lareventdisplay v08\_12\_21(#lareventdisplay-v08_12_21)
+lareventdisplay v08\_12\_21
 ----------------------------------------------------------
 
 -   2020-07-16 Lynn Garren : lareventdisplay v08\_12\_21 for larsoft v08\_58\_00
 
-larexamples v08\_06\_21(#larexamples-v08_06_21)
+larexamples v08\_06\_21
 --------------------------------------------------
 
 -   2020-07-16 Lynn Garren : larexamples v08\_06\_21 for larsoft v08\_58\_00
 
-larg4 v08\_14\_06(#larg4-v08_14_06)
+larg4 v08\_14\_06
 --------------------------------------
 
-larpandora v08\_13\_01(#larpandora-v08_13_01)
+larpandora v08\_13\_01
 ------------------------------------------------
 
 -   2020-07-16 Lynn Garren : larpandora v08\_13\_01 for larsoft v08\_58\_00
@@ -120,25 +120,25 @@ larpandora v08\_13\_01(#larpandora-v08_13_01)
 -   2020-07-10 Etienne Chardonnet : Removed unused m\_maxGapSize private variable in LArPandoraGeometry.h
 -   2020-07-10 Etienne Chardonnet : Reversed the DP gaps change that created 4 drift volume, one for each TPC – Now back to 1 volume with 4 TPCs
 
-larrecodnn v08\_06\_01(#larrecodnn-v08_06_01)
+larrecodnn v08\_06\_01
 ------------------------------------------------
 
 -   2020-07-16 Lynn Garren : larrecodnn v08\_06\_01 for larsoft v08\_58\_00
 
-larwirecell v08\_12\_16(#larwirecell-v08_12_16)
+larwirecell v08\_12\_16
 --------------------------------------------------
 
-larana v08\_17\_13(#larana-v08_17_13)
+larana v08\_17\_13
 ----------------------------------------
 
 -   2020-07-16 Lynn Garren : larana v08\_17\_13 for larsoft v08\_58\_00
 
-larreco v08\_32\_06(#larreco-v08_32_06)
+larreco v08\_32\_06
 ------------------------------------------
 
 -   2020-07-16 Lynn Garren : larreco v08\_32\_06 for larsoft v08\_58\_00
 
-larsim v08\_29\_00(#larsim-v08_29_00)
+larsim v08\_29\_00
 ----------------------------------------
 
 -   2020-07-16 Lynn Garren : larsim v08\_29\_00 for larsoft v08\_58\_00
@@ -157,16 +157,16 @@ larsim v08\_29\_00(#larsim-v08_29_00)
 -   2020-07-09 Gianluca Petrillo : Using geometry facilities to detect active volumes.
 -   2020-07-09 Iker de Icaza Astiz : Prevent implicit downcasting from double to int in VUVHits() and VISHits()
 
-larevt v08\_12\_00(#larevt-v08_12_00)
+larevt v08\_12\_00
 ----------------------------------------
 
-lardata v08\_15\_09(#lardata-v08_15_09)
+lardata v08\_15\_09
 ------------------------------------------
 
-larcore v08\_11\_10(#larcore-v08_11_10)
+larcore v08\_11\_10
 ------------------------------------------
 
-larpandoracontent v03\_18\_00(#larpandoracontent-v03_18_00)
+larpandoracontent v03\_18\_00
 --------------------------------------------------------------
 
 -   2020-07-16 Lynn Garren : larpandoracontent v03\_18\_00 for larsoft v08\_58\_00
@@ -214,28 +214,28 @@ larpandoracontent v03\_18\_00(#larpandoracontent-v03_18_00)
 -   2020-07-02 Dom Brailsford : Update the two-view track overlap result to store the number of comparisons and the number of matched comparisons rather than the raw number of downsampled points. Here, comparions are referred to as sampling points in the code. Store the downsampling factor and provide additional functions to calculate up-sampled number of points and matching points. No longer store the matched fraction, calculate it on the fly.
 -   2020-07-02 Dom Brailsford : Change function to calculate the number of matched sampling points rather than the fraction. Calculate the fraction outside of the function.
 
-larsoftobj v08\_29\_02(#larsoftobj-v08_29_02)
+larsoftobj v08\_29\_02
 ------------------------------------------------
 
-lardataobj v08\_11\_02(#lardataobj-v08_11_02)
+lardataobj v08\_11\_02
 ------------------------------------------------
 
-lardataalg v08\_13\_14(#lardataalg-v08_13_14)
+lardataalg v08\_13\_14
 ------------------------------------------------
 
-larcorealg v08\_22\_02(#larcorealg-v08_22_02)
+larcorealg v08\_22\_02
 ------------------------------------------------
 
-larcoreobj v08\_12\_01(#larcoreobj-v08_12_01)
+larcoreobj v08\_12\_01
 ------------------------------------------------
 
-webevd v08\_00\_07(#webevd-v08_00_07)
+webevd v08\_00\_07
 ----------------------------------------
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_26\_01(#larutils-v1_26_01)
+larutils v1\_26\_01
 ------------------------------------------
 
 -   2020-07-16 Lynn Garren : larutils v1\_26\_01 for larsoft v08\_58\_00

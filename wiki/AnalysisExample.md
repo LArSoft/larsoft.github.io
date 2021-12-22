@@ -24,22 +24,22 @@
         -   [Browsing code in UNIX](#Browsing-code-in-UNIX)
     -   [Other links](#Other-links)
 
-Getting started with an analysis task(#Getting-started-with-an-analysis-task)
+Getting started with an analysis task
 ================================================================================
 
 This page goes along with the [AnalysisExample](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/revisions/develop/show/larexamples/AnalysisExample) package in LArSoft. It provides an example of how to get started writing code to perform an analysis task on an event file created by LArSoft. It’s meant for newcomers to LArSoft.
 
-#### Assumptions(#Assumptions)
+#### Assumptions
 
 -   You are moderately familiar with [UNIX](http://unix.t-a-y-l-o-r.com/index.html). \* You have a passing acquaintance with [ROOT](http://root.cern.ch). \* You’ve at least glanced at some of the other pages in this wiki. \* You’re willing to roll up your sleeves and get your hands dirty with [C++](http://www.cplusplus.com/doc/tutorial/) and [STL](http://www.cs.brown.edu/people/jak/proglang/cpp/stltut/tut.html). \* You’re working with a file that contains LArSoft art::Event records. \* Your goal is to analyze a file created by the LArSoft package, or perhaps try to understand some basic LArSoft concepts.
 
-#### Cautions(#Cautions)
+#### Cautions
 
 -   If you’ve been given a file that contains a ROOT n-tuple, then you don’t need this page. Just start using ROOT (there’s a nice [tutorial](http://www.nevis.columbia.edu/~seligman/root-class/)) and work with the n-tuple.
 
 -   If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You’ll learn something about the development environment and how to read data from LArSoft event records; you won’t learn how to [create producer or filter packages](https://cdcvs.fnal.govUsing_art_in_LArSoft#artEDProducer), how to [write data](https://cdcvs.fnal.govUsing_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](https://cdcvs.fnal.govUsing_art_in_LArSoft#artAssns), how to [save your work in a git repository](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide), etc. You probably want to read [Developing with LArSoft](https://cdcvs.fnal.govDeveloping_With_LArSoft) instead.
 
-#### Alternatives(#Alternatives)
+#### Alternatives
 
 Aside from AnalysisExample, there are other packages you may want to consider for extracting n-tuples from LArSoft event records. Here are the differences:
 
@@ -51,7 +51,7 @@ Aside from AnalysisExample, there are other packages you may want to consider fo
 
 -   AnalysisExample, an [art::EDAnalyzer](https://cdcvs.fnal.govUsing_art_in_LArSoft#artEDAnalyzer), gives you access to all the data objects in LArSoft event records, and all of the art/LArSoft methods and services. It’s also useful as a way to learn how to use the LArSoft framework. However, it is not as simple to use as the previous tools; simplicity is not a virtue of LArSoft.
 
-#### Be patient(#Be-patient)
+#### Be patient
 
 The art/LArSoft framework is actively evolving. It’s possible that some of the steps below no longer work as is (everything has been verified as of July-2017). If something goes wrong, the following resources may help:
 
@@ -59,12 +59,12 @@ The art/LArSoft framework is actively evolving. It’s possible that some of the
 
 This page covers much the same ground as the [quick-start guide](_Quick-start_guide_to_using_and_developing_LArSoft_code_), but this tutorial is focused on analysis tasks, and it explains the reason why everything works as we go along. Hopefully you’ll have enough clues to solve any problems that come up.
 
-Set up the LArSoft environment(#Set-up-the-LArSoft-environment)
+Set up the LArSoft environment
 ------------------------------------------------------------------
 
 You have to set up the LArSoft development environment for your installation. Look up the instructions for your location; e.g. [Fermilab](_Quick-start_guide_to_using_and_developing_LArSoft_code_) or [Nevis](https://twiki.nevis.columbia.edu/twiki/bin/view/Main/LArSoftAtNevis).
 
-Set up a working directory(#Set-up-a-working-directory)
+Set up a working directory
 ----------------------------------------------------------
 
 This is described in the [quick-start guide](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_). You’ll typically be working with files created by a specific release of LArSoft.
@@ -107,7 +107,7 @@ Since you have to type the same commands every time you want to work with LArSof
 
 “MBD” stands for “MicroBooNE Development”, but you could use any alias you wish. Remember that the alias command must be a single line in the file, even though it may be displayed as more than one line above.
 
-Checkout the AnalysisExample package to your development directory(#Checkout-the-AnalysisExample-package-to-your-development-directory)
+Checkout the AnalysisExample package to your development directory
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 The best way to get AnalysisExample and its associated documentation is by checking out the `larexamples` product from the repository. (As you will learn as you work with LArSoft, you can only checkout code on the “product” level; you cannot just checkout an individual package.) This is covered in the [quick-start guide](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_). I’m going to do this with variables, as I did above:
@@ -123,7 +123,7 @@ As a quick check, let’s compile the code to see if there are any outstanding p
 
 The `larexamples` product includes other example code in addition to AnalysisExample; you’ll see that code compile as well. If you’d like to learn more about those Algorithm and Service examples, see [LArSoft Examples](https://cdcvs.fnal.govLArSoft_examples).
 
-### The `larexamples` version tag(#The-larexamples-version-tag)
+### The `larexamples` version tag
 
 A note about the `-t` option in the mrb gitCheckout line above:
 
@@ -133,7 +133,7 @@ For this analysis task, we want to maintain consistency between the version of `
 
 For this particular example, it probably doesn’t make much difference; the `larexamples` package is updated so infrequently that the most up-to-date version probably matches the `larsoft` version you want to use. However, as you move on to more complex `larsoft` development tasks, you may want to think about the tags of the sub-products that you checkout. That’s why we’re making a big fuss about `-t` right now.
 
-Copying and renaming AnalysisExample to \${YourTask}(#Copying-and-renaming-AnalysisExample-to-YourTask)
+Copying and renaming AnalysisExample to \${YourTask}
 ----------------------------------------------------------------------------------------------------------
 
 *Warning:* At this point, you may be tempted to go into `${MRB_SOURCE}/larexamples/larexamples/AnalysisExample` and start making changes. **Don’t do this! No!**
@@ -144,7 +144,7 @@ As noted above, the mrb+git system organizes packages (e.g., HitFinder, ClusterF
 
 In your product will be all the ntuple packages you’re going to create based on AnalysisExample; e.g., MyEnergyStudy, MyEfficiencyHistograms. Or perhaps you’ll just create one package, but with many modules; e.g., create a MyNtuples package and within it create files like MyEnergyStudy\_module.cc, MyEfficiencyHistograms\_module.cc. Either approach will work.
 
-### Create a product(#Create-a-product)
+### Create a product
 
 We start by creating a new mrb product:
 
@@ -154,7 +154,7 @@ We start by creating a new mrb product:
     # Create a blank product.
     mrb newProduct ${myProject}
 
-### mrb bookkeeping(#mrb-bookkeeping)
+### mrb bookkeeping
 
 Next comes a bit of bookkeeping that `mrb newProduct` omits: you need to manually set which version of larsoft and other products for mrb to use. You’ll receive a warning about this when you run `mrb newProduct`; the warning in this case is:
 
@@ -195,7 +195,7 @@ Then try `mrbsetenv` again:\
 
 Now it works. You’ve just solved your first product-dependency issue!
 
-### Copy AnalysisExample(#Copy-AnalysisExample)
+### Copy AnalysisExample
 
 Instead of writing a new product from scratch, we’re going to copy AnalysisExample:
 
@@ -213,7 +213,7 @@ Instead of writing a new product from scratch, we’re going to copy AnalysisExa
     # my product directory. 
     cp -arv ${MRB_SOURCE}/larexamples/larexamples/AnalysisExample/ .
 
-### Change the name(#Change-the-name)
+### Change the name
 
 We’ve copied the package. Now we have to copy and edit the CMakeLists.txt files for the new product and for the products on which it depends. I’m going to use the UNIX utility [sed](http://www.grymoire.com/Unix/Sed.html) to make the changes.
 
@@ -237,7 +237,7 @@ The name AnalysisExample occurs frequently in this directory, both for the names
 
 The name you give to the `rename.sh` script has to be the same as the renamed AnalysisExample directory; I’ve made sure of this by using the shell variable in the previous lines.
 
-### Test compile(#Test-compile)
+### Test compile
 
 Finally, we have to add new files to our build directory for our new package:
 
@@ -252,7 +252,7 @@ Go ahead and compile. You’ll see your new product being compiled as well. Afte
     ups list -aK+ ${myProject}     # You'll see it listed with the version you
                                    # assigned, ${myProjectVersion}, in "mrb uv" above.
 
-### Does it work?(#Does-it-work)
+### Does it work?
 
 Read the file README.md, which will lead you to ADDITIONAL\_NOTES.md, which in turn will take you to the rest of the files in the directory. There’s lots of comments to get you started. These files are in `${MRB_SOURCE}/${myProject}/${myProject}/${myPackage}`.
 
@@ -266,7 +266,7 @@ If you read README.md, you saw that the function of the example program is to cr
     TBrowser tb
     # ... and start clicking around.
 
-#### Doing a complete generation/simulation/reconstruction test(#Doing-a-complete-generationsimulationreconstruction-test)
+#### Doing a complete generation/simulation/reconstruction test
 
 If you want to just run AnalysisExample to see what it does, you’ll have to generate, simulate, and reconstruct events. For a simple test using the MicroBooNE detector, do the following: Copy `$UBOONEDIR_DIR/job/prodsingle_uboone.fcl` to your working area. As noted in the `AnalysisExample/ADDITIONAL_NOTES.md`, add the following line to the end of `prodsingle_uboone.fcl`:
 
@@ -288,7 +288,7 @@ You may want to check [Using FCL files in MicroBooNE](https://cdcvs.fnal.gov/red
 
 If you’re working on an experiment other than MicroBooNE, you’ll have to ask around and/or do some detective work to locate the standard single-particle generation, simulation, and reconstruction .fcl files for your experiment.
 
-Other tips(#Other-tips)
+Other tips
 --------------------------
 
 It’s time to start your work. Unless you happen to be looking at the dE/dx for primary particles in an event, you’ll have to edit the code to do what you want.
@@ -296,7 +296,7 @@ It’s time to start your work. Unless you happen to be looking at the dE/dx for
     cd ${MRB_SOURCE}/${myProject}/${myProject}/${myPackage}
     # ... and start editing code!
 
-### Quick set-up(#Quick-set-up)
+### Quick set-up
 
 The [quick-start guide](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_) may give you the impression that you have to type in many shell commands every time you work with mrb+git; maybe this guide has given you that impression as well. Actually, once you’ve completed the one-time setups, and provided you don’t plan to check in your code to the main git repository, things are pretty simple.
 
@@ -325,7 +325,7 @@ Here’s what I do when I login (I work on MicroBooNE):
     cd $MRB_BUILDDIR
     mrbsetenv    # create the files for newstuff
 
-### Getting information(#Getting-information)
+### Getting information
 
 The following resources may help you with ROOT:
 
@@ -333,7 +333,7 @@ The following resources may help you with ROOT:
 
 In addition to this, you’ll probably have to become a “code detective” and use the code and comments in other packages to understand what to do in your own code.
 
-### Browsing code on the web(#Browsing-code-on-the-web)
+### Browsing code on the web
 
 If you want to browse the code in one of the package groups (e.g., `larsim`, `larreco`, `uboonecode`), you can use the Redmine repository listings at FNAL. The “magic formula” is:\
 
@@ -341,7 +341,7 @@ If you want to browse the code in one of the package groups (e.g., `larsim`, `la
 
 So if you want to look at the package group `larreco`, you’d visit the URL [https://cdcvs.fnal.gov/redmine/projects/larreco/repository](https://cdcvs.fnal.gov/redmine/projects/larreco/repository)
 
-### Browsing code in UNIX(#Browsing-code-in-UNIX)
+### Browsing code in UNIX
 
 My preferred way is to look at the code as it’s stored on the local computer cluster. After you’ve set up LArSoft, you can find the code for a given package group in the directory:
 
@@ -353,7 +353,7 @@ If you wanted to look at the packages in group `larsim`, you can do:
 
 Good luck!
 
-Other links(#Other-links)
+Other links
 ----------------------------
 
 [Using ART in LArSoft](https://cdcvs.fnal.govUsing_art_in_LArSoft)\

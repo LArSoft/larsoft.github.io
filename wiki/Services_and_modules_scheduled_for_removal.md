@@ -1,7 +1,7 @@
-Services and modules scheduled for removal(#Services-and-modules-scheduled-for-removal)
+Services and modules scheduled for removal
 ==========================================================================================
 
-Emails received from(#Emails-received-from)
+Emails received from
 ----------------------------------------------
 
 -   Christoph Alt (keep DPRawHitFinder)
@@ -9,13 +9,13 @@ Emails received from(#Emails-received-from)
 -   Herb Greenlee (keep ShiftEdepSCE, RFFHitFinder)
 -   Tingjun Yang (move MCTruthT0Matching, PhotonCounterT0Matching to larexamples)
 
-Services to remove(#Services-to-remove)
+Services to remove
 ------------------------------------------
 
 -   FileCatalogMetadataExtras
 -   LandedSocket
 
-Modules to remove(#Modules-to-remove)
+Modules to remove
 ----------------------------------------
 
 -   AggregateEvent

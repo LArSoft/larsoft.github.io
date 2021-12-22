@@ -1,14 +1,14 @@
-Process for contributing code to LArSoft(#Process-for-contributing-code-to-LArSoft)
+Process for contributing code to LArSoft
 ======================================================================================
 
-Process for contributing a non-architectural, non-breaking change to LArSoft:(#Process-for-contributing-a-non-architectural-non-breaking-change-to-LArSoft)
+Process for contributing a non-architectural, non-breaking change to LArSoft:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1.  Become familiar with the [design principles](http://larsoft.org/important-concepts-in-larsoft/design/) and [coding guidelines](https://cdcvs.fnal.govThe_rules_and_guidelines) of LArSoft.
 2.  Develop the code including comments, tests and documentation.
 3.  Offer it by talking about it to LArSoft team members and maybe give a presentation at the [LArSoft Coordination Meeting.](https://indico.fnal.gov/categoryDisplay.py?categId=405)
 
-Process for contributing an architectural, breaking change to LArSoft:(#Process-for-contributing-an-architectural-breaking-change-to-LArSoft)
+Process for contributing an architectural, breaking change to LArSoft:
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 1.  Someone working on an experiment has an idea, an improvement, or a new feature that affects the LArSoft architecture that can be shared in the core LArSoft repositories.
@@ -27,7 +27,7 @@ Process for contributing an architectural, breaking change to LArSoft:(#Process-
 
 For more information, please read the [LArSoft Note about Contributing Code.](http://larsoft.org/contributing-code/)
 
-Process to move functionality in LArSoft code(#Process-to-move-functionality-in-LArSoft-code)
+Process to move functionality in LArSoft code
 ------------------------------------------------------------------------------------------------
 
 For various reasons, the code location of functionality sometimes changes. To ensure that users of that code have time to prepare, and that nothing is overlooked, the approach to this type of migration is as follows.

@@ -6,20 +6,20 @@
     -   [LArQL algorithm](#LArQL-algorithm)
     -   [Performance](#Performance)
 
-Photon and Ionization Electron Simulation(#Photon-and-Ionization-Electron-Simulation)
+Photon and Ionization Electron Simulation
 ========================================================================================
 
-Relevant Literature(#Relevant-Literature)
+Relevant Literature
 --------------------------------------------
 
-Ionization algorithms(#Ionization-algorithms)
+Ionization algorithms
 ------------------------------------------------
 
-Scintillation light algorithms(#Scintillation-light-algorithms)
+Scintillation light algorithms
 ------------------------------------------------------------------
 
-[LArQL algorithm](LArQL_algorithm)(#LArQL-algorithm)
+[LArQL algorithm](LArQL_algorithm)
 --------------------------------------------------------------------------------------
 
-Performance(#Performance)
+Performance
 ----------------------------

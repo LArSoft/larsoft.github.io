@@ -1,4 +1,4 @@
-LArSoft v06\_48\_00 Release Notes(#LArSoft-v06_48_00-Release-Notes)
+LArSoft v06\_48\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,13 +31,13 @@ LArSoft v06\_48\_00 Release Notes(#LArSoft-v06_48_00-Release-Notes)
 Download instructions for [larsoft v06\_48\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_48_00/larsoft-v06_48_00.html)\
 Download instructions for [just larsoftobj v1\_26\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_26_00/larsoftobj-v1_26_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   feature/gardiner\_MARLEY\_upgrade (lardataobj and larsim)
@@ -55,20 +55,20 @@ New features(#New-features)
     -   has updated documentation for current packages and tools.
     -   The [AnalysisExample](_AnalysisExample_) web page has also been updated.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   marley v1\_0\_0
 -   wirecell v0\_6\_1
 -   jsonnet v0\_9\_3 (new dependency)
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_48\_00(#larsoft-v06_48_00)
+larsoft v06\_48\_00
 ------------------------------------------
 
 -   2017-08-30 Lynn Garren : wirecell v0\_6\_1 and marley v1\_0\_0
@@ -77,12 +77,12 @@ larsoft v06\_48\_00(#larsoft-v06_48_00)
 -   2017-08-29 Lynn Garren : update product versions
 -   2017-08-29 Lynn Garren : update dependency database
 
-lareventdisplay v06\_11\_02(#lareventdisplay-v06_11_02)
+lareventdisplay v06\_11\_02
 ----------------------------------------------------------
 
 -   2017-08-29 Lynn Garren : lareventdisplay v06\_11\_02 for larsoft v06\_48\_00
 
-larexamples v06\_06\_00(#larexamples-v06_06_00)
+larexamples v06\_06\_00
 --------------------------------------------------
 
 -   2017-08-29 Lynn Garren : larexamples v06\_06\_00 for larsoft v06\_48\_00
@@ -108,12 +108,12 @@ larexamples v06\_06\_00(#larexamples-v06_06_00)
 -   2017-07-26 William Seligman : fix script bug
 -   2017-07-26 William Seligman : updating documentation
 
-larpandora v06\_15\_07(#larpandora-v06_15_07)
+larpandora v06\_15\_07
 ------------------------------------------------
 
 -   2017-08-29 Lynn Garren : larpandora v06\_15\_07 for larsoft v06\_48\_00
 
-larwirecell v06\_06\_00(#larwirecell-v06_06_00)
+larwirecell v06\_06\_00
 --------------------------------------------------
 
 -   2017-08-30 Lynn Garren : larcore\_Geometry is now larcorealg\_Geometry
@@ -158,12 +158,12 @@ larwirecell v06\_06\_00(#larwirecell-v06_06_00)
 -   2017-06-30 Brett Viren : Initial guidance on setting up.
 -   2017-06-30 Brett Viren : Hacks and fixes to build against latest WCT itself built outside of UPS for now.
 
-larana v06\_09\_02(#larana-v06_09_02)
+larana v06\_09\_02
 ----------------------------------------
 
 -   2017-08-29 Lynn Garren : larana v06\_09\_02 for larsoft v06\_48\_00
 
-larreco v06\_38\_02(#larreco-v06_38_02)
+larreco v06\_38\_02
 ------------------------------------------
 
 -   2017-08-29 Lynn Garren : larreco v06\_38\_02 for larsoft v06\_48\_00
@@ -172,7 +172,7 @@ larreco v06\_38\_02(#larreco-v06_38_02)
 -   2017-08-18 Robert Sulej : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2017-08-18 Robert Sulej : add scaling configuration, improve scaling function, minimize fcl; no changes to output
 
-larsim v06\_30\_00(#larsim-v06_30_00)
+larsim v06\_30\_00
 ----------------------------------------
 
 -   2017-08-29 Lynn Garren : larsim v06\_30\_00 for larsoft v06\_48\_00
@@ -196,12 +196,12 @@ larsim v06\_30\_00(#larsim-v06_30_00)
 -   2017-04-20 Steven Gardiner : Encapsulate the MARLEY interface into a stand-alone algorithm class, and refactor the MARLEYGen module to use the new algorithm.
 -   2017-04-18 Steven Gardiner : Add FHiCL configuration validation to the MARLEYGen module. Upgrade the module to use the marley::JSON class (new as of MARLEY v1.0.0) to configure the generator.
 
-larevt v06\_15\_07(#larevt-v06_15_07)
+larevt v06\_15\_07
 ----------------------------------------
 
 -   2017-08-29 Lynn Garren : larevt v06\_15\_07 for larsoft v06\_48\_00
 
-lardata v06\_27\_00(#lardata-v06_27_00)
+lardata v06\_27\_00
 ------------------------------------------
 
 -   2017-08-29 Lynn Garren : lardata v06\_27\_00 for larsoft v06\_48\_00
@@ -214,10 +214,10 @@ lardata v06\_27\_00(#lardata-v06_27_00)
 -   2017-08-25 Gianluca Petrillo : Added limited support for random access in wrapped ranges.
 -   2017-08-15 Giuseppe Cerati : allow move (steal) of position and momentum data members, plus adding const to one method
 
-larcore v06\_14\_00(#larcore-v06_14_00)
+larcore v06\_14\_00
 ------------------------------------------
 
-larpandoracontent v03\_07\_04(#larpandoracontent-v03_07_04)
+larpandoracontent v03\_07\_04
 --------------------------------------------------------------
 
 -   2017-08-29 Lynn Garren : larpandoracontent v03\_07\_04 for larsoft v06\_48\_00
@@ -233,13 +233,13 @@ larpandoracontent v03\_07\_04(#larpandoracontent-v03_07_04)
 -   2017-08-08 John Marshall : Refactor SlidingFitTrajectory implementation.
 -   2017-08-07 Andy Blake : Move calculation of track trajectory from TrackParticleBuildingAlgorithm and LArPfoHelper and remove assumption about direction of 3D sliding fit.
 
-larsoftobj v1\_26\_00(#larsoftobj-v1_26_00)
+larsoftobj v1\_26\_00
 ----------------------------------------------
 
 -   2017-08-29 Lynn Garren : larsoftobj v1\_26\_00 for larsoft v06\_48\_00
 -   2017-08-29 Lynn Garren : update product versions
 
-lardataobj v1\_20\_00(#lardataobj-v1_20_00)
+lardataobj v1\_20\_00
 ----------------------------------------------
 
 -   2017-08-29 Lynn Garren : lardataobj v1\_20\_00 for larsoft v06\_48\_00
@@ -247,14 +247,14 @@ lardataobj v1\_20\_00(#lardataobj-v1_20_00)
 -   2017-06-30 Steven Gardiner : Update description of neutrino weights in the sim::SupernovaTruth header
 -   2017-06-13 Steven Gardiner : Add the SupernovaTruth data product (provides timing information, etc. for events produced using the MARLEYTimeGen module)
 
-larcorealg v1\_06\_01(#larcorealg-v1_06_01)
+larcorealg v1\_06\_01
 ----------------------------------------------
 
-larcoreobj v1\_15\_01(#larcoreobj-v1_15_01)
+larcoreobj v1\_15\_01
 ----------------------------------------------
 
-larbatch v01\_32\_04(#larbatch-v01_32_04)
+larbatch v01\_32\_04
 --------------------------------------------
 
-larutils v1\_19\_00(#larutils-v1_19_00)
+larutils v1\_19\_00
 ------------------------------------------

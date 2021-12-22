@@ -1,4 +1,4 @@
-LArSoft v06\_00\_01 Release Notes(#LArSoft-v06_00_01-Release-Notes)
+LArSoft v06\_00\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -27,20 +27,20 @@ LArSoft v06\_00\_01 Release Notes(#LArSoft-v06_00_01-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_01/larsoft-v06_00_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop since v06\_00\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Please see the v06\_00\_00 [Release Notes](ReleaseNotes060000)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- ------------ ------------ ---------------------------------------
@@ -48,10 +48,10 @@ Updated dependencies(#Updated-dependencies)
   mrb       v1\_07\_04                mrb g larsoftobj\_suite now available
   --------- ------------ ------------ ---------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_00\_01(#larsoft-v06_00_01)
+larsoft v06\_00\_01
 ------------------------------------------
 
 -   2016-07-19 Lynn Garren : larsoft v06\_00\_01 for larsoft v06\_00\_01
@@ -60,7 +60,7 @@ larsoft v06\_00\_01(#larsoft-v06_00_01)
 -   2016-07-19 Lynn Garren : Merge branch ‘v06\_00\_00\_art2’ into develop
 -   2016-07-18 Lynn Garren : mrb v1\_07\_03
 
-lareventdisplay v06\_00\_01(#lareventdisplay-v06_00_01)
+lareventdisplay v06\_00\_01
 ----------------------------------------------------------
 
 -   2016-07-19 Lynn Garren : lareventdisplay v06\_00\_01
@@ -68,15 +68,15 @@ lareventdisplay v06\_00\_01(#lareventdisplay-v06_00_01)
 -   2016-07-16 dorota : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lareventdisplay into develop
 -   2016-07-16 dorota : draw 3d trajectories only inside readout-window
 
-larexamples v06\_00\_00(#larexamples-v06_00_00)
+larexamples v06\_00\_00
 --------------------------------------------------
 
-larpandora v06\_00\_01(#larpandora-v06_00_01)
+larpandora v06\_00\_01
 ------------------------------------------------
 
 -   2016-07-19 Lynn Garren : larpandora v06\_00\_01
 
-larana v06\_00\_01(#larana-v06_00_01)
+larana v06\_00\_01
 ----------------------------------------
 
 -   2016-07-19 Lynn Garren : larana v06\_00\_01
@@ -87,7 +87,7 @@ larana v06\_00\_01(#larana-v06_00_01)
 -   2016-07-13 Kevin Wood : Set default value for the (newly implemented) shift variable for OpHit calibration to 0
 -   2016-07-13 Kevin Wood : Implemented a shift variable for OpHit calibration
 
-larreco v06\_00\_01(#larreco-v06_00_01)
+larreco v06\_00\_01
 ------------------------------------------
 
 -   2016-07-19 Lynn Garren : larreco v06\_00\_01
@@ -96,28 +96,28 @@ larreco v06\_00\_01(#larreco-v06_00_01)
 -   2016-07-15 Tyler Alion : Allow the DisambigCheater to correct for large ammounts of transverse drift of the electrons due to space charge.
 -   2016-07-15 Robert Sulej : cleanup mistakes that Tingjun found
 
-larsim v06\_00\_00(#larsim-v06_00_00)
+larsim v06\_00\_00
 ----------------------------------------
 
-larevt v06\_00\_00(#larevt-v06_00_00)
+larevt v06\_00\_00
 ----------------------------------------
 
-lardata v06\_00\_00(#lardata-v06_00_00)
+lardata v06\_00\_00
 ------------------------------------------
 
-larcore v06\_00\_00(#larcore-v06_00_00)
+larcore v06\_00\_00
 ------------------------------------------
 
-larsimobj v1\_04\_00(#larsimobj-v1_04_00)
+larsimobj v1\_04\_00
 --------------------------------------------
 
-lardataobj v1\_04\_00(#lardataobj-v1_04_00)
+lardataobj v1\_04\_00
 ----------------------------------------------
 
-larcoreobj v1\_04\_00(#larcoreobj-v1_04_00)
+larcoreobj v1\_04\_00
 ----------------------------------------------
 
-larbatch v01\_23\_03(#larbatch-v01_23_03)
+larbatch v01\_23\_03
 --------------------------------------------
 
 -   2016-07-19 Lynn Garren : Merge branch ‘release/v06\_00\_01’
@@ -129,7 +129,7 @@ larbatch v01\_23\_03(#larbatch-v01_23_03)
 -   2016-07-18 Herbert Greenlee : Add back missing project\_utilities import.
 -   2016-07-18 Herbert Greenlee : Replace use of /tmp with tempfile.mkdtemp().
 
-larutils v1\_06\_07(#larutils-v1_06_07)
+larutils v1\_06\_07
 ------------------------------------------
 
 -   2016-07-19 Lynn Garren : larutils v1\_06\_07 for larsoft v06\_00\_01

@@ -1,4 +1,4 @@
-LArSoft v04\_36\_00\_03 Release Notes(#LArSoft-v04_36_00_03-Release-Notes)
+LArSoft v04\_36\_00\_03 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -24,24 +24,24 @@ LArSoft v04\_36\_00\_03 Release Notes(#LArSoft-v04_36_00_03-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_36_00_03/larsoft-v04_36_00_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   memory improvement for MicroBooNE simulation
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_36\_00\_03(#larsoft-v04_36_00_03)
+larsoft v04\_36\_00\_03
 -------------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
@@ -49,35 +49,35 @@ larsoft v04\_36\_00\_03(#larsoft-v04_36_00_03)
 -   2016-04-12 Lynn Garren : update dependency database
 -   2016-04-12 Lynn Garren : update product versions
 
-lareventdisplay v04\_36\_00\_03(#lareventdisplay-v04_36_00_03)
+lareventdisplay v04\_36\_00\_03
 -----------------------------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
 
-larexamples v04\_36\_00\_03(#larexamples-v04_36_00_03)
+larexamples v04\_36\_00\_03
 ---------------------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
 
-larpandora v04\_36\_00\_03(#larpandora-v04_36_00_03)
+larpandora v04\_36\_00\_03
 -------------------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
 
-larana v04\_36\_00\_03(#larana-v04_36_00_03)
+larana v04\_36\_00\_03
 -----------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
 -   2016-03-29 Gianluca Petrillo : Update after photon library interface change
 
-larreco v04\_36\_00\_03(#larreco-v04_36_00_03)
+larreco v04\_36\_00\_03
 -------------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
 -   2016-03-17 Herbert Greenlee : Reduce size of MCHit.
 -   2016-03-28 Gianluca Petrillo : Replaced copies of ParticleList from backtracker with references.
 
-larsim v04\_36\_00\_03(#larsim-v04_36_00_03)
+larsim v04\_36\_00\_03
 -----------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
@@ -130,24 +130,24 @@ larsim v04\_36\_00\_03(#larsim-v04_36_00_03)
 -   2016-03-22 larsoft User : change the return type of Reconstruct in MCShowerRecoAlg
 -   2016-02-04 Lynn Garren : larsim v04\_21\_00 for larsoft v04\_36\_00
 
-larevt v04\_36\_00\_03(#larevt-v04_36_00_03)
+larevt v04\_36\_00\_03
 -----------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
 
-lardata v04\_36\_00\_03(#lardata-v04_36_00_03)
+lardata v04\_36\_00\_03
 -------------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
 -   2016-03-17 Herbert Greenlee : Change doubles to floats.
 -   2016-03-17 Herbert Greenlee : Reduce size of MCHit.
 
-larcore v04\_36\_00\_03(#larcore-v04_36_00_03)
+larcore v04\_36\_00\_03
 -------------------------------------------------
 
 -   2016-04-12 Lynn Garren : v04\_36\_00\_03
 
-larbatch v01\_20\_08(#larbatch-v01_20_08)
+larbatch v01\_20\_08
 --------------------------------------------
 
 -   2016-03-30 Lynn Garren : larbatch v01\_20\_08 for larsoft v05\_07\_00
@@ -169,7 +169,7 @@ larbatch v01\_20\_08(#larbatch-v01_20_08)
 -   2016-02-18 Lynn Garren : larbatch v01\_20\_04 for larsoft v05\_01\_00
 -   2016-02-16 Tingjun Yang : Use the old method to get crc if the new method does not work.
 
-larutils v1\_05\_06(#larutils-v1_05_06)
+larutils v1\_05\_06
 ------------------------------------------
 
 -   2016-03-30 Lynn Garren : larutils v1\_05\_06 for larsoft v05\_07\_00

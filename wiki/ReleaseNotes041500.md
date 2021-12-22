@@ -1,4 +1,4 @@
-LArSoft v04\_15\_00 Release Notes(#LArSoft-v04_15_00-Release-Notes)
+LArSoft v04\_15\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,54 +24,54 @@ LArSoft v04\_15\_00 Release Notes(#LArSoft-v04_15_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_15_00/larsoft-v04_15_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   improvement in larreco/RecoAlg/PMAlg
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larcore feature/gp\_FixBoostGeometryTest
     -   fix the Geometry test’s use of Boost
     -   uboonecode will also need feature/gp\_FixBoostGeometryTest
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_15\_00(#larsoft-v04_15_00)
+larsoft v04\_15\_00
 ------------------------------------------
 
 -   2015-07-07 Lynn Garren : larsoft v04\_15\_00 for larsoft v04\_15\_00
 -   2015-07-07 Lynn Garren : update product versions
 
-lareventdisplay v04\_05\_05(#lareventdisplay-v04_05_05)
+lareventdisplay v04\_05\_05
 ----------------------------------------------------------
 
 -   2015-07-07 Lynn Garren : lareventdisplay v04\_05\_05 for larsoft v04\_15\_00
 
-larexamples v04\_04\_15(#larexamples-v04_04_15)
+larexamples v04\_04\_15
 --------------------------------------------------
 
 -   2015-07-07 Lynn Garren : larexamples v04\_04\_15 for larsoft v04\_15\_00
 
-larpandora v04\_04\_15(#larpandora-v04_04_15)
+larpandora v04\_04\_15
 ------------------------------------------------
 
 -   2015-07-07 Lynn Garren : larpandora v04\_04\_15 for larsoft v04\_15\_00
 
-larana v04\_07\_07(#larana-v04_07_07)
+larana v04\_07\_07
 ----------------------------------------
 
 -   2015-07-07 Lynn Garren : larana v04\_07\_07 for larsoft v04\_15\_00
 
-larreco v04\_11\_00(#larreco-v04_11_00)
+larreco v04\_11\_00
 ------------------------------------------
 
 -   2015-07-07 Lynn Garren : larreco v04\_11\_00 for larsoft v04\_15\_00
@@ -88,32 +88,32 @@ larreco v04\_11\_00(#larreco-v04_11_00)
 -   2015-06-22 Bruce Baller : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2015-05-30 Bruce Baller : temp mod to get this to work with noifdh
 
-larsim v04\_08\_02(#larsim-v04_08_02)
+larsim v04\_08\_02
 ----------------------------------------
 
 -   2015-07-07 Lynn Garren : larsim v04\_08\_02 for larsoft v04\_15\_00
 
-larevt v04\_08\_05(#larevt-v04_08_05)
+larevt v04\_08\_05
 ----------------------------------------
 
 -   2015-07-07 Lynn Garren : larevt v04\_08\_05 for larsoft v04\_15\_00
 
-lardata v04\_10\_02(#lardata-v04_10_02)
+lardata v04\_10\_02
 ------------------------------------------
 
 -   2015-07-07 Lynn Garren : lardata v04\_10\_02 for larsoft v04\_15\_00
 
-larcore v04\_12\_01(#larcore-v04_12_01)
+larcore v04\_12\_01
 ------------------------------------------
 
 -   2015-07-07 Lynn Garren : larcore v04\_12\_01 for larsoft v04\_15\_00
 -   2015-07-07 Lynn Garren : Merge branch ‘feature/gp\_FixBoostGeometryTest’ into release/v04\_15\_00
 -   2015-06-17 Gianluca Petrillo : Fix to the Boost unit test framework initialization in geometry iterator test.
 
-larbatch v01\_12\_00(#larbatch-v01_12_00)
+larbatch v01\_12\_00
 --------------------------------------------
 
-larutils v1\_02\_00(#larutils-v1_02_00)
+larutils v1\_02\_00
 ------------------------------------------
 
 -   2015-07-08 Lynn Garren : using nu-v1\_13\_01

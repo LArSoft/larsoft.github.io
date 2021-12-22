@@ -1,4 +1,4 @@
-Retired Production Releases(#Retired-Production-Releases)
+Retired Production Releases
 ============================================================
 
 These releases are no longer on /grid/fermiapp/products/larsoft. However, the necessary files are archived and the release can be restored upon request.

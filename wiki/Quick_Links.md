@@ -1,4 +1,4 @@
-Quick Links(#Quick-Links)
+Quick Links
 ============================
 
 Quick Start Guides - experiment specific

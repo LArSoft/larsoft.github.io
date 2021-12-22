@@ -1,4 +1,4 @@
-Update to art v3\_02(#Update-to-art-v3_02)
+Update to art v3\_02
 =============================================
 
 -   **Table of contents**
@@ -19,12 +19,12 @@ Update to art v3\_02(#Update-to-art-v3_02)
 
 With [art 3.02.00](/redmine/projects/art/wiki/Series_302), art has been split into art and art\_root\_io. This will allow the use of other IO options in the future.
 
-Migration script(#Migration-script) {.wiki-class-count}
+Migration script
 --------------------------------------
 
 art\_root\_io contains a migration script, \$ART\_ROOT\_IO\_DIR/tools/migration/art-3.02-migration. Please make sure you are using art\_root\_io v1\_00\_04 or later. Earlier versions contained a bug. **This script is designed to work with a single directory designation, it does not accept wildcards.**
 
-Products(#Products) {.wiki-class-count}
+Products
 ----------------------
 
 art 3.02 has a new product stack, which includes boost v1\_69\_0 and root v6\_16\_00.
@@ -53,10 +53,10 @@ Updates to products used by larsoft and the experiments:
 -   caffe NO LONGER IN USE
 -   cetbuildtools v7\_11\_00 or later is required for boost cmake support
 
-Problems encountered(#Problems-encountered) {.wiki-class-count}
+Problems encountered
 ----------------------------------------------
 
-### Unrecognized GENIE header(#Unrecognized-GENIE-header) {.wiki-class-count}
+### Unrecognized GENIE header
 
 nutools v2\_29\_00 is built with GENIE v2, but the nutools headers have been designed to work with either GENIE v2 or GENIE v3. They default to looking for GENIE v3.
 
@@ -85,7 +85,7 @@ Compile with -DGENIE\_PRE\_R3.\
 
      cet_report_compiler_flags()
 
-### EDProducer no longer has a default constructor(#EDProducer-no-longer-has-a-default-constructor) {.wiki-class-count}
+### EDProducer no longer has a default constructor
 
 Symptom 1: The default constructor is called explicitly.\
 
@@ -163,7 +163,7 @@ Solution 2:\
        if (!p.has_key("generated_systematic_provider_configuration")) {
          throw no_systprovider_key()
 
-### Missing root library(#Missing-root-library) {.wiki-class-count}
+### Missing root library
 
 The symptom:\
 
@@ -186,7 +186,7 @@ The symptom:\
 The solution:\
 Add \${ROOT\_CORE} to the appropriate link list in CMakeLists.txt
 
-### Undefined reference reference to \`typeinfo for art::TFileService’(#Undefined-reference-reference-to-typeinfo-for-artTFileService) {.wiki-class-count}
+### Undefined reference reference to \`typeinfo for art::TFileService’
 
 The symptom:\
 
@@ -201,7 +201,7 @@ The symptom:\
 The solution:\
 add \${ART\_ROOT\_IO\_TFILESERVICE\_SERVICE} to the appropriate link list
 
-### fhicl no longer recognizes boost::any(#fhicl-no-longer-recognizes-boostany) {.wiki-class-count}
+### fhicl no longer recognizes boost::any
 
 std::any replaces boost::any when compiling with std=c++17. std::any is identical to boost::any.
 
@@ -252,7 +252,7 @@ The solution:\
          cfg.put("NoisyChannels", fNoisyChannels);
          cfg.put("BadChannels", fBadChannels);
 
-### Boost date\_time(#Boost-date_time) {.wiki-class-count}
+### Boost date\_time
 
 The symptom:\
 
@@ -268,7 +268,7 @@ With Boost 1.69, it is now a requirement that the argument to microseconds(…) 
 
 We have used an explicit cast to int in the feature branch, but we could have chosen long int, or std::int64\_t. Since this problem is in MicroBooNE code (ubraw), someone from MicroBooNE should review and decide what they think is appropriate.
 
-### MixFilter(#MixFilter) {.wiki-class-count}
+### MixFilter
 
 The symptom:\
 
@@ -282,11 +282,11 @@ The symptom:\
 
 The solution is documented on the [art 3.02 breaking changes](/redmine/projects/art/wiki/302_breaking_changes#MixFilterltDetail-RootIOPolicygt-declaration) page
 
-### CLHEP 2.4(#CLHEP-24) {.wiki-class-count}
+### CLHEP 2.4
 
 This is the first release of larsoft to use CLHEP 2.4. MixMax is now the default random number generator in HepRandom. Previously the default was JamesRandom. Make sure you set the random number generator instead of using the default.
 
-### Construction of unused modules(#Construction-of-unused-modules) {.wiki-class-count}
+### Construction of unused modules
 
 *art* 3.02 unnecessarily constructs modules that have been configured but that are not included on any path. This bug has been document in issue [\#22407](/redmine/issues/22407 "Bug: art 3.02.04 constructs modules that are not included in paths (Closed)"). The work around is to provide the `'--prune-config'` `lar` program option (e.g. ‘lar -c \<my\_config.fcl\> –prune-config …’).
 
@@ -300,7 +300,7 @@ A symptom of the problem:\
     ---- Can't find key END
     %MSG
 
-### Using ROOT in the constructors of services and modules(#Using-ROOT-in-the-constructors-of-services-and-modules) {.wiki-class-count}
+### Using ROOT in the constructors of services and modules
 
 Due to the splitting of *art* into *art* and *art\_root\_io*, the framework’s custom setup of ROOT occurs later than it used to. The consequence is that:
 

@@ -1,4 +1,4 @@
-Time profiling tools(#Time-profiling-tools)
+Time profiling tools
 ==============================================
 
 -   **Table of contents**
@@ -9,7 +9,7 @@ Time profiling tools(#Time-profiling-tools)
     -   [fast](#fast)
     -   [gperftools](#gperftools)
 
-valgrind (`callgrind` tool)(#valgrind-callgrind-tool)
+valgrind (`callgrind` tool)
 --------------------------------------------------------
 
 `valgrind` comes with a set of amazing tools. At time of writing, it’s at version 3.9.\
@@ -34,7 +34,7 @@ If there are more than one sessions of `valgrind` running, it will be necessary 
 Note that after each dump, the counters are reset: to have the total usage, files need to be merged (just `cat` kind-of-does).\
 When using `kcachegrind`, I have found that the concatenated files report twice the calls. A panel allows to select which part to include, and in fact each part is showing twice. Just selecting one of each seems to do the trick.
 
-Ignominous Profiler (igprof)(#Ignominous-Profiler-igprof)
+Ignominous Profiler (igprof)
 ------------------------------------------------------------
 
 -   open source
@@ -49,7 +49,7 @@ Additional tools, also provided by `igprof`, will allow queries and human-readab
 The `igprof` profiler also allows memory profiling.\
 Public documentation is available at [http://igprof.org/](http://igprof.org/).
 
-### Quick start(#Quick-start)
+### Quick start
 
 `igprof` may be available as UPS product^[1](#fn1)^. ROOT does not play well with profilers relying on `SIGPROF` signal^[2](#fn2)^, therefore special options are required (limiting the profiling to `lar` process seems to be enough.\
 Example of performance profiling run:\
@@ -70,7 +70,7 @@ The command creates a file with profiling information (`CONFIG-DATE-performance.
 
 The following profilers are not recommended.
 
-[fast](/redmine/projects/fast/wiki)(#fast)
+[fast](/redmine/projects/fast/wiki)
 ---------------------------------------------
 
 > This profiler is not currently maintained.
@@ -94,7 +94,7 @@ The only limit is that it has not been updated in a while, and that could affect
 ^1^ Stack unwinding is the discovery of the full chain of calls of the current function.\
 It’s a completely non-trivial algorithm; `fast` (among others) relies on `libunwind`, which is distributed with `gcc` and `binutils`.
 
-gperftools(#gperftools)
+gperftools
 --------------------------
 
 -   does not require recompilation

@@ -1,4 +1,4 @@
-Code and Performance analysis tools(#Code-and-Performance-analysis-tools)
+Code and Performance analysis tools
 ============================================================================
 
 the following tools are available to be used with an associated expert and consultant to help. This consultation will support running the tool on the code module(s), in the interpretation of the results and in identifying specific causes of any anomolies or issues detected. Please send [email to the LArSoft team](mailto:larsoft-team@fnal.gov) if you are interested in using any of these services.
@@ -11,7 +11,7 @@ the following tools are available to be used with an associated expert and consu
 
 Eventually a defined level of support and availability for this running and analysis will be available through the service desk and included as a Service Offering in the Scientific Software Service Catalog (currently under construction).
 
-Instructions and Guidelines(#Instructions-and-Guidelines)
+Instructions and Guidelines
 ------------------------------------------------------------
 
 -   igprof [http://igprof.org/](http://igprof.org/) the tool is available on larsoftbuild06.fnal.gov

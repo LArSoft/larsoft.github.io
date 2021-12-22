@@ -1,4 +1,4 @@
-LArSoft v04\_27\_00 Release Notes(#LArSoft-v04_27_00-Release-Notes)
+LArSoft v04\_27\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,7 +24,7 @@ LArSoft v04\_27\_00 Release Notes(#LArSoft-v04_27_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_27_00/larsoft-v04_27_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   use art v1\_16\_02
@@ -33,19 +33,19 @@ Purpose(#Purpose)
     -   [presentation](https://indico.fnal.gov/getFile.py/access?contribId=11&resId=1&materialId=slides&confId=10545)
 -   except for required changes, the code is identical to v04\_26\_02
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   built with art v1\_16\_02 (s18) and gcc v4\_9\_3 (e9)
 -   OSX builds on XCode 7.x require a patch that is in gcc v4\_9\_3
 -   see feature/for\_art\_v1\_16\_02 for argoneutcode, dunetpc, duneutil, uboonecode, ubutil
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   dealt with a few new unused variable reports
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 Product
@@ -464,10 +464,10 @@ v1\_05\_03
 
 v1\_05\_03
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_27\_00(#larsoft-v04_27_00)
+larsoft v04\_27\_00
 ------------------------------------------
 
 -   2015-10-16 Lynn Garren : larsoft v04\_27\_00 for larsoft v04\_27\_00
@@ -479,57 +479,57 @@ larsoft v04\_27\_00(#larsoft-v04_27_00)
 -   2015-10-15 Lynn Garren : use art v1\_16\_02 and adding larbase distribution
 -   2015-10-14 Lynn Garren : libwda v2\_22\_0 and ifdhc v1\_8\_7
 
-lareventdisplay v04\_11\_00(#lareventdisplay-v04_11_00)
+lareventdisplay v04\_11\_00
 ----------------------------------------------------------
 
 -   2015-10-16 Lynn Garren : lareventdisplay v04\_11\_00 for larsoft v04\_27\_00
 -   2015-10-16 Lynn Garren : just draw the line
 
-larexamples v04\_06\_00(#larexamples-v04_06_00)
+larexamples v04\_06\_00
 --------------------------------------------------
 
 -   2015-10-16 Lynn Garren : larexamples v04\_06\_00 for larsoft v04\_27\_00
 
-larpandora v04\_08\_00(#larpandora-v04_08_00)
+larpandora v04\_08\_00
 ------------------------------------------------
 
 -   2015-10-16 Lynn Garren : larpandora v04\_08\_00 for larsoft v04\_27\_00
 
-larana v04\_15\_00(#larana-v04_15_00)
+larana v04\_15\_00
 ----------------------------------------
 
 -   2015-10-16 Lynn Garren : larana v04\_15\_00 for larsoft v04\_27\_00
 
-larreco v04\_20\_00(#larreco-v04_20_00)
+larreco v04\_20\_00
 ------------------------------------------
 
 -   2015-10-16 Lynn Garren : larreco v04\_20\_00 for larsoft v04\_27\_00
 -   2015-10-16 Lynn Garren : channelStatus is unused
 
-larsim v04\_13\_00(#larsim-v04_13_00)
+larsim v04\_13\_00
 ----------------------------------------
 
 -   2015-10-16 Lynn Garren : larsim v04\_13\_00 for larsoft v04\_27\_00
 
-larevt v04\_13\_00(#larevt-v04_13_00)
+larevt v04\_13\_00
 ----------------------------------------
 
 -   2015-10-16 Lynn Garren : larevt v04\_13\_00 for larsoft v04\_27\_00
 
-lardata v04\_16\_00(#lardata-v04_16_00)
+lardata v04\_16\_00
 ------------------------------------------
 
 -   2015-10-16 Lynn Garren : lardata v04\_16\_00 for larsoft v04\_27\_00
 -   2015-10-15 Lynn Garren : use proper names for boost libraries
 
-larcore v04\_18\_00(#larcore-v04_18_00)
+larcore v04\_18\_00
 ------------------------------------------
 
 -   2015-10-16 Lynn Garren : larcore v04\_18\_00 for larsoft v04\_27\_00
 -   2015-10-15 Lynn Garren : ignore unused variables for now
 
-larbatch v01\_18\_00(#larbatch-v01_18_00)
+larbatch v01\_18\_00
 --------------------------------------------
 
-larutils v1\_04\_00(#larutils-v1_04_00)
+larutils v1\_04\_00
 ------------------------------------------

@@ -1,4 +1,4 @@
-LArSoft v04\_32\_01 Release Notes(#LArSoft-v04_32_01-Release-Notes)
+LArSoft v04\_32\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,22 +24,22 @@ LArSoft v04\_32\_01 Release Notes(#LArSoft-v04_32_01-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_32_01/larsoft-v04_32_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   weekly release
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larevt feature/eberly\_SIOVarrays
 -   larcore feature/gp\_LocateVolumeByName
 -   larsim feature/mibass\_LArG4KeepByVolume
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ----------- ------------ ------------ -------
@@ -49,10 +49,10 @@ Updated dependencies(#Updated-dependencies)
   nutools     v1\_19\_00   e9           
   ----------- ------------ ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_32\_01(#larsoft-v04_32_01)
+larsoft v04\_32\_01
 ------------------------------------------
 
 -   2016-01-06 Lynn Garren : larsoft v04\_32\_01 for larsoft v04\_32\_01
@@ -61,19 +61,19 @@ larsoft v04\_32\_01(#larsoft-v04_32_01)
 -   2016-01-06 Lynn Garren : update product versions
 -   2016-01-06 Lynn Garren : update dependency database
 
-lareventdisplay v04\_13\_03(#lareventdisplay-v04_13_03)
+lareventdisplay v04\_13\_03
 ----------------------------------------------------------
 
 -   2016-01-06 Lynn Garren : lareventdisplay v04\_13\_03 for larsoft v04\_32\_01
 -   2016-01-06 Lynn Garren : lareventdisplay v04\_13\_02 for larsoft v04\_32\_00
 
-larexamples v04\_06\_10(#larexamples-v04_06_10)
+larexamples v04\_06\_10
 --------------------------------------------------
 
 -   2016-01-06 Lynn Garren : larexamples v04\_06\_10 for larsoft v04\_32\_01
 -   2016-01-06 Lynn Garren : larexamples v04\_06\_09 for larsoft v04\_32\_00
 
-larpandora v04\_09\_01(#larpandora-v04_09_01)
+larpandora v04\_09\_01
 ------------------------------------------------
 
 -   2016-01-06 Lynn Garren : larpandora v04\_09\_01 for larsoft v04\_32\_01
@@ -85,7 +85,7 @@ larpandora v04\_09\_01(#larpandora-v04_09_01)
 -   2015-12-21 Andrew Blake : Move (increasing number of) analyzer modules into a separate package
 -   2015-12-21 Andrew Blake : Adding information on neutrino PFParticle to monitoring ntuple (wasn’t there before)
 
-larana v04\_16\_08(#larana-v04_16_08)
+larana v04\_16\_08
 ----------------------------------------
 
 -   2016-01-06 Lynn Garren : larana v04\_16\_08 for larsoft v04\_32\_01
@@ -94,7 +94,7 @@ larana v04\_16\_08(#larana-v04_16_08)
 -   2015-12-21 Alex Himmel : Remove the commented out previous code.
 -   2015-12-21 Alex Himmel : Remove the TimeService::TriggerTime() (returns 0 in DUNE) from consideration when determining the minimum flash time in an event. When flash timestamps are absolute times instead of relative times this causes impossibly large vectors to be reserved, resulting in crashes.
 
-larreco v04\_27\_01(#larreco-v04_27_01)
+larreco v04\_27\_01
 ------------------------------------------
 
 -   2016-01-06 Lynn Garren : larreco v04\_27\_01 for larsoft v04\_32\_01
@@ -119,7 +119,7 @@ larreco v04\_27\_01(#larreco-v04_27_01)
 -   2015-12-09 Mike Wallbank : Rewriting on the showering module
 -   2015-12-08 Mike Wallbank : Improvements in the shower property finding
 
-larsim v04\_17\_01(#larsim-v04_17_01)
+larsim v04\_17\_01
 ----------------------------------------
 
 -   2016-01-06 Lynn Garren : larsim v04\_17\_01 for larsoft v04\_32\_01
@@ -143,7 +143,7 @@ larsim v04\_17\_01(#larsim-v04_17_01)
 -   2015-11-12 Katherine Woodruff : Change cryostat from cylinder to box
 -   2015-11-11 Katherine Woodruff : Add option to save dirt events that enter cryostat
 
-larevt v04\_14\_00(#larevt-v04_14_00)
+larevt v04\_14\_00
 ----------------------------------------
 
 -   2016-01-06 Lynn Garren : larevt v04\_14\_00 for larsoft v04\_32\_01
@@ -152,12 +152,12 @@ larevt v04\_14\_00(#larevt-v04_14_00)
 -   2015-12-17 Brandon Eberly : Work around a bug in libwda
 -   2015-12-16 Brandon Eberly : Can now retrieve double arrays from database
 
-lardata v04\_19\_04(#lardata-v04_19_04)
+lardata v04\_19\_04
 ------------------------------------------
 
 -   2016-01-06 Lynn Garren : lardata v04\_19\_04 for larsoft v04\_32\_00
 
-larcore v04\_24\_00(#larcore-v04_24_00)
+larcore v04\_24\_00
 ------------------------------------------
 
 -   2016-01-06 Lynn Garren : larcore v04\_24\_00 for larsoft v04\_32\_00
@@ -166,7 +166,7 @@ larcore v04\_24\_00(#larcore-v04_24_00)
 -   2015-12-07 Gianluca Petrillo : Added geometry function to return geometry nodes with their full path by exact volume name
 -   2015-12-04 Gianluca Petrillo : Added geometry function to locate volumes by name (and its test)
 
-larbatch v01\_20\_02(#larbatch-v01_20_02)
+larbatch v01\_20\_02
 --------------------------------------------
 
 -   2016-01-06 Lynn Garren : Merge branch ‘release/v04\_32\_00’
@@ -176,7 +176,7 @@ larbatch v01\_20\_02(#larbatch-v01_20_02)
 -   2015-12-21 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
 -   2015-12-21 Herbert Greenlee : Add informative message when project.py adds layer two for a file in dCache.
 
-larutils v1\_04\_06(#larutils-v1_04_06)
+larutils v1\_04\_06
 ------------------------------------------
 
 -   2016-01-06 Lynn Garren : larutils v1\_04\_06 for larsoft v04\_32\_00

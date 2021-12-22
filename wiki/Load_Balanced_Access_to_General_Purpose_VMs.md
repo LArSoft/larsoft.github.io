@@ -1,4 +1,4 @@
-Load Balanced Access to General Purpose VMs(#Load-Balanced-Access-to-General-Purpose-VMs)
+Load Balanced Access to General Purpose VMs
 ============================================================================================
 
 The following material is provided as a base, but the specifics depend on your experiment.

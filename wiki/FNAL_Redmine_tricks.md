@@ -1,4 +1,4 @@
-FNAL Redmine tricks(#FNAL-Redmine-tricks)
+FNAL Redmine tricks
 ============================================
 
 -   **Table of contents**
@@ -14,12 +14,12 @@ FNAL Redmine tricks(#FNAL-Redmine-tricks)
     -   [DOT graphs](#DOT-graphs)
     -   [List of supported macros](#List-of-supported-macros)
 
-Empty page - for testing(#Empty-page-for-testing)
+Empty page - for testing
 ----------------------------------------------------
 
 An empty page for your tests: [LArSoft Redmine sandbox](LArSoft_Redmine_sandbox?parent=FNAL_Redmine_tricks); remember to clean up after yourself!
 
-Calling macros(#Calling-macros)
+Calling macros
 ----------------------------------
 
 A macro can be called by enclosing its name in double braces; for example:\
@@ -30,7 +30,7 @@ A macro can be called by enclosing its name in double braces; for example:\
 
 > Hello world! Object: WikiContent, Arguments: arg=“argument text” and a 13 bytes long block of text.
 
-Syntax highlight for code(#Syntax-highlight-for-code)
+Syntax highlight for code
 --------------------------------------------------------
 
 The standard way to get some syntax highlight is to switch to HTML mode with.
@@ -161,7 +161,7 @@ Class names are
       ExpandPath "$Param" 
     done
 
-References to other redmine locations(#References-to-other-redmine-locations)
+References to other redmine locations
 --------------------------------------------------------------------------------
 
 -   **issue trackers**: `issue #1083` renders as: issue [\#1083](/redmine/issues/1083 "Bug: filter::ChannelFilter should be made into a service (Closed)") (grayed and barred if closed); the numbering is unique within Fermilab Redmine
@@ -179,7 +179,7 @@ References to other redmine locations(#References-to-other-redmine-locations)
     -   `version:v06_49_00` renders as [v06\_49\_00](/redmine/versions/1370)
     -   `art:version:2.09.00` renders as [2.09.00](/redmine/versions/1352)
 
-Custom macro test(#Custom-macro-test)
+Custom macro test
 ----------------------------------------
 
 *(this is currently incorrect or not working)*
@@ -189,7 +189,7 @@ end
 
 {{my\_macro}}
 
-Collapsing text(#Collapsing-text)
+Collapsing text
 ------------------------------------
 
 The following macro creates a collapsible window with the specified text as short description.\
@@ -207,14 +207,14 @@ The extended text can contain macros; e.g.:\
 >  This is a block of text that is collapsed by default.\
 >  It can be expanded by clicking a link.
 
-Mathematical formulas with LaTeX(#Mathematical-formulas-with-LaTeX)
+Mathematical formulas with LaTeX
 ----------------------------------------------------------------------
 
     {{latex($\beta\tau\Theta\theta$)}}
 
 > ![\$\\beta\\tau\\Theta\\theta\$](/redmine/wiki_external_filter?index=0&macro=latex&name=b9207d95767c15eba1c44746b98e0ff410eb2c90fe6ff97d0b448ec349fc12f5)
 
-Other tricks with LaTeX(#Other-tricks-with-LaTeX)
+Other tricks with LaTeX
 ----------------------------------------------------
 
 Today’s date:\
@@ -231,7 +231,7 @@ Minutes since midnight: \
 
 Note: The above do not seem to consistently update when the page is edited.
 
-DOT graphs(#DOT-graphs)
+DOT graphs
 --------------------------
 
 This seems not to work…\
@@ -240,7 +240,7 @@ This seems not to work…\
 
 > Error executing the **graphviz** macro (No such file or directory - /usr/bin/dot)
 
-List of supported macros(#List-of-supported-macros)
+List of supported macros
 ------------------------------------------------------
 
 The following list can be rendered by running the `{{macro_list}}` macro:

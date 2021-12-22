@@ -1,4 +1,4 @@
-LArSoft v06\_29\_00 Release Notes(#LArSoft-v06_29_00-Release-Notes)
+LArSoft v06\_29\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,57 +30,57 @@ LArSoft v06\_29\_00 Release Notes(#LArSoft-v06_29_00-Release-Notes)
 Download instructions for [larsoft v06\_29\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_29_00/larsoft-v06_29_00.html)\
 Download instructions for [just larsoftobj v1\_15\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_15_00/larsoftobj-v1_15_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   feature/gp\_SpeedUpSpaceCharge (larevt, larsim, uboonecode and dunetpc)
     -   [March 28 presentation](https://indico.fnal.gov/getFile.py/access?contribId=5&resId=0&materialId=slides&confId=14108)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_29\_00(#larsoft-v06_29_00)
+larsoft v06\_29\_00
 ------------------------------------------
 
 -   2017-03-29 Lynn Garren : larsoft v06\_29\_00 for larsoft v06\_29\_00
 -   2017-03-29 Lynn Garren : updating larsoftobj
 -   2017-03-29 Lynn Garren : update product versions
 
-lareventdisplay v06\_03\_03(#lareventdisplay-v06_03_03)
+lareventdisplay v06\_03\_03
 ----------------------------------------------------------
 
 -   2017-03-29 Lynn Garren : lareventdisplay v06\_03\_03 for larsoft v06\_29\_00
 
-larexamples v06\_01\_19(#larexamples-v06_01_19)
+larexamples v06\_01\_19
 --------------------------------------------------
 
 -   2017-03-29 Lynn Garren : larexamples v06\_01\_19 for larsoft v06\_29\_00
 
-larpandora v06\_08\_05(#larpandora-v06_08_05)
+larpandora v06\_08\_05
 ------------------------------------------------
 
 -   2017-03-29 Lynn Garren : larpandora v06\_08\_05 for larsoft v06\_29\_00
 
-larwirecell v06\_01\_01(#larwirecell-v06_01_01)
+larwirecell v06\_01\_01
 --------------------------------------------------
 
 -   2017-03-29 Lynn Garren : larwirecell v06\_01\_01 for larsoft v06\_29\_00
 
-larana v06\_03\_23(#larana-v06_03_23)
+larana v06\_03\_23
 ----------------------------------------
 
 -   2017-03-29 Lynn Garren : larana v06\_03\_23 for larsoft v06\_29\_00
 
-larreco v06\_23\_00(#larreco-v06_23_00)
+larreco v06\_23\_00
 ------------------------------------------
 
 -   2017-03-29 Lynn Garren : larreco v06\_23\_00 for larsoft v06\_29\_00
@@ -93,7 +93,7 @@ larreco v06\_23\_00(#larreco-v06_23_00)
 -   2017-03-22 Robert Sulej : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2017-03-22 Robert Sulej : read any length of cnn output vector and dig out em-like and track-like values by the nameof columns
 
-larsim v06\_15\_00(#larsim-v06_15_00)
+larsim v06\_15\_00
 ----------------------------------------
 
 -   2017-03-29 Lynn Garren : larsim v06\_15\_00 for larsoft v06\_29\_00
@@ -101,41 +101,41 @@ larsim v06\_15\_00(#larsim-v06_15_00)
 -   2017-03-29 Gianluca Petrillo : Bug fix (fatal typo) in empty\_events.fcl
 -   2017-03-24 Thomas Junk : Fix energy histogram upper edge – thanks to Juergen Reichenbacher for spotting that.
 
-larevt v06\_08\_00(#larevt-v06_08_00)
+larevt v06\_08\_00
 ----------------------------------------
 
 -   2017-03-29 Lynn Garren : larevt v06\_08\_00 for larsoft v06\_29\_00
 -   2017-03-23 Gianluca Petrillo : Interface change: SpaceCharge provider returns geometry vectors.
 
-lardata v06\_16\_01(#lardata-v06_16_01)
+lardata v06\_16\_01
 ------------------------------------------
 
 -   2017-03-29 Lynn Garren : lardata v06\_16\_01 for larsoft v06\_29\_00
 -   2017-03-22 Robert Sulej : add query for the index with a given column name
 
-larcore v06\_06\_01(#larcore-v06_06_01)
+larcore v06\_06\_01
 ------------------------------------------
 
 -   2017-03-29 Lynn Garren : larcore v06\_06\_01 for larsoft v06\_29\_00
 -   2017-03-23 Gianluca Petrillo : Fix the behaviour of IntersectionPoint().
 
-larpandoracontent v03\_02\_00(#larpandoracontent-v03_02_00)
+larpandoracontent v03\_02\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_15\_00(#larsoftobj-v1_15_00)
+larsoftobj v1\_15\_00
 ----------------------------------------------
 
 -   2017-03-29 Lynn Garren : larsoftobj v1\_15\_00 for larsoft v06\_29\_00
 -   2017-03-29 Lynn Garren : update versions and add studio
 
-lardataobj v1\_13\_02(#lardataobj-v1_13_02)
+lardataobj v1\_13\_02
 ----------------------------------------------
 
 -   2017-03-29 Lynn Garren : lardataobj v1\_13\_02 for larsoft v06\_29\_00
 -   2017-03-24 Robert Sulej : add typename for feature vector description
 -   2017-03-22 Robert Sulej : comment out message when not-throwing constructor fails with finding data
 
-larcoreobj v1\_09\_00(#larcoreobj-v1_09_00)
+larcoreobj v1\_09\_00
 ----------------------------------------------
 
 -   2017-03-29 Lynn Garren : larcoreobj v1\_09\_00 for larsoft v06\_29\_00
@@ -143,7 +143,7 @@ larcoreobj v1\_09\_00(#larcoreobj-v1_09_00)
 -   2017-03-23 Gianluca Petrillo : Added utility for computing a middle point.
 -   2017-03-23 Gianluca Petrillo : Added geometry vector type definitions.
 
-larbatch v01\_28\_01(#larbatch-v01_28_01)
+larbatch v01\_28\_01
 --------------------------------------------
 
 -   2017-03-29 Lynn Garren : larbatch v01\_28\_01 for larsoft v06\_29\_00
@@ -153,5 +153,5 @@ larbatch v01\_28\_01(#larbatch-v01_28_01)
 -   2017-03-22 Herbert Greenlee : Streamline xml parsing. Cache results of xml parsing.
 -   2017-03-16 Herbert Greenlee : Make docheck\_locations more efficienty (suggested by Tom Junk).
 
-larutils v1\_12\_01(#larutils-v1_12_01)
+larutils v1\_12\_01
 ------------------------------------------

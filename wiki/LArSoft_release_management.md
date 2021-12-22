@@ -1,4 +1,4 @@
-LArSoft release management(#LArSoft-release-management)
+LArSoft release management
 ==========================================================
 
 -   **Table of contents**
@@ -7,7 +7,7 @@ LArSoft release management(#LArSoft-release-management)
     -   [Tagged release](#Tagged-release)
     -   [Migration Notes](#Migration-Notes)
 
-Release types(#Release-types)
+Release types
 --------------------------------
 
 -   [LArSoft release naming and retention policy](LArSoft_release_naming_policy)
@@ -22,13 +22,13 @@ Release types(#Release-types)
     -   Patch releases are built from a tagged release.
     -   If a release is named vaa\_bb\_cc, the first patch release will be vaa\_bb\_cc\_01.
 
-Tagged release(#Tagged-release)
+Tagged release
 ----------------------------------
 
 -   [How to tag and build a LArSoft vxx\_yy\_zz release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)
 -   [How to tag and build a LArSoft patch release](How_to_tag_and_build_a_LArSoft_patch_release)
 
-Migration Notes(#Migration-Notes)
+Migration Notes
 ------------------------------------
 
 -   [Move to v05](Move_to_v05)

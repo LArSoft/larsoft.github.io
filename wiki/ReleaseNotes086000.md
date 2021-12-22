@@ -1,4 +1,4 @@
-LArSoft v08\_60\_00 Release Notes(#LArSoft-v08_60_00-Release-Notes)
+LArSoft v08\_60\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v08\_60\_00 Release Notes(#LArSoft-v08_60_00-Release-Notes)
 Download instructions for [larsoft v08\_60\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_60_00/larsoft-v08_60_00.html)\
 Download instructions for [just larsoftobj v08\_29\_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_03/larsoftobj-v08_29_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardataobj PR 8
@@ -70,62 +70,62 @@ New features(#New-features)
         -   support for filling the library with information from sim::SimPhotonsLite instead of sim::SimPhotons
     -   The whole photon library generation pattern is in need of a deep redesign, which is not attempted here.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v4\_01\_04
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_60\_00(#larsoft-v08_60_00)
+larsoft v08\_60\_00
 ------------------------------------------
 
 -   2020-07-29 Lynn Garren : larsoft v08\_60\_00 for larsoft v08\_60\_00
 -   2020-07-29 Lynn Garren : product versions
 -   2020-07-23 Lynn Garren : including bxdecay0
 
-lareventdisplay v08\_12\_23(#lareventdisplay-v08_12_23)
+lareventdisplay v08\_12\_23
 ----------------------------------------------------------
 
 -   2020-07-29 Lynn Garren : lareventdisplay v08\_12\_23 for larsoft v08\_60\_00
 
-larexamples v08\_06\_23(#larexamples-v08_06_23)
+larexamples v08\_06\_23
 --------------------------------------------------
 
 -   2020-07-29 Lynn Garren : larexamples v08\_06\_23 for larsoft v08\_60\_00
 
-larg4 v08\_14\_07(#larg4-v08_14_07)
+larg4 v08\_14\_07
 --------------------------------------
 
 -   2020-07-29 Lynn Garren : larg4 v08\_14\_07 for larsoft v08\_60\_00
 
-larpandora v08\_13\_03(#larpandora-v08_13_03)
+larpandora v08\_13\_03
 ------------------------------------------------
 
 -   2020-07-29 Lynn Garren : larpandora v08\_13\_03 for larsoft v08\_60\_00
 
-larsimrad v08\_00\_01(#larsimrad-v08_00_01)
+larsimrad v08\_00\_01
 ----------------------------------------------
 
 -   2020-07-29 Lynn Garren : larsimrad v08\_00\_01 for larsoft v08\_60\_00
 -   2020-07-29 Lynn Garren : find headers
 -   2020-07-29 Lynn Garren : ignore temporary files
 
-larrecodnn v08\_06\_03(#larrecodnn-v08_06_03)
+larrecodnn v08\_06\_03
 ------------------------------------------------
 
 -   2020-07-29 Lynn Garren : larrecodnn v08\_06\_03 for larsoft v08\_60\_00
 
-larwirecell v08\_12\_17(#larwirecell-v08_12_17)
+larwirecell v08\_12\_17
 --------------------------------------------------
 
 -   2020-07-29 Lynn Garren : larwirecell v08\_12\_17 for larsoft v08\_60\_00
 
-larana v08\_17\_15(#larana-v08_17_15)
+larana v08\_17\_15
 ----------------------------------------
 
 -   2020-07-29 Lynn Garren : larana v08\_17\_15 for larsoft v08\_60\_00
@@ -139,12 +139,12 @@ larana v08\_17\_15(#larana-v08_17_15)
 -   2020-07-16 Gianluca Petrillo : SimPhotonCounter: PhotonVisibilityService moved to data member.
 -   2020-07-15 Gianluca Petrillo : SimPhotonCounter: MCParticle not demanded when not needed.
 
-larreco v08\_32\_08(#larreco-v08_32_08)
+larreco v08\_32\_08
 ------------------------------------------
 
 -   2020-07-29 Lynn Garren : larreco v08\_32\_08 for larsoft v08\_60\_00
 
-larsim v08\_31\_00(#larsim-v08_31_00)
+larsim v08\_31\_00
 ----------------------------------------
 
 -   2020-07-29 Lynn Garren : larsim v08\_31\_00 for larsoft v08\_60\_00
@@ -162,20 +162,20 @@ larsim v08\_31\_00(#larsim-v08_31_00)
 -   2020-07-16 Gianluca Petrillo : Added support to generate SimPhotonsLite with full optical simulation.
 -   2020-07-16 Gianluca Petrillo : Allow disabling particle list output in LArG4
 
-larevt v08\_12\_01(#larevt-v08_12_01)
+larevt v08\_12\_01
 ----------------------------------------
 
 -   2020-07-29 Lynn Garren : larevt v08\_12\_01 for larsoft v08\_60\_00
 
-lardata v08\_15\_10(#lardata-v08_15_10)
+lardata v08\_15\_10
 ------------------------------------------
 
 -   2020-07-29 Lynn Garren : lardata v08\_15\_10 for larsoft v08\_60\_00
 
-larcore v08\_11\_10(#larcore-v08_11_10)
+larcore v08\_11\_10
 ------------------------------------------
 
-larpandoracontent v03\_19\_00(#larpandoracontent-v03_19_00)
+larpandoracontent v03\_19\_00
 --------------------------------------------------------------
 
 -   2020-07-29 Lynn Garren : larpandoracontent v03\_19\_00 for larsoft v08\_60\_00
@@ -226,32 +226,32 @@ larpandoracontent v03\_19\_00(#larpandoracontent-v03_19_00)
 -   2020-03-25 Isobel Mawby : selection of hits within shower that fall between tracks
 -   2020-03-23 Isobel Mawby : initial push
 
-larsoftobj v08\_29\_03(#larsoftobj-v08_29_03)
+larsoftobj v08\_29\_03
 ------------------------------------------------
 
 -   2020-07-29 Lynn Garren : larsoftobj v08\_29\_03 for larsoft v08\_60\_00
 -   2020-07-29 Lynn Garren : cleanup
 -   2020-07-29 Lynn Garren : product versions
 
-lardataobj v08\_11\_03(#lardataobj-v08_11_03)
+lardataobj v08\_11\_03
 ------------------------------------------------
 
 -   2020-07-29 Lynn Garren : lardataobj v08\_11\_03 for larsoft v08\_60\_00
 -   2020-07-29 Lynn Garren : Merge pull request \#8 from PetrilloAtWork/feature/gp\_SpacePoint
 -   2020-07-25 Gianluca Petrillo : Extended \`recob::SpacePoint\` interface.
 
-lardataalg v08\_13\_15(#lardataalg-v08_13_15)
+lardataalg v08\_13\_15
 ------------------------------------------------
 
 -   2020-07-29 Lynn Garren : lardataalg v08\_13\_15 for larsoft v08\_60\_00
 
-larcorealg v08\_22\_02(#larcorealg-v08_22_02)
+larcorealg v08\_22\_02
 ------------------------------------------------
 
-larcoreobj v08\_12\_01(#larcoreobj-v08_12_01)
+larcoreobj v08\_12\_01
 ------------------------------------------------
 
-webevd v08\_01\_00(#webevd-v08_01_00)
+webevd v08\_01\_00
 ----------------------------------------
 
 -   2020-07-29 Lynn Garren : webevd v08\_01\_00 for larsoft v08\_60\_00
@@ -264,8 +264,8 @@ webevd v08\_01\_00(#webevd-v08_01_00)
 -   2020-07-23 Christopher Backhouse : No longer require a temporary directory. coords.js is now served directly from memory, and it and the various static files are compressed on-demand.
 -   2020-07-20 Christopher Backhouse : Don’t wait for PNGs to be processed before being ready to serve the page. Insterad, encode pngs on demand, and write them directly to the network socket without an intermediate file. This gives better interactive performance.
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_26\_01(#larutils-v1_26_01)
+larutils v1\_26\_01
 ------------------------------------------

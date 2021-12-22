@@ -1,4 +1,4 @@
-LArSoft v06\_59\_00 Release Notes(#LArSoft-v06_59_00-Release-Notes)
+LArSoft v06\_59\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,13 +31,13 @@ LArSoft v06\_59\_00 Release Notes(#LArSoft-v06_59_00-Release-Notes)
 Download instructions for [larsoft v06\_59\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_59_00/larsoft-v06_59_00.html)\
 Download instructions for [just larsoftobj v1\_32\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_32_00/larsoftobj-v1_32_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   extended version of the recob::Vertex.
@@ -49,49 +49,49 @@ New features(#New-features)
     -   larsim and larreco (where some breakage happened)
     -   uboonecode (where some breakage happened)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_59\_00(#larsoft-v06_59_00)
+larsoft v06\_59\_00
 ------------------------------------------
 
 -   2017-12-06 Lynn Garren : larsoft v06\_59\_00 for larsoft v06\_59\_00
 -   2017-12-06 Lynn Garren : update versions
 -   2017-12-04 Gianluca Petrillo : Update script for changes related to GenVector adoption.
 
-lareventdisplay v06\_15\_04(#lareventdisplay-v06_15_04)
+lareventdisplay v06\_15\_04
 ----------------------------------------------------------
 
 -   2017-12-06 Lynn Garren : lareventdisplay v06\_15\_04 for larsoft v06\_59\_00
 
-larexamples v06\_07\_12(#larexamples-v06_07_12)
+larexamples v06\_07\_12
 --------------------------------------------------
 
 -   2017-12-06 Lynn Garren : larexamples v06\_07\_12 for larsoft v06\_59\_00
 -   2017-12-05 Gianluca Petrillo : Introduced “consumes()” calls in the examples.
 
-larpandora v06\_17\_09(#larpandora-v06_17_09)
+larpandora v06\_17\_09
 ------------------------------------------------
 
 -   2017-12-06 Lynn Garren : larpandora v06\_17\_09 for larsoft v06\_59\_00
 
-larwirecell v06\_08\_06(#larwirecell-v06_08_06)
+larwirecell v06\_08\_06
 --------------------------------------------------
 
 -   2017-12-06 Lynn Garren : larwirecell v06\_08\_06 for larsoft v06\_59\_00
 
-larana v06\_13\_01(#larana-v06_13_01)
+larana v06\_13\_01
 ----------------------------------------
 
 -   2017-12-06 Lynn Garren : larana v06\_13\_01 for larsoft v06\_59\_00
 
-larreco v06\_48\_00(#larreco-v06_48_00)
+larreco v06\_48\_00
 ------------------------------------------
 
 -   2017-12-06 Lynn Garren : larreco v06\_48\_00 for larsoft v06\_59\_00
@@ -116,7 +116,7 @@ larreco v06\_48\_00(#larreco-v06_48_00)
 -   2017-11-27 Giuseppe Cerati : add fcl plus small updates/fixes
 -   2017-11-26 Giuseppe Cerati : vertex fitter
 
-larsim v06\_37\_00(#larsim-v06_37_00)
+larsim v06\_37\_00
 ----------------------------------------
 
 -   2017-12-06 Lynn Garren : larsim v06\_37\_00 for larsoft v06\_59\_00
@@ -127,31 +127,31 @@ larsim v06\_37\_00(#larsim-v06_37_00)
 -   2017-12-06 Jason Stock : Fixed HitToXYZ bug causing segfault.
 -   2017-12-04 Gianluca Petrillo : Update script for changes related to GenVector adoption.
 
-larevt v06\_16\_11(#larevt-v06_16_11)
+larevt v06\_16\_11
 ----------------------------------------
 
 -   2017-12-06 Lynn Garren : larevt v06\_16\_11 for larsoft v06\_59\_00
 
-lardata v06\_33\_01(#lardata-v06_33_01)
+lardata v06\_33\_01
 ------------------------------------------
 
 -   2017-12-06 Lynn Garren : lardata v06\_33\_01 for larsoft v06\_59\_00
 
-larcore v06\_15\_07(#larcore-v06_15_07)
+larcore v06\_15\_07
 ------------------------------------------
 
 -   2017-12-06 Lynn Garren : larcore v06\_15\_07 for larsoft v06\_59\_00
 
-larpandoracontent v03\_08\_01(#larpandoracontent-v03_08_01)
+larpandoracontent v03\_08\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_32\_00(#larsoftobj-v1_32_00)
+larsoftobj v1\_32\_00
 ----------------------------------------------
 
 -   2017-12-06 Lynn Garren : larsoftobj v1\_32\_00 for larsoft v06\_59\_00
 -   2017-12-06 Lynn Garren : update versions
 
-lardataobj v1\_23\_00(#lardataobj-v1_23_00)
+lardataobj v1\_23\_00
 ----------------------------------------------
 
 -   2017-12-06 Lynn Garren : lardataobj v1\_23\_00 for larsoft v06\_59\_00
@@ -161,7 +161,7 @@ lardataobj v1\_23\_00(#lardataobj-v1_23_00)
 -   2017-11-27 Giuseppe Cerati : add schema evolution rules
 -   2017-11-26 Giuseppe Cerati : new recob::Vertex and TrackVertexMeta
 
-larcorealg v1\_11\_00(#larcorealg-v1_11_00)
+larcorealg v1\_11\_00
 ----------------------------------------------
 
 -   2017-12-06 Lynn Garren : larcorealg v1\_11\_00 for larsoft v06\_59\_00
@@ -173,20 +173,20 @@ larcorealg v1\_11\_00(#larcorealg-v1_11_00)
 -   2017-11-17 Gianluca Petrillo : Doxygen fixes to GeometryCore.h documentation.
 -   2017-11-17 Gianluca Petrillo : Revised documentation of some geo::GeoemtryCore methods.
 
-larcoreobj v1\_17\_00(#larcoreobj-v1_17_00)
+larcoreobj v1\_17\_00
 ----------------------------------------------
 
 -   2017-12-06 Lynn Garren : larcoreobj v1\_17\_00 for larsoft v06\_59\_00
 -   2017-12-04 Gianluca Petrillo : Moved utilities to larcorealg/Geometry/geo\_vectors\_utils.h
 
-larbatch v01\_34\_02(#larbatch-v01_34_02)
+larbatch v01\_34\_02
 --------------------------------------------
 
 -   2017-12-06 Lynn Garren : larbatch v01\_34\_02 for larsoft v06\_59\_00
 -   2017-12-06 Herbert Greenlee : Tweak multistage data selection.
 -   2017-12-04 Herbert Greenlee : Fix memory override bug.
 
-larutils v1\_20\_02(#larutils-v1_20_02)
+larutils v1\_20\_02
 ------------------------------------------
 
 -   2017-12-06 Lynn Garren : larutils v1\_20\_02 for larsoft v06\_59\_00

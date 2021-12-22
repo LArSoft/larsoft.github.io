@@ -1,21 +1,21 @@
-LArSoft responsiblities for patch releases(#LArSoft-responsiblities-for-patch-releases)
+LArSoft responsiblities for patch releases
 ==========================================================================================
 
-Permissions(#Permissions) {.wiki-class-count}
+Permissions
 ----------------------------
 
-### Manager permissions for larsoft redmine projects(#Manager-permissions-for-larsoft-redmine-projects) {.wiki-class-count}
+### Manager permissions for larsoft redmine projects
 
 -   Add the requested users to the larsoft redmine “Larsoft Managers” group.
 -   Remove users who no longer have patch release building responsibilities.
 -   An email should be sent to Erica Snider requesting that the users be added or removed.An email should be sent to Erica Snider requesting that the users be added or removed.
 
-Initial setup - one time steps for each set of patch releases(#Initial-setup-one-time-steps-for-each-set-of-patch-releases) {.wiki-class-count}
+Initial setup - one time steps for each set of patch releases
 ------------------------------------------------------------------------------------------------------------------------------
 
 The LArSoft release manager will make the larsoft patch branches and do the housecleaning.
 
-### Make branches for the release(#Make-branches-for-the-release) {.wiki-class-count}
+### Make branches for the release
 
 -   If a release is named vaa\_bb\_cc, branches will be created for the larsoft/larsoftobj suite with the name vaa\_bb\_cc\_br.\
 
@@ -36,7 +36,7 @@ The LArSoft release manager will make the larsoft patch branches and do the hous
     -   larpandoracontent depends only on pandora.
     -   Any changes required in larpandoracontent are made by the UK pandora team.
 
-### Housecleaning(#Housecleaning) {.wiki-class-count}
+### Housecleaning
 
 -   cd \$MRB\_SOURCE/larsoft/releaseDB
 -   Make sure that larutils, larbatch, and mrb are removed from the cfg scripts.

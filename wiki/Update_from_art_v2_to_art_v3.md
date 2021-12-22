@@ -1,4 +1,4 @@
-Update from art v2 to art v3(#Update-from-art-v2-to-art-v3)
+Update from art v2 to art v3
 ==============================================================
 
 -   **Table of contents**
@@ -26,52 +26,52 @@ Update from art v2 to art v3(#Update-from-art-v2-to-art-v3)
 Use of art [v3\_00](/redmine/projects/art/wiki/Series_300) involves a number of [breaking changes](/redmine/projects/art/wiki/300_breaking_changes). \
 Please see Kyle’s presentation on [problems found in the code](https://indico.fnal.gov/event/18618/contribution/5/material/slides/0.pdf).
 
-Header changes(#Header-changes) {.wiki-class-count}
+Header changes
 ----------------------------------
 
-### EngineCreator.h(#EngineCreatorh) {.wiki-class-count}
+### EngineCreator.h
 
 -   art/Framework/Core/EngineCreator.h has been moved to art/Framework/Core/detail/EngineCreator.h
     -   *this header should not be used*
 
-### ModuleDescription.h(#ModuleDescriptionh) {.wiki-class-count}
+### ModuleDescription.h
 
 -   canvas/Persistency/Provenance/ModuleDescription.h is now art/Persistency/Provenance/ModuleDescription.h
 
-### MasterProductRegistry.h(#MasterProductRegistryh) {.wiki-class-count}
+### MasterProductRegistry.h
 
 -   art/Persistency/Provenance/MasterProductRegistry.h no longer exists
     -   remove this header, there is no replacement
 
-Missing headers(#Missing-headers) {.wiki-class-count}
+Missing headers
 ------------------------------------
 
-### invalid use of incomplete type ‘class art::Event’(#invalid-use-of-incomplete-type-class-artEvent) {.wiki-class-count}
+### invalid use of incomplete type ‘class art::Event’
 
 -   \#include “art/Framework/Principal/Event.h”
 
-Undefined references(#Undefined-references) {.wiki-class-count}
+Undefined references
 ----------------------------------------------
 
 -   see the [Additional dependencies](/redmine/projects/art/wiki/300_breaking_changes#Miscellaneous-changes) section of the breaking changes list.
 
-### undefined reference to art::ModuleDescription::processName(#undefined-reference-to-artModuleDescriptionprocessName) {.wiki-class-count}
+### undefined reference to art::ModuleDescription::processName
 
 -   add art\_Persistency\_Provenance to the link list
 
-### undefined reference to art::input::RootMutexSentry::RootMutexSentry(#undefined-reference-to-artinputRootMutexSentryRootMutexSentry) {.wiki-class-count}
+### undefined reference to art::input::RootMutexSentry::RootMutexSentry
 
 -   add art\_Framework\_IO\_Root\_detail\_sources
 
-### undefined reference to art::ProductRegistryHelper::insertOrThrow(#undefined-reference-to-artProductRegistryHelperinsertOrThrow) {.wiki-class-count}
+### undefined reference to art::ProductRegistryHelper::insertOrThrow
 
 -   add art\_Framework\_Core
 
-### undefined reference to art::input::RootMutexSentry::RootMutexSentry()(#undefined-reference-to-artinputRootMutexSentryRootMutexSentry-2) {.wiki-class-count}
+### undefined reference to art::input::RootMutexSentry::RootMutexSentry()
 
 -   add art\_Framework\_IO\_Root\_detail\_sources
 
-NuTools update notes(#NuTools-update-notes) {.wiki-class-count}
+NuTools update notes
 ----------------------------------------------
 
 -   nutools [v2\_26\_00](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_26_00-9272018) has been built with art [v3\_00\_00](/redmine/projects/art/wiki/Release_Notes_30000).
@@ -87,7 +87,7 @@ NuTools update notes(#NuTools-update-notes) {.wiki-class-count}
     -   The RandomNumberGenerator service no longer has any notion of the “current” module. Because of that, it is necessary to specify the appropriate schedule ID and module label values when calling getEngine.
     -   NuRandomService is not currently thread safe
 
-using getEngine(#using-getEngine) {.wiki-class-count}
+using getEngine
 ------------------------------------
 
 -   getEngine is designed to be called within a module.
@@ -115,7 +115,7 @@ using getEngine(#using-getEngine) {.wiki-class-count}
 -   Calls to getEngine which are not part of a module require expert help to fix.
     -   The solution involves passing in a moduleDescription from the calling function.
 
-preProcessEvent(#preProcessEvent) {.wiki-class-count}
+preProcessEvent
 ------------------------------------
 
 The signature of preProcessEvent now requires two arguments:
@@ -135,7 +135,7 @@ preProcessEvent is designed to be called by the framework. It should never be ca
     +    //FIXME: you should never call preProcessEvent
     +    tss->preProcessEvent(evt, art::ScheduleContext::invalid());
 
-`HoughBaseAlg` transform interface changes(#HoughBaseAlg-transform-interface-changes) {.wiki-class-count}
+`HoughBaseAlg` transform interface changes
 ----------------------------------------------------------------------------------------
 
 All `HoughBaseAlg::Transform` and `HoughBaseAlg::FastTransform` functions now require a `CLHEP::HepRandomEngine&` reference argument to be passed in. The location of the argument depends on the specific function being called.
@@ -170,7 +170,7 @@ All `HoughBaseAlg::Transform` and `HoughBaseAlg::FastTransform` functions now re
            std::vector<double>& slope,
            std::vector<ChargeInfo_t>& totalQ);
 
-`fuzzyClusterAlg::run_fuzzy_cluster`(#fuzzyClusterAlgrun_fuzzy_cluster) {.wiki-class-count}
+`fuzzyClusterAlg::run_fuzzy_cluster`
 --------------------------------------------------------------------------
 
 The `fuzzyClusterAlg::run_fuzzy_cluster` call now requires an explicit reference to a `CLHEP::HepRandomEngine` object:
@@ -179,7 +179,7 @@ The `fuzzyClusterAlg::run_fuzzy_cluster` call now requires an explicit reference
     +    void run_fuzzy_cluster(const std::vector<art::Ptr<recob::Hit> >& allhits,
     +                           CLHEP::HepRandomEngine& engine);
 
-`PtrMaker`(#PtrMaker) {.wiki-class-count}
+`PtrMaker`
 ------------------------
 
 -   art::PtrMaker no longer requires a *\*this* reference. See [the miscellaneous breaking changes of art v3](/redmine/projects/art/wiki/300_breaking_changes#Miscellaneous-changes).
@@ -188,7 +188,7 @@ The `fuzzyClusterAlg::run_fuzzy_cluster` call now requires an explicit reference
         -  art::PtrMaker<recob::Shower> ptrMaker(event, *this);
         +  art::PtrMaker<recob::Shower> ptrMaker(event);
 
-`WeightCalc` subclasses(#WeightCalc-subclasses) {.wiki-class-count}
+`WeightCalc` subclasses
 --------------------------------------------------
 
 The `RandomNumberGenerator::getEngine(...)` function cannot be called in any of the classes that inherit from `evwgh::WeightCalc`. To provide random-number engine access, an additional argument has been added to the `Configure` function. Please make the following change:
@@ -198,7 +198,7 @@ The `RandomNumberGenerator::getEngine(...)` function cannot be called in any of 
 
 where the `engine` reference can be used to create any CLHEP random-number distribution. Note that the `engine` variable is a reference to an *art*-owned engine.
 
-art dump-config(#art-dump-config) {.wiki-class-count}
+art dump-config
 ------------------------------------
 
 The output of, for instance, `lar --dump-config <file>` may report warnings that were not reported by *art* in art v2. Further, the reported warnings may not require a resolution. There have been some scripts that checked for “excessive lines of output”. This check is fragile. The most reliable check for this test is simply to ensure that *art* ends with status 0.

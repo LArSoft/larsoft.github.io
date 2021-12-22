@@ -1,9 +1,9 @@
-Pull request comments that trigger CI actions(#Pull-request-comments-that-trigger-CI-actions)
+Pull request comments that trigger CI actions
 ================================================================================================
 
 The testing and integration of pull requests is handled by making comments on the pull request with keywords that are parsed from the comment. The comments must be made by a Level 1 or Level 2 manager for CI jobs to be triggered.
 
-Level 1 or Level 2 managers can make comments with these keywords(#Level-1-or-Level-2-managers-can-make-comments-with-these-keywords)
+Level 1 or Level 2 managers can make comments with these keywords
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 -   code-checks
@@ -39,7 +39,7 @@ Any of these indicates that the category manager rejects the code changes in the
 
 Once code-checks-approved, tests-approved , L2-approved and L1-approved labels are set another job is triggered that set the fully-signed label
 
-Only Level 1 managers can make comments with these keywords(#Only-Level-1-managers-can-make-comments-with-these-keywords)
+Only Level 1 managers can make comments with these keywords
 ----------------------------------------------------------------------------------------------------------------------------
 
 -   merge

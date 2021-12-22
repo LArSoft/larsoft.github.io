@@ -1,4 +1,4 @@
-LArSoft v06\_07\_00 Release Notes(#LArSoft-v06_07_00-Release-Notes)
+LArSoft v06\_07\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -27,7 +27,7 @@ LArSoft v06\_07\_00 Release Notes(#LArSoft-v06_07_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_07_00/larsoft-v06_07_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   build with [art 2.04.00](/redmine/projects/art/wiki/Release_Notes_20400)
@@ -35,7 +35,7 @@ Purpose(#Purpose)
     -   A simple mrb uv larsoft v06\_07\_00 is sufficient for uboonecode and argoneutcode
 -   update pandora
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Pandora “suite” v02-09-02
@@ -45,12 +45,12 @@ New features(#New-features)
     -   The PandoraSettings files, which are included alongside larpandora, will need to include new algorithms, a couple of existing algorithms have also had a change in their mandatory configuration, so running with old settings should halt a job when parsing the settings file.
     -   dunetpc should merge feature/for\_larsoft\_v06\_07\_00, which contains feature/SettingsFor\_LArPandoraContent\_v02\_08\_00
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   [\#13765](/redmine/issues/13765 "Bug: RangeSet merging is very slow for concatenated files (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   -------------- ----------------- ------------ -------------------------------------------------------------------------
@@ -70,10 +70,10 @@ Updated dependencies(#Updated-dependencies)
   qt             -                              qt and the geant4 build with qt are no longer part of the distribution
   -------------- ----------------- ------------ -------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_07\_00(#larsoft-v06_07_00)
+larsoft v06\_07\_00
 ------------------------------------------
 
 -   2016-09-22 Lynn Garren : fix larsoftobj buildcfg
@@ -83,29 +83,29 @@ larsoft v06\_07\_00(#larsoft-v06_07_00)
 -   2016-09-22 Lynn Garren : update dependency database
 -   2016-09-22 Lynn Garren : remove qt and update product versions
 
-lareventdisplay v06\_01\_05(#lareventdisplay-v06_01_05)
+lareventdisplay v06\_01\_05
 ----------------------------------------------------------
 
 -   2016-09-22 Lynn Garren : lareventdisplay v06\_01\_05 for larsoft v06\_07\_00
 
-larexamples v06\_00\_09(#larexamples-v06_00_09)
+larexamples v06\_00\_09
 --------------------------------------------------
 
 -   2016-09-22 Lynn Garren : larexamples v06\_00\_09 for larsoft v06\_07\_00
 
-larpandora v06\_01\_00(#larpandora-v06_01_00)
+larpandora v06\_01\_00
 ------------------------------------------------
 
 -   2016-09-22 Lynn Garren : larpandora v06\_01\_00 for larsoft v06\_07\_00
 -   2016-09-19 John Marshall : Merge branch ‘updates’ into develop
 -   2016-09-19 John Marshall : Update scripts and larpandoracontent version.
 
-larana v06\_01\_06(#larana-v06_01_06)
+larana v06\_01\_06
 ----------------------------------------
 
 -   2016-09-22 Lynn Garren : larana v06\_01\_06 for larsoft v06\_07\_00
 
-larreco v06\_05\_00(#larreco-v06_05_00)
+larreco v06\_05\_00
 ------------------------------------------
 
 -   2016-09-22 Lynn Garren : larreco v06\_05\_00 for larsoft v06\_07\_00
@@ -212,44 +212,44 @@ larreco v06\_05\_00(#larreco-v06_05_00)
 -   2016-07-27 Bruce Baller : Add fWorkID
 -   2016-07-27 Bruce Baller : Add fWorkID for debugging, Fix logic errors.
 
-larsim v06\_03\_05(#larsim-v06_03_05)
+larsim v06\_03\_05
 ----------------------------------------
 
 -   2016-09-22 Lynn Garren : larsim v06\_03\_05 for larsoft v06\_07\_00
 
-larevt v06\_02\_01(#larevt-v06_02_01)
+larevt v06\_02\_01
 ----------------------------------------
 
 -   2016-09-22 Lynn Garren : larevt v06\_02\_01 for larsoft v06\_07\_00
 
-lardata v06\_05\_00(#lardata-v06_05_00)
+lardata v06\_05\_00
 ------------------------------------------
 
 -   2016-09-22 Lynn Garren : lardata v06\_05\_00 for larsoft v06\_07\_00
 
-larcore v06\_02\_02(#larcore-v06_02_02)
+larcore v06\_02\_02
 ------------------------------------------
 
 -   2016-09-22 Lynn Garren : larcore v06\_02\_02 for larsoft v06\_07\_00
 
-larsoftobj v1\_07\_00(#larsoftobj-v1_07_00)
+larsoftobj v1\_07\_00
 ----------------------------------------------
 
 -   2016-09-22 Lynn Garren : larsoftobj v1\_07\_00 for larsoft v06\_07\_00
 
-lardataobj v1\_07\_00(#lardataobj-v1_07_00)
+lardataobj v1\_07\_00
 ----------------------------------------------
 
 -   2016-09-22 Lynn Garren : lardataobj v1\_07\_00 for larsoft v06\_07\_00
 -   2016-09-22 Lynn Garren : std::vector\< std::vector\<double\> \> is already defined
 
-larcoreobj v1\_05\_00(#larcoreobj-v1_05_00)
+larcoreobj v1\_05\_00
 ----------------------------------------------
 
 -   2016-09-22 Lynn Garren : larcoreobj v1\_05\_00 for larsoft v06\_07\_00
 
-larbatch v01\_23\_06(#larbatch-v01_23_06)
+larbatch v01\_23\_06
 --------------------------------------------
 
-larutils v1\_08\_05(#larutils-v1_08_05)
+larutils v1\_08\_05
 ------------------------------------------

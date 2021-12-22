@@ -1,4 +1,4 @@
-Setting up a working directory to develop LArSoft(#Setting-up-a-working-directory-to-develop-LArSoft)
+Setting up a working directory to develop LArSoft
 ========================================================================================================
 
 DRAFT - Do Not Use yet - DRAFT - 7/31/18
@@ -26,7 +26,7 @@ To set up and run LArSoft, the user must:
         -   source /grid/fermiapp/products/dune/setup\_dune.sh
 
     5.  Can find links to all LArSoft Collaboration experiments at: [https://cdcvs.fnal.govQuick\_Links](https://cdcvs.fnal.govQuick_Links) \
-        Â 
+        Â
 
 2.  Create a new development area. This creates a number of subdirectories.
     1.  mkdir \<working\_dir\> \#Do not use your home directory, as the libraries you build can get large.
@@ -39,14 +39,14 @@ To set up and run LArSoft, the user must:
          \#May want to just make the products area (checks that src, build are already there)\
         mrb newDev -p
     5.  Can see mrb newDev options at: [https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbRefereceGuide\#newDev-n](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbRefereceGuide#newDev-n) \
-        Â 
+        Â
 
 3.  Set up a LArSoft release - Can be [Integration or Production](http://larsoft.org/larsoft-releases/)\
     setup larsoft vXXX -q e15:\<prof|debug\>\
-    Â 
+    Â
 4.  Set up local products\
     source localProducts\_larsoft\_vxx\_xx\_xx\_ex\_prof/setup\
-    Â 
+    Â
 5.  Check out code from repository
     1.  cd \$MRB\_SOURCE
     2.  mrb gitCheckout \<thecode\>
@@ -54,7 +54,7 @@ To set up and run LArSoft, the user must:
         -   mrb g -t LARSOFT\_SUITE\_vxx\_xx\_xx \<thecode\>
         -   mrb g larsoft\_suite
         -   mrb g larsoftobj\_suite\
-            Â 
+            Â
 
 6.  Build and test the code, all commands must be run in the same shell.
     1.  cd \$MRB\_BUILDDIR
@@ -63,7 +63,7 @@ To set up and run LArSoft, the user must:
         -   mrb z (zapBuild) \#to get rid of what you just built
 
     4.  May need to fix code, rebuild, retest.\
-        Â 
+        Â
 
 7.  Once the code works as expected, publish it to a feature branch.
 

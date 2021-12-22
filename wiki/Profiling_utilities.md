@@ -1,4 +1,4 @@
-Profiling utilities(#Profiling-utilities)
+Profiling utilities
 ============================================
 
 Some utility scripts to automate things created by [Gianluca Petrillo](mailto:petrillo@fnal.gov "petrillo@fnal.gov").\

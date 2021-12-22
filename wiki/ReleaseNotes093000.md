@@ -1,4 +1,4 @@
-LArSoft v09\_30\_00 Release Notes(#LArSoft-v09_30_00-Release-Notes)
+LArSoft v09\_30\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_30\_00 Release Notes(#LArSoft-v09_30_00-Release-Notes)
 Download instructions for [larsoft v09\_30\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_30_00/larsoft-v09_30_00.html)\
 Download instructions for [just larsoftobj v09\_09\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_09_00/larsoftobj-v09_09_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardataobj PR 15
@@ -63,36 +63,36 @@ New features(#New-features)
     -   This PR also applies the clang format to LArPandoraShower.
     -   No product changes are expected for this release.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larsim PR 72
     -   Reduce severity of message for inability to drift electrons
     -   issue [\#26107](/redmine/issues/26107 "Idea: Warning messages from SimDriftElectrons module in larsim (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_30\_00(#larsoft-v09_30_00)
+larsoft v09\_30\_00
 ------------------------------------------
 
 -   2021-09-20 Lynn Garren : larsoft v09\_30\_00 for larsoft v09\_30\_00
 -   2021-09-20 Lynn Garren : product versions
 
-lareventdisplay v09\_01\_21(#lareventdisplay-v09_01_21)
+lareventdisplay v09\_01\_21
 ----------------------------------------------------------
 
 -   2021-09-20 Lynn Garren : lareventdisplay v09\_01\_21 for larsoft v09\_30\_00
 
-larexamples v09\_01\_20(#larexamples-v09_01_20)
+larexamples v09\_01\_20
 --------------------------------------------------
 
 -   2021-09-20 Lynn Garren : larexamples v09\_01\_20 for larsoft v09\_30\_00
 
-larpandora v09\_08\_00(#larpandora-v09_08_00)
+larpandora v09\_08\_00
 ------------------------------------------------
 
 -   2021-09-20 Lynn Garren : larpandora v09\_08\_00 for larsoft v09\_30\_00
@@ -105,39 +105,39 @@ larpandora v09\_08\_00(#larpandora-v09_08_00)
 -   2021-09-02 Bruce Howard : Updates from clang formatting utility.
 -   2021-08-13 Bruce Howard : Update PandoraGeometry to use active volume directly.
 
-larsimrad v09\_01\_20(#larsimrad-v09_01_20)
+larsimrad v09\_01\_20
 ----------------------------------------------
 
 -   2021-09-20 Lynn Garren : larsimrad v09\_01\_20 for larsoft v09\_30\_00
 
-larrecodnn v09\_08\_07(#larrecodnn-v09_08_07)
+larrecodnn v09\_08\_07
 ------------------------------------------------
 
 -   2021-09-20 Lynn Garren : larrecodnn v09\_08\_07 for larsoft v09\_30\_00
 
-larwirecell v09\_03\_01(#larwirecell-v09_03_01)
+larwirecell v09\_03\_01
 --------------------------------------------------
 
 -   2021-09-20 Lynn Garren : larwirecell v09\_03\_01 for larsoft v09\_30\_00
 
-larana v09\_02\_17(#larana-v09_02_17)
+larana v09\_02\_17
 ----------------------------------------
 
 -   2021-09-20 Lynn Garren : larana v09\_02\_17 for larsoft v09\_30\_00
 
-larreco v09\_06\_17(#larreco-v09_06_17)
+larreco v09\_06\_17
 ------------------------------------------
 
 -   2021-09-20 Lynn Garren : larreco v09\_06\_17 for larsoft v09\_30\_00
 
-larsim v09\_14\_09(#larsim-v09_14_09)
+larsim v09\_14\_09
 ----------------------------------------
 
 -   2021-09-20 Lynn Garren : larsim v09\_14\_09 for larsoft v09\_30\_00
 -   2021-09-20 Lynn Garren : Merge pull request \#72 from knoepfel/suppress-warning-message
 -   2021-09-20 Kyle Knoepfel : Reduce severity of message.
 
-larg4 v09\_04\_00(#larg4-v09_04_00)
+larg4 v09\_04\_00
 --------------------------------------
 
 -   2021-09-20 Lynn Garren : larg4 v09\_04\_00 for larsoft v09\_30\_00
@@ -145,20 +145,20 @@ larg4 v09\_04\_00(#larg4-v09_04_00)
 -   2021-09-14 Robert Hatcher : Merge branch ‘LArSoft:develop’ into develop
 -   2021-09-14 Robert Hatcher : restore reporting of unknown PDG codes as warning in dtor; add debug list of processed particles
 
-larevt v09\_02\_12(#larevt-v09_02_12)
+larevt v09\_02\_12
 ----------------------------------------
 
 -   2021-09-20 Lynn Garren : larevt v09\_02\_12 for larsoft v09\_30\_00
 
-lardata v09\_02\_10(#lardata-v09_02_10)
+lardata v09\_02\_10
 ------------------------------------------
 
 -   2021-09-20 Lynn Garren : lardata v09\_02\_10 for larsoft v09\_30\_00
 
-larcore v09\_02\_04(#larcore-v09_02_04)
+larcore v09\_02\_04
 ------------------------------------------
 
-larpandoracontent v03\_25\_00(#larpandoracontent-v03_25_00)
+larpandoracontent v03\_25\_00
 --------------------------------------------------------------
 
 -   2021-09-20 Lynn Garren : larpandoracontent v03\_25\_00 for larsoft v09\_30\_00
@@ -182,13 +182,13 @@ larpandoracontent v03\_25\_00(#larpandoracontent-v03_25_00)
 -   2021-06-17 Andrew Chappell : Add streaming algorithms
 -   2021-06-17 Andrew Chappell : Allow for independent view running
 
-larsoftobj v09\_09\_00(#larsoftobj-v09_09_00)
+larsoftobj v09\_09\_00
 ------------------------------------------------
 
 -   2021-09-20 Lynn Garren : larsoftobj v09\_09\_00 for larsoft v09\_30\_00
 -   2021-09-20 Lynn Garren : product versions
 
-lardataobj v09\_02\_00(#lardataobj-v09_02_00)
+lardataobj v09\_02\_00
 ------------------------------------------------
 
 -   2021-09-20 Lynn Garren : lardataobj v09\_02\_00 for larsoft v09\_30\_00
@@ -196,24 +196,24 @@ lardataobj v09\_02\_00(#lardataobj-v09_02_00)
 -   2021-09-16 Gianluca Petrillo : Added x location component to recob::OpFlash data product.
 -   2021-09-16 Gianluca Petrillo : Updated recob::OpFlash to modern practices
 
-lardataalg v09\_05\_01(#lardataalg-v09_05_01)
+lardataalg v09\_05\_01
 ------------------------------------------------
 
 -   2021-09-20 Lynn Garren : lardataalg v09\_05\_01 for larsoft v09\_30\_00
 
-larcorealg v09\_02\_01(#larcorealg-v09_02_01)
+larcorealg v09\_02\_01
 ------------------------------------------------
 
-larcoreobj v09\_02\_01(#larcoreobj-v09_02_01)
+larcoreobj v09\_02\_01
 ------------------------------------------------
 
-webevd v09\_05\_11(#webevd-v09_05_11)
+webevd v09\_05\_11
 ----------------------------------------
 
 -   2021-09-20 Lynn Garren : webevd v09\_05\_11 for larsoft v09\_30\_00
 
-larbatch v01\_56\_01(#larbatch-v01_56_01)
+larbatch v01\_56\_01
 --------------------------------------------
 
-larutils v1\_28\_02(#larutils-v1_28_02)
+larutils v1\_28\_02
 ------------------------------------------

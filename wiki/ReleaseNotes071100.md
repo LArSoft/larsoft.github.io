@@ -1,4 +1,4 @@
-LArSoft v07\_11\_00 Release Notes(#LArSoft-v07_11_00-Release-Notes)
+LArSoft v07\_11\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -32,12 +32,12 @@ LArSoft v07\_11\_00 Release Notes(#LArSoft-v07_11_00-Release-Notes)
 Download instructions for [larsoft v07\_11\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_11_00/larsoft-v07_11_00.html)\
 Download instructions for [just larsoftobj v07\_07\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_07_01/larsoftobj-v07_07_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Weekly release.
 
-New features(#New-features)
+New features
 ------------------------------
 
 Feature branches merged.
@@ -51,7 +51,7 @@ Feature branches merged.
 -   lardataobj/feature/escudero\_PFParticleMetadataTemporaryNamespaceFix
 -   lardataobj/feature/cerati\_double2float\_v2
 
-Breaking changes(#Breaking-changes)
+Breaking changes
 --------------------------------------
 
 Please note that with the inclusion of
@@ -62,18 +62,18 @@ in this release your will need to merge the corresponding branch for these packa
 
 ubana, ublite, dunetpc
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   wirecell 0.9.4
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v07\_11\_00(#larsoft-v07_11_00)
+larsoft v07\_11\_00
 ------------------------------------------
 
 -   2018-11-14 Patrick Gartung : update larevt tag
@@ -84,25 +84,25 @@ larsoft v07\_11\_00(#larsoft-v07_11_00)
 -   2018-11-12 Patrick Gartung : larsoft v07\_10\_00\_01 for larsoft v07\_10\_00\_01
 -   2018-11-12 Patrick Gartung : update releaseDB
 
-lareventdisplay v07\_01\_14(#lareventdisplay-v07_01_14)
+lareventdisplay v07\_01\_14
 ----------------------------------------------------------
 
 -   2018-11-13 Patrick Gartung : lareventdisplay v07\_01\_14 for larsoft v07\_11\_00
 -   2018-11-12 Patrick Gartung : lareventdisplay v07\_01\_13 for larsoft v07\_10\_00\_01
 
-larexamples v07\_00\_17(#larexamples-v07_00_17)
+larexamples v07\_00\_17
 --------------------------------------------------
 
 -   2018-11-13 Patrick Gartung : larexamples v07\_00\_16 larsoft v07\_11\_00
 -   2018-11-12 Patrick Gartung : larexamples v07\_00\_16 for larsoft v07\_10\_00\_01 with corrected larsim tag
 -   2018-11-12 Patrick Gartung : larexamples v07\_00\_16 larsoft v07\_10\_00\_01
 
-larg4 v07\_03\_01(#larg4-v07_03_01)
+larg4 v07\_03\_01
 --------------------------------------
 
 -   2018-11-13 Patrick Gartung : larg4 v07\_03\_01 for larsoft v07\_11\_00
 
-larpandora v07\_04\_00(#larpandora-v07_04_00)
+larpandora v07\_04\_00
 ------------------------------------------------
 
 -   2018-11-13 Patrick Gartung : larpandora v07\_04\_00 for larsoft v07\_11\_00
@@ -110,14 +110,14 @@ larpandora v07\_04\_00(#larpandora-v07_04_00)
 -   2018-11-13 loressa : Moved PFParticleMetadata to larpandoraobj namespace for backwards compatibility following LArSoft team guidelines
 -   2018-11-12 Patrick Gartung : larpandora v07\_03\_01 for larsoft v07\_10\_00\_01
 
-larwirecell v07\_04\_00(#larwirecell-v07_04_00)
+larwirecell v07\_04\_00
 --------------------------------------------------
 
 -   2018-11-13 Patrick Gartung : larwirecell v07\_04\_00 for larsoft v07\_11\_00
 -   2018-11-08 Hanyu Wei : Merge branch ‘develop’ into feature/weihy\_larwirecell
 -   2018-11-08 Hanyu Wei : dynamic misconfigured channels for simulation overlay
 
-larana v07\_03\_00(#larana-v07_03_00)
+larana v07\_03\_00
 ----------------------------------------
 
 -   2018-11-13 Patrick Gartung : larana v07\_02\_09 for larsoft v07\_11\_00
@@ -125,7 +125,7 @@ larana v07\_03\_00(#larana-v07_03_00)
 -   2018-11-12 Patrick Gartung : larana v07\_02\_09 for larsoft v07\_10\_00\_01
 -   2018-11-05 Giuseppe Cerati : fix downstream code after double-\>float migration
 
-larreco v07\_09\_00(#larreco-v07_09_00)
+larreco v07\_09\_00
 ------------------------------------------
 
 -   2018-11-14 Patrick Gartung : Merge remote-tracking branch ‘origin/feature/cerati\_fix-flags-tracks’
@@ -138,7 +138,7 @@ larreco v07\_09\_00(#larreco-v07_09_00)
 -   2018-11-12 Patrick Gartung : larreco v07\_08\_01 for larsoft v07\_10\_00\_01
 -   2018-11-12 Giuseppe Cerati : add metadata to hit-track association
 
-larsim v07\_07\_01(#larsim-v07_07_01)
+larsim v07\_07\_01
 ----------------------------------------
 
 -   2018-11-14 Patrick Gartung : Merge branch ‘develop’
@@ -153,26 +153,26 @@ larsim v07\_07\_01(#larsim-v07_07_01)
 -   2018-11-08 Lynn Garren : larsoft v07\_10\_00
 -   2018-11-07 Jason Stock : Update to PBT to fix Flash to OpHit functions.
 
-larevt v07\_01\_03(#larevt-v07_01_03)
+larevt v07\_01\_03
 ----------------------------------------
 
 -   2018-11-13 Patrick Gartung : larevt v07\_01\_03 for larsoft v07\_11\_00
 
-lardata v07\_00\_15(#lardata-v07_00_15)
+lardata v07\_00\_15
 ------------------------------------------
 
 -   2018-11-13 Patrick Gartung : lardata v07\_00\_15 got larsoft v07\_11\_00
 
-larcore v07\_00\_05(#larcore-v07_00_05)
+larcore v07\_00\_05
 ------------------------------------------
 
-larpandoracontent v03\_14\_02(#larpandoracontent-v03_14_02)
+larpandoracontent v03\_14\_02
 --------------------------------------------------------------
 
-larsoftobj v07\_07\_01(#larsoftobj-v07_07_01)
+larsoftobj v07\_07\_01
 ------------------------------------------------
 
-lardataobj v07\_05\_00(#lardataobj-v07_05_00)
+lardataobj v07\_05\_00
 ------------------------------------------------
 
 -   2018-11-13 Patrick Gartung : update bundle CMakeLists.txt with right vesions
@@ -192,11 +192,11 @@ lardataobj v07\_05\_00(#lardataobj-v07_05_00)
 -   2018-11-05 Giuseppe Cerati : SpacePoints as well
 -   2018-11-04 Giuseppe Cerati : double-\>float conversion
 
-lardataalg v07\_02\_05(#lardataalg-v07_02_05)
+lardataalg v07\_02\_05
 ------------------------------------------------
 
-larcorealg v07\_03\_00(#larcorealg-v07_03_00)
+larcorealg v07\_03\_00
 ------------------------------------------------
 
-larcoreobj v07\_00\_01(#larcoreobj-v07_00_01)
+larcoreobj v07\_00\_01
 ------------------------------------------------

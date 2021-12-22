@@ -1,4 +1,4 @@
-LArSoft v06\_00\_00\_rc1 Release Notes(#LArSoft-v06_00_00_rc1-Release-Notes)
+LArSoft v06\_00\_00\_rc1 Release Notes
 ===============================================================================
 
 -   **Table of contents**
@@ -22,24 +22,24 @@ LArSoft v06\_00\_00\_rc1 Release Notes(#LArSoft-v06_00_00_rc1-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc1/larsoft-v06_00_00_rc1.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Migrate from root 5 to root 6
 -   This release candidate is consistent with larsoft v05\_08\_00.
 -   Refactoring for larsoftobj/larlite depends on the migration to root 6.
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Root 6 required changes to gdml files, dictionaries, and some fcl files.
 -   The C++ code required little if any change.
 -   [Migration to root 6](Migration_to_root_6)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ ----------
@@ -49,10 +49,10 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v4\_19\_04                required
   --------------- ------------ ------------ ----------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_00\_00\_rc1(#larsoft-v06_00_00_rc1)
+larsoft v06\_00\_00\_rc1
 ---------------------------------------------------
 
 -   2016-04-15 Lynn Garren : check art::Assns
@@ -70,7 +70,7 @@ larsoft v06\_00\_00\_rc1(#larsoft-v06_00_00_rc1)
 -   2016-04-04 Lynn Garren : use cetbuildtools v4\_19\_04
 -   2016-04-01 Lynn Garren : proper qualifiers for ifdh\_art
 
-lareventdisplay v06\_00\_00\_rc1(#lareventdisplay-v06_00_00_rc1)
+lareventdisplay v06\_00\_00\_rc1
 -------------------------------------------------------------------
 
 -   2016-04-11 Lynn Garren : v06\_00\_00\_rc1
@@ -82,14 +82,14 @@ lareventdisplay v06\_00\_00\_rc1(#lareventdisplay-v06_00_00_rc1)
 -   2016-04-01 Lynn Garren : complete hack for now
 -   2016-04-01 Lynn Garren : use cetbuildtools v4\_19\_03
 
-larexamples v06\_00\_00\_rc1(#larexamples-v06_00_00_rc1)
+larexamples v06\_00\_00\_rc1
 -----------------------------------------------------------
 
 -   2016-04-11 Lynn Garren : v06\_00\_00\_rc1
 -   2016-04-04 Lynn Garren : use cetbuildtools v4\_19\_04
 -   2016-04-01 Lynn Garren : use cetbuildtools v4\_19\_03
 
-larpandora v06\_00\_00\_rc1(#larpandora-v06_00_00_rc1)
+larpandora v06\_00\_00\_rc1
 ---------------------------------------------------------
 
 -   2016-04-11 Lynn Garren : Merge branch ‘develop’ into v06\_00\_00\_rc
@@ -98,7 +98,7 @@ larpandora v06\_00\_00\_rc1(#larpandora-v06_00_00_rc1)
 -   2016-04-04 Lynn Garren : use cetbuildtools v4\_19\_04
 -   2016-04-01 Lynn Garren : correct qualifiers for larpandoracontent
 
-larana v06\_00\_00\_rc1(#larana-v06_00_00_rc1)
+larana v06\_00\_00\_rc1
 -------------------------------------------------
 
 -   2016-04-11 Lynn Garren : Merge branch ‘develop’ into v06\_00\_00\_rc
@@ -107,7 +107,7 @@ larana v06\_00\_00\_rc1(#larana-v06_00_00_rc1)
 -   2016-04-01 Lynn Garren : use std::ifstream
 -   2016-04-01 Lynn Garren : use cetbuildtools v4\_19\_03
 
-larreco v06\_00\_00\_rc1(#larreco-v06_00_00_rc1)
+larreco v06\_00\_00\_rc1
 ---------------------------------------------------
 
 -   2016-04-11 Lynn Garren : Merge branch ‘develop’ into v06\_00\_00\_rc
@@ -124,7 +124,7 @@ larreco v06\_00\_00\_rc1(#larreco-v06_00_00_rc1)
 -   2016-04-01 Lynn Garren : use std::ofstream
 -   2016-04-01 Lynn Garren : nutools v1\_25\_00
 
-larsim v06\_00\_00\_rc1(#larsim-v06_00_00_rc1)
+larsim v06\_00\_00\_rc1
 -------------------------------------------------
 
 -   2016-04-11 Lynn Garren : Merge branch ‘develop’ into v06\_00\_00\_rc
@@ -137,7 +137,7 @@ larsim v06\_00\_00\_rc1(#larsim-v06_00_00_rc1)
 -   2016-04-01 Lynn Garren : using std::ifstream
 -   2016-04-01 Lynn Garren : cetbuildtools v4\_19\_03
 
-larevt v06\_00\_00\_rc1(#larevt-v06_00_00_rc1)
+larevt v06\_00\_00\_rc1
 -------------------------------------------------
 
 -   2016-04-11 Lynn Garren : v06\_00\_00\_rc1
@@ -145,7 +145,7 @@ larevt v06\_00\_00\_rc1(#larevt-v06_00_00_rc1)
 -   2016-04-01 Lynn Garren : cetbuildtools v4\_19\_03
 -   2016-04-01 Lynn Garren : std::ifstream
 
-lardata v06\_00\_00\_rc1(#lardata-v06_00_00_rc1)
+lardata v06\_00\_00\_rc1
 ---------------------------------------------------
 
 -   2016-04-13 Lynn Garren : define more enums and add missing Assns
@@ -160,7 +160,7 @@ lardata v06\_00\_00\_rc1(#lardata-v06_00_00_rc1)
 -   2016-04-01 Lynn Garren : deal with variables typedefed to unsigned short
 -   2016-03-31 Lynn Garren : update ClassVersions
 
-larcore v06\_00\_00\_rc1(#larcore-v06_00_00_rc1)
+larcore v06\_00\_00\_rc1
 ---------------------------------------------------
 
 -   2016-04-15 Lynn Garren : add BOOST\_INC to ROOT\_INCLUDE\_PATH

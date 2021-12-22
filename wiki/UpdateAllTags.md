@@ -1,7 +1,7 @@
-Update Tags for All Packages(#Update-Tags-for-All-Packages)
+Update Tags for All Packages
 ==============================================================
 
-Prepare a local tag branch(#Prepare-a-local-tag-branch)
+Prepare a local tag branch
 ----------------------------------------------------------
 
 -   This procedure applies the same tag to all checked out code.
@@ -14,7 +14,7 @@ Prepare a local tag branch(#Prepare-a-local-tag-branch)
 
 > -   ls \$MRB\_SOURCE/\*/.git/refs/heads/release
 
-Edit the code(#Edit-the-code)
+Edit the code
 --------------------------------
 
 -   …/laradmin/build\_tools/tagLAr update v1\_00\_06
@@ -31,7 +31,7 @@ Edit the code(#Edit-the-code)
 
 > -   check cetbuildtools version
 
-Build debug and prof with the new version(#Build-debug-and-prof-with-the-new-version)
+Build debug and prof with the new version
 ----------------------------------------------------------------------------------------
 
 -   since the version in product\_deps has changed, make sure this build starts from a fresh login
@@ -43,7 +43,7 @@ Build debug and prof with the new version(#Build-debug-and-prof-with-the-new-ver
 
 -   This is not yet the official build, the official build needs to be made from a checked out tag
 
-Merge changes with the master branch and tag(#Merge-changes-with-the-master-branch-and-tag)
+Merge changes with the master branch and tag
 ----------------------------------------------------------------------------------------------
 
 -   \~/larsoft/laradmin/build\_tools/tagLAr tag v1\_00\_06

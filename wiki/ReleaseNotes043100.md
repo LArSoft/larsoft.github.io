@@ -1,4 +1,4 @@
-LArSoft v04\_31\_00 Release Notes(#LArSoft-v04_31_00-Release-Notes)
+LArSoft v04\_31\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,22 +24,22 @@ LArSoft v04\_31\_00 Release Notes(#LArSoft-v04_31_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_31_00/larsoft-v04_31_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Changes since v04\_30\_03
 -   Use art v1\_17\_05 with fhicl validation
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsim feature/gp\_DumpMCParticle
 -   larreco feature/rsulej\_PFParticleForPMA
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ -------------------------------------------------------------------------
@@ -52,10 +52,10 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v4\_18\_01                
   --------------- ------------ ------------ -------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_31\_00(#larsoft-v04_31_00)
+larsoft v04\_31\_00
 ------------------------------------------
 
 -   2015-12-18 Lynn Garren : larsoft v04\_31\_00 for larsoft v04\_31\_00
@@ -64,29 +64,29 @@ larsoft v04\_31\_00(#larsoft-v04_31_00)
 -   2015-12-18 Lynn Garren : mention Ubuntu
 -   2015-12-18 Lynn Garren : update product versions
 
-lareventdisplay v04\_13\_01(#lareventdisplay-v04_13_01)
+lareventdisplay v04\_13\_01
 ----------------------------------------------------------
 
 -   2015-12-18 Lynn Garren : lareventdisplay v04\_13\_01 for larsoft v04\_31\_00
 -   2015-12-15 Tingjun Yang : Add evdservices\_argoneut.fcl back.
 
-larexamples v04\_06\_08(#larexamples-v04_06_08)
+larexamples v04\_06\_08
 --------------------------------------------------
 
 -   2015-12-18 Lynn Garren : larexamples v04\_06\_08 for larsoft v04\_31\_00
 
-larpandora v04\_08\_10(#larpandora-v04_08_10)
+larpandora v04\_08\_10
 ------------------------------------------------
 
 -   2015-12-18 Lynn Garren : larpandora v04\_08\_10 for larsoft v04\_31\_00
 -   2015-12-09 Andrew Blake : Adding some extra variables to PFParticle ‘HitDumper’ module to enable comparisons of 2D and 3D output and studies of track-like and shower-like particles.
 
-larana v04\_16\_06(#larana-v04_16_06)
+larana v04\_16\_06
 ----------------------------------------
 
 -   2015-12-18 Lynn Garren : larana v04\_16\_06 for larsoft v04\_31\_00
 
-larreco v04\_26\_00(#larreco-v04_26_00)
+larreco v04\_26\_00
 ------------------------------------------
 
 -   2015-12-18 Lynn Garren : larreco v04\_26\_00 for larsoft v04\_31\_00
@@ -126,7 +126,7 @@ larreco v04\_26\_00(#larreco-v04_26_00)
 -   2015-12-02 Robert Sulej : move trk candidate from struct to class
 -   2015-12-02 Robert Sulej : minor edit and cleanup before starting a branch for PFParticle support
 
-larsim v04\_16\_00(#larsim-v04_16_00)
+larsim v04\_16\_00
 ----------------------------------------
 
 -   2015-12-18 Lynn Garren : larsim v04\_16\_00 for larsoft v04\_31\_00
@@ -135,25 +135,25 @@ larsim v04\_16\_00(#larsim-v04_16_00)
 -   2015-12-18 Lynn Garren : Merge branch ‘feature/gp\_DumpMCParticle’ into release/v04\_31\_00
 -   2015-12-03 Gianluca Petrillo : New analyser to dump MCParticles on screen (for humans to read them)
 
-larevt v04\_13\_08(#larevt-v04_13_08)
+larevt v04\_13\_08
 ----------------------------------------
 
 -   2015-12-18 Lynn Garren : larevt v04\_13\_08 for larsoft v04\_31\_00
 
-lardata v04\_19\_03(#lardata-v04_19_03)
+lardata v04\_19\_03
 ------------------------------------------
 
 -   2015-12-18 Lynn Garren : lardata v04\_19\_03 for larsoft v04\_31\_00
 
-larcore v04\_23\_00(#larcore-v04_23_00)
+larcore v04\_23\_00
 ------------------------------------------
 
 -   2015-12-18 Lynn Garren : larcore v04\_23\_00 for larsoft v04\_31\_00
 
-larbatch v01\_20\_01(#larbatch-v01_20_01)
+larbatch v01\_20\_01
 --------------------------------------------
 
-larutils v1\_04\_05(#larutils-v1_04_05)
+larutils v1\_04\_05
 ------------------------------------------
 
 -   2015-12-18 Lynn Garren : larutils v1\_04\_05 for larsoft v04\_31\_00

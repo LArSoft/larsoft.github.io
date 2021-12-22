@@ -1,4 +1,4 @@
-LArSoft v09\_22\_01 Release Notes(#LArSoft-v09_22_01-Release-Notes)
+LArSoft v09\_22\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_22\_01 Release Notes(#LArSoft-v09_22_01-Release-Notes)
 Download instructions for [larsoft v09\_22\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_22_01/larsoft-v09_22_01.html)\
 Download instructions for [just larsoftobj v09\_05\_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_03/larsoftobj-v09_05_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larbatch PR 15
@@ -50,7 +50,7 @@ New features(#New-features)
     -   With the PR 15 update, I have tested that dag and non-dag submissions both work and jobs are able to run to completion.
     -   The other main update in PR 15 is to accommodate a breaking change in the art internal metadata format that happened back in art 3.02. MicroBooNE is (mostly) not afftected by this metadata format update because mcc9 is based off art 3.01. And apparently, no one using larbatch on the develop branch is generating sam metadata. I recently got a bug report from someone generating sam metadata using a newer art version.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lardataobj PR 12
@@ -63,116 +63,116 @@ Bug fixes(#Bug-fixes)
     -   Install larrecodnn/ImagePatternAlgs/Tensorflow/quiet\_session.h, which quiets complaints from e20 builds.
     -   Note that this header has been in larrecodnn since larsoft v09\_16\_01
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_22\_01(#larsoft-v09_22_01)
+larsoft v09\_22\_01
 ------------------------------------------
 
 -   2021-04-20 Lynn Garren : larsoft v09\_22\_01 for larsoft v09\_22\_01
 -   2021-04-20 Lynn Garren : product versions
 
-lareventdisplay v09\_01\_08(#lareventdisplay-v09_01_08)
+lareventdisplay v09\_01\_08
 ----------------------------------------------------------
 
 -   2021-04-20 Lynn Garren : lareventdisplay v09\_01\_08 for larsoft v09\_22\_01
 
-larexamples v09\_01\_08(#larexamples-v09_01_08)
+larexamples v09\_01\_08
 --------------------------------------------------
 
 -   2021-04-20 Lynn Garren : larexamples v09\_01\_08 for larsoft v09\_22\_01
 
-larpandora v09\_05\_09(#larpandora-v09_05_09)
+larpandora v09\_05\_09
 ------------------------------------------------
 
 -   2021-04-20 Lynn Garren : larpandora v09\_05\_09 for larsoft v09\_22\_01
 
-larsimrad v09\_01\_08(#larsimrad-v09_01_08)
+larsimrad v09\_01\_08
 ----------------------------------------------
 
 -   2021-04-20 Lynn Garren : larsimrad v09\_01\_08 for larsoft v09\_22\_01
 
-larrecodnn v09\_06\_07(#larrecodnn-v09_06_07)
+larrecodnn v09\_06\_07
 ------------------------------------------------
 
 -   2021-04-20 Lynn Garren : larrecodnn v09\_06\_07 for larsoft v09\_22\_01
 -   2021-04-19 Lynn Garren : Merge pull request \#18 from lgarren/feature/lg\_install\_quiet\_session
 -   2021-04-19 Lynn Garren : install missing quiet\_session.h header
 
-larwirecell v09\_02\_05(#larwirecell-v09_02_05)
+larwirecell v09\_02\_05
 --------------------------------------------------
 
 -   2021-04-20 Lynn Garren : larwirecell v09\_02\_05 for larsoft v09\_22\_01
 
-larana v09\_02\_04(#larana-v09_02_04)
+larana v09\_02\_04
 ----------------------------------------
 
 -   2021-04-20 Lynn Garren : larana v09\_02\_04 for larsoft v09\_22\_01
 
-larreco v09\_06\_04(#larreco-v09_06_04)
+larreco v09\_06\_04
 ------------------------------------------
 
 -   2021-04-20 Lynn Garren : larreco v09\_06\_04 for larsoft v09\_22\_01
 
-larsim v09\_13\_01(#larsim-v09_13_01)
+larsim v09\_13\_01
 ----------------------------------------
 
 -   2021-04-20 Lynn Garren : larsim v09\_13\_01 for larsoft v09\_22\_01
 
-larg4 v09\_03\_05(#larg4-v09_03_05)
+larg4 v09\_03\_05
 --------------------------------------
 
 -   2021-04-20 Lynn Garren : larg4 v09\_03\_05 for larsoft v09\_22\_01
 
-larevt v09\_02\_04(#larevt-v09_02_04)
+larevt v09\_02\_04
 ----------------------------------------
 
 -   2021-04-20 Lynn Garren : larevt v09\_02\_04 for larsoft v09\_22\_01
 
-lardata v09\_02\_03(#lardata-v09_02_03)
+lardata v09\_02\_03
 ------------------------------------------
 
 -   2021-04-20 Lynn Garren : lardata v09\_02\_03 for larsoft v09\_22\_01
 
-larcore v09\_02\_01(#larcore-v09_02_01)
+larcore v09\_02\_01
 ------------------------------------------
 
-larpandoracontent v03\_22\_09(#larpandoracontent-v03_22_09)
+larpandoracontent v03\_22\_09
 --------------------------------------------------------------
 
-larsoftobj v09\_05\_03(#larsoftobj-v09_05_03)
+larsoftobj v09\_05\_03
 ------------------------------------------------
 
 -   2021-04-20 Lynn Garren : larsoftobj v09\_05\_03 for larsoft v09\_22\_01
 -   2021-04-20 Lynn Garren : product versions
 
-lardataobj v09\_01\_02(#lardataobj-v09_01_02)
+lardataobj v09\_01\_02
 ------------------------------------------------
 
 -   2021-04-20 Lynn Garren : lardataobj v09\_01\_02 for larsoft v09\_22\_01
 -   2021-04-19 Lynn Garren : Merge pull request \#12 from PetrilloAtWork/feature/gp\_OpDetWaveform
 -   2021-04-15 Gianluca Petrillo : Some long due C++ changes to raw::OpDetWaveform.
 
-lardataalg v09\_04\_03(#lardataalg-v09_04_03)
+lardataalg v09\_04\_03
 ------------------------------------------------
 
 -   2021-04-20 Lynn Garren : lardataalg v09\_04\_03 for larsoft v09\_22\_01
 
-larcorealg v09\_01\_01(#larcorealg-v09_01_01)
+larcorealg v09\_01\_01
 ------------------------------------------------
 
-larcoreobj v09\_02\_00(#larcoreobj-v09_02_00)
+larcoreobj v09\_02\_00
 ------------------------------------------------
 
-webevd v09\_05\_04(#webevd-v09_05_04)
+webevd v09\_05\_04
 ----------------------------------------
 
 -   2021-04-20 Lynn Garren : webevd v09\_05\_04 for larsoft v09\_22\_01
 
-larbatch v01\_56\_00(#larbatch-v01_56_00)
+larbatch v01\_56\_00
 --------------------------------------------
 
 -   2021-04-20 Lynn Garren : larbatch v01\_56\_00 for larsoft v09\_22\_01
@@ -181,5 +181,5 @@ larbatch v01\_56\_00(#larbatch-v01_56_00)
 -   2021-04-14 Herbert Greenlee : Adapt to art internal sam metadata changes in art 3.02.
 -   2020-10-15 Herbert Greenlee : Require only one process\_name.
 
-larutils v1\_28\_00(#larutils-v1_28_00)
+larutils v1\_28\_00
 ------------------------------------------

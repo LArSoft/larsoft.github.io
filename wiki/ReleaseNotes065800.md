@@ -1,4 +1,4 @@
-LArSoft v06\_58\_00 Release Notes(#LArSoft-v06_58_00-Release-Notes)
+LArSoft v06\_58\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,63 +31,63 @@ LArSoft v06\_58\_00 Release Notes(#LArSoft-v06_58_00-Release-Notes)
 Download instructions for [larsoft v06\_58\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_58_00/larsoft-v06_58_00.html)\
 Download instructions for [just larsoftobj v1\_31\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_31_00/larsoftobj-v1_31_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   updated BackTracker
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   redesigned BackTrackerService
     -   lardata, larana, larsim, larreco: feature/JStock\_BackTrackerIntegratedUpdate
     -   feature/JStock\_BackTrackerIntegratedUpdate is also available for argoneutcode, dunetpc, lariatsoft, sbndcode and uboonecode
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   ifdhc v2\_2\_1 (found in larsoft v06\_57\_00) should not be used
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   ifdhc v2\_2\_2
 -   nutools v2\_16\_08
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_58\_00(#larsoft-v06_58_00)
+larsoft v06\_58\_00
 ------------------------------------------
 
 -   2017-11-29 Lynn Garren : larsoft v06\_58\_00 for larsoft v06\_58\_00
 -   2017-11-29 Lynn Garren : update product versions
 -   2017-11-29 Lynn Garren : ifdh\_art v2\_04\_01 for ifdhc v2\_2\_2
 
-lareventdisplay v06\_15\_03(#lareventdisplay-v06_15_03)
+lareventdisplay v06\_15\_03
 ----------------------------------------------------------
 
 -   2017-11-29 Lynn Garren : lareventdisplay v06\_15\_03 for larsoft v06\_58\_00
 -   2017-11-22 Lynn Garren : larsoft v06\_57\_00
 -   2017-11-21 Tingjun Yang : Comment out check on space point chisq.
 
-larexamples v06\_07\_11(#larexamples-v06_07_11)
+larexamples v06\_07\_11
 --------------------------------------------------
 
 -   2017-11-29 Lynn Garren : larexamples v06\_07\_11 for larsoft v06\_58\_00
 
-larpandora v06\_17\_08(#larpandora-v06_17_08)
+larpandora v06\_17\_08
 ------------------------------------------------
 
 -   2017-11-29 Lynn Garren : larpandora v06\_17\_08 for larsoft v06\_58\_00
 
-larwirecell v06\_08\_05(#larwirecell-v06_08_05)
+larwirecell v06\_08\_05
 --------------------------------------------------
 
 -   2017-11-29 Lynn Garren : larwirecell v06\_08\_05 for larsoft v06\_58\_00
 
-larana v06\_13\_00(#larana-v06_13_00)
+larana v06\_13\_00
 ----------------------------------------
 
 -   2017-11-29 Lynn Garren : larana v06\_13\_00 for larsoft v06\_58\_00
@@ -98,7 +98,7 @@ larana v06\_13\_00(#larana-v06_13_00)
 -   2017-11-07 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_BackTrackerIntegratedUpdate
 -   2017-10-28 Jason Stock : Setting this branch back up for the BackTrackerService/ParticleInventoryService update.
 
-larreco v06\_47\_00(#larreco-v06_47_00)
+larreco v06\_47\_00
 ------------------------------------------
 
 -   2017-11-29 Lynn Garren : Merge branch ‘release/v06\_58\_00’
@@ -120,7 +120,7 @@ larreco v06\_47\_00(#larreco-v06_47_00)
 -   2017-10-30 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_BackTrackerIntegratedUpdate
 -   2017-10-28 Jason Stock : Re-setting up this branch for the BackTrackerService/ParticleInventoryService update
 
-larsim v06\_36\_00(#larsim-v06_36_00)
+larsim v06\_36\_00
 ----------------------------------------
 
 -   2017-11-29 Lynn Garren : larsim v06\_36\_00 for larsoft v06\_58\_00
@@ -160,12 +160,12 @@ larsim v06\_36\_00(#larsim-v06_36_00)
 -   2017-10-28 Jason Stock : Fixing backtracker fcl file.
 -   2017-10-28 Jason Stock : Setting this branch back up for the BackTrackerService/ParticleInventoryService update.
 
-larevt v06\_16\_10(#larevt-v06_16_10)
+larevt v06\_16\_10
 ----------------------------------------
 
 -   2017-11-29 Lynn Garren : larevt v06\_16\_10 for larsoft v06\_58\_00
 
-lardata v06\_33\_00(#lardata-v06_33_00)
+lardata v06\_33\_00
 ------------------------------------------
 
 -   2017-11-29 Lynn Garren : lardata v06\_33\_00 for larsoft v06\_58\_00
@@ -178,29 +178,29 @@ lardata v06\_33\_00(#lardata-v06_33_00)
 -   2017-10-30 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_BackTrackerIntegratedUpdate
 -   2017-10-28 Jason Stock : Setting this branch back up for the BackTrackerService/ParticleInventoryService update
 
-larcore v06\_15\_06(#larcore-v06_15_06)
+larcore v06\_15\_06
 ------------------------------------------
 
-larpandoracontent v03\_08\_01(#larpandoracontent-v03_08_01)
+larpandoracontent v03\_08\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_31\_00(#larsoftobj-v1_31_00)
+larsoftobj v1\_31\_00
 ----------------------------------------------
 
-lardataobj v1\_22\_00(#lardataobj-v1_22_00)
+lardataobj v1\_22\_00
 ----------------------------------------------
 
-larcorealg v1\_10\_00(#larcorealg-v1_10_00)
+larcorealg v1\_10\_00
 ----------------------------------------------
 
-larcoreobj v1\_16\_02(#larcoreobj-v1_16_02)
+larcoreobj v1\_16\_02
 ----------------------------------------------
 
-larbatch v01\_34\_01(#larbatch-v01_34_01)
+larbatch v01\_34\_01
 --------------------------------------------
 
 -   2017-11-29 Lynn Garren : larbatch v01\_34\_01 for larsoft v06\_58\_00
 -   2017-11-27 Herbert Greenlee : Allow \<previousstage\> to work sensibly with base stage.
 
-larutils v1\_20\_01(#larutils-v1_20_01)
+larutils v1\_20\_01
 ------------------------------------------

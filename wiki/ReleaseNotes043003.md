@@ -1,4 +1,4 @@
-LArSoft v04\_30\_03 Release Notes(#LArSoft-v04_30_03-Release-Notes)
+LArSoft v04\_30\_03 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,21 +24,21 @@ LArSoft v04\_30\_03 Release Notes(#LArSoft-v04_30_03-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_30_03/larsoft-v04_30_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   update to art v1\_17\_04
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   include lareventdisplay feature/gp\_FasterDigits
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ -------------------------------------------------------------------------
@@ -51,16 +51,16 @@ Updated dependencies(#Updated-dependencies)
   mrb             v1\_05\_06                
   --------------- ------------ ------------ -------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_30\_03(#larsoft-v04_30_03)
+larsoft v04\_30\_03
 ------------------------------------------
 
 -   2015-12-09 Lynn Garren : larsoft v04\_30\_03 for larsoft v04\_30\_03
 -   2015-12-09 Lynn Garren : update product versions
 
-lareventdisplay v04\_13\_00(#lareventdisplay-v04_13_00)
+lareventdisplay v04\_13\_00
 ----------------------------------------------------------
 
 -   2015-12-09 Lynn Garren : lareventdisplay v04\_13\_00 for larsoft v04\_30\_03
@@ -74,24 +74,24 @@ lareventdisplay v04\_13\_00(#lareventdisplay-v04_13_00)
 -   2015-09-15 Gianluca Petrillo : TPC locator moved to two lines
 -   2015-09-11 Gianluca Petrillo : Added an alternative, faster (?), experimental way to change the TPC visualized in the 2D view.
 
-larexamples v04\_06\_07(#larexamples-v04_06_07)
+larexamples v04\_06\_07
 --------------------------------------------------
 
 -   2015-12-09 Lynn Garren : larexamples v04\_06\_07 for larsoft v04\_30\_03
 
-larpandora v04\_08\_09(#larpandora-v04_08_09)
+larpandora v04\_08\_09
 ------------------------------------------------
 
 -   2015-12-09 Lynn Garren : larpandora v04\_08\_09 for larsoft v04\_30\_03
 -   2015-12-04 Andrew Blake : Enabling Pandora monitoring module to run on real data without trying to look up MC particle lists.
 -   2015-12-04 Andrew Blake : Making a small change to ‘LArPandoraParticleCreator.cxx’ that allows Producer to be tested and debugged without producing anything. Also adding an extra variable to LArPandora analysis ntuple.
 
-larana v04\_16\_05(#larana-v04_16_05)
+larana v04\_16\_05
 ----------------------------------------
 
 -   2015-12-09 Lynn Garren : larana v04\_16\_05 for larsoft v04\_30\_03
 
-larreco v04\_25\_00(#larreco-v04_25_00)
+larreco v04\_25\_00
 ------------------------------------------
 
 -   2015-12-09 Lynn Garren : larreco v04\_25\_00 for larsoft v04\_30\_03
@@ -151,31 +151,31 @@ larreco v04\_25\_00(#larreco-v04_25_00)
 -   2015-09-10 Bruce Baller : Change to plane dependent cuts. Add uB code boolean.
 -   2015-09-10 Bruce Baller : Change to plane dependent cuts. Add uB code boolean
 
-larsim v04\_15\_02(#larsim-v04_15_02)
+larsim v04\_15\_02
 ----------------------------------------
 
 -   2015-12-09 Lynn Garren : larsim v04\_15\_02 for larsoft v04\_30\_03
 -   2015-12-07 Thomas Warburton : Fixing a bug where wrong PDGCode was entered into the event record.
 
-larevt v04\_13\_07(#larevt-v04_13_07)
+larevt v04\_13\_07
 ----------------------------------------
 
 -   2015-12-09 Lynn Garren : larevt v04\_13\_07 for larsoft v04\_30\_03
 -   2015-12-08 Gianluca Petrillo : Throw when a non-implemented feature is requested
 -   2015-12-08 Gianluca Petrillo : A problem that could happen silenty when changing geometry, now happens loudly
 
-lardata v04\_19\_02(#lardata-v04_19_02)
+lardata v04\_19\_02
 ------------------------------------------
 
 -   2015-12-09 Lynn Garren : lardata v04\_19\_02 for larsoft v04\_30\_03
 
-larcore v04\_22\_00(#larcore-v04_22_00)
+larcore v04\_22\_00
 ------------------------------------------
 
 -   2015-12-09 Lynn Garren : larcore v04\_22\_00 for larsoft v04\_30\_03
 
-larbatch v01\_20\_01(#larbatch-v01_20_01)
+larbatch v01\_20\_01
 --------------------------------------------
 
-larutils v1\_04\_04(#larutils-v1_04_04)
+larutils v1\_04\_04
 ------------------------------------------

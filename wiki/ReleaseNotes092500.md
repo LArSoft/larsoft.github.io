@@ -1,4 +1,4 @@
-LArSoft v09\_25\_00 Release Notes(#LArSoft-v09_25_00-Release-Notes)
+LArSoft v09\_25\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_25\_00 Release Notes(#LArSoft-v09_25_00-Release-Notes)
 Download instructions for [larsoft v09\_25\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_25_00/larsoft-v09_25_00.html)\
 Download instructions for [just larsoftobj v09\_05\_04](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_04/larsoftobj-v09_05_04.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandoracontent PR 27
@@ -61,62 +61,62 @@ New features(#New-features)
         -   Finally in this proposal we have also included the most updated version of PDFastSimPVS\_module, provided by Mu Wei which stores reflected light when using the Optical-Library module. 
     -   [Presentation June 15](https://indico.fnal.gov/event/49497/contributions/217367/attachments/144512/183586/SBND_LightSimulation_LArSoft.pdf)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v4\_04\_06
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_25\_00(#larsoft-v09_25_00)
+larsoft v09\_25\_00
 ------------------------------------------
 
 -   2021-06-23 Lynn Garren : product versions
 -   2021-06-23 Lynn Garren : larsoft v09\_25\_00 for larsoft v09\_25\_00
 
-lareventdisplay v09\_01\_11(#lareventdisplay-v09_01_11)
+lareventdisplay v09\_01\_11
 ----------------------------------------------------------
 
 -   2021-06-23 Lynn Garren : lareventdisplay v09\_01\_11 for larsoft v09\_25\_00
 
-larexamples v09\_01\_11(#larexamples-v09_01_11)
+larexamples v09\_01\_11
 --------------------------------------------------
 
 -   2021-06-23 Lynn Garren : larexamples v09\_01\_11 for larsoft v09\_25\_00
 
-larpandora v09\_06\_03(#larpandora-v09_06_03)
+larpandora v09\_06\_03
 ------------------------------------------------
 
 -   2021-06-23 Lynn Garren : larpandora v09\_06\_03 for larsoft v09\_25\_00
 
-larsimrad v09\_01\_11(#larsimrad-v09_01_11)
+larsimrad v09\_01\_11
 ----------------------------------------------
 
 -   2021-06-23 Lynn Garren : larsimrad v09\_01\_11 for larsoft v09\_25\_00
 
-larrecodnn v09\_07\_02(#larrecodnn-v09_07_02)
+larrecodnn v09\_07\_02
 ------------------------------------------------
 
 -   2021-06-23 Lynn Garren : larrecodnn v09\_07\_02 for larsoft v09\_25\_00
 
-larwirecell v09\_02\_08(#larwirecell-v09_02_08)
+larwirecell v09\_02\_08
 --------------------------------------------------
 
-larana v09\_02\_07(#larana-v09_02_07)
+larana v09\_02\_07
 ----------------------------------------
 
 -   2021-06-23 Lynn Garren : larana v09\_02\_07 for larsoft v09\_25\_00
 
-larreco v09\_06\_07(#larreco-v09_06_07)
+larreco v09\_06\_07
 ------------------------------------------
 
 -   2021-06-23 Lynn Garren : larreco v09\_06\_07 for larsoft v09\_25\_00
 
-larsim v09\_14\_00(#larsim-v09_14_00)
+larsim v09\_14\_00
 ----------------------------------------
 
 -   2021-06-23 Lynn Garren : larsim v09\_14\_00 for larsoft v09\_25\_00
@@ -130,19 +130,19 @@ larsim v09\_14\_00(#larsim-v09_14_00)
 -   2021-06-02 Claudia Alvarez : Hybrid Model
 -   2021-06-02 Claudia Alvarez : Hybrid Model
 
-larg4 v09\_03\_07(#larg4-v09_03_07)
+larg4 v09\_03\_07
 --------------------------------------
 
-larevt v09\_02\_06(#larevt-v09_02_06)
+larevt v09\_02\_06
 ----------------------------------------
 
-lardata v09\_02\_04(#lardata-v09_02_04)
+lardata v09\_02\_04
 ------------------------------------------
 
-larcore v09\_02\_01(#larcore-v09_02_01)
+larcore v09\_02\_01
 ------------------------------------------
 
-larpandoracontent v03\_23\_03(#larpandoracontent-v03_23_03)
+larpandoracontent v03\_23\_03
 --------------------------------------------------------------
 
 -   2021-06-23 Lynn Garren : larpandoracontent v03\_23\_03 for larsoft v09\_25\_00
@@ -164,26 +164,26 @@ larpandoracontent v03\_23\_03(#larpandoracontent-v03_23_03)
 -   2021-05-12 Andrew Chappell : Add hierarchy tools for test beam interactions
 -   2021-02-18 Andrew Chappell : Add hierarchy tools for neutrino interactions
 
-larsoftobj v09\_05\_04(#larsoftobj-v09_05_04)
+larsoftobj v09\_05\_04
 ------------------------------------------------
 
-lardataobj v09\_01\_03(#lardataobj-v09_01_03)
+lardataobj v09\_01\_03
 ------------------------------------------------
 
-lardataalg v09\_04\_04(#lardataalg-v09_04_04)
+lardataalg v09\_04\_04
 ------------------------------------------------
 
-larcorealg v09\_01\_01(#larcorealg-v09_01_01)
+larcorealg v09\_01\_01
 ------------------------------------------------
 
-larcoreobj v09\_02\_00(#larcoreobj-v09_02_00)
+larcoreobj v09\_02\_00
 ------------------------------------------------
 
-webevd v09\_05\_05(#webevd-v09_05_05)
+webevd v09\_05\_05
 ----------------------------------------
 
-larbatch v01\_56\_01(#larbatch-v01_56_01)
+larbatch v01\_56\_01
 --------------------------------------------
 
-larutils v1\_28\_00(#larutils-v1_28_00)
+larutils v1\_28\_00
 ------------------------------------------

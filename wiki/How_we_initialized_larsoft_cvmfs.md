@@ -1,7 +1,7 @@
-How we initialized larsoft cvmfs(#How-we-initialized-larsoft-cvmfs)
+How we initialized larsoft cvmfs
 ======================================================================
 
-Initialize /cvmfs/larsoft.opensciencegrid.org(#Initialize-cvmfslarsoftopensciencegridorg)
+Initialize /cvmfs/larsoft.opensciencegrid.org
 --------------------------------------------------------------------------------------------
 
 -   cvmfs\_server transaction larsoft.opensciencegrid.org

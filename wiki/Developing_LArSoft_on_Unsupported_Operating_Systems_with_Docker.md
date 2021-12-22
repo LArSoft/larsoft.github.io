@@ -25,10 +25,10 @@
             -   [Daily Development Operations](#Daily-Development-Operations)
     -   [Advanced Topics](#Advanced-Topics)
 
-Developing LArSoft on Unsupported Operating Systems with Docker(#Developing-LArSoft-on-Unsupported-Operating-Systems-with-Docker)
+Developing LArSoft on Unsupported Operating Systems with Docker
 ====================================================================================================================================
 
-Introduction(#Introduction) {.wiki-class-count}
+Introduction
 ------------------------------
 
 The SciSoft team has dropped native MacOS from art suite 3.06 due to the significant and unsustainable development effort required, and SLF6 due to lack of support for modern Python (\>3.6). Also, to date (June 2020) we have not received an official request from an experiment or collaboration to support Ubuntu 20.04 LTS (Focal Fossa) or CentOS 8.
@@ -41,7 +41,7 @@ Individuals, however, do have several possible reasons for wishing to develop on
 
 For them, Docker provides a way to development on unsupported operating systems.
 
-A Suggested Scheme for LarSoft Development With Docker(#A-Suggested-Scheme-for-LarSoft-Development-With-Docker) {.wiki-class-count}
+A Suggested Scheme for LarSoft Development With Docker
 ------------------------------------------------------------------------------------------------------------------
 
 We recommend:
@@ -51,7 +51,7 @@ We recommend:
 3.  Building and debugging code *inside* the Docker container.
 4.  Interacting with git and / or GitHub *inside* the Docker container (although doing this outside the container is as simple as having suitable native versions of git and / or hub).
 
-Overview: Quick Start(#Overview-Quick-Start) {.wiki-class-count}
+Overview: Quick Start
 -----------------------------------------------
 
 1.  Satisfy [prerequisites](#Prerequisites).
@@ -61,24 +61,24 @@ Overview: Quick Start(#Overview-Quick-Start) {.wiki-class-count}
 5.  [Initialize MRB](#Initialization).
 6.  [Daily development operations](#Daily-Development-Operations).
 
-Relevant Docker Concepts and Components(#Relevant-Docker-Concepts-and-Components) {.wiki-class-count}
+Relevant Docker Concepts and Components
 ------------------------------------------------------------------------------------
 
 One is encouraged to read as much of the [guides](https://docs.docker.com/develop/), [manuals](https://docs.docker.com/engine/), and [reference material](https://docs.docker.com/reference/) as required to obtain the best overall picture of Docker and its associated tools and how to use them. However, we present a short introduction to the most important concepts here. The major conceptual components of a Docker system from the point of view of the task at hand are:
 
-### The Image(#The-Image) {.wiki-class-count}
+### The Image
 
 The **image** is the equivalent of a C++ class *i.e.* the description of everything required by the running system: OS, auxiliary applications and files, and initial commands to be run at startup. Continuing the analogy, the vast majority of the data in this class will be static in the C++ sense, not contributing to the size of an instance. An image is created according to a `Dockerfile` via `docker build`, and may be hierarchical–building upon lower-level layers such as a base operating system.
 
-### The Container(#The-Container) {.wiki-class-count}
+### The Container
 
 The **container** is an instance of an image: an actual running system, with such external mounts and other configuration as determined by the `docker run` command. Multiple containers corresponding to a particular image may exist at any time, sharing any image data that remain unmodified.
 
-### The Volume(#The-Volume) {.wiki-class-count}
+### The Volume
 
 Docker containers in themselves are processes that do not affect the outside environment: without volumes, a Docker container is isolated from the host system, and changes made to files inside it do not affect the host. Under normal circumstances, once the container exits those changes are inaccessible: a new `docker run` invocation from the same image will not include any changes made in previous containers from the same image. This isolation can be relaxed, however, by use of mounts of which there are two categories, the host-based, “bind” mount, and the self-contained “Docker Volume.” The former allows directories or even individual files on the host to be visible in a container. The latter is a self-contained entity which may be mounted (simultaneously if desired) from multiple containers, and is generally not accessible from the host. In both cases, changes will persist automatically beyond the lifetime of any individual container.
 
-### An Analogy Linking the Components(#An-Analogy-Linking-the-Components) {.wiki-class-count}
+### An Analogy Linking the Components
 
 To settle the different components and concepts together in one’s mind, one could consider:
 
@@ -87,7 +87,7 @@ To settle the different components and concepts together in one’s mind, one co
 3.  The image as a special ingredient box where most of the ingredients don’t appear until they are needed, also containing a magical instructional video, the viewing of which will actually create a real cake you can eat, and
 4.  The container as a particular cake–iced, decorated and with extra required and / or optional ingredients described by specific `docker run` command-line options.
 
-Developing LArSoft with MRB and Docker: Which Bits Go Where?(#Developing-LArSoft-with-MRB-and-Docker-Which-Bits-Go-Where) {.wiki-class-count}
+Developing LArSoft with MRB and Docker: Which Bits Go Where?
 ----------------------------------------------------------------------------------------------------------------------------
 
 We can think of a specific LArSoft development environment as consisting of several components:
@@ -103,7 +103,7 @@ We can think of a specific LArSoft development environment as consisting of seve
 4.  Any **user configuration** files for tools or system operations.
 5.  Any **environment variables** required to pass information from the host to the container.
 
-### The Image(#The-Image-2) {.wiki-class-count}
+### The Image
 
 The [base operating system and system-level prerequisites](#base_os) are already available as a [FNAL Docker image](https://hub.docker.com/repository/docker/fnalart/os_base), based on a specific tagged, [official](https://docs.docker.com/docker-hub/official_images/) [CentOS](https://hub.docker.com/_/centos?tab=tags&page=1&name=7.8.2003) image from [Docker Hub](https://hub.docker.com). This image contains, in addition to the relatively minimal OS installation provided by the base image:
 
@@ -120,7 +120,7 @@ The [base operating system and system-level prerequisites](#base_os) are already
     -   [nedit](https://sourceforge.net/projects/nedit/)
 -   All the system-level prerequisites necessary to build art, LArSoft and all their dependencies.
 
-### Self-Contained Volumes(#Self-Contained-Volumes) {.wiki-class-count}
+### Self-Contained Volumes
 
 We recommend (and provide instructions for) having the [external UPS products](#external_ups) be part of their own volume. Whether one makes one volume per release that one develops against or one “omnibus” volume updated as necessary is a decision that developers can make based on their particular needs, but we recommend that any given development container connect to only one such volume, and that each such volume contain products for only one [primary qualifier](/redmine/projects/cet-is-public/wiki/AboutQualifiers#Primary-Qualifiers). The host does not need to see or interact with these products, and separate volumes per primary qualifier should keep them at a reasonable size.
 
@@ -133,18 +133,18 @@ If one is in the habit of building the same code under different primary qualifi
 
 We recommend the former layout for most circumstances, although the latter might be more attractive to a power user wanting to factor out the build products from several qualifier combinations.
 
-### Host Mounts(#Host-Mounts) {.wiki-class-count}
+### Host Mounts
 
 In any configuration scenario described above, we recommend the [MRB srcs/ directory](#pkg_source) be based on the host (including the [CMakeLists.txt](#CMakeLists_txt) file), and mounted to each container. This enables the source to be examined and edited easily from the host, and any changes thereto to be backed-up without pushing to a remote repository. It also enables the sources to be shared between multiple containers. With a some change to the construction of volumes and the invocation of the container, one could utilize a given source area with different sets of packages under development vs being obtained from external UPS packages by localizing the `CMakeLists.txt` file.
 
-### Runtime Container Configuration(#Runtime-Container-Configuration) {.wiki-class-count}
+### Runtime Container Configuration
 
 Any [environment settings](#env_vars) or [user configuration files](#user_config) from the host–such as the hub configuration file containing one’s GitHub credentials, or a socket file containing X connection data and an associated value of the DISPLAY environment variable–should be specified at container runtime via suitable `--mount` or `-e` options to the `docker run` comand as appropriate.
 
-Setting up a Development Environment(#Setting-up-a-Development-Environment) {.wiki-class-count}
+Setting up a Development Environment
 ------------------------------------------------------------------------------
 
-### Conventions(#Conventions) {.wiki-class-count}
+### Conventions
 
 We use the following conventions while demonstrating command input or output:\
 
@@ -153,15 +153,15 @@ We use the following conventions while demonstrating command input or output:\
     (-dc-) $ # Command-line prompt within running container
     # Output...
 
-### Prerequisites(#Prerequisites) {.wiki-class-count}
+### Prerequisites
 
--   As much read-write storage space as required for the development to be undertaken (often 10-15 GiB or more), plus a few hundred MiB.
+-   As much read-write storage space as required for the development to be undertaken (often 10-15 GiB or more), plus a few hundred MiB
 -   The ability to install software (or have it installed) on the host system.
 -   [Install Docker](/redmine/projects/vms-and-containers/wiki/Using_Docker).
 -   An understanding of the terms *[image](#The-Image)*, *[container](#The-Container)* and, *[volume](#The-Volume)* is necessary for productive use of this approach and adaption to one’s own preferred workflow and environment.
 -   A suitable choice of base image from which to create containers. We recommend using `fnalart/os_base:centos7` as referenced above, as it should already be configured with all system-level library, tool and development packages to support developing LArSoft.
 
-### Image Retrieval(#Image-Retrieval) {.wiki-class-count}
+### Image Retrieval
 
 An explicit command to obtain the base image is not *necessary*: the first `docker run` command referencing an image not currently installed will trigger an attempt to obtain it from DockerHub. At any time one can check what images are available on the local system with (*e.g.*):\
 
@@ -173,7 +173,7 @@ However, we *recommend* regular use of an explicit `docker pull` command prior t
 
     (host) $ docker pull fnalart/os_base:centos7
 
-### Create and Populate the External UPS Products Volume(#Create-and-Populate-the-External-UPS-Products-Volume) {.wiki-class-count}
+### Create and Populate the External UPS Products Volume
 
 -   Create the Docker volume:\
 
@@ -194,7 +194,7 @@ However, we *recommend* regular use of an explicit `docker pull` command prior t
         # Done.
         (-dc-) $ exit
 
-### Initialize Hub’s GitHub Credentials(#Initialize-Hubs-GitHub-Credentials) {.wiki-class-count}
+### Initialize Hub’s GitHub Credentials
 
     (host) $ touch $HOME/.config/hub # if hub not previously used
     (host) $ docker run --rm -it \
@@ -206,17 +206,17 @@ However, we *recommend* regular use of an explicit `docker pull` command prior t
     (-dc-) $ hub api # Follow the prompts and provide the expected information.
     (-dc-) $ exit
 
-### Create the Source Area on the Host(#Create-the-Source-Area-on-the-Host) {.wiki-class-count}
+### Create the Source Area on the Host
 
 *e.g.*:
 
     (host) $ mkdir ~/work/mrb-larsoft/srcs
 
-### Create and Use a Simple MRB Area in One Volume(#Create-and-Use-a-Simple-MRB-Area-in-One-Volume) {.wiki-class-count}
+### Create and Use a Simple MRB Area in One Volume
 
 For other, more complex configurations that might be more suited to your needs, see [Advanced Topics](#Advanced-Topics), below.
 
-#### Initialization(#Initialization) {.wiki-class-count}
+#### Initialization
 
     (host) $ docker volume create mrb-larsoft
     (host) $ docker run --rm -it \
@@ -235,7 +235,7 @@ For other, more complex configurations that might be more suited to your needs, 
     (-dc-) $ mrb g [--fork] larsoft
     (-dc-) $ exit
 
-#### Daily Development Operations(#Daily-Development-Operations) {.wiki-class-count}
+#### Daily Development Operations
 
     (host) <shell-1> $ docker run --rm -it \
     --mount type=bind,source=$HOME/.config/hub,target=/root/.config/hub \
@@ -254,7 +254,7 @@ For other, more complex configurations that might be more suited to your needs, 
     (-dc-) $ mrbsetenv
     (-dc-) $ # Continue normal development...
 
-Advanced Topics(#Advanced-Topics)
+Advanced Topics
 ------------------------------------
 
 -   [Using Hub & Git from the host](Developing_LArSoft_With_Docker_-_Advanced_Topics#Using-Hub-amp-Git-From-the-Host).

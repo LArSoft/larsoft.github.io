@@ -1,4 +1,4 @@
-LArSoft v08\_02\_00 Release Notes(#LArSoft-v08_02_00-Release-Notes)
+LArSoft v08\_02\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,10 +33,10 @@ LArSoft v08\_02\_00 Release Notes(#LArSoft-v08_02_00-Release-Notes)
 Download instructions for [larsoft v08\_02\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_02_00/larsoft-v08_02_00.html)\
 Download instructions for [just larsoftobj v08\_01\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_01_00/larsoftobj-v08_01_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larwirecell feature/bviren\_perapa
@@ -55,41 +55,41 @@ New features(#New-features)
     -   The bottom line is that the Efficiency \* Purity 2D metric for muons, pions, kaons and protons improved from 0.63 to 0.72. The 3D metric PFP improved from 0.51 to 0.60. The number of really bad Efficiency \* Purity trajectories dropped from 229 to 154.
     -   A significant component of these improvements, DoForecast, in cluster\_microboone.fcl is already defined and will be in place when this feature branch is merged with develop.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   wirecell v0\_10\_7
 -   mrb v2\_00\_02
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_02\_00(#larsoft-v08_02_00)
+larsoft v08\_02\_00
 ------------------------------------------
 
 -   2019-01-02 Lynn Garren : product versions
 -   2019-01-02 Lynn Garren : larsoft v08\_02\_00 for larsoft v08\_01\_01
 
-lareventdisplay v08\_00\_02(#lareventdisplay-v08_00_02)
+lareventdisplay v08\_00\_02
 ----------------------------------------------------------
 
 -   2019-01-02 Lynn Garren : lareventdisplay v08\_00\_02 for larsoft v08\_01\_01
 
-larexamples v08\_00\_01(#larexamples-v08_00_01)
+larexamples v08\_00\_01
 --------------------------------------------------
 
-larg4 v08\_00\_01(#larg4-v08_00_01)
+larg4 v08\_00\_01
 --------------------------------------
 
-larpandora v08\_01\_01(#larpandora-v08_01_01)
+larpandora v08\_01\_01
 ------------------------------------------------
 
 -   2019-01-02 Lynn Garren : larpandora v08\_01\_01 for larsoft v08\_01\_01
 
-larwirecell v08\_01\_00(#larwirecell-v08_01_00)
+larwirecell v08\_01\_00
 --------------------------------------------------
 
 -   2019-01-02 Lynn Garren : larwirecell v08\_01\_00 for larsoft v08\_01\_01
@@ -100,12 +100,12 @@ larwirecell v08\_01\_00(#larwirecell-v08_01_00)
 -   2018-12-28 Brett Viren : Better handle sparse input frames.
 -   2018-12-27 Brett Viren : Handle an input IFrame that is sparse and give parity to the case where recob::Wire is made sparse or not.
 
-larana v08\_00\_02(#larana-v08_00_02)
+larana v08\_00\_02
 ----------------------------------------
 
 -   2019-01-02 Lynn Garren : larana v08\_00\_02 for larsoft v08\_01\_01
 
-larreco v08\_02\_00(#larreco-v08_02_00)
+larreco v08\_02\_00
 ------------------------------------------
 
 -   2019-01-02 Lynn Garren : larreco v08\_02\_00 for larsoft v08\_01\_01
@@ -160,37 +160,37 @@ larreco v08\_02\_00(#larreco-v08_02_00)
 -   2018-11-27 ascarpel : merge version conflict solved
 -   2018-11-27 ascarpel : Correct bug in pmalg to stitch tracks within the same TPC
 
-larsim v08\_00\_01(#larsim-v08_00_01)
+larsim v08\_00\_01
 ----------------------------------------
 
-larevt v08\_00\_01(#larevt-v08_00_01)
+larevt v08\_00\_01
 ----------------------------------------
 
-lardata v08\_00\_01(#lardata-v08_00_01)
+lardata v08\_00\_01
 ------------------------------------------
 
-larcore v08\_00\_00(#larcore-v08_00_00)
+larcore v08\_00\_00
 ------------------------------------------
 
-larpandoracontent v03\_14\_03(#larpandoracontent-v03_14_03)
+larpandoracontent v03\_14\_03
 --------------------------------------------------------------
 
-larsoftobj v08\_01\_00(#larsoftobj-v08_01_00)
+larsoftobj v08\_01\_00
 ------------------------------------------------
 
-lardataobj v08\_00\_00(#lardataobj-v08_00_00)
+lardataobj v08\_00\_00
 ------------------------------------------------
 
-lardataalg v08\_01\_00(#lardataalg-v08_01_00)
+lardataalg v08\_01\_00
 ------------------------------------------------
 
-larcorealg v08\_00\_00(#larcorealg-v08_00_00)
+larcorealg v08\_00\_00
 ------------------------------------------------
 
-larcoreobj v08\_00\_00(#larcoreobj-v08_00_00)
+larcoreobj v08\_00\_00
 ------------------------------------------------
 
-larbatch v01\_47\_03(#larbatch-v01_47_03)
+larbatch v01\_47\_03
 --------------------------------------------
 
 -   2019-01-02 Lynn Garren : larbatch v01\_47\_03 for larsoft v08\_01\_01
@@ -198,5 +198,5 @@ larbatch v01\_47\_03(#larbatch-v01_47_03)
 -   2019-01-02 Herbert Greenlee : Remove 12 hour project cooling off period (use dropboxwait instead).
 -   2019-01-02 Herbert Greenlee : Update start project script to deal better with situation where project is already started at submit time.
 
-larutils v1\_23\_08(#larutils-v1_23_08)
+larutils v1\_23\_08
 ------------------------------------------

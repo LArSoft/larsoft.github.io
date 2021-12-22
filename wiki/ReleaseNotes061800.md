@@ -1,4 +1,4 @@
-LArSoft v06\_18\_00 Release Notes(#LArSoft-v06_18_00-Release-Notes)
+LArSoft v06\_18\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -29,13 +29,13 @@ LArSoft v06\_18\_00 Release Notes(#LArSoft-v06_18_00-Release-Notes)
 Download instructions for [larsoft v06\_18\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_18_00/larsoft-v06_18_00.html)\
 Download instructions for [just larsoftobj v1\_08\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_08_02/larsoftobj-v1_08_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop since v06\_17\_00
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco, uboonecode feature/cerati\_kffitupdates
@@ -43,12 +43,12 @@ New features(#New-features)
 -   lardata feature/ss\_ranges and range ups product
 -   feature/gp\_Issue14138 branches in lardata and larreco [\#14138](/redmine/issues/14138 "Necessary Maintenance: Move DumpTracks and DumpClusters together with the other dumpers (Closed)")
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   LArG4 MCParticle hierarchy information [\#14843](/redmine/issues/14843 "Bug: LArG4 MCParticle hierarchy information (Resolved)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- ---------- ------------ -------
@@ -56,10 +56,10 @@ Updated dependencies(#Updated-dependencies)
   range     v3\_0\_0                
   --------- ---------- ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_18\_00(#larsoft-v06_18_00)
+larsoft v06\_18\_00
 ------------------------------------------
 
 -   2016-12-15 Lynn Garren : add range ups product
@@ -68,33 +68,33 @@ larsoft v06\_18\_00(#larsoft-v06_18_00)
 -   2016-12-15 Lynn Garren : update product versions
 -   2016-12-14 Lynn Garren : update dependency database
 
-lareventdisplay v06\_02\_05(#lareventdisplay-v06_02_05)
+lareventdisplay v06\_02\_05
 ----------------------------------------------------------
 
 -   2016-12-15 Lynn Garren : lareventdisplay v06\_02\_05 for larsoft v06\_18\_00
 
-larexamples v06\_01\_06(#larexamples-v06_01_06)
+larexamples v06\_01\_06
 --------------------------------------------------
 
 -   2016-12-15 Lynn Garren : larexamples v06\_01\_06 for larsoft v06\_18\_00
 
-larpandora v06\_04\_01(#larpandora-v06_04_01)
+larpandora v06\_04\_01
 ------------------------------------------------
 
 -   2016-12-15 Lynn Garren : larpandora v06\_04\_01 for larsoft v06\_18\_00
 
-larwirecell v06\_00\_03(#larwirecell-v06_00_03)
+larwirecell v06\_00\_03
 --------------------------------------------------
 
 -   2016-12-15 Lynn Garren : larwirecell v06\_00\_03 for larsoft v06\_18\_00
 -   2016-12-14 Lynn Garren : a bit of cleanup
 
-larana v06\_03\_09(#larana-v06_03_09)
+larana v06\_03\_09
 ----------------------------------------
 
 -   2016-12-15 Lynn Garren : larana v06\_03\_09 for larsoft v06\_18\_00
 
-larreco v06\_13\_00(#larreco-v06_13_00)
+larreco v06\_13\_00
 ------------------------------------------
 
 -   2016-12-15 Lynn Garren : larreco v06\_13\_00 for larsoft v06\_18\_00
@@ -113,7 +113,7 @@ larreco v06\_13\_00(#larreco-v06_13_00)
 -   2016-12-06 Giuseppe Cerati : minor fixes
 -   2016-12-02 Giuseppe Cerati : a bunch of new features for the kalman track fit
 
-larsim v06\_10\_00(#larsim-v06_10_00)
+larsim v06\_10\_00
 ----------------------------------------
 
 -   2016-12-15 Lynn Garren : larsim v06\_10\_00 for larsoft v06\_18\_00
@@ -129,12 +129,12 @@ larsim v06\_10\_00(#larsim-v06_10_00)
 -   2016-12-10 Jason Stock : commenting out the backtracker Tested on 50 muon events.
 -   2016-12-09 Tingjun Yang : Fix memorgy leak. Problem was fixed by Gianluca.
 
-larevt v06\_07\_01(#larevt-v06_07_01)
+larevt v06\_07\_01
 ----------------------------------------
 
 -   2016-12-15 Lynn Garren : larevt v06\_07\_01 for larsoft v06\_18\_00
 
-lardata v06\_11\_00(#lardata-v06_11_00)
+lardata v06\_11\_00
 ------------------------------------------
 
 -   2016-12-15 Lynn Garren : lardata v06\_11\_00 for larsoft v06\_18\_00
@@ -154,23 +154,23 @@ lardata v06\_11\_00(#lardata-v06_11_00)
 -   2016-09-23 Saba Sehirsh : removed the namespae ranges for clarity
 -   2016-08-25 Saba Sehirsh : fixed the header
 
-larcore v06\_05\_01(#larcore-v06_05_01)
+larcore v06\_05\_01
 ------------------------------------------
 
 -   2016-12-15 Lynn Garren : larcore v06\_05\_01 for larsoft v06\_18\_00
 -   2016-12-08 Lynn Garren : larsoft v06\_17\_00
 -   2016-12-08 Gianluca Petrillo : Added a set of options for the test environment itself.
 
-larsoftobj v1\_08\_02(#larsoftobj-v1_08_02)
+larsoftobj v1\_08\_02
 ----------------------------------------------
 
-lardataobj v1\_08\_00(#lardataobj-v1_08_00)
+lardataobj v1\_08\_00
 ----------------------------------------------
 
-larcoreobj v1\_06\_01(#larcoreobj-v1_06_01)
+larcoreobj v1\_06\_01
 ----------------------------------------------
 
-larbatch v01\_26\_00(#larbatch-v01_26_00)
+larbatch v01\_26\_00
 --------------------------------------------
 
 -   2016-12-15 Lynn Garren : larbatch v01\_26\_00 for larsoft v06\_18\_00
@@ -204,5 +204,5 @@ larbatch v01\_26\_00(#larbatch-v01_26_00)
 -   2016-12-08 yuntse : Add new interface for quick check.
 -   2016-12-08 yuntse : Initialize variable MAINTAIN\_PARENTAGE.
 
-larutils v1\_11\_00(#larutils-v1_11_00)
+larutils v1\_11\_00
 ------------------------------------------

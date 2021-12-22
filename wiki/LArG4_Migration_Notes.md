@@ -1,13 +1,13 @@
-LArG4 Migration Notes(#LArG4-Migration-Notes)
+LArG4 Migration Notes
 ================================================
 
 The old geant4 interface in larsim is being replaced with a new package, larg4, and the associated artg4tk package.\
 This page has notes about necessary changes.
 
-**This is a preliminary draft.**(#This-is-a-preliminary-draft)
+**This is a preliminary draft.**
 -----------------------------------------------------------------
 
-fcl files(#fcl-files)
+fcl files
 ------------------------
 
 The experiment top-level control fhicl files will at least need to replace their “largeant” steps in their fhicl files with the new modules:

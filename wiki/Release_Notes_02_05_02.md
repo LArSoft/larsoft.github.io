@@ -1,25 +1,25 @@
-LArSoft v02\_05\_02 Release Notes(#LArSoft-v02_05_02-Release-Notes)
+LArSoft v02\_05\_02 Release Notes
 ======================================================================
 
 [list of LArSoft releases](LArSoft_release_list)
 
-larsoft v02\_05\_02(#larsoft-v02_05_02)
+larsoft v02\_05\_02
 ------------------------------------------
 
 -   2014-08-26 Lynn Garren : releaseDB/base\_dependency\_database for v02\_05\_02
 
-lareventdisplay v02\_05\_02(#lareventdisplay-v02_05_02)
+lareventdisplay v02\_05\_02
 ----------------------------------------------------------
 
 -   2014-08-26 Tingjun Yang : Merge branch ‘feature/fclupdates’ into develop
 -   2014-08-13 Tingjun Yang : fix calorimetry display, clean up fcl files
 
-larexamples v02\_05\_02(#larexamples-v02_05_02)
+larexamples v02\_05\_02
 --------------------------------------------------
 
 -   2014-08-26 William Seligman : Update .fcl file with current style of services include.
 
-larpandora v02\_05\_02(#larpandora-v02_05_02)
+larpandora v02\_05\_02
 ------------------------------------------------
 
 -   2014-08-26 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larpandora into develop
@@ -27,7 +27,7 @@ larpandora v02\_05\_02(#larpandora-v02_05_02)
 -   2014-08-15 Andrew Blake : Fixing loop in ThreeDTransverseTracksAlgorithm when separation in X drops below floating point precision
 -   2014-08-14 Brian Rebel : remove use of Geometry::DetId() throughout the code. Use instead the Geometry::DetectorName() to store the string of the detector.
 
-larana v02\_05\_02(#larana-v02_05_02)
+larana v02\_05\_02
 ----------------------------------------
 
 -   2014-08-25 Wesley Ketchum : Merge remote-tracking branch ‘origin/develop’ into feature/wketchum\_CosmicTag
@@ -64,7 +64,7 @@ larana v02\_05\_02(#larana-v02_05_02)
 -   2014-08-14 Wesley Ketchum : Merge branch ‘develop’ into feature/wketchum\_CosmicTagMCTest
 -   2014-08-14 Wesley Ketchum : put in use of mchitcollection on cosmic ana
 
-larreco v02\_05\_02(#larreco-v02_05_02)
+larreco v02\_05\_02
 ------------------------------------------
 
 -   2014-08-26 Lynn Garren : d5 and d6 need to be initialized
@@ -76,7 +76,7 @@ larreco v02\_05\_02(#larreco-v02_05_02)
 -   2014-08-17 Muhammad Elnimr : Updates to TrackAnaCT.
 -   2014-08-14 Brian Rebel : remove use of Geometry::DetId() throughout the code. Use instead the Geometry::DetectorName() to store the string of the detector.
 
-larsim v02\_05\_02(#larsim-v02_05_02)
+larsim v02\_05\_02
 ----------------------------------------
 
 -   2014-08-26 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
@@ -89,7 +89,7 @@ larsim v02\_05\_02(#larsim-v02_05_02)
 -   2014-08-15 Tingjun Yang : clean up fcl files
 -   2014-08-14 Brian Rebel : remove use of Geometry::DetId() throughout the code. Use instead the Geometry::DetectorName() to store the string of the detector.
 
-larevt v02\_05\_02(#larevt-v02_05_02)
+larevt v02\_05\_02
 ----------------------------------------
 
 -   2014-08-26 Brian Rebel : fix a bad commit that failed to compile
@@ -98,7 +98,7 @@ larevt v02\_05\_02(#larevt-v02_05_02)
 -   2014-08-25 Brian Rebel : remove use of ChannelFilter as it is undefined for most detectors
 -   2014-08-14 Brian Rebel : remove use of Geometry::DetId() throughout the code. Use instead the Geometry::DetectorName() to store the string of the detector name in the RunSummary object.
 
-lardata v02\_05\_02(#lardata-v02_05_02)
+lardata v02\_05\_02
 ------------------------------------------
 
 -   2014-08-26 Tingjun Yang : remove signalservices.fcl from services\_csu40L.fcl
@@ -123,7 +123,7 @@ lardata v02\_05\_02(#lardata-v02_05_02)
 -   2014-08-14 Tingjun Yang : clean up fcl files
 -   2014-08-07 Wesley Ketchum : put in CosmicTagID\_t
 
-larcore v02\_05\_02(#larcore-v02_05_02)
+larcore v02\_05\_02
 ------------------------------------------
 
 -   2014-08-26 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larcore into develop

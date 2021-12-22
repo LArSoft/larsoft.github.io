@@ -1,4 +1,4 @@
-LArSoft v08\_05\_00\_04 Release Notes(#LArSoft-v08_05_00_04-Release-Notes)
+LArSoft v08\_05\_00\_04 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -31,18 +31,18 @@ LArSoft v08\_05\_00\_04 Release Notes(#LArSoft-v08_05_00_04-Release-Notes)
 Download instructions for [larsoft v08\_05\_00\_04](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_05_00_04/larsoft-v08_05_00_04.html)\
 Download instructions for [just larsoftobj v08\_03\_00\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_03_00_02/larsoftobj-v08_03_00_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   MicroBooNE request [\#21942](/redmine/issues/21942 "Support: Request patch release larsoft v08_05_00_04 (Closed)")
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   art v3\_01\_02
@@ -54,35 +54,35 @@ Updated dependencies(#Updated-dependencies)
 -   nusystematics v00\_02\_08
 -   canvas\_root\_io v1\_02\_02
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_05\_00\_04(#larsoft-v08_05_00_04)
+larsoft v08\_05\_00\_04
 -------------------------------------------------
 
 -   2019-02-23 Lynn Garren : larsoft v08\_05\_00\_04 for larsoft v08\_05\_00\_04
 -   2019-02-22 Lynn Garren : product versions
 -   2019-02-22 Lynn Garren : s78 and ifdh\_art v2\_07\_02
 
-lareventdisplay v08\_02\_00\_03(#lareventdisplay-v08_02_00_03)
+lareventdisplay v08\_02\_00\_03
 -----------------------------------------------------------------
 
 -   2019-02-23 Lynn Garren : lareventdisplay v08\_02\_00\_03 for larsoft v08\_05\_00\_04
 -   2019-02-19 kduffy : Merge branch ‘feature/alister1\_removepidfromevd’ into feature/kduffy\_PIDupdate\_v08\_05\_00\_br
 -   2019-01-14 Adam : removing PID from event display
 
-larexamples v08\_01\_00\_03(#larexamples-v08_01_00_03)
+larexamples v08\_01\_00\_03
 ---------------------------------------------------------
 
 -   2019-02-23 Lynn Garren : larexamples v08\_01\_00\_03 for larsoft v08\_05\_00\_04
 
-larg4 v08\_01\_00\_03(#larg4-v08_01_00_03)
+larg4 v08\_01\_00\_03
 ---------------------------------------------
 
 -   2019-02-23 Lynn Garren : larg4 v08\_01\_00\_03 for larsoft v08\_05\_00\_04
 -   2019-02-22 Lynn Garren : artg4tk v09\_02\_00
 
-larpandora v08\_03\_00\_03(#larpandora-v08_03_00_03)
+larpandora v08\_03\_00\_03
 -------------------------------------------------------
 
 -   2019-02-23 Lynn Garren : larpandora v08\_03\_00\_03 for larsoft v08\_05\_00\_04
@@ -178,12 +178,12 @@ larpandora v08\_03\_00\_03(#larpandora-v08_03_00_03)
 -   2018-08-30 a-d-smith : Updated simple beam particle id tool to match logic in Pandora
 -   2018-08-29 a-d-smith : Extended neutrino id tool to the general slice id tool - now works for protoDUNE
 
-larwirecell v08\_02\_00\_04(#larwirecell-v08_02_00_04)
+larwirecell v08\_02\_00\_04
 ---------------------------------------------------------
 
 -   2019-02-23 Lynn Garren : larwirecell v08\_02\_00\_04 for larsoft v08\_05\_00\_04
 
-larana v08\_01\_00\_03(#larana-v08_01_00_03)
+larana v08\_01\_00\_03
 -----------------------------------------------
 
 -   2019-02-23 Lynn Garren : larana v08\_01\_00\_03 for larsoft v08\_05\_00\_04
@@ -199,7 +199,7 @@ larana v08\_01\_00\_03(#larana-v08_01_00_03)
 -   2019-01-09 Adam : updates to output chi2 in terms of new anab::ParticleID class – untested
 -   2019-01-08 Lynn Garren : larana v08\_00\_00\_01 for larsoft v08\_00\_00\_br
 
-larreco v08\_04\_00\_03(#larreco-v08_04_00_03)
+larreco v08\_04\_00\_03
 -------------------------------------------------
 
 -   2019-02-23 Lynn Garren : larreco v08\_04\_00\_03 for larsoft v08\_05\_00\_04
@@ -247,42 +247,42 @@ larreco v08\_04\_00\_03(#larreco-v08_04_00_03)
 -   2019-02-18 Hannah Rogers : Add SCE dx correction to calorimetry module
 -   2019-01-14 Adam : removing .Pdg() usage and replacing with -1
 
-larsim v08\_02\_00\_03(#larsim-v08_02_00_03)
+larsim v08\_02\_00\_03
 -----------------------------------------------
 
 -   2019-02-23 Lynn Garren : larsim v08\_02\_00\_03 for larsoft v08\_05\_00\_04
 -   2019-02-22 Kyle Knoepfel : Force discard of engine reference to silence compiler.
 
-larevt v08\_01\_00\_03(#larevt-v08_01_00_03)
+larevt v08\_01\_00\_03
 -----------------------------------------------
 
 -   2019-02-23 Lynn Garren : larevt v08\_01\_00\_03 for larsoft v08\_05\_00\_04
 -   2019-02-22 Lynn Garren : Merge branch ‘feature/herogers\_SCE\_mcc9\_take2’ into v08\_05\_00\_br
 -   2019-02-16 Hannah Rogers : Add space charge fcl defaults
 
-lardata v08\_02\_00\_02(#lardata-v08_02_00_02)
+lardata v08\_02\_00\_02
 -------------------------------------------------
 
 -   2019-02-23 Lynn Garren : lardata v08\_02\_00\_02 for larsoft v08\_05\_00\_04
 -   2019-02-22 Lynn Garren : nutools v2\_26\_09
 
-larcore v08\_01\_00\_02(#larcore-v08_01_00_02)
+larcore v08\_01\_00\_02
 -------------------------------------------------
 
 -   2019-02-23 Lynn Garren : larcore v08\_01\_00\_02 for larsoft v08\_05\_00\_04
 -   2019-02-22 Lynn Garren : art v3\_01\_02
 
-larpandoracontent v03\_14\_04(#larpandoracontent-v03_14_04)
+larpandoracontent v03\_14\_04
 --------------------------------------------------------------
 
-larsoftobj v08\_03\_00\_02(#larsoftobj-v08_03_00_02)
+larsoftobj v08\_03\_00\_02
 -------------------------------------------------------
 
 -   2019-02-23 Lynn Garren : larsoftobj v08\_03\_00\_02 for larsoft v08\_05\_00\_04
 -   2019-02-22 Lynn Garren : product versions
 -   2019-02-22 Lynn Garren : gallery v1\_11\_02
 
-lardataobj v08\_01\_00\_02(#lardataobj-v08_01_00_02)
+lardataobj v08\_01\_00\_02
 -------------------------------------------------------
 
 -   2019-02-23 Lynn Garren : lardataobj v08\_01\_00\_02 for larsoft v08\_05\_00\_04
@@ -307,17 +307,17 @@ lardataobj v08\_01\_00\_02(#lardataobj-v08_01_00_02)
 -   2019-01-10 Adam : adding ioread for anab::ParticleID
 -   2019-01-10 kduffy : Remove old ParticleID functions from new class, since we’ve decided to go ahead with the breaking change
 
-lardataalg v08\_03\_00\_02(#lardataalg-v08_03_00_02)
+lardataalg v08\_03\_00\_02
 -------------------------------------------------------
 
 -   2019-02-23 Lynn Garren : lardataalg v08\_03\_00\_02 for larsoft v08\_05\_00\_04
 
-larcorealg v08\_01\_00\_02(#larcorealg-v08_01_00_02)
+larcorealg v08\_01\_00\_02
 -------------------------------------------------------
 
 -   2019-02-23 Lynn Garren : larcorealg v08\_01\_00\_02 for larsoft v08\_05\_00\_04
 
-larcoreobj v08\_01\_00\_02(#larcoreobj-v08_01_00_02)
+larcoreobj v08\_01\_00\_02
 -------------------------------------------------------
 
 -   2019-02-23 Lynn Garren : larcoreobj v08\_01\_00\_02 for larsoft v08\_05\_00\_04

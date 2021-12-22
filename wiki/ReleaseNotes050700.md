@@ -1,4 +1,4 @@
-LArSoft v05\_07\_00 Release Notes(#LArSoft-v05_07_00-Release-Notes)
+LArSoft v05\_07\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,12 +24,12 @@ LArSoft v05\_07\_00 Release Notes(#LArSoft-v05_07_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_07_00/larsoft-v05_07_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Approved changes
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandora feature/CreatePandoraLineGaps
@@ -40,12 +40,12 @@ New features(#New-features)
     -   [\#12097](/redmine/issues/12097 "Feature: Update sim::Channel (Closed)") larsim feature/greenlee\_small\_simchannel
 -   changes to larreco/RecoAlg/ProjectionMatchingAlg presented by [Dorota Stefan](https://indico.fnal.gov/getFile.py/access?contribId=6&resId=0&materialId=slides&confId=11793)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   Building larpandora against the new larpandoracontent exercised a bug in cetbuildtools. This bug is fixed in cetbuildtools v4\_19\_03.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ------------------- ------------- ------------ ------------
@@ -57,10 +57,10 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools       v4\_19\_03                 REQUIRED
   ------------------- ------------- ------------ ------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_07\_00(#larsoft-v05_07_00)
+larsoft v05\_07\_00
 ------------------------------------------
 
 -   2016-03-31 Lynn Garren : use cetbuildtools v4\_19\_03
@@ -73,17 +73,17 @@ larsoft v05\_07\_00(#larsoft-v05_07_00)
 -   2016-03-30 Lynn Garren : adding gdb v7\_10\_1
 -   2016-03-29 Lynn Garren : add missing geant4 data products
 
-lareventdisplay v05\_06\_01(#lareventdisplay-v05_06_01)
+lareventdisplay v05\_06\_01
 ----------------------------------------------------------
 
 -   2016-03-30 Lynn Garren : lareventdisplay v05\_06\_01 for larsoft v05\_07\_00
 
-larexamples v05\_06\_01(#larexamples-v05_06_01)
+larexamples v05\_06\_01
 --------------------------------------------------
 
 -   2016-03-30 Lynn Garren : larexamples v05\_06\_01 for larsoft v05\_07\_00
 
-larpandora v05\_07\_00(#larpandora-v05_07_00)
+larpandora v05\_07\_00
 ------------------------------------------------
 
 -   2016-03-31 Lynn Garren : need a fix
@@ -97,7 +97,7 @@ larpandora v05\_07\_00(#larpandora-v05_07_00)
 -   2016-03-25 Andrew Blake : Adding a prototype common ART Producer module that should work for all experiments
 -   2016-03-23 John Marshall : Create Pandora LineGaps to represent dead wires i.e. continuous sets of wires with a bad channel status.
 
-larana v05\_06\_01(#larana-v05_06_01)
+larana v05\_06\_01
 ----------------------------------------
 
 -   2016-03-30 Lynn Garren : larana v05\_06\_01 for larsoft v05\_07\_00
@@ -106,7 +106,7 @@ larana v05\_06\_01(#larana-v05_06_01)
 -   2016-03-23 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larana into develop
 -   2016-03-23 Tingjun Yang : Fix the offset in x if no t0 correction is available.
 
-larreco v05\_07\_00(#larreco-v05_07_00)
+larreco v05\_07\_00
 ------------------------------------------
 
 -   2016-03-30 Lynn Garren : larreco v05\_07\_00 for larsoft v05\_07\_00
@@ -131,7 +131,7 @@ larreco v05\_07\_00(#larreco-v05_07_00)
 -   2016-03-17 Herbert Greenlee : Merge remote-tracking branch ‘origin/develop’ into feature/greenlee\_small\_mchit
 -   2016-03-17 Herbert Greenlee : Reduce size of MCHit.
 
-larsim v05\_07\_00(#larsim-v05_07_00)
+larsim v05\_07\_00
 ----------------------------------------
 
 -   2016-03-30 Lynn Garren : larsim v05\_07\_00 for larsoft v05\_07\_00
@@ -141,12 +141,12 @@ larsim v05\_07\_00(#larsim-v05_07_00)
 -   2016-03-24 Herbert Greenlee : Merge remote-tracking branch ‘origin/develop’ into feature/greenlee\_small\_simchannel
 -   2016-03-18 Herbert Greenlee : Change doubles to floats in sim::IDE.
 
-larevt v05\_06\_01(#larevt-v05_06_01)
+larevt v05\_06\_01
 ----------------------------------------
 
 -   2016-03-30 Lynn Garren : larevt v05\_06\_01 for larsoft v05\_07\_00
 
-lardata v05\_07\_00(#lardata-v05_07_00)
+lardata v05\_07\_00
 ------------------------------------------
 
 -   2016-03-30 Lynn Garren : lardata v05\_07\_00 for larsoft v05\_07\_00
@@ -156,16 +156,16 @@ lardata v05\_07\_00(#lardata-v05_07_00)
 -   2016-03-17 Herbert Greenlee : Merge remote-tracking branch ‘origin/develop’ into feature/greenlee\_small\_mchit
 -   2016-03-17 Herbert Greenlee : Reduce size of MCHit.
 
-larcore v05\_06\_00(#larcore-v05_06_00)
+larcore v05\_06\_00
 ------------------------------------------
 
-larbatch v01\_20\_08(#larbatch-v01_20_08)
+larbatch v01\_20\_08
 --------------------------------------------
 
 -   2016-03-30 Lynn Garren : larbatch v01\_20\_08 for larsoft v05\_07\_00
 -   2016-03-24 Herbert Greenlee : Exit script with lar status.
 
-larutils v1\_05\_06(#larutils-v1_05_06)
+larutils v1\_05\_06
 ------------------------------------------
 
 -   2016-03-30 Lynn Garren : larutils v1\_05\_06 for larsoft v05\_07\_00

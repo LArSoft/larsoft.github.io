@@ -1,4 +1,4 @@
-LArSoft v08\_52\_00 Release Notes(#LArSoft-v08_52_00-Release-Notes)
+LArSoft v08\_52\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -34,12 +34,12 @@ LArSoft v08\_52\_00 Release Notes(#LArSoft-v08_52_00-Release-Notes)
 Download instructions for [larsoft v08\_52\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_52_00/larsoft-v08_52_00.html)\
 Download instructions for [just larsoftobj v08\_28\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_28_01/larsoftobj-v08_28_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsim PR 14
@@ -54,13 +54,13 @@ New features(#New-features)
 -   larg4 PR 10
     -   Fhicl parameter to enable/disable MCParticle trajectory storage by MCTruth process name (follow up of PR\#9)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larcorealg PR 5
     -   Removed superfluous indirection step in some GeometryCore methods.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nutools v3\_06\_05
@@ -68,39 +68,39 @@ Updated dependencies(#Updated-dependencies)
 -   geant4reweight v01\_02\_00
     -   Implemented elastic reweighting in MultiReweighter
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_52\_00(#larsoft-v08_52_00)
+larsoft v08\_52\_00
 ------------------------------------------
 
 -   2020-05-13 Lynn Garren : larsoft v08\_52\_00 for larsoft v08\_52\_00
 -   2020-05-13 Lynn Garren : product versions
 -   2020-05-13 Lynn Garren : nulite v3\_06\_05
 
-lareventdisplay v08\_12\_15(#lareventdisplay-v08_12_15)
+lareventdisplay v08\_12\_15
 ----------------------------------------------------------
 
 -   2020-05-13 Lynn Garren : lareventdisplay v08\_12\_15 for larsoft v08\_52\_00
 
-larexamples v08\_06\_15(#larexamples-v08_06_15)
+larexamples v08\_06\_15
 --------------------------------------------------
 
 -   2020-05-13 Lynn Garren : larexamples v08\_06\_15 for larsoft v08\_52\_00
 
-larg4 v08\_14\_01(#larg4-v08_14_01)
+larg4 v08\_14\_01
 --------------------------------------
 
 -   2020-05-13 Lynn Garren : larg4 v08\_14\_01 for larsoft v08\_52\_00
 -   2020-05-11 Lynn Garren : Merge pull request \#10 from drivera-fnal/develop
 -   2020-05-05 David Rivera : Add fhicl parameter to control whether full trajectories for descendants from primaries with MCTruth process == primary should be stored or any MCTruth process (e.g. primaryBackground, etc).
 
-larpandora v08\_12\_07(#larpandora-v08_12_07)
+larpandora v08\_12\_07
 ------------------------------------------------
 
 -   2020-05-13 Lynn Garren : larpandora v08\_12\_07 for larsoft v08\_52\_00
 
-larrecodnn v08\_04\_00(#larrecodnn-v08_04_00)
+larrecodnn v08\_04\_00
 ------------------------------------------------
 
 -   2020-05-13 Lynn Garren : larrecodnn v08\_04\_00 for larsoft v08\_52\_00
@@ -110,17 +110,17 @@ larrecodnn v08\_04\_00(#larrecodnn-v08_04_00)
 -   2020-05-08 Tingjun Yang : Add module to evaluate ROI finder efficiency.
 -   2020-05-08 Tingjun Yang : Add support for rawdigits.
 
-larwirecell v08\_12\_13(#larwirecell-v08_12_13)
+larwirecell v08\_12\_13
 --------------------------------------------------
 
 -   2020-05-13 Lynn Garren : larwirecell v08\_12\_13 for larsoft v08\_52\_00
 
-larana v08\_17\_07(#larana-v08_17_07)
+larana v08\_17\_07
 ----------------------------------------
 
 -   2020-05-13 Lynn Garren : larana v08\_17\_07 for larsoft v08\_52\_00
 
-larreco v08\_32\_00(#larreco-v08_32_00)
+larreco v08\_32\_00
 ------------------------------------------
 
 -   2020-05-13 Lynn Garren : larreco v08\_32\_00 for larsoft v08\_52\_00
@@ -130,7 +130,7 @@ larreco v08\_32\_00(#larreco-v08_32_00)
 -   2020-05-07 Saba Sehrish : Merge branch ‘develop’ into feature/team\_for\_mt
 -   2020-05-07 Saba Sehrish : Changes to make HitFinder module, algorithm and tool implementations (not all) threadsafe
 
-larsim v08\_24\_00(#larsim-v08_24_00)
+larsim v08\_24\_00
 ----------------------------------------
 
 -   2020-05-13 Lynn Garren : larsim v08\_24\_00 for larsoft v08\_52\_00
@@ -193,52 +193,52 @@ larsim v08\_24\_00(#larsim-v08_24_00)
 -   2020-03-31 Iker de Icaza Astiz : Remove test. Boost already checks the purported objective of this test.
 -   2020-03-31 Iker de Icaza Astiz : Styling and whitespace removal.
 
-larevt v08\_11\_06(#larevt-v08_11_06)
+larevt v08\_11\_06
 ----------------------------------------
 
 -   2020-05-13 Lynn Garren : larevt v08\_11\_06 for larsoft v08\_52\_00
 
-lardata v08\_15\_06(#lardata-v08_15_06)
+lardata v08\_15\_06
 ------------------------------------------
 
 -   2020-05-13 Lynn Garren : lardata v08\_15\_06 for larsoft v08\_52\_00
 
-larcore v08\_11\_07(#larcore-v08_11_07)
+larcore v08\_11\_07
 ------------------------------------------
 
 -   2020-05-13 Lynn Garren : larcore v08\_11\_07 for larsoft v08\_52\_00
 
-larpandoracontent v03\_15\_16(#larpandoracontent-v03_15_16)
+larpandoracontent v03\_15\_16
 --------------------------------------------------------------
 
-larsoftobj v08\_28\_01(#larsoftobj-v08_28_01)
+larsoftobj v08\_28\_01
 ------------------------------------------------
 
 -   2020-05-13 Lynn Garren : larsoftobj v08\_28\_01 for larsoft v08\_52\_00
 -   2020-05-13 Lynn Garren : product versions
 
-lardataobj v08\_10\_09(#lardataobj-v08_10_09)
+lardataobj v08\_10\_09
 ------------------------------------------------
 
 -   2020-05-13 Lynn Garren : lardataobj v08\_10\_09 for larsoft v08\_52\_00
 
-lardataalg v08\_13\_11(#lardataalg-v08_13_11)
+lardataalg v08\_13\_11
 ------------------------------------------------
 
 -   2020-05-13 Lynn Garren : lardataalg v08\_13\_11 for larsoft v08\_52\_00
 
-larcorealg v08\_21\_06(#larcorealg-v08_21_06)
+larcorealg v08\_21\_06
 ------------------------------------------------
 
 -   2020-05-13 Lynn Garren : larcorealg v08\_21\_06 for larsoft v08\_52\_00
 -   2020-05-11 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from PetrilloAtWork/feature/gp\_geoIndirectionFix
 -   2020-05-07 Gianluca Petrillo : Removed superfluous indirection step in some \`GeometryCore\` methods.
 
-larcoreobj v08\_11\_00(#larcoreobj-v08_11_00)
+larcoreobj v08\_11\_00
 ------------------------------------------------
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_25\_09(#larutils-v1_25_09)
+larutils v1\_25\_09
 ------------------------------------------

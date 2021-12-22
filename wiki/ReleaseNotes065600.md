@@ -1,4 +1,4 @@
-LArSoft v06\_56\_00 Release Notes(#LArSoft-v06_56_00-Release-Notes)
+LArSoft v06\_56\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,13 +31,13 @@ LArSoft v06\_56\_00 Release Notes(#LArSoft-v06_56_00-Release-Notes)
 Download instructions for [larsoft v06\_56\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_56_00/larsoft-v06_56_00.html)\
 Download instructions for [just larsoftobj v1\_30\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_30_00/larsoftobj-v1_30_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   TrackIDE and MCTruth
@@ -51,19 +51,19 @@ New features(#New-features)
     -   bring larreco develop branch up to the level of the latest MicrBooNE mcc8 production release.
     -   This branch modifies the KalmanFilterFinalTrackFitter module by adding a new track-hit association+metadata, which association and metadata are used by the calorimetry module.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   add caffe to the SL distributions
 -   cetbuildtools v5\_14\_04
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_56\_00(#larsoft-v06_56_00)
+larsoft v06\_56\_00
 ------------------------------------------
 
 -   2017-11-08 Lynn Garren : larsoft v06\_56\_00 for larsoft v06\_56\_00
@@ -73,7 +73,7 @@ larsoft v06\_56\_00(#larsoft-v06_56_00)
 -   2017-11-02 Lynn Garren : using nudist v2\_16\_06a
 -   2017-10-31 Lynn Garren : genie v2\_12\_8
 
-lareventdisplay v06\_15\_00(#lareventdisplay-v06_15_00)
+lareventdisplay v06\_15\_00
 ----------------------------------------------------------
 
 -   2017-11-08 Lynn Garren : lareventdisplay v06\_15\_00 for larsoft v06\_56\_00
@@ -81,22 +81,22 @@ lareventdisplay v06\_15\_00(#lareventdisplay-v06_15_00)
 -   2017-11-06 Usher, Tracy L : Several smallish changes: 1) in 2D display, hits drawn with “height” (time direction) reflecting hit RMS, 2) cluster labels contain both index and id, 3) rearrange drawing of hits associated to unused space points to be drawn first (so they are on the bottom) in 2D display.
 -   2017-11-06 Usher, Tracy L : Add an option flag for controlling the drawing of space points associated to PFParticles (no impact on standard users)
 
-larexamples v06\_07\_08(#larexamples-v06_07_08)
+larexamples v06\_07\_08
 --------------------------------------------------
 
 -   2017-11-08 Lynn Garren : larexamples v06\_07\_08 for larsoft v06\_56\_00
 
-larpandora v06\_17\_05(#larpandora-v06_17_05)
+larpandora v06\_17\_05
 ------------------------------------------------
 
 -   2017-11-08 Lynn Garren : larpandora v06\_17\_05 for larsoft v06\_56\_00
 
-larwirecell v06\_08\_03(#larwirecell-v06_08_03)
+larwirecell v06\_08\_03
 --------------------------------------------------
 
 -   2017-11-08 Lynn Garren : larwirecell v06\_08\_03 for larsoft v06\_56\_00
 
-larana v06\_12\_00(#larana-v06_12_00)
+larana v06\_12\_00
 ----------------------------------------
 
 -   2017-11-08 Lynn Garren : larana v06\_12\_00 for larsoft v06\_56\_00
@@ -109,7 +109,7 @@ larana v06\_12\_00(#larana-v06_12_00)
 -   2017-10-25 Andrzej Szelc : fix small typos and (temporarily move to 06\_53\_00) for workshop purposes
 -   2017-10-25 Wesley Ketchum : add hit assns to mctruth matching module
 
-larreco v06\_45\_00(#larreco-v06_45_00)
+larreco v06\_45\_00
 ------------------------------------------
 
 -   2017-11-08 Lynn Garren : larreco v06\_45\_00 for larsoft v06\_56\_00
@@ -138,7 +138,7 @@ larreco v06\_45\_00(#larreco-v06_45_00)
 -   2017-10-31 baller : Remove fExpectNarrowHits
 -   2017-10-31 baller : Remove fExpectNarrowHits
 
-larsim v06\_34\_00(#larsim-v06_34_00)
+larsim v06\_34\_00
 ----------------------------------------
 
 -   2017-11-08 Lynn Garren : larsim v06\_34\_00 for larsoft v06\_56\_00
@@ -148,34 +148,34 @@ larsim v06\_34\_00(#larsim-v06_34_00)
 -   2017-11-05 Jason Stock : Material Property Loader change to allow reflective aluminum
 -   2017-11-01 Lynn Garren : include headers
 
-larevt v06\_16\_08(#larevt-v06_16_08)
+larevt v06\_16\_08
 ----------------------------------------
 
 -   2017-11-08 Lynn Garren : larevt v06\_16\_08 for larsoft v06\_56\_00
 -   2017-11-01 Lynn Garren : include headers
 
-lardata v06\_31\_04(#lardata-v06_31_04)
+lardata v06\_31\_04
 ------------------------------------------
 
 -   2017-11-08 Lynn Garren : lardata v06\_31\_04 for larsoft v06\_56\_00
 -   2017-11-01 Lynn Garren : find headers
 
-larcore v06\_15\_05(#larcore-v06_15_05)
+larcore v06\_15\_05
 ------------------------------------------
 
 -   2017-11-08 Lynn Garren : larcore v06\_15\_05 for larsoft v06\_56\_00
 
-larpandoracontent v03\_08\_01(#larpandoracontent-v03_08_01)
+larpandoracontent v03\_08\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_30\_00(#larsoftobj-v1_30_00)
+larsoftobj v1\_30\_00
 ----------------------------------------------
 
 -   2017-11-08 Lynn Garren : larsoftobj v1\_30\_00 for larsoft v06\_56\_00
 -   2017-11-08 Lynn Garren : cetbuildtools v5\_14\_04
 -   2017-11-08 Lynn Garren : update versions
 
-lardataobj v1\_22\_00(#lardataobj-v1_22_00)
+lardataobj v1\_22\_00
 ----------------------------------------------
 
 -   2017-11-08 Lynn Garren : lardataobj v1\_22\_00 for larsoft v06\_56\_00
@@ -198,16 +198,16 @@ lardataobj v1\_22\_00(#lardataobj-v1_22_00)
 -   2017-10-25 Usher, Tracy L : Add reference to the new association between hits and MCParticles
 -   2017-10-25 Wesley Ketchum : add hit assns to mctruth matching module
 
-larcorealg v1\_09\_03(#larcorealg-v1_09_03)
+larcorealg v1\_09\_03
 ----------------------------------------------
 
 -   2017-11-08 Lynn Garren : larcorealg v1\_09\_03 for larsoft v06\_56\_00
 -   2017-11-07 Gianluca Petrillo : Updated code to VIGILANT quality.
 
-larcoreobj v1\_16\_02(#larcoreobj-v1_16_02)
+larcoreobj v1\_16\_02
 ----------------------------------------------
 
-larbatch v01\_32\_07(#larbatch-v01_32_07)
+larbatch v01\_32\_07
 --------------------------------------------
 
 -   2017-11-08 Lynn Garren : larbatch v01\_32\_07 for larsoft v06\_56\_00
@@ -215,5 +215,5 @@ larbatch v01\_32\_07(#larbatch-v01_32_07)
 -   2017-11-02 Herbert Greenlee : Fix parentage for analysis files.
 -   2017-11-02 Herbert Greenlee : Fix stage validate\_on\_worker element, and add –dump\_project and –dump\_stage command options.
 
-larutils v1\_20\_01(#larutils-v1_20_01)
+larutils v1\_20\_01
 ------------------------------------------

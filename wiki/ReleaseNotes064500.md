@@ -1,4 +1,4 @@
-LArSoft v06\_45\_00 Release Notes(#LArSoft-v06_45_00-Release-Notes)
+LArSoft v06\_45\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -32,14 +32,14 @@ LArSoft v06\_45\_00 Release Notes(#LArSoft-v06_45_00-Release-Notes)
 Download instructions for [larsoft v06\_45\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_45_00/larsoft-v06_45_00.html)\
 Download instructions for [just larsoftobj v1\_23\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_23_02/larsoftobj-v1_23_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 -   first release with geant4 10.3.p01 and genie 2.12.6
 
-Notes(#Notes)
+Notes
 ----------------
 
 -   Branch feature/team\_for\_v06\_38\_00\_01 with required changes is available for argoneutcode, dunetpc, and uboonecode.
@@ -50,7 +50,7 @@ Notes(#Notes)
     -   modifications were required in larsim LArG4
     -   See [\#16567](/redmine/issues/16567 "Support: Please patch geant4 10.2.p03 and 10.3.p01 (Closed)") for a description of the p01a patch
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco feature/rsulej\_trkValidationPMA
@@ -58,13 +58,13 @@ New features(#New-features)
 -   larreco feature/tjyang\_CNNEMShower
     -   This adds option to use CNN track/shower ID in shower reconstruction (off by default).
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lardata feature/gp\_AddViewXsupport for [\#17250](/redmine/issues/17250 "Bug: Adding geo::kX view and TimeOffsetX to DetectorProperties for rotated dual phase geometry gives s... (Closed)")
 -   larsim feature/gp\_Issue17117 for [\#17117](/redmine/issues/17117 "Bug: prodsingle_sbnd.fcl crashes with larsoft v06_42_00 (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- ----------------- ------------ --------------------------------------------------------------------------------------------------
@@ -75,10 +75,10 @@ Updated dependencies(#Updated-dependencies)
   dk2nu     v01\_05\_00e      e14          
   --------- ----------------- ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_45\_00(#larsoft-v06_45_00)
+larsoft v06\_45\_00
 ------------------------------------------
 
 -   2017-07-25 Lynn Garren : larsoft v06\_45\_00 for larsoft v06\_45\_00
@@ -93,7 +93,7 @@ larsoft v06\_45\_00(#larsoft-v06_45_00)
 -   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
 -   2017-05-04 Lynn Garren : for ifdhc v2\_0\_6
 
-lareventdisplay v06\_10\_01(#lareventdisplay-v06_10_01)
+lareventdisplay v06\_10\_01
 ----------------------------------------------------------
 
 -   2017-07-25 Lynn Garren : lareventdisplay v06\_10\_01 for larsoft v06\_45\_00
@@ -102,7 +102,7 @@ lareventdisplay v06\_10\_01(#lareventdisplay-v06_10_01)
 -   2017-06-01 Lynn Garren : Merge branch ‘feature/team\_for\_v06\_34\_01\_01’ into feature/team\_for\_v06\_38\_00\_01
 -   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
 
-larexamples v06\_05\_02(#larexamples-v06_05_02)
+larexamples v06\_05\_02
 --------------------------------------------------
 
 -   2017-07-25 Lynn Garren : larexamples v06\_05\_02 for larsoft v06\_45\_00
@@ -111,7 +111,7 @@ larexamples v06\_05\_02(#larexamples-v06_05_02)
 -   2017-06-01 Lynn Garren : Merge branch ‘feature/team\_for\_v06\_34\_01\_01’ into feature/team\_for\_v06\_38\_00\_01
 -   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
 
-larpandora v06\_15\_02(#larpandora-v06_15_02)
+larpandora v06\_15\_02
 ------------------------------------------------
 
 -   2017-07-25 Lynn Garren : larpandora v06\_15\_02 for larsoft v06\_45\_00
@@ -120,7 +120,7 @@ larpandora v06\_15\_02(#larpandora-v06_15_02)
 -   2017-06-01 Lynn Garren : Merge branch ‘feature/team\_for\_v06\_34\_01\_01’ into feature/team\_for\_v06\_38\_00\_01
 -   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
 
-larwirecell v06\_05\_06(#larwirecell-v06_05_06)
+larwirecell v06\_05\_06
 --------------------------------------------------
 
 -   2017-07-25 Lynn Garren : larwirecell v06\_05\_06 for larsoft v06\_45\_00
@@ -129,7 +129,7 @@ larwirecell v06\_05\_06(#larwirecell-v06_05_06)
 -   2017-06-01 Lynn Garren : Merge branch ‘feature/team\_for\_v06\_34\_01\_01’ into feature/team\_for\_v06\_38\_00\_01
 -   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
 
-larana v06\_08\_02(#larana-v06_08_02)
+larana v06\_08\_02
 ----------------------------------------
 
 -   2017-07-25 Lynn Garren : larana v06\_08\_02 for larsoft v06\_45\_00
@@ -138,7 +138,7 @@ larana v06\_08\_02(#larana-v06_08_02)
 -   2017-06-01 Lynn Garren : Merge branch ‘feature/team\_for\_v06\_34\_01\_01’ into feature/team\_for\_v06\_38\_00\_01
 -   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
 
-larreco v06\_36\_00(#larreco-v06_36_00)
+larreco v06\_36\_00
 ------------------------------------------
 
 -   2017-07-25 Lynn Garren : larreco v06\_36\_00 for larsoft v06\_45\_00
@@ -192,7 +192,7 @@ larreco v06\_36\_00(#larreco-v06_36_00)
 -   2017-05-01 Tingjun Yang : Fix a bug in using CNN to select shower hits.
 -   2017-04-28 Tingjun Yang : Add code to identify EM hits using CNN EM ID.
 
-larsim v06\_28\_00(#larsim-v06_28_00)
+larsim v06\_28\_00
 ----------------------------------------
 
 -   2017-07-25 Lynn Garren : larsim v06\_28\_00 for larsoft v06\_45\_00
@@ -204,7 +204,7 @@ larsim v06\_28\_00(#larsim-v06_28_00)
 -   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
 -   2017-05-04 Lynn Garren : modify to make it work with geant 10.3.p01
 
-larevt v06\_15\_02(#larevt-v06_15_02)
+larevt v06\_15\_02
 ----------------------------------------
 
 -   2017-07-25 Lynn Garren : larevt v06\_15\_02 for larsoft v06\_45\_00
@@ -213,7 +213,7 @@ larevt v06\_15\_02(#larevt-v06_15_02)
 -   2017-06-01 Lynn Garren : Merge branch ‘feature/team\_for\_v06\_34\_01\_01’ into feature/team\_for\_v06\_38\_00\_01
 -   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
 
-lardata v06\_25\_01(#lardata-v06_25_01)
+lardata v06\_25\_01
 ------------------------------------------
 
 -   2017-07-25 Lynn Garren : lardata v06\_25\_01 for larsoft v06\_45\_00
@@ -232,34 +232,34 @@ lardata v06\_25\_01(#lardata-v06_25_01)
 -   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
 -   2017-05-04 Lynn Garren : use nutools v2\_13\_02
 
-larcore v06\_13\_02(#larcore-v06_13_02)
+larcore v06\_13\_02
 ------------------------------------------
 
 -   2017-07-25 Lynn Garren : larcore v06\_13\_02 for larsoft v06\_45\_00
 
-larpandoracontent v03\_07\_02(#larpandoracontent-v03_07_02)
+larpandoracontent v03\_07\_02
 --------------------------------------------------------------
 
-larsoftobj v1\_23\_02(#larsoftobj-v1_23_02)
+larsoftobj v1\_23\_02
 ----------------------------------------------
 
 -   2017-07-25 Lynn Garren : larsoftobj v1\_23\_02 for larsoft v06\_45\_00
 -   2017-07-25 Lynn Garren : update product versions
 
-lardataobj v1\_18\_00(#lardataobj-v1_18_00)
+lardataobj v1\_18\_00
 ----------------------------------------------
 
-larcorealg v1\_05\_02(#larcorealg-v1_05_02)
+larcorealg v1\_05\_02
 ----------------------------------------------
 
 -   2017-07-25 Lynn Garren : larcorealg v1\_05\_02 for larsoft v06\_45\_00
 -   2017-07-19 Gianluca Petrillo : Workaround to unit test while issue [\#17234](/redmine/issues/17234 "Support: Unit test scripts can't use bash in Ubuntu (Closed)") is discussed.
 
-larcoreobj v1\_15\_01(#larcoreobj-v1_15_01)
+larcoreobj v1\_15\_01
 ----------------------------------------------
 
-larbatch v01\_32\_03(#larbatch-v01_32_03)
+larbatch v01\_32\_03
 --------------------------------------------
 
-larutils v1\_16\_00(#larutils-v1_16_00)
+larutils v1\_16\_00
 ------------------------------------------

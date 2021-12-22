@@ -1,36 +1,36 @@
-LArSoft v02\_05\_03 Release Notes(#LArSoft-v02_05_03-Release-Notes)
+LArSoft v02\_05\_03 Release Notes
 ======================================================================
 
 [list of LArSoft releases](LArSoft_release_list)
 
-larsoft v02\_05\_03(#larsoft-v02_05_03)
+larsoft v02\_05\_03
 ------------------------------------------
 
 -   2014-09-03 Lynn Garren : releaseDB/base\_dependency\_database for v02\_05\_03
 
-lareventdisplay v02\_05\_03(#lareventdisplay-v02_05_03)
+lareventdisplay v02\_05\_03
 ----------------------------------------------------------
 
 -   2014-09-03 Lynn Garren : for larsoft v02\_05\_03
 
-larexamples v02\_05\_03(#larexamples-v02_05_03)
+larexamples v02\_05\_03
 --------------------------------------------------
 
 -   2014-09-03 Lynn Garren : for larsoft v02\_05\_03
 
-larpandora v02\_05\_03(#larpandora-v02_05_03)
+larpandora v02\_05\_03
 ------------------------------------------------
 
 -   2014-09-03 Lynn Garren : for larsoft v02\_05\_03
 
-larana v02\_05\_03(#larana-v02_05_03)
+larana v02\_05\_03
 ----------------------------------------
 
 -   2014-09-02 Alex Himmel : Bug fix: opflashnew -\> opflash for lbne. Add lbne35t\_simphotoncounter.
 -   2014-08-28 Wesley Ketchum : addition of variables for looking at a combination of tags
 -   2014-08-27 Wesley Ketchum : fix association between tracks and tags
 
-larreco v02\_05\_03(#larreco-v02_05_03)
+larreco v02\_05\_03
 ------------------------------------------
 
 -   2014-08-28 Wesley Ketchum : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
@@ -38,17 +38,17 @@ larreco v02\_05\_03(#larreco-v02_05_03)
 -   2014-08-27 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop fix bug in determination of whether the geometry name contains lbne
 -   2014-08-27 Brian Rebel : fix bug in determining whether the detector name contains lbne
 
-larsim v02\_05\_03(#larsim-v02_05_03)
+larsim v02\_05\_03
 ----------------------------------------
 
 -   2014-09-02 Alex Himmel : Bug fix: Check root file sub-TDirectories for photon library if it is not found in the top directory of the TFile.
 
-larevt v02\_05\_03(#larevt-v02_05_03)
+larevt v02\_05\_03
 ----------------------------------------
 
 -   2014-09-03 Lynn Garren : for larsoft v02\_05\_03
 
-lardata v02\_05\_03(#lardata-v02_05_03)
+lardata v02\_05\_03
 ------------------------------------------
 
 -   2014-08-29 Gianluca Petrillo : Merge branch ‘feature/BulkAllocator’ into develop This adds a new allocator and a map of counters designed for use cases like our implementation of Hough transform.
@@ -61,7 +61,7 @@ lardata v02\_05\_03(#lardata-v02_05_03)
 -   2014-08-19 Gianluca Petrillo : New ComputePi module to be used as time reference to normalize different runs.
 -   2014-08-18 Gianluca Petrillo : New allocator for very large amounts of objects (BulkAllocator)
 
-larcore v02\_05\_03(#larcore-v02_05_03)
+larcore v02\_05\_03
 ------------------------------------------
 
 -   2014-09-02 Corey Adams : Removing lar1 files from larcore.

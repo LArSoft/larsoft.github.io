@@ -1,4 +1,4 @@
-LArSoft v08\_05\_00\_10 Release Notes(#LArSoft-v08_05_00_10-Release-Notes)
+LArSoft v08\_05\_00\_10 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -31,45 +31,45 @@ LArSoft v08\_05\_00\_10 Release Notes(#LArSoft-v08_05_00_10-Release-Notes)
 Download instructions for [larsoft v08\_05\_00\_10](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_05_00_10/larsoft-v08_05_00_10.html)\
 Download instructions for [just larsoftobj v08\_03\_00\_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_03_00_03/larsoftobj-v08_03_00_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   requested patch release
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_05\_00\_10(#larsoft-v08_05_00_10)
+larsoft v08\_05\_00\_10
 -------------------------------------------------
 
 -   2019-09-03 ranitay : larsoft v08\_05\_00\_10 for larsoft v08\_05\_00\_10
 -   2019-07-22 Lynn Garren : using the nulite v2\_27\_05a distribution
 
-lareventdisplay v08\_02\_00\_09(#lareventdisplay-v08_02_00_09)
+lareventdisplay v08\_02\_00\_09
 -----------------------------------------------------------------
 
 -   2019-09-03 ranitay : lareventdisplay v08\_02\_00\_09 for larsoft v08\_05\_00\_10
 
-larexamples v08\_01\_00\_07(#larexamples-v08_01_00_07)
+larexamples v08\_01\_00\_07
 ---------------------------------------------------------
 
 -   2019-09-03 ranitay : larexamples v08\_01\_00\_07 for larsoft v08\_05\_00\_10
 
-larg4 v08\_01\_00\_07(#larg4-v08_01_00_07)
+larg4 v08\_01\_00\_07
 ---------------------------------------------
 
 -   2019-09-03 ranitay : larg4 v08\_01\_00\_07 for larsoft v08\_05\_00\_10
 
-larpandora v08\_03\_00\_09(#larpandora-v08_03_00_09)
+larpandora v08\_03\_00\_09
 -------------------------------------------------------
 
 -   2019-09-03 ranitay : larpandora v08\_03\_00\_09 for larsoft v08\_05\_00\_10
@@ -78,42 +78,42 @@ larpandora v08\_03\_00\_09(#larpandora-v08_03_00_09)
 -   2019-07-25 John Marshall : Move additional slice-related output into slice production block.
 -   2019-07-25 John Marshall : First proposed changes to allow free development in an experiment-specific area.
 
-larwirecell v08\_02\_00\_08(#larwirecell-v08_02_00_08)
+larwirecell v08\_02\_00\_08
 ---------------------------------------------------------
 
 -   2019-09-03 ranitay : larwirecell v08\_02\_00\_08 for larsoft v08\_05\_00\_10
 
-larana v08\_01\_00\_09(#larana-v08_01_00_09)
+larana v08\_01\_00\_09
 -----------------------------------------------
 
 -   2019-09-03 ranitay : larana v08\_01\_00\_09 for larsoft v08\_05\_00\_10
 
-larreco v08\_04\_00\_09(#larreco-v08_04_00_09)
+larreco v08\_04\_00\_09
 -------------------------------------------------
 
 -   2019-09-03 ranitay : larreco v08\_04\_00\_09 for larsoft v08\_05\_00\_10
 
-larsim v08\_02\_00\_07(#larsim-v08_02_00_07)
+larsim v08\_02\_00\_07
 -----------------------------------------------
 
 -   2019-09-03 ranitay : larsim v08\_02\_00\_07 for larsoft v08\_05\_00\_10
 
-larevt v08\_01\_00\_07(#larevt-v08_01_00_07)
+larevt v08\_01\_00\_07
 -----------------------------------------------
 
 -   2019-09-03 ranitay : larevt v08\_01\_00\_07 for larsoft v08\_05\_00\_10
 
-lardata v08\_02\_00\_06(#lardata-v08_02_00_06)
+lardata v08\_02\_00\_06
 -------------------------------------------------
 
 -   2019-09-03 ranitay : lardata v08\_02\_00\_06 for larsoft v08\_05\_00\_10
 
-larcore v08\_01\_00\_03(#larcore-v08_01_00_03)
+larcore v08\_01\_00\_03
 -------------------------------------------------
 
 -   2019-09-03 ranitay : larcore v08\_01\_00\_03 for larsoft v08\_05\_00\_10
 
-larpandoracontent v03\_14\_04\_01(#larpandoracontent-v03_14_04_01)
+larpandoracontent v03\_14\_04\_01
 ---------------------------------------------------------------------
 
 -   2019-09-03 ranitay : larpandoracontent v03\_14\_04\_01 for larsoft v08\_05\_00\_10
@@ -195,17 +195,17 @@ larpandoracontent v03\_14\_04\_01(#larpandoracontent-v03_14_04_01)
 -   2019-01-28 Steven Green : Adding option to always calculate T0 when stitching cosmics rays.
 -   2019-02-11 Kyle Knoepfel : Add missing header dependencies.
 
-larsoftobj v08\_03\_00\_03(#larsoftobj-v08_03_00_03)
+larsoftobj v08\_03\_00\_03
 -------------------------------------------------------
 
-lardataobj v08\_01\_00\_03(#lardataobj-v08_01_00_03)
+lardataobj v08\_01\_00\_03
 -------------------------------------------------------
 
-lardataalg v08\_03\_00\_03(#lardataalg-v08_03_00_03)
+lardataalg v08\_03\_00\_03
 -------------------------------------------------------
 
-larcorealg v08\_01\_00\_02(#larcorealg-v08_01_00_02)
+larcorealg v08\_01\_00\_02
 -------------------------------------------------------
 
-larcoreobj v08\_01\_00\_02(#larcoreobj-v08_01_00_02)
+larcoreobj v08\_01\_00\_02
 -------------------------------------------------------

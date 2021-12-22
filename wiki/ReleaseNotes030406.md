@@ -1,4 +1,4 @@
-LArSoft v03\_04\_06 Release Notes(#LArSoft-v03_04_06-Release-Notes)
+LArSoft v03\_04\_06 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -21,26 +21,26 @@ LArSoft v03\_04\_06 Release Notes(#LArSoft-v03_04_06-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_04_06/larsoft-v03_04_06.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Changes in develop since v03\_04\_05
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   larbatch v01\_00\_00 has been added to the distribution
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_04\_06(#larsoft-v03_04_06)
+larsoft v03\_04\_06
 ------------------------------------------
 
 -   2014-12-16 Lynn Garren : larsoft v03\_04\_06 for larsoft v03\_04\_06
@@ -48,17 +48,17 @@ larsoft v03\_04\_06(#larsoft-v03_04_06)
 -   2014-12-16 Lynn Garren : add larbatch to the distribution
 -   2014-12-16 Lynn Garren : new dependencies
 
-lareventdisplay v03\_02\_09(#lareventdisplay-v03_02_09)
+lareventdisplay v03\_02\_09
 ----------------------------------------------------------
 
 -   2014-12-16 Lynn Garren : lareventdisplay v03\_02\_09 for larsoft v03\_04\_06
 
-larexamples v03\_02\_09(#larexamples-v03_02_09)
+larexamples v03\_02\_09
 --------------------------------------------------
 
 -   2014-12-16 Lynn Garren : larexamples v03\_02\_09 for larsoft v03\_04\_06
 
-larpandora v03\_04\_02(#larpandora-v03_04_02)
+larpandora v03\_04\_02
 ------------------------------------------------
 
 -   2014-12-16 Lynn Garren : larpandora v03\_04\_02 for larsoft v03\_04\_06
@@ -66,29 +66,29 @@ larpandora v03\_04\_02(#larpandora-v03_04_02)
 -   2014-12-15 John Marshall : Remove tab characters.
 -   2014-12-15 John Marshall : Wide-ranging improvements to reduce tension between reconstruction of tracks and showers. Improve reconstruction of particles with features obscured in one or more views. Improved mop-up functionality.
 
-larana v03\_03\_06(#larana-v03_03_06)
+larana v03\_03\_06
 ----------------------------------------
 
 -   2014-12-16 Lynn Garren : larana v03\_03\_06 for larsoft v03\_04\_06
 
-larreco v03\_04\_01(#larreco-v03_04_01)
+larreco v03\_04\_01
 ------------------------------------------
 
 -   2014-12-16 Lynn Garren : larreco v03\_04\_01 for larsoft v03\_04\_06
 
-larsim v03\_03\_01(#larsim-v03_03_01)
+larsim v03\_03\_01
 ----------------------------------------
 
 -   2014-12-16 Lynn Garren : larsim v03\_03\_01 for larsoft v03\_04\_06
 -   2014-12-16 Brian\_Rebel : put both non-default constructors behind the \#ifndef *GCCXML* guard because genreflex does not need to know about anything but the default ctor and the data members
 
-larevt v03\_02\_09(#larevt-v03_02_09)
+larevt v03\_02\_09
 ----------------------------------------
 
 -   2014-12-16 Lynn Garren : larevt v03\_02\_09 for larsoft v03\_04\_06
 -   2014-12-12 Tingjun Yang : put back the argoneut list temprarily
 
-lardata v03\_04\_02(#lardata-v03_04_02)
+lardata v03\_04\_02
 ------------------------------------------
 
 -   2014-12-16 Lynn Garren : lardata v03\_04\_02 for larsoft v03\_04\_06

@@ -1,4 +1,4 @@
-LArSoft v06\_40\_01 Release Notes(#LArSoft-v06_40_01-Release-Notes)
+LArSoft v06\_40\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,23 +30,23 @@ LArSoft v06\_40\_01 Release Notes(#LArSoft-v06_40_01-Release-Notes)
 Download instructions for [larsoft v06\_40\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_40_01/larsoft-v06_40_01.html)\
 Download instructions for [just larsoftobj v1\_21\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_21_00/larsoftobj-v1_21_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop since v06\_39\_00
 -   ifdhc v2\_0\_8
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   ifdhc and ifdhc\_config v2\_0\_8: preferring file:/// paths to gsiftp:/// paths for bluearc volumes if fhey are mounted locally (we have gotten numerous complaints due to not having this in v2\_x and various volumes having been unmounted from the bestman server)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   ifdh\_art: fix art\_sam\_wrap.sh
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ----------- ------------ ------------ --------------------------------------------------------------------------------------------------
@@ -56,41 +56,41 @@ Updated dependencies(#Updated-dependencies)
   ifdh\_art   v2\_02\_00   e14:nu:s50   fix for [\#16804](/redmine/issues/16804 "Bug: Typo in art_sam_wrap.sh (Closed)")
   ----------- ------------ ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_40\_01(#larsoft-v06_40_01)
+larsoft v06\_40\_01
 ------------------------------------------
 
 -   2017-06-14 Lynn Garren : larsoft v06\_40\_01 for larsoft v06\_40\_01
 -   2017-06-14 Lynn Garren : update for nutools v2\_14\_01
 
-lareventdisplay v06\_06\_01(#lareventdisplay-v06_06_01)
+lareventdisplay v06\_06\_01
 ----------------------------------------------------------
 
 -   2017-06-14 Lynn Garren : lareventdisplay v06\_06\_01 for larsoft v06\_40\_01
 
-larexamples v06\_04\_01(#larexamples-v06_04_01)
+larexamples v06\_04\_01
 --------------------------------------------------
 
 -   2017-06-14 Lynn Garren : larexamples v06\_04\_01 for larsoft v06\_40\_01
 
-larpandora v06\_13\_01(#larpandora-v06_13_01)
+larpandora v06\_13\_01
 ------------------------------------------------
 
 -   2017-06-14 Lynn Garren : larpandora v06\_13\_01 for larsoft v06\_40\_01
 
-larwirecell v06\_05\_01(#larwirecell-v06_05_01)
+larwirecell v06\_05\_01
 --------------------------------------------------
 
 -   2017-06-14 Lynn Garren : larwirecell v06\_05\_01 for larsoft v06\_40\_01
 
-larana v06\_07\_01(#larana-v06_07_01)
+larana v06\_07\_01
 ----------------------------------------
 
 -   2017-06-14 Lynn Garren : larana v06\_07\_01 for larsoft v06\_40\_01
 
-larreco v06\_31\_01(#larreco-v06_31_01)
+larreco v06\_31\_01
 ------------------------------------------
 
 -   2017-06-14 Lynn Garren : larreco v06\_31\_01 for larsoft v06\_40\_01
@@ -103,40 +103,40 @@ larreco v06\_31\_01(#larreco-v06_31_01)
 -   2017-06-09 Robert Sulej : add calibration and noise testing configurations to example fcl files
 -   2017-06-09 Robert Sulej : add cluster index to information dumped with hits
 
-larsim v06\_24\_01(#larsim-v06_24_01)
+larsim v06\_24\_01
 ----------------------------------------
 
 -   2017-06-14 Lynn Garren : larsim v06\_24\_01 for larsoft v06\_40\_01
 
-larevt v06\_14\_01(#larevt-v06_14_01)
+larevt v06\_14\_01
 ----------------------------------------
 
 -   2017-06-14 Lynn Garren : larevt v06\_14\_01 for larsoft v06\_40\_01
 
-lardata v06\_22\_01(#lardata-v06_22_01)
+lardata v06\_22\_01
 ------------------------------------------
 
 -   2017-06-14 Lynn Garren : lardata v06\_22\_01 for larsoft v06\_40\_01
 
-larcore v06\_10\_00(#larcore-v06_10_00)
+larcore v06\_10\_00
 ------------------------------------------
 
-larpandoracontent v03\_07\_01(#larpandoracontent-v03_07_01)
+larpandoracontent v03\_07\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_21\_00(#larsoftobj-v1_21_00)
+larsoftobj v1\_21\_00
 ----------------------------------------------
 
-lardataobj v1\_17\_00(#lardataobj-v1_17_00)
+lardataobj v1\_17\_00
 ----------------------------------------------
 
-larcoreobj v1\_14\_00(#larcoreobj-v1_14_00)
+larcoreobj v1\_14\_00
 ----------------------------------------------
 
-larbatch v01\_32\_01(#larbatch-v01_32_01)
+larbatch v01\_32\_01
 --------------------------------------------
 
-larutils v1\_16\_00(#larutils-v1_16_00)
+larutils v1\_16\_00
 ------------------------------------------
 
 -   2017-06-14 Lynn Garren : larutils v1\_16\_00 for larsoft v06\_40\_01

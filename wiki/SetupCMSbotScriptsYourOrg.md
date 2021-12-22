@@ -1,23 +1,23 @@
-Setting up the “CMS-bot” scripts for your organization.(#Setting-up-the-CMS-bot-scripts-for-your-organization)
+Setting up the “CMS-bot” scripts for your organization.
 =================================================================================================================
 
 **cms-bot** started as a single script used to drive PR approval and grew to be the core of the whole release engineering process for CMSSW.
 
 This fork of cms-bot ([https://github.com/FNALbuild/cms-bot](https://github.com/FNALbuild/cms-bot)) has been modified to work with the Fermilab Jenkins infrastructure.
 
-Setup(#Setup)
+Setup
 ================
 
 Instructions on having your repos tested on the Fermilab Jenkins CI infrastructure are show below.
 
-Setting up Pull Requests and/or Push CI testing for your organizations repositories(#Setting-up-Pull-Requests-andor-Push-CI-testing-for-your-organizations-repositories)
+Setting up Pull Requests and/or Push CI testing for your organizations repositories
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Notify
 
 -   This will ensure that the appropriate people are aware that you want to start testing pull requests and/or pushes for your repos and the Jenkins jobs can be configured for this.
 
-### Setup your repository(#Setup-your-repository)
+### Setup your repository
 
 -   Make a Pull Request to add your repository configuration in \`cms-bot/repos/your\_github\_user/your\_repository\`
     -   If you have \`-\` in your github user or repository name then replace it with \`\_\`
@@ -50,10 +50,10 @@ If the result is over two lines use triple quotes to enclose the string, eg.\
     -   Issues, Issue comment, Pull request
     -   Pushes (for push based events)
 
-### Pull request Testing:(#Pull-request-Testing)
+### Pull request Testing:
 
 -   You can have your repository set up to trigger the tests whenever you create or update a pull request with new commits to a branch. In this case, please make sure that github webhook for **Pull requests** is active.
 
-### Push based testing(#Push-based-testing)
+### Push based testing
 
 -   You can have your repository set up to trigger the tests whenever you push some changes to your repo. In this case, please make sure that github webhook for **Pushes** is active.

@@ -1,7 +1,7 @@
-Maintaining the LArSoft for of CMSbot scripts and Jenkins Github Integration CI jobs at FNAL(#Maintaining-the-LArSoft-for-of-CMSbot-scripts-and-Jenkins-Github-Integration-CI-jobs-at-FNAL)
+Maintaining the LArSoft for of CMSbot scripts and Jenkins Github Integration CI jobs at FNAL
 ==============================================================================================================================================================================================
 
-The CMSbot scripts for LArSoft repos(#The-CMSbot-scripts-for-LArSoft-repos)
+The CMSbot scripts for LArSoft repos
 ------------------------------------------------------------------------------
 
 -   The LArSoft fork of CMSbot is here \
@@ -38,7 +38,7 @@ The command below is used to encode the webhook secret for the GITHUB\_WEBOOK\_T
 
     curl -d TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://scd-ci.fnal.gov/cgi-bin/encrypt_github_token
 
-The GitHub webhook processing cgi script website(#The-GitHub-webhook-processing-cgi-script-website)
+The GitHub webhook processing cgi script website
 ------------------------------------------------------------------------------------------------------
 
 The github\_webhook script receives a JSON stream from GitHub, validates it, extracts the repo and pull request number, and triggers a Jenkins job with that info as parameters.
@@ -58,7 +58,7 @@ The github\_webhook script receives a JSON stream from GitHub, validates it, ext
 -   The NAS directory for the private data is stored, eq CILogin certs for triggering Jenkins job.\
     /web/sites/s/scd-ci.fnal.gov/data/
 
-\* Scripts used to set up labels for pull requests/issues and the set up web hooks for GitHub repo(s).(#-Scripts-used-to-set-up-labels-for-pull-requestsissues-and-the-set-up-web-hooks-for-GitHub-repos)
+\* Scripts used to set up labels for pull requests/issues and the set up web hooks for GitHub repo(s).
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The scripts require the environment variable GITHUBTOKEN be set. This is a personal access token that has permissions to change the repo.\
@@ -72,7 +72,7 @@ The FNALbuild personal access token can be used. It is saved in /web/sites/s/scd
     -   Invoke with ‘create-github-hooks –users’\
         [https://github.com/LArSoft/cms-bot/blob/master/create-github-hooks](https://github.com/LArSoft/cms-bot/blob/master/create-github-hooks)
 
-The Jenkins jobs that run the CI requests(#The-Jenkins-jobs-that-run-the-CI-requests)
+The Jenkins jobs that run the CI requests
 ----------------------------------------------------------------------------------------
 
 The Jenkins job dispatch-github-webhook is triggered by the cgi-script. This triggers a chain of jobs that are started depending on the comments on the pull request.

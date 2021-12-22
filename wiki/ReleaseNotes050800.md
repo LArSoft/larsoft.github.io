@@ -1,4 +1,4 @@
-LArSoft v05\_08\_00 Release Notes(#LArSoft-v05_08_00-Release-Notes)
+LArSoft v05\_08\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,12 +24,12 @@ LArSoft v05\_08\_00 Release Notes(#LArSoft-v05_08_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_08_00/larsoft-v05_08_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   MicroBooNE production release
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larana
@@ -56,10 +56,10 @@ New features(#New-features)
         -   feature/PrepareFor\_LArPandoraContent\_v02-07-00
     -   Update product dependencies to include LArPandoraContent v02-07-00
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ------------------- ------------- ------------ -------
@@ -68,10 +68,10 @@ Updated dependencies(#Updated-dependencies)
   mrb                 v1\_06\_03                 
   ------------------- ------------- ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_08\_00(#larsoft-v05_08_00)
+larsoft v05\_08\_00
 ------------------------------------------
 
 -   2016-04-08 Lynn Garren : larsoft v05\_08\_00 for larsoft v05\_08\_00
@@ -84,19 +84,19 @@ larsoft v05\_08\_00(#larsoft-v05_08_00)
 -   2016-04-01 Gianluca Petrillo : RemoveMathFromGDML.py v1.1: changed default behaviours on output and on parser (see change log)
 -   2016-04-01 Gianluca Petrillo : Added script to remove expressions from GDML files. Run with ‘–help’ for usage instructions.
 
-lareventdisplay v05\_06\_02(#lareventdisplay-v05_06_02)
+lareventdisplay v05\_06\_02
 ----------------------------------------------------------
 
 -   2016-04-08 Lynn Garren : lareventdisplay v05\_06\_02 for larsoft v05\_08\_00
 -   2016-04-01 Robert Sulej : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lareventdisplay into develop
 -   2016-03-29 Robert Sulej : display pma nodes if present
 
-larexamples v05\_06\_02(#larexamples-v05_06_02)
+larexamples v05\_06\_02
 --------------------------------------------------
 
 -   2016-04-08 Lynn Garren : larexamples v05\_06\_02 for larsoft v05\_08\_00
 
-larpandora v05\_08\_00(#larpandora-v05_08_00)
+larpandora v05\_08\_00
 ------------------------------------------------
 
 -   2016-04-08 Lynn Garren : larpandora v05\_08\_00 for larsoft v05\_08\_00
@@ -105,7 +105,7 @@ larpandora v05\_08\_00(#larpandora-v05_08_00)
 -   2016-04-02 Andrew Blake : Fix creation of line gaps for DUNE. The code in LArPandoraInput will now correctly handle cases where wire ordinate decreases with wire number. Also add ‘EnableLineGaps’ configurable parameter to pandoramodules.fcl with a default value of ‘true’.
 -   2016-04-02 Andrew Blake : Populating associations between seeds and hits in LArPandoraOutput (and adding extra code to PFParticleAnalysis module to check that it works)
 
-larana v05\_07\_00(#larana-v05_07_00)
+larana v05\_07\_00
 ----------------------------------------
 
 -   2016-04-08 Lynn Garren : larana v05\_07\_00 for larsoft v05\_08\_00
@@ -121,7 +121,7 @@ larana v05\_07\_00(#larana-v05_07_00)
 -   2016-03-28 Usher, Tracy L : Simplify the logic for associating cosmic tags with tracks (required reversing order in definition of assocations for tracks and tags)
 -   2016-03-28 Usher, Tracy L : New module which can match tracks to PFParticles where the tracks are from a different producer than the PFParticle chain. It does this by matching hits.
 
-larreco v05\_08\_00(#larreco-v05_08_00)
+larreco v05\_08\_00
 ------------------------------------------
 
 -   2016-04-08 Lynn Garren : add missing library to link list
@@ -147,7 +147,7 @@ larreco v05\_08\_00(#larreco-v05_08_00)
 -   2016-03-25 Usher, Tracy L : Add ability (as an option which is off by default) for form candidate seeds in the event only two planes of information is available. Also, fix a couple of small bugs that would have prevented two plane operation in the event of preferring the collection plane.
 -   2016-03-25 Usher, Tracy L : Adds the option (default is off) to do bin averaging before finding candidate peaks
 
-larsim v05\_08\_00(#larsim-v05_08_00)
+larsim v05\_08\_00
 ----------------------------------------
 
 -   2016-04-08 Lynn Garren : larsim v05\_08\_00 for larsoft v05\_08\_00
@@ -155,22 +155,22 @@ larsim v05\_08\_00(#larsim-v05_08_00)
 -   2016-03-30 Gianluca Petrillo : Added dumpers for sim::SimChannel and sim::SimPhotons data products
 -   2016-03-30 Gianluca Petrillo : DumpMCParticle: removed timestamps from output; output now uses one buffer per particle (saves memory)
 
-larevt v05\_06\_02(#larevt-v05_06_02)
+larevt v05\_06\_02
 ----------------------------------------
 
 -   2016-04-08 Lynn Garren : larevt v05\_06\_02 for larsoft v05\_08\_00
 
-lardata v05\_07\_01(#lardata-v05_07_01)
+lardata v05\_07\_01
 ------------------------------------------
 
 -   2016-04-08 Lynn Garren : lardata v05\_07\_01 for larsoft v05\_08\_00
 -   2016-04-02 Herbert Greenlee : Add conversion rule for reading version 10 MCHit.
 
-larcore v05\_06\_00(#larcore-v05_06_00)
+larcore v05\_06\_00
 ------------------------------------------
 
-larbatch v01\_20\_08(#larbatch-v01_20_08)
+larbatch v01\_20\_08
 --------------------------------------------
 
-larutils v1\_05\_06(#larutils-v1_05_06)
+larutils v1\_05\_06
 ------------------------------------------

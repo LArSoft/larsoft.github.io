@@ -48,11 +48,13 @@ sub process_file {
   my $iter = -1;
   my $ignore_header = 1;
   my $ignore_footer = 0;
+  my $skip_line;
   open(PIN, "< $pfile") or die "Couldn't open $pfile";
   open(POUT, "> $hfile") or die "Couldn't open $hfile";
   while ( $line=<PIN> ) {
     chop $line;
     ++$iter;
+    $skip_line = 1;
     if( $line =~ "wiki wiki-page" ) {
        #print "found wiki-page at line $iter\n";
        $ignore_header = 0;
@@ -63,8 +65,8 @@ sub process_file {
     } 
     $newline = $line;
     if( $line =~ "Edit this section" ) {
-       my $ipos = index($line,"<a name=");
-       $newline = substr $line, $ipos;
+       #print "ignore $line\n";
+       $skip_line=0;
     }
     if( $line =~ "email" ) {
       my $p1 = index($line, '<a class="email"');
@@ -74,7 +76,7 @@ sub process_file {
       $newline = $nl1.$nl2;
       $newline =~ s/\&lt\;\&gt\;//;
     }
-    if (!$ignore_header && !$ignore_footer) {
+    if (!$ignore_header && !$ignore_footer && $skip_line) {
        #print "will process line $iter $newline\n";
        print POUT "$newline\n";
     }
@@ -92,9 +94,12 @@ sub process_file {
   while ( $line=<PIN> ) {
     chop $line;
     $line =~ s/\/redmine\/projects\/larsoft\/wiki\///g;
-##LArSoftWiki[¶](#LArSoftWiki)
-    $line =~ s/\[\¶\]//g;
-    print POUT "$line\n";
+    $newline = $line;
+    if( $line =~ '[¶]' ) {
+      my $p3 = index($line,'[¶]');
+      $newline = substr $line, 0, $p3;
+    } 
+    print POUT "$newline\n";
   }
   print "finished with $pfile\n";
   return;

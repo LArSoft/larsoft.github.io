@@ -1,12 +1,12 @@
-Code analysis process(#Code-analysis-process) {.wiki-class-count}
+Code analysis process
 ================================================
 
-Introduction(#Introduction) {.wiki-class-count}
+Introduction
 ------------------------------
 
 Regular code analysis forms an essential part of any software quality assurance program. LArSoft is introducing a regime of code analyses and fostering a shift in culture that seeks third-party reviews. The ultimate goal is to form a strong foundation for building increasingly sophisticated algorithms via compliance with LArSoft and art design principles. Good software engineering and low-level coding practices should be followed across the entire LArSoft suite.
 
-Principles and Preparation(#Principles-and-Preparation) {.wiki-class-count}
+Principles and Preparation
 ----------------------------------------------------------
 
 The involvement and cooperation of the author (or the active maintainer of the code in question) with the process is critical to the success of analysis.
@@ -33,7 +33,7 @@ Since experts will often find issues that more inexperienced users will not imme
 
 The preparatory work requires a significant time investment from each of the team members as does follow-up consulting or documentation. This is taken into account and charged to the code analysis when planning and scheduling meetings.
 
-Types of Code Analysis(#Types-of-Code-Analysis) {.wiki-class-count}
+Types of Code Analysis
 --------------------------------------------------
 
 The following types of code analysis meetings differ in the target, and therefore in the preparatory work needed, the tools used, and the level of reading of the code that might be expected:
@@ -50,7 +50,7 @@ Although a single “code analysis” may include more than one of the above, ea
 
 A light-weight process focused on a single type at a time - the specific type agreed upon in advance.
 
-Conduct of the code analysis(#Conduct-of-the-code-analysis) {.wiki-class-count}
+Conduct of the code analysis
 --------------------------------------------------------------
 
 Code analysis meetings are initiated on a request from any of the following:
@@ -71,7 +71,7 @@ Several considerations can drive a code analysis:
 5.  Is the code mature? There is a trade-off between improving more mature code (which is therefore less likely to be re-visited to fix problems), versus trying to head off issues early in the development of code where the value to the experiments may be less obvious.
 6.  Most importantly, are the code authors or relevant offline organizations supportive of the code analysis for the code in question?
 
-Roles(#Roles) {.wiki-class-count}
+Roles
 ----------------
 
 Each code analysis meeting includes at a minimum the following people:
@@ -98,7 +98,7 @@ The audience for the results can include several entities, depending upon the ta
 -   art framework team
 -   SCD management (in some cases)
 
-Preparation(#Preparation) {.wiki-class-count}
+Preparation
 ----------------------------
 
 Most code analysis, however, will require most or all of the following in advance of any formal meetings:
@@ -120,7 +120,7 @@ Most code analysis, however, will require most or all of the following in advanc
 > -   Typically tests for bitwise identical output are the most useful, since physics validation and changes that result in changes to the physics are outside the scope of these code analysis meetings.
 > -   To the extent feasible, each expert should preview the code on his or her own.
 
-Code Analysis Meetings(#Code-Analysis-Meetings) {.wiki-class-count}
+Code Analysis Meetings
 --------------------------------------------------
 
 Meetings will broadly perform or cover the following items.
@@ -138,7 +138,7 @@ Previous experience suggests that sessions of about half a day in duration are t
 
 Meetings should allow brief discussion regarding topics of opportunity noted by the participants during the course of the meeting (for example, noting a use of call-by-value function arguments when const references would be substantially more efficient).
 
-Outcomes and Report(#Outcomes-and-Report) {.wiki-class-count}
+Outcomes and Report
 --------------------------------------------
 
 The direct product of the preparatory work and meetings should include the following:
@@ -155,7 +155,7 @@ The direct product of the preparatory work and meetings should include the follo
 
 -   (Encouraged, but optional) Annotations to the code indicating recommended changes, or issues to investigate or discuss further.
 
-Follow-up(#Follow-up) {.wiki-class-count}
+Follow-up
 ------------------------
 
 A strong follow-up effort from a code analysis meeting is as critical to the success of the overall code analysis as are the steps leading to the report itself.
@@ -173,12 +173,12 @@ The details of the follow-up work, as for the code analysis meetings, should be 
 > -   All such lessons learned should be accumulated in a single location.
 > -   A brief report of such lessons learned may be appropriate in cases when they are or broad interest.
 
-Reference(#Reference) {.wiki-class-count}
+Reference
 ------------------------
 
 The above process is based on the recommendations at [http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=5765](http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=5765) which modified the original process at [https://cdcvs.fnal.govCode\_analysis\_process\_and\_tools/4](https://cdcvs.fnal.govCode_analysis_process_and_tools/4)
 
-History(#History) {.wiki-class-count}
+History
 --------------------
 
 Original proposal for code analysis is as given in [slides at the steering meeting](https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11891).

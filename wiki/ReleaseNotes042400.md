@@ -1,4 +1,4 @@
-LArSoft v04\_24\_00 Release Notes(#LArSoft-v04_24_00-Release-Notes)
+LArSoft v04\_24\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,22 +24,22 @@ LArSoft v04\_24\_00 Release Notes(#LArSoft-v04_24_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_24_00/larsoft-v04_24_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop since v04\_23\_00
 -   add MUSUN
 -   use ifdhc v1\_8\_6
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   incorproate MUSON muon generator
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ----------- -----------------
@@ -53,10 +53,10 @@ Updated dependencies(#Updated-dependencies)
   mrb             v1\_05\_02               
   --------------- ------------ ----------- -----------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_24\_00(#larsoft-v04_24_00)
+larsoft v04\_24\_00
 ------------------------------------------
 
 -   2015-09-24 Lynn Garren : larsoft v04\_24\_00 for larsoft v04\_24\_00
@@ -64,7 +64,7 @@ larsoft v04\_24\_00(#larsoft-v04_24_00)
 -   2015-09-24 Lynn Garren : can use the nu build again
 -   2015-09-17 Lynn Garren : use the new checkPrerequisites
 
-lareventdisplay v04\_09\_00(#lareventdisplay-v04_09_00)
+lareventdisplay v04\_09\_00
 ----------------------------------------------------------
 
 -   2015-09-24 Lynn Garren : lareventdisplay v04\_09\_00 for larsoft v04\_24\_00
@@ -72,17 +72,17 @@ lareventdisplay v04\_09\_00(#lareventdisplay-v04_09_00)
 -   2015-09-22 Tingjun Yang : add a few protections.
 -   2015-09-18 Tingjun Yang : Finish implementing selection of plane for calorimetry.
 
-larexamples v04\_05\_05(#larexamples-v04_05_05)
+larexamples v04\_05\_05
 --------------------------------------------------
 
 -   2015-09-24 Lynn Garren : larexamples v04\_05\_05 for larsoft v04\_24\_00
 
-larpandora v04\_06\_02(#larpandora-v04_06_02)
+larpandora v04\_06\_02
 ------------------------------------------------
 
 -   2015-09-24 Lynn Garren : larpandora v04\_06\_02 for larsoft v04\_24\_00
 
-larana v04\_12\_04(#larana-v04_12_04)
+larana v04\_12\_04
 ----------------------------------------
 
 -   2015-09-24 Lynn Garren : larana v04\_12\_04 for larsoft v04\_24\_00
@@ -92,7 +92,7 @@ larana v04\_12\_04(#larana-v04_12_04)
 -   2015-09-20 drinkingkazu : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larana into develop
 -   2015-09-20 drinkingkazu : Reserve right length of elements in vector –kazu
 
-larreco v04\_17\_02(#larreco-v04_17_02)
+larreco v04\_17\_02
 ------------------------------------------
 
 -   2015-09-24 Lynn Garren : larreco v04\_17\_02 for larsoft v04\_24\_00
@@ -109,7 +109,7 @@ larreco v04\_17\_02(#larreco-v04_17_02)
 -   2015-08-12 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2015-08-12 Tingjun Yang : turn off autoflip for now
 
-larsim v04\_11\_00(#larsim-v04_11_00)
+larsim v04\_11\_00
 ----------------------------------------
 
 -   2015-09-24 Lynn Garren : larsim v04\_11\_00 for larsoft v04\_24\_00
@@ -129,12 +129,12 @@ larsim v04\_11\_00(#larsim-v04_11_00)
 -   2015-05-21 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
 -   2015-05-07 Thomas Warburton : Changing file path searches again.
 
-larevt v04\_10\_02(#larevt-v04_10_02)
+larevt v04\_10\_02
 ----------------------------------------
 
 -   2015-09-24 Lynn Garren : larevt v04\_10\_02 for larsoft v04\_24\_00
 
-lardata v04\_14\_01(#lardata-v04_14_01)
+lardata v04\_14\_01
 ------------------------------------------
 
 -   2015-09-24 Lynn Garren : lardata v04\_14\_01 for larsoft v04\_24\_00
@@ -142,16 +142,16 @@ lardata v04\_14\_01(#lardata-v04_14_01)
 -   2015-09-17 Lynn Garren : larsoft v04\_23\_00
 -   2015-09-17 William Foreman : More precise/accurate Rayleigh spectrum for 90K
 
-larcore v04\_17\_00(#larcore-v04_17_00)
+larcore v04\_17\_00
 ------------------------------------------
 
-larbatch v01\_15\_01(#larbatch-v01_15_01)
+larbatch v01\_15\_01
 --------------------------------------------
 
 -   2015-09-24 Lynn Garren : larbatch v01\_15\_01 for larsoft v04\_24\_00
 -   2015-09-21 Herbert Greenlee : Escape dollar signs in dags.
 
-larutils v1\_03\_02(#larutils-v1_03_02)
+larutils v1\_03\_02
 ------------------------------------------
 
 -   2015-09-24 Lynn Garren : larutils v1\_03\_02 for larsoft v04\_24\_00

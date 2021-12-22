@@ -1,4 +1,4 @@
-OpticalDetectorData(#OpticalDetectorData)
+OpticalDetectorData
 ============================================
 
 This contains data classes associated with simulating the ADCs and FEM (Front-End Modules) associated with the optical detectors (PMTs). There’s a little more information on the [optical simulations](Optical_simulations?parent=OpticalDetectorData) page.

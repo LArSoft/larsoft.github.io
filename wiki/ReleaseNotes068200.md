@@ -1,4 +1,4 @@
-LArSoft v06\_82\_00 Release Notes(#LArSoft-v06_82_00-Release-Notes)
+LArSoft v06\_82\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -32,13 +32,13 @@ LArSoft v06\_82\_00 Release Notes(#LArSoft-v06_82_00-Release-Notes)
 Download instructions for [larsoft v06\_82\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_82_00/larsoft-v06_82_00.html)\
 Download instructions for [just larsoftobj v1\_47\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_47_02/larsoftobj-v1_47_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco lardata feature/usher\_cluster3dupdates
@@ -49,18 +49,18 @@ New features(#New-features)
     -   new `DumpGeometry` module
     -   `geometry.fcl` now refers to `geometry_lartpcdetector.fcl` (in `larcorealg`)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v1\_16\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_82\_00(#larsoft-v06_82_00)
+larsoft v06\_82\_00
 ------------------------------------------
 
 -   2018-06-26 Lynn Garren : larsoft v06\_82\_00 for larsoft v06\_82\_00
@@ -69,34 +69,34 @@ larsoft v06\_82\_00(#larsoft-v06_82_00)
 -   2018-06-26 Lynn Garren : mrb v1\_16\_01
 -   2018-06-26 Lynn Garren : update dependency database
 
-lareventdisplay v06\_20\_03(#lareventdisplay-v06_20_03)
+lareventdisplay v06\_20\_03
 ----------------------------------------------------------
 
 -   2018-06-26 Lynn Garren : lareventdisplay v06\_20\_03 for larsoft v06\_82\_00
 
-larexamples v06\_14\_03(#larexamples-v06_14_03)
+larexamples v06\_14\_03
 --------------------------------------------------
 
 -   2018-06-26 Lynn Garren : larexamples v06\_14\_03 for larsoft v06\_82\_00
 
-larpandora v06\_31\_01(#larpandora-v06_31_01)
+larpandora v06\_31\_01
 ------------------------------------------------
 
 -   2018-06-26 Lynn Garren : larpandora v06\_31\_01 for larsoft v06\_82\_00
 
-larwirecell v06\_14\_03(#larwirecell-v06_14_03)
+larwirecell v06\_14\_03
 --------------------------------------------------
 
 -   2018-06-26 Lynn Garren : larwirecell v06\_14\_03 for larsoft v06\_82\_00
 
-larana v06\_20\_03(#larana-v06_20_03)
+larana v06\_20\_03
 ----------------------------------------
 
 -   2018-06-26 Lynn Garren : larana v06\_20\_03 for larsoft v06\_82\_00
 -   2018-06-26 Lynn Garren : need eigen headers
 -   2018-06-26 Lynn Garren : lardata/RecoObjects/Cluster3D.h moved to larreco/RecoAlg/Cluster3DAlgs/Cluster3D.h
 
-larreco v06\_63\_00(#larreco-v06_63_00)
+larreco v06\_63\_00
 ------------------------------------------
 
 -   2018-06-26 Lynn Garren : larreco v06\_63\_00 for larsoft v06\_82\_00
@@ -176,17 +176,17 @@ larreco v06\_63\_00(#larreco-v06_63_00)
 -   2017-10-01 Usher, Tracy L : Merge branch ‘feature/usher\_cluster3dupdates’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/usher\_cluster3dupdates
 -   2017-10-01 Usher, Tracy L : Work in progress, updating to v06\_51\_00
 
-larsim v06\_50\_03(#larsim-v06_50_03)
+larsim v06\_50\_03
 ----------------------------------------
 
 -   2018-06-26 Lynn Garren : larsim v06\_50\_03 for larsoft v06\_82\_00
 
-larevt v06\_22\_01(#larevt-v06_22_01)
+larevt v06\_22\_01
 ----------------------------------------
 
 -   2018-06-26 Lynn Garren : larevt v06\_22\_01 for larsoft v06\_82\_00
 
-lardata v06\_47\_00(#lardata-v06_47_00)
+lardata v06\_47\_00
 ------------------------------------------
 
 -   2018-06-26 Lynn Garren : lardata v06\_47\_00 for larsoft v06\_82\_00
@@ -223,7 +223,7 @@ lardata v06\_47\_00(#lardata-v06_47_00)
 -   2017-10-06 Usher, Tracy L : Merge branch ‘develop’ into feature/usher\_cluster3dupdates
 -   2017-10-06 Usher, Tracy L : Modify the definition of clusters to allow the creation of “daughters”.
 
-larcore v06\_21\_00(#larcore-v06_21_00)
+larcore v06\_21\_00
 ------------------------------------------
 
 -   2018-06-26 Lynn Garren : larcore v06\_21\_00 for larsoft v06\_82\_00
@@ -237,25 +237,25 @@ larcore v06\_21\_00(#larcore-v06_21_00)
 -   2018-05-14 Lynn Garren : cetlib\_except/exception.h
 -   2018-05-30 Gianluca Petrillo : Added module to dump the geometry.
 
-larpandoracontent v03\_13\_00(#larpandoracontent-v03_13_00)
+larpandoracontent v03\_13\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_47\_02(#larsoftobj-v1_47_02)
+larsoftobj v1\_47\_02
 ----------------------------------------------
 
 -   2018-06-26 Lynn Garren : larsoftobj v1\_47\_02 for larsoft v06\_82\_00
 -   2018-06-26 Lynn Garren : update versions
 -   2018-06-26 Lynn Garren : mrb v1\_16\_01
 
-lardataobj v1\_33\_00(#lardataobj-v1_33_00)
+lardataobj v1\_33\_00
 ----------------------------------------------
 
-lardataalg v1\_01\_02(#lardataalg-v1_01_02)
+lardataalg v1\_01\_02
 ----------------------------------------------
 
 -   2018-06-26 Lynn Garren : lardataalg v1\_01\_02 for larsoft v06\_82\_00
 
-larcorealg v1\_23\_01(#larcorealg-v1_23_01)
+larcorealg v1\_23\_01
 ----------------------------------------------
 
 -   2018-06-26 Lynn Garren : larcorealg v1\_23\_01 for larsoft v06\_82\_00
@@ -264,15 +264,15 @@ larcorealg v1\_23\_01(#larcorealg-v1_23_01)
 -   2018-06-20 Paul Russo : Fix documentation typo.
 -   2018-06-20 Lynn Garren : ignore files ending in \~
 
-larcoreobj v1\_24\_00(#larcoreobj-v1_24_00)
+larcoreobj v1\_24\_00
 ----------------------------------------------
 
-larbatch v01\_42\_00(#larbatch-v01_42_00)
+larbatch v01\_42\_00
 --------------------------------------------
 
 -   2018-06-26 Lynn Garren : larbatch v01\_42\_00 for larsoft v06\_82\_00
 -   2018-06-25 Herbert Greenlee : Add \<dropboxwait\>.
 -   2018-06-25 Herbert Greenlee : Add dropbox wait interval.
 
-larutils v1\_22\_07(#larutils-v1_22_07)
+larutils v1\_22\_07
 ------------------------------------------

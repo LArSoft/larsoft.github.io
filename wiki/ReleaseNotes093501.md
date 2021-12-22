@@ -1,4 +1,4 @@
-LArSoft v09\_35\_01 Release Notes(#LArSoft-v09_35_01-Release-Notes)
+LArSoft v09\_35\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,16 +36,16 @@ LArSoft v09\_35\_01 Release Notes(#LArSoft-v09_35_01-Release-Notes)
 Download instructions for [larsoft v09\_35\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_35_01/larsoft-v09_35_01.html)\
 Download instructions for [just larsoftobj v09\_11\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_11_00/larsoftobj-v09_11_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larrecodnn PR 24
@@ -56,32 +56,32 @@ Bug fixes(#Bug-fixes)
     -   As pointed in the description, the default value of the new CatchSaturation parameter (false) is expected to reproduce the behaviour that existed before the changes, qualifying this as a non-breaking change.
     -   Guard all std::cout statements with a \_verbose flag, which is false by default.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_35\_01(#larsoft-v09_35_01)
+larsoft v09\_35\_01
 ------------------------------------------
 
 -   2021-11-04 Lynn Garren : larsoft v09\_35\_01 for larsoft v09\_35\_01
 -   2021-11-04 Lynn Garren : larsoft v09\_35\_01 for larsoft v09\_35\_01
 -   2021-11-04 Lynn Garren : product versions
 
-lareventdisplay v09\_02\_05(#lareventdisplay-v09_02_05)
+lareventdisplay v09\_02\_05
 ----------------------------------------------------------
 
-larexamples v09\_02\_05(#larexamples-v09_02_05)
+larexamples v09\_02\_05
 --------------------------------------------------
 
-larpandora v09\_09\_05(#larpandora-v09_09_05)
+larpandora v09\_09\_05
 ------------------------------------------------
 
-larsimrad v09\_03\_04(#larsimrad-v09_03_04)
+larsimrad v09\_03\_04
 ----------------------------------------------
 
-larrecodnn v09\_09\_06(#larrecodnn-v09_09_06)
+larrecodnn v09\_09\_06
 ------------------------------------------------
 
 -   2021-11-04 Lynn Garren : larrecodnn v09\_09\_06 for larsoft v09\_35\_01
@@ -92,10 +92,10 @@ larrecodnn v09\_09\_06(#larrecodnn-v09_09_06)
 -   2021-10-12 Michael WAng : replaced random\_shuffle with shuffle
 -   2021-10-11 Michael WAng : fixed bugs and added new version that also outputs clean signal waveform
 
-larwirecell v09\_04\_03(#larwirecell-v09_04_03)
+larwirecell v09\_04\_03
 --------------------------------------------------
 
-larana v09\_03\_06(#larana-v09_03_06)
+larana v09\_03\_06
 ----------------------------------------
 
 -   2021-11-04 Lynn Garren : larana v09\_03\_06 for larsoft v09\_35\_01
@@ -104,47 +104,47 @@ larana v09\_03\_06(#larana-v09_03_06)
 -   2021-10-20 Drinking Kazu : Update PedAlgoRmsSlider.cxx
 -   2021-09-04 drinkingkazu : bug fix in OpHitFinder that should be backward compatible
 
-larreco v09\_07\_05(#larreco-v09_07_05)
+larreco v09\_07\_05
 ------------------------------------------
 
-larsim v09\_18\_00(#larsim-v09_18_00)
+larsim v09\_18\_00
 ----------------------------------------
 
-larg4 v09\_06\_00(#larg4-v09_06_00)
+larg4 v09\_06\_00
 --------------------------------------
 
-larevt v09\_03\_03(#larevt-v09_03_03)
+larevt v09\_03\_03
 ----------------------------------------
 
-lardata v09\_04\_00(#lardata-v09_04_00)
+lardata v09\_04\_00
 ------------------------------------------
 
-larcore v09\_03\_01(#larcore-v09_03_01)
+larcore v09\_03\_01
 ------------------------------------------
 
-larpandoracontent v03\_26\_01(#larpandoracontent-v03_26_01)
+larpandoracontent v03\_26\_01
 --------------------------------------------------------------
 
-larsoftobj v09\_11\_00(#larsoftobj-v09_11_00)
+larsoftobj v09\_11\_00
 ------------------------------------------------
 
-lardataobj v09\_03\_03(#lardataobj-v09_03_03)
+lardataobj v09\_03\_03
 ------------------------------------------------
 
-lardataalg v09\_07\_00(#lardataalg-v09_07_00)
+lardataalg v09\_07\_00
 ------------------------------------------------
 
-larcorealg v09\_03\_01(#larcorealg-v09_03_01)
+larcorealg v09\_03\_01
 ------------------------------------------------
 
-larcoreobj v09\_03\_01(#larcoreobj-v09_03_01)
+larcoreobj v09\_03\_01
 ------------------------------------------------
 
-webevd v09\_06\_03(#webevd-v09_06_03)
+webevd v09\_06\_03
 ----------------------------------------
 
-larbatch v01\_56\_02(#larbatch-v01_56_02)
+larbatch v01\_56\_02
 --------------------------------------------
 
-larutils v1\_28\_02(#larutils-v1_28_02)
+larutils v1\_28\_02
 ------------------------------------------

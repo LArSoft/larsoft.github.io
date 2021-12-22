@@ -1,4 +1,4 @@
-Reproducing jobs using the same random number sequences(#Reproducing-jobs-using-the-same-random-number-sequences)
+Reproducing jobs using the same random number sequences
 ====================================================================================================================
 
 -   **Table of contents**
@@ -14,7 +14,7 @@ Reproducing jobs using the same random number sequences(#Reproducing-jobs-using-
 
 These instructions describe how to run multiple jobs using the same random number sequences.
 
-#### Glossary(#Glossary)
+#### Glossary
 
   ------------------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   random number engine           code generating a simple sequence of uniformly distributed numbers, which typically needs to be initialised with some state (*seed*); C++ defines some in [`random` header](http://www.cplusplus.com/reference/random) , CLHEP also defines some; ROOT merges the engine and the extraction according to a probability density
@@ -23,13 +23,13 @@ These instructions describe how to run multiple jobs using the same random numbe
   random stream                  a source of random sequences; it is implemented as an engine with a specific initialisation
   ------------------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Introduction to random number generation in *art* and LArSoft(#Introduction-to-random-number-generation-in-art-and-LArSoft) {.wiki-class-count}
+Introduction to random number generation in *art* and LArSoft
 ------------------------------------------------------------------------------------------------------------------------------
 
 *art* modules can (and *should*) obtain random numbers from engines managed by `RandomNumberGenerator` service. That service also allows some control on the configuration of the engines (see this [old documentation](Random_number_generators_in_art)).\
 In LArSoft (and in fact also in NOvA), a service is available called `NuRandomService` which can centralise the management of the seeds of all registered random engine. **This is the preferred way to deal with random seeds.**
 
-`NuRandomService`(#NuRandomService) {.wiki-class-count}
+`NuRandomService`
 --------------------------------------
 
 The *art* service `rndm::NuRandomService` (in *nutools*) is documented via Doxygen, in two parts:
@@ -69,7 +69,7 @@ That is, per-event policies define one sequence per event, while per-job policie
 
 The following sections describe how to reproduce jobs using each of the three operating modes supported by `NuRandomService`.
 
-Reproducing jobs with a “random” policy(#Reproducing-jobs-with-a-random-policy) {.wiki-class-count}
+Reproducing jobs with a “random” policy
 ----------------------------------------------------------------------------------
 
 Currently, the only policy of this type is called `random`.\
@@ -87,14 +87,14 @@ Therefore, if you did not listen to the all-so-wise recommendation **not to use 
 
 If you can’t find the master seed (too low verbosity, or you lost the log file), well… next time **don’t use random policy**!
 
-Reproducing jobs with a “per-event” policy(#Reproducing-jobs-with-a-per-event-policy) {.wiki-class-count}
+Reproducing jobs with a “per-event” policy
 ----------------------------------------------------------------------------------------
 
 Currently, the only policy of this type is called `perEvent`.\
 When using this policy, it is typically easy to reproduce a job running *with existing events as input* (`RootInput` source module, which reads art ROOT files from previous jobs).\
 In that case, just rerun the job with the same FHiCL configuration. The order of the input files and events does not even matter.
 
-### If the input is not from an existing *art* event(#If-the-input-is-not-from-an-existing-art-event)
+### If the input is not from an existing *art* event
 
 Let’s digress with a relevant detail. Per-event policies assign a unique random sequence to each event. To identify an event, the policy `perEvent` uses the event time and ID.\
 Therefore, *it is required to define a timestamp plugin when creating an event from scratch* (the default one, setting all timestamps as `0`, won’t do).\
@@ -113,7 +113,7 @@ The workaround is to split the job. For example:
     3.  you can keep the small empty event file as the root of any reprocessing
 -   you really want to reproduce a generation job that already occurred, then check the last resort: [rerunning a job starting from its output](Rerunning_a_job_starting_from_its_output), dropping *all* the data products (`source.inputCommands: [ "drop *" ]`).
 
-Reproducing jobs with a “per-job” policy(#Reproducing-jobs-with-a-per-job-policy) {.wiki-class-count}
+Reproducing jobs with a “per-job” policy
 ------------------------------------------------------------------------------------
 
 First, you know the policy you are using is a per-job one when it’s not any of the other two types. Examples of per-job policies include `autoIncrement`, `preDefinedOffset` and `linearMapping`.\

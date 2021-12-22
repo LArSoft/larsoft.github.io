@@ -1,4 +1,4 @@
-LArSoft v09\_08\_00 Release Notes(#LArSoft-v09_08_00-Release-Notes)
+LArSoft v09\_08\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_08\_00 Release Notes(#LArSoft-v09_08_00-Release-Notes)
 Download instructions for [larsoft v09\_08\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_08_00/larsoft-v09_08_00.html)\
 Download instructions for [just larsoftobj v09\_02\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_02_00/larsoftobj-v09_02_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardataalg PR 17
@@ -61,13 +61,13 @@ New features(#New-features)
         -   This pull request introduces the infrastructure to support deep learning via LibTorch. There will be a talk on this and the associated larpandoracontent pull request (LArSoft/larpandoracontent/pull/13) upon which it depends, in the LArSoft Coordination meeting on 20 October.
         -   This update allows LArPandoraInterface to link against the new deep learning-aware library in larpandoracontent.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larpandoracontent PR 14
     -   This PR is a patch release to fix a bug in LArTrackShowerId/TrackShowerIdFeatureTool.cc where a defence against accessing an empty container was missing. Please see PandoraPFA\#146 for more information if you’re interested.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   gallery v1\_14\_03 (s102)
@@ -75,31 +75,31 @@ Updated dependencies(#Updated-dependencies)
 -   geant4reweight v01\_04\_01
 -   bxdecay0 v1\_0\_6
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_08\_00(#larsoft-v09_08_00)
+larsoft v09\_08\_00
 ------------------------------------------
 
 -   2020-10-23 Lynn Garren : larsoft v09\_08\_00 for larsoft v09\_08\_00
 -   2020-10-23 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_10(#lareventdisplay-v09_00_10)
+lareventdisplay v09\_00\_10
 ----------------------------------------------------------
 
 -   2020-10-23 Lynn Garren : lareventdisplay v09\_00\_10 for larsoft v09\_08\_00
 
-larexamples v09\_00\_09(#larexamples-v09_00_09)
+larexamples v09\_00\_09
 --------------------------------------------------
 
 -   2020-10-23 Lynn Garren : larexamples v09\_00\_09 for larsoft v09\_08\_00
 
-larg4 v09\_01\_02(#larg4-v09_01_02)
+larg4 v09\_01\_02
 --------------------------------------
 
 -   2020-10-23 Lynn Garren : larg4 v09\_01\_02 for larsoft v09\_08\_00
 
-larpandora v09\_03\_00(#larpandora-v09_03_00)
+larpandora v09\_03\_00
 ------------------------------------------------
 
 -   2020-10-23 Lynn Garren : larpandora v09\_03\_00 for larsoft v09\_08\_00
@@ -111,34 +111,34 @@ larpandora v09\_03\_00(#larpandora-v09_03_00)
 -   2020-09-14 Andrew Chappell : Conditional build based on cmake flag PANDORA\_LIBTORCH
 -   2020-09-14 Andrew Chappell : Include DLMaster algorithm
 
-larsimrad v09\_00\_09(#larsimrad-v09_00_09)
+larsimrad v09\_00\_09
 ----------------------------------------------
 
 -   2020-10-23 Lynn Garren : larsimrad v09\_00\_09 for larsoft v09\_08\_00
 
-larrecodnn v09\_02\_01(#larrecodnn-v09_02_01)
+larrecodnn v09\_02\_01
 ------------------------------------------------
 
 -   2020-10-23 Lynn Garren : larrecodnn v09\_02\_01 for larsoft v09\_08\_00
 
-larwirecell v09\_01\_04(#larwirecell-v09_01_04)
+larwirecell v09\_01\_04
 --------------------------------------------------
 
 -   2020-10-23 Lynn Garren : larwirecell v09\_01\_04 for larsoft v09\_08\_00
 
-larana v09\_00\_10(#larana-v09_00_10)
+larana v09\_00\_10
 ----------------------------------------
 
 -   2020-10-23 Lynn Garren : larana v09\_00\_10 for larsoft v09\_08\_00
 
-larreco v09\_04\_00(#larreco-v09_04_00)
+larreco v09\_04\_00
 ------------------------------------------
 
 -   2020-10-23 Lynn Garren : larreco v09\_04\_00 for larsoft v09\_08\_00
 -   2020-10-21 Lynn Garren : Merge pull request \#22 from brballer/feature/bb\_vsafix
 -   2020-10-20 Bruce Baller : Improve 3D reconstruction of very small angle tracks
 
-larsim v09\_05\_00(#larsim-v09_05_00)
+larsim v09\_05\_00
 ----------------------------------------
 
 -   2020-10-23 Lynn Garren : larsim v09\_05\_00 for larsoft v09\_08\_00
@@ -151,20 +151,20 @@ larsim v09\_05\_00(#larsim-v09_05_00)
 -   2020-10-09 Marco Del Tutto : Use fPVS-\>NOpChannels() and not cached NOpChannels, so correct number of op channels is always returned
 -   2020-10-06 Marco Del Tutto : Making detectedDirectHits and detectedReflecHits methods public.
 
-larevt v09\_00\_07(#larevt-v09_00_07)
+larevt v09\_00\_07
 ----------------------------------------
 
 -   2020-10-23 Lynn Garren : larevt v09\_00\_07 for larsoft v09\_08\_00
 
-lardata v09\_01\_02(#lardata-v09_01_02)
+lardata v09\_01\_02
 ------------------------------------------
 
 -   2020-10-23 Lynn Garren : lardata v09\_01\_02 for larsoft v09\_08\_00
 
-larcore v09\_00\_01(#larcore-v09_00_01)
+larcore v09\_00\_01
 ------------------------------------------
 
-larpandoracontent v03\_22\_00(#larpandoracontent-v03_22_00)
+larpandoracontent v03\_22\_00
 --------------------------------------------------------------
 
 -   2020-10-23 Lynn Garren : larpandoracontent v03\_22\_00 for larsoft v09\_08\_00
@@ -197,16 +197,16 @@ larpandoracontent v03\_22\_00(#larpandoracontent-v03_22_00)
 -   2020-10-19 Dom Brailsford : Update version and changelog for patch release
 -   2020-10-16 Dom Brailsford : Bug fix where no vertex exists.
 
-larsoftobj v09\_02\_00(#larsoftobj-v09_02_00)
+larsoftobj v09\_02\_00
 ------------------------------------------------
 
 -   2020-10-23 Lynn Garren : larsoftobj v09\_02\_00 for larsoft v09\_08\_00
 -   2020-10-23 Lynn Garren : product versions
 
-lardataobj v09\_00\_01(#lardataobj-v09_00_01)
+lardataobj v09\_00\_01
 ------------------------------------------------
 
-lardataalg v09\_02\_00(#lardataalg-v09_02_00)
+lardataalg v09\_02\_00
 ------------------------------------------------
 
 -   2020-10-23 Lynn Garren : lardataalg v09\_02\_00 for larsoft v09\_08\_00
@@ -214,19 +214,19 @@ lardataalg v09\_02\_00(#lardataalg-v09_02_00)
 -   2020-10-21 Lynn Garren : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from PetrilloAtWork/feature/gp\_tickConversions
 -   2020-10-15 Gianluca Petrillo : DetectorTimings now supports tick-to-tick conversions.
 
-larcorealg v09\_00\_01(#larcorealg-v09_00_01)
+larcorealg v09\_00\_01
 ------------------------------------------------
 
-larcoreobj v09\_00\_00(#larcoreobj-v09_00_00)
+larcoreobj v09\_00\_00
 ------------------------------------------------
 
-webevd v09\_00\_07(#webevd-v09_00_07)
+webevd v09\_00\_07
 ----------------------------------------
 
 -   2020-10-23 Lynn Garren : webevd v09\_00\_07 for larsoft v09\_08\_00
 
-larbatch v01\_54\_00(#larbatch-v01_54_00)
+larbatch v01\_54\_00
 --------------------------------------------
 
-larutils v1\_27\_01(#larutils-v1_27_01)
+larutils v1\_27\_01
 ------------------------------------------

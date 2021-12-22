@@ -1,4 +1,4 @@
-Dependencies(#Dependencies)
+Dependencies
 ==============================
 
 Revising the chart\

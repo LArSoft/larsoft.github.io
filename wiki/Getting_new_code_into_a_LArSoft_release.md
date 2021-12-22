@@ -1,4 +1,4 @@
-Getting new code into a LArSoft release(#Getting-new-code-into-a-LArSoft-release)
+Getting new code into a LArSoft release
 ====================================================================================
 
 This page describes the basic policies and procedures developers need to follow in order to get new code of any kind included in a LArSoft release. Most changes fall into one of the following categories:

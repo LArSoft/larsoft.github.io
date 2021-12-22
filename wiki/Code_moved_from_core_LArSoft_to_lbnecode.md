@@ -1,4 +1,4 @@
-Code moved from core LArSoft to lbnecode(#Code-moved-from-core-LArSoft-to-lbnecode)
+Code moved from core LArSoft to lbnecode
 ======================================================================================
 
 Note that all of the files moved from core LArSoft have copies in their original locations, but with “.sample” appended to the end of the filename.

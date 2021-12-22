@@ -3,12 +3,12 @@
     -   [DBSCAN](#DBSCAN)
     -   [HoughLineFinder](#HoughLineFinder)
 
-ClusterFinder(#ClusterFinder)
+ClusterFinder
 ================================
 
 The package maintainer is Ben Carls .
 
-DBSCAN(#DBSCAN)
+DBSCAN
 ------------------
 
 DBScan is a fast clustering algorithm. It works on points in (wire, time) space one plane at a time. The default distance metric is aware of bad wires.
@@ -16,7 +16,7 @@ DBScan is a fast clustering algorithm. It works on points in (wire, time) space 
 Based on *Martin Ester, Hans-Peter Kriegel, J. Sander, Xiaowei Xu "A Density-Based Algorithm for Discovering Clusters \
 in Large Spatial Databases with Noise" (1996-). Proceedings of the Second International Conference on Knowledge Discovery and Data Mining (KDD-96)*
 
-HoughLineFinder(#HoughLineFinder)
+HoughLineFinder
 ------------------------------------
 
 The HoughLineFinder module is designed to find lines (Houghclusters) from hits in an event. HoughLineFinder can be considered a cluster finding algorithm and a track fitting algorithm. After finding the line-like clusters, the algorithm returns information (slope, intercept, endpoints) about the clusters themselves. HoughLineFinder’s input can be either clusters found by the DBSCAN algorithm or hits found directly from a hit finding algorithm after deconvolution and hit finding. That is, the HoughLineFinder can search for lines, considering all the hits (in a plane) or hits on a cluster-by-cluster basis. The former is perhaps most useful for cluster-finding while the latter is most useful for actual track fitting. Running HoughLineFinder multiple times before/after other cluster finding algorithms (e.g. DBSCAN) may be useful for efficient cluster finding and track fitting.

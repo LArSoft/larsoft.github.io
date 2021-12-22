@@ -1,4 +1,4 @@
-LArSoft v06\_76\_00 Release Notes(#LArSoft-v06_76_00-Release-Notes)
+LArSoft v06\_76\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,12 +31,12 @@ LArSoft v06\_76\_00 Release Notes(#LArSoft-v06_76_00-Release-Notes)
 Download instructions for [larsoft v06\_76\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_76_00/larsoft-v06_76_00.html)\
 Download instructions for [just larsoftobj v1\_44\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_44_00/larsoftobj-v1_44_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   merge approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   resolve [\#19043](/redmine/issues/19043 "Feature: need a more generic version of the methods NextValidPoint and PreviousValidPoint, taking as an ar... (Closed)")
@@ -50,52 +50,52 @@ New features(#New-features)
 -   feature/wketchum\_LArG4Refactor\_develop on lardataobj and larsim
     -   [May 8 presentation](https://indico.fnal.gov/event/17099/contribution/2/material/slides/0.pdf)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nutools [v2\_21\_03](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_21_03-572018)
     -   `feature/gp_Issue19743` in `nutools` in
     -   resolve issue [\#19743](/redmine/issues/19743 "Bug: GeneratedEventTimestamp_plugin.cc broken in clang. (Closed)") (event time stamps very different with Clang)
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_76\_00(#larsoft-v06_76_00)
+larsoft v06\_76\_00
 ------------------------------------------
 
 -   2018-05-09 Lynn Garren : larsoft v06\_76\_00 for larsoft v06\_76\_00
 -   2018-05-09 Lynn Garren : update versions
 
-lareventdisplay v06\_19\_05(#lareventdisplay-v06_19_05)
+lareventdisplay v06\_19\_05
 ----------------------------------------------------------
 
 -   2018-05-09 Lynn Garren : lareventdisplay v06\_19\_05 for larsoft v06\_76\_00
 
-larexamples v06\_13\_04(#larexamples-v06_13_04)
+larexamples v06\_13\_04
 --------------------------------------------------
 
 -   2018-05-09 Lynn Garren : larexamples v06\_13\_04 for larsoft v06\_76\_00
 
-larpandora v06\_26\_05(#larpandora-v06_26_05)
+larpandora v06\_26\_05
 ------------------------------------------------
 
 -   2018-05-09 Lynn Garren : larpandora v06\_26\_05 for larsoft v06\_76\_00
 -   2018-05-03 Steven Green : fix after track/shower ID updates
 
-larwirecell v06\_12\_04(#larwirecell-v06_12_04)
+larwirecell v06\_12\_04
 --------------------------------------------------
 
 -   2018-05-09 Lynn Garren : larwirecell v06\_12\_04 for larsoft v06\_76\_00
 
-larana v06\_19\_05(#larana-v06_19_05)
+larana v06\_19\_05
 ----------------------------------------
 
 -   2018-05-09 Lynn Garren : larana v06\_19\_05 for larsoft v06\_76\_00
 
-larreco v06\_60\_02(#larreco-v06_60_02)
+larreco v06\_60\_02
 ------------------------------------------
 
 -   2018-05-09 Lynn Garren : larreco v06\_60\_02 for larsoft v06\_76\_00
@@ -103,7 +103,7 @@ larreco v06\_60\_02(#larreco-v06_60_02)
 -   2018-05-02 Tingjun Yang : Throw an exception if the requested track trajectory index is bad. Right now this is the only sanity check of TrackHitMeta.
 -   2018-05-02 Tingjun Yang : Fix trajectory point index in PMA TrackHitMeta.
 
-larsim v06\_46\_00(#larsim-v06_46_00)
+larsim v06\_46\_00
 ----------------------------------------
 
 -   2018-05-09 Lynn Garren : larsim v06\_46\_00 for larsoft v06\_76\_00
@@ -153,12 +153,12 @@ larsim v06\_46\_00(#larsim-v06_46_00)
 -   2017-02-23 Gianluca Petrillo : Prevent space charge distortion from making charge cross the wire planes.
 -   2017-04-04 Lynn Garren : larsim v06\_13\_01\_01
 
-larevt v06\_20\_04(#larevt-v06_20_04)
+larevt v06\_20\_04
 ----------------------------------------
 
 -   2018-05-09 Lynn Garren : larevt v06\_20\_04 for larsoft v06\_76\_00
 
-lardata v06\_44\_00(#lardata-v06_44_00)
+lardata v06\_44\_00
 ------------------------------------------
 
 -   2018-05-09 Lynn Garren : lardata v06\_44\_00 for larsoft v06\_76\_00
@@ -176,12 +176,12 @@ lardata v06\_44\_00(#lardata-v06_44_00)
 -   2018-04-20 Gianluca Petrillo : Reorganisation of collection proxy code.
 -   2018-04-18 Gianluca Petrillo : Reorganised proxy code.
 
-larcore v06\_19\_02(#larcore-v06_19_02)
+larcore v06\_19\_02
 ------------------------------------------
 
 -   2018-05-09 Lynn Garren : larcore v06\_19\_02 for larsoft v06\_76\_00
 
-larpandoracontent v03\_12\_00(#larpandoracontent-v03_12_00)
+larpandoracontent v03\_12\_00
 --------------------------------------------------------------
 
 -   2018-05-09 Lynn Garren : larpandoracontent v03\_12\_00 for larsoft v06\_76\_00
@@ -255,13 +255,13 @@ larpandoracontent v03\_12\_00(#larpandoracontent-v03_12_00)
 -   2018-03-19 Steven Green : Abstract base class for MVAs used in LArMvaHelper. Stylistic changes.
 -   2018-02-15 Steven Green : Created the LArAdaBoostDecisionTree class, restructured the use of the LArSupportVectorMachine and converted the LArSvmHelper into the more generic LArMvaHelper.
 
-larsoftobj v1\_44\_00(#larsoftobj-v1_44_00)
+larsoftobj v1\_44\_00
 ----------------------------------------------
 
 -   2018-05-09 Lynn Garren : larsoftobj v1\_44\_00 for larsoft v06\_76\_00
 -   2018-05-09 Lynn Garren : product versions
 
-lardataobj v1\_32\_00(#lardataobj-v1_32_00)
+lardataobj v1\_32\_00
 ----------------------------------------------
 
 -   2018-05-09 Lynn Garren : lardataobj v1\_32\_00 for larsoft v06\_76\_00
@@ -297,22 +297,22 @@ lardataobj v1\_32\_00(#lardataobj-v1_32_00)
 -   2017-05-03 Giuseppe Cerati : create a TrackTrajectory from a Trajectory
 -   2017-08-17 Giuseppe Cerati : add lardataobj/RecoBase/MCSFitResult.h
 
-larcorealg v1\_20\_00(#larcorealg-v1_20_00)
+larcorealg v1\_20\_00
 ----------------------------------------------
 
 -   2018-05-09 Lynn Garren : larcorealg v1\_20\_00 for larsoft v06\_76\_00
 -   2018-05-02 Gianluca Petrillo : Added a few metaprogramming utilities for containers.
 
-larcoreobj v1\_23\_00(#larcoreobj-v1_23_00)
+larcoreobj v1\_23\_00
 ----------------------------------------------
 
-larbatch v01\_39\_01(#larbatch-v01_39_01)
+larbatch v01\_39\_01
 --------------------------------------------
 
 -   2018-05-09 Lynn Garren : larbatch v01\_39\_01 for larsoft v06\_76\_00
 -   2018-05-03 Herbert Greenlee : Change fixed tarball time stamp to something more recent than 1970.
 
-larutils v1\_22\_05(#larutils-v1_22_05)
+larutils v1\_22\_05
 ------------------------------------------
 
 -   2018-05-09 Lynn Garren : larutils v1\_22\_05 for larsoft v06\_76\_00

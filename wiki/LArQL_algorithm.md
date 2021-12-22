@@ -1,4 +1,4 @@
-LArQL algorithm(#LArQL-algorithm)
+LArQL algorithm
 ====================================
 
 Experimental data shows that both ionization charge and scintillation light in LAr depend on the deposited energy density (dE/dx) and electric field (xi) and that free ionization charge and scintillation light are anti-correlated, complementary at a given (dE/dx, xi) pair.\

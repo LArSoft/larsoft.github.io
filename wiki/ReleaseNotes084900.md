@@ -1,4 +1,4 @@
-LArSoft v08\_49\_00 Release Notes(#LArSoft-v08_49_00-Release-Notes)
+LArSoft v08\_49\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -34,13 +34,13 @@ LArSoft v08\_49\_00 Release Notes(#LArSoft-v08_49_00-Release-Notes)
 Download instructions for [larsoft v08\_49\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_49_00/larsoft-v08_49_00.html)\
 Download instructions for [just larsoftobj v08\_27\_05](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_27_05/larsoftobj-v08_27_05.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco PR 10 tbb GausHitFinder\_module
@@ -48,12 +48,12 @@ New features(#New-features)
 -   larcoreobj PR 6 add in SampledDicts files for SamplingSource
 -   lardataobj PR 6 add VertexSlice Assns
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larsim PR 12 Fixing a bug in MUSUN generator
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   libwda v2\_28\_0 security update
@@ -65,37 +65,37 @@ Updated dependencies(#Updated-dependencies)
 -   nuevdb v1\_02\_04
 -   nusystematics v00\_10\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_49\_00(#larsoft-v08_49_00)
+larsoft v08\_49\_00
 ------------------------------------------
 
 -   2020-04-07 Lynn Garren : larsoft v08\_49\_00
 -   2020-04-07 Lynn Garren : larsoft v08\_48\_02 for larsoft v08\_49\_00
 -   2020-04-07 Lynn Garren : product versions
 
-lareventdisplay v08\_12\_10(#lareventdisplay-v08_12_10)
+lareventdisplay v08\_12\_10
 ----------------------------------------------------------
 
 -   2020-04-07 Lynn Garren : lareventdisplay v08\_12\_10 for larsoft v08\_49\_00
 
-larexamples v08\_06\_10(#larexamples-v08_06_10)
+larexamples v08\_06\_10
 --------------------------------------------------
 
 -   2020-04-07 Lynn Garren : larexamples v08\_06\_10 for larsoft v08\_49\_00
 
-larg4 v08\_12\_08(#larg4-v08_12_08)
+larg4 v08\_12\_08
 --------------------------------------
 
 -   2020-04-07 Lynn Garren : larg4 v08\_12\_08 for larsoft v08\_49\_00
 
-larpandora v08\_12\_02(#larpandora-v08_12_02)
+larpandora v08\_12\_02
 ------------------------------------------------
 
 -   2020-04-07 Lynn Garren : larpandora v08\_12\_02 for larsoft v08\_49\_00
 
-larrecodnn v08\_02\_00(#larrecodnn-v08_02_00)
+larrecodnn v08\_02\_00
 ------------------------------------------------
 
 -   2020-04-07 Lynn Garren : larrecodnn v08\_02\_00 for larsoft v08\_49\_00
@@ -106,17 +106,17 @@ larrecodnn v08\_02\_00(#larrecodnn-v08_02_00)
 -   2020-04-03 mhlswang : new version of EmTrackMichelId that uses tool interface in PointIdAlgTools
 -   2020-04-03 mhlswang : restored previous version of PointIdAlg
 
-larwirecell v08\_12\_09(#larwirecell-v08_12_09)
+larwirecell v08\_12\_09
 --------------------------------------------------
 
 -   2020-04-07 Lynn Garren : larwirecell v08\_12\_09 for larsoft v08\_49\_00
 
-larana v08\_17\_02(#larana-v08_17_02)
+larana v08\_17\_02
 ----------------------------------------
 
 -   2020-04-07 Lynn Garren : larana v08\_17\_02 for larsoft v08\_49\_00
 
-larreco v08\_31\_00(#larreco-v08_31_00)
+larreco v08\_31\_00
 ------------------------------------------
 
 -   2020-04-07 Lynn Garren : larreco v08\_31\_00 for larsoft v08\_49\_00
@@ -129,7 +129,7 @@ larreco v08\_31\_00(#larreco-v08_31_00)
 -   2020-04-01 Giuseppe Cerati : fix bug that prevented proper setting of NDF
 -   2020-02-12 Giuseppe Cerati : multi-threaded implementation of GausHitFinder module (from Sophie Berkman)
 
-larsim v08\_22\_02(#larsim-v08_22_02)
+larsim v08\_22\_02
 ----------------------------------------
 
 -   2020-04-07 Lynn Garren : larsim v08\_22\_02 for larsoft v08\_49\_00
@@ -137,48 +137,48 @@ larsim v08\_22\_02(#larsim-v08_22_02)
 -   2020-04-06 Viktor Pec : Merge branch ‘develop’ of github.com:LArSoft/larsim into develop
 -   2020-03-30 Viktor Pec : Fixing a decision on which XY face to generate muons based on their direction, so that they point inside of the generation box, not outside of it.
 
-larevt v08\_11\_02(#larevt-v08_11_02)
+larevt v08\_11\_02
 ----------------------------------------
 
 -   2020-04-07 Lynn Garren : larevt v08\_11\_02 for larsoft v08\_49\_00
 
-lardata v08\_15\_02(#lardata-v08_15_02)
+lardata v08\_15\_02
 ------------------------------------------
 
 -   2020-04-07 Lynn Garren : lardata v08\_15\_02 for larsoft v08\_49\_00
 
-larcore v08\_11\_03(#larcore-v08_11_03)
+larcore v08\_11\_03
 ------------------------------------------
 
 -   2020-04-07 Lynn Garren : larcore v08\_11\_03 for larsoft v08\_49\_00
 
-larpandoracontent v03\_15\_16(#larpandoracontent-v03_15_16)
+larpandoracontent v03\_15\_16
 --------------------------------------------------------------
 
-larsoftobj v08\_27\_05(#larsoftobj-v08_27_05)
+larsoftobj v08\_27\_05
 ------------------------------------------------
 
 -   2020-04-07 Lynn Garren : larsoftobj v08\_27\_05 for larsoft v08\_49\_00
 -   2020-04-07 Lynn Garren : product versions
 
-lardataobj v08\_10\_06(#lardataobj-v08_10_06)
+lardataobj v08\_10\_06
 ------------------------------------------------
 
 -   2020-04-07 Lynn Garren : lardataobj v08\_10\_06 for larsoft v08\_49\_00
 -   2020-04-07 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from wesketchum/wketchum\_missing\_VtxSliceAssnsDicts
 -   2020-04-01 Wesley : add VertexSlice Assns
 
-lardataalg v08\_13\_08(#lardataalg-v08_13_08)
+lardataalg v08\_13\_08
 ------------------------------------------------
 
 -   2020-04-07 Lynn Garren : lardataalg v08\_13\_08 for larsoft v08\_49\_00
 
-larcorealg v08\_21\_03(#larcorealg-v08_21_03)
+larcorealg v08\_21\_03
 ------------------------------------------------
 
 -   2020-04-07 Lynn Garren : larcorealg v08\_21\_03 for larsoft v08\_49\_00
 
-larcoreobj v08\_10\_05(#larcoreobj-v08_10_05)
+larcoreobj v08\_10\_05
 ------------------------------------------------
 
 -   2020-04-07 Lynn Garren : larcoreobj v08\_10\_05 for larsoft v08\_49\_00
@@ -186,8 +186,8 @@ larcoreobj v08\_10\_05(#larcoreobj-v08_10_05)
 -   2020-04-06 Wesley : removeWhiteSpace
 -   2020-04-06 Wesley : add in SampledDicts files for SamplingSource
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_25\_09(#larutils-v1_25_09)
+larutils v1\_25\_09
 ------------------------------------------

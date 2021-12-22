@@ -8,7 +8,7 @@
         -   [Console output of the job](#Console-output-of-the-job)
     -   [Licenses](#Licenses)
 
-Debugging LArSoft with Allinea(#Debugging-LArSoft-with-Allinea)
+Debugging LArSoft with Allinea
 ==================================================================
 
 This information is based on [Dune’s writeup](https://cdcvs.fnal.gov/redmine/projects/dune/wiki/Getting_Started_with_the_Allinea_Forge_Debugger_and_Profiler)
@@ -40,10 +40,10 @@ The debugger is called `ddt`, and it has built-in help for starting it\
 \
 in addition to the web manual (both `ddt` and `map`) at [http://www.allinea.com/user-guide/forge/userguide.html](http://www.allinea.com/user-guide/forge/userguide.html)
 
-Tips(#Tips)
+Tips
 --------------
 
-### Multi-threading and MPI(#Multi-threading-and-MPI)
+### Multi-threading and MPI
 
 DUNE found that starting it with `--nompi` works to get started if you get this error message,\
 
@@ -51,13 +51,13 @@ DUNE found that starting it with `--nompi` works to get started if you get this 
 
 There are a few things in *art* that are multi-threaded, such as the messaging system and interaction with the SQLite database when running time or memory profiling services, though your program should be able to run single-threaded as well. Feel free to experiment with it.
 
-### Command line(#Command-line)
+### Command line
 
 You will have to specify the full path name to the executable, and arguments can be specified on the command line. The quickest way is to use `which` command directly within backticks:\
 
     ddt --nompi `which lar` -c prodsingle.fcl &
 
-### Source code(#Source-code)
+### Source code
 
 It can be tricky to get `ddt` to find source code. Right-clicking in the Project Files window lets you add source directories. Subdirectories are searched for appropriate source, but you need to specify a full path including unique versions to get the source you want. The path to the source that was used to compile the program is stored along with the debug symbols, and Allinea checks to see if the source version matches that in the executable and shared libraries. Due to our installation procedure, this check will fail, and it is up to you to make sure that your source and executable match.
 
@@ -69,7 +69,7 @@ When you step into a file that Allinea does not find, it will show a button to a
 on the terminal you started `ddt` from, and then browse with Allinea to find the the `source` subdirectory of that directory.\
 Fortunately, once Allinea is told for one file, it can figure out by itself for others in the same directory.
 
-### Searching extra directories(#Searching-extra-directories)
+### Searching extra directories
 
 If the executable or source files have been moved since compilation, the source files cannot be found automatically.
 
@@ -83,12 +83,12 @@ There doesn’t seem to be a way to do a recursive check (e.g. by setting /produ
 
 Experiments can add to their environment setup the setting of an environment variable which turns all the XXX\_DIR environment variables into a path-like variable with \$XXXX\_DIR/source/XXX, where that directory exists.
 
-### Console output of the job(#Console-output-of-the-job)
+### Console output of the job
 
 The output of the job goes to a window at the bottom selectable with the tab Input/Output.\
 The messages in red are from standard error stream, and depending on your message facility configuration they might duplicate the ones in standard output (in black).
 
-Licenses(#Licenses)
+Licenses
 ----------------------
 
 Fermilab has purchased a limited number of licenses for use of Allinea Forge. If you are declined access, it means that the maximum number of allowed users are already running it.

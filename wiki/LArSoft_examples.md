@@ -1,4 +1,4 @@
-LArSoft examples(#LArSoft-examples)
+LArSoft examples
 ======================================
 
 -   **Table of contents**
@@ -10,7 +10,7 @@ LArSoft examples(#LArSoft-examples)
 > Note that a single example is often not enough for your real purpose.\
 > We expect users to copy pieces from different examples to make up their solution, and the `README` files try to highlight which are the most serviceable parts to be exported to other code.
 
-List of examples(#List-of-examples)
+List of examples
 --------------------------------------
 
 Type
@@ -81,7 +81,7 @@ Tests are in the matching `test/...` directory (for example, a service in `larex
 
 A [section in LArSoft doxygen page](http://nusoft.fnal.gov/larsoft/doxsvn/html/modules.html) also lists most of the examples.
 
-Services(#Services)
+Services
 ----------------------
 
 We provide a few examples of services.\
@@ -101,7 +101,7 @@ How to pick the right one?
 
 ^1^ … and, as of LArSoft 5, we are far from having converged on a single database access model or interface.
 
-Algorithms and modules(#Algorithms-and-modules)
+Algorithms and modules
 --------------------------------------------------
 
 A guide to find your example:

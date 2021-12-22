@@ -1,4 +1,4 @@
-LArSoft v09\_02\_00 Release Notes(#LArSoft-v09_02_00-Release-Notes)
+LArSoft v09\_02\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_02\_00 Release Notes(#LArSoft-v09_02_00-Release-Notes)
 Download instructions for [larsoft v09\_02\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_02_00/larsoft-v09_02_00.html)\
 Download instructions for [just larsoftobj v09\_00\_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_00_03/larsoftobj-v09_00_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardataalg PR 10
@@ -58,7 +58,7 @@ New features(#New-features)
     -   related to larwirecell PR 7
     -   An additional option “fSavePriorSCE” is available now, once the option is “true”, the module will produce an extra instance of std::vector. This additional std::vector is for saving the information without the space charge effect (SCE).
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larsim PR 40
@@ -66,51 +66,51 @@ Bug fixes(#Bug-fixes)
 -   larsim PR 38
     -   improve documentation
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   pandora v03\_16\_00
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_02\_00(#larsoft-v09_02_00)
+larsoft v09\_02\_00
 ------------------------------------------
 
 -   2020-09-09 Lynn Garren : larsoft v09\_02\_00 for larsoft v09\_02\_00
 -   2020-09-09 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_03(#lareventdisplay-v09_00_03)
+lareventdisplay v09\_00\_03
 ----------------------------------------------------------
 
 -   2020-09-09 Lynn Garren : lareventdisplay v09\_00\_03 for larsoft v09\_02\_00
 
-larexamples v09\_00\_03(#larexamples-v09_00_03)
+larexamples v09\_00\_03
 --------------------------------------------------
 
 -   2020-09-09 Lynn Garren : larexamples v09\_00\_03 for larsoft v09\_02\_00
 
-larg4 v09\_00\_03(#larg4-v09_00_03)
+larg4 v09\_00\_03
 --------------------------------------
 
 -   2020-09-09 Lynn Garren : larg4 v09\_00\_03 for larsoft v09\_02\_00
 
-larpandora v09\_00\_03(#larpandora-v09_00_03)
+larpandora v09\_00\_03
 ------------------------------------------------
 
 -   2020-09-09 Lynn Garren : larpandora v09\_00\_03 for larsoft v09\_02\_00
 
-larsimrad v09\_00\_03(#larsimrad-v09_00_03)
+larsimrad v09\_00\_03
 ----------------------------------------------
 
 -   2020-09-09 Lynn Garren : larsimrad v09\_00\_03 for larsoft v09\_02\_00
 
-larrecodnn v09\_00\_03(#larrecodnn-v09_00_03)
+larrecodnn v09\_00\_03
 ------------------------------------------------
 
 -   2020-09-09 Lynn Garren : larrecodnn v09\_00\_03 for larsoft v09\_02\_00
 
-larwirecell v09\_01\_00(#larwirecell-v09_01_00)
+larwirecell v09\_01\_00
 --------------------------------------------------
 
 -   2020-09-09 Lynn Garren : larwirecell v09\_01\_00 for larsoft v09\_02\_00
@@ -128,17 +128,17 @@ larwirecell v09\_01\_00(#larwirecell-v09_01_00)
 -   2020-08-30 Wenqiang Gu : a new module to dump wire geometry in txt for feeding to wire-cell
 -   2020-08-30 Wenqiang Gu : add configurable params
 
-larana v09\_00\_03(#larana-v09_00_03)
+larana v09\_00\_03
 ----------------------------------------
 
 -   2020-09-09 Lynn Garren : larana v09\_00\_03 for larsoft v09\_02\_00
 
-larreco v09\_00\_03(#larreco-v09_00_03)
+larreco v09\_00\_03
 ------------------------------------------
 
 -   2020-09-09 Lynn Garren : larreco v09\_00\_03 for larsoft v09\_02\_00
 
-larsim v09\_02\_00(#larsim-v09_02_00)
+larsim v09\_02\_00
 ----------------------------------------
 
 -   2020-09-09 Lynn Garren : larsim v09\_02\_00 for larsoft v09\_02\_00
@@ -150,20 +150,20 @@ larsim v09\_02\_00(#larsim-v09_02_00)
 -   2020-08-30 Wenqiang Gu : change the SavePriorSCE to false by default
 -   2020-08-30 Wenqiang Gu : (optional) save the energy depos before SCE
 
-larevt v09\_00\_03(#larevt-v09_00_03)
+larevt v09\_00\_03
 ----------------------------------------
 
 -   2020-09-09 Lynn Garren : larevt v09\_00\_03 for larsoft v09\_02\_00
 
-lardata v09\_00\_03(#lardata-v09_00_03)
+lardata v09\_00\_03
 ------------------------------------------
 
 -   2020-09-09 Lynn Garren : lardata v09\_00\_03 for larsoft v09\_02\_00
 
-larcore v09\_00\_00(#larcore-v09_00_00)
+larcore v09\_00\_00
 ------------------------------------------
 
-larpandoracontent v03\_19\_03(#larpandoracontent-v03_19_03)
+larpandoracontent v03\_19\_03
 --------------------------------------------------------------
 
 -   2020-09-09 Lynn Garren : larpandoracontent v03\_19\_03 for larsoft v09\_02\_00
@@ -173,35 +173,35 @@ larpandoracontent v03\_19\_03(#larpandoracontent-v03_19_03)
 -   2020-08-12 Andrew Chappell : Update cluster span calls on z to use version in Cluster
 -   2020-08-10 Andrew Chappell : Update cluster span calls to use new caching version in Cluster
 
-larsoftobj v09\_00\_03(#larsoftobj-v09_00_03)
+larsoftobj v09\_00\_03
 ------------------------------------------------
 
 -   2020-09-09 Lynn Garren : larsoftobj v09\_00\_03 for larsoft v09\_02\_00
 -   2020-09-09 Lynn Garren : product versions
 
-lardataobj v09\_00\_00(#lardataobj-v09_00_00)
+lardataobj v09\_00\_00
 ------------------------------------------------
 
-lardataalg v09\_00\_03(#lardataalg-v09_00_03)
+lardataalg v09\_00\_03
 ------------------------------------------------
 
 -   2020-09-09 Lynn Garren : lardataalg v09\_00\_03 for larsoft v09\_02\_00
 -   2020-09-09 Lynn Garren : Merge pull request \#10 from PetrilloAtWork/feature/gp\_detTimingDataCopy
 -   2020-09-08 Gianluca Petrillo : DetectorTimings now takes a copy of the clocks data.
 
-larcorealg v09\_00\_00(#larcorealg-v09_00_00)
+larcorealg v09\_00\_00
 ------------------------------------------------
 
-larcoreobj v09\_00\_00(#larcoreobj-v09_00_00)
+larcoreobj v09\_00\_00
 ------------------------------------------------
 
-webevd v09\_00\_03(#webevd-v09_00_03)
+webevd v09\_00\_03
 ----------------------------------------
 
 -   2020-09-09 Lynn Garren : webevd v09\_00\_03 for larsoft v09\_02\_00
 
-larbatch v01\_53\_01(#larbatch-v01_53_01)
+larbatch v01\_53\_01
 --------------------------------------------
 
-larutils v1\_26\_01(#larutils-v1_26_01)
+larutils v1\_26\_01
 ------------------------------------------

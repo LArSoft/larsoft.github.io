@@ -1,4 +1,4 @@
-Breaking Changes prior to v07\_00\_00(#Breaking-Changes-prior-to-v07_00_00)
+Breaking Changes prior to v07\_00\_00
 ==============================================================================
 
 -   **Table of contents**
@@ -111,7 +111,7 @@ This is an attempt to track all the “breaking” changes which will require a 
   20140606   `v02_01_01`            [Renaming the FCL file configuring pandora code](#Renaming-the-FCL-file-configuring-pandora-code)                                                                                            [\#5363](/redmine/issues/5363 "Bug: LArPandora/larpandoraservices.fcl should be renamed as it does not figure any services, but a mod... (Closed)")
   20140305   on top of `v1_00_04`   [PhotonLibrary methods made constant](#PhotonLibrary-methods-made-constant)                                                                                                                  
 
-Cluster3D.h moved from lardata to larreco(#Cluster3Dh-moved-from-lardata-to-larreco) {.wiki-class-count}
+Cluster3D.h moved from lardata to larreco
 ---------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_82\_00](ReleaseNotes068200)
@@ -127,7 +127,7 @@ You may also need to add `find_ups_product( eigen )` to your top level CMakeList
 
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-update to from art v2\_10\_03 to art v2\_11\_02(#update-to-from-art-v2_10_03-to-art-v2_11_02) {.wiki-class-count}
+update to from art v2\_10\_03 to art v2\_11\_02
 ------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_80\_00](ReleaseNotes068000)
@@ -141,7 +141,7 @@ There is now a single messagefacility library.
 
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-geo-GeometryCore-WirePitch changed(#geo-GeometryCore-WirePitch-changed) {.wiki-class-count}
+geo-GeometryCore-WirePitch changed
 --------------------------------------------------------------------------
 
 **When was committed**: [v06\_79\_00](ReleaseNotes067800)
@@ -192,7 +192,7 @@ That is, the two wire arguments must be deleted.
 
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-SingleGen - Search for histogram in FW\_SEARCH\_PATH(#SingleGen-Search-for-histogram-in-FW_SEARCH_PATH) {.wiki-class-count}
+SingleGen - Search for histogram in FW\_SEARCH\_PATH
 ----------------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_78\_00](ReleaseNotes067800)\
@@ -208,7 +208,7 @@ environment variable FW\_SEARCH\_PATH is set to the correct value.
 
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-Fix design flaw in geo ChannelMapAlg interface(#Fix-design-flaw-in-geo-ChannelMapAlg-interface) {.wiki-class-count}
+Fix design flaw in geo ChannelMapAlg interface
 --------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_78\_00](ReleaseNotes067800)\
@@ -244,7 +244,7 @@ as it is pure virtual.
 
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-Adoption of Clang 5/C++17(#Adoption-of-Clang-5C17) {.wiki-class-count}
+Adoption of Clang 5/C++17
 -----------------------------------------------------
 
 **When was committed**: [v06\_73\_00](ReleaseNotes067300)\
@@ -254,7 +254,7 @@ Adoption of Clang 5/C++17(#Adoption-of-Clang-5C17) {.wiki-class-count}
 **Fix**: solution depends on each error; some common ones were captured and described in [a specific wiki page](Building_with_Clang)\
 **Contact**: Gianluca Petrillo
 
-Change in recob::Vertex class(#Change-in-recobVertex-class) {.wiki-class-count}
+Change in recob::Vertex class
 --------------------------------------------------------------
 
 **When was committed**: [v06\_60\_00](ReleaseNotes066000)\
@@ -271,13 +271,13 @@ Change in recob::Vertex class(#Change-in-recobVertex-class) {.wiki-class-count}
 **Fix**: use a LArSoft version with this bug fixed (version:v06\_61\_00 and newer) or check out an updated version of `lardataobj` (e.g. `develop` branch) including commit [lardataobj:3e46c4c](/redmine/projects/lardataobj/repository/revisions/3e46c4c8fbdec5eff41abd62c410bb632f73606d "Added missing rules for recob::Vertex schema evolution This solves issue #18585 .")\
 **Contact**: Gianluca Petrillo
 
-First adoption of GenVector vectors (continued)(#First-adoption-of-GenVector-vectors-continued) {.wiki-class-count}
+First adoption of GenVector vectors (continued)
 --------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_60\_00](ReleaseNotes066000)\
 **Motivation**: Adoption of [GenVector ROOT data structures](From_ROOT_vectors_(TVector3)_to_ROOT_GenVector)
 
-### Changed interface(#Changed-interface) {style="font-weight: bold;border: none;border-bottom: thin solid;width: 90%;"}
+### Changed interface
 
   ------------------------------------- ------------------------------------------
   removed                               replace with
@@ -286,7 +286,7 @@ First adoption of GenVector vectors (continued)(#First-adoption-of-GenVector-vec
   `geo::TPCGeo::Zdir`{.cpp .syntaxhl}   `geo::Zaxis<TVector3>()`{.cpp .syntaxhl}
   ------------------------------------- ------------------------------------------
 
-### Deprecated interface(#Deprecated-interface) {style="font-weight: bold;border: none;border-bottom: thin solid;width: 90%;"}
+### Deprecated interface
 
 deprecated
 
@@ -308,7 +308,7 @@ adapt your code to use GenVectors vectors
 
 `geo::WireGeo::GetCenter(geo::Point_t const&, double = 0.0) const`{.cpp .syntaxhl}
 
-### Behaviour change(#Behaviour-change) {style="font-weight: bold;border: none;border-bottom: thin solid;width: 90%;"}
+### Behaviour change
 
 -   methods `LocalToWorld(double const*, double*)`{.cpp .syntaxhl} and similar (`LocalToWorldVect()`, `WorldToLocal()`, `WorldToLocalVect`) do not support in-place substitution any more (most did not already, but for example `geo::WireGeo`’s did). A test will be left for a while, which throws an exception when that condition is not met. This exception will be replaced by an assertion after the transition period.
 
@@ -318,13 +318,13 @@ adapt your code to use GenVectors vectors
 
 **Contact**: Gianluca Petrillo
 
-First adoption of GenVector vectors(#First-adoption-of-GenVector-vectors) {.wiki-class-count}
+First adoption of GenVector vectors
 ----------------------------------------------------------------------------
 
 **When was committed**: [v06\_59\_00](ReleaseNotes065900)\
 **Motivation**: Adoption of [GenVector ROOT data structures](From_ROOT_vectors_(TVector3)_to_ROOT_GenVector)
 
-### Rearranged files and utilities(#Rearranged-files-and-utilities) {style="font-weight: bold;border: none;border-bottom: thin solid;width: 90%;"}
+### Rearranged files and utilities
 
 -   utilities in namespace `geo::vect` moved from `larcorealg/Geometry/Decomposer.h` to `larcorealg/Geometry/geo_vector_utils.h`:
     `#include "larcoreobj/Geometry/Decomposer.h"`{.cpp .syntaxhl}
@@ -368,7 +368,7 @@ First adoption of GenVector vectors(#First-adoption-of-GenVector-vectors) {.wiki
 
 -   header `geo_vectors_fhicl.h` has also moved from `larcoreobj/SimpleTypesAndConstants` to `larcorealg/Geometry`
 
-### Behaviour changes(#Behaviour-changes) {style="font-weight: bold;border: none;border-bottom: thin solid;width: 90%;"}
+### Behaviour changes
 
 -   types `geo::vect::Vector_t` and `geo::vect::Point_t` are deprecated and have been redefined as: |. class |. old type |. new type | | `geo::vect::Vector_t` | `TVector3` | `geo::Vector_t` | | `geo::vect::Point_t` | `TVector3` | `geo::Point_t` |\
     It is recommended that the new values on the right column be used directly.
@@ -431,7 +431,7 @@ First adoption of GenVector vectors(#First-adoption-of-GenVector-vectors) {.wiki
 -   fixing code which was using `geo::vect::Vector_t` or `geo::vect::Point_t` (now these types are GenVector vectors and not `TVector3` any more)\
     **Contact**: Gianluca Petrillo
 
-Removed service MemoryPeakReporter(#Removed-service-MemoryPeakReporter) {.wiki-class-count}
+Removed service MemoryPeakReporter
 --------------------------------------------------------------------------
 
 **When was committed**: [v06\_57\_00](ReleaseNotes065700)\
@@ -441,7 +441,7 @@ Removed service MemoryPeakReporter(#Removed-service-MemoryPeakReporter) {.wiki-c
 **Fix**: remove `MemoryPeakReporter` from your configuration; if the feature is needed, use *art* [MemoryTracker](/redmine/projects/art/wiki/MemoryTracker) service instead.\
 **Contact**: Gianluca Petrillo
 
-Removed view-related methods from geo::ChannelMapAlg(#Removed-view-related-methods-from-geoChannelMapAlg) {.wiki-class-count}
+Removed view-related methods from geo::ChannelMapAlg
 ------------------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_54\_00](ReleaseNotes065400)\
@@ -450,7 +450,7 @@ Removed view-related methods from geo::ChannelMapAlg(#Removed-view-related-metho
 **Fix**: remove the `Views()`{.cpp .syntaxhl} and `View(raw::ChannelID_t)`{.cpp .syntaxhl} methods from `geo::ChannelMapAlg` implementations\
 **Contact**: Gianluca Petrillo
 
-geo::GeometryCore::View() made compliant(#geoGeometryCoreView-made-compliant) {.wiki-class-count}
+geo::GeometryCore::View() made compliant
 --------------------------------------------------------------------------------
 
 **When was committed**: [v06\_54\_00](ReleaseNotes065400)\
@@ -459,7 +459,7 @@ geo::GeometryCore::View() made compliant(#geoGeometryCoreView-made-compliant) {.
 **Fix**: code in the proper checks to ensure that the input of those calls is a valid channel (that is, not `raw::InvalidChannelID`{.cpp .syntaxhl}) or plane (that is, `bool(planeID)`{.cpp .syntaxhl} must be true).\
 **Contact**: Gianluca Petrillo
 
-geo::GeometryCore::AuxDetGeoVec() removed(#geoGeometryCoreAuxDetGeoVec-removed) {.wiki-class-count}
+geo::GeometryCore::AuxDetGeoVec() removed
 ----------------------------------------------------------------------------------
 
 **When was committed**: [v06\_52\_00](ReleaseNotes065200)\
@@ -468,7 +468,7 @@ geo::GeometryCore::AuxDetGeoVec() removed(#geoGeometryCoreAuxDetGeoVec-removed) 
 **Fix**: use a combination of `geo::GeometryCore::NAuxDets()`{.cpp .syntaxhl} and `geo::GeometryCore::AuxDet()`{.cpp .syntaxhl} to access the auxiliary detectors\
 **Contact**: Gianluca Petrillo
 
-geo::ChannelMapAlg::Initialize() interface changed(#geoChannelMapAlgInitialize-interface-changed) {.wiki-class-count}
+geo::ChannelMapAlg::Initialize() interface changed
 ----------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_52\_00](ReleaseNotes065200)\
@@ -478,7 +478,7 @@ geo::ChannelMapAlg::Initialize() interface changed(#geoChannelMapAlgInitialize-i
 **Fix**: the definition of `geo::GeometryData_t::cryostats`{.cpp .syntaxhl} and `geo::GeometryData_t::CryostatList_t`{.cpp .syntaxhl} has been changed from `std::vector<CryostatGeo*>`{.cpp .syntaxhl} to `std::vector<CryostatGeo>`{.cpp .syntaxhl}, and `geo::ChannelMapAlg::Initialize()`{.cpp .syntaxhl} takes a `geo::GeometryData_t`{.cpp .syntaxhl} as argument. As a consequence, all code that used to get a pointer from `cryostats`{.cpp .syntaxhl} must be fixed to take a constant reference instead. An example of such changes can be observed in [larcorealg:source:larcorealg/Geometry/ChannelMapStandardAlg.cxx](/redmine/projects/larcorealg/repository/entry/larcorealg/Geometry/ChannelMapStandardAlg.cxx) at [larcorealg:cb195cc6b](/redmine/projects/larcorealg/repository/revisions/cb195cc6bde45dc00f9a289ebf2431c5bf2a258c "Changed the internal storage of cryostats in geo::GeometryCore. Related to issue #14384.").\
 **Contact**: Gianluca Petrillo
 
-lar::PtrMaker moved to art(#larPtrMaker-moved-to-art) {.wiki-class-count}
+lar::PtrMaker moved to art
 --------------------------------------------------------
 
 **When was committed**: [v06\_49\_00](ReleaseNotes064900)\
@@ -506,7 +506,7 @@ lar::PtrMaker moved to art(#larPtrMaker-moved-to-art) {.wiki-class-count}
 **Fix**: run the fix script as described in issue [\#17672](/redmine/issues/17672 "Necessary Maintenance: Remove deprecated lar::PtrMaker alias (Closed)")\
 **Contact**: Lynn Garren
 
-Geometry and utility code moved to larcorealg(#Geometry-and-utility-code-moved-to-larcorealg) {.wiki-class-count}
+Geometry and utility code moved to larcorealg
 ------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_43\_00](ReleaseNotes064300)\
@@ -520,7 +520,7 @@ Geometry and utility code moved to larcorealg(#Geometry-and-utility-code-moved-t
 and check the changes; finally, *add `--doit` argument to apply them*. Note that the script fixes only C++ source code and `CMakeLists.txt` files (no changes are needed in FHiCL configuration). See issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)") for more details.\
 **Contact**: Gianluca Petrillo
 
-Update to GCC 6(#Update-to-GCC-6) {.wiki-class-count}
+Update to GCC 6
 ------------------------------------
 
 **When was committed**: [v06\_32\_00](ReleaseNotes063200)\
@@ -531,7 +531,7 @@ Update to GCC 6(#Update-to-GCC-6) {.wiki-class-count}
 
 **Contact**: Lynn Garren, Gianluca Petrillo
 
-Update to art 2.6(#Update-to-art-26) {.wiki-class-count}
+Update to art 2.6
 ---------------------------------------
 
 **When was committed**: [v06\_30\_00](ReleaseNotes063000)\
@@ -548,7 +548,7 @@ Update to art 2.6(#Update-to-art-26) {.wiki-class-count}
 
 **Contact**: Lynn Garren
 
-SpaceCharge interface change(#SpaceCharge-interface-change) {.wiki-class-count}
+SpaceCharge interface change
 --------------------------------------------------------------
 
 **When was committed**: [v06\_29\_00](ReleaseNotes062900)\
@@ -572,7 +572,7 @@ If the used code needs to convert back to `std::vector<double>` in order to use 
 
 **Contact**: Gianluca Petrillo
 
-undefined reference to TGeoMatrix::LocalToMaster(#undefined-reference-to-TGeoMatrixLocalToMaster) {.wiki-class-count}
+undefined reference to TGeoMatrix::LocalToMaster
 ----------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_28\_00](ReleaseNotes062800)\
@@ -592,7 +592,7 @@ undefined reference to TGeoMatrix::LocalToMaster(#undefined-reference-to-TGeoMat
 
 **Contact**: Gianluca Petrillo
 
-Deprecated methods of recob::Track(#Deprecated-methods-of-recobTrack) {.wiki-class-count}
+Deprecated methods of recob::Track
 ------------------------------------------------------------------------
 
 **When was committed**: [v06\_23\_00](ReleaseNotes062300)\
@@ -602,7 +602,7 @@ Deprecated methods of recob::Track(#Deprecated-methods-of-recobTrack) {.wiki-cla
 **Fix**: see [note 6](https://cdcvs.fnal.gov/redmine/issues/14281#note-6) of issue [\#14281](/redmine/issues/14281 "Task: Provide an interface for access of reconstructed track information (Accepted)")\
 **Contact**: Giuseppe Cerati and Gianluca Petrillo.
 
-lardata/RecoBaseArt renamed lardata/ArtDataHelper(#lardataRecoBaseArt-renamed-lardataArtDataHelper) {.wiki-class-count}
+lardata/RecoBaseArt renamed lardata/ArtDataHelper
 ------------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_22\_00](ReleaseNotes062200)\
@@ -617,7 +617,7 @@ In order to provide a single, more descriptive home for these classes and any fu
 **Fix**: run UpdateArtDataHelper.sh\
 **Contact**: The SciSoft Team
 
-LArSeedService from larsim replaced by NuRandomService from nutools(#LArSeedService-from-larsim-replaced-by-NuRandomService-from-nutools) {.wiki-class-count}
+LArSeedService from larsim replaced by NuRandomService from nutools
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_16\_00](ReleaseNotes061600)\
@@ -627,7 +627,7 @@ LArSeedService from larsim replaced by NuRandomService from nutools(#LArSeedServ
 **Fix**: run UpdateToNuRandomService.py\
 **Contact**: Brian Rebel
 
-Removing deprecated lar::utils namespace(#Removing-deprecated-larutils-namespace) {.wiki-class-count}
+Removing deprecated lar::utils namespace
 ------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_14\_00](ReleaseNotes061400)\
@@ -637,12 +637,12 @@ Removing deprecated lar::utils namespace(#Removing-deprecated-larutils-namespace
 **Fix**: replace `lar::utils` with `lar::util`; note: no replacement script is provided.\
 **Contact**: Gianluca Petrillo
 
-Reorganization for nutools and calorimetry(#Reorganization-for-nutools-and-calorimetry) {.wiki-class-count}
+Reorganization for nutools and calorimetry
 ------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_11\_00](ReleaseNotes061100)
 
-### Code moving into nutools(#Code-moving-into-nutools)
+### Code moving into nutools
 
 The nutools product has absorbed the following classes that currently live in larsim:
 
@@ -652,7 +652,7 @@ The nutools product has absorbed the following classes that currently live in la
 -   EmEveIdCalculator\
     These classes are not specific to LAr, and are useful for particle navigation, so are being moved in order to provide access to other experiments. The new location will be nutools/ParticleNavigation.
 
-### Removal of algorithm code from lardata and deprecating BezierTrack(#Removal-of-algorithm-code-from-lardata-and-deprecating-BezierTrack)
+### Removal of algorithm code from lardata and deprecating BezierTrack
 
 In order to remove algorithm code from lardata, we are making the following changes:
 
@@ -664,17 +664,17 @@ In order to remove algorithm code from lardata, we are making the following chan
 -   BezierTrack uses CalorimetryAlg, so needs to move also. Since there few clients and serious design issues with this class, we propose deprecating BezierTrack. Before removing it from the repository, it will be moved temporarily to larreco along with CalorimetryAlg
     -   Move lardata/lardata/RecoObjects/BezierTrack\* to larreco/larreco/Deprecated/
 
-### Experiment code(#Experiment-code)
+### Experiment code
 
 -   Required changes for argoneutcode, dunetpc, lariatsoft, and uboonecode are in feature/for\_v06\_11\_00
 
-### Updating user code(#Updating-user-code)
+### Updating user code
 
     setup larsoft v06_11_00 (or later)
     cd to your repository directory
     ${LARSOFT_DIR}/bin/v06_11_00-reorganize/UpdateReorg611.sh
 
-Data member changed in SimChannel(#Data-member-changed-in-SimChannel) {.wiki-class-count}
+Data member changed in SimChannel
 ------------------------------------------------------------------------
 
 **When was committed**: [v06\_02\_00](ReleaseNotes060200)\
@@ -697,7 +697,7 @@ If temporary storage of the result of `sim::SimChannel::TDCIDEMap()` is needed,\
 can replace the old `const std::map<unsigned short, std::vector<sim::IDE>>& channelIDEs = simch.TDCIDEMap();`. Likewise, the declaration of iterators should be fixed, best again using `auto` (who wants to type those 70 characters anyway?).\
 **Contact**: Brian Rebel
 
-Repackaging of data products and adoption of ROOT 6(#Repackaging-of-data-products-and-adoption-of-ROOT-6) {.wiki-class-count}
+Repackaging of data products and adoption of ROOT 6
 ------------------------------------------------------------------------------------------------------------
 
 **When was committed**: [v06\_00\_01](ReleaseNotes060001) (also [v06\_00\_00](ReleaseNotes060000))\
@@ -706,7 +706,7 @@ Repackaging of data products and adoption of ROOT 6(#Repackaging-of-data-product
 
 **Contact**: Lynn Garren
 
-Moved test utility headers and libraries(#Moved-test-utility-headers-and-libraries) {.wiki-class-count}
+Moved test utility headers and libraries
 --------------------------------------------------------------------------------------
 
 **When was committed**: [v05\_13\_00](https://cdcvs.fnal.govReleaseNotes051300)\
@@ -722,7 +722,7 @@ Moved test utility headers and libraries(#Moved-test-utility-headers-and-librari
 
 **Contact**: Gianluca Petrillo
 
-SpaceCharge improvements require new call(#SpaceCharge-improvements-require-new-call) {.wiki-class-count}
+SpaceCharge improvements require new call
 ----------------------------------------------------------------------------------------
 
 **When was committed**: [v05\_12\_00](https://cdcvs.fnal.govReleaseNotes051200)\
@@ -742,7 +742,7 @@ SpaceCharge improvements require new call(#SpaceCharge-improvements-require-new-
 -   Also, the following must be included:
     -   \#include “spacecharge.fcl”
 
-SeedService from artextensions replaced by LArSeedService(#SeedService-from-artextensions-replaced-by-LArSeedService) {.wiki-class-count}
+SeedService from artextensions replaced by LArSeedService
 ------------------------------------------------------------------------------------------------------------------------
 
 **When was committed**: [v05\_11\_00](https://cdcvs.fnal.govReleaseNotes051100)\
@@ -754,7 +754,7 @@ SeedService from artextensions replaced by LArSeedService(#SeedService-from-arte
 
 **Fix**: run the update script `UpdateToLArSeedService.py` in `larsoft` package (`UpdateToLArSeedService.py -Uv FilesOrDirectories` to check, add `--doit` option to apply the update)
 
-Explicit override of `LArG4` random seeds(#Explicit-override-of-LArG4-random-seeds) {.wiki-class-count}
+Explicit override of `LArG4` random seeds
 --------------------------------------------------------------------------------------
 
 **When was committed**: [v05\_09\_00](https://cdcvs.fnal.govReleaseNotes050900)\
@@ -766,7 +766,7 @@ Explicit override of `LArG4` random seeds(#Explicit-override-of-LArG4-random-see
 -   replace `Seed` with three parameters, one for each random stream: `GEANTSeed`, `PropagationSeed` and `RadioSeed` (use different values!)
 -   let `SeedService` take care of the random seeds
 
-`sim::ParticleList` can’t be copied any more(#simParticleList-cant-be-copied-any-more) {.wiki-class-count}
+`sim::ParticleList` can’t be copied any more
 -----------------------------------------------------------------------------------------
 
 **When was committed**: [v05\_09\_00](https://cdcvs.fnal.govReleaseNotes050900)\
@@ -775,7 +775,7 @@ Explicit override of `LArG4` random seeds(#Explicit-override-of-LArG4-random-see
 **Failure when not fixed**: Compilation error: copy constructor (`sim::ParticleList::ParticleList (sim::ParticleList const&)`) or copy assignment operator (`sim::ParticleList& sim::ParticleList::operator= (sim::ParticleList const&)`) are deleted\
 **Fix**: avoid the copy! assign the particle list to a constant reference (`sim::ParticleList const& plist = ...`). If a copy is really needed, use the new `ParticleList::MakeCopy()` explicitly.
 
-Photon Library returns plain data rather than vectors(#Photon-Library-returns-plain-data-rather-than-vectors) {.wiki-class-count}
+Photon Library returns plain data rather than vectors
 ----------------------------------------------------------------------------------------------------------------
 
 **When was committed**: [v05\_09\_00](https://cdcvs.fnal.govReleaseNotes050900)\
@@ -788,7 +788,7 @@ Photon Library returns plain data rather than vectors(#Photon-Library-returns-pl
 2.  when using a method that requires a location (e.g., `PhotonVisibilityService::GetAllVisibilities()`), check if the returned pointer is null: when the location is out of range, it used to return an empty vector, on which you might have an *implicit* check, but now the check must be explicit;
 3.  if the number of channel is needed, query the service directly with `PhotonVisibilityService::NOpChannels()`; all voxels are bound to have the same number of channels.
 
-photon detector reconstruction(#photon-detector-reconstruction) {.wiki-class-count}
+photon detector reconstruction
 ------------------------------------------------------------------
 
 **When was committed**: [v05\_04\_00](https://cdcvs.fnal.govReleaseNotes050400)\
@@ -832,7 +832,7 @@ photon detector reconstruction(#photon-detector-reconstruction) {.wiki-class-cou
     for guidance look for standard_ophit and standard_opflash
     in ${LARANA_DIR}/job/opticaldetectormodules.fcl.
 
-Moving `recob::Track` methods out of the class(#Moving-recobTrack-methods-out-of-the-class) {.wiki-class-count}
+Moving `recob::Track` methods out of the class
 ----------------------------------------------------------------------------------------------
 
 **When was committed**: [v05\_04\_00](https://cdcvs.fnal.govReleaseNotes050400)\
@@ -845,7 +845,7 @@ Moving `recob::Track` methods out of the class(#Moving-recobTrack-methods-out-of
 2.  add `#include "lardata/RecoBaseArt/TrackUtils.h"`
 3.  add `lardata_RecoBaseArt` in the module/library/service pertaining the class you fixed in `CMakeLists.txt` (it might be there already!)
 
-Repository structure refactoring(#Repository-structure-refactoring) {.wiki-class-count}
+Repository structure refactoring
 ----------------------------------------------------------------------
 
 **When was committed**: [v05\_00\_00](https://cdcvs.fnal.govReleaseNotes050000)\
@@ -854,7 +854,7 @@ Repository structure refactoring(#Repository-structure-refactoring) {.wiki-class
 **Failure when not fixed**: compiler errors: missing header\
 **Fix**: a fully automated fixing script is available in `larsoft` repository as `larsoft/bin/update_sources.sh`
 
-Core service refactoring(#Core-service-refactoring) {.wiki-class-count}
+Core service refactoring
 ------------------------------------------------------
 
 **Related issue:** [\#10888](/redmine/issues/10888 "Feature: Complete first round of services re-architecture (Closed)")\
@@ -864,7 +864,7 @@ Core service refactoring(#Core-service-refactoring) {.wiki-class-count}
 **Failure when not fixed**: compiler errors (unknown class, undefined service class methods) and run-time errors (on service initialization)\
 **Fix**: extensive description and more compact instructions at [Core Services Review](Core_Services_Review)
 
-Data products must be put into the event(#Data-products-must-be-put-into-the-event) {.wiki-class-count}
+Data products must be put into the event
 --------------------------------------------------------------------------------------
 
 **Related issue:** [\#7852](/redmine/issues/7852 "Feature: A module failing to put() a product it produces() should be an error (Closed)")\
@@ -936,7 +936,7 @@ In cases where it is absolutely needed, the check can be disabled for a specific
     \
     and using the same logic to put the proper products into the event. If the answer is not known that early, either empty data products should be put or, if the design absolutely requires them not to be there, a more complex design with multiple modules and filters is required, where each producer always delivers what it promises and filter module(s) decides which producers to execute.
 
-Unreadable old data files(#Unreadable-old-data-files) {.wiki-class-count}
+Unreadable old data files
 --------------------------------------------------------
 
 **Related issue:** [\#10614](/redmine/issues/10614 "Bug: larsoft v04_27_00 with art v1_16_02 cannot read old MC/data files (Closed)")\
@@ -948,7 +948,7 @@ Unreadable old data files(#Unreadable-old-data-files) {.wiki-class-count}
 **Failure when not fixed**: on reading a input file with no `Results` branch, that is an input file created with *art* older than `v1_16_00`, LArSoft `v04_27_00`, *art* will complain as documented in issue [\#10614](/redmine/issues/10614 "Bug: larsoft v04_27_00 with art v1_16_02 cannot read old MC/data files (Closed)")\
 **Fix**: avoid LArSoft `v04_27_00` and `v04_27_01` (the only ones based on bugged *art*)
 
-IChannelStatusService readiness(#IChannelStatusService-readiness) {.wiki-class-count}
+IChannelStatusService readiness
 --------------------------------------------------------------------
 
 **Related issue:** [\#1083](/redmine/issues/1083 "Bug: filter::ChannelFilter should be made into a service (Closed)")\
@@ -978,7 +978,7 @@ IChannelStatusService readiness(#IChannelStatusService-readiness) {.wiki-class-c
 -   if your experiment is MicroBooNE, look for the configuration you need at `uboonecode/uboone/Utilities/services_microboone.fcl`
 -   if your experiment has bad channels, you’ll need to provide a configuration for that service that includes them; an example for a fixed set of bad channels is shown in `larevt/test/Filters/test_channel_status.fcl`; a working one will be committed for ArgoNeuT at `argoneutcode/ArgoneutFilters/channelstatus_argoneut.fcl`
 
-New dependency on boost(#New-dependency-on-boost) {.wiki-class-count}
+New dependency on boost
 ----------------------------------------------------
 
 If you see undefined reference errors similar to those shown below, add \${Boost\_SYSTEM\_LIBRARY} to the library link list\
@@ -988,7 +988,7 @@ If you see undefined reference errors similar to those shown below, add \${Boost
     /products/boost/v1_57_0/Linux64bit+2.6-2.12-e7-prof/include/boost/system/error_code.hpp:222: undefined reference to `boost::system::generic_category()'
     /products/boost/v1_57_0/Linux64bit+2.6-2.12-e7-prof/include/boost/system/error_code.hpp:223: undefined reference to `boost::system::system_category()'
 
-Removed generic service configuration(#Removed-generic-service-configuration) {.wiki-class-count}
+Removed generic service configuration
 --------------------------------------------------------------------------------
 
 **Related issue:** [\#5100](/redmine/issues/5100 "Support: Remove dependency on services.fcl and evdservices.fcl from experiment specific .fcl files (Closed)")\
@@ -999,7 +999,7 @@ Removed generic service configuration(#Removed-generic-service-configuration) {.
 **Failure when not fixed**: `art` will complain immediately at configuration parsing time, before any processing happens\
 **Fix**: replace `#include "services.fcl"` lines using `services_Experiment.fcl` instead (e.g. `services_lbne.fcl`, `services_argoneut.fcl`);
 
-Relocation of `TrackIDE`(#Relocation-of-TrackIDE) {.wiki-class-count}
+Relocation of `TrackIDE`
 ----------------------------------------------------
 
 **Related issue:** none\
@@ -1011,7 +1011,7 @@ Relocation of `TrackIDE`(#Relocation-of-TrackIDE) {.wiki-class-count}
 **Fix**: change `cheat::TrackIDE` to `sim::TrackIDE` in your code, including `SimChannel.h` (`#include "Simulation/SimChannel.h"`) and removing the inclusion of `MCCheater/BackTracker.h` unless still needed;\
 It might be necessary to fix the linkage to include `libSimulation.so`.
 
-`TimeService` and its changes(#TimeService-and-its-changes) {.wiki-class-count}
+`TimeService` and its changes
 --------------------------------------------------------------
 
 **Related issue:** [\#6432](/redmine/issues/6432 "Support: Merging TimeService into the develop branch (Closed)")\
@@ -1041,7 +1041,7 @@ It might be necessary to fix the linkage to include `libSimulation.so`.
 \
 **Fix**: part of the configuration update was erroneously left out of `v02_02_00`: update to a version after `v02_02_00`
 
-Renaming the FCL file configuring `pandora` code(#Renaming-the-FCL-file-configuring-pandora-code) {.wiki-class-count}
+Renaming the FCL file configuring `pandora` code
 ----------------------------------------------------------------------------------------------------
 
 **Related issue:** [\#5363](/redmine/issues/5363 "Bug: LArPandora/larpandoraservices.fcl should be renamed as it does not figure any services, but a mod... (Closed)")\
@@ -1052,7 +1052,7 @@ Renaming the FCL file configuring `pandora` code(#Renaming-the-FCL-file-configur
 **Fixes**: All the FCL files including `pandoraservices.fcl` need to be changed to include `pandoramodules.fcl` instead; for example, FCL files in `ubfcl` package have been identified which require the fix.\
 **Failure when not fixed**: `lar` will immediately abort complaining that `pandoraservices.fcl` can’t be found.
 
-`PhotonLibrary` methods made constant(#PhotonLibrary-methods-made-constant) {.wiki-class-count}
+`PhotonLibrary` methods made constant
 ------------------------------------------------------------------------------
 
 **Related issue:** none\

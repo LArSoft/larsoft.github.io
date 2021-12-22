@@ -1,4 +1,4 @@
-Truncating commit history(#Truncating-commit-history)
+Truncating commit history
 ========================================================
 
 -   **Table of contents**
@@ -8,19 +8,19 @@ Truncating commit history(#Truncating-commit-history)
     -   [Runtimes for example feature branch](#Runtimes-for-example-feature-branch)
     -   [Truncating commit history at svn to git transition](#Truncating-commit-history-at-svn-to-git-transition)
 
-Redmine to Github migration of all relevant branches.(#Redmine-to-Github-migration-of-all-relevant-branches)
+Redmine to Github migration of all relevant branches.
 ---------------------------------------------------------------------------------------------------------------
 
 This is a copy of script used for truncating the history and rewriting the hashes before pushing to Github.\
 [https://cdcvs.fnal.gov/redmine/attachments/57545/updateFBR.sh](https://cdcvs.fnal.gov/redmine/attachments/57545/updateFBR.sh) (current version)
 
-Truncating development branch history(#Truncating-development-branch-history)
+Truncating development branch history
 --------------------------------------------------------------------------------
 
 Truncating the history of an existing branch in a development clone could use this script:\
 [https://cdcvs.fnal.gov/redmine/attachments/55374/truncate-history.sh](https://cdcvs.fnal.gov/redmine/attachments/55374/truncate-history.sh)
 
-Runtimes for example feature branch(#Runtimes-for-example-feature-branch)
+Runtimes for example feature branch
 ----------------------------------------------------------------------------
 
 This is a table of the time it took to run the development branch script using branch feature/MVP1a.
@@ -46,7 +46,7 @@ This is a table of the time it took to run the development branch script using b
   larwirecell       0m0.176s    0
   ----------------- ----------- --------------
 
-Truncating commit history at svn to git transition(#Truncating-commit-history-at-svn-to-git-transition)
+Truncating commit history at svn to git transition
 ----------------------------------------------------------------------------------------------------------
 
 The git replace –graft command is used to truncate the history. This requires git version 2.13 or better.

@@ -1,4 +1,4 @@
-Tips on updating your code after LArSoft release(#Tips-on-updating-your-code-after-LArSoft-release)
+Tips on updating your code after LArSoft release
 ======================================================================================================
 
 -   **Table of contents**
@@ -10,7 +10,7 @@ Tips on updating your code after LArSoft release(#Tips-on-updating-your-code-aft
 LArSoft releases happen often, and code that worked fine with one version might even not work on the next.\
 Here is some tips on updating your code so that it’s back and rocking.
 
-Updating an existing MRB area(#Updating-an-existing-MRB-area) {.wiki-class-count}
+Updating an existing MRB area
 ----------------------------------------------------------------
 
 There are a few steps.
@@ -43,14 +43,14 @@ There are a few steps.
 
 For a detailed example (from a particular project, so there is some project-specific information), look at [Upgrade\_to\_LArSoft\_6](/redmine/projects/sbndcode/wiki/Upgrade_to_LArSoft_6)
 
-Dealing with breaking changes(#Dealing-with-breaking-changes) {.wiki-class-count}
+Dealing with breaking changes
 ----------------------------------------------------------------
 
 If you’re unsure what a breaking change is, read the [description of breaking changes](https://cdcvs.fnal.govGetting_new_code_into_a_LArSoft_release)
 
 To help in fixing, there is important information in the [Breaking Changes](Breaking_Changes) wiki page.
 
-Specific code updates(#Specific-code-updates) {.wiki-class-count}
+Specific code updates
 ------------------------------------------------
 
 -   how to update [Adopting new ROOT vector and matrix classes](From_ROOT_vectors_(TVector3)_to_ROOT_GenVector)

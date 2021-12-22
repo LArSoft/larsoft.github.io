@@ -1,4 +1,4 @@
-What Lynn does(#What-Lynn-does)
+What Lynn does
 ==================================
 
 -   **Table of contents**
@@ -18,7 +18,7 @@ What Lynn does(#What-Lynn-does)
     -   [CLHEP maintenance and support (someone at CERN)](#CLHEP-maintenance-and-support-someone-at-CERN)
     -   [system management](#system-management)
 
-Build “third party” ups products as needed for art and larsoft(#Build-third-party-ups-products-as-needed-for-art-and-larsoft)
+Build “third party” ups products as needed for art and larsoft
 --------------------------------------------------------------------------------------------------------------------------------
 
     For immediate term using old methods SciSoft team will have to take care of this,  Jim A should be the one to tell 
@@ -67,7 +67,7 @@ Build “third party” ups products as needed for art and larsoft(#Build-third-
 -   Once everything looks good, the source code tarball is uploaded to SciSoft.
 -   Also provide help to people attempting to make their own ups products.
 
-Build art releases after they are tagged.(#Build-art-releases-after-they-are-tagged)
+Build art releases after they are tagged.
 ---------------------------------------------------------------------------------------
 
     SciSoft team would take this over
@@ -95,7 +95,7 @@ Build art releases after they are tagged.(#Build-art-releases-after-they-are-tag
     -   copyFromJenkins -N -q c2 -q c7 -q e17 -q e19 critic-all
     -   copyToSciSoft \*
 
-Update other products to use the appropriate release of art (SciSoft team or experiments, see bullet notes)(#Update-other-products-to-use-the-appropriate-release-of-art-SciSoft-team-or-experiments-see-bullet-notes)
+Update other products to use the appropriate release of art (SciSoft team or experiments, see bullet notes)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -   artdaq\_core (~~This should go to the artdaq group -~~ Eric Flumerfelt-, Lynn says we just need a tag, so Scisoft team with tag from Eric)
@@ -112,14 +112,14 @@ Update other products to use the appropriate release of art (SciSoft team or exp
     -   However, larsoft uses it extensively and sometimes makes contributions to the code.
     -   Any changes beyond those required by a new release of art, genie, or geant4 must be approved.
 
-Build mu distributions ( mu2e should take this over)(#Build-mu-distributions-mu2e-should-take-this-over)
+Build mu distributions ( mu2e should take this over)
 -----------------------------------------------------------------------------------------------------------
 
 -   The mu distribution is basically an art distribution with a few additional products.
 -   The distribution is built when requested.
 -   Found on a branch of build-framework
 
-Build nutools releases and the nu or nulite distributions.(#Build-nutools-releases-and-the-nu-or-nulite-distributions)
+Build nutools releases and the nu or nulite distributions.
 -------------------------------------------------------------------------------------------------------------------------
 
     Erica will talk to Laura Fields about Robert Hatcher building nutools
@@ -133,7 +133,7 @@ Build nutools releases and the nu or nulite distributions.(#Build-nutools-releas
     -   The nutools suite now contains nusimdata, nugen, nug4, nuevdb, nurandom, and nutools.
     -   The build configure scripts are now generated from templates in nutools/bundle.
 
-LArSoft release management (SciSoft team plus experiment activity on patch releases)(#LArSoft-release-management-SciSoft-team-plus-experiment-activity-on-patch-releases)
+LArSoft release management (SciSoft team plus experiment activity on patch releases)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -   Note that the move to github and pull requests will change this workflow.
@@ -161,7 +161,7 @@ LArSoft release management (SciSoft team plus experiment activity on patch relea
 -   The procedure is described in detail at [How\_to\_tag\_and\_build\_a\_LArSoft\_vx\_yy\_zz\_release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)
     -   Although it is tempting to take shortcuts, the procedure is designed to allow the release manager to recover from various problems that may arise. Taking shortcuts removes those safeguards.
 
-support various infrastructure products (SciSoft team)(#support-various-infrastructure-products-SciSoft-team)
+support various infrastructure products (SciSoft team)
 ----------------------------------------------------------------------------------------------------------------
 
 -   cetbuildtools and mrb
@@ -179,7 +179,7 @@ support various infrastructure products (SciSoft team)(#support-various-infrastr
     -   This is now only of archival interest
     -   It contains the record of various larsoft migrations.
 
-SciSoft(#SciSoft)
+SciSoft
 --------------------
 
 -   approve requests for read-write access
@@ -190,7 +190,7 @@ SciSoft(#SciSoft)
     -   permissions for new fermicloud users
     -   make sure that /nasroot/SciSoft is mounted (This breaks everytime there is cloud maintenance.)
 
-LArSoft archives (whoever does the larsoft releases?)(#LArSoft-archives-whoever-does-the-larsoft-releases)
+LArSoft archives (whoever does the larsoft releases?)
 -------------------------------------------------------------------------------------------------------------
 
 -   copy files to pnfs for archiving
@@ -198,30 +198,30 @@ LArSoft archives (whoever does the larsoft releases?)(#LArSoft-archives-whoever-
     -   Will revisit.
     -   Joe suggests using dcache and newer transfer facilities
 
-spack(#spack)
+spack
 ----------------
 
 -   I attempt to help with the spack development, but this takes a back seat to the other efforts.
 
-heppdt (mu2e will take this over, Kutschke)(#heppdt-mu2e-will-take-this-over-Kutschke)
+heppdt (mu2e will take this over, Kutschke)
 -----------------------------------------------------------------------------------------
 
 -   This is a legacy product that was spun off as a C++ replacement for part of the original stdhep.
 -   It is still in use by mu2e.
 
-Mailing lists(#Mailing-lists)
+Mailing lists
 --------------------------------
 
 -   owner/manager of several mailing lists
     -   many are unused and can be retired
 
-CLHEP maintenance and support (someone at CERN)(#CLHEP-maintenance-and-support-someone-at-CERN)
+CLHEP maintenance and support (someone at CERN)
 --------------------------------------------------------------------------------------------------
 
 -   I have been the main point person for CLHEP bug fixes.
 -   Support will be passed to CERN.
 
-system management(#system-management)
+system management
 ----------------------------------------
 
 -   Still provide backup support for oink. Rare that I do anything.

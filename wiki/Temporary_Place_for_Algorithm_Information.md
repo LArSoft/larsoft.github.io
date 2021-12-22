@@ -1,4 +1,4 @@
-Temporary Place for Algorithm Information(#Temporary-Place-for-Algorithm-Information)
+Temporary Place for Algorithm Information
 ========================================================================================
 
 Algorithm Name:

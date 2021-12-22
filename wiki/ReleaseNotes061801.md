@@ -1,4 +1,4 @@
-LArSoft v06\_18\_01 Release Notes(#LArSoft-v06_18_01-Release-Notes)
+LArSoft v06\_18\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -29,18 +29,18 @@ LArSoft v06\_18\_01 Release Notes(#LArSoft-v06_18_01-Release-Notes)
 Download instructions for [larsoft v06\_18\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_18_01/larsoft-v06_18_01.html)\
 Download instructions for [just larsoftobj v1\_08\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_08_02/larsoftobj-v1_08_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Weekly integration release
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Known problems(#Known-problems)
+Known problems
 ----------------------------------
 
 -   uboonecode v06\_18\_01 memory issue
@@ -52,10 +52,10 @@ Updated dependencies
 
 -   wirecell 0.3 (since 061800)
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_18\_01(#larsoft-v06_18_01)
+larsoft v06\_18\_01
 ------------------------------------------
 
 -   2016-12-21 Patrick Gartung : larreco v06\_14\_00
@@ -66,24 +66,24 @@ larsoft v06\_18\_01(#larsoft-v06_18_01)
 -   2016-12-20 Patrick Gartung : update dependency database
 -   2016-12-15 Lynn Garren : range is just headers
 
-lareventdisplay v06\_02\_06(#lareventdisplay-v06_02_06)
+lareventdisplay v06\_02\_06
 ----------------------------------------------------------
 
 -   2016-12-21 Patrick Gartung : lareventdisplay v06\_02\_06 for larsoft v06\_18\_01
 -   2016-12-20 Patrick Gartung : lareventdisplay v06\_02\_06 for larsoft v06\_18\_01
 
-larexamples v06\_01\_07(#larexamples-v06_01_07)
+larexamples v06\_01\_07
 --------------------------------------------------
 
 -   2016-12-20 Patrick Gartung : larexamples v06\_01\_07 for larsoft v06\_18\_01
 
-larpandora v06\_04\_02(#larpandora-v06_04_02)
+larpandora v06\_04\_02
 ------------------------------------------------
 
 -   2016-12-21 Patrick Gartung : larpandora v06\_04\_02 for larsoft v06\_18\_01
 -   2016-12-20 Patrick Gartung : larpandora v06\_04\_02 for larsoft v06\_18\_01
 
-larwirecell v06\_00\_04(#larwirecell-v06_00_04)
+larwirecell v06\_00\_04
 --------------------------------------------------
 
 -   2016-12-21 Patrick Gartung : Merge branch ‘develop’ into release/v06\_18\_01
@@ -99,7 +99,7 @@ larwirecell v06\_00\_04(#larwirecell-v06_00_04)
 -   2016-12-20 Usher, Tracy L : Changing name to avoid conflicts with module using the same name in uboonecode
 -   2016-12-20 Brian Kirby : Added dedicated Wirecell noise filter module
 
-larana v06\_03\_10(#larana-v06_03_10)
+larana v06\_03\_10
 ----------------------------------------
 
 -   2016-12-21 Patrick Gartung : v06\_03\_10 for larsoft v06\_18\_01
@@ -108,7 +108,7 @@ larana v06\_03\_10(#larana-v06_03_10)
 -   2016-12-20 Herbert Greenlee : Fix zero width.
 -   2016-12-19 Thomas Warburton : Removing verbose output
 
-larreco v06\_14\_00(#larreco-v06_14_00)
+larreco v06\_14\_00
 ------------------------------------------
 
 -   2016-12-21 Patrick Gartung : larreco v06\_14\_00 for larsoft v06\_18\_01
@@ -121,7 +121,7 @@ larreco v06\_14\_00(#larreco-v06_14_00)
 -   2016-12-17 Robert Sulej : add flags to tag michels (looks ok) and deltas (no good way to select only those attached to track unfortunately)
 -   2016-12-16 Gianluca Petrillo : Fixed documentation issue.
 
-larsim v06\_10\_01(#larsim-v06_10_01)
+larsim v06\_10\_01
 ----------------------------------------
 
 -   2016-12-20 Patrick Gartung : larsim v06\_10\_01 for larsoft v06\_18\_01
@@ -129,26 +129,26 @@ larsim v06\_10\_01(#larsim-v06_10_01)
 -   2016-12-17 Steven Gardiner : Fix bug that prevents MARLEY from using nuclear structure data loaded using the larsim MARLEYGen module. This resolves LArSoft issue [\#14847](/redmine/issues/14847 "Bug: MARLEYGen module fails to use loaded nuclear structure data when simulating de-excitations (Resolved)").
 -   2016-12-16 Jason Stock : Changing tabs to spaces for convention. Changing photonbacktracker.fcl to remove standard declarations as the photonbacktracker is not experiment agnostic. Each experiment will have to make their own declaration of the service, and will need to provide their own Delay parameter. For DUNE this is 260 ns at the present time.
 
-larevt v06\_07\_01(#larevt-v06_07_01)
+larevt v06\_07\_01
 ----------------------------------------
 
-lardata v06\_11\_00(#lardata-v06_11_00)
+lardata v06\_11\_00
 ------------------------------------------
 
-larcore v06\_05\_01(#larcore-v06_05_01)
+larcore v06\_05\_01
 ------------------------------------------
 
-larsoftobj v1\_08\_02(#larsoftobj-v1_08_02)
+larsoftobj v1\_08\_02
 ----------------------------------------------
 
-lardataobj v1\_08\_00(#lardataobj-v1_08_00)
+lardataobj v1\_08\_00
 ----------------------------------------------
 
-larcoreobj v1\_06\_01(#larcoreobj-v1_06_01)
+larcoreobj v1\_06\_01
 ----------------------------------------------
 
-larbatch v01\_26\_00(#larbatch-v01_26_00)
+larbatch v01\_26\_00
 --------------------------------------------
 
-larutils v1\_11\_00(#larutils-v1_11_00)
+larutils v1\_11\_00
 ------------------------------------------

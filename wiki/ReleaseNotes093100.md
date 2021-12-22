@@ -1,4 +1,4 @@
-LArSoft v09\_31\_00 Release Notes(#LArSoft-v09_31_00-Release-Notes)
+LArSoft v09\_31\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,7 +36,7 @@ LArSoft v09\_31\_00 Release Notes(#LArSoft-v09_31_00-Release-Notes)
 Download instructions for [larsoft v09\_31\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_31_00/larsoft-v09_31_00.html)\
 Download instructions for [just larsoftobj v09\_10\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_10_00/larsoftobj-v09_10_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   art 3.09.03
@@ -46,14 +46,14 @@ Purpose(#Purpose)
     -   [Using cetbuildtools 8 and mrb 5](https://indico.fnal.gov/event/51092/contributions/223976/attachments/147413/188910/Mrb5Cetbuildtools8_2021-09-21.pdf)
     -   [Tips and tricks for LArSoft with art 3.09](https://indico.fnal.gov/event/51092/contributions/223977/attachments/147379/188828/Tips-and-Tricks.pdf)
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   mrb 5 and cetbuildtools 8 **MUST** be used when working with this release
     -   mrb 5 is now the default
     -   To use mrb 4 with an older release, “setup mrb -o”
 
-Updates for experiment code(#Updates-for-experiment-code)
+Updates for experiment code
 ------------------------------------------------------------
 
 -   **necessary changes are provided in feature/team\_for\_art\_v3\_09 branches**
@@ -69,7 +69,7 @@ Updates for experiment code(#Updates-for-experiment-code)
 -   SBND
     -   feature/team\_for\_art\_v3\_09 available for sbndcode and sbndutil
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v5\_18\_01
@@ -87,10 +87,10 @@ Updated dependencies(#Updated-dependencies)
 -   root v6\_22\_08d
 -   valgrind v3\_17\_0
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_31\_00(#larsoft-v09_31_00)
+larsoft v09\_31\_00
 ------------------------------------------
 
 -   2021-09-21 Lynn Garren : larsoft v09\_31\_00 for larsoft v09\_31\_00
@@ -146,7 +146,7 @@ larsoft v09\_31\_00(#larsoft-v09_31_00)
 -   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09\_30\_00\_rc\_br
 -   2021-07-26 Lynn Garren : product updates
 
-lareventdisplay v09\_02\_00(#lareventdisplay-v09_02_00)
+lareventdisplay v09\_02\_00
 ----------------------------------------------------------
 
 -   2021-09-21 Lynn Garren : lareventdisplay v09\_02\_00 for larsoft v09\_31\_00
@@ -173,7 +173,7 @@ lareventdisplay v09\_02\_00(#lareventdisplay-v09_02_00)
 -   2021-07-26 Lynn Garren : getManyByType
 -   2021-07-26 Lynn Garren : find eigen headers
 
-larexamples v09\_02\_00(#larexamples-v09_02_00)
+larexamples v09\_02\_00
 --------------------------------------------------
 
 -   2021-09-21 Lynn Garren : larexamples v09\_02\_00 for larsoft v09\_31\_00
@@ -202,7 +202,7 @@ larexamples v09\_02\_00(#larexamples-v09_02_00)
 -   2021-07-26 Lynn Garren : cetbuildtools v8\_11\_02
 -   2021-07-26 Lynn Garren : find packages
 
-larpandora v09\_09\_00(#larpandora-v09_09_00)
+larpandora v09\_09\_00
 ------------------------------------------------
 
 -   2021-09-21 Lynn Garren : larpandora v09\_09\_00 for larsoft v09\_31\_00
@@ -235,7 +235,7 @@ larpandora v09\_09\_00(#larpandora-v09_09_00)
 -   2021-06-25 Lynn Garren : spell it right
 -   2021-06-25 Lynn Garren : make sure we do not try to build the tool twice
 
-larsimrad v09\_02\_00(#larsimrad-v09_02_00)
+larsimrad v09\_02\_00
 ----------------------------------------------
 
 -   2021-09-21 Lynn Garren : larsimrad v09\_02\_00 for larsoft v09\_31\_00
@@ -263,7 +263,7 @@ larsimrad v09\_02\_00(#larsimrad-v09_02_00)
 -   2021-07-26 Lynn Garren : bxdecay0 v1\_0\_9
 -   2021-07-26 Lynn Garren : coping with gsl issues
 
-larrecodnn v09\_09\_00(#larrecodnn-v09_09_00)
+larrecodnn v09\_09\_00
 ------------------------------------------------
 
 -   2021-09-21 Lynn Garren : larrecodnn v09\_09\_00 for larsoft v09\_31\_00
@@ -292,7 +292,7 @@ larrecodnn v09\_09\_00(#larrecodnn-v09_09_00)
 -   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09\_30\_00\_rc\_br
 -   2021-07-26 Lynn Garren : triton v2\_3\_0d
 
-larwirecell v09\_04\_00(#larwirecell-v09_04_00)
+larwirecell v09\_04\_00
 --------------------------------------------------
 
 -   2021-09-21 Lynn Garren : larwirecell v09\_04\_00 for larsoft v09\_31\_00
@@ -325,7 +325,7 @@ larwirecell v09\_04\_00(#larwirecell-v09_04_00)
 -   2021-07-15 Lynn Garren : find eigen headers
 -   2021-07-15 Lynn Garren : wirecell v0\_15\_0
 
-larana v09\_03\_00(#larana-v09_03_00)
+larana v09\_03\_00
 ----------------------------------------
 
 -   2021-09-21 Lynn Garren : larana v09\_03\_00 for larsoft v09\_31\_00
@@ -351,7 +351,7 @@ larana v09\_03\_00(#larana-v09_03_00)
 -   2021-07-27 Kyle Knoepfel : Update service-macro headers.
 -   2021-07-26 Lynn Garren : for art 3.09
 
-larreco v09\_07\_00(#larreco-v09_07_00)
+larreco v09\_07\_00
 ------------------------------------------
 
 -   2021-09-21 Lynn Garren : larreco v09\_07\_00 for larsoft v09\_31\_00
@@ -380,7 +380,7 @@ larreco v09\_07\_00(#larreco-v09_07_00)
 -   2021-07-26 Lynn Garren : add missing headers
 -   2021-07-26 Lynn Garren : find eigen headers
 
-larsim v09\_15\_00(#larsim-v09_15_00)
+larsim v09\_15\_00
 ----------------------------------------
 
 -   2021-09-21 Lynn Garren : larsim v09\_15\_00 for larsoft v09\_31\_00
@@ -415,7 +415,7 @@ larsim v09\_15\_00(#larsim-v09_15_00)
 -   2021-07-19 Lynn Garren : nugen v1\_14\_03
 -   2021-07-19 Lynn Garren : fixes for art 3.09
 
-larg4 v09\_05\_00(#larg4-v09_05_00)
+larg4 v09\_05\_00
 --------------------------------------
 
 -   2021-09-21 Lynn Garren : larg4 v09\_05\_00 for larsoft v09\_31\_00
@@ -451,7 +451,7 @@ larg4 v09\_05\_00(#larg4-v09_05_00)
 -   2021-07-19 Lynn Garren : nug4 v1\_09\_03
 -   2021-07-19 Lynn Garren : replace getManyByType
 
-larevt v09\_03\_00(#larevt-v09_03_00)
+larevt v09\_03\_00
 ----------------------------------------
 
 -   2021-09-21 Lynn Garren : larevt v09\_03\_00 for larsoft v09\_31\_00
@@ -482,7 +482,7 @@ larevt v09\_03\_00(#larevt-v09_03_00)
 -   2021-07-14 Lynn Garren : remove obsolete header
 -   2021-07-14 Lynn Garren : find headers
 
-lardata v09\_03\_00(#lardata-v09_03_00)
+lardata v09\_03\_00
 ------------------------------------------
 
 -   2021-09-21 Lynn Garren : lardata v09\_03\_00 for larsoft v09\_31\_00
@@ -522,7 +522,7 @@ lardata v09\_03\_00(#lardata-v09_03_00)
 -   2021-07-14 Lynn Garren : cetbuildtools v8\_10\_01
 -   2021-07-14 Lynn Garren : for art 3.09
 
-larcore v09\_03\_00(#larcore-v09_03_00)
+larcore v09\_03\_00
 ------------------------------------------
 
 -   2021-09-21 Lynn Garren : larcore v09\_03\_00 for larsoft v09\_31\_00
@@ -553,7 +553,7 @@ larcore v09\_03\_00(#larcore-v09_03_00)
 -   2021-07-14 Lynn Garren : for art 3.09
 -   2021-07-14 Lynn Garren : for art 3.09
 
-larpandoracontent v03\_25\_01(#larpandoracontent-v03_25_01)
+larpandoracontent v03\_25\_01
 --------------------------------------------------------------
 
 -   2021-09-21 Lynn Garren : larpandoracontent v03\_25\_01 for larsoft v09\_31\_00
@@ -579,7 +579,7 @@ larpandoracontent v03\_25\_01(#larpandoracontent-v03_25_01)
 -   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09\_30\_00\_rc\_br
 -   2021-07-26 Lynn Garren : libtorch v1\_6\_0d
 
-larsoftobj v09\_10\_00(#larsoftobj-v09_10_00)
+larsoftobj v09\_10\_00
 ------------------------------------------------
 
 -   2021-09-21 Lynn Garren : larsoftobj v09\_10\_00 for larsoft v09\_31\_00
@@ -615,7 +615,7 @@ larsoftobj v09\_10\_00(#larsoftobj-v09_10_00)
 -   2021-07-09 Lynn Garren : Merge branch ‘develop’ into v09\_30\_00\_rc\_br
 -   2021-07-09 Lynn Garren : for root v6\_22\_08c
 
-lardataobj v09\_03\_00(#lardataobj-v09_03_00)
+lardataobj v09\_03\_00
 ------------------------------------------------
 
 -   2021-09-21 Lynn Garren : lardataobj v09\_03\_00 for larsoft v09\_31\_00
@@ -643,7 +643,7 @@ lardataobj v09\_03\_00(#lardataobj-v09_03_00)
 -   2021-07-09 Lynn Garren : cetbuildtools v8\_10\_01
 -   2021-07-09 Lynn Garren : find product
 
-lardataalg v09\_06\_00(#lardataalg-v09_06_00)
+lardataalg v09\_06\_00
 ------------------------------------------------
 
 -   2021-09-21 Lynn Garren : lardataalg v09\_06\_00 for larsoft v09\_31\_00
@@ -674,7 +674,7 @@ lardataalg v09\_06\_00(#lardataalg-v09_06_00)
 -   2021-07-09 Lynn Garren : cetbuildtools v8\_10\_01
 -   2021-07-09 Lynn Garren : ParameterSet
 
-larcorealg v09\_03\_00(#larcorealg-v09_03_00)
+larcorealg v09\_03\_00
 ------------------------------------------------
 
 -   2021-09-21 Lynn Garren : larcorealg v09\_03\_00 for larsoft v09\_31\_00
@@ -711,7 +711,7 @@ larcorealg v09\_03\_00(#larcorealg-v09_03_00)
 -   2021-07-09 Lynn Garren : cetbuildtools v8\_10\_01
 -   2021-07-09 Lynn Garren : find products
 
-larcoreobj v09\_03\_00(#larcoreobj-v09_03_00)
+larcoreobj v09\_03\_00
 ------------------------------------------------
 
 -   2021-09-21 Lynn Garren : larcoreobj v09\_03\_00 for larsoft v09\_31\_00
@@ -737,7 +737,7 @@ larcoreobj v09\_03\_00(#larcoreobj-v09_03_00)
 -   2021-07-09 Lynn Garren : find cetlib
 -   2021-07-09 Lynn Garren : ParameterSet
 
-webevd v09\_06\_00(#webevd-v09_06_00)
+webevd v09\_06\_00
 ----------------------------------------
 
 -   2021-09-21 Lynn Garren : webevd v09\_06\_00 for larsoft v09\_31\_00
@@ -766,8 +766,8 @@ webevd v09\_06\_00(#webevd-v09_06_00)
 -   2021-07-26 Lynn Garren : for gallery v1\_18\_02
 -   2021-07-26 Lynn Garren : ParameterSet
 
-larbatch v01\_56\_01(#larbatch-v01_56_01)
+larbatch v01\_56\_01
 --------------------------------------------
 
-larutils v1\_28\_02(#larutils-v1_28_02)
+larutils v1\_28\_02
 ------------------------------------------

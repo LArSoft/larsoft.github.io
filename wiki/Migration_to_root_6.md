@@ -1,4 +1,4 @@
-Migration to root 6(#Migration-to-root-6)
+Migration to root 6
 ============================================
 
 -   **Table of contents**
@@ -29,7 +29,7 @@ Migration to root 6(#Migration-to-root-6)
     -   [UpdateToLArSoftObj.sh](#UpdateToLArSoftObjsh)
 -   [Problems not yet resolved](#Problems-not-yet-resolved)
 
-Release Candidates rc4, rc5, and rc6(#Release-Candidates-rc4-rc5-and-rc6)
+Release Candidates rc4, rc5, and rc6
 ============================================================================
 
 -   Release candidate v06\_00\_00\_rc4 builds on the previous candidates, but moves ahead to art [2.00.02](/redmine/versions/1003)
@@ -37,10 +37,10 @@ Release Candidates rc4, rc5, and rc6(#Release-Candidates-rc4-rc5-and-rc6)
 -   Because this release candidate has more refactoring, it is on the v06\_00\_00\_art2 branch.
 -   Changes are provided for the the experiment code, but users may need to run [UpdateToLArSoftObj.sh](#UpdateToLArSoftObjsh)
 
-v06\_00\_00\_rc5 is in sync with larsoft v05\_13\_00(#v06_00_00_rc5-is-in-sync-with-larsoft-v05_13_00)
+v06\_00\_00\_rc5 is in sync with larsoft v05\_13\_00
 ---------------------------------------------------------------------------------------------------------
 
-Guide to new products(#Guide-to-new-products)
+Guide to new products
 ------------------------------------------------
 
 Several products have been split into separate parts. The new products make a suite, larsoftobj, that does not depend on art.
@@ -54,7 +54,7 @@ Several products have been split into separate parts. The new products make a su
   larsim     larsim, larsimobj     larsimobj contains part of Simulation
   ---------- --------------------- ---------------------------------------------------------------------------------------------------------
 
-Release Candidates rc1, rc2, and rc3(#Release-Candidates-rc1-rc2-and-rc3)
+Release Candidates rc1, rc2, and rc3
 ============================================================================
 
 Code for building with root 6 and art v1\_18\_05 will be found in the v06\_00\_00\_rc branch of the following repositories. Release candidate tags will only be made for the larsoft repositories.
@@ -77,19 +77,19 @@ Code for building with root 6 and art v1\_18\_05 will be found in the v06\_00\_0
 -   uboonecode
 -   ubutil
 
-v06\_00\_00\_rc3 is in sync with larsoft v05\_11\_01(#v06_00_00_rc3-is-in-sync-with-larsoft-v05_11_01)
+v06\_00\_00\_rc3 is in sync with larsoft v05\_11\_01
 ---------------------------------------------------------------------------------------------------------
 
-v06\_00\_00\_rc2 is in sync with larsoft v05\_10\_00(#v06_00_00_rc2-is-in-sync-with-larsoft-v05_10_00)
+v06\_00\_00\_rc2 is in sync with larsoft v05\_10\_00
 ---------------------------------------------------------------------------------------------------------
 
-v06\_00\_00\_rc1 is in sync with larsoft v05\_08\_00(#v06_00_00_rc1-is-in-sync-with-larsoft-v05_08_00)
+v06\_00\_00\_rc1 is in sync with larsoft v05\_08\_00
 ---------------------------------------------------------------------------------------------------------
 
-Known issues and changes(#Known-issues-and-changes)
+Known issues and changes
 ======================================================
 
-gdml breaking change(#gdml-breaking-change)
+gdml breaking change
 ----------------------------------------------
 
 -   Root 6 does not parse mathematical expressions in GDML (!??)
@@ -102,13 +102,13 @@ gdml breaking change(#gdml-breaking-change)
     -   Experiments should fix their own scripts
     -   scripts which are no longer used should be removed
 
-### units(#units)
+### units
 
 -   The correct units are g/cm3, not g/cc
     -   root 5 allowed g/cc, but root 6 does not
 -   The gdml files were fixed with an editor prior to removing expressions
 
-fast cloning(#fast-cloning)
+fast cloning
 ------------------------------
 
 -   Fast cloning will not work when reading certain products in root 5 input files. Since it is difficult to diagnose this problem, we recommend turning off fast cloning when reading pre root 6 files. If you see an error similar to the one below, you need to add “fastCloning: false” to the output module configuration in the relevant FHiCL file(s). See [Facilitating Schema Evolution for Data Products](/redmine/projects/art/wiki/Facilitating_Schema_Evolution_for_Data_Products)\
@@ -123,16 +123,16 @@ fast cloning(#fast-cloning)
         ---- FatalRootError END
         %MSG
 
-root dictionaries(#root-dictionaries)
+root dictionaries
 ----------------------------------------
 
-### ROOT\_INCLUDE\_PATH(#ROOT_INCLUDE_PATH)
+### ROOT\_INCLUDE\_PATH
 
 -   Root 6 needs to find all classes and enums defined by included headers at runtime. This is handled by defining ROOT\_INCLUDE\_PATH.
 -   cetbuildtools v4\_19\_04 or later is required.
 -   For the time being, larcore sets ROOT\_INCLUDE\_PATH to include art, fhicl, cetlib, and boost.
 
-### enums(#enums)
+### enums
 
 -   Root 6 recognizes enums as explicit types. This means that they must be included in the dictionaries.
 -   This error message most likely means that an enum has not been specified.\
@@ -161,7 +161,7 @@ root dictionaries(#root-dictionaries)
 
         <enum name="geo::_plane_sigtype"                                         />
 
-### art::Assns [\#12247](/redmine/issues/12247 "Bug: segfault on missing wrapper of Assns partner type (Closed)")(#artAssns-12247)
+### art::Assns [\#12247](/redmine/issues/12247 "Bug: segfault on missing wrapper of Assns partner type (Closed)")
 
 -   For art::Assns, the dictionary must include BOTH art::Assns of a, b AND art::Assns of b, a.
 -   Unfortunately, this problem is not spotted during dictionary generation and will result in a segfault.
@@ -169,13 +169,13 @@ root dictionaries(#root-dictionaries)
 -   We must make sure that both definitions are included in the xml files.
     -   see check\_dictionaries.sh in the tools section
 
-### template instantiations(#template-instantiations)
+### template instantiations
 
 With root 6, it is no longer necessary to include template instantiations in classes.h. \
 The templates are instantiated when they are used.\
 Removing all template instantiations from the classes.h files results in much faster loading of root dictionaries.
 
-`TFormula` discovered integral math(#TFormula-discovered-integral-math)
+`TFormula` discovered integral math
 --------------------------------------------------------------------------
 
 ROOT 6 implementation of `TFormula` performs integral math evaluation in a fashion more similar to the C language. For example, `"1/2"` evaluates to `0.`, while `"1./2."` evaluates to `0.5`.\
@@ -183,7 +183,7 @@ ROOT 5 used to convert all operands to floating point and then perform floating 
 `TFormula` is internally used in many ROOT classes (e.g. `TTree::Draw`, `TTree::Scan`, `TF1`, etc.). All the instances should be checked to make sure that they yield the expected result.\
 This new feature has been reported as [JIRA issue 8110](https://sft.its.cern.ch/jira/browse/ROOT-8110), but no official response has been produced yet. For what we know so far, ROOT 6’s one might be either a buggy behaviour that will be fixed and disappear, or the new official behaviour of `TFormula`.
 
-`TFormula` bug on missing parameter in expression(#TFormula-bug-on-missing-parameter-in-expression)
+`TFormula` bug on missing parameter in expression
 ------------------------------------------------------------------------------------------------------
 
 See [JIRA issue 8182](https://sft.its.cern.ch/jira/browse/ROOT-8182).\
@@ -214,10 +214,10 @@ bad effects
 
 @SetParameter(5, 5.) has no effect (there is no parameter 5)
 
-Migration tools(#Migration-tools)
+Migration tools
 ====================================
 
-RemoveMathFromGDML.py(#RemoveMathFromGDMLpy)
+RemoveMathFromGDML.py
 -----------------------------------------------
 
 This script is in larsoft. RemoveMathFromGDML.py uses root 5 to translate expressions and must be run with root 5.34.32. You must setup an appropriate larsoft v05\_xx\_yy release. \
@@ -227,7 +227,7 @@ This script is in larsoft. RemoveMathFromGDML.py uses root 5 to translate expres
     RemoveMathFromGDML.py *.gdml
     the original gdml files will be named xxx.gdml.bak
 
-### verification of RemoveMathFromGDML.py(#verification-of-RemoveMathFromGDMLpy)
+### verification of RemoveMathFromGDML.py
 
 -   The redmine project [parsegdml](/redmine/projects/parsegdml/wiki) uses root 5 to read a gdml file and export the parsed file.
     -   xxx.gdml is exported as xxx\_reparsed.gdml
@@ -241,7 +241,7 @@ This script is in larsoft. RemoveMathFromGDML.py uses root 5 to translate expres
     -   lariatsoft/Geo/gdml - OK
     -   uboonecode/uboone/Geometry/gdml - OK
 
-check\_dictionaries.sh(#check_dictionariessh)
+check\_dictionaries.sh
 ------------------------------------------------
 
     USAGE: check_dictionaries.sh [-h] <directory>
@@ -249,7 +249,7 @@ check\_dictionaries.sh(#check_dictionariessh)
             look for classes_def.xml under the specified directory
             If no directory is specified, search this directory
 
-DealWithGaus.sh(#DealWithGaussh)
+DealWithGaus.sh
 -----------------------------------
 
 -   TFormula gaus is now gaus(x), where the default value of x is 0.
@@ -257,13 +257,13 @@ DealWithGaus.sh(#DealWithGaussh)
 -   However, there is a bug: [https://sft.its.cern.ch/jira/browse/ROOT-8105](https://sft.its.cern.ch/jira/browse/ROOT-8105)
 -   We believe we have translated all calls in the fcl files, but the script is available if needed.
 
-UpdateToLArSoftObj.sh(#UpdateToLArSoftObjsh)
+UpdateToLArSoftObj.sh
 -----------------------------------------------
 
 -   Some libraries and headers have been moved from larcore to larcoreobj, lardata to lardataobj, and from larsim to larsimobj.
 -   This script also makes changes needed by the move to nutools 2 and art 2.
 
-[Problems not yet resolved](Problems_not_yet_resolved)(#Problems-not-yet-resolved)
+[Problems not yet resolved](Problems_not_yet_resolved)
 ====================================================================================================================
 
 All known problems are resolved.

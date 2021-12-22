@@ -1,4 +1,4 @@
-LArSoft v09\_04\_00 Release Notes(#LArSoft-v09_04_00-Release-Notes)
+LArSoft v09\_04\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_04\_00 Release Notes(#LArSoft-v09_04_00-Release-Notes)
 Download instructions for [larsoft v09\_04\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_04_00/larsoft-v09_04_00.html)\
 Download instructions for [just larsoftobj v09\_01\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_01_00/larsoftobj-v09_01_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   New SCE Corrections
@@ -75,7 +75,7 @@ New features(#New-features)
     -   **dunetpc - feature/pgreen\_semianalytic\_update**
     -   Updates to semi-analytic light simulation model, presented in LArSoft Coordination meeting on 22-Sep-2020 ([https://indico.fnal.gov/event/45687/](https://indico.fnal.gov/event/45687/)).
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larreco PR 20
@@ -83,51 +83,51 @@ Bug fixes(#Bug-fixes)
 -   larsim PR 42
     -   restore code lost in when v09 was created
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v4\_02\_00 for [\#24996](/redmine/issues/24996 "Bug: Cmake warning: No project() command is present (Closed)")
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_04\_00(#larsoft-v09_04_00)
+larsoft v09\_04\_00
 ------------------------------------------
 
 -   2020-09-23 Lynn Garren : larsoft v09\_04\_00 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : product versions
 -   2020-09-23 Lynn Garren : improve cmake
 
-lareventdisplay v09\_00\_05(#lareventdisplay-v09_00_05)
+lareventdisplay v09\_00\_05
 ----------------------------------------------------------
 
 -   2020-09-23 Lynn Garren : lareventdisplay v09\_00\_05 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larexamples v09\_00\_05(#larexamples-v09_00_05)
+larexamples v09\_00\_05
 --------------------------------------------------
 
 -   2020-09-23 Lynn Garren : larexamples v09\_00\_05 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larg4 v09\_00\_05(#larg4-v09_00_05)
+larg4 v09\_00\_05
 --------------------------------------
 
 -   2020-09-23 Lynn Garren : larg4 v09\_00\_05 for larsoft v09\_04\_00
 
-larpandora v09\_01\_01(#larpandora-v09_01_01)
+larpandora v09\_01\_01
 ------------------------------------------------
 
 -   2020-09-23 Lynn Garren : larpandora v09\_01\_01 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larsimrad v09\_00\_05(#larsimrad-v09_00_05)
+larsimrad v09\_00\_05
 ----------------------------------------------
 
 -   2020-09-23 Lynn Garren : larsimrad v09\_00\_05 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larrecodnn v09\_01\_00(#larrecodnn-v09_01_00)
+larrecodnn v09\_01\_00
 ------------------------------------------------
 
 -   2020-09-23 Lynn Garren : larrecodnn v09\_01\_00 for larsoft v09\_04\_00
@@ -144,19 +144,19 @@ larrecodnn v09\_01\_00(#larrecodnn-v09_01_00)
 -   2020-09-15 Wanwei Wu : modify detprop and clockData to accomodate breaking changes
 -   2020-09-14 Wanwei Wu : update efficiency and purity calculation for ROI
 
-larwirecell v09\_01\_02(#larwirecell-v09_01_02)
+larwirecell v09\_01\_02
 --------------------------------------------------
 
 -   2020-09-23 Lynn Garren : larwirecell v09\_01\_02 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larana v09\_00\_05(#larana-v09_00_05)
+larana v09\_00\_05
 ----------------------------------------
 
 -   2020-09-23 Lynn Garren : larana v09\_00\_05 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larreco v09\_02\_00(#larreco-v09_02_00)
+larreco v09\_02\_00
 ------------------------------------------
 
 -   2020-09-23 Lynn Garren : larreco v09\_02\_00 for larsoft v09\_04\_00
@@ -202,7 +202,7 @@ larreco v09\_02\_00(#larreco-v09_02_00)
 -   2020-06-26 gputnam : Make the sign of the x-dir (drift) SCE correction configurable.
 -   2020-06-25 gputnam : First draft of an updated calorimetry module with new space charge corrections and the capability to use projected-track hits and SummedADC().
 
-larsim v09\_03\_00(#larsim-v09_03_00)
+larsim v09\_03\_00
 ----------------------------------------
 
 -   2020-09-23 Lynn Garren : larsim v09\_03\_00 for larsoft v09\_04\_00
@@ -217,13 +217,13 @@ larsim v09\_03\_00(#larsim-v09_03_00)
 -   2020-09-17 Patrick Green : updated semi-analytic hits models, vuv and visible light
 -   2020-09-16 Patrick Green : Updated transport time parameterisation models - VUV and visible light.
 
-larevt v09\_00\_05(#larevt-v09_00_05)
+larevt v09\_00\_05
 ----------------------------------------
 
 -   2020-09-23 Lynn Garren : larevt v09\_00\_05 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-lardata v09\_01\_00(#lardata-v09_01_00)
+lardata v09\_01\_00
 ------------------------------------------
 
 -   2020-09-23 Lynn Garren : lardata v09\_01\_00 for larsoft v09\_04\_00
@@ -233,23 +233,23 @@ lardata v09\_01\_00(#lardata-v09_01_00)
 -   2020-09-20 Gianluca Petrillo : Added option not to sort waveforms in dump.
 -   2020-09-18 Edward Tyley : Made changed to ArgoNeut Detector Property services for allowing local E field to be used in recombination calculation
 
-larcore v09\_00\_00(#larcore-v09_00_00)
+larcore v09\_00\_00
 ------------------------------------------
 
-larpandoracontent v03\_19\_03(#larpandoracontent-v03_19_03)
+larpandoracontent v03\_19\_03
 --------------------------------------------------------------
 
-larsoftobj v09\_01\_00(#larsoftobj-v09_01_00)
+larsoftobj v09\_01\_00
 ------------------------------------------------
 
 -   2020-09-23 Lynn Garren : larsoftobj v09\_01\_00 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : product versions
 -   2020-09-23 Lynn Garren : improve cmake
 
-lardataobj v09\_00\_00(#lardataobj-v09_00_00)
+lardataobj v09\_00\_00
 ------------------------------------------------
 
-lardataalg v09\_01\_00(#lardataalg-v09_01_00)
+lardataalg v09\_01\_00
 ------------------------------------------------
 
 -   2020-09-23 Lynn Garren : lardataalg v09\_01\_00 for larsoft v09\_04\_00
@@ -259,20 +259,20 @@ lardataalg v09\_01\_00(#lardataalg-v09_01_00)
 -   2020-09-20 Gianluca Petrillo : Added more range information in waveform dump.
 -   2020-09-16 Edward Tyley : Added EField as a imput param for recombination corrections
 
-larcorealg v09\_00\_00(#larcorealg-v09_00_00)
+larcorealg v09\_00\_00
 ------------------------------------------------
 
-larcoreobj v09\_00\_00(#larcoreobj-v09_00_00)
+larcoreobj v09\_00\_00
 ------------------------------------------------
 
-webevd v09\_00\_05(#webevd-v09_00_05)
+webevd v09\_00\_05
 ----------------------------------------
 
 -   2020-09-23 Lynn Garren : webevd v09\_00\_05 for larsoft v09\_04\_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larbatch v01\_53\_01(#larbatch-v01_53_01)
+larbatch v01\_53\_01
 --------------------------------------------
 
-larutils v1\_26\_01(#larutils-v1_26_01)
+larutils v1\_26\_01
 ------------------------------------------

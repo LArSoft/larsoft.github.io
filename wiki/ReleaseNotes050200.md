@@ -1,4 +1,4 @@
-LArSoft v05\_02\_00 Release Notes(#LArSoft-v05_02_00-Release-Notes)
+LArSoft v05\_02\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,22 +24,22 @@ LArSoft v05\_02\_00 Release Notes(#LArSoft-v05_02_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_02_00/larsoft-v05_02_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Changes to develop since v05\_01\_02
 -   Features approved at the Coordination Meeting
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandora feature/gp\_PandoraVisualization
 -   larreco feature/higuera
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ ------------------------------------------------------
@@ -49,10 +49,10 @@ Updated dependencies(#Updated-dependencies)
   gitflow         v1\_9\_1                  
   --------------- ------------ ------------ ------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_02\_00(#larsoft-v05_02_00)
+larsoft v05\_02\_00
 ------------------------------------------
 
 -   2016-03-09 Lynn Garren : larsoft v05\_02\_00 for larsoft v05\_02\_00
@@ -61,18 +61,18 @@ larsoft v05\_02\_00(#larsoft-v05_02_00)
 -   2016-03-02 Lynn Garren : larsoft v05\_01\_02
 -   2016-03-02 Lynn Garren : use mrb v1\_05\_07
 
-lareventdisplay v05\_01\_03(#lareventdisplay-v05_01_03)
+lareventdisplay v05\_01\_03
 ----------------------------------------------------------
 
 -   2016-03-09 Lynn Garren : lareventdisplay v05\_01\_03 for larsoft v05\_02\_00
 -   2016-03-08 Tingjun Yang : Use .key() instead of -\>ID when appropriate. Make a few changes to make it work better for pmtrack.
 
-larexamples v05\_00\_05(#larexamples-v05_00_05)
+larexamples v05\_00\_05
 --------------------------------------------------
 
 -   2016-03-09 Lynn Garren : larexamples v05\_00\_05 for larsoft v05\_02\_00
 
-larpandora v05\_01\_00(#larpandora-v05_01_00)
+larpandora v05\_01\_00
 ------------------------------------------------
 
 -   2016-03-09 Lynn Garren : larpandora v05\_01\_00 for larsoft v05\_02\_00
@@ -81,14 +81,14 @@ larpandora v05\_01\_00(#larpandora-v05_01_00)
 -   2016-03-04 Hamlet : John Marshall found out how to allow processing to continue
 -   2016-03-03 Hamlet : Added a service to allow interactive ROOT graphic systems (TEve-like)
 
-larana v05\_01\_02(#larana-v05_01_02)
+larana v05\_01\_02
 ----------------------------------------
 
 -   2016-03-09 Lynn Garren : larana v05\_01\_02 for larsoft v05\_02\_00
 -   2016-03-09 Tingjun Yang : Update TPC boundaries, optimzed by Pip.
 -   2016-03-07 Tingjun Yang : Fix a bug. When there is not hit tagged by cosmic tagger, we need to keep the original hits.
 
-larreco v05\_02\_00(#larreco-v05_02_00)
+larreco v05\_02\_00
 ------------------------------------------
 
 -   2016-03-09 Lynn Garren : larreco v05\_02\_00 for larsoft v05\_02\_00
@@ -126,30 +126,30 @@ larreco v05\_02\_00(#larreco-v05_02_00)
 -   2016-02-25 Tingjun Yang : Merge branch ‘develop’ into feature/bb\_mcc7
 -   2016-02-16 Aaron Higuera Pichardo : Tracking efficiencies for neutrino interactions, i.e. muon, pion and proton tracking efficiency from neutrino interaction
 
-larsim v05\_01\_01(#larsim-v05_01_01)
+larsim v05\_01\_01
 ----------------------------------------
 
 -   2016-03-09 Lynn Garren : larsim v05\_01\_01 for larsoft v05\_02\_00
 
-larevt v05\_01\_01(#larevt-v05_01_01)
+larevt v05\_01\_01
 ----------------------------------------
 
 -   2016-03-09 Lynn Garren : larevt v05\_01\_01 for larsoft v05\_02\_00
 
-lardata v05\_01\_03(#lardata-v05_01_03)
+lardata v05\_01\_03
 ------------------------------------------
 
 -   2016-03-09 Lynn Garren : lardata v05\_01\_03 for larsoft v05\_02\_00
 -   2016-03-04 Gianluca Petrillo : Added inline documentation to a raw::Uncompress() and a raw::Compress() function
 
-larcore v05\_00\_01(#larcore-v05_00_01)
+larcore v05\_00\_01
 ------------------------------------------
 
-larbatch v01\_20\_06(#larbatch-v01_20_06)
+larbatch v01\_20\_06
 --------------------------------------------
 
 -   2016-03-09 Lynn Garren : larbatch v01\_20\_06 for larsoft v05\_02\_00
 -   2016-03-03 Herbert Greenlee : Fix problems caused by recursive element fetches.
 
-larutils v1\_05\_03(#larutils-v1_05_03)
+larutils v1\_05\_03
 ------------------------------------------

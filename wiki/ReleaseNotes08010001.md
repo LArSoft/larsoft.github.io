@@ -1,4 +1,4 @@
-LArSoft v08\_01\_00\_01 Release Notes(#LArSoft-v08_01_00_01-Release-Notes)
+LArSoft v08\_01\_00\_01 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -33,27 +33,27 @@ LArSoft v08\_01\_00\_01 Release Notes(#LArSoft-v08_01_00_01-Release-Notes)
 Download instructions for [larsoft v08\_01\_00\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_01_00_01/larsoft-v08_01_00_01.html)\
 Download instructions for [just larsoftobj v08\_01\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_01_00/larsoftobj-v08_01_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 This is a first official test release of LArSoft with GENIE v3.
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nutools v2\_27\_00
     -   This version of nutools may be built against GENIE v2 or v3.
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_01\_00\_01(#larsoft-v08_01_00_01)
+larsoft v08\_01\_00\_01
 -------------------------------------------------
 
 -   2018-12-18 Lynn Garren : product veresions
@@ -66,42 +66,42 @@ larsoft v08\_01\_00\_01(#larsoft-v08_01_00_01)
 -   2018-09-20 Lynn Garren : deal with NeutronOscMode to NNBarOscMode changes
 -   2018-09-19 Lynn Garren : genie v3 migration scripts
 
-lareventdisplay v08\_00\_01\_01(#lareventdisplay-v08_00_01_01)
+lareventdisplay v08\_00\_01\_01
 -----------------------------------------------------------------
 
 -   2018-12-18 Lynn Garren : for larsoft v08\_01\_00\_01
 
-larexamples v08\_00\_01\_01(#larexamples-v08_00_01_01)
+larexamples v08\_00\_01\_01
 ---------------------------------------------------------
 
 -   2018-12-18 Lynn Garren : for larsoft v08\_01\_00\_01
 
-larg4 v08\_00\_01\_01(#larg4-v08_00_01_01)
+larg4 v08\_00\_01\_01
 ---------------------------------------------
 
 -   2018-12-18 Lynn Garren : for larsoft v08\_01\_00\_01
 
-larpandora v08\_01\_00\_01(#larpandora-v08_01_00_01)
+larpandora v08\_01\_00\_01
 -------------------------------------------------------
 
 -   2018-12-18 Lynn Garren : for larsoft v08\_01\_00\_01
 
-larwirecell v08\_00\_01\_01(#larwirecell-v08_00_01_01)
+larwirecell v08\_00\_01\_01
 ---------------------------------------------------------
 
 -   2018-12-18 Lynn Garren : for larsoft v08\_01\_00\_01
 
-larana v08\_00\_01\_01(#larana-v08_00_01_01)
+larana v08\_00\_01\_01
 -----------------------------------------------
 
 -   2018-12-18 Lynn Garren : for larsoft v08\_01\_00\_01
 
-larreco v08\_01\_00\_01(#larreco-v08_01_00_01)
+larreco v08\_01\_00\_01
 -------------------------------------------------
 
 -   2018-12-18 Lynn Garren : for larsoft v08\_01\_00\_01
 
-larsim v08\_00\_01\_01(#larsim-v08_00_01_01)
+larsim v08\_00\_01\_01
 -----------------------------------------------
 
 -   2018-12-18 Steven Gardiner : for larsoft v08\_01\_00\_01
@@ -116,39 +116,39 @@ larsim v08\_00\_01\_01(#larsim-v08_00_01_01)
 -   2018-09-18 Lynn Garren : remove unnecessary find library commands
 -   2018-09-18 Lynn Garren : genie v3 headers
 
-larevt v08\_00\_01\_01(#larevt-v08_00_01_01)
+larevt v08\_00\_01\_01
 -----------------------------------------------
 
 -   2018-12-18 Lynn Garren : for larsoft v08\_01\_00\_01
 
-lardata v08\_00\_01\_01(#lardata-v08_00_01_01)
+lardata v08\_00\_01\_01
 -------------------------------------------------
 
 -   2018-12-18 Lynn Garren : for larsoft v08\_01\_00\_01
 
-larcore v08\_00\_00(#larcore-v08_00_00)
+larcore v08\_00\_00
 ------------------------------------------
 
-larpandoracontent v03\_14\_03(#larpandoracontent-v03_14_03)
+larpandoracontent v03\_14\_03
 --------------------------------------------------------------
 
-larsoftobj v08\_01\_00(#larsoftobj-v08_01_00)
+larsoftobj v08\_01\_00
 ------------------------------------------------
 
-lardataobj v08\_00\_00(#lardataobj-v08_00_00)
+lardataobj v08\_00\_00
 ------------------------------------------------
 
-lardataalg v08\_01\_00(#lardataalg-v08_01_00)
+lardataalg v08\_01\_00
 ------------------------------------------------
 
-larcorealg v08\_00\_00(#larcorealg-v08_00_00)
+larcorealg v08\_00\_00
 ------------------------------------------------
 
-larcoreobj v08\_00\_00(#larcoreobj-v08_00_00)
+larcoreobj v08\_00\_00
 ------------------------------------------------
 
-larbatch v01\_47\_02(#larbatch-v01_47_02)
+larbatch v01\_47\_02
 --------------------------------------------
 
-larutils v1\_23\_08(#larutils-v1_23_08)
+larutils v1\_23\_08
 ------------------------------------------

@@ -1,4 +1,4 @@
-LArSoft v09\_36\_00 Release Notes(#LArSoft-v09_36_00-Release-Notes)
+LArSoft v09\_36\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -37,13 +37,13 @@ LArSoft v09\_36\_00 Release Notes(#LArSoft-v09_36_00-Release-Notes)
 Download instructions for [larsoft v09\_36\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_36_00/larsoft-v09_36_00.html)\
 Download instructions for [just larsoftobj v09\_11\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_11_01/larsoftobj-v09_11_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandora PR 23
@@ -52,7 +52,7 @@ New features(#New-features)
     -   It also has a nice knockoff effect of reducing the amount of code in LArPandoraGeometry and LArPandoraInput.
     -   Testing has been done to check that pandora’s current LArTPC consumers are unaffected; we’re not anticipating any change in output for any detector.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larg4 PR 31
@@ -70,14 +70,14 @@ Bug fixes(#Bug-fixes)
     -   larsim PR 77
         -   This attempts to check if existing TrackID is negative, and if so applies the given offset in the “-” direction.
 
-Known issues(#Known-issues)
+Known issues
 ------------------------------
 
 -   Unexplained OpHit / OpFlash product differences in SBND CI tests following larana\#14
     -   [\#26421](/redmine/issues/26421 "Bug: Unexplained OpHit / OpFlash product differences in SBND CI tests following larana#14 (Assigned)")
     -   [https://github.com/SBNSoftware/sbndcode/issues/213](https://github.com/SBNSoftware/sbndcode/issues/213)
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nutools v3\_11\_06
@@ -88,10 +88,10 @@ Updated dependencies(#Updated-dependencies)
 -   nusystematics v01\_00\_03\_01
 -   geant4reweight v01\_08\_07
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_36\_00(#larsoft-v09_36_00)
+larsoft v09\_36\_00
 ------------------------------------------
 
 -   2021-11-11 Lynn Garren : larsoft v09\_36\_00 for larsoft v09\_36\_00
@@ -99,19 +99,19 @@ larsoft v09\_36\_00(#larsoft-v09_36_00)
 -   2021-11-11 Lynn Garren : nulite v3\_11\_06
 -   2021-11-04 Lynn Garren : update dependency database to v09\_30\_00
 
-lareventdisplay v09\_02\_06(#lareventdisplay-v09_02_06)
+lareventdisplay v09\_02\_06
 ----------------------------------------------------------
 
 -   2021-11-11 Lynn Garren : lareventdisplay v09\_02\_06 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : lareventdisplay v09\_02\_06 for larsoft v09\_36\_00
 
-larexamples v09\_02\_06(#larexamples-v09_02_06)
+larexamples v09\_02\_06
 --------------------------------------------------
 
 -   2021-11-11 Lynn Garren : larexamples v09\_02\_06 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : larexamples v09\_02\_06 for larsoft v09\_36\_00
 
-larpandora v09\_10\_00(#larpandora-v09_10_00)
+larpandora v09\_10\_00
 ------------------------------------------------
 
 -   2021-11-11 Lynn Garren : larpandora v09\_10\_00 for larsoft v09\_36\_00
@@ -189,37 +189,37 @@ larpandora v09\_10\_00(#larpandora-v09_10_00)
 -   2021-09-24 Dom Brailsford : Change the need to pass the service as argument. Throw a sensible exception. Change the switch function name to be consistent with what it is replacing
 -   2021-09-24 Dom Brailsford : Partial skeleton for the detector type structure including - Base class - Factory method - Two prototype derived classes
 
-larsimrad v09\_03\_05(#larsimrad-v09_03_05)
+larsimrad v09\_03\_05
 ----------------------------------------------
 
 -   2021-11-11 Lynn Garren : larsimrad v09\_03\_05 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : larsimrad v09\_03\_05 for larsoft v09\_36\_00
 
-larrecodnn v09\_09\_07(#larrecodnn-v09_09_07)
+larrecodnn v09\_09\_07
 ------------------------------------------------
 
 -   2021-11-11 Lynn Garren : larrecodnn v09\_09\_07 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : larrecodnn v09\_09\_07 for larsoft v09\_36\_00
 
-larwirecell v09\_04\_04(#larwirecell-v09_04_04)
+larwirecell v09\_04\_04
 --------------------------------------------------
 
 -   2021-11-11 Lynn Garren : larwirecell v09\_04\_04 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : larwirecell v09\_04\_04 for larsoft v09\_36\_00
 
-larana v09\_03\_07(#larana-v09_03_07)
+larana v09\_03\_07
 ----------------------------------------
 
 -   2021-11-11 Lynn Garren : larana v09\_03\_07 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : larana v09\_03\_07 for larsoft v09\_36\_00
 
-larreco v09\_07\_06(#larreco-v09_07_06)
+larreco v09\_07\_06
 ------------------------------------------
 
 -   2021-11-11 Lynn Garren : larreco v09\_07\_06 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : larreco v09\_07\_06 for larsoft v09\_36\_00
 
-larsim v09\_18\_01(#larsim-v09_18_01)
+larsim v09\_18\_01
 ----------------------------------------
 
 -   2021-11-11 Lynn Garren : larsim v09\_18\_01 for larsoft v09\_36\_00
@@ -227,7 +227,7 @@ larsim v09\_18\_01(#larsim-v09_18_01)
 -   2021-11-03 Wesley : have trackid offsets respective negative number conventions
 -   2021-11-03 Wesley : preserve negative track IDs, and properly account for those in ranges
 
-larg4 v09\_06\_01(#larg4-v09_06_01)
+larg4 v09\_06\_01
 --------------------------------------
 
 -   2021-11-11 Lynn Garren : larg4 v09\_06\_01 for larsoft v09\_36\_00
@@ -238,32 +238,32 @@ larg4 v09\_06\_01(#larg4-v09_06_01)
 -   2021-11-03 Kyle Knoepfel : Avoid multiple setups/teardowns of singleton-ish G4 objects.
 -   2021-11-02 Kyle Knoepfel : Clang-format and some cleanups.
 
-larevt v09\_03\_04(#larevt-v09_03_04)
+larevt v09\_03\_04
 ----------------------------------------
 
 -   2021-11-11 Lynn Garren : larevt v09\_03\_04 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : larevt v09\_03\_04 for larsoft v09\_36\_00
 
-lardata v09\_04\_01(#lardata-v09_04_01)
+lardata v09\_04\_01
 ------------------------------------------
 
 -   2021-11-11 Lynn Garren : lardata v09\_04\_01 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : lardata v09\_04\_01 for larsoft v09\_36\_00
 
-larcore v09\_03\_01(#larcore-v09_03_01)
+larcore v09\_03\_01
 ------------------------------------------
 
-larpandoracontent v03\_26\_01(#larpandoracontent-v03_26_01)
+larpandoracontent v03\_26\_01
 --------------------------------------------------------------
 
-larsoftobj v09\_11\_01(#larsoftobj-v09_11_01)
+larsoftobj v09\_11\_01
 ------------------------------------------------
 
 -   2021-11-11 Lynn Garren : larsoftobj v09\_11\_01 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : larsoftobj v09\_11\_01 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : nusimdata v1\_24\_06
 
-lardataobj v09\_03\_04(#lardataobj-v09_03_04)
+lardataobj v09\_03\_04
 ------------------------------------------------
 
 -   2021-11-11 Lynn Garren : lardataobj v09\_03\_04 for larsoft v09\_36\_00
@@ -271,26 +271,26 @@ lardataobj v09\_03\_04(#lardataobj-v09_03_04)
 -   2021-11-10 Lynn Garren : whitespace cleanup
 -   2021-11-03 Wesley : have trackid offsets respective negative number conventions
 
-lardataalg v09\_07\_01(#lardataalg-v09_07_01)
+lardataalg v09\_07\_01
 ------------------------------------------------
 
 -   2021-11-11 Lynn Garren : lardataalg v09\_07\_01 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : lardataalg v09\_07\_01 for larsoft v09\_36\_00
 
-larcorealg v09\_03\_01(#larcorealg-v09_03_01)
+larcorealg v09\_03\_01
 ------------------------------------------------
 
-larcoreobj v09\_03\_01(#larcoreobj-v09_03_01)
+larcoreobj v09\_03\_01
 ------------------------------------------------
 
-webevd v09\_06\_04(#webevd-v09_06_04)
+webevd v09\_06\_04
 ----------------------------------------
 
 -   2021-11-11 Lynn Garren : webevd v09\_06\_04 for larsoft v09\_36\_00
 -   2021-11-11 Lynn Garren : webevd v09\_06\_04 for larsoft v09\_36\_00
 
-larbatch v01\_56\_02(#larbatch-v01_56_02)
+larbatch v01\_56\_02
 --------------------------------------------
 
-larutils v1\_28\_02(#larutils-v1_28_02)
+larutils v1\_28\_02
 ------------------------------------------

@@ -1,4 +1,4 @@
-LArSoft Error Handling(#LArSoft-Error-Handling)
+LArSoft Error Handling
 ==================================================
 
 The LArSoft error handling policy is to code in a way that allows error information passed up the framework so the people who run the framework can make the decision on what actions to take. LArSoft uses the `art::Exception` class to pass error information from algorithm code to the framework. (Note that `art::Exception` is defined in `canvas` and can therefore be used by gallery and in other art-independent repositories and contexts. See `./canvas/Utilities/Exception.h`) Algorithm code should not catch exceptions. Let the framework deal with it.

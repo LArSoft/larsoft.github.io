@@ -1,4 +1,4 @@
-Guidelines for writing thread-safe modules(#Guidelines-for-writing-thread-safe-modules)
+Guidelines for writing thread-safe modules
 ==========================================================================================
 
 1.  Remove class data members that are intended to be valid for each event.

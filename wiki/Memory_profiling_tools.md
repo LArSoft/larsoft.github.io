@@ -1,4 +1,4 @@
-Memory profiling tools(#Memory-profiling-tools)
+Memory profiling tools
 ==================================================
 
 -   **Table of contents**
@@ -11,7 +11,7 @@ Memory profiling tools(#Memory-profiling-tools)
     -   [Ignominous Profiler (igprof)](#Ignominous-Profiler-igprof)
     -   [MemoryTracker - art module](#MemoryTracker-art-module)
 
-valgrind(#valgrind)
+valgrind
 ----------------------
 
 -   open source
@@ -32,7 +32,7 @@ To get the latest version of valgrind (which at the time of writing, 20170808, i
 
 This will install valgrind in `~/bin` and `~/lib` of your account.
 
-Memory leaks(#Memory-leaks)
+Memory leaks
 ------------------------------
 
 [Valgrind](http://valgrind.org/docs/manual/manual.html) is actually a suite of tools. The default tool is [memcheck](http://valgrind.org/docs/manual/mc-manual.html), which hunts for memory leaks:\
@@ -53,7 +53,7 @@ Breaking down the above line:
 
 The *memcheck* tool should also be supported by `larrun.sh` as `larrun.sh --memcheck`.
 
-Memory use(#Memory-use)
+Memory use
 --------------------------
 
 If you’re looking for which part of your program is using large chunks of memory, the appropriate tool is [massif](http://valgrind.org/docs/manual/ms-manual.html). \
@@ -76,7 +76,7 @@ As always, one has to understand the precise way the tool works, or be surprised
 
 The largest figure in `/proc/PID/status` (“VmSize”) includes shared libraries, heap, stack and the unused allocated memory all together. *massif* only talks used heap (and, optionally, stacks).
 
-Execution speed(#Execution-speed)
+Execution speed
 ------------------------------------
 
 If one is looking for which portions of the program are being called most often, the appropriate tool is [callgrind](http://valgrind.org/docs/manual/cl-manual.html).\
@@ -104,12 +104,12 @@ For KDE, a `kcachegrind` is available which has some pitfalls but is still inval
 
 > Do not take *callgrind* at face value: *valgrind* is a CPU emulator, and it may grossly overestimate parts of the execution time by ignoring optimisations and tricks your particular CPU may be using. The best way to identify the slowest part of a job is via a sample profiler. *callgrind* may be useful to explore the flow of the execution though, and sometimes it can point to a code line inside a function which takes lot of time to execute (but again, it may very well be wrong).
 
-### `dhap` tool(#dhap-tool)
+### `dhap` tool
 
 Another heap analyser. Not tested yet.\
 It should be supported as `larrun.sh --dhap`.
 
-Ignominous Profiler (`igprof`)(#Ignominous-Profiler-igprof)
+Ignominous Profiler (`igprof`)
 --------------------------------------------------------------
 
 -   open source
@@ -122,7 +122,7 @@ Ignominous Profiler (`igprof`)(#Ignominous-Profiler-igprof)
 The detailed memory mapping must be triggered. This makes the tool complementary to, for example, [valgrind](_Profiling_LArSoft_#valgrind-massif-tool).\
 We can get a snapshot at precisely the point we want, but we can’t find out where precisely we want it.
 
-[MemoryTracker - art module](https://cdcvs.fnal.gov/redmine/projects/art/wiki/MemoryTracker)(#MemoryTracker-art-module)
+[MemoryTracker - art module](https://cdcvs.fnal.gov/redmine/projects/art/wiki/MemoryTracker)
 --------------------------------------------------------------------------------------------------------------------------
 
 Memory tracker is a *art* service provided with the *art* distribution. It writes its detailed information into a SQL database, that can be later unrolled and analysed.\

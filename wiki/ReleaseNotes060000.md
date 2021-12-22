@@ -1,4 +1,4 @@
-LArSoft v06\_00\_00 Release Notes(#LArSoft-v06_00_00-Release-Notes)
+LArSoft v06\_00\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -28,7 +28,7 @@ LArSoft v06\_00\_00 Release Notes(#LArSoft-v06_00_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00/larsoft-v06_00_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   use root 6
@@ -36,7 +36,7 @@ Purpose(#Purpose)
 -   refactor larcore, lardata, and larsim
 -   match v05\_15\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
 Several products have been split into separate parts. The new products make a suite, larsoftobj, that does not depend on art.
@@ -50,20 +50,20 @@ Several products have been split into separate parts. The new products make a su
   larsim     larsim, larsimobj     larsimobj contains part of Simulation
   ---------- --------------------- ------------------------------------------------------------------------------------------------------------------------------------
 
-Breaking changes(#Breaking-changes)
+Breaking changes
 --------------------------------------
 
 -   This is a major release
 -   See [Migration to root 6](Migration_to_root_6)
 
-Required changes(#Required-changes)
+Required changes
 --------------------------------------
 
 -   The v06\_00\_00\_art2 branch is supplied for dunetpc, duneutil, uboonecode, ubutil, argoneutcode, sbndcode, lariatsoft, lariatfragments, and lariatutil.
 -   [UpdateToLArSoftObj.sh](Migration_to_root_6#UpdateToLArSoftObjsh) will make all required changes in user code.
 -   In some cases, you may also need to run update\_sources.sh
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   -------------- ------------ ------------ --------------------------------------------------------------------------------------------------
@@ -76,10 +76,10 @@ Updated dependencies(#Updated-dependencies)
   gcc            v4\_9\_3a                 (e10)
   -------------- ------------ ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_00\_00(#larsoft-v06_00_00)
+larsoft v06\_00\_00
 ------------------------------------------
 
 -   2016-07-18 Lynn Garren : Merge branch ‘v06\_00\_00\_art2’
@@ -127,7 +127,7 @@ larsoft v06\_00\_00(#larsoft-v06_00_00)
 -   2016-04-04 Lynn Garren : use cetbuildtools v4\_19\_04
 -   2016-04-01 Lynn Garren : proper qualifiers for ifdh\_art
 
-lareventdisplay v06\_00\_00(#lareventdisplay-v06_00_00)
+lareventdisplay v06\_00\_00
 ----------------------------------------------------------
 
 -   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
@@ -159,7 +159,7 @@ lareventdisplay v06\_00\_00(#lareventdisplay-v06_00_00)
 -   2016-04-01 Lynn Garren : complete hack for now
 -   2016-04-01 Lynn Garren : use cetbuildtools v4\_19\_03
 
-larexamples v06\_00\_00(#larexamples-v06_00_00)
+larexamples v06\_00\_00
 --------------------------------------------------
 
 -   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
@@ -186,7 +186,7 @@ larexamples v06\_00\_00(#larexamples-v06_00_00)
 -   2016-04-04 Lynn Garren : use cetbuildtools v4\_19\_04
 -   2016-04-01 Lynn Garren : use cetbuildtools v4\_19\_03
 
-larpandora v06\_00\_00(#larpandora-v06_00_00)
+larpandora v06\_00\_00
 ------------------------------------------------
 
 -   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
@@ -216,7 +216,7 @@ larpandora v06\_00\_00(#larpandora-v06_00_00)
 -   2016-04-04 Lynn Garren : use cetbuildtools v4\_19\_04
 -   2016-04-01 Lynn Garren : correct qualifiers for larpandoracontent
 
-larana v06\_00\_00(#larana-v06_00_00)
+larana v06\_00\_00
 ----------------------------------------
 
 -   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
@@ -245,7 +245,7 @@ larana v06\_00\_00(#larana-v06_00_00)
 -   2016-04-01 Lynn Garren : use std::ifstream
 -   2016-04-01 Lynn Garren : use cetbuildtools v4\_19\_03
 
-larreco v06\_00\_00(#larreco-v06_00_00)
+larreco v06\_00\_00
 ------------------------------------------
 
 -   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
@@ -285,7 +285,7 @@ larreco v06\_00\_00(#larreco-v06_00_00)
 -   2016-04-01 Lynn Garren : use std::ofstream
 -   2016-04-01 Lynn Garren : nutools v1\_25\_00
 
-larsim v06\_00\_00(#larsim-v06_00_00)
+larsim v06\_00\_00
 ----------------------------------------
 
 -   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
@@ -325,7 +325,7 @@ larsim v06\_00\_00(#larsim-v06_00_00)
 -   2016-04-01 Lynn Garren : using std::ifstream
 -   2016-04-01 Lynn Garren : cetbuildtools v4\_19\_03
 
-larevt v06\_00\_00(#larevt-v06_00_00)
+larevt v06\_00\_00
 ----------------------------------------
 
 -   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
@@ -353,7 +353,7 @@ larevt v06\_00\_00(#larevt-v06_00_00)
 -   2016-04-01 Lynn Garren : cetbuildtools v4\_19\_03
 -   2016-04-01 Lynn Garren : std::ifstream
 
-lardata v06\_00\_00(#lardata-v06_00_00)
+lardata v06\_00\_00
 ------------------------------------------
 
 -   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
@@ -403,7 +403,7 @@ lardata v06\_00\_00(#lardata-v06_00_00)
 -   2016-04-01 Lynn Garren : deal with variables typedefed to unsigned short
 -   2016-03-31 Lynn Garren : update ClassVersions
 
-larcore v06\_00\_00(#larcore-v06_00_00)
+larcore v06\_00\_00
 ------------------------------------------
 
 -   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
@@ -446,7 +446,7 @@ larcore v06\_00\_00(#larcore-v06_00_00)
 -   2016-04-01 Lynn Garren : define ROOT\_INCLUDE
 -   2016-03-31 Lynn Garren : art v1\_18\_05
 
-larsimobj v1\_04\_00(#larsimobj-v1_04_00)
+larsimobj v1\_04\_00
 --------------------------------------------
 
 -   2016-07-18 Lynn Garren : Merge branch ‘v06\_00\_00\_art2’
@@ -476,7 +476,7 @@ larsimobj v1\_04\_00(#larsimobj-v1_04_00)
 -   2016-04-07 Lynn Garren : use nusimdata v1\_01\_00
 -   2016-04-07 Patrick Gartung : initial commit
 
-lardataobj v1\_04\_00(#lardataobj-v1_04_00)
+lardataobj v1\_04\_00
 ----------------------------------------------
 
 -   2016-07-18 Lynn Garren : Merge branch ‘v06\_00\_00\_art2’
@@ -511,7 +511,7 @@ lardataobj v1\_04\_00(#lardataobj-v1_04_00)
 -   2016-04-07 Lynn Garren : use nusimdata v1\_01\_00
 -   2016-04-07 Patrick Gartung : initial commit
 
-larcoreobj v1\_04\_00(#larcoreobj-v1_04_00)
+larcoreobj v1\_04\_00
 ----------------------------------------------
 
 -   2016-07-18 Lynn Garren : Merge branch ‘v06\_00\_00\_art2’
@@ -541,8 +541,8 @@ larcoreobj v1\_04\_00(#larcoreobj-v1_04_00)
 -   2016-04-07 Lynn Garren : cleanup
 -   2016-04-07 Patrick Gartung : initial commit
 
-larbatch v01\_23\_01(#larbatch-v01_23_01)
+larbatch v01\_23\_01
 --------------------------------------------
 
-larutils v1\_06\_05(#larutils-v1_06_05)
+larutils v1\_06\_05
 ------------------------------------------

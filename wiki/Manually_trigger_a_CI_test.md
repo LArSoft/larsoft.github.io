@@ -1,9 +1,9 @@
-Manually trigger a CI test(#Manually-trigger-a-CI-test)
+Manually trigger a CI test
 ==========================================================
 
 Whenever possible, it is best to use the github trigger build option. However, when a PR needs to be tested along with a feature branch in experiment code, the CI must be triggered manually.
 
-Trigger a CI build with experiment feature branches(#Trigger-a-CI-build-with-experiment-feature-branches) {.wiki-class-count}
+Trigger a CI build with experiment feature branches
 ------------------------------------------------------------------------------------------------------------
 
 the trigger option that handles LArSoft PRs and feature branches from experiment code is –revisions,\
@@ -27,7 +27,7 @@ and to select qualifiers\
 
     --quals e19:py2:prof (this is the default, for the slf7 the 'py2' is automatically removed from the qualifier)
 
-### example(#example) {.wiki-class-count}
+### example
 
 The certificate is generated in /tmp\
 

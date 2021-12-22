@@ -1,4 +1,4 @@
-LArSoft v04\_26\_00 Release Notes(#LArSoft-v04_26_00-Release-Notes)
+LArSoft v04\_26\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,14 +24,14 @@ LArSoft v04\_26\_00 Release Notes(#LArSoft-v04_26_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_26_00/larsoft-v04_26_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   Finish Channel Status service changes
 -   EMShower module
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Channel Status service changes
@@ -46,10 +46,10 @@ New features(#New-features)
     -   larreco feature/wallbank\_EMShowerToMerge 
 -   using cetbuildtools v4\_14\_01 and the new ALLOW\_DEPRECATIONS compiler option
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ----------- ------------------------------
@@ -58,17 +58,17 @@ Updated dependencies(#Updated-dependencies)
   mrb             v1\_05\_03               
   --------------- ------------ ----------- ------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_26\_00(#larsoft-v04_26_00)
+larsoft v04\_26\_00
 ------------------------------------------
 
 -   2015-10-08 Lynn Garren : larsoft v04\_26\_00 for larsoft v04\_26\_00
 -   2015-10-08 Lynn Garren : update product versions and make sure cmake v3\_3\_2 and cetbuildtools v4\_14\_01 are part of the distribution
 -   2015-10-01 Lynn Garren : update product versions and add larpandoracontent
 
-lareventdisplay v04\_10\_00(#lareventdisplay-v04_10_00)
+lareventdisplay v04\_10\_00
 ----------------------------------------------------------
 
 -   2015-10-08 Lynn Garren : lareventdisplay v04\_10\_00 for larsoft v04\_26\_00
@@ -81,19 +81,19 @@ lareventdisplay v04\_10\_00(#lareventdisplay-v04_10_00)
 -   2015-10-02 Gianluca Petrillo : Updated configurations with IChannelStatusService
 -   2015-10-01 Gianluca Petrillo : Replacing deprecated ChannelFilter with IChannelStatusService
 
-larexamples v04\_05\_07(#larexamples-v04_05_07)
+larexamples v04\_05\_07
 --------------------------------------------------
 
 -   2015-10-08 Lynn Garren : larexamples v04\_05\_07 for larsoft v04\_26\_00
 -   2015-10-08 Lynn Garren : use new ALLOW\_DEPRECATIONS compilation option
 
-larpandora v04\_07\_01(#larpandora-v04_07_01)
+larpandora v04\_07\_01
 ------------------------------------------------
 
 -   2015-10-08 Lynn Garren : larpandora v04\_07\_01 for larsoft v04\_26\_00
 -   2015-10-08 Lynn Garren : use new ALLOW\_DEPRECATIONS compilation option
 
-larana v04\_13\_00(#larana-v04_13_00)
+larana v04\_13\_00
 ----------------------------------------
 
 -   2015-10-08 Lynn Garren : larana v04\_13\_00 for larsoft v04\_26\_00
@@ -103,7 +103,7 @@ larana v04\_13\_00(#larana-v04_13_00)
 -   2015-10-06 Tingjun Yang : Fix a bug in saving 3D points. The index was off by one. Thanks Greg Pulliam for spotting this.
 -   2015-10-02 Gianluca Petrillo : Replacing deprecated ChannelFilter with IChannelStatusService
 
-larreco v04\_19\_00(#larreco-v04_19_00)
+larreco v04\_19\_00
 ------------------------------------------
 
 -   2015-10-08 Lynn Garren : larreco v04\_19\_00 for larsoft v04\_26\_00
@@ -190,7 +190,7 @@ larreco v04\_19\_00(#larreco-v04_19_00)
 -   2015-08-21 Robert Sulej : Merge branch ‘develop’ into feature/rsulej\_PmaVertexing
 -   2015-08-14 Robert Sulej : add initial work
 
-larsim v04\_12\_00(#larsim-v04_12_00)
+larsim v04\_12\_00
 ----------------------------------------
 
 -   2015-10-08 Lynn Garren : add missing library to link list
@@ -204,7 +204,7 @@ larsim v04\_12\_00(#larsim-v04_12_00)
 -   2015-10-02 Lynn Garren : larsoft v04\_25\_00
 -   2015-10-02 Thomas Warburton : Changing Gen\_MUSUN geometry to workspace.
 
-larevt v04\_12\_00(#larevt-v04_12_00)
+larevt v04\_12\_00
 ----------------------------------------
 
 -   2015-10-08 Lynn Garren : larevt v04\_12\_00 for larsoft v04\_26\_00
@@ -222,7 +222,7 @@ larevt v04\_12\_00(#larevt-v04_12_00)
 -   2015-10-01 Gianluca Petrillo : Expanded functionality on numerical channel status report
 -   2015-10-01 Gianluca Petrillo : Code review by Gianluca: - renamed GetFilter[Ptr]() into GetProvider[Ptr](); I aim to have this a LArSoft’s standard - removed the references to database from the interface (including switching from DB-specific channel ID to LArSoft’s) - removed Update() function from service provider interface - renamed SimpleChannelFilterXxx into SimpleChannelStatusXxxx - shipped ArgoNeuT configuration to argoneutcode - minor coding changes
 
-lardata v04\_15\_00(#lardata-v04_15_00)
+lardata v04\_15\_00
 ------------------------------------------
 
 -   2015-10-08 Lynn Garren : lardata v04\_15\_00 for larsoft v04\_26\_00
@@ -230,13 +230,13 @@ lardata v04\_15\_00(#lardata-v04_15_00)
 -   2015-10-02 Gianluca Petrillo : Added “LArTPC detector” service configuration hub, for LArSoft tests.
 -   2015-10-02 Gianluca Petrillo : Updated configurations with IChannelStatusService
 
-larcore v04\_17\_01(#larcore-v04_17_01)
+larcore v04\_17\_01
 ------------------------------------------
 
 -   2015-10-08 Lynn Garren : larcore v04\_17\_01 for larsoft v04\_26\_00
 -   2015-10-08 Lynn Garren : use new ALLOW\_DEPRECATIONS compilation option
 
-larbatch v01\_17\_00(#larbatch-v01_17_00)
+larbatch v01\_17\_00
 --------------------------------------------
 
 -   2015-10-08 Lynn Garren : larbatch v01\_17\_00 for larsoft v04\_26\_00
@@ -253,5 +253,5 @@ larbatch v01\_17\_00(#larbatch-v01_17_00)
 -   2015-10-02 Herbert Greenlee : Add update CMakeLists.txt.
 -   2015-10-02 Herbert Greenlee : Add script mkdir.py.
 
-larutils v1\_03\_02(#larutils-v1_03_02)
+larutils v1\_03\_02
 ------------------------------------------

@@ -1,4 +1,4 @@
-LArSoft v06\_00\_00\_rc2 Release Notes(#LArSoft-v06_00_00_rc2-Release-Notes)
+LArSoft v06\_00\_00\_rc2 Release Notes
 ===============================================================================
 
 -   **Table of contents**
@@ -22,26 +22,26 @@ LArSoft v06\_00\_00\_rc2 Release Notes(#LArSoft-v06_00_00_rc2-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc2/larsoft-v06_00_00_rc2.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Fix event display problem
 -   Bring up to date with larsoft v05\_10\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Root 6 required changes to gdml files, dictionaries, and some fcl files.
 -   The C++ code required little if any change.
 -   [Migration to root 6](Migration_to_root_6)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   A problem with the event display was traced to rootcint. Using the latest cetbuildtools resolves the problem. See [\#12395](/redmine/issues/12395 "Bug: cet_rootcint needs updating for root 6 (Closed)")
 -   Fix nutools bug to allow DIS weighting to happen
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ ----------
@@ -50,10 +50,10 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v5\_01\_03                required
   --------------- ------------ ------------ ----------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_00\_00\_rc2(#larsoft-v06_00_00_rc2)
+larsoft v06\_00\_00\_rc2
 ---------------------------------------------------
 
 -   2016-04-28 Lynn Garren : larsoft v06\_00\_00\_rc2 with nutools v1\_25\_02 and cetbuildtools v5\_01\_03
@@ -76,7 +76,7 @@ larsoft v06\_00\_00\_rc2(#larsoft-v06_00_00_rc2)
 -   2016-04-14 Lynn Garren : update product dependencies
 -   2016-04-14 Lynn Garren : nutools v1\_24\_02 with genie v2\_10\_6
 
-lareventdisplay v06\_00\_00\_rc2(#lareventdisplay-v06_00_00_rc2)
+lareventdisplay v06\_00\_00\_rc2
 -------------------------------------------------------------------
 
 -   2016-04-28 Lynn Garren : larsoft v06\_00\_00\_rc2
@@ -87,7 +87,7 @@ lareventdisplay v06\_00\_00\_rc2(#lareventdisplay-v06_00_00_rc2)
 -   2016-04-14 Lynn Garren : lareventdisplay v05\_06\_03 for larsoft v05\_09\_00
 -   2016-04-08 Lynn Garren : lareventdisplay v05\_06\_02 for larsoft v05\_08\_00
 
-larexamples v06\_00\_00\_rc2(#larexamples-v06_00_00_rc2)
+larexamples v06\_00\_00\_rc2
 -----------------------------------------------------------
 
 -   2016-04-28 Lynn Garren : larsoft v06\_00\_00\_rc2
@@ -97,7 +97,7 @@ larexamples v06\_00\_00\_rc2(#larexamples-v06_00_00_rc2)
 -   2016-04-14 Lynn Garren : larexamples v05\_06\_03 for larsoft v05\_09\_00
 -   2016-04-08 Lynn Garren : larexamples v05\_06\_02 for larsoft v05\_08\_00
 
-larpandora v06\_00\_00\_rc2(#larpandora-v06_00_00_rc2)
+larpandora v06\_00\_00\_rc2
 ---------------------------------------------------------
 
 -   2016-04-28 Lynn Garren : larsoft v06\_00\_00\_rc2
@@ -107,7 +107,7 @@ larpandora v06\_00\_00\_rc2(#larpandora-v06_00_00_rc2)
 -   2016-04-18 John Marshall : Tweaks to ensure reproducible translation from the Pandora EDM. Some cosmetic changes.
 -   2016-04-14 Lynn Garren : larpandora v05\_09\_00 for larsoft v05\_09\_00
 
-larana v06\_00\_00\_rc2(#larana-v06_00_00_rc2)
+larana v06\_00\_00\_rc2
 -------------------------------------------------
 
 -   2016-04-28 Lynn Garren : larsoft v06\_00\_00\_rc2
@@ -122,7 +122,7 @@ larana v06\_00\_00\_rc2(#larana-v06_00_00_rc2)
 -   2016-04-12 Gianluca Petrillo : Interface update after Geant4 job memory optimization
 -   2016-03-29 Gianluca Petrillo : Update after photon library interface change
 
-larreco v06\_00\_00\_rc2(#larreco-v06_00_00_rc2)
+larreco v06\_00\_00\_rc2
 ---------------------------------------------------
 
 -   2016-04-28 Lynn Garren : using nutools v1\_25\_02
@@ -316,7 +316,7 @@ larreco v06\_00\_00\_rc2(#larreco-v06_00_00_rc2)
 -   2015-12-31 Bruce Baller : Put StepCrawl code in a separate file
 -   2015-12-22 Bruce Baller : StepCrawl development
 
-larsim v06\_00\_00\_rc2(#larsim-v06_00_00_rc2)
+larsim v06\_00\_00\_rc2
 -------------------------------------------------
 
 -   2016-04-28 Lynn Garren : larsoft v06\_00\_00\_rc2
@@ -391,7 +391,7 @@ larsim v06\_00\_00\_rc2(#larsim-v06_00_00_rc2)
 -   2016-03-22 larsoft User : change the return type of Reconstruct in MCShowerRecoAlg
 -   2016-02-04 Lynn Garren : larsim v04\_21\_00 for larsoft v04\_36\_00
 
-larevt v06\_00\_00\_rc2(#larevt-v06_00_00_rc2)
+larevt v06\_00\_00\_rc2
 -------------------------------------------------
 
 -   2016-04-28 Lynn Garren : larsoft v06\_00\_00\_rc2
@@ -401,7 +401,7 @@ larevt v06\_00\_00\_rc2(#larevt-v06_00_00_rc2)
 -   2016-04-14 Lynn Garren : larevt v05\_06\_03 for larsoft v05\_09\_00
 -   2016-04-08 Lynn Garren : larevt v05\_06\_02 for larsoft v05\_08\_00
 
-lardata v06\_00\_00\_rc2(#lardata-v06_00_00_rc2)
+lardata v06\_00\_00\_rc2
 ---------------------------------------------------
 
 -   2016-04-28 Lynn Garren : using nutools v1\_25\_02
@@ -415,7 +415,7 @@ lardata v06\_00\_00\_rc2(#lardata-v06_00_00_rc2)
 -   2016-04-14 Lynn Garren : nutools v1\_24\_02
 -   2016-04-08 Lynn Garren : lardata v05\_07\_01 for larsoft v05\_08\_00
 
-larcore v06\_00\_00\_rc2(#larcore-v06_00_00_rc2)
+larcore v06\_00\_00\_rc2
 ---------------------------------------------------
 
 -   2016-04-28 Lynn Garren : larsoft v06\_00\_00\_rc2

@@ -1,4 +1,4 @@
-LArSoft v03\_03\_01 Release Notes(#LArSoft-v03_03_01-Release-Notes)
+LArSoft v03\_03\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -22,26 +22,26 @@ LArSoft v03\_03\_01 Release Notes(#LArSoft-v03_03_01-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/projects/larsoft/v03_03_01/larsoft-v03_03_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Include changes in development since v03\_03\_00.
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 The head of develop for all larsoft packages now uses cetbuildtools v4\_03\_00, which has some infrastructure improvements to help support the CI system.
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_03\_01(#larsoft-v03_03_01)
+larsoft v03\_03\_01
 ------------------------------------------
 
 -   2014-10-21 Lynn Garren : use cetbuildtools v4\_03\_00
@@ -49,16 +49,16 @@ larsoft v03\_03\_01(#larsoft-v03_03_01)
 -   2014-10-21 Lynn Garren : larsoft v03\_03\_01
 -   2014-10-21 Lynn Garren : new header RecoBase/PFParticle.h
 
-lareventdisplay v03\_02\_01(#lareventdisplay-v03_02_01)
+lareventdisplay v03\_02\_01
 ----------------------------------------------------------
 
-larexamples v03\_02\_01(#larexamples-v03_02_01)
+larexamples v03\_02\_01
 --------------------------------------------------
 
-larpandora v03\_03\_00(#larpandora-v03_03_00)
+larpandora v03\_03\_00
 ------------------------------------------------
 
-larana v03\_02\_02(#larana-v03_02_02)
+larana v03\_02\_02
 ----------------------------------------
 
 -   2014-10-21 Lynn Garren : use cetbuildtools v4\_03\_00
@@ -82,7 +82,7 @@ larana v03\_02\_02(#larana-v03_02_02)
 -   2014-09-30 Tracy Usher : Adding a module to perform CR tagging driven from PFParticles
 -   2014-09-30 Tracy Usher : Adding a module to remove recob::hits based on PFParticle associations to CosmicTag CR scores
 
-larreco v03\_02\_02(#larreco-v03_02_02)
+larreco v03\_02\_02
 ------------------------------------------
 
 -   2014-10-21 Lynn Garren : use cetbuildtools v4\_03\_00
@@ -98,14 +98,14 @@ larreco v03\_02\_02(#larreco-v03_02_02)
 -   2014-09-19 Gianluca Petrillo : Adding recob::Track dumper module (stub)
 -   2014-08-12 Gianluca Petrillo : Minor optimizations
 
-larsim v03\_02\_01(#larsim-v03_02_01)
+larsim v03\_02\_01
 ----------------------------------------
 
-larevt v03\_02\_01(#larevt-v03_02_01)
+larevt v03\_02\_01
 ----------------------------------------
 
-lardata v03\_02\_01(#lardata-v03_02_01)
+lardata v03\_02\_01
 ------------------------------------------
 
-larcore v03\_02\_01(#larcore-v03_02_01)
+larcore v03\_02\_01
 ------------------------------------------

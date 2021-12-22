@@ -1,4 +1,4 @@
-LArSoft v09\_24\_00 Release Notes(#LArSoft-v09_24_00-Release-Notes)
+LArSoft v09\_24\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,7 +36,7 @@ LArSoft v09\_24\_00 Release Notes(#LArSoft-v09_24_00-Release-Notes)
 Download instructions for [larsoft v09\_24\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_24_00/larsoft-v09_24_00.html)\
 Download instructions for [just larsoftobj v09\_05\_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_03/larsoftobj-v09_05_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   NOTE: We are no longer supplying an e19 build.
@@ -44,7 +44,7 @@ Purpose(#Purpose)
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandoracontent PR 24
@@ -54,10 +54,10 @@ New features(#New-features)
     -   This pull request contains a small modification to larpandora/LArPandoraInterface/LArPandoraInput.cxx which adds the simb::MCParticle process information to the pandora LArMCParticle object parameters.
     -   This PR is a necessary companion to larpandoracontent PR 24
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   h5py v3\_1\_0d
@@ -65,10 +65,10 @@ Updated dependencies(#Updated-dependencies)
 -   mrb v4\_04\_04
     -   recognize garsoft
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_24\_00(#larsoft-v09_24_00)
+larsoft v09\_24\_00
 ------------------------------------------
 
 -   2021-05-25 Lynn Garren : larsoft v09\_24\_00 for larsoft v09\_24\_00
@@ -76,50 +76,50 @@ larsoft v09\_24\_00(#larsoft-v09_24_00)
 -   2021-05-25 Lynn Garren : product versions
 -   2021-05-25 Lynn Garren : mrb v4\_04\_04 and hep\_hpc\_toolkit v0\_14\_01\_02
 
-lareventdisplay v09\_01\_09(#lareventdisplay-v09_01_09)
+lareventdisplay v09\_01\_09
 ----------------------------------------------------------
 
-larexamples v09\_01\_09(#larexamples-v09_01_09)
+larexamples v09\_01\_09
 --------------------------------------------------
 
-larpandora v09\_06\_00(#larpandora-v09_06_00)
+larpandora v09\_06\_00
 ------------------------------------------------
 
 -   2021-05-25 Lynn Garren : larpandora v09\_06\_00 for larsoft v09\_24\_00
 -   2021-05-21 AndyChappell : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from imawby/feature/mc\_updates
 -   2021-01-15 Andrew Chappell : Add MC process to Pandora MC particles
 
-larsimrad v09\_01\_09(#larsimrad-v09_01_09)
+larsimrad v09\_01\_09
 ----------------------------------------------
 
-larrecodnn v09\_07\_00(#larrecodnn-v09_07_00)
+larrecodnn v09\_07\_00
 ------------------------------------------------
 
-larwirecell v09\_02\_07(#larwirecell-v09_02_07)
+larwirecell v09\_02\_07
 --------------------------------------------------
 
-larana v09\_02\_05(#larana-v09_02_05)
+larana v09\_02\_05
 ----------------------------------------
 
-larreco v09\_06\_05(#larreco-v09_06_05)
+larreco v09\_06\_05
 ------------------------------------------
 
-larsim v09\_13\_02(#larsim-v09_13_02)
+larsim v09\_13\_02
 ----------------------------------------
 
-larg4 v09\_03\_06(#larg4-v09_03_06)
+larg4 v09\_03\_06
 --------------------------------------
 
-larevt v09\_02\_05(#larevt-v09_02_05)
+larevt v09\_02\_05
 ----------------------------------------
 
-lardata v09\_02\_03(#lardata-v09_02_03)
+lardata v09\_02\_03
 ------------------------------------------
 
-larcore v09\_02\_01(#larcore-v09_02_01)
+larcore v09\_02\_01
 ------------------------------------------
 
-larpandoracontent v03\_23\_00(#larpandoracontent-v03_23_00)
+larpandoracontent v03\_23\_00
 --------------------------------------------------------------
 
 -   2021-05-25 Lynn Garren : larpandoracontent v03\_23\_00 for larsoft v09\_24\_00
@@ -209,26 +209,26 @@ larpandoracontent v03\_23\_00(#larpandoracontent-v03_23_00)
 -   2021-05-20 Andrew Chappell : Update version and ChangeLog
 -   2021-05-20 Valentin Volkl : Fix compilation: -Werror=range-loop-construct
 
-larsoftobj v09\_05\_03(#larsoftobj-v09_05_03)
+larsoftobj v09\_05\_03
 ------------------------------------------------
 
-lardataobj v09\_01\_02(#lardataobj-v09_01_02)
+lardataobj v09\_01\_02
 ------------------------------------------------
 
-lardataalg v09\_04\_03(#lardataalg-v09_04_03)
+lardataalg v09\_04\_03
 ------------------------------------------------
 
-larcorealg v09\_01\_01(#larcorealg-v09_01_01)
+larcorealg v09\_01\_01
 ------------------------------------------------
 
-larcoreobj v09\_02\_00(#larcoreobj-v09_02_00)
+larcoreobj v09\_02\_00
 ------------------------------------------------
 
-webevd v09\_05\_04(#webevd-v09_05_04)
+webevd v09\_05\_04
 ----------------------------------------
 
-larbatch v01\_56\_01(#larbatch-v01_56_01)
+larbatch v01\_56\_01
 --------------------------------------------
 
-larutils v1\_28\_00(#larutils-v1_28_00)
+larutils v1\_28\_00
 ------------------------------------------

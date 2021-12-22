@@ -1,4 +1,4 @@
-LArSoft v09\_27\_00 Release Notes(#LArSoft-v09_27_00-Release-Notes)
+LArSoft v09\_27\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_27\_00 Release Notes(#LArSoft-v09_27_00-Release-Notes)
 Download instructions for [larsoft v09\_27\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_27_00/larsoft-v09_27_00.html)\
 Download instructions for [just larsoftobj v09\_06\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_06_01/larsoftobj-v09_06_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandoracontent PR 30
@@ -61,7 +61,7 @@ New features(#New-features)
     -   added NuSonic, port of cmssw SONIC; renamed Trtis to Triton; provided Sonic version of PointIdAlg to serve as example of how to use Sonic api
     -   SONIC provides a more uniform and transparent interface to the Nvidia Triton inference client so that the user need not worry about Triton specific details and greatly simplifies its use. This will make it easier for experiments to use Triton in their ML applications. NuSonic is a simplified version of cmssw’s SONIC, porting over only the relevant parts to Larsoft.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larreco PR 33
@@ -69,27 +69,27 @@ Bug fixes(#Bug-fixes)
     -   Updated to correctly use the Space-Charge service in ICARUS. Also some tweaks for refactoring.
     -   I have verified that the updated module does not change the output data at all except for the bugfixes.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_27\_00(#larsoft-v09_27_00)
+larsoft v09\_27\_00
 ------------------------------------------
 
 -   2021-07-20 Lynn Garren : larsoft v09\_27\_00 for larsoft v09\_27\_00
 -   2021-07-20 Lynn Garren : product versions
 
-lareventdisplay v09\_01\_14(#lareventdisplay-v09_01_14)
+lareventdisplay v09\_01\_14
 ----------------------------------------------------------
 
 -   2021-07-20 Lynn Garren : lareventdisplay v09\_01\_14 for larsoft v09\_27\_00
 
-larexamples v09\_01\_13(#larexamples-v09_01_13)
+larexamples v09\_01\_13
 --------------------------------------------------
 
-larpandora v09\_07\_00(#larpandora-v09_07_00)
+larpandora v09\_07\_00
 ------------------------------------------------
 
 -   2021-07-20 Lynn Garren : larpandora v09\_07\_00 for larsoft v09\_27\_00
@@ -105,10 +105,10 @@ larpandora v09\_07\_00(#larpandora-v09_07_00)
 -   2021-07-01 Edward Tyley : Tidy up cheating tools
 -   2021-06-30 Edward Tyley : Make cheating of intial track hits sensible for photons
 
-larsimrad v09\_01\_13(#larsimrad-v09_01_13)
+larsimrad v09\_01\_13
 ----------------------------------------------
 
-larrecodnn v09\_08\_00(#larrecodnn-v09_08_00)
+larrecodnn v09\_08\_00
 ------------------------------------------------
 
 -   2021-07-20 Lynn Garren : larrecodnn v09\_08\_00 for larsoft v09\_27\_00
@@ -118,37 +118,37 @@ larrecodnn v09\_08\_00(#larrecodnn-v09_08_00)
 -   2021-07-14 Michael Wang : address Kyle’s recommendations from PR
 -   2021-06-22 Michael Wang : added NuSonic, port of cmssw Sonic; renamed Trtis to Triton; added Sonic version of PointIdAlg
 
-larwirecell v09\_02\_10(#larwirecell-v09_02_10)
+larwirecell v09\_02\_10
 --------------------------------------------------
 
-larana v09\_02\_10(#larana-v09_02_10)
+larana v09\_02\_10
 ----------------------------------------
 
 -   2021-07-20 Lynn Garren : larana v09\_02\_10 for larsoft v09\_27\_00
 
-larreco v09\_06\_10(#larreco-v09_06_10)
+larreco v09\_06\_10
 ------------------------------------------
 
 -   2021-07-20 Lynn Garren : larreco v09\_06\_10 for larsoft v09\_27\_00
 -   2021-07-20 Lynn Garren : Merge pull request \#33 from SBNSoftware/feature/gputnam-calo-update
 -   2021-07-12 gputnam : Correctly apply GetPosOffsets in ICARUS. Refactoring tweaks.
 
-larsim v09\_14\_02(#larsim-v09_14_02)
+larsim v09\_14\_02
 ----------------------------------------
 
-larg4 v09\_03\_09(#larg4-v09_03_09)
+larg4 v09\_03\_09
 --------------------------------------
 
-larevt v09\_02\_08(#larevt-v09_02_08)
+larevt v09\_02\_08
 ----------------------------------------
 
-lardata v09\_02\_06(#lardata-v09_02_06)
+lardata v09\_02\_06
 ------------------------------------------
 
-larcore v09\_02\_02(#larcore-v09_02_02)
+larcore v09\_02\_02
 ------------------------------------------
 
-larpandoracontent v03\_24\_00(#larpandoracontent-v03_24_00)
+larpandoracontent v03\_24\_00
 --------------------------------------------------------------
 
 -   2021-07-20 Lynn Garren : larpandoracontent v03\_24\_00 for larsoft v09\_27\_00
@@ -161,26 +161,26 @@ larpandoracontent v03\_24\_00(#larpandoracontent-v03_24_00)
 -   2021-07-16 AndyChappell : Merge pull request [\#179](/redmine/issues/179 "Feature: Provide web interface and code to enable Tasks to be deleted (Closed)") from AndyChappell/fix/track\_splitting
 -   2021-07-12 Andrew Chappell : Fix bug where tracks won’t split at max x position
 
-larsoftobj v09\_06\_01(#larsoftobj-v09_06_01)
+larsoftobj v09\_06\_01
 ------------------------------------------------
 
-lardataobj v09\_01\_04(#lardataobj-v09_01_04)
+lardataobj v09\_01\_04
 ------------------------------------------------
 
-lardataalg v09\_04\_05(#lardataalg-v09_04_05)
+lardataalg v09\_04\_05
 ------------------------------------------------
 
-larcorealg v09\_01\_02(#larcorealg-v09_01_02)
+larcorealg v09\_01\_02
 ------------------------------------------------
 
-larcoreobj v09\_02\_01(#larcoreobj-v09_02_01)
+larcoreobj v09\_02\_01
 ------------------------------------------------
 
-webevd v09\_05\_07(#webevd-v09_05_07)
+webevd v09\_05\_07
 ----------------------------------------
 
-larbatch v01\_56\_01(#larbatch-v01_56_01)
+larbatch v01\_56\_01
 --------------------------------------------
 
-larutils v1\_28\_00(#larutils-v1_28_00)
+larutils v1\_28\_00
 ------------------------------------------

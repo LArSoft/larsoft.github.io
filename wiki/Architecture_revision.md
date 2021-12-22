@@ -1,4 +1,4 @@
-LArSoft architecture review(#LArSoft-architecture-review)
+LArSoft architecture review
 ============================================================
 
 -   **Table of contents**
@@ -42,7 +42,7 @@ Main points:
 -   **generic interfaces**: code that needs to be experiment-specific should at least share a common interface
 -   **software architecture**: flawless design of the algorithms and the modules driving them
 
-Operative summary: modules(#Operative-summary-modules)
+Operative summary: modules
 ---------------------------------------------------------
 
 The ones we received so far:
@@ -155,7 +155,7 @@ Michelle Stancari
 
 to be assessed
 
-Operative summary: services(#Operative-summary-services)
+Operative summary: services
 -----------------------------------------------------------
 
   Service name                Author(s)            Assignee                            Issue tracker                                                                                           Tentative delivery date                Status
@@ -173,13 +173,13 @@ Operative summary: services(#Operative-summary-services)
 
 Details of the changes required for existing code are in the [core services migration](Core_Services_Review) page.
 
-Operative summary: data products(#Operative-summary-data-products)
+Operative summary: data products
 ---------------------------------------------------------------------
 
 No further data products review is scheduled for 2015.\
 Revision of `recob::Track` may happen at a later time.
 
-Interoperability(#Interoperability)
+Interoperability
 --------------------------------------
 
 Main points:
@@ -196,21 +196,21 @@ Main points:
         -   origin of the coordinate system
     -   time reference
 
-### Example actions and recommendations(#Example-actions-and-recommendations)
+### Example actions and recommendations
 
 This section provided the base for (and was moved to): \
 [https://cdcvs.fnal.govGuidelines\_on\_using\_the\_geometry?parent=Developing\_With\_LArSoft](https://cdcvs.fnal.govGuidelines_on_using_the_geometry?parent=Developing_With_LArSoft)
 
-### Summary(#Summary)
+### Summary
 
 Due to the huge amount of work required to check the code, we rely on our most active multi-TPC LArSoft user, DUNE, to establish priorities.
 
-### `ClusterCrawler`(#ClusterCrawler)
+### `ClusterCrawler`
 
 The work on `ClusterCrawler` was performed by Gianluca Petrillo with support from Bruce Baller.\
 Testing and bug fixing was performed by Tingjun Yang and Gianluca Petrillo with support from Bruce Baller.
 
-#### Code analysis(#Code-analysis)
+#### Code analysis
 
 The code is already organized in algorithms.\
 There are three of them:
@@ -223,7 +223,7 @@ All the algorithms are called in sequence by `ClusterCrawler` module.\
 The module loads the `recob:Wire`, runs the algorithms and finally converts all the temporary structures of `ClusterCrawlerAlg` into LArSoft data products and `art` associations.\
 The output from `CCHitFinderAlg` is *not* converted into LArSoft data products.
 
-#### Actions(#Actions)
+#### Actions
 
 Required actions:
 
@@ -235,30 +235,30 @@ Additional actions suggested:
 -   review the form of the code to use variables as locally as possible
 -   use consistent and proper data types (most often `size_t` and `int`)
 
-### `TrackKalmanHit`(#TrackKalmanHit)
+### `TrackKalmanHit`
 
-#### Code analysis(#Code-analysis-2)
+#### Code analysis
 
 Pending.
 
-#### Actions(#Actions-2)
+#### Actions
 
 To be determined.
 
-### `ShowerReco3D`(#ShowerReco3D)
+### `ShowerReco3D`
 
-#### Code analysis(#Code-analysis-3)
+#### Code analysis
 
 In progress.\
 Observed:
 
 -   lack of TPC awareness
 
-#### Actions(#Actions-3)
+#### Actions
 
 To be determined.
 
-### `Geometry` service(#Geometry-service)
+### `Geometry` service
 
 We want to make the easiest possible to write code that is TPC-aware.\
 Changes in that direction are:
@@ -269,12 +269,12 @@ Changes in that direction are:
 
 Target delivery: June 2015.
 
-#### APA locator(#APA-locator)
+#### APA locator
 
 DUNE’s David Adams has suggested to have identifiers include the APA number.\
 Discussion is needed to understand how much redundancy would be introduced, how much breakage and whether it is general enough for all the experiments we know of (thinking in particular to SBND).
 
-Maintainability(#Maintainability)
+Maintainability
 ------------------------------------
 
 We want to identify and smooth the code that has become unmaintainable, i.e. for which it’s hard either to
@@ -283,13 +283,13 @@ We want to identify and smooth the code that has become unmaintainable, i.e. for
 -   fix existing bugs
 -   add new features
 
-### Event display(#Event-display)
+### Event display
 
 LArSoft’s event display has been reported to cover pretty well the whole range of unmaintainability features.
 
 Gianluca is doing preliminary assessment work.
 
-Factorization(#Factorization)
+Factorization
 --------------------------------
 
 Current goals are to have algorithms modular enough that they can be easily unit-tested.\
@@ -306,7 +306,7 @@ The entanglement of an algorithm with the framework can happen on many levels:
 -   **use of FHiCL configuration**: solution needs to be investigated by the LArSoft/LArLite integration subproject
 -   **use of `art` exceptions**: solution needs to be investigated by the LArSoft/LArLite integration subproject
 
-### Current guidelines:(#Current-guidelines)
+### Current guidelines:
 
 -   remove from the algorithms (and move into the module):
     -   `art::Handle<>` objects
@@ -329,7 +329,7 @@ The entanglement of an algorithm with the framework can happen on many levels:
 Keep in mind that these guidelines don’t need to be applied blindly. If in doubt, always ask a second opinion.\
 In general, this process has at least the direct effect of reducing the dependencies of the code and, indirectly, of improving the design by the mere fact that we think of it.
 
-Generic interfaces(#Generic-interfaces)
+Generic interfaces
 ------------------------------------------
 
 Some possible candidates for generic interface:
@@ -338,12 +338,12 @@ Some possible candidates for generic interface:
 -   raw data calibration: `CalWire`-class modules
 -   database interface
 
-### Database interface(#Database-interface)
+### Database interface
 
 Discussion is ongoing including elements from DUNE and MicroBooNE.\
 People involved in the development of a solution include Erica Snider (LArSoft), Jonathan Paley (DUNE), Brandon Eberly, Kazuhiro Terao (MicroBooNE).
 
-Software architecture(#Software-architecture)
+Software architecture
 ------------------------------------------------
 
 The main points to consider:
@@ -352,7 +352,7 @@ The main points to consider:
 -   thread safety
 -   bottlenecks, typically identified by code profiling
 
-### Thread safety(#Thread-safety)
+### Thread safety
 
 Thread safety is a bit of a moving target so far, since we don’t have a precise idea of how `art` is going to offer multi-threading.\
 Multi-threading at the module level, or algorithm level, requires at the very least
@@ -367,10 +367,10 @@ Thread safe services are a sensitive point. `RandomGeneratorService` is not thre
 Making our own algorithm thread-safe implies a series of quite well-known practices, like careful avoidance of data racing (or its management) and revulsion of global variables.\
 The multi-thread library we are recommended to use is Intel’s Thread Building Blocks (TBB), already a dependency of `art`. To avoid mixing libraries, the use of C++ thread library (`threads`) is blandly discouraged.
 
-LArSoft modules(#LArSoft-modules)
+LArSoft modules
 ------------------------------------
 
-### List of modules used in MicroBooNE’s Monte Carlo Challenge 6(#List-of-modules-used-in-MicroBooNEs-Monte-Carlo-Challenge-6)
+### List of modules used in MicroBooNE’s Monte Carlo Challenge 6
 
 Phase
 
@@ -466,7 +466,7 @@ analysis
 
 `AnalysisTree`
 
-### List of modules used in DUNE 35t’s Monte Carlo Challenge 2(#List-of-modules-used-in-DUNE-35ts-Monte-Carlo-Challenge-2)
+### List of modules used in DUNE 35t’s Monte Carlo Challenge 2
 
 Phase
 
@@ -540,7 +540,7 @@ analysis
 
 `PFParticleAnalysis`
 
-### List of candidate modules(#List-of-candidate-modules)
+### List of candidate modules
 
 This list currently merges the standard generation, simulation, reconstruction and analysis chains from MicroBooNE (MCC 6) and DUNE 35t (MCC 2).
 
@@ -612,7 +612,7 @@ Legend: “Modular” column
 > x only partially modular, still needs some work\
 > x fully modular
 
-### List of candidate services(#List-of-candidate-services)
+### List of candidate services
 
 LArSoft services:
 

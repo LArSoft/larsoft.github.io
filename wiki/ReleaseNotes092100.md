@@ -1,4 +1,4 @@
-LArSoft v09\_21\_00 Release Notes(#LArSoft-v09_21_00-Release-Notes)
+LArSoft v09\_21\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_21\_00 Release Notes(#LArSoft-v09_21_00-Release-Notes)
 Download instructions for [larsoft v09\_21\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_21_00/larsoft-v09_21_00.html)\
 Download instructions for [just larsoftobj v09\_05\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_01/larsoftobj-v09_05_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsim PR 64
@@ -52,68 +52,68 @@ New features(#New-features)
 -   larutils PRs 9 and 10
     -   update SBN and SBND build scripts
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larbatch PR 14
     -   resolve [\#25709](/redmine/issues/25709 "Bug: project.py: Parse error in expression (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   sundials v5\_6\_1a
 -   stan\_math v4\_0\_1
 -   stan v2\_26\_1
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_21\_00(#larsoft-v09_21_00)
+larsoft v09\_21\_00
 ------------------------------------------
 
 -   2021-04-07 Lynn Garren : larsoft v09\_21\_00 for larsoft v09\_21\_00
 -   2021-04-07 Lynn Garren : product versions
 -   2021-04-07 Lynn Garren : sundials v5\_6\_1a, stan\_math v4\_0\_1, stan v2\_26\_1
 
-lareventdisplay v09\_01\_06(#lareventdisplay-v09_01_06)
+lareventdisplay v09\_01\_06
 ----------------------------------------------------------
 
 -   2021-04-07 Lynn Garren : lareventdisplay v09\_01\_06 for larsoft v09\_21\_00
 
-larexamples v09\_01\_06(#larexamples-v09_01_06)
+larexamples v09\_01\_06
 --------------------------------------------------
 
 -   2021-04-07 Lynn Garren : larexamples v09\_01\_06 for larsoft v09\_21\_00
 
-larpandora v09\_05\_07(#larpandora-v09_05_07)
+larpandora v09\_05\_07
 ------------------------------------------------
 
 -   2021-04-07 Lynn Garren : larpandora v09\_05\_07 for larsoft v09\_21\_00
 
-larsimrad v09\_01\_06(#larsimrad-v09_01_06)
+larsimrad v09\_01\_06
 ----------------------------------------------
 
 -   2021-04-07 Lynn Garren : larsimrad v09\_01\_06 for larsoft v09\_21\_00
 
-larrecodnn v09\_06\_05(#larrecodnn-v09_06_05)
+larrecodnn v09\_06\_05
 ------------------------------------------------
 
 -   2021-04-07 Lynn Garren : larrecodnn v09\_06\_05 for larsoft v09\_21\_00
 
-larwirecell v09\_02\_03(#larwirecell-v09_02_03)
+larwirecell v09\_02\_03
 --------------------------------------------------
 
-larana v09\_02\_02(#larana-v09_02_02)
+larana v09\_02\_02
 ----------------------------------------
 
 -   2021-04-07 Lynn Garren : larana v09\_02\_02 for larsoft v09\_21\_00
 
-larreco v09\_06\_02(#larreco-v09_06_02)
+larreco v09\_06\_02
 ------------------------------------------
 
 -   2021-04-07 Lynn Garren : larreco v09\_06\_02 for larsoft v09\_21\_00
 
-larsim v09\_12\_00(#larsim-v09_12_00)
+larsim v09\_12\_00
 ----------------------------------------
 
 -   2021-04-07 Lynn Garren : larsim v09\_12\_00 for larsoft v09\_21\_00
@@ -136,47 +136,47 @@ larsim v09\_12\_00(#larsim-v09_12_00)
 -   2019-04-16 Steven Gardiner : Refactor the EventWeight module to use the new evgb::SetEventGeneratorListAndTune() function to configure GENIE.
 -   2018-12-19 Steven Gardiner : In GenieWeightCalc.cxx, add checks of the GENIE\_PRE\_R3 preprocessor macro around GENIE headers and references to the pion or nucleon elastic fate FSI tweak dials (removed in hA2018 for GENIE v3)
 
-larg4 v09\_03\_03(#larg4-v09_03_03)
+larg4 v09\_03\_03
 --------------------------------------
 
-larevt v09\_02\_02(#larevt-v09_02_02)
+larevt v09\_02\_02
 ----------------------------------------
 
-lardata v09\_02\_01(#lardata-v09_02_01)
+lardata v09\_02\_01
 ------------------------------------------
 
-larcore v09\_02\_01(#larcore-v09_02_01)
+larcore v09\_02\_01
 ------------------------------------------
 
-larpandoracontent v03\_22\_09(#larpandoracontent-v03_22_09)
+larpandoracontent v03\_22\_09
 --------------------------------------------------------------
 
-larsoftobj v09\_05\_01(#larsoftobj-v09_05_01)
+larsoftobj v09\_05\_01
 ------------------------------------------------
 
-lardataobj v09\_01\_01(#lardataobj-v09_01_01)
+lardataobj v09\_01\_01
 ------------------------------------------------
 
-lardataalg v09\_04\_01(#lardataalg-v09_04_01)
+lardataalg v09\_04\_01
 ------------------------------------------------
 
-larcorealg v09\_01\_01(#larcorealg-v09_01_01)
+larcorealg v09\_01\_01
 ------------------------------------------------
 
-larcoreobj v09\_02\_00(#larcoreobj-v09_02_00)
+larcoreobj v09\_02\_00
 ------------------------------------------------
 
-webevd v09\_05\_02(#webevd-v09_05_02)
+webevd v09\_05\_02
 ----------------------------------------
 
-larbatch v01\_55\_01(#larbatch-v01_55_01)
+larbatch v01\_55\_01
 --------------------------------------------
 
 -   2021-04-07 Lynn Garren : larbatch v01\_55\_01 for larsoft v09\_21\_00
 -   2021-04-05 Lynn Garren : Merge pull request \#14 from PetrilloAtWork/feature/gp\_containerQuotingFix
 -   2021-04-02 Gianluca Petrillo : Fixed quoting of jobsub option specifying singularity image
 
-larutils v1\_28\_00(#larutils-v1_28_00)
+larutils v1\_28\_00
 ------------------------------------------
 
 -   2021-04-07 Lynn Garren : larutils v1\_28\_00 for larsoft v09\_21\_00

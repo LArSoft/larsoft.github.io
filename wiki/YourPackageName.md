@@ -5,14 +5,14 @@
     -   [Usage](#Usage)
         -   [Technical description](#Technical-description)
 
-\<PackageName\>(#ltPackageNamegt)
+\<PackageName\>
 ====================================
 
 Put your package’s name in place of \<PackageName\>. Put your contact info under this heading, ie
 
 Author: Brian Rebel,
 
-Summary(#Summary)
+Summary
 --------------------
 
 A concise, but complete, statement of what this thing does.
@@ -20,7 +20,7 @@ A concise, but complete, statement of what this thing does.
 -   **Input**: objects…
 -   **Output**: objects…
 
-List of Parameters for the Modules in your Package(#List-of-Parameters-for-the-Modules-in-your-Package)
+List of Parameters for the Modules in your Package
 ----------------------------------------------------------------------------------------------------------
 
 Make a table describing the available parameters in each module, like
@@ -30,11 +30,11 @@ Make a table describing the available parameters in each module, like
   CmToInch    double   2.54            number of cm in one inch
   ----------- -------- --------------- --------------------------
 
-Usage(#Usage)
+Usage
 ----------------
 
 This is how you use it.
 
-### Technical description(#Technical-description)
+### Technical description
 
 A technical description of how it works. No need to skimp on the details here.

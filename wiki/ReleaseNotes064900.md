@@ -1,4 +1,4 @@
-LArSoft v06\_49\_00 Release Notes(#LArSoft-v06_49_00-Release-Notes)
+LArSoft v06\_49\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,21 +31,21 @@ LArSoft v06\_49\_00 Release Notes(#LArSoft-v06_49_00-Release-Notes)
 Download instructions for [larsoft v06\_49\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_49_00/larsoft-v06_49_00.html)\
 Download instructions for [just larsoftobj v1\_27\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_27_00/larsoftobj-v1_27_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 -   upgrade to art v2\_08\_03 (s54)
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco feature/bckhouse reco3d
     -   new charge deposition reconstruction module named SpacePointSolver
 -   lardata, larreco feature/usher\_cluster3dupdates
 
-Notes for art v2\_08\_03(#Notes-for-art-v2_08_03)
+Notes for art v2\_08\_03
 ----------------------------------------------------
 
 -   necessary changes for experiment code are in the feature/team\_for\_art\_2\_08 branch
@@ -57,7 +57,7 @@ Notes for art v2\_08\_03(#Notes-for-art-v2_08_03)
     -   an append statement cannot be used with a cout destination
 -   root has breaking change in TMatrixT
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- -------------- ------------ --------------------------------------------------------------------------------------------------
@@ -76,10 +76,10 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v5\_14\_00                  
   --------------- -------------- ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_49\_00(#larsoft-v06_49_00)
+larsoft v06\_49\_00
 ------------------------------------------
 
 -   2017-09-06 Lynn Garren : larsoft v06\_49\_00 for larsoft v06\_49\_00
@@ -96,7 +96,7 @@ larsoft v06\_49\_00(#larsoft-v06_49_00)
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 -   2017-08-28 Lynn Garren : PtrMaker is now in art
 
-lareventdisplay v06\_12\_00(#lareventdisplay-v06_12_00)
+lareventdisplay v06\_12\_00
 ----------------------------------------------------------
 
 -   2017-09-06 Lynn Garren : lareventdisplay v06\_12\_00 for larsoft v06\_49\_00
@@ -110,7 +110,7 @@ lareventdisplay v06\_12\_00(#lareventdisplay-v06_12_00)
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 -   2017-08-28 Lynn Garren : drop the first value in calls to getProductID
 
-larexamples v06\_07\_00(#larexamples-v06_07_00)
+larexamples v06\_07\_00
 --------------------------------------------------
 
 -   2017-09-06 Lynn Garren : larexamples v06\_07\_00 for larsoft v06\_49\_00
@@ -118,7 +118,7 @@ larexamples v06\_07\_00(#larexamples-v06_07_00)
 -   2017-08-31 Lynn Garren : Merge branch ‘develop’ into feature/team\_for\_art\_2\_08
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-larpandora v06\_16\_00(#larpandora-v06_16_00)
+larpandora v06\_16\_00
 ------------------------------------------------
 
 -   2017-09-06 Lynn Garren : larpandora v06\_16\_00 for larsoft v06\_49\_00
@@ -127,7 +127,7 @@ larpandora v06\_16\_00(#larpandora-v06_16_00)
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 -   2017-08-28 Lynn Garren : PtrMaker is now in art
 
-larwirecell v06\_07\_00(#larwirecell-v06_07_00)
+larwirecell v06\_07\_00
 --------------------------------------------------
 
 -   2017-09-06 Lynn Garren : larwirecell v06\_07\_00 for larsoft v06\_49\_00
@@ -135,7 +135,7 @@ larwirecell v06\_07\_00(#larwirecell-v06_07_00)
 -   2017-08-31 Lynn Garren : Merge branch ‘develop’ into feature/team\_for\_art\_2\_08
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-larana v06\_10\_00(#larana-v06_10_00)
+larana v06\_10\_00
 ----------------------------------------
 
 -   2017-09-06 Lynn Garren : larana v06\_10\_00 for larsoft v06\_49\_00
@@ -147,7 +147,7 @@ larana v06\_10\_00(#larana-v06_10_00)
 -   2017-08-31 Lynn Garren : Merge branch ‘develop’ into feature/team\_for\_art\_2\_08
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-larreco v06\_39\_00(#larreco-v06_39_00)
+larreco v06\_39\_00
 ------------------------------------------
 
 -   2017-09-06 Lynn Garren : larreco v06\_39\_00 for larsoft v06\_49\_00
@@ -222,7 +222,7 @@ larreco v06\_39\_00(#larreco-v06_39_00)
 -   2017-08-09 Giuseppe Cerati : various updates following Gianluca’s suggestions
 -   2017-08-09 Giuseppe Cerati : First version of a producer+tool to fit tracks. A dummy implementation of a tool is provided for testing and may be removed aferwards.
 
-larsim v06\_31\_00(#larsim-v06_31_00)
+larsim v06\_31\_00
 ----------------------------------------
 
 -   2017-09-06 Lynn Garren : larsim v06\_31\_00 for larsoft v06\_49\_00
@@ -230,7 +230,7 @@ larsim v06\_31\_00(#larsim-v06_31_00)
 -   2017-08-31 Lynn Garren : Merge branch ‘develop’ into feature/team\_for\_art\_2\_08
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-larevt v06\_16\_00(#larevt-v06_16_00)
+larevt v06\_16\_00
 ----------------------------------------
 
 -   2017-09-06 Lynn Garren : larevt v06\_16\_00 for larsoft v06\_49\_00
@@ -238,7 +238,7 @@ larevt v06\_16\_00(#larevt-v06_16_00)
 -   2017-08-31 Lynn Garren : Merge branch ‘develop’ into feature/team\_for\_art\_2\_08
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-lardata v06\_28\_00(#lardata-v06_28_00)
+lardata v06\_28\_00
 ------------------------------------------
 
 -   2017-09-06 Lynn Garren : lardata v06\_28\_00 for larsoft v06\_49\_00
@@ -258,7 +258,7 @@ lardata v06\_28\_00(#lardata-v06_28_00)
 -   2017-08-15 Lynn Garren : just call id.value()
 -   2017-08-15 Lynn Garren : This header is now a wrapper and is retained for backwards compatibility.
 
-larcore v06\_15\_00(#larcore-v06_15_00)
+larcore v06\_15\_00
 ------------------------------------------
 
 -   2017-09-06 Lynn Garren : larcore v06\_15\_00 for larsoft v06\_49\_00
@@ -266,7 +266,7 @@ larcore v06\_15\_00(#larcore-v06_15_00)
 -   2017-08-28 Lynn Garren : set FW\_SEARCH\_PATH
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-larpandoracontent v03\_07\_05(#larpandoracontent-v03_07_05)
+larpandoracontent v03\_07\_05
 --------------------------------------------------------------
 
 -   2017-09-06 Lynn Garren : larpandoracontent v03\_07\_05 for larsoft v06\_49\_00
@@ -276,7 +276,7 @@ larpandoracontent v03\_07\_05(#larpandoracontent-v03_07_05)
 -   2017-08-28 Lynn Garren : set FW\_SEARCH\_PATH
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-larsoftobj v1\_27\_00(#larsoftobj-v1_27_00)
+larsoftobj v1\_27\_00
 ----------------------------------------------
 
 -   2017-09-06 Lynn Garren : larsoftobj v1\_27\_00 for larsoft v06\_49\_00
@@ -288,7 +288,7 @@ larsoftobj v1\_27\_00(#larsoftobj-v1_27_00)
 -   2017-08-29 Lynn Garren : build with gallery v1\_05\_01
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-lardataobj v1\_21\_00(#lardataobj-v1_21_00)
+lardataobj v1\_21\_00
 ----------------------------------------------
 
 -   2017-09-06 Lynn Garren : lardataobj v1\_21\_00 for larsoft v06\_49\_00
@@ -298,7 +298,7 @@ lardataobj v1\_21\_00(#lardataobj-v1_21_00)
 -   2017-08-31 Lynn Garren : Merge branch ‘develop’ into feature/team\_for\_art\_2\_08
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-larcorealg v1\_07\_00(#larcorealg-v1_07_00)
+larcorealg v1\_07\_00
 ----------------------------------------------
 
 -   2017-09-06 Lynn Garren : larcorealg v1\_07\_00 for larsoft v06\_49\_00
@@ -307,7 +307,7 @@ larcorealg v1\_07\_00(#larcorealg-v1_07_00)
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 -   2017-08-28 Lynn Garren : fix the statistics line
 
-larcoreobj v1\_16\_00(#larcoreobj-v1_16_00)
+larcoreobj v1\_16\_00
 ----------------------------------------------
 
 -   2017-09-06 Lynn Garren : larcoreobj v1\_16\_00 for larsoft v06\_49\_00
@@ -315,10 +315,10 @@ larcoreobj v1\_16\_00(#larcoreobj-v1_16_00)
 -   2017-08-28 Lynn Garren : set FW\_SEARCH\_PATH
 -   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
 
-larbatch v01\_32\_04(#larbatch-v01_32_04)
+larbatch v01\_32\_04
 --------------------------------------------
 
-larutils v1\_19\_01(#larutils-v1_19_01)
+larutils v1\_19\_01
 ------------------------------------------
 
 -   2017-09-06 Lynn Garren : add s54

@@ -1,11 +1,11 @@
-Installation procedures(#Installation-procedures)
+Installation procedures
 ====================================================
 
 Each release of LArSoft has a release page on [SciSoft](http://scisoft.fnal.gov/scisoft/bundles/larsoft/)
 
 -   http://scisoft.fnal.gov/scisoft/bundles/larsoft/<version>/larsoft-<version>.html
 
-Installing a binary distribution(#Installing-a-binary-distribution)
+Installing a binary distribution
 ----------------------------------------------------------------------
 
 The pull script, pullProducts, will pull any release of larsoft.\
@@ -47,5 +47,5 @@ A link to this script, and any instructions particular to the release, will be f
 > -   Notice that you do not need to run pullProducts in the product directory.
 > -   Tarballs for each product to be installed will be copied to the directory you are in when you run pullProducts.
 
-[Old Download instructions](_Old_Download_instructions_)(#Old-Download-instructions)
+[Old Download instructions](_Old_Download_instructions_)
 ----------------------------------------------------------------------------------------------------------------------

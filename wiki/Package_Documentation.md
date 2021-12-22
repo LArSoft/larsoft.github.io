@@ -8,7 +8,7 @@
         -   [External packages](#External-packages)
     -   [Units](#Units)
 
-Package Documentation(#Package-Documentation)
+Package Documentation
 ================================================
 
 This is the complete list of packages. Each has a short description, and each has a link to the package’s full documentation.
@@ -28,7 +28,7 @@ A **package** usually provides any number of **modules** that performs similar t
 -   **Simulation**: modules for the simulation chain, please see the [Simulation](Simulation) page for an overview of the simulation
 -   **Utility**: no run time modules; provides services, classes or methods that are used by other packages
 
-LArSoft Packages(#LArSoft-Packages)
+LArSoft Packages
 --------------------------------------
 
 This is a (still-evolving) description of the packages within the LArSoft “distribution” that are unique to LArSoft.
@@ -64,12 +64,12 @@ For convenience, there’s a list of which namespace corresponds to which packag
   [Utilities](Utilities)                                                `util::`         Utility          Includes code to do FFT on RawData, find LAr parameters, etc
   [AnalysisExample](_AnalysisExample_)                                  `lar::example`   Instructional    Start here for LArSoft coding basics
 
-Other packages(#Other-packages)
+Other packages
 ----------------------------------
 
 LArSoft depends on several other packages. The list below is not exhaustive; it focuses on packages and namespaces that are most likely to be seen in LArSoft source code.
 
-### nutools(#nutools)
+### nutools
 
 [nutools](https://cdcvs.fnal.gov/redmine/projects/nusoft/repository/show/nutools) are packages shared by LArSoft and other neutrino experiments at Fermilab, including [nova](http://www-nova.fnal.gov/) and [mu2e](http://mu2e.fnal.gov/). The header files can be found in `$NUTOOLS_INC`.
 
@@ -80,7 +80,7 @@ LArSoft depends on several other packages. The list below is not exhaustive; it 
   SimulationBase       `simb::`    Base classes for truth and simulated particles
   G4Base               `g4b::`     Common classes for Geant4 simulation
 
-### ART(#ART)
+### ART
 
 [ART](https://cdcvs.fnal.gov/redmine/projects/art/wiki) is the software framework used by LArSoft. It’s maintained by the Fermilab computing division.
 
@@ -91,12 +91,12 @@ LArSoft depends on several other packages. The list below is not exhaustive; it 
   [FHICL](https://cdcvs.fnal.gov/redmine/projects/fhicl/documents)                                                                 `fhicl::`    Fermilab Hierarchical Configuration Language, used to configure jobs   `$FHICLCPP_INC/fhiclcpp`
   [messagefacility](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Tutorial_for_MessageFacility_v12_Configuration)   `mf::`       Controls the display of messages as a job runs                         `$MESSAGEFACILITY_INC/messagefacility`
 
-### Pandora(#Pandora)
+### Pandora
 
 The [Pandora](Pandora?parent=Package_Documentation) Software Development Kit provides a set of pattern recognition algorithms for use in LAr neutrino detectors.\
 Work is currently in progress to integrate these into the LArSoft framework.
 
-### External packages(#External-packages)
+### External packages
 
 These are package written and maintained by the general physics and computing communities.
 
@@ -158,7 +158,7 @@ ROOT and Geant4 do not use namespaces. In general, ROOT classes begin with “T�
 
 Some of these packages duplicate functionality; e.g., 4-vectors are implemented in both [ROOT](http://root.cern.ch/root/html522/TLorentzVector.html) and [CLHEP](http://proj-clhep.web.cern.ch/proj-clhep/doc/CLHEP_2_1_2_2/doxygen/html/LorentzVector_8h.html). Given a choice, use a package that’s higher in the above tables over one that’s lower; e.g., choose ROOT classes over their CLHEP equivalents.
 
-Units(#Units)
+Units
 ----------------
 
 To establish some standard, especially for values stored in ROOT files and N-tuples:

@@ -1,4 +1,4 @@
-LArSoft v06\_72\_00 Release Notes(#LArSoft-v06_72_00-Release-Notes)
+LArSoft v06\_72\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,13 +31,13 @@ LArSoft v06\_72\_00 Release Notes(#LArSoft-v06_72_00-Release-Notes)
 Download instructions for [larsoft v06\_72\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_72_00/larsoft-v06_72_00.html)\
 Download instructions for [just larsoftobj v1\_41\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_41_02/larsoftobj-v1_41_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   larpandoracontent update
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   new tutorial in [larexamples:source:larexamples/DebuggingExamples/CatchException](/redmine/projects/larexamples/repository/entry/larexamples/DebuggingExamples/CatchException) on how to interactively capture exception throwing in a *art* job with a debugger
@@ -48,70 +48,70 @@ New features(#New-features)
     -   larpandoracontent, larpandora
     -   uboonecode, uboonedata, dunetpc
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   cetpkgsupport v1\_14\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_72\_00(#larsoft-v06_72_00)
+larsoft v06\_72\_00
 ------------------------------------------
 
 -   2018-03-28 Lynn Garren : larsoft v06\_72\_00 for larsoft v06\_72\_00
 -   2018-03-28 Lynn Garren : cetpkgsupport v1\_14\_01
 -   2018-03-28 Lynn Garren : product versions and cetpkgsupport
 
-lareventdisplay v06\_18\_04(#lareventdisplay-v06_18_04)
+lareventdisplay v06\_18\_04
 ----------------------------------------------------------
 
 -   2018-03-28 Lynn Garren : lareventdisplay v06\_18\_04 for larsoft v06\_72\_00
 
-larexamples v06\_12\_00(#larexamples-v06_12_00)
+larexamples v06\_12\_00
 --------------------------------------------------
 
 -   2018-03-28 Lynn Garren : larexamples v06\_12\_00 for larsoft v06\_72\_00
 -   2018-03-22 Gianluca Petrillo : Fixed Doxygen glitches
 -   2018-03-22 Gianluca Petrillo : Added tutorial to use debugger to catch exceptions
 
-larpandora v06\_25\_04(#larpandora-v06_25_04)
+larpandora v06\_25\_04
 ------------------------------------------------
 
 -   2018-03-28 Lynn Garren : larpandora v06\_25\_04 for larsoft v06\_72\_00
 -   2018-03-22 a-d-smith : Switched settings from neutrino id tool to simple neutrino id tool
 
-larwirecell v06\_11\_04(#larwirecell-v06_11_04)
+larwirecell v06\_11\_04
 --------------------------------------------------
 
 -   2018-03-28 Lynn Garren : larwirecell v06\_11\_04 for larsoft v06\_72\_00
 
-larana v06\_18\_04(#larana-v06_18_04)
+larana v06\_18\_04
 ----------------------------------------
 
 -   2018-03-28 Lynn Garren : larana v06\_18\_04 for larsoft v06\_72\_00
 
-larreco v06\_57\_00(#larreco-v06_57_00)
+larreco v06\_57\_00
 ------------------------------------------
 
 -   2018-03-28 Lynn Garren : larreco v06\_57\_00 for larsoft v06\_72\_00
 -   2018-03-24 Christoph Alt : Update handling of long pulse trains
 
-larsim v06\_42\_04(#larsim-v06_42_04)
+larsim v06\_42\_04
 ----------------------------------------
 
 -   2018-03-28 Lynn Garren : larsim v06\_42\_04 for larsoft v06\_72\_00
 
-larevt v06\_19\_04(#larevt-v06_19_04)
+larevt v06\_19\_04
 ----------------------------------------
 
 -   2018-03-28 Lynn Garren : larevt v06\_19\_04 for larsoft v06\_72\_00
 -   2018-03-24 Dominic Brailsford : Add functionality to require that any of the particles in the fcl list need to be found in the event for the event to be saved, rather than demanding ALL of them be found. The default fcl functionality is to require all be found. This is controlled via a bool fcl parameters called RequireAllInterestingParticles.
 
-lardata v06\_42\_00(#lardata-v06_42_00)
+lardata v06\_42\_00
 ------------------------------------------
 
 -   2018-03-28 Lynn Garren : lardata v06\_42\_00 for larsoft v06\_72\_00
@@ -125,10 +125,10 @@ lardata v06\_42\_00(#lardata-v06_42_00)
 -   2018-01-31 Gianluca Petrillo : Added drift output to DetectorPropertiesStandard test
 -   2017-05-11 Gianluca Petrillo : Updated DetectorClocks documentation.
 
-larcore v06\_18\_01(#larcore-v06_18_01)
+larcore v06\_18\_01
 ------------------------------------------
 
-larpandoracontent v03\_11\_00(#larpandoracontent-v03_11_00)
+larpandoracontent v03\_11\_00
 --------------------------------------------------------------
 
 -   2018-03-28 Lynn Garren : larpandoracontent v03\_11\_00 for larsoft v06\_72\_00
@@ -209,19 +209,19 @@ larpandoracontent v03\_11\_00(#larpandoracontent-v03_11_00)
 -   2017-12-07 a-d-smith : Added functionality to LArMCParticleHelper to select reconstructable MCParticles with a given condition
 -   2017-12-01 a-d-smith : Added the LArFormattingHelper class to print coloured tables to the terminal
 
-larsoftobj v1\_41\_02(#larsoftobj-v1_41_02)
+larsoftobj v1\_41\_02
 ----------------------------------------------
 
-lardataobj v1\_29\_01(#lardataobj-v1_29_01)
+lardataobj v1\_29\_01
 ----------------------------------------------
 
-larcorealg v1\_18\_01(#larcorealg-v1_18_01)
+larcorealg v1\_18\_01
 ----------------------------------------------
 
-larcoreobj v1\_22\_00(#larcoreobj-v1_22_00)
+larcoreobj v1\_22\_00
 ----------------------------------------------
 
-larbatch v01\_38\_01(#larbatch-v01_38_01)
+larbatch v01\_38\_01
 --------------------------------------------
 
 -   2018-03-28 Lynn Garren : larbatch v01\_38\_01 for larsoft v06\_72\_00
@@ -230,7 +230,7 @@ larbatch v01\_38\_01(#larbatch-v01_38_01)
 -   2018-03-21 Lynn Garren : larsoft v06\_71\_00
 -   2018-03-20 Herbert Greenlee : Don’t make out/log directory more times than necessary.
 
-larutils v1\_22\_00(#larutils-v1_22_00)
+larutils v1\_22\_00
 ------------------------------------------
 
 -   2018-03-28 Lynn Garren : larutils v1\_22\_00 for larsoft v06\_72\_00

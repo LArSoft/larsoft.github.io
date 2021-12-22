@@ -1,4 +1,4 @@
-LArSoft v08\_45\_00 Release Notes(#LArSoft-v08_45_00-Release-Notes)
+LArSoft v08\_45\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -34,13 +34,13 @@ LArSoft v08\_45\_00 Release Notes(#LArSoft-v08_45_00-Release-Notes)
 Download instructions for [larsoft v08\_45\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_45_00/larsoft-v08_45_00.html)\
 Download instructions for [just larsoftobj v08\_27\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_27_01/larsoftobj-v08_27_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco/RecoAlg/ImagePatternAlgs moved into new repository larrecodnn
@@ -51,13 +51,13 @@ New features(#New-features)
     -   migration script MigrateImagePatternAlgs.sh (setup larsoft v08\_45\_00)
 -   TrajCluster and ClusterAna module improvements larreco PR 1
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   updates to the top level CMakeLists.txt file for all packages
     -   resolves the problem with using target-based ROOT libraries on macOS.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v4\_00\_01 - required for macOS
@@ -66,10 +66,10 @@ Updated dependencies(#Updated-dependencies)
 -   artdaq\_core v3\_05\_12
     -   tiny bug fix for one variable that shows up as maybe uninitialized
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_45\_00(#larsoft-v08_45_00)
+larsoft v08\_45\_00
 ------------------------------------------
 
 -   2020-03-04 Lynn Garren : its nice if you define the trtis\_clients version
@@ -83,52 +83,52 @@ larsoft v08\_45\_00(#larsoft-v08_45_00)
 -   2020-02-28 Lynn Garren : Merge pull request \#9 from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-lareventdisplay v08\_12\_05(#lareventdisplay-v08_12_05)
+lareventdisplay v08\_12\_05
 ----------------------------------------------------------
 
 -   2020-03-04 Lynn Garren : lareventdisplay v08\_12\_05 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larexamples v08\_06\_05(#larexamples-v08_06_05)
+larexamples v08\_06\_05
 --------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larexamples v08\_06\_05 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larg4 v08\_12\_03(#larg4-v08_12_03)
+larg4 v08\_12\_03
 --------------------------------------
 
 -   2020-03-04 Lynn Garren : larg4 v08\_12\_03 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larpandora v08\_11\_05(#larpandora-v08_11_05)
+larpandora v08\_11\_05
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larpandora v08\_11\_05 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larrecodnn v08\_00\_00(#larrecodnn-v08_00_00)
+larrecodnn v08\_00\_00
 ------------------------------------------------
 
-larwirecell v08\_12\_05(#larwirecell-v08_12_05)
+larwirecell v08\_12\_05
 --------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larwirecell v08\_12\_05 for larsoft v08\_45\_00
 -   2020-02-27 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larana v08\_16\_05(#larana-v08_16_05)
+larana v08\_16\_05
 ----------------------------------------
 
 -   2020-03-04 Lynn Garren : larana v08\_16\_05 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larreco v08\_29\_00(#larreco-v08_29_00)
+larreco v08\_29\_00
 ------------------------------------------
 
 -   2020-03-04 Lynn Garren : larreco v08\_29\_00 for larsoft v08\_45\_00
@@ -229,28 +229,28 @@ larreco v08\_29\_00(#larreco-v08_29_00)
 -   2019-09-29 baller : 3D vertex improvements
 -   2019-09-23 baller : Tweak to get a build
 
-larsim v08\_20\_01(#larsim-v08_20_01)
+larsim v08\_20\_01
 ----------------------------------------
 
 -   2020-03-04 Lynn Garren : larsim v08\_20\_01 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request \#8 from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larevt v08\_10\_05(#larevt-v08_10_05)
+larevt v08\_10\_05
 ----------------------------------------
 
 -   2020-03-04 Lynn Garren : larevt v08\_10\_05 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-lardata v08\_14\_04(#lardata-v08_14_04)
+lardata v08\_14\_04
 ------------------------------------------
 
 -   2020-03-04 Lynn Garren : lardata v08\_14\_04 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larcore v08\_11\_01(#larcore-v08_11_01)
+larcore v08\_11\_01
 ------------------------------------------
 
 -   2020-03-04 Lynn Garren : larcore v08\_11\_01 for larsoft v08\_45\_00
@@ -258,10 +258,10 @@ larcore v08\_11\_01(#larcore-v08_11_01)
 -   2020-02-27 Lynn Garren : fix whitespace
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larpandoracontent v03\_15\_15(#larpandoracontent-v03_15_15)
+larpandoracontent v03\_15\_15
 --------------------------------------------------------------
 
-larsoftobj v08\_27\_01(#larsoftobj-v08_27_01)
+larsoftobj v08\_27\_01
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larsoftobj v08\_27\_01 for larsoft v08\_45\_00
@@ -269,28 +269,28 @@ larsoftobj v08\_27\_01(#larsoftobj-v08_27_01)
 -   2020-02-27 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-lardataobj v08\_10\_04(#lardataobj-v08_10_04)
+lardataobj v08\_10\_04
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : lardataobj v08\_10\_04 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-lardataalg v08\_13\_04(#lardataalg-v08_13_04)
+lardataalg v08\_13\_04
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : lardataalg v08\_13\_04 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larcorealg v08\_21\_01(#larcorealg-v08_21_01)
+larcorealg v08\_21\_01
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larcorealg v08\_21\_01 for larsoft v08\_45\_00
 -   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg\_modern\_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 
-larcoreobj v08\_10\_03(#larcoreobj-v08_10_03)
+larcoreobj v08\_10\_03
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larcoreobj v08\_10\_03 for larsoft v08\_45\_00
@@ -298,8 +298,8 @@ larcoreobj v08\_10\_03(#larcoreobj-v08_10_03)
 -   2020-02-27 Lynn Garren : declare project language and update cmake\_minimum\_required
 -   2020-02-17 Patrick Gartung : remove github actions
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_25\_07(#larutils-v1_25_07)
+larutils v1\_25\_07
 ------------------------------------------

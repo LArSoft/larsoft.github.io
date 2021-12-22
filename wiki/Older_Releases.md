@@ -1,4 +1,4 @@
-Retired Non-Production Releases(#Retired-Non-Production-Releases)
+Retired Non-Production Releases
 ====================================================================
 
 These releases are no longer installed on /grid/fermiapp/products/larsoft or cvmfs.
@@ -41,5 +41,5 @@ These releases are no longer installed on /grid/fermiapp/products/larsoft or cvm
   v02.00.01   06/03/2014   Weekly tag                                                                                                                                                                                                         
   v02.00.00   05/28/2014   merge ROI                                                                                                                             Region of Interest code changes                                              
 
-[Initial Releases](Initial_Releases)(#Initial-Releases)
+[Initial Releases](Initial_Releases)
 -----------------------------------------------------------------------------------------

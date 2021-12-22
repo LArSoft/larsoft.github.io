@@ -1,4 +1,4 @@
-Updating code to GCC 6(#Updating-code-to-GCC-6)
+Updating code to GCC 6
 ==================================================
 
 -   **Table of contents**
@@ -23,7 +23,7 @@ LArSoft `develop` branches have been updated, as tracked in issue [\#16096](/red
 
 ^1^ As a reminder, LArSoft settings escalate all warnings to errors, which can’t be ignored.
 
-Variable length array (`vla`)(#Variable-length-array-vla) {.wiki-class-count}
+Variable length array (`vla`)
 ------------------------------------------------------------
 
 A variable length array is a C array whose size is not known at compile time, usually from a variable. For example:\
@@ -44,7 +44,7 @@ The common solution is to use a dynamically allocated vector:\
 If this has too big an impact to the performance of your code (which might well be), please discuss \
 the issue with [LArSoft](mailto:larsoft@fnal.gov). There are alternative solutions which may be better, or worse.
 
-Indentations(#Indentations) {.wiki-class-count}
+Indentations
 ------------------------------
 
 The compiler checks the code for misleading indentations. This can happen when curly braces are not used after an `if` statement. In at least one case, this check turned up an actual bug where two lines were meant to be within the if block.\
@@ -106,7 +106,7 @@ Solutions are to use proper indentations and/or define the proper blocks within 
     if (plane >= planehits.size())
       throw cet::exception("TrackKalmanCheater") << "plane " << plane << "...\n";
 
-Headers(#Headers) {.wiki-class-count}
+Headers
 --------------------
 
 Sometimes code works because a required system header has been included upstream. When the compiler changes, the set of upstream headers might also change. Whenever code is using a variable directly, the appropriate header should be explicitly included.
@@ -123,7 +123,7 @@ Here is a simple example of a missing header. This particular problem can be res
 Missing headers are not always this easy to spot. See [\#16112](/redmine/issues/16112 "Support: larcore/CoreUtils/RealComparisons.h fails to compile with gcc 6.3.0 (Closed)") for another example.\
 This site can be very helpful in identifying the correct C++ header: [http://en.cppreference.com/w/cpp/algorithm](http://en.cppreference.com/w/cpp/algorithm)
 
-Missing parenthesis(#Missing-parenthesis) {.wiki-class-count}
+Missing parenthesis
 --------------------------------------------
 
 This test can be misinterpreted by a compiler:\

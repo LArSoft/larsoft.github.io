@@ -1,4 +1,4 @@
-LArSoft v08\_42\_00 Release Notes(#LArSoft-v08_42_00-Release-Notes)
+LArSoft v08\_42\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,19 +24,19 @@ LArSoft v08\_42\_00 Release Notes(#LArSoft-v08_42_00-Release-Notes)
 Download instructions for [larsoft v08\_42\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_42_00/larsoft-v08_42_00.html)\
 Download instructions for [just larsoftobj v08\_26\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_26_01/larsoftobj-v08_26_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Improvements to larpandora and larg4
 -   larbatch has been significantly updated to support Python 3
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 The following dependencies have either changes or been added for this release
@@ -127,10 +127,10 @@ v0\_13\_1a
 
 v0\_13\_1b
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_42\_00(#larsoft-v08_42_00)
+larsoft v08\_42\_00
 ------------------------------------------
 
 -   2020-02-06 Kyle Knoepfel : Moved tag for various reasons.
@@ -139,7 +139,7 @@ larsoft v08\_42\_00(#larsoft-v08_42_00)
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 -   2020-02-04 Kyle Knoepfel : Include hep\_hpc in larsoft distribution.
 
-lareventdisplay v08\_12\_02(#lareventdisplay-v08_12_02)
+lareventdisplay v08\_12\_02
 ----------------------------------------------------------
 
 -   2020-02-06 Kyle Knoepfel : Moved tag to use nuevdb v1\_02\_01
@@ -147,14 +147,14 @@ lareventdisplay v08\_12\_02(#lareventdisplay-v08_12_02)
 -   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
-larexamples v08\_06\_02(#larexamples-v08_06_02)
+larexamples v08\_06\_02
 --------------------------------------------------
 
 -   2020-02-05 Kyle Knoepfel : larexamples v08\_06\_02 for larsoft v08\_42\_00
 -   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
-larg4 v08\_12\_00(#larg4-v08_12_00)
+larg4 v08\_12\_00
 --------------------------------------
 
 -   2020-02-06 Kyle Knoepfel : Moved tag with larevt v08\_10\_02
@@ -169,32 +169,32 @@ larg4 v08\_12\_00(#larg4-v08_12_00)
 -   2020-02-02 David Rivera : Added NotStoredPhysics fhicl parameter which serves as an optional way to choose what physics processes are stored and which are not. If the NotStoredPHysics list is not provided, the keepEmShowerDaughters fhicl parameter behaves as usual.
 -   2020-01-29 Hans : auxdet that merges steps by particle, change verbosity of the analysis module
 
-larpandora v08\_11\_02(#larpandora-v08_11_02)
+larpandora v08\_11\_02
 ------------------------------------------------
 
 -   2020-02-05 Kyle Knoepfel : larpandora v08\_11\_02 for larsoft v08\_42\_00
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
-larwirecell v08\_12\_02(#larwirecell-v08_12_02)
+larwirecell v08\_12\_02
 --------------------------------------------------
 
 -   2020-02-06 Kyle Knoepfel : Moved tag with larevt v08\_10\_02
 -   2020-02-05 Kyle Knoepfel : larwirecell v08\_12\_02 for larsoft v08\_42\_00
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
-larana v08\_16\_02(#larana-v08_16_02)
+larana v08\_16\_02
 ----------------------------------------
 
 -   2020-02-05 Kyle Knoepfel : larana v08\_16\_02 for larsoft v08\_42\_00
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
-larreco v08\_27\_02(#larreco-v08_27_02)
+larreco v08\_27\_02
 ------------------------------------------
 
 -   2020-02-05 Kyle Knoepfel : larreco v08\_27\_02 for larsoft v08\_42\_00
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
-larsim v08\_19\_02(#larsim-v08_19_02)
+larsim v08\_19\_02
 ----------------------------------------
 
 -   2020-02-06 Kyle Knoepfel : Moved tag with larevt v08\_10\_02
@@ -203,13 +203,13 @@ larsim v08\_19\_02(#larsim-v08_19_02)
 -   2020-01-23 Kyle Knoepfel : Use clearer addSingle interface.
 -   2020-01-23 Kyle Knoepfel : Remove unnecessary CreateAssn argument.
 
-larevt v08\_10\_02(#larevt-v08_10_02)
+larevt v08\_10\_02
 ----------------------------------------
 
 -   2020-02-06 Kyle Knoepfel : larevt v08\_10\_02 for larsoft v08\_42\_00
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
-larpandoracontent v03\_15\_14(#larpandoracontent-v03_15_14)
+larpandoracontent v03\_15\_14
 --------------------------------------------------------------
 
 -   2020-02-05 Kyle Knoepfel : larpandoracontent v03\_15\_14 for larsoft v08\_42\_00
@@ -220,7 +220,7 @@ larpandoracontent v03\_15\_14(#larpandoracontent-v03_15_14)
 -   2020-01-15 Etienne Chardonnet : Clearer use of IsDualPhase parameter in CosmicVertexBuilding algorithm
 -   2020-01-07 Etienne Chardonnet : Added dual-phase option to change vertex from highest-Y to highest-X in CosmicRayVertexBuilding algorithm.
 
-larbatch v01\_52\_00(#larbatch-v01_52_00)
+larbatch v01\_52\_00
 --------------------------------------------
 
 -   2020-02-05 Kyle Knoepfel : Merge branch ‘release/v08\_42\_00’

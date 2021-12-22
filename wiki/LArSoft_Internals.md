@@ -1,4 +1,4 @@
-LArSoft Internals(#LArSoft-Internals)
+LArSoft Internals
 ========================================
 
 -   **Table of contents**
@@ -15,7 +15,7 @@ LArSoft Internals(#LArSoft-Internals)
     -   [Profiling tests](#Profiling-tests)
     -   [Legacy Redmine project sites](#Legacy-Redmine-project-sites)
 
-LArSoft code management and distribution(#LArSoft-code-management-and-distribution) {.wiki-class-count}
+LArSoft code management and distribution
 --------------------------------------------------------------------------------------
 
 -   [Adding / removing users](Adding__removing_users)
@@ -31,19 +31,19 @@ LArSoft code management and distribution(#LArSoft-code-management-and-distributi
 -   [LArSoft cvmfs](LArSoft_cvmfs)
 -   [Nightly builds](Nightly_builds) (no longer done)
 
-Repository cleanup(#Repository-cleanup) {.wiki-class-count}
+Repository cleanup
 ------------------------------------------
 
 -   [Removing old feature branches](Removing_old_feature_branches)
 -   [Removing old history](Removing_old_history)
 -   [Truncating commit history](Truncating_commit_history)
 
-who does what(#who-does-what) {.wiki-class-count}
+who does what
 --------------------------------
 
 [What Lynn does](What_Lynn_does)
 
-Pages to update and move(#Pages-to-update-and-move) {.wiki-class-count}
+Pages to update and move
 ------------------------------------------------------
 
 Some pages in LArSoft have a combination of useful and out-of-date information. It would be good to at least remove the out-of-date material, even better would be to update it. The following is a list. Feel free to revise any of the pages and suggest where they should go. (Note, some information may belong partly on larsoft.org and partly in redmine.)
@@ -58,10 +58,10 @@ Some pages in LArSoft have a combination of useful and out-of-date information. 
 -   [Optical Simulations](/redmine/projects/larsoftsvn/wiki/Optical_Simulations) - - look at legacy info, update, split?
 -   [dependencies](Dependencies)
 
-[FNAL Redmine tricks](FNAL_Redmine_tricks)(#FNAL-Redmine-tricks) {.wiki-class-count}
+[FNAL Redmine tricks](FNAL_Redmine_tricks)
 --------------------------------------------------------------------------------------------------
 
-Ongoing Projects(#Ongoing-Projects) {.wiki-class-count}
+Ongoing Projects
 --------------------------------------
 
 [Architecture revision](Architecture_revision)
@@ -74,30 +74,30 @@ Ongoing Projects(#Ongoing-Projects) {.wiki-class-count}
 
 [LArSoft License](LArSoft_License)
 
-Code cleanup(#Code-cleanup) {.wiki-class-count}
+Code cleanup
 ------------------------------
 
 -   [Services and modules scheduled for removal](Services_and_modules_scheduled_for_removal)
 
-Completed Projects(#Completed-Projects) {.wiki-class-count}
+Completed Projects
 ------------------------------------------
 
 [Building with clang](Building_with_clang)\
 [Migration to root 6](Migration_to_root_6)
 
-LArSoft code analysis(#LArSoft-code-analysis) {.wiki-class-count}
+LArSoft code analysis
 ------------------------------------------------
 
 -   [Code analysis process](https://cdcvs.fnal.govCode_analysis_process_and_tools)
 -   [Code and Performance analysis tools](Code_and_Performance_analysis_tools)
 -   [PMA module code analysis](PMA_module_code_analysis)
 
-Profiling tests(#Profiling-tests) {.wiki-class-count}
+Profiling tests
 ------------------------------------
 
 -   [ProtoDUNE and DUNE Far Detector simulation and reconstruction workflows (v06\_57\_00)](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00))
 
-Legacy Redmine project sites(#Legacy-Redmine-project-sites) {.wiki-class-count}
+Legacy Redmine project sites
 --------------------------------------------------------------
 
 These were the sites used when LArSoft was developed under cvs and svn + SoftRelTools, respectively:

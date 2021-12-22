@@ -1,4 +1,4 @@
-The new core services(#The-new-core-services)
+The new core services
 ================================================
 
 -   **Table of contents**
@@ -25,7 +25,7 @@ The new core services(#The-new-core-services)
 LArSoft architecture review on 2015 affected most of the “core” services.\
 Main changes are summarized in the table of contents:
 
-New service access pattern(#New-service-access-pattern)
+New service access pattern
 ----------------------------------------------------------
 
 **The old pattern**: use the service directly, e.g.:\
@@ -56,11 +56,11 @@ The service provider pointer should be obtained anew on each new event rather th
 
 > Important: you will **not** be able any more to access methods from the service: `art::ServiceHandle<detinfo::DetectorPropertiesService>()->Efield()` will *not* work.
 
-### How to update to the new service access pattern(#How-to-update-to-the-new-service-access-pattern)
+### How to update to the new service access pattern
 
 As described above, you can’t use the *art* services, nor their `ServiceHandle`, directly any more, as all the functionality has been moved one layer deeper, in the service providers.
 
-#### If your code declares and uses a *local service handle*…(#If-your-code-declares-and-uses-a-local-service-handle)
+#### If your code declares and uses a *local service handle*…
 
 … a service provider needs to be used instead.\
 
@@ -76,7 +76,7 @@ becomes:\
 \
 Note that the access looks the same (the second line in the example does not change), and only one header file is included (was `Utilities/DetectorProperties.h`, now is `DetectorInfoServices/DetectorPropertiesService.h`, see below).
 
-#### If your code uses a *service pointer or reference*…(#If-your-code-uses-a-service-pointer-or-reference)
+#### If your code uses a *service pointer or reference*…
 
 … a service provider needs to be used instead.\
 
@@ -92,7 +92,7 @@ becomes:\
 \
 This case is very similar to the previous one.
 
-#### If your algorithm class has a *service handle* member…(#If-your-algorithm-class-has-a-service-handle-member)
+#### If your algorithm class has a *service handle* member…
 
 … a service provider needs to be used instead.\
 You may have in your class declaration:\
@@ -138,7 +138,7 @@ Finally, the user code:\
 \
 remains the same.
 
-Renamed services(#Renamed-services)
+Renamed services
 --------------------------------------
 
   Old service                       New service                            I/F
@@ -492,7 +492,7 @@ Default implementation:
 
     Note that there is no header for the "standard" implementation of the art service (there is one for the provider).
 
-### Examples of update: `DetectorProperties` service(#Examples-of-update-DetectorProperties-service)
+### Examples of update: `DetectorProperties` service
 
 The first visible issue is that compilation fails for a missing header `Utilities/DetectorProperties.h`.
 
@@ -512,7 +512,7 @@ Changes:
 
 ^1^ Because the service has become an interface, and the interface itself is pure abstract, service library contains no code. The actual code will be loaded and linked by the framework at run time.
 
-### Examples of update: `TimeService` service(#Examples-of-update-TimeService-service)
+### Examples of update: `TimeService` service
 
 The first visible issue is that compilation fails for a missing header `Utilities/TimeService.h`.
 
@@ -532,7 +532,7 @@ Changes:
 
 ^1^ Because the service has become an interface, and the interface itself is pure abstract, service library contains no code. The actual code will be loaded and linked by the framework at run time.
 
-### Examples of update: `Geometry` service(#Examples-of-update-Geometry-service)
+### Examples of update: `Geometry` service
 
 The changes are backward-compatible, but future changes might break the “legacy” compatibility.
 
@@ -545,12 +545,12 @@ Changes:
 -   `art::ServiceHandle<geo::Geometry> geom;` -\> `geo::GeometryCore const* geom = lar::providerFrom<geo::Geometry>();`\
      (or `auto const* geom = lar::providerFrom<geo::Geometry>();`)
 
-### Additional steps for updating `DetectorPropertiesService` and `LArPropertiesService`(#Additional-steps-for-updating-DetectorPropertiesService-and-LArPropertiesService)
+### Additional steps for updating `DetectorPropertiesService` and `LArPropertiesService`
 
 Some parameters have been moved from `LArProperties` to `DetectorPropertiesService` (rather than `LArPropertiesService`) (see [the table below](#Functions-and-configuration-parameters-moved-from-one-service-to-another)).\
 If you are defining or overriding those parameters in your FHiCL file, you have to fix the definition to happen in the right parameter set, by replacing `LArProperties.` with `DetectorPropertiesService.` the path (in case of overriding) or by moving the line to the right service configuration (in case of complete definition of the service parameters).
 
-Core service dependencies(#Core-service-dependencies)
+Core service dependencies
 --------------------------------------------------------
 
 Some dependencies have changed. In particular, note the dropping of `DatabaseUtil` from the dependencies; `DatabaseUtil` is being now considered ArgoNeuT-specific.
@@ -563,7 +563,7 @@ Some dependencies have changed. In particular, note the dropping of `DatabaseUti
   `detinfo::LArPropertiesServiceStandard`        *none*
   `detinfo::DetectorPropertiesServiceStandard`   `geo::Geometry`, `detinfo::LArPropertiesService`, `detinfo::DetectorClocksService`
 
-Core services turned into service interfaces(#Core-services-turned-into-service-interfaces)
+Core services turned into service interfaces
 ----------------------------------------------------------------------------------------------
 
 To use a services marked as interface, the job FHiCL configuration must contain for it the specific implementation that is requested, by a `service_provider: ImplementationName` parameter.\
@@ -599,7 +599,7 @@ legacy, for ArgoNeuT; depends on `DatabaseUtil`
 
 legacy, for ArgoNeuT; depends on `LArPropertiesServiceArgoNeuT`
 
-New namespaces(#New-namespaces)
+New namespaces
 ----------------------------------
 
 The current organization of namespaces is:
@@ -613,7 +613,7 @@ The current organization of namespaces is:
 
 (also called "shove everything into `detinfo`")
 
-Functions and configuration parameters moved from one service to another(#Functions-and-configuration-parameters-moved-from-one-service-to-another)
+Functions and configuration parameters moved from one service to another
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
   Function                  Old service       New service                   New name        FHiCL parameter name
@@ -630,7 +630,7 @@ Functions and configuration parameters moved from one service to another(#Functi
   *(n/a)*                   `LArProperties`   `DetectorPropertiesService`   *(unchanged)*   `SternheimerX1`
   *(n/a)*                   `LArProperties`   `DetectorPropertiesService`   *(unchanged)*   `SternheimerCbar`
 
-### FHiCL parameter validation for `detutil::LArPropertiesStandard` and `detutil::DetectorPropertiesStandard`(#FHiCL-parameter-validation-for-detutilLArPropertiesStandard-and-detutilDetectorPropertiesStandard)
+### FHiCL parameter validation for `detutil::LArPropertiesStandard` and `detutil::DetectorPropertiesStandard`
 
 The new standard implementation of `detutil::LArProperties` and `detutil::DetectorProperties` use a feature of FHiCL C++ library, that allows documentation and validation of the configuration parameters.
 
@@ -641,7 +641,7 @@ That is typically because of mistyping; but in this case it may also be that, e.
 
 This exciting new feature is documented in [FHiCL wiki documentation](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Configuration_validation_and_description), and we encourage everybody to use it for algorithms as well. Also note that the validation does not depend on *art* (in fact, our service providers do use it).
 
-Summary of update steps(#Summary-of-update-steps)
+Summary of update steps
 ----------------------------------------------------
 
 -   “automatic” changes (compiler error if skipped):\
@@ -655,7 +655,7 @@ Summary of update steps(#Summary-of-update-steps)
 -   non-automatic changes (runtime error if skipped):\
      - add `service_provider` to service FHiCL configuration (if not inherited)
 
-### Helper script(#Helper-script)
+### Helper script
 
 As the previous paragraph also states, you are provided no tool for automatic conversion; but almost.\
 It is now provided in `larsoft` repository: `${LARSOFT_DIR}/bin/UpdateCoreServices.py` (you can copy it, but note that it needs its `SerialSubstitution.py` to be available, e.g., in the same directory).\
@@ -681,7 +681,7 @@ When you think it’s time to give it a try:
 
 > If you are lost or need help, *please contact the LArSoft team* (e.g. send an e-mail to `larsoft@fnal.gov` or open a redmine support ticket).
 
-The `ProviderPack` and `ServicePack` classes(#The-ProviderPack-and-ServicePack-classes)
+The `ProviderPack` and `ServicePack` classes
 ------------------------------------------------------------------------------------------
 
 If your algorithm needs multiple providers, it may be more convenient to define all of them in a structure.\

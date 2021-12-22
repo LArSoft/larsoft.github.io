@@ -1,4 +1,4 @@
-Geometry configuration check breaking change documentation(#Geometry-configuration-check-breaking-change-documentation)
+Geometry configuration check breaking change documentation
 ==========================================================================================================================
 
 Originally in [https://github.com/LArSoft/larcore/pull/6](https://github.com/LArSoft/larcore/pull/6)

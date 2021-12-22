@@ -1,4 +1,4 @@
-Run the quick CI tests(#Run-the-quick-CI-tests)
+Run the quick CI tests
 ==================================================
 
 -   **Table of contents**
@@ -15,12 +15,12 @@ It is important to update the [version numbers](Update_versions) before this ste
 
 This step is optional. In general, if a CI test has run successfully for any feature branches, we do not expect problems.
 
-Install packages for testing(#Install-packages-for-testing) {.wiki-class-count}
+Install packages for testing
 --------------------------------------------------------------
 
 -   Once `mrb t` completes successfully, run `make -jN install`. This will install packages in \$MRB\_INSTALL for testing.
 
-Setup the environment(#Setup-the-environment) {.wiki-class-count}
+Setup the environment
 ------------------------------------------------
 
 -   The CI tests must be run from a their own login session.
@@ -29,12 +29,12 @@ Setup the environment(#Setup-the-environment) {.wiki-class-count}
 -   source \<working area\>/localProdcts\*/setup
 -   DO NOT run mrbslp or do any further setup
 
-Run the CI tests(#Run-the-CI-tests) {.wiki-class-count}
+Run the CI tests
 --------------------------------------
 
 -   make an empty directory for the CI tests (e.g., \<new version\>/p/CI)
 
-### get a VO proxy(#get-a-VO-proxy) {.wiki-class-count}
+### get a VO proxy
 
     source /cvmfs/fermilab.opensciencegrid.org/products/common/etc/setups.sh
     setup cigetcert
@@ -42,7 +42,7 @@ Run the CI tests(#Run-the-CI-tests) {.wiki-class-count}
     voms-proxy-init -noregen -rfc -voms fermilab:/fermilab/lariat/Role=Analysis
     setup lar_ci
 
-### setup the experiment code(#setup-the-experiment-code) {.wiki-class-count}
+### setup the experiment code
 
 -   Be sure to run the e15 and c2 tests in separate login sessions.\
 
@@ -62,7 +62,7 @@ Run the CI tests(#Run-the-CI-tests) {.wiki-class-count}
         setup sbndcode <new version> -q c2:prof
         setup uboonecode <new version> -q c2:prof
 
-### Run the tests(#Run-the-tests) {.wiki-class-count}
+### Run the tests
 
     test_runner -v                     -c $ARGONEUTCODE_DIR/test/ci_tests.cfg quick_test_argoneutcode
     test_runner -v --parallel-limit 10 -c $LARIATSOFT_DIR/test/ci_tests.cfg quick_test_lariatsoft
@@ -70,7 +70,7 @@ Run the CI tests(#Run-the-CI-tests) {.wiki-class-count}
     test_runner -v --parallel-limit 10 -c $UBOONECODE_DIR/test/ci_tests.cfg quick_test_uboonecode
     test_runner -v --parallel-limit 20 -c $DUNETPC_DIR/test/ci_tests.cfg quick_test_dunetpc
 
-Deal with problems(#Deal-with-problems) {.wiki-class-count}
+Deal with problems
 ------------------------------------------
 
 -   Ignore warnings, but check any Fail report

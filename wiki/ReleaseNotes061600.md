@@ -1,4 +1,4 @@
-LArSoft v06\_16\_00 Release Notes(#LArSoft-v06_16_00-Release-Notes)
+LArSoft v06\_16\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -29,28 +29,28 @@ LArSoft v06\_16\_00 Release Notes(#LArSoft-v06_16_00-Release-Notes)
 Download instructions for [larsoft v06\_16\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_16_00/larsoft-v06_16_00.html)\
 Download instructions for [just larsoftobj v1\_08\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_08_01/larsoftobj-v1_08_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   use nutools v2\_08\_00
 -   merge approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco feature/bb\_TJWork
 -   lardata feature/ss\_ptrmaker
 -   lardata, larreco feature/tjyang\_TrackKalmanHitTrackHitMeta
 
-Breaking changes(#Breaking-changes)
+Breaking changes
 --------------------------------------
 
 -   [LArSeedService from larsim replaced by NuRandomService from nutools](Breaking_Changes#LArSeedService-from-larsim-replaced-by-NuRandomService-from-nutools)
     -   required changes for argoneutcode, dunetpc, lariatsoft, and uboonecode in feature/lg\_use\_nutools\_2\_08
     -   or just use the UpdateToNuRandomService.py script
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ --------------------------------------------------------------------------------------------------
@@ -60,10 +60,10 @@ Updated dependencies(#Updated-dependencies)
   mrb             v1\_08\_04                larsoft\_suite includes larwirecell
   --------------- ------------ ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_16\_00(#larsoft-v06_16_00)
+larsoft v06\_16\_00
 ------------------------------------------
 
 -   2016-11-29 Lynn Garren : larsoft v06\_16\_00 for larsoft v06\_16\_00
@@ -77,33 +77,33 @@ larsoft v06\_16\_00(#larsoft-v06_16_00)
 -   2016-11-28 Lynn Garren : update code to use NuRandomService
 -   2016-11-28 Lynn Garren : latest cetbuildtools
 
-lareventdisplay v06\_02\_03(#lareventdisplay-v06_02_03)
+lareventdisplay v06\_02\_03
 ----------------------------------------------------------
 
 -   2016-11-29 Lynn Garren : lareventdisplay v06\_02\_03 for larsoft v06\_16\_00
 
-larexamples v06\_01\_04(#larexamples-v06_01_04)
+larexamples v06\_01\_04
 --------------------------------------------------
 
 -   2016-11-29 Lynn Garren : larexamples v06\_01\_04 for larsoft v06\_16\_00
 
-larpandora v06\_03\_02(#larpandora-v06_03_02)
+larpandora v06\_03\_02
 ------------------------------------------------
 
 -   2016-11-29 Lynn Garren : larpandora v06\_03\_02 for larsoft v06\_16\_00
 
-larwirecell(#larwirecell)
+larwirecell
 ----------------------------
 
 -   2016-11-29 Lynn Garren : larwirecell for larsoft v06\_16\_00
 
-larana v06\_03\_07(#larana-v06_03_07)
+larana v06\_03\_07
 ----------------------------------------
 
 -   2016-11-29 Lynn Garren : larana v06\_03\_07 for larsoft v06\_16\_00
 -   2016-11-29 Lynn Garren : using NuRandomService
 
-larreco v06\_12\_00(#larreco-v06_12_00)
+larreco v06\_12\_00
 ------------------------------------------
 
 -   2016-11-29 Lynn Garren : larreco v06\_12\_00 for larsoft v06\_16\_00
@@ -277,7 +277,7 @@ larreco v06\_12\_00(#larreco-v06_12_00)
 -   2016-10-01 Tingjun Yang : Merge branch ‘feature/bb\_TJWork’ of [http://cdcvs.fnal.gov/projects/larreco](http://cdcvs.fnal.gov/projects/larreco) into feature/bb\_TJWork
 -   2016-09-29 Tingjun Yang : Merge branch ‘develop’ of [http://cdcvs.fnal.gov/projects/larreco](http://cdcvs.fnal.gov/projects/larreco) into feature/bb\_TJWork
 
-larsim v06\_08\_00(#larsim-v06_08_00)
+larsim v06\_08\_00
 ----------------------------------------
 
 -   2016-11-29 Lynn Garren : larsim v06\_08\_00 for larsoft v06\_16\_00
@@ -294,12 +294,12 @@ larsim v06\_08\_00(#larsim-v06_08_00)
 -   2016-11-23 Libo Jiang : added the new fcl files for gen stage
 -   2016-11-21 Lynn Garren : RandomUtils moved to nutools
 
-larevt v06\_06\_02(#larevt-v06_06_02)
+larevt v06\_06\_02
 ----------------------------------------
 
 -   2016-11-29 Lynn Garren : larevt v06\_06\_02 for larsoft v06\_16\_00
 
-lardata v06\_10\_00(#lardata-v06_10_00)
+lardata v06\_10\_00
 ------------------------------------------
 
 -   2016-11-29 Lynn Garren : lardata v06\_10\_00 for larsoft v06\_16\_00
@@ -327,19 +327,19 @@ lardata v06\_10\_00(#lardata-v06_10_00)
 -   2016-06-13 Saba Sehirsh : Merge branch ‘feature/gp\_RecoBaseDumpers’ into feature/ss\_ptrmaker
 -   2016-06-13 Saba Sehirsh : lar::PtrMaker moved to Utilities
 
-larcore v06\_04\_01(#larcore-v06_04_01)
+larcore v06\_04\_01
 ------------------------------------------
 
-larsoftobj v1\_08\_01(#larsoftobj-v1_08_01)
+larsoftobj v1\_08\_01
 ----------------------------------------------
 
-lardataobj v1\_07\_02(#lardataobj-v1_07_02)
+lardataobj v1\_07\_02
 ----------------------------------------------
 
-larcoreobj v1\_06\_01(#larcoreobj-v1_06_01)
+larcoreobj v1\_06\_01
 ----------------------------------------------
 
-larbatch v01\_24\_02(#larbatch-v01_24_02)
+larbatch v01\_24\_02
 --------------------------------------------
 
 -   2016-11-29 Lynn Garren : larbatch v01\_24\_02 for larsoft v06\_16\_00
@@ -391,5 +391,5 @@ larbatch v01\_24\_02(#larbatch-v01_24_02)
 -   2016-08-05 Joel Mousseau : Add in code to run multiple lar Stages in one worker node
 -   2016-07-13 Joel Mousseau : First import of on-grid validation scripts
 
-larutils v1\_11\_00(#larutils-v1_11_00)
+larutils v1\_11\_00
 ------------------------------------------

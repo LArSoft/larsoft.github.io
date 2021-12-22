@@ -1,4 +1,4 @@
-Initial Releases: v1\_xx\_yy and beta(#Initial-Releases-v1_xx_yy-and-beta)
+Initial Releases: v1\_xx\_yy and beta
 =============================================================================
 
 Release

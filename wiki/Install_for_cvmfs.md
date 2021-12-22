@@ -1,4 +1,4 @@
-Install for cvmfs(#Install-for-cvmfs)
+Install for cvmfs
 ========================================
 
 -   **Table of contents**
@@ -6,7 +6,7 @@ Install for cvmfs(#Install-for-cvmfs)
     -   [Install in /cvmfs/larsoft.opensciencegrid.org/products](#Install-in-cvmfslarsoftopensciencegridorgproducts)
     -   [Install in /grid/fermiapp/products/larsoft](#Install-in-gridfermiappproductslarsoft)
 
-Install in /cvmfs/larsoft.opensciencegrid.org/products(#Install-in-cvmfslarsoftopensciencegridorgproducts)
+Install in /cvmfs/larsoft.opensciencegrid.org/products
 -------------------------------------------------------------------------------------------------------------
 
 -   ssh
@@ -22,7 +22,7 @@ Install in /cvmfs/larsoft.opensciencegrid.org/products(#Install-in-cvmfslarsofto
 -   cvmfs\_server publish larsoft.opensciencegrid.org
 -   Note that the eXY distributions are available only for SLF. The c2 distributions are available for both SLF and macOS.
 
-Install in /grid/fermiapp/products/larsoft(#Install-in-gridfermiappproductslarsoft)
+Install in /grid/fermiapp/products/larsoft
 --------------------------------------------------------------------------------------
 
 -   login to uboonegpvmNN as larsoft

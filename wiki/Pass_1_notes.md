@@ -1,4 +1,4 @@
-Pass 1 notes(#Pass-1-notes)
+Pass 1 notes
 ==============================
 
 -   **Table of contents**
@@ -11,7 +11,7 @@ Pass 1 notes(#Pass-1-notes)
     -   [known issues](#known-issues)
     -   [commit and tag](#commit-and-tag)
 
-setup the working directory(#setup-the-working-directory)
+setup the working directory
 ------------------------------------------------------------
 
 -   working on woof using tools in laradmin v1\_08\_00
@@ -25,7 +25,7 @@ setup the working directory(#setup-the-working-directory)
 -   mrb g lariatsoft
 -   we now have argoneutcode, dunetpc, lar1ndcode, lariatsoft, uboonecode, and larsoft
 
-create the working tag(#create-the-working-tag)
+create the working tag
 --------------------------------------------------
 
 -   for larsoft, create the v05\_00\_branch from the LARSOFT\_SUITE\_v04\_36\_01 tag
@@ -33,7 +33,7 @@ create the working tag(#create-the-working-tag)
 -   setup laradmin v1\_08\_01 -z /home/garren/scratch/larsoft/myprod:/products
 -   make\_branch.sh LARSOFT\_SUITE\_v04\_36\_01
 
-refactor(#refactor)
+refactor
 ----------------------
 
 -   refactor\_larsoft.sh
@@ -58,7 +58,7 @@ refactor(#refactor)
     -   larreco/larreco/HitFinder/CMakeLists.txt
     -   larana/larana/OpticalDetector/CMakeLists.txt
 
-end user scripts(#end-user-scripts)
+end user scripts
 --------------------------------------
 
 We use the same scripts that the end user will use to fix their code.
@@ -70,7 +70,7 @@ We use the same scripts that the end user will use to fix their code.
 -   cd \$MRB\_SOURCE
 -   ./larsoft/bin/update\_sources.sh
 
-build(#build)
+build
 ----------------
 
 -   update the versions of the larsoft suite
@@ -90,14 +90,14 @@ build(#build)
 -   find a few missing entries for update\_sources.sh
 -   iterate until everything builds
 
-known issues(#known-issues)
+known issues
 ------------------------------
 
 -   argoneutcode geometry\_iterator\_loop\_argoneut\_test
     -   This test uses geometry\_microboone.fcl, which is found in uboonecode
     -   The test passes only if you build and test argoneutcode and uboonecode at the same time.
 
-commit and tag(#commit-and-tag)
+commit and tag
 ----------------------------------
 
 -   larcore larevt larpandora larsoft larana lardata larexamples larreco lareventdisplay larsim

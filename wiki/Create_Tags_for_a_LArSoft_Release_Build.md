@@ -1,4 +1,4 @@
-Create Tags for a LArSoft Release Build(#Create-Tags-for-a-LArSoft-Release-Build)
+Create Tags for a LArSoft Release Build
 ====================================================================================
 
 -   **Table of contents**
@@ -9,7 +9,7 @@ Create Tags for a LArSoft Release Build(#Create-Tags-for-a-LArSoft-Release-Build
         -   [tagging by hand](#tagging-by-hand)
     -   [Copy the build files to SciSoft](#Copy-the-build-files-to-SciSoft)
 
-Determine which packages to tag.(#Determine-which-packages-to-tag)
+Determine which packages to tag.
 ---------------------------------------------------------------------
 
 -   Make sure all experiment packages are removed from \$MRB\_SOURCE.
@@ -24,7 +24,7 @@ Determine which packages to tag.(#Determine-which-packages-to-tag)
 
     -   run “mrb uc” after removing packages
 
-Check the information for the build files(#Check-the-information-for-the-build-files)
+Check the information for the build files
 ----------------------------------------------------------------------------------------
 
 -   Each release needs a config file. We no longer use a source code manifest.
@@ -41,14 +41,14 @@ Check the information for the build files(#Check-the-information-for-the-build-f
     -   git commit this change to bundle, but NOT the change to ups/product\_deps
 -   build again
 
-Merge changes with the master branch and tag(#Merge-changes-with-the-master-branch-and-tag)
+Merge changes with the master branch and tag
 ----------------------------------------------------------------------------------------------
 
 -   NOTE: tagLAr will commit the changes to ups/product\_deps. Any other changes must be committed BEFORE running tagLAr.
 -   tagLAr tag \$MRB\_PROJECT\_VERSION
 -   Notice that we have not yet updated the develop branch. That step is done AFTER the build is complete and installed.
 
-### tagging by hand(#tagging-by-hand)
+### tagging by hand
 
 -   If a conflict occurs during the merge stage, this step must be done by hand for each package.\
 
@@ -62,7 +62,7 @@ Merge changes with the master branch and tag(#Merge-changes-with-the-master-bran
         git push origin master
         git push --tags
 
-Copy the build files to SciSoft(#Copy-the-build-files-to-SciSoft)
+Copy the build files to SciSoft
 --------------------------------------------------------------------
 
 -   Make a new build with all changes.

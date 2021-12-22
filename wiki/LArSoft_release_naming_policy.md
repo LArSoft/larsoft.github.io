@@ -1,7 +1,7 @@
-LArSoft release naming and retention policy(#LArSoft-release-naming-and-retention-policy)
+LArSoft release naming and retention policy
 ============================================================================================
 
-Release naming policies(#Release-naming-policies)
+Release naming policies
 ----------------------------------------------------
 
 -   All LArSoft release versions and core LArSoft products will use the following numbering convention: vMM\_mm\_pp
@@ -21,7 +21,7 @@ Release naming policies(#Release-naming-policies)
 
 Before new major releases of software are put into production each experiment signs off as accepting the code. Tests are encouraged using the continuous integration infrastructure. Minor releases of software are released weekly, with each experiment providing information of what code from the experiment specific branches they would like in the release.
 
-Release retention policies(#Release-retention-policies)
+Release retention policies
 ----------------------------------------------------------
 
 -   Releases are categorized into three classes for the purposes of retention policy

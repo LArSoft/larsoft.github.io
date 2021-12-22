@@ -1,4 +1,4 @@
-Fermilab Computing Access(#Fermilab-Computing-Access)
+Fermilab Computing Access
 ========================================================
 
 **For up-to-date information, please consult [https://fermi.servicenowservices.com/wp/](https://fermi.servicenowservices.com/wp/) The following is just for your convenience.**

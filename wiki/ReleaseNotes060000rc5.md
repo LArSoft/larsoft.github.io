@@ -1,4 +1,4 @@
-LArSoft v06\_00\_00\_rc5 Release Notes(#LArSoft-v06_00_00_rc5-Release-Notes)
+LArSoft v06\_00\_00\_rc5 Release Notes
 ===============================================================================
 
 -   **Table of contents**
@@ -22,22 +22,22 @@ LArSoft v06\_00\_00\_rc5 Release Notes(#LArSoft-v06_00_00_rc5-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc5/larsoft-v06_00_00_rc5.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Fix bug reported by MicroBooNE
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   This release tracks larsoft v05\_13\_00
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   memory leak in root 6 [\#12945](/redmine/issues/12945 "Bug: Excessive memory use in ROOT 6 build of uboonecode (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------- ------------ -----------------------------------------------------------------------------------------------------
@@ -49,10 +49,10 @@ Updated dependencies(#Updated-dependencies)
   mrb             v1\_07\_02                 
   --------------- ------------- ------------ -----------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_00\_00\_rc5(#larsoft-v06_00_00_rc5)
+larsoft v06\_00\_00\_rc5
 ---------------------------------------------------
 
 -   2016-06-23 Lynn Garren : update dependency database
@@ -69,7 +69,7 @@ larsoft v06\_00\_00\_rc5(#larsoft-v06_00_00_rc5)
 -   2016-06-08 Lynn Garren : update dependency database
 -   2016-05-20 Gianluca Petrillo : Update script for tests using geometry-aware tester environment
 
-lareventdisplay v06\_00\_00\_rc5(#lareventdisplay-v06_00_00_rc5)
+lareventdisplay v06\_00\_00\_rc5
 -------------------------------------------------------------------
 
 -   2016-06-23 Lynn Garren : rc5
@@ -78,7 +78,7 @@ lareventdisplay v06\_00\_00\_rc5(#lareventdisplay-v06_00_00_rc5)
 -   2016-06-15 Lynn Garren : lareventdisplay v05\_07\_02 for larsoft v05\_13\_00
 -   2016-06-08 Lynn Garren : lareventdisplay v05\_07\_01 for larsoft v05\_12\_01
 
-larexamples v06\_00\_00\_rc5(#larexamples-v06_00_00_rc5)
+larexamples v06\_00\_00\_rc5
 -----------------------------------------------------------
 
 -   2016-06-23 Lynn Garren : rc5
@@ -106,7 +106,7 @@ larexamples v06\_00\_00\_rc5(#larexamples-v06_00_00_rc5)
 -   2016-04-19 Hamlet : Merge remote-tracking branch ‘origin/develop’ into feature/gp\_ServiceExample
 -   2016-04-13 Gianluca Petrillo : Service example stub
 
-larpandora v06\_00\_00\_rc5(#larpandora-v06_00_00_rc5)
+larpandora v06\_00\_00\_rc5
 ---------------------------------------------------------
 
 -   2016-06-23 Lynn Garren : rc5
@@ -115,7 +115,7 @@ larpandora v06\_00\_00\_rc5(#larpandora-v06_00_00_rc5)
 -   2016-06-15 Lynn Garren : larpandora v05\_09\_07 for larsoft v05\_13\_00
 -   2016-06-08 Lynn Garren : larpandora v05\_09\_06 for larsoft v05\_12\_01
 
-larana v06\_00\_00\_rc5(#larana-v06_00_00_rc5)
+larana v06\_00\_00\_rc5
 -------------------------------------------------
 
 -   2016-06-23 Lynn Garren : rc5
@@ -125,7 +125,7 @@ larana v06\_00\_00\_rc5(#larana-v06_00_00_rc5)
 -   2016-06-14 Gianluca Petrillo : Update after modification to the unit test infrastructure
 -   2016-06-08 Lynn Garren : larana v05\_09\_03 for larsoft v05\_12\_01
 
-larreco v06\_00\_00\_rc5(#larreco-v06_00_00_rc5)
+larreco v06\_00\_00\_rc5
 ---------------------------------------------------
 
 -   2016-06-23 Lynn Garren : rc5
@@ -158,7 +158,7 @@ larreco v06\_00\_00\_rc5(#larreco-v06_00_00_rc5)
 -   2016-05-11 Lynn Garren : larreco v05\_11\_01 for larsoft v05\_11\_01
 -   2016-05-11 Bruce Baller : Check for invalid MC particle.
 
-larsim v06\_00\_00\_rc5(#larsim-v06_00_00_rc5)
+larsim v06\_00\_00\_rc5
 -------------------------------------------------
 
 -   2016-06-23 Lynn Garren : rc5
@@ -173,7 +173,7 @@ larsim v06\_00\_00\_rc5(#larsim-v06_00_00_rc5)
 -   2016-06-09 Lynn Garren : use larsimobj v06\_00\_00\_rc4
 -   2016-06-08 Lynn Garren : larsim v05\_12\_01 for larsoft v05\_12\_01
 
-larevt v06\_00\_00\_rc5(#larevt-v06_00_00_rc5)
+larevt v06\_00\_00\_rc5
 -------------------------------------------------
 
 -   2016-06-23 Lynn Garren : rc5
@@ -182,7 +182,7 @@ larevt v06\_00\_00\_rc5(#larevt-v06_00_00_rc5)
 -   2016-06-15 Lynn Garren : larevt v05\_07\_02 for larsoft v05\_13\_00
 -   2016-06-08 Lynn Garren : larevt v05\_07\_01 for larsoft v05\_12\_01
 
-lardata v06\_00\_00\_rc5(#lardata-v06_00_00_rc5)
+lardata v06\_00\_00\_rc5
 ---------------------------------------------------
 
 -   2016-06-23 Lynn Garren : rc5
@@ -204,7 +204,7 @@ lardata v06\_00\_00\_rc5(#lardata-v06_00_00_rc5)
 -   2016-05-03 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp\_TestInfrastructure
 -   2016-04-20 Hamlet : Update after test header move
 
-larcore v06\_00\_00\_rc5(#larcore-v06_00_00_rc5)
+larcore v06\_00\_00\_rc5
 ---------------------------------------------------
 
 -   2016-06-23 Lynn Garren : rc5

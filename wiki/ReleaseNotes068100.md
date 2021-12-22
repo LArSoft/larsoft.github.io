@@ -1,4 +1,4 @@
-LArSoft v06\_81\_00 Release Notes(#LArSoft-v06_81_00-Release-Notes)
+LArSoft v06\_81\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -32,13 +32,13 @@ LArSoft v06\_81\_00 Release Notes(#LArSoft-v06_81_00-Release-Notes)
 Download instructions for [larsoft v06\_81\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_81_00/larsoft-v06_81_00.html)\
 Download instructions for [just larsoftobj v1\_47\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_47_01/larsoftobj-v1_47_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larevt feature/eberly\_dbTimeoutFix
@@ -47,34 +47,34 @@ New features(#New-features)
     -   larpandoracontent larpandora feature/Pandora\_v03\_11\_00
     -   [https://indico.fnal.gov/event/17395/contribution/2/material/slides/0.pdf](https://indico.fnal.gov/event/17395/contribution/2/material/slides/0.pdf)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   pandora v03\_11\_00
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_81\_00(#larsoft-v06_81_00)
+larsoft v06\_81\_00
 ------------------------------------------
 
 -   2018-06-20 Lynn Garren : larsoft v06\_81\_00 for larsoft v06\_81\_00
 -   2018-06-20 Lynn Garren : pandora v03\_11\_00
 
-lareventdisplay v06\_20\_02(#lareventdisplay-v06_20_02)
+lareventdisplay v06\_20\_02
 ----------------------------------------------------------
 
 -   2018-06-20 Lynn Garren : lareventdisplay v06\_20\_02 for larsoft v06\_81\_00
 
-larexamples v06\_14\_02(#larexamples-v06_14_02)
+larexamples v06\_14\_02
 --------------------------------------------------
 
 -   2018-06-20 Lynn Garren : larexamples v06\_14\_02 for larsoft v06\_81\_00
 
-larpandora v06\_31\_00(#larpandora-v06_31_00)
+larpandora v06\_31\_00
 ------------------------------------------------
 
 -   2018-06-20 Lynn Garren : larpandora v06\_31\_00 for larsoft v06\_81\_00
@@ -102,17 +102,17 @@ larpandora v06\_31\_00(#larpandora-v06_31_00)
 -   2018-06-06 John Marshall : Correct sign of u/v wire angles when loading global daughter geometry.
 -   2018-05-17 John Marshall : Updated to handle a non-zero w wire angle. Sign convention for v wire angle also changed.
 
-larwirecell v06\_14\_02(#larwirecell-v06_14_02)
+larwirecell v06\_14\_02
 --------------------------------------------------
 
 -   2018-06-20 Lynn Garren : larwirecell v06\_14\_02 for larsoft v06\_81\_00
 
-larana v06\_20\_02(#larana-v06_20_02)
+larana v06\_20\_02
 ----------------------------------------
 
 -   2018-06-20 Lynn Garren : larana v06\_20\_02 for larsoft v06\_81\_00
 
-larreco v06\_62\_00(#larreco-v06_62_00)
+larreco v06\_62\_00
 ------------------------------------------
 
 -   2018-06-20 Lynn Garren : Merge branch ‘release/v06\_81\_00’
@@ -197,7 +197,7 @@ larreco v06\_62\_00(#larreco-v06_62_00)
 -   2018-05-22 baller : Add 2D version of PointDirection. Fix bug in PrintPos.
 -   2018-05-22 baller : Add 2D version of PointDirection
 
-larsim v06\_50\_02(#larsim-v06_50_02)
+larsim v06\_50\_02
 ----------------------------------------
 
 -   2018-06-20 Lynn Garren : larsim v06\_50\_02 for larsoft v06\_81\_00
@@ -217,7 +217,7 @@ larsim v06\_50\_02(#larsim-v06_50_02)
 -   2017-12-18 Jason Stock : Merge tag ‘LARSOFT\_SUITE\_v06\_60\_00’ into feature/JStock\_Ni59
 -   2017-12-17 Jason Stock : Update to RadioGen for Ni59 calibration sources.
 
-larevt v06\_22\_00(#larevt-v06_22_00)
+larevt v06\_22\_00
 ----------------------------------------
 
 -   2018-06-20 Lynn Garren : larevt v06\_22\_00 for larsoft v06\_81\_00
@@ -225,13 +225,13 @@ larevt v06\_22\_00(#larevt-v06_22_00)
 -   2018-06-18 Brandon Eberly : Fixed a bug when default statuses are used. Made a small internal change that redueces the use of the art geometry service
 -   2018-05-10 Brandon Eberly : Increased maximum length of timeout for database queries
 
-lardata v06\_46\_01(#lardata-v06_46_01)
+lardata v06\_46\_01
 ------------------------------------------
 
-larcore v06\_20\_00(#larcore-v06_20_00)
+larcore v06\_20\_00
 ------------------------------------------
 
-larpandoracontent v03\_13\_00(#larpandoracontent-v03_13_00)
+larpandoracontent v03\_13\_00
 --------------------------------------------------------------
 
 -   2018-06-20 Lynn Garren : larpandoracontent v03\_13\_00 for larsoft v06\_81\_00
@@ -279,22 +279,22 @@ larpandoracontent v03\_13\_00(#larpandoracontent-v03_13_00)
 -   2018-05-14 John Marshall : Cheating tools no longer need to navigate back to master CaloHit instances in order to access MCParticle information.
 -   2018-05-14 John Marshall : Add option to pass MCParticle instances, relationships and links to CaloHits, to Pandora worker instances.
 
-larsoftobj v1\_47\_01(#larsoftobj-v1_47_01)
+larsoftobj v1\_47\_01
 ----------------------------------------------
 
-lardataobj v1\_33\_00(#lardataobj-v1_33_00)
+lardataobj v1\_33\_00
 ----------------------------------------------
 
-lardataalg v1\_01\_01(#lardataalg-v1_01_01)
+lardataalg v1\_01\_01
 ----------------------------------------------
 
-larcorealg v1\_23\_00(#larcorealg-v1_23_00)
+larcorealg v1\_23\_00
 ----------------------------------------------
 
-larcoreobj v1\_24\_00(#larcoreobj-v1_24_00)
+larcoreobj v1\_24\_00
 ----------------------------------------------
 
-larbatch v01\_41\_00(#larbatch-v01_41_00)
+larbatch v01\_41\_00
 --------------------------------------------
 
 -   2018-06-20 Lynn Garren : larbatch v01\_41\_00 for larsoft v06\_81\_00
@@ -313,5 +313,5 @@ larbatch v01\_41\_00(#larbatch-v01_41_00)
 -   2018-06-12 Herbert Greenlee : Add prestart option.
 -   2018-06-12 Herbert Greenlee : Add singlerun flag.
 
-larutils v1\_22\_07(#larutils-v1_22_07)
+larutils v1\_22\_07
 ------------------------------------------

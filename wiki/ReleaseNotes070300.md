@@ -1,4 +1,4 @@
-LArSoft v07\_03\_00 Release Notes(#LArSoft-v07_03_00-Release-Notes)
+LArSoft v07\_03\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,14 +33,14 @@ LArSoft v07\_03\_00 Release Notes(#LArSoft-v07_03_00-Release-Notes)
 Download instructions for [larsoft v07\_03\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_03_00/larsoft-v07_03_00.html)\
 Download instructions for [just larsoftobj v07\_02\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_02_00/larsoftobj-v07_02_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   approved feature branches
 -   changes in develop
 -   drop e15 support
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   added Slice – Hit assns for new hits that TrajCluster produces
@@ -51,13 +51,13 @@ New features(#New-features)
     -   a feature addition of allowing some recombination parameters to be reconfigurable in LArG4Parameters. \
         Defaults stay the same (come from larcore utilities).
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   resolution of [\#20568](/redmine/issues/20568 "Necessary Maintenance: Use of ValidHandle::failedToGet break use of ParticleInventory/BackTracker/PhotonBackTracker in g... (Closed)")
     -   commit e9842072b628bd4168e93b46bdfba788d841e2d6 on larsim develop
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   libwda v2\_26\_0
@@ -66,49 +66,49 @@ Updated dependencies(#Updated-dependencies)
 -   nutools v2\_24\_03
 -   mrb v1\_16\_02 (include larg4 in larsoft\_suite)
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v07\_03\_00(#larsoft-v07_03_00)
+larsoft v07\_03\_00
 ------------------------------------------
 
 -   2018-08-22 Lynn Garren : larsoft v07\_03\_00 for larsoft v07\_03\_00
 -   2018-08-22 Lynn Garren : update dependency database
 -   2018-08-22 Lynn Garren : product versions
 
-lareventdisplay v07\_01\_01(#lareventdisplay-v07_01_01)
+lareventdisplay v07\_01\_01
 ----------------------------------------------------------
 
 -   2018-08-22 Lynn Garren : lareventdisplay v07\_01\_01 for larsoft v07\_03\_00
 -   2018-08-21 Tingjun Yang : Add SliceModuleLabels in the fcl file.
 
-larexamples v07\_00\_04(#larexamples-v07_00_04)
+larexamples v07\_00\_04
 --------------------------------------------------
 
 -   2018-08-22 Lynn Garren : larexamples v07\_00\_04 for larsoft v07\_03\_00
 
-larg4 v07\_00\_04(#larg4-v07_00_04)
+larg4 v07\_00\_04
 --------------------------------------
 
 -   2018-08-22 Lynn Garren : larg4 v07\_00\_04 for larsoft v07\_03\_00
 
-larpandora v07\_01\_01(#larpandora-v07_01_01)
+larpandora v07\_01\_01
 ------------------------------------------------
 
 -   2018-08-22 Lynn Garren : larpandora v07\_01\_01 for larsoft v07\_03\_00
 -   2018-08-21 Lynn Garren : remove unnecessary directive
 
-larwirecell v07\_00\_04(#larwirecell-v07_00_04)
+larwirecell v07\_00\_04
 --------------------------------------------------
 
 -   2018-08-22 Lynn Garren : larwirecell v07\_00\_04 for larsoft v07\_03\_00
 
-larana v07\_00\_04(#larana-v07_00_04)
+larana v07\_00\_04
 ----------------------------------------
 
 -   2018-08-22 Lynn Garren : larana v07\_00\_04 for larsoft v07\_03\_00
 
-larreco v07\_03\_00(#larreco-v07_03_00)
+larreco v07\_03\_00
 ------------------------------------------
 
 -   2018-08-22 Lynn Garren : larreco v07\_03\_00 for larsoft v07\_03\_00
@@ -161,7 +161,7 @@ larreco v07\_03\_00(#larreco-v07_03_00)
 -   2018-08-09 baller : Make Slice - Hit assns
 -   2018-08-09 baller : Add PFParticle - Slice assns
 
-larsim v07\_02\_00(#larsim-v07_02_00)
+larsim v07\_02\_00
 ----------------------------------------
 
 -   2018-08-22 Lynn Garren : larsim v07\_02\_00 for larsoft v07\_03\_00
@@ -174,35 +174,35 @@ larsim v07\_02\_00(#larsim-v07_02_00)
 -   2018-08-14 Wesley Ketchum : rename ISCalculationSeparate to ISCalcSeparate
 -   2018-08-14 Wesley Ketchum : fixes for bad standalone ISCalcSeparate? Also renaming…
 
-larevt v07\_00\_04(#larevt-v07_00_04)
+larevt v07\_00\_04
 ----------------------------------------
 
 -   2018-08-22 Lynn Garren : larevt v07\_00\_04 for larsoft v07\_03\_00
 
-lardata v07\_00\_04(#lardata-v07_00_04)
+lardata v07\_00\_04
 ------------------------------------------
 
 -   2018-08-22 Lynn Garren : lardata v07\_00\_04 for larsoft v07\_03\_00
 
-larcore v07\_00\_02(#larcore-v07_00_02)
+larcore v07\_00\_02
 ------------------------------------------
 
 -   2018-08-22 Lynn Garren : larcore v07\_00\_02 for larsoft v07\_03\_00
 
-larpandoracontent v03\_14\_01(#larpandoracontent-v03_14_01)
+larpandoracontent v03\_14\_01
 --------------------------------------------------------------
 
 -   2018-08-22 Lynn Garren : v03\_14\_01
 -   2018-08-22 Lynn Garren : v03\_14\_01
 
-larsoftobj v07\_02\_00(#larsoftobj-v07_02_00)
+larsoftobj v07\_02\_00
 ------------------------------------------------
 
 -   2018-08-22 Lynn Garren : larsoftobj v07\_02\_00 for larsoft v07\_03\_00
 -   2018-08-22 Lynn Garren : mrb v1\_16\_02
 -   2018-08-22 Lynn Garren : update products
 
-lardataobj v07\_02\_00(#lardataobj-v07_02_00)
+lardataobj v07\_02\_00
 ------------------------------------------------
 
 -   2018-08-22 Lynn Garren : lardataobj v07\_02\_00 for larsoft v07\_03\_00
@@ -212,22 +212,22 @@ lardataobj v07\_02\_00(#lardataobj-v07_02_00)
 -   2018-08-07 baller : Merge branch ‘develop’ into feature/bb\_recobslice
 -   2018-08-07 baller : Add PFParticle - Slice assns
 
-lardataalg v07\_00\_02(#lardataalg-v07_00_02)
+lardataalg v07\_00\_02
 ------------------------------------------------
 
 -   2018-08-22 Lynn Garren : lardataalg v07\_00\_02 for larsoft v07\_03\_00
 
-larcorealg v07\_01\_01(#larcorealg-v07_01_01)
+larcorealg v07\_01\_01
 ------------------------------------------------
 
 -   2018-08-22 Lynn Garren : larcorealg v07\_01\_01 for larsoft v07\_03\_00
 
-larcoreobj v07\_00\_01(#larcoreobj-v07_00_01)
+larcoreobj v07\_00\_01
 ------------------------------------------------
 
 -   2018-08-22 Lynn Garren : larcoreobj v07\_00\_01 for larsoft v07\_03\_00
 
-larbatch v01\_44\_00(#larbatch-v01_44_00)
+larbatch v01\_44\_00
 --------------------------------------------
 
 -   2018-08-22 Lynn Garren : larbatch v01\_44\_00 for larsoft v07\_03\_00
@@ -237,7 +237,7 @@ larbatch v01\_44\_00(#larbatch-v01_44_00)
 -   2018-08-20 Herbert Greenlee : Allow maintain parentage with multiple files per job.
 -   2018-08-20 Herbert Greenlee : Add feature to prevent two identical project.py job submissions from running at the same time.
 
-larutils v1\_23\_00(#larutils-v1_23_00)
+larutils v1\_23\_00
 ------------------------------------------
 
 -   2018-08-22 Lynn Garren : larutils v1\_23\_00 for larsoft v07\_03\_00

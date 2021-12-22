@@ -1,4 +1,4 @@
-LArSoft v06\_69\_01 Release Notes(#LArSoft-v06_69_01-Release-Notes)
+LArSoft v06\_69\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,53 +31,53 @@ LArSoft v06\_69\_01 Release Notes(#LArSoft-v06_69_01-Release-Notes)
 Download instructions for [larsoft v06\_69\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_69_01/larsoft-v06_69_01.html)\
 Download instructions for [just larsoftobj v1\_40\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_40_01/larsoftobj-v1_40_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   collect changes in develop before building with art v2\_10\_03
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_69\_01(#larsoft-v06_69_01)
+larsoft v06\_69\_01
 ------------------------------------------
 
 -   2018-02-28 Lynn Garren : larsoft v06\_69\_01 for larsoft v06\_69\_01
 -   2018-02-28 Lynn Garren : update versions
 
-lareventdisplay v06\_17\_04(#lareventdisplay-v06_17_04)
+lareventdisplay v06\_17\_04
 ----------------------------------------------------------
 
 -   2018-02-28 Lynn Garren : lareventdisplay v06\_17\_04 for larsoft v06\_69\_01
 
-larexamples v06\_10\_04(#larexamples-v06_10_04)
+larexamples v06\_10\_04
 --------------------------------------------------
 
 -   2018-02-28 Lynn Garren : larexamples v06\_10\_04 for larsoft v06\_69\_01
 
-larpandora v06\_24\_01(#larpandora-v06_24_01)
+larpandora v06\_24\_01
 ------------------------------------------------
 
 -   2018-02-28 Lynn Garren : larpandora v06\_24\_01 for larsoft v06\_69\_01
 
-larwirecell v06\_10\_03(#larwirecell-v06_10_03)
+larwirecell v06\_10\_03
 --------------------------------------------------
 
-larana v06\_17\_02(#larana-v06_17_02)
+larana v06\_17\_02
 ----------------------------------------
 
 -   2018-02-28 Lynn Garren : larana v06\_17\_02 for larsoft v06\_69\_01
 
-larreco v06\_55\_01(#larreco-v06_55_01)
+larreco v06\_55\_01
 ------------------------------------------
 
 -   2018-02-28 Lynn Garren : larreco v06\_55\_01 for larsoft v06\_69\_01
@@ -88,7 +88,7 @@ larreco v06\_55\_01(#larreco-v06_55_01)
 -   2018-02-22 Christoph Alt : Updated description of fcl parameters and added a fcl parameter to steer the re-fitting of multi-peaks
 -   2018-02-22 Christoph Alt : Added several LogLevels. This should help in tuning the fcl parameters.
 
-larsim v06\_41\_01(#larsim-v06_41_01)
+larsim v06\_41\_01
 ----------------------------------------
 
 -   2018-02-28 Lynn Garren : larsim v06\_41\_01 for larsoft v06\_69\_01
@@ -103,31 +103,31 @@ larsim v06\_41\_01(#larsim-v06_41_01)
 -   2018-02-23 Jason Stock : TestFix 1 for larsoft commit
 -   2018-02-22 Lynn Garren : add ifdh service
 
-larevt v06\_18\_03(#larevt-v06_18_03)
+larevt v06\_18\_03
 ----------------------------------------
 
-lardata v06\_39\_03(#lardata-v06_39_03)
+lardata v06\_39\_03
 ------------------------------------------
 
-larcore v06\_17\_01(#larcore-v06_17_01)
+larcore v06\_17\_01
 ------------------------------------------
 
-larpandoracontent v03\_10\_00(#larpandoracontent-v03_10_00)
+larpandoracontent v03\_10\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_40\_01(#larsoftobj-v1_40_01)
+larsoftobj v1\_40\_01
 ----------------------------------------------
 
-lardataobj v1\_28\_02(#lardataobj-v1_28_02)
+lardataobj v1\_28\_02
 ----------------------------------------------
 
-larcorealg v1\_17\_01(#larcorealg-v1_17_01)
+larcorealg v1\_17\_01
 ----------------------------------------------
 
-larcoreobj v1\_21\_00(#larcoreobj-v1_21_00)
+larcoreobj v1\_21\_00
 ----------------------------------------------
 
-larbatch v01\_37\_01(#larbatch-v01_37_01)
+larbatch v01\_37\_01
 --------------------------------------------
 
 -   2018-02-28 Lynn Garren : larbatch v01\_37\_01 for larsoft v06\_69\_01
@@ -135,7 +135,7 @@ larbatch v01\_37\_01(#larbatch-v01_37_01)
 -   2018-02-25 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
 -   2018-02-23 Herbert Greenlee : Add condor cvmfs requirement by default.
 
-larutils v1\_21\_01(#larutils-v1_21_01)
+larutils v1\_21\_01
 ------------------------------------------
 
 -   2018-02-28 Lynn Garren : larutils v1\_21\_01 for larsoft v06\_69\_01

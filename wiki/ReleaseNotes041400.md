@@ -1,4 +1,4 @@
-LArSoft v04\_14\_00 Release Notes(#LArSoft-v04_14_00-Release-Notes)
+LArSoft v04\_14\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,20 +24,20 @@ LArSoft v04\_14\_00 Release Notes(#LArSoft-v04_14_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_14_00/larsoft-v04_14_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   build with art v1\_14\_03
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   fixes [\#9108](/redmine/issues/9108 "Bug: Processing multiple files (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ---------------- ---------------------------------------------------------------------------------------
@@ -55,10 +55,10 @@ Updated dependencies(#Updated-dependencies)
   artextensions   v1\_01\_06   e7:nu:s12        
   --------------- ------------ ---------------- ---------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_14\_00(#larsoft-v04_14_00)
+larsoft v04\_14\_00
 ------------------------------------------
 
 -   2015-06-24 Lynn Garren : larutils v1\_00\_13
@@ -66,55 +66,55 @@ larsoft v04\_14\_00(#larsoft-v04_14_00)
 -   2015-06-24 Lynn Garren : using art v1\_14\_03
 -   2015-06-24 Lynn Garren : update product versions
 
-lareventdisplay v04\_05\_03(#lareventdisplay-v04_05_03)
+lareventdisplay v04\_05\_03
 ----------------------------------------------------------
 
 -   2015-06-24 Lynn Garren : lareventdisplay v04\_05\_03 for larsoft v04\_14\_00
 
-larexamples v04\_04\_13(#larexamples-v04_04_13)
+larexamples v04\_04\_13
 --------------------------------------------------
 
 -   2015-06-24 Lynn Garren : larexamples v04\_04\_13 for larsoft v04\_14\_00
 
-larpandora v04\_04\_13(#larpandora-v04_04_13)
+larpandora v04\_04\_13
 ------------------------------------------------
 
 -   2015-06-24 Lynn Garren : larpandora v04\_04\_13 for larsoft v04\_14\_00
 
-larana v04\_07\_05(#larana-v04_07_05)
+larana v04\_07\_05
 ----------------------------------------
 
 -   2015-06-24 Lynn Garren : larana v04\_07\_05 for larsoft v04\_14\_00
 
-larreco v04\_09\_02(#larreco-v04_09_02)
+larreco v04\_09\_02
 ------------------------------------------
 
 -   2015-06-24 Lynn Garren : larreco v04\_09\_02 for larsoft v04\_14\_00
 
-larsim v04\_08\_00(#larsim-v04_08_00)
+larsim v04\_08\_00
 ----------------------------------------
 
 -   2015-06-24 Lynn Garren : larsim v04\_08\_00 for larsoft v04\_14\_00
 
-larevt v04\_08\_03(#larevt-v04_08_03)
+larevt v04\_08\_03
 ----------------------------------------
 
 -   2015-06-24 Lynn Garren : larevt v04\_08\_03 for larsoft v04\_14\_00
 
-lardata v04\_10\_00(#lardata-v04_10_00)
+lardata v04\_10\_00
 ------------------------------------------
 
 -   2015-06-24 Lynn Garren : lardata v04\_10\_00 for larsoft v04\_14\_00
 
-larcore v04\_12\_00(#larcore-v04_12_00)
+larcore v04\_12\_00
 ------------------------------------------
 
 -   2015-06-24 Lynn Garren : larcore v04\_12\_00 for larsoft v04\_14\_00
 
-larbatch v01\_11\_01(#larbatch-v01_11_01)
+larbatch v01\_11\_01
 --------------------------------------------
 
-larutils v1\_00\_13(#larutils-v1_00_13)
+larutils v1\_00\_13
 ------------------------------------------
 
 -   2015-06-24 Lynn Garren : larutils v1\_00\_13 for larsoft v04\_14\_00

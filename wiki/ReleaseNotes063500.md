@@ -1,4 +1,4 @@
-LArSoft v06\_35\_00 Release Notes(#LArSoft-v06_35_00-Release-Notes)
+LArSoft v06\_35\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,23 +30,23 @@ LArSoft v06\_35\_00 Release Notes(#LArSoft-v06_35_00-Release-Notes)
 Download instructions for [larsoft v06\_35\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_35_00/larsoft-v06_35_00.html)\
 Download instructions for [just larsoftobj v1\_19\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_19_02/larsoftobj-v1_19_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   ifdhc v2\_0\_6
 -   approved changes
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   ParticleBomb
     -   larsim afurmans\_particleBomb
     -   [particle bomb generator](https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=14491)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ --------------------------------------------------------------------------------------------------
@@ -57,44 +57,44 @@ Updated dependencies(#Updated-dependencies)
   mrb             v1\_09\_02                
   --------------- ------------ ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_35\_00(#larsoft-v06_35_00)
+larsoft v06\_35\_00
 ------------------------------------------
 
 -   2017-05-10 Lynn Garren : larsoft v06\_35\_00 for larsoft v06\_35\_00
 -   2017-05-10 Lynn Garren : update product versions
 -   2017-05-10 Lynn Garren : update dependency database
 
-lareventdisplay v06\_05\_04(#lareventdisplay-v06_05_04)
+lareventdisplay v06\_05\_04
 ----------------------------------------------------------
 
 -   2017-05-10 Lynn Garren : lareventdisplay v06\_05\_04 for larsoft v06\_35\_00
 
-larexamples v06\_03\_04(#larexamples-v06_03_04)
+larexamples v06\_03\_04
 --------------------------------------------------
 
 -   2017-05-10 Lynn Garren : larexamples v06\_03\_04 for larsoft v06\_35\_00
 
-larpandora v06\_10\_04(#larpandora-v06_10_04)
+larpandora v06\_10\_04
 ------------------------------------------------
 
 -   2017-05-10 Lynn Garren : larpandora v06\_10\_04 for larsoft v06\_35\_00
 -   2017-05-03 John Marshall : Merge branch ‘updates’ into develop
 -   2017-05-03 John Marshall : Set required larpandoracontent version to v03\_05\_00.
 
-larwirecell v06\_04\_04(#larwirecell-v06_04_04)
+larwirecell v06\_04\_04
 --------------------------------------------------
 
 -   2017-05-10 Lynn Garren : larwirecell v06\_04\_04 for larsoft v06\_35\_00
 
-larana v06\_05\_04(#larana-v06_05_04)
+larana v06\_05\_04
 ----------------------------------------
 
 -   2017-05-10 Lynn Garren : larana v06\_05\_04 for larsoft v06\_35\_00
 
-larreco v06\_27\_00(#larreco-v06_27_00)
+larreco v06\_27\_00
 ------------------------------------------
 
 -   2017-05-10 Lynn Garren : larreco v06\_27\_00 for larsoft v06\_35\_00
@@ -128,7 +128,7 @@ larreco v06\_27\_00(#larreco-v06_27_00)
 -   2017-04-18 Leigh Whitehead : Merge branch ‘develop’ into feature/lhw\_cosmicTagPMA
 -   2017-04-03 Leigh Whitehead : Add a function to tag partciles with non-zero T0 as cosmics.
 
-larsim v06\_21\_00(#larsim-v06_21_00)
+larsim v06\_21\_00
 ----------------------------------------
 
 -   2017-05-10 Lynn Garren : larsim v06\_21\_00 for larsoft v06\_35\_00
@@ -145,21 +145,21 @@ larsim v06\_21\_00(#larsim-v06_21_00)
 -   2017-02-15 Andrew Furmanski : changed how angles are selected from histograms (theta,phi vs thetaxz,thetayz issues)
 -   2017-02-15 Andrew Furmanski : made further updates and bug fixes to retain backwards compatibility
 
-larevt v06\_13\_02(#larevt-v06_13_02)
+larevt v06\_13\_02
 ----------------------------------------
 
 -   2017-05-10 Lynn Garren : larevt v06\_13\_02 for larsoft v06\_35\_00
 -   2017-05-05 Brandon Eberly : Fixed a file-reading bug
 
-lardata v06\_20\_03(#lardata-v06_20_03)
+lardata v06\_20\_03
 ------------------------------------------
 
 -   2017-05-10 Lynn Garren : lardata v06\_20\_03 for larsoft v06\_35\_00
 
-larcore v06\_09\_02(#larcore-v06_09_02)
+larcore v06\_09\_02
 ------------------------------------------
 
-larpandoracontent v03\_05\_00(#larpandoracontent-v03_05_00)
+larpandoracontent v03\_05\_00
 --------------------------------------------------------------
 
 -   2017-05-05 John Marshall : Merge branch ‘feature/Factories’ into develop
@@ -197,23 +197,23 @@ larpandoracontent v03\_05\_00(#larpandoracontent-v03_05_00)
 -   2017-04-18 Jack Weston : Added support vector machine interface.
 -   2017-04-12 John Marshall : Extract pfo vertices, additional print out.
 
-larsoftobj v1\_19\_02(#larsoftobj-v1_19_02)
+larsoftobj v1\_19\_02
 ----------------------------------------------
 
 -   2017-05-10 Lynn Garren : larsoftobj v1\_19\_02 for larsoft v06\_35\_00
 -   2017-05-10 Lynn Garren : update product versions
 
-lardataobj v1\_15\_03(#lardataobj-v1_15_03)
+lardataobj v1\_15\_03
 ----------------------------------------------
 
 -   2017-05-10 Lynn Garren : lardataobj v1\_15\_03 for larsoft v06\_35\_00
 -   2017-05-02 Gianluca Petrillo : Inlining a function which lives in header.
 
-larcoreobj v1\_13\_01(#larcoreobj-v1_13_01)
+larcoreobj v1\_13\_01
 ----------------------------------------------
 
-larbatch v01\_32\_00(#larbatch-v01_32_00)
+larbatch v01\_32\_00
 --------------------------------------------
 
-larutils v1\_12\_04(#larutils-v1_12_04)
+larutils v1\_12\_04
 ------------------------------------------

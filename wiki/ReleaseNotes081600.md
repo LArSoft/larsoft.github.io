@@ -1,4 +1,4 @@
-LArSoft v08\_16\_00 Release Notes(#LArSoft-v08_16_00-Release-Notes)
+LArSoft v08\_16\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v08\_16\_00 Release Notes(#LArSoft-v08_16_00-Release-Notes)
 Download instructions for [larsoft v08\_16\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_16_00/larsoft-v08_16_00.html)\
 Download instructions for [just larsoftobj v08\_11\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_11_00/larsoftobj-v08_11_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   update from art v3\_01\_02 to art v3\_02\_04
 -   based off the larsoft v08\_15\_01 release
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   **Please read the [update notes](Update_to_art_v3_02).** These are an addition to changes documented in the [art v3\_02](/redmine/projects/art/wiki/Series_302) release notes.
@@ -52,10 +52,10 @@ New features(#New-features)
 -   **feature/team\_for\_art\_v3\_02 is provided for all experiment packages**
     -   These feature branches include necessary changes that could not be scripted.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 There are new versions of nearly every product. This list includes some of the highlights.
@@ -70,10 +70,10 @@ There are new versions of nearly every product. This list includes some of the h
 -   artdaq\_core v3\_04\_14
 -   nutools v2\_29\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_16\_00(#larsoft-v08_16_00)
+larsoft v08\_16\_00
 ------------------------------------------
 
 -   2019-04-18 Lynn Garren : product versions
@@ -86,7 +86,7 @@ larsoft v08\_16\_00(#larsoft-v08_16_00)
 -   2019-04-04 Lynn Garren : improvements from Kyle
 -   2019-04-04 Lynn Garren : for art 3.02
 
-lareventdisplay v08\_06\_00(#lareventdisplay-v08_06_00)
+lareventdisplay v08\_06\_00
 ----------------------------------------------------------
 
 -   2019-04-18 Lynn Garren : lareventdisplay v08\_06\_00 for larsoft v08\_16\_00
@@ -94,7 +94,7 @@ lareventdisplay v08\_06\_00(#lareventdisplay-v08_06_00)
 -   2019-04-04 Lynn Garren : remove ALLOW\_DEPRECATIONS
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larexamples v08\_02\_00(#larexamples-v08_02_00)
+larexamples v08\_02\_00
 --------------------------------------------------
 
 -   2019-04-18 Lynn Garren : add missing library
@@ -104,7 +104,7 @@ larexamples v08\_02\_00(#larexamples-v08_02_00)
 -   2019-04-04 Lynn Garren : add missing library
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larg4 v08\_02\_00(#larg4-v08_02_00)
+larg4 v08\_02\_00
 --------------------------------------
 
 -   2019-04-18 Lynn Garren : larg4 v08\_02\_00 for larsoft v08\_16\_00
@@ -112,7 +112,7 @@ larg4 v08\_02\_00(#larg4-v08_02_00)
 -   2019-04-17 Lynn Garren : Merge branch ‘feature/team\_for\_art\_v3\_02’ into v08\_16\_00\_br
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larpandora v08\_06\_00(#larpandora-v08_06_00)
+larpandora v08\_06\_00
 ------------------------------------------------
 
 -   2019-04-18 Lynn Garren : larpandora v08\_06\_00 for larsoft v08\_16\_00
@@ -120,7 +120,7 @@ larpandora v08\_06\_00(#larpandora-v08_06_00)
 -   2019-04-04 Lynn Garren : remove ALLOW\_DEPRECATIONS
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larwirecell v08\_04\_00(#larwirecell-v08_04_00)
+larwirecell v08\_04\_00
 --------------------------------------------------
 
 -   2019-04-18 Lynn Garren : larwirecell v08\_04\_00 for larsoft v08\_16\_00
@@ -128,7 +128,7 @@ larwirecell v08\_04\_00(#larwirecell-v08_04_00)
 -   2019-04-04 Lynn Garren : EDProducer
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larana v08\_05\_00(#larana-v08_05_00)
+larana v08\_05\_00
 ----------------------------------------
 
 -   2019-04-18 Lynn Garren : larana v08\_05\_00 for larsoft v08\_16\_00
@@ -137,7 +137,7 @@ larana v08\_05\_00(#larana-v08_05_00)
 -   2019-04-04 Lynn Garren : remove ALLOW\_DEPRECATIONS
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larreco v08\_12\_00(#larreco-v08_12_00)
+larreco v08\_12\_00
 ------------------------------------------
 
 -   2019-04-18 Lynn Garren : add missing library
@@ -148,7 +148,7 @@ larreco v08\_12\_00(#larreco-v08_12_00)
 -   2019-04-04 Lynn Garren : remove ALLOW\_DEPRECATIONS
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larsim v08\_06\_00(#larsim-v08_06_00)
+larsim v08\_06\_00
 ----------------------------------------
 
 -   2019-04-18 Lynn Garren : larsim v08\_06\_00 for larsoft v08\_16\_00
@@ -158,7 +158,7 @@ larsim v08\_06\_00(#larsim-v08_06_00)
 -   2019-04-17 Lynn Garren : changes for art v3\_02
 -   2019-04-17 Lynn Garren : changes for art v3\_02
 
-larevt v08\_03\_00(#larevt-v08_03_00)
+larevt v08\_03\_00
 ----------------------------------------
 
 -   2019-04-18 Lynn Garren : larevt v08\_03\_00 for larsoft v08\_16\_00
@@ -167,7 +167,7 @@ larevt v08\_03\_00(#larevt-v08_03_00)
 -   2019-04-04 Lynn Garren : changes for art 3.02
 -   2019-04-04 Lynn Garren : fhicl no longer recognizes boost::any, use std::any
 
-lardata v08\_04\_00(#lardata-v08_04_00)
+lardata v08\_04\_00
 ------------------------------------------
 
 -   2019-04-18 Lynn Garren : add missing library
@@ -177,7 +177,7 @@ lardata v08\_04\_00(#lardata-v08_04_00)
 -   2019-04-04 Lynn Garren : remove ALLOW\_DEPRECATIONS
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larcore v08\_03\_00(#larcore-v08_03_00)
+larcore v08\_03\_00
 ------------------------------------------
 
 -   2019-04-18 Lynn Garren : add missing library
@@ -187,14 +187,14 @@ larcore v08\_03\_00(#larcore-v08_03_00)
 -   2019-04-04 Lynn Garren : remove ALLOW\_DEPRECATIONS
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larpandoracontent v03\_14\_07(#larpandoracontent-v03_14_07)
+larpandoracontent v03\_14\_07
 --------------------------------------------------------------
 
 -   2019-04-18 Lynn Garren : larpandoracontent v03\_14\_07 for art v3\_02\_04
 -   2019-04-17 Lynn Garren : Merge branch ‘feature/team\_for\_art\_v3\_02’ into v08\_16\_00\_br
 -   2019-04-04 Lynn Garren : larpandoracontent v03\_14\_06 for use with art 3.02
 
-larsoftobj v08\_11\_00(#larsoftobj-v08_11_00)
+larsoftobj v08\_11\_00
 ------------------------------------------------
 
 -   2019-04-18 Lynn Garren : larsoftobj v08\_11\_00 for larsoft v08\_16\_00
@@ -202,7 +202,7 @@ larsoftobj v08\_11\_00(#larsoftobj-v08_11_00)
 -   2019-04-17 Lynn Garren : Merge branch ‘feature/team\_for\_art\_v3\_02’ into v08\_16\_00\_br
 -   2019-04-04 Lynn Garren : for art 3.02
 
-lardataobj v08\_03\_00(#lardataobj-v08_03_00)
+lardataobj v08\_03\_00
 ------------------------------------------------
 
 -   2019-04-18 Lynn Garren : lardataobj v08\_03\_00 for larsoft v08\_16\_00
@@ -211,7 +211,7 @@ lardataobj v08\_03\_00(#lardataobj-v08_03_00)
 -   2019-04-04 Lynn Garren : remove ALLOW\_DEPRECATIONS
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-lardataalg v08\_06\_00(#lardataalg-v08_06_00)
+lardataalg v08\_06\_00
 ------------------------------------------------
 
 -   2019-04-18 Lynn Garren : lardataalg v08\_06\_00 for larsoft v08\_16\_00
@@ -220,7 +220,7 @@ lardataalg v08\_06\_00(#lardataalg-v08_06_00)
 -   2019-04-04 Lynn Garren : remove ALLOW\_DEPRECATIONS
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larcorealg v08\_08\_00(#larcorealg-v08_08_00)
+larcorealg v08\_08\_00
 ------------------------------------------------
 
 -   2019-04-18 Lynn Garren : larcorealg v08\_08\_00 for larsoft v08\_16\_00
@@ -228,7 +228,7 @@ larcorealg v08\_08\_00(#larcorealg-v08_08_00)
 -   2019-04-04 Lynn Garren : remove ALLOW\_DEPRECATIONS
 -   2019-04-04 Lynn Garren : changes for art 3.02
 
-larcoreobj v08\_04\_00(#larcoreobj-v08_04_00)
+larcoreobj v08\_04\_00
 ------------------------------------------------
 
 -   2019-04-18 Lynn Garren : larcoreobj v08\_04\_00 for larsoft v08\_16\_00
@@ -237,8 +237,8 @@ larcoreobj v08\_04\_00(#larcoreobj-v08_04_00)
 -   2019-04-04 Lynn Garren : changes for art 3.02
 -   2019-04-04 Lynn Garren : stop checking the root version
 
-larbatch v01\_51\_01(#larbatch-v01_51_01)
+larbatch v01\_51\_01
 --------------------------------------------
 
-larutils v1\_23\_14(#larutils-v1_23_14)
+larutils v1\_23\_14
 ------------------------------------------

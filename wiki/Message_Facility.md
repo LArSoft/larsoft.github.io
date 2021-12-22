@@ -1,4 +1,4 @@
-Message Facility(#Message-Facility)
+Message Facility
 ======================================
 
 Documentation on message facility is in [its own wiki](/redmine/projects/messagefacility/wiki). In particular:

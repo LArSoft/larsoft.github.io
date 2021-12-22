@@ -1,4 +1,4 @@
-LArSoft v09\_38\_00 Release Notes(#LArSoft-v09_38_00-Release-Notes)
+LArSoft v09\_38\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_38\_00 Release Notes(#LArSoft-v09_38_00-Release-Notes)
 Download instructions for [larsoft v09\_38\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_38_00/larsoft-v09_38_00.html)\
 Download instructions for [just larsoftobj v09\_13\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_13_00/larsoftobj-v09_13_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardataalg PR 28
@@ -59,7 +59,7 @@ New features(#New-features)
 -   larpandora PR 24
     -   Adds the primaryBackground MC process to avoid (harmless) warnings in ProtoDUNE-SP running. No product changes.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larsim PR 83
@@ -79,16 +79,16 @@ Bug fixes(#Bug-fixes)
     -   It turns out std::less was not defined.
     -   Also removing an unnecessary destructor, just because.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   marley v1\_2\_0f
     -   DUNE users have let me know that there is still some lingering trouble in the data file search paths used by marley v1\_2\_0e. This is entirely due to some mistakes I made when first applying updates for v1\_2\_0. I revisited this today and made a new commit on the master branch of build-framework-marley-ssi-build which should resolve everything. I tested it with the newest release of dunetpc and everything ran okay.
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_38\_00(#larsoft-v09_38_00)
+larsoft v09\_38\_00
 ------------------------------------------
 
 -   2021-12-01 Lynn Garren : larsoft v09\_38\_00 for larsoft v09\_38\_00
@@ -96,19 +96,19 @@ larsoft v09\_38\_00(#larsoft-v09_38_00)
 -   2021-12-01 Lynn Garren : product versions
 -   2021-11-30 Lynn Garren : adding genie\_phyopt -q dkstandard-resfixfix here for now
 
-lareventdisplay v09\_02\_09(#lareventdisplay-v09_02_09)
+lareventdisplay v09\_02\_09
 ----------------------------------------------------------
 
 -   2021-12-01 Lynn Garren : lareventdisplay v09\_02\_09 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : lareventdisplay v09\_02\_09 for larsoft v09\_38\_00
 
-larexamples v09\_02\_09(#larexamples-v09_02_09)
+larexamples v09\_02\_09
 --------------------------------------------------
 
 -   2021-12-01 Lynn Garren : larexamples v09\_02\_09 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : larexamples v09\_02\_09 for larsoft v09\_38\_00
 
-larpandora v09\_10\_03(#larpandora-v09_10_03)
+larpandora v09\_10\_03
 ------------------------------------------------
 
 -   2021-12-01 Lynn Garren : larpandora v09\_10\_03 for larsoft v09\_38\_00
@@ -116,37 +116,37 @@ larpandora v09\_10\_03(#larpandora-v09_10_03)
 -   2021-11-29 AndyChappell : Merge pull request \#26 from AndyChappell/feature/mc\_proc\_update
 -   2021-10-22 Andrew Chappell : Add primaryBackground MC process
 
-larsimrad v09\_03\_08(#larsimrad-v09_03_08)
+larsimrad v09\_03\_08
 ----------------------------------------------
 
 -   2021-12-01 Lynn Garren : larsimrad v09\_03\_08 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : larsimrad v09\_03\_08 for larsoft v09\_38\_00
 
-larrecodnn v09\_09\_10(#larrecodnn-v09_09_10)
+larrecodnn v09\_09\_10
 ------------------------------------------------
 
 -   2021-12-01 Lynn Garren : larrecodnn v09\_09\_10 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : larrecodnn v09\_09\_10 for larsoft v09\_38\_00
 
-larwirecell v09\_04\_06(#larwirecell-v09_04_06)
+larwirecell v09\_04\_06
 --------------------------------------------------
 
 -   2021-12-01 Lynn Garren : larwirecell v09\_04\_06 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : larwirecell v09\_04\_06 for larsoft v09\_38\_00
 
-larana v09\_03\_10(#larana-v09_03_10)
+larana v09\_03\_10
 ----------------------------------------
 
 -   2021-12-01 Lynn Garren : larana v09\_03\_10 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : larana v09\_03\_10 for larsoft v09\_38\_00
 
-larreco v09\_07\_09(#larreco-v09_07_09)
+larreco v09\_07\_09
 ------------------------------------------
 
 -   2021-12-01 Lynn Garren : larreco v09\_07\_09 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : larreco v09\_07\_09 for larsoft v09\_38\_00
 
-larsim v09\_19\_02(#larsim-v09_19_02)
+larsim v09\_19\_02
 ----------------------------------------
 
 -   2021-12-01 Lynn Garren : larsim v09\_19\_02 for larsoft v09\_38\_00
@@ -158,28 +158,28 @@ larsim v09\_19\_02(#larsim-v09_19_02)
 -   2021-11-22 Lynn Garren : Merge pull request \#79 from PetrilloAtWork/patch-2
 -   2021-11-16 Gianluca Petrillo : Removed spurious configuration parameter
 
-larg4 v09\_06\_03(#larg4-v09_06_03)
+larg4 v09\_06\_03
 --------------------------------------
 
 -   2021-12-01 Lynn Garren : larg4 v09\_06\_03 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : larg4 v09\_06\_03 for larsoft v09\_38\_00
 
-larevt v09\_03\_06(#larevt-v09_03_06)
+larevt v09\_03\_06
 ----------------------------------------
 
 -   2021-12-01 Lynn Garren : larevt v09\_03\_06 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : larevt v09\_03\_06 for larsoft v09\_38\_00
 
-lardata v09\_04\_03(#lardata-v09_04_03)
+lardata v09\_04\_03
 ------------------------------------------
 
 -   2021-12-01 Lynn Garren : lardata v09\_04\_03 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : lardata v09\_04\_03 for larsoft v09\_38\_00
 
-larcore v09\_03\_02(#larcore-v09_03_02)
+larcore v09\_03\_02
 ------------------------------------------
 
-larpandoracontent v03\_26\_02(#larpandoracontent-v03_26_02)
+larpandoracontent v03\_26\_02
 --------------------------------------------------------------
 
 -   2021-12-01 Lynn Garren : larpandoracontent v03\_26\_02 for larsoft v09\_38\_00
@@ -196,21 +196,21 @@ larpandoracontent v03\_26\_02(#larpandoracontent-v03_26_02)
 -   2021-08-23 Andrew Chappell : Refactoring
 -   2021-08-23 Andrew Chappell : Visualize MC without PDG grouping
 
-larsoftobj v09\_13\_00(#larsoftobj-v09_13_00)
+larsoftobj v09\_13\_00
 ------------------------------------------------
 
 -   2021-12-01 Lynn Garren : larsoftobj v09\_13\_00 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : larsoftobj v09\_13\_00 for larsoft v09\_38\_00
 -   2021-12-01 Lynn Garren : product versions
 
-lardataobj v09\_03\_06(#lardataobj-v09_03_06)
+lardataobj v09\_03\_06
 ------------------------------------------------
 
 -   2021-12-01 Lynn Garren : lardataobj v09\_03\_06 for larsoft v09\_38\_00
 -   2021-11-23 Lynn Garren : Merge pull request \#19 from PetrilloAtWork/patch-1
 -   2021-11-18 Gianluca Petrillo : Added missing header
 
-lardataalg v09\_08\_00(#lardataalg-v09_08_00)
+lardataalg v09\_08\_00
 ------------------------------------------------
 
 -   2021-12-01 Lynn Garren : lardataalg v09\_08\_00 for larsoft v09\_38\_00
@@ -218,13 +218,13 @@ lardataalg v09\_08\_00(#lardataalg-v09_08_00)
 -   2021-11-29 Lynn Garren : Merge pull request \#28 from cjbackhouse/feature/view\_timing\_offsets\_switch
 -   2021-11-23 Christopher Backhouse : Add a new parameter controlling whether or not to allow for timing offsets between the different readout planes. This is a pragmatic short-term solution while we work out how to encode this information somewhere such that no such switch is necessary.
 
-larcorealg v09\_04\_00(#larcorealg-v09_04_00)
+larcorealg v09\_04\_00
 ------------------------------------------------
 
-larcoreobj v09\_03\_01(#larcoreobj-v09_03_01)
+larcoreobj v09\_03\_01
 ------------------------------------------------
 
-webevd v09\_07\_00(#webevd-v09_07_00)
+webevd v09\_07\_00
 ----------------------------------------
 
 -   2021-12-01 Lynn Garren : webevd v09\_07\_00 for larsoft v09\_38\_00
@@ -234,8 +234,8 @@ webevd v09\_07\_00(#webevd-v09_07_00)
 -   2021-11-23 Lynn Garren : Merge pull request \#33 from LArSoft/feature/url
 -   2021-11-23 Chris Backhouse : Be more pedantic about URL to connect to, as required by recent firefox versions.
 
-larbatch v01\_56\_02(#larbatch-v01_56_02)
+larbatch v01\_56\_02
 --------------------------------------------
 
-larutils v1\_28\_02(#larutils-v1_28_02)
+larutils v1\_28\_02
 ------------------------------------------

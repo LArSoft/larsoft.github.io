@@ -1,4 +1,4 @@
-LArSoft repositories packages and dependencies(#LArSoft-repositories-packages-and-dependencies)
+LArSoft repositories packages and dependencies
 ==================================================================================================
 
 -   **Table of contents**
@@ -42,14 +42,14 @@ With the addition of framework-independent repositories, there is now a dependen
            |   v        |
     laradataalg     larsim
 
-larcore(#larcore) {.wiki-class-count}
+larcore
 --------------------
 
 -   Geometry (no LarSoft dependencies)
 -   SummaryData (no LarSoft dependencies)
 -   SimpleTypesAndConstants (no LarSoft dependencies)
 
-lardata -\> larcore(#lardata-gt-larcore) {.wiki-class-count}
+lardata -\> larcore
 -------------------------------------------
 
 -   AnalysisBase (depends on RecoBase)
@@ -60,7 +60,7 @@ lardata -\> larcore(#lardata-gt-larcore) {.wiki-class-count}
 -   AnalysisAlg (depends on AnalysisBase, RecoBase, and Utilities)
 -   OpticalDetectorData (no LarSoft dependencies)
 
-larevt -\> lardata -\> larcore(#larevt-gt-lardata-gt-larcore) {.wiki-class-count}
+larevt -\> lardata -\> larcore
 ----------------------------------------------------------------
 
 -   Filters (depends on RecoBase, Geometry, and Utilities)
@@ -69,7 +69,7 @@ larevt -\> lardata -\> larcore(#larevt-gt-lardata-gt-larcore) {.wiki-class-count
 
 -   CalData (depends on Filters, RawData, RecoBase, and Utilities)
 
-larsim -\> larevt -\> lardata -\> larcore(#larsim-gt-larevt-gt-lardata-gt-larcore) {.wiki-class-count}
+larsim -\> larevt -\> lardata -\> larcore
 -------------------------------------------------------------------------------------
 
 -   Simulation (depends on Utilities)
@@ -80,7 +80,7 @@ larsim -\> larevt -\> lardata -\> larcore(#larsim-gt-larevt-gt-lardata-gt-larcor
 -   TriggerAlgo (no LarSoft dependencies)
 -   EventGenerator ( depends on PhotonPropagation, Simulation, SummaryData, and Geometry)
 
-larreco -\> larsim -\> larevt -\> lardata -\> larcore(#larreco-gt-larsim-gt-larevt-gt-lardata-gt-larcore) {.wiki-class-count}
+larreco -\> larsim -\> larevt -\> lardata -\> larcore
 ------------------------------------------------------------------------------------------------------------
 
 -   ClusterFinder (depends on RecoAlg, MCCheater, Filters, RecoBase,and Geometry)
@@ -92,14 +92,14 @@ larreco -\> larsim -\> larevt -\> lardata -\> larcore(#larreco-gt-larsim-gt-lare
 -   VertexFinder (depends on MCCheater, Filters, Simulation, Utilities, RecoBase, and Geometry)
 -   RecoAlg (depends on VertexFinder, MCCheater, RecoBase, Simulation, Filters, Geometry, RecoObjects, AnalysisBase, and Utilities)
 
-larana -\> larreco -\> larsim -\> larevt -\> lardata -\> larcore(#larana-gt-larreco-gt-larsim-gt-larevt-gt-lardata-gt-larcore) {.wiki-class-count}
+larana -\> larreco -\> larsim -\> larevt -\> lardata -\> larcore
 ---------------------------------------------------------------------------------------------------------------------------------
 
 -   Calorimetry (depends on Filters, Simulation, RecoBase, Geometry, RecoObjects, AnalysisAlg, AnalysisBase, and Utilities)
 -   OpticalDetector (depends on Filters, Simulation, PhotonPropagation, RecoBase, Geometry, RecoObjects, AnalysisAlg, AnalysisBase, and Utilities)
 -   ParticleIdentification (depends on RecoBase, AnalysisAlg, AnalysisBase, and Geometry)
 
-larpandora -\> larsim -\> larevt -\> lardata -\> larcore(#larpandora-gt-larsim-gt-larevt-gt-lardata-gt-larcore) {.wiki-class-count}
+larpandora -\> larsim -\> larevt -\> lardata -\> larcore
 ------------------------------------------------------------------------------------------------------------------
 
 -   larpandora constains the code which uses Pandora
@@ -108,31 +108,31 @@ larpandora -\> larsim -\> larevt -\> lardata -\> larcore(#larpandora-gt-larsim-g
 
 Note, this is type 3, product-interface.
 
-lareventdisplay -\> larsim -\> larevt -\> lardata -\> larcore(#lareventdisplay-gt-larsim-gt-larevt-gt-lardata-gt-larcore) {.wiki-class-count}
+lareventdisplay -\> larsim -\> larevt -\> lardata -\> larcore
 ----------------------------------------------------------------------------------------------------------------------------
 
 -   EventDisplay (depends on RecoBase, Simulation, RawData, RecoObjects, AnalysisAlg, Filters, Geometry
 
 > -   (does not depend on larreco or larana)
 
-larexamples -\> larsim -\> larevt -\> lardata -\> larcore(#larexamples-gt-larsim-gt-larevt-gt-lardata-gt-larcore) {.wiki-class-count}
+larexamples -\> larsim -\> larevt -\> lardata -\> larcore
 --------------------------------------------------------------------------------------------------------------------
 
 -   AnalysisExample (depends on Simulation, RecoBase, and Geometry)
 
-lardataalg -\> lardataobj -\> larcorealg -\> larcoreobj -\> canvas(#lardataalg-gt-lardataobj-gt-larcorealg-gt-larcoreobj-gt-canvas) {.wiki-class-count}
+lardataalg -\> lardataobj -\> larcorealg -\> larcoreobj -\> canvas
 --------------------------------------------------------------------------------------------------------------------------------------
 
 This is type 2, framework-independent, but it does depend on [canvas](https://cdcvs.fnal.gov/redmine/projects/canvas/wiki) which understands the Event Data Model of *art* and newsimdata.
 
-larsoft\_data(#larsoft_data) {.wiki-class-count}
+larsoft\_data
 -------------------------------
 
 -   A special package that contains data files needed by some LArSoft jobs. This product is *not* \
      included in larsoft\_suite, and strictly speaking, *is not* part of core LArSoft. It is maintained\
      here until a more general solution can be found. Setting up larsoft will set up larsoft\_data.
 
-larsoft(#larsoft) {.wiki-class-count}
+larsoft
 --------------------
 
 -   larsoft is an umbrella product which is used to setup all the individual larsoft products

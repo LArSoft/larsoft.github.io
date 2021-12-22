@@ -4,10 +4,10 @@
     -   [Command line options](#Command-line-options)
     -   [Symbol types (per “nm”)](#Symbol-types-per-nm)
 
-Using find\_global\_symbol.sh to find unresolved symbols(#Using-find_global_symbolsh-to-find-unresolved-symbols)
+Using find\_global\_symbol.sh to find unresolved symbols
 ===================================================================================================================
 
-How to know what library is needed to resolve a linking problem(#How-to-know-what-library-is-needed-to-resolve-a-linking-problem)
+How to know what library is needed to resolve a linking problem
 ------------------------------------------------------------------------------------------------------------------------------------
 
 How often have you encountered an error such as: `` undefined reference to `typeinfo for simb::MCParticle' ``?\
@@ -35,7 +35,7 @@ For example:
 
         find_global_symbol.sh -h
 
-Command line options(#Command-line-options)
+Command line options
 ----------------------------------------------
 
     $  find_global_symbol.sh -h 
@@ -67,11 +67,11 @@ Command line options(#Command-line-options)
 
        -h    Print this help message.
 
-Symbol types (per “nm”)(#Symbol-types-per-nm)
+Symbol types (per “nm”)
 ------------------------------------------------
 
     For Linux:
-           ·   The symbol type.  At least the following types are used; others are, as well, depending on the object file format.  If lowercase, the
+           ·   The symbol type.  At least the following types are used; others are, as well, depending on the object file format.  If lowercase, th
                symbol is local; if uppercase, the symbol is global (external).
 
                "A" The symbol’s value is absolute, and will not be changed by further linking.

@@ -1,4 +1,4 @@
-Event Displays(#Event-Displays)
+Event Displays
 ==================================
 
 Last updated November 24, 2020

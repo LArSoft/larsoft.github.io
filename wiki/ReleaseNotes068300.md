@@ -1,4 +1,4 @@
-LArSoft v06\_83\_00 Release Notes(#LArSoft-v06_83_00-Release-Notes)
+LArSoft v06\_83\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -32,13 +32,13 @@ LArSoft v06\_83\_00 Release Notes(#LArSoft-v06_83_00-Release-Notes)
 Download instructions for [larsoft v06\_83\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_83_00/larsoft-v06_83_00.html)\
 Download instructions for [just larsoftobj v1\_48\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_48_00/larsoftobj-v1_48_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   `lareventdisplay`: `feature/gp_Display3Doutline`
@@ -58,51 +58,51 @@ New features(#New-features)
     -   Other small updates are minor/cosmetic and affect only the in-Pandora validation metrics (off in all default use-cases in LArSoft) and the names assigned to some Pandora worker instances.
     -   No changes in output are expected, and none have been seen in our tests.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_83\_00(#larsoft-v06_83_00)
+larsoft v06\_83\_00
 ------------------------------------------
 
 -   2018-07-05 Lynn Garren : larsoft v06\_83\_00 for larsoft v06\_83\_00
 -   2018-07-05 Lynn Garren : no source code manifest
 -   2018-07-05 Lynn Garren : update versions
 
-lareventdisplay v06\_21\_00(#lareventdisplay-v06_21_00)
+lareventdisplay v06\_21\_00
 ----------------------------------------------------------
 
 -   2018-07-05 Lynn Garren : lareventdisplay v06\_21\_00 for larsoft v06\_83\_00
 -   2018-07-03 Lynn Garren : Merge branch ‘feature/gp\_Display3Doutline’ into release/v06\_83\_00
 -   2018-06-26 Gianluca Petrillo : Standard detector 3D drawer fixed for multiple TPC geometries.
 
-larexamples v06\_14\_04(#larexamples-v06_14_04)
+larexamples v06\_14\_04
 --------------------------------------------------
 
 -   2018-07-05 Lynn Garren : larexamples v06\_14\_04 for larsoft v06\_83\_00
 
-larpandora v06\_31\_02(#larpandora-v06_31_02)
+larpandora v06\_31\_02
 ------------------------------------------------
 
 -   2018-07-05 Lynn Garren : larpandora v06\_31\_02 for larsoft v06\_83\_00
 
-larwirecell v06\_14\_04(#larwirecell-v06_14_04)
+larwirecell v06\_14\_04
 --------------------------------------------------
 
 -   2018-07-05 Lynn Garren : larwirecell v06\_14\_04 for larsoft v06\_83\_00
 
-larana v06\_20\_04(#larana-v06_20_04)
+larana v06\_20\_04
 ----------------------------------------
 
 -   2018-07-05 Lynn Garren : larana v06\_20\_04 for larsoft v06\_83\_00
 -   2018-07-02 Yun-Tse Tsai : for the associations between MCParticles and Hits, include the MCParticles with negative trackIDs
 
-larreco v06\_64\_00(#larreco-v06_64_00)
+larreco v06\_64\_00
 ------------------------------------------
 
 -   2018-07-05 Lynn Garren : larreco v06\_64\_00 for larsoft v06\_83\_00
@@ -129,7 +129,7 @@ larreco v06\_64\_00(#larreco-v06_64_00)
 -   2018-06-25 baller : Add TMVA for finding shower parents. Add Cheat showers.
 -   2018-06-25 baller : Add TMVA for finding shower parents.
 
-larsim v06\_51\_00(#larsim-v06_51_00)
+larsim v06\_51\_00
 ----------------------------------------
 
 -   2018-07-05 Lynn Garren : remove accidental duplicate
@@ -174,20 +174,20 @@ larsim v06\_51\_00(#larsim-v06_51_00)
 -   2017-11-10 Chris Backhouse : Use PhotonLibrary via the interface. Required dropping various “Set” methods from the service. No one seems to be using them anyway…
 -   2017-11-10 Chris Backhouse : Add IPhotonLibrary interface and make PhotonLibrary implement it.
 
-larevt v06\_22\_02(#larevt-v06_22_02)
+larevt v06\_22\_02
 ----------------------------------------
 
 -   2018-07-05 Lynn Garren : larevt v06\_22\_02 for larsoft v06\_83\_00
 
-lardata v06\_47\_01(#lardata-v06_47_01)
+lardata v06\_47\_01
 ------------------------------------------
 
 -   2018-07-05 Lynn Garren : lardata v06\_47\_01 for larsoft v06\_83\_00
 
-larcore v06\_21\_00(#larcore-v06_21_00)
+larcore v06\_21\_00
 ------------------------------------------
 
-larpandoracontent v03\_13\_01(#larpandoracontent-v03_13_01)
+larpandoracontent v03\_13\_01
 --------------------------------------------------------------
 
 -   2018-07-05 Lynn Garren : larpandoracontent v03\_13\_01 for larsoft v06\_83\_00
@@ -208,13 +208,13 @@ larpandoracontent v03\_13\_01(#larpandoracontent-v03_13_01)
 -   2018-06-20 Steven Green : Added bestMatchPfoIsTestBeam vector to event validation output tree.
 -   2018-06-20 Steven Green : Alter IsTestBeam function in LArPfoHelper to use pfo PropertiesMap.
 
-larsoftobj v1\_48\_00(#larsoftobj-v1_48_00)
+larsoftobj v1\_48\_00
 ----------------------------------------------
 
 -   2018-07-05 Lynn Garren : larsoftobj v1\_48\_00 for larsoft v06\_83\_00
 -   2018-07-05 Lynn Garren : update versions
 
-lardataobj v1\_34\_00(#lardataobj-v1_34_00)
+lardataobj v1\_34\_00
 ----------------------------------------------
 
 -   2018-07-05 Lynn Garren : use the root type ULong64\_t
@@ -222,25 +222,25 @@ lardataobj v1\_34\_00(#lardataobj-v1_34_00)
 -   2018-06-27 Thomas Junk : add RDTimeStamp data product and associations with raw digits
 -   2018-06-27 Thomas Junk : Add a timestamp data product to be associated with raw digits
 
-lardataalg v1\_01\_03(#lardataalg-v1_01_03)
+lardataalg v1\_01\_03
 ----------------------------------------------
 
 -   2018-07-05 Lynn Garren : lardataalg v1\_01\_03 for larsoft v06\_83\_00
 
-larcorealg v1\_23\_01(#larcorealg-v1_23_01)
+larcorealg v1\_23\_01
 ----------------------------------------------
 
-larcoreobj v1\_24\_00(#larcoreobj-v1_24_00)
+larcoreobj v1\_24\_00
 ----------------------------------------------
 
-larbatch v01\_42\_01(#larbatch-v01_42_01)
+larbatch v01\_42\_01
 --------------------------------------------
 
 -   2018-07-05 Lynn Garren : larbatch v01\_42\_01 for larsoft v06\_83\_00
 -   2018-06-27 Lynn Garren : larsoft v06\_82\_00
 -   2018-06-26 Herbert Greenlee : Add input dataset name to –check\_input output.
 
-larutils v1\_22\_08(#larutils-v1_22_08)
+larutils v1\_22\_08
 ------------------------------------------
 
 -   2018-07-05 Lynn Garren : larutils v1\_22\_08 for larsoft v06\_83\_00

@@ -16,12 +16,12 @@
     -   [SingleGen](#SingleGen)
 -   [Usage](#Usage)
 
-EventGenerator(#EventGenerator)
+EventGenerator
 ==================================
 
 Author: Brian Rebel,
 
-Summary(#Summary)
+Summary
 ====================
 
 This package provides interfaces to various event generation products including GENIE, CRY, and single particle generators.
@@ -29,7 +29,7 @@ This package provides interfaces to various event generation products including 
 -   **Input**: none
 -   **Output**: simb::MCTruth, simb::MCFlux
 
-Technical description(#Technical-description)
+Technical description
 ================================================
 
 There are four different ways to create events for LArSoft:
@@ -41,7 +41,7 @@ There are four different ways to create events for LArSoft:
 
 The [larsim:source:larsim/EventGenerator](/redmine/projects/larsim/repository/entry/larsim/EventGenerator) package contains a module for each of these, as well as .fcl files defining the jobs to run each type of event generation.
 
-Cosmic Ray Generation with CRY(#Cosmic-Ray-Generation-with-CRY)
+Cosmic Ray Generation with CRY
 ------------------------------------------------------------------
 
 CRY is a third party package to simulate cosmic rays. It is documented at [http://nuclear.llnl.gov/simulation/](http://nuclear.llnl.gov/simulation/)
@@ -52,7 +52,7 @@ To create a file containing cosmic ray interactions for each event, do
 
 % lar -c job/prodcosmics.fcl
 
-Neutrino Interaction Generation with GENIE(#Neutrino-Interaction-Generation-with-GENIE)
+Neutrino Interaction Generation with GENIE
 ------------------------------------------------------------------------------------------
 
 [GENIE](http://projects.hepforge.org/genie/) is the external neutrino interaction generator we are using to produce neutrinos in the Monte Carlo simulation. The GENIEGen module makes use of the [GENIEHelper](https://cdcvs.fnal.gov/redmine/projects/nusoftart/wiki/GENIEHelper) object in the [NuSoft/EventGeneratorBase](https://cdcvs.fnal.gov/redmine/projects/nusoftart/wiki) package. The module uses GENIEHelper both to determine how many interactions to produce in each spill and to fill the Monte Carlo truth information for the interaction and flux information.
@@ -63,7 +63,7 @@ To create a file containing neutrino interactions for each event, do
 
 % lar -c job/prodgenie.fcl
 
-### Flux files available for use(#Flux-files-available-for-use)
+### Flux files available for use
 
 The following flux files are available for use and are located in the /grid/fermiapp/lbne/lar/aux directory
 
@@ -103,7 +103,7 @@ simple
 
 LBNE
 
-### Standard configurations(#Standard-configurations)
+### Standard configurations
 
 The following configurations defined in [larsim:source:larsim/EventGenerator/GENIE/genie.fcl](/redmine/projects/larsim/repository/entry/larsim/EventGenerator/GENIE/genie.fcl) are available for use in your fcl job configuration file when generating events with GENIE:
 
@@ -119,13 +119,13 @@ The following configurations defined in [larsim:source:larsim/EventGenerator/GEN
 
 The names should be self-explanatory, but look in [larsim:source:larsim/EventGenerator/GENIE/genie.fcl](/redmine/projects/larsim/repository/entry/larsim/EventGenerator/GENIE/genie.fcl) for more details. This list will expand over time and one should look at the genie.fcl file for the most up-to-date list.
 
-### Note about Mother and daughters in GENIE and LArSoft(#Note-about-Mother-and-daughters-in-GENIE-and-LArSoft)
+### Note about Mother and daughters in GENIE and LArSoft
 
 GENIE allows one to follow decayed particles by looking at their Mother or their daughters. Note that when using GENIE, only the Mother is accessible (having both is redundant). However, note that in LArG4, it is NOT the case. In LArG4, both Mother and daughters are accessible.
 
 If you want to trace the Mother of a particle, the value returned will be an integer corresponding to the index of the Mother particle. This index is only an iterator that GENIE uses to list the particles. The primary particles are stored in the collection of [Particle](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Simulation/Particle.h) objects created by LArG4. Those objects have the mother and daughter information available to users.
 
-Single Particle Generation(#Single-Particle-Generation)
+Single Particle Generation
 ----------------------------------------------------------
 
 The SingleGen module can produce spills with either single particles in them or multiple particles. In either case, the particle species is defined by the list of PDG codes supplied. The initial position, momenta and the spread of momenta and starting positions for the desired particles is specified in the job file. The spread can either be Gaussian or uniformly distributed.
@@ -134,7 +134,7 @@ You can make files where each event contains a predetermined set of particles by
 
 % lar -c job/prodsingle.fcl
 
-Light Source Photon Generation(#Light-Source-Photon-Generation)
+Light Source Photon Generation
 ------------------------------------------------------------------
 
 For several applications in optical monte carlo it is necessary to produce a stream of photons from a particular point in the detector. The LightSource event generator simulates placing an extended, isotropic light source at some point within the TPC volume. A typical configuration may be to generate 10,000 photons in one voxel and record the PMT responses, then move the voxel for each subsequent event to scan the PMT responses from light sources at different points in the detector geometry. The LightSource event generator has two modes.
@@ -149,15 +149,15 @@ For both modes, a TTree can optionally be produced, containing the positions and
 
 The parameters for each mode are described in full in the lightsource.fcl file.
 
-A Word about Co-ordinate Systems(#A-Word-about-Co-ordinate-Systems)
+A Word about Co-ordinate Systems
 ======================================================================
 
 As noted in the discussion on co-ordinate systems on the [Geometry](Geometry) page, the origin is not necessarily located in the center of the upstream end of the TPC.
 
-List of Parameters(#List-of-Parameters)
+List of Parameters
 ==========================================
 
-GENIEGen(#GENIEGen)
+GENIEGen
 ----------------------
 
   ------------------ --------------- -------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------
@@ -186,7 +186,7 @@ GENIEGen(#GENIEGen)
   DetectorLocation   string          MINOS-NearDet                                                                                location name for flux window
   ------------------ --------------- -------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------
 
-CosmicsGen(#CosmicsGen)
+CosmicsGen
 --------------------------
 
   ----------------- -------- ------------------- ----------------------------------------------------------------------------
@@ -200,7 +200,7 @@ CosmicsGen(#CosmicsGen)
   RandomSeed        int      0                   Random number seed - if set to 0 the system will pick a seed
   ----------------- -------- ------------------- ----------------------------------------------------------------------------
 
-SingleGen(#SingleGen)
+SingleGen
 ------------------------
 
   -------------- --------------- --------- ------------------------------------------------------------
@@ -225,7 +225,7 @@ SingleGen(#SingleGen)
 
 No defaults are given for this module as it is completely up to the user to decide which kinds of particles to simulate and how to do the simulation.
 
-Usage(#Usage)
+Usage
 ================
 
 See the following files for example usage:

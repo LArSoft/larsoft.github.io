@@ -1,4 +1,4 @@
-LArSoft v08\_47\_00 Release Notes(#LArSoft-v08_47_00-Release-Notes)
+LArSoft v08\_47\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -34,13 +34,13 @@ LArSoft v08\_47\_00 Release Notes(#LArSoft-v08_47_00-Release-Notes)
 Download instructions for [larsoft v08\_47\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_47_00/larsoft-v08_47_00.html)\
 Download instructions for [just larsoftobj v08\_27\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_27_02/larsoftobj-v08_27_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larg4 PR 6
@@ -52,13 +52,13 @@ New features(#New-features)
     -   dunetpc will need feature/tjyang\_tensorflow\_v1\_12\_0
     -   resolves issue [\#22504](/redmine/issues/22504 "Support: Request to upgrade the tensorflow version (Closed)")
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larsim PR 10
     -   Small fix to interpretation of azimuthal angle in MUSUN generator.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   tensorflow v1\_12\_0c
@@ -67,26 +67,26 @@ Updated dependencies(#Updated-dependencies)
 -   trtis\_clients v19\_11b
     -   available for SLF7 e19 and e19-py2
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_47\_00(#larsoft-v08_47_00)
+larsoft v08\_47\_00
 ------------------------------------------
 
 -   2020-03-18 Lynn Garren : larsoft v08\_47\_00 for larsoft v08\_47\_00
 -   2020-03-18 Lynn Garren : product versions
 
-lareventdisplay v08\_12\_07(#lareventdisplay-v08_12_07)
+lareventdisplay v08\_12\_07
 ----------------------------------------------------------
 
 -   2020-03-18 Lynn Garren : lareventdisplay v08\_12\_07 for larsoft v08\_47\_00
 
-larexamples v08\_06\_07(#larexamples-v08_06_07)
+larexamples v08\_06\_07
 --------------------------------------------------
 
 -   2020-03-18 Lynn Garren : larexamples v08\_06\_07 for larsoft v08\_47\_00
 
-larg4 v08\_12\_05(#larg4-v08_12_05)
+larg4 v08\_12\_05
 --------------------------------------
 
 -   2020-03-18 Lynn Garren : larg4 v08\_12\_05 for larsoft v08\_47\_00
@@ -98,28 +98,28 @@ larg4 v08\_12\_05(#larg4-v08_12_05)
 -   2020-03-02 David Rivera : Added a ParticleListAction\_service list parameter (keepGenTrajectories) which accepts a list of generator labels. Retrieve the generator corresponding to each MCTruthIndex and determine whether the trajectories for the generator(s) should be stored or not. If storeTrajectories fhicl parameter is set to true and no keepGenTrajectories is provided, all trajectories for all generators are stored. If storeTrajectories is set to false then the no trajectory points are stored (for any generator). This preserves the behavior of the storeTrajectories fhicl parameter.
 -   2020-02-26 David Rivera : work in progress
 
-larpandora v08\_11\_07(#larpandora-v08_11_07)
+larpandora v08\_11\_07
 ------------------------------------------------
 
 -   2020-03-18 Lynn Garren : larpandora v08\_11\_07 for larsoft v08\_47\_00
 
-larrecodnn v08\_01\_00(#larrecodnn-v08_01_00)
+larrecodnn v08\_01\_00
 ------------------------------------------------
 
-larwirecell v08\_12\_06(#larwirecell-v08_12_06)
+larwirecell v08\_12\_06
 --------------------------------------------------
 
-larana v08\_16\_07(#larana-v08_16_07)
+larana v08\_16\_07
 ----------------------------------------
 
 -   2020-03-18 Lynn Garren : larana v08\_16\_07 for larsoft v08\_47\_00
 
-larreco v08\_29\_02(#larreco-v08_29_02)
+larreco v08\_29\_02
 ------------------------------------------
 
 -   2020-03-18 Lynn Garren : larreco v08\_29\_02 for larsoft v08\_47\_00
 
-larsim v08\_21\_00(#larsim-v08_21_00)
+larsim v08\_21\_00
 ----------------------------------------
 
 -   2020-03-18 Lynn Garren : larsim v08\_21\_00 for larsoft v08\_47\_00
@@ -130,37 +130,37 @@ larsim v08\_21\_00(#larsim-v08_21_00)
 -   2020-03-14 Wenqiang Gu : Merge remote-tracking branch ‘origin/master’ into wgu\_multi\_input
 -   2020-02-20 Wenqiang Gu : accept multiple instances of SimEnergyDeposit as input
 
-larevt v08\_10\_06(#larevt-v08_10_06)
+larevt v08\_10\_06
 ----------------------------------------
 
-lardata v08\_14\_05(#lardata-v08_14_05)
+lardata v08\_14\_05
 ------------------------------------------
 
-larcore v08\_11\_02(#larcore-v08_11_02)
+larcore v08\_11\_02
 ------------------------------------------
 
-larpandoracontent v03\_15\_15(#larpandoracontent-v03_15_15)
+larpandoracontent v03\_15\_15
 --------------------------------------------------------------
 
-larsoftobj v08\_27\_02(#larsoftobj-v08_27_02)
+larsoftobj v08\_27\_02
 ------------------------------------------------
 
-lardataobj v08\_10\_05(#lardataobj-v08_10_05)
+lardataobj v08\_10\_05
 ------------------------------------------------
 
-lardataalg v08\_13\_05(#lardataalg-v08_13_05)
+lardataalg v08\_13\_05
 ------------------------------------------------
 
-larcorealg v08\_21\_02(#larcorealg-v08_21_02)
+larcorealg v08\_21\_02
 ------------------------------------------------
 
-larcoreobj v08\_10\_04(#larcoreobj-v08_10_04)
+larcoreobj v08\_10\_04
 ------------------------------------------------
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_25\_08(#larutils-v1_25_08)
+larutils v1\_25\_08
 ------------------------------------------
 
 -   2020-03-18 Lynn Garren : larutils v1\_25\_08 for larsoft v08\_47\_00

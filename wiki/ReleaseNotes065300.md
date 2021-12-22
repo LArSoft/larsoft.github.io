@@ -1,4 +1,4 @@
-LArSoft v06\_53\_00 Release Notes(#LArSoft-v06_53_00-Release-Notes)
+LArSoft v06\_53\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,13 +31,13 @@ LArSoft v06\_53\_00 Release Notes(#LArSoft-v06_53_00-Release-Notes)
 Download instructions for [larsoft v06\_53\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_53_00/larsoft-v06_53_00.html)\
 Download instructions for [just larsoftobj v1\_28\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_28_00/larsoftobj-v1_28_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco feature/rsulej\_tf
@@ -46,10 +46,10 @@ New features(#New-features)
     -   resolves a problem noticed in dunetpc
     -   The issue is that recob::Tracks are not produced for cosmic-ray oriented reconstruction passes of detectors with more than one (what we call) drift volume. MicroBooNE is thus not affected, nor are any neutrino-oriented reconstructed passes (such as the DUNE FD test).
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ ------------------------
@@ -60,10 +60,10 @@ Updated dependencies(#Updated-dependencies)
   cetpkgsupport   v1\_13\_00                has support for ups v6
   --------------- ------------ ------------ ------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_53\_00(#larsoft-v06_53_00)
+larsoft v06\_53\_00
 ------------------------------------------
 
 -   2017-10-12 Lynn Garren : lareventdisplay v06\_13\_00
@@ -73,34 +73,34 @@ larsoft v06\_53\_00(#larsoft-v06_53_00)
 -   2017-10-12 Lynn Garren : adding tensorflow
 -   2017-10-12 Lynn Garren : cetbuildtools v5\_14\_03 and cetpkgsupport v1\_13\_00
 
-lareventdisplay v06\_13\_00(#lareventdisplay-v06_13_00)
+lareventdisplay v06\_13\_00
 ----------------------------------------------------------
 
 -   2017-10-12 Lynn Garren : lareventdisplay v06\_13\_00 for larsoft v06\_53\_00
 -   2017-10-09 Usher, Tracy L : Primarily these changes are to get the hits to display correctly in the 2D display with a multi-cryo, multi-tpc detector (e.g. ICARUS - and I’m surprised this didn’t show up in DUNE displays?). Also some formatting updates.
 -   2017-10-09 Usher, Tracy L : Updates to try to get the x offsets correct, these specifically for a multi-TPC environment (e.g. ICARUS)
 
-larexamples v06\_07\_04(#larexamples-v06_07_04)
+larexamples v06\_07\_04
 --------------------------------------------------
 
 -   2017-10-12 Lynn Garren : larexamples v06\_07\_04 for larsoft v06\_53\_00
 
-larpandora v06\_17\_01(#larpandora-v06_17_01)
+larpandora v06\_17\_01
 ------------------------------------------------
 
 -   2017-10-12 Lynn Garren : larpandora v06\_17\_01 for larsoft v06\_53\_00
 
-larwirecell v06\_07\_04(#larwirecell-v06_07_04)
+larwirecell v06\_07\_04
 --------------------------------------------------
 
 -   2017-10-12 Lynn Garren : larwirecell v06\_07\_04 for larsoft v06\_53\_00
 
-larana v06\_10\_05(#larana-v06_10_05)
+larana v06\_10\_05
 ----------------------------------------
 
 -   2017-10-12 Lynn Garren : larana v06\_10\_05 for larsoft v06\_53\_00
 
-larreco v06\_42\_00(#larreco-v06_42_00)
+larreco v06\_42\_00
 ------------------------------------------
 
 -   2017-10-12 Lynn Garren : larreco v06\_42\_00 for larsoft v06\_53\_00
@@ -139,17 +139,17 @@ larreco v06\_42\_00(#larreco-v06_42_00)
 -   2017-08-24 Lynn Garren : fix qualifier matrix
 -   2017-08-23 Robert Sulej : setup dependecy on tensorflow, add first include (not yet doing anything useful)
 
-larsim v06\_31\_04(#larsim-v06_31_04)
+larsim v06\_31\_04
 ----------------------------------------
 
 -   2017-10-12 Lynn Garren : larsim v06\_31\_04 for larsoft v06\_53\_00
 
-larevt v06\_16\_04(#larevt-v06_16_04)
+larevt v06\_16\_04
 ----------------------------------------
 
 -   2017-10-12 Lynn Garren : larevt v06\_16\_04 for larsoft v06\_53\_00
 
-lardata v06\_31\_00(#lardata-v06_31_00)
+lardata v06\_31\_00
 ------------------------------------------
 
 -   2017-10-12 Lynn Garren : lardata v06\_31\_00 for larsoft v06\_53\_00
@@ -161,32 +161,32 @@ lardata v06\_31\_00(#lardata-v06_31_00)
 -   2017-10-05 Gianluca Petrillo : DetectorPropertiesService test now prints some more information.
 -   2017-10-05 Gianluca Petrillo : Fixed bug in DetectorPropertiesStandard initialization for test code.
 
-larcore v06\_15\_01(#larcore-v06_15_01)
+larcore v06\_15\_01
 ------------------------------------------
 
-larpandoracontent v03\_08\_01(#larpandoracontent-v03_08_01)
+larpandoracontent v03\_08\_01
 --------------------------------------------------------------
 
 -   2017-10-12 Lynn Garren : larpandoracontent v03\_08\_01 for larsoft v06\_53\_00
 -   2017-10-11 Lynn Garren : v03\_08\_01
 -   2017-10-06 John Marshall : Temporary workaround to cover usage of TrackParticleBuilding algorithm by a Pandora stitching instance.
 
-larsoftobj v1\_28\_00(#larsoftobj-v1_28_00)
+larsoftobj v1\_28\_00
 ----------------------------------------------
 
-lardataobj v1\_21\_01(#lardataobj-v1_21_01)
+lardataobj v1\_21\_01
 ----------------------------------------------
 
-larcorealg v1\_08\_00(#larcorealg-v1_08_00)
+larcorealg v1\_08\_00
 ----------------------------------------------
 
-larcoreobj v1\_16\_00(#larcoreobj-v1_16_00)
+larcoreobj v1\_16\_00
 ----------------------------------------------
 
-larbatch v01\_32\_05(#larbatch-v01_32_05)
+larbatch v01\_32\_05
 --------------------------------------------
 
-larutils v1\_19\_03(#larutils-v1_19_03)
+larutils v1\_19\_03
 ------------------------------------------
 
 -   2017-10-12 Lynn Garren : larutils v1\_19\_03 for larsoft v06\_53\_00

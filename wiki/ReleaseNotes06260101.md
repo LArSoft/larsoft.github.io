@@ -1,4 +1,4 @@
-LArSoft v06\_26\_01\_01 Release Notes(#LArSoft-v06_26_01_01-Release-Notes)
+LArSoft v06\_26\_01\_01 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -28,12 +28,12 @@ LArSoft v06\_26\_01\_01 Release Notes(#LArSoft-v06_26_01_01-Release-Notes)
 Download instructions for [larsoft v06\_26\_01\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_26_01_01/larsoft-v06_26_01_01.html)\
 Download instructions for [just larsoftobj v1\_11\_00\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_11_00_01/larsoftobj-v1_11_00_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   MicroBoone patch request
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   feature/cerati\_larsoft-v06\_26\_01-plus-new-kffit
@@ -41,41 +41,41 @@ New features(#New-features)
 -   larevt v06\_07\_09\_br
 -   larwirecell feature/bkirby\_wirecell\_v0\_5\_2
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   wirecell v0\_5\_2
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_26\_01\_01(#larsoft-v06_26_01_01)
+larsoft v06\_26\_01\_01
 -------------------------------------------------
 
 -   2017-04-04 Lynn Garren : larsoft v06\_26\_01\_01
 -   2017-04-04 Lynn Garren : update product versions
 
-lareventdisplay v06\_02\_14\_01(#lareventdisplay-v06_02_14_01)
+lareventdisplay v06\_02\_14\_01
 -----------------------------------------------------------------
 
 -   2017-04-04 Lynn Garren : lareventdisplay v06\_02\_14\_01
 -   2017-03-23 Giuseppe Cerati : Merge remote-tracking branch ‘origin/feature/cerati\_flags-evd’ into feature/cerati\_larsoft-v06\_26\_01-plus-new-kffit
 -   2017-03-07 Giuseppe Cerati : draw only valid points for tracks
 
-larexamples v06\_01\_15\_01(#larexamples-v06_01_15_01)
+larexamples v06\_01\_15\_01
 ---------------------------------------------------------
 
 -   2017-04-04 Lynn Garren : larexamples v06\_01\_15\_01
 
-larpandora v06\_08\_00\_01(#larpandora-v06_08_00_01)
+larpandora v06\_08\_00\_01
 -------------------------------------------------------
 
 -   2017-04-04 Lynn Garren : larpandora v06\_08\_00\_01
 
-larwirecell v06\_00\_13\_01(#larwirecell-v06_00_13_01)
+larwirecell v06\_00\_13\_01
 ---------------------------------------------------------
 
 -   2017-04-04 Lynn Garren : larwirecell v06\_00\_13\_01
@@ -90,12 +90,12 @@ larwirecell v06\_00\_13\_01(#larwirecell-v06_00_13_01)
 -   2017-03-01 Eberly : Added ASIC database hooks to determine misconfigured channels
 -   2017-02-28 Lynn Garren : larwirecell v06\_00\_14 for larsoft v06\_26\_02
 
-larana v06\_03\_18\_01(#larana-v06_03_18_01)
+larana v06\_03\_18\_01
 -----------------------------------------------
 
 -   2017-04-04 Lynn Garren : larana v06\_03\_18\_01 for larsoft v06\_26\_01\_01
 
-larreco v06\_20\_00\_01(#larreco-v06_20_00_01)
+larreco v06\_20\_00\_01
 -------------------------------------------------
 
 -   2017-04-04 Lynn Garren : larreco v06\_20\_00\_01
@@ -112,18 +112,18 @@ larreco v06\_20\_00\_01(#larreco-v06_20_00_01)
 -   2017-03-07 Giuseppe Cerati : cleanup and fixes
 -   2017-02-10 Giuseppe Cerati : intermediate commit towards new version of the fitter, large rewrite of TrackKalmanFitter now using flags and new classes based on smatrix
 
-larsim v06\_13\_01\_01(#larsim-v06_13_01_01)
+larsim v06\_13\_01\_01
 -----------------------------------------------
 
 -   2017-04-04 Lynn Garren : larsim v06\_13\_01\_01
 
-larevt v06\_07\_09\_01(#larevt-v06_07_09_01)
+larevt v06\_07\_09\_01
 -----------------------------------------------
 
 -   2017-04-04 Lynn Garren : larevt v06\_07\_09\_01
 -   2017-02-22 Eberly : Use function with built in timeout to query database. This is the function now supported by SCD and may help alleviate the channel 494 problem
 
-lardata v06\_14\_04\_01(#lardata-v06_14_04_01)
+lardata v06\_14\_04\_01
 -------------------------------------------------
 
 -   2017-04-04 Lynn Garren : lardata v06\_14\_04\_01 for larsoft v06\_26\_01\_01
@@ -150,18 +150,18 @@ lardata v06\_14\_04\_01(#lardata-v06_14_04_01)
 -   2017-01-30 Giuseppe Cerati : temporary commit
 -   2017-01-27 Giuseppe Cerati : add files
 
-larcore v06\_05\_03(#larcore-v06_05_03)
+larcore v06\_05\_03
 ------------------------------------------
 
-larpandoracontent v03\_02\_00(#larpandoracontent-v03_02_00)
+larpandoracontent v03\_02\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_11\_00\_01(#larsoftobj-v1_11_00_01)
+larsoftobj v1\_11\_00\_01
 -----------------------------------------------------
 
 -   2017-04-04 Lynn Garren : larsoftobj v1\_11\_00\_01 for larsoft v06\_26\_01\_01
 
-lardataobj v1\_11\_00\_01(#lardataobj-v1_11_00_01)
+lardataobj v1\_11\_00\_01
 -----------------------------------------------------
 
 -   2017-04-04 Lynn Garren : lardataobj v1\_11\_00\_01 for larsoft v06\_26\_01\_01
@@ -170,5 +170,5 @@ lardataobj v1\_11\_00\_01(#lardataobj-v1_11_00_01)
 -   2017-03-07 Giuseppe Cerati : updates for track fitting
 -   2017-02-10 Giuseppe Cerati : fix bug in TrackingPlane in case HasMomentum=false, add new TrackFitHitInfo data object
 
-larcoreobj v1\_06\_02(#larcoreobj-v1_06_02)
+larcoreobj v1\_06\_02
 ----------------------------------------------

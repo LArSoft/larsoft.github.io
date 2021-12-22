@@ -1,4 +1,4 @@
-LArSoft v08\_08\_00 Release Notes(#LArSoft-v08_08_00-Release-Notes)
+LArSoft v08\_08\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v08\_08\_00 Release Notes(#LArSoft-v08_08_00-Release-Notes)
 Download instructions for [larsoft v08\_08\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_08_00/larsoft-v08_08_00.html)\
 Download instructions for [just larsoftobj v08\_05\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_05_00/larsoftobj-v08_05_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Avoid discarding createEngine’s returned reference
@@ -64,51 +64,51 @@ New features(#New-features)
     -   dunetpc feature/ss\_issue19191
 -   larreco feature/cerati\_shw-trk-fits
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nutools v2\_26\_07
 -   nusystematics v00\_02\_06
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_08\_00(#larsoft-v08_08_00)
+larsoft v08\_08\_00
 ------------------------------------------
 
 -   2019-02-07 Lynn Garren : product versions
 -   2019-02-07 Lynn Garren : larsoft v08\_08\_00 for larsoft v08\_08\_00
 -   2019-02-05 Lynn Garren : s75
 
-lareventdisplay v08\_03\_03(#lareventdisplay-v08_03_03)
+lareventdisplay v08\_03\_03
 ----------------------------------------------------------
 
 -   2019-02-07 Lynn Garren : lareventdisplay v08\_03\_03 for larsoft v08\_08\_00
 
-larexamples v08\_01\_03(#larexamples-v08_01_03)
+larexamples v08\_01\_03
 --------------------------------------------------
 
 -   2019-02-07 Lynn Garren : larexamples v08\_01\_03 for larsoft v08\_08\_00
 
-larg4 v08\_01\_03(#larg4-v08_01_03)
+larg4 v08\_01\_03
 --------------------------------------
 
 -   2019-02-07 Lynn Garren : larg4 v08\_01\_03 for larsoft v08\_08\_00
 
-larpandora v08\_04\_02(#larpandora-v08_04_02)
+larpandora v08\_04\_02
 ------------------------------------------------
 
 -   2019-02-07 Lynn Garren : larpandora v08\_04\_02 for larsoft v08\_08\_00
 
-larwirecell v08\_02\_03(#larwirecell-v08_02_03)
+larwirecell v08\_02\_03
 --------------------------------------------------
 
 -   2019-02-07 Lynn Garren : larwirecell v08\_02\_03 for larsoft v08\_08\_00
 
-larana v08\_02\_00(#larana-v08_02_00)
+larana v08\_02\_00
 ----------------------------------------
 
 -   2019-02-07 Lynn Garren : larana v08\_02\_00
@@ -120,7 +120,7 @@ larana v08\_02\_00(#larana-v08_02_00)
 -   2019-01-18 Kyle Knoepfel : Whitespace cleanup.
 -   2019-01-18 Kyle Knoepfel : Remove getEngine calls; some cleanups.
 
-larreco v08\_07\_00(#larreco-v08_07_00)
+larreco v08\_07\_00
 ------------------------------------------
 
 -   2019-02-07 Lynn Garren : larreco v08\_07\_00 for larsoft v08\_08\_00
@@ -132,7 +132,7 @@ larreco v08\_07\_00(#larreco-v08_07_00)
 -   2019-01-30 Giuseppe Cerati : kalman filter fixes and updates for MicroBooNE MCC9
 -   2019-01-18 Kyle Knoepfel : Remove getEngine calls; some cleanups.
 
-larsim v08\_03\_00(#larsim-v08_03_00)
+larsim v08\_03\_00
 ----------------------------------------
 
 -   2019-02-07 Lynn Garren : larsim v08\_03\_00
@@ -142,19 +142,19 @@ larsim v08\_03\_00(#larsim-v08_03_00)
 -   2019-02-04 Kyle Knoepfel : Merge branch ‘develop’ into feature/knoepfel\_nodiscard
 -   2018-10-08 Kyle Knoepfel : Remove getEngine calls; other cleanups.
 
-larevt v08\_01\_03(#larevt-v08_01_03)
+larevt v08\_01\_03
 ----------------------------------------
 
 -   2019-02-07 Lynn Garren : larevt v08\_01\_03 for larsoft v08\_08\_00
 
-lardata v08\_03\_00(#lardata-v08_03_00)
+lardata v08\_03\_00
 ------------------------------------------
 
 -   2019-02-07 Lynn Garren : larcore back down to v08\_01\_03
 -   2019-02-07 Lynn Garren : lardata v08\_03\_00 for larsoft v08\_08\_00
 -   2019-02-06 Kyle Knoepfel : Call non-default base-class constructors in preparation for art 3.02.
 
-larcore v08\_01\_03(#larcore-v08_01_03)
+larcore v08\_01\_03
 ------------------------------------------
 
 -   2019-02-07 Lynn Garren : Merge branch ‘release/v08\_08\_00’
@@ -164,26 +164,26 @@ larcore v08\_01\_03(#larcore-v08_01_03)
 -   2019-02-07 Lynn Garren : Merge branch ‘feature/gp\_factorizeGeometryBuilding’ into release/v08\_08\_00
 -   2019-02-01 Gianluca Petrillo : Added code in Geometry service to control which geometry builder to use.
 
-larpandoracontent v03\_14\_04(#larpandoracontent-v03_14_04)
+larpandoracontent v03\_14\_04
 --------------------------------------------------------------
 
-larsoftobj v08\_05\_00(#larsoftobj-v08_05_00)
+larsoftobj v08\_05\_00
 ------------------------------------------------
 
 -   2019-02-07 Lynn Garren : product versions
 -   2019-02-07 Lynn Garren : larsoftobj v08\_05\_00 for larsoft v08\_08\_00
 
-lardataobj v08\_01\_03(#lardataobj-v08_01_03)
+lardataobj v08\_01\_03
 ------------------------------------------------
 
 -   2019-02-07 Lynn Garren : lardataobj v08\_01\_03
 
-lardataalg v08\_03\_03(#lardataalg-v08_03_03)
+lardataalg v08\_03\_03
 ------------------------------------------------
 
 -   2019-02-07 Lynn Garren : lardataalg v08\_03\_03 for larsoft v08\_08\_00
 
-larcorealg v08\_03\_00(#larcorealg-v08_03_00)
+larcorealg v08\_03\_00
 ------------------------------------------------
 
 -   2019-02-07 Lynn Garren : Revert “Merge branch ‘feature/gp\_factorizeGeometryBuilding’ into release/v08\_08\_00”
@@ -203,13 +203,13 @@ larcorealg v08\_03\_00(#larcorealg-v08_03_00)
 -   2019-01-16 Saba Sehrish : added functionality to returrn channels in TPC
 -   2019-01-16 Saba Sehrish : added functionality to returrn channels in TPC
 
-larcoreobj v08\_02\_01(#larcoreobj-v08_02_01)
+larcoreobj v08\_02\_01
 ------------------------------------------------
 
-larbatch v01\_47\_03(#larbatch-v01_47_03)
+larbatch v01\_47\_03
 --------------------------------------------
 
-larutils v1\_23\_11(#larutils-v1_23_11)
+larutils v1\_23\_11
 ------------------------------------------
 
 -   2019-02-07 Lynn Garren : larutils v1\_23\_11 for larsoft v08\_08\_00

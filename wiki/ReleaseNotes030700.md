@@ -1,4 +1,4 @@
-LArSoft v03\_07\_00 Release Notes(#LArSoft-v03_07_00-Release-Notes)
+LArSoft v03\_07\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,22 +24,22 @@ LArSoft v03\_07\_00 Release Notes(#LArSoft-v03_07_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_07_00/larsoft-v03_07_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Changes since v03\_06\_00
 -   deconvolution and signal shaping as approved Jan. 13 for this release
 -   Bezier track updates
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   SignalShaping
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ----------- ---------------------------------------
@@ -48,28 +48,28 @@ Updated dependencies(#Updated-dependencies)
   larsoft\_data   v0\_03\_02               new file for MicroBooNE
   --------------- ------------ ----------- ---------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_07\_00(#larsoft-v03_07_00)
+larsoft v03\_07\_00
 ------------------------------------------
 
 -   2015-01-21 Lynn Garren : artextensions
 -   2015-01-21 Lynn Garren : add artexternals and larutils
 -   2015-01-21 Lynn Garren : update dependency list
 
-lareventdisplay v03\_03\_02(#lareventdisplay-v03_03_02)
+lareventdisplay v03\_03\_02
 ----------------------------------------------------------
 
 -   2015-01-21 Lynn Garren : lareventdisplay v03\_03\_02 for larsoft v03\_07\_00
 -   2015-01-16 Wesley Ketchum : change drawing for bezier tracks to use bezierformat … I really dont want to change everything else
 
-larexamples v03\_02\_12(#larexamples-v03_02_12)
+larexamples v03\_02\_12
 --------------------------------------------------
 
 -   2015-01-21 Lynn Garren : larexamples v03\_02\_12 for larsoft v03\_07\_00
 
-larpandora v03\_06\_00(#larpandora-v03_06_00)
+larpandora v03\_06\_00
 ------------------------------------------------
 
 -   2015-01-21 Lynn Garren : larpandora v03\_06\_00 for larsoft v03\_07\_00
@@ -87,7 +87,7 @@ larpandora v03\_06\_00(#larpandora-v03_06_00)
 -   2015-01-15 Andrew Blake : Quietening warning messages when MC particles aren’t inputted into Pandora
 -   2015-01-15 Andrew Blake : Modifying Cluster and ParticleFlowObject helpers in LArPandoraAlgorithms to return a set of trajectory points for a given reconstructed track. Also, adding new sorting functions for hits.
 
-larana v03\_03\_10(#larana-v03_03_10)
+larana v03\_03\_10
 ----------------------------------------
 
 -   2015-01-21 Lynn Garren : larana v03\_03\_10 for larsoft v03\_07\_00
@@ -98,7 +98,7 @@ larana v03\_03\_10(#larana-v03_03_10)
 -   2015-01-08 Wesley Ketchum : just add some useful comments
 -   2015-01-06 Wesley Ketchum : change calorimetry to use particular product instance
 
-larreco v03\_06\_00(#larreco-v03_06_00)
+larreco v03\_06\_00
 ------------------------------------------
 
 -   2015-01-21 Lynn Garren : larreco v03\_06\_00 for larsoft v03\_07\_00
@@ -107,7 +107,7 @@ larreco v03\_06\_00(#larreco-v03_06_00)
 -   2015-01-07 Wesley Ketchum : bunch of cout statements for debugging
 -   2015-01-06 Wesley Ketchum : add in creation og ub\_style tracks in bezier tracker
 
-larsim v03\_05\_00(#larsim-v03_05_00)
+larsim v03\_05\_00
 ----------------------------------------
 
 -   2015-01-21 Lynn Garren : larsim v03\_05\_00 for larsoft v03\_07\_00
@@ -115,13 +115,13 @@ larsim v03\_05\_00(#larsim-v03_05_00)
 -   2015-01-15 Brandon Eberly : Fixed bug in particle filter in which some particles that intersect the cryostat were not kept for simulation
 -   2015-01-14 Gianluca Petrillo : Added module to dump content of raw::RawDigit on screen
 
-larevt v03\_04\_00(#larevt-v03_04_00)
+larevt v03\_04\_00
 ----------------------------------------
 
 -   2015-01-21 Lynn Garren : larevt v03\_04\_00 for larsoft v03\_07\_00
 -   2015-01-14 Gianluca Petrillo : Removed MicroBooNE-specific geometry configuration from test modules
 
-lardata v03\_07\_00(#lardata-v03_07_00)
+lardata v03\_07\_00
 ------------------------------------------
 
 -   2015-01-21 Lynn Garren : lardata v03\_07\_00 for larsoft v03\_07\_00
@@ -142,12 +142,12 @@ lardata v03\_07\_00(#lardata-v03_07_00)
 -   2015-01-06 Xin Qian : change back
 -   2015-01-06 Xin Qian : receive time offset
 
-larcore v03\_05\_00(#larcore-v03_05_00)
+larcore v03\_05\_00
 ------------------------------------------
 
 -   unchanged
 
-larbatch v01\_02\_00(#larbatch-v01_02_00)
+larbatch v01\_02\_00
 --------------------------------------------
 
 -   2015-01-21 Lynn Garren : larbatch v01\_02\_00 for larsoft v03\_07\_00
@@ -162,7 +162,7 @@ larbatch v01\_02\_00(#larbatch-v01_02_00)
 -   2015-01-16 Tingjun Yang : Add support for TextFileGen mode. User can specify \<inputmode\>text
 -   2015-01-15 Herbert Greenlee : Add project.py –fetchlog (calls jobsub\_fetchlog).
 
-larutils v1\_00\_00(#larutils-v1_00_00)
+larutils v1\_00\_00
 ------------------------------------------
 
 -   2015-01-21 Lynn Garren : larutils v1\_00\_00 for larsoft v03\_07\_00

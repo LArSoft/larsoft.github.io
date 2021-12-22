@@ -1,4 +1,4 @@
-LArSoft v06\_26\_01\_09 Release Notes(#LArSoft-v06_26_01_09-Release-Notes)
+LArSoft v06\_26\_01\_09 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -30,27 +30,27 @@ LArSoft v06\_26\_01\_09 Release Notes(#LArSoft-v06_26_01_09-Release-Notes)
 Download instructions for [larsoft v06\_26\_01\_09](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_26_01_09/larsoft-v06_26_01_09.html)\
 Download instructions for [just larsoftobj v1\_11\_00\_04](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_11_00_04/larsoftobj-v1_11_00_04.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   for MicroBooNE production
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   art v2\_05\_01
 -   nutools v2\_10\_00\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_26\_01\_09(#larsoft-v06_26_01_09)
+larsoft v06\_26\_01\_09
 -------------------------------------------------
 
 -   2017-12-12 Lynn Garren : larsoft v06\_26\_01\_09
@@ -58,27 +58,27 @@ larsoft v06\_26\_01\_09(#larsoft-v06_26_01_09)
 -   2017-12-12 Lynn Garren : latest larbatch and larutils
 -   2017-12-12 Lynn Garren : update products
 
-lareventdisplay v06\_02\_14\_09(#lareventdisplay-v06_02_14_09)
+lareventdisplay v06\_02\_14\_09
 -----------------------------------------------------------------
 
 -   2017-12-12 Lynn Garren : lareventdisplay v06\_02\_14\_09
 
-larexamples v06\_01\_15\_05(#larexamples-v06_01_15_05)
+larexamples v06\_01\_15\_05
 ---------------------------------------------------------
 
 -   2017-12-12 Lynn Garren : larexamples v06\_01\_15\_05
 
-larpandora v06\_08\_00\_09(#larpandora-v06_08_00_09)
+larpandora v06\_08\_00\_09
 -------------------------------------------------------
 
 -   2017-12-12 Lynn Garren : larpandora v06\_08\_00\_09
 
-larwirecell v06\_00\_13\_07(#larwirecell-v06_00_13_07)
+larwirecell v06\_00\_13\_07
 ---------------------------------------------------------
 
 -   2017-12-12 Lynn Garren : larwirecell v06\_00\_13\_07
 
-larana v06\_03\_18\_09(#larana-v06_03_18_09)
+larana v06\_03\_18\_09
 -----------------------------------------------
 
 -   2017-12-12 Lynn Garren : add missing library
@@ -103,7 +103,7 @@ larana v06\_03\_18\_09(#larana-v06_03_18_09)
 -   2017-10-25 Andrzej Szelc : add updates from feature/wketchum\_MCMatchHitAssn to the MCC8.4 release of larana
 -   2017-10-25 Wesley Ketchum : add hit assns to mctruth matching module
 
-larreco v06\_20\_00\_09(#larreco-v06_20_00_09)
+larreco v06\_20\_00\_09
 -------------------------------------------------
 
 -   2017-12-12 Lynn Garren : larreco v06\_20\_00\_09
@@ -114,37 +114,37 @@ larreco v06\_20\_00\_09(#larreco-v06_20_00_09)
 -   2017-12-01 Tingjun Yang : Add tag to turn on/off lifetime correction in calorimetryalg.
 -   2017-11-28 Tingjun Yang : Fix bug. Do not continue if hit is associated to an invalid point.
 
-larsim v06\_13\_01\_05(#larsim-v06_13_01_05)
+larsim v06\_13\_01\_05
 -----------------------------------------------
 
 -   2017-12-12 Lynn Garren : larsim v06\_13\_01\_05
 -   2017-11-06 Yun-Tse Tsai : checkout the header from origin/feature/yuntse\_trackide
 -   2017-11-06 Yun-Tse Tsai : add one variable for number of electrons collected at a wire for TrackIDE
 
-larevt v06\_07\_09\_05(#larevt-v06_07_09_05)
+larevt v06\_07\_09\_05
 -----------------------------------------------
 
 -   2017-12-12 Lynn Garren : larevt v06\_07\_09\_05
 
-lardata v06\_14\_04\_04(#lardata-v06_14_04_04)
+lardata v06\_14\_04\_04
 -------------------------------------------------
 
 -   2017-12-12 Lynn Garren : lardata v06\_14\_04\_04
 
-larcore v06\_05\_03\_02(#larcore-v06_05_03_02)
+larcore v06\_05\_03\_02
 -------------------------------------------------
 
 -   2017-12-12 Lynn Garren : larcore v06\_05\_03\_02
 
-larpandoracontent v03\_07\_02\_05(#larpandoracontent-v03_07_02_05)
+larpandoracontent v03\_07\_02\_05
 ---------------------------------------------------------------------
 
-larsoftobj v1\_11\_00\_04(#larsoftobj-v1_11_00_04)
+larsoftobj v1\_11\_00\_04
 -----------------------------------------------------
 
 -   2017-12-12 Lynn Garren : larsoftobj v1\_11\_00\_04
 
-lardataobj v1\_11\_00\_04(#lardataobj-v1_11_00_04)
+lardataobj v1\_11\_00\_04
 -----------------------------------------------------
 
 -   2017-12-12 Lynn Garren : lardataobj v1\_11\_00\_04
@@ -158,12 +158,12 @@ lardataobj v1\_11\_00\_04(#lardataobj-v1_11_00_04)
 -   2017-10-25 Usher, Tracy L : Add reference to the new association between hits and MCParticles
 -   2017-10-25 Wesley Ketchum : add hit assns to mctruth matching module
 
-larcoreobj v1\_06\_02\_02(#larcoreobj-v1_06_02_02)
+larcoreobj v1\_06\_02\_02
 -----------------------------------------------------
 
 -   2017-12-12 Lynn Garren : larcoreobj v1\_06\_02\_02
 
-larbatch v01\_34\_02(#larbatch-v01_34_02)
+larbatch v01\_34\_02
 --------------------------------------------
 
 -   2017-12-06 Lynn Garren : larbatch v01\_34\_02 for larsoft v06\_59\_00
@@ -179,7 +179,7 @@ larbatch v01\_34\_02(#larbatch-v01_34_02)
 -   2017-11-16 Herbert Greenlee : Add initializer.
 -   2017-11-14 Herbert Greenlee : Add –recur option.
 
-larutils v1\_20\_02(#larutils-v1_20_02)
+larutils v1\_20\_02
 ------------------------------------------
 
 -   2017-12-06 Lynn Garren : larutils v1\_20\_02 for larsoft v06\_59\_00

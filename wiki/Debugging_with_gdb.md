@@ -1,4 +1,4 @@
-Debugging with gdb(#Debugging-with-gdb)
+Debugging with gdb
 ==========================================
 
 -   **Table of contents**
@@ -8,7 +8,7 @@ Debugging with gdb(#Debugging-with-gdb)
     -   [Executing my module step by step](#Executing-my-module-step-by-step)
         -   [Have the debugger point to the right source directory](#Have-the-debugger-point-to-the-right-source-directory)
 
-Set up of `gdb` in a LArSoft environment(#Set-up-of-gdb-in-a-LArSoft-environment)
+Set up of `gdb` in a LArSoft environment
 ------------------------------------------------------------------------------------
 
 The GNU debugger (`gdb`) is distributed with UPS for Linux machines. The usual UPS magic:\
@@ -24,7 +24,7 @@ Today, `/grid/fermiapp/products/larsoft` offers: `setup gdb v7_10_1`.
 
 If you are on OSX, you haven’t a `gdb` distributed by LArSoft. You can use system `lldb` and cross your fingers…
 
-Segmentation fault!(#Segmentation-fault)
+Segmentation fault!
 -------------------------------------------
 
 Let’s say that I want to check where a particle is actually generated when running `prodsingle.fcl`.\
@@ -148,7 +148,7 @@ So: before this gets too deep, rebuild with debugging qualifiers (and maybe in a
 
 Oh, and type `quit` to exit the debugger.
 
-Executing my module step by step(#Executing-my-module-step-by-step)
+Executing my module step by step
 ----------------------------------------------------------------------
 
 Now we need to look in detail to the flow of a module, and read the position of the generated particles on the fly!\
@@ -325,7 +325,7 @@ When we hit `continue`, the execution continues through `LArG4`, `SimWire` and f
 \
 So, the position is still the same.
 
-### Have the debugger point to the right source directory(#Have-the-debugger-point-to-the-right-source-directory)
+### Have the debugger point to the right source directory
 
 The debugger has some idea of where to find the source code. That idea is in fact stored in the library, and describes the absolute path of the source code in the machine it was compiled in. If you are using precompiled packages, that path is just bogus.\
 The GNU debugger will tell you that it can’t find such and such source file, and you can find from that path which UPS package the file is in.\

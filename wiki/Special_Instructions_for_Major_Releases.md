@@ -1,11 +1,11 @@
-Special Instructions for Major Releases(#Special-Instructions-for-Major-Releases)
+Special Instructions for Major Releases
 ====================================================================================
 
 See the [LArSoft release naming policy](LArSoft_release_naming_policy)
 
 When making a major release upgrade, we make a final release in the current series and then build the new major release from the final tag of the old major release.
 
-Simple cases(#Simple-cases)
+Simple cases
 ------------------------------
 
 -   This release has not required a release candiate branch.
@@ -18,7 +18,7 @@ Simple cases(#Simple-cases)
     -   tagLAr patch v(MM+1)\_mm\_pp vMM\_mm\_pp
 -   Once this is done, make the appropriate changes, test, tag, and build normally
 
-Dealing with release candidate branches(#Dealing-with-release-candidate-branches)
+Dealing with release candidate branches
 ------------------------------------------------------------------------------------
 
 -   make a new build directory

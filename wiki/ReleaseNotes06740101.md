@@ -1,4 +1,4 @@
-LArSoft v06\_74\_01\_01 Release Notes(#LArSoft-v06_74_01_01-Release-Notes)
+LArSoft v06\_74\_01\_01 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -33,25 +33,25 @@ Download instructions for [just larsoftobj v1\_43\_01](http://scisoft.fnal.gov/s
 
 **This is a test release.**
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   test geant4
     -   see [Aaron Higuera’s request](https://indico.fnal.gov/event/16852/contribution/3/material/slides/0.pdf)
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   This release is identical to v06\_74\_01
 -   The only change is the version of geant4 used.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nutools v2\_21\_02
 -   geant4 v4\_10\_3\_p03b
 
-CI test results(#CI-test-results)
+CI test results
 ------------------------------------
 
     larsoft v06_74_01_01 test
@@ -129,80 +129,80 @@ CI test results(#CI-test-results)
     > G4 | largeant |  | art::Assns<simb::MCTruth,simb::MCParticle,sim::GeneratedParticleInfo> | 15521
     > G4 | largeant |  | std::vector<sim::SimChannel> | 8001
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_74\_01\_01(#larsoft-v06_74_01_01)
+larsoft v06\_74\_01\_01
 -------------------------------------------------
 
 -   2018-04-20 Lynn Garren : larsoft v06\_74\_01\_01 for larsoft v06\_74\_01\_01\_branch
 -   2018-04-20 Lynn Garren : for nutools v2\_21\_02
 
-lareventdisplay v06\_19\_02\_01(#lareventdisplay-v06_19_02_01)
+lareventdisplay v06\_19\_02\_01
 -----------------------------------------------------------------
 
 -   2018-04-20 Lynn Garren : lareventdisplay v06\_19\_02\_01 for larsoft v06\_74\_01\_01\_branch
 
-larexamples v06\_13\_02\_01(#larexamples-v06_13_02_01)
+larexamples v06\_13\_02\_01
 ---------------------------------------------------------
 
 -   2018-04-20 Lynn Garren : larexamples v06\_13\_02\_01 for larsoft v06\_74\_01\_01\_branch
 
-larpandora v06\_26\_02\_01(#larpandora-v06_26_02_01)
+larpandora v06\_26\_02\_01
 -------------------------------------------------------
 
 -   2018-04-20 Lynn Garren : larpandora v06\_26\_02\_01 for larsoft v06\_74\_01\_01\_branch
 
-larwirecell v06\_12\_02\_01(#larwirecell-v06_12_02_01)
+larwirecell v06\_12\_02\_01
 ---------------------------------------------------------
 
 -   2018-04-20 Lynn Garren : larwirecell v06\_12\_02\_01 for larsoft v06\_74\_01\_01\_branch
 
-larana v06\_19\_02\_01(#larana-v06_19_02_01)
+larana v06\_19\_02\_01
 -----------------------------------------------
 
 -   2018-04-20 Lynn Garren : larana v06\_19\_02\_01 for larsoft v06\_74\_01\_01\_branch
 
-larreco v06\_59\_01\_01(#larreco-v06_59_01_01)
+larreco v06\_59\_01\_01
 -------------------------------------------------
 
 -   2018-04-20 Lynn Garren : larreco v06\_59\_01\_01 for larsoft v06\_74\_01\_01\_branch
 
-larsim v06\_44\_01\_01(#larsim-v06_44_01_01)
+larsim v06\_44\_01\_01
 -----------------------------------------------
 
 -   2018-04-20 Lynn Garren : larsim v06\_44\_01\_01 for larsoft v06\_74\_01\_01\_branch
 
-larevt v06\_20\_02\_01(#larevt-v06_20_02_01)
+larevt v06\_20\_02\_01
 -----------------------------------------------
 
 -   2018-04-20 Lynn Garren : larevt v06\_20\_02\_01 for larsoft v06\_74\_01\_01\_branch
 
-lardata v06\_43\_02\_01(#lardata-v06_43_02_01)
+lardata v06\_43\_02\_01
 -------------------------------------------------
 
 -   2018-04-20 Lynn Garren : lardata v06\_43\_02\_01 for larsoft v06\_74\_01\_01\_branch
 
-larcore v06\_19\_01(#larcore-v06_19_01)
+larcore v06\_19\_01
 ------------------------------------------
 
-larpandoracontent v03\_11\_01(#larpandoracontent-v03_11_01)
+larpandoracontent v03\_11\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_43\_01(#larsoftobj-v1_43_01)
+larsoftobj v1\_43\_01
 ----------------------------------------------
 
-lardataobj v1\_31\_00(#lardataobj-v1_31_00)
+lardataobj v1\_31\_00
 ----------------------------------------------
 
-larcorealg v1\_19\_01(#larcorealg-v1_19_01)
+larcorealg v1\_19\_01
 ----------------------------------------------
 
-larcoreobj v1\_23\_00(#larcoreobj-v1_23_00)
+larcoreobj v1\_23\_00
 ----------------------------------------------
 
-larbatch v01\_39\_00(#larbatch-v01_39_00)
+larbatch v01\_39\_00
 --------------------------------------------
 
-larutils v1\_22\_03(#larutils-v1_22_03)
+larutils v1\_22\_03
 ------------------------------------------

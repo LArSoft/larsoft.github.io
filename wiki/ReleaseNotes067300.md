@@ -1,4 +1,4 @@
-LArSoft v06\_73\_00 Release Notes(#LArSoft-v06_73_00-Release-Notes)
+LArSoft v06\_73\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,22 +31,22 @@ LArSoft v06\_73\_00 Release Notes(#LArSoft-v06_73_00-Release-Notes)
 Download instructions for [larsoft v06\_73\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_73_00/larsoft-v06_73_00.html)\
 Download instructions for [just larsoftobj v1\_42\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_42_00/larsoftobj-v1_42_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   build with both c2 and e15
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   please see the extensive notes about [changes needed for c2](Building_with_clang)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   changes as needed for the clang build
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   pandora v03\_07\_00c
@@ -55,10 +55,10 @@ Updated dependencies(#Updated-dependencies)
 -   nutools v2\_20\_02
 -   dk2nugenie v01\_06\_01c
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_73\_00(#larsoft-v06_73_00)
+larsoft v06\_73\_00
 ------------------------------------------
 
 -   2018-04-05 Lynn Garren : larsoft v06\_73\_00 for larsoft v06\_73\_00
@@ -69,7 +69,7 @@ larsoft v06\_73\_00(#larsoft-v06_73_00)
 -   2018-03-22 Lynn Garren : add c2
 -   2018-03-22 Lynn Garren : product updates for c2
 
-lareventdisplay v06\_19\_00(#lareventdisplay-v06_19_00)
+lareventdisplay v06\_19\_00
 ----------------------------------------------------------
 
 -   2018-04-05 Lynn Garren : lareventdisplay v06\_19\_00 for larsoft v06\_73\_00
@@ -87,7 +87,7 @@ lareventdisplay v06\_19\_00(#lareventdisplay-v06_19_00)
 -   2018-04-03 Usher, Tracy L : Include in header file to facilitate the build
 -   2018-03-22 Lynn Garren : add c2
 
-larexamples v06\_13\_00(#larexamples-v06_13_00)
+larexamples v06\_13\_00
 --------------------------------------------------
 
 -   2018-04-05 Lynn Garren : larexamples v06\_13\_00 for larsoft v06\_73\_00
@@ -97,7 +97,7 @@ larexamples v06\_13\_00(#larexamples-v06_13_00)
 -   2018-04-02 Lynn Garren : Workaround for array initialisation bug, issue [\#19474](/redmine/issues/19474 "Necessary Maintenance: Workaround for Clang bug on array initialisation (Accepted)")
 -   2018-03-22 Lynn Garren : add c2
 
-larpandora v06\_26\_00(#larpandora-v06_26_00)
+larpandora v06\_26\_00
 ------------------------------------------------
 
 -   2018-04-05 Lynn Garren : larpandora v06\_26\_00 for larsoft v06\_73\_00
@@ -106,7 +106,7 @@ larpandora v06\_26\_00(#larpandora-v06_26_00)
 -   2018-03-26 Lynn Garren : TrackIDE is a struct
 -   2018-03-22 Lynn Garren : add c2
 
-larwirecell v06\_12\_00(#larwirecell-v06_12_00)
+larwirecell v06\_12\_00
 --------------------------------------------------
 
 -   2018-04-05 Lynn Garren : larwirecell v06\_12\_00 for larsoft v06\_73\_00
@@ -114,7 +114,7 @@ larwirecell v06\_12\_00(#larwirecell-v06_12_00)
 -   2018-03-29 Lynn Garren : private data member m\_prod is unused
 -   2018-03-22 Lynn Garren : add c2
 
-larana v06\_19\_00(#larana-v06_19_00)
+larana v06\_19\_00
 ----------------------------------------
 
 -   2018-04-05 Lynn Garren : larana v06\_19\_00 for larsoft v06\_73\_00
@@ -129,7 +129,7 @@ larana v06\_19\_00(#larana-v06_19_00)
 -   2018-04-02 Gianluca Petrillo : Commenting out unused data members.
 -   2018-03-22 Lynn Garren : add c2
 
-larreco v06\_58\_00(#larreco-v06_58_00)
+larreco v06\_58\_00
 ------------------------------------------
 
 -   2018-04-05 Lynn Garren : larreco v06\_58\_00 for larsoft v06\_73\_00
@@ -165,7 +165,7 @@ larreco v06\_58\_00(#larreco-v06_58_00)
 -   2018-03-22 Lynn Garren : make tensorflow optional for now
 -   2018-03-22 Lynn Garren : add c2
 
-larsim v06\_43\_00(#larsim-v06_43_00)
+larsim v06\_43\_00
 ----------------------------------------
 
 -   2018-04-05 Lynn Garren : larsim v06\_43\_00 for larsoft v06\_73\_00
@@ -188,7 +188,7 @@ larsim v06\_43\_00(#larsim-v06_43_00)
 -   2018-03-29 Lynn Garren : use override
 -   2018-03-22 Lynn Garren : add c2
 
-larevt v06\_20\_00(#larevt-v06_20_00)
+larevt v06\_20\_00
 ----------------------------------------
 
 -   2018-04-05 Lynn Garren : larevt v06\_20\_00 for larsoft v06\_73\_00
@@ -204,7 +204,7 @@ larevt v06\_20\_00(#larevt-v06_20_00)
 -   2018-03-22 Lynn Garren : remove unused private data member
 -   2018-03-22 Lynn Garren : add c2
 
-lardata v06\_43\_00(#lardata-v06_43_00)
+lardata v06\_43\_00
 ------------------------------------------
 
 -   2018-04-05 Lynn Garren : lardata v06\_43\_00 for larsoft v06\_73\_00
@@ -232,14 +232,14 @@ lardata v06\_43\_00(#lardata-v06_43_00)
 -   2018-03-28 Gianluca Petrillo : Removed template stream from operator\<\< of classes.
 -   2018-03-22 Lynn Garren : adding c2
 
-larcore v06\_19\_00(#larcore-v06_19_00)
+larcore v06\_19\_00
 ------------------------------------------
 
 -   2018-04-05 Lynn Garren : larcore v06\_19\_00 for larsoft v06\_73\_00
 -   2018-03-22 Lynn Garren : ServiceRequirementsChecker is a struct
 -   2018-03-22 Lynn Garren : adding c2
 
-larpandoracontent v03\_11\_01(#larpandoracontent-v03_11_01)
+larpandoracontent v03\_11\_01
 --------------------------------------------------------------
 
 -   2018-04-05 Lynn Garren : larpandoracontent v03\_11\_01 for larsoft v06\_73\_00
@@ -247,7 +247,7 @@ larpandoracontent v03\_11\_01(#larpandoracontent-v03_11_01)
 -   2018-04-04 Lynn Garren : Merge branch ‘feature/team\_for\_c2’ into release/v06\_73\_00
 -   2018-03-22 Lynn Garren : add c2
 
-larsoftobj v1\_42\_00(#larsoftobj-v1_42_00)
+larsoftobj v1\_42\_00
 ----------------------------------------------
 
 -   2018-04-05 Lynn Garren : larsoftobj v1\_42\_00 for larsoft v06\_73\_00
@@ -255,7 +255,7 @@ larsoftobj v1\_42\_00(#larsoftobj-v1_42_00)
 -   2018-04-05 Lynn Garren : update versions
 -   2018-03-22 Lynn Garren : adding c2
 
-lardataobj v1\_30\_00(#lardataobj-v1_30_00)
+lardataobj v1\_30\_00
 ----------------------------------------------
 
 -   2018-04-05 Lynn Garren : lardataobj v1\_30\_00 for larsoft v06\_73\_00
@@ -265,7 +265,7 @@ lardataobj v1\_30\_00(#lardataobj-v1_30_00)
 -   2018-03-22 Lynn Garren : adding c2
 -   2018-03-22 Lynn Garren : for c2
 
-larcorealg v1\_19\_00(#larcorealg-v1_19_00)
+larcorealg v1\_19\_00
 ----------------------------------------------
 
 -   2018-04-05 Lynn Garren : larcorealg v1\_19\_00 for larsoft v06\_73\_00
@@ -294,7 +294,7 @@ larcorealg v1\_19\_00(#larcorealg-v1_19_00)
 -   2018-03-22 Lynn Garren : AuxDetGeometryData\_t is a struct
 -   2018-03-22 Lynn Garren : adding c2
 
-larcoreobj v1\_23\_00(#larcoreobj-v1_23_00)
+larcoreobj v1\_23\_00
 ----------------------------------------------
 
 -   2018-04-05 Lynn Garren : larcoreobj v1\_23\_00 for larsoft v06\_73\_00
@@ -303,7 +303,7 @@ larcoreobj v1\_23\_00(#larcoreobj-v1_23_00)
 -   2018-03-22 Gianluca Petrillo : Updated Doxygen documentation
 -   2018-03-22 Lynn Garren : adding c2
 
-larbatch v01\_38\_02(#larbatch-v01_38_02)
+larbatch v01\_38\_02
 --------------------------------------------
 
 -   2018-04-05 Lynn Garren : larbatch v01\_38\_02 for larsoft v06\_73\_00
@@ -318,7 +318,7 @@ larbatch v01\_38\_02(#larbatch-v01_38_02)
 -   2018-03-29 Lynn Garren : larsoft v06\_72\_00
 -   2018-03-29 Herbert Greenlee : Add support for \<targetsize\> with sam datasets.
 
-larutils v1\_22\_01(#larutils-v1_22_01)
+larutils v1\_22\_01
 ------------------------------------------
 
 -   2018-04-05 Lynn Garren : adding c2

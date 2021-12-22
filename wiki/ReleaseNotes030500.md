@@ -1,4 +1,4 @@
-LArSoft v03\_05\_00 Release Notes(#LArSoft-v03_05_00-Release-Notes)
+LArSoft v03\_05\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -22,23 +22,23 @@ LArSoft v03\_05\_00 Release Notes(#LArSoft-v03_05_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_05_00/larsoft-v03_05_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Changes in develop since v03\_04\_06
 -   MicroBoone request
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   UniqueRangeSet object in lardata
 -   AuxDetGeo trapezoid implimentation change
 -   [\#7532](/redmine/issues/7532 "Feature: Make dump_wires.fcl independent of geometry (Closed)"): make DumpWires module independent of geometry
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ---------- ------------- ----------- --------------------------------------------------
@@ -48,34 +48,34 @@ Updated dependencies(#Updated-dependencies)
   mrb        v1\_03\_04                improvements for building null flavored products
   ---------- ------------- ----------- --------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_05\_00(#larsoft-v03_05_00)
+larsoft v03\_05\_00
 ------------------------------------------
 
 -   2015-01-05 Lynn Garren : make sure cetbuildtools v4\_04\_03 is available
 -   2015-01-05 Lynn Garren : larsoft v03\_05\_00 product list
 -   2015-01-05 Lynn Garren : lardata Range.h and UniqueRangeSet.h
 
-lareventdisplay v03\_03\_00(#lareventdisplay-v03_03_00)
+lareventdisplay v03\_03\_00
 ----------------------------------------------------------
 
 -   2015-01-05 Lynn Garren : lareventdisplay v03\_03\_00 for larsoft v03\_05\_00
 -   2015-01-02 Tingjun Yang : Display all possible wire segments for each wire. This is only relevant for wrapped wires.
 -   2014-12-30 Bruce Baller : Prevent accessing nonsensical color values
 
-larexamples v03\_02\_10(#larexamples-v03_02_10)
+larexamples v03\_02\_10
 --------------------------------------------------
 
 -   2015-01-05 Lynn Garren : larexamples v03\_02\_10 for larsoft v03\_05\_00
 
-larpandora v03\_04\_03(#larpandora-v03_04_03)
+larpandora v03\_04\_03
 ------------------------------------------------
 
 -   2015-01-05 Lynn Garren : larpandora v03\_04\_03 for larsoft v03\_05\_00
 
-larana v03\_03\_07(#larana-v03_03_07)
+larana v03\_03\_07
 ----------------------------------------
 
 -   2015-01-05 Lynn Garren : for larsoft v03\_05\_00
@@ -83,7 +83,7 @@ larana v03\_03\_07(#larana-v03_03_07)
 -   2014-12-18 Lynn Garren : larsoft v03\_04\_06
 -   2014-12-16 Sarah Lockwitz : Added error score values for tracks with poorly found end points… just in case
 
-larreco v03\_04\_02(#larreco-v03_04_02)
+larreco v03\_04\_02
 ------------------------------------------
 
 -   2015-01-05 Lynn Garren : larreco v03\_04\_02 for larsoft v03\_05\_00
@@ -91,7 +91,7 @@ larreco v03\_04\_02(#larreco-v03_04_02)
 -   2015-01-02 Tingjun Yang : Clean up fcl files.
 -   2014-12-29 Tingjun Yang : use ConvertTicksToX to get x coordinate for each spacepoint
 
-larsim v03\_03\_02(#larsim-v03_03_02)
+larsim v03\_03\_02
 ----------------------------------------
 
 -   2015-01-05 Lynn Garren : larsim v03\_03\_02 for larsoft v03\_05\_00
@@ -99,21 +99,21 @@ larsim v03\_03\_02(#larsim-v03_03_02)
 -   2014-12-29 Lynn Garren : use the predefined library name
 -   2014-12-22 Gianluca Petrillo : Added explicit link to Root Pytia6 library, silently needed by Genie
 
-larevt v03\_03\_00(#larevt-v03_03_00)
+larevt v03\_03\_00
 ----------------------------------------
 
 -   2015-01-05 Lynn Garren : larevt v03\_03\_00 for larsoft v03\_05\_00
 -   2014-12-18 Lynn Garren : larsoft v03\_04\_06
 -   2014-12-17 Gianluca Petrillo : Issue [\#7532](/redmine/issues/7532 "Feature: Make dump_wires.fcl independent of geometry (Closed)"): make DumpWires module independent of geometry
 
-lardata v03\_05\_00(#lardata-v03_05_00)
+lardata v03\_05\_00
 ------------------------------------------
 
 -   2015-01-05 Lynn Garren : lardata v03\_05\_00 for larsoft v03\_05\_00
 -   2015-01-02 Wesley Ketchum : allow ranges to have same start and end
 -   2015-01-01 Wesley Ketchum : add in range tool written by kazu
 
-larcore v03\_04\_00(#larcore-v03_04_00)
+larcore v03\_04\_00
 ------------------------------------------
 
 -   2015-01-05 Lynn Garren : larcore v03\_04\_00 for larsoft v03\_05\_00

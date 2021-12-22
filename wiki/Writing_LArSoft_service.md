@@ -14,7 +14,7 @@
 
 Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html).
 
-Guidelines on writing (and using) services in LArSoft(#Guidelines-on-writing-and-using-services-in-LArSoft)
+Guidelines on writing (and using) services in LArSoft
 ==============================================================================================================
 
 A LArSoft service is a class, with a single instance managed by the framework, that performs an operation. A service is used by LArSoft algorithms and *art* modules.
@@ -61,7 +61,7 @@ LArSoft provides a utility function `providerFrom()` in `larcore/CoreUtils/Servi
 \
 Both the forms can be made even more compact, at the expense of readability, by replacing the provider class name with `auto`: `geo::GeometryCore const* geom` becomes `auto const*`: faster to write, but then one has to figure out where to find the documentation of the interface (hint: start from the service documentation, and a pointer will lead you to the provider).
 
-Models for writing services(#Models-for-writing-services)
+Models for writing services
 ------------------------------------------------------------
 
 The plain *art* service is like described above: any class with a public constructor with a specific signature and a special *art* macro.\
@@ -72,7 +72,7 @@ In LArSoft, we may need more flexibility than just a single service with a singl
 
 The following paragraphs describe the three combinations of features on top of the plain *art* service.
 
-### Service interface with many implementations (e.g., experiment-specific)(#Service-interface-with-many-implementations-eg-experiment-specific)
+### Service interface with many implementations (e.g., experiment-specific)
 
 This model allows different ways to implement the same service. This is an *art* feature, and nothing of this is specific to LArSoft.\
 At run time, a single implementation will be chosen by *art* depending on the service configuration (from the FHiCL configuration file).
@@ -163,7 +163,7 @@ Again, this is a standard *art* facility.
 
 ^2^ Some LArSoft utilities enforce the recommendation of having service provider classes non-copiable and unmovable. The derivation from `lar::UncopiableAndUnmovableClass` achieves that goal.
 
-### Service factorization model(#Service-factorization-model)
+### Service factorization model
 
 ![](https://cdcvs.fnal.gov/redmine/attachments/download/29534/ServiceDependency.svg)
 
@@ -240,7 +240,7 @@ An example of this factorization can be seen in the geometry service.\
 In this example, the service *contains* a instance of the provider. This is the recommended pattern.\
 The `Geometry` service instead inherits, rather than containing, the provider. This is an implementation forced by backward compatibility requirement and is *not* the recommended method, since it strongly couples provider and service (for example, they are forced to have the same life time).
 
-### Service interface factorization (e.g., experiment-specific, framework-independent service implementations)(#Service-interface-factorization-eg-experiment-specific-framework-independent-service-implementations)
+### Service interface factorization (e.g., experiment-specific, framework-independent service implementations)
 
 ![](https://cdcvs.fnal.gov/redmine/attachments/download/29535/ServiceInterfaceDependency.svg)
 
@@ -281,7 +281,7 @@ The interface classes (of provider and service) do not need to have an implement
 
 *Note:* [ShowerCalibrationGalore](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__ShowerCalibrationGalore.html) in `larexamples` is also a fully developed and thoroughly documented example of this pattern.
 
-Prescriptions for the use of LArSoft services(#Prescriptions-for-the-use-of-LArSoft-services)
+Prescriptions for the use of LArSoft services
 ------------------------------------------------------------------------------------------------
 
 In the factorization development model, user code typically lives in an algorithm class that is interfaced to the framework by whatever the framework provides for the job (in *art*, that is a module).\
@@ -349,7 +349,7 @@ An *art* module using this algorithm would look like this:\
 
     }; // class MyModule
 
-### Naming conventions(#Naming-conventions)
+### Naming conventions
 
 We are currently endorsing the following naming convention:
 
@@ -363,12 +363,12 @@ We are currently endorsing the following naming convention:
     -   provider implementation: a descriptive name, connecting to the interface: `StandardLArProperties`, `LArPropertiesFromDB` (we reserve the plain `LArProperties` name for LArSoft use)
     -   service implementation: again the same class name as for the provider, with `Service` appended on it: e.g., `StandardLArPropertiesService`, `LArPropertiesFromDBService`; this can yield pretty ugly names, but has the advantage of predictability
 
-Developing a new LArSoft service(#Developing-a-new-LArSoft-service)
+Developing a new LArSoft service
 ----------------------------------------------------------------------
 
 > This section will host excerpts of the new `DetectorProperties` service. Since the latter is not ready yet, this is a **to-do**.
 
-### Lazy provider instantiation(#Lazy-provider-instantiation)
+### Lazy provider instantiation
 
 The framework service is required to return a working, fully configured provider as the result of a `provider()` call.\
 The service can delay the creation of the provider until then. For example:\
@@ -414,19 +414,19 @@ Note that in this paradigm the provider could still get effectively unused.\
 For example, an algorithm might claim it requires `MyProvider`, and then never actually use it. Since the `Setup()` call of that algorithm takes a pointer to the provider, provider creation is forced when the algorithm is `Setup()` rather than when the provider is actually used.\
 In general, providers should consider to implement their own laziness. The right solution depends on the specific case.
 
-### Service dependencies(#Service-dependencies)
+### Service dependencies
 
 Service providers are not responsible for the other providers they depend on: they assume the providers are fully functional.\
 It is responsibility of the framework to ensure that the services are ready when needed, and they are around long until they are not needed any more. It is responsibility of each service to make sure that their own provider is ready when its pointer is requested (by `provide()` call), and to make sure to get, by the proper `provider()` calls to other services, all the needed providers.
 
-#### Updating services and service dependencies(#Updating-services-and-service-dependencies)
+#### Updating services and service dependencies
 
 Services can (and, in LArSoft, often *do*) depend on other services. This dependency is propagated to the providers too.\
 Therefore the service must take care that the provider is informed of any change in the providers it depends from. In other words, when service `B` depends on service `A`, if the pointer to provider `A` can change during the job, it is on the service `B` owning provider `B` to give the latter the updated pointer to provider `A`.\
 For this, a `Setup()` method is recommended.\
 Although it is annoying to have the services do this, it is safe: doing it won’t cause harm, not doing it might.
 
-### Multi-threading support(#Multi-threading-support)
+### Multi-threading support
 
 This model has not been confronted with multi threading yet.\
 Once the supported framework, *art*, defines its multi threading policy, this model will be updated to cope with it.

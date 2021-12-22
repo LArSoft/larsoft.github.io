@@ -1,4 +1,4 @@
-LArSoft v08\_29\_00 Release Notes(#LArSoft-v08_29_00-Release-Notes)
+LArSoft v08\_29\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,12 +33,12 @@ LArSoft v08\_29\_00 Release Notes(#LArSoft-v08_29_00-Release-Notes)
 Download instructions for [larsoft v08\_29\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_29_00/larsoft-v08_29_00.html)\
 Download instructions for [just larsoftobj v08\_17\_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_17_03/larsoftobj-v08_17_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   approved feature branch
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larreco feature/DomBarker\_TRACSToDev
@@ -54,46 +54,46 @@ New features(#New-features)
         -   TRACSAlg.cxx
     -   [https://indico.fnal.gov/event/21478/contribution/2/material/slides/0.pdf](https://indico.fnal.gov/event/21478/contribution/2/material/slides/0.pdf)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_29\_00(#larsoft-v08_29_00)
+larsoft v08\_29\_00
 ------------------------------------------
 
 -   2019-08-21 Lynn Garren : larsoft v08\_29\_00 for larsoft v08\_29\_00
 -   2019-08-21 Lynn Garren : product versions
 
-lareventdisplay v08\_08\_09(#lareventdisplay-v08_08_09)
+lareventdisplay v08\_08\_09
 ----------------------------------------------------------
 
 -   2019-08-21 Lynn Garren : lareventdisplay v08\_08\_09 for larsoft v08\_29\_00
 
-larexamples v08\_02\_15(#larexamples-v08_02_15)
+larexamples v08\_02\_15
 --------------------------------------------------
 
-larg4 v08\_03\_13(#larg4-v08_03_13)
+larg4 v08\_03\_13
 --------------------------------------
 
-larpandora v08\_07\_13(#larpandora-v08_07_13)
+larpandora v08\_07\_13
 ------------------------------------------------
 
 -   2019-08-21 Lynn Garren : larpandora v08\_07\_13 for larsoft v08\_29\_00
 
-larwirecell v08\_05\_13(#larwirecell-v08_05_13)
+larwirecell v08\_05\_13
 --------------------------------------------------
 
-larana v08\_10\_09(#larana-v08_10_09)
+larana v08\_10\_09
 ----------------------------------------
 
 -   2019-08-21 Lynn Garren : larana v08\_10\_09 for larsoft v08\_29\_00
 
-larreco v08\_17\_00(#larreco-v08_17_00)
+larreco v08\_17\_00
 ------------------------------------------
 
 -   2019-08-21 Lynn Garren : larreco v08\_17\_00 for larsoft v08\_29\_00
@@ -101,37 +101,37 @@ larreco v08\_17\_00(#larreco-v08_17_00)
 -   2019-08-15 Usher, Tracy L : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2019-08-15 Usher, Tracy L : Make sure to not try to write tuple output if not asking for tuple!
 
-larsim v08\_12\_01(#larsim-v08_12_01)
+larsim v08\_12\_01
 ----------------------------------------
 
-larevt v08\_06\_06(#larevt-v08_06_06)
+larevt v08\_06\_06
 ----------------------------------------
 
-lardata v08\_07\_04(#lardata-v08_07_04)
+lardata v08\_07\_04
 ------------------------------------------
 
-larcore v08\_04\_09(#larcore-v08_04_09)
+larcore v08\_04\_09
 ------------------------------------------
 
-larpandoracontent v03\_15\_03(#larpandoracontent-v03_15_03)
+larpandoracontent v03\_15\_03
 --------------------------------------------------------------
 
-larsoftobj v08\_17\_03(#larsoftobj-v08_17_03)
+larsoftobj v08\_17\_03
 ------------------------------------------------
 
-lardataobj v08\_04\_09(#lardataobj-v08_04_09)
+lardataobj v08\_04\_09
 ------------------------------------------------
 
-lardataalg v08\_08\_04(#lardataalg-v08_08_04)
+lardataalg v08\_08\_04
 ------------------------------------------------
 
-larcorealg v08\_14\_02(#larcorealg-v08_14_02)
+larcorealg v08\_14\_02
 ------------------------------------------------
 
-larcoreobj v08\_05\_03(#larcoreobj-v08_05_03)
+larcoreobj v08\_05\_03
 ------------------------------------------------
 
-larbatch v01\_51\_07(#larbatch-v01_51_07)
+larbatch v01\_51\_07
 --------------------------------------------
 
 -   2019-08-21 Lynn Garren : larbatch v01\_51\_07 for larsoft v08\_29\_00
@@ -139,7 +139,7 @@ larbatch v01\_51\_07(#larbatch-v01_51_07)
 -   2019-08-19 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
 -   2019-08-01 Herbert Greenlee : Fix up some mix file parentage logic.
 
-larutils v1\_24\_02(#larutils-v1_24_02)
+larutils v1\_24\_02
 ------------------------------------------
 
 -   2019-08-21 Lynn Garren : larutils v1\_24\_02 for larsoft v08\_29\_00

@@ -1,4 +1,4 @@
-LArSoft v06\_00\_00\_rc6 Release Notes(#LArSoft-v06_00_00_rc6-Release-Notes)
+LArSoft v06\_00\_00\_rc6 Release Notes
 ===============================================================================
 
 -   **Table of contents**
@@ -25,21 +25,21 @@ LArSoft v06\_00\_00\_rc6 Release Notes(#LArSoft-v06_00_00_rc6-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc6/larsoft-v06_00_00_rc6.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   improve root dictionary loading
 -   incorporate changes from v05\_14\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   [Migration to root 6](Migration_to_root_6)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ----------- ------------ ------------ -------
@@ -48,43 +48,43 @@ Updated dependencies(#Updated-dependencies)
   nusimdata   v1\_00\_03   e10          
   ----------- ------------ ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_00\_00\_rc6(#larsoft-v06_00_00_rc6)
+larsoft v06\_00\_00\_rc6
 ---------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
 
-lareventdisplay v06\_00\_00\_rc6(#lareventdisplay-v06_00_00_rc6)
+lareventdisplay v06\_00\_00\_rc6
 -------------------------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
 -   2016-06-30 Lynn Garren : Merge branch ‘lareventdisplay-v05\_07\_03’ into v06\_00\_00\_art2
 -   2016-06-28 Lynn Garren : lareventdisplay v05\_07\_03
 
-larexamples v06\_00\_00\_rc6(#larexamples-v06_00_00_rc6)
+larexamples v06\_00\_00\_rc6
 -----------------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
 -   2016-06-30 Lynn Garren : Merge branch ‘larexamples-v05\_07\_01’ into v06\_00\_00\_art2
 -   2016-06-28 Lynn Garren : larexamples v05\_07\_01
 
-larpandora v06\_00\_00\_rc6(#larpandora-v06_00_00_rc6)
+larpandora v06\_00\_00\_rc6
 ---------------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
 -   2016-06-30 Lynn Garren : Merge branch ‘larpandora-v05\_09\_08’ into v06\_00\_00\_art2
 -   2016-06-28 Lynn Garren : larpandora v05\_09\_08
 
-larana v06\_00\_00\_rc6(#larana-v06_00_00_rc6)
+larana v06\_00\_00\_rc6
 -------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
 -   2016-06-30 Lynn Garren : Merge branch ‘larana-v05\_09\_04’ into v06\_00\_00\_art2
 -   2016-06-28 Lynn Garren : larana v05\_09\_04
 
-larreco v06\_00\_00\_rc6(#larreco-v06_00_00_rc6)
+larreco v06\_00\_00\_rc6
 ---------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
@@ -179,7 +179,7 @@ larreco v06\_00\_00\_rc6(#larreco-v06_00_00_rc6)
 -   2016-04-25 Robert Sulej : go top-down and prepare first class and functions for point identification
 -   2016-04-25 Robert Sulej : add box for 2D image recognition algs
 
-larsim v06\_00\_00\_rc6(#larsim-v06_00_00_rc6)
+larsim v06\_00\_00\_rc6
 -------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
@@ -201,7 +201,7 @@ larsim v06\_00\_00\_rc6(#larsim-v06_00_00_rc6)
 -   2016-02-03 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
 -   2016-02-03 Brian Rebel : formatting changes
 
-larevt v06\_00\_00\_rc6(#larevt-v06_00_00_rc6)
+larevt v06\_00\_00\_rc6
 -------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
@@ -209,7 +209,7 @@ larevt v06\_00\_00\_rc6(#larevt-v06_00_00_rc6)
 -   2016-06-28 Lynn Garren : larevt v05\_07\_03
 -   2016-06-27 Brandon Eberly : Removed a try/catch block that was called once per channel per event.
 
-lardata v06\_00\_00\_rc6(#lardata-v06_00_00_rc6)
+lardata v06\_00\_00\_rc6
 ---------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
@@ -218,7 +218,7 @@ lardata v06\_00\_00\_rc6(#lardata-v06_00_00_rc6)
 -   2016-06-30 Lynn Garren : remove templates from classes.h
 -   2016-06-28 Lynn Garren : lardata v05\_09\_01
 
-larcore v06\_00\_00\_rc6(#larcore-v06_00_00_rc6)
+larcore v06\_00\_00\_rc6
 ---------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
@@ -228,20 +228,20 @@ larcore v06\_00\_00\_rc6(#larcore-v06_00_00_rc6)
 -   2016-06-22 Brian Rebel : Add method to provide the name of an AuxDet.
 -   2016-06-21 Brian Rebel : formatting changes only to make it easier to read
 
-larsimobj v06\_00\_00\_rc6(#larsimobj-v06_00_00_rc6)
+larsimobj v06\_00\_00\_rc6
 -------------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
 -   2016-06-28 Lynn Garren : remove unnecessary template instantiations
 
-lardataobj v06\_00\_00\_rc6(#lardataobj-v06_00_00_rc6)
+lardataobj v06\_00\_00\_rc6
 ---------------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
 -   2016-06-30 Lynn Garren : nusimdata v1\_03\_00
 -   2016-06-28 Lynn Garren : remove unnecessary template instantiations
 
-larcoreobj v06\_00\_00\_rc6(#larcoreobj-v06_00_00_rc6)
+larcoreobj v06\_00\_00\_rc6
 ---------------------------------------------------------
 
 -   2016-06-30 Lynn Garren : v06\_00\_00\_rc6

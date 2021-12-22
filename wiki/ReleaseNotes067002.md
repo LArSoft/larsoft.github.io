@@ -1,4 +1,4 @@
-LArSoft v06\_70\_02 Release Notes(#LArSoft-v06_70_02-Release-Notes)
+LArSoft v06\_70\_02 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,12 +31,12 @@ LArSoft v06\_70\_02 Release Notes(#LArSoft-v06_70_02-Release-Notes)
 Download instructions for [larsoft v06\_70\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_70_02/larsoft-v06_70_02.html)\
 Download instructions for [just larsoftobj v1\_41\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_41_02/larsoftobj-v1_41_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   updates to RawHitFinder\_module
@@ -47,19 +47,19 @@ New features(#New-features)
     -   added a fcl parameter that ensures a minimum width for the integration window for the charge on the collection plane. Default set to 10.
     -   added a fcl parameter that when true only finds hits on collection plane wires and skips induction plane wires, default is false.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   cetbuildtools v7\_02\_01
     -   resolves a Linux linking problem
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_70\_02(#larsoft-v06_70_02)
+larsoft v06\_70\_02
 ------------------------------------------
 
 -   2018-03-15 Lynn Garren : larsoft v06\_70\_02 for larsoft v06\_70\_02
@@ -67,32 +67,32 @@ larsoft v06\_70\_02(#larsoft-v06_70_02)
 -   2018-03-15 Lynn Garren : update versions
 -   2018-03-14 Lynn Garren : the caffe build is part of the nu distribution
 
-lareventdisplay v06\_18\_02(#lareventdisplay-v06_18_02)
+lareventdisplay v06\_18\_02
 ----------------------------------------------------------
 
 -   2018-03-15 Lynn Garren : lareventdisplay v06\_18\_02 for larsoft v06\_70\_02
 
-larexamples v06\_11\_02(#larexamples-v06_11_02)
+larexamples v06\_11\_02
 --------------------------------------------------
 
 -   2018-03-15 Lynn Garren : larexamples v06\_11\_02 for larsoft v06\_70\_02
 
-larpandora v06\_25\_02(#larpandora-v06_25_02)
+larpandora v06\_25\_02
 ------------------------------------------------
 
 -   2018-03-15 Lynn Garren : larpandora v06\_25\_02 for larsoft v06\_70\_02
 
-larwirecell v06\_11\_02(#larwirecell-v06_11_02)
+larwirecell v06\_11\_02
 --------------------------------------------------
 
 -   2018-03-15 Lynn Garren : larwirecell v06\_11\_02 for larsoft v06\_70\_02
 
-larana v06\_18\_02(#larana-v06_18_02)
+larana v06\_18\_02
 ----------------------------------------
 
 -   2018-03-15 Lynn Garren : larana v06\_18\_02 for larsoft v06\_70\_02
 
-larreco v06\_56\_02(#larreco-v06_56_02)
+larreco v06\_56\_02
 ------------------------------------------
 
 -   2018-03-15 Lynn Garren : replace unit with uint32\_t
@@ -102,17 +102,17 @@ larreco v06\_56\_02(#larreco-v06_56_02)
 -   2018-03-09 Leigh Whitehead : Ensure that tracks with known T0 \~ 0 have their T0 flag set
 -   2018-03-09 Leigh Whitehead : Bug fix for the PMA T0 calculation
 
-larsim v06\_42\_02(#larsim-v06_42_02)
+larsim v06\_42\_02
 ----------------------------------------
 
 -   2018-03-15 Lynn Garren : larsim v06\_42\_02 for larsoft v06\_70\_02
 
-larevt v06\_19\_02(#larevt-v06_19_02)
+larevt v06\_19\_02
 ----------------------------------------
 
 -   2018-03-15 Lynn Garren : larevt v06\_19\_02 for larsoft v06\_70\_02
 
-lardata v06\_40\_02(#lardata-v06_40_02)
+lardata v06\_40\_02
 ------------------------------------------
 
 -   2018-03-15 Lynn Garren : lardata v06\_40\_02 for larsoft v06\_70\_02
@@ -124,32 +124,32 @@ lardata v06\_40\_02(#lardata-v06_40_02)
 -   2018-03-07 Gianluca Petrillo : Documentation fix to util::associated\_groups()
 -   2018-03-07 Gianluca Petrillo : util::for\_each\_associated\_group() deprecated.
 
-larcore v06\_18\_01(#larcore-v06_18_01)
+larcore v06\_18\_01
 ------------------------------------------
 
-larpandoracontent v03\_10\_01(#larpandoracontent-v03_10_01)
+larpandoracontent v03\_10\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_41\_02(#larsoftobj-v1_41_02)
+larsoftobj v1\_41\_02
 ----------------------------------------------
 
 -   2018-03-15 Lynn Garren : larsoftobj v1\_41\_02 for larsoft v06\_70\_02
 -   2018-03-15 Lynn Garren : make sure we have cetbuildtools v7\_02\_01
 -   2018-03-15 Lynn Garren : update versions
 
-lardataobj v1\_29\_01(#lardataobj-v1_29_01)
+lardataobj v1\_29\_01
 ----------------------------------------------
 
 -   2018-03-15 Lynn Garren : lardataobj v1\_29\_01 for larsoft v06\_70\_02
 -   2018-03-09 Gianluca Petrillo : Added hit amplitude to the hit dump on screen.
 
-larcorealg v1\_18\_01(#larcorealg-v1_18_01)
+larcorealg v1\_18\_01
 ----------------------------------------------
 
-larcoreobj v1\_22\_00(#larcoreobj-v1_22_00)
+larcoreobj v1\_22\_00
 ----------------------------------------------
 
-larbatch v01\_37\_03(#larbatch-v01_37_03)
+larbatch v01\_37\_03
 --------------------------------------------
 
 -   2018-03-15 Lynn Garren : larbatch v01\_37\_03 for larsoft v06\_70\_02
@@ -157,7 +157,7 @@ larbatch v01\_37\_03(#larbatch-v01_37_03)
 -   2018-03-15 Herbert Greenlee : Improve logic about setting up larbatch.
 -   2018-03-08 Herbert Greenlee : Don’t delete parentage metadata.
 
-larutils v1\_21\_03(#larutils-v1_21_03)
+larutils v1\_21\_03
 ------------------------------------------
 
 -   2018-03-15 Lynn Garren : larutils v1\_21\_03 for larsoft v06\_70\_02

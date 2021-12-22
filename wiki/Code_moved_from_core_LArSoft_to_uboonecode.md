@@ -1,4 +1,4 @@
-Code moved from core LArSoft to uboonecode(#Code-moved-from-core-LArSoft-to-uboonecode)
+Code moved from core LArSoft to uboonecode
 ==========================================================================================
 
 Note that all files moved from core LArSoft have copies in their original locations, but with “.sample” appended to the end of the filename.

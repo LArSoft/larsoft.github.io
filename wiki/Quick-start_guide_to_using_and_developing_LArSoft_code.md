@@ -1,4 +1,4 @@
-Quick-start guide to using and developing LArSoft code(#Quick-start-guide-to-using-and-developing-LArSoft-code)
+Quick-start guide to using and developing LArSoft code
 ==================================================================================================================
 
 -   **Table of contents**
@@ -41,7 +41,7 @@ Please note that all Fermilab redmine repository names are lower case. See the [
 See [The developer environment](_The_developer_environment_) page for important information about the git branching model that should be used when developing LArSoft code.\
 Detailed information about mrb is available from the [mrb reference guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbRefereceGuide). Information about UPS is available from [getting started using UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/Getting_Started_Using_UPS)
 
-Before you start(#Before-you-start)
+Before you start
 --------------------------------------
 
 -   To see list the available versions of a product, including all available qualifiers
@@ -65,12 +65,12 @@ Before you start(#Before-you-start)
 
 > -   See [http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup](http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
-The ultra-quick-start guide:(#The-ultra-quick-start-guide)
+The ultra-quick-start guide:
 =============================================================
 
 More detailed explanations of what is happening during each of these can be found in the annotated portion of this guide below.
 
-### Initial setup of the working environment (starting from a fresh login):(#Initial-setup-of-the-working-environment-starting-from-a-fresh-login)
+### Initial setup of the working environment (starting from a fresh login):
 
 Run experiment-specific setup script:\
 
@@ -88,17 +88,17 @@ If off-site, the appropriate script should be modified to reflect the locations 
 
 -   Perform the next step **only** if you want to run code in a frozen LArSoft release **and** are interested in running jobs specific to experiments other than DUNE and uBooNE. All other users should skip to the [Create a working area](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_#Create-a-working-area-2) step.
 
-### Run non-DUNE or non-uBoonE jobs using only a frozen LArSoft release(#Run-non-DUNE-or-non-uBoonE-jobs-using-only-a-frozen-LArSoft-release)
+### Run non-DUNE or non-uBoonE jobs using only a frozen LArSoft release
 
     setup larsoft <version> -q e7:debug    # (or -q e17:prof)
     lar -c <job fcl file> ...
 
 > That’s it. You’re set up.
 
-To build experiment-specific code for DUNE or uBooNE against an existing LArSoft release(#To-build-experiment-specific-code-for-DUNE-or-uBooNE-against-an-existing-LArSoft-release)
+To build experiment-specific code for DUNE or uBooNE against an existing LArSoft release
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Build uboonecode or dunetpc(#Build-uboonecode-or-dunetpc)
+### Build uboonecode or dunetpc
 
 -   The instructions in this section are necessarily generic. You may wish to check the instructions for your experiment.
     -   [DUNE](https://cdcvs.fnal.gov/redmine/projects/dunetpc/wiki/_Tutorial_)
@@ -124,7 +124,7 @@ To build experiment-specific code for DUNE or uBooNE against an existing LArSoft
 > “\<xxx|yyy\>” is intended to denote selecting one or the other of xxx or yyy.\
 > To work with an existing work area, omit `mkdir` and `mrb newDev` steps above.
 
-### Run the software you just built(#Run-the-software-you-just-built)
+### Run the software you just built
 
 -   setup <uboonecode | dunetpc> <version> -q <qualifiers> 
 
@@ -140,10 +140,10 @@ To build experiment-specific code for DUNE or uBooNE against an existing LArSoft
 > -   The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See\
 >     the list of releases for the most current version, or use @ups list -aK+ \<dunetpc | uboonecode\>
 
-To build and work with larsoft itself(#To-build-and-work-with-larsoft-itself)
+To build and work with larsoft itself
 --------------------------------------------------------------------------------
 
-### Create a working area(#Create-a-working-area)
+### Create a working area
 
 > After you have performed the initial setup:\
 >
@@ -158,7 +158,7 @@ To build and work with larsoft itself(#To-build-and-work-with-larsoft-itself)
 
 -   If you only want to run using the base LArSoft release and uBooNE or DUNE code, then skip ahead to the “To build experiment-specific code for DUNE or uBooNE against an existing LArSoft release” step
 
-### Check out, develop and build LArSoft code(#Check-out-develop-and-build-LArSoft-code)
+### Check out, develop and build LArSoft code
 
 > After performing the initial setup and creating the working area, from `<working_dir>`:\
 >
@@ -180,7 +180,7 @@ To build and work with larsoft itself(#To-build-and-work-with-larsoft-itself)
 
 > The list of repositories and their contents [can be found on this page](_LArSoft_repositories_packages_and_dependencies_).
 
-### Run the software you just built(#Run-the-software-you-just-built-2)
+### Run the software you just built
 
 > Starting from the build directory immediately after running `mrb build`:\
 >
@@ -210,10 +210,10 @@ To build and work with larsoft itself(#To-build-and-work-with-larsoft-itself)
 > -   The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See\
 >     the list of releases for the most current version, or use @ups list -aK+ \<dunetpc | uboonecode\>
 
-Annotated quick-start guide(#Annotated-quick-start-guide)
+Annotated quick-start guide
 ============================================================
 
-Initial setup(#Initial-setup)
+Initial setup
 --------------------------------
 
 The first time you start a mrb project, you’ll need to define various things. (The setup for an existing working area is slightly different, and is described [here](https://cdcvs.fnal.gov_Quick-start_guide_to_using_and_developing_LArSoft_code_#Setup-work-environment-for-an-existing-working-area-from-a-fresh-login)
@@ -255,10 +255,10 @@ There are experiment-specific setup scripts to perform setup. For example.
 
 You are now ready to create a working area.
 
-Create a working area(#Create-a-working-area-2)
+Create a working area
 --------------------------------------------------
 
-### Everything (source code, \<localProdDir\>, and build directory) in one directory tree(#Everything-source-code-ltlocalProdDirgt-and-build-directory-in-one-directory-tree)
+### Everything (source code, \<localProdDir\>, and build directory) in one directory tree
 
 Case 1: you have setup \<MRB\_PROJECT\> \<version\> (the recommended procedure)\
 
@@ -294,7 +294,7 @@ Source code under your home directory\
 
 -   source \<localProdDir\>/setup
 
-Setup work environment for an existing working area from a fresh login(#Setup-work-environment-for-an-existing-working-area-from-a-fresh-login)
+Setup work environment for an existing working area from a fresh login
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 To set up the working environment for an existing working area, you need to source the setup script in the local products area created in the previous step. The local setup defines environment variables needed by mrb, and adds the local products area to the \$PRODUCTS path so that ups can find local versions of products (created during the build/install step). The generic steps are the following:
@@ -319,7 +319,7 @@ To set up the working environment for an existing working area, you need to sour
 
 -   Note that the larsoft setup needs to come after the setup in localProducts\_XXX.
 
-Developing a package(#Developing-a-package)
+Developing a package
 ----------------------------------------------
 
 -   After setting up the working environment:\
@@ -346,7 +346,7 @@ Developing a package(#Developing-a-package)
 > -   mrb g -b \<branch\> \<package\>
 > -   note that -t and -b must precede the package name
 
-Build code in your working area(#Build-code-in-your-working-area)
+Build code in your working area
 --------------------------------------------------------------------
 
 -   After setting up the working environment:\
@@ -371,7 +371,7 @@ Build code in your working area(#Build-code-in-your-working-area)
 
 > Then start from the top of this section.
 
-Running with the modifications made in your working area(#Running-with-the-modifications-made-in-your-working-area)
+Running with the modifications made in your working area
 ----------------------------------------------------------------------------------------------------------------------
 
 The build/install procedure performs an `unsetup` of every product it builds. It does this to ensure that the build environment points only to the local code being built. It also ensures that if you run `setup <product>...` after the build and within the same login session, you get the locally installed version rather than the one you were pointing to at the beginning of the build/install procedure. (The setup command does nothing if the product is already set up.) After building *and installing*, you will therefore need to run `setup` for all the products that you just built.
@@ -411,7 +411,7 @@ Since all this seemed complicated, we have introduced the `mrb setup_local_produ
 
 If starting from a fresh login, then the usual setup procedure (`setup <dunetpc | uboonecode | larsoft>` is all that it needed.
 
-Performing a clean build(#Performing-a-clean-build)
+Performing a clean build
 ------------------------------------------------------
 
     cd $MRB_BUILDDIR
@@ -429,7 +429,7 @@ OR:\
 
 You should perform a clean build whenever a product is added or removed. Cmake errors during the build may require that you start with a clean build.
 
-Removing a package from a work area(#Removing-a-package-from-a-work-area)
+Removing a package from a work area
 ----------------------------------------------------------------------------
 
     cd $MRB_SOURCE
@@ -438,7 +438,7 @@ Removing a package from a work area(#Removing-a-package-from-a-work-area)
 
 The `mrb uc` command will update the top-level `CMakeLists.txt` file to take into account the newly removed package.
 
-Creating an entirely new product within an existing work area(#Creating-an-entirely-new-product-within-an-existing-work-area)
+Creating an entirely new product within an existing work area
 --------------------------------------------------------------------------------------------------------------------------------
 
 Assume that there is an existing repository with the same name that you want to attach to the newly created product.
@@ -455,7 +455,7 @@ Set the product version number in the `<new-prod-name>/ups/product_deps` file.
 
 Then build as usual.
 
-Comparison of mrb and SRT commands(#Comparison-of-mrb-and-SRT-commands)
+Comparison of mrb and SRT commands
 ==========================================================================
 
 The following table compares SRT commands with their approximate mrb analogs. \
@@ -473,7 +473,7 @@ HOWEVER, please see the instructions above since there is not a one-to-one trans
   rmpkg \<name\>                       rm -r \<name\> ; mrb uc
   ------------------------------------ ------------------------------------------
 
-Using prebuilt releases(#Using-prebuilt-releases)
+Using prebuilt releases
 ====================================================
 
 The new larsoft ups product and all its dependencies are installed in the /grid/fermiapp/products/larsoft product directory.\
@@ -496,12 +496,12 @@ If you need to pull everything (LArSoft plus all external packages) in order to 
 
 You can find detailed instructions for downloading and installing binary and source distributions [on the download page](_Download_instructions_).
 
-Building the larsoft “suite”(#Building-the-larsoft-suite)
+Building the larsoft “suite”
 ============================================================
 
 In rare cases, you may need to build from scratch.
 
-General Information about git and art(#General-Information-about-git-and-art)
+General Information about git and art
 ================================================================================
 
 -   [mrb Reference Guide](/redmine/projects/mrb/wiki/MrbRefereceGuide)

@@ -1,4 +1,4 @@
-LArSoft v06\_26\_01\_04 Release Notes(#LArSoft-v06_26_01_04-Release-Notes)
+LArSoft v06\_26\_01\_04 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -27,39 +27,39 @@ LArSoft v06\_26\_01\_04 Release Notes(#LArSoft-v06_26_01_04-Release-Notes)
 Download instructions for [larsoft v06\_26\_01\_04](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_26_01_04/larsoft-v06_26_01_04.html)\
 Download instructions for [just larsoftobj v1\_11\_00\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_11_00_01/larsoftobj-v1_11_00_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   MicroBooNE production release ([\#17369](/redmine/issues/17369 "Support: Larsoft patch release v06_26_01_04 (Closed)"))
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_26\_01\_04(#larsoft-v06_26_01_04)
+larsoft v06\_26\_01\_04
 -------------------------------------------------
 
 -   2017-08-04 Lynn Garren : move build of larpandoracontent out of larbase
 -   2017-08-04 Lynn Garren : add cetbuildtools v5\_06\_07
 -   2017-08-04 Lynn Garren : larsoft v06\_26\_01\_04
 
-lareventdisplay v06\_02\_14\_04(#lareventdisplay-v06_02_14_04)
+lareventdisplay v06\_02\_14\_04
 -----------------------------------------------------------------
 
 -   2017-08-04 Lynn Garren : lareventdisplay v06\_02\_14\_04
 
-larexamples v06\_01\_15\_02(#larexamples-v06_01_15_02)
+larexamples v06\_01\_15\_02
 ---------------------------------------------------------
 
-larpandora v06\_08\_00\_04(#larpandora-v06_08_00_04)
+larpandora v06\_08\_00\_04
 -------------------------------------------------------
 
 -   2017-08-04 Lynn Garren : larpandora v06\_08\_00\_04
@@ -103,13 +103,13 @@ larpandora v06\_08\_00\_04(#larpandora-v06_08_00_04)
 -   2017-03-08 Lynn Garren : larpandora v06\_08\_02 for larsoft v06\_27\_00
 -   2017-02-28 Lynn Garren : larpandora v06\_08\_01 for larsoft v06\_26\_02
 
-larwirecell v06\_00\_13\_04(#larwirecell-v06_00_13_04)
+larwirecell v06\_00\_13\_04
 ---------------------------------------------------------
 
 -   2017-08-04 Lynn Garren : larwirecell v06\_00\_13\_04
 -   2017-07-27 Usher, Tracy L : Swap the order of truncation/filtering - noise filter runs on full set of ticks, truncation then picks out the sub waveform for output.
 
-larana v06\_03\_18\_04(#larana-v06_03_18_04)
+larana v06\_03\_18\_04
 -----------------------------------------------
 
 -   2017-08-04 Lynn Garren : larana v06\_03\_18\_04
@@ -118,7 +118,7 @@ larana v06\_03\_18\_04(#larana-v06_03_18_04)
 -   2017-05-29 Marco Del Tutto : Adding new algorithm for pedestal estimation
 -   2017-05-12 Usher, Tracy L : Add the check requiring more than 1 hit on a PFParticle to be out of time before rejecting
 
-larreco v06\_20\_00\_04(#larreco-v06_20_00_04)
+larreco v06\_20\_00\_04
 -------------------------------------------------
 
 -   2017-08-04 Lynn Garren : larreco v06\_20\_00\_04
@@ -139,19 +139,19 @@ larreco v06\_20\_00\_04(#larreco-v06_20_00_04)
 -   2017-06-20 Giuseppe Cerati : add protection against misconfigurations
 -   2017-06-19 Giuseppe Cerati : allow track fit of shower objects associated to pfparticles. provide example fhicl configuration files for microboone mcc8.1 tests
 
-larsim v06\_13\_01\_02(#larsim-v06_13_01_02)
+larsim v06\_13\_01\_02
 -----------------------------------------------
 
-larevt v06\_07\_09\_02(#larevt-v06_07_09_02)
+larevt v06\_07\_09\_02
 -----------------------------------------------
 
-lardata v06\_14\_04\_01(#lardata-v06_14_04_01)
+lardata v06\_14\_04\_01
 -------------------------------------------------
 
-larcore v06\_05\_03(#larcore-v06_05_03)
+larcore v06\_05\_03
 ------------------------------------------
 
-larpandoracontent v03\_07\_02\_04(#larpandoracontent-v03_07_02_04)
+larpandoracontent v03\_07\_02\_04
 ---------------------------------------------------------------------
 
 -   2017-08-04 Lynn Garren : larpandoracontent v03\_07\_02\_04 to be used with larsoft v06\_26\_01\_04
@@ -267,8 +267,8 @@ larpandoracontent v03\_07\_02\_04(#larpandoracontent-v03_07_02_04)
 -   2017-03-10 Lynn Garren : for larsoft v06\_30\_00\_rc1 with art v2\_06\_01
 -   2017-03-09 Lynn Garren : for art v2\_06
 
-larsoftobj v1\_11\_00\_01(#larsoftobj-v1_11_00_01)
+larsoftobj v1\_11\_00\_01
 -----------------------------------------------------
 
-lardataobj v1\_11\_00\_01(#lardataobj-v1_11_00_01)
+lardataobj v1\_11\_00\_01
 -----------------------------------------------------

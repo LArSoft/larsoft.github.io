@@ -1,4 +1,4 @@
-LArSoft v04\_00\_00\_rc1 Release Notes(#LArSoft-v04_00_00_rc1-Release-Notes)
+LArSoft v04\_00\_00\_rc1 Release Notes
 ===============================================================================
 
 -   **Table of contents**
@@ -21,27 +21,27 @@ LArSoft v04\_00\_00\_rc1 Release Notes(#LArSoft-v04_00_00_rc1-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_00_00_rc1/larsoft-v04_00_00_rc1.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Release candidate 1 for MicroBooNE MCC6
 
-About this release(#About-this-release)
+About this release
 ------------------------------------------
 
 Branch v04\_00\_rc started as a copy of the LARSOFT\_SUITE\_v03\_08\_01 tag. We then merged the feature/DataProductRevision branch. No other changes were made. The v04\_00\_00\_rc1 tag was made on the v04\_00\_rc branch. This tag is not merged with master.
 
-Using v04\_00\_00\_rc1(#Using-v04_00_00_rc1)
+Using v04\_00\_00\_rc1
 -----------------------------------------------
 
 -   This release candidate is NOT MERGED with develop.
 -   In order to work with this release, you MUST checkout the v04\_00\_rc branch.
 -   **mrb g -b v04\_00\_rc \<gitRepositoryName\>**
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_00\_00\_rc1(#larsoft-v04_00_00_rc1)
+larsoft v04\_00\_00\_rc1
 ---------------------------------------------------
 
 -   2015-02-05 Lynn Garren : larsoft v04\_00\_00\_rc1
@@ -50,7 +50,7 @@ larsoft v04\_00\_00\_rc1(#larsoft-v04_00_00_rc1)
 -   2015-02-05 Lynn Garren : Merge branch ‘feature/DataProductRevision’ into v04\_00\_rc
 -   2015-01-30 Gianluca Petrillo : Merge tag ‘LARSOFT\_SUITE\_v03\_08\_00’ into feature/DataProductRevision
 
-lareventdisplay v04\_00\_00\_rc1(#lareventdisplay-v04_00_00_rc1)
+lareventdisplay v04\_00\_00\_rc1
 -------------------------------------------------------------------
 
 -   2015-02-05 Lynn Garren : lareventdisplay v04\_00\_00\_rc1
@@ -66,7 +66,7 @@ lareventdisplay v04\_00\_00\_rc1(#lareventdisplay-v04_00_00_rc1)
 -   2014-12-23 Gianluca Petrillo : Update for the new recob::Hit. Test needed.
 -   2014-12-10 Gianluca Petrillo : Changes for data product review: raw::RawData (lardata commit b4b4d04)
 
-larexamples v04\_00\_00\_rc1(#larexamples-v04_00_00_rc1)
+larexamples v04\_00\_00\_rc1
 -----------------------------------------------------------
 
 -   2015-02-05 Lynn Garren : larexamples v04\_00\_00\_rc1
@@ -77,7 +77,7 @@ larexamples v04\_00\_00\_rc1(#larexamples-v04_00_00_rc1)
 -   2014-12-26 Gianluca Petrillo : Merge branch ‘develop’ into feature/DataProductRevision
 -   2014-12-23 Gianluca Petrillo : Update for the new recob::Hit.
 
-larpandora v04\_00\_00\_rc1(#larpandora-v04_00_00_rc1)
+larpandora v04\_00\_00\_rc1
 ---------------------------------------------------------
 
 -   2015-02-06 Lynn Garren : new dependency on larreco
@@ -98,7 +98,7 @@ larpandora v04\_00\_00\_rc1(#larpandora-v04_00_00_rc1)
 -   2014-12-26 Gianluca Petrillo : Merge branch ‘develop’ into feature/DataProductRevision
 -   2014-12-23 Gianluca Petrillo : Update for the new recob::Hit. Compiles, needs testing.
 
-larana v04\_00\_00\_rc1(#larana-v04_00_00_rc1)
+larana v04\_00\_00\_rc1
 -------------------------------------------------
 
 -   2015-02-05 Lynn Garren : larana v04\_00\_00\_rc1
@@ -114,7 +114,7 @@ larana v04\_00\_00\_rc1(#larana-v04_00_00_rc1)
 -   2014-12-23 Gianluca Petrillo : Using TimeService to define the spill window in CRHitRemoval
 -   2014-12-19 Gianluca Petrillo : Code updated with new RawDigit, Wire and Hit.
 
-larreco v04\_00\_00\_rc1(#larreco-v04_00_00_rc1)
+larreco v04\_00\_00\_rc1
 ---------------------------------------------------
 
 -   2015-02-06 Lynn Garren : adding fhiclcpp to the link list
@@ -162,7 +162,7 @@ larreco v04\_00\_00\_rc1(#larreco-v04_00_00_rc1)
 -   2014-12-23 Gianluca Petrillo : Updated for new recob::Hit . The code compiles, but many to-do’s are left
 -   2014-12-19 Gianluca Petrillo : Code updated for new RawDigit, Wire and Hit. A bit log of it does not compile yet. RecoAlg and VertexFinder libraries fully compile, as GausHitFinder module does.
 
-larsim v04\_00\_00\_rc1(#larsim-v04_00_00_rc1)
+larsim v04\_00\_00\_rc1
 -------------------------------------------------
 
 -   2015-02-05 Lynn Garren : larsim v04\_00\_00\_rc1
@@ -176,7 +176,7 @@ larsim v04\_00\_00\_rc1(#larsim-v04_00_00_rc1)
 -   2014-12-23 Gianluca Petrillo : Channel ID variables now of type raw::ChannelID\_t instead of uint32\_t
 -   2014-12-19 Gianluca Petrillo : Code updated for new RawDigit, Wire and Hit.
 
-larevt v04\_00\_00\_rc1(#larevt-v04_00_00_rc1)
+larevt v04\_00\_00\_rc1
 -------------------------------------------------
 
 -   2015-02-06 Lynn Garren : need RawData in link list
@@ -189,7 +189,7 @@ larevt v04\_00\_00\_rc1(#larevt-v04_00_00_rc1)
 -   2014-12-19 Gianluca Petrillo : Code updated for new RawDigit, Wire and Hit.
 -   2014-12-10 Gianluca Petrillo : Changes for data product review: raw::RawData (lardata commit b4b4d04); also added support for compressed raw digits in ArgoNeuT CalData
 
-lardata v04\_00\_00\_rc1(#lardata-v04_00_00_rc1)
+lardata v04\_00\_00\_rc1
 ---------------------------------------------------
 
 -   2015-02-05 Lynn Garren : lardata v04\_00\_00\_rc1
@@ -242,7 +242,7 @@ lardata v04\_00\_00\_rc1(#lardata-v04_00_00_rc1)
 -   2014-12-19 Gianluca Petrillo : Code updated with new RawDigit, Wire and Hit and utilities.
 -   2014-12-10 Gianluca Petrillo : Data product review: raw::RawData - fADC made private, interface added - added bitset and interface; currently one bit is supported: saturation - added aliases for types - pedestal and its RMS transformed from double to float - documentation added
 
-larcore v04\_00\_00\_rc1(#larcore-v04_00_00_rc1)
+larcore v04\_00\_00\_rc1
 ---------------------------------------------------
 
 -   2015-02-05 Lynn Garren : larcore v04\_00\_00\_rc1

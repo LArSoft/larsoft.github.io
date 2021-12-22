@@ -1,4 +1,4 @@
-LArSoft v08\_30\_00 Release Notes(#LArSoft-v08_30_00-Release-Notes)
+LArSoft v08\_30\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -34,13 +34,13 @@ LArSoft v08\_30\_00 Release Notes(#LArSoft-v08_30_00-Release-Notes)
 Download instructions for [larsoft v08\_30\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_30_00/larsoft-v08_30_00.html)\
 Download instructions for [just larsoftobj v08\_17\_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_17_03/larsoftobj-v08_17_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandora, larpandoracontent feature/larpandoracontent\_v03\_15\_04
@@ -54,19 +54,19 @@ New features(#New-features)
     -   extend the dump of channel mapping to optical detector channels (as opposed to only TPC wire channels)
     -   already merged into develop
 
-Breaking changes(#Breaking-changes)
+Breaking changes
 --------------------------------------
 
 -   We have updated to ifdhc v2\_5\_1.
     -   Python bindings are now generated via pybindgen rather than swig.
 -   IMPORTANT: Users who “import ifdh” in their python scripts may need to make changes. The pybindgen bindings are **not** entirely identical to the swig generated ones.
 
-Mojave build(#Mojave-build)
+Mojave build
 ------------------------------
 
 -   The command line tool on the Mojave jenkins build slave were accidentally upgraded. Although we managed to produce a release, there is a problem with the existing build of root. This release should not be used for Mojave.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   ifdhc v2\_5\_1
@@ -78,49 +78,49 @@ Updated dependencies(#Updated-dependencies)
 -   nugen v1\_03\_01
 -   nusystematics v00\_05\_02
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_30\_00(#larsoft-v08_30_00)
+larsoft v08\_30\_00
 ------------------------------------------
 
 -   2019-08-28 Lynn Garren : larsoft v08\_30\_00
 -   2019-08-28 Lynn Garren : larsoft v08\_29\_01 for larsoft v08\_30\_00
 -   2019-08-28 Lynn Garren : product versions
 
-lareventdisplay v08\_08\_10(#lareventdisplay-v08_08_10)
+lareventdisplay v08\_08\_10
 ----------------------------------------------------------
 
 -   2019-08-28 Lynn Garren : lareventdisplay v08\_08\_10 for larsoft v08\_30\_00
 
-larexamples v08\_02\_16(#larexamples-v08_02_16)
+larexamples v08\_02\_16
 --------------------------------------------------
 
 -   2019-08-28 Lynn Garren : larexamples v08\_02\_16 for larsoft v08\_30\_00
 
-larg4 v08\_03\_14(#larg4-v08_03_14)
+larg4 v08\_03\_14
 --------------------------------------
 
 -   2019-08-28 Lynn Garren : larg4 v08\_03\_14 for larsoft v08\_30\_00
 
-larpandora v08\_07\_14(#larpandora-v08_07_14)
+larpandora v08\_07\_14
 ------------------------------------------------
 
 -   2019-08-28 Lynn Garren : larpandora v08\_07\_14 for larsoft v08\_30\_00
 -   2019-07-25 John Marshall : Move additional slice-related output into slice production block.
 -   2019-07-25 John Marshall : First proposed changes to allow free development in an experiment-specific area.
 
-larwirecell v08\_05\_14(#larwirecell-v08_05_14)
+larwirecell v08\_05\_14
 --------------------------------------------------
 
 -   2019-08-28 Lynn Garren : larwirecell v08\_05\_14 for larsoft v08\_30\_00
 
-larana v08\_10\_10(#larana-v08_10_10)
+larana v08\_10\_10
 ----------------------------------------
 
 -   2019-08-28 Lynn Garren : larana v08\_10\_10 for larsoft v08\_30\_00
 
-larreco v08\_18\_00(#larreco-v08_18_00)
+larreco v08\_18\_00
 ------------------------------------------
 
 -   2019-08-28 Lynn Garren : larreco v08\_18\_00 for larsoft v08\_30\_00
@@ -137,29 +137,29 @@ larreco v08\_18\_00(#larreco-v08_18_00)
 -   2019-08-22 Kyle Knoepfel : Remove reconfigure functions from modules.
 -   2019-08-22 Kyle Knoepfel : Remove unnecessary RecoAlg reconfigure calls from modules.
 
-larsim v08\_12\_02(#larsim-v08_12_02)
+larsim v08\_12\_02
 ----------------------------------------
 
 -   2019-08-28 Lynn Garren : larsim v08\_12\_02 for larsoft v08\_30\_00
 
-larevt v08\_06\_07(#larevt-v08_06_07)
+larevt v08\_06\_07
 ----------------------------------------
 
 -   2019-08-28 Lynn Garren : larevt v08\_06\_07 for larsoft v08\_30\_00
 
-lardata v08\_07\_05(#lardata-v08_07_05)
+lardata v08\_07\_05
 ------------------------------------------
 
 -   2019-08-28 Lynn Garren : lardata v08\_07\_05 for larsoft v08\_30\_00
 
-larcore v08\_05\_00(#larcore-v08_05_00)
+larcore v08\_05\_00
 ------------------------------------------
 
 -   2019-08-28 Lynn Garren : larcore v08\_05\_00 for larsoft v08\_30\_00
 -   2019-08-16 Gianluca Petrillo : DumpChannelMap: added configuration validation.
 -   2019-08-16 Gianluca Petrillo : Added dumpung of optical detectors to \`DumpChannelMap\` module.
 
-larpandoracontent v03\_15\_04(#larpandoracontent-v03_15_04)
+larpandoracontent v03\_15\_04
 --------------------------------------------------------------
 
 -   2019-08-28 Lynn Garren : larpandoracontent v03\_15\_04 for larsoft v08\_30\_00
@@ -192,23 +192,23 @@ larpandoracontent v03\_15\_04(#larpandoracontent-v03_15_04)
 -   2019-08-26 Steven Green : Merge branch ‘updates’ into newMaster
 -   2019-08-05 Steven Green : Update version and change log.
 
-larsoftobj v08\_17\_03(#larsoftobj-v08_17_03)
+larsoftobj v08\_17\_03
 ------------------------------------------------
 
-lardataobj v08\_04\_09(#lardataobj-v08_04_09)
+lardataobj v08\_04\_09
 ------------------------------------------------
 
-lardataalg v08\_08\_04(#lardataalg-v08_08_04)
+lardataalg v08\_08\_04
 ------------------------------------------------
 
-larcorealg v08\_14\_02(#larcorealg-v08_14_02)
+larcorealg v08\_14\_02
 ------------------------------------------------
 
-larcoreobj v08\_05\_03(#larcoreobj-v08_05_03)
+larcoreobj v08\_05\_03
 ------------------------------------------------
 
-larbatch v01\_51\_07(#larbatch-v01_51_07)
+larbatch v01\_51\_07
 --------------------------------------------
 
-larutils v1\_24\_02(#larutils-v1_24_02)
+larutils v1\_24\_02
 ------------------------------------------

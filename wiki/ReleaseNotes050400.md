@@ -1,4 +1,4 @@
-LArSoft v05\_04\_00 Release Notes(#LArSoft-v05_04_00-Release-Notes)
+LArSoft v05\_04\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,12 +24,12 @@ LArSoft v05\_04\_00 Release Notes(#LArSoft-v05_04_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_04_00/larsoft-v05_04_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Integrate approved changes
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   nutools v1\_23\_02 with fix to magnetic field
@@ -41,10 +41,10 @@ New features(#New-features)
 -   lardata, larreco, larana, dunetpc, argoneutcode, lariatsoft feature/gp\_NoServiceInTrack
     -   [https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=11714](https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=11714)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ------------------- ------------- ------------ -------
@@ -54,33 +54,33 @@ Updated dependencies(#Updated-dependencies)
   larpandoracontent   v02\_05\_00   e9:nu        
   ------------------- ------------- ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_04\_00(#larsoft-v05_04_00)
+larsoft v05\_04\_00
 ------------------------------------------
 
 -   2016-03-16 Lynn Garren : larsoft v05\_04\_00 for larsoft v05\_04\_00
 -   2016-03-16 Lynn Garren : update product versions
 -   2016-03-16 Lynn Garren : update dependency database
 
-lareventdisplay v05\_01\_04(#lareventdisplay-v05_01_04)
+lareventdisplay v05\_01\_04
 ----------------------------------------------------------
 
 -   2016-03-16 Lynn Garren : lareventdisplay v05\_01\_04 for larsoft v05\_04\_00
 
-larexamples v05\_00\_06(#larexamples-v05_00_06)
+larexamples v05\_00\_06
 --------------------------------------------------
 
 -   2016-03-16 Lynn Garren : larexamples v05\_00\_06 for larsoft v05\_04\_00
 
-larpandora v05\_02\_00(#larpandora-v05_02_00)
+larpandora v05\_02\_00
 ------------------------------------------------
 
 -   2016-03-16 Lynn Garren : larpandora v05\_02\_00 for larsoft v05\_04\_00
 -   2016-03-14 John Marshall : Updated config for VertexBasedPfoMerging algorithm; add new SplitShowerMerging algorithm. Update LArPandoraContent version.
 
-larana v05\_02\_00(#larana-v05_02_00)
+larana v05\_02\_00
 ----------------------------------------
 
 -   2016-03-16 Lynn Garren : larana v05\_02\_00 for larsoft v05\_04\_00
@@ -111,7 +111,7 @@ larana v05\_02\_00(#larana-v05_02_00)
 -   2016-02-04 Gleb Sinev : Tidy up OpFlashFinder\_module.
 -   2016-02-03 Gleb Sinev : Tidy up code in OpFlashAlg.
 
-larreco v05\_02\_01(#larreco-v05_02_01)
+larreco v05\_02\_01
 ------------------------------------------
 
 -   2016-03-16 Lynn Garren : larreco v05\_02\_01 for larsoft v05\_04\_00
@@ -123,17 +123,17 @@ larreco v05\_02\_01(#larreco-v05_02_01)
 -   2016-03-09 Hamlet : Moved TrackUtils.h into lardata (lardata/RecoBaseArt)
 -   2016-03-08 Hamlet : Moving recob::Track methods PitchInView() and ProjectedLength() into larreco/RecoAlg/TrackUtils.h
 
-larsim v05\_01\_02(#larsim-v05_01_02)
+larsim v05\_01\_02
 ----------------------------------------
 
 -   2016-03-16 Lynn Garren : larsim v05\_01\_02 for larsoft v05\_04\_00
 
-larevt v05\_01\_02(#larevt-v05_01_02)
+larevt v05\_01\_02
 ----------------------------------------
 
 -   2016-03-16 Lynn Garren : larevt v05\_01\_02 for larsoft v05\_04\_00
 
-lardata v05\_02\_00(#lardata-v05_02_00)
+lardata v05\_02\_00
 ------------------------------------------
 
 -   2016-03-16 Lynn Garren : need the boost system library
@@ -143,16 +143,16 @@ lardata v05\_02\_00(#lardata-v05_02_00)
 -   2016-03-09 Hamlet : Reduced the dependencies of RecoBase and RawData libraries to the minimum
 -   2016-03-08 Hamlet : Moving recob::Track methods PitchInView() and ProjectedLength() into larreco/RecoAlg/TrackUtils.h
 
-larcore v05\_00\_02(#larcore-v05_00_02)
+larcore v05\_00\_02
 ------------------------------------------
 
 -   2016-03-16 Lynn Garren : larcore v05\_00\_02 for larsoft v05\_04\_00
 -   2016-03-09 Lynn Garren : the correct units are g/cm3, not g/cc
 
-larbatch v01\_20\_06(#larbatch-v01_20_06)
+larbatch v01\_20\_06
 --------------------------------------------
 
-larutils v1\_05\_04(#larutils-v1_05_04)
+larutils v1\_05\_04
 ------------------------------------------
 
 -   2016-03-16 Lynn Garren : larutils v1\_05\_04 for larsoft v05\_04\_00

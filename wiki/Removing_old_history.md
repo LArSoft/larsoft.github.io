@@ -1,4 +1,4 @@
-Removing old history(#Removing-old-history)
+Removing old history
 ==============================================
 
 The LArSoft repositories must be cleaned up before they can be migrated to github. We are taking the opportunity to remove old history.

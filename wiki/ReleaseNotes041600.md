@@ -1,4 +1,4 @@
-LArSoft v04\_16\_00 Release Notes(#LArSoft-v04_16_00-Release-Notes)
+LArSoft v04\_16\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,20 +24,20 @@ LArSoft v04\_16\_00 Release Notes(#LArSoft-v04_16_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_16_00/larsoft-v04_16_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   First release with art v1\_15\_01 (s14)
 -   Integrate larreco feature/bb\_ccwork
 -   Builds of various products have been improved.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ---------------- ---------------- -------------------------------------------------------------------------
@@ -57,10 +57,10 @@ Updated dependencies(#Updated-dependencies)
   dk2nu           v01\_01\_03c     e7               
   --------------- ---------------- ---------------- -------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_16\_00(#larsoft-v04_16_00)
+larsoft v04\_16\_00
 ------------------------------------------
 
 -   2015-07-16 Lynn Garren : larsoft v04\_16\_00 for larsoft v04\_16\_00
@@ -68,7 +68,7 @@ larsoft v04\_16\_00(#larsoft-v04_16_00)
 -   2015-07-16 Lynn Garren : update product versions
 -   2015-07-16 Lynn Garren : update dependency database
 
-lareventdisplay v04\_06\_00(#lareventdisplay-v04_06_00)
+lareventdisplay v04\_06\_00
 ----------------------------------------------------------
 
 -   2015-07-16 Lynn Garren : lareventdisplay v04\_06\_00 for larsoft v04\_16\_00
@@ -92,17 +92,17 @@ lareventdisplay v04\_06\_00(#lareventdisplay-v04_06_00)
 -   2015-01-22 Ben Carls : Merging with v03\_03\_02
 -   2015-01-20 bcarls : Adding Sarah’s modifications that show which clusters have been tagged as cosmic
 
-larexamples v04\_04\_16(#larexamples-v04_04_16)
+larexamples v04\_04\_16
 --------------------------------------------------
 
 -   2015-07-16 Lynn Garren : larexamples v04\_04\_16 for larsoft v04\_16\_00
 
-larpandora v04\_04\_16(#larpandora-v04_04_16)
+larpandora v04\_04\_16
 ------------------------------------------------
 
 -   2015-07-16 Lynn Garren : larpandora v04\_04\_16 for larsoft v04\_16\_00
 
-larana v04\_08\_00(#larana-v04_08_00)
+larana v04\_08\_00
 ----------------------------------------
 
 -   2015-07-16 Lynn Garren : larana v04\_08\_00 for larsoft v04\_16\_00
@@ -112,7 +112,7 @@ larana v04\_08\_00(#larana-v04_08_00)
 -   2015-07-08 Lynn Garren : larsoft v04\_15\_00
 -   2015-07-08 Tracy Usher : Fix bug which caused skipping of non-primary PFParticles, add associations between PFParticles and CosmicTags
 
-larreco v04\_12\_00(#larreco-v04_12_00)
+larreco v04\_12\_00
 ------------------------------------------
 
 -   2015-07-16 Lynn Garren : larreco v04\_12\_00 for larsoft v04\_16\_00
@@ -211,31 +211,31 @@ larreco v04\_12\_00(#larreco-v04_12_00)
 -   2015-05-28 Bruce Baller : Add bad channel check
 -   2015-05-28 Bruce Baller : convert floats to doubles
 
-larsim v04\_08\_03(#larsim-v04_08_03)
+larsim v04\_08\_03
 ----------------------------------------
 
 -   2015-07-16 Lynn Garren : larsim v04\_08\_03 for larsoft v04\_16\_00
 -   2015-07-14 Gleb Sinev : Fix a bug in printVecs method of SingleGen\_module.
 
-larevt v04\_08\_06(#larevt-v04_08_06)
+larevt v04\_08\_06
 ----------------------------------------
 
 -   2015-07-16 Lynn Garren : larevt v04\_08\_06 for larsoft v04\_16\_00
 
-lardata v04\_11\_00(#lardata-v04_11_00)
+lardata v04\_11\_00
 ------------------------------------------
 
 -   2015-07-16 Lynn Garren : lardata v04\_11\_00 for larsoft v04\_16\_00
 -   2015-07-09 Matthew Thiesse : Add new clock for external muon counter system (orig. 35ton)
 
-larcore v04\_13\_00(#larcore-v04_13_00)
+larcore v04\_13\_00
 ------------------------------------------
 
 -   2015-07-16 Lynn Garren : larcore v04\_13\_00 for larsoft v04\_16\_00
 -   2015-07-15 Gianluca Petrillo : Fixed a bug in the selection of geometry tests (another)
 -   2015-06-25 Gianluca Petrillo : Fixed a bug in the selection of geometry tests
 
-larbatch v01\_12\_01(#larbatch-v01_12_01)
+larbatch v01\_12\_01
 --------------------------------------------
 
 -   2015-07-16 Lynn Garren : larbatch v01\_12\_01 for larsoft v04\_16\_00
@@ -243,7 +243,7 @@ larbatch v01\_12\_01(#larbatch-v01_12_01)
 -   2015-07-11 Herbert Greenlee : Delete jobids.list before rewriting it.
 -   2015-06-26 Herbert Greenlee : Add lar command line option –rethrow-default.
 
-larutils v1\_02\_01(#larutils-v1_02_01)
+larutils v1\_02\_01
 ------------------------------------------
 
 -   2015-07-16 Lynn Garren : larutils v1\_02\_01 for larsoft v04\_16\_00

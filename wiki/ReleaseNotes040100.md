@@ -1,4 +1,4 @@
-LArSoft v04\_01\_00 Release Notes(#LArSoft-v04_01_00-Release-Notes)
+LArSoft v04\_01\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -21,20 +21,20 @@ LArSoft v04\_01\_00 Release Notes(#LArSoft-v04_01_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_01_00/larsoft-v04_01_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Integrate SeedService and GaussHitUpdate
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   SeedService
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ----------- -----------------------------
@@ -47,34 +47,34 @@ Updated dependencies(#Updated-dependencies)
   ifdh\_art       v1\_7\_1     e6:nu       
   --------------- ------------ ----------- -----------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_01\_00(#larsoft-v04_01_00)
+larsoft v04\_01\_00
 ------------------------------------------
 
 -   2015-02-27 Lynn Garren : larsoft v04\_01\_00 for larsoft v04\_01\_00
 -   2015-02-27 Lynn Garren : updating product list
 -   2015-02-27 Lynn Garren : adding new headers
 
-lareventdisplay v04\_01\_00(#lareventdisplay-v04_01_00)
+lareventdisplay v04\_01\_00
 ----------------------------------------------------------
 
 -   2015-02-27 Lynn Garren : lareventdisplay v04\_01\_00 for larsoft v04\_01\_00
 -   2015-02-26 Tingjun Yang : Set track hit color to consistent with track color in Ortho3D view.
 -   2015-02-26 Tingjun Yang : Fix cluster slopes.
 
-larexamples v04\_00\_02(#larexamples-v04_00_02)
+larexamples v04\_00\_02
 --------------------------------------------------
 
 -   2015-02-27 Lynn Garren : larexamples v04\_00\_02 for larsoft v04\_01\_00
 
-larpandora v04\_00\_02(#larpandora-v04_00_02)
+larpandora v04\_00\_02
 ------------------------------------------------
 
 -   2015-02-27 Lynn Garren : larpandora v04\_00\_02 for larsoft v04\_01\_00
 
-larana v04\_01\_00(#larana-v04_01_00)
+larana v04\_01\_00
 ----------------------------------------
 
 -   2015-02-27 Lynn Garren : larana v04\_01\_00 for larsoft v04\_01\_00
@@ -83,7 +83,7 @@ larana v04\_01\_00(#larana-v04_01_00)
 -   2015-02-21 Wesley Ketchum : add in MCTrack info to flash hypothesis comparison
 -   2015-02-12 Gianluca Petrillo : Two modules adapted to the use of SeedService, removed unused e\\random engine from other two.
 
-larreco v04\_01\_00(#larreco-v04_01_00)
+larreco v04\_01\_00
 ------------------------------------------
 
 -   2015-02-27 Lynn Garren : larreco v04\_01\_00 for larsoft v04\_01\_00
@@ -105,7 +105,7 @@ larreco v04\_01\_00(#larreco-v04_01_00)
 -   2015-02-05 Bruce Baller : Merge branch ‘feature/DataProductRevision’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/DataProductRevision
 -   2015-01-28 Bruce Baller : Merge branch ‘develop’ into feature/DataProductRevision
 
-larsim v04\_01\_00(#larsim-v04_01_00)
+larsim v04\_01\_00
 ----------------------------------------
 
 -   2015-02-27 Lynn Garren : larsim v04\_01\_00 for larsoft v04\_01\_00
@@ -136,12 +136,12 @@ larsim v04\_01\_00(#larsim-v04_01_00)
 -   2015-02-12 Gianluca Petrillo : All generator interfaces except GENIE’s adapted to SeedService
 -   2015-02-10 Gianluca Petrillo : Support for SeedService (SimWireT962 module only)
 
-larevt v04\_00\_02(#larevt-v04_00_02)
+larevt v04\_00\_02
 ----------------------------------------
 
 -   2015-02-27 Lynn Garren : larevt v04\_00\_02 for larsoft v04\_01\_00
 
-lardata v04\_00\_02(#lardata-v04_00_02)
+lardata v04\_00\_02
 ------------------------------------------
 
 -   2015-02-27 Lynn Garren : lardata v04\_00\_02 for larsoft v04\_01\_00

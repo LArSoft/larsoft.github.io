@@ -1,4 +1,4 @@
-LArSoft v06\_15\_00 Release Notes(#LArSoft-v06_15_00-Release-Notes)
+LArSoft v06\_15\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -29,14 +29,14 @@ LArSoft v06\_15\_00 Release Notes(#LArSoft-v06_15_00-Release-Notes)
 Download instructions for [larsoft v06\_15\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_15_00/larsoft-v06_15_00.html)\
 Download instructions for [just larsoftobj v1\_08\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_08_01/larsoftobj-v1_08_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   add larwirecell
 -   update larpandoracontent
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   add larwirecell to larsoft
@@ -47,7 +47,7 @@ New features(#New-features)
     -   dunetpc feature/SettingsFor\_LArPandoraContent\_v03\_01\_00
     -   sbndcode feature/SettingsFor\_LArPandoraContent\_v03\_01\_00
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   remove accidental use of BASENAME\_ONLY from larsim/EventGenerator/MARLEY/CMakeLists.txt and lareventdisplay/Landed/CMakeLists.txt
@@ -55,7 +55,7 @@ Bug fixes(#Bug-fixes)
     -   finally fixes OSX ifdhc problems
     -   path must have a trailing slash
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ----------- ------------ -------
@@ -66,10 +66,10 @@ Updated dependencies(#Updated-dependencies)
   ifdhc\_config   v2\_0\_2                 
   --------------- ----------- ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_15\_00(#larsoft-v06_15_00)
+larsoft v06\_15\_00
 ------------------------------------------
 
 -   2016-11-16 Lynn Garren : larsoft v06\_15\_00 for larsoft v06\_15\_00
@@ -80,24 +80,24 @@ larsoft v06\_15\_00(#larsoft-v06_15_00)
 -   2016-11-16 Lynn Garren : control the version of ifdhc\_config
 -   2016-11-14 Lynn Garren : add wirecell to the larsoft distribution
 
-lareventdisplay v06\_02\_01(#lareventdisplay-v06_02_01)
+lareventdisplay v06\_02\_01
 ----------------------------------------------------------
 
 -   2016-11-16 Lynn Garren : lareventdisplay v06\_02\_01 for larsoft v06\_15\_00
 -   2016-11-16 Lynn Garren : standardizing cmake usage
 
-larexamples v06\_01\_03(#larexamples-v06_01_03)
+larexamples v06\_01\_03
 --------------------------------------------------
 
 -   2016-11-16 Lynn Garren : larexamples v06\_01\_03 for larsoft v06\_15\_00
 
-larpandora v06\_03\_00(#larpandora-v06_03_00)
+larpandora v06\_03\_00
 ------------------------------------------------
 
 -   2016-11-16 Lynn Garren : larpandora v06\_03\_00 for larsoft v06\_15\_00
 -   2016-11-15 John Marshall : Update configuration for LArPandoraContent v03\_01\_00.
 
-larwirecell v06\_00\_00(#larwirecell-v06_00_00)
+larwirecell v06\_00\_00
 --------------------------------------------------
 
 -   2016-11-16 Lynn Garren : larwirecell for larsoft v06\_15\_00
@@ -122,14 +122,14 @@ larwirecell v06\_00\_00(#larwirecell-v06_00_00)
 -   2016-06-24 David Adams : Start package with single include.
 -   2016-06-24 David Adams : Initial commit
 
-larana v06\_03\_05(#larana-v06_03_05)
+larana v06\_03\_05
 ----------------------------------------
 
 -   2016-11-16 Lynn Garren : larana v06\_03\_05 for larsoft v06\_15\_00
 -   2016-11-14 Herbert Greenlee : Merge remote-tracking branch ‘origin/v05\_07\_00\_br’ into develop
 -   2016-11-03 Herbert Greenlee : Change beam gate time to trigger time.
 
-larreco v06\_11\_00(#larreco-v06_11_00)
+larreco v06\_11\_00
 ------------------------------------------
 
 -   2016-11-16 Lynn Garren : larreco v06\_11\_00 for larsoft v06\_15\_00
@@ -147,7 +147,7 @@ larreco v06\_11\_00(#larreco-v06_11_00)
 -   2016-11-10 Mike Wallbank : Updates and improvements to EMShower space point finding
 -   2016-11-09 Mike Wallbank : Changed the way space point are saved by the EMShower module. As opposed to using just those made by PMTrack, the algorithm now creates its own based on the associated hits in each view
 
-larsim v06\_07\_00(#larsim-v06_07_00)
+larsim v06\_07\_00
 ----------------------------------------
 
 -   2016-11-16 Lynn Garren : larsim v06\_07\_00 for larsoft v06\_15\_00
@@ -156,32 +156,32 @@ larsim v06\_07\_00(#larsim-v06_07_00)
 -   2016-11-15 Jeremy Hewes : Added event generator module for GENIE neutron-antineutron oscillation.
 -   2016-11-15 Tingjun Yang : Update NucleonDecay\_module.cc to be compatible with genie 2.12. The default decay mode is still p-\>nubar K+.
 
-larevt v06\_06\_01(#larevt-v06_06_01)
+larevt v06\_06\_01
 ----------------------------------------
 
 -   2016-11-16 Lynn Garren : larevt v06\_06\_01 for larsoft v06\_15\_00
 
-lardata v06\_09\_01(#lardata-v06_09_01)
+lardata v06\_09\_01
 ------------------------------------------
 
 -   2016-11-16 Lynn Garren : lardata v06\_09\_01 for larsoft v06\_15\_00
 
-larcore v06\_04\_01(#larcore-v06_04_01)
+larcore v06\_04\_01
 ------------------------------------------
 
 -   2016-11-16 Lynn Garren : larcore v06\_04\_01 for larsoft v06\_15\_00
 -   2016-11-11 Gianluca Petrillo : Added WireGeo::Length().
 
-larsoftobj v1\_08\_01(#larsoftobj-v1_08_01)
+larsoftobj v1\_08\_01
 ----------------------------------------------
 
-lardataobj v1\_07\_02(#lardataobj-v1_07_02)
+lardataobj v1\_07\_02
 ----------------------------------------------
 
-larcoreobj v1\_06\_01(#larcoreobj-v1_06_01)
+larcoreobj v1\_06\_01
 ----------------------------------------------
 
-larbatch v01\_24\_00(#larbatch-v01_24_00)
+larbatch v01\_24\_00
 --------------------------------------------
 
 -   2016-11-16 Lynn Garren : larbatch v01\_24\_00 for larsoft v06\_15\_00
@@ -212,7 +212,7 @@ larbatch v01\_24\_00(#larbatch-v01_24_00)
 -   2016-11-11 Lynn Garren : larsoft v06\_14\_00
 -   2016-11-10 Herbert Greenlee : Optimize larbatch\_posix.isdir and larbatch\_posix.walk to improve speed and reduce hang risk.
 
-larutils v1\_11\_00(#larutils-v1_11_00)
+larutils v1\_11\_00
 ------------------------------------------
 
 -   2016-11-16 Lynn Garren : larutils v1\_11\_00 for larsoft v06\_15\_00

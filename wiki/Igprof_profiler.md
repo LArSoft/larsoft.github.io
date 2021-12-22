@@ -1,4 +1,4 @@
-igprof profiler(#igprof-profiler)
+igprof profiler
 ====================================
 
 e10 and e15 qualified versions of igprof are available.

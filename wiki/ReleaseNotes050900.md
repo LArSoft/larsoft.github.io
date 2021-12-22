@@ -1,4 +1,4 @@
-LArSoft v05\_09\_00 Release Notes(#LArSoft-v05_09_00-Release-Notes)
+LArSoft v05\_09\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -25,12 +25,12 @@ LArSoft v05\_09\_00 Release Notes(#LArSoft-v05_09_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_09_00/larsoft-v05_09_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   merge approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larcore feature/gp\_DebuggingTools
@@ -40,17 +40,17 @@ New features(#New-features)
     -   dunetpc also needs feature/gp\_MemoryOptimization
 -   larsim feature/gp\_Issue12197
 
-Breaking changes(#Breaking-changes)
+Breaking changes
 --------------------------------------
 
 -   Because of the way GENIE decides what part of the spline file to use, it isn’t necessary to have a “default” and a “defaultplusccmec” genie\_xsec file, just the later. The users control which types of events to generate with the EventGeneratorList flag (fcl parameter for ART/NuTools/GENIEHelper or command level flag for base GENIE executables).
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   [\#12197](/redmine/issues/12197 "Bug: Geant4 output different when changing G4-unrelated configuration (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------- ------------------ ---------------------------
@@ -64,10 +64,10 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v4\_19\_04                       
   --------------- ------------- ------------------ ---------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_09\_00(#larsoft-v05_09_00)
+larsoft v05\_09\_00
 ------------------------------------------
 
 -   2016-04-14 Lynn Garren : dk2nu v01\_03\_00c
@@ -80,22 +80,22 @@ larsoft v05\_09\_00(#larsoft-v05_09_00)
 -   2016-04-08 Gianluca Petrillo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsoft into develop
 -   2016-04-08 Gianluca Petrillo : RemoveMathFromGDML.py (v. 1.6) bug fixes and new options. I claim it should work.
 
-lareventdisplay v05\_06\_03(#lareventdisplay-v05_06_03)
+lareventdisplay v05\_06\_03
 ----------------------------------------------------------
 
 -   2016-04-14 Lynn Garren : lareventdisplay v05\_06\_03 for larsoft v05\_09\_00
 
-larexamples v05\_06\_03(#larexamples-v05_06_03)
+larexamples v05\_06\_03
 --------------------------------------------------
 
 -   2016-04-14 Lynn Garren : larexamples v05\_06\_03 for larsoft v05\_09\_00
 
-larpandora v05\_09\_00(#larpandora-v05_09_00)
+larpandora v05\_09\_00
 ------------------------------------------------
 
 -   2016-04-14 Lynn Garren : larpandora v05\_09\_00 for larsoft v05\_09\_00
 
-larana v05\_08\_00(#larana-v05_08_00)
+larana v05\_08\_00
 ----------------------------------------
 
 -   2016-04-14 Lynn Garren : larana v05\_08\_00 for larsoft v05\_09\_00
@@ -104,7 +104,7 @@ larana v05\_08\_00(#larana-v05_08_00)
 -   2016-04-12 Gianluca Petrillo : Interface update after Geant4 job memory optimization
 -   2016-03-29 Gianluca Petrillo : Update after photon library interface change
 
-larreco v05\_09\_00(#larreco-v05_09_00)
+larreco v05\_09\_00
 ------------------------------------------
 
 -   2016-04-14 Lynn Garren : larreco v05\_09\_00 for larsoft v05\_09\_00
@@ -154,7 +154,7 @@ larreco v05\_09\_00(#larreco-v05_09_00)
 -   2016-02-10 Mike Wallbank : Changed the way the shower direction is found; use RMS of the hit distribution along the length of the shower
 -   2016-02-08 Mike Wallbank : Initial improvements to EMShowerAlg. Started writing new algorithm to determine the direction of the shower
 
-larsim v05\_09\_00(#larsim-v05_09_00)
+larsim v05\_09\_00
 ----------------------------------------
 
 -   2016-04-14 Lynn Garren : Merge branch ‘feature/gp\_MemoryOptimization’ into release/v05\_09\_00
@@ -218,18 +218,18 @@ larsim v05\_09\_00(#larsim-v05_09_00)
 -   2016-03-22 larsoft User : change the return type of Reconstruct in MCShowerRecoAlg
 -   2016-02-04 Lynn Garren : larsim v04\_21\_00 for larsoft v04\_36\_00
 
-larevt v05\_06\_03(#larevt-v05_06_03)
+larevt v05\_06\_03
 ----------------------------------------
 
 -   2016-04-14 Lynn Garren : larevt v05\_06\_03 for larsoft v05\_09\_00
 
-lardata v05\_07\_02(#lardata-v05_07_02)
+lardata v05\_07\_02
 ------------------------------------------
 
 -   2016-04-14 Lynn Garren : lardata v05\_07\_02 for larsoft v05\_09\_00
 -   2016-04-14 Lynn Garren : nutools v1\_24\_02
 
-larcore v05\_07\_00(#larcore-v05_07_00)
+larcore v05\_07\_00
 ------------------------------------------
 
 -   2016-04-14 Lynn Garren : larcore v05\_07\_00 for larsoft v05\_09\_00
@@ -237,14 +237,14 @@ larcore v05\_07\_00(#larcore-v05_07_00)
 -   2016-04-08 Gianluca Petrillo : Make it easier to change default options in printBacktrace()
 -   2016-04-08 Gianluca Petrillo : Added backtrace printing utility (need to be tested on OSX)
 
-larbatch v01\_21\_00(#larbatch-v01_21_00)
+larbatch v01\_21\_00
 --------------------------------------------
 
 -   2016-04-14 Lynn Garren : larbatch v01\_21\_00 for larsoft v05\_09\_00
 -   2016-04-13 yuntse : Improve error detection for analysis files.
 -   2016-04-11 yuntse : Add timeouts for access to dCache files. Reduce the number of “addLayerTwo” calls.
 
-larutils v1\_06\_00(#larutils-v1_06_00)
+larutils v1\_06\_00
 ------------------------------------------
 
 -   2016-04-14 Lynn Garren : larutils v1\_06\_00 for larsoft v05\_09\_00

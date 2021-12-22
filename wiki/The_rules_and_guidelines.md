@@ -15,12 +15,12 @@
     -   [Bad code examples](#Bad-code-examples)
     -   [Enforcing LArSoft coding standards](#Enforcing-LArSoft-coding-standards)
 
-The rules and guidelines(#The-rules-and-guidelines) {.wiki-class-count}
+The rules and guidelines
 ======================================================
 
 This is a working set of rules and guidelines. Suggestions for improvements are welcomed. Basically, we urge lean, modular code that is detector-agnostic. LArSoft code is intended to be usable by any N-plane, N\_w wires, M-PMT Liquid Argon TPC.
 
-Writing modular code that is detector-agnostic.(#Writing-modular-code-that-is-detector-agnostic) {.wiki-class-count}
+Writing modular code that is detector-agnostic.
 ---------------------------------------------------------------------------------------------------
 
 1.  All data formats which are a) stored in the output file, b) passed between job control modules or c) written to `histos.root` should be generalizable for N wire planes and / or M PMTs. Obviously, the number of wires N\_w per plane must be generalizable.
@@ -35,12 +35,12 @@ Writing modular code that is detector-agnostic.(#Writing-modular-code-that-is-de
 
 4.  Wire position and pitch and PMT position and orientation should be read only from the geometry file. Anywhere where a specific configuration is required should be checked for in the code with clear exceptions thrown if necessary, and detailed on the wiki.
 
-Configuration(#Configuration) {.wiki-class-count}
+Configuration
 --------------------------------
 
 All LArSoft users are expected to follow the guidelines for developing configurations and configuration-aware C++ code as described at [http://larsoft.org/configuration/](http://larsoft.org/configuration/) which includes two presentations, one with video.
 
-Coding Conventions(#Coding-Conventions) {.wiki-class-count}
+Coding Conventions
 ------------------------------------------
 
 Conventions to keep in mind when writing code for LArSoft include the following:
@@ -62,12 +62,12 @@ Conventions to keep in mind when writing code for LArSoft include the following:
 15. Creation and filling of TTrees should be confined to a separate analyzer module that is used for debugging only. While embedded TTrees for diagnostic purposed is valuable in developing new algorithm code, these should be removed from production code.
 16. Whenever possible, use constexpr instead of static const and avoid using non-const statics since they are a source of inefficiency in multi-threaded code.
 
-Uniform code format(#Uniform-code-format) {.wiki-class-count}
+Uniform code format
 --------------------------------------------
 
 LArSoft is considering adopting `clang-format` as a code-formatting tool to ensure a uniform code layout. Although `clang-format` can be made available by explicitly setting up the `clang` UPS product, the recommended way of using `clang-format` is to integrate it into your editor.
 
-### Prerequisites(#Prerequisites) {.wiki-class-count}
+### Prerequisites
 
 To use the UPS-provided `clang-format` utility inside the editors, it is necessary that UPS is setup for your file-editing session. If UPS has been setup, then you should see the following when typed in your shell:
 
@@ -76,7 +76,7 @@ To use the UPS-provided `clang-format` utility inside the editors, it is necessa
 
 If UPS is not found or Clang 7 is not installed in the UPS area, then you will not have access to the `clang-format` commands within the editors.
 
-### Supported editors(#Supported-editors) {.wiki-class-count}
+### Supported editors
 
 -   **Emacs**
     -   Download [ups-clang-format-v7.el](/redmine/attachments/63864/ups-clang-format-v7.el) and place it in a directory `<my_dir>`.
@@ -91,7 +91,7 @@ If UPS is not found or Clang 7 is not installed in the UPS area, then you will n
     -   Download [ups-clang-format-v7.vim](/redmine/attachments/61597/ups-clang-format-v7.vim) and place it in your `~/.vim/plugin/` subdirectory.
     -   You can then use `'Ctrl-k'` while editing files to apply `clang-format` to the selected line or region.
 
-### Expected behavior(#Expected-behavior) {.wiki-class-count}
+### Expected behavior
 
 For the files being edited, the `clang-format` commands will use the `.clang-format` file that is closest to the file. In other words, assume a file has the full path:
 
@@ -99,7 +99,7 @@ For the files being edited, the `clang-format` commands will use the `.clang-for
 
 and that each of the directories `dir1`, `dir2`, and `dir3` have `.clang-format` files. `clang-format` will choose the `.clang-format` file located in `dir3` as the style to apply to the code in `my_file.cpp`. If `dir3` does not have a `.clang-format` file, then `clang-format` will search for a `.clang-format` file in `dir2`, and so on. If a `.clang-format` file cannot be found in the directory hierarchy, then `clang-format` applies its own default.
 
-File and Library Naming(#File-and-Library-Naming) {.wiki-class-count}
+File and Library Naming
 ----------------------------------------------------
 
 The problem of conflicting names can arise when developing code against multiple experiment repositories (e.g., `argoneutcode`, `lariatsoft`, `uboonecode`, `dunetpc`, etc.). In order to facilitate being able to develop in a multiple experiment environment, it is helpful if the experiments use unique naming for classes, headers, libraries, and fcl files.
@@ -134,17 +134,17 @@ The problem of conflicting names can arise when developing code against multiple
 
 5.  Avoid common names, such as `version`. Instead use `mypackage_version`.
 
-Other sources of useful C++ practices and hints(#Other-sources-of-useful-C-practices-and-hints) {.wiki-class-count}
+Other sources of useful C++ practices and hints
 --------------------------------------------------------------------------------------------------
 
 The ARTists have provided a nice set of “good practices” for coding that also include some hints on newer C++ standard (2011, 2014…). Please read this [document](https://cdcvs.fnal.gov/redmine/documents/534).
 
 CMS has a very useful set of notes about [Using Data Structures Safely with Threads](https://twiki.cern.ch/twiki/bin/view/CMSPublic/FWMultithreadedThreadSafeDataStructures).
 
-Good code writing examples(#Good-code-writing-examples) {.wiki-class-count}
+Good code writing examples
 ----------------------------------------------------------
 
-### Looping over geometry entities(#Looping-over-geometry-entities) {.wiki-class-count}
+### Looping over geometry entities
 
     // For each plane, do something on the hits on that plane
     std::vector<recob::Hit> const& hits = *hitHandle;
@@ -160,7 +160,7 @@ Good code writing examples(#Good-code-writing-examples) {.wiki-class-count}
       // do something
     } // for planes
 
-### Using transient data(#Using-transient-data) {.wiki-class-count}
+### Using transient data
 
 *Transient data* is data that is specific to a given event but it is not saved into the event record. For example, results of an algorithm that need to be translated into LArSoft data products are transient.
 
@@ -338,7 +338,7 @@ Example of **wrong** behavior:\
 \
 This is the wrong implementation of the option 2, where we do not instruct the algorithm to clear its results, even if it is very likely that the algorithm is still retaining a copy of them.
 
-Bad code examples(#Bad-code-examples) {.wiki-class-count}
+Bad code examples
 ----------------------------------------
 
 1.  It should never be necessary to know the specific detector we are working on. If you think you need to, please should check with a convener/peer to see if there’s a more elegant alternative.\
@@ -401,7 +401,7 @@ Bad code examples(#Bad-code-examples) {.wiki-class-count}
     \
     That is: use the right abstraction (here, signal type and channel, instead of wire and plane number), and rely on the geometry service to map readout and geometry.
 
-Enforcing LArSoft coding standards(#Enforcing-LArSoft-coding-standards) {.wiki-class-count}
+Enforcing LArSoft coding standards
 --------------------------------------------------------------------------
 
 We value your contributions. We are all physicists and not computer scientists. We want everyone to be able to walk in and contribute to LArSoft. Nevertheless, your LArSoft co-conveners have decided some words are in order regarding coding conventions. We run unit tests, and experiments can run regression tests (through the Continuous Integration), and we want more. No one has volunteered to spend the many hours necessary to vet the code of contributors and make it conform to the proper rules and aesthetics. Our use of Code Analysis and spot checks and urging and individual follow-up will continue as much as time allows.

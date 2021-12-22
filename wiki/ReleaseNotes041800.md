@@ -1,4 +1,4 @@
-LArSoft v04\_18\_00 Release Notes(#LArSoft-v04_18_00-Release-Notes)
+LArSoft v04\_18\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,10 +24,10 @@ LArSoft v04\_18\_00 Release Notes(#LArSoft-v04_18_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_18_00/larsoft-v04_18_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larcore feature/gp\_FixGeometryTestSelector
@@ -38,10 +38,10 @@ New features(#New-features)
 -   larana feature/tjyang\_t0finder
     -   the new library is named T0Finder\_MCTruthT0Matching\_module
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- ------------ ----------- ---------------------------------------------------
@@ -49,23 +49,23 @@ Updated dependencies(#Updated-dependencies)
   mrb       v1\_05\_00               remove unused dependency\_list from \$MRB\_SOURCE
   --------- ------------ ----------- ---------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_18\_00(#larsoft-v04_18_00)
+larsoft v04\_18\_00
 ------------------------------------------
 
 -   2015-08-04 Lynn Garren : larsoft v04\_18\_00 for larsoft v04\_18\_00
 -   2015-08-04 Lynn Garren : update dependency database
 -   2015-07-23 Lynn Garren : cstxsd v4\_0\_0c
 
-lareventdisplay v04\_06\_02(#lareventdisplay-v04_06_02)
+lareventdisplay v04\_06\_02
 ----------------------------------------------------------
 
 -   2015-08-04 Lynn Garren : lareventdisplay v04\_06\_02 for larsoft v04\_18\_00
 -   2015-07-30 Gianluca Petrillo : Modified event display configuration evd.fcl suitable for events simulated with prodsingle.fcl
 
-larexamples v04\_05\_00(#larexamples-v04_05_00)
+larexamples v04\_05\_00
 --------------------------------------------------
 
 -   2015-08-04 Lynn Garren : larexamples v04\_05\_00 for larsoft v04\_18\_00
@@ -77,7 +77,7 @@ larexamples v04\_05\_00(#larexamples-v04_05_00)
 -   2015-07-30 Gianluca Petrillo : Fixed example configuration to be used with events generated with prodsingle.fcl
 -   2015-07-30 Gianluca Petrillo : Updated example to use services for the “generic” LAr TPC detector. Currently unusable.
 
-larpandora v04\_05\_00(#larpandora-v04_05_00)
+larpandora v04\_05\_00
 ------------------------------------------------
 
 -   2015-08-04 Lynn Garren : larpandora v04\_05\_00 for larsoft v04\_18\_00
@@ -86,7 +86,7 @@ larpandora v04\_05\_00(#larpandora-v04_05_00)
 -   2015-07-28 Andrew Blake : Updating cosmic subtraction analyzer module in LArPandoraInterface, and tweaking ‘LArPandoraParticleCreator’ module for compatibility with downstream cosmic tagging modules.
 -   2015-07-24 Lynn Garren : use gdmldir and install\_gdml to the xml files will be copied during a build
 
-larana v04\_10\_00(#larana-v04_10_00)
+larana v04\_10\_00
 ----------------------------------------
 
 -   2015-08-04 Lynn Garren : larana v04\_10\_00 for larsoft v04\_18\_00
@@ -96,7 +96,7 @@ larana v04\_10\_00(#larana-v04_10_00)
 -   2015-07-27 Thomas Warburton : Adding file description to MCTruthT0Matching\_module
 -   2015-07-23 Tingjun Yang : Add T0Finder and a module to find t0 using MC truth.
 
-larreco v04\_14\_00(#larreco-v04_14_00)
+larreco v04\_14\_00
 ------------------------------------------
 
 -   2015-08-04 Lynn Garren : larreco v04\_14\_00 for larsoft v04\_18\_00
@@ -134,19 +134,19 @@ larreco v04\_14\_00(#larreco-v04_14_00)
 -   2015-07-22 Robert Sulej : fix producer to put also empty containers to the event, add one more TTree with info to inspect tracks
 -   2015-07-22 Robert Sulej : add fn to returns mean angle between consecutive segments
 
-larsim v04\_09\_00(#larsim-v04_09_00)
+larsim v04\_09\_00
 ----------------------------------------
 
 -   2015-08-04 Lynn Garren : larsim v04\_09\_00 for larsoft v04\_18\_00
 -   2015-07-30 Gianluca Petrillo : Using specific LArProperties service configuration for singel particle production with the “standard” LAr TPC detector
 -   2015-07-30 Gianluca Petrillo : Adding configuration for the “generic” LAr TPC detector, contained in LArSoft
 
-larevt v04\_08\_08(#larevt-v04_08_08)
+larevt v04\_08\_08
 ----------------------------------------
 
 -   2015-08-04 Lynn Garren : larevt v04\_08\_08 for larsoft v04\_18\_00
 
-lardata v04\_11\_02(#lardata-v04_11_02)
+lardata v04\_11\_02
 ------------------------------------------
 
 -   2015-08-04 Lynn Garren : lardata v04\_11\_02 for larsoft v04\_18\_00
@@ -156,7 +156,7 @@ lardata v04\_11\_02(#lardata-v04_11_02)
 -   2015-07-29 Herbert Greenlee : Fix pointing error.
 -   2015-07-27 Mike Wallbank : Added associations between shower and track for shower reconstruction
 
-larcore v04\_15\_00(#larcore-v04_15_00)
+larcore v04\_15\_00
 ------------------------------------------
 
 -   2015-08-04 Lynn Garren : larcore v04\_15\_00 for larsoft v04\_18\_00
@@ -164,7 +164,7 @@ larcore v04\_15\_00(#larcore-v04_15_00)
 -   2015-07-25 Gianluca Petrillo : Replaced the parser of geometry tests to be run. FHiCL configuration may be affected.
 -   2015-07-25 Gianluca Petrillo : Added class to parse a list of names to accept or reject from configuration (used for example in a test to learn which checks to run and which ones to skip)
 
-larbatch v01\_13\_00(#larbatch-v01_13_00)
+larbatch v01\_13\_00
 --------------------------------------------
 
 -   2015-08-04 Lynn Garren : larbatch v01\_13\_00 for larsoft v04\_18\_00
@@ -172,5 +172,5 @@ larbatch v01\_13\_00(#larbatch-v01_13_00)
 -   2015-07-23 Herbert Greenlee : Make temporary directory name unique.
 -   2015-07-23 Herbert Greenlee : Add ability to specify scratch directory (for merging dCache histograms).
 
-larutils v1\_02\_01(#larutils-v1_02_01)
+larutils v1\_02\_01
 ------------------------------------------

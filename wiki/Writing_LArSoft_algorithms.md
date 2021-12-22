@@ -1,4 +1,4 @@
-Guidelines on writing (and using) algorithms in LArSoft(#Guidelines-on-writing-and-using-algorithms-in-LArSoft)
+Guidelines on writing (and using) algorithms in LArSoft
 ==================================================================================================================
 
 -   **Table of contents**
@@ -19,7 +19,7 @@ Consider the `LineCluster` module:
 -   the algorithm, `cluster::ClusterCrawlerAlg`, can be configured by a FHiCL parameter set, receives sets of reconstructed hits as input and produces sets of refined hits, clusters, vertices etc.
 -   the module, `cluster::LineCluster`, creates, configures and owns a `cluster::ClusterCrawlerAlg` instance, reads the hit from `art::Event`, directs the steps of the algorithm, and stores its results back into `art::Event`
 
-### Algorithm factorization model(#Algorithm-factorization-model)
+### Algorithm factorization model
 
 As the unit of a modular system, an algorithm should:
 
@@ -38,7 +38,7 @@ Additional requirements for a well-written LArSoft algorithm include:
 -   follows good coding practices and [LArSoft guidelines](https://cdcvs.fnal.govThe_rules_and_guidelines)
 -   follows LArSoft’s [interoperability recommendations](Architecture_revision#Interoperability)
 
-### Developing a new algorithm(#Developing-a-new-algorithm)
+### Developing a new algorithm
 
 An algorithm devoted to cluster reconstruction may look as follows. Note this is an example for illustration, not existing code.\
 
@@ -196,7 +196,7 @@ Other details of the implementation are to the author, as long as their effects 
 while the implementation would provide the implementation for `cluster::MyClusterAlg::Reconstruct()`.\
 Note that this algorithm *does* depend on LArSoft for the service provider definition and for the data format.
 
-### Service and algorithm dependencies(#Service-and-algorithm-dependencies)
+### Service and algorithm dependencies
 
 The algorithm **must** obtain in the setup phase *all* the service providers it directly uses.\
 If e.g. `DetectorProperties` provider depends on `LArProperties` provider, and the algorithm needs both, the algorithm will not try to obtain `LArProperties` from `DetectorProperties`, but rather will require the caller to explicitly provide both. This ensures that the dependencies are explicit.
@@ -295,7 +295,7 @@ Here we have been fundamentalist in avoiding any framework dependency in the alg
 
 ^1^ Matter of fact, a `lar::ConvertPairsToAssociations()` template function *can* be implemented in a reasonably efficient way if there is demand for it.
 
-#### Dependencies from external libraries(#Dependencies-from-external-libraries)
+#### Dependencies from external libraries
 
 While *art* services and modules have no particular limitation to their depending from other libraries, service providers and algorithms do.\
 The current recommendation is not to trespass the border of what may be run in [gallery](/redmine/projects/gallery). This allows:
@@ -378,7 +378,7 @@ It is still recommended that this approach is avoided whenever possible, that is
 \
 which clearly states that the algorithm requires a collection of `simb::MCParticle`.
 
-### Multi-threading support(#Multi-threading-support)
+### Multi-threading support
 
 This model has not been confronted with multi threading yet.\
 Due to the local nature of the algorithms, they are often self-contained, and in those cases it should be easy to make them thread safe.

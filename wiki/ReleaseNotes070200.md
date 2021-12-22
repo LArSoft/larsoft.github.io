@@ -1,4 +1,4 @@
-LArSoft v07\_02\_00 Release Notes(#LArSoft-v07_02_00-Release-Notes)
+LArSoft v07\_02\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,14 +33,14 @@ LArSoft v07\_02\_00 Release Notes(#LArSoft-v07_02_00-Release-Notes)
 Download instructions for [larsoft v07\_02\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_02_00/larsoft-v07_02_00.html)\
 Download instructions for [just larsoftobj v07\_01\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_01_01/larsoftobj-v07_01_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 -   **Final release with e15 support**
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   External building of consolidated Pandora events
@@ -51,20 +51,20 @@ New features(#New-features)
     -   ubreco (feature/larpandoracontent\_v03\_14\_00)
     -   dunetpc (feature/larpandoracontent\_v03\_14\_00)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   bug fix for larana macOS test
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   pandora v03\_11\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v07\_02\_00(#larsoft-v07_02_00)
+larsoft v07\_02\_00
 ------------------------------------------
 
 -   2018-08-15 Lynn Garren : pandora v03\_11\_01
@@ -74,7 +74,7 @@ larsoft v07\_02\_00(#larsoft-v07_02_00)
 -   2018-08-15 Lynn Garren : product versions
 -   2018-08-15 Lynn Garren : put protobuf back for Ubuntu
 
-lareventdisplay v07\_01\_00(#lareventdisplay-v07_01_00)
+lareventdisplay v07\_01\_00
 ----------------------------------------------------------
 
 -   2018-08-15 Lynn Garren : lareventdisplay v07\_01\_00 for larsoft v07\_02\_00
@@ -85,17 +85,17 @@ lareventdisplay v07\_01\_00(#lareventdisplay-v07_01_00)
 -   2018-08-08 Thomas Junk : make sure the uncompressed data has a big enough buffer
 -   2018-08-08 baller : Draw vertices only in the correct TPC.
 
-larexamples v07\_00\_03(#larexamples-v07_00_03)
+larexamples v07\_00\_03
 --------------------------------------------------
 
 -   2018-08-15 Lynn Garren : larexamples v07\_00\_03 for larsoft v07\_02\_00
 
-larg4 v07\_00\_03(#larg4-v07_00_03)
+larg4 v07\_00\_03
 --------------------------------------
 
 -   2018-08-15 Lynn Garren : larg4 v07\_00\_03 for larsoft v07\_02\_00
 
-larpandora v07\_01\_00(#larpandora-v07_01_00)
+larpandora v07\_01\_00
 ------------------------------------------------
 
 -   2018-08-15 Lynn Garren : larpandora v07\_01\_00 for larsoft v07\_02\_00
@@ -133,18 +133,18 @@ larpandora v07\_01\_00(#larpandora-v07_01_00)
 -   2018-05-23 a-d-smith : Fixed up LArPandoraOutput to produce associations
 -   2018-05-22 a-d-smith : Added first remaster pass of LArPandoraOutput
 
-larwirecell v07\_00\_03(#larwirecell-v07_00_03)
+larwirecell v07\_00\_03
 --------------------------------------------------
 
 -   2018-08-15 Lynn Garren : larwirecell v07\_00\_03 for larsoft v07\_02\_00
 
-larana v07\_00\_03(#larana-v07_00_03)
+larana v07\_00\_03
 ----------------------------------------
 
 -   2018-08-15 Lynn Garren : larana v07\_00\_03 for larsoft v07\_02\_00
 -   2018-08-13 Lynn Garren : problem resolved by a commit in larsim
 
-larreco v07\_02\_00(#larreco-v07_02_00)
+larreco v07\_02\_00
 ------------------------------------------
 
 -   2018-08-15 Lynn Garren : larreco v07\_02\_00 for larsoft v07\_02\_00
@@ -158,29 +158,29 @@ larreco v07\_02\_00(#larreco-v07_02_00)
 -   2018-08-08 baller : Fix errors in reconfigure.
 -   2018-08-08 baller : Fix errors and prepare for future creation of PFParticle - Slice assns.
 
-larsim v07\_01\_01(#larsim-v07_01_01)
+larsim v07\_01\_01
 ----------------------------------------
 
 -   2018-08-15 Lynn Garren : larsim v07\_01\_01 for larsoft v07\_02\_00
 -   2018-08-14 Paul Russo : Fix constructor to explicitly intialize all data members.
 -   2018-08-13 Paul Russo : Fix TF1 double delete crashes on macOS.
 
-larevt v07\_00\_03(#larevt-v07_00_03)
+larevt v07\_00\_03
 ----------------------------------------
 
 -   2018-08-15 Lynn Garren : larevt v07\_00\_03 for larsoft v07\_02\_00
 
-lardata v07\_00\_03(#lardata-v07_00_03)
+lardata v07\_00\_03
 ------------------------------------------
 
 -   2018-08-15 Lynn Garren : lardata v07\_00\_03 for larsoft v07\_02\_00
 
-larcore v07\_00\_01(#larcore-v07_00_01)
+larcore v07\_00\_01
 ------------------------------------------
 
 -   2018-08-15 Lynn Garren : larcore v07\_00\_01 for larsoft v07\_02\_00
 
-larpandoracontent v03\_14\_00(#larpandoracontent-v03_14_00)
+larpandoracontent v03\_14\_00
 --------------------------------------------------------------
 
 -   2018-08-15 Lynn Garren : larpandoracontent v03\_14\_00 for larsoft v07\_02\_00
@@ -191,36 +191,36 @@ larpandoracontent v03\_14\_00(#larpandoracontent-v03_14_00)
 -   2018-07-26 John Marshall : Refactoring, error-checking and cosmetic changes.
 -   2018-07-19 Steven Green : Restructured test beam particle creation algorithm to work within worker instance.
 
-larsoftobj v07\_01\_01(#larsoftobj-v07_01_01)
+larsoftobj v07\_01\_01
 ------------------------------------------------
 
 -   2018-08-15 Lynn Garren : larsoftobj v07\_01\_01 for larsoft v07\_02\_00
 -   2018-08-15 Lynn Garren : update versions
 
-lardataobj v07\_01\_01(#lardataobj-v07_01_01)
+lardataobj v07\_01\_01
 ------------------------------------------------
 
 -   2018-08-15 Lynn Garren : lardataobj v07\_01\_01 for larsoft v07\_02\_00
 
-lardataalg v07\_00\_01(#lardataalg-v07_00_01)
+lardataalg v07\_00\_01
 ------------------------------------------------
 
 -   2018-08-15 Lynn Garren : lardataalg v07\_00\_01 for larsoft v07\_02\_00
 
-larcorealg v07\_01\_00(#larcorealg-v07_01_00)
+larcorealg v07\_01\_00
 ------------------------------------------------
 
 -   2018-08-15 Lynn Garren : larcorealg v07\_01\_00 for larsoft v07\_02\_00
 -   2018-06-21 Gianluca Petrillo : Documentation fix
 -   2018-08-14 Gianluca Petrillo : OpDetGeo interface expanded to help support for bar geometry.
 
-larcoreobj v07\_00\_00(#larcoreobj-v07_00_00)
+larcoreobj v07\_00\_00
 ------------------------------------------------
 
-larbatch v01\_43\_00(#larbatch-v01_43_00)
+larbatch v01\_43\_00
 --------------------------------------------
 
-larutils v1\_22\_11(#larutils-v1_22_11)
+larutils v1\_22\_11
 ------------------------------------------
 
 -   2018-08-15 Lynn Garren : larutils v1\_22\_11 for larsoft v07\_02\_00

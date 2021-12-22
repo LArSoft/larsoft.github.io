@@ -1,4 +1,4 @@
-Removing old feature branches(#Removing-old-feature-branches)
+Removing old feature branches
 ================================================================
 
 -   **Table of contents**
@@ -29,14 +29,14 @@ Once feature branches are published, they are seldom removed, even after the bra
 
 **The plan was implemented on Sept. 17, 2019.**
 
-The plan(#The-plan)
+The plan
 ----------------------
 
 -   Using the script and lists [below](#Identifying-branches-that-can-be-removed), identify branches which have been merged.
 -   Go through the output by hand to verify that we want to remove these branches.
 -   Branches to be removed are listed below.
 
-### larcoreobj(#larcoreobj)
+### larcoreobj
 
 -   feature/at\_for\_art\_2\_06
 -   feature/cerati\_mcsmom-uboone-mcc8
@@ -51,7 +51,7 @@ The plan(#The-plan)
 -   feature/team\_with\_larg4
 -   feature/wketchum\_ViewAsignment
 
-### larcorealg(#larcorealg)
+### larcorealg
 
 -   feature/gp\_factorizeGeometryBuilding
 -   feature/gp\_GenVectorTransition
@@ -69,7 +69,7 @@ The plan(#The-plan)
 -   feature/team\_for\_art\_v3\_02
 -   feature/team\_with\_larg4
 
-### lardataobj(#lardataobj)
+### lardataobj
 
 -   feature/alister1\_pid\_ioread
 -   feature/at\_for\_art\_2\_06
@@ -117,7 +117,7 @@ The plan(#The-plan)
 -   feature/wketchum\_PandoraVertexDev
 -   feature/yuntse\_trackide
 
-### lardataalg(#lardataalg)
+### lardataalg
 
 -   feature/gp\_DetectorClocks
 -   feature/gp\_moveLArDataUtils
@@ -133,14 +133,14 @@ The plan(#The-plan)
 -   feature/usher\_driftvelocityfudgefactor
 -   feature/wketchum\_OverlayG4RefCorrection
 
-### larsoftobj(#larsoftobj)
+### larsoftobj
 
 -   feature/at\_for\_art\_2\_06
 -   feature/team\_for\_art\_v3
 -   feature/team\_for\_art\_v3\_02
 -   feature/team\_with\_larg4
 
-### larcore(#larcore)
+### larcore
 
 -   feature/at\_for\_art\_2\_06
 -   feature/AuxDetSort\_standard
@@ -170,7 +170,7 @@ The plan(#The-plan)
 -   feature/yale\_track
 -   feature/yale\_vertex
 
-### lardata(#lardata)
+### lardata
 
 -   feature/andrzejs\_geomutil\_bugfix
 -   feature/at\_for\_art\_2\_06
@@ -232,7 +232,7 @@ The plan(#The-plan)
 -   feature/yale\_shower
 -   feature/zennamo\_MCShowerdEdx
 
-### larevt(#larevt)
+### larevt
 
 -   feature/at\_for\_art\_2\_06
 -   feature/calibdb
@@ -263,7 +263,7 @@ The plan(#The-plan)
 -   feature/vmeddage\_larg4particlefilter
 -   feature/wketchum\_ViewAsignment
 
-### larsim(#larsim)
+### larsim
 
 -   feature/bb\_Argo
 -   feature/davidc\_mcrecovalidation
@@ -312,7 +312,7 @@ The plan(#The-plan)
 -   feature/wketchum\_ShiftEDep\_Debugging
 -   feature/yatesla\_MultipleSubrunPOT
 
-### larreco(#larreco)
+### larreco
 
 -   feature/alister\_pidfix
 -   feature/at\_for\_art\_2\_06
@@ -402,7 +402,7 @@ The plan(#The-plan)
 -   feature/yuntse\_calo\_fix
 -   bckhouse/feature\_reco3d
 
-### larana(#larana)
+### larana
 
 -   feature/adi\_overlay\_v06\_03\_18\_09
 -   feature/afurmans\_MCTruthMatching
@@ -461,7 +461,7 @@ The plan(#The-plan)
 -   feature/yuntse\_MCMatchHitAssn
 -   feature/yuntse\_negTrackID\_dev
 
-### larpandoracontent(#larpandoracontent)
+### larpandoracontent
 
 -   feature/asmith\_persistRecobSlicev07\_11\_00
 -   feature/at\_for\_art\_2\_06
@@ -501,7 +501,7 @@ The plan(#The-plan)
 -   feature/TrackTrajectorySort
 -   feature/wketchum\_PandoraDevelopmentArea\_MCC9
 
-### larpandora(#larpandora)
+### larpandora
 
 -   feature/asmith\_persistRecobSlicev07\_11\_00
 -   feature/asmith\_simChannelLabels
@@ -563,7 +563,7 @@ The plan(#The-plan)
 -   feature/TrkShwId3D
 -   feature/yuntse\_shower
 
-### lareventdisplay(#lareventdisplay)
+### lareventdisplay
 
 -   feature/alister1\_removepidfromevd
 -   feature/andrzejs\_geomutil\_bugfix
@@ -602,7 +602,7 @@ The plan(#The-plan)
 -   feature/usher\_wiredatadrawer
 -   feature/wketchum\_BezierTrackFix
 
-### larexamples(#larexamples)
+### larexamples
 
 -   feature/at\_for\_art\_2\_06
 -   feature/cerati\_RecoProxyUsageExample
@@ -614,7 +614,7 @@ The plan(#The-plan)
 -   feature/team\_for\_v06\_34\_01\_01
 -   feature/team\_with\_larg4
 
-### larwirecell(#larwirecell)
+### larwirecell
 
 -   feature/at\_for\_art\_2\_06
 -   feature/bkirby\_simChannel
@@ -641,7 +641,7 @@ The plan(#The-plan)
 -   feature/weihy\_larwirecell
 -   feature/wgu\_coh\_nf\_chandb
 
-### larsoft(#larsoft)
+### larsoft
 
 -   feature/at\_for\_art\_2\_06
 -   feature/gp\_moveLArDataUtils
@@ -650,7 +650,7 @@ The plan(#The-plan)
 -   feature/team\_for\_v06\_34\_01\_01
 -   feature/team\_with\_larg4
 
-### larbatch(#larbatch)
+### larbatch
 
 -   feature/greenlee\_error
 -   feature/greenlee\_maintain\_parentage
@@ -666,11 +666,11 @@ The plan(#The-plan)
 -   feature/joelam\_validateOnNode
 -   feature/team\_with\_larg4
 
-### larutils(#larutils)
+### larutils
 
 -   feature/team\_with\_larg4
 
-Identifying branches that can be removed.(#Identifying-branches-that-can-be-removed)
+Identifying branches that can be removed.
 ---------------------------------------------------------------------------------------
 
 -   [LArSoft repository branch lists](LArSoft_repository_branch_lists)

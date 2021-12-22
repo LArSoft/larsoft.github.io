@@ -1,4 +1,4 @@
-LArSoft v05\_00\_00\_rc0 Release Notes(#LArSoft-v05_00_00_rc0-Release-Notes)
+LArSoft v05\_00\_00\_rc0 Release Notes
 ===============================================================================
 
 -   **Table of contents**
@@ -22,13 +22,13 @@ LArSoft v05\_00\_00\_rc0 Release Notes(#LArSoft-v05_00_00_rc0-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_00_00_rc0/larsoft-v05_00_00_rc0.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   [new Core Services](Core_Services_Review)
 -   NOTE that this release is ONLY available for SLF6.
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   [new Core Services](Core_Services_Review)
@@ -39,7 +39,7 @@ New features(#New-features)
 -   This tag also exists for argoneutcode, lar1ndcode, lariatsoft, and uboonecode.
     -   All necessary changes have been made in the tags.
 
-Breaking Changes(#Breaking-Changes)
+Breaking Changes
 --------------------------------------
 
 -   See [new Core Services](Core_Services_Review)
@@ -52,22 +52,22 @@ Breaking Changes(#Breaking-Changes)
     -   Changes to dunetpc are in progress.
 -   If you want to test code in your favorite feature branch, it might be easier in some cases to check out the appropriate v05 tag, then merge your changes rather than rely on the translation scripts to perform all the necessary architecture changes.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   larsoft v05\_00\_00\_rc0 was built with the same dependencies as larsoft v04\_30\_00.
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_00\_00\_rc0(#larsoft-v05_00_00_rc0)
+larsoft v05\_00\_00\_rc0
 ---------------------------------------------------
 
 -   2015-12-07 Lynn Garren : larsoft v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
 -   2015-12-07 Lynn Garren : update product versions
 -   2015-12-07 Lynn Garren : update dependency database
 
-lareventdisplay v05\_00\_00\_rc0(#lareventdisplay-v05_00_00_rc0)
+lareventdisplay v05\_00\_00\_rc0
 -------------------------------------------------------------------
 
 -   2015-12-07 Lynn Garren : lareventdisplay v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
@@ -85,12 +85,12 @@ lareventdisplay v05\_00\_00\_rc0(#lareventdisplay-v05_00_00_rc0)
 -   2015-10-05 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley\_LArPropertiesBreakup
 -   2015-09-29 Jonathan Paley : Code changes for services factorization.
 
-larexamples v05\_00\_00\_rc0(#larexamples-v05_00_00_rc0)
+larexamples v05\_00\_00\_rc0
 -----------------------------------------------------------
 
 -   2015-12-07 Lynn Garren : larexamples v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
 
-larpandora v05\_00\_00\_rc0(#larpandora-v05_00_00_rc0)
+larpandora v05\_00\_00\_rc0
 ---------------------------------------------------------
 
 -   2015-12-07 Lynn Garren : larpandora v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
@@ -103,7 +103,7 @@ larpandora v05\_00\_00\_rc0(#larpandora-v05_00_00_rc0)
 -   2015-10-05 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley\_LArPropertiesBreakup
 -   2015-09-29 Jonathan Paley : Code changes for service factorization.
 
-larana v05\_00\_00\_rc0(#larana-v05_00_00_rc0)
+larana v05\_00\_00\_rc0
 -------------------------------------------------
 
 -   2015-12-07 Lynn Garren : larana v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
@@ -128,7 +128,7 @@ larana v05\_00\_00\_rc0(#larana-v05_00_00_rc0)
 -   2015-10-05 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley\_LArPropertiesBreakup
 -   2015-09-29 Jonathan Paley : Code changes for service factorization.
 
-larreco v05\_00\_00\_rc0(#larreco-v05_00_00_rc0)
+larreco v05\_00\_00\_rc0
 ---------------------------------------------------
 
 -   2015-12-07 Lynn Garren : larreco v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
@@ -147,7 +147,7 @@ larreco v05\_00\_00\_rc0(#larreco-v05_00_00_rc0)
 -   2015-11-03 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley\_LArPropertiesBreakup
 -   2015-09-29 Jonathan Paley : Code changes for service factorization.
 
-larsim v05\_00\_00\_rc0(#larsim-v05_00_00_rc0)
+larsim v05\_00\_00\_rc0
 -------------------------------------------------
 
 -   2015-12-07 Lynn Garren : larsim v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
@@ -166,7 +166,7 @@ larsim v05\_00\_00\_rc0(#larsim-v05_00_00_rc0)
 -   2015-10-05 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley\_LArPropertiesBreakup
 -   2015-09-28 Jonathan Paley : Code modifications required for service factorization.
 
-larevt v05\_00\_00\_rc0(#larevt-v05_00_00_rc0)
+larevt v05\_00\_00\_rc0
 -------------------------------------------------
 
 -   2015-12-07 Lynn Garren : larevt v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
@@ -184,7 +184,7 @@ larevt v05\_00\_00\_rc0(#larevt-v05_00_00_rc0)
 -   2015-11-03 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley\_LArPropertiesBreakup
 -   2015-09-25 Jonathan Paley : Necessary changes for service factorization.
 
-lardata v05\_00\_00\_rc0(#lardata-v05_00_00_rc0)
+lardata v05\_00\_00\_rc0
 ---------------------------------------------------
 
 -   2015-12-07 Lynn Garren : lardata v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
@@ -244,7 +244,7 @@ lardata v05\_00\_00\_rc0(#lardata-v05_00_00_rc0)
 -   2015-09-18 Jonathan Paley : Almost ready to break LArSoft
 -   2015-09-18 Jonathan Paley : Getting ready to break LArSoft.
 
-larcore v05\_00\_00\_rc0(#larcore-v05_00_00_rc0)
+larcore v05\_00\_00\_rc0
 ---------------------------------------------------
 
 -   2015-12-07 Lynn Garren : larcore v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0

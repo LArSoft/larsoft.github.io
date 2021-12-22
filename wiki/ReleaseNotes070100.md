@@ -1,4 +1,4 @@
-LArSoft v07\_01\_00 Release Notes(#LArSoft-v07_01_00-Release-Notes)
+LArSoft v07\_01\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,36 +33,36 @@ LArSoft v07\_01\_00 Release Notes(#LArSoft-v07_01_00-Release-Notes)
 Download instructions for [larsoft v07\_01\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_01_00/larsoft-v07_01_00.html)\
 Download instructions for [just larsoftobj v07\_01\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_01_00/larsoftobj-v07_01_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branch
 -   full e17 support
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   improvements to LazyVector
     -   lardataobj
     -   larsim feature/gp\_LazyVector
 
-Known issues(#Known-issues)
+Known issues
 ------------------------------
 
 -   larana test temporarily disabled until the macOS problem is fixed
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   caffe v1\_0k for both e15 and e17
 -   tensorflow v1\_3\_0d for both e15 and e17
 -   protobuf v3\_5\_2
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v07\_01\_00(#larsoft-v07_01_00)
+larsoft v07\_01\_00
 ------------------------------------------
 
 -   2018-08-08 Lynn Garren : tensorflow no longer uses the python qualifier
@@ -71,44 +71,44 @@ larsoft v07\_01\_00(#larsoft-v07_01_00)
 -   2018-08-08 Lynn Garren : update versions
 -   2018-08-08 Lynn Garren : building tensorflow for e17
 
-lareventdisplay v07\_00\_02(#lareventdisplay-v07_00_02)
+lareventdisplay v07\_00\_02
 ----------------------------------------------------------
 
 -   2018-08-08 Lynn Garren : lareventdisplay v07\_00\_02 for larsoft v07\_00\_02
 -   2018-08-08 Lynn Garren : find headers
 
-larexamples v07\_00\_02(#larexamples-v07_00_02)
+larexamples v07\_00\_02
 --------------------------------------------------
 
 -   2018-08-08 Lynn Garren : larexamples v07\_00\_02 for larsoft v07\_00\_02
 -   2018-08-08 Lynn Garren : find headers
 
-larg4 v07\_00\_02(#larg4-v07_00_02)
+larg4 v07\_00\_02
 --------------------------------------
 
 -   2018-08-08 Lynn Garren : larg4 v07\_00\_02 for larsoft v07\_00\_02
 -   2018-08-08 Lynn Garren : find headers
 
-larpandora v07\_00\_02(#larpandora-v07_00_02)
+larpandora v07\_00\_02
 ------------------------------------------------
 
 -   2018-08-08 Lynn Garren : larpandora v07\_00\_02 for larsoft v07\_00\_02
 -   2018-08-08 Lynn Garren : find headers
 
-larwirecell v07\_00\_02(#larwirecell-v07_00_02)
+larwirecell v07\_00\_02
 --------------------------------------------------
 
 -   2018-08-08 Lynn Garren : larwirecell v07\_00\_02 for larsoft v07\_00\_02
 -   2018-08-08 Lynn Garren : find headers
 
-larana v07\_00\_02(#larana-v07_00_02)
+larana v07\_00\_02
 ----------------------------------------
 
 -   2018-08-08 Lynn Garren : larana v07\_00\_02 for larsoft v07\_00\_02
 -   2018-08-08 Lynn Garren : find headers
 -   2018-08-07 Lynn Garren : disable larana tests which have a child process problem
 
-larreco v07\_01\_00(#larreco-v07_01_00)
+larreco v07\_01\_00
 ------------------------------------------
 
 -   2018-08-08 Lynn Garren : larreco v07\_01\_00 for larsoft v07\_00\_02
@@ -144,7 +144,7 @@ larreco v07\_01\_00(#larreco-v07_01_00)
 -   2018-08-02 Usher, Tracy L : Merge branch ‘feature/usher\_cluster3dclean’ into develop
 -   2018-08-02 Usher, Tracy L : Implement new cluster breaking strategies - break by gap, break by vertex, break by defect and break in half
 
-larsim v07\_01\_00(#larsim-v07_01_00)
+larsim v07\_01\_00
 ----------------------------------------
 
 -   2018-08-08 Lynn Garren : larsim v07\_01\_00 for larsoft v07\_00\_02
@@ -153,49 +153,49 @@ larsim v07\_01\_00(#larsim-v07_01_00)
 -   2018-08-04 Jason Stock : Merge branch ‘feature/JStock\_PBT\_FlashToHitAssnsRevision’ into develop
 -   2018-08-04 Jason Stock : Fixes for the spammy PhotonBackTracker initialization messages.
 
-larevt v07\_00\_02(#larevt-v07_00_02)
+larevt v07\_00\_02
 ----------------------------------------
 
 -   2018-08-08 Lynn Garren : larevt v07\_00\_02 for larsoft v07\_00\_02
 -   2018-08-08 Lynn Garren : find headers
 
-lardata v07\_00\_02(#lardata-v07_00_02)
+lardata v07\_00\_02
 ------------------------------------------
 
 -   2018-08-08 Lynn Garren : lardata v07\_00\_02 for larsoft v07\_00\_02
 
-larcore v07\_00\_00(#larcore-v07_00_00)
+larcore v07\_00\_00
 ------------------------------------------
 
-larpandoracontent v03\_13\_02(#larpandoracontent-v03_13_02)
+larpandoracontent v03\_13\_02
 --------------------------------------------------------------
 
-larsoftobj v07\_01\_00(#larsoftobj-v07_01_00)
+larsoftobj v07\_01\_00
 ------------------------------------------------
 
 -   2018-08-08 Lynn Garren : larsoftobj v07\_01\_00 for larsoft v07\_00\_02
 -   2018-08-08 Lynn Garren : update versions
 
-lardataobj v07\_01\_00(#lardataobj-v07_01_00)
+lardataobj v07\_01\_00
 ------------------------------------------------
 
 -   2018-08-08 Lynn Garren : lardataobj v07\_01\_00 for larsoft v07\_00\_02
 -   2018-08-06 Gianluca Petrillo : LazyVector: added methods to preallocate storage.
 -   2018-08-03 baller : Add PFParticle - Slice associations
 
-lardataalg v07\_00\_00(#lardataalg-v07_00_00)
+lardataalg v07\_00\_00
 ------------------------------------------------
 
-larcorealg v07\_00\_00(#larcorealg-v07_00_00)
+larcorealg v07\_00\_00
 ------------------------------------------------
 
-larcoreobj v07\_00\_00(#larcoreobj-v07_00_00)
+larcoreobj v07\_00\_00
 ------------------------------------------------
 
-larbatch v01\_43\_00(#larbatch-v01_43_00)
+larbatch v01\_43\_00
 --------------------------------------------
 
-larutils v1\_22\_10(#larutils-v1_22_10)
+larutils v1\_22\_10
 ------------------------------------------
 
 -   2018-08-08 Lynn Garren : larutils v1\_22\_10 for larsoft v07\_00\_02

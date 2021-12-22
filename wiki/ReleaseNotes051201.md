@@ -1,4 +1,4 @@
-LArSoft v05\_12\_01 Release Notes(#LArSoft-v05_12_01-Release-Notes)
+LArSoft v05\_12\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,33 +24,33 @@ LArSoft v05\_12\_01 Release Notes(#LArSoft-v05_12_01-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_12_01/larsoft-v05_12_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop since v05\_12\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   a bug was identified and fixed in lardata/RawData/raw.cxx
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_12\_01(#larsoft-v05_12_01)
+larsoft v05\_12\_01
 ------------------------------------------
 
 -   2016-06-08 Lynn Garren : larsoft v05\_12\_01 for larsoft v05\_12\_01
 -   2016-06-08 Lynn Garren : update product versions
 -   2016-06-08 Lynn Garren : update dependency database
 
-lareventdisplay v05\_07\_01(#lareventdisplay-v05_07_01)
+lareventdisplay v05\_07\_01
 ----------------------------------------------------------
 
 -   2016-06-08 Lynn Garren : lareventdisplay v05\_07\_01 for larsoft v05\_12\_01
@@ -60,22 +60,22 @@ lareventdisplay v05\_07\_01(#lareventdisplay-v05_07_01)
 -   2016-06-02 Matt Robinson : Landed module now builds with boost asio implementation of unix sockets
 -   2016-06-02 Matt Robinson : Converting low level unix socket i/o to boost asio
 
-larexamples v05\_06\_09(#larexamples-v05_06_09)
+larexamples v05\_06\_09
 --------------------------------------------------
 
 -   2016-06-08 Lynn Garren : larexamples v05\_06\_09 for larsoft v05\_12\_01
 
-larpandora v05\_09\_06(#larpandora-v05_09_06)
+larpandora v05\_09\_06
 ------------------------------------------------
 
 -   2016-06-08 Lynn Garren : larpandora v05\_09\_06 for larsoft v05\_12\_01
 
-larana v05\_09\_03(#larana-v05_09_03)
+larana v05\_09\_03
 ----------------------------------------
 
 -   2016-06-08 Lynn Garren : larana v05\_09\_03 for larsoft v05\_12\_01
 
-larreco v05\_12\_01(#larreco-v05_12_01)
+larreco v05\_12\_01
 ------------------------------------------
 
 -   2016-06-08 Lynn Garren : larreco v05\_12\_01 for larsoft v05\_12\_01
@@ -95,17 +95,17 @@ larreco v05\_12\_01(#larreco-v05_12_01)
 -   2016-05-12 Bruce Baller : Check for out of range trajectory point in SignalAtTp
 -   2016-05-11 Bruce Baller : Check for invalid MC particle.
 
-larsim v05\_12\_01(#larsim-v05_12_01)
+larsim v05\_12\_01
 ----------------------------------------
 
 -   2016-06-08 Lynn Garren : larsim v05\_12\_01 for larsoft v05\_12\_01
 
-larevt v05\_07\_01(#larevt-v05_07_01)
+larevt v05\_07\_01
 ----------------------------------------
 
 -   2016-06-08 Lynn Garren : larevt v05\_07\_01 for larsoft v05\_12\_01
 
-lardata v05\_08\_03(#lardata-v05_08_03)
+lardata v05\_08\_03
 ------------------------------------------
 
 -   2016-06-09 Lynn Garren : Merge branch ‘develop’ into release/v05\_12\_01
@@ -115,13 +115,13 @@ lardata v05\_08\_03(#lardata-v05_08_03)
 -   2016-06-08 Lynn Garren : lardata v05\_08\_03 for larsoft v05\_12\_01
 -   2016-05-27 Tingjun Yang : Add space charge service.
 
-larcore v05\_07\_03(#larcore-v05_07_03)
+larcore v05\_07\_03
 ------------------------------------------
 
-larbatch v01\_22\_00(#larbatch-v01_22_00)
+larbatch v01\_22\_00
 --------------------------------------------
 
-larutils v1\_06\_03(#larutils-v1_06_03)
+larutils v1\_06\_03
 ------------------------------------------
 
 -   2016-06-08 Lynn Garren : larutils v1\_06\_03 for larsoft v05\_12\_01

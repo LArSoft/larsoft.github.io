@@ -1,4 +1,4 @@
-Moving a Legacy Redmine Feature Branch to GitHub(#Moving-a-Legacy-Redmine-Feature-Branch-to-GitHub) {.wiki-class-count}
+Moving a Legacy Redmine Feature Branch to GitHub
 ======================================================================================================
 
 -   **Table of contents**
@@ -14,7 +14,7 @@ None of the feature branches in the original LArSoft Redmine repositories on cdc
 
 The following instructions describe a procedure that will alter the history of a local branch to make it consistent with that in the LArSoft repositories on GitHub. Users can use this procedure to recover legacy working branches created prior to the migration.
 
-General Instructions(#General-Instructions) {.wiki-class-count}
+General Instructions
 ----------------------------------------------
 
 These instructions describe how to check-out a legacy feature branch in a local repository cloned from Redmine prior to the GitHub migration, and add it to a new fork on GitHub that then be the source of a pull request to the upstream LArSoft repository.
@@ -74,22 +74,22 @@ Running the `truncate-history.sh` script will take between a few seconds to a fe
   larwirecell       0m0.176s    0
   ----------------- ----------- --------------
 
-Special cases(#Special-cases) {.wiki-class-count}
+Special cases
 --------------------------------
 
-### What if I have more than one feature branch?(#What-if-I-have-more-than-one-feature-branch) {.wiki-class-count}
+### What if I have more than one feature branch?
 
 Check out each of the branches in the local repo before removing the Redmine origin. Run the truncate\_history.sh script on each branch.
 
-### What if there is a fork already existing for your github username?(#What-if-there-is-a-fork-already-existing-for-your-github-username) {.wiki-class-count}
+### What if there is a fork already existing for your github username?
 
 ‘hub fork’ is a noop if the fork of the repo already exists in your GitHub account. If you made a fork before the final migration of larsoft repos, then these forks will be orphaned. You will need to rename/remove these orphaned repos through the Github web interface before running ‘hub fork’.
 
-#### Update from the primary(#Update-from-the-primary) {.wiki-class-count}
+#### Update from the primary
 
     git pull upstream
 
-#### Delete the orphaned fork and starting fresh(#Delete-the-orphaned-fork-and-starting-fresh) {.wiki-class-count}
+#### Delete the orphaned fork and starting fresh
 
 To delete an existing old fork that is no longer relevant.
 

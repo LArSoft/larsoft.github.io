@@ -1,4 +1,4 @@
-LArSoft v07\_12\_00 Release Notes(#LArSoft-v07_12_00-Release-Notes)
+LArSoft v07\_12\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -34,18 +34,18 @@ LArSoft v07\_12\_00 Release Notes(#LArSoft-v07_12_00-Release-Notes)
 Download instructions for [larsoft v07\_12\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_12_00/larsoft-v07_12_00.html)\
 Download instructions for [just larsoftobj v07\_08\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_08_00/larsoftobj-v07_08_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-Breaking changes(#Breaking-changes)
+Breaking changes
 --------------------------------------
 
 -   [recob::Track](Breaking_Changes#Remove-deprecated-members-and-methods-from-recobTrack)
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larwirecell
@@ -70,7 +70,7 @@ New features(#New-features)
     -   artg4tk feature/wenzel\_fixbuild
     -   larg4 feature/wenzel\_fixbuild2
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   bug fixes for MicroBooNE
@@ -78,7 +78,7 @@ Bug fixes(#Bug-fixes)
     -   larana: feature/wketchum\_OverrideRealData
 -   larsim bug fix for [\#21417](/redmine/issues/21417 "Bug: BackTracker "HitToEveTrackIDEs" does not fill # electrons (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v2\_00\_01
@@ -87,10 +87,10 @@ Updated dependencies(#Updated-dependencies)
 -   wirecell v0\_10\_3
 -   artg4tk v08\_03\_00
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v07\_12\_00(#larsoft-v07_12_00)
+larsoft v07\_12\_00
 ------------------------------------------
 
 -   2018-11-28 Lynn Garren : artg4tk v08\_03\_00
@@ -99,19 +99,19 @@ larsoft v07\_12\_00(#larsoft-v07_12_00)
 -   2018-11-28 Lynn Garren : mrb v2\_00\_01
 -   2018-11-27 Lynn Garren : mrb v2 and wirecell v0\_10\_3
 
-lareventdisplay v07\_02\_00(#lareventdisplay-v07_02_00)
+lareventdisplay v07\_02\_00
 ----------------------------------------------------------
 
 -   2018-11-28 Lynn Garren : lareventdisplay v07\_02\_00 for larsoft v07\_12\_00
 -   2018-11-28 Lynn Garren : Merge branch ‘feature/cerati\_double2float\_v2\_breaktrack\_deldepr’ into release/v07\_12\_00
 -   2018-11-09 Giuseppe Cerati : update recob::Track interface with templated functions for returning TVector3-like objects
 
-larexamples v07\_00\_18(#larexamples-v07_00_18)
+larexamples v07\_00\_18
 --------------------------------------------------
 
 -   2018-11-28 Lynn Garren : larexamples v07\_00\_18 for larsoft v07\_12\_00
 
-larg4 v07\_04\_00(#larg4-v07_04_00)
+larg4 v07\_04\_00
 --------------------------------------
 
 -   2018-11-28 Lynn Garren : larg4 v07\_04\_00 for larsoft v07\_12\_00
@@ -126,7 +126,7 @@ larg4 v07\_04\_00(#larg4-v07_04_00)
 -   2018-11-07 Hans-Joachim Wenzel : remove gdml files here we will only have larsoft specific files. The other examples can be found in the artg4tk repository
 -   2018-11-07 Hans-Joachim Wenzel : add comments to split gdml file
 
-larpandora v07\_05\_00(#larpandora-v07_05_00)
+larpandora v07\_05\_00
 ------------------------------------------------
 
 -   2018-11-28 Lynn Garren : larpandora v07\_05\_00 for larsoft v07\_12\_00
@@ -134,7 +134,7 @@ larpandora v07\_05\_00(#larpandora-v07_05_00)
 -   2018-11-15 Giuseppe Cerati : Remove deprecated data member, costructor, and functions from recob::Track
 -   2018-11-09 Giuseppe Cerati : update recob::Track interface with templated functions for returning TVector3-like objects
 
-larwirecell v07\_05\_00(#larwirecell-v07_05_00)
+larwirecell v07\_05\_00
 --------------------------------------------------
 
 -   2018-11-28 Lynn Garren : larwirecell v07\_05\_00 for larsoft v07\_12\_00
@@ -146,7 +146,7 @@ larwirecell v07\_05\_00(#larwirecell-v07_05_00)
 -   2018-11-19 Hanyu Wei : update for empty depos
 -   2018-11-16 Brooke Russell : fix position information
 
-larana v07\_04\_00(#larana-v07_04_00)
+larana v07\_04\_00
 ----------------------------------------
 
 -   2018-11-28 Lynn Garren : larana v07\_04\_00 for larsoft v07\_12\_00
@@ -154,7 +154,7 @@ larana v07\_04\_00(#larana-v07_04_00)
 -   2018-11-20 Wesley Ketchum : add option in MCTruthT0Matching for overriding in case of Overlays
 -   2018-11-09 Giuseppe Cerati : update recob::Track interface with templated functions for returning TVector3-like objects
 
-larreco v07\_10\_00(#larreco-v07_10_00)
+larreco v07\_10\_00
 ------------------------------------------
 
 -   2018-11-28 Lynn Garren : larreco v07\_10\_00 for larsoft v07\_12\_00
@@ -296,7 +296,7 @@ larreco v07\_10\_00(#larreco-v07_10_00)
 -   2018-09-28 baller : Fixed error in AlgBitNames
 -   2018-09-28 baller : Add optional user specification of aveHitRMS. Fix logic error in FindUseHits. Apply minMCSMom cut in CheckTraj.
 
-larsim v07\_08\_00(#larsim-v07_08_00)
+larsim v07\_08\_00
 ----------------------------------------
 
 -   2018-11-28 Lynn Garren : larsim v07\_08\_00 for larsoft v07\_12\_00
@@ -316,14 +316,14 @@ larsim v07\_08\_00(#larsim-v07_08_00)
 -   2018-11-15 Patrick Gartung : correct larsim version
 -   2018-11-15 Patrick Gartung : update larevt version
 
-larevt v07\_02\_00(#larevt-v07_02_00)
+larevt v07\_02\_00
 ----------------------------------------
 
 -   2018-11-28 Lynn Garren : larevt v07\_02\_00 for larsoft v07\_12\_00
 -   2018-11-28 Lynn Garren : Merge branch ‘feature/greenlee\_lazy\_db\_develop’ into release/v07\_12\_00
 -   2018-11-08 Herbert Greenlee : Make database service database accesses lazy.
 
-lardata v07\_01\_00(#lardata-v07_01_00)
+lardata v07\_01\_00
 ------------------------------------------
 
 -   2018-11-28 Lynn Garren : lardata v07\_01\_00 for larsoft v07\_12\_00
@@ -331,19 +331,19 @@ lardata v07\_01\_00(#lardata-v07_01_00)
 -   2018-11-15 Giuseppe Cerati : Remove deprecated data member, costructor, and functions from recob::Track
 -   2018-11-09 Giuseppe Cerati : update recob::Track interface with templated functions for returning TVector3-like objects
 
-larcore v07\_00\_05(#larcore-v07_00_05)
+larcore v07\_00\_05
 ------------------------------------------
 
-larpandoracontent v03\_14\_02(#larpandoracontent-v03_14_02)
+larpandoracontent v03\_14\_02
 --------------------------------------------------------------
 
-larsoftobj v07\_08\_00(#larsoftobj-v07_08_00)
+larsoftobj v07\_08\_00
 ------------------------------------------------
 
 -   2018-11-28 Lynn Garren : larsoftobj v07\_08\_00 for larsoft v07\_12\_00
 -   2018-11-28 Lynn Garren : product versions
 
-lardataobj v07\_06\_00(#lardataobj-v07_06_00)
+lardataobj v07\_06\_00
 ------------------------------------------------
 
 -   2018-11-28 Lynn Garren : lardataobj v07\_06\_00 for larsoft v07\_12\_00
@@ -354,24 +354,24 @@ lardataobj v07\_06\_00(#lardataobj-v07_06_00)
 -   2018-11-15 Giuseppe Cerati : Remove deprecated data member, costructor, and functions from recob::Track
 -   2018-11-09 Giuseppe Cerati : update recob::Track interface with templated functions for returning TVector3-like objects
 
-lardataalg v07\_02\_07(#lardataalg-v07_02_07)
+lardataalg v07\_02\_07
 ------------------------------------------------
 
 -   2018-11-28 Lynn Garren : lardataalg v07\_02\_07 for larsoft v07\_12\_00
 
-larcorealg v07\_03\_00(#larcorealg-v07_03_00)
+larcorealg v07\_03\_00
 ------------------------------------------------
 
-larcoreobj v07\_00\_01(#larcoreobj-v07_00_01)
+larcoreobj v07\_00\_01
 ------------------------------------------------
 
-larbatch v01\_47\_01(#larbatch-v01_47_01)
+larbatch v01\_47\_01
 --------------------------------------------
 
 -   2018-11-28 Lynn Garren : larbatch v01\_47\_01 for larsoft v07\_12\_00
 -   2018-11-26 Herbert Greenlee : Use makeProjectName subdefinition names.
 
-larutils v1\_23\_07(#larutils-v1_23_07)
+larutils v1\_23\_07
 ------------------------------------------
 
 -   2018-11-28 Lynn Garren : larutils v1\_23\_07 for larsoft v07\_12\_00

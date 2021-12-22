@@ -1,21 +1,21 @@
-Migration path for LArSoft services in art 3(#Migration-path-for-LArSoft-services-in-art-3)
+Migration path for LArSoft services in art 3
 ==============================================================================================
 
 -   **Table of contents**
 -   [Migration path for LArSoft services in art 3](#Migration-path-for-LArSoft-services-in-art-3)
-    -   [ Remove unused services](#Remove-unused-services)
-    -   [ Guides for service authors](#Guides-for-service-authors)
+    -   [ Remove unused services](#Remove-unused-services
+    -   [ Guides for service authors](#Guides-for-service-authors
         -   -   [Favor services that do not require header files](#Favor-services-that-do-not-require-header-files)
             -   [Favor services that do not require ServiceHandles](#Favor-services-that-do-not-require-ServiceHandles)
             -   [All registered service callbacks should be private](#All-registered-service-callbacks-should-be-private)
             -   [Interface exposed via ServiceHandles should be const](#Interface-exposed-via-ServiceHandles-should-be-const)
             -   [Remove the ActivityRegistry argument if it is not used](#Remove-the-ActivityRegistry-argument-if-it-is-not-used)
 
-    -   [ Guides for ServiceHandles](#Guides-for-ServiceHandles)
+    -   [ Guides for ServiceHandles](#Guides-for-ServiceHandles
         -   -   [Change ServiceHandle\<T\> to ServiceHandle\<T const\>](#Change-ServiceHandleltTgt-to-ServiceHandleltT-constgt)
             -   [Do not use ServiceHandle\<T\>s outside of art modules, services, or sources](#Do-not-use-ServiceHandleltTgts-outside-of-art-modules-services-or-sources)
 
-    -   [ When the service needs to be redesigned](#When-the-service-needs-to-be-redesigned)
+    -   [ When the service needs to be redesigned](#When-the-service-needs-to-be-redesigned
 
 One of the requirements in getting an *art* job to concurrently process events is that any services used by that job must be thread-safe. With *art* 3.02, a safeguard is in place to ensure that a service cannot be used in a multi-threaded context unless its “scope” has been changed from `LEGACY` to `GLOBAL`. Because of this, LArSoft is now insulated against data-races via its services until its services’ scopes are changed to `GLOBAL`.
 
@@ -23,21 +23,21 @@ The steps laid out here are guidelines that should be taken into account to dete
 
 A main complication with ensuring thread-safety for LArSoft services is the prevalent use of `ServiceHandle`s. The steps below are heavily geared toward either removing `ServiceHandle` usage, or by using `ServiceHandle`s more safely.
 
- Remove unused services(#Remove-unused-services) {style="background:#D5D8DC;"}
+ Remove unused services
 ---------------------------------------------------
 
 This immediately reduces the maintenance burden, but it requires polling the experiments to determine which ones they need.
 
- Guides for service authors(#Guides-for-service-authors) {style="background:#D5D8DC;"}
+ Guides for service authors
 -----------------------------------------------------------
 
-#### Favor services that do not require header files(#Favor-services-that-do-not-require-header-files)
+#### Favor services that do not require header files
 
 Not all services require header files. In fact, any service that calls `DEFINE_ART_SERVICE_INTERFACE_IMPL` does not need a header file. If you find that a service interface implementation requires a header file, a redesign is likely in order.
 
 Similarly, a header is not necessary for most services that simply report information that does not need to be accessible to a module. An example of this would be *art*’s `TimeTracker` and `MemoryTracker` modules.
 
-#### Favor services that do not require `ServiceHandle`s(#Favor-services-that-do-not-require-ServiceHandles)
+#### Favor services that do not require `ServiceHandle`s
 
 There may be cases where a header file is still required, but a `ServiceHandle` is not (e.g. *art*’s producing-services). In that case, the following variable should be publicly defined in the service’s class definition:
 
@@ -49,28 +49,28 @@ There may be cases where a header file is still required, but a `ServiceHandle` 
 
 Any attempt to create an `art::ServiceHandle<MyService>` object will result in a compile-time failure.
 
-#### All registered service callbacks should be `private`(#All-registered-service-callbacks-should-be-private)
+#### All registered service callbacks should be `private`
 
 Any function registered with the `ActivityRegistry` should not be accessible to any other code. The framework will invoke the function at the appropriate time, and any downstream code should not be able to invoke it through a `ServiceHandle`. For that reason any registered function/service callback should have `private` access.
 
-#### Interface exposed via `ServiceHandle`s should be `const`(#Interface-exposed-via-ServiceHandles-should-be-const)
+#### Interface exposed via `ServiceHandle`s should be `const`
 
 The circumstance in which data races occurs is when shared data is mutable. For that reason, the interface accessible via a `ServiceHandle` should be `const`-qualified. In other words, all public interface should be `const`. Although `const`-qualifying a function does not guarantee immutability, it provides a greater degree of confidence of immutability. It is still the responsibility of the author, however, to ensure that the code is thread-safe.
 
-#### Remove the `ActivityRegistry` argument if it is not used(#Remove-the-ActivityRegistry-argument-if-it-is-not-used)
+#### Remove the `ActivityRegistry` argument if it is not used
 
 If the `ActivityRegistry` argument in the service’s constructor is not used, it should be removed. This makes it abundantly clear that the service does not hook into any framework transitions, but it is provided only as a means of having a global object that can be accessed via a `ServiceHandle`.
 
 Assuming the accessible interface is `const`-qualified, this type of service can be a way of safely sharing large amounts of data between threads. Such services, however, are prone to misuse and should be treated with circumspection.
 
- Guides for `ServiceHandle`s(#Guides-for-ServiceHandles) {style="background:#D5D8DC;"}
+ Guides for `ServiceHandle`s
 -----------------------------------------------------------
 
-#### Change `ServiceHandle<T>` to `ServiceHandle<T const>`(#Change-ServiceHandleltTgt-to-ServiceHandleltT-constgt)
+#### Change `ServiceHandle<T>` to `ServiceHandle<T const>`
 
 Ideally, any interface exposed via a `ServiceHandle` will be `const`-qualified. However, to ensure this, users should specify `const` as the template argument–`ServiceHandle<T const>`. Any compilation failures will likely indicate places where services should be modified.
 
-#### Do not use `ServiceHandle<T>`s outside of *art* modules, services, or sources(#Do-not-use-ServiceHandleltTgts-outside-of-art-modules-services-or-sources)
+#### Do not use `ServiceHandle<T>`s outside of *art* modules, services, or sources
 
 There are many places where `ServiceHandle`s are created outside of framework-aware code. For example:
 
@@ -91,7 +91,7 @@ It is not clear how the `SurfWireLine` class relates to any framework-aware code
       // ...
     }
 
- When the service needs to be redesigned(#When-the-service-needs-to-be-redesigned) {style="background:#D5D8DC;"}
+ When the service needs to be redesigned
 -------------------------------------------------------------------------------------
 
 If after working on the steps above you encounter situations where the services are not thread-safe (e.g. service’s data members are not protected from data races, users are updating service state from service handles, etc.), then a redesign is in order. There are multiple approaches to solving this and the one that you choose depends on the circumstance. Consider the following:

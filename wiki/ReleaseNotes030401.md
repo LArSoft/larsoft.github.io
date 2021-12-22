@@ -1,4 +1,4 @@
-LArSoft v03\_04\_01 Release Notes(#LArSoft-v03_04_01-Release-Notes)
+LArSoft v03\_04\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -22,31 +22,31 @@ LArSoft v03\_04\_01 Release Notes(#LArSoft-v03_04_01-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/projects/larsoft/v03_04_01/larsoft-v03_04_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Include changes in development since v03\_04\_00.
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   Build now uses cetbuildtools [v04\_03\_03](https://cdcvs.fnal.gov/redmine/projects/cetbuildtools/wiki/Release_Notes)
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_04\_01(#larsoft-v03_04_01)
+larsoft v03\_04\_01
 ------------------------------------------
 
 -   2014-11-11 Lynn Garren : larsoft v03\_04\_01
 
-lareventdisplay v03\_02\_04(#lareventdisplay-v03_02_04)
+lareventdisplay v03\_02\_04
 ----------------------------------------------------------
 
 -   2014-11-11 Lynn Garren : lareventdisplay v03\_02\_04 for larsoft v03\_04\_01
@@ -56,18 +56,18 @@ lareventdisplay v03\_02\_04(#lareventdisplay-v03_02_04)
 -   2014-11-06 Bruce Baller : Merge branch ‘feature/evwork’ into develop
 -   2014-11-06 Bruce Baller : Draw cluster (track) IDs if DrawCluster \> 1 (DrawTrack \> 1)
 
-larexamples v03\_02\_04(#larexamples-v03_02_04)
+larexamples v03\_02\_04
 --------------------------------------------------
 
 -   2014-11-11 Lynn Garren : larexamples v03\_02\_04 for larsoft v03\_04\_01
 
-larpandora v03\_03\_03(#larpandora-v03_03_03)
+larpandora v03\_03\_03
 ------------------------------------------------
 
 -   2014-11-11 Lynn Garren : larpandora v03\_03\_03 for larsoft v03\_04\_01
 -   2014-11-06 John Marshall : Vertex reconstruction update and associated configuration changes.
 
-larana v03\_03\_01(#larana-v03_03_01)
+larana v03\_03\_01
 ----------------------------------------
 
 -   2014-11-11 Lynn Garren : set fwdir and use install\_fw
@@ -80,7 +80,7 @@ larana v03\_03\_01(#larana-v03_03_01)
 -   2014-11-04 Wesley Ketchum : remove histogram resets before initialization
 -   2014-11-04 Wesley Ketchum : fix a typo, and normalize the KDE estimates
 
-larreco v03\_03\_01(#larreco-v03_03_01)
+larreco v03\_03\_01
 ------------------------------------------
 
 -   2014-11-11 Lynn Garren : larreco v03\_03\_01 for larsoft v03\_04\_01
@@ -90,25 +90,25 @@ larreco v03\_03\_01(#larreco-v03_03_01)
 -   2014-11-07 Herbert Greenlee : Add hit efficiency and purity histograms to TrackAna.
 -   2014-11-06 Tingjun Yang : update reco parameters for lbne
 
-larsim v03\_02\_04(#larsim-v03_02_04)
+larsim v03\_02\_04
 ----------------------------------------
 
 -   2014-11-11 Lynn Garren : larsim v03\_02\_04 for larsoft v03\_04\_01
 -   2014-11-10 Sowjanya Gollapinni : Adding in a provision to specify a buffer box that goes around the cryostat, to increase the CRY rate that is fed to GEANT4. Saving only particles that geometrically cross the TPC doesn’t consider the rate loss due to multiple scattering effects one encounters in the GEANT step. A buffer box will compensate for this loss
 -   2014-11-07 Tingjun Yang : remove experiment specific configurations
 
-larevt v03\_02\_04(#larevt-v03_02_04)
+larevt v03\_02\_04
 ----------------------------------------
 
 -   2014-11-11 Lynn Garren : larevt v03\_02\_04 for larsoft v03\_04\_01
 
-lardata v03\_03\_01(#lardata-v03_03_01)
+lardata v03\_03\_01
 ------------------------------------------
 
 -   2014-11-11 Lynn Garren : lardata v03\_03\_01 for larsoft v03\_04\_01
 -   2014-11-11 Herbert Greenlee : Add protection against creating tracks with insufficienct number of trajectory points.
 
-larcore v03\_03\_01(#larcore-v03_03_01)
+larcore v03\_03\_01
 ------------------------------------------
 
 -   2014-11-11 Lynn Garren : larcore v03\_03\_01

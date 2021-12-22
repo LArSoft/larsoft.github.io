@@ -23,40 +23,40 @@ and the universal “services.fcl” file doesn’t seem to exist in any directo
 The classes referred to below have been moved into separate repositories. E.g., LArFFT is now in\
 [lardata/Utilities](https://cdcvs.fnal.gov/redmine/projects/lardata/repository/revisions/develop/show/lardata/Utilities) – some of the other files and classes listed below can be found there too, but not all.]
 
-Utilities(#Utilities)
+Utilities
 ========================
 
 There is currently no package maintainer for this package.
 
 The Utilities package contains programs that are useful for understanding the LArSoft code and analysis chain, but have no function in reconstruction. It also contains several predefined fcl files for general purpose uses, like definitions of message facility configurations.
 
-FHICFiles(#FHICFiles)
+FHICFiles
 ------------------------
 
 The following files are general use files that contain parameter set definitions for general purpose use.
 
-### [messageservice.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/messageservice.fcl)(#messageservicefcl)
+### [messageservice.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/messageservice.fcl)
 
 This file contains definitions of various message service configurations, with each configuration representing a different level of verbosity.
 
-### [services.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/services.fcl)(#servicesfcl)
+### [services.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/services.fcl)
 
 This file contains definitions of parameter sets to configure LArSoft services for the different experiments.
 
-### [standard\_reco.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/standard_reco.fcl)(#standard_recofcl)
+### [standard\_reco.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/standard_reco.fcl)
 
 This file is an example of a standard reconstruction job. It should not be considered as the only possible reconstruction job, just an example.
 
-### [eventdump.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/eventdump.fcl)(#eventdumpfcl)
+### [eventdump.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/eventdump.fcl)
 
 This fcl file defines a job that will open a ROOT file containing data objects produced through the ART framework and output the type and number of each product in the file for each event.
 
-Services(#Services)
+Services
 ----------------------
 
 There are several services located in this package.
 
-### [LArFFT](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/LArFFT.h)(#LArFFT)
+### [LArFFT](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/LArFFT.h)
 
 This service implements a real to real fast Fourier transform as well as a FFT deconvolution scheme in order to simplify implementation and clean up the code a bit. The Fourier transform of a real function has imaginary components for which the negative frequencies are the Hermitian Conjugate of the positive frequencies. Because of this the “forward” transform, real to complex, only computes, for transform size n, n/2+1 complex values. The transforms are computed using ROOT’s TFFTRealComplex and TFFTComplexReal implementation which uses the basic interface of the very high performance FFTW3 package.
 
@@ -100,32 +100,32 @@ This puts the time-domain data into data. There is also an FFT deconvolution sch
 
 The deconvoluted signal is now placed in data.
 
-### [LArProperties](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/LArProperties.h)(#LArProperties)
+### [LArProperties](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/LArProperties.h)
 
 A service to return known information about liquid argon, such as drift velocities for given temperatures and electric field strength, Birk’s law corrections, and density. It should read the values of temperature, electron lifetime and Electric field from a dedicated Database - if this fails it falls back to the values found in larproperties.fcl
 
-### [DatabaseUtil](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/DatabaseUtil.h)(#DatabaseUtil)
+### [DatabaseUtil](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/DatabaseUtil.h)
 
 A service that contacts the PostGreSQL database with needed run parameters. The idea is that this service should rarely be called by the user instead providing the needed parameters to other services at their startup. It does however provide the user with the option to execute nonstandard queries to the DB if needed. The database connection parameters are found in the databaseutil.fcl file. Some more details on the Database setup can be found [here](DatabaseUtil?parent=Utilities)
 
-### [DetectorProperties](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/DetectorProperties.h)(#DetectorProperties)
+### [DetectorProperties](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/DetectorProperties.h)
 
 A service designed to return information about the detector in question such as the sampling rate, conversion from charge to ADC, etc.
 
-### [SignalShapingService](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/SignalShapingServiceMicroBooNE.h)(#SignalShapingService)
+### [SignalShapingService](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/SignalShapingServiceMicroBooNE.h)
 
 A service designed to provide electronics signal shaping information to the user from a single location. It makes use of the [source:trunk/Utilities/SignalShaping.h](/redmine/projects/larsoft/repository/entry/trunk/Utilities/SignalShaping.h) object.
 
-Developer tools(#Developer-tools)
+Developer tools
 ------------------------------------
 
 The following utility classes and routines may be of interest to LArSoft developers. (If you don’t know what [STL](http://www.sgi.com/tech/stl/) stands for, then you can skip the first two sections.)
 
-### [AssociationUtils](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/AssociationUtil.h)(#AssociationUtils)
+### [AssociationUtils](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/AssociationUtil.h)
 
 A set of in-line functions designed to handle the creation of [ART associations](Use_Associations) and returning the information from created associations.
 
-### [VectorMap](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/VectorMap.h)(#VectorMap)
+### [VectorMap](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/VectorMap.h)
 
 STL maps are useful containers for items that you want to keep in sorted order. However, maps have two problems: they take up more memory than vectors, and any iterator operations (e.g., looping over the entries in a map) take longer than those with vector iterators.
 
@@ -133,7 +133,7 @@ VectorMap is an implementation of a container class with the same interface as a
 
 For more information, see the comments in [source:packages/Utilities/VectorMap.h](/redmine/projects/larsoft/repository/entry/packages/Utilities/VectorMap.h).
 
-### [SumSecondFunction](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/SumSecondFunction.h)(#SumSecondFunction)
+### [SumSecondFunction](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/SumSecondFunction.h)
 
 I find that if I have a container of std::pair, frequently I have to sum all the second elements in the pair. One could write out the loop explicitly:
 
@@ -160,4 +160,4 @@ SumSecondFunction implements the last choice using a template. If you put `#incl
 
 SumSecondFunction inherits from std::binary\_function, so you can use the various STL binding tricks to create interesting algorithms. See [source:packages/Utilities/SumSecondFunction.h](/redmine/projects/larsoft/repository/entry/packages/Utilities/SumSecondFunction.h) for the complete function template.
 
-### LArFFT(#LArFFT-2)
+### LArFFT

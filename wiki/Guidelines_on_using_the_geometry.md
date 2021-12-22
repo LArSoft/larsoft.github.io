@@ -1,4 +1,4 @@
-Guidelines on using the geometry(#Guidelines-on-using-the-geometry)
+Guidelines on using the geometry
 ======================================================================
 
 Detailed information is available on the [Geometry Package](Geometry_Package) and at [http://larsoft.org/important-concepts-in-larsoft/geometry/](http://larsoft.org/important-concepts-in-larsoft/geometry/)

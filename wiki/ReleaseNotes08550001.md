@@ -1,4 +1,4 @@
-LArSoft v08\_55\_00\_01 Release Notes(#LArSoft-v08_55_00_01-Release-Notes)
+LArSoft v08\_55\_00\_01 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v08\_55\_00\_01 Release Notes(#LArSoft-v08_55_00_01-Release-Notes)
 Download instructions for [larsoft v08\_55\_00\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_55_00_01/larsoft-v08_55_00_01.html)\
 Download instructions for [just larsoftobj v08\_29\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_01/larsoftobj-v08_29_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   **This is a test release**
 -   build with geant4 v4\_10\_6\_p01
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   **This is a test release.** The experiments will need to test and provide their own feature branches.
@@ -50,12 +50,12 @@ New features(#New-features)
 
 -   LArG4Detector\_service.cc: visualization removed
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larsim issues have been resolved. See [\#24283](/redmine/issues/24283 "Support: review larsim for geant4 v4_10_6_p01 (Closed)")
 
-Experiment code(#Experiment-code)
+Experiment code
 ------------------------------------
 
 The only required change is the larsoft version. We have made simple feature branches with this change and run the CI.
@@ -71,7 +71,7 @@ The only required change is the larsoft version. We have made simple feature bra
     -   [https://github.com/SBNSoftware/icaruscode/pull/24](https://github.com/SBNSoftware/icaruscode/pull/24)
     -   [https://dbweb5.fnal.gov:8443/LarCI/app/ns:ICARUS/view\_builds/index?offset=0&builds=lar\_ci/8960&builds=](https://dbweb5.fnal.gov:8443/LarCI/app/ns:ICARUS/view_builds/index?offset=0&builds=lar_ci/8960&builds=)
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   geant4 v4\_10\_6\_p01
@@ -80,29 +80,29 @@ Updated dependencies(#Updated-dependencies)
 -   nutools v3\_07\_02
 -   artg4tk v10\_00\_02
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_55\_00\_01(#larsoft-v08_55_00_01)
+larsoft v08\_55\_00\_01
 -------------------------------------------------
 
 -   2020-06-12 Lynn Garren : larsoft v08\_55\_00\_01 for larsoft v08\_55\_00\_01
 -   2020-06-12 Lynn Garren : product versions
 -   2020-06-12 Lynn Garren : nulite v3\_07\_02a
 
-lareventdisplay v08\_12\_18\_01(#lareventdisplay-v08_12_18_01)
+lareventdisplay v08\_12\_18\_01
 -----------------------------------------------------------------
 
 -   2020-06-12 Lynn Garren : lareventdisplay v08\_12\_18\_01 for larsoft v08\_55\_00\_01
 
-larexamples v08\_06\_18\_01(#larexamples-v08_06_18_01)
+larexamples v08\_06\_18\_01
 ---------------------------------------------------------
 
 -   2020-06-12 Lynn Garren : larexamples v08\_06\_18\_01 for larsoft v08\_55\_00\_01
 -   2020-06-11 Lynn Garren : Merge branch ‘v08\_48\_01\_g4\_test\_br’ into v08\_55\_00\_g4\_test\_br
 -   2020-04-06 Lynn Garren : larexamples v08\_06\_09\_01 for larsoft v08\_48\_01\_01
 
-larg4 v08\_14\_03\_01(#larg4-v08_14_03_01)
+larg4 v08\_14\_03\_01
 ---------------------------------------------
 
 -   2020-06-12 Lynn Garren : larg4 v08\_14\_03\_01 for larsoft v08\_55\_00\_01
@@ -113,38 +113,38 @@ larg4 v08\_14\_03\_01(#larg4-v08_14_03_01)
 -   2020-04-08 Hans : fix runtime errors, remove all references to visualization
 -   2020-04-06 Lynn Garren : larg4 v08\_12\_07\_01 for larsoft v08\_48\_01\_01
 
-larpandora v08\_12\_10\_01(#larpandora-v08_12_10_01)
+larpandora v08\_12\_10\_01
 -------------------------------------------------------
 
 -   2020-06-12 Lynn Garren : larpandora v08\_12\_10\_01 for larsoft v08\_55\_00\_01
 -   2020-06-11 Lynn Garren : Merge branch ‘v08\_48\_01\_g4\_test\_br’ into v08\_55\_00\_g4\_test\_br
 -   2020-04-06 Lynn Garren : larpandora v08\_12\_01\_01 for larsoft v08\_48\_01\_01
 
-larrecodnn v08\_04\_03\_01(#larrecodnn-v08_04_03_01)
+larrecodnn v08\_04\_03\_01
 -------------------------------------------------------
 
 -   2020-06-12 Lynn Garren : larrecodnn v08\_04\_03\_01 for larsoft v08\_55\_00\_01
 -   2020-06-11 Lynn Garren : Merge branch ‘v08\_48\_01\_g4\_test\_br’ into v08\_55\_00\_g4\_test\_br
 -   2020-04-06 Lynn Garren : larrecodnn v08\_01\_02\_01 for larsoft v08\_48\_01\_01
 
-larwirecell v08\_12\_15(#larwirecell-v08_12_15)
+larwirecell v08\_12\_15
 --------------------------------------------------
 
-larana v08\_17\_10\_01(#larana-v08_17_10_01)
+larana v08\_17\_10\_01
 -----------------------------------------------
 
 -   2020-06-12 Lynn Garren : larana v08\_17\_10\_01 for larsoft v08\_55\_00\_01
 -   2020-06-11 Lynn Garren : Merge branch ‘v08\_48\_01\_g4\_test\_br’ into v08\_55\_00\_g4\_test\_br
 -   2020-04-06 Lynn Garren : larana v08\_17\_01\_01 for larsoft v08\_48\_01\_01
 
-larreco v08\_32\_03\_01(#larreco-v08_32_03_01)
+larreco v08\_32\_03\_01
 -------------------------------------------------
 
 -   2020-06-12 Lynn Garren : larreco v08\_32\_03\_01 for larsoft v08\_55\_00\_01
 -   2020-06-11 Lynn Garren : Merge branch ‘v08\_48\_01\_g4\_test\_br’ into v08\_55\_00\_g4\_test\_br
 -   2020-04-06 Lynn Garren : larreco v08\_30\_01\_01 for larsoft v08\_48\_01\_01
 
-larsim v08\_27\_00\_01(#larsim-v08_27_00_01)
+larsim v08\_27\_00\_01
 -----------------------------------------------
 
 -   2020-06-12 Lynn Garren : larsim v08\_27\_00\_01 for larsoft v08\_55\_00\_01
@@ -154,38 +154,38 @@ larsim v08\_27\_00\_01(#larsim-v08_27_00_01)
 -   2020-04-06 Lynn Garren : larsim v08\_22\_01\_01 for larsoft v08\_48\_01\_01
 -   2020-04-06 Lynn Garren : build without ConfigurablePhysicsList, PhysicsList, and GDMLUtils
 
-larevt v08\_11\_08(#larevt-v08_11_08)
+larevt v08\_11\_08
 ----------------------------------------
 
-lardata v08\_15\_08(#lardata-v08_15_08)
+lardata v08\_15\_08
 ------------------------------------------
 
-larcore v08\_11\_09(#larcore-v08_11_09)
+larcore v08\_11\_09
 ------------------------------------------
 
-larpandoracontent v03\_16\_01(#larpandoracontent-v03_16_01)
+larpandoracontent v03\_16\_01
 --------------------------------------------------------------
 
-larsoftobj v08\_29\_01(#larsoftobj-v08_29_01)
+larsoftobj v08\_29\_01
 ------------------------------------------------
 
-lardataobj v08\_11\_01(#lardataobj-v08_11_01)
+lardataobj v08\_11\_01
 ------------------------------------------------
 
-lardataalg v08\_13\_13(#lardataalg-v08_13_13)
+lardataalg v08\_13\_13
 ------------------------------------------------
 
-larcorealg v08\_22\_01(#larcorealg-v08_22_01)
+larcorealg v08\_22\_01
 ------------------------------------------------
 
-larcoreobj v08\_12\_00(#larcoreobj-v08_12_00)
+larcoreobj v08\_12\_00
 ------------------------------------------------
 
-webevd v08\_00\_05(#webevd-v08_00_05)
+webevd v08\_00\_05
 ----------------------------------------
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_25\_09(#larutils-v1_25_09)
+larutils v1\_25\_09
 ------------------------------------------

@@ -1,4 +1,4 @@
-Explicit code changes since v06\_18\_00(#Explicit-code-changes-since-v06_18_00)
+Explicit code changes since v06\_18\_00
 ==================================================================================
 
 -   **Table of contents**
@@ -26,10 +26,10 @@ Explicit code changes since v06\_18\_00(#Explicit-code-changes-since-v06_18_00)
 
 These are changes in larsoft v06\_18\_01.
 
-larwirecell(#larwirecell)
+larwirecell
 ----------------------------
 
-### larwirecell/LArInterface/Test\_module.cc(#larwirecellLArInterfaceTest_modulecc)
+### larwirecell/LArInterface/Test\_module.cc
 
     diff --git a/larwirecell/LArInterface/Test_module.cc b/larwirecell/LArInterface/Test_module.cc
     deleted file mode 100644
@@ -281,7 +281,7 @@ larwirecell(#larwirecell)
     -
     -#endif //TESTMODULE_H
 
-### larwirecell/LArInterface/WireCellNoiseFilter\_module.cc(#larwirecellLArInterfaceWireCellNoiseFilter_modulecc)
+### larwirecell/LArInterface/WireCellNoiseFilter\_module.cc
 
     diff --git a/larwirecell/LArInterface/WireCellNoiseFilter_module.cc b/larwirecell/LArInterface/WireCellNoiseFilter_module.cc
     new file mode 100644
@@ -613,7 +613,7 @@ larwirecell(#larwirecell)
     +
     +#endif //WireCellNoiseFilterMODULE_H
 
-### larwirecell/LArInterface/wirecellmodules.fcl(#larwirecellLArInterfacewirecellmodulesfcl)
+### larwirecell/LArInterface/wirecellmodules.fcl
 
     diff --git a/larwirecell/LArInterface/wirecellmodules.fcl b/larwirecell/LArInterface/wirecellmodules.fcl
     new file mode 100644
@@ -638,7 +638,7 @@ larwirecell(#larwirecell)
     +
     +END_PROLOG
 
-### larwirecell/LArInterface/wirecellmodules\_microboone.fcl(#larwirecellLArInterfacewirecellmodules_microboonefcl)
+### larwirecell/LArInterface/wirecellmodules\_microboone.fcl
 
     diff --git a/larwirecell/LArInterface/wirecellmodules_microboone.fcl b/larwirecell/LArInterface/wirecellmodules_microboone.fcl
     new file mode 100644
@@ -658,10 +658,10 @@ larwirecell(#larwirecell)
     +
     +END_PROLOG
 
-larsim(#larsim)
+larsim
 ------------------
 
-### larsim/EventGenerator/MARLEY/MARLEYGen\_module.cc(#larsimEventGeneratorMARLEYMARLEYGen_modulecc)
+### larsim/EventGenerator/MARLEY/MARLEYGen\_module.cc
 
     diff --git a/larsim/EventGenerator/MARLEY/MARLEYGen_module.cc b/larsim/EventGenerator/MARLEY/MARLEYGen_module.cc
     index 259f84b..6648eca 100644
@@ -677,7 +677,7 @@ larsim(#larsim)
        prepare_neutrino_source(source_params);
      }
 
-### larsim/MCCheater/PhotonBackTracker.h(#larsimMCCheaterPhotonBackTrackerh)
+### larsim/MCCheater/PhotonBackTracker.h
 
     diff --git a/larsim/MCCheater/PhotonBackTracker.h b/larsim/MCCheater/PhotonBackTracker.h
     index 28fe9ae..c222539 100644
@@ -773,7 +773,7 @@ larsim(#larsim)
 
        private:
 
-### larsim/MCCheater/PhotonBackTracker\_service.cc(#larsimMCCheaterPhotonBackTracker_servicecc)
+### larsim/MCCheater/PhotonBackTracker\_service.cc
 
     diff --git a/larsim/MCCheater/PhotonBackTracker_service.cc b/larsim/MCCheater/PhotonBackTracker_service.cc
     index 6e073c8..b6b5b6d 100644
@@ -1191,7 +1191,7 @@ larsim(#larsim)
          xyz[0] = x/w;
          xyz[1] = y/w;
 
-### larsim/MCCheater/photonbacktracker.fcl(#larsimMCCheaterphotonbacktrackerfcl)
+### larsim/MCCheater/photonbacktracker.fcl
 
     diff --git a/larsim/MCCheater/photonbacktracker.fcl b/larsim/MCCheater/photonbacktracker.fcl
     index b02c251..3934c9a 100644
@@ -1213,10 +1213,10 @@ larsim(#larsim)
     -
      END_PROLOG
 
-larreco(#larreco)
+larreco
 --------------------
 
-### larreco/HitFinder/GausHitFinder\_module.cc(#larrecoHitFinderGausHitFinder_modulecc)
+### larreco/HitFinder/GausHitFinder\_module.cc
 
     diff --git a/larreco/HitFinder/GausHitFinder_module.cc b/larreco/HitFinder/GausHitFinder_module.cc
     index b35c72a..3273bd0 100644
@@ -1232,7 +1232,7 @@ larreco(#larreco)
          double                fChi2NDF;                  ///maximum Chisquared / NDF allowed for a hit to be saved
          size_t              fNumBinsToAverage;         ///< If bin averaging for peak finding, number bins to average
 
-### larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx(#larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgcxx)
+### larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx
 
     diff --git a/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx b/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx
     index ed5a357..15c78f8 100644
@@ -1468,7 +1468,7 @@ larreco(#larreco)
                  }
              }
 
-### larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h(#larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgh)
+### larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h
 
     diff --git a/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h b/larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h
     index 109af89..720fe78 100644
@@ -1527,7 +1527,7 @@ larreco(#larreco)
          std::vector< std::vector<float> > fWireDriftEdep;
          std::vector< std::vector<int> > fWireDriftPdg;
 
-### larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py(#larrecoRecoAlgImagePatternAlgsscriptsutilspy)
+### larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py
 
     diff --git a/larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py b/larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py
     index e620236..c8229a1 100644
@@ -1545,7 +1545,7 @@ larreco(#larreco)
          showers[showers > 0] = 1
          return A_raw, A_deposit, A_pdg, tracks, showers
 
-### larreco/RecoAlg/TrackKalmanFitter.cxx(#larrecoRecoAlgTrackKalmanFittercxx)
+### larreco/RecoAlg/TrackKalmanFitter.cxx
 
     diff --git a/larreco/RecoAlg/TrackKalmanFitter.cxx b/larreco/RecoAlg/TrackKalmanFitter.cxx
     index 19fe252..5bb6758 100644
@@ -1560,7 +1560,7 @@ larreco(#larreco)
          boost::optional<double> pdist = prop_->noise_prop(trf,khit.getMeasSurface(),trkf::Propagator::BACKWARD,true);
          if (!pdist) {
 
-### larreco/TrackFinder/KalmanFilterFinalTrackFitter\_module.cc(#larrecoTrackFinderKalmanFilterFinalTrackFitter_modulecc)
+### larreco/TrackFinder/KalmanFilterFinalTrackFitter\_module.cc
 
     diff --git a/larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc b/larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc
     index d6728d2..3bf23a1 100644
@@ -1622,10 +1622,10 @@ larreco(#larreco)
 
      double trkf::KalmanFilterFinalTrackFitter::setMomValue(art::Ptr<recob::Track> ptrack, const std::unique_ptr<art::FindManyP<anab::Calorimetry> >& trackCalo, const double pMC, const int pId) const {
 
-larana(#larana)
+larana
 ------------------
 
-### larana/OpticalDetector/OpHitFinder/UtilFunc.cxx(#laranaOpticalDetectorOpHitFinderUtilFunccxx)
+### larana/OpticalDetector/OpHitFinder/UtilFunc.cxx
 
     diff --git a/larana/OpticalDetector/OpHitFinder/UtilFunc.cxx b/larana/OpticalDetector/OpHitFinder/UtilFunc.cxx
     index 8f6ec29..e09a8d8 100644
@@ -1640,7 +1640,7 @@ larana(#larana)
 
          //std::cout<<"Min: "<<(*res.first)<<" Max: "<<(*res.second)<<" Width: "<<bin_width<<std::endl;
 
-### larana/T0Finder/PhotonCounterT0Matching\_module.cc(#laranaT0FinderPhotonCounterT0Matching_modulecc)
+### larana/T0Finder/PhotonCounterT0Matching\_module.cc
 
     diff --git a/larana/T0Finder/PhotonCounterT0Matching_module.cc b/larana/T0Finder/PhotonCounterT0Matching_module.cc
     index 9e1267a..4b4b4d8 100644

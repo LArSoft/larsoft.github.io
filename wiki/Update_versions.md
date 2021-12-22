@@ -1,4 +1,4 @@
-Update versions(#Update-versions)
+Update versions
 ====================================
 
 -   **Table of contents**
@@ -9,16 +9,16 @@ Update versions(#Update-versions)
         -   [larpandoracontent](#larpandoracontent)
     -   [Build debug and prof with the new versions](#Build-debug-and-prof-with-the-new-versions)
 
-Update versions(#Update-versions-2)
+Update versions
 --------------------------------------
 
-### Update repository versions(#Update-repository-versions)
+### Update repository versions
 
 -   updateVersion \<major|minor|micro\>
     -   updates ups/product\_deps for every package in \$MRB\_SOURCE
     -   also updates releaseDB/CMakeLists.txt and bundle/CMakeLists.txt files
 
-### Check and change versions for the larsoft packages(#Check-and-change-versions-for-the-larsoft-packages)
+### Check and change versions for the larsoft packages
 
 -   As a general rule, only larsoft itself uses the \$MRB\_PROJECT\_VERSION release version
     -   All other packages should update their release versions appropriately.
@@ -56,7 +56,7 @@ Update versions(#Update-versions-2)
 
 -   NOTE: if a dependency has changed, a new tag is required.
 
-### larpandoracontent(#larpandoracontent)
+### larpandoracontent
 
 -   larpandoracontent is a special case.
 -   larpandoracontent depends on pandora and is used by larpandora
@@ -64,7 +64,7 @@ Update versions(#Update-versions-2)
 -   If there have been no changes since the previous tag, revert to the old release number and do not tag.
 -   In the event that a new tag is needed, the version number must be updated both in ups/product\_deps and larpandoracontent/CMakeLists.txt. New tags should be coordinated with John Marshall.
 
-Build debug and prof with the new versions(#Build-debug-and-prof-with-the-new-versions)
+Build debug and prof with the new versions
 ------------------------------------------------------------------------------------------
 
 -   if you’ve updated a product version, it’s best to start from a fresh login

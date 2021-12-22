@@ -11,14 +11,14 @@
         -   [source:trunk/MCCheater/RecoCheckAna\_module.cc](#sourcetrunkMCCheaterRecoCheckAna_modulecc)
         -   [Using the MCCheater](#Using-the-MCCheater)
 
-Backtracking the simulation(#Backtracking-the-simulation)
+Backtracking the simulation
 ============================================================
 
 The maintainer of this package is Brian Rebel ().
 
 *Note:* Code is always under development, and it may be that the code fragments shown here will become obsolete over time. As always, your best bet is to look at the source for the correct classes and methods to use.
 
-Hierarchy of data objects relating to the simulation(#Hierarchy-of-data-objects-relating-to-the-simulation)
+Hierarchy of data objects relating to the simulation
 --------------------------------------------------------------------------------------------------------------
 
 In the LArSoft simulation, there is a natural “hierarchy” of classes from incoming particle through to the signal in the detector:
@@ -27,21 +27,21 @@ In the LArSoft simulation, there is a natural “hierarchy” of classes from in
 
 At each stage, it’s possible to “backtrack” through the simulation classes to find out, e.g., which energy depositions contributed to a given digit. However, it’s not presently possible to “forward-track” through the classes to find out, e.g., which digit is associated with a given energy deposition.
 
-MCCheater(#MCCheater)
+MCCheater
 ------------------------
 
 The maintainer of this package is Brian Rebel,
 
 The MCCheater package is a collection of modules and objects that allow one to associate reconstructed objects made from Monte Carlo simulation with the particle(s) producing the ionization electrons that were turned into signals.
 
-### Use cases for the MCCheater(#Use-cases-for-the-MCCheater)
+### Use cases for the MCCheater
 
 There are a few use cases imagined for the MCCheater package:
 
 1.  Facilitate algorithm development for higher level reconstruction objects where algorithms for the lower level objects do not yet exist. Using the MCCheater allows one to have a collection of the necessary lower level objects with which to test the new algorithms.
 2.  Test efficiency of reconstruction algorithms - the MCCheater provides a baseline for evaluating how well an algorithm performs as the cheated reconstruction is perfect.
 
-### [source:trunk/MCCheater/BackTracker.h](/redmine/projects/larsoft/repository/entry/trunk/MCCheater/BackTracker.h)(#sourcetrunkMCCheaterBackTrackerh)
+### [source:trunk/MCCheater/BackTracker.h](/redmine/projects/larsoft/repository/entry/trunk/MCCheater/BackTracker.h)
 
 This is a service that provides access to many aspects of the simulation. Please take a look at the linked header file in the heading to this subsection of the page. Note that you can get the list of all particles tracked by Geant4 using the cheat::BackTracker::ParticleList() method. You can also access the sim::IDE objects to determine the energy deposition and number of electrons ionized by each particle using the G4 track ID.
 
@@ -53,12 +53,12 @@ Typically one would use only the `BackTracker::HitToEveID` and `BackTracker::Hit
 
 An example of how to use these methods can be found in [source:trunk/MCCheater/CheckBackTracking.cxx](/redmine/projects/larsoft/repository/entry/trunk/MCCheater/CheckBackTracking.cxx).
 
-### [source:trunk/ClusterFinder/ClusterCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/ClusterFinder/ClusterCheater_module.cc)(#sourcetrunkClusterFinderClusterCheater_modulecc)
+### [source:trunk/ClusterFinder/ClusterCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/ClusterFinder/ClusterCheater_module.cc)
 
 This module produces recob::Cluster objects from previously reconstructed recob::Hit objects. The fID data member for the clusters encodes the Eve particle track ID from LArG4 along with the plane number from which the recob::Hits originate:\
 `ID = (Eve track ID)*1000 + (plane number)`.
 
-### [source:trunk/TrackFinder/TrackCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/TrackFinder/TrackCheater_module.cc) and [source:trunk/ShowerFinder/ShowerCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/ShowerFinder/ShowerCheater_module.cc)(#sourcetrunkTrackFinderTrackCheater_modulecc-and-sourcetrunkShowerFinderShowerCheater_modulecc)
+### [source:trunk/TrackFinder/TrackCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/TrackFinder/TrackCheater_module.cc) and [source:trunk/ShowerFinder/ShowerCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/ShowerFinder/ShowerCheater_module.cc)
 
 These modules produce recob::Track and recob::Shower objects using the cheated recob::Cluster objects. It groups the recob::Clusters from each Eve particle into recob::Prong derived objects. The ID of the created objects is the track ID of the Eve particle from LArG4.
 
@@ -66,19 +66,19 @@ Each recob::Prong object must take a collection of recob::SpacePoints in its con
 `ID = (Eve track ID)*10000 + (index of hit in cluster)`\
 The recob::SpacePoints take only one recob::Hit in their constructor as this is perfect reconstruction.
 
-### [source:trunk/VertexFinder/VertexCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/VertexFinder/VertexCheater_module.cc)(#sourcetrunkVertexFinderVertexCheater_modulecc)
+### [source:trunk/VertexFinder/VertexCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/VertexFinder/VertexCheater_module.cc)
 
 This module produces recob::Vertex objects using the cheated recob::Prong derived objects. The ID of the recob::Vertex object is the Eve particle track ID from LArG4.
 
-### [source:trunk/EventFinder/EventCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/EventFinder/EventCheater_module.cc)(#sourcetrunkEventFinderEventCheater_modulecc)
+### [source:trunk/EventFinder/EventCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/EventFinder/EventCheater_module.cc)
 
 This module produces recob::Event objects using the cheated recob::Vertex object. The ID of the recob::Event object is the art::ProductID of the MCTruth object corresponding to this event.
 
-### [source:trunk/MCCheater/RecoCheckAna\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/MCCheater/RecoCheckAna_module.cc)(#sourcetrunkMCCheaterRecoCheckAna_modulecc)
+### [source:trunk/MCCheater/RecoCheckAna\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/MCCheater/RecoCheckAna_module.cc)
 
 This module makes use of the `BackTracker::HitCollectionPurity` and `BackTracker::HitCollectionEfficiency` methods to check the performance of the reconstruction for any type of RecoBase object. It can be configured to test any of the RecoBase objects, ie Clusters, Tracks, Showers, Vertices, and Events. The module produces output histograms for the efficiency and purity of each type of object tested.
 
-### Using the MCCheater(#Using-the-MCCheater)
+### Using the MCCheater
 
 To run a job to produce cheater reconstruction, do
 

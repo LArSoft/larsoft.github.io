@@ -1,4 +1,4 @@
-LArSoft v04\_19\_00 Release Notes(#LArSoft-v04_19_00-Release-Notes)
+LArSoft v04\_19\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,10 +24,10 @@ LArSoft v04\_19\_00 Release Notes(#LArSoft-v04_19_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_19_00/larsoft-v04_19_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larevt, lareventdisplay feature/eberly\_dbinterface
@@ -39,16 +39,16 @@ New features(#New-features)
 -   remove old SRT GNUmakefiles
 -   Starting with this release, you must use /cvmfs/fermilab.opensciencegrid.org/products
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_19\_00(#larsoft-v04_19_00)
+larsoft v04\_19\_00
 ------------------------------------------
 
 -   2015-08-13 Lynn Garren : larsoft v04\_19\_00 for larsoft v04\_19\_00
@@ -57,7 +57,7 @@ larsoft v04\_19\_00(#larsoft-v04_19_00)
 -   2015-08-13 Lynn Garren : remove obsolete SRT scripts
 -   2015-08-04 Lynn Garren : update product versions
 
-lareventdisplay v04\_06\_03(#lareventdisplay-v04_06_03)
+lareventdisplay v04\_06\_03
 ----------------------------------------------------------
 
 -   2015-08-13 Lynn Garren : lareventdisplay v04\_06\_03 for larsoft v04\_19\_00
@@ -70,18 +70,18 @@ lareventdisplay v04\_06\_03(#lareventdisplay-v04_06_03)
 -   2015-08-06 Brandon Eberly : Remove some unnecessary dependencies
 -   2015-07-10 Brandon Eberly : Use pedestal conditions service
 
-larexamples v04\_05\_01(#larexamples-v04_05_01)
+larexamples v04\_05\_01
 --------------------------------------------------
 
 -   2015-08-13 Lynn Garren : larexamples v04\_05\_01 for larsoft v04\_19\_00
 
-larpandora v04\_05\_01(#larpandora-v04_05_01)
+larpandora v04\_05\_01
 ------------------------------------------------
 
 -   2015-08-13 Lynn Garren : larpandora v04\_05\_01 for larsoft v04\_19\_00
 -   2015-08-13 Lynn Garren : remove SRT GNUmakefiles
 
-larana v04\_10\_01(#larana-v04_10_01)
+larana v04\_10\_01
 ----------------------------------------
 
 -   2015-08-13 Lynn Garren : larana v04\_10\_01 for larsoft v04\_19\_00
@@ -91,7 +91,7 @@ larana v04\_10\_01(#larana-v04_10_01)
 -   2015-08-09 Tingjun Yang : Add protection when particle is null.
 -   2015-08-07 Tingjun Yang : Replace lbne with dune.
 
-larreco v04\_14\_01(#larreco-v04_14_01)
+larreco v04\_14\_01
 ------------------------------------------
 
 -   2015-08-13 Lynn Garren : larreco v04\_14\_01 for larsoft v04\_19\_00
@@ -110,7 +110,7 @@ larreco v04\_14\_01(#larreco-v04_14_01)
 -   2015-08-07 Tingjun Yang : Replace lbne with dune.
 -   2015-08-05 Mike Wallbank : MW: Updated the parameter describing the maximum cluster separation for merging so that the separation is found by considering all hits in both clusters
 
-larsim v04\_09\_01(#larsim-v04_09_01)
+larsim v04\_09\_01
 ----------------------------------------
 
 -   2015-08-13 Lynn Garren : larsim v04\_09\_01 for larsoft v04\_19\_00
@@ -121,7 +121,7 @@ larsim v04\_09\_01(#larsim-v04_09_01)
 -   2015-08-13 Lynn Garren : remove unmaintained sample files
 -   2015-08-07 Tingjun Yang : Replace lbne with dune.
 
-larevt v04\_09\_00(#larevt-v04_09_00)
+larevt v04\_09\_00
 ----------------------------------------
 
 -   2015-08-13 Lynn Garren : install all the headers
@@ -145,7 +145,7 @@ larevt v04\_09\_00(#larevt-v04_09_00)
 -   2015-07-07 Brandon Eberly : Added service interface and implementation for detector pedestals
 -   2015-07-01 Brandon Eberly : New TimeStampDecoder and IDetPedestalProvider classes
 
-lardata v04\_12\_00(#lardata-v04_12_00)
+lardata v04\_12\_00
 ------------------------------------------
 
 -   2015-08-13 Lynn Garren : lardata v04\_12\_00 for larsoft v04\_19\_00
@@ -156,7 +156,7 @@ lardata v04\_12\_00(#lardata-v04_12_00)
 -   2015-08-11 Mike Kirby : This is the greatest fix in the history of databases\\! All hail our new database overlord, Dr. Jason St. John\\!
 -   2015-08-10 Gianluca Petrillo : Caching settings from DatabaseUtil.
 
-larcore v04\_16\_00(#larcore-v04_16_00)
+larcore v04\_16\_00
 ------------------------------------------
 
 -   2015-08-13 Lynn Garren : larcore v04\_16\_00 for larsoft v04\_19\_00
@@ -194,10 +194,10 @@ larcore v04\_16\_00(#larcore-v04_16_00)
 -   2015-07-15 Gianluca Petrillo : Fixed include paths
 -   2015-07-15 Brian Rebel : first commit of new files related to AuxDetGeometry navigation. The objects defined by these files are analogs to the traditional Geometry navigation objects.
 
-larbatch v01\_13\_00(#larbatch-v01_13_00)
+larbatch v01\_13\_00
 --------------------------------------------
 
-larutils v1\_02\_02(#larutils-v1_02_02)
+larutils v1\_02\_02
 ------------------------------------------
 
 -   2015-08-13 Lynn Garren : larutils v1\_02\_02 for larsoft v04\_19\_00

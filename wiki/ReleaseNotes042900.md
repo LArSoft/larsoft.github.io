@@ -1,4 +1,4 @@
-LArSoft v04\_29\_00 Release Notes(#LArSoft-v04_29_00-Release-Notes)
+LArSoft v04\_29\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,14 +24,14 @@ LArSoft v04\_29\_00 Release Notes(#LArSoft-v04_29_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_29_00/larsoft-v04_29_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Changes in develop
 -   merge new features
 -   art bug fix release
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lareventdisplay feature/Issue10538
@@ -39,12 +39,12 @@ New features(#New-features)
 -   larreco feature/dstefan\_DirOfGamma
 -   lardata DUNE zero suppression
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   [\#10623](/redmine/issues/10623 "Bug: Crash reading multiple files (Closed)") resolved with art v1\_17\_03
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------- ---------------------------------------------------------------------------------------
@@ -57,10 +57,10 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v4\_17\_00                 
   --------------- ------------ ------------- ---------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_29\_00(#larsoft-v04_29_00)
+larsoft v04\_29\_00
 ------------------------------------------
 
 -   2015-10-28 Lynn Garren : update product versions
@@ -68,7 +68,7 @@ larsoft v04\_29\_00(#larsoft-v04_29_00)
 -   2015-10-28 Lynn Garren : art v1\_17\_03, etc.
 -   2015-10-28 Lynn Garren : build just the products that do not depend on art
 
-lareventdisplay v04\_12\_02(#lareventdisplay-v04_12_02)
+lareventdisplay v04\_12\_02
 ----------------------------------------------------------
 
 -   2015-10-28 Lynn Garren : lareventdisplay v04\_12\_02 for larsoft v04\_29\_00
@@ -81,17 +81,17 @@ lareventdisplay v04\_12\_02(#lareventdisplay-v04_12_02)
 -   2015-10-21 Tracy Usher : Update to address reversed grading scheme for channel status - works on mac… needs look by Gianluca
 -   2015-10-14 Tracy Usher : Change inequality to become consistent with new scheme
 
-larexamples v04\_06\_03(#larexamples-v04_06_03)
+larexamples v04\_06\_03
 --------------------------------------------------
 
 -   2015-10-28 Lynn Garren : larexamples v04\_06\_03 for larsoft v04\_29\_00
 
-larpandora v04\_08\_03(#larpandora-v04_08_03)
+larpandora v04\_08\_03
 ------------------------------------------------
 
 -   2015-10-28 Lynn Garren : larpandora v04\_08\_03 for larsoft v04\_29\_00
 
-larana v04\_15\_03(#larana-v04_15_03)
+larana v04\_15\_03
 ----------------------------------------
 
 -   2015-10-28 Lynn Garren : larana v04\_15\_03 for larsoft v04\_29\_00
@@ -100,7 +100,7 @@ larana v04\_15\_03(#larana-v04_15_03)
 -   2015-10-24 Lynn Garren : larsoft v04\_28\_00
 -   2015-10-23 Thomas Warburton : Adding a PE threshold for making a T0, as requested. It is defaulted to 0 so that it doesn’t effect any exisiting analyses
 
-larreco v04\_22\_00(#larreco-v04_22_00)
+larreco v04\_22\_00
 ------------------------------------------
 
 -   2015-10-28 Lynn Garren : larreco v04\_22\_00 for larsoft v04\_29\_00
@@ -141,18 +141,18 @@ larreco v04\_22\_00(#larreco-v04_22_00)
 -   2015-10-07 Tingjun Yang : Merge branch ‘develop’ into feature/wallbank\_EMShowerToMerge
 -   2015-10-05 Dorota Stefan : DirOfGamma moved from dunetpc
 
-larsim v04\_14\_01(#larsim-v04_14_01)
+larsim v04\_14\_01
 ----------------------------------------
 
 -   2015-10-28 Lynn Garren : larsim v04\_14\_01 for larsoft v04\_29\_00
 -   2015-10-28 Tingjun Yang : Use ModBox recombination in simulation by default. Most experiments already use it.
 
-larevt v04\_13\_03(#larevt-v04_13_03)
+larevt v04\_13\_03
 ----------------------------------------
 
 -   2015-10-28 Lynn Garren : larevt v04\_13\_03 for larsoft v04\_29\_00
 
-lardata v04\_18\_01(#lardata-v04_18_01)
+lardata v04\_18\_01
 ------------------------------------------
 
 -   2015-10-28 Lynn Garren : lardata v04\_18\_01 for larsoft v04\_29\_00
@@ -161,20 +161,20 @@ lardata v04\_18\_01(#lardata-v04_18_01)
 -   2015-10-22 Lynn Garren : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lardata into develop
 -   2015-10-21 Jonathan Insler : Added new zero suppression functions for 35t to handle nonzero pedestals and ADC sticky code issue
 
-larcore v04\_20\_00(#larcore-v04_20_00)
+larcore v04\_20\_00
 ------------------------------------------
 
 -   2015-10-28 Lynn Garren : larcore v04\_20\_00 for larsoft v04\_29\_00
 -   2015-10-27 Gianluca Petrillo : Added module dumping on screen the TPC channel ID – wire ID mapping (with test)
 
-larbatch v01\_18\_01(#larbatch-v01_18_01)
+larbatch v01\_18\_01
 --------------------------------------------
 
 -   2015-10-28 Lynn Garren : larbatch v01\_18\_01 for larsoft v04\_29\_00
 -   2015-10-28 Lynn Garren : using noarch instead of simple
 -   2015-10-27 Herbert Greenlee : Add xml options for specifying cpus, disk, and memory.
 
-larutils v1\_04\_02(#larutils-v1_04_02)
+larutils v1\_04\_02
 ------------------------------------------
 
 -   2015-10-28 Lynn Garren : larutils v1\_04\_02 for larsoft v04\_29\_00

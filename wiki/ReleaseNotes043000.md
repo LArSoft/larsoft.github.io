@@ -1,4 +1,4 @@
-LArSoft v04\_30\_00 Release Notes(#LArSoft-v04_30_00-Release-Notes)
+LArSoft v04\_30\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,14 +24,14 @@ LArSoft v04\_30\_00 Release Notes(#LArSoft-v04_30_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_30_00/larsoft-v04_30_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop since v04\_29\_02
 -   features requested by DUNE
 -   bug fix
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsim feature/gvsinev\_SupernovaGenerator
@@ -43,12 +43,12 @@ New features(#New-features)
     -   The optional ifdh\_platform\_pkgs product, found in the “common” ups db is required to use ifdhc, but is not yet thouroughly tested.
     -   [SupportedPlatforms](/redmine/projects/ifdhc/wiki/SupportedPlatforms)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lareventdisplay feature/aolivier\_FixRecoSegFaults
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------ -------------------------------------------------------------------------------------------------------------------------
@@ -60,10 +60,10 @@ Updated dependencies(#Updated-dependencies)
   cetpkgsupport   v1\_10\_01                **IMPORTANT:** [UpdatingToNewRelease](UpdatingToNewRelease#If-cetpkgsupport-was-updated)
   --------------- ------------ ------------ -------------------------------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_30\_00(#larsoft-v04_30_00)
+larsoft v04\_30\_00
 ------------------------------------------
 
 -   2015-11-19 Lynn Garren : fix libwda version
@@ -72,14 +72,14 @@ larsoft v04\_30\_00(#larsoft-v04_30_00)
 -   2015-11-19 Lynn Garren : can build ifdhc on OSX now
 -   2015-11-19 Lynn Garren : update product versions
 
-lareventdisplay v04\_12\_05(#lareventdisplay-v04_12_05)
+lareventdisplay v04\_12\_05
 ----------------------------------------------------------
 
 -   2015-11-19 Lynn Garren : lareventdisplay v04\_12\_05 for larsoft v04\_30\_00
 -   2015-11-17 Andrew Olivier : Merge branch ‘develop’ into feature/aolivier\_FixRecoSegFaults
 -   2015-11-10 Andrew Olivier : Protect against events with no tracks in 3D viewer and prevent display from crashing when the main window is closed.
 
-larexamples v04\_06\_05(#larexamples-v04_06_05)
+larexamples v04\_06\_05
 --------------------------------------------------
 
 -   2015-11-19 Lynn Garren : larexamples v04\_06\_05 for larsoft v04\_30\_00
@@ -87,17 +87,17 @@ larexamples v04\_06\_05(#larexamples-v04_06_05)
 -   2015-10-28 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larexamples into develop
 -   2015-10-28 Brian Rebel : change product versions
 
-larpandora v04\_08\_06(#larpandora-v04_08_06)
+larpandora v04\_08\_06
 ------------------------------------------------
 
 -   2015-11-19 Lynn Garren : larpandora v04\_08\_06 for larsoft v04\_30\_00
 
-larana v04\_16\_02(#larana-v04_16_02)
+larana v04\_16\_02
 ----------------------------------------
 
 -   2015-11-19 Lynn Garren : larana v04\_16\_02 for larsoft v04\_30\_00
 
-larreco v04\_24\_00(#larreco-v04_24_00)
+larreco v04\_24\_00
 ------------------------------------------
 
 -   2015-11-19 Lynn Garren : larreco v04\_24\_00 for larsoft v04\_30\_00
@@ -170,7 +170,7 @@ larreco v04\_24\_00(#larreco-v04_24_00)
 -   2015-10-18 Robert Sulej : basic functions
 -   2015-09-29 Dorota Stefan : add module for track-shower hit splitter
 
-larsim v04\_15\_00(#larsim-v04_15_00)
+larsim v04\_15\_00
 ----------------------------------------
 
 -   2015-11-19 Lynn Garren : larsim v04\_15\_00 for larsoft v04\_30\_00
@@ -191,7 +191,7 @@ larsim v04\_15\_00(#larsim-v04_15_00)
 -   2015-11-06 Gianluca Petrillo : Fixed bug on algorithm used by MCShowerReco manifesting on empty events
 -   2015-11-11 Thomas Warburton : Adding a zoomed in energy histogram.
 
-larevt v04\_13\_05(#larevt-v04_13_05)
+larevt v04\_13\_05
 ----------------------------------------
 
 -   2015-11-19 Lynn Garren : larevt v04\_13\_05 for larsoft v04\_30\_00
@@ -199,7 +199,7 @@ larevt v04\_13\_05(#larevt-v04_13_05)
 -   2015-10-28 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larevt into develop
 -   2015-10-28 Brian Rebel : update product version
 
-lardata v04\_19\_00(#lardata-v04_19_00)
+lardata v04\_19\_00
 ------------------------------------------
 
 -   2015-11-19 Lynn Garren : lardata v04\_19\_00 for larsoft v04\_30\_00
@@ -212,7 +212,7 @@ lardata v04\_19\_00(#lardata-v04_19_00)
 -   2015-10-28 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lardata into develop
 -   2015-10-28 Brian Rebel : update a product version
 
-larcore v04\_21\_00(#larcore-v04_21_00)
+larcore v04\_21\_00
 ------------------------------------------
 
 -   2015-11-19 Lynn Garren : larcore v04\_21\_00 for larsoft v04\_30\_00
@@ -221,8 +221,8 @@ larcore v04\_21\_00(#larcore-v04_21_00)
 -   2015-10-28 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larcore into develop
 -   2015-10-28 Brian Rebel : update cetbuildtools
 
-larbatch v01\_19\_01(#larbatch-v01_19_01)
+larbatch v01\_19\_01
 --------------------------------------------
 
-larutils v1\_04\_03(#larutils-v1_04_03)
+larutils v1\_04\_03
 ------------------------------------------

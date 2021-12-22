@@ -12,12 +12,12 @@
     -   [Hand Scan dialog box](#Hand-Scan-dialog-box)
     -   [Known Issues/Suggested Improvements](#Known-IssuesSuggested-Improvements)
 
-EventDisplay(#EventDisplay)
+EventDisplay
 ==============================
 
 The package maintainer is Brian Rebel . This package is an exception to the rule of LArSofters being able to edit code in any package. No changes should be made to the event display without first consulting the package maintainer. The reason for this exception is that event display code becomes very confusing very quickly without a great deal of oversight.
 
-Organization(#Organization)
+Organization
 ------------------------------
 
 The event display is organized into 4 classes of objects.
@@ -27,7 +27,7 @@ The event display is organized into 4 classes of objects.
 3.  Pads - These objects are defined to display a single type of information. For example, the TWirePad displays the ADC information from each channel in TDC vs Wire number. Pads own a collection of Drawers and only interact with them through various Draw methods.
 4.  Views - These objects contain a collection of pads to build up an actual window that the user would interact with.
 
-Running the Event Display(#Running-the-Event-Display)
+Running the Event Display
 --------------------------------------------------------
 
 The event display is called using the lar executable and requires a job control script to be supplied as well
@@ -43,7 +43,7 @@ All options can be specified from the [source:trunk/EventDisplay/evdservices.fcl
 1.  Drawing of reconstructed objects - see the .fcl file or dialog box for the appropriate parameters
 2.  Number of TDC ticks to use in each point represented by the raw digits, one can increase the speed of drawing by increasing this value
 
-Main View(#Main-View)
+Main View
 ------------------------
 
 The main view for interpreting events in LArSoft is the TWQProjectionView. It has a pad for each plane in the TPC. It shows every wire on every plane with the size of the displayed boxes corresponding to a user defined number of TDC ticks. The color of the box corresponds to the average ADC value in the user defined TDC window. It is possible to zoom on a region of each of these planes by clicking the left mouse button and dragging a rectangle around the selected region.
@@ -72,7 +72,7 @@ Here is an example showing both raw data and reconstructed information:
 
 ![](exampledisplay_both.png)
 
-### Optional functions in the Main View (Zoom, and XYZ point calculation)(#Optional-functions-in-the-Main-View-Zoom-and-XYZ-point-calculation)
+### Optional functions in the Main View (Zoom, and XYZ point calculation)
 
 By setting the evdlayoutopt::ShowSidebar = 1 in the evdservices.fcl file the user has the option to use optional features. At this time these are:
 
@@ -81,17 +81,17 @@ By setting the evdlayoutopt::ShowSidebar = 1 in the evdservices.fcl file the use
 
 ![](exampledisplay_with_xyz.png)
 
-3D View(#3D-View)
+3D View
 --------------------
 
 The 3D view is available for those RecoBase objects that correspond to 3D information, ie recob::Prong/Track/Shower, recob::Vertex, and recob::Event. The view is initiated by selecting the Display3DPad from the Window menu of the event display. The view shows the direction of the coordinate axes, however the axes are **not** drawn at the origin in order to avoid conflicts with event information. The grid shown has lines every 10 cm.
 
 ![](3dview.png)
 
-Configuration(#Configuration)
+Configuration
 --------------------------------
 
-### Job Configuration(#Job-Configuration)
+### Job Configuration
 
 The event display is currently implemented as an EDAnalyzer module. To run it, you need to specify a configuration file. The default job configuration to run the event dispaly is [source:trunk/EventDisplay/evd.fcl](/redmine/projects/larsoft/repository/entry/trunk/EventDisplay/evd.fcl). It produces and event display for ArgoNeuT. Experiments are welcome to create and commit their own default versions with appropriate names, ie evd\_lbne.fcl and evd\_ub.fcl.
 
@@ -145,7 +145,7 @@ The event display is currently implemented as an EDAnalyzer module. To run it, y
      end_paths: [evd]  
     }
 
-### Service Configuration(#Service-Configuration)
+### Service Configuration
 
 Notice that starting at line 21 we have declared the various services needed to run the event display and select options for the display. Those services are included from the source:trunk/EventDisplay/evdservices.fcl configuration file:
 
@@ -347,7 +347,7 @@ Notice that starting at line 21 we have declared the various services needed to 
 
 If the objects you are interested in viewing from the file are not in the default module labels, then you will need to edit those parameters. For example, if you want to look at Clusters produced by the DBcluster (ClusterFinder package) you set DrawClusters to 2. You also need to edit the ClusterModules parameter. The default is “dbcluster” but if in the job configuration fcl file you defined the module label for where the clusters are stored to be “cluster” then “cluster” is the module label you defined to run through reconstruction and store the clusters.
 
-### Configuration from the Event Display(#Configuration-from-the-Event-Display)
+### Configuration from the Event Display
 
 The module and services may also be configured while running the event display. To configure modules and services that are not related to event display options, select the Job-\>Configure Module menu.
 
@@ -361,7 +361,7 @@ To update a parameter value, one has to press “enter/return” after changing 
 
 String-valued parameters will need to be enclosed in double quotation marks if they contain colons. For example, if you need to specify a module label and an instance as an input tag, you provide it with “modulelabel:instance” (quotes included), otherwise there will be a FHiCL parse error.
 
-Hand Scan dialog box(#Hand-Scan-dialog-box)
+Hand Scan dialog box
 ----------------------------------------------
 
 It is possible to define a hand scan by setting the fields in the ScanOptions service from within a .fcl file. The ScanOptions service has 5 fields that must be supplied:
@@ -379,7 +379,7 @@ The screen shot below is from an ArgoNeuT defined scan. The “Prev” and “Ne
 
 ![](scanbox.gif)
 
-Known Issues/Suggested Improvements(#Known-IssuesSuggested-Improvements)
+Known Issues/Suggested Improvements
 ---------------------------------------------------------------------------
 
 1.  Resizing a Scan Window causes the layout to get messed up

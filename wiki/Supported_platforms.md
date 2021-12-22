@@ -6,7 +6,7 @@
 -   [List of platforms under consideration](#List-of-platforms-under-consideration)
 -   [No longer supported](#No-longer-supported)
 
-Supported platforms(#Supported-platforms)
+Supported platforms
 ============================================
 
 *Builds are actively supported on these platforms, the code runs and works as intended (as evidenced by the CI system), and source and binary installs of LArSoft and all the products on which it depends are made available on a regular basis. Unless noted otherwise, installations for supported platforms will also be available via `cvmfs` on `/cvmfs/larsoft.opensciencegrid.org/products`. Other `cvmfs` installations may be available – check with offline support for your experiment.*
@@ -24,7 +24,7 @@ Supported platforms(#Supported-platforms)
 
 -   Additional information may be found on the [SciSoft supported platform page](/redmine/projects/cet-is/wiki/Supported_platforms)
 
-Best effort(#Best-effort)
+Best effort
 ============================
 
 *Builds and binaries are provided when effort is available, or upon request. Open a LArSoft issue ticket to request a specific release.*
@@ -32,19 +32,19 @@ Best effort(#Best-effort)
 -   Ubuntu LTS 20 (u20)
     -   Best-effort support for Ubuntu LTS 20 is available with e20 builds.
 
-Porting efforts in progress(#Porting-efforts-in-progress)
+Porting efforts in progress
 ============================================================
 
 *“Porting effort in progress” means that LArSoft code management intends to move the listed platform into the “Supported platforms” category, and is in the process of making that happen.*
 
 -   None at present
 
-Known to work(#Known-to-work)
+Known to work
 ================================
 
 *“Known to work” means that the LArSoft team knows of someone who has succeeded in building LArSoft and the products on which it depends, and that it purportedly runs as intended. The LArSoft team, however, does not support builds or distributions on these platforms. When such distributions are available, no warranty is made as to whether they will run as desired, or that they are free of defects. Such unofficial binary or source installs should be used at your own risk.*
 
-List of platforms under consideration(#List-of-platforms-under-consideration)
+List of platforms under consideration
 ================================================================================
 
 *“Under consideration” is intended to list platforms that have been mentioned as possible targets for future porting efforts, but where no decision has been made or timescale set, unless noted otherwise. The SciSoft team knows of no cases where someone has succeeded in either building or running LArSoft on the listed platforms.*
@@ -53,7 +53,7 @@ The ultimate list will be determined in consultation with the experiments and as
 
 -   Ubuntu LTS 20
 
-No longer supported(#No-longer-supported)
+No longer supported
 ============================================
 
 -   Note on MacOS: regular builds of LArSoft under MacOS has required a disproportionate level of effort from the support team. In addition, the requirement that SIP be disabled in order to build and run LArSoft under any macOS release, as is currently the case, prevents “full support” of MacOS even without the attendant build issues. As a result, the SciSoft team has dropped support for MacOS builds until further notice. Users who need to execute LArSoft under MacOS should use an appropriate docker image.

@@ -1,4 +1,4 @@
-LArSoft v06\_05\_00 Release Notes(#LArSoft-v06_05_00-Release-Notes)
+LArSoft v06\_05\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -27,13 +27,13 @@ LArSoft v06\_05\_00 Release Notes(#LArSoft-v06_05_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_05_00/larsoft-v06_05_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop since v06\_04\_01
 -   merge files in larsimobj with lardataobj
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsimobj has been removed
@@ -41,16 +41,16 @@ New features(#New-features)
     -   The UpdateToLArSoftObj.sh script can be run to fix user code
     -   The feature/without\_larsimobj branch is provided for argoneutcode, dunetpc, lariatsoft, and uboonecode
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_05\_00(#larsoft-v06_05_00)
+larsoft v06\_05\_00
 ------------------------------------------
 
 -   2016-08-31 Lynn Garren : Merge branch ‘release/v06\_05\_00’
@@ -61,14 +61,14 @@ larsoft v06\_05\_00(#larsoft-v06_05_00)
 -   2016-08-30 Lynn Garren : move scripts for the v05\_00\_00 refactoring into their own directory
 -   2016-08-30 Lynn Garren : the nightly build has been replaced by the CI system
 
-lareventdisplay v06\_01\_02(#lareventdisplay-v06_01_02)
+lareventdisplay v06\_01\_02
 ----------------------------------------------------------
 
 -   2016-08-31 Lynn Garren : lareventdisplay v06\_01\_02 for larsoft v06\_05\_00
 -   2016-08-30 Lynn Garren : larsimobj no longer exists
 -   2016-08-30 Lynn Garren : larsimobj/Simulation moved to lardataobj/Simulation
 
-larexamples v06\_00\_06(#larexamples-v06_00_06)
+larexamples v06\_00\_06
 --------------------------------------------------
 
 -   2016-08-31 Lynn Garren : larexamples v06\_00\_06 for larsoft v06\_05\_00
@@ -76,14 +76,14 @@ larexamples v06\_00\_06(#larexamples-v06_00_06)
 -   2016-08-30 Lynn Garren : larsimobj no longer exists
 -   2016-08-30 Lynn Garren : larsimobj/Simulation moved to lardataobj/Simulation
 
-larpandora v06\_00\_07(#larpandora-v06_00_07)
+larpandora v06\_00\_07
 ------------------------------------------------
 
 -   2016-08-31 Lynn Garren : larpandora v06\_00\_07 for larsoft v06\_05\_00
 -   2016-08-30 Lynn Garren : larsimobj/Simulation moved to lardataobj/Simulation
 -   2016-08-30 Lynn Garren : larsimobj no longer exists
 
-larana v06\_01\_03(#larana-v06_01_03)
+larana v06\_01\_03
 ----------------------------------------
 
 -   2016-08-31 Lynn Garren : larana v06\_01\_03 for larsoft v06\_05\_00
@@ -92,7 +92,7 @@ larana v06\_01\_03(#larana-v06_01_03)
 -   2016-08-30 Lynn Garren : larsimobj/Simulation moved to lardataobj/Simulation
 -   2016-08-30 Gianluca Petrillo : Removed outdated comment.
 
-larreco v06\_04\_00(#larreco-v06_04_00)
+larreco v06\_04\_00
 ------------------------------------------
 
 -   2016-08-31 Lynn Garren : larreco v06\_04\_00 for larsoft v06\_05\_00
@@ -114,7 +114,7 @@ larreco v06\_04\_00(#larreco-v06_04_00)
 -   2016-08-24 Robert Sulej : em-trakc patch selection improved
 -   2016-08-24 Dorota Stefan : change setting: segment of shower will be reconstructed as default
 
-larsim v06\_03\_02(#larsim-v06_03_02)
+larsim v06\_03\_02
 ----------------------------------------
 
 -   2016-08-31 Lynn Garren : larsim v06\_03\_02 for larsoft v06\_05\_00
@@ -122,12 +122,12 @@ larsim v06\_03\_02(#larsim-v06_03_02)
 -   2016-08-30 Lynn Garren : larsimobj no longer exists
 -   2016-08-30 Lynn Garren : larsimobj/Simulation moved to lardataobj/Simulation
 
-larevt v06\_01\_01(#larevt-v06_01_01)
+larevt v06\_01\_01
 ----------------------------------------
 
 -   2016-08-31 Lynn Garren : larevt v06\_01\_01 for larsoft v06\_05\_00
 
-lardata v06\_03\_01(#lardata-v06_03_01)
+lardata v06\_03\_01
 ------------------------------------------
 
 -   2016-08-31 Lynn Garren : lardata v06\_03\_01 for larsoft v06\_05\_00
@@ -137,7 +137,7 @@ lardata v06\_03\_01(#lardata-v06_03_01)
 -   2016-08-24 Gianluca Petrillo : Removed debug output from DetectorPropertiesStandard and its test helpers
 -   2016-08-24 Gianluca Petrillo : DetectorProperties.h was including the wrong header
 
-larcore v06\_02\_01(#larcore-v06_02_01)
+larcore v06\_02\_01
 ------------------------------------------
 
 -   2016-08-31 Lynn Garren : larcore v06\_02\_01 for larsoft v06\_05\_00
@@ -148,13 +148,13 @@ larcore v06\_02\_01(#larcore-v06_02_01)
 -   2016-07-27 Gianluca Petrillo : Added lar::providersFrom() to ServiceUtil.h
 -   2016-07-27 Gianluca Petrillo : Fixed typos in documentation.
 
-larsoftobj v1\_06\_00(#larsoftobj-v1_06_00)
+larsoftobj v1\_06\_00
 ----------------------------------------------
 
 -   2016-08-31 Lynn Garren : larsoftobj v1\_06\_00 for larsoft v06\_05\_00
 -   2016-08-30 Lynn Garren : larsimobj/Simulation is now in lardataobj
 
-lardataobj v1\_06\_00(#lardataobj-v1_06_00)
+lardataobj v1\_06\_00
 ----------------------------------------------
 
 -   2016-08-31 Lynn Garren : lardataobj v1\_06\_00 for larsoft v06\_05\_00
@@ -179,10 +179,10 @@ lardataobj v1\_06\_00(#lardataobj-v1_06_00)
 -   2016-04-18 Patrick Gartung : updates from v06\_00\_00\_rc1
 -   2016-04-07 Patrick Gartung : initial commit
 
-larcoreobj v1\_04\_02(#larcoreobj-v1_04_02)
+larcoreobj v1\_04\_02
 ----------------------------------------------
 
-larbatch v01\_23\_05(#larbatch-v01_23_05)
+larbatch v01\_23\_05
 --------------------------------------------
 
 -   2016-08-31 Lynn Garren : larbatch v01\_23\_05 for larsoft v06\_05\_00
@@ -190,7 +190,7 @@ larbatch v01\_23\_05(#larbatch-v01_23_05)
 -   2016-08-29 Herbert Greenlee : Clean up after makeup jobs.
 -   2016-08-26 Herbert Greenlee : Revamp how services are configured in fcl wrapper.
 
-larutils v1\_08\_04(#larutils-v1_08_04)
+larutils v1\_08\_04
 ------------------------------------------
 
 -   2016-08-31 Lynn Garren : larutils v1\_08\_04 for larsoft v06\_05\_00

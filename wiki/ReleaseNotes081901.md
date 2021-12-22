@@ -1,4 +1,4 @@
-LArSoft v08\_19\_01 Release Notes(#LArSoft-v08_19_01-Release-Notes)
+LArSoft v08\_19\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,14 +33,14 @@ LArSoft v08\_19\_01 Release Notes(#LArSoft-v08_19_01-Release-Notes)
 Download instructions for [larsoft v08\_19\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_19_01/larsoft-v08_19_01.html)\
 Download instructions for [just larsoftobj v08\_14\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_14_00/larsoftobj-v08_14_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   approved feature branches
 -   changes to develop
 -   last minute label name change (v08\_19\_00 should not be used)
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsim feature/wenzel\_electrondrift
@@ -58,7 +58,7 @@ New features(#New-features)
         -   In LArReco: “HitFinderTag” becomes “HitFinderTagVec” (see larreco/RecoAlg/Cluster3DAlgs/cluster3dalgorithms.fcl)
             -   icaruscode will be affected
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lardataobj feature/knoepfel\_separate\_dicts
@@ -66,20 +66,20 @@ Bug fixes(#Bug-fixes)
     -   splits the RecoBase dictionary building into 3 separate dictionary builds, which can be executed in parallel.
     -   I have not refactored the AnalysisBase dictionaries yet, but this at least is a start. You should notice an improvement in build time/memory usage. The dictionaries still take a long time to build, but it’s \~100 secs each instead of \~300 when combined into one library.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_19\_01(#larsoft-v08_19_01)
+larsoft v08\_19\_01
 ------------------------------------------
 
 -   2019-05-09 Lynn Garren : larsoft v08\_19\_01
 -   2019-05-09 Lynn Garren : larsoft v08\_19\_00 for larsoft v08\_19\_00
 -   2019-05-08 Lynn Garren : product versions
 
-lareventdisplay v08\_07\_00(#lareventdisplay-v08_07_00)
+lareventdisplay v08\_07\_00
 ----------------------------------------------------------
 
 -   2019-05-09 Lynn Garren : lareventdisplay v08\_07\_00 for larsoft v08\_19\_00
@@ -107,27 +107,27 @@ lareventdisplay v08\_07\_00(#lareventdisplay-v08_07_00)
 -   2019-04-01 Usher, Tracy L : Add the 3D drawer for optical hits and flashes
 -   2019-04-01 Usher, Tracy L : Add a 3D drawer for for the optical hits and flashes. Could be improved…
 
-larexamples v08\_02\_03(#larexamples-v08_02_03)
+larexamples v08\_02\_03
 --------------------------------------------------
 
 -   2019-05-09 Lynn Garren : larexamples v08\_02\_03 for larsoft v08\_19\_00
 
-larg4 v08\_03\_02(#larg4-v08_03_02)
+larg4 v08\_03\_02
 --------------------------------------
 
 -   2019-05-09 Lynn Garren : larg4 v08\_03\_02 for larsoft v08\_19\_00
 
-larpandora v08\_06\_03(#larpandora-v08_06_03)
+larpandora v08\_06\_03
 ------------------------------------------------
 
 -   2019-05-09 Lynn Garren : larpandora v08\_06\_03 for larsoft v08\_19\_00
 
-larwirecell v08\_05\_02(#larwirecell-v08_05_02)
+larwirecell v08\_05\_02
 --------------------------------------------------
 
 -   2019-05-09 Lynn Garren : larwirecell v08\_05\_02 for larsoft v08\_19\_00
 
-larana v08\_08\_01(#larana-v08_08_01)
+larana v08\_08\_01
 ----------------------------------------
 
 -   2019-05-09 Lynn Garren : larana v08\_08\_01
@@ -137,7 +137,7 @@ larana v08\_08\_01(#larana-v08_08_01)
 -   2019-05-07 Usher, Tracy L : Necessary modifications to allow for multiple hit producers when making MCParticle\<–\>Hit associations
 -   2019-05-06 Kyle Spurgeon : Reverted timing in OpHitAlg
 
-larreco v08\_13\_00(#larreco-v08_13_00)
+larreco v08\_13\_00
 ------------------------------------------
 
 -   2019-05-09 Lynn Garren : larreco v08\_13\_00 for larsoft v08\_19\_00
@@ -154,7 +154,7 @@ larreco v08\_13\_00(#larreco-v08_13_00)
 -   2019-04-18 Usher, Tracy L : Add a “charge asymmetry” calculation to the space point building module and “hide” it in the error matrix for recob::SpacePoint objects.
 -   2019-04-18 Usher, Tracy L : This should have been merged already?
 
-larsim v08\_07\_00(#larsim-v08_07_00)
+larsim v08\_07\_00
 ----------------------------------------
 
 -   2019-05-09 Lynn Garren : remove unused variable
@@ -163,44 +163,44 @@ larsim v08\_07\_00(#larsim-v08_07_00)
 -   2019-05-06 Hans-Joachim Wenzel : refactor electron drift, get rid of LArG4 properties service
 -   2019-05-05 Jason Stock : Fixing a typo in output messages
 
-larevt v08\_04\_02(#larevt-v08_04_02)
+larevt v08\_04\_02
 ----------------------------------------
 
 -   2019-05-09 Lynn Garren : larevt v08\_04\_02 for larsoft v08\_19\_00
 
-lardata v08\_05\_00(#lardata-v08_05_00)
+lardata v08\_05\_00
 ------------------------------------------
 
 -   2019-05-09 Lynn Garren : lardata v08\_05\_00 for larsoft v08\_19\_00
 -   2019-05-06 Gianluca Petrillo : Updated code to C++17.
 
-larcore v08\_04\_02(#larcore-v08_04_02)
+larcore v08\_04\_02
 ------------------------------------------
 
 -   2019-05-09 Lynn Garren : larcore v08\_04\_02 for larsoft v08\_19\_00
 
-larpandoracontent v03\_14\_07(#larpandoracontent-v03_14_07)
+larpandoracontent v03\_14\_07
 --------------------------------------------------------------
 
-larsoftobj v08\_14\_00(#larsoftobj-v08_14_00)
+larsoftobj v08\_14\_00
 ------------------------------------------------
 
 -   2019-05-09 Lynn Garren : larsoftobj v08\_14\_00 for larsoft v08\_19\_00
 -   2019-05-08 Lynn Garren : product versions
 
-lardataobj v08\_04\_00(#lardataobj-v08_04_00)
+lardataobj v08\_04\_00
 ------------------------------------------------
 
 -   2019-05-09 Lynn Garren : lardataobj v08\_04\_00 for larsoft v08\_19\_00
 -   2019-05-08 Lynn Garren : Merge branch ‘feature/knoepfel\_separate\_dicts’ into release/v08\_19\_00
 -   2019-04-30 Kyle Knoepfel : Factorize ROOT dictionaries.
 
-lardataalg v08\_06\_03(#lardataalg-v08_06_03)
+lardataalg v08\_06\_03
 ------------------------------------------------
 
 -   2019-05-09 Lynn Garren : lardataalg v08\_06\_03 for larsoft v08\_19\_00
 
-larcorealg v08\_11\_00(#larcorealg-v08_11_00)
+larcorealg v08\_11\_00
 ------------------------------------------------
 
 -   2019-05-09 Lynn Garren : larcorealg v08\_11\_00 for larsoft v08\_19\_00
@@ -209,13 +209,13 @@ larcorealg v08\_11\_00(#larcorealg-v08_11_00)
 -   2019-05-02 Gianluca Petrillo : Added metaprogramming to find a specified type within a list of types.
 -   2019-05-02 Gianluca Petrillo : Update for C++17.
 
-larcoreobj v08\_05\_00(#larcoreobj-v08_05_00)
+larcoreobj v08\_05\_00
 ------------------------------------------------
 
-larbatch v01\_51\_03(#larbatch-v01_51_03)
+larbatch v01\_51\_03
 --------------------------------------------
 
-larutils v1\_23\_17(#larutils-v1_23_17)
+larutils v1\_23\_17
 ------------------------------------------
 
 -   2019-05-09 Lynn Garren : larutils v1\_23\_17 for larsoft v08\_19\_00

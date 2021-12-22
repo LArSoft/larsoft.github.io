@@ -1,4 +1,4 @@
-LArSoft v06\_23\_00 Release Notes(#LArSoft-v06_23_00-Release-Notes)
+LArSoft v06\_23\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -29,30 +29,30 @@ LArSoft v06\_23\_00 Release Notes(#LArSoft-v06_23_00-Release-Notes)
 Download instructions for [larsoft v06\_23\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_23_00/larsoft-v06_23_00.html)\
 Download instructions for [just larsoftobj v1\_10\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_10_00/larsoftobj-v1_10_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   new recob::Track implementation
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   new recob::Track implementation
     -   feature/cerati\_TrackTrajectory for lardataobj, larreco, uboonecode
     -   uboonecode/CMakeLists.txt and lariatsoft/CMakeLists.txt need to add “ALLOW\_DEPRECATIONS” flag in cet\_set\_compiler\_flags()
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   parts of the lardata tests are temporarily disabled for macOS
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_23\_00(#larsoft-v06_23_00)
+larsoft v06\_23\_00
 ------------------------------------------
 
 -   2017-02-02 Lynn Garren : larsoft v06\_23\_00 for larsoft v06\_23\_00
@@ -60,17 +60,17 @@ larsoft v06\_23\_00(#larsoft-v06_23_00)
 -   2017-02-02 Lynn Garren : use prep\_build -f NULL
 -   2017-02-02 Lynn Garren : update dependency database
 
-lareventdisplay v06\_02\_11(#lareventdisplay-v06_02_11)
+lareventdisplay v06\_02\_11
 ----------------------------------------------------------
 
 -   2017-02-02 Lynn Garren : lareventdisplay v06\_02\_11 for larsoft v06\_23\_00
 
-larexamples v06\_01\_12(#larexamples-v06_01_12)
+larexamples v06\_01\_12
 --------------------------------------------------
 
 -   2017-02-02 Lynn Garren : larexamples v06\_01\_12 for larsoft v06\_23\_00
 
-larpandora v06\_06\_00(#larpandora-v06_06_00)
+larpandora v06\_06\_00
 ------------------------------------------------
 
 -   2017-02-02 Lynn Garren : larpandora v06\_06\_00 for larsoft v06\_23\_00
@@ -80,18 +80,18 @@ larpandora v06\_06\_00(#larpandora-v06_06_00)
 -   2017-01-31 John Marshall : Add option to write geometry information to xml file.
 -   2017-01-12 John Marshall : Add ability to provide unique PandoraSettings file for each Pandora instance. Cosmetic changes.
 
-larwirecell v06\_00\_09(#larwirecell-v06_00_09)
+larwirecell v06\_00\_09
 --------------------------------------------------
 
 -   2017-02-02 Lynn Garren : larwirecell v06\_00\_09 for larsoft v06\_23\_00
 
-larana v06\_03\_15(#larana-v06_03_15)
+larana v06\_03\_15
 ----------------------------------------
 
 -   2017-02-02 Lynn Garren : add missing library
 -   2017-02-02 Lynn Garren : larana v06\_03\_15 for larsoft v06\_23\_00
 
-larreco v06\_18\_00(#larreco-v06_18_00)
+larreco v06\_18\_00
 ------------------------------------------
 
 -   2017-02-02 Lynn Garren : larreco v06\_18\_00 for larsoft v06\_23\_00
@@ -126,31 +126,31 @@ larreco v06\_18\_00(#larreco-v06_18_00)
 -   2017-01-25 Usher, Tracy L : Remove renegade hit tick protection (was only necessary for special case)
 -   2017-01-25 Usher, Tracy L : Add option which will break “long” pulses into a series of gaussians, each gaussian’s parameters will be from the integrated ADC counts over baseline in its range. Number and width of gaussians is fhicl controllable… setting both to large numbers will revert to the current behavior of one gaussian per long pulse train.
 
-larsim v06\_11\_01(#larsim-v06_11_01)
+larsim v06\_11\_01
 ----------------------------------------
 
 -   2017-02-02 Lynn Garren : larsim v06\_11\_01 for larsoft v06\_23\_00
 
-larevt v06\_07\_06(#larevt-v06_07_06)
+larevt v06\_07\_06
 ----------------------------------------
 
 -   2017-02-02 Lynn Garren : larevt v06\_07\_06 for larsoft v06\_23\_00
 
-lardata v06\_14\_01(#lardata-v06_14_01)
+lardata v06\_14\_01
 ------------------------------------------
 
 -   2017-02-02 Lynn Garren : lardata v06\_14\_01 for larsoft v06\_23\_00
 -   2017-01-30 Gianluca Petrillo : Spplit tests of for\_each\_associated\_group() and associated\_groups().
 
-larcore v06\_05\_02(#larcore-v06_05_02)
+larcore v06\_05\_02
 ------------------------------------------
 
-larsoftobj v1\_10\_00(#larsoftobj-v1_10_00)
+larsoftobj v1\_10\_00
 ----------------------------------------------
 
 -   2017-02-02 Lynn Garren : larsoftobj v1\_10\_00 for larsoft v06\_23\_00
 
-lardataobj v1\_10\_00(#lardataobj-v1_10_00)
+lardataobj v1\_10\_00
 ----------------------------------------------
 
 -   2017-02-02 Lynn Garren : Merge branch ‘release/v06\_23\_00’
@@ -195,15 +195,15 @@ lardataobj v1\_10\_00(#lardataobj-v1_10_00)
 -   2017-01-20 Gianluca Petrillo : Changed the behaviour of legacy Trajectory::NumberFitMomentum().
 -   2017-01-05 Gianluca Petrillo : Candidate implementation for the lowest level track classes.
 
-larcoreobj v1\_06\_02(#larcoreobj-v1_06_02)
+larcoreobj v1\_06\_02
 ----------------------------------------------
 
-larbatch v01\_26\_04(#larbatch-v01_26_04)
+larbatch v01\_26\_04
 --------------------------------------------
 
 -   2017-02-02 Lynn Garren : larbatch v01\_26\_04 for larsoft v06\_23\_00
 -   2017-01-30 yuntse : Improve error handling with respect to pubs input.
 -   2017-01-30 Herbert Greenlee : Improve input checking.
 
-larutils v1\_11\_00(#larutils-v1_11_00)
+larutils v1\_11\_00
 ------------------------------------------

@@ -1,4 +1,4 @@
-Policy for including new packages in LArSoft(#Policy-for-including-new-packages-in-LArSoft)
+Policy for including new packages in LArSoft
 ==============================================================================================
 
 LArSoft’s policy for including new external software packages in the LArSoft distribution:

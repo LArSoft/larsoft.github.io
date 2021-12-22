@@ -1,4 +1,4 @@
-LArSoft v09\_06\_00 Release Notes(#LArSoft-v09_06_00-Release-Notes)
+LArSoft v09\_06\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_06\_00 Release Notes(#LArSoft-v09_06_00-Release-Notes)
 Download instructions for [larsoft v09\_06\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_06_00/larsoft-v09_06_00.html)\
 Download instructions for [just larsoftobj v09\_01\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_01_01/larsoftobj-v09_01_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandoracontent PR 12
@@ -60,40 +60,40 @@ New features(#New-features)
         -   Use the local electric field when calculating the recombination in conversion from dQ/dx -\> dE/dx
     -   Default behaviour is unchanged and experiments must choose to enable the corrections via fcl if they wish to use them.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larcorealg PR 11
     -   This should solve issue [\#25003](/redmine/issues/25003 "Bug: Bug in geo::OpDetGeo isBar() when using sphere/semi-sphere optical detectors  (Closed)").
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_06\_00(#larsoft-v09_06_00)
+larsoft v09\_06\_00
 ------------------------------------------
 
 -   2020-10-07 Lynn Garren : larsoft v09\_06\_00 for larsoft v09\_06\_00
 -   2020-10-07 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_08(#lareventdisplay-v09_00_08)
+lareventdisplay v09\_00\_08
 ----------------------------------------------------------
 
 -   2020-10-07 Lynn Garren : lareventdisplay v09\_00\_08 for larsoft v09\_06\_00
 
-larexamples v09\_00\_08(#larexamples-v09_00_08)
+larexamples v09\_00\_08
 --------------------------------------------------
 
 -   2020-10-07 Lynn Garren : larexamples v09\_00\_08 for larsoft v09\_06\_00
 
-larg4 v09\_01\_01(#larg4-v09_01_01)
+larg4 v09\_01\_01
 --------------------------------------
 
 -   2020-10-07 Lynn Garren : larg4 v09\_01\_01 for larsoft v09\_06\_00
 
-larpandora v09\_02\_00(#larpandora-v09_02_00)
+larpandora v09\_02\_00
 ------------------------------------------------
 
 -   2020-10-07 Lynn Garren : larpandora v09\_02\_00 for larsoft v09\_06\_00
@@ -101,53 +101,53 @@ larpandora v09\_02\_00(#larpandora-v09_02_00)
 -   2020-09-30 AndyChappell : Merge pull request \#7 from etyley/feature/etyley\_sce\_v9
 -   2020-09-22 Edward Tyley : Added SCE corrections to TrajPoint dEdx tool. N.B. this requires input to have been corrected using SCECorrections module
 
-larsimrad v09\_00\_08(#larsimrad-v09_00_08)
+larsimrad v09\_00\_08
 ----------------------------------------------
 
 -   2020-10-07 Lynn Garren : larsimrad v09\_00\_08 for larsoft v09\_06\_00
 -   2020-10-07 Lynn Garren : find headers
 
-larrecodnn v09\_01\_03(#larrecodnn-v09_01_03)
+larrecodnn v09\_01\_03
 ------------------------------------------------
 
 -   2020-10-07 Lynn Garren : larrecodnn v09\_01\_03 for larsoft v09\_06\_00
 
-larwirecell v09\_01\_03(#larwirecell-v09_01_03)
+larwirecell v09\_01\_03
 --------------------------------------------------
 
 -   2020-10-07 Lynn Garren : larwirecell v09\_01\_03 for larsoft v09\_06\_00
 
-larana v09\_00\_08(#larana-v09_00_08)
+larana v09\_00\_08
 ----------------------------------------
 
 -   2020-10-07 Lynn Garren : larana v09\_00\_08 for larsoft v09\_06\_00
 
-larreco v09\_02\_03(#larreco-v09_02_03)
+larreco v09\_02\_03
 ------------------------------------------
 
 -   2020-10-07 Lynn Garren : larreco v09\_02\_03 for larsoft v09\_06\_00
 
-larsim v09\_04\_01(#larsim-v09_04_01)
+larsim v09\_04\_01
 ----------------------------------------
 
 -   2020-10-07 Lynn Garren : larsim v09\_04\_01 for larsoft v09\_06\_00
 
-larevt v09\_00\_06(#larevt-v09_00_06)
+larevt v09\_00\_06
 ----------------------------------------
 
 -   2020-10-07 Lynn Garren : larevt v09\_00\_06 for larsoft v09\_06\_00
 
-lardata v09\_01\_01(#lardata-v09_01_01)
+lardata v09\_01\_01
 ------------------------------------------
 
 -   2020-10-07 Lynn Garren : lardata v09\_01\_01 for larsoft v09\_06\_00
 
-larcore v09\_00\_01(#larcore-v09_00_01)
+larcore v09\_00\_01
 ------------------------------------------
 
 -   2020-10-07 Lynn Garren : larcore v09\_00\_01 for larsoft v09\_06\_00
 
-larpandoracontent v03\_21\_00(#larpandoracontent-v03_21_00)
+larpandoracontent v03\_21\_00
 --------------------------------------------------------------
 
 -   2020-10-07 Lynn Garren : larpandoracontent v03\_21\_00 for larsoft v09\_06\_00
@@ -212,18 +212,18 @@ larpandoracontent v03\_21\_00(#larpandoracontent-v03_21_00)
 -   2020-06-29 Isobel Mawby : Class creation
 -   2019-10-23 StevenGreen1 : Adding X0 to output validation root trees.
 
-larsoftobj v09\_01\_01(#larsoftobj-v09_01_01)
+larsoftobj v09\_01\_01
 ------------------------------------------------
 
 -   2020-10-07 Lynn Garren : larsoftobj v09\_01\_01 for larsoft v09\_06\_00
 -   2020-10-07 Lynn Garren : product versions
 
-lardataobj v09\_00\_01(#lardataobj-v09_00_01)
+lardataobj v09\_00\_01
 ------------------------------------------------
 
 -   2020-10-07 Lynn Garren : lardataobj v09\_00\_01 for larsoft v09\_06\_00
 
-lardataalg v09\_01\_01(#lardataalg-v09_01_01)
+lardataalg v09\_01\_01
 ------------------------------------------------
 
 -   2020-10-07 Lynn Garren : lardataalg v09\_01\_01 for larsoft v09\_06\_00
@@ -232,7 +232,7 @@ lardataalg v09\_01\_01(#lardataalg-v09_01_01)
 -   2020-10-02 Gianluca Petrillo : … and I forgot the units.
 -   2020-10-02 Gianluca Petrillo : Added dump of LAr density to DetectorProperties “test”
 
-larcorealg v09\_00\_01(#larcorealg-v09_00_01)
+larcorealg v09\_00\_01
 ------------------------------------------------
 
 -   2020-10-07 Lynn Garren : larcorealg v09\_00\_01 for larsoft v09\_06\_00
@@ -241,18 +241,18 @@ larcorealg v09\_00\_01(#larcorealg-v09_00_01)
 -   2020-10-05 Gianluca Petrillo : Fixed bug in \`OpDetGeo::isShape()\` implementation.
 -   2020-10-02 Gianluca Petrillo : Fixed geo::OpDetGeo::isBar().
 
-larcoreobj v09\_00\_00(#larcoreobj-v09_00_00)
+larcoreobj v09\_00\_00
 ------------------------------------------------
 
-webevd v09\_00\_06(#webevd-v09_00_06)
+webevd v09\_00\_06
 ----------------------------------------
 
 -   2020-10-07 Lynn Garren : webevd v09\_00\_06 for larsoft v09\_06\_00
 
-larbatch v01\_53\_01(#larbatch-v01_53_01)
+larbatch v01\_53\_01
 --------------------------------------------
 
-larutils v1\_27\_00(#larutils-v1_27_00)
+larutils v1\_27\_00
 ------------------------------------------
 
 -   2020-10-07 Lynn Garren : larutils v1\_27\_00 for larsoft v09\_06\_00

@@ -1,4 +1,4 @@
-LArSoft v09\_16\_01 Release Notes(#LArSoft-v09_16_01-Release-Notes)
+LArSoft v09\_16\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_16\_01 Release Notes(#LArSoft-v09_16_01-Release-Notes)
 Download instructions for [larsoft v09\_16\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_16_01/larsoft-v09_16_01.html)\
 Download instructions for [just larsoftobj v09\_05\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_00/larsoftobj-v09_05_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   webevd PRs 20, 21, 22, and 23
@@ -55,7 +55,7 @@ New features(#New-features)
     -   This PR adds the capability to make use of PandoraMonitoring API functionality added in a previous SDK update for saving events and also updates the Makefile-based build available for standalone instances of Pandora (the build for LArSoft is unchanged).
     -   These changes will not alter product outputs for any experiment.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larrecodnn PR 15
@@ -63,34 +63,34 @@ Bug fixes(#Bug-fixes)
     -   This is a workaround to Redmine issue [\#25476](/redmine/issues/25476 "Support: Large memory usage in analyzer job (Closed)").
     -   Basically the module PointIdTrainingData creates several histograms per event, and the commit is forcing ROOT to write them to file at the end of each event instead of “automatically” at the end of the job.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_16\_01(#larsoft-v09_16_01)
+larsoft v09\_16\_01
 ------------------------------------------
 
 -   2021-02-11 Lynn Garren : larsoft v09\_16\_01 for larsoft v09\_16\_01
 -   2021-02-11 Lynn Garren : product versions
 -   2021-02-04 Lynn Garren : fix larwire distribution
 
-lareventdisplay v09\_01\_00(#lareventdisplay-v09_01_00)
+lareventdisplay v09\_01\_00
 ----------------------------------------------------------
 
-larexamples v09\_01\_00(#larexamples-v09_01_00)
+larexamples v09\_01\_00
 --------------------------------------------------
 
-larpandora v09\_05\_01(#larpandora-v09_05_01)
+larpandora v09\_05\_01
 ------------------------------------------------
 
 -   2021-02-11 Lynn Garren : larpandora v09\_05\_01 for larsoft v09\_16\_01
 
-larsimrad v09\_01\_00(#larsimrad-v09_01_00)
+larsimrad v09\_01\_00
 ----------------------------------------------
 
-larrecodnn v09\_05\_01(#larrecodnn-v09_05_01)
+larrecodnn v09\_05\_01
 ------------------------------------------------
 
 -   2021-02-11 Lynn Garren : larrecodnn v09\_05\_01 for larsoft v09\_16\_01
@@ -98,31 +98,31 @@ larrecodnn v09\_05\_01(#larrecodnn-v09_05_01)
 -   2021-02-10 Lynn Garren : Merge pull request \#15 from PetrilloAtWork/feature/gp\_PointIdTrainingData
 -   2021-02-05 Gianluca Petrillo : PointIdTrainingData: write and dispose of histograms as soon as possible.
 
-larwirecell v09\_02\_00(#larwirecell-v09_02_00)
+larwirecell v09\_02\_00
 --------------------------------------------------
 
-larana v09\_01\_00(#larana-v09_01_00)
+larana v09\_01\_00
 ----------------------------------------
 
-larreco v09\_05\_00(#larreco-v09_05_00)
+larreco v09\_05\_00
 ------------------------------------------
 
-larsim v09\_09\_00(#larsim-v09_09_00)
+larsim v09\_09\_00
 ----------------------------------------
 
-larg4 v09\_03\_00(#larg4-v09_03_00)
+larg4 v09\_03\_00
 --------------------------------------
 
-larevt v09\_02\_00(#larevt-v09_02_00)
+larevt v09\_02\_00
 ----------------------------------------
 
-lardata v09\_02\_00(#lardata-v09_02_00)
+lardata v09\_02\_00
 ------------------------------------------
 
-larcore v09\_02\_00(#larcore-v09_02_00)
+larcore v09\_02\_00
 ------------------------------------------
 
-larpandoracontent v03\_22\_06(#larpandoracontent-v03_22_06)
+larpandoracontent v03\_22\_06
 --------------------------------------------------------------
 
 -   2021-02-11 Lynn Garren : larpandoracontent v03\_22\_06 for larsoft v09\_16\_01
@@ -131,22 +131,22 @@ larpandoracontent v03\_22\_06(#larpandoracontent-v03_22_06)
 -   2019-11-25 CrossR : Hook up save event API.
 -   2020-12-18 John Marshall : Update dl sources in Makefile.
 
-larsoftobj v09\_05\_00(#larsoftobj-v09_05_00)
+larsoftobj v09\_05\_00
 ------------------------------------------------
 
-lardataobj v09\_01\_00(#lardataobj-v09_01_00)
+lardataobj v09\_01\_00
 ------------------------------------------------
 
-lardataalg v09\_04\_00(#lardataalg-v09_04_00)
+lardataalg v09\_04\_00
 ------------------------------------------------
 
-larcorealg v09\_01\_00(#larcorealg-v09_01_00)
+larcorealg v09\_01\_00
 ------------------------------------------------
 
-larcoreobj v09\_02\_00(#larcoreobj-v09_02_00)
+larcoreobj v09\_02\_00
 ------------------------------------------------
 
-webevd v09\_04\_00(#webevd-v09_04_00)
+webevd v09\_04\_00
 ----------------------------------------
 
 -   2021-02-11 Lynn Garren : webevd v09\_04\_00 for larsoft v09\_16\_01
@@ -181,8 +181,8 @@ webevd v09\_04\_00(#webevd-v09_04_00)
 -   2021-02-02 Christopher Backhouse : Make use of ROIs in RawDigit to minimize amount of json transmitted.
 -   2021-02-02 Christopher Backhouse : Start of a wire signal viewing mode.
 
-larbatch v01\_54\_01(#larbatch-v01_54_01)
+larbatch v01\_54\_01
 --------------------------------------------
 
-larutils v1\_27\_04(#larutils-v1_27_04)
+larutils v1\_27\_04
 ------------------------------------------

@@ -1,4 +1,4 @@
-Breaking Changes(#Breaking-Changes)
+Breaking Changes
 ======================================
 
 -   **Table of contents**
@@ -28,7 +28,7 @@ Breaking Changes(#Breaking-Changes)
 
 This is an attempt to track all the “breaking” changes which will require a general maintenance action to have the code back working.
 
-Table of recent changes(#Table-of-recent-changes) {.wiki-class-count}
+Table of recent changes
 ----------------------------------------------------
 
   Date       Version/commit   Description                                                                                                         Issue
@@ -56,26 +56,26 @@ Table of recent changes(#Table-of-recent-changes) {.wiki-class-count}
   20181213   `v08_00_00`      [Update from art v2 to art v3](Update_from_art_v2_to_art_v3)                         
   20181129   `v07_12_00`      [Remove deprecated members and methods from recob::Track](#Remove-deprecated-members-and-methods-from-recobTrack)   
 
-Changes for larsoft v06\_xx\_yy and previous(#Changes-for-larsoft-v06_xx_yy-and-previous) {.wiki-class-count}
+Changes for larsoft v06\_xx\_yy and previous
 --------------------------------------------------------------------------------------------
 
 For ease of navigation, older breaking changes have been moved to [Breaking Changes prior to v07\_00\_00](Breaking_Changes_prior_to_v07_00_00)
 
-mrb 5(#mrb-5) {.wiki-class-count}
+mrb 5
 ----------------
 
 **When was committed**: [v09\_31\_00](ReleaseNotes093100)\
 **Motivation**: mrb 5 and cetbuildtools 8 are required when building with art 3.09 and later\
 **Fix**: Please see the [Comments about mrb 5 and cetbuildtools 8](Comments_about_mrb_5_and_cetbuildtools_8) if you have problems.
 
-Refactor EventWeight interface to GENIE v3(#Refactor-EventWeight-interface-to-GENIE-v3) {.wiki-class-count}
+Refactor EventWeight interface to GENIE v3
 ------------------------------------------------------------------------------------------
 
 **When was committed**: [v09\_21\_00](ReleaseNotes092100)\
 **Motivation**: Breaking changes were introduced in GENIE v3 which made the previous implementation of GenieWeightCalc incompatible. Slides [here](https://indico.fnal.gov/event/47983/contributions/209278/attachments/140332/176331/genie_v3_reweight_larsoft.pdf)\
 **Fix**: See the [technote](https://cdcvs.fnal.gov/redmine/attachments/63586/genieweightcalc_technote.pdf)
 
-root v6\_22\_06a typo(#root-v6_22_06a-typo) {.wiki-class-count}
+root v6\_22\_06a typo
 ----------------------------------------------
 
 **When was committed**: [v09\_16\_00](ReleaseNotes091600)\
@@ -109,7 +109,7 @@ root v6\_22\_06a typo(#root-v6_22_06a-typo) {.wiki-class-count}
 \
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-larrecodnn new directory structure(#larrecodnn-new-directory-structure) {.wiki-class-count}
+larrecodnn new directory structure
 --------------------------------------------------------------------------
 
 **When was committed**: [v09\_13\_00](ReleaseNotes091300)\
@@ -118,7 +118,7 @@ larrecodnn new directory structure(#larrecodnn-new-directory-structure) {.wiki-c
 **Fix**: run LArRecodnnNewDirs.sh\
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-Geometry configuration check(#Geometry-configuration-check) {.wiki-class-count}
+Geometry configuration check
 --------------------------------------------------------------
 
 **When was committed**: [v09\_12\_00](ReleaseNotes091200)\
@@ -129,13 +129,13 @@ Geometry configuration check(#Geometry-configuration-check) {.wiki-class-count}
 **More information**: [larcore PR 6](https://github.com/LArSoft/larcore/pull/6), [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)"), and [Geometry configuration check breaking change documentation](Geometry_configuration_check_breaking_change_documentation)\
 **Contact**: Gianluca Petrillo
 
-larsoft v09\_00\_00(#larsoft-v09_00_00) {.wiki-class-count}
+larsoft v09\_00\_00
 ------------------------------------------
 
 **When was committed**: [v09\_00\_00](ReleaseNotes090000)\
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-Update to nutools v3\_05\_00 with nuevdb(#Update-to-nutools-v3_05_00-with-nuevdb) {.wiki-class-count}
+Update to nutools v3\_05\_00 with nuevdb
 ------------------------------------------------------------------------------------
 
 **When was committed**: [v08\_36\_00](ReleaseNotes083600)\
@@ -145,7 +145,7 @@ Update to nutools v3\_05\_00 with nuevdb(#Update-to-nutools-v3_05_00-with-nuevdb
 **Fix**: run UseNuevdb.sh (found in nutools v3\_05\_00 or later)\
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-Using boost v1\_70\_0(#Using-boost-v1_70_0) {.wiki-class-count}
+Using boost v1\_70\_0
 ----------------------------------------------
 
 **When was committed**: [v08\_36\_00](ReleaseNotes083600)\
@@ -155,7 +155,7 @@ Using boost v1\_70\_0(#Using-boost-v1_70_0) {.wiki-class-count}
 **Fix**: use cetbuildtools v7\_14\_00 or later\
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-Update to art v3\_03\_01(#Update-to-art-v3_03_01) {.wiki-class-count}
+Update to art v3\_03\_01
 ----------------------------------------------------
 
 **When was committed**: [v08\_36\_00](ReleaseNotes083600)\
@@ -165,7 +165,7 @@ Update to art v3\_03\_01(#Update-to-art-v3_03_01) {.wiki-class-count}
 **Fix**: see the [art series 3.03](/redmine/projects/art/wiki/Series_303) page for art breaking changes \
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-Lengthen raw::RawDigit fSamples(#Lengthen-rawRawDigit-fSamples) {.wiki-class-count}
+Lengthen raw::RawDigit fSamples
 ------------------------------------------------------------------
 
 **When was committed**: [v08\_35\_01](ReleaseNotes083501)\
@@ -191,7 +191,7 @@ Lengthen raw::RawDigit fSamples(#Lengthen-rawRawDigit-fSamples) {.wiki-class-cou
 \
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-Removal of Calorimetry hard-coded values(#Removal-of-Calorimetry-hard-coded-values) {.wiki-class-count}
+Removal of Calorimetry hard-coded values
 --------------------------------------------------------------------------------------
 
 **When was committed**: [v08\_33\_00](ReleaseNotes083300)\
@@ -201,7 +201,7 @@ Removal of Calorimetry hard-coded values(#Removal-of-Calorimetry-hard-coded-valu
 **Fix**: none needed; to restore the old behaviour, add to `Calorimetry` module configuration: `NotOnTrackZcut: -100.0`\
 **Contact**: Gianluca Petrillo
 
-artdaq\_core calls clock\_gettime(#artdaq_core-calls-clock_gettime) {.wiki-class-count}
+artdaq\_core calls clock\_gettime
 ----------------------------------------------------------------------
 
 **When was committed**: [v08\_31\_00](ReleaseNotes083100)\
@@ -211,7 +211,7 @@ artdaq\_core calls clock\_gettime(#artdaq_core-calls-clock_gettime) {.wiki-class
 **Fix**: link with `${ARTDAQ-CORE_UTILITIES}`, which is defined in artdaq\_coreConfig.cmake\
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-macOS missing TGX11(#macOS-missing-TGX11) {.wiki-class-count}
+macOS missing TGX11
 --------------------------------------------
 
 **When was committed**: [v08\_31\_00](ReleaseNotes083100)\
@@ -251,14 +251,14 @@ Use the root generic graphics initialization instead of explicit X11 initializat
 \
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-root IO rules(#root-IO-rules) {.wiki-class-count}
+root IO rules
 --------------------------------
 
 -   With root v6\_16\_00, I/O rules were broken. This is a problem when reading certain old data files (see [\#23013](/redmine/issues/23013 "Bug: Unable to read recob::Vertex position information (Closed)")).
 -   A working fix for the problem is available in root v6\_18\_04.
 -   Certain I/O rules involving Double32\_t must be removed from classes\_def.xml files if they exist. This has been done for larsoft v08\_31\_00. Please see [\#23013](/redmine/issues/23013 "Bug: Unable to read recob::Vertex position information (Closed)") for more information.
 
-code cleanup(#code-cleanup) {.wiki-class-count}
+code cleanup
 ------------------------------
 
 **When was committed**: [v08\_28\_01](ReleaseNotes082801)\
@@ -268,7 +268,7 @@ code cleanup(#code-cleanup) {.wiki-class-count}
 **Fix**: \
 Add appropriate headers to the code. It may also be necessary to add libraries to the cmake link list. If available, use feature/knoepfel\_rm\_unused\_headers.
 
-genie v3\_00\_06(#genie-v3_00_06) {.wiki-class-count}
+genie v3\_00\_06
 ------------------------------------
 
 **When was committed**: [v08\_28\_00](ReleaseNotes082800)\
@@ -280,7 +280,7 @@ Run UseGenie3.sh (found in nugen v1\_03\_00 and later). This script will update 
 There is NO one-to-one mapping from genie v2 libraries to genie v3 libraries. Please use the provided feature branch, feature/team\_for\_v08\_28\_00.\
 The genie\_xsec qualifiers have also changed.
 
-nutools v3\_02\_00(#nutools-v3_02_00) {.wiki-class-count}
+nutools v3\_02\_00
 ----------------------------------------
 
 **When was committed**: [v08\_27\_00](ReleaseNotes082700)\
@@ -292,7 +292,7 @@ Run UseNuG4.sh and add `find_ups_product(nug4)` to the top level CMakeLists.txt 
 The migration assistants is available after a setup of nutools v3\_02\_00 or later.\
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-nutools v3\_00\_00(#nutools-v3_00_00) {.wiki-class-count}
+nutools v3\_00\_00
 ----------------------------------------
 
 **When was committed**: [v08\_22\_00](ReleaseNotes082200)\
@@ -305,7 +305,7 @@ For packages using GENIE, run UseNuGen.sh\
 Both migration assistants are available after a setup of nutools v3\_00\_00 or later.\
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-New PhotonVisibilityService features(#New-PhotonVisibilityService-features) {.wiki-class-count}
+New PhotonVisibilityService features
 ------------------------------------------------------------------------------
 
 **When was committed**: [v08\_15\_00](ReleaseNotes081500)\
@@ -315,7 +315,7 @@ New PhotonVisibilityService features(#New-PhotonVisibilityService-features) {.wi
 **Fix**: Several different cases are possible. Please see the *additional material* slides in [the presentation of the new feature](https://indico.fnal.gov/event/20409/contribution/2/material/slides/0.pdf) at [LArSoft coordination meeting on April 9, 2019](https://indico.fnal.gov/event/20409) .\
 **Contact**: [Gianluca Petrillo](mailto:petrillo@slac.stanford.edu)
 
-Remove deprecated members and methods from recob::Track(#Remove-deprecated-members-and-methods-from-recobTrack) {.wiki-class-count}
+Remove deprecated members and methods from recob::Track
 ------------------------------------------------------------------------------------------------------------------
 
 **When was committed**: [v07\_12\_00](ReleaseNotes071200)

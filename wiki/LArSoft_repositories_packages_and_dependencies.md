@@ -1,4 +1,4 @@
-LArSoft repositories packages and dependencies(#LArSoft-repositories-packages-and-dependencies)
+LArSoft repositories packages and dependencies
 ==================================================================================================
 
 -   **Table of contents**
@@ -38,104 +38,104 @@ Note that arrows in the dependency diagram point to repositories that resolve di
 
 ![Dependencies diagram](/redmine/attachments/download/62527/dependencies.png "Dependencies diagram")
 
-larg4(#larg4) {.wiki-class-count}
+larg4
 ----------------
 
 -   interface to Geant4
 
-larwirecell(#larwirecell) {.wiki-class-count}
+larwirecell
 ----------------------------
 
 -   interface to the Wire Cell Toolkit
 
-larpandora(#larpandora) {.wiki-class-count}
+larpandora
 --------------------------
 
 -   LArSoft interface to the pandora reconstruction package
 
-larsoft(#larsoft) {.wiki-class-count}
+larsoft
 --------------------
 
 -   An umbrella product which is used to setup all the individual larsoft products
 
-larana(#larana) {.wiki-class-count}
+larana
 ------------------
 
 -   Secondary reconstruction/analysis e.g. PID
 
-larreco(#larreco) {.wiki-class-count}
+larreco
 --------------------
 
 -   Primary reconstruction modules
 
-larsim(#larsim) {.wiki-class-count}
+larsim
 ------------------
 
 -   Simulation modules
 
-larevt(#larevt) {.wiki-class-count}
+larevt
 ------------------
 
 -   Low level algorithm and utility code that may be needed at various levels of the simulation and reconstruction, and that use data products. Interface services to conditions databases typically live here.
 
-lardata(#lardata) {.wiki-class-count}
+lardata
 --------------------
 
 -   Utilities and services that manipulate or provide simplified interfaces to data products.
 
-larcore(#larcore) {.wiki-class-count}
+larcore
 --------------------
 
 -   Low level utilities, functions and services
 
 The following repositories have no framework dependencies, and can be built and used in alternate frameworks and development environments
 
-larrecodnn(#larrecodnn) {.wiki-class-count}
+larrecodnn
 --------------------------
 
 -   Deep learning algorithms and their dependencies
 
-larsimdnn(#larsimdnn) {.wiki-class-count}
+larsimdnn
 ------------------------
 
 -   Simulations that use deep learning algorithms
 
-larsimrad(#larsimrad) {.wiki-class-count}
+larsimrad
 ------------------------
 
 -   Simulations for radiologicals
 
-larsoftobj(#larsoftobj) {.wiki-class-count}
+larsoftobj
 --------------------------
 
 -   umbrella that sets up all the individual lar\*obj and lar\*alg
 
-lardataalg(#lardataalg) {.wiki-class-count}
+lardataalg
 --------------------------
 
 -   algorithms shared between larsoft and art-independent frameworks such as gallery, larlite, etc.
 
-lardataobj(#lardataobj) {.wiki-class-count}
+lardataobj
 --------------------------
 
 -   common data products for reconstruction, analysis, etc shared between larsoft and art-independent frameworks
 
-larcorealg(#larcorealg) {.wiki-class-count}
+larcorealg
 --------------------------
 
 -   core algorithms shared between larsoft and art-independent frameworks such as gallery, larlite, etc.
 
-larcoreobj(#larcoreobj) {.wiki-class-count}
+larcoreobj
 --------------------------
 
 -   data products for geometry and core utilities that are shared between larsoft and art-independent frameworks
 
-larsoft\_data(#larsoft_data) {.wiki-class-count}
+larsoft\_data
 -------------------------------
 
 -   A special UPS package that contains configuration data in large, binary, or other file types that are unsuitable for storage in code repositories. Version control is managed through the UPS system. Because there is no corresponding code repository, this product is *not* included in the `larsoft_suite` repositories, and *is not* part of core LArSoft. Open a LArSoft issue ticket to discuss additions or modifications to the contents of this product.
 
-Experiment Code(#Experiment-Code) {.wiki-class-count}
+Experiment Code
 ------------------------------------
 
 The following diagram shows how experiment code fits into the system.

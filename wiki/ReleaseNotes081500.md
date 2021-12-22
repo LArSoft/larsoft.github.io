@@ -1,4 +1,4 @@
-LArSoft v08\_15\_00 Release Notes(#LArSoft-v08_15_00-Release-Notes)
+LArSoft v08\_15\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v08\_15\_00 Release Notes(#LArSoft-v08_15_00-Release-Notes)
 Download instructions for [larsoft v08\_15\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_15_00/larsoft-v08_15_00.html)\
 Download instructions for [just larsoftobj v08\_10\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_10_00/larsoftobj-v08_10_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandoracontent “feature/sgreen\_CRTagging”
@@ -60,21 +60,21 @@ New features(#New-features)
     -   larsim: feature/davidc\_mcreco\_segfaultfix
     -   larreco: feature/cerati\_fix-vtx-fit-bug-v08\_05\_00\_br
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   resolve [\#22250](/redmine/issues/22250 "Necessary Maintenance: Remove DUNE and SBND specific code from  larsim/PhotonPropagation/photpropservices.fcl  and larsi... (Closed)")
     -   larsim, dunetpc and sbndcode “feature/dgg\_opt\_maintenance”
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v3\_01\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_15\_00(#larsoft-v08_15_00)
+larsoft v08\_15\_00
 ------------------------------------------
 
 -   2019-04-10 Lynn Garren : larsoft v08\_15\_00 for larsoft v08\_15\_00
@@ -82,7 +82,7 @@ larsoft v08\_15\_00(#larsoft-v08_15_00)
 -   2019-04-09 Lynn Garren : mrb v3\_01\_01
 -   2019-04-08 Lynn Garren : guideline\_sl v2\_0\_0
 
-lareventdisplay v08\_05\_00(#lareventdisplay-v08_05_00)
+lareventdisplay v08\_05\_00
 ----------------------------------------------------------
 
 -   2019-04-10 Lynn Garren : lareventdisplay v08\_05\_00 for larsoft v08\_15\_00
@@ -94,35 +94,35 @@ lareventdisplay v08\_05\_00(#lareventdisplay-v08_05_00)
 -   2019-04-03 Tingjun Yang : Use index instead of ID to set shower color.
 -   2019-04-03 Tingjun Yang : Add protection if the data product does not exist.
 
-larexamples v08\_01\_14(#larexamples-v08_01_14)
+larexamples v08\_01\_14
 --------------------------------------------------
 
 -   2019-04-10 Lynn Garren : larexamples v08\_01\_14 for larsoft v08\_15\_00
 -   2019-03-21 Kyle Knoepfel : Remove unnecessary headers.
 
-larg4 v08\_01\_12(#larg4-v08_01_12)
+larg4 v08\_01\_12
 --------------------------------------
 
 -   2019-04-10 Lynn Garren : larg4 v08\_01\_12 for larsoft v08\_15\_00
 
-larpandora v08\_05\_07(#larpandora-v08_05_07)
+larpandora v08\_05\_07
 ------------------------------------------------
 
 -   2019-04-10 Lynn Garren : larpandora v08\_05\_07 for larsoft v08\_15\_00
 -   2019-03-21 Kyle Knoepfel : Remove unnecessary headers.
 
-larwirecell v08\_03\_05(#larwirecell-v08_03_05)
+larwirecell v08\_03\_05
 --------------------------------------------------
 
 -   2019-04-10 Lynn Garren : larwirecell v08\_03\_05 for larsoft v08\_15\_00
 
-larana v08\_04\_05(#larana-v08_04_05)
+larana v08\_04\_05
 ----------------------------------------
 
 -   2019-04-10 Lynn Garren : larana v08\_04\_05 for larsoft v08\_15\_00
 -   2019-04-05 Gianluca Petrillo : Code updated after PhotonVisibilityService changes.
 
-larreco v08\_11\_00(#larreco-v08_11_00)
+larreco v08\_11\_00
 ------------------------------------------
 
 -   2019-04-10 Lynn Garren : larreco v08\_11\_00 for larsoft v08\_15\_00
@@ -135,7 +135,7 @@ larreco v08\_11\_00(#larreco-v08_11_00)
 -   2019-01-30 Lynn Garren : larreco v08\_04\_00\_01 for larsoft v08\_05\_00\_br
 -   2019-01-08 Lynn Garren : larreco v08\_00\_00\_01 for larsoft v08\_00\_00\_br
 
-larsim v08\_05\_00(#larsim-v08_05_00)
+larsim v08\_05\_00
 ----------------------------------------
 
 -   2019-04-10 Lynn Garren : larsim v08\_05\_00 for larsoft v08\_15\_00
@@ -185,23 +185,23 @@ larsim v08\_05\_00(#larsim-v08_05_00)
 -   2019-04-02 Patrick Green : semi-analytic model opdet tpc selection fix
 -   2019-04-02 Diego Gamez : moving SBND specific code to sbndcode
 
-larevt v08\_02\_08(#larevt-v08_02_08)
+larevt v08\_02\_08
 ----------------------------------------
 
 -   2019-04-10 Lynn Garren : larevt v08\_02\_08 for larsoft v08\_15\_00
 
-lardata v08\_03\_09(#lardata-v08_03_09)
+lardata v08\_03\_09
 ------------------------------------------
 
 -   2019-04-10 Lynn Garren : lardata v08\_03\_09 for larsoft v08\_15\_00
 
-larcore v08\_02\_05(#larcore-v08_02_05)
+larcore v08\_02\_05
 ------------------------------------------
 
 -   2019-04-10 Lynn Garren : larcore v08\_02\_05 for larsoft v08\_15\_00
 -   2019-04-10 Lynn Garren : larcore v08\_02\_05 for larsoft v08\_15\_00
 
-larpandoracontent v03\_14\_06(#larpandoracontent-v03_14_06)
+larpandoracontent v03\_14\_06
 --------------------------------------------------------------
 
 -   2019-04-10 Lynn Garren : larpandoracontent v03\_14\_06 for larsoft v08\_15\_00
@@ -212,13 +212,13 @@ larpandoracontent v03\_14\_06(#larpandoracontent-v03_14_06)
 -   2019-03-14 John Marshall : Merge branch ‘feature/SvmVertexClusterMapping’
 -   2019-03-14 John Marshall : Correct mapping between HitType and ClusterList in an hitherto unused map.
 
-larsoftobj v08\_10\_00(#larsoftobj-v08_10_00)
+larsoftobj v08\_10\_00
 ------------------------------------------------
 
 -   2019-04-10 Lynn Garren : larsoftobj v08\_10\_00 for larsoft v08\_15\_00
 -   2019-04-10 Lynn Garren : Product versions
 
-lardataobj v08\_02\_06(#lardataobj-v08_02_06)
+lardataobj v08\_02\_06
 ------------------------------------------------
 
 -   2019-04-10 Lynn Garren : lardataobj v08\_02\_06 for larsoft v08\_15\_00
@@ -226,7 +226,7 @@ lardataobj v08\_02\_06(#lardataobj-v08_02_06)
 -   2019-04-01 Kyle Knoepfel : Full paths for header dependencies.
 -   2019-03-21 Kyle Knoepfel : Remove unnecessary headers.
 
-lardataalg v08\_05\_00(#lardataalg-v08_05_00)
+lardataalg v08\_05\_00
 ------------------------------------------------
 
 -   2019-04-10 Lynn Garren : lardataalg v08\_05\_00 for larsoft v08\_15\_00
@@ -234,7 +234,7 @@ lardataalg v08\_05\_00(#lardataalg-v08_05_00)
 -   2019-03-21 Kyle Knoepfel : Remove unnecessary headers.
 -   2019-03-26 Gianluca Petrillo : Added \`util::MappedContainer\` transparently applying index mapping to another random access container.
 
-larcorealg v08\_07\_00(#larcorealg-v08_07_00)
+larcorealg v08\_07\_00
 ------------------------------------------------
 
 -   2019-04-10 Lynn Garren : larcorealg v08\_07\_00 for larsoft v08\_15\_00
@@ -253,20 +253,20 @@ larcorealg v08\_07\_00(#larcorealg-v08_07_00)
 -   2019-03-26 Gianluca Petrillo : Updated container traits to deal with \`std::reference\_wrapper\`.
 -   2019-03-26 Gianluca Petrillo : Added traits to identify \`std::reference\_wrapper\`, to remove references and to “copy” constantness.
 
-larcoreobj v08\_03\_00(#larcoreobj-v08_03_00)
+larcoreobj v08\_03\_00
 ------------------------------------------------
 
 -   2019-04-10 Lynn Garren : larcoreobj v08\_03\_00 for larsoft v08\_15\_00
 -   2019-04-04 Gianluca Petrillo : Added optical detector ID class \`geo::opDetID\`.
 
-larbatch v01\_51\_00(#larbatch-v01_51_00)
+larbatch v01\_51\_00
 --------------------------------------------
 
 -   2019-04-10 Lynn Garren : larbatch v01\_51\_00 for larsoft v08\_15\_00
 -   2019-04-05 Herbert Greenlee : Update filelistdef start project without with limit clause.
 -   2019-04-05 Herbert Greenlee : Add filelistdef flag.
 
-larutils v1\_23\_14(#larutils-v1_23_14)
+larutils v1\_23\_14
 ------------------------------------------
 
 -   2019-04-10 Lynn Garren : larutils v1\_23\_14 for larsoft v08\_15\_00

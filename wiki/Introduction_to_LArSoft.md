@@ -1,4 +1,4 @@
-Introduction to LArSoft(#Introduction-to-LArSoft)
+Introduction to LArSoft
 ====================================================
 
 LArSoft is both a project/collaboration and a body of code.

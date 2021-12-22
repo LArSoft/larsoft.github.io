@@ -1,4 +1,4 @@
-The developer environment(#The-developer-environment)
+The developer environment
 ========================================================
 
 As mentioned elsewhere, all LArSoft code is archived in a set of repositories based on the [git version control system](http://git-scm.com/). There are numerous resources on the web on how to use git, starting with the authoritative [Pro Git Book](http://git-scm.com/book) and [git reference manual](http://git-scm.com/docs) provided on the official git website. A search on “git documentation” yields many more.

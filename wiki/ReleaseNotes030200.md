@@ -1,4 +1,4 @@
-LArSoft v03\_02\_00 Release Notes(#LArSoft-v03_02_00-Release-Notes)
+LArSoft v03\_02\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -21,20 +21,20 @@ LArSoft v03\_02\_00 Release Notes(#LArSoft-v03_02_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/projects/larsoft/v03_02_00/larsoft-v03_02_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 This is a bug fix release for [\#7076](/redmine/issues/7076 "Bug: LArSoft v03_00_00 unable to read recob::Wire from MicroBooNE MCC 5 files (Closed)"). It also includes changes in development since v03\_01\_00.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 Root v5\_31\_21b fixes bug [\#7076](/redmine/issues/7076 "Bug: LArSoft v03_00_00 unable to read recob::Wire from MicroBooNE MCC 5 files (Closed)").
 
-Known problems(#Known-problems)
+Known problems
 ----------------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   -------------- ------------- ----------- ---------------------------------------------------------------------------------------------------------------------------------
@@ -48,30 +48,30 @@ Updated dependencies(#Updated-dependencies)
   artdaq\_core   v1\_03\_07    e6:nu:s5    uses art
   -------------- ------------- ----------- ---------------------------------------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_02\_00(#larsoft-v03_02_00)
+larsoft v03\_02\_00
 ------------------------------------------
 
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00
 
-lareventdisplay v03\_02\_00(#lareventdisplay-v03_02_00)
+lareventdisplay v03\_02\_00
 ----------------------------------------------------------
 
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00
 
-larexamples v03\_02\_00(#larexamples-v03_02_00)
+larexamples v03\_02\_00
 --------------------------------------------------
 
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00
 
-larpandora v03\_02\_00(#larpandora-v03_02_00)
+larpandora v03\_02\_00
 ------------------------------------------------
 
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00
 
-larana v03\_02\_00(#larana-v03_02_00)
+larana v03\_02\_00
 ----------------------------------------
 
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00\
@@ -80,7 +80,7 @@ larana v03\_02\_00(#larana-v03_02_00)
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00
 -   2014-09-30 Muhammad Elnimr : Removing an output command.
 
-larsim v03\_02\_00(#larsim-v03_02_00)
+larsim v03\_02\_00
 ----------------------------------------
 
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00
@@ -88,19 +88,19 @@ larsim v03\_02\_00(#larsim-v03_02_00)
 -   2014-09-29 Thomas Junk : Add qualifier matrix column for larsoft\_data’s dependence here
 -   2014-09-29 Thomas Junk : Update comment
 
-larevt v03\_02\_00(#larevt-v03_02_00)
+larevt v03\_02\_00
 ----------------------------------------
 
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00
 
-lardata v03\_02\_00(#lardata-v03_02_00)
+lardata v03\_02\_00
 ------------------------------------------
 
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00
 -   2014-09-30 Gianluca Petrillo : Moved unit tests in the proper subdirectories
 -   2014-09-30 Gianluca Petrillo : Fixed a namespace issue for sparse\_vector library
 
-larcore v03\_02\_00(#larcore-v03_02_00)
+larcore v03\_02\_00
 ------------------------------------------
 
 -   2014-10-06 Lynn Garren : for larsoft v03\_02\_00

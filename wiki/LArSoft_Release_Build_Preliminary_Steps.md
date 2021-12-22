@@ -1,4 +1,4 @@
-LArSoft Release Build Preliminary Steps(#LArSoft-Release-Build-Preliminary-Steps)
+LArSoft Release Build Preliminary Steps
 ====================================================================================
 
 -   **Table of contents**
@@ -16,12 +16,12 @@ LArSoft Release Build Preliminary Steps(#LArSoft-Release-Build-Preliminary-Steps
         -   [uboonecode](#uboonecode)
         -   [argoneutcode](#argoneutcode)
 
-Send announcement(#Send-announcement) {.wiki-class-count}
+Send announcement
 ----------------------------------------
 
 Send an announcement to listing any feature branches which will be included in the release. This announcement may prompt users to make last minute requests to include code.
 
-Setup the environment(#Setup-the-environment) {.wiki-class-count}
+Setup the environment
 ------------------------------------------------
 
     source /products/setup
@@ -30,7 +30,7 @@ Setup the environment(#Setup-the-environment) {.wiki-class-count}
     export PATH=$LARRELTOOLS_DIR/expert:${PATH}
     export MRB_PROJECT=larsoft
 
-larreltools(#larreltools) {.wiki-class-count}
+larreltools
 ----------------------------
 
 -   larreltools contains scripts used for release management
@@ -39,7 +39,7 @@ larreltools(#larreltools) {.wiki-class-count}
 -   The latest release of larreltools will be available on larsoft cvmfs
 -   larreltools is available from [SciSoft](http://scisoft.fnal.gov/scisoft/packages/larreltools/)
 
-Make a new working directory and checkout the code(#Make-a-new-working-directory-and-checkout-the-code) {.wiki-class-count}
+Make a new working directory and checkout the code
 ----------------------------------------------------------------------------------------------------------
 
 -   tagLar mkdir \<new\_release\> \<working\_dir\>
@@ -47,7 +47,7 @@ Make a new working directory and checkout the code(#Make-a-new-working-directory
 -   At this time, we test against ArgoNeuT, DUNE, LArIAT, SBND, and MicroBooNE code.
     -   ICARUS will be added once we deal with naming conflicts.
 
-### Directory structure(#Directory-structure) {.wiki-class-count}
+### Directory structure
 
 -   Build directories are created for debug and prof builds of both e17 and c2.
 -   The directory structure at \<working\_dir\>/\<new\_release\> is now:
@@ -66,7 +66,7 @@ Make a new working directory and checkout the code(#Make-a-new-working-directory
         e17p:
         build_...  localProducts_larsoft_<new_release>_e17_prof
 
-Make sure the head of develop is consistent(#Make-sure-the-head-of-develop-is-consistent) {.wiki-class-count}
+Make sure the head of develop is consistent
 --------------------------------------------------------------------------------------------
 
 -   source e17p/localProducts\*/setup
@@ -80,7 +80,7 @@ Make sure the head of develop is consistent(#Make-sure-the-head-of-develop-is-co
 -   **If there are problems in either build or test, the code MUST be fixed before proceeding.**
 -   if fixing the code takes several hours or more, make sure you pull any changes committed while you were working ( and make sure the build is still OK )
 
-update releaseDB(#update-releaseDB) {.wiki-class-count}
+update releaseDB
 --------------------------------------
 
 -   releaseDB/base\_dependency\_database should be updated for larsoft, dunetpc, and uboonecode
@@ -97,7 +97,7 @@ update releaseDB(#update-releaseDB) {.wiki-class-count}
     -   git push origin develop
 -   repeat the commit for dunetpc and uboonecode
 
-Using the CI to check feature branches(#Using-the-CI-to-check-feature-branches) {.wiki-class-count}
+Using the CI to check feature branches
 ----------------------------------------------------------------------------------
 
 -   setup the CI environment\
@@ -117,10 +117,10 @@ Using the CI to check feature branches(#Using-the-CI-to-check-feature-branches) 
 
             trigger --build-delay 0 --revisions "*@feature/team_for_art_v3" --workflow argoneutcode_wf
 
-Special instructions for experiment code(#Special-instructions-for-experiment-code) {.wiki-class-count}
+Special instructions for experiment code
 --------------------------------------------------------------------------------------
 
-### dunetpc(#dunetpc) {.wiki-class-count}
+### dunetpc
 
 -   dunetpc uses a differently qualified genie\_xsec than the other experiments. mrb v3 is sensitive to this, so we maintain a special working branch.\
 
@@ -130,7 +130,7 @@ Special instructions for experiment code(#Special-instructions-for-experiment-co
         git diff develop (The only changes should be in ups/product_deps qualifier matrix)
         git push origin feature/team_for_larsoft_release_testing
 
-### uboonecode(#uboonecode) {.wiki-class-count}
+### uboonecode
 
 -   uboonecode has some comprehensive tests that are really integration tests.
 -   Until these tests are moved to the CI, it is best to disable some, but not all, of them.
@@ -154,7 +154,7 @@ Special instructions for experiment code(#Special-instructions-for-experiment-co
          add_subdirectory(Swizzle)
          add_subdirectory(CRTSwizzle)
 
-### argoneutcode(#argoneutcode) {.wiki-class-count}
+### argoneutcode
 
 -   dunetpc and argoneutcode are sharing CVN code. Library names are now unique, but the same class name is used in both repositories.
 -   The shared code is meant to be factored out and moved to larsoft.

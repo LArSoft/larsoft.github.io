@@ -1,4 +1,4 @@
-Move to v05(#Move-to-v05)
+Move to v05
 ============================
 
 -   **Table of contents**
@@ -16,29 +16,29 @@ Move to v05(#Move-to-v05)
 
 v05\_00\_00 is a major change
 
-Pass 1 - refactor(#Pass-1-refactor)
+Pass 1 - refactor
 --------------------------------------
 
-### goals(#goals)
+### goals
 
 -   use recommended directory structure
 -   use complete library names
 
-### [Pass 1 notes](Pass_1_notes)(#Pass-1-notes)
+### [Pass 1 notes](Pass_1_notes)
 
-### user scripts(#user-scripts)
+### user scripts
 
 -   update\_sources.sh
     -   found in larsoft
     -   manages the header and library name changes
 
-### known issues(#known-issues)
+### known issues
 
 -   argoneutcode geometry\_iterator\_loop\_argoneut\_test
     -   This test uses geometry\_microboone.fcl, which is found in uboonecode
     -   The test passes only if you build and test argoneutcode and uboonecode at the same time.
 
-### branches and tags(#branches-and-tags)
+### branches and tags
 
 -   larcore larevt larpandora larsoft larana lardata larexamples larreco lareventdisplay larsim
     -   v05\_00\_00 tag
@@ -46,7 +46,7 @@ Pass 1 - refactor(#Pass-1-refactor)
 -   argoneutcode dunetpc lariatsoft uboonecode lar1ndcode
     -   branch v05\_00\_branch
 
-Pass 2 - Core Service changes(#Pass-2-Core-Service-changes)
+Pass 2 - Core Service changes
 --------------------------------------------------------------
 
 Now merge v05\_00\_00\_rc with v05\_00\_branch.\
@@ -64,7 +64,7 @@ Summary of the branches:
 This pass 2 is about creating the branch `v05_00_refactor`.\
 Once created, the v05\_00\_refactor branch was merged with v05\_00\_branch and removed.
 
-### Basic steps(#Basic-steps)
+### Basic steps
 
 1.  working area set up with package `larXXX` and its dependencies only (first just `larcore`, then `larcore` and `lardata`, etc.):
     1.  add new package
@@ -110,12 +110,12 @@ After conflict solution, the usual @mrb@ery and @git@tery:
 
 > Not clear yet if the files `modified` are correct beyond doubt.
 
-### Lessons learned (ongoing)(#Lessons-learned-ongoing)
+### Lessons learned (ongoing)
 
 -   **do use** a target branch rather than working on `v05_00_branch` directly (and possibly use a better name than `v05_00_refactor`)
 -   `git` can get *very* confused, and the lines like `added by them: lardata/RawData/ExternalTrigger.h` must be checked: in this case, there is no reason why core services would have added that file, not to mention the fact that it actually existed already before. It might be that an existing file was changed in `develop` after `v04_30_00` and `git` thinks the best solution is to forget the newer file and use the one in `v05_00_00_rc` instead; the correct solution is `git checkout v05_00_batch -- lardata/RawData/ExternalTrigger.h` and then apply the core service changes manually (or via update script). Note that the core service changes on source files have the nice feature that if you forget them you get a compilation or a linker error (not sure if that’s on 100% of the cases though); missing changes to `FHiCL` files have a fair chance to appear at run time, but that assumes that somebody is actually running the FHiCL files…
 
-### Known shortcomings of the replacement script (`larsoft/bin/UpdateCoreServices.py`)(#Known-shortcomings-of-the-replacement-script-larsoftbinUpdateCoreServicespy)
+### Known shortcomings of the replacement script (`larsoft/bin/UpdateCoreServices.py`)
 
 The replacement script (`larsoft/bin/UpdateCoreServices.py`) is a dumb script that replaces text matching patterns.
 

@@ -1,7 +1,7 @@
-Release Notes 10004(#Release-Notes-10004)
+Release Notes 10004
 ============================================
 
-Known Issues(#Known-Issues)
+Known Issues
 ------------------------------
 
 -   [https://cdcvs.fnal.gov/redmine/issues/5104](https://cdcvs.fnal.gov/redmine/issues/5104) sort out fcl geometry dependencies

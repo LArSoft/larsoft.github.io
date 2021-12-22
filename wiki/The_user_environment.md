@@ -1,4 +1,4 @@
-The user environment(#The-user-environment)
+The user environment
 ==============================================
 
 LArSoft releases are distributed via ups products. Each product contains software within a similar layer of functionality. Those interested in using the core LArSoft software, but who have no need to modify or develop that software can in principle simply perform the appropriate ’`setup <product> <version> -q <qualifier>`’ commands, then build their code against those products by including the corresponding \$\<PRODUCT NAME\>\_INC and \$\<PRODUCT NAME\>\_LIB environment variables in the appropriate search paths. The build system of course does all this for you.
@@ -63,7 +63,7 @@ One’s working directory within this system has the following structure:
 
 The `mrb` / `cmake` / `cetbuildtools` system uses the `build` sub-directory to build code in the `srcs` sub-directory, then packages and installs the results as ups products in the `localProducts_xxx...` sub-directory. In order for this procedure to work, the source code in the `srcs` area must be organized in packages with a specific set of configuration files.
 
-Creating a new product in your working area: `mrb newProduct`(#Creating-a-new-product-in-your-working-area-mrb-newProduct)
+Creating a new product in your working area: `mrb newProduct`
 -----------------------------------------------------------------------------------------------------------------------------
 
 To simplify adding new products, the `mrb newProduct` command is provided to create an empty product template with the minimal structure and configure files necessary. Two of these configuration files must be modified by the user as code is added to the package:

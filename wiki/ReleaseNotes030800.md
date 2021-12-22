@@ -1,4 +1,4 @@
-LArSoft v03\_08\_00 Release Notes(#LArSoft-v03_08_00-Release-Notes)
+LArSoft v03\_08\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,18 +24,18 @@ LArSoft v03\_08\_00 Release Notes(#LArSoft-v03_08_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_08_00/larsoft-v03_08_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Working towards MicroBooNE MCC6
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- ---------- ----------- ------------------------------------------
@@ -43,16 +43,16 @@ Updated dependencies(#Updated-dependencies)
   ups       v5\_1\_3               works as expected with sh, zsh, and tcsh
   --------- ---------- ----------- ------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_08\_00(#larsoft-v03_08_00)
+larsoft v03\_08\_00
 ------------------------------------------
 
 -   2015-01-28 Lynn Garren : package versions
 -   2015-01-28 Lynn Garren : headers for larsoft v03\_08\_00
 
-lareventdisplay v03\_04\_00(#lareventdisplay-v03_04_00)
+lareventdisplay v03\_04\_00
 ----------------------------------------------------------
 
 -   2015-01-28 Wesley Ketchum : Merge remote-tracking branch ‘origin/ub\_showerreco’ into develop
@@ -72,12 +72,12 @@ lareventdisplay v03\_04\_00(#lareventdisplay-v03_04_00)
 -   2014-08-11 Andrzej Szelc : Merge branch ‘develop’ into ub\_showerreco merging with develop
 -   2014-05-24 drinkingkazu : Propagate change in PxUtil (name change, no effect in functionality) –kazu
 
-larexamples v03\_02\_13(#larexamples-v03_02_13)
+larexamples v03\_02\_13
 --------------------------------------------------
 
 -   2015-01-28 Lynn Garren : larexamples v03\_02\_13
 
-larpandora v03\_07\_00(#larpandora-v03_07_00)
+larpandora v03\_07\_00
 ------------------------------------------------
 
 -   2015-01-24 Andrew Blake : Merge branch ‘feature/blake\_updateCosmics’ into develop, updating track-building mdoule for use on cosmics, and adding information to PFParticle analysis module.
@@ -85,7 +85,7 @@ larpandora v03\_07\_00(#larpandora-v03_07_00)
 -   2015-01-24 Andrew Blake : Add a cosmic flag to the track building, which sets the track vertex to be the highest end of the track trajectory.
 -   2015-01-24 Andrew Blake : Adding more information to analysis modules
 
-larana v03\_04\_00(#larana-v03_04_00)
+larana v03\_04\_00
 ----------------------------------------
 
 -   2015-01-29 Alex Himmel : Merge branch ‘feature/OpDetResponseService’ into develop
@@ -131,7 +131,7 @@ larana v03\_04\_00(#larana-v03_04_00)
 -   2015-01-06 Wesley Ketchum : removing the deprecated CosmicTagger module file
 -   2014-11-24 Wesley Ketchum : add in histograms for comparisons
 
-larreco v03\_07\_00(#larreco-v03_07_00)
+larreco v03\_07\_00
 ------------------------------------------
 
 -   2015-01-29 Lynn Garren : add missing libraries to link list
@@ -219,7 +219,7 @@ larreco v03\_07\_00(#larreco-v03_07_00)
 -   2014-05-24 drinkingkazu : Updated ClusterParamsAlg to the latest version… took out some modules from compilation as they are either deprecated or need modification to accommodate update –kazu
 -   2014-05-23 drinkingkazu : Modifying according to an update on GeometeryUtilities –kazu
 
-larsim v03\_06\_00(#larsim-v03_06_00)
+larsim v03\_06\_00
 ----------------------------------------
 
 -   2015-01-29 Lynn Garren : add missing root library to the link list
@@ -227,12 +227,12 @@ larsim v03\_06\_00(#larsim-v03_06_00)
 -   2015-01-28 Herbert Greenlee : Remove -r dynamic.
 -   2015-01-27 Herbert Greenlee : Add subdirectory MCSTReco.
 
-larevt v03\_04\_01(#larevt-v03_04_01)
+larevt v03\_04\_01
 ----------------------------------------
 
 -   2015-01-28 Lynn Garren : larevt v03\_04\_01
 
-lardata v03\_08\_00(#lardata-v03_08_00)
+lardata v03\_08\_00
 ------------------------------------------
 
 -   2015-01-28 Lynn Garren : cleanup CMakeLists.txt
@@ -253,12 +253,12 @@ lardata v03\_08\_00(#lardata-v03_08_00)
 -   2014-06-13 drinkingkazu : Making a shared instance available –kazu
 -   2014-05-23 drinkingkazu : Merging development from ShowerReco group –kazu
 
-larcore v03\_05\_00(#larcore-v03_05_00)
+larcore v03\_05\_00
 ------------------------------------------
 
 -   unchanged
 
-larbatch v01\_03\_00(#larbatch-v01_03_00)
+larbatch v01\_03\_00
 --------------------------------------------
 
 -   2015-01-28 Herbert Greenlee : Get rid of unused override\_merge argument from ProjectDef constructor.
@@ -272,7 +272,7 @@ larbatch v01\_03\_00(#larbatch-v01_03_00)
 -   2015-01-23 Sowjanya Gollapinni : Add \<TFileName\> element to specify TFileName (files modified: project.py, stagedef.py and condor\_lar.sh). Also modify project.py to accommodate merging TFile related json information coming from various sources to form a final TFile json file (files modified: project.py)
 -   2015-01-22 Herbert Greenlee : Add ProjectStatus and StageStatus python classes.
 
-larutils v1\_00\_01(#larutils-v1_00_01)
+larutils v1\_00\_01
 ------------------------------------------
 
 -   2015-01-28 Lynn Garren : larutils v1\_00\_01 for larsoft v03\_08\_00

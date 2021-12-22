@@ -1,4 +1,4 @@
-Debugging LArSoft code(#Debugging-LArSoft-code)
+Debugging LArSoft code
 ==================================================
 
 -   **Table of contents**
@@ -10,14 +10,14 @@ Debugging LArSoft code(#Debugging-LArSoft-code)
         -   [Targeting a part of the code](#Targeting-a-part-of-the-code)
     -   [Instructions for totalview GUI debugging](#Instructions-for-totalview-GUI-debugging)
 
-RogueWave TotalView(#RogueWave-TotalView)
+RogueWave TotalView
 --------------------------------------------
 
 **NOTE: TotalView is a commercial debugger whose license Fermilab used to pay, but it is being replaced by [Allinea](https://cdcvs.fnal.govDebugging_LArSoft_with_Allinea)**
 
 The information on totalview is here in case licenses are available from another source.
 
-### Setup(#Setup)
+### Setup
 
 Simply:
 
@@ -25,7 +25,7 @@ Simply:
 
 (the full setup line is for me: `totalview v8_11_0 -f Linux64bit -z /grid/fermiapp/products/common/db`).
 
-### Startup(#Startup)
+### Startup
 
 After setting up LArSoft environment for running (in the normal way) on a `debug` version and setting up TotalView as well, start with executing:
 
@@ -38,7 +38,7 @@ If you want to change the arguments, you can get this window back from `Process 
 
 Ready to go… where?
 
-### Running(#Running)
+### Running
 
 To run the program, just hit the `Restart` button, or the `Go` button (also in `Process | Go` menu, and \<G\> key).\
 You can see if it runs, and you can interrupt it any time by the `Halt` button (`Process | Halt` menu, and \<H\> key), and then proceed with the usual debugger commands:
@@ -53,7 +53,7 @@ If you are new to debuggers you might be surprised by the behaviour of “step�
 For example, hitting \<S\> on a function call like `std::copy(from.begin(), from.end(), to.begin());` will step first into `from.begin()`, then into `from.end()`, `to.begin()` and, only when all the arguments are resolved, into `std::copy()` (I believe the actual order among the argument is not defined in C++ standard).\
 If a function is declared as `std::string upper(std::string s)`, stepping into a call to `upper("Test")` will first step into the conversion of a `char*` (`"Test"`) into a `std::string`.
 
-### Targeting a part of the code(#Targeting-a-part-of-the-code)
+### Targeting a part of the code
 
 Execution can be stopped at any point by the use of breakpoints. TotalView has them as a category of *action points*, actions triggered by some “event” in the program. A break point reacts to the event “starting to execute at that address” with a “Halt” action.
 
@@ -72,7 +72,7 @@ The packages in UPS ship with source code all right, and it’s only matter of t
 (one per line). TotalView can use environment directories, and things like `NUTOOLS_DIR` are set up by UPS already. Enclosing them in `$tree()` makes TotalView search not only that directory but also the subdirectories.\
 At that point the assembler code yields to some C++ code and everything is brighter.
 
-Instructions for [totalview](http://www.roguewave.com/support/product-documentation/totalview-family.aspx#totalview) GUI debugging(#Instructions-for-totalview-GUI-debugging)
+Instructions for [totalview](http://www.roguewave.com/support/product-documentation/totalview-family.aspx#totalview) GUI debugging
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 To run totalview do

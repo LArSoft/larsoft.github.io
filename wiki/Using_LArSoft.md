@@ -9,7 +9,7 @@
 
 -   [Quick\_Links](Quick_Links) \* [Concepts in LArSoft](http://larsoft.org/important-concepts-in-larsoft/)
 
-Preliminaries(#Preliminaries)
+Preliminaries
 ================================
 
 -   Fermilab computing accounts: see [the process to request access to Fermilab](https://get-connected.fnal.gov/faq/#SABprocess) and [Fermilab computing access](Fermilab_computing_access).
@@ -17,7 +17,7 @@ Preliminaries(#Preliminaries)
 -   [Supported platforms](_Supported_platforms_)
 -   To join the LArSoft mailing list, please follow [these instructions](https://listserv.fnal.gov/users.asp#subscribe%20to%20list) using the list name LARSOFT.
 
-Using LArSoft(#Using-LArSoft)
+Using LArSoft
 ================================
 
 First-time, or infrequent, users will be well-served to go through the following steps in order:
@@ -45,12 +45,12 @@ First-time, or infrequent, users will be well-served to go through the following
 6.  Recommended.
     -   Install and run [igprof profiler](_igprof_profiler).
 
-Information on GitHub and pull request testing(#Information-on-GitHub-and-pull-request-testing)
+Information on GitHub and pull request testing
 --------------------------------------------------------------------------------------------------
 
 Start by reviewing the information on [the overview page for using LArSoft with GitHub](Working_with_Github). The GitHub repositories are available. Contact your experiment offline management to identify acting Level 2 managers. Send any comments to , or via Redmine issues.
 
-Some hints(#Some-hints)
+Some hints
 --------------------------
 
 -   [Rerun part of all a job on an output file of that job](Rerun_part_of_all_a_job_on_an_output_file_of_that_job).
@@ -60,14 +60,14 @@ Some hints(#Some-hints)
 -   About [fast cloning](Fast_cloning)
 -   [Working With LArSoft GitHub Repositories](https://cdcvs.fnal.govWorking_with_Github)
 
-Documentation(#Documentation)
+Documentation
 ================================
 
 -   Description of [Event Displays](Event_Displays) options with links to further information.
 -   Description of [The user environment](_The_user_environment_) with examples.
 -   Description of [The developer environment](_The_developer_environment_) with a picture.
 
-Using HPC with LArSoft(#Using-HPC-with-LArSoft)
+Using HPC with LArSoft
 --------------------------------------------------
 
 -   Using GPU as a service to accelerate machine learning inference applications.
@@ -75,7 +75,7 @@ Using HPC with LArSoft(#Using-HPC-with-LArSoft)
     -   [Part Two: Setting up the model on the Triton inference server](GPU_as_a_Service_part_two)
     -   [Part Three: Testing the Triton client and model configuration with an inference server](GPU_as_a_Service_part_three)
 
-How-to(#How-to)
+How-to
 ==================
 
 -   [Getting started with an analysis task: an example](_AnalysisExample_)

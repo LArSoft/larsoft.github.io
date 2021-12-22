@@ -1,4 +1,4 @@
-Changes to data products(#Changes-to-data-products)
+Changes to data products
 ======================================================
 
 -   **Table of contents**
@@ -49,10 +49,10 @@ Changes to data products(#Changes-to-data-products)
         -   [Actions](#Actions-6)
         -   [Tests](#Tests-6)
 
-`raw::RawDigit`(#rawRawDigit)
+`raw::RawDigit`
 --------------------------------
 
-### Current declaration(#Current-declaration)
+### Current declaration
 
 (from `lardata` `v03_04_04`)
 
@@ -97,7 +97,7 @@ Changes to data products(#Changes-to-data-products)
 
       };
 
-### Actions(#Actions)
+### Actions
 
 Target
 
@@ -229,7 +229,7 @@ complete class documentation
 
 in progress
 
-### Tests(#Tests)
+### Tests
 
 Test type
 
@@ -247,10 +247,10 @@ success
 
 TODO
 
-`recob::Wire`(#recobWire)
+`recob::Wire`
 ----------------------------
 
-### Current declaration(#Current-declaration-2)
+### Current declaration
 
 (from `lardata` `v03_04_04`)
 
@@ -292,7 +292,7 @@ TODO
           uint32_t                   Channel()    const;
         };
 
-### Actions(#Actions-2)
+### Actions
 
 Target
 
@@ -404,7 +404,7 @@ complete class documentation
 
 in progress
 
-### Tests(#Tests-2)
+### Tests
 
 Test type
 
@@ -422,10 +422,10 @@ success
 
 TODO
 
-`recob::Hit`(#recobHit)
+`recob::Hit`
 --------------------------
 
-### Current declaration(#Current-declaration-3)
+### Current declaration
 
 (from `lardata` `v03_04_04`)
 
@@ -504,7 +504,7 @@ TODO
 
         };
 
-### Actions(#Actions-3)
+### Actions
 
 Target
 
@@ -818,7 +818,7 @@ done
 
 inline, Doxygen format
 
-### Tests(#Tests-3)
+### Tests
 
 Test type
 
@@ -836,7 +836,7 @@ success
 
 TODO
 
-### Update reference table(#Update-reference-table)
+### Update reference table
 
 Old construct
 
@@ -882,13 +882,13 @@ if using `raw::RawDigit` or `raw::Uncompress()`; these are not included by `Hit.
 
 `#include "RawData/RawDigit.h"`
 
-### To-do’s(#To-dos)
+### To-do’s
 
-#### `Hit::fGoodnessOfFit` definition(#HitfGoodnessOfFit-definition)
+#### `Hit::fGoodnessOfFit` definition
 
-Although it’s kind of doomed to be a χ², this should be officially blessed by the authors, and also it must be decided whether it is χ² or reduced χ² (χ² / NDF), as it has been implemented so far.
+Although it’s kind of doomed to be a χ², this should be officially blessed by the authors, and also it must be decided whether it is χ² or reduced χ² (χ² / NDF), as it has been implemented so far
 
-#### `HarrisVertexFinder` module (`larreco/VertexFinder/HarrisVertexFinder_module.cc`) and `EndPoint2D` algorithm (`larreco/RecoAlg/EndPoint2D.cxx`)(#HarrisVertexFinder-module-larrecoVertexFinderHarrisVertexFinder_modulecc-and-EndPoint2D-algorithm-larrecoRecoAlgEndPoint2Dcxx)
+#### `HarrisVertexFinder` module (`larreco/VertexFinder/HarrisVertexFinder_module.cc`) and `EndPoint2D` algorithm (`larreco/RecoAlg/EndPoint2D.cxx`)
 
 It uses lines like:\
 
@@ -899,23 +899,23 @@ It uses lines like:\
 this suggests that the interpretation of that time window was half σ of the hit, or something like that.\
 I have currently implemented something that makes vaguely sense, but it has to be checked.
 
-#### `HitAnaAlg` (`larreco/RecoAlg/HitAnaAlg.cxx`)(#HitAnaAlg-larrecoRecoAlgHitAnaAlgcxx)
+#### `HitAnaAlg` (`larreco/RecoAlg/HitAnaAlg.cxx`)
 
 The `HitInfo` and `WireROIInfo` data structures need to be checked.
 
 Contact person: Wesley Ketchum
 
-#### Hit makers: `GausHitFinder` (`larreco/HitFinder/GausHitFinder_module.cc`), `FFTHitFinder` (`larreco/HitFinder/FFTHitFinder_module.cc`), `RFFHitFinder` (`larreco/HitFinder/RFFHitFinder_module.cc`), `APAHitFinder` (`larreco/HitFinder/APAHitFinder_module.cc`), `HitCheater` (`larreco/HitFinder/HitCheater_module.cc`), `TTHitFinder` (`larreco/HitFinder/TTHitFinder_module.cc`), `ClusterCrawler` (`larreco/ClusterFinder/ClusterCrawler_module.cc`), `CalGausHFLBNE10kt` (`lbnecode/CalData/CalGausHFLBNE10kt_module.cc`), maybe more(#Hit-makers-GausHitFinder-larrecoHitFinderGausHitFinder_modulecc-FFTHitFinder-larrecoHitFinderFFTHitFinder_modulecc-RFFHitFinder-larrecoHitFinderRFFHitFinder_modulecc-APAHitFinder-larrecoHitFinderAPAHitFinder_modulecc-HitCheater-larrecoHitFinderHitCheater_modulecc-TTHitFinder-larrecoHitFinderTTHitFinder_modulecc-ClusterCrawler-larrecoClusterFinderClusterCrawler_modulecc-CalGausHFLBNE10kt-lbnecodeCalDataCalGausHFLBNE10kt_modulecc-maybe-more)
+#### Hit makers: `GausHitFinder` (`larreco/HitFinder/GausHitFinder_module.cc`), `FFTHitFinder` (`larreco/HitFinder/FFTHitFinder_module.cc`), `RFFHitFinder` (`larreco/HitFinder/RFFHitFinder_module.cc`), `APAHitFinder` (`larreco/HitFinder/APAHitFinder_module.cc`), `HitCheater` (`larreco/HitFinder/HitCheater_module.cc`), `TTHitFinder` (`larreco/HitFinder/TTHitFinder_module.cc`), `ClusterCrawler` (`larreco/ClusterFinder/ClusterCrawler_module.cc`), `CalGausHFLBNE10kt` (`lbnecode/CalData/CalGausHFLBNE10kt_module.cc`), maybe more
 
 The algorithms need to define `fStartTick`, `fEndTick` and `fSummedADC`.\
 Many need also `fLocalIndex` and to check the order of the local hits in the collection\
 (the local hits are prescribed to be consecutive entries sorted by peak time).
 
-#### Hit disambiguation module (`larreco/HitFinder/APAHitFinder_module.cc`)(#Hit-disambiguation-module-larrecoHitFinderAPAHitFinder_modulecc)
+#### Hit disambiguation module (`larreco/HitFinder/APAHitFinder_module.cc`)
 
 Should check that the new associations make sense and are correctly initialized.
 
-#### Summary of affected modules and algorithms(#Summary-of-affected-modules-and-algorithms)
+#### Summary of affected modules and algorithms
 
 Hit creation modules and algorithms:
 
@@ -954,10 +954,10 @@ Files affected by hit changes, that need checking:
   **`HarrisVertexFinder`**   `larreco/VertexFinder/HarrisVertexFinder_module.cc`      Josh Spitz
   `VertexMatch`              `larreco/VertexFinder/VertexMatch_module.cc`             Wesley Ketchum
 
-`recob::Cluster`(#recobCluster)
+`recob::Cluster`
 ----------------------------------
 
-### Current declaration(#Current-declaration-4)
+### Current declaration
 
 (from `lardata` `v03_04_04`)
 
@@ -1035,7 +1035,7 @@ Files affected by hit changes, that need checking:
       }; // class Cluster
     } // namespace recob
 
-### Actions(#Actions-4)
+### Actions
 
 The implementation status refers to the branch `feature/DataProductRevisionNewCluster`.
 
@@ -1585,7 +1585,7 @@ complete class documentation
 
 done
 
-### Tests(#Tests-4)
+### Tests
 
 Test type
 
@@ -1603,60 +1603,60 @@ success
 
 TODO
 
-### To-do’s(#To-dos-2)
+### To-do’s
 
-#### `MultipleHitWires` name(#MultipleHitWires-name)
+#### `MultipleHitWires` name
 
 `recob::Cluster::MultipleHitWires()` may need a better name.
 
-#### `ClusterMergeAlg` (`larreco`)(#ClusterMergeAlg-larreco)
+#### `ClusterMergeAlg` (`larreco`)
 
 `ClusterMergeAlg::Angle2DCompatibility()` seems to expect `slope` as a dT/dW, but then it uses in a formula that suggests `angle` is in degrees.\
 The new code assumes `angle` to be an angle in radians, and the comparison angle is converted from degrees to radians. This needs to be checked.
 
-#### `ShowerReco` module (`larreco`)(#ShowerReco-module-larreco)
+#### `ShowerReco` module (`larreco`)
 
 The `slope` variable is used at one point like a angle in degrees (and converted into degrees), at another as a `dTdW` in -homogeneous units (and converted into a ratio of wire over time ticks).\
 I have added a `angle` variable and hope it makes the thing a bit clearer. Needs checking.
 
-#### `LineMerger` module (`larreco`)(#LineMerger-module-larreco)
+#### `LineMerger` module (`larreco`)
 
 This module requires some more work than the average cluster finder. \* cluster compatibility criteria: I have replaced the use of `dTdW()` with `StartAngle()` and `EndAngle()` \* position compatibility still has hard-coded constants; it **urges** to have a general function to compute 2D distance on wire/time plane \* the addition of clusters is removed, since it’s impossible to correctly add all the features; some replacement needs to be created
 
-#### `ShowerAngleCluster` module (`larreco`)(#ShowerAngleCluster-module-larreco)
+#### `ShowerAngleCluster` module (`larreco`)
 
 The fix is being delayed, since this module depends on the old version of `ClusterParamsAlg` while my changes depend on the new one.\
 I will wait for the update of `ShowerAlgleCluster` module before I pick it again.
 
-#### `RecoBaseDrawer` (`lareventdisplay`)(#RecoBaseDrawer-lareventdisplay)
+#### `RecoBaseDrawer` (`lareventdisplay`)
 
 `RecoBaseDrawer::Cluster2D()` used `Cluster::dTdW()` to get the slope for a line to be drawn.\
 It’s not clear to me if it expects it homogeneous (“cm/cm”) or in the time/wire units.\
 I am assuming it wants it homogeneous, but it might be wrong.
 
-#### `GraphCluster` module (`lareventdisplay`)(#GraphCluster-module-lareventdisplay)
+#### `GraphCluster` module (`lareventdisplay`)
 
 This is a cluster producer, and it would need `ClusterParamsAlg` to fill completely the cluster.\
 I suspect this cluster is going to be used only for drawing purposes and that therefore it does not need that complication.\
 The complication is that to use `ClusterParamsAlg`, `lareventdisplay` must depend and link to `larreco`.\
 So I hope I am getting away without setting the angles and charge (`dTdW` was filled with `0` anyway) and I have just filled the “easy” total charge statistics.
 
-#### `LArPandoraHelper` (`larpandora`)(#LArPandoraHelper-larpandora)
+#### `LArPandoraHelper` (`larpandora`)
 
 A new feature has been left half-implemented: *non-core* hits are excluded from some computation, but no hit is yet acknowledged as isolated non-core.
 
-#### `ClusterCrawler`, `CCTrackMaker` modules (`larreco`)(#ClusterCrawler-CCTrackMaker-modules-larreco)
+#### `ClusterCrawler`, `CCTrackMaker` modules (`larreco`)
 
 Bruce Baller is still working on updating `ClusterCrawler` and `CCTrackMaker` modules.\
 I have added some placeholder code, and the tracker won’t work (the hit finder and the cluster finder will have some variable with a default value).
 
-#### `Cluster3D` module needs dT/dW restored (`larreco`)(#Cluster3D-module-needs-dTdW-restored-larreco)
+#### `Cluster3D` module needs dT/dW restored (`larreco`)
 
 I have used the `StandardClusterParamsAlg` class to define *all* the parameters of the new cluster.\
 The original code computes a meaningful dT/dW, though, and it should be used instead of the standard one.\
 I should implement a new `ClusterParamsAlgBase` class that allows to override some fields with a set value.
 
-#### Summary of affected modules and algorithms(#Summary-of-affected-modules-and-algorithms-2)
+#### Summary of affected modules and algorithms
 
 Cluster creation modules and algorithms:
 
@@ -1674,7 +1674,7 @@ Cluster creation modules and algorithms:
   `SmallClusterFinder`          `larreco/ClusterFinder/SmallClusterFinder_module.cc`             Corey Adams
   `GraphCluster`                `lareventdisplay/EventDisplay/GraphCluster_module.cc`            Andrzej Szelc
 
-### Update reference table(#Update-reference-table-2)
+### Update reference table
 
 Old construct
 
@@ -1724,7 +1724,7 @@ start from `std::tan(Cluster::StartAngle())`
 
 start from `Cluster::StartCharge()`
 
-`recob::EndPoint2D`(#recobEndPoint2D)
+`recob::EndPoint2D`
 ----------------------------------------
 
 `recob::EndPoint2D` should be redefined as:
@@ -1732,7 +1732,7 @@ start from `Cluster::StartCharge()`
 -   `Vertex2D` data product: a reconstructed object (probably defined from the output of `FeatureVertexFinder` producer)
 -   `EndPoint2D` class: a simple geometric object (wire,time tick), not necessarily a data product
 
-### Current declaration(#Current-declaration-5)
+### Current declaration
 
 (from `lardata` `v03_04_04`)
 
@@ -1769,20 +1769,20 @@ start from `Cluster::StartCharge()`
 
       };
 
-### Actions(#Actions-5)
+### Actions
 
   Target              Action                         Action item     Status
   ------------------- ------------------------------ --------------- --------
   class definitions   to be defined                                  
   documentation       complete class documentation   to be defined   
 
-### Tests(#Tests-5)
+### Tests
 
   Test type                     Ran on version   Outcome
   ----------------------------- ---------------- ---------
   standard LArSoft test suite   not run          TO DO
 
-`recob::Track`(#recobTrack)
+`recob::Track`
 ------------------------------
 
 The tracking product model is still under discussion.\
@@ -1798,7 +1798,7 @@ Also, **policies** will be defined:
 
 -   minimum density of trajectory points stored in the track object
 
-### Current declaration(#Current-declaration-6)
+### Current declaration
 
 (from `lardata` `v03_04_04`)
 
@@ -1892,7 +1892,7 @@ Also, **policies** will be defined:
 
       };
 
-### Actions(#Actions-6)
+### Actions
 
   Target               Action                                                   Action item     Status
   -------------------- -------------------------------------------------------- --------------- --------
@@ -1900,7 +1900,7 @@ Also, **policies** will be defined:
   other definitions    definition of `recob@Trajectory` and `recob::Momentum`   to be defined   
   documentation        complete class documentation                             to be defined   
 
-### Tests(#Tests-6)
+### Tests
 
   Test type                     Ran on version   Outcome
   ----------------------------- ---------------- ---------

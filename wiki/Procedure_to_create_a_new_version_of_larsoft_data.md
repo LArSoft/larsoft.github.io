@@ -1,4 +1,4 @@
-Procedure to create a new version of larsoft\_data, uboone\_data, etc.(#Procedure-to-create-a-new-version-of-larsoft_data-uboone_data-etc)
+Procedure to create a new version of larsoft\_data, uboone\_data, etc.
 =============================================================================================================================================
 
 This procedure also works for uboone\_data, or any similar product.\

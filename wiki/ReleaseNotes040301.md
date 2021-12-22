@@ -1,4 +1,4 @@
-LArSoft v04\_03\_01 Release Notes(#LArSoft-v04_03_01-Release-Notes)
+LArSoft v04\_03\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,12 +24,12 @@ LArSoft v04\_03\_01 Release Notes(#LArSoft-v04_03_01-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_03_01/larsoft-v04_03_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Changes in development since v04\_03\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   uses cetbuildtools v4\_08\_01 for improved efficiency
@@ -39,10 +39,10 @@ New features(#New-features)
     -   OSX builds use the noifdh qualifier
     -   [SupportedPlatforms](/redmine/projects/ifdhc/wiki/SupportedPlatforms) for ifdhc
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ----------- -------------------------
@@ -51,16 +51,16 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v4\_08\_01               improved efficiency
   --------------- ------------ ----------- -------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_03\_01(#larsoft-v04_03_01)
+larsoft v04\_03\_01
 ------------------------------------------
 
 -   2015-03-18 Lynn Garren : larsoft v04\_03\_01 for larsoft v04\_03\_01
 -   2015-03-18 Lynn Garren : update product version list
 
-lareventdisplay v04\_03\_01(#lareventdisplay-v04_03_01)
+lareventdisplay v04\_03\_01
 ----------------------------------------------------------
 
 -   2015-03-18 Lynn Garren : lareventdisplay v04\_03\_01 for larsoft v04\_03\_01
@@ -68,22 +68,22 @@ lareventdisplay v04\_03\_01(#lareventdisplay-v04_03_01)
 -   2015-03-17 Bruce Baller : Merge branch ‘feature/fixfont’ into develop
 -   2015-03-17 Bruce Baller : Improve legibility of ADC vs tick plot
 
-larexamples v04\_03\_01(#larexamples-v04_03_01)
+larexamples v04\_03\_01
 --------------------------------------------------
 
 -   2015-03-18 Lynn Garren : larexamples v04\_03\_01 for larsoft v04\_03\_01
 
-larpandora v04\_03\_01(#larpandora-v04_03_01)
+larpandora v04\_03\_01
 ------------------------------------------------
 
 -   2015-03-18 Lynn Garren : larpandora v04\_03\_01 for larsoft v04\_03\_01
 
-larana v04\_03\_01(#larana-v04_03_01)
+larana v04\_03\_01
 ----------------------------------------
 
 -   2015-03-18 Lynn Garren : larana v04\_03\_01 for larsoft v04\_03\_01
 
-larreco v04\_03\_01(#larreco-v04_03_01)
+larreco v04\_03\_01
 ------------------------------------------
 
 -   2015-03-18 Lynn Garren : larreco v04\_03\_01 for larsoft v04\_03\_01
@@ -92,22 +92,22 @@ larreco v04\_03\_01(#larreco-v04_03_01)
 -   2015-03-12 Lynn Garren : larsoft v04\_02\_02
 -   2015-03-12 Tingjun Yang : Loop over hits smartly, improve speed by x3.
 
-larsim v04\_03\_01(#larsim-v04_03_01)
+larsim v04\_03\_01
 ----------------------------------------
 
 -   2015-03-18 Lynn Garren : larsim v04\_03\_01 for larsoft v04\_03\_01
 
-larevt v04\_03\_01(#larevt-v04_03_01)
+larevt v04\_03\_01
 ----------------------------------------
 
 -   2015-03-18 Lynn Garren : larevt v04\_03\_01 for larsoft v04\_03\_01
 
-lardata v04\_03\_01(#lardata-v04_03_01)
+lardata v04\_03\_01
 ------------------------------------------
 
 -   2015-03-18 Lynn Garren : lardata v04\_03\_01 for larsoft v04\_03\_01
 
-larcore v04\_03\_01(#larcore-v04_03_01)
+larcore v04\_03\_01
 ------------------------------------------
 
 -   2015-03-18 Lynn Garren : larcore v04\_03\_01 for larsoft v04\_03\_01
@@ -116,10 +116,10 @@ larcore v04\_03\_01(#larcore-v04_03_01)
 -   2015-03-12 Lynn Garren : larsoft v04\_02\_02
 -   2015-03-12 Marc Mengel : blank line to force a push
 
-larbatch v01\_04\_04(#larbatch-v01_04_04)
+larbatch v01\_04\_04
 --------------------------------------------
 
-larutils v1\_00\_05(#larutils-v1_00_05)
+larutils v1\_00\_05
 ------------------------------------------
 
 -   2015-03-18 Lynn Garren : larutils v1\_00\_05 for larsoft v04\_03\_01

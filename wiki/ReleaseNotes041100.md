@@ -1,4 +1,4 @@
-LArSoft v04\_11\_00 Release Notes(#LArSoft-v04_11_00-Release-Notes)
+LArSoft v04\_11\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -25,25 +25,25 @@ LArSoft v04\_11\_00 Release Notes(#LArSoft-v04_11_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_11_00/larsoft-v04_11_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Build with [art v1\_14\_02](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11402)
 -   See [\#8898](/redmine/issues/8898 "Support: art v1_14_02 (Closed)")
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   art now supports reading data products from secondary input files
 -   art has improved memory usage
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   ifdhc v1\_8\_3
 -   libwda v2\_21\_0a
 
-Known Problems(#Known-Problems)
+Known Problems
 ----------------------------------
 
 -   See [\#9108](/redmine/issues/9108 "Bug: Processing multiple files (Closed)")
@@ -54,7 +54,7 @@ Known Problems(#Known-Problems)
         /products/boost/v1_57_0/Linux64bit+2.6-2.12-e7-prof/include/boost/system/error_code.hpp:222: undefined reference to `boost::system::generic_category()'
         /products/boost/v1_57_0/Linux64bit+2.6-2.12-e7-prof/include/boost/system/error_code.hpp:223: undefined reference to `boost::system::system_category()'
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ----------------- ---------------- ---------------- ------------------------------
@@ -85,39 +85,39 @@ Updated dependencies(#Updated-dependencies)
   mrb               v1\_04\_05                        
   ----------------- ---------------- ---------------- ------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_11\_00(#larsoft-v04_11_00)
+larsoft v04\_11\_00
 ------------------------------------------
 
 -   2015-06-05 Lynn Garren : larsoft v04\_11\_00 for larsoft v04\_11\_00
 -   2015-06-05 Lynn Garren : using cetbuildtools v4\_11\_01
 -   2015-06-03 Lynn Garren : new product suite for art v1\_14\_02
 
-lareventdisplay v04\_04\_09(#lareventdisplay-v04_04_09)
+lareventdisplay v04\_04\_09
 ----------------------------------------------------------
 
 -   2015-06-03 Lynn Garren : lareventdisplay v04\_04\_09 for larsoft v04\_11\_00
 
-larexamples v04\_04\_09(#larexamples-v04_04_09)
+larexamples v04\_04\_09
 --------------------------------------------------
 
 -   2015-06-03 Lynn Garren : larexamples v04\_04\_09 for larsoft v04\_11\_00
 
-larpandora v04\_04\_09(#larpandora-v04_04_09)
+larpandora v04\_04\_09
 ------------------------------------------------
 
 -   2015-06-05 Lynn Garren : larpandora v04\_04\_09 for larsoft v04\_11\_00
 -   2015-06-05 Lynn Garren : add Boost\_SYSTEM\_LIBRARY
 
-larana v04\_07\_01(#larana-v04_07_01)
+larana v04\_07\_01
 ----------------------------------------
 
 -   2015-06-05 Lynn Garren : larana v04\_07\_01 for larsoft v04\_11\_00
 -   2015-06-04 Lynn Garren : add Boost\_SYSTEM\_LIBRARY
 
-larreco v04\_07\_02(#larreco-v04_07_02)
+larreco v04\_07\_02
 ------------------------------------------
 
 -   2015-06-05 Lynn Garren : larreco v04\_07\_02 for larsoft v04\_11\_00
@@ -125,35 +125,35 @@ larreco v04\_07\_02(#larreco-v04_07_02)
 -   2015-06-04 Lynn Garren : specify library name
 -   2015-06-03 Lynn Garren : need Boost\_SYSTEM\_LIBRARY
 
-larsim v04\_07\_05(#larsim-v04_07_05)
+larsim v04\_07\_05
 ----------------------------------------
 
 -   2015-06-05 Lynn Garren : larsim v04\_07\_05 for larsoft v04\_11\_00
 -   2015-06-04 Lynn Garren : add Boost\_SYSTEM\_LIBRARY
 
-larevt v04\_07\_03(#larevt-v04_07_03)
+larevt v04\_07\_03
 ----------------------------------------
 
 -   2015-06-05 Lynn Garren : larevt v04\_07\_03 for larsoft v04\_11\_00
 -   2015-06-04 Lynn Garren : need Boost\_SYSTEM\_LIBRARY
 -   2015-06-04 Lynn Garren : add Boost\_SYSTEM\_LIBRARY
 
-lardata v04\_08\_00(#lardata-v04_08_00)
+lardata v04\_08\_00
 ------------------------------------------
 
 -   2015-06-05 Lynn Garren : lardata v04\_08\_00 for larsoft v04\_11\_00
 -   2015-06-04 Lynn Garren : RawData also needs Boost\_SYSTEM\_LIBRARY
 -   2015-06-03 Lynn Garren : need Boost\_SYSTEM\_LIBRARY
 
-larcore v04\_10\_00(#larcore-v04_10_00)
+larcore v04\_10\_00
 ------------------------------------------
 
 -   2015-06-03 Lynn Garren : larcore v04\_10\_00 for larsoft v04\_11\_00
 
-larbatch v01\_09\_00(#larbatch-v01_09_00)
+larbatch v01\_09\_00
 --------------------------------------------
 
-larutils v1\_00\_11(#larutils-v1_00_11)
+larutils v1\_00\_11
 ------------------------------------------
 
 -   2015-06-05 Lynn Garren : larutils v1\_00\_11 for larsoft v04\_11\_00

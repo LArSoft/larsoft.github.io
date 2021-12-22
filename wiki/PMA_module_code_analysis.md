@@ -1,4 +1,4 @@
-PMA module code analysis Report(#PMA-module-code-analysis-Report)
+PMA module code analysis Report
 ====================================================================
 
 [http://cd-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5766&filename=ReportfromPatternMatchingAlgorithmCodeAnalysis.pdf&version=1](http://cd-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5766&filename=ReportfromPatternMatchingAlgorithmCodeAnalysis.pdf&version=1)
@@ -42,7 +42,7 @@ double StepWithGradient(float alfa, float tol, float penalty, float weight);
 The complexity on the higher level comes from scoring the tracks made of various (possible) matching of clusters in complementary 2D projections, this is done more or less here:\
 [https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker\_module.cc\#L1851](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc#L1851)
 
-Working session materials(#Working-session-materials)
+Working session materials
 --------------------------------------------------------
 
 Valgrind callgraph output attached to this page

@@ -1,4 +1,4 @@
-LArSoft v04\_26\_01 Release Notes(#LArSoft-v04_26_01-Release-Notes)
+LArSoft v04\_26\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,22 +24,22 @@ LArSoft v04\_26\_01 Release Notes(#LArSoft-v04_26_01-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_26_01/larsoft-v04_26_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop since v04\_26\_00
 -   new libwda and ifdhc
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   drop geant4 dependency in larcore
 -   libwda v2\_22\_0 provides a debug output controlled by environment variable LIBWDA\_DEBUG
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- ------------ ------------- ---------------------------------
@@ -49,17 +49,17 @@ Updated dependencies(#Updated-dependencies)
   nutools   v1\_14\_05   e7[:noifdh]   
   --------- ------------ ------------- ---------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_26\_01(#larsoft-v04_26_01)
+larsoft v04\_26\_01
 ------------------------------------------
 
 -   2015-10-14 Lynn Garren : larsoft v04\_26\_01 for larsoft v04\_26\_01
 -   2015-10-14 Lynn Garren : update dependency database
 -   2015-10-13 Lynn Garren : update product versions
 
-lareventdisplay v04\_10\_01(#lareventdisplay-v04_10_01)
+lareventdisplay v04\_10\_01
 ----------------------------------------------------------
 
 -   2015-10-14 Lynn Garren : lareventdisplay v04\_10\_01 for larsoft v04\_26\_01
@@ -67,24 +67,24 @@ lareventdisplay v04\_10\_01(#lareventdisplay-v04_10_01)
 -   2015-10-09 Tingjun Yang : Make shower points brighter in Ortho3D view.
 -   2015-10-09 Tingjun Yang : Add protection in case there is no hit associated with showers.
 
-larexamples v04\_05\_08(#larexamples-v04_05_08)
+larexamples v04\_05\_08
 --------------------------------------------------
 
 -   2015-10-14 Lynn Garren : larexamples v04\_05\_08 for larsoft v04\_26\_01
 
-larpandora v04\_07\_02(#larpandora-v04_07_02)
+larpandora v04\_07\_02
 ------------------------------------------------
 
 -   2015-10-14 Lynn Garren : larpandora v04\_07\_02 for larsoft v04\_26\_01
 
-larana v04\_13\_01(#larana-v04_13_01)
+larana v04\_13\_01
 ----------------------------------------
 
 -   2015-10-14 Lynn Garren : larana v04\_13\_01 for larsoft v04\_26\_01
 -   2015-10-08 Lynn Garren : larsoft v04\_26\_00
 -   2015-10-07 Thomas Warburton : Adding the BestFitParam variable to the Photon Detector T0.
 
-larreco v04\_19\_01(#larreco-v04_19_01)
+larreco v04\_19\_01
 ------------------------------------------
 
 -   2015-10-14 Lynn Garren : larreco v04\_19\_01 for larsoft v04\_26\_01
@@ -104,18 +104,18 @@ larreco v04\_19\_01(#larreco-v04_19_01)
 -   2015-10-08 Mike Wallbank : included calorimetry between showerfindermodules
 -   2015-10-08 Mike Wallbank : added calorimetry
 
-larsim v04\_12\_01(#larsim-v04_12_01)
+larsim v04\_12\_01
 ----------------------------------------
 
 -   2015-10-14 Lynn Garren : larsim v04\_12\_01 for larsoft v04\_26\_01
 
-larevt v04\_12\_01(#larevt-v04_12_01)
+larevt v04\_12\_01
 ----------------------------------------
 
 -   2015-10-14 Lynn Garren : larevt v04\_12\_01 for larsoft v04\_26\_01
 -   2015-10-08 Tingjun Yang : Set the correct name.
 
-lardata v04\_15\_01(#lardata-v04_15_01)
+lardata v04\_15\_01
 ------------------------------------------
 
 -   2015-10-14 Lynn Garren : lardata v04\_15\_01 for larsoft v04\_26\_01
@@ -125,13 +125,13 @@ lardata v04\_15\_01(#lardata-v04_15_01)
 -   2015-10-08 Lynn Garren : larsoft v04\_26\_00
 -   2015-10-07 Thomas Warburton : Changing how labels for T0.h are written. I had put them after the functions not the variable declarations.
 
-larcore v04\_17\_02(#larcore-v04_17_02)
+larcore v04\_17\_02
 ------------------------------------------
 
 -   2015-10-14 Lynn Garren : larcore v04\_17\_02 for larsoft v04\_26\_01
 -   2015-10-13 Lynn Garren : larcore does not depend on geant4 in any way
 
-larbatch v01\_17\_01(#larbatch-v01_17_01)
+larbatch v01\_17\_01
 --------------------------------------------
 
 -   2015-10-14 Lynn Garren : larbatch v01\_17\_01 for larsoft v04\_26\_01
@@ -145,5 +145,5 @@ larbatch v01\_17\_01(#larbatch-v01_17_01)
 -   2015-10-08 Lynn Garren : larsoft v04\_26\_00
 -   2015-10-07 Herbert Greenlee : Add protection against division by zero.
 
-larutils v1\_03\_02(#larutils-v1_03_02)
+larutils v1\_03\_02
 ------------------------------------------

@@ -1,4 +1,4 @@
-LArSoft v05\_14\_00 Release Notes(#LArSoft-v05_14_00-Release-Notes)
+LArSoft v05\_14\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,13 +24,13 @@ LArSoft v05\_14\_00 Release Notes(#LArSoft-v05_14_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_14_00/larsoft-v05_14_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   updates to develop since v05\_13\_00
 -   merge approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   ifdhc v1\_8\_11
@@ -39,10 +39,10 @@ New features(#New-features)
 -   larsim feature/tjyang\_ndk
     -   proton decay simulation with genie
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- ------------ ------------ -------
@@ -51,37 +51,37 @@ Updated dependencies(#Updated-dependencies)
   ifdhc     v1\_8\_11    e9:p2710     
   --------- ------------ ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_14\_00(#larsoft-v05_14_00)
+larsoft v05\_14\_00
 ------------------------------------------
 
 -   2016-06-29 Lynn Garren : ifdhc v1\_8\_11
 -   2016-06-28 Lynn Garren : larsoft v05\_14\_00 for larsoft v05\_14\_00
 -   2016-06-28 Lynn Garren : update product versions
 
-lareventdisplay v05\_07\_03(#lareventdisplay-v05_07_03)
+lareventdisplay v05\_07\_03
 ----------------------------------------------------------
 
 -   2016-06-28 Lynn Garren : lareventdisplay v05\_07\_03
 
-larexamples v05\_07\_01(#larexamples-v05_07_01)
+larexamples v05\_07\_01
 --------------------------------------------------
 
 -   2016-06-28 Lynn Garren : larexamples v05\_07\_01
 
-larpandora v05\_09\_08(#larpandora-v05_09_08)
+larpandora v05\_09\_08
 ------------------------------------------------
 
 -   2016-06-28 Lynn Garren : larpandora v05\_09\_08
 
-larana v05\_09\_05(#larana-v05_09_05)
+larana v05\_09\_05
 ----------------------------------------
 
 -   2016-06-28 Lynn Garren : larana v05\_09\_04
 
-larreco v05\_13\_00(#larreco-v05_13_00)
+larreco v05\_13\_00
 ------------------------------------------
 
 -   2016-06-28 Lynn Garren : larreco v05\_13\_00 for larsoft v05\_14\_00
@@ -172,7 +172,7 @@ larreco v05\_13\_00(#larreco-v05_13_00)
 -   2016-04-25 Robert Sulej : go top-down and prepare first class and functions for point identification
 -   2016-04-25 Robert Sulej : add box for 2D image recognition algs
 
-larsim v05\_14\_00(#larsim-v05_14_00)
+larsim v05\_14\_00
 ----------------------------------------
 
 -   2016-06-28 Lynn Garren : larsim v05\_14\_00 for larsoft v05\_14\_00
@@ -190,28 +190,28 @@ larsim v05\_14\_00(#larsim-v05_14_00)
 -   2016-02-03 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
 -   2016-02-03 Brian Rebel : formatting changes
 
-larevt v05\_07\_03(#larevt-v05_07_03)
+larevt v05\_07\_03
 ----------------------------------------
 
 -   2016-06-28 Lynn Garren : larevt v05\_07\_03
 -   2016-06-27 Brandon Eberly : Removed a try/catch block that was called once per channel per event.
 
-lardata v05\_09\_01(#lardata-v05_09_01)
+lardata v05\_09\_01
 ------------------------------------------
 
 -   2016-06-28 Lynn Garren : lardata v05\_09\_01
 
-larcore v05\_08\_01(#larcore-v05_08_01)
+larcore v05\_08\_01
 ------------------------------------------
 
 -   2016-06-28 Lynn Garren : larcore v05\_08\_01
 -   2016-06-22 Brian Rebel : Add method to provide the name of an AuxDet.
 -   2016-06-21 Brian Rebel : formatting changes only to make it easier to read
 
-larbatch v01\_22\_01(#larbatch-v01_22_01)
+larbatch v01\_22\_01
 --------------------------------------------
 
-larutils v1\_06\_04(#larutils-v1_06_04)
+larutils v1\_06\_04
 ------------------------------------------
 
 -   2016-06-28 Lynn Garren : larutils v1\_06\_04 for larsoft v05\_14\_00

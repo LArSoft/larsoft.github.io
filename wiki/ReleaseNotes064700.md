@@ -1,4 +1,4 @@
-LArSoft v06\_47\_00 Release Notes(#LArSoft-v06_47_00-Release-Notes)
+LArSoft v06\_47\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,13 +31,13 @@ LArSoft v06\_47\_00 Release Notes(#LArSoft-v06_47_00-Release-Notes)
 Download instructions for [larsoft v06\_47\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_47_00/larsoft-v06_47_00.html)\
 Download instructions for [just larsoftobj v1\_25\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_25_00/larsoftobj-v1_25_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardataobj & larana feature/afurmans\_MCTruthMatching
@@ -50,18 +50,18 @@ New features(#New-features)
     -   adds a new option for the optical waveform pedestal algorithm used by module OpHitFinder
     -   default configuration does not change
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   cetbuildtools v5\_14\_00 is used
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_47\_00(#larsoft-v06_47_00)
+larsoft v06\_47\_00
 ------------------------------------------
 
 -   2017-08-16 Lynn Garren : larsoft v06\_47\_00 for larsoft v06\_47\_00
@@ -70,7 +70,7 @@ larsoft v06\_47\_00(#larsoft-v06_47_00)
 -   2017-08-10 Lynn Garren : larsoft v06\_46\_00
 -   2017-08-09 Lynn Garren : ignore larcorealg tests on Jenkins
 
-lareventdisplay v06\_11\_00(#lareventdisplay-v06_11_00)
+lareventdisplay v06\_11\_00
 ----------------------------------------------------------
 
 -   2017-08-16 Lynn Garren : lareventdisplay v06\_11\_00 for larsoft v06\_47\_00
@@ -133,25 +133,25 @@ lareventdisplay v06\_11\_00(#lareventdisplay-v06_11_00)
 -   2016-10-20 Usher, Tracy L : Draw 3D boxes to display 3 frame readout for MicroBooNE. Also add code to display “bad” wires from the channel status database
 -   2016-10-20 Usher, Tracy L : Display 3 frame readout volumes, also only draw simulated particles within the active time frame (e.g. not outside truncated readout for MicroBooNE)
 
-larexamples v06\_05\_05(#larexamples-v06_05_05)
+larexamples v06\_05\_05
 --------------------------------------------------
 
 -   2017-08-16 Lynn Garren : larexamples v06\_05\_05 for larsoft v06\_47\_00
 -   2017-08-16 Lynn Garren : for cetbuildtools v5\_14\_00
 
-larpandora v06\_15\_05(#larpandora-v06_15_05)
+larpandora v06\_15\_05
 ------------------------------------------------
 
 -   2017-08-16 Lynn Garren : larpandora v06\_15\_05 for larsoft v06\_47\_00
 -   2017-08-16 Lynn Garren : for cetbuildtools v5\_14\_00
 
-larwirecell v06\_05\_09(#larwirecell-v06_05_09)
+larwirecell v06\_05\_09
 --------------------------------------------------
 
 -   2017-08-16 Lynn Garren : larwirecell v06\_05\_09 for larsoft v06\_47\_00
 -   2017-08-16 Lynn Garren : for cetbuildtools v5\_14\_00
 
-larana v06\_09\_00(#larana-v06_09_00)
+larana v06\_09\_00
 ----------------------------------------
 
 -   2017-08-16 Lynn Garren : larana v06\_09\_00 for larsoft v06\_47\_00
@@ -176,7 +176,7 @@ larana v06\_09\_00(#larana-v06_09_00)
 -   2017-05-04 Lynn Garren : larana v06\_03\_18\_02
 -   2017-04-04 Lynn Garren : larana v06\_03\_18\_01 for larsoft v06\_26\_01\_01
 
-larreco v06\_38\_00(#larreco-v06_38_00)
+larreco v06\_38\_00
 ------------------------------------------
 
 -   2017-08-16 Lynn Garren : larreco v06\_38\_00 for larsoft v06\_47\_00
@@ -190,31 +190,31 @@ larreco v06\_38\_00(#larreco-v06_38_00)
 -   2017-08-11 Robert Sulej : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2017-08-11 Robert Sulej : add debugging code
 
-larsim v06\_29\_01(#larsim-v06_29_01)
+larsim v06\_29\_01
 ----------------------------------------
 
 -   2017-08-16 Lynn Garren : larsim v06\_29\_01 for larsoft v06\_47\_00
 -   2017-08-16 Lynn Garren : for cetbuildtools v5\_14\_00
 
-larevt v06\_15\_05(#larevt-v06_15_05)
+larevt v06\_15\_05
 ----------------------------------------
 
 -   2017-08-16 Lynn Garren : larevt v06\_15\_05 for larsoft v06\_47\_00
 -   2017-08-16 Lynn Garren : for cetbuildtools v5\_14\_00
 
-lardata v06\_26\_01(#lardata-v06_26_01)
+lardata v06\_26\_01
 ------------------------------------------
 
 -   2017-08-16 Lynn Garren : lardata v06\_26\_01 for larsoft v06\_47\_00
 -   2017-08-16 Lynn Garren : for cetbuildtools v5\_14\_00
 
-larcore v06\_14\_00(#larcore-v06_14_00)
+larcore v06\_14\_00
 ------------------------------------------
 
-larpandoracontent v03\_07\_03(#larpandoracontent-v03_07_03)
+larpandoracontent v03\_07\_03
 --------------------------------------------------------------
 
-larsoftobj v1\_25\_00(#larsoftobj-v1_25_00)
+larsoftobj v1\_25\_00
 ----------------------------------------------
 
 -   2017-08-16 Lynn Garren : larsoftobj v1\_25\_00 for larsoft v06\_47\_00
@@ -223,7 +223,7 @@ larsoftobj v1\_25\_00(#larsoftobj-v1_25_00)
 -   2017-08-10 Lynn Garren : larsoft v06\_46\_00
 -   2017-08-09 Lynn Garren : ignore larcorealg tests on Jenkins
 
-lardataobj v1\_19\_00(#lardataobj-v1_19_00)
+lardataobj v1\_19\_00
 ----------------------------------------------
 
 -   2017-08-16 Lynn Garren : lardataobj v1\_19\_00 for larsoft v06\_47\_00
@@ -239,16 +239,16 @@ lardataobj v1\_19\_00(#lardataobj-v1_19_00)
 -   2017-04-04 Lynn Garren : lardataobj v1\_11\_00\_01 for larsoft v06\_26\_01\_01
 -   2017-03-23 Giuseppe Cerati : Merge remote-tracking branch ‘origin/feature/cerati\_kffitresiduals’ into feature/cerati\_larsoft-v06\_26\_01-plus-new-kffit
 
-larcorealg v1\_06\_01(#larcorealg-v1_06_01)
+larcorealg v1\_06\_01
 ----------------------------------------------
 
-larcoreobj v1\_15\_01(#larcoreobj-v1_15_01)
+larcoreobj v1\_15\_01
 ----------------------------------------------
 
-larbatch v01\_32\_04(#larbatch-v01_32_04)
+larbatch v01\_32\_04
 --------------------------------------------
 
-larutils v1\_18\_00(#larutils-v1_18_00)
+larutils v1\_18\_00
 ------------------------------------------
 
 -   2017-08-16 Lynn Garren : larutils v1\_18\_00 for larsoft v06\_47\_00

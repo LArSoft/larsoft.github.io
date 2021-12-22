@@ -1,4 +1,4 @@
-LArSoft v08\_28\_01 Release Notes(#LArSoft-v08_28_01-Release-Notes)
+LArSoft v08\_28\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v08\_28\_01 Release Notes(#LArSoft-v08_28_01-Release-Notes)
 Download instructions for [larsoft v08\_28\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_28_01/larsoft-v08_28_01.html)\
 Download instructions for [just larsoftobj v08\_17\_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_17_03/larsoftobj-v08_17_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsim feature/update-sim-filters
@@ -51,28 +51,28 @@ New features(#New-features)
     -   [https://indico.fnal.gov/event/21478/contribution/3/material/slides/0.pdf](https://indico.fnal.gov/event/21478/contribution/3/material/slides/0.pdf)
     -   feature/knoepfel\_rm\_unused\_headers
 
-Breaking Changes(#Breaking-Changes)
+Breaking Changes
 --------------------------------------
 
 -   [Some headers may need to be added to code in experiment packages](Breaking_Changes#code-cleanup).
     -   See feature/knoepfel\_rm\_unused\_headers for the experiment code.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   wirecell v0\_12\_4
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_28\_01(#larsoft-v08_28_01)
+larsoft v08\_28\_01
 ------------------------------------------
 
 -   2019-08-13 Lynn Garren : larsoft v08\_28\_01 for larsoft v08\_28\_01
 -   2019-08-13 Lynn Garren : update versions
 -   2019-08-13 Lynn Garren : wirecell v0\_12\_4
 
-lareventdisplay v08\_08\_08(#lareventdisplay-v08_08_08)
+lareventdisplay v08\_08\_08
 ----------------------------------------------------------
 
 -   2019-08-14 Lynn Garren : restore missing library
@@ -82,7 +82,7 @@ lareventdisplay v08\_08\_08(#lareventdisplay-v08_08_08)
 -   2019-08-07 Kyle Knoepfel : Remove unnecessary link-time dependencies.
 -   2019-08-06 Kyle Knoepfel : Remove unnecessary header dependencies.
 
-larexamples v08\_02\_15(#larexamples-v08_02_15)
+larexamples v08\_02\_15
 --------------------------------------------------
 
 -   2019-08-14 Lynn Garren : restore missing library
@@ -92,21 +92,21 @@ larexamples v08\_02\_15(#larexamples-v08_02_15)
 -   2019-08-06 Kyle Knoepfel : Remove unnecessary library dependencies.
 -   2019-08-06 Kyle Knoepfel : Remove unnecessary header dependencies.
 
-larg4 v08\_03\_13(#larg4-v08_03_13)
+larg4 v08\_03\_13
 --------------------------------------
 
 -   2019-08-13 Lynn Garren : larg4 v08\_03\_13 for larsoft v08\_28\_01
 -   2019-08-09 Lynn Garren : larsoft v08\_28\_00
 -   2019-08-08 Kyle Knoepfel : Add missing header dependencies.
 
-larpandora v08\_07\_12(#larpandora-v08_07_12)
+larpandora v08\_07\_12
 ------------------------------------------------
 
 -   2019-08-13 Lynn Garren : larpandora v08\_07\_12 for larsoft v08\_28\_01
 -   2019-08-09 Lynn Garren : larsoft v08\_28\_00
 -   2019-08-06 Lynn Garren : Add missing headers.
 
-larwirecell v08\_05\_13(#larwirecell-v08_05_13)
+larwirecell v08\_05\_13
 --------------------------------------------------
 
 -   2019-08-14 Lynn Garren : add missing library
@@ -118,7 +118,7 @@ larwirecell v08\_05\_13(#larwirecell-v08_05_13)
 -   2019-08-07 Kyle Knoepfel : Remove unnecessary link-time dependencies.
 -   2019-08-07 Kyle Knoepfel : Remove unnecessary header dependencies.
 
-larana v08\_10\_08(#larana-v08_10_08)
+larana v08\_10\_08
 ----------------------------------------
 
 -   2019-08-14 Lynn Garren : restore missing library
@@ -130,7 +130,7 @@ larana v08\_10\_08(#larana-v08_10_08)
 -   2019-08-06 Kyle Knoepfel : Remove unnecessary library dependencies.
 -   2019-08-05 Kyle Knoepfel : Remove unnecessary header dependencies.
 
-larreco v08\_16\_05(#larreco-v08_16_05)
+larreco v08\_16\_05
 ------------------------------------------
 
 -   2019-08-14 Lynn Garren : there is a reason it’s called the basic lib list
@@ -170,7 +170,7 @@ larreco v08\_16\_05(#larreco-v08_16_05)
 -   2019-06-18 Usher, Tracy L : Merge remote-tracking branch ‘origin/feature/sberkman\_gshfmrqdt’ into develop
 -   2019-06-17 Sophie Berkman : Add GSHF Marqdt fitter
 
-larsim v08\_12\_01(#larsim-v08_12_01)
+larsim v08\_12\_01
 ----------------------------------------
 
 -   2019-08-14 Lynn Garren : restore misssing libraries
@@ -191,7 +191,7 @@ larsim v08\_12\_01(#larsim-v08_12_01)
 -   2019-07-29 gputnam : Updater FilterGenInTime module to work in a detector with multiple cryostats. Adapt ray-box intersection algorithm to look at intersection point to calculate propogation time.
 -   2019-07-17 Kyle Knoepfel : Remove unused headers.
 
-larevt v08\_06\_06(#larevt-v08_06_06)
+larevt v08\_06\_06
 ----------------------------------------
 
 -   2019-08-14 Lynn Garren : add missing library
@@ -202,7 +202,7 @@ larevt v08\_06\_06(#larevt-v08_06_06)
 -   2019-08-01 Kyle Knoepfel : Remove unused library dependencies.
 -   2019-07-16 Kyle Knoepfel : Remove unused headers.
 
-lardata v08\_07\_04(#lardata-v08_07_04)
+lardata v08\_07\_04
 ------------------------------------------
 
 -   2019-08-13 Lynn Garren : lardata v08\_07\_04 for larsoft v08\_28\_01
@@ -211,23 +211,23 @@ lardata v08\_07\_04(#lardata-v08_07_04)
 -   2019-07-12 Kyle Knoepfel : Remove unused library dependencies.
 -   2019-07-12 Kyle Knoepfel : Remove unused headers.
 
-larcore v08\_04\_09(#larcore-v08_04_09)
+larcore v08\_04\_09
 ------------------------------------------
 
 -   2019-08-13 Lynn Garren : larcore v08\_04\_09 for larsoft v08\_28\_01
 -   2019-08-13 Lynn Garren : Merge branch ‘feature/knoepfel\_rm\_unused\_headers’ into release/v08\_28\_01
 -   2019-07-08 Kyle Knoepfel : Remove unused headers.
 
-larpandoracontent v03\_15\_03(#larpandoracontent-v03_15_03)
+larpandoracontent v03\_15\_03
 --------------------------------------------------------------
 
-larsoftobj v08\_17\_03(#larsoftobj-v08_17_03)
+larsoftobj v08\_17\_03
 ------------------------------------------------
 
 -   2019-08-13 Lynn Garren : larsoftobj v08\_17\_03 for larsoft v08\_28\_01
 -   2019-08-13 Lynn Garren : update versions
 
-lardataobj v08\_04\_09(#lardataobj-v08_04_09)
+lardataobj v08\_04\_09
 ------------------------------------------------
 
 -   2019-08-13 Lynn Garren : lardataobj v08\_04\_09 for larsoft v08\_28\_01
@@ -237,7 +237,7 @@ lardataobj v08\_04\_09(#lardataobj-v08_04_09)
 -   2019-07-31 Kyle Knoepfel : Homogenize CMakeLists.txt files.
 -   2019-07-10 Kyle Knoepfel : Remove unused headers.
 
-lardataalg v08\_08\_04(#lardataalg-v08_08_04)
+lardataalg v08\_08\_04
 ------------------------------------------------
 
 -   2019-08-13 Lynn Garren : lardataalg v08\_08\_04 for larsoft v08\_28\_01
@@ -245,7 +245,7 @@ lardataalg v08\_08\_04(#lardataalg-v08_08_04)
 -   2019-08-07 Kyle Knoepfel : Merge branch ‘develop’ into feature/knoepfel\_rm\_unused\_headers
 -   2019-07-10 Kyle Knoepfel : Remove unused headers.
 
-larcorealg v08\_14\_02(#larcorealg-v08_14_02)
+larcorealg v08\_14\_02
 ------------------------------------------------
 
 -   2019-08-13 Lynn Garren : larcorealg v08\_14\_02 for larsoft v08\_28\_01
@@ -257,17 +257,17 @@ larcorealg v08\_14\_02(#larcorealg-v08_14_02)
 -   2019-07-31 Kyle Knoepfel : Remove unnecessary library dependencies.
 -   2019-06-28 Kyle Knoepfel : Remove unused headers.
 
-larcoreobj v08\_05\_03(#larcoreobj-v08_05_03)
+larcoreobj v08\_05\_03
 ------------------------------------------------
 
 -   2019-08-13 Lynn Garren : larcoreobj v08\_05\_03 for larsoft v08\_28\_01
 -   2019-08-13 Kyle Knoepfel : Merge branch ‘develop’ into feature/knoepfel\_rm\_unused\_headers
 -   2019-07-31 Kyle Knoepfel : Remove unnecessary library dependencies.
 
-larbatch v01\_51\_06(#larbatch-v01_51_06)
+larbatch v01\_51\_06
 --------------------------------------------
 
-larutils v1\_24\_01(#larutils-v1_24_01)
+larutils v1\_24\_01
 ------------------------------------------
 
 -   2019-08-13 Lynn Garren : larutils v1\_24\_01 for larsoft v08\_28\_01

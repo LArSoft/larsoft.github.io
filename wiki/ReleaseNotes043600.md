@@ -1,4 +1,4 @@
-LArSoft v04\_36\_00 Release Notes(#LArSoft-v04_36_00-Release-Notes)
+LArSoft v04\_36\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -25,12 +25,12 @@ LArSoft v04\_36\_00 Release Notes(#LArSoft-v04_36_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_36_00/larsoft-v04_36_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes for MicroBooNE MCC7
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larana feature/gvsinev\_PerEventFlashTree
@@ -42,18 +42,18 @@ New features(#New-features)
 -   larsim feature/warburton\_NuclearPhysics
     -   turns on MuonNuclear
 
-Breaking Changes(#Breaking-Changes)
+Breaking Changes
 --------------------------------------
 
 -   some code in larana/OpticalDetector has been moved to larana/OpticalDetector/OpHitFinder
 -   If your library list includes OpticalDetector, it should now include both OpticalDetector and OpHitFinder.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lardata [\#11628](/redmine/issues/11628 "Bug: Pedestal passed by mutable reference in raw.cxx  (Resolved)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ----------- ------------ ------------ -------
@@ -63,32 +63,32 @@ Updated dependencies(#Updated-dependencies)
   nutools     v1\_22\_01   e9:gn286     
   ----------- ------------ ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_36\_00(#larsoft-v04_36_00)
+larsoft v04\_36\_00
 ------------------------------------------
 
 -   2016-02-04 Lynn Garren : larsoft v04\_36\_00 for larsoft v04\_36\_00
 -   2016-02-04 Lynn Garren : update product versions
 -   2016-02-04 Lynn Garren : update dependency database
 
-lareventdisplay v04\_14\_03(#lareventdisplay-v04_14_03)
+lareventdisplay v04\_14\_03
 ----------------------------------------------------------
 
 -   2016-02-04 Lynn Garren : lareventdisplay v04\_14\_03 for larsoft v04\_36\_00
 
-larexamples v04\_06\_14(#larexamples-v04_06_14)
+larexamples v04\_06\_14
 --------------------------------------------------
 
 -   2016-02-04 Lynn Garren : larexamples v04\_06\_14 for larsoft v04\_36\_00
 
-larpandora v04\_09\_05(#larpandora-v04_09_05)
+larpandora v04\_09\_05
 ------------------------------------------------
 
 -   2016-02-04 Lynn Garren : larpandora v04\_09\_05 for larsoft v04\_36\_00
 
-larana v04\_18\_00(#larana-v04_18_00)
+larana v04\_18\_00
 ----------------------------------------
 
 -   2016-02-04 Lynn Garren : disable test for now
@@ -104,7 +104,7 @@ larana v04\_18\_00(#larana-v04_18_00)
 -   2015-11-18 drinkingkazu : Working! –kazu
 -   2015-11-18 drinkingkazu : Updating optical hit reco –kazu
 
-larreco v04\_30\_00(#larreco-v04_30_00)
+larreco v04\_30\_00
 ------------------------------------------
 
 -   2016-02-04 Lynn Garren : larreco v04\_30\_00 for larsoft v04\_36\_00
@@ -126,7 +126,7 @@ larreco v04\_30\_00(#larreco-v04_30_00)
 -   2016-01-25 Usher, Tracy L : Restructure the module and modify handling of some special cases. Now broken into three main functions: 1) finding candidate pulses, 2) merging of candidate pulses into single waveforms for fitting, 3) fitting peaks to gaussians. For waveforms with too many hits return a single hit centered on the waveform with width from start to stop of waveform.
 -   2016-01-25 Mike Wallbank : Replaced all histograms with 2D vectors to save on memory and computational efficiency when running the clustering code
 
-larsim v04\_21\_00(#larsim-v04_21_00)
+larsim v04\_21\_00
 ----------------------------------------
 
 -   2016-02-04 Lynn Garren : larsim v04\_21\_00 for larsoft v04\_36\_00
@@ -141,24 +141,24 @@ larsim v04\_21\_00(#larsim-v04_21_00)
 -   2016-01-19 Gleb Sinev : Add options to generate monoenergetic neutrinos and to use the Poisson distribution for the number of neutrinos generated per event to the supernova generator.
 -   2016-01-19 Gleb Sinev : Add 222Rn to the RadioGen module.
 
-larevt v04\_14\_04(#larevt-v04_14_04)
+larevt v04\_14\_04
 ----------------------------------------
 
 -   2016-02-04 Lynn Garren : larevt v04\_14\_04 for larsoft v04\_36\_00
 
-lardata v04\_22\_01(#lardata-v04_22_01)
+lardata v04\_22\_01
 ------------------------------------------
 
 -   2016-02-04 Lynn Garren : lardata v04\_22\_01 for larsoft v04\_36\_00
 -   2016-02-04 Jonathan Insler : Fixed bugs found by David Adams when uncompressing Huffman coding and zero suppression sequentially and set pedestal to int from int&
 
-larcore v04\_26\_00(#larcore-v04_26_00)
+larcore v04\_26\_00
 ------------------------------------------
 
-larbatch v01\_20\_03(#larbatch-v01_20_03)
+larbatch v01\_20\_03
 --------------------------------------------
 
-larutils v1\_05\_00(#larutils-v1_05_00)
+larutils v1\_05\_00
 ------------------------------------------
 
 -   2016-02-04 Lynn Garren : larutils v1\_05\_00 for larsoft v04\_36\_00

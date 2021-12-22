@@ -1,4 +1,4 @@
-Building with Clang(#Building-with-Clang)
+Building with Clang
 ============================================
 
 -   **Table of contents**
@@ -20,7 +20,7 @@ Building with Clang(#Building-with-Clang)
 
 As of art `v2_10_00`, builds with Clang `v5_0_1` (`c2`) are supported. This page reflects the effort needed to build LArSoft and experiment code with `c2`.
 
-The absolute value of unsigned type ‘bool’ has no effect(#The-absolute-value-of-unsigned-type-bool-has-no-effect) {.wiki-class-count}
+The absolute value of unsigned type ‘bool’ has no effect
 --------------------------------------------------------------------------------------------------------------------
 
 **The compilation error**:
@@ -34,7 +34,7 @@ The absolute value of unsigned type ‘bool’ has no effect(#The-absolute-value
 **The explanation**: the code has probably a bug: the author has probably taken the absolute value of the comparison result, while they should have compared the result of the absolute value. In the example above, positrons (`PdgCode() == -11`) won’t be counted (photons instead got lucky)\
 **What to do**: fix the parentheses
 
-Call to ‘abs’ is ambiguous(#Call-to-abs-is-ambiguous) {.wiki-class-count}
+Call to ‘abs’ is ambiguous
 --------------------------------------------------------
 
 **The compilation error**:
@@ -45,14 +45,14 @@ Call to ‘abs’ is ambiguous(#Call-to-abs-is-ambiguous) {.wiki-class-count}
 **The explanation**: Clang’s C++ library has no `std::abs()` for unsigned values; and why should it? The code has a bug: even if it does not realize it, the author is taking the absolute value of a value belonging to an unsigned type.\
 **What to do**: these are subtle and serious bugs: take a look at [Integral arithmetic in C and C++](Integral_arithmetic_in_C_and_C++) for extensive explanation and solutions
 
-Comparison is always true(#Comparison-is-always-true) {.wiki-class-count}
+Comparison is always true
 --------------------------------------------------------
 
 **The compilation error**: TODO\
 **The explanation**: the code has probably a bug: even if it does not realize it, the author is testing that a value belonging to an unsigned type is non-negative.\
 **What to do**: these are subtle and serious bugs: take a look at [Integral arithmetic in C and C++](Integral_arithmetic_in_C_and_C++) for extensive explanation and solutions
 
-Inconsistent use of `override`(#Inconsistent-use-of-override) {.wiki-class-count}
+Inconsistent use of `override`
 ----------------------------------------------------------------
 
 **The compilation error**:
@@ -83,7 +83,7 @@ becomes
 
     void name() const override;
 
-hidden overloaded function(#hidden-overloaded-function) {.wiki-class-count}
+hidden overloaded function
 ----------------------------------------------------------
 
 **The compilation error**:
@@ -108,7 +108,7 @@ becomes
 
     void beginRun(art::Run & run) override;
 
-Inconsistent header guard name(#Inconsistent-header-guard-name) {.wiki-class-count}
+Inconsistent header guard name
 ------------------------------------------------------------------
 
 **The compilation error**:
@@ -138,12 +138,12 @@ so that the first time the preprocessor `#include`{.cpp .syntaxhl}s this header,
 This works only as long as the symbol in the directives `#ifndef`{.cpp .syntaxhl} and `#define`{.cpp .syntaxhl} (in the example above, `HEADER_FILE_PATH_AND_NAME_H`) is the same. When a typographical mistake happens, or when one is changed and the other is not, this mechanism breaks and the header will be parsed each time it’s included, with various (nefarious) consequences.\
 **What to do**: copy one of the two versions of the identifier (possibly the one more up to date and without typos!) and paste it over the other one.
 
-Unused identifiers(#Unused-identifiers) {.wiki-class-count}
+Unused identifiers
 ------------------------------------------
 
 Clang 5 settings are more aggressive in recognising unused objects and types.
 
-### Private field is not used(#Private-field-is-not-used) {.wiki-class-count}
+### Private field is not used
 
 **The compilation error**:
 
@@ -153,10 +153,10 @@ Clang 5 settings are more aggressive in recognising unused objects and types.
 **The explanation**: a private field (data member) has a very limited scope, and it’s usually possible to determine when it’s not used. Clang 5 will aggressively do so, and emit an error when that happens. Private fields are essentially useless (exceptions apply, but they are for weird situations). Note that Clang 5 does not consider construction as use, meaning that if the variable is constructed in the [member initializer list of the constructor](http://en.cppreference.com/w/cpp/language/initializer_list), that alone does not stop the compiler from complaining.\
 **What to do**: remove the offending field. If the field is in a class in development and will be used in the close future, just comment it out. If the field is essential to stay for some reason, mark it with the attribute `[[gnu::unused]]`{.cpp .syntaxhl}. If you chose to remove or comment out the field, you might need to do the same to its item in the member initializer list (and that might make more variables unused).
 
-Braces warnings(#Braces-warnings) {.wiki-class-count}
+Braces warnings
 ------------------------------------
 
-### Missing braces warning(#Missing-braces-warning) {.wiki-class-count}
+### Missing braces warning
 
 **The compilation error**:\
 
@@ -180,7 +180,7 @@ Example code without warning:
     static std::array<double, 6> const Gauss2DParams_CV = {{
         10.5798, 0.254032, 0.50834, 0.0571035, 0.129051, 0.875287}};
 
-### Braces around scalar initializer(#Braces-around-scalar-initializer) {.wiki-class-count}
+### Braces around scalar initializer
 
 **The compilation error**:\
 
@@ -192,7 +192,7 @@ Example code without warning:
 **The explanation**: Although this code is meant to be legal, clang 5.0.1 does not recognize the double brace around a single initializer as allowable.\
 **What to do**: Remove the extra braces.
 
-Linker command failed(#Linker-command-failed) {.wiki-class-count}
+Linker command failed
 ------------------------------------------------
 
 **The compilation error**:\
@@ -210,12 +210,12 @@ Linker command failed(#Linker-command-failed) {.wiki-class-count}
 **What to do**: \
 Add larcorealg\_Geometry to the link list in the appropriate CMakeLists.txt file. So far, the only library we have found to be missing is larcorealg\_Geometry.
 
-C++17 standard changes(#C17-standard-changes) {.wiki-class-count}
+C++17 standard changes
 ------------------------------------------------
 
 Some functions have been added, some deprecated functions and a keyword have been removed. All this may cause errors.
 
-### No member named ‘mem\_fun\_ref’ in namespace ‘std’(#No-member-named-mem_fun_ref-in-namespace-std) {.wiki-class-count}
+### No member named ‘mem\_fun\_ref’ in namespace ‘std’
 
 **The compilation error**:
 

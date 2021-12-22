@@ -1,4 +1,4 @@
-LArSoft v08\_06\_00 Release Notes(#LArSoft-v08_06_00-Release-Notes)
+LArSoft v08\_06\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v08\_06\_00 Release Notes(#LArSoft-v08_06_00-Release-Notes)
 Download instructions for [larsoft v08\_06\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_06_00/larsoft-v08_06_00.html)\
 Download instructions for [just larsoftobj v08\_03\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_03_00/larsoftobj-v08_03_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Cluster3D and event display improvements
@@ -48,23 +48,23 @@ New features(#New-features)
     -   lareventdisplay feature/usher\_edgedrawingoptions
     -   larana feature/usher\_fixForCosmicPCAxisTagger
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_06\_00(#larsoft-v08_06_00)
+larsoft v08\_06\_00
 ------------------------------------------
 
 -   2019-01-23 Lynn Garren : larsoft v08\_06\_00 for larsoft v08\_06\_00
 -   2019-01-23 Lynn Garren : product versions
 -   2019-01-17 Lynn Garren : s71
 
-lareventdisplay v08\_03\_00(#lareventdisplay-v08_03_00)
+lareventdisplay v08\_03\_00
 ----------------------------------------------------------
 
 -   2019-01-23 Lynn Garren : lareventdisplay v08\_03\_00 for larsoft v08\_06\_00
@@ -138,21 +138,21 @@ lareventdisplay v08\_03\_00(#lareventdisplay-v08_03_00)
 -   2018-02-03 Usher, Tracy L : I believe this fixes timing offsets for out of time particles and for multi-TPC experiments.
 -   2018-01-25 Usher, Tracy L : Adding more options for drawing edges, going to a feature branch for now
 
-larexamples v08\_01\_00(#larexamples-v08_01_00)
+larexamples v08\_01\_00
 --------------------------------------------------
 
-larg4 v08\_01\_00(#larg4-v08_01_00)
+larg4 v08\_01\_00
 --------------------------------------
 
-larpandora v08\_03\_01(#larpandora-v08_03_01)
+larpandora v08\_03\_01
 ------------------------------------------------
 
 -   2019-01-23 Lynn Garren : larpandora v08\_03\_01 for larsoft v08\_06\_00
 
-larwirecell v08\_02\_00(#larwirecell-v08_02_00)
+larwirecell v08\_02\_00
 --------------------------------------------------
 
-larana v08\_01\_01(#larana-v08_01_01)
+larana v08\_01\_01
 ----------------------------------------
 
 -   2019-01-23 Lynn Garren : larana v08\_01\_01 for larsoft v08\_06\_00
@@ -160,7 +160,7 @@ larana v08\_01\_01(#larana-v08_01_01)
 -   2019-01-22 Usher, Tracy L : Pass pointer, not reference
 -   2019-01-22 Usher, Tracy L : fix compilation error associated with update to 3D clustering object definitions
 
-larreco v08\_05\_00(#larreco-v08_05_00)
+larreco v08\_05\_00
 ------------------------------------------
 
 -   2019-01-23 Lynn Garren : larreco v08\_05\_00 for larsoft v08\_06\_00
@@ -222,40 +222,40 @@ larreco v08\_05\_00(#larreco-v08_05_00)
 -   2018-08-05 Usher, Tracy L : Implement a simple tool interface to cleanly read hits from a specific detector into the solver
 -   2018-08-05 Usher, Tracy L : Adding another pointlist to contain the actual convex hull
 
-larsim v08\_02\_00(#larsim-v08_02_00)
+larsim v08\_02\_00
 ----------------------------------------
 
-larevt v08\_01\_00(#larevt-v08_01_00)
+larevt v08\_01\_00
 ----------------------------------------
 
-lardata v08\_02\_00(#lardata-v08_02_00)
+lardata v08\_02\_00
 ------------------------------------------
 
-larcore v08\_01\_00(#larcore-v08_01_00)
+larcore v08\_01\_00
 ------------------------------------------
 
-larpandoracontent v03\_14\_04(#larpandoracontent-v03_14_04)
+larpandoracontent v03\_14\_04
 --------------------------------------------------------------
 
-larsoftobj v08\_03\_00(#larsoftobj-v08_03_00)
+larsoftobj v08\_03\_00
 ------------------------------------------------
 
-lardataobj v08\_01\_00(#lardataobj-v08_01_00)
+lardataobj v08\_01\_00
 ------------------------------------------------
 
-lardataalg v08\_03\_00(#lardataalg-v08_03_00)
+lardataalg v08\_03\_00
 ------------------------------------------------
 
-larcorealg v08\_01\_00(#larcorealg-v08_01_00)
+larcorealg v08\_01\_00
 ------------------------------------------------
 
-larcoreobj v08\_01\_00(#larcoreobj-v08_01_00)
+larcoreobj v08\_01\_00
 ------------------------------------------------
 
-larbatch v01\_47\_03(#larbatch-v01_47_03)
+larbatch v01\_47\_03
 --------------------------------------------
 
-larutils v1\_23\_10(#larutils-v1_23_10)
+larutils v1\_23\_10
 ------------------------------------------
 
 -   2019-01-23 Lynn Garren : larutils v1\_23\_10 for larsoft v08\_06\_00

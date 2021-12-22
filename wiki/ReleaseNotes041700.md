@@ -1,4 +1,4 @@
-LArSoft v04\_17\_00 Release Notes(#LArSoft-v04_17_00-Release-Notes)
+LArSoft v04\_17\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,13 +24,13 @@ LArSoft v04\_17\_00 Release Notes(#LArSoft-v04_17_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_17_00/larsoft-v04_17_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to `develop` from `v04_16_00` and integration of feature branch.
 -   `larcore` and `larana` `feature/tmw_opflashfix`
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   the branch `feature/tmw_opflashfix` contains fixes for microboone optical reconstruction. Alex Himmel has also signed off on behalf of dune.
@@ -38,41 +38,41 @@ New features(#New-features)
 -   the larana feature branch modifies the flash finder and flash matcher to call the new methods.
 -   the new methods are required to be compatible with the microboone optical channel mapping in data.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_17\_00(#larsoft-v04_17_00)
+larsoft v04\_17\_00
 ------------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : larsoft v04\_17\_00 for larsoft v04\_17\_00
 -   2015-07-22 Gianluca Petrillo : Update product versions
 -   2015-07-22 Gianluca Petrillo : Updated dependency list
 
-lareventdisplay v04\_06\_01(#lareventdisplay-v04_06_01)
+lareventdisplay v04\_06\_01
 ----------------------------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : lareventdisplay v04\_06\_01 for larsoft v04\_17\_00
 -   2015-07-20 Bruce Baller : Improve screen print out
 -   2015-07-17 Thomas Warburton : Following advice on how to best display flash information on Ortho3D event view
 
-larexamples v04\_04\_17(#larexamples-v04_04_17)
+larexamples v04\_04\_17
 --------------------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : larexamples v04\_04\_17 for larsoft v04\_17\_00
 
-larpandora v04\_04\_17(#larpandora-v04_04_17)
+larpandora v04\_04\_17
 ------------------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : larpandora v04\_04\_17 for larsoft v04\_17\_00
 -   2015-07-22 Lynn Garren : use fwdir so FW\_SEARCH\_PATH is set correctly when building
 
-larana v04\_09\_00(#larana-v04_09_00)
+larana v04\_09\_00
 ----------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : larana v04\_09\_00 for larsoft v04\_17\_00
@@ -82,7 +82,7 @@ larana v04\_09\_00(#larana-v04_09_00)
 -   2015-07-16 Lynn Garren : larsoft v04\_16\_00
 -   2015-07-16 Taritree Wongjirad : temp fix while we work out the expeiment-agnostic service that provides spe info to flash finder. want generic opdet property service in the end.
 
-larreco v04\_13\_00(#larreco-v04_13_00)
+larreco v04\_13\_00
 ------------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : larreco v04\_13\_00 for larsoft v04\_17\_00
@@ -104,30 +104,30 @@ larreco v04\_13\_00(#larreco-v04_13_00)
 -   2015-07-17 Tingjun Yang : Move cluster associations outside the hit loop.
 -   2015-07-16 Bruce Baller : initialize variables
 
-larsim v04\_08\_04(#larsim-v04_08_04)
+larsim v04\_08\_04
 ----------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : larsim v04\_08\_04 for larsoft v04\_17\_00
 
-larevt v04\_08\_07(#larevt-v04_08_07)
+larevt v04\_08\_07
 ----------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : larevt v04\_08\_07 for larsoft v04\_17\_00
 
-lardata v04\_11\_01(#lardata-v04_11_01)
+lardata v04\_11\_01
 ------------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : lardata v04\_11\_01 for larsoft v04\_17\_00
 
-larcore v04\_14\_00(#larcore-v04_14_00)
+larcore v04\_14\_00
 ------------------------------------------
 
 -   2015-07-22 Gianluca Petrillo : larcore v04\_14\_00 for larsoft v04\_17\_00
 -   2015-07-22 Gianluca Petrillo : Merge remote-tracking branch ‘origin/feature/tmw\_opflashfix’ into release/v04\_17\_00
 -   2015-07-16 Taritree Wongjirad : added maxopchannel to geometry service.
 
-larbatch v01\_12\_01(#larbatch-v01_12_01)
+larbatch v01\_12\_01
 --------------------------------------------
 
-larutils v1\_02\_01(#larutils-v1_02_01)
+larutils v1\_02\_01
 ------------------------------------------

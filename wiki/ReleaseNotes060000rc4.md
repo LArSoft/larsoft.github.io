@@ -1,4 +1,4 @@
-LArSoft v06\_00\_00\_rc4 Release Notes(#LArSoft-v06_00_00_rc4-Release-Notes)
+LArSoft v06\_00\_00\_rc4 Release Notes
 ===============================================================================
 
 -   **Table of contents**
@@ -22,7 +22,7 @@ LArSoft v06\_00\_00\_rc4 Release Notes(#LArSoft-v06_00_00_rc4-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc4/larsoft-v06_00_00_rc4.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   build with art 2.00.02 and nutools 2.00.00
@@ -31,7 +31,7 @@ Purpose(#Purpose)
 -   [Migration\_to\_root\_6](Migration_to_root_6)
 -   This release is consistent with larsoft v05\_12\_00 plus changes from develop as of June 2.
 
-New features(#New-features)
+New features
 ------------------------------
 
 Several products have been split into separate parts. The new products make a suite, larsoftobj, that does not depend on art.
@@ -45,13 +45,13 @@ Several products have been split into separate parts. The new products make a su
   larsim     larsim, larsimobj     larsimobj contains part of Simulation
   ---------- --------------------- ------------------------------------------------------------------------------------------------------------------------------------
 
-Required changes(#Required-changes)
+Required changes
 --------------------------------------
 
 -   The v06\_00\_00\_art2 branch is supplied for dunetpc, duneutil, uboonecode, ubutil, argoneutcode, lar1ndcode, and lariatsoft.
 -   [UpdateToLArSoftObj.sh](Migration_to_root_6#UpdateToLArSoftObjsh) will make all required changes in user code.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   This release uses a new product stack built with gcc v4\_9\_3a (e10)
@@ -59,10 +59,10 @@ Updated dependencies(#Updated-dependencies)
 -   nutools v2\_00\_00 [NuTools\_Release\_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_00_00)
 -   [larsoftobj v1\_02\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_02_00/larsoftobj-v1_02_00.html)
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_00\_00\_rc4(#larsoft-v06_00_00_rc4)
+larsoft v06\_00\_00\_rc4
 ---------------------------------------------------
 
 -   2016-06-06 Lynn Garren : fix the g4 versions
@@ -81,7 +81,7 @@ larsoft v06\_00\_00\_rc4(#larsoft-v06_00_00_rc4)
 -   2016-05-25 Lynn Garren : update product list
 -   2016-05-25 Lynn Garren : update dependency database
 
-lareventdisplay v06\_00\_00\_rc4(#lareventdisplay-v06_00_00_rc4)
+lareventdisplay v06\_00\_00\_rc4
 -------------------------------------------------------------------
 
 -   2016-06-03 Lynn Garren : lareventdisplay v06\_00\_00\_rc4
@@ -101,7 +101,7 @@ lareventdisplay v06\_00\_00\_rc4(#lareventdisplay-v06_00_00_rc4)
 -   2016-05-10 Matt Robinson : Added Landed event display moduule and service (corrected e-mail address)
 -   2016-05-10 Matt Robinson : Added Landed event display moduule and service
 
-larexamples v06\_00\_00\_rc4(#larexamples-v06_00_00_rc4)
+larexamples v06\_00\_00\_rc4
 -----------------------------------------------------------
 
 -   2016-06-03 Lynn Garren : larexamples v06\_00\_00\_rc4
@@ -112,7 +112,7 @@ larexamples v06\_00\_00\_rc4(#larexamples-v06_00_00_rc4)
 -   2016-05-25 Lynn Garren : larexamples v05\_06\_08 for larsoft v05\_12\_00
 -   2016-05-11 Lynn Garren : larexamples v05\_06\_07 for larsoft v05\_11\_01
 
-larpandora v06\_00\_00\_rc4(#larpandora-v06_00_00_rc4)
+larpandora v06\_00\_00\_rc4
 ---------------------------------------------------------
 
 -   2016-06-06 Lynn Garren : fix larpandoracontent qualifier
@@ -123,7 +123,7 @@ larpandora v06\_00\_00\_rc4(#larpandora-v06_00_00_rc4)
 -   2016-06-02 Lynn Garren : changes for nutools 2.00.00
 -   2016-05-25 Lynn Garren : larpandora v05\_09\_05 for larsoft v05\_12\_00
 
-larana v06\_00\_00\_rc4(#larana-v06_00_00_rc4)
+larana v06\_00\_00\_rc4
 -------------------------------------------------
 
 -   2016-06-03 Lynn Garren : larana v06\_00\_00\_rc4
@@ -135,7 +135,7 @@ larana v06\_00\_00\_rc4(#larana-v06_00_00_rc4)
 -   2016-05-25 Lynn Garren : larana v05\_09\_02 for larsoft v05\_12\_00
 -   2016-05-11 Lynn Garren : larana v05\_09\_01 for larsoft v05\_11\_01
 
-larreco v06\_00\_00\_rc4(#larreco-v06_00_00_rc4)
+larreco v06\_00\_00\_rc4
 ---------------------------------------------------
 
 -   2016-06-03 Lynn Garren : larreco v06\_00\_00\_rc4
@@ -143,7 +143,7 @@ larreco v06\_00\_00\_rc4(#larreco-v06_00_00_rc4)
 -   2016-06-02 Lynn Garren : more changes for larsoftobj
 -   2016-06-02 Lynn Garren : changes for nutools 2.00.00
 
-larsim v06\_00\_00\_rc4(#larsim-v06_00_00_rc4)
+larsim v06\_00\_00\_rc4
 -------------------------------------------------
 
 -   2016-06-03 Lynn Garren : larsim v06\_00\_00\_rc4
@@ -161,7 +161,7 @@ larsim v06\_00\_00\_rc4(#larsim-v06_00_00_rc4)
 -   2016-05-06 Michael Mooney : Fixed sign error in space charge implementation of LArVoxelReadout.cxx
 -   2016-05-06 Michael Mooney : New space charge service implementation
 
-larevt v06\_00\_00\_rc4(#larevt-v06_00_00_rc4)
+larevt v06\_00\_00\_rc4
 -------------------------------------------------
 
 -   2016-06-06 Lynn Garren : make sure we use the fhicl library
@@ -174,7 +174,7 @@ larevt v06\_00\_00\_rc4(#larevt-v06_00_00_rc4)
 -   2016-05-11 Lynn Garren : larevt v05\_06\_07 for larsoft v05\_11\_01
 -   2016-05-06 Michael Mooney : New space charge service implementation
 
-lardata v06\_00\_00\_rc4(#lardata-v06_00_00_rc4)
+lardata v06\_00\_00\_rc4
 ---------------------------------------------------
 
 -   2016-06-03 Lynn Garren : lardata v06\_00\_00\_rc4
@@ -193,7 +193,7 @@ lardata v06\_00\_00\_rc4(#lardata-v06_00_00_rc4)
 -   2016-05-25 Lynn Garren : lardata v05\_08\_02 for larsoft v05\_12\_00
 -   2016-05-11 Lynn Garren : lardata v05\_08\_01 for larsoft v05\_11\_01
 
-larcore v06\_00\_00\_rc4(#larcore-v06_00_00_rc4)
+larcore v06\_00\_00\_rc4
 ---------------------------------------------------
 
 -   2016-06-03 Lynn Garren : larcore v06\_00\_00\_rc4

@@ -1,4 +1,4 @@
-LArSoft v04\_21\_00 Release Notes(#LArSoft-v04_21_00-Release-Notes)
+LArSoft v04\_21\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,26 +24,26 @@ LArSoft v04\_21\_00 Release Notes(#LArSoft-v04_21_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_21_00/larsoft-v04_21_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Changes to develop since v04\_20\_00 and integrate feature/greenlee\_line\_surface
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardata and larreco feature/greenlee\_line\_surface
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_21\_00(#larsoft-v04_21_00)
+larsoft v04\_21\_00
 ------------------------------------------
 
 -   2015-08-26 Lynn Garren : larsoft v04\_21\_00 for larsoft v04\_21\_00
@@ -51,7 +51,7 @@ larsoft v04\_21\_00(#larsoft-v04_21_00)
 -   2015-08-26 Lynn Garren : update dependency database
 -   2015-08-19 Lynn Garren : git v2\_4\_6
 
-lareventdisplay v04\_07\_00(#lareventdisplay-v04_07_00)
+lareventdisplay v04\_07\_00
 ----------------------------------------------------------
 
 -   2015-08-26 Lynn Garren : lareventdisplay v04\_07\_00 for larsoft v04\_21\_00
@@ -65,17 +65,17 @@ lareventdisplay v04\_07\_00(#lareventdisplay-v04_07_00)
 -   2015-08-21 Tracy Usher : These updates allow not only a maximum “tick” for the drift time window but also a lower value too
 -   2015-08-21 Tracy Usher : Add parameter for low tick on windowing, updates for cosmic tag display
 
-larexamples v04\_05\_03(#larexamples-v04_05_03)
+larexamples v04\_05\_03
 --------------------------------------------------
 
 -   2015-08-26 Lynn Garren : larexamples v04\_05\_03 for larsoft v04\_21\_00
 
-larpandora v04\_05\_03(#larpandora-v04_05_03)
+larpandora v04\_05\_03
 ------------------------------------------------
 
 -   2015-08-26 Lynn Garren : larpandora v04\_05\_03 for larsoft v04\_21\_00
 
-larana v04\_12\_00(#larana-v04_12_00)
+larana v04\_12\_00
 ----------------------------------------
 
 -   2015-08-26 Lynn Garren : larana v04\_12\_00 for larsoft v04\_21\_00
@@ -83,7 +83,7 @@ larana v04\_12\_00(#larana-v04_12_00)
 -   2015-08-22 Tracy Usher : Correcting small bug with ticks (there may be some tab madness going on here as well)
 -   2015-08-22 Tracy Usher : Use space points instead of hits for trajectory extremes
 
-larreco v04\_16\_00(#larreco-v04_16_00)
+larreco v04\_16\_00
 ------------------------------------------
 
 -   2015-08-26 Lynn Garren : larreco v04\_16\_00 for larsoft v04\_21\_00
@@ -143,12 +143,12 @@ larreco v04\_16\_00(#larreco-v04_16_00)
 -   2015-07-28 Herbert Greenlee : Merge branch ‘develop’ into feature/greenlee\_line\_surface
 -   2015-07-01 Herbert Greenlee : Adapt to interface change of SurfYZPlane.
 
-larsim v04\_09\_03(#larsim-v04_09_03)
+larsim v04\_09\_03
 ----------------------------------------
 
 -   2015-08-26 Lynn Garren : larsim v04\_09\_03 for larsoft v04\_21\_00
 
-larevt v04\_10\_00(#larevt-v04_10_00)
+larevt v04\_10\_00
 ----------------------------------------
 
 -   2015-08-26 Lynn Garren : larevt v04\_10\_00 for larsoft v04\_21\_00
@@ -156,7 +156,7 @@ larevt v04\_10\_00(#larevt-v04_10_00)
 -   2015-08-22 Tracy Usher : Get the right channel numbers for the missing wires in the V plane…
 -   2015-08-22 Tracy Usher : A very first attempt at delineating the list of problem channels observed in early data taking. This list was made by looking at 10 events in subrun 0 of run 1532 and is meant to TEMPORARILY capture the state of things until a channel status database and interface is up and running. This should NOT impact any other experiments.
 
-lardata v04\_13\_00(#lardata-v04_13_00)
+lardata v04\_13\_00
 ------------------------------------------
 
 -   2015-08-26 Lynn Garren : lardata v04\_13\_00 for larsoft v04\_21\_00
@@ -226,14 +226,14 @@ lardata v04\_13\_00(#lardata-v04_13_00)
 -   2015-06-19 Herbert Greenlee : Merge branch ‘develop’ into feature/greenlee\_line\_surface
 -   2015-06-18 Herbert Greenlee : Start adding line surfaces.
 
-larcore v04\_16\_01(#larcore-v04_16_01)
+larcore v04\_16\_01
 ------------------------------------------
 
-larbatch v01\_13\_01(#larbatch-v01_13_01)
+larbatch v01\_13\_01
 --------------------------------------------
 
 -   2015-08-26 Lynn Garren : larbatch v01\_13\_01 for larsoft v04\_21\_00
 -   2015-08-21 Herbert Greenlee : Prefer certificate authentication to kerberos authentication for jobsub.
 
-larutils v1\_03\_00(#larutils-v1_03_00)
+larutils v1\_03\_00
 ------------------------------------------

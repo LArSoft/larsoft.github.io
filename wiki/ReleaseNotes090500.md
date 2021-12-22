@@ -1,4 +1,4 @@
-LArSoft v09\_05\_00 Release Notes(#LArSoft-v09_05_00-Release-Notes)
+LArSoft v09\_05\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_05\_00 Release Notes(#LArSoft-v09_05_00-Release-Notes)
 Download instructions for [larsoft v09\_05\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_05_00/larsoft-v09_05_00.html)\
 Download instructions for [just larsoftobj v09\_01\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_01_00/larsoftobj-v09_01_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larg4 PR 13
@@ -56,67 +56,67 @@ New features(#New-features)
     -   This PR implements a BDT to perform track/shower characterisation on PF particles. For these changes to take effect in DUNEFD a related dunetpc feature branch will also need to be merged. There are no associated larpandora changes.
     -   Given that the update changes the track/shower characterisation of some PF particles, we expect to see changes to the products of pandoraTrack and pandoraShower, and in downstream products depending upon this characterisation for DUNEFD - we expect no changes in other contexts, as the new algorithm only runs for DUNEFD at this time. The results of a CI run using the updated dunetpc branch appear consistent with this expectation.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_05\_00(#larsoft-v09_05_00)
+larsoft v09\_05\_00
 ------------------------------------------
 
 -   2020-09-29 Lynn Garren : larsoft v09\_05\_00 for larsoft v09\_05\_00
 -   2020-09-29 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_07(#lareventdisplay-v09_00_07)
+lareventdisplay v09\_00\_07
 ----------------------------------------------------------
 
 -   2020-09-29 Lynn Garren : lareventdisplay v09\_00\_07 for larsoft v09\_05\_00
 
-larexamples v09\_00\_07(#larexamples-v09_00_07)
+larexamples v09\_00\_07
 --------------------------------------------------
 
 -   2020-09-29 Lynn Garren : larexamples v09\_00\_07 for larsoft v09\_05\_00
 
-larg4 v09\_01\_00(#larg4-v09_01_00)
+larg4 v09\_01\_00
 --------------------------------------
 
 -   2020-09-29 Lynn Garren : larg4 v09\_01\_00 for larsoft v09\_05\_00
 -   2020-09-29 Lynn Garren : Merge pull request \#13 from drivera-fnal/feature/drivera\_use\_G4Macro
 -   2020-09-28 David Rivera : Added access to a macro file during the beginning of the run. The default behavior is to search in the FW\_SEARCH\_PATH for the macro file, but the path can be set in the fhicl file as well. Created a directory to store G4 macro files which are installed in the fw\_dir for larg4.
 
-larpandora v09\_01\_03(#larpandora-v09_01_03)
+larpandora v09\_01\_03
 ------------------------------------------------
 
 -   2020-09-29 Lynn Garren : larpandora v09\_01\_03 for larsoft v09\_05\_00
 
-larsimrad v09\_00\_07(#larsimrad-v09_00_07)
+larsimrad v09\_00\_07
 ----------------------------------------------
 
 -   2020-09-29 Lynn Garren : larsimrad v09\_00\_07 for larsoft v09\_05\_00
 
-larrecodnn v09\_01\_02(#larrecodnn-v09_01_02)
+larrecodnn v09\_01\_02
 ------------------------------------------------
 
 -   2020-09-29 Lynn Garren : larrecodnn v09\_01\_02 for larsoft v09\_05\_00
 
-larwirecell v09\_01\_02(#larwirecell-v09_01_02)
+larwirecell v09\_01\_02
 --------------------------------------------------
 
-larana v09\_00\_07(#larana-v09_00_07)
+larana v09\_00\_07
 ----------------------------------------
 
 -   2020-09-29 Lynn Garren : larana v09\_00\_07 for larsoft v09\_05\_00
 
-larreco v09\_02\_02(#larreco-v09_02_02)
+larreco v09\_02\_02
 ------------------------------------------
 
 -   2020-09-29 Lynn Garren : larreco v09\_02\_02 for larsoft v09\_05\_00
 
-larsim v09\_04\_00(#larsim-v09_04_00)
+larsim v09\_04\_00
 ----------------------------------------
 
 -   2020-09-29 Lynn Garren : larsim v09\_04\_00 for larsoft v09\_05\_00
@@ -144,16 +144,16 @@ larsim v09\_04\_00(#larsim-v09_04_00)
 -   2020-06-23 Iker de Icaza Astiz : Merge branch ‘develop’ of github.com:LArSoft/larsim into develop
 -   2020-05-18 Iker de Icaza Astiz : Prevent implicit downcasting from double to int in VUVHits() and VISHits()
 
-larevt v09\_00\_05(#larevt-v09_00_05)
+larevt v09\_00\_05
 ----------------------------------------
 
-lardata v09\_01\_00(#lardata-v09_01_00)
+lardata v09\_01\_00
 ------------------------------------------
 
-larcore v09\_00\_00(#larcore-v09_00_00)
+larcore v09\_00\_00
 ------------------------------------------
 
-larpandoracontent v03\_20\_00(#larpandoracontent-v03_20_00)
+larpandoracontent v03\_20\_00
 --------------------------------------------------------------
 
 -   2020-09-29 Lynn Garren : larpandoracontent v03\_20\_00 for larsoft v09\_05\_00
@@ -195,26 +195,26 @@ larpandoracontent v03\_20\_00(#larpandoracontent-v03_20_00)
 -   2019-05-21 Mousam Rai : Use of TMVA to test BDT classifications in algorithm. Note hardcoded weights, variables and cuts.
 -   2019-05-13 Mousam Rai : Work in progress: tree writing for testing track/shower variables.
 
-larsoftobj v09\_01\_00(#larsoftobj-v09_01_00)
+larsoftobj v09\_01\_00
 ------------------------------------------------
 
-lardataobj v09\_00\_00(#lardataobj-v09_00_00)
+lardataobj v09\_00\_00
 ------------------------------------------------
 
-lardataalg v09\_01\_00(#lardataalg-v09_01_00)
+lardataalg v09\_01\_00
 ------------------------------------------------
 
-larcorealg v09\_00\_00(#larcorealg-v09_00_00)
+larcorealg v09\_00\_00
 ------------------------------------------------
 
-larcoreobj v09\_00\_00(#larcoreobj-v09_00_00)
+larcoreobj v09\_00\_00
 ------------------------------------------------
 
-webevd v09\_00\_05(#webevd-v09_00_05)
+webevd v09\_00\_05
 ----------------------------------------
 
-larbatch v01\_53\_01(#larbatch-v01_53_01)
+larbatch v01\_53\_01
 --------------------------------------------
 
-larutils v1\_26\_01(#larutils-v1_26_01)
+larutils v1\_26\_01
 ------------------------------------------

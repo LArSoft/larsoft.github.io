@@ -4,12 +4,12 @@
     -   [Setting up LArSoft](#Setting-up-LArSoft)
     -   [Disk Space](#Disk-Space)
 
-Using LArSoft on the GPVM nodes(#Using-LArSoft-on-the-GPVM-nodes)
+Using LArSoft on the GPVM nodes
 ====================================================================
 
 **You must have an afs home area at FNAL in order to be added as a user on the GPVM nodes.** If you do not have one, please request it through the [ServiceDesk](http://computing.fnal.gov/xms/Services/Service_Desk).
 
-Available nodes(#Available-nodes)
+Available nodes
 ------------------------------------
 
 The new GPVM nodes are virtual machines that are accessible by the intensity frontier experiments. Several nodes have been setup for the LAr experiments,
@@ -25,7 +25,7 @@ If you have just received notification that you have an account on one of these 
 
 Each of these nodes also has the BlueArc space for the corresponding experiment mounted to it. See the section on disk space below for details.
 
-Setting up LArSoft(#Setting-up-LArSoft)
+Setting up LArSoft
 ------------------------------------------
 
 Each of the experiments has their own setup procedure. The one’s we know about at present are:
@@ -37,7 +37,7 @@ See the [Quick-start guide to using and developing LArSoft code](_Quick-start_gu
 
 See the [LArSoft wiki](LArSoftWiki#Where-to-find-the-software) to see where to find the software.
 
-Disk Space(#Disk-Space)
+Disk Space
 --------------------------
 
 Two disk areas are available for user code and data:

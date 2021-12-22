@@ -1,4 +1,4 @@
-LArSoft v06\_76\_00\_01 Release Notes(#LArSoft-v06_76_00_01-Release-Notes)
+LArSoft v06\_76\_00\_01 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -32,13 +32,13 @@ LArSoft v06\_76\_00\_01 Release Notes(#LArSoft-v06_76_00_01-Release-Notes)
 Download instructions for [larsoft v06\_76\_00\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_76_00_01/larsoft-v06_76_00_01.html)\
 Download instructions for [just larsoftobj v1\_44\_00\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_44_00_01/larsoftobj-v1_44_00_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   This release has updates to use art v2\_11\_02.
 -   It is otherwise the same as larsoft v06\_76\_00.
 
-Breaking changes(#Breaking-changes)
+Breaking changes
 --------------------------------------
 
 -   Messagefacility now has a single library: MF\_MessageLogger
@@ -51,7 +51,7 @@ Breaking changes(#Breaking-changes)
 
     -   Add the missing header: \#include “cetlib\_except/exception.h”
 
-Migration script and branches(#Migration-script-and-branches)
+Migration script and branches
 ----------------------------------------------------------------
 
 -   necessary changes are provided for dunetpc, lariatsoft, sbndcode, and uboonecode in feature/team\_for\_art\_2\_11\_02
@@ -60,7 +60,7 @@ Migration script and branches(#Migration-script-and-branches)
     -   cd to your directory
     -   UpdateArt211.sh
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   boost v1\_66\_0
@@ -73,10 +73,10 @@ Updated dependencies(#Updated-dependencies)
 -   nusimdata v1\_13\_01
 -   nutools v2\_23\_01
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_76\_00\_01(#larsoft-v06_76_00_01)
+larsoft v06\_76\_00\_01
 -------------------------------------------------
 
 -   2018-05-15 Lynn Garren : fix config
@@ -97,39 +97,39 @@ larsoft v06\_76\_00\_01(#larsoft-v06_76_00_01)
 -   2018-05-02 Lynn Garren : accept a list
 -   2018-05-02 Lynn Garren : temporary home for the fixup scripts
 
-lareventdisplay v06\_19\_05\_01(#lareventdisplay-v06_19_05_01)
+lareventdisplay v06\_19\_05\_01
 -----------------------------------------------------------------
 
 -   2018-05-15 Lynn Garren : lareventdisplay v06\_19\_05\_01 for larsoft v06\_76\_00\_branch
 -   2018-05-14 Lynn Garren : cetlib\_except/exception.h
 -   2018-05-14 Lynn Garren : only one messagefacility library
 
-larexamples v06\_13\_04\_01(#larexamples-v06_13_04_01)
+larexamples v06\_13\_04\_01
 ---------------------------------------------------------
 
 -   2018-05-15 Lynn Garren : larexamples v06\_13\_04\_01 for larsoft v06\_76\_00\_branch
 -   2018-05-10 Lynn Garren : cetlib\_except/exception.h and messagefacility has one library
 
-larpandora v06\_26\_05\_01(#larpandora-v06_26_05_01)
+larpandora v06\_26\_05\_01
 -------------------------------------------------------
 
 -   2018-05-15 Lynn Garren : larpandora v06\_26\_05\_01 for larsoft v06\_76\_00\_branch
 -   2018-05-14 Lynn Garren : cetlib\_except/exception.h
 -   2018-05-14 Lynn Garren : only one messagefacility library
 
-larwirecell v06\_12\_04\_01(#larwirecell-v06_12_04_01)
+larwirecell v06\_12\_04\_01
 ---------------------------------------------------------
 
 -   2018-05-15 Lynn Garren : larwirecell v06\_12\_04\_01 for larsoft v06\_76\_00\_branch
 -   2018-05-14 Lynn Garren : one messagefacility library
 
-larana v06\_19\_05\_01(#larana-v06_19_05_01)
+larana v06\_19\_05\_01
 -----------------------------------------------
 
 -   2018-05-15 Lynn Garren : larana v06\_19\_05\_01
 -   2018-05-14 Lynn Garren : only one messagefacility library
 
-larreco v06\_60\_02\_01(#larreco-v06_60_02_01)
+larreco v06\_60\_02\_01
 -------------------------------------------------
 
 -   2018-05-15 Lynn Garren : larreco v06\_60\_02\_01 for larsoft v06\_76\_00\_branch
@@ -137,7 +137,7 @@ larreco v06\_60\_02\_01(#larreco-v06_60_02_01)
 -   2018-05-14 Lynn Garren : only one messagefacility library
 -   2018-05-14 Lynn Garren : only one messagefacility library
 
-larsim v06\_46\_00\_01(#larsim-v06_46_00_01)
+larsim v06\_46\_00\_01
 -----------------------------------------------
 
 -   2018-05-15 Lynn Garren : larsim v06\_46\_00\_01 for larsoft v06\_76\_00\_branch
@@ -145,33 +145,33 @@ larsim v06\_46\_00\_01(#larsim-v06_46_00_01)
 -   2018-05-14 Lynn Garren : only one messagefacility library
 -   2018-05-14 Lynn Garren : only one messagefacility library
 
-larevt v06\_20\_04\_01(#larevt-v06_20_04_01)
+larevt v06\_20\_04\_01
 -----------------------------------------------
 
 -   2018-05-15 Lynn Garren : larevt v06\_20\_04\_01 for larsoft v06\_76\_00\_branch
 -   2018-05-14 Lynn Garren : cetlib\_except/exception.h
 -   2018-05-14 Lynn Garren : only one messagefacility library
 
-lardata v06\_44\_00\_01(#lardata-v06_44_00_01)
+lardata v06\_44\_00\_01
 -------------------------------------------------
 
 -   2018-05-15 Lynn Garren : lardata v06\_44\_00\_01 for larsoft v06\_76\_00\_branch
 -   2018-05-14 Lynn Garren : cetlib\_except/exception.h
 -   2018-05-14 Lynn Garren : only one messagefacility library
 
-larcore v06\_19\_02\_01(#larcore-v06_19_02_01)
+larcore v06\_19\_02\_01
 -------------------------------------------------
 
 -   2018-05-15 Lynn Garren : larcore v06\_19\_02\_01
 -   2018-05-14 Lynn Garren : only one messagefacility library
 -   2018-05-14 Lynn Garren : cetlib\_except/exception.h
 
-larpandoracontent v03\_12\_00\_01(#larpandoracontent-v03_12_00_01)
+larpandoracontent v03\_12\_00\_01
 ---------------------------------------------------------------------
 
 -   2018-05-15 Lynn Garren : larpandoracontent v03\_12\_00\_01 for larsoft v06\_76\_00\_branch
 
-larsoftobj v1\_44\_00\_01(#larsoftobj-v1_44_00_01)
+larsoftobj v1\_44\_00\_01
 -----------------------------------------------------
 
 -   2018-05-15 Lynn Garren : fix config
@@ -182,7 +182,7 @@ larsoftobj v1\_44\_00\_01(#larsoftobj-v1_44_00_01)
 -   2018-05-15 Lynn Garren : for art v2\_11\_02
 -   2018-05-15 Lynn Garren : just need the cfg file
 
-lardataobj v1\_32\_00\_01(#lardataobj-v1_32_00_01)
+lardataobj v1\_32\_00\_01
 -----------------------------------------------------
 
 -   2018-05-15 Lynn Garren : with larcoreobj v1\_23\_00\_02
@@ -192,14 +192,14 @@ lardataobj v1\_32\_00\_01(#lardataobj-v1_32_00_01)
 -   2018-05-10 Lynn Garren : messagefacility has a single library
 -   2018-05-01 Lynn Garren : add missing header
 
-larcorealg v1\_20\_00\_01(#larcorealg-v1_20_00_01)
+larcorealg v1\_20\_00\_01
 -----------------------------------------------------
 
 -   2018-05-15 Lynn Garren : larcorealg v1\_20\_00\_01
 -   2018-05-14 Lynn Garren : cetlib\_except/exception.h
 -   2018-05-14 Lynn Garren : only one messagefacility library
 
-larcoreobj v1\_23\_00\_02(#larcoreobj-v1_23_00_02)
+larcoreobj v1\_23\_00\_02
 -----------------------------------------------------
 
 -   2018-05-15 Lynn Garren : larcoreobj v1\_23\_00\_02

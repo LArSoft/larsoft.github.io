@@ -1,4 +1,4 @@
-LArSoft v03\_00\_00 Release Notes(#LArSoft-v03_00_00-Release-Notes)
+LArSoft v03\_00\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,7 +24,7 @@ LArSoft v03\_00\_00 Release Notes(#LArSoft-v03_00_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/projects/larsoft/v03_00_00/larsoft-v03_00_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 This is the first release with art v1\_12\_00 and gcc v4\_9\_1.\
@@ -36,7 +36,7 @@ With the exception of bug fixes found by the stricter compiler, the code in this
 [art v1\_11\_01](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11101) (bug fix)\
 [art v1\_11\_00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11100) (extensive notes)
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ----------------- ----------------- ---------- ------------------------------------
@@ -82,15 +82,15 @@ Updated dependencies(#Updated-dependencies)
   mrb               v1\_02\_00                   build time only
   ----------------- ----------------- ---------- ------------------------------------
 
-Known issues(#Known-issues)
+Known issues
 ------------------------------
 
 -   [\#7068](/redmine/issues/7068 "Bug: xrootd broken in art v1_12_00 (Closed)") - root still does not play nicely with newer releases of xrootd
 
-Updating code(#Updating-code)
+Updating code
 --------------------------------
 
-### Updating checked out larsoft code(#Updating-checked-out-larsoft-code)
+### Updating checked out larsoft code
 
 Wherever possible, we strongly suggest that you simply start with a clean checkout. The build system is designed to easily accommodate clean checkouts.
 
@@ -108,7 +108,7 @@ Wherever possible, we strongly suggest that you simply start with a clean checko
     -   git merge develop
     -   resolve any conflicts
 
-### Updating your own package(#Updating-your-own-package)
+### Updating your own package
 
 To migrate your own package to larsoft v03\_00\_00, you will need to update the files in the ups subdirectory. Once that is done, you may find that gcc 4.9.1 finds problems in your code that need fixing. We mostly noticed complaints about type mismatches and about unused local functions (in anonymous namespace).
 
@@ -122,43 +122,43 @@ To migrate your own package to larsoft v03\_00\_00, you will need to update the 
         mrb uv larsoft v03_00_00
         mrb uv gcc v4_9_1
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_00\_00(#larsoft-v03_00_00)
+larsoft v03\_00\_00
 ------------------------------------------
 
 -   2014-09-23 Lynn Garren : larsoft v03\_00\_00 with art v1\_12\_00, ifdh\_art v1\_5\_2, larsoft\_data v0\_03\_00, and gcc v4\_9\_1
 -   2014-09-23 Lynn Garren : new RecoAlg/RootMathFunctor.h wrapper
 -   2014-09-23 Lynn Garren : use cetbuildtools v4\_02\_02
 
-lareventdisplay v03\_00\_00(#lareventdisplay-v03_00_00)
+lareventdisplay v03\_00\_00
 ----------------------------------------------------------
 
 -   2014-09-23 Lynn Garren : lareventdisplay v03\_00\_00 with art v1\_12\_00 and gcc v4\_9\_1
 -   2014-09-23 Lynn Garren : use cetbuildtools v4\_02\_02
 -   2014-09-23 Lynn Garren : comment out unused functions
 
-larexamples v03\_00\_00(#larexamples-v03_00_00)
+larexamples v03\_00\_00
 --------------------------------------------------
 
 -   2014-09-23 Lynn Garren : larexamples v03\_00\_00 with art v1\_12\_00 and gcc v4\_9\_1
 -   2014-09-23 Lynn Garren : use cetbuildtools v4\_02\_02
 
-larpandora v03\_00\_00(#larpandora-v03_00_00)
+larpandora v03\_00\_00
 ------------------------------------------------
 
 -   2014-09-23 Lynn Garren : larpandora v03\_00\_00 with art v1\_12\_00, pandora v00\_16c, and gcc v4\_9\_1
 -   2014-09-23 Lynn Garren : use cetbuildtools v4\_02\_02
 
-larana v03\_00\_00(#larana-v03_00_00)
+larana v03\_00\_00
 ----------------------------------------
 
 -   2014-09-23 Lynn Garren : larana v03\_00\_00 with art v1\_12\_00 and gcc v4\_9\_1
 -   2014-09-23 Lynn Garren : use cetbuildtools v4\_02\_02
 -   2014-09-23 Lynn Garren : make sure the units match
 
-larreco v03\_00\_00(#larreco-v03_00_00)
+larreco v03\_00\_00
 ------------------------------------------
 
 -   2014-09-23 Lynn Garren : larreco v03\_00\_00 with art v1\_12\_00, nutools v1\_06\_01, and gcc v4\_9\_1
@@ -169,19 +169,19 @@ larreco v03\_00\_00(#larreco-v03_00_00)
 -   2014-09-23 Lynn Garren : comment out unused functions
 -   2014-09-23 Lynn Garren : need stdexcept header for std::runtime\_error
 
-larsim v03\_00\_00(#larsim-v03_00_00)
+larsim v03\_00\_00
 ----------------------------------------
 
 -   2014-09-23 Lynn Garren : larsim v03\_00\_00 with art v1\_12\_00 and gcc v4\_9\_1
 -   2014-09-23 Lynn Garren : use cetbuildtools v4\_02\_02
 
-larevt v03\_00\_00(#larevt-v03_00_00)
+larevt v03\_00\_00
 ----------------------------------------
 
 -   2014-09-23 Lynn Garren : larevt v03\_00\_00 with art v1\_12\_00 and gcc v4\_9\_1
 -   2014-09-23 Lynn Garren : use cetbuildtools v4\_02\_02
 
-lardata v03\_00\_00(#lardata-v03_00_00)
+lardata v03\_00\_00
 ------------------------------------------
 
 -   2014-09-23 Lynn Garren : lardata v03\_00\_00 with art v1\_12\_00, nutools v1\_06\_01, and gcc v4\_9\_1
@@ -191,7 +191,7 @@ lardata v03\_00\_00(#lardata-v03_00_00)
 -   2014-09-23 Lynn Garren : make units match and include iostream where necessary
 -   2014-09-23 Lynn Garren : new class checksums
 
-larcore v03\_00\_00(#larcore-v03_00_00)
+larcore v03\_00\_00
 ------------------------------------------
 
 -   2014-09-23 Lynn Garren : larcore v03\_00\_00 with art v1\_12\_00 and gcc v4\_9\_1

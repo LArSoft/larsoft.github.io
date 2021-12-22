@@ -1,4 +1,4 @@
-LArSoft v04\_13\_00 Release Notes(#LArSoft-v04_13_00-Release-Notes)
+LArSoft v04\_13\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,20 +24,20 @@ LArSoft v04\_13\_00 Release Notes(#LArSoft-v04_13_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_13_00/larsoft-v04_13_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   lardata feature/davidc1\_daqheader
 -   larreco [feature/rsulej\_PmaTrack3D](https://indico.fnal.gov/getFile.py/access?contribId=5&resId=0&materialId=slides&confId=10058)
 -   changes to develop since v04\_12\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ----------- -------
@@ -45,10 +45,10 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v4\_11\_03               
   --------------- ------------ ----------- -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_13\_00(#larsoft-v04_13_00)
+larsoft v04\_13\_00
 ------------------------------------------
 
 -   2015-06-16 Lynn Garren : larsoft v04\_13\_00 for larsoft v04\_13\_00
@@ -58,27 +58,27 @@ larsoft v04\_13\_00(#larsoft-v04_13_00)
 -   2015-06-11 Lynn Garren : using s11
 -   2015-06-10 Lynn Garren : not all larcore tests work in standalone build
 
-lareventdisplay v04\_05\_01(#lareventdisplay-v04_05_01)
+lareventdisplay v04\_05\_01
 ----------------------------------------------------------
 
 -   2015-06-16 Lynn Garren : lareventdisplay v04\_05\_01 for larsoft v04\_13\_00
 
-larexamples v04\_04\_11(#larexamples-v04_04_11)
+larexamples v04\_04\_11
 --------------------------------------------------
 
 -   2015-06-16 Lynn Garren : larexamples v04\_04\_11 for larsoft v04\_13\_00
 
-larpandora v04\_04\_11(#larpandora-v04_04_11)
+larpandora v04\_04\_11
 ------------------------------------------------
 
 -   2015-06-16 Lynn Garren : larpandora v04\_04\_11 for larsoft v04\_13\_00
 
-larana v04\_07\_03(#larana-v04_07_03)
+larana v04\_07\_03
 ----------------------------------------
 
 -   2015-06-16 Lynn Garren : larana v04\_07\_03 for larsoft v04\_13\_00
 
-larreco v04\_09\_00(#larreco-v04_09_00)
+larreco v04\_09\_00
 ------------------------------------------
 
 -   2015-06-16 Lynn Garren : larreco v04\_09\_00 for larsoft v04\_13\_00
@@ -118,17 +118,17 @@ larreco v04\_09\_00(#larreco-v04_09_00)
 -   2015-05-15 Robert Sulej : porting code…
 -   2015-05-15 Robert Sulej : add PMAlg
 
-larsim v04\_07\_07(#larsim-v04_07_07)
+larsim v04\_07\_07
 ----------------------------------------
 
 -   2015-06-16 Lynn Garren : larsim v04\_07\_07 for larsoft v04\_13\_00
 
-larevt v04\_08\_01(#larevt-v04_08_01)
+larevt v04\_08\_01
 ----------------------------------------
 
 -   2015-06-16 Lynn Garren : larevt v04\_08\_01 for larsoft v04\_13\_00
 
-lardata v04\_09\_00(#lardata-v04_09_00)
+lardata v04\_09\_00
 ------------------------------------------
 
 -   2015-06-16 Lynn Garren : lardata v04\_09\_00 for larsoft v04\_13\_00
@@ -145,7 +145,7 @@ lardata v04\_09\_00(#lardata-v04_09_00)
 -   2015-05-20 kterao : Merge tag ‘v04\_07\_00’ into feature/davidc1\_daqheader
 -   2014-12-22 David Caratelli : DAQHeader edits: SubRun now stored in DAQHeader –David Caratelli
 
-larcore v04\_11\_00(#larcore-v04_11_00)
+larcore v04\_11\_00
 ------------------------------------------
 
 -   2015-06-16 Lynn Garren : larcore v04\_11\_00 for larsoft v04\_13\_00
@@ -164,14 +164,14 @@ larcore v04\_11\_00(#larcore-v04_11_00)
 -   2015-06-05 Gianluca Petrillo : Added functionality to return the center of TPC and cryostat (from geo::BoxBoundedGeo)
 -   2015-06-03 Gianluca Petrillo : Added a very simple test for GeometryCore::ThirdPlaneSlope(), plus LaTeX documentation about the formula.
 
-larbatch v01\_11\_00(#larbatch-v01_11_00)
+larbatch v01\_11\_00
 --------------------------------------------
 
 -   2015-06-16 Lynn Garren : larbatch v01\_11\_00 for larsoft v04\_13\_00
 -   2015-06-16 Tingjun Yang : Return production user name if the role is Production.
 -   2015-06-12 Herbert Greenlee : Use proper ifdh option when invoking emptydir.py
 
-larutils v1\_00\_12(#larutils-v1_00_12)
+larutils v1\_00\_12
 ------------------------------------------
 
 -   2015-06-16 Lynn Garren : larutils v1\_00\_12 for larsoft v04\_13\_00

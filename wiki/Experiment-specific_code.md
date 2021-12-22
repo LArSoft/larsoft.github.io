@@ -1,4 +1,4 @@
-Experiment-specific code(#Experiment-specific-code)
+Experiment-specific code
 ======================================================
 
 Experiment-specific code, such as fcl and geometry (GDML) files, field, are in the experiment-specific git repositories listed in the table below.

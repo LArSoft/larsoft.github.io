@@ -1,4 +1,4 @@
-LArSoft v06\_52\_00 Release Notes(#LArSoft-v06_52_00-Release-Notes)
+LArSoft v06\_52\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,13 +31,13 @@ LArSoft v06\_52\_00 Release Notes(#LArSoft-v06_52_00-Release-Notes)
 Download instructions for [larsoft v06\_52\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_52_00/larsoft-v06_52_00.html)\
 Download instructions for [just larsoftobj v1\_28\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_28_00/larsoftobj-v1_28_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   feature/larpandoracontent\_v03\_08\_00
@@ -50,36 +50,36 @@ New features(#New-features)
     -   This addresses issue [\#14384](/redmine/issues/14384 "Bug: Copy of the Geometry object does not behave as the original one (Closed)")
     -   Breaking change to internal interface
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   pandora v03\_05\_00
 -   mrb v1\_12\_00
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_52\_00(#larsoft-v06_52_00)
+larsoft v06\_52\_00
 ------------------------------------------
 
 -   2017-10-04 Lynn Garren : pandora v03\_05\_00
 -   2017-10-04 Lynn Garren : larsoft v06\_52\_00 for larsoft v06\_52\_00
 -   2017-10-04 Lynn Garren : update product versions
 
-lareventdisplay v06\_12\_04(#lareventdisplay-v06_12_04)
+lareventdisplay v06\_12\_04
 ----------------------------------------------------------
 
 -   2017-10-04 Lynn Garren : lareventdisplay v06\_12\_04 for larsoft v06\_52\_00
 
-larexamples v06\_07\_03(#larexamples-v06_07_03)
+larexamples v06\_07\_03
 --------------------------------------------------
 
 -   2017-10-04 Lynn Garren : larexamples v06\_07\_03 for larsoft v06\_52\_00
 
-larpandora v06\_17\_00(#larpandora-v06_17_00)
+larpandora v06\_17\_00
 ------------------------------------------------
 
 -   2017-10-04 Lynn Garren : larpandora v06\_17\_00 for larsoft v06\_52\_00
@@ -97,17 +97,17 @@ larpandora v06\_17\_00(#larpandora-v06_17_00)
 -   2017-09-21 John Marshall : Remove old internal monitoring option and tidy-up.
 -   2017-09-12 John Marshall : Pass external steering parameters, read from fhicl parameter set, to LArParent Pandora algorithm.
 
-larwirecell v06\_07\_03(#larwirecell-v06_07_03)
+larwirecell v06\_07\_03
 --------------------------------------------------
 
 -   2017-10-04 Lynn Garren : larwirecell v06\_07\_03 for larsoft v06\_52\_00
 
-larana v06\_10\_04(#larana-v06_10_04)
+larana v06\_10\_04
 ----------------------------------------
 
 -   2017-10-04 Lynn Garren : larana v06\_10\_04 for larsoft v06\_52\_00
 
-larreco v06\_41\_00(#larreco-v06_41_00)
+larreco v06\_41\_00
 ------------------------------------------
 
 -   2017-10-04 Lynn Garren : larreco v06\_41\_00 for larsoft v06\_52\_00
@@ -652,17 +652,17 @@ larreco v06\_41\_00(#larreco-v06_41_00)
 -   2017-05-09 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
 -   2017-05-09 Xiao Luo : Merge remote-tracking branch ‘origin/feature/bb\_TJWork’ into feature/XL\_TJWork
 
-larsim v06\_31\_03(#larsim-v06_31_03)
+larsim v06\_31\_03
 ----------------------------------------
 
 -   2017-10-04 Lynn Garren : larsim v06\_31\_03 for larsoft v06\_52\_00
 
-larevt v06\_16\_03(#larevt-v06_16_03)
+larevt v06\_16\_03
 ----------------------------------------
 
 -   2017-10-04 Lynn Garren : larevt v06\_16\_03 for larsoft v06\_52\_00
 
-lardata v06\_30\_00(#lardata-v06_30_00)
+lardata v06\_30\_00
 ------------------------------------------
 
 -   2017-10-04 Lynn Garren : lardata v06\_30\_00 for larsoft v06\_52\_00
@@ -671,12 +671,12 @@ lardata v06\_30\_00(#lardata-v06_30_00)
 -   2017-09-25 Gianluca Petrillo : Added a method “point()” for the track proxy.
 -   2017-09-23 Gianluca Petrillo : Minor fixes to Doxygen documentation.
 
-larcore v06\_15\_01(#larcore-v06_15_01)
+larcore v06\_15\_01
 ------------------------------------------
 
 -   2017-10-04 Lynn Garren : larcore v06\_15\_01 for larsoft v06\_52\_00
 
-larpandoracontent v03\_08\_00(#larpandoracontent-v03_08_00)
+larpandoracontent v03\_08\_00
 --------------------------------------------------------------
 
 -   2017-10-04 Lynn Garren : larpandoracontent v03\_08\_00 for larsoft v06\_52\_00
@@ -751,17 +751,17 @@ larpandoracontent v03\_08\_00(#larpandoracontent-v03_08_00)
 -   2017-07-20 John Marshall : Correct CR algorithm flow, for 2D reco subsection.
 -   2017-07-19 John Marshall : Begin restructuring parent algorithms, controlling neutrino and cosmic-ray reconstruction passes.
 
-larsoftobj v1\_28\_00(#larsoftobj-v1_28_00)
+larsoftobj v1\_28\_00
 ----------------------------------------------
 
 -   2017-10-04 Lynn Garren : larsoftobj v1\_28\_00 for larsoft v06\_52\_00
 -   2017-10-04 Lynn Garren : mrb v1\_12\_00
 -   2017-10-04 Lynn Garren : update product versions
 
-lardataobj v1\_21\_01(#lardataobj-v1_21_01)
+lardataobj v1\_21\_01
 ----------------------------------------------
 
-larcorealg v1\_08\_00(#larcorealg-v1_08_00)
+larcorealg v1\_08\_00
 ----------------------------------------------
 
 -   2017-10-04 Lynn Garren : larcorealg v1\_08\_00 for larsoft v06\_52\_00
@@ -777,11 +777,11 @@ larcorealg v1\_08\_00(#larcorealg-v1_08_00)
 -   2017-09-28 Gianluca Petrillo : Support for dumping STL vectors.
 -   2017-09-27 Gianluca Petrillo : Standardized include guards in geometry objects.
 
-larcoreobj v1\_16\_00(#larcoreobj-v1_16_00)
+larcoreobj v1\_16\_00
 ----------------------------------------------
 
-larbatch v01\_32\_05(#larbatch-v01_32_05)
+larbatch v01\_32\_05
 --------------------------------------------
 
-larutils v1\_19\_02(#larutils-v1_19_02)
+larutils v1\_19\_02
 ------------------------------------------

@@ -1,4 +1,4 @@
-LArSoft v06\_51\_00 Release Notes(#LArSoft-v06_51_00-Release-Notes)
+LArSoft v06\_51\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,78 +31,78 @@ LArSoft v06\_51\_00 Release Notes(#LArSoft-v06_51_00-Release-Notes)
 Download instructions for [larsoft v06\_51\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_51_00/larsoft-v06_51_00.html)\
 Download instructions for [just larsoftobj v1\_27\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_27_01/larsoftobj-v1_27_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branch
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardata feature/gp\_TrackProxy
     -   implement the collection proxy feature in issues [\#17359](/redmine/issues/17359 "Task: Navigate track data product (Closed)") and [\#14060](/redmine/issues/14060 "Task: Provide ways to navigate associated data products in a seamless way (Closed)")
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_51\_00(#larsoft-v06_51_00)
+larsoft v06\_51\_00
 ------------------------------------------
 
 -   2017-09-26 Lynn Garren : larsoft v06\_51\_00 for larsoft v06\_51\_00
 -   2017-09-26 Lynn Garren : update product versions
 -   2017-09-26 Lynn Garren : update dependency database
 
-lareventdisplay v06\_12\_03(#lareventdisplay-v06_12_03)
+lareventdisplay v06\_12\_03
 ----------------------------------------------------------
 
 -   2017-09-26 Lynn Garren : lareventdisplay v06\_12\_03 for larsoft v06\_51\_00
 
-larexamples v06\_07\_02(#larexamples-v06_07_02)
+larexamples v06\_07\_02
 --------------------------------------------------
 
 -   2017-09-26 Lynn Garren : larexamples v06\_07\_02 for larsoft v06\_51\_00
 
-larpandora v06\_16\_03(#larpandora-v06_16_03)
+larpandora v06\_16\_03
 ------------------------------------------------
 
 -   2017-09-26 Lynn Garren : larpandora v06\_16\_03 for larsoft v06\_51\_00
 
-larwirecell v06\_07\_02(#larwirecell-v06_07_02)
+larwirecell v06\_07\_02
 --------------------------------------------------
 
 -   2017-09-26 Lynn Garren : larwirecell v06\_07\_02 for larsoft v06\_51\_00
 
-larana v06\_10\_03(#larana-v06_10_03)
+larana v06\_10\_03
 ----------------------------------------
 
 -   2017-09-26 Lynn Garren : larana v06\_10\_03 for larsoft v06\_51\_00
 
-larreco v06\_40\_01(#larreco-v06_40_01)
+larreco v06\_40\_01
 ------------------------------------------
 
 -   2017-09-26 Lynn Garren : larreco v06\_40\_01 for larsoft v06\_51\_00
 -   2017-09-20 Lynn Garren : larsoft v06\_50\_00
 -   2017-09-19 Giuseppe Cerati : improved documentation
 
-larsim v06\_31\_02(#larsim-v06_31_02)
+larsim v06\_31\_02
 ----------------------------------------
 
 -   2017-09-26 Lynn Garren : larsim v06\_31\_02 for larsoft v06\_51\_00
 -   2017-09-25 Alex Himmel : Fix uninitialized variables causing library size to explode. Also, clean up indentation.
 
-larevt v06\_16\_02(#larevt-v06_16_02)
+larevt v06\_16\_02
 ----------------------------------------
 
 -   2017-09-26 Lynn Garren : larevt v06\_16\_02 for larsoft v06\_51\_00
 
-lardata v06\_29\_00(#lardata-v06_29_00)
+lardata v06\_29\_00
 ------------------------------------------
 
 -   2017-09-26 Lynn Garren : lardata v06\_29\_00 for larsoft v06\_51\_00
@@ -134,32 +134,32 @@ lardata v06\_29\_00(#lardata-v06_29_00)
 -   2017-08-07 Gianluca Petrillo : First implementation of a collection proxy.
 -   2017-08-03 Gianluca Petrillo : Added object to view two iterators as a collection.
 
-larcore v06\_15\_00(#larcore-v06_15_00)
+larcore v06\_15\_00
 ------------------------------------------
 
-larpandoracontent v03\_07\_05(#larpandoracontent-v03_07_05)
+larpandoracontent v03\_07\_05
 --------------------------------------------------------------
 
-larsoftobj v1\_27\_01(#larsoftobj-v1_27_01)
+larsoftobj v1\_27\_01
 ----------------------------------------------
 
 -   2017-09-26 Lynn Garren : larsoftobj v1\_27\_01 for larsoft v06\_51\_00
 -   2017-09-26 Lynn Garren : update product versions
 
-lardataobj v1\_21\_01(#lardataobj-v1_21_01)
+lardataobj v1\_21\_01
 ----------------------------------------------
 
 -   2017-09-26 Lynn Garren : lardataobj v1\_21\_01 for larsoft v06\_51\_00
 -   2017-09-19 Giuseppe Cerati : improved documentation
 
-larcorealg v1\_07\_00(#larcorealg-v1_07_00)
+larcorealg v1\_07\_00
 ----------------------------------------------
 
-larcoreobj v1\_16\_00(#larcoreobj-v1_16_00)
+larcoreobj v1\_16\_00
 ----------------------------------------------
 
-larbatch v01\_32\_05(#larbatch-v01_32_05)
+larbatch v01\_32\_05
 --------------------------------------------
 
-larutils v1\_19\_02(#larutils-v1_19_02)
+larutils v1\_19\_02
 ------------------------------------------

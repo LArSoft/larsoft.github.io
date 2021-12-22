@@ -1,9 +1,9 @@
-LArSoft cvmfs(#LArSoft-cvmfs)
+LArSoft cvmfs
 ================================
 
 The LArSoft code is available on cvmfs at /cvmfs/larsoft.opensciencegrid.org/products
 
-Installing cvmfs(#Installing-cvmfs)
+Installing cvmfs
 --------------------------------------
 
 -   OSG instructions for installing the OSG cvmfs client on Scientific Linux
@@ -15,7 +15,7 @@ Installing cvmfs(#Installing-cvmfs)
     -   [quick start guide](https://cernvm.cern.ch/portal/filesystem/quickstart)
     -   [downloads](https://cernvm.cern.ch/portal/filesystem/downloads)
 
-Experiment specific instructions(#Experiment-specific-instructions)
+Experiment specific instructions
 ----------------------------------------------------------------------
 
 MicroBooNE instructions for [SLF and OSX](/redmine/projects/uboonecode/wiki/CVMFS)

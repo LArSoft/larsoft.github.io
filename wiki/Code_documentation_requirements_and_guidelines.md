@@ -1,7 +1,7 @@
-Code documentation requirements and guidelines(#Code-documentation-requirements-and-guidelines)
+Code documentation requirements and guidelines
 ==================================================================================================
 
-Requirements(#Requirements)
+Requirements
 ------------------------------
 
 The following information must be included as [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html) formatted text in every header or module file.
@@ -16,7 +16,7 @@ The following information must be included as [Doxygen](http://www.stack.nl/~dim
 -   References
 -   institution and experiment of author/contributor(s)
 
-Guidelines(#Guidelines)
+Guidelines
 --------------------------
 
 Each major algorithm should have an entry in [http://larsoft.org/list](http://larsoft.org/list). (Do this by [https://larsoft.org/add](https://larsoft.org/add) )

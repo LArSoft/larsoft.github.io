@@ -1,4 +1,4 @@
-LArSoft v09\_36\_00\_01 Release Notes(#LArSoft-v09_36_00_01-Release-Notes)
+LArSoft v09\_36\_00\_01 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -32,14 +32,14 @@ LArSoft v09\_36\_00\_01 Release Notes(#LArSoft-v09_36_00_01-Release-Notes)
 Download instructions for [larsoft v09\_36\_00\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_36_00_01/larsoft-v09_36_00_01.html)\
 Download instructions for [just larsoftobj v09\_11\_01\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_11_01_01/larsoftobj-v09_11_01_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   **TEST RELEASE**
 -   Requested at the [Nov. 2 larsoft coordination meeting](https://indico.fnal.gov/event/51726/contributions/227303/attachments/148868/191433/larsoft_mcc10_nov2_2021.pdf)
 -   this release is on the v09\_36\_00\_br branch
 
-Known issues(#Known-issues)
+Known issues
 ------------------------------
 
 Since this release is based on larsoft v09\_36\_00, it has the same larana defect as v09\_36\_00.
@@ -49,20 +49,20 @@ Since this release is based on larsoft v09\_36\_00, it has the same larana defec
     -   [https://github.com/SBNSoftware/sbndcode/issues/213](https://github.com/SBNSoftware/sbndcode/issues/213)
     -   Note that this issue has nothing to do with the updates in this test release.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_36\_00\_01(#larsoft-v09_36_00_01)
+larsoft v09\_36\_00\_01
 -------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larsoft v09\_36\_00\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larsoft v09\_36\_00\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : product versions
 
-lareventdisplay v09\_02\_06\_01(#lareventdisplay-v09_02_06_01)
+lareventdisplay v09\_02\_06\_01
 -----------------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : lareventdisplay v09\_02\_06\_01 for larsoft v09\_36\_00\_01
@@ -72,13 +72,13 @@ lareventdisplay v09\_02\_06\_01(#lareventdisplay-v09_02_06_01)
 -   2021-10-08 Herbert Greenlee : Merge remote-tracking branch ‘origin/greenlee\_mcc9\_pid’ into develop
 -   2019-01-14 Adam : removing PID from event display
 
-larexamples v09\_02\_06\_01(#larexamples-v09_02_06_01)
+larexamples v09\_02\_06\_01
 ---------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larexamples v09\_02\_06\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larexamples v09\_02\_06\_01 for larsoft v09\_36\_00\_01
 
-larpandora v09\_10\_00\_01(#larpandora-v09_10_00_01)
+larpandora v09\_10\_00\_01
 -------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larpandora v09\_10\_00\_01 for larsoft v09\_36\_00\_01
@@ -180,25 +180,25 @@ larpandora v09\_10\_00\_01(#larpandora-v09_10_00_01)
 -   2018-08-30 a-d-smith : Updated simple beam particle id tool to match logic in Pandora
 -   2018-08-29 a-d-smith : Extended neutrino id tool to the general slice id tool - now works for protoDUNE
 
-larsimrad v09\_03\_05\_01(#larsimrad-v09_03_05_01)
+larsimrad v09\_03\_05\_01
 -----------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larsimrad v09\_03\_05\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larsimrad v09\_03\_05\_01 for larsoft v09\_36\_00\_01
 
-larrecodnn v09\_09\_07\_01(#larrecodnn-v09_09_07_01)
+larrecodnn v09\_09\_07\_01
 -------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larrecodnn v09\_09\_07\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larrecodnn v09\_09\_07\_01 for larsoft v09\_36\_00\_01
 
-larwirecell v09\_04\_04\_01(#larwirecell-v09_04_04_01)
+larwirecell v09\_04\_04\_01
 ---------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larwirecell v09\_04\_04\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larwirecell v09\_04\_04\_01 for larsoft v09\_36\_00\_01
 
-larana v09\_03\_07\_01(#larana-v09_03_07_01)
+larana v09\_03\_07\_01
 -----------------------------------------------
 
 -   2021-11-12 Lynn Garren : larana v09\_03\_07\_01 for larsoft v09\_36\_00\_01
@@ -214,7 +214,7 @@ larana v09\_03\_07\_01(#larana-v09_03_07_01)
 -   2019-01-10 kduffy : Remove unnecessary if statement in bitset calculation
 -   2019-01-09 Adam : updates to output chi2 in terms of new anab::ParticleID class – untested
 
-larreco v09\_07\_06\_01(#larreco-v09_07_06_01)
+larreco v09\_07\_06\_01
 -------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larreco v09\_07\_06\_01 for larsoft v09\_36\_00\_01
@@ -229,25 +229,25 @@ larreco v09\_07\_06\_01(#larreco-v09_07_06_01)
 -   2019-02-20 Adam : removing PID accessor from KalmanFilterFinalTrackFitter as per info from Giuseppe
 -   2019-01-14 Adam : removing .Pdg() usage and replacing with -1
 
-larsim v09\_18\_01\_01(#larsim-v09_18_01_01)
+larsim v09\_18\_01\_01
 -----------------------------------------------
 
 -   2021-11-12 Lynn Garren : larsim v09\_18\_01\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larsim v09\_18\_01\_01 for larsoft v09\_36\_00\_01
 
-larg4 v09\_06\_01\_01(#larg4-v09_06_01_01)
+larg4 v09\_06\_01\_01
 ---------------------------------------------
 
 -   2021-11-12 Lynn Garren : larg4 v09\_06\_01\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larg4 v09\_06\_01\_01 for larsoft v09\_36\_00\_01
 
-larevt v09\_03\_04\_01(#larevt-v09_03_04_01)
+larevt v09\_03\_04\_01
 -----------------------------------------------
 
 -   2021-11-12 Lynn Garren : larevt v09\_03\_04\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larevt v09\_03\_04\_01 for larsoft v09\_36\_00\_01
 
-lardata v09\_04\_01\_01(#lardata-v09_04_01_01)
+lardata v09\_04\_01\_01
 -------------------------------------------------
 
 -   2021-11-12 Lynn Garren : lardata v09\_04\_01\_01 for larsoft v09\_36\_00\_01
@@ -257,20 +257,20 @@ lardata v09\_04\_01\_01(#lardata-v09_04_01_01)
 -   2021-10-21 Herbert Greenlee : Add geo::PlaneID to dump output.
 -   2021-10-14 Herbert Greenlee : Add DumpParticleIDs module.
 
-larcore v09\_03\_01\_01(#larcore-v09_03_01_01)
+larcore v09\_03\_01\_01
 -------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larcore v09\_03\_01\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larcore v09\_03\_01\_01 for larsoft v09\_36\_00\_01
 
-larsoftobj v09\_11\_01\_01(#larsoftobj-v09_11_01_01)
+larsoftobj v09\_11\_01\_01
 -------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larsoftobj v09\_11\_01\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larsoftobj v09\_11\_01\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : product versions
 
-lardataobj v09\_03\_04\_01(#lardataobj-v09_03_04_01)
+lardataobj v09\_03\_04\_01
 -------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : lardataobj v09\_03\_04\_01 for larsoft v09\_36\_00\_01
@@ -318,25 +318,25 @@ lardataobj v09\_03\_04\_01(#lardataobj-v09_03_04_01)
 -   2019-01-10 Adam : adding ioread for anab::ParticleID
 -   2019-01-10 kduffy : Remove old ParticleID functions from new class, since we’ve decided to go ahead with the breaking change
 
-lardataalg v09\_07\_01\_01(#lardataalg-v09_07_01_01)
+lardataalg v09\_07\_01\_01
 -------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : lardataalg v09\_07\_01\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : lardataalg v09\_07\_01\_01 for larsoft v09\_36\_00\_01
 
-larcorealg v09\_03\_01\_01(#larcorealg-v09_03_01_01)
+larcorealg v09\_03\_01\_01
 -------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larcorealg v09\_03\_01\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larcorealg v09\_03\_01\_01 for larsoft v09\_36\_00\_01
 
-larcoreobj v09\_03\_01\_01(#larcoreobj-v09_03_01_01)
+larcoreobj v09\_03\_01\_01
 -------------------------------------------------------
 
 -   2021-11-12 Lynn Garren : larcoreobj v09\_03\_01\_01 for larsoft v09\_36\_00\_01
 -   2021-11-12 Lynn Garren : larcoreobj v09\_03\_01\_01 for larsoft v09\_36\_00\_01
 
-webevd v09\_06\_04\_01(#webevd-v09_06_04_01)
+webevd v09\_06\_04\_01
 -----------------------------------------------
 
 -   2021-11-12 Lynn Garren : webevd v09\_06\_04\_01 for larsoft v09\_36\_00\_01

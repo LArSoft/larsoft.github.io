@@ -1,4 +1,4 @@
-Thread-safety status(#Thread-safety-status)
+Thread-safety status
 ==============================================
 
 [Algorithms](#)[Algorithms](#)

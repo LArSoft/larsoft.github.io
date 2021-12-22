@@ -13,10 +13,10 @@
     -   [Updating a test release](#Updating-a-test-release)
     -   [Editing code remotely with Emacs and Tramp](#Editing-code-remotely-with-Emacs-and-Tramp)
 
-Editing Code(#Editing-Code)
+Editing Code
 ==============================
 
-Overview(#Overview)
+Overview
 ----------------------
 
 The following is an outline of how to edit the code. Step 3 is usually done only once; i.e., the first time one wants to start editing code.
@@ -29,7 +29,7 @@ Please be sure to follow the coding conventions enumerated below.
 
 Please also sign yourself up to receive email notification of code commits from svn. This will allow you to monitor your package in case others have to commit changes to it. To sign up, follow these [instructions](http://listserv.fnal.gov/users.asp#subscribe%20to%20list) with the list name LARSOFTCOMMIT.
 
-Coding Conventions(#Coding-Conventions)
+Coding Conventions
 ------------------------------------------
 
 There are only a few conventions to keep in mind when writing code for LArSoft, and they are
@@ -45,7 +45,7 @@ There are only a few conventions to keep in mind when writing code for LArSoft, 
 9.  Use the [message service](Using_the_Framework?parent=Editing_Code#Message-Facility-and-MessageLogger) for output to the screen.
 10. Module types and file names should be consistent, ie if a module is of type MyModule, the file names should be MyModule.h, MyModule.cxx and MyModule\_moudle.cc
 
-Using and Creating a Test Release(#Using-and-Creating-a-Test-Release)
+Using and Creating a Test Release
 ------------------------------------------------------------------------
 
 A test release should contain only those packages that the user plans to alter. The remaining packages will be linked from the stable base release. To create a test release cd to a directory other than \$SRT\_DIST or its subdirectories and do
@@ -56,7 +56,7 @@ where \<base\> is the name of the base release, i.e. development, and test/relea
 
 Only one test release need to be created. It can hold all packages that the user wishes to modify. However, in certain circumstances it can be useful to set up multiple test releases, such as having a test release for development code and one for a frozen point release.
 
-Adding Packages to the Test Release(#Adding-Packages-to-the-Test-Release)
+Adding Packages to the Test Release
 ----------------------------------------------------------------------------
 
 Once the test release is made, the user should cd into the directory and add packages to edit by doing
@@ -82,7 +82,7 @@ where mypackage is the name of your new package. You will need to create a GNUma
 % cd include\
 % ln -sf ../ mypackage .
 
-Removing Packages from the Test Release(#Removing-Packages-from-the-Test-Release)
+Removing Packages from the Test Release
 ------------------------------------------------------------------------------------
 
 DO NOT under ANY circumstance do a rm -r package. SRT creates secret links that are not seen by the user that if left in place will mysteriously cause the test release to break. Instead, one must always do:
@@ -91,7 +91,7 @@ DO NOT under ANY circumstance do a rm -r package. SRT creates secret links that 
 
 This removes the package and all the links that SRT has made, including the .so files in one’s lib folder.
 
-Compiling Packages in the Test Release(#Compiling-Packages-in-the-Test-Release)
+Compiling Packages in the Test Release
 ----------------------------------------------------------------------------------
 
 Compiling packages under the SRT environment is fairly straightforward. First, one needs to run the command
@@ -114,12 +114,12 @@ If you have several packages in your release that you want to compile at the sam
 
 and that will do a clean build of all the packages in the proper dependency order.
 
-Checking code into the repository(#Checking-code-into-the-repository)
+Checking code into the repository
 ------------------------------------------------------------------------
 
 These are instructions for checking code into a package that already exists in the repository. Before checking any code into the repository compile it to be sure it builds. Then cd into the directory and follow these instructions.
 
-### Previously Checked Out Code(#Previously-Checked-Out-Code)
+### Previously Checked Out Code
 
 `svn diff`
 
@@ -129,7 +129,7 @@ This command will print the differences between your edited code and the version
 
 The “-m” indicates that what follows is a message that will be saved along with the changes in the repository.
 
-### Adding New Code to an Existing Package(#Adding-New-Code-to-an-Existing-Package)
+### Adding New Code to an Existing Package
 
 If the code to be committed does not yet exist in the repository it needs to be added with
 
@@ -143,11 +143,11 @@ Then do
 
 where the commit message indicates the purpose of the newly added code.
 
-### Adding a new Package to the Repository(#Adding-a-new-Package-to-the-Repository)
+### Adding a new Package to the Repository
 
 Please follow [these instructions](Using_SVN_with_LArSoft?parent=Editing_Code#Adding-a-Package) to add a new package to the repository.
 
-Updating a test release(#Updating-a-test-release)
+Updating a test release
 ----------------------------------------------------
 
 It is useful to bring a test release in line with the head of the release the test is using from time to time. This is especially true if one has several packages in a test release and has not been diligent about updating them. There is a utility to automate this update, [source:SRT\_LAR/scripts/lar\_update\_testrel](/redmine/projects/larsoft/repository/entry/SRT_LAR/scripts/lar_update_testrel) and is used as follows
@@ -158,7 +158,7 @@ where xxxx is the name of the base release the test release is built on, ie deve
 
 The script will compare all the packages in the test release that are also in the base release. If there is a package in a test release that is not in the \$SRT\_PUBLIC\_CONTEXT/setup/packages-xxxx file for the base release, it will not be updated.
 
-Editing code remotely with Emacs and Tramp(#Editing-code-remotely-with-Emacs-and-Tramp)
+Editing code remotely with Emacs and Tramp
 ------------------------------------------------------------------------------------------
 
 Emacs has a handy facility called [Tramp](http://emacswiki.org/emacs/TrampMode) that will scp a file to your local machine, allowing you to edit it without network latency, and then scp the saved changes back to the original location. To use tramp add the following to your .emacs file

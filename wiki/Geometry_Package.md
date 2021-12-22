@@ -8,12 +8,12 @@
     -   [Future projects](#Future-projects)
     -   [Writing and visualizing your own geometry](#Writing-and-visualizing-your-own-geometry)
 
-Geometry Package(#Geometry-Package) {.wiki-class-count}
+Geometry Package
 ======================================
 
 Different detectors are represented in the Geometry Package of LArSoft.
 
-How a LArTPC works(#How-a-LArTPC-works) {.wiki-class-count}
+How a LArTPC works
 ------------------------------------------
 
 Since neutrino interactions with matter are rare, physicists operate detectors with massive amounts of target material for runs lasting many years. Collisions between neutrinos and atoms in the target material produce particles which can be detected. Cosmic rays and other backgrounds also produce particles which must be distinguished from those produced by the neutrino interactions. The detectors record the tracks of charged particles traversing them. A conceptual view of the detection process in a single-phase Liquid Argon Time Projection Chamber (LArTPC) is available in the following 30-second animation: [https://www.youtube.com/watch?v=R5G1\_hW0ZUA](https://www.youtube.com/watch?v=R5G1_hW0ZUA). In contrast to the timescale shown in the animation, in a real detector the ionization drifts at a speed that is orders of magnitude slower than the velocity of the muon. As a result, the ionization left in the detector retains the shape of the deposited charge in space, thereby creating a 3D image of the energy deposition from all of the charged particles created in the interaction. This agglomeration then drifts (more or less) intact to the anode plane. The time at which the drifting electrons arrive at the anode can be measured, and if the production time is known, then the distance from the anode to the production point can be established.
@@ -31,7 +31,7 @@ Due to the small drift velocity in liquid argon, the Lorentz angle for useful ma
 
 To fully support any TPC, arbitrary electric field and drift directions must be supported.
 
-How LArSoft geometry fits in(#How-LArSoft-geometry-fits-in) {.wiki-class-count}
+How LArSoft geometry fits in
 --------------------------------------------------------------
 
 LArSoft is a simulation, reconstruction and analysis framework for LArTPCs. Currently, only anode planes with sense wires or strips are supported, though efforts based on LArSoft simulate pixel-based detectors are underway. Different detectors are represented in the LArSoft geometry.
@@ -49,7 +49,7 @@ The LArSoft geometry provides descriptions of the physical structures and materi
 
 The geometry also provides a mapping between sensing elements such as wires or strips and DAQ channels.
 
-Geometry model in LArSoft(#Geometry-model-in-LArSoft) {.wiki-class-count}
+Geometry model in LArSoft
 --------------------------------------------------------
 
 The geometry description is hierarchically organized, with volume names and containership relations shown in Figure 1. \
@@ -72,7 +72,7 @@ A volume is the space contained within a set of closed surfaces. In the LArSoft 
 
 Most of these elements are represented in LArSoft by a class for that type of element (`geo::CryostatGeo, geo::TPCGeo`, …). Each of the cryostats, TPCs, planes and wires has its own instance.
 
-What you can do with the geometry(#What-you-can-do-with-the-geometry) {.wiki-class-count}
+What you can do with the geometry
 ------------------------------------------------------------------------
 
 The geometry package contains classes related to the geometry representation. Classes represent planes, TPCs, cryostats. Geometry service and geometry services provider, Geometry-core, are in the geometry package as well as classes that perform sorting functions for experiments.
@@ -140,7 +140,7 @@ Questions that can be answered:
     Assuming we are talking of the plane frame: \
     `geo::PlaneGeo::WidthDepthProjection_t proj = geom.Plane(pid).PointWidthDepthProjection(of_interest);double w_coord = proj.X(), d_coord = proj.Y();`
 
-LArSoft geometry evolution(#LArSoft-geometry-evolution) {.wiki-class-count}
+LArSoft geometry evolution
 ----------------------------------------------------------
 
 LArSoft release 6.28 changed the geometry to support dual-phase TPCs, which caused several assumptions to be removed or to change:
@@ -190,12 +190,12 @@ The abstraction of drift direction can be framed in a broader context. The drift
 -   perfectly spaced rigid wires
 -   shape of wire plane frame is rectangle
 
-Future projects(#Future-projects) {.wiki-class-count}
+Future projects
 ------------------------------------
 
 VolTPC may need to include the volume between the planes since there can be argon there, so there can be charged depositions there. (The 35-ton TPC paper studies this very effect.) If experiments have a mesh, they have this issue, or if a frame acts like a mesh.
 
-Writing and visualizing your own geometry(#Writing-and-visualizing-your-own-geometry) {.wiki-class-count}
+Writing and visualizing your own geometry
 ----------------------------------------------------------------------------------------
 
 The Geometry Description Markup Language is an application-independent geometry description format based on XML. [http://gdml.web.cern.ch/GDML/](http://gdml.web.cern.ch/GDML/) There exist two toolkit bindings for GDML, the Geant4 binding and the ROOT binding, both integrated within the respective frameworks. Both bindings support reading and writing GDML files.

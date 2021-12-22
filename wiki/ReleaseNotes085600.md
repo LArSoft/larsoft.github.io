@@ -1,4 +1,4 @@
-LArSoft v08\_56\_00 Release Notes(#LArSoft-v08_56_00-Release-Notes)
+LArSoft v08\_56\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -35,13 +35,13 @@ LArSoft v08\_56\_00 Release Notes(#LArSoft-v08_56_00-Release-Notes)
 Download instructions for [larsoft v08\_56\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_56_00/larsoft-v08_56_00.html)\
 Download instructions for [just larsoftobj v08\_29\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_02/larsoftobj-v08_29_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   add a requested larwire distribution
@@ -76,10 +76,10 @@ New features(#New-features)
             /home/garren/scratch/larsoft/test/larcorealg/v08_22_02/include/larcorealg/Geometry/GeometryCore.h:5714: undefined reference to `geo::SignalTypeName[abi:cxx11](geo::_plane_sigtype)'
             collect2: error: ld returned 1 exit status
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   genie v3\_00\_06i - see issue [\#24574](/redmine/issues/24574 "Support: Update GENIE generator and reweight combo to use Reweight R-1_00_06 instead of R-1_00_04 (Closed)")
@@ -92,10 +92,10 @@ Updated dependencies(#Updated-dependencies)
 -   nugen v1\_10\_09
 -   nusystematics v00\_10\_05
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_56\_00(#larsoft-v08_56_00)
+larsoft v08\_56\_00
 ------------------------------------------
 
 -   2020-07-01 Lynn Garren : larsoft v08\_56\_00 for larsoft v08\_56\_00
@@ -105,27 +105,27 @@ larsoft v08\_56\_00(#larsoft-v08_56_00)
 -   2020-06-29 Lynn Garren : working larwire build
 -   2020-06-29 Lynn Garren : first attempt at larwire configuration
 
-lareventdisplay v08\_12\_19(#lareventdisplay-v08_12_19)
+lareventdisplay v08\_12\_19
 ----------------------------------------------------------
 
 -   2020-07-01 Lynn Garren : lareventdisplay v08\_12\_19 for larsoft v08\_56\_00
 
-larexamples v08\_06\_19(#larexamples-v08_06_19)
+larexamples v08\_06\_19
 --------------------------------------------------
 
 -   2020-07-01 Lynn Garren : larexamples v08\_06\_19 for larsoft v08\_56\_00
 
-larg4 v08\_14\_05(#larg4-v08_14_05)
+larg4 v08\_14\_05
 --------------------------------------
 
 -   2020-07-01 Lynn Garren : larg4 v08\_14\_05 for larsoft v08\_56\_00
 
-larpandora v08\_12\_12(#larpandora-v08_12_12)
+larpandora v08\_12\_12
 ------------------------------------------------
 
 -   2020-07-01 Lynn Garren : larpandora v08\_12\_12 for larsoft v08\_56\_00
 
-larrecodnn v08\_05\_00(#larrecodnn-v08_05_00)
+larrecodnn v08\_05\_00
 ------------------------------------------------
 
 -   2020-07-01 Lynn Garren : larrecodnn v08\_05\_00 for larsoft v08\_56\_00
@@ -137,22 +137,22 @@ larrecodnn v08\_05\_00(#larrecodnn-v08_05_00)
 -   2020-06-25 mhlswang : added method to return predictions for each time tick
 -   2020-06-25 mhlswang : moved ROI finding from the example module into the tool
 
-larwirecell v08\_12\_16(#larwirecell-v08_12_16)
+larwirecell v08\_12\_16
 --------------------------------------------------
 
 -   2020-07-01 Lynn Garren : larwirecell v08\_12\_16 for larsoft v08\_56\_00
 
-larana v08\_17\_11(#larana-v08_17_11)
+larana v08\_17\_11
 ----------------------------------------
 
 -   2020-07-01 Lynn Garren : larana v08\_17\_11 for larsoft v08\_56\_00
 
-larreco v08\_32\_04(#larreco-v08_32_04)
+larreco v08\_32\_04
 ------------------------------------------
 
 -   2020-07-01 Lynn Garren : larreco v08\_32\_04 for larsoft v08\_56\_00
 
-larsim v08\_28\_00(#larsim-v08_28_00)
+larsim v08\_28\_00
 ----------------------------------------
 
 -   2020-07-01 Lynn Garren : larsim v08\_28\_00 for larsoft v08\_56\_00
@@ -164,7 +164,7 @@ larsim v08\_28\_00(#larsim-v08_28_00)
 -   2020-06-24 Gianluca Petrillo : Some C++ restyling for LightSource module.
 -   2020-06-24 Gianluca Petrillo : Tab converted to spaces.
 
-larevt v08\_12\_00(#larevt-v08_12_00)
+larevt v08\_12\_00
 ----------------------------------------
 
 -   2020-07-01 Lynn Garren : larevt v08\_12\_00 for larsoft v08\_56\_00
@@ -172,37 +172,37 @@ larevt v08\_12\_00(#larevt-v08_12_00)
 -   2020-07-01 Dom Brailsford : Const qualify all of the functions (except for the virtual filter function). Move opening function brackets onto new lines for more consistent styling. More tweaks are needed later.
 -   2020-06-24 Dom Brailsford : Additions - Optinally check whether a particle is a primary particle
 
-lardata v08\_15\_09(#lardata-v08_15_09)
+lardata v08\_15\_09
 ------------------------------------------
 
 -   2020-07-01 Lynn Garren : lardata v08\_15\_09 for larsoft v08\_56\_00
 
-larcore v08\_11\_10(#larcore-v08_11_10)
+larcore v08\_11\_10
 ------------------------------------------
 
 -   2020-07-01 Lynn Garren : add missing library
 -   2020-07-01 Lynn Garren : larcore v08\_11\_10 for larsoft v08\_56\_00
 
-larpandoracontent v03\_16\_02(#larpandoracontent-v03_16_02)
+larpandoracontent v03\_16\_02
 --------------------------------------------------------------
 
-larsoftobj v08\_29\_02(#larsoftobj-v08_29_02)
+larsoftobj v08\_29\_02
 ------------------------------------------------
 
 -   2020-07-01 Lynn Garren : larsoftobj v08\_29\_02 for larsoft v08\_56\_00
 -   2020-07-01 Lynn Garren : product versions
 
-lardataobj v08\_11\_02(#lardataobj-v08_11_02)
+lardataobj v08\_11\_02
 ------------------------------------------------
 
 -   2020-07-01 Lynn Garren : lardataobj v08\_11\_02 for larsoft v08\_56\_00
 
-lardataalg v08\_13\_14(#lardataalg-v08_13_14)
+lardataalg v08\_13\_14
 ------------------------------------------------
 
 -   2020-07-01 Lynn Garren : lardataalg v08\_13\_14 for larsoft v08\_56\_00
 
-larcorealg v08\_22\_02(#larcorealg-v08_22_02)
+larcorealg v08\_22\_02
 ------------------------------------------------
 
 -   2020-07-01 Lynn Garren : larcorealg v08\_22\_02 for larsoft v08\_56\_00
@@ -210,22 +210,22 @@ larcorealg v08\_22\_02(#larcorealg-v08_22_02)
 -   2020-06-25 Gianluca Petrillo : Moved function into larcoreobj
 -   2020-06-04 Gianluca Petrillo : Added signal type in plane information dumped by \`GeometryCore::Print()\`.
 
-larcoreobj v08\_12\_01(#larcoreobj-v08_12_01)
+larcoreobj v08\_12\_01
 ------------------------------------------------
 
 -   2020-07-01 Lynn Garren : larcoreobj v08\_12\_01 for larsoft v08\_56\_00
 -   2020-06-29 Lynn Garren : Merge pull request \#8 from PetrilloAtWork/DumpSignalType
 -   2020-06-25 Gianluca Petrillo : Moved geo::SignalTypeName() from larcorealg
 
-webevd v08\_00\_07(#webevd-v08_00_07)
+webevd v08\_00\_07
 ----------------------------------------
 
 -   2020-07-01 Lynn Garren : webevd v08\_00\_07 for larsoft v08\_56\_00
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_26\_00(#larutils-v1_26_00)
+larutils v1\_26\_00
 ------------------------------------------
 
 -   2020-07-01 Lynn Garren : larutils v1\_26\_00 for larsoft v08\_56\_00

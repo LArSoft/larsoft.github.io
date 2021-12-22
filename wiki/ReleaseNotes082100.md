@@ -1,4 +1,4 @@
-LArSoft v08\_21\_00 Release Notes(#LArSoft-v08_21_00-Release-Notes)
+LArSoft v08\_21\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v08\_21\_00 Release Notes(#LArSoft-v08_21_00-Release-Notes)
 Download instructions for [larsoft v08\_21\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_21_00/larsoft-v08_21_00.html)\
 Download instructions for [just larsoftobj v08\_15\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_15_01/larsoftobj-v08_15_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   TrajCluster 3D rewrite
@@ -58,54 +58,54 @@ New features(#New-features)
     -   larreco, larevt
     -   dunetpc, sbndcode and ubevt
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_21\_00(#larsoft-v08_21_00)
+larsoft v08\_21\_00
 ------------------------------------------
 
 -   2019-05-29 Lynn Garren : larsoft v08\_21\_00 for larsoft v08\_21\_00
 -   2019-05-29 Lynn Garren : product versions
 
-lareventdisplay v08\_07\_03(#lareventdisplay-v08_07_03)
+lareventdisplay v08\_07\_03
 ----------------------------------------------------------
 
 -   2019-05-29 Lynn Garren : lareventdisplay v08\_07\_03
 
-larexamples v08\_02\_06(#larexamples-v08_02_06)
+larexamples v08\_02\_06
 --------------------------------------------------
 
 -   2019-05-29 Lynn Garren : larexamples v08\_02\_06
 
-larg4 v08\_03\_05(#larg4-v08_03_05)
+larg4 v08\_03\_05
 --------------------------------------
 
 -   2019-05-29 Lynn Garren : larg4 v08\_03\_05
 
-larpandora v08\_07\_02(#larpandora-v08_07_02)
+larpandora v08\_07\_02
 ------------------------------------------------
 
 -   2019-05-29 Lynn Garren : larpandora v08\_07\_02
 
-larwirecell v08\_05\_05(#larwirecell-v08_05_05)
+larwirecell v08\_05\_05
 --------------------------------------------------
 
 -   2019-05-29 Lynn Garren : larwirecell v08\_05\_05 for larsoft v08\_21\_00
 
-larana v08\_09\_00(#larana-v08_09_00)
+larana v08\_09\_00
 ----------------------------------------
 
 -   2019-05-29 Lynn Garren : larana v08\_09\_00
 -   2019-05-23 Lynn Garren : larsoft v08\_20\_01
 -   2019-05-22 Kyle Spurgeon : Changed all timing variables in OpFlashAna to Doubles
 
-larreco v08\_14\_00(#larreco-v08_14_00)
+larreco v08\_14\_00
 ------------------------------------------
 
 -   2019-05-29 Lynn Garren : larreco v08\_14\_00 for larsoft v08\_21\_00
@@ -265,44 +265,44 @@ larreco v08\_14\_00(#larreco-v08_14_00)
 -   2019-01-28 baller : noop
 -   2019-01-28 baller : Replace allHitsRanges with goodWire and wireHitRange to reduce cpu time.
 
-larsim v08\_07\_03(#larsim-v08_07_03)
+larsim v08\_07\_03
 ----------------------------------------
 
 -   2019-05-29 Lynn Garren : larsim v08\_07\_03 for larsoft v08\_21\_00
 
-larevt v08\_05\_00(#larevt-v08_05_00)
+larevt v08\_05\_00
 ----------------------------------------
 
 -   2019-05-29 Lynn Garren : larevt v08\_05\_00
 -   2019-05-29 Lynn Garren : Merge branch ‘feature/herogers\_updateSCE’ into release/v08\_21\_00
 -   2019-05-21 Hannah Rogers : Update space charge service for TCP specific corrections
 
-lardata v08\_05\_02(#lardata-v08_05_02)
+lardata v08\_05\_02
 ------------------------------------------
 
-larcore v08\_04\_03(#larcore-v08_04_03)
+larcore v08\_04\_03
 ------------------------------------------
 
-larpandoracontent v03\_14\_08(#larpandoracontent-v03_14_08)
+larpandoracontent v03\_14\_08
 --------------------------------------------------------------
 
-larsoftobj v08\_15\_01(#larsoftobj-v08_15_01)
+larsoftobj v08\_15\_01
 ------------------------------------------------
 
-lardataobj v08\_04\_02(#lardataobj-v08_04_02)
+lardataobj v08\_04\_02
 ------------------------------------------------
 
-lardataalg v08\_07\_01(#lardataalg-v08_07_01)
+lardataalg v08\_07\_01
 ------------------------------------------------
 
-larcorealg v08\_12\_00(#larcorealg-v08_12_00)
+larcorealg v08\_12\_00
 ------------------------------------------------
 
-larcoreobj v08\_05\_00(#larcoreobj-v08_05_00)
+larcoreobj v08\_05\_00
 ------------------------------------------------
 
-larbatch v01\_51\_03(#larbatch-v01_51_03)
+larbatch v01\_51\_03
 --------------------------------------------
 
-larutils v1\_23\_18(#larutils-v1_23_18)
+larutils v1\_23\_18
 ------------------------------------------

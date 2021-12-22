@@ -1,4 +1,4 @@
-LArSoft v09\_35\_00 Release Notes(#LArSoft-v09_35_00-Release-Notes)
+LArSoft v09\_35\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -37,13 +37,13 @@ LArSoft v09\_35\_00 Release Notes(#LArSoft-v09_35_00-Release-Notes)
 Download instructions for [larsoft v09\_35\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_35_00/larsoft-v09_35_00.html)\
 Download instructions for [just larsoftobj v09\_11\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_11_00/larsoftobj-v09_11_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larg4 PR 30
@@ -75,7 +75,7 @@ New features(#New-features)
 -   larpandoracontent PR 34
     -   Update to the set of MC processes available to Pandora’s internal MC particles. This update does not alter the products of any experiment.
 
-Known issues(#Known-issues)
+Known issues
 ------------------------------
 
 -   In SBND we tried running using larg4 PR 30 and we found the following:
@@ -131,20 +131,20 @@ Known issues(#Known-issues)
     -   Note that current workflows will continue to work as before, this is only a problem when trying to use the new feature.
     -   This issue will be addressed in a future PR.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v5\_19\_05
     -   ifdh\_art is now on github
 -   artg4tk v10\_04\_00
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_35\_00(#larsoft-v09_35_00)
+larsoft v09\_35\_00
 ------------------------------------------
 
 -   2021-10-27 Lynn Garren : larsoft v09\_35\_00 for larsoft v09\_35\_00
@@ -153,52 +153,52 @@ larsoft v09\_35\_00(#larsoft-v09_35_00)
 -   2021-10-27 Lynn Garren : product versions
 -   2021-10-27 Lynn Garren : artg4tk v10\_04\_00 and mrb v5\_19\_05
 
-lareventdisplay v09\_02\_05(#lareventdisplay-v09_02_05)
+lareventdisplay v09\_02\_05
 ----------------------------------------------------------
 
 -   2021-10-27 Lynn Garren : lareventdisplay v09\_02\_05 for larsoft v09\_35\_00
 -   2021-10-27 Lynn Garren : lareventdisplay v09\_02\_05 for larsoft v09\_35\_00
 
-larexamples v09\_02\_05(#larexamples-v09_02_05)
+larexamples v09\_02\_05
 --------------------------------------------------
 
 -   2021-10-27 Lynn Garren : larexamples v09\_02\_05 for larsoft v09\_35\_00
 -   2021-10-27 Lynn Garren : larexamples v09\_02\_05 for larsoft v09\_35\_00
 
-larpandora v09\_09\_05(#larpandora-v09_09_05)
+larpandora v09\_09\_05
 ------------------------------------------------
 
 -   2021-10-27 Lynn Garren : larpandora v09\_09\_05 for larsoft v09\_35\_00
 -   2021-10-27 Lynn Garren : larpandora v09\_09\_05 for larsoft v09\_35\_00
 
-larsimrad v09\_03\_04(#larsimrad-v09_03_04)
+larsimrad v09\_03\_04
 ----------------------------------------------
 
 -   2021-10-27 Lynn Garren : larsimrad v09\_03\_04 for larsoft v09\_35\_00
 -   2021-10-27 Lynn Garren : larsimrad v09\_03\_04 for larsoft v09\_35\_00
 
-larrecodnn v09\_09\_05(#larrecodnn-v09_09_05)
+larrecodnn v09\_09\_05
 ------------------------------------------------
 
 -   2021-10-27 Lynn Garren : larrecodnn v09\_09\_05 for larsoft v09\_35\_00
 -   2021-10-27 Lynn Garren : larrecodnn v09\_09\_05 for larsoft v09\_35\_00
 
-larwirecell v09\_04\_03(#larwirecell-v09_04_03)
+larwirecell v09\_04\_03
 --------------------------------------------------
 
-larana v09\_03\_05(#larana-v09_03_05)
+larana v09\_03\_05
 ----------------------------------------
 
 -   2021-10-27 Lynn Garren : larana v09\_03\_05 for larsoft v09\_35\_00
 -   2021-10-27 Lynn Garren : larana v09\_03\_05 for larsoft v09\_35\_00
 
-larreco v09\_07\_05(#larreco-v09_07_05)
+larreco v09\_07\_05
 ------------------------------------------
 
 -   2021-10-27 Lynn Garren : larreco v09\_07\_05 for larsoft v09\_35\_00
 -   2021-10-27 Lynn Garren : larreco v09\_07\_05 for larsoft v09\_35\_00
 
-larsim v09\_18\_00(#larsim-v09_18_00)
+larsim v09\_18\_00
 ----------------------------------------
 
 -   2021-10-27 Lynn Garren : larsim v09\_18\_00 for larsoft v09\_35\_00
@@ -212,7 +212,7 @@ larsim v09\_18\_00(#larsim-v09_18_00)
 -   2021-10-19 Marco Del Tutto : Add fhicl parameters to select what input collections we want to merge
 -   2021-10-17 Marco Del Tutto : Add option to input a list of input labels to IonAndScint
 
-larg4 v09\_06\_00(#larg4-v09_06_00)
+larg4 v09\_06\_00
 --------------------------------------
 
 -   2021-10-27 Lynn Garren : larg4 v09\_06\_00 for larsoft v09\_35\_00
@@ -222,42 +222,42 @@ larg4 v09\_06\_00(#larg4-v09_06_00)
 -   2021-10-13 Kyle Knoepfel : Allow users to specify input MCTruth collections.
 -   2021-10-08 Kyle Knoepfel : Cleanups only; clang-format.
 
-larevt v09\_03\_03(#larevt-v09_03_03)
+larevt v09\_03\_03
 ----------------------------------------
 
-lardata v09\_04\_00(#lardata-v09_04_00)
+lardata v09\_04\_00
 ------------------------------------------
 
-larcore v09\_03\_01(#larcore-v09_03_01)
+larcore v09\_03\_01
 ------------------------------------------
 
-larpandoracontent v03\_26\_01(#larpandoracontent-v03_26_01)
+larpandoracontent v03\_26\_01
 --------------------------------------------------------------
 
 -   2021-10-27 AndyChappell : Merge pull request [\#184](/redmine/issues/184 "Bug: Dummy project changed to real project not handled properly across fiscal years. (Closed)") from AndyChappell/feature/mc\_proc\_update
 -   2021-10-25 Andrew Chappell : Update version and ChangeLog
 -   2021-10-22 Andrew Chappell : Add primary background MC process
 
-larsoftobj v09\_11\_00(#larsoftobj-v09_11_00)
+larsoftobj v09\_11\_00
 ------------------------------------------------
 
-lardataobj v09\_03\_03(#lardataobj-v09_03_03)
+lardataobj v09\_03\_03
 ------------------------------------------------
 
-lardataalg v09\_07\_00(#lardataalg-v09_07_00)
+lardataalg v09\_07\_00
 ------------------------------------------------
 
-larcorealg v09\_03\_01(#larcorealg-v09_03_01)
+larcorealg v09\_03\_01
 ------------------------------------------------
 
-larcoreobj v09\_03\_01(#larcoreobj-v09_03_01)
+larcoreobj v09\_03\_01
 ------------------------------------------------
 
-webevd v09\_06\_03(#webevd-v09_06_03)
+webevd v09\_06\_03
 ----------------------------------------
 
-larbatch v01\_56\_02(#larbatch-v01_56_02)
+larbatch v01\_56\_02
 --------------------------------------------
 
-larutils v1\_28\_02(#larutils-v1_28_02)
+larutils v1\_28\_02
 ------------------------------------------

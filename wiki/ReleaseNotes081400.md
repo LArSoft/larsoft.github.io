@@ -1,4 +1,4 @@
-LArSoft v08\_14\_00 Release Notes(#LArSoft-v08_14_00-Release-Notes)
+LArSoft v08\_14\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v08\_14\_00 Release Notes(#LArSoft-v08_14_00-Release-Notes)
 Download instructions for [larsoft v08\_14\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_14_00/larsoft-v08_14_00.html)\
 Download instructions for [just larsoftobj v08\_09\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_09_00/larsoftobj-v08_09_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lareventdisplay
@@ -49,19 +49,19 @@ New features(#New-features)
     -   [https://indico.fnal.gov/event/20287/contribution/3/material/slides/0.pdf](https://indico.fnal.gov/event/20287/contribution/3/material/slides/0.pdf)
 -   larg4 feature\_wenzel\_fix\_build\_again
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   artg4tk v09\_03\_01
 -   mrb v3\_00\_12
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_14\_00(#larsoft-v08_14_00)
+larsoft v08\_14\_00
 ------------------------------------------
 
 -   2019-03-27 Lynn Garren : artg4tk v09\_03\_01
@@ -69,7 +69,7 @@ larsoft v08\_14\_00(#larsoft-v08_14_00)
 -   2019-03-27 Lynn Garren : product versions
 -   2019-03-20 Lynn Garren : marley v1\_1\_0
 
-lareventdisplay v08\_04\_00(#lareventdisplay-v08_04_00)
+lareventdisplay v08\_04\_00
 ----------------------------------------------------------
 
 -   2019-03-27 Lynn Garren : lareventdisplay v08\_04\_00 for larsoft v08\_14\_00
@@ -105,12 +105,12 @@ lareventdisplay v08\_04\_00(#lareventdisplay-v08_04_00)
 -   2019-02-01 Usher, Tracy L : Merge branch ‘master’ into feature/usher\_wiredatadrawer
 -   2019-02-01 Usher, Tracy L : Modification to the “Wire” data drawing in the waveform display box to allow multiple Wire data to be overlaid (and not simply added to the histogram). To facilitate create a new Wire drawing tool and associated updates to make this all happen…
 
-larexamples v08\_01\_12(#larexamples-v08_01_12)
+larexamples v08\_01\_12
 --------------------------------------------------
 
 -   2019-03-27 Lynn Garren : larexamples v08\_01\_12 for larsoft v08\_14\_00
 
-larg4 v08\_01\_11(#larg4-v08_01_11)
+larg4 v08\_01\_11
 --------------------------------------
 
 -   2019-03-27 Lynn Garren : larg4 v08\_01\_11 for larsoft v08\_14\_00
@@ -121,27 +121,27 @@ larg4 v08\_01\_11(#larg4-v08_01_11)
 -   2019-03-27 Lynn Garren : fix version and remove trailing spaces
 -   2019-03-26 Hans-Joachim Wenzel : Fix CMakeLists.txt and restore missing test fcl.
 
-larpandora v08\_05\_05(#larpandora-v08_05_05)
+larpandora v08\_05\_05
 ------------------------------------------------
 
 -   2019-03-27 Lynn Garren : larpandora v08\_05\_05 for larsoft v08\_14\_00
 
-larwirecell v08\_03\_04(#larwirecell-v08_03_04)
+larwirecell v08\_03\_04
 --------------------------------------------------
 
 -   2019-03-27 Lynn Garren : larwirecell v08\_03\_04 for larsoft v08\_14\_00
 
-larana v08\_04\_03(#larana-v08_04_03)
+larana v08\_04\_03
 ----------------------------------------
 
 -   2019-03-27 Lynn Garren : larana v08\_04\_03 for larsoft v08\_14\_00
 
-larreco v08\_10\_04(#larreco-v08_10_04)
+larreco v08\_10\_04
 ------------------------------------------
 
 -   2019-03-27 Lynn Garren : larreco v08\_10\_04 for larsoft v08\_14\_00
 
-larsim v08\_04\_03(#larsim-v08_04_03)
+larsim v08\_04\_03
 ----------------------------------------
 
 -   2019-03-27 Lynn Garren : larsim v08\_04\_03 for larsoft v08\_14\_00
@@ -149,42 +149,42 @@ larsim v08\_04\_03(#larsim-v08_04_03)
 -   2019-03-21 Lynn Garren : larsoft v08\_13\_02
 -   2019-03-19 Gianluca Petrillo : Minor bug fix on photon visibility voxelisation.
 
-larevt v08\_02\_07(#larevt-v08_02_07)
+larevt v08\_02\_07
 ----------------------------------------
 
 -   2019-03-27 Lynn Garren : larevt v08\_02\_07 for larsoft v08\_14\_00
 
-lardata v08\_03\_08(#lardata-v08_03_08)
+lardata v08\_03\_08
 ------------------------------------------
 
 -   2019-03-27 Lynn Garren : lardata v08\_03\_08 for larsoft v08\_14\_00
 
-larcore v08\_02\_04(#larcore-v08_02_04)
+larcore v08\_02\_04
 ------------------------------------------
 
 -   2019-03-27 Lynn Garren : larcore v08\_02\_04 for larsoft v08\_14\_00
 -   2019-03-27 Lynn Garren : larcore v08\_02\_04 for larsoft v08\_14\_00
 
-larpandoracontent v03\_14\_05(#larpandoracontent-v03_14_05)
+larpandoracontent v03\_14\_05
 --------------------------------------------------------------
 
-larsoftobj v08\_09\_00(#larsoftobj-v08_09_00)
+larsoftobj v08\_09\_00
 ------------------------------------------------
 
 -   2019-03-27 Lynn Garren : larsoftobj v08\_09\_00 for larsoft v08\_14\_00
 -   2019-03-27 Lynn Garren : product versions
 
-lardataobj v08\_02\_05(#lardataobj-v08_02_05)
+lardataobj v08\_02\_05
 ------------------------------------------------
 
 -   2019-03-27 Lynn Garren : lardataobj v08\_02\_05 for larsoft v08\_14\_00
 
-lardataalg v08\_04\_04(#lardataalg-v08_04_04)
+lardataalg v08\_04\_04
 ------------------------------------------------
 
 -   2019-03-27 Lynn Garren : lardataalg v08\_04\_04 for larsoft v08\_14\_00
 
-larcorealg v08\_06\_00(#larcorealg-v08_06_00)
+larcorealg v08\_06\_00
 ------------------------------------------------
 
 -   2019-03-27 Lynn Garren : larcorealg v08\_06\_00 for larsoft v08\_14\_00
@@ -193,14 +193,14 @@ larcorealg v08\_06\_00(#larcorealg-v08_06_00)
 -   2019-03-22 Gianluca Petrillo : Added metaprogramming utility to determine if object is \`std::array\`.
 -   2019-03-20 Gianluca Petrillo : \`geo::vect::convertTo()\` now accepts arrays as data source.
 
-larcoreobj v08\_02\_02(#larcoreobj-v08_02_02)
+larcoreobj v08\_02\_02
 ------------------------------------------------
 
-larbatch v01\_50\_00(#larbatch-v01_50_00)
+larbatch v01\_50\_00
 --------------------------------------------
 
 -   2019-03-27 Lynn Garren : larbatch v01\_50\_00 for larsoft v08\_14\_00
 -   2019-03-22 Herbert Greenlee : Move batch scripts down from project to stage level.
 
-larutils v1\_23\_13(#larutils-v1_23_13)
+larutils v1\_23\_13
 ------------------------------------------

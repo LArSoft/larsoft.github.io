@@ -1,4 +1,4 @@
-LArSoft v09\_16\_00 Release Notes(#LArSoft-v09_16_00-Release-Notes)
+LArSoft v09\_16\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -35,12 +35,12 @@ LArSoft v09\_16\_00 Release Notes(#LArSoft-v09_16_00-Release-Notes)
 Download instructions for [larsoft v09\_16\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_16_00/larsoft-v09_16_00.html)\
 Download instructions for [just larsoftobj v09\_05\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_00/larsoftobj-v09_05_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   use art 3.06.03, art\_root\_io 1.05.02, canvas\_root\_io 1.07.02, and gallery 1.16.02 (s106)
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   This is the first larsoft release with art 3.06.
@@ -54,7 +54,7 @@ New features(#New-features)
     -   Deal with a tiny typo discovered in root. See [root v6\_22\_06a typo](Breaking_Changes#root-v6_22_06a-typo)
 -   Although an e20 prof distribution is available, larsoft still officially supports only the e19 and c7 distributions.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   art v3\_06\_03
@@ -88,10 +88,10 @@ Updated dependencies(#Updated-dependencies)
 -   trtis\_clients v19\_11c
 -   This list is not exhaustive.
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_16\_00(#larsoft-v09_16_00)
+larsoft v09\_16\_00
 ------------------------------------------
 
 -   2021-02-04 Lynn Garren : larsoft v09\_16\_00 for larsoft v09\_16\_00
@@ -105,7 +105,7 @@ larsoft v09\_16\_00(#larsoft-v09_16_00)
 -   2021-01-20 Lynn Garren : cmake 3.18
 -   2021-01-18 Lynn Garren : python v3\_8\_3b
 
-lareventdisplay v09\_01\_00(#lareventdisplay-v09_01_00)
+lareventdisplay v09\_01\_00
 ----------------------------------------------------------
 
 -   2021-02-04 Lynn Garren : lareventdisplay v09\_01\_00 for larsoft v09\_16\_00
@@ -116,7 +116,7 @@ lareventdisplay v09\_01\_00(#lareventdisplay-v09_01_00)
 -   2021-01-20 Lynn Garren : cmake 3.18
 -   2021-01-20 Lynn Garren : add e20
 
-larexamples v09\_01\_00(#larexamples-v09_01_00)
+larexamples v09\_01\_00
 --------------------------------------------------
 
 -   2021-02-04 Lynn Garren : larexamples v09\_01\_00 for larsoft v09\_16\_00
@@ -127,7 +127,7 @@ larexamples v09\_01\_00(#larexamples-v09_01_00)
 -   2021-01-20 Lynn Garren : cmake 3.18
 -   2021-01-20 Lynn Garren : add e20
 
-larpandora v09\_05\_00(#larpandora-v09_05_00)
+larpandora v09\_05\_00
 ------------------------------------------------
 
 -   2021-02-04 Lynn Garren : larpandora v09\_05\_00 for larsoft v09\_16\_00
@@ -137,7 +137,7 @@ larpandora v09\_05\_00(#larpandora-v09_05_00)
 -   2021-01-20 Lynn Garren : add e20
 -   2021-01-20 Lynn Garren : cmake 3.18
 
-larsimrad v09\_01\_00(#larsimrad-v09_01_00)
+larsimrad v09\_01\_00
 ----------------------------------------------
 
 -   2021-02-04 Lynn Garren : larsimrad v09\_01\_00 for larsoft v09\_16\_00
@@ -147,7 +147,7 @@ larsimrad v09\_01\_00(#larsimrad-v09_01_00)
 -   2021-01-20 Lynn Garren : cmake 3.18
 -   2021-01-20 Lynn Garren : add e20
 
-larrecodnn v09\_05\_00(#larrecodnn-v09_05_00)
+larrecodnn v09\_05\_00
 ------------------------------------------------
 
 -   2021-02-04 Lynn Garren : larrecodnn v09\_05\_00 for larsoft v09\_16\_00
@@ -157,7 +157,7 @@ larrecodnn v09\_05\_00(#larrecodnn-v09_05_00)
 -   2021-01-20 Lynn Garren : cmake 3.18
 -   2021-01-20 Lynn Garren : add e20
 
-larwirecell v09\_02\_00(#larwirecell-v09_02_00)
+larwirecell v09\_02\_00
 --------------------------------------------------
 
 -   2021-02-04 Lynn Garren : larwirecell v09\_02\_00 for larsoft v09\_16\_00
@@ -167,7 +167,7 @@ larwirecell v09\_02\_00(#larwirecell-v09_02_00)
 -   2021-01-20 Lynn Garren : add e20
 -   2021-01-20 Lynn Garren : cmake 3.18
 
-larana v09\_01\_00(#larana-v09_01_00)
+larana v09\_01\_00
 ----------------------------------------
 
 -   2021-02-04 Lynn Garren : larana v09\_01\_00 for larsoft v09\_16\_00
@@ -177,7 +177,7 @@ larana v09\_01\_00(#larana-v09_01_00)
 -   2021-01-20 Lynn Garren : add e20
 -   2021-01-20 Lynn Garren : cmake 3.18
 
-larreco v09\_05\_00(#larreco-v09_05_00)
+larreco v09\_05\_00
 ------------------------------------------
 
 -   2021-02-04 Lynn Garren : larreco v09\_05\_00 for larsoft v09\_16\_00
@@ -191,7 +191,7 @@ larreco v09\_05\_00(#larreco-v09_05_00)
 -   2021-01-20 Lynn Garren : cmake 3.18
 -   2021-01-18 Lynn Garren : ROOT::VMC no longer exists
 
-larsim v09\_09\_00(#larsim-v09_09_00)
+larsim v09\_09\_00
 ----------------------------------------
 
 -   2021-02-04 Lynn Garren : larsim v09\_09\_00 for larsoft v09\_16\_00
@@ -202,7 +202,7 @@ larsim v09\_09\_00(#larsim-v09_09_00)
 -   2021-01-20 Lynn Garren : add e20
 -   2021-01-20 Lynn Garren : cmake 3.18
 
-larg4 v09\_03\_00(#larg4-v09_03_00)
+larg4 v09\_03\_00
 --------------------------------------
 
 -   2021-02-04 Lynn Garren : larg4 v09\_03\_00 for larsoft v09\_16\_00
@@ -214,7 +214,7 @@ larg4 v09\_03\_00(#larg4-v09_03_00)
 -   2021-01-18 Lynn Garren : add e20
 -   2021-01-18 Lynn Garren : cmake 3.18
 
-larevt v09\_02\_00(#larevt-v09_02_00)
+larevt v09\_02\_00
 ----------------------------------------
 
 -   2021-02-04 Lynn Garren : larevt v09\_02\_00 for larsoft v09\_16\_00
@@ -224,7 +224,7 @@ larevt v09\_02\_00(#larevt-v09_02_00)
 -   2021-01-20 Lynn Garren : add e20
 -   2021-01-20 Lynn Garren : cmake 3.18
 
-lardata v09\_02\_00(#lardata-v09_02_00)
+lardata v09\_02\_00
 ------------------------------------------
 
 -   2021-02-04 Lynn Garren : lardata v09\_02\_00 for larsoft v09\_16\_00
@@ -237,7 +237,7 @@ lardata v09\_02\_00(#lardata-v09_02_00)
 -   2021-01-18 Lynn Garren : add e20
 -   2021-01-18 Lynn Garren : cmake 3.18
 
-larcore v09\_02\_00(#larcore-v09_02_00)
+larcore v09\_02\_00
 ------------------------------------------
 
 -   2021-02-04 Lynn Garren : larcore v09\_02\_00 for larsoft v09\_16\_00
@@ -246,7 +246,7 @@ larcore v09\_02\_00(#larcore-v09_02_00)
 -   2021-01-20 Lynn Garren : add e20
 -   2021-01-20 Lynn Garren : cmake 3.18
 
-larpandoracontent v03\_22\_05(#larpandoracontent-v03_22_05)
+larpandoracontent v03\_22\_05
 --------------------------------------------------------------
 
 -   2021-02-04 Lynn Garren : larpandoracontent v03\_22\_05 for larsoft v09\_16\_00
@@ -255,7 +255,7 @@ larpandoracontent v03\_22\_05(#larpandoracontent-v03_22_05)
 -   2021-02-02 Lynn Garren : eigen v3\_3\_9a, pandora v03\_16\_00b, libtorch v1\_6\_0a
 -   2021-01-20 Lynn Garren : add e20
 
-larsoftobj v09\_05\_00(#larsoftobj-v09_05_00)
+larsoftobj v09\_05\_00
 ------------------------------------------------
 
 -   2021-02-04 Lynn Garren : larsoftobj v09\_05\_00 for larsoft v09\_16\_00
@@ -268,7 +268,7 @@ larsoftobj v09\_05\_00(#larsoftobj-v09_05_00)
 -   2021-01-20 Lynn Garren : add e20
 -   2021-01-20 Lynn Garren : nulite v3\_09\_01
 
-lardataobj v09\_01\_00(#lardataobj-v09_01_00)
+lardataobj v09\_01\_00
 ------------------------------------------------
 
 -   2021-02-04 Lynn Garren : lardataobj v09\_01\_00 for larsoft v09\_16\_00
@@ -279,7 +279,7 @@ lardataobj v09\_01\_00(#lardataobj-v09_01_00)
 -   2021-01-20 Lynn Garren : cmake 3.18
 -   2021-01-20 Lynn Garren : boost floating\_point\_comparison.hpp
 
-lardataalg v09\_04\_00(#lardataalg-v09_04_00)
+lardataalg v09\_04\_00
 ------------------------------------------------
 
 -   2021-02-04 Lynn Garren : lardataalg v09\_04\_00 for larsoft v09\_16\_00
@@ -290,7 +290,7 @@ lardataalg v09\_04\_00(#lardataalg-v09_04_00)
 -   2021-01-20 Lynn Garren : cmake 3.18
 -   2021-01-20 Lynn Garren : add e20
 
-larcorealg v09\_01\_00(#larcorealg-v09_01_00)
+larcorealg v09\_01\_00
 ------------------------------------------------
 
 -   2021-02-04 Lynn Garren : larcorealg v09\_01\_00 for larsoft v09\_16\_00
@@ -301,7 +301,7 @@ larcorealg v09\_01\_00(#larcorealg-v09_01_00)
 -   2021-01-20 Lynn Garren : ranges::view is now ranges::views
 -   2021-01-20 Lynn Garren : boost floating\_point\_comparison.hpp
 
-larcoreobj v09\_02\_00(#larcoreobj-v09_02_00)
+larcoreobj v09\_02\_00
 ------------------------------------------------
 
 -   2021-02-04 Lynn Garren : larcoreobj v09\_02\_00 for larsoft v09\_16\_00
@@ -310,7 +310,7 @@ larcoreobj v09\_02\_00(#larcoreobj-v09_02_00)
 -   2021-01-20 Lynn Garren : add e20
 -   2021-01-20 Lynn Garren : cmake 3.18
 
-webevd v09\_03\_00(#webevd-v09_03_00)
+webevd v09\_03\_00
 ----------------------------------------
 
 -   2021-02-04 Lynn Garren : webevd v09\_03\_00 for larsoft v09\_16\_00
@@ -320,8 +320,8 @@ webevd v09\_03\_00(#webevd-v09_03_00)
 -   2021-01-20 Lynn Garren : cmake 3.18
 -   2021-01-20 Lynn Garren : add e20
 
-larbatch v01\_54\_01(#larbatch-v01_54_01)
+larbatch v01\_54\_01
 --------------------------------------------
 
-larutils v1\_27\_04(#larutils-v1_27_04)
+larutils v1\_27\_04
 ------------------------------------------

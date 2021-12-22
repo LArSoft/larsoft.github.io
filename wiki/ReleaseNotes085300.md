@@ -1,4 +1,4 @@
-LArSoft v08\_53\_00 Release Notes(#LArSoft-v08_53_00-Release-Notes)
+LArSoft v08\_53\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -34,13 +34,13 @@ LArSoft v08\_53\_00 Release Notes(#LArSoft-v08_53_00-Release-Notes)
 Download instructions for [larsoft v08\_53\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_53_00/larsoft-v08_53_00.html)\
 Download instructions for [just larsoftobj v08\_29\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_00/larsoftobj-v08_29_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandoracontent PR 4
@@ -64,66 +64,66 @@ New features(#New-features)
 -   lardataobj PR 5
     -   Added another compression algorithm. Note this is what DUNE intends to implement to compress the data “online”. The algorithm uses two lambda functions that the user can change to modify the encoding/decoding, and the default implementation of these functions is done in lardataobj/RawData/raw.cxx.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v4\_01\_00
     -   With this release, mrb g will checkout the known SBN repositories from github by default. The known SBN repositories are icarusutil, sbndcode, icaruscode, icarus\_signal\_processing, sbncode, and sbndutil.
     -   [https://github.com/SBNSoftware/](https://github.com/SBNSoftware/)
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_53\_00(#larsoft-v08_53_00)
+larsoft v08\_53\_00
 ------------------------------------------
 
 -   2020-05-20 Lynn Garren : larsoft v08\_53\_00 for larsoft v08\_53\_00
 -   2020-05-20 Lynn Garren : product versions
 
-lareventdisplay v08\_12\_16(#lareventdisplay-v08_12_16)
+lareventdisplay v08\_12\_16
 ----------------------------------------------------------
 
 -   2020-05-20 Lynn Garren : lareventdisplay v08\_12\_16 for larsoft v08\_53\_00
 
-larexamples v08\_06\_16(#larexamples-v08_06_16)
+larexamples v08\_06\_16
 --------------------------------------------------
 
 -   2020-05-20 Lynn Garren : larexamples v08\_06\_16 for larsoft v08\_53\_00
 
-larg4 v08\_14\_02(#larg4-v08_14_02)
+larg4 v08\_14\_02
 --------------------------------------
 
 -   2020-05-20 Lynn Garren : larg4 v08\_14\_02 for larsoft v08\_53\_00
 
-larpandora v08\_12\_08(#larpandora-v08_12_08)
+larpandora v08\_12\_08
 ------------------------------------------------
 
 -   2020-05-20 Lynn Garren : larpandora v08\_12\_08 for larsoft v08\_53\_00
 
-larrecodnn v08\_04\_01(#larrecodnn-v08_04_01)
+larrecodnn v08\_04\_01
 ------------------------------------------------
 
 -   2020-05-20 Lynn Garren : larrecodnn v08\_04\_01 for larsoft v08\_53\_00
 
-larwirecell v08\_12\_14(#larwirecell-v08_12_14)
+larwirecell v08\_12\_14
 --------------------------------------------------
 
 -   2020-05-20 Lynn Garren : larwirecell v08\_12\_14 for larsoft v08\_53\_00
 
-larana v08\_17\_08(#larana-v08_17_08)
+larana v08\_17\_08
 ----------------------------------------
 
 -   2020-05-20 Lynn Garren : larana v08\_17\_08 for larsoft v08\_53\_00
 
-larreco v08\_32\_01(#larreco-v08_32_01)
+larreco v08\_32\_01
 ------------------------------------------
 
 -   2020-05-20 Lynn Garren : larreco v08\_32\_01 for larsoft v08\_53\_00
 
-larsim v08\_25\_00(#larsim-v08_25_00)
+larsim v08\_25\_00
 ----------------------------------------
 
 -   2020-05-20 Lynn Garren : larsim v08\_25\_00 for larsoft v08\_53\_00
@@ -138,22 +138,22 @@ larsim v08\_25\_00(#larsim-v08_25_00)
 -   2020-05-03 Gianluca Petrillo : Fixed copy error in POTsummary.fcl.
 -   2020-04-29 Gianluca Petrillo : New module \`POTaccumulator\` counting the total POT in a dataset.
 
-larevt v08\_11\_07(#larevt-v08_11_07)
+larevt v08\_11\_07
 ----------------------------------------
 
 -   2020-05-20 Lynn Garren : larevt v08\_11\_07 for larsoft v08\_53\_00
 
-lardata v08\_15\_07(#lardata-v08_15_07)
+lardata v08\_15\_07
 ------------------------------------------
 
 -   2020-05-20 Lynn Garren : lardata v08\_15\_07 for larsoft v08\_53\_00
 
-larcore v08\_11\_08(#larcore-v08_11_08)
+larcore v08\_11\_08
 ------------------------------------------
 
 -   2020-05-20 Lynn Garren : larcore v08\_11\_08 for larsoft v08\_53\_00
 
-larpandoracontent v03\_16\_00(#larpandoracontent-v03_16_00)
+larpandoracontent v03\_16\_00
 --------------------------------------------------------------
 
 -   2020-05-20 Lynn Garren : larpandoracontent v03\_16\_00 for larsoft v08\_53\_00
@@ -220,13 +220,13 @@ larpandoracontent v03\_16\_00(#larpandoracontent-v03_16_00)
 -   2020-03-13 imawby : Add files via upload
 -   2020-03-13 imawby : HitWidth helper
 
-larsoftobj v08\_29\_00(#larsoftobj-v08_29_00)
+larsoftobj v08\_29\_00
 ------------------------------------------------
 
 -   2020-05-20 Lynn Garren : product versions
 -   2020-05-20 Lynn Garren : larsoftobj v08\_29\_00 for larsoft v08\_53\_00
 
-lardataobj v08\_11\_00(#lardataobj-v08_11_00)
+lardataobj v08\_11\_00
 ------------------------------------------------
 
 -   2020-05-20 Lynn Garren : lardataobj v08\_11\_00 for larsoft v08\_53\_00
@@ -248,12 +248,12 @@ lardataobj v08\_11\_00(#lardataobj-v08_11_00)
 -   2020-02-28 Pierre Lasorak : Faster implementation without else if. User may now provide a lambda that can be used as table
 -   2020-01-21 Pierre Lasorak : add fibonacci encoding
 
-lardataalg v08\_13\_12(#lardataalg-v08_13_12)
+lardataalg v08\_13\_12
 ------------------------------------------------
 
 -   2020-05-20 Lynn Garren : lardataalg v08\_13\_12 for larsoft v08\_53\_00
 
-larcorealg v08\_22\_00(#larcorealg-v08_22_00)
+larcorealg v08\_22\_00
 ------------------------------------------------
 
 -   2020-05-20 Lynn Garren : larcorealg v08\_22\_00 for larsoft v08\_53\_00
@@ -261,7 +261,7 @@ larcorealg v08\_22\_00(#larcorealg-v08_22_00)
 -   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D\_t into OpticalVector\_t.
 -   2020-05-15 Gianluca Petrillo : Support for issue [\#22628](/redmine/issues/22628 "Feature: Change internal representation of sim::OnePhoton (Closed)") (sim::OnePhoton).
 
-larcoreobj v08\_12\_00(#larcoreobj-v08_12_00)
+larcoreobj v08\_12\_00
 ------------------------------------------------
 
 -   2020-05-20 Lynn Garren : larcoreobj v08\_12\_00 for larsoft v08\_53\_00
@@ -269,8 +269,8 @@ larcoreobj v08\_12\_00(#larcoreobj-v08_12_00)
 -   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D\_t into OpticalVector\_t.
 -   2020-05-15 Gianluca Petrillo : Support for issue [\#22628](/redmine/issues/22628 "Feature: Change internal representation of sim::OnePhoton (Closed)") (sim::OnePhoton).
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_25\_09(#larutils-v1_25_09)
+larutils v1\_25\_09
 ------------------------------------------

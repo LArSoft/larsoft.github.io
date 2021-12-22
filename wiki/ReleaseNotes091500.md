@@ -1,4 +1,4 @@
-LArSoft v09\_15\_00 Release Notes(#LArSoft-v09_15_00-Release-Notes)
+LArSoft v09\_15\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_15\_00 Release Notes(#LArSoft-v09_15_00-Release-Notes)
 Download instructions for [larsoft v09\_15\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_15_00/larsoft-v09_15_00.html)\
 Download instructions for [just larsoftobj v09\_04\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_04_02/larsoftobj-v09_04_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larg4 PR 21
@@ -55,77 +55,77 @@ New features(#New-features)
 -   larsim PR 59
     -   Reconfigure PDFastSimPAR to remove the PhotonVisibilityService and LArG4Parameters services. Allows multiple instances with different optical property configurations to run in the same job. As a bonus, this moves us one step closer to eliminating the PVS entirely and to enabling multi-threading. Remaining services in this module are geometry, NuRandom, and LArProperties. The latter is only used to get the attenuation of the LAr, and could also potentially be moved to a fhicl parameter of this module.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lardataalg PR 21
     -   Fix larproperties.fcl
     -   Current FastScintEnergies and SlowScintEnergies seem to correspond to Kr (emission peak at \~8.5 eV -\> 146 nm) instead of Argon (emission peak at \~9.7 eV -\> 128 nm). There is no need to change the shape of the spectra (FastScintSpectrum/SlowScintSpectrum) but energies need to be shifted in \~1.2 eV to larger values.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   artg4tk v10\_00\_03
     -   custom physics list added to artg4tk and placed in a new directory **artg4tk/artg4tk/lists**
     -   This custom physics list (under the name **MyQGSP\_BERT\_ArHP**) is registered as an option and can be selected within the PhysicsList service configuration. The custom list was added to acommodate a request from the UC Davis working group in order to base the neutron capture gammas on the latest NNDC data for Ar40.
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_15\_00(#larsoft-v09_15_00)
+larsoft v09\_15\_00
 ------------------------------------------
 
 -   2021-01-27 Lynn Garren : larsoft v09\_15\_00 for larsoft v09\_15\_00
 -   2021-01-27 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_20(#lareventdisplay-v09_00_20)
+lareventdisplay v09\_00\_20
 ----------------------------------------------------------
 
 -   2021-01-27 Lynn Garren : lareventdisplay v09\_00\_20 for larsoft v09\_15\_00
 
-larexamples v09\_00\_19(#larexamples-v09_00_19)
+larexamples v09\_00\_19
 --------------------------------------------------
 
 -   2021-01-27 Lynn Garren : larexamples v09\_00\_19 for larsoft v09\_15\_00
 
-larpandora v09\_04\_01(#larpandora-v09_04_01)
+larpandora v09\_04\_01
 ------------------------------------------------
 
 -   2021-01-27 Lynn Garren : larpandora v09\_04\_01 for larsoft v09\_15\_00
 
-larsimrad v09\_00\_19(#larsimrad-v09_00_19)
+larsimrad v09\_00\_19
 ----------------------------------------------
 
 -   2021-01-27 Lynn Garren : larsimrad v09\_00\_19 for larsoft v09\_15\_00
 
-larrecodnn v09\_04\_01(#larrecodnn-v09_04_01)
+larrecodnn v09\_04\_01
 ------------------------------------------------
 
 -   2021-01-27 Lynn Garren : larrecodnn v09\_04\_01 for larsoft v09\_15\_00
 
-larwirecell v09\_01\_12(#larwirecell-v09_01_12)
+larwirecell v09\_01\_12
 --------------------------------------------------
 
 -   2021-01-27 Lynn Garren : larwirecell v09\_01\_12 for larsoft v09\_15\_00
 
-larana v09\_00\_20(#larana-v09_00_20)
+larana v09\_00\_20
 ----------------------------------------
 
 -   2021-01-27 Lynn Garren : larana v09\_00\_20 for larsoft v09\_15\_00
 
-larreco v09\_04\_10(#larreco-v09_04_10)
+larreco v09\_04\_10
 ------------------------------------------
 
 -   2021-01-27 Lynn Garren : larreco v09\_04\_10 for larsoft v09\_15\_00
 
-larsim v09\_08\_00(#larsim-v09_08_00)
+larsim v09\_08\_00
 ----------------------------------------
 
 -   2021-01-27 Lynn Garren : larsim v09\_08\_00 for larsoft v09\_15\_00
 -   2021-01-26 Lynn Garren : Merge pull request [\#59](/redmine/issues/59 "Idea: Write a tool to transform our data formats to cachegrind format. (New)") from aihimmel/develop
 -   2021-01-15 Alex Himmel : Reconfigure to remove the PhotonVisibilityService and LArG4Parameters services. Allows multiple instances with different optical property configurations to run in the same job.
 
-larg4 v09\_02\_03(#larg4-v09_02_03)
+larg4 v09\_02\_03
 --------------------------------------
 
 -   2021-01-27 Lynn Garren : larg4 v09\_02\_03 for larsoft v09\_15\_00
@@ -136,45 +136,45 @@ larg4 v09\_02\_03(#larg4-v09_02_03)
 -   2021-01-24 David Rivera : Link arg4tk custom physics lists library to make them available in larg4.
 -   2021-01-15 Alex Himmel : Add a fhicl wih the standard configuration of the larg4Main module, and update the example to use it.
 
-larevt v09\_01\_06(#larevt-v09_01_06)
+larevt v09\_01\_06
 ----------------------------------------
 
 -   2021-01-27 Lynn Garren : larevt v09\_01\_06 for larsoft v09\_15\_00
 
-lardata v09\_01\_09(#lardata-v09_01_09)
+lardata v09\_01\_09
 ------------------------------------------
 
 -   2021-01-27 Lynn Garren : lardata v09\_01\_09 for larsoft v09\_15\_00
 
-larcore v09\_01\_00(#larcore-v09_01_00)
+larcore v09\_01\_00
 ------------------------------------------
 
-larpandoracontent v03\_22\_04(#larpandoracontent-v03_22_04)
+larpandoracontent v03\_22\_04
 --------------------------------------------------------------
 
-larsoftobj v09\_04\_02(#larsoftobj-v09_04_02)
+larsoftobj v09\_04\_02
 ------------------------------------------------
 
 -   2021-01-27 Lynn Garren : larsoftobj v09\_04\_02 for larsoft v09\_15\_00
 -   2021-01-27 Lynn Garren : product versions
 
-lardataobj v09\_00\_07(#lardataobj-v09_00_07)
+lardataobj v09\_00\_07
 ------------------------------------------------
 
-lardataalg v09\_03\_06(#lardataalg-v09_03_06)
+lardataalg v09\_03\_06
 ------------------------------------------------
 
 -   2021-01-27 Lynn Garren : lardataalg v09\_03\_06 for larsoft v09\_15\_00
 -   2021-01-26 Lynn Garren : Merge pull request \#21 from ggamezdiego/patch-1
 -   2021-01-21 ggamezdiego : Fix larproperties.fcl
 
-larcorealg v09\_00\_02(#larcorealg-v09_00_02)
+larcorealg v09\_00\_02
 ------------------------------------------------
 
-larcoreobj v09\_01\_00(#larcoreobj-v09_01_00)
+larcoreobj v09\_01\_00
 ------------------------------------------------
 
-webevd v09\_02\_00(#webevd-v09_02_00)
+webevd v09\_02\_00
 ----------------------------------------
 
 -   2021-01-27 Lynn Garren : webevd v09\_02\_00 for larsoft v09\_15\_00
@@ -204,8 +204,8 @@ webevd v09\_02\_00(#webevd-v09_02_00)
 -   2020-08-14 Christopher Backhouse : Load mipmap levels in a deterministic order. This makes the logic simpler, and guarantees the user sees something sooner.
 -   2020-08-04 Christopher Backhouse : Speed up switching to a new event. Split coords.js into several proper JSONs and load them with promises.
 
-larbatch v01\_54\_01(#larbatch-v01_54_01)
+larbatch v01\_54\_01
 --------------------------------------------
 
-larutils v1\_27\_04(#larutils-v1_27_04)
+larutils v1\_27\_04
 ------------------------------------------

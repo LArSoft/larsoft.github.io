@@ -1,4 +1,4 @@
-Fast cloning(#Fast-cloning)
+Fast cloning
 ==============================
 
 An *art* job configured with a `RootInput` source and a `RootOutput` output module will, by default, copy the entire input file into the *art* ROOT output file. This is by and large the most common job configuration.\
@@ -22,12 +22,12 @@ This happens *before* the event loop has even started^[1](#fn1)^.
 
 ^1^ This is technically incorrect, since it actually happens in the `postProcessEvent` state (*art* 2.8.3), and also because this may happen on each input file.
 
-Disabling fast cloning(#Disabling-fast-cloning)
+Disabling fast cloning
 --------------------------------------------------
 
 Fast cloning feature is enabled by default as it saves some time and loads of memory. Yet there are cases where it needs to be disabled.
 
-### Automatic disable(#Automatic-disable)
+### Automatic disable
 
 Modern *art* versions (for sure from 2.6 on) are pretty smart in guessing when fast cloning is feasible. In general, fast cloning is not feasible when the output branches would be different from the input ones. Reasons may include:
 
@@ -90,6 +90,6 @@ input file from older ROOT (ROOT 5)
 
 Only one message (at most) is printed per input file. The messages in this table are in rough order of priority. For example, a file from LArSoft 5 is both from a version of *art* too old to support `RangeSet`, and from ROOT 5: only the message about `RangeSet` support is printed.
 
-### Manual disable(#Manual-disable)
+### Manual disable
 
 If you have reasons on your own to disable fast cloning, this can be achieved by a configuration parameter in `RootOutput`: `fastCloning: false` (see `lar --print-description RootOutput`).

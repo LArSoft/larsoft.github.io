@@ -1,4 +1,4 @@
-LArSoft v06\_43\_00 Release Notes(#LArSoft-v06_43_00-Release-Notes)
+LArSoft v06\_43\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,13 +30,13 @@ LArSoft v06\_43\_00 Release Notes(#LArSoft-v06_43_00-Release-Notes)
 Download instructions for [larsoft v06\_43\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_43_00/larsoft-v06_43_00.html)\
 Download instructions for [just larsoftobj v1\_23\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_23_00/larsoftobj-v1_23_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   move gdml from larcore to larcorealg
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   add larcorealg
@@ -50,16 +50,16 @@ New features(#New-features)
     -   this code is also in larcorealg
 -   lardataobj feature/usher\_cluster3dupdates
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_43\_00(#larsoft-v06_43_00)
+larsoft v06\_43\_00
 ------------------------------------------
 
 -   2017-07-12 Lynn Garren : larsoft v06\_43\_00 for larsoft v06\_43\_00
@@ -67,36 +67,36 @@ larsoft v06\_43\_00(#larsoft-v06_43_00)
 -   2017-07-11 Lynn Garren : update product versions and add larcorealg
 -   2017-07-05 Gianluca Petrillo : Added update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
 
-lareventdisplay v06\_09\_00(#lareventdisplay-v06_09_00)
+lareventdisplay v06\_09\_00
 ----------------------------------------------------------
 
 -   2017-07-12 Lynn Garren : lareventdisplay v06\_09\_00 for larsoft v06\_43\_00
 -   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
 
-larexamples v06\_05\_00(#larexamples-v06_05_00)
+larexamples v06\_05\_00
 --------------------------------------------------
 
 -   2017-07-12 Lynn Garren : larexamples v06\_05\_00 for larsoft v06\_43\_00
 -   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
 
-larpandora v06\_15\_00(#larpandora-v06_15_00)
+larpandora v06\_15\_00
 ------------------------------------------------
 
 -   2017-07-12 Lynn Garren : larpandora v06\_15\_00 for larsoft v06\_43\_00
 -   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
 
-larwirecell v06\_05\_04(#larwirecell-v06_05_04)
+larwirecell v06\_05\_04
 --------------------------------------------------
 
 -   2017-07-12 Lynn Garren : larwirecell v06\_05\_04 for larsoft v06\_43\_00
 
-larana v06\_08\_00(#larana-v06_08_00)
+larana v06\_08\_00
 ----------------------------------------
 
 -   2017-07-12 Lynn Garren : larana v06\_08\_00 for larsoft v06\_43\_00
 -   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
 
-larreco v06\_34\_00(#larreco-v06_34_00)
+larreco v06\_34\_00
 ------------------------------------------
 
 -   2017-07-12 Lynn Garren : larreco v06\_34\_00 for larsoft v06\_43\_00
@@ -115,25 +115,25 @@ larreco v06\_34\_00(#larreco-v06_34_00)
 -   2017-07-01 Robert Sulej : fix handling of the failed vertexing
 -   2017-06-29 Tingjun Yang : Ignore shower like pfparticles microboone\_pmalgtrajfitter.
 
-larsim v06\_26\_00(#larsim-v06_26_00)
+larsim v06\_26\_00
 ----------------------------------------
 
 -   2017-07-12 Lynn Garren : larsim v06\_26\_00 for larsoft v06\_43\_00
 -   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
 
-larevt v06\_15\_00(#larevt-v06_15_00)
+larevt v06\_15\_00
 ----------------------------------------
 
 -   2017-07-12 Lynn Garren : larevt v06\_15\_00 for larsoft v06\_43\_00
 -   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
 
-lardata v06\_24\_00(#lardata-v06_24_00)
+lardata v06\_24\_00
 ------------------------------------------
 
 -   2017-07-12 Lynn Garren : lardata v06\_24\_00 for larsoft v06\_43\_00
 -   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
 
-larcore v06\_13\_00(#larcore-v06_13_00)
+larcore v06\_13\_00
 ------------------------------------------
 
 -   2017-07-12 Lynn Garren : find\_ups\_product larcorealg
@@ -144,17 +144,17 @@ larcore v06\_13\_00(#larcore-v06_13_00)
 -   2017-07-05 Gianluca Petrillo : Removed sources that are now in larcorealg.
 -   2017-06-22 Gianluca Petrillo : Using the new geometry ID interface.
 
-larpandoracontent v03\_07\_02(#larpandoracontent-v03_07_02)
+larpandoracontent v03\_07\_02
 --------------------------------------------------------------
 
-larsoftobj v1\_23\_00(#larsoftobj-v1_23_00)
+larsoftobj v1\_23\_00
 ----------------------------------------------
 
 -   2017-07-12 Lynn Garren : larsoftobj v1\_23\_00 for larsoft v06\_43\_00
 -   2017-07-11 Lynn Garren : update product versions
 -   2017-07-11 Lynn Garren : add larcorealg
 
-lardataobj v1\_18\_00(#lardataobj-v1_18_00)
+lardataobj v1\_18\_00
 ----------------------------------------------
 
 -   2017-07-12 Lynn Garren : lardataobj v1\_18\_00 for larsoft v06\_43\_00
@@ -178,11 +178,11 @@ lardataobj v1\_18\_00(#lardataobj-v1_18_00)
 -   2016-11-23 Usher, Tracy L : Updating to include new “Edge” object
 -   2016-11-23 Usher, Tracy L : New data object aimed at “connecting” (providing an “edge”) SpacePoints. It does so by keeping track of the SpacePoint ID for the start/end points
 
-larcoreobj v1\_15\_01(#larcoreobj-v1_15_01)
+larcoreobj v1\_15\_01
 ----------------------------------------------
 
-larbatch v01\_32\_03(#larbatch-v01_32_03)
+larbatch v01\_32\_03
 --------------------------------------------
 
-larutils v1\_16\_00(#larutils-v1_16_00)
+larutils v1\_16\_00
 ------------------------------------------

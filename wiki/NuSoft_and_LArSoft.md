@@ -3,10 +3,10 @@
     -   [Use of nutools and Related Environmental Variables](#Use-of-nutools-and-Related-Environmental-Variables)
     -   [Compiling LArSoft Code against nutools](#Compiling-LArSoft-Code-against-nutools)
 
-nutools and LArSoft(#nutools-and-LArSoft)
+nutools and LArSoft
 ============================================
 
-Use of nutools and Related Environmental Variables(#Use-of-nutools-and-Related-Environmental-Variables)
+Use of nutools and Related Environmental Variables
 ----------------------------------------------------------------------------------------------------------
 
 LArSoft makes use of the [NuSoft](https://cdcvs.fnal.gov/redmine/projects/nusoftart/wiki) packages that provide a common interface to event generators, Geant4 and event display libraries developed for use by all neutrino experiments. The packages used fall under the nutools subgroup of NuSoft and are
@@ -31,7 +31,7 @@ The LArSoft setup script sets the nutools ups product up automatically, includin
     NUTOOLS_CXXFLAGS=-g -O0 -std=c++0x
     NUTOOLS_CFLAGS=-g -O0
 
-Compiling LArSoft Code against nutools(#Compiling-LArSoft-Code-against-nutools)
+Compiling LArSoft Code against nutools
 ----------------------------------------------------------------------------------
 
 If you want to include code from any of those packages in your package or link against their libraries, you need to set the LDFLAGS and CPPFLAGS variables to point at the appropriate locations for the packages mentioned above. \

@@ -1,4 +1,4 @@
-LArSoft v09\_09\_00 Release Notes(#LArSoft-v09_09_00-Release-Notes)
+LArSoft v09\_09\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,13 +36,13 @@ LArSoft v09\_09\_00 Release Notes(#LArSoft-v09_09_00-Release-Notes)
 Download instructions for [larsoft v09\_09\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_09_00/larsoft-v09_09_00.html)\
 Download instructions for [just larsoftobj v09\_03\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_03_00/larsoftobj-v09_03_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   Facilitate call to DetectorClocksStandard::DataFor()
@@ -67,14 +67,14 @@ New features(#New-features)
     -   The processes ‘CoulombScat’ and ‘nCapture’ have been added to the list of allowed processes in MCTrajectory. The default margin of 0.1 comes from what’s in MCTrajectory by default (which is 0.1).
     -   This will have an effect on some Geant4 reweighting machinery which is under development.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larreco PR 23
     -   Additional 3D reconstruction improvements
     -   The issue is how to reconstruct multiple 2D trajectories (that have a very small variation in X) in 3D. The latest TrajCluster release fixed the major problems but didn’t incorporate the most recent changes that have been made.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nulite v3\_07\_03
@@ -86,56 +86,56 @@ Updated dependencies(#Updated-dependencies)
     -   geant4reweight v01\_04\_02
 -   nusystematics v00\_10\_06
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_09\_00(#larsoft-v09_09_00)
+larsoft v09\_09\_00
 ------------------------------------------
 
 -   2020-10-28 Lynn Garren : larsoft v09\_09\_00 for larsoft v09\_09\_00
 -   2020-10-28 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_11(#lareventdisplay-v09_00_11)
+lareventdisplay v09\_00\_11
 ----------------------------------------------------------
 
 -   2020-10-28 Lynn Garren : lareventdisplay v09\_00\_11 for larsoft v09\_09\_00
 
-larexamples v09\_00\_10(#larexamples-v09_00_10)
+larexamples v09\_00\_10
 --------------------------------------------------
 
 -   2020-10-28 Lynn Garren : larexamples v09\_00\_10 for larsoft v09\_09\_00
 
-larg4 v09\_01\_03(#larg4-v09_01_03)
+larg4 v09\_01\_03
 --------------------------------------
 
 -   2020-10-28 Lynn Garren : larg4 v09\_01\_03 for larsoft v09\_09\_00
 
-larpandora v09\_03\_01(#larpandora-v09_03_01)
+larpandora v09\_03\_01
 ------------------------------------------------
 
 -   2020-10-28 Lynn Garren : larpandora v09\_03\_01 for larsoft v09\_09\_00
 
-larsimrad v09\_00\_10(#larsimrad-v09_00_10)
+larsimrad v09\_00\_10
 ----------------------------------------------
 
 -   2020-10-28 Lynn Garren : larsimrad v09\_00\_10 for larsoft v09\_09\_00
 
-larrecodnn v09\_02\_02(#larrecodnn-v09_02_02)
+larrecodnn v09\_02\_02
 ------------------------------------------------
 
 -   2020-10-28 Lynn Garren : larrecodnn v09\_02\_02 for larsoft v09\_09\_00
 
-larwirecell v09\_01\_05(#larwirecell-v09_01_05)
+larwirecell v09\_01\_05
 --------------------------------------------------
 
 -   2020-10-28 Lynn Garren : larwirecell v09\_01\_05 for larsoft v09\_09\_00
 
-larana v09\_00\_11(#larana-v09_00_11)
+larana v09\_00\_11
 ----------------------------------------
 
 -   2020-10-28 Lynn Garren : larana v09\_00\_11 for larsoft v09\_09\_00
 
-larreco v09\_04\_01(#larreco-v09_04_01)
+larreco v09\_04\_01
 ------------------------------------------
 
 -   2020-10-28 Lynn Garren : larreco v09\_04\_01 for larsoft v09\_09\_00
@@ -143,29 +143,29 @@ larreco v09\_04\_01(#larreco-v09_04_01)
 -   2020-10-26 Bruce Baller : Merge branch ‘develop’ into feature/bb\_vsafix
 -   2020-10-26 Bruce Baller : Cherry-pick more very-small-angle 3D reconstruction code from feature/bb\_kStudy
 
-larsim v09\_06\_00(#larsim-v09_06_00)
+larsim v09\_06\_00
 ----------------------------------------
 
 -   2020-10-28 Lynn Garren : larsim v09\_06\_00 for larsoft v09\_09\_00
 -   2020-10-27 Lynn Garren : Merge pull request \#46 from pgreen135/feature/pgreen\_corsikaLocalShowerCopy
 -   2020-10-26 Patrick Green : added option to bypass ifdh copying of corsika shower db files and use a direct file path instead
 
-larevt v09\_00\_08(#larevt-v09_00_08)
+larevt v09\_00\_08
 ----------------------------------------
 
 -   2020-10-28 Lynn Garren : larevt v09\_00\_08 for larsoft v09\_09\_00
 
-lardata v09\_01\_03(#lardata-v09_01_03)
+lardata v09\_01\_03
 ------------------------------------------
 
 -   2020-10-28 Lynn Garren : lardata v09\_01\_03 for larsoft v09\_09\_00
 -   2020-10-28 Lynn Garren : Merge branch ‘feature/gp\_simplerForData’ into release/v09\_09\_00
 -   2020-10-15 Gianluca Petrillo : DetectorClocksServiceStandard uses new ForData() helper
 
-larcore v09\_00\_01(#larcore-v09_00_01)
+larcore v09\_00\_01
 ------------------------------------------
 
-larpandoracontent v03\_22\_01(#larpandoracontent-v03_22_01)
+larpandoracontent v03\_22\_01
 --------------------------------------------------------------
 
 -   2020-10-28 Lynn Garren : larpandoracontent v03\_22\_01 for larsoft v09\_09\_00
@@ -188,39 +188,39 @@ larpandoracontent v03\_22\_01(#larpandoracontent-v03_22_01)
 -   2020-10-20 John Marshall : Include overhaul. Some doxygen additions and corrections.
 -   2020-10-20 John Marshall : Revoke previous accidentals.
 
-larsoftobj v09\_03\_00(#larsoftobj-v09_03_00)
+larsoftobj v09\_03\_00
 ------------------------------------------------
 
 -   2020-10-28 Lynn Garren : larsoftobj v09\_03\_00 for larsoft v09\_09\_00
 -   2020-10-28 Lynn Garren : product versions
 
-lardataobj v09\_00\_02(#lardataobj-v09_00_02)
+lardataobj v09\_00\_02
 ------------------------------------------------
 
 -   2020-10-28 Lynn Garren : lardataobj v09\_00\_02 for larsoft v09\_09\_00
 
-lardataalg v09\_03\_00(#lardataalg-v09_03_00)
+lardataalg v09\_03\_00
 ------------------------------------------------
 
 -   2020-10-28 Lynn Garren : lardataalg v09\_03\_00 for larsoft v09\_09\_00
 -   2020-10-28 Lynn Garren : Merge branch ‘feature/gp\_simplerForData’ into release/v09\_09\_00
 -   2020-10-15 Gianluca Petrillo : Enclose DetectorClocksStandard::ForData() initialization
 
-larcorealg v09\_00\_01(#larcorealg-v09_00_01)
+larcorealg v09\_00\_01
 ------------------------------------------------
 
-larcoreobj v09\_00\_00(#larcoreobj-v09_00_00)
+larcoreobj v09\_00\_00
 ------------------------------------------------
 
-webevd v09\_00\_08(#webevd-v09_00_08)
+webevd v09\_00\_08
 ----------------------------------------
 
 -   2020-10-28 Lynn Garren : webevd v09\_00\_08 for larsoft v09\_09\_00
 
-larbatch v01\_54\_00(#larbatch-v01_54_00)
+larbatch v01\_54\_00
 --------------------------------------------
 
-larutils v1\_27\_02(#larutils-v1_27_02)
+larutils v1\_27\_02
 ------------------------------------------
 
 -   2020-10-28 Lynn Garren : larutils v1\_27\_02 for larsoft v09\_09\_00

@@ -1,4 +1,4 @@
-LArSoft v07\_09\_00 Release Notes(#LArSoft-v07_09_00-Release-Notes)
+LArSoft v07\_09\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v07\_09\_00 Release Notes(#LArSoft-v07_09_00-Release-Notes)
 Download instructions for [larsoft v07\_09\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_09_00/larsoft-v07_09_00.html)\
 Download instructions for [just larsoftobj v07\_06\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_06_00/larsoftobj-v07_06_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larwirecell feature/weihy\_larwirecell
@@ -52,36 +52,36 @@ New features(#New-features)
     -   larg4:feature/wenzel\_larg4refac\_phase2\_1
     -   remove vestiges of larsim from library link lists
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   wirecell v0\_9\_3
 -   artg4tk v08\_02\_00
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v07\_09\_00(#larsoft-v07_09_00)
+larsoft v07\_09\_00
 ------------------------------------------
 
 -   2018-10-31 Lynn Garren : lardata v07\_00\_13
 -   2018-10-31 Lynn Garren : larsoft v07\_09\_00 for larsoft v07\_09\_00
 -   2018-10-31 Lynn Garren : product versions
 
-lareventdisplay v07\_01\_11(#lareventdisplay-v07_01_11)
+lareventdisplay v07\_01\_11
 ----------------------------------------------------------
 
 -   2018-10-31 Lynn Garren : lareventdisplay v07\_01\_11 for larsoft v07\_09\_00
 
-larexamples v07\_00\_14(#larexamples-v07_00_14)
+larexamples v07\_00\_14
 --------------------------------------------------
 
 -   2018-10-31 Lynn Garren : larexamples v07\_00\_14 for larsoft v07\_09\_00
 
-larg4 v07\_02\_00(#larg4-v07_02_00)
+larg4 v07\_02\_00
 --------------------------------------
 
 -   2018-10-31 Lynn Garren : larg4 v07\_02\_00 for larsoft v07\_09\_00
@@ -91,12 +91,12 @@ larg4 v07\_02\_00(#larg4-v07_02_00)
 -   2018-10-30 Lynn Garren : Merge branch ‘feature/wenzel\_larg4refac\_phase2\_1’ into release/v07\_09\_00
 -   2018-10-23 Hans-Joachim Wenzel : add AuxDet detectors
 
-larpandora v07\_02\_01(#larpandora-v07_02_01)
+larpandora v07\_02\_01
 ------------------------------------------------
 
 -   2018-10-31 Lynn Garren : larpandora v07\_02\_01 for larsoft v07\_09\_00
 
-larwirecell v07\_03\_00(#larwirecell-v07_03_00)
+larwirecell v07\_03\_00
 --------------------------------------------------
 
 -   2018-10-31 Lynn Garren : larwirecell v07\_03\_00 for larsoft v07\_09\_00
@@ -104,12 +104,12 @@ larwirecell v07\_03\_00(#larwirecell-v07_03_00)
 -   2018-10-29 Hanyu Wei : FrameSource updates to be more informative
 -   2018-10-29 Hanyu Wei : FrameSource and FrameSaver updates to adapt to empty input
 
-larana v07\_02\_07(#larana-v07_02_07)
+larana v07\_02\_07
 ----------------------------------------
 
 -   2018-10-31 Lynn Garren : larana v07\_02\_07 for larsoft v07\_09\_00
 
-larreco v07\_07\_00(#larreco-v07_07_00)
+larreco v07\_07\_00
 ------------------------------------------
 
 -   2018-10-31 Lynn Garren : larreco v07\_07\_00 for larsoft v07\_09\_00
@@ -117,7 +117,7 @@ larreco v07\_07\_00(#larreco-v07_07_00)
 -   2018-10-26 Peter Sean Madigan : Merge branch ‘pmadigan/add-pointcharge-to-celltree’ into develop
 -   2018-10-26 Peter Sean Madigan : Add point charge info to json output of CellTree\_module.cc
 
-larsim v07\_05\_00(#larsim-v07_05_00)
+larsim v07\_05\_00
 ----------------------------------------
 
 -   2018-10-31 Lynn Garren : larsim v07\_05\_00 for larsoft v07\_09\_00
@@ -130,47 +130,47 @@ larsim v07\_05\_00(#larsim-v07_05_00)
 -   2018-10-23 Alex Himmel : Unify the handling of OnePhoton and SimPhotonsLite in FastScintillation in LArG4. Should allow any timing parameterization or reflected light to be used with either output data product choice. Direct and reflected light are stored in 2 different data products with different labels (“”, “Reflected”) for all of the relevant data products (OnePhoton, SimPhotonsLite, and OpDetBacktrackerRecords).
 -   2018-10-18 Alex Himmel : Fix indentation.
 
-larevt v07\_01\_01(#larevt-v07_01_01)
+larevt v07\_01\_01
 ----------------------------------------
 
 -   2018-10-31 Lynn Garren : larevt v07\_01\_01 for larsoft v07\_09\_00
 
-lardata v07\_00\_13(#lardata-v07_00_13)
+lardata v07\_00\_13
 ------------------------------------------
 
 -   2018-10-31 Lynn Garren : lardata v07\_00\_13 for larsoft v07\_09\_00
 
-larcore v07\_00\_04(#larcore-v07_00_04)
+larcore v07\_00\_04
 ------------------------------------------
 
-larpandoracontent v03\_14\_02(#larpandoracontent-v03_14_02)
+larpandoracontent v03\_14\_02
 --------------------------------------------------------------
 
-larsoftobj v07\_06\_00(#larsoftobj-v07_06_00)
+larsoftobj v07\_06\_00
 ------------------------------------------------
 
 -   2018-10-31 Lynn Garren : larsoftobj v07\_06\_00 for larsoft v07\_09\_00
 -   2018-10-31 Lynn Garren : product versions
 
-lardataobj v07\_03\_00(#lardataobj-v07_03_00)
+lardataobj v07\_03\_00
 ------------------------------------------------
 
 -   2018-10-31 Lynn Garren : lardataobj v07\_03\_00 for larsoft v07\_09\_00
 -   2018-10-30 Lynn Garren : Merge branch ‘feature/wenzel\_larg4refac\_phase2\_1’ into release/v07\_09\_00
 -   2018-10-23 Hans-Joachim Wenzel : add AuxDetHit
 
-lardataalg v07\_02\_04(#lardataalg-v07_02_04)
+lardataalg v07\_02\_04
 ------------------------------------------------
 
 -   2018-10-31 Lynn Garren : lardataalg v07\_02\_04 for larsoft v07\_09\_00
 
-larcorealg v07\_02\_01(#larcorealg-v07_02_01)
+larcorealg v07\_02\_01
 ------------------------------------------------
 
-larcoreobj v07\_00\_01(#larcoreobj-v07_00_01)
+larcoreobj v07\_00\_01
 ------------------------------------------------
 
-larbatch v01\_46\_03(#larbatch-v01_46_03)
+larbatch v01\_46\_03
 --------------------------------------------
 
 -   2018-10-31 Lynn Garren : larbatch v01\_46\_03 for larsoft v07\_09\_00
@@ -178,5 +178,5 @@ larbatch v01\_46\_03(#larbatch-v01_46_03)
 -   2018-10-30 Herbert Greenlee : Remove “with limit 1” on random file selection.
 -   2018-10-25 Herbert Greenlee : Fix “maintain parentage” detection.
 
-larutils v1\_23\_04(#larutils-v1_23_04)
+larutils v1\_23\_04
 ------------------------------------------

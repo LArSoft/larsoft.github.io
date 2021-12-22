@@ -1,4 +1,4 @@
-LArSoft v03\_05\_01 Release Notes(#LArSoft-v03_05_01-Release-Notes)
+LArSoft v03\_05\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -15,34 +15,34 @@ LArSoft v03\_05\_01 Release Notes(#LArSoft-v03_05_01-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_05_01/larsoft-v03_05_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Build with changes in larreco needed by LBNE
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_05\_01(#larsoft-v03_05_01)
+larsoft v03\_05\_01
 ------------------------------------------
 
 -   2015-01-07 Lynn Garren : larsoft v03\_05\_01 for larsoft v03\_05\_01
 
-larana v03\_03\_08(#larana-v03_03_08)
+larana v03\_03\_08
 ----------------------------------------
 
 -   2015-01-07 Lynn Garren : larana v03\_03\_08 for larsoft v03\_05\_01
 
-larreco v03\_04\_03(#larreco-v03_04_03)
+larreco v03\_04\_03
 ------------------------------------------
 
 -   2015-01-07 Lynn Garren : larreco v03\_04\_03 for larsoft v03\_05\_01

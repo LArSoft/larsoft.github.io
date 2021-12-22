@@ -1,4 +1,4 @@
-From old ROOT vectors and matrix (`TVector3`, `TMatrixT`) to ROOT GenVector and SMatrix(#From-old-ROOT-vectors-and-matrix-TVector3-TMatrixT-to-ROOT-GenVector-and-SMatrix)
+From old ROOT vectors and matrix (`TVector3`, `TMatrixT`) to ROOT GenVector and SMatrix
 =============================================================================================================================================================================
 
 -   **Table of contents**
@@ -15,7 +15,7 @@ From old ROOT vectors and matrix (`TVector3`, `TMatrixT`) to ROOT GenVector and 
         -   [Computing the middle point](#Computing-the-middle-point)
         -   [Example: from recob::Track::Extent() update](#Example-from-recobTrackExtent-update)
 
-Why?(#Why)
+Why?
 -------------
 
 -   `TVector3`, `TLorentzVector`, `TMatrixD` and such have a large overhead in both memory usage and CPU usage
@@ -27,7 +27,7 @@ Why?(#Why)
 
 These classes have their use: it’s easy to write them directly in a ROOT tree, even on command line, and they can be a target of `TRef`. But unless these features are explicitly needed, their use is suboptimal.
 
-Documentation(#Documentation)
+Documentation
 --------------------------------
 
 The documentation of the new classes is:
@@ -66,7 +66,7 @@ ROOT
 
 [`TMatrixD`](https://root.cern.ch/doc/master/classTMatrixD.html)
 
-`TVector3` vs. `ROOT::Math::DisplacementVector` and `ROOT::Math::PositionVector`(#TVector3-vs-ROOTMathDisplacementVector-and-ROOTMathPositionVector)
+`TVector3` vs. `ROOT::Math::DisplacementVector` and `ROOT::Math::PositionVector`
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The vectors in GenVector library are template based and have fixed dimensionality, each one with an independent interface:
@@ -90,7 +90,7 @@ For 2D and 3D vectors, the library distinguishes between two concepts:
 
 The two types of vector have different properties and do not share the full range of operations. By comparison, `TVector3` is effectively a displacement vector.
 
-Data types(#Data-types)
+Data types
 --------------------------
 
 While `TVector3` is quite monolitic, GenVector vectors give us tons of possibilities. Which most of the time we don’t need.
@@ -134,7 +134,7 @@ can be replaced by
 
 which is a cartesian-like representation.
 
-Main interface differences(#Main-interface-differences)
+Main interface differences
 ----------------------------------------------------------
 
 The (incomplete) list of interface changes:
@@ -142,14 +142,14 @@ The (incomplete) list of interface changes:
 -   access to component by index, e.g. `v[1]` is not available any more; replaced by named read-only access (e.g. `v.Y()`) and setter methods (e.g. `v.SetY(4.0)`)
 -   the modulus of a vector is available only as `R()` (no `Mag()`) (but `Mag2()` is still there…)
 
-Updating code(#Updating-code)
+Updating code
 --------------------------------
 
 It is likely that when you start using GenVector classes you will have to add to the link list of your module or library in `CMakeLists.txt` the line:\
 
       ROOT::GenVector
 
-### Creation of a new point/vector(#Creation-of-a-new-pointvector)
+### Creation of a new point/vector
 
 The interface to create a GenVector 3D object is similar to `TVector3`, by component:\
 
@@ -159,7 +159,7 @@ The interface to create a GenVector 3D object is similar to `TVector3`, by compo
 \
 These vectors can be also copied from any vector class supporting `X()`, `Y()` and `Z()` accessors.
 
-### Access and increment of components(#Access-and-increment-of-components)
+### Access and increment of components
 
 Given that the mutable access by `operator[]` is not supported, code like
 
@@ -176,16 +176,16 @@ becomes:
 \
 For output, LArSoft will also provide direct output support: `std::cout << v << std::endl;`.
 
-### Access to components by index(#Access-to-components-by-index)
+### Access to components by index
 
 Simply put: it’s not supported any more. There are rare cases where this is really needed, e.g. if the component to operate on is decided at run time.\
 If the need arise, please [open a LArSoft feature request](https://cdcvs.fnal.gov/redmine/projects/larsoft/issues/new) explaining your use case.
 
-### Computing the middle point(#Computing-the-middle-point)
+### Computing the middle point
 
 The simple operation ![\$\\vec{x} = \\frac{\\sum\_{k=1}\^{N} \\vec{x}\_{k}}{N}\$](/redmine/wiki_external_filter?index=0&macro=latex&name=3395299c00e009d87f47320e48e783a31f23547c662ceb47265bfdbd85ebb24b) is not as simple any more for position vectors, which can’t be added nor scaled. An utility has been provided in the form of a [function](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a36b47c9bd80494201a449169e6e8b581) or [a more versatile class](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1MiddlePointAccumulator.html) .
 
-### Example: from `recob::Track::Extent()` update(#Example-from-recobTrackExtent-update)
+### Example: from `recob::Track::Extent()` update
 
 At a certain point, `viod recob::Track::Extent(TVector3&, TVector3&) const` was deprecated, and a replacement `std::pair<Point_t, Point_t> recob::Track::Extent() const` was suggested instead.\
 Here is an example of code update: `larana/T0Finder/PhotonCounterT0Matching_module.cc`. Note that the headers were not changed because the data types we use are already defined in `Track.h`. The old code was:\

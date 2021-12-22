@@ -1,4 +1,4 @@
-LArSoft v08\_59\_00 Release Notes(#LArSoft-v08_59_00-Release-Notes)
+LArSoft v08\_59\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -35,13 +35,13 @@ LArSoft v08\_59\_00 Release Notes(#LArSoft-v08_59_00-Release-Notes)
 Download instructions for [larsoft v08\_59\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_59_00/larsoft-v08_59_00.html)\
 Download instructions for [just larsoftobj v08\_29\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_02/larsoftobj-v08_29_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   new larsimrad repository
@@ -63,20 +63,20 @@ New features(#New-features)
     -   Fix calls to geometry service’s WireCoordinate method
     -   Attempts to draw, for example, vertices in the 2D display resulted in an exception being thrown. Unfortunately, instead of crashing the code this exception is caught and lar simply moves to the next event so its probably not clear to the user what is actually happening. Gianluca provided the prescription for how this method should be called, I went through and changed all occurances I could find.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   bxdecay0 v1\_0\_5
 -   ifdhc\_config v2\_5\_9
 -   mrb v4\_01\_03
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_59\_00(#larsoft-v08_59_00)
+larsoft v08\_59\_00
 ------------------------------------------
 
 -   2020-07-22 Lynn Garren : larsoft v08\_59\_00 for larsoft v08\_59\_00
@@ -84,7 +84,7 @@ larsoft v08\_59\_00(#larsoft-v08_59_00)
 -   2020-07-22 Lynn Garren : ifdhc\_config v2\_5\_10
 -   2020-07-21 Lynn Garren : add larsimrad, update mrb and ifdhc\_config
 
-lareventdisplay v08\_12\_22(#lareventdisplay-v08_12_22)
+lareventdisplay v08\_12\_22
 ----------------------------------------------------------
 
 -   2020-07-22 Lynn Garren : lareventdisplay v08\_12\_22 for larsoft v08\_59\_00
@@ -105,38 +105,38 @@ lareventdisplay v08\_12\_22(#lareventdisplay-v08_12_22)
 -   2020-03-27 Tracy Usher : Merge branch ‘develop’ of github.com:LArSoft/lareventdisplay into develop
 -   2020-03-27 Tracy Usher : working on fixing a potential bug in the min/max settings for waveform histograms
 
-larexamples v08\_06\_22(#larexamples-v08_06_22)
+larexamples v08\_06\_22
 --------------------------------------------------
 
 -   2020-07-22 Lynn Garren : larexamples v08\_06\_22 for larsoft v08\_59\_00
 
-larg4 v08\_14\_06(#larg4-v08_14_06)
+larg4 v08\_14\_06
 --------------------------------------
 
-larpandora v08\_13\_02(#larpandora-v08_13_02)
+larpandora v08\_13\_02
 ------------------------------------------------
 
 -   2020-07-22 Lynn Garren : larpandora v08\_13\_02 for larsoft v08\_59\_00
 
-larrecodnn v08\_06\_02(#larrecodnn-v08_06_02)
+larrecodnn v08\_06\_02
 ------------------------------------------------
 
 -   2020-07-22 Lynn Garren : larrecodnn v08\_06\_02 for larsoft v08\_59\_00
 
-larwirecell v08\_12\_16(#larwirecell-v08_12_16)
+larwirecell v08\_12\_16
 --------------------------------------------------
 
-larana v08\_17\_14(#larana-v08_17_14)
+larana v08\_17\_14
 ----------------------------------------
 
 -   2020-07-22 Lynn Garren : larana v08\_17\_14 for larsoft v08\_59\_00
 
-larreco v08\_32\_07(#larreco-v08_32_07)
+larreco v08\_32\_07
 ------------------------------------------
 
 -   2020-07-22 Lynn Garren : larreco v08\_32\_07 for larsoft v08\_59\_00
 
-larsim v08\_30\_00(#larsim-v08_30_00)
+larsim v08\_30\_00
 ----------------------------------------
 
 -   2020-07-22 Lynn Garren : larsim v08\_30\_00 for larsoft v08\_59\_00
@@ -147,38 +147,38 @@ larsim v08\_30\_00(#larsim-v08_30_00)
 -   2020-07-03 gputnam : add comments.
 -   2020-07-03 gputnam : Filter for requiring number of photons inside a time window using the sim::SimPhotonsLite data product.
 
-larevt v08\_12\_00(#larevt-v08_12_00)
+larevt v08\_12\_00
 ----------------------------------------
 
-lardata v08\_15\_09(#lardata-v08_15_09)
+lardata v08\_15\_09
 ------------------------------------------
 
-larcore v08\_11\_10(#larcore-v08_11_10)
+larcore v08\_11\_10
 ------------------------------------------
 
-larpandoracontent v03\_18\_00(#larpandoracontent-v03_18_00)
+larpandoracontent v03\_18\_00
 --------------------------------------------------------------
 
-larsoftobj v08\_29\_02(#larsoftobj-v08_29_02)
+larsoftobj v08\_29\_02
 ------------------------------------------------
 
-lardataobj v08\_11\_02(#lardataobj-v08_11_02)
+lardataobj v08\_11\_02
 ------------------------------------------------
 
-lardataalg v08\_13\_14(#lardataalg-v08_13_14)
+lardataalg v08\_13\_14
 ------------------------------------------------
 
-larcorealg v08\_22\_02(#larcorealg-v08_22_02)
+larcorealg v08\_22\_02
 ------------------------------------------------
 
-larcoreobj v08\_12\_01(#larcoreobj-v08_12_01)
+larcoreobj v08\_12\_01
 ------------------------------------------------
 
-webevd v08\_00\_07(#webevd-v08_00_07)
+webevd v08\_00\_07
 ----------------------------------------
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_26\_01(#larutils-v1_26_01)
+larutils v1\_26\_01
 ------------------------------------------

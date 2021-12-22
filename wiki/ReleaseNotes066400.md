@@ -1,4 +1,4 @@
-LArSoft v06\_64\_00 Release Notes(#LArSoft-v06_64_00-Release-Notes)
+LArSoft v06\_64\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,13 +31,13 @@ LArSoft v06\_64\_00 Release Notes(#LArSoft-v06_64_00-Release-Notes)
 Download instructions for [larsoft v06\_64\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_64_00/larsoft-v06_64_00.html)\
 Download instructions for [just larsoftobj v1\_37\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_37_00/larsoftobj-v1_37_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved features
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandora and larpandoracontent feature/cerati\_track-producers-compliant
@@ -48,33 +48,33 @@ New features(#New-features)
 -   feature/gp\_MetaUtil in larcorealg and lardata
     -   move some utilities to a different header
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_64\_00(#larsoft-v06_64_00)
+larsoft v06\_64\_00
 ------------------------------------------
 
 -   2018-01-17 Lynn Garren : larsoft v06\_64\_00 for larsoft v06\_64\_00
 -   2018-01-17 Lynn Garren : update dependency database
 -   2018-01-17 Lynn Garren : update versions
 
-lareventdisplay v06\_15\_09(#lareventdisplay-v06_15_09)
+lareventdisplay v06\_15\_09
 ----------------------------------------------------------
 
 -   2018-01-17 Lynn Garren : lareventdisplay v06\_15\_09 for larsoft v06\_64\_00
 
-larexamples v06\_08\_02(#larexamples-v06_08_02)
+larexamples v06\_08\_02
 --------------------------------------------------
 
 -   2018-01-17 Lynn Garren : larexamples v06\_08\_02 for larsoft v06\_64\_00
 
-larpandora v06\_19\_00(#larpandora-v06_19_00)
+larpandora v06\_19\_00
 ------------------------------------------------
 
 -   2018-01-17 Lynn Garren : larpandora v06\_19\_00 for larsoft v06\_64\_00
@@ -86,17 +86,17 @@ larpandora v06\_19\_00(#larpandora-v06_19_00)
 -   2017-12-21 Giuseppe Cerati : protect against MinTrajectoryPoints less than 2
 -   2017-12-06 a-d-smith : Added metadata to track-hit associations
 
-larwirecell v06\_08\_11(#larwirecell-v06_08_11)
+larwirecell v06\_08\_11
 --------------------------------------------------
 
 -   2018-01-17 Lynn Garren : larwirecell v06\_08\_11 for larsoft v06\_64\_00
 
-larana v06\_14\_02(#larana-v06_14_02)
+larana v06\_14\_02
 ----------------------------------------
 
 -   2018-01-17 Lynn Garren : larana v06\_14\_02 for larsoft v06\_64\_00
 
-larreco v06\_52\_00(#larreco-v06_52_00)
+larreco v06\_52\_00
 ------------------------------------------
 
 -   2018-01-17 Lynn Garren : larreco v06\_52\_00 for larsoft v06\_64\_00
@@ -277,19 +277,19 @@ larreco v06\_52\_00(#larreco-v06_52_00)
 -   2017-08-31 Tingjun Yang : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
 -   2017-08-31 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
 
-larsim v06\_38\_04(#larsim-v06_38_04)
+larsim v06\_38\_04
 ----------------------------------------
 
 -   2018-01-17 Lynn Garren : larsim v06\_38\_04 for larsoft v06\_64\_00
 -   2018-01-11 Lynn Garren : larsoft v06\_62\_01
 -   2018-01-10 Jason Stock : Adding a comment headder to BackTracker.tcc. Removing old BackTracker.
 
-larevt v06\_16\_16(#larevt-v06_16_16)
+larevt v06\_16\_16
 ----------------------------------------
 
 -   2018-01-17 Lynn Garren : larevt v06\_16\_16 for larsoft v06\_64\_00
 
-lardata v06\_36\_00(#lardata-v06_36_00)
+lardata v06\_36\_00
 ------------------------------------------
 
 -   2018-01-17 Lynn Garren : lardata v06\_36\_00 for larsoft v06\_64\_00
@@ -297,12 +297,12 @@ lardata v06\_36\_00(#lardata-v06_36_00)
 -   2018-01-11 Gianluca Petrillo : Reverting a spurious change from the last commit.
 -   2018-01-11 Gianluca Petrillo : Attempt to fix a bit doxygen documentation of proxy
 
-larcore v06\_15\_12(#larcore-v06_15_12)
+larcore v06\_15\_12
 ------------------------------------------
 
 -   2018-01-17 Lynn Garren : larcore v06\_15\_12 for larsoft v06\_64\_00
 
-larpandoracontent v03\_09\_02(#larpandoracontent-v03_09_02)
+larpandoracontent v03\_09\_02
 --------------------------------------------------------------
 
 -   2018-01-17 Lynn Garren : larpandoracontent v03\_09\_02 for larsoft v06\_64\_00
@@ -311,33 +311,33 @@ larpandoracontent v03\_09\_02(#larpandoracontent-v03_09_02)
 -   2018-01-09 John Marshall : Cosmetic changes and initialise index member in all LArTrackTrajectoryPoint constructors.
 -   2017-12-27 Giuseppe Cerati : optionally save order of trajectory points in GetSlidingFitTrajectory
 
-larsoftobj v1\_37\_00(#larsoftobj-v1_37_00)
+larsoftobj v1\_37\_00
 ----------------------------------------------
 
 -   2018-01-17 Lynn Garren : larsoftobj v1\_37\_00 for larsoft v06\_64\_00
 -   2018-01-17 Lynn Garren : update versions
 
-lardataobj v1\_26\_01(#lardataobj-v1_26_01)
+lardataobj v1\_26\_01
 ----------------------------------------------
 
 -   2018-01-17 Lynn Garren : lardataobj v1\_26\_01 for larsoft v06\_64\_00
 -   2018-01-17 Gianluca Petrillo : Added some Doxygen documentation
 
-larcorealg v1\_15\_00(#larcorealg-v1_15_00)
+larcorealg v1\_15\_00
 ----------------------------------------------
 
 -   2018-01-17 Lynn Garren : larcorealg v1\_15\_00 for larsoft v06\_64\_00
 -   2018-01-17 Gianluca Petrillo : Discorporated metaprogramming utilities from ProxyBase.h
 
-larcoreobj v1\_18\_01(#larcoreobj-v1_18_01)
+larcoreobj v1\_18\_01
 ----------------------------------------------
 
-larbatch v01\_36\_00(#larbatch-v01_36_00)
+larbatch v01\_36\_00
 --------------------------------------------
 
 -   2018-01-17 Lynn Garren : larbatch v01\_36\_00 for larsoft v06\_64\_00
 -   2018-01-17 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
 -   2018-01-17 Herbert Greenlee : Make failure to determine parentage in validate-on-worker jobs a fatal error.
 
-larutils v1\_20\_05(#larutils-v1_20_05)
+larutils v1\_20\_05
 ------------------------------------------

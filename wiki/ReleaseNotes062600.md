@@ -1,4 +1,4 @@
-LArSoft v06\_26\_00 Release Notes(#LArSoft-v06_26_00-Release-Notes)
+LArSoft v06\_26\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,12 +30,12 @@ LArSoft v06\_26\_00 Release Notes(#LArSoft-v06_26_00-Release-Notes)
 Download instructions for [larsoft v06\_26\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_26_00/larsoft-v06_26_00.html)\
 Download instructions for [just larsoftobj v1\_11\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_11_00/larsoftobj-v1_11_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Changes to develop and approved features
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   calculate shower energy
@@ -44,33 +44,33 @@ New features(#New-features)
 -   updates for PMA to include track stitching across both CPAs and APAs
     -   larreco feature/lhw\_TrackStitcher
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_26\_00(#larsoft-v06_26_00)
+larsoft v06\_26\_00
 ------------------------------------------
 
 -   2017-02-21 Lynn Garren : larsoft v06\_26\_00 for larsoft v06\_26\_00
 -   2017-02-21 Lynn Garren : update product versions
 -   2017-02-21 Lynn Garren : update dependency database
 
-lareventdisplay v06\_02\_14(#lareventdisplay-v06_02_14)
+lareventdisplay v06\_02\_14
 ----------------------------------------------------------
 
 -   2017-02-21 Lynn Garren : lareventdisplay v06\_02\_14 for larsoft v06\_26\_00
 
-larexamples v06\_01\_15(#larexamples-v06_01_15)
+larexamples v06\_01\_15
 --------------------------------------------------
 
 -   2017-02-21 Lynn Garren : larexamples v06\_01\_15 for larsoft v06\_26\_00
 
-larpandora v06\_08\_00(#larpandora-v06_08_00)
+larpandora v06\_08\_00
 ------------------------------------------------
 
 -   2017-02-21 Lynn Garren : add missing library
@@ -81,18 +81,18 @@ larpandora v06\_08\_00(#larpandora-v06_08_00)
 -   2017-02-18 Gianluca Petrillo : First complete LArPandora interface to shower energy.
 -   2017-02-17 Yun-Tse Tsai : first attempt to build the interface of shower energy reco
 
-larwirecell v06\_00\_12(#larwirecell-v06_00_12)
+larwirecell v06\_00\_12
 --------------------------------------------------
 
 -   2017-02-21 Lynn Garren : larwirecell v06\_00\_12 for larsoft v06\_26\_00
 
-larana v06\_03\_18(#larana-v06_03_18)
+larana v06\_03\_18
 ----------------------------------------
 
 -   2017-02-21 Lynn Garren : larana v06\_03\_18 for larsoft v06\_26\_00
 -   2017-01-11 Gianluca Petrillo : OpFlashAlg now looks for the right TPC.
 
-larreco v06\_20\_00(#larreco-v06_20_00)
+larreco v06\_20\_00
 ------------------------------------------
 
 -   2017-02-21 Lynn Garren : larreco v06\_20\_00 for larsoft v06\_26\_00
@@ -153,44 +153,44 @@ larreco v06\_20\_00(#larreco-v06_20_00)
 -   2017-01-12 Leigh Whitehead : Merge branch ‘develop’ into feature/lhw\_TrackStitcher
 -   2017-01-12 Leigh Whitehead : Initial commit to test a new stitching approach for PMA
 
-larsim v06\_13\_01(#larsim-v06_13_01)
+larsim v06\_13\_01
 ----------------------------------------
 
 -   2017-02-21 Lynn Garren : larsim v06\_13\_01 for larsoft v06\_26\_00
 
-larevt v06\_07\_09(#larevt-v06_07_09)
+larevt v06\_07\_09
 ----------------------------------------
 
 -   2017-02-21 Lynn Garren : larevt v06\_07\_09 for larsoft v06\_26\_00
 
-lardata v06\_14\_04(#lardata-v06_14_04)
+lardata v06\_14\_04
 ------------------------------------------
 
 -   2017-02-21 Lynn Garren : lardata v06\_14\_04 for larsoft v06\_26\_00
 -   2017-02-15 Lynn Garren : larsoft v06\_25\_00
 -   2017-02-15 Thomas Junk : update comment on the 39Ar decay rate parameter (now not used)
 
-larcore v06\_05\_03(#larcore-v06_05_03)
+larcore v06\_05\_03
 ------------------------------------------
 
 -   2017-02-21 Lynn Garren : larcore v06\_05\_03 for larsoft v06\_26\_00
 -   2017-02-20 Usher, Tracy L : try to make sure things don’t break
 -   2017-02-20 Usher, Tracy L : renaming the now old/obsolete icarus geometry fcl file in order to prevent possible path conflicts (depending on your development environment).
 
-larpandoracontent v03\_02\_00(#larpandoracontent-v03_02_00)
+larpandoracontent v03\_02\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_11\_00(#larsoftobj-v1_11_00)
+larsoftobj v1\_11\_00
 ----------------------------------------------
 
-lardataobj v1\_11\_00(#lardataobj-v1_11_00)
+lardataobj v1\_11\_00
 ----------------------------------------------
 
-larcoreobj v1\_06\_02(#larcoreobj-v1_06_02)
+larcoreobj v1\_06\_02
 ----------------------------------------------
 
-larbatch v01\_26\_05(#larbatch-v01_26_05)
+larbatch v01\_26\_05
 --------------------------------------------
 
-larutils v1\_11\_01(#larutils-v1_11_01)
+larutils v1\_11\_01
 ------------------------------------------

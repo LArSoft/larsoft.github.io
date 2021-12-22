@@ -1,4 +1,4 @@
-LArSoft v06\_28\_00 Release Notes(#LArSoft-v06_28_00-Release-Notes)
+LArSoft v06\_28\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,14 +31,14 @@ LArSoft v06\_28\_00 Release Notes(#LArSoft-v06_28_00-Release-Notes)
 Download instructions for [larsoft v06\_28\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_28_00/larsoft-v06_28_00.html)\
 Download instructions for [just larsoftobj v1\_14\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_14_00/larsoftobj-v1_14_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved features
 -   get the latest ifdhc
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   moving argoneut files and resolve [\#5104](/redmine/issues/5104 "Bug: Remove dependency of geometry.fcl in larcore on experiment-specific geometry fcl files. (Closed)")
@@ -54,10 +54,10 @@ New features(#New-features)
     -   GENIEHelper fix in feature/jhewes\_HondaFlux
     -   feature/jwolcott\_simb\_multiplicities\_master
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Breaking change(#Breaking-change)
+Breaking change
 ------------------------------------
 
 -   [geometry support for dual phase detector](Breaking_Changes#undefined-reference-to-TGeoMatrixLocalToMaster)\
@@ -68,7 +68,7 @@ Breaking change(#Breaking-change)
     -   If you see this error, add \${ROOT\_GEOM} to the appropriate CMakeLists.txt library list.
     -   This is rare, very few libraries are affected.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------- ------------ --------------------------------------------------------------------------------------------------
@@ -80,46 +80,46 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v5\_06\_07                 
   --------------- ------------- ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_28\_00(#larsoft-v06_28_00)
+larsoft v06\_28\_00
 ------------------------------------------
 
 -   2017-03-15 Lynn Garren : larsoft v06\_28\_00 for larsoft v06\_28\_00
 -   2017-03-15 Lynn Garren : update dependency datbase
 -   2017-03-15 Lynn Garren : using nutools v2\_10\_01
 
-lareventdisplay v06\_03\_01(#lareventdisplay-v06_03_01)
+lareventdisplay v06\_03\_01
 ----------------------------------------------------------
 
 -   2017-03-15 Lynn Garren : lareventdisplay v06\_03\_01 for larsoft v06\_28\_00
 -   2017-03-12 Tingjun Yang : Move argoneut files to argoneutcode.
 
-larexamples v06\_01\_18(#larexamples-v06_01_18)
+larexamples v06\_01\_18
 --------------------------------------------------
 
 -   2017-03-15 Lynn Garren : larexamples v06\_01\_18 for larsoft v06\_28\_00
 
-larpandora v06\_08\_03(#larpandora-v06_08_03)
+larpandora v06\_08\_03
 ------------------------------------------------
 
 -   2017-03-15 Lynn Garren : add missing library
 -   2017-03-15 Lynn Garren : larpandora v06\_08\_03 for larsoft v06\_28\_00
 
-larwirecell v06\_01\_00(#larwirecell-v06_01_00)
+larwirecell v06\_01\_00
 --------------------------------------------------
 
 -   2017-03-15 Lynn Garren : larwirecell v06\_01\_00 for larsoft v06\_28\_00
 -   2017-03-15 Lynn Garren : Merge branch ‘feature/eberly\_asicdb’ into release/v06\_28\_00
 -   2017-03-01 Eberly : Added ASIC database hooks to determine misconfigured channels
 
-larana v06\_03\_21(#larana-v06_03_21)
+larana v06\_03\_21
 ----------------------------------------
 
 -   2017-03-15 Lynn Garren : larana v06\_03\_21 for larsoft v06\_28\_00
 
-larreco v06\_22\_00(#larreco-v06_22_00)
+larreco v06\_22\_00
 ------------------------------------------
 
 -   2017-03-15 Lynn Garren : add missing library
@@ -154,7 +154,7 @@ larreco v06\_22\_00(#larreco-v06_22_00)
 -   2017-02-14 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/tjyang\_TJWork
 -   2017-02-09 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/tjyang\_TJWork
 
-larsim v06\_14\_00(#larsim-v06_14_00)
+larsim v06\_14\_00
 ----------------------------------------
 
 -   2017-03-15 Lynn Garren : add missing library
@@ -162,12 +162,12 @@ larsim v06\_14\_00(#larsim-v06_14_00)
 -   2017-03-15 Gianluca Petrillo : Added \`empty\_events.fcl\` configuration to create empty events.
 -   2017-03-12 Robert Sulej : add TrackIDToSimIDE with view selected by argument
 
-larevt v06\_07\_12(#larevt-v06_07_12)
+larevt v06\_07\_12
 ----------------------------------------
 
 -   2017-03-15 Lynn Garren : larevt v06\_07\_12 for larsoft v06\_28\_00
 
-lardata v06\_16\_00(#lardata-v06_16_00)
+lardata v06\_16\_00
 ------------------------------------------
 
 -   2017-03-15 Lynn Garren : add missing library
@@ -180,7 +180,7 @@ lardata v06\_16\_00(#lardata-v06_16_00)
 -   2017-03-08 Gianluca Petrillo : Added module DumpSimPhotonsLite. It does what it says.
 -   2017-03-08 Gianluca Petrillo : Added DumpOpDetWaveforms module. It does what it says.
 
-larcore v06\_06\_00(#larcore-v06_06_00)
+larcore v06\_06\_00
 ------------------------------------------
 
 -   2017-03-15 Lynn Garren : larcore v06\_06\_00 for larsoft v06\_28\_00
@@ -242,10 +242,10 @@ larcore v06\_06\_00(#larcore-v06_06_00)
 -   2016-11-04 Gianluca Petrillo : Added a class to help approximate comparisons (RealComparisons).
 -   2016-11-04 Gianluca Petrillo : Changed protocol on ChannelMapAlg::ChannelToROP().
 
-larpandoracontent v03\_02\_00(#larpandoracontent-v03_02_00)
+larpandoracontent v03\_02\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_14\_00(#larsoftobj-v1_14_00)
+larsoftobj v1\_14\_00
 ----------------------------------------------
 
 -   2017-03-15 Lynn Garren : larsoftobj v1\_14\_00 for larsoft v06\_28\_00
@@ -254,12 +254,12 @@ larsoftobj v1\_14\_00(#larsoftobj-v1_14_00)
 -   2017-03-06 Lynn Garren : e10 only
 -   2017-03-06 Lynn Garren : generate the larsoftobj bundle scripts
 
-lardataobj v1\_13\_01(#lardataobj-v1_13_01)
+lardataobj v1\_13\_01
 ----------------------------------------------
 
 -   2017-03-15 Lynn Garren : lardataobj v1\_13\_01 for larsoft v06\_28\_00
 
-larcoreobj v1\_08\_00(#larcoreobj-v1_08_00)
+larcoreobj v1\_08\_00
 ----------------------------------------------
 
 -   2017-03-15 Lynn Garren : fix merge
@@ -270,7 +270,7 @@ larcoreobj v1\_08\_00(#larcoreobj-v1_08_00)
 -   2017-03-05 Lynn Garren : for art 2.06.01
 -   2016-12-06 Gianluca Petrillo : Redefinition of DriftDirection\_t semantics
 
-larbatch v01\_28\_00(#larbatch-v01_28_00)
+larbatch v01\_28\_00
 --------------------------------------------
 
 -   2017-03-15 Lynn Garren : larbatch v01\_28\_00 for larsoft v06\_28\_00
@@ -280,7 +280,7 @@ larbatch v01\_28\_00(#larbatch-v01_28_00)
 -   2017-03-14 Herbert Greenlee : Add \<jobsub\_timeout\>.
 -   2017-03-13 Herbert Greenlee : Add xml element \<jobsub\_start\>.
 
-larutils v1\_12\_01(#larutils-v1_12_01)
+larutils v1\_12\_01
 ------------------------------------------
 
 -   2017-03-15 Lynn Garren : larutils v1\_12\_01 for larsoft v06\_28\_00

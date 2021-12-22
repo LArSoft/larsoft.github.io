@@ -1,4 +1,4 @@
-Working with GitHub(#Working-with-GitHub)
+Working with GitHub
 ============================================
 
 -   **Table of contents**
@@ -13,7 +13,7 @@ Working with GitHub(#Working-with-GitHub)
         -   [General references on using GitHub (not LArSoft specific)](#General-references-on-using-GitHub-not-LArSoft-specific)
     -   [Working notes (mostly archival)](#Working-notes-mostly-archival)
 
-Overview(#Overview)
+Overview
 ----------------------
 
 The reference copy of LArSoft is hosted on GitHub under the LArSoft organization. The process of checking out LArSoft repositories from GitHub is nearly identical to that formerly used to check out repositories from Redmine.
@@ -41,32 +41,32 @@ Note that only Level 1 managers have write privilege to the central repositories
 
 The next section provides detailed information on each of the above steps, as well as information about the roles and procedures, and how to move an existing branch from a Redmine repository to GitHub.
 
-Detailed information, instructions and resources(#Detailed-information-instructions-and-resources)
+Detailed information, instructions and resources
 -----------------------------------------------------------------------------------------------------
 
-### An [overview of the pull request testing and approval process](Pull_request_testing_and_approval_workflow)(#An-overview-of-the-pull-request-testing-and-approval-process)
+### An [overview of the pull request testing and approval process](Pull_request_testing_and_approval_workflow)
 
-### For LArSoft users and developers: how to check out repositories, requirements and steps to submit changes, move existing code(#For-LArSoft-users-and-developers-how-to-check-out-repositories-requirements-and-steps-to-submit-changes-move-existing-code)
+### For LArSoft users and developers: how to check out repositories, requirements and steps to submit changes, move existing code
 
 -   [The basics of working with LArSoft GitHub repositories](WorkingWithLArSoftGithubRepos)
 -   [Moving an existing Redmine feature branch to GitHub](Migrating_Redmine_Feature_Branches)
 
-### For Level 1 and Level 2 managers / approvers: procedures for managing and approving pull requests(#For-Level-1-and-Level-2-managers-approvers-procedures-for-managing-and-approving-pull-requests)
+### For Level 1 and Level 2 managers / approvers: procedures for managing and approving pull requests
 
 -   [Executing the pull request approval workflow](Executing_the_pull_request_approval_workflow)
 -   [Pull request comments that trigger CI actions](Pull_request_comments_that_trigger_CI_actions)
     -   [Manually trigger a CI test](Manually_trigger_a_CI_test)
 -   [Github labels used to indicate pull request status](Github_labels_used_to_indicate_pull_request_status)
 
-### For people who maintain the approval workflow(#For-people-who-maintain-the-approval-workflow)
+### For people who maintain the approval workflow
 
 -   [Maintaining the LArSoft fork of CMSbot scripts and Jenkins GitHub Integration jobs at FNAL](Maintaining_CMSbot_scripts_and_Jenkins_jobs)
 
-### For new experiments / projects seeking to customize and use the pull request approval workflow system(#For-new-experiments-projects-seeking-to-customize-and-use-the-pull-request-approval-workflow-system)
+### For new experiments / projects seeking to customize and use the pull request approval workflow system
 
 -   [Setting the LArSoft fork of CMSbot for your organization/repo](SetupCMSbotScriptsYourOrg)
 
-### General references on using GitHub (not LArSoft specific)(#General-references-on-using-GitHub-not-LArSoft-specific)
+### General references on using GitHub (not LArSoft specific)
 
 -   [What is a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 -   [Pull request tutorial](https://yangsu.github.io/pull-request-tutorial/)
@@ -75,7 +75,7 @@ Detailed information, instructions and resources(#Detailed-information-instructi
 -   [Merging an upstream repository into your fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-an-upstream-repository-into-your-fork) - While a PR is waiting for review, the upstream repository often evolves away from it, and the pull request must be maintained while it is waiting.
 -   [Beginner’s guide on GitHub](https://mvthanoshan.medium.com/ubuntu-a-beginners-guide-to-git-github-44a2d2fda0b8)
 
-Working notes (mostly archival)(#Working-notes-mostly-archival)
+Working notes (mostly archival)
 ------------------------------------------------------------------
 
 -   [Lynn’s notes](Lynn's_notes) (old - there is better information above)

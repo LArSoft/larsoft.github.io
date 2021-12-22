@@ -1,4 +1,4 @@
-Adding removing users(#Adding-removing-users)
+Adding removing users
 ================================================
 
 To add grant write access to the repositories:

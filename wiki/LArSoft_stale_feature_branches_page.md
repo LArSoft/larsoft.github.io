@@ -1,4 +1,4 @@
-Larsoft repos branch cleanup(#Larsoft-repos-branch-cleanup)
+Larsoft repos branch cleanup
 ==============================================================
 
 These are the branches by repo that have been merged into master/develop or a version branch

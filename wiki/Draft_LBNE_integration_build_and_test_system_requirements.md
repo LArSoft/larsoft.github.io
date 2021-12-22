@@ -1,4 +1,4 @@
-Draft LBNE integration build and test system requirements(#Draft-LBNE-integration-build-and-test-system-requirements)
+Draft LBNE integration build and test system requirements
 ========================================================================================================================
 
 Requirements (courtesy of Brett Viren):

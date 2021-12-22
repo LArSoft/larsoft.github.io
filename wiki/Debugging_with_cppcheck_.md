@@ -1,4 +1,4 @@
-Debugging with cppcheck(#Debugging-with-cppcheck)
+Debugging with cppcheck
 ====================================================
 
     7/19/16 update: setup cppcheck v1_58

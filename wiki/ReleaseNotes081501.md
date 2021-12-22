@@ -1,4 +1,4 @@
-LArSoft v08\_15\_01 Release Notes(#LArSoft-v08_15_01-Release-Notes)
+LArSoft v08\_15\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,37 +33,37 @@ LArSoft v08\_15\_01 Release Notes(#LArSoft-v08_15_01-Release-Notes)
 Download instructions for [larsoft v08\_15\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_15_01/larsoft-v08_15_01.html)\
 Download instructions for [just larsoftobj v08\_10\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_10_01/larsoftobj-v08_10_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   Error Messages from OpDetBTRs [\#22339](/redmine/issues/22339 "Bug: Tons of Error Messages from OpDetBTRs (Closed)")
     -   larsim feature/JStock\_Issue22339\_2
 -   trailing whitespace removed
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v3\_01\_02
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_15\_01(#larsoft-v08_15_01)
+larsoft v08\_15\_01
 ------------------------------------------
 
 -   2019-04-16 Lynn Garren : larsoft v08\_15\_01 for larsoft v08\_15\_01
 -   2019-04-16 Lynn Garren : product versions
 
-lareventdisplay v08\_05\_01(#lareventdisplay-v08_05_01)
+lareventdisplay v08\_05\_01
 ----------------------------------------------------------
 
 -   2019-04-16 Lynn Garren : lareventdisplay v08\_05\_01 for larsoft v08\_15\_01
@@ -72,7 +72,7 @@ lareventdisplay v08\_05\_01(#lareventdisplay-v08_05_01)
 -   2019-04-11 Lynn Garren : larsoft v08\_15\_00
 -   2019-04-09 Kyle Knoepfel : Remove inappropriate header guard.
 
-larexamples v08\_01\_15(#larexamples-v08_01_15)
+larexamples v08\_01\_15
 --------------------------------------------------
 
 -   2019-04-16 Lynn Garren : larexamples v08\_01\_15 for larsoft v08\_15\_01
@@ -81,7 +81,7 @@ larexamples v08\_01\_15(#larexamples-v08_01_15)
 -   2019-04-11 Lynn Garren : larsoft v08\_15\_00
 -   2019-04-11 Kyle Knoepfel : Remove unused functions/header dependencies.
 
-larg4 v08\_01\_13(#larg4-v08_01_13)
+larg4 v08\_01\_13
 --------------------------------------
 
 -   2019-04-16 Lynn Garren : larg4 v08\_01\_13 for larsoft v08\_15\_01
@@ -90,7 +90,7 @@ larg4 v08\_01\_13(#larg4-v08_01_13)
 -   2019-04-10 Kyle Knoepfel : Remove unused ActivityRegistry argument.
 -   2019-04-10 Kyle Knoepfel : Modernize unique\_ptr construction.
 
-larpandora v08\_05\_08(#larpandora-v08_05_08)
+larpandora v08\_05\_08
 ------------------------------------------------
 
 -   2019-04-16 Lynn Garren : larpandora v08\_05\_08 for larsoft v08\_15\_01
@@ -99,7 +99,7 @@ larpandora v08\_05\_08(#larpandora-v08_05_08)
 -   2019-04-11 Lynn Garren : larsoft v08\_15\_00
 -   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
 
-larwirecell v08\_03\_06(#larwirecell-v08_03_06)
+larwirecell v08\_03\_06
 --------------------------------------------------
 
 -   2019-04-16 Lynn Garren : larwirecell v08\_03\_06 for larsoft v08\_15\_01
@@ -109,7 +109,7 @@ larwirecell v08\_03\_06(#larwirecell-v08_03_06)
 -   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
 -   2019-04-09 Kyle Knoepfel : Remove inappropriate header guard.
 
-larana v08\_04\_06(#larana-v08_04_06)
+larana v08\_04\_06
 ----------------------------------------
 
 -   2019-04-16 Lynn Garren : larana v08\_04\_06 for larsoft v08\_15\_01
@@ -122,7 +122,7 @@ larana v08\_04\_06(#larana-v08_04_06)
 -   2019-04-10 Kyle Knoepfel : Remove unused ActivityRegistry.
 -   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
 
-larreco v08\_11\_01(#larreco-v08_11_01)
+larreco v08\_11\_01
 ------------------------------------------
 
 -   2019-04-16 Lynn Garren : larreco v08\_11\_01 for larsoft v08\_15\_01
@@ -133,7 +133,7 @@ larreco v08\_11\_01(#larreco-v08_11_01)
 -   2019-04-11 Lynn Garren : larsoft v08\_15\_00
 -   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
 
-larsim v08\_05\_01(#larsim-v08_05_01)
+larsim v08\_05\_01
 ----------------------------------------
 
 -   2019-04-16 Lynn Garren : larsim v08\_05\_01 for larsoft v08\_15\_01
@@ -5170,7 +5170,7 @@ larsim v08\_05\_01(#larsim-v08_05_01)
 -   2011-10-27 Brian Rebel : adapt to new MagenticField rather than MagField service
 -   2011-10-27 Adam Patch : first port of Josh’s cc-inclusive analysis root macros, just for the record
 
-larevt v08\_02\_09(#larevt-v08_02_09)
+larevt v08\_02\_09
 ----------------------------------------
 
 -   2019-04-16 Lynn Garren : larevt v08\_02\_09 for larsoft v08\_15\_01
@@ -5181,7 +5181,7 @@ larevt v08\_02\_09(#larevt-v08_02_09)
 -   2019-04-11 Lynn Garren : larsoft v08\_15\_00
 -   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
 
-lardata v08\_03\_10(#lardata-v08_03_10)
+lardata v08\_03\_10
 ------------------------------------------
 
 -   2019-04-16 Lynn Garren : lardata v08\_03\_10 for larsoft v08\_15\_01
@@ -5194,7 +5194,7 @@ lardata v08\_03\_10(#lardata-v08_03_10)
 -   2019-04-10 Kyle Knoepfel : Remove unused ActivityRegistry.
 -   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
 
-larcore v08\_02\_06(#larcore-v08_02_06)
+larcore v08\_02\_06
 ------------------------------------------
 
 -   2019-04-16 Lynn Garren : larcore v08\_02\_06 for larsoft v08\_15\_01
@@ -5203,16 +5203,16 @@ larcore v08\_02\_06(#larcore-v08_02_06)
 -   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
 -   2019-04-10 Kyle Knoepfel : Remove unused ActivityRegistry argument.
 
-larpandoracontent v03\_14\_06(#larpandoracontent-v03_14_06)
+larpandoracontent v03\_14\_06
 --------------------------------------------------------------
 
-larsoftobj v08\_10\_01(#larsoftobj-v08_10_01)
+larsoftobj v08\_10\_01
 ------------------------------------------------
 
 -   2019-04-16 Lynn Garren : larsoftobj v08\_10\_01 for larsoft v08\_15\_01
 -   2019-04-16 Lynn Garren : product versions
 
-lardataobj v08\_02\_07(#lardataobj-v08_02_07)
+lardataobj v08\_02\_07
 ------------------------------------------------
 
 -   2019-04-16 Lynn Garren : lardataobj v08\_02\_07 for larsoft v08\_15\_01
@@ -5221,7 +5221,7 @@ lardataobj v08\_02\_07(#lardataobj-v08_02_07)
 -   2019-04-11 Lynn Garren : larsoft v08\_15\_00
 -   2019-04-11 Kyle Knoepfel : Remove unused header dependencies.
 
-lardataalg v08\_05\_01(#lardataalg-v08_05_01)
+lardataalg v08\_05\_01
 ------------------------------------------------
 
 -   2019-04-16 Lynn Garren : lardataalg v08\_05\_01 for larsoft v08\_15\_01
@@ -5231,7 +5231,7 @@ lardataalg v08\_05\_01(#lardataalg-v08_05_01)
 -   2019-04-11 Kyle Knoepfel : Remove unused headers.
 -   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
 
-larcorealg v08\_07\_01(#larcorealg-v08_07_01)
+larcorealg v08\_07\_01
 ------------------------------------------------
 
 -   2019-04-16 Lynn Garren : larcorealg v08\_07\_01 for larsoft v08\_15\_01
@@ -5239,17 +5239,17 @@ larcorealg v08\_07\_01(#larcorealg-v08_07_01)
 -   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
 -   2019-04-11 Kyle Knoepfel : Remove unnecessary header dependencies.
 
-larcoreobj v08\_03\_01(#larcoreobj-v08_03_01)
+larcoreobj v08\_03\_01
 ------------------------------------------------
 
 -   2019-04-16 Lynn Garren : larcoreobj v08\_03\_01 for larsoft v08\_15\_01
 -   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
 
-larbatch v01\_51\_01(#larbatch-v01_51_01)
+larbatch v01\_51\_01
 --------------------------------------------
 
 -   2019-04-16 Lynn Garren : larbatch v01\_51\_01 for larsoft v08\_15\_01
 -   2019-04-15 Herbert Greenlee : Modify sam process description to be jobsub job id.
 
-larutils v1\_23\_14(#larutils-v1_23_14)
+larutils v1\_23\_14
 ------------------------------------------

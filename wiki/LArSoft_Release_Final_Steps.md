@@ -1,4 +1,4 @@
-LArSoft Release Final Steps(#LArSoft-Release-Final-Steps)
+LArSoft Release Final Steps
 ============================================================
 
 -   **Table of contents**
@@ -9,7 +9,7 @@ LArSoft Release Final Steps(#LArSoft-Release-Final-Steps)
     -   [Merge the changes with develop](#Merge-the-changes-with-develop)
     -   [Announcing the release](#Announcing-the-release)
 
-Make the cross package tag(#Make-the-cross-package-tag)
+Make the cross package tag
 ----------------------------------------------------------
 
 -   This step can only be done by someone with manager privileges for all the larsoft repositories.
@@ -24,7 +24,7 @@ Make the cross package tag(#Make-the-cross-package-tag)
     -   git tag -a -m“LARSOFT\_SUITE\_vxx\_yy\_zz” LARSOFT\_SUITE\_vxx\_yy\_zz
     -   git push –tags
 
-Update the release notes(#Update-the-release-notes)
+Update the release notes
 ------------------------------------------------------
 
 -   run make-release-notes (found in laradmin)
@@ -37,14 +37,14 @@ Update the release notes(#Update-the-release-notes)
 -   the first line in ReleaseNotes-\<version\> is the entry for the [Release Notes table](LArSoft_release_list)
 -   the remainder of the file is used to populate the release note itself
 
-Update doxygen(#Update-doxygen)
+Update doxygen
 ----------------------------------
 
 -   ssh -l larsoft uboonegpvm02.fnal.gov
 -   cd doxygen
 -   ./update\_lar\_doxygen.sh \>& update.log
 
-Merge the changes with develop(#Merge-the-changes-with-develop)
+Merge the changes with develop
 ------------------------------------------------------------------
 
 -   Notice that we need to make sure that the new release is available before we update the develop branch with new version numbers.
@@ -63,7 +63,7 @@ Merge the changes with develop(#Merge-the-changes-with-develop)
 
 -   Once this step is complete, it is safe to remove the working directory for this release.
 
-Announcing the release(#Announcing-the-release)
+Announcing the release
 --------------------------------------------------
 
 -   Send email announcing that the release is built and availabli\>Send email announcing that the release is built and available

@@ -1,4 +1,4 @@
-cvmfs Migration Plan(#cvmfs-Migration-Plan)
+cvmfs Migration Plan
 ==============================================
 
 -   **Table of contents**
@@ -9,7 +9,7 @@ cvmfs Migration Plan(#cvmfs-Migration-Plan)
     -   [Removing the old product area](#Removing-the-old-product-area)
     -   [Reporting problems](#Reporting-problems)
 
-Executive summary(#Executive-summary)
+Executive summary
 ----------------------------------------
 
 As has been noted, the time between when we install files into /grid/fermiapp/products/larsoft and when they appear on /cvmfs/fermilab.opensciencegrid.org/products/larsoft can be several hours because the files must first be copied via rsync to cvmfs and then published. This time delay is problematic.
@@ -20,7 +20,7 @@ Experiments will need to change their setup scripts to add /cvmfs/larsoft.opensc
 
 Recall that once [cvmfs is installed](https://opensciencegrid.github.io/docs/worker-node/install-cvmfs/), you should be able to access any cvmfs repository.
 
-Releases to be installed(#Releases-to-be-installed)
+Releases to be installed
 ------------------------------------------------------
 
 -   We think that most people are either using a production release or a recent larsoft release.
@@ -32,7 +32,7 @@ Releases to be installed(#Releases-to-be-installed)
     -   v03\_08\_02 for SBND
 -   Other releases may be installed upon request.
 
-Production releases for /cvmfs/larsoft.opensciencegrid.org/products(#Production-releases-for-cvmfslarsoftopensciencegridorgproducts)
+Production releases for /cvmfs/larsoft.opensciencegrid.org/products
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 This is a short list. The full list of releases is available [here](LArSoft_release_list).
@@ -62,7 +62,7 @@ This is a short list. The full list of releases is available [here](LArSoft_rele
   **v05.14.00**      06/29/2016   Integration release   DUNE 35t production                                   [Release Notes](ReleaseNotes051400)
   **v03.08.02**      02/12/2015   Final tag             rollup tag preceeding v04\_00\_00 - retain for SBND   [Release Notes](ReleaseNotes030802)
 
-Removing the old product area(#Removing-the-old-product-area)
+Removing the old product area
 ----------------------------------------------------------------
 
 -   We plan to freeze and then remove /grid/fermiapp/products/larsoft
@@ -72,7 +72,7 @@ Removing the old product area(#Removing-the-old-product-area)
     -   After the March 20 CI update, we will work to see if cvmfs can be used reliably on the Jenkins build machines.
     -   If there is still a problem, we will work with the experiments to find reasonable solution.
 
-Reporting problems(#Reporting-problems)
+Reporting problems
 ------------------------------------------
 
 Please either open a [LArSoft redmine issue](https://cdcvs.fnal.gov/redmine/projects/larsoft/issues/new) or send email to

@@ -22,14 +22,14 @@
         -   [A word about Algorithm objects](#A-word-about-Algorithm-objects)
     -   [Checking the Configuration of a ROOT file](#Checking-the-Configuration-of-a-ROOT-file)
 
-Using art in LArSoft(#Using-art-in-LArSoft) {.wiki-class-count}
+Using art in LArSoft
 ==============================================
 
 The *art* framework interface makes use of the following basic ideas - all the algorithms are stored in modules and the event information is accessed using objects living in the art namespace. The I/O uses ROOT, but it is not based on `TObject`.
 
 For information on using *art*, please examine the [art workbook](http://art.fnal.gov/art-workbook/). It may also be useful to issue the command `art --help`.
 
-Basic Concepts(#Basic-Concepts) {.wiki-class-count}
+Basic Concepts
 ----------------------------------
 
 The `art` namespace contains, among other things, handles to information stored in an event. Objects that are stored in an event are collectively known as [*data products*](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data_Product_Design_Guide). They can either be added to an event using an `art::EDProducer` or `art::EDFilter` derived module, and they can be retrieved and operated on using an `art::EDAnalyzer` module. *Once an object has been stored in the event, its data cannot be altered* (a modified copy can be added to the event instead).
@@ -52,7 +52,7 @@ There are a number of features in art that can be found by issuing the command `
 
 There are also `--print-available-modules` and `--print-available-services` options available.
 
-### [`art::EDProducer`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDProducer.h)(#artEDProducer) {.wiki-class-count}
+### [`art::EDProducer`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDProducer.h)
 
 This is a type of module that makes data products and stores them in the `art::Event`. The module takes a [fhicl::ParameterSet](/redmine/projects/fhicl-cpp/wiki/Wiki) or [art::EDProducer::Table](/redmine/projects/art/wiki/Configuration_validation_and_description) in the constructor and uses that to configure that module.
 
@@ -60,7 +60,7 @@ The module can also implement a reconfigure method to allow for run time reconfi
 
 The user must supply the implementation for the `art::EDProducer::produce()` method to create and store data products.
 
-### [`art::EDAnalyzer`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDAnalyzer.h)(#artEDAnalyzer) {.wiki-class-count}
+### [`art::EDAnalyzer`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDAnalyzer.h)
 
 This is a type of module that analyzes data products but cannot write them in an `art::Event`. The module takes a [fhicl::ParameterSet](/redmine/projects/fhicl-cpp/wiki/Wiki) or [art::EDAnalyzer::Table](/redmine/projects/art/wiki/Configuration_validation_and_description) in the constructor and uses that to configure that module.
 
@@ -69,11 +69,11 @@ h3(count). [`art::EDFilter`](https://cdcvs.fnal.gov/redmine/projects/art/reposit
 
 The object allows the user to filter events based on information obtained about the event itself. Following modules can decide to process or ignore an event, according to the response of one or more filters.
 
-### `art::EDProducer`/`Analyzer`/`Filter::beginJob`, `endJob`, etc.(#artEDProducerAnalyzerFilterbeginJob-endJob-etc) {.wiki-class-count}
+### `art::EDProducer`/`Analyzer`/`Filter::beginJob`, `endJob`, etc.
 
 These are methods that do tasks that are needed only once a job starts, ends, or a run starts or ends, etc. For example, a `beginJob` method would likely contain definitions of histograms that might need to be filled during the operation of the module. A `beginRun` method could contain definitions of properties that can change from run to run (e.g. electron lifetime, temperature etc… ).
 
-### [`art::Event`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Principal/Event.h)(#artEvent) {.wiki-class-count}
+### [`art::Event`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Principal/Event.h)
 
 The `art::Event` is the primary way to access products made by `art::EDProducer` type modules.
 
@@ -105,7 +105,7 @@ The header files for the classes mentioned above are at:
 
 The `art::Event` can also be used to access products, by asking it to return an `art::Handle`.
 
-### [`art::ValidHandle` and `art::Handle`](https://cdcvs.fnal.gov/redmine/projects/art/repository/changes/art/Framework/Principal/Handle.h)(#artValidHandle-and-artHandle) {.wiki-class-count}
+### [`art::ValidHandle` and `art::Handle`](https://cdcvs.fnal.gov/redmine/projects/art/repository/changes/art/Framework/Principal/Handle.h)
 
 An `art::ValidHandle` or an `art::Handle` is what is returned to an *art* module when a data product is requested. The request can either be from a `art::EDProducer` that is attempting to get objects stored in a previous reconstruction or analysis step, or it can be from a `art::EDAnalyzer` that is attempting to do some analysis task using the information in the object. For example, to get the data product `mp::MyProd` from the event, one should do
 
@@ -182,7 +182,7 @@ In all cases, you won’t be able to change the *content* of a `mp::MyProd` obje
 
 ^1^ Note that the right `cbegin()`, `cend()` and `begin()` functions are picked by the compiler from the “proper namespace” depending on the type of `prod` (usually `prod` is a `std::vector`, so the proper namespace is `std`): this is called [argument-dependent lookup](https://en.cppreference.com/w/cpp/language/adl).
 
-### Upcast on read(#Upcast-on-read) {.wiki-class-count}
+### Upcast on read
 
 The upcast on read functionality can be used to read back objects written into a file that follow a simple inheritance scheme, i.e. reading in objects of a derived type using the base class type.\
 For instance, imagine that `recob::Track` inherited from a `recob::Prong`. A collection of tracks, data product of type `std::vector<recob::Track>`, can be retrieved from the `art::Event` by passing a `std::vector<recob::Prong const*>` to the `art::Event::getView()` method:
@@ -204,7 +204,7 @@ you can use it with any data product derived from `recob::Prong`.
 
 Note that the vector is of constant pointers of the requested type. You shouldn’t save these vectors anywhere (i.e. as collections in other data objects).
 
-### [`cet::search_path`](https://cdcvs.fnal.gov/redmine/projects/cetlib/repository/revisions/master/entry/cetlib/search_path.h)(#cetsearch_path) {.wiki-class-count}
+### [`cet::search_path`](https://cdcvs.fnal.gov/redmine/projects/cetlib/repository/revisions/master/entry/cetlib/search_path.h)
 
 This is a utility that will search a list of predefined directories for a relative location of a file. For instance, if you want to use the geometry definition for a detector, `mydet.gdml`, as the input for the `Geometry` service, you would pass the geometry service the value `"mydet.gdml"` as a `std::string`. The `cet::search_path` object then searches through the previously defined `$FW_SEARCH_PATH` variable to see if it can locate the specified file. It will then allow access to information about the file, including its full path. This is helpful when writing code that needs data files that could be on a different path depending on the execution environment (e.g. a BlueArc area when running locally, but dCache when running on the grid), or for generic code that can’t know where customisation points are (e.g. a experiment-specific data area), or for versioned data whose path includes a version number and therefore can change (e.g. the deployed UPS products). The necessary variables are set when a user sets up the environment.
 
@@ -225,7 +225,7 @@ Here is another:\
         << "geometry file '" << GDMLname << "' not found!";
     }
 
-### FHiCL configuration: `fhicl::ParameterSet` and `fhicl::Table`(#FHiCL-configuration-fhiclParameterSet-and-fhiclTable) {.wiki-class-count}
+### FHiCL configuration: `fhicl::ParameterSet` and `fhicl::Table`
 
 Either objects keep track of the configuration passed to the current *art* module or service.\
 The configuration is read from files in a specific language, [FHiCL](https://cdcvs.fnal.gov/redmine/documents/327), and *art* distributes to each module and service the chunk of configuration that pertains that module and service. For examples on using FHiCL, please read/listen to the information available at: [http://larsoft.org/configuration/](http://larsoft.org/configuration/)
@@ -306,7 +306,7 @@ parameter set
 The `art::InputTag` is **the** recommended way to read an input data product label from configuration.\
 The latter example allows to read a chunk of configuration enclosed in nested braces. This is useful to isolate and organise parameters belonging to different algorithms. The configuration validation approach requires the specific structure of that parameters subset to be defined in a C data structure.
 
-### [`art::ServiceHandle`](https://cdcvs.fnal.gov/redmine/projects/art/repository/changes/art/Framework/Services/Registry/ServiceHandle.h)(#artServiceHandle) {.wiki-class-count}
+### [`art::ServiceHandle`](https://cdcvs.fnal.gov/redmine/projects/art/repository/changes/art/Framework/Services/Registry/ServiceHandle.h)
 
 The `art::ServiceHandle` is a handle with the semantics of a smart pointer, just like the `art::ValidHandle` above. The resource it handles is not data, but code.\
 In particular, any instance of this class points to the same *art* service object (that is a *singleton*).
@@ -322,7 +322,7 @@ For this reason you will see calls to LArSoft’s `lar::providerFrom()` in place
 replaces `art::ServiceHandle<geo::Geometry> geom;`. The `auto` type is effective type of the service provider, that is not `geo::Geometry`.\
 We encourage to call `lar::providerFrom()` no more than once per event (and suggesting no less), and to save it for further use as in the example above.
 
-### [`art::TFileService`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Services/Optional/TFileService.h)(#artTFileService) {.wiki-class-count}
+### [`art::TFileService`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Services/Optional/TFileService.h)
 
 This is a specialized service that connects up to the file where histograms made by modules are to be stored. It provides a mechanism for making `TObject` to be stored in that file and managing the memory for those objects. For example
 
@@ -342,7 +342,7 @@ This is a specialized service that connects up to the file where histograms made
         // (therefore, no additional constructor arguments) and will set number of points and values later
         fGraph   = tfs->makeAndRegister<TGraph>("channelGraph", "Graph title;channel;# PE");
 
-### [Message Facility](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility) and MessageLogger(#Message-Facility-and-MessageLogger) {.wiki-class-count}
+### [Message Facility](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility) and MessageLogger
 
 **The Message Levels**
 
@@ -457,7 +457,7 @@ If instead, you want to add some message printing for info level messages you ca
       }
     }
 
-### art::Exception(#artException) {.wiki-class-count}
+### art::Exception
 
 art::Exception is defined in canvas (./canvas/Utilities/Exception.h).\
 [Doxygen source file](http://nusoft.fnal.gov/larsoft/doxsvn/html/Exception_8h_source.html)
@@ -480,7 +480,7 @@ where `XXX` can be:
 
 Note that the `FailModule` setting does not imply a path rejection if the module throwing the exception so configured is a filter set to “VETO” or “IGNORE.”
 
-### [art::Ptr\<T\>](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Persistency/Common/Ptr.h) and [art::PtrVector\<T\>](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Persistency/Common/PtrVector.h)(#artPtrltTgt-and-artPtrVectorltTgt) {.wiki-class-count}
+### [art::Ptr\<T\>](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Persistency/Common/Ptr.h) and [art::PtrVector\<T\>](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Persistency/Common/PtrVector.h)
 
 The art::Ptr\<T\> is a template class that acts like a ROOT TRef. It provides a linkage between objects written into different areas of the event (and output file). For example, the rb::Cluster object holds an art::PtrVector\<recob::Hit\> pointing to the hits contained in the recob::Cluster. The art::Ptr\<T\> behaves like a pointer (ie you access the methods of the T using the “-\>”). It also has functionality to return the actual pointer to the object in question using art::Ptr\<T\>::get() or to check if the art::Ptr\<T\> is pointing to a legitimate object using art::Ptr\<T\>::isNull().
 
@@ -495,7 +495,7 @@ Please see this [note](https://cdcvs.fnal.gov/redmine/projects/art/wiki/A_note_o
 
 An art::PtrVector\<T\> is a vector of art::Ptr\<T\> objects. It provides the basic functionality you would expect from a std::vector, including iterators, size(), begin() and end() methods.
 
-### [art::Assns](https://cdcvs.fnal.gov/redmine/projects/canvas/repository/changes/canvas/Persistency/Common/Assns.h)(#artAssns) {.wiki-class-count}
+### [art::Assns](https://cdcvs.fnal.gov/redmine/projects/canvas/repository/changes/canvas/Persistency/Common/Assns.h)
 
 art::Assns are a way to associate (Assns is a contraction for associations) objects of one type with another. For example, you may want to associate a recob::Cluster with the recob::Hit objects comprising the recob::Cluster. The art:Assns object allows you to navigate these associations bidirectionally, that is you can ask a recob::Cluster which recob::Hits it contains, as well as as a recob::Hit to which recob::Cluster it belongs. The art::Assns also allow us to avoid storing these connections in the higher level object that is being associated. Instead the associations are stored in the event record.
 
@@ -526,7 +526,7 @@ One can also use the art::FindOne and art::FindOneP, see the detailed descriptio
 
 **NB** The art::FindMany(P) and art::FindOne(P) are smart query objects and should only be instantiated once for a given collection. If they are instantiated once for each item in a art::Handle, art::PtrVector, art::View or std::vector\< art::Ptr\<T\> \> then a heavy performance price will be paid as a lookup table is made multiple times.
 
-### art::RandomNumberGenerator Service(#artRandomNumberGenerator-Service) {.wiki-class-count}
+### art::RandomNumberGenerator Service
 
 A nice description of how to use this service can be found [here](http://mu2e.fnal.gov/public/hep/computing/Random.shtml). Note that this write up is for the older fw implementation of art, but there are only minor differences.
 
@@ -543,7 +543,7 @@ To store the [state](https://cdcvs.fnal.gov/redmine/projects/art/repository/revi
 
 A more detailed description of how to use the service in your code and store the state of the generator in the event record and retrieve it later is located [here](Saving_and_recovering_random_number_generator_states_?parent=Using_art_in_LArSoft).
 
-Making Objects to Store in the Output(#Making-Objects-to-Store-in-the-Output) {.wiki-class-count}
+Making Objects to Store in the Output
 --------------------------------------------------------------------------------
 
 Making objects to store in the art::Event is a straightforward operation. The first step is to declare a container for the objects,
@@ -558,12 +558,12 @@ The mpCollection now behaves just like a std::vector, except one accesses the st
 
 Now the ownership of the collection belongs to the event and the user cannot modify the collection or the objects in the collection any more.
 
-Schema Evolution for Data Products(#Schema-Evolution-for-Data-Products) {.wiki-class-count}
+Schema Evolution for Data Products
 --------------------------------------------------------------------------
 
 Data products may change over time and we will want to do everything we can to ensure backwards compatibility between old and new versions. Please see [this page](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Facilitating_Schema_Evolution_for_Data_Products) on the ART wiki for information on how to evolve a data product while still maintaining backwards compatibility.
 
-Making a Module(#Making-a-Module) {.wiki-class-count}
+Making a Module
 ------------------------------------
 
 Below are examples of how to make both an EDProducer module and an EDAnalyzer module. The examples show a basic .cc file for each.
@@ -590,7 +590,7 @@ Read the help screen for more details.
 
 **NB Objects are stored in the art::Event as collections of references, not pointers. You need to get them out of the event as collections of references, not pointers.**
 
-### A word about Algorithm objects(#A-word-about-Algorithm-objects)
+### A word about Algorithm objects
 
 Before describing how to use the ART module objects, it is worth discussing a complementary concept used in LArSoft.
 
@@ -598,7 +598,7 @@ In LArSoft we have the concept of an Algorithm object. Its basic purpose is to t
 
 The Algorithm objects that are used in modules should have constructors that take a fhicl::ParameterSet const& p as an argument, and they must also define reconfigure(fhicl::ParameterSet const& p) methods. The constructor should call the reconfigure method in order to configure any parameters needed by the Algorithm. The modules owning the Algorithm object should call the Algorithm’s reconfigure method from within the module reconfigure method.
 
-Checking the Configuration of a ROOT file(#Checking-the-Configuration-of-a-ROOT-file) {.wiki-class-count}
+Checking the Configuration of a ROOT file
 ----------------------------------------------------------------------------------------
 
 To dump the information regarding all the `ParameterSet` stored in a given art data file, then the program `config_dumper` is useful:\

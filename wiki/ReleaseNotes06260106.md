@@ -1,4 +1,4 @@
-LArSoft v06\_26\_01\_06 Release Notes(#LArSoft-v06_26_01_06-Release-Notes)
+LArSoft v06\_26\_01\_06 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -30,77 +30,77 @@ LArSoft v06\_26\_01\_06 Release Notes(#LArSoft-v06_26_01_06-Release-Notes)
 Download instructions for [larsoft v06\_26\_01\_06](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_26_01_06/larsoft-v06_26_01_06.html)\
 Download instructions for [just larsoftobj v1\_11\_00\_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_11_00_03/larsoftobj-v1_11_00_03.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   MicroBooNE support request [\#17849](/redmine/issues/17849 "Support: Request patch release larsoft v06_26_01_06 (Closed)")
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_26\_01\_06(#larsoft-v06_26_01_06)
+larsoft v06\_26\_01\_06
 -------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-lareventdisplay v06\_02\_14\_06(#lareventdisplay-v06_02_14_06)
+lareventdisplay v06\_02\_14\_06
 -----------------------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-larexamples v06\_01\_15\_04(#larexamples-v06_01_15_04)
+larexamples v06\_01\_15\_04
 ---------------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-larpandora v06\_08\_00\_06(#larpandora-v06_08_00_06)
+larpandora v06\_08\_00\_06
 -------------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-larwirecell v06\_00\_13\_06(#larwirecell-v06_00_13_06)
+larwirecell v06\_00\_13\_06
 ---------------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-larana v06\_03\_18\_06(#larana-v06_03_18_06)
+larana v06\_03\_18\_06
 -----------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-larreco v06\_20\_00\_06(#larreco-v06_20_00_06)
+larreco v06\_20\_00\_06
 -------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-larsim v06\_13\_01\_04(#larsim-v06_13_01_04)
+larsim v06\_13\_01\_04
 -----------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-larevt v06\_07\_09\_04(#larevt-v06_07_09_04)
+larevt v06\_07\_09\_04
 -----------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-lardata v06\_14\_04\_03(#lardata-v06_14_04_03)
+lardata v06\_14\_04\_03
 -------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-larcore v06\_05\_03\_01(#larcore-v06_05_03_01)
+larcore v06\_05\_03\_01
 -------------------------------------------------
 
-larpandoracontent v03\_07\_02\_05(#larpandoracontent-v03_07_02_05)
+larpandoracontent v03\_07\_02\_05
 ---------------------------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
@@ -137,28 +137,28 @@ larpandoracontent v03\_07\_02\_05(#larpandoracontent-v03_07_02_05)
 -   2017-06-29 John Marshall : Merge branch ‘gplv3’
 -   2017-06-29 John Marshall : Select license: GPLv3.
 
-larsoftobj v1\_11\_00\_03(#larsoftobj-v1_11_00_03)
+larsoftobj v1\_11\_00\_03
 -----------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 
-lardataobj v1\_11\_00\_03(#lardataobj-v1_11_00_03)
+lardataobj v1\_11\_00\_03
 -----------------------------------------------------
 
 -   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
 -   2017-10-03 Herbert Greenlee : Add missing inline.
 
-larcoreobj v1\_06\_02\_01(#larcoreobj-v1_06_02_01)
+larcoreobj v1\_06\_02\_01
 -----------------------------------------------------
 
-larbatch v01\_32\_05(#larbatch-v01_32_05)
+larbatch v01\_32\_05
 --------------------------------------------
 
 -   2017-09-20 Lynn Garren : cetbuildtools v5\_14\_00
 -   2017-09-19 Lynn Garren : larbatch v01\_32\_05 for larsoft v06\_50\_00
 -   2017-09-18 Herbert Greenlee : Run helper scripts from local directory.
 
-larutils v1\_19\_02(#larutils-v1_19_02)
+larutils v1\_19\_02
 ------------------------------------------
 
 -   2017-09-12 Lynn Garren : larutils v1\_19\_02 for larsoft v06\_49\_01

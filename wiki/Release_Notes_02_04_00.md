@@ -1,39 +1,39 @@
-LArSoft v02\_04\_00 Release Notes(#LArSoft-v02_04_00-Release-Notes)
+LArSoft v02\_04\_00 Release Notes
 ======================================================================
 
 [list of LArSoft releases](LArSoft_release_list)
 
-larsoft v02\_04\_00(#larsoft-v02_04_00)
+larsoft v02\_04\_00
 ------------------------------------------
 
 -   2014-08-05 Lynn Garren : use ifdh\_art v1\_4\_3a with libwda v2\_13\_0a
 -   2014-08-05 Lynn Garren : use larsoft\_data v0\_01\_00
 -   2014-08-05 Lynn Garren : releaseDB/base\_dependency\_database for v02\_04\_00
 
-lareventdisplay v02\_04\_00(#lareventdisplay-v02_04_00)
+lareventdisplay v02\_04\_00
 ----------------------------------------------------------
 
 -   2014-08-04 Bruce Baller : remove std::cout
 -   2014-08-04 Bruce Baller : Use ConvertXToTicks in Simulation Drawer
 
-larexamples v02\_04\_00(#larexamples-v02_04_00)
+larexamples v02\_04\_00
 --------------------------------------------------
 
 -   2014-08-05 Lynn Garren : for larsoft v02\_04\_00
 
-larpandora v02\_04\_00(#larpandora-v02_04_00)
+larpandora v02\_04\_00
 ------------------------------------------------
 
 -   2014-08-01 Andrew Blake : Commit latest chain of algorithms, plus use of track/shower flag in Producer
 -   2014-08-01 John S. Marshall : Wide range of algorithm updates including two- and three-dimensional shower reconstruction, neutrino building and enhanced 3D hit creation.
 
-larana v02\_04\_00(#larana-v02_04_00)
+larana v02\_04\_00
 ----------------------------------------
 
 -   2014-08-03 Tingjun Yang : fix particleid fcl files
 -   2014-08-02 Tingjun Yang : avoid deleting the same object twice
 
-larreco v02\_04\_00(#larreco-v02_04_00)
+larreco v02\_04\_00
 ------------------------------------------
 
 -   2014-08-05 Jonathan Asaadi : Change default value in the hit finder to what it should be
@@ -51,7 +51,7 @@ larreco v02\_04\_00(#larreco-v02_04_00)
 -   2014-08-02 Muhammad Elnimr : Modifications to the cosmic tracker for the 35t.
 -   2014-07-31 Eric Church : update stitch parameters
 
-larsim v02\_04\_00(#larsim-v02_04_00)
+larsim v02\_04\_00
 ----------------------------------------
 
 -   2014-08-05 Lynn Garren : removing another library that does not belong in a larsim link list
@@ -64,12 +64,12 @@ larsim v02\_04\_00(#larsim-v02_04_00)
 -   2014-08-03 Eric Church : New Filter
 -   2014-07-29 Gianluca Petrillo : Replaced std::set by std::vector in sim::AuxDetSimChannel; added move constructor.
 
-larevt v02\_04\_00(#larevt-v02_04_00)
+larevt v02\_04\_00
 ----------------------------------------
 
 -   2014-07-31 Gianluca Petrillo : Added module to dump the content of recob::Wire on screen
 
-lardata v02\_04\_00(#lardata-v02_04_00)
+lardata v02\_04\_00
 ------------------------------------------
 
 -   2014-08-04 Tracy Usher : Fixing doxygen comment lines
@@ -91,7 +91,7 @@ lardata v02\_04\_00(#lardata-v02_04_00)
 -   2014-07-23 Matthew Toups : Update product\_deps
 -   2014-07-18 Yun-Tse : Modify the SignalShaping object to reset the response.
 
-larcore v02\_04\_00(#larcore-v02_04_00)
+larcore v02\_04\_00
 ------------------------------------------
 
 -   2014-07-31 Muhammad Elnimr : Fixed WireIDsIntersect(). –elnimr

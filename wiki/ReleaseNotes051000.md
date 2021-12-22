@@ -1,4 +1,4 @@
-LArSoft v05\_10\_00 Release Notes(#LArSoft-v05_10_00-Release-Notes)
+LArSoft v05\_10\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,23 +24,23 @@ LArSoft v05\_10\_00 Release Notes(#LArSoft-v05_10_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_10_00/larsoft-v05_10_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Approved changes and nutools bug fix
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larsim LArSeedService is included but not used
 -   larreco TrajCluster
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   The tweaking dial that GENIE uses to vary the model parameters is passed thanks to helper functions in nutools GENIEReweight.cxx. However, this code had a bug such that Deep Inelastic Scattering events always had weight 1. The fix was supplied by Marco Del Tutto.
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- ------------ ------------ -------
@@ -48,10 +48,10 @@ Updated dependencies(#Updated-dependencies)
   nutools   v1\_24\_03   e9           
   --------- ------------ ------------ -------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v05\_10\_00(#larsoft-v05_10_00)
+larsoft v05\_10\_00
 ------------------------------------------
 
 -   2016-04-27 Lynn Garren : larsoft v05\_10\_00 for larsoft v05\_10\_00
@@ -62,29 +62,29 @@ larsoft v05\_10\_00(#larsoft-v05_10_00)
 -   2016-04-25 Gianluca Petrillo : Update for moving from SeedService to LArSeedService
 -   2016-04-21 Lynn Garren : mrb v1\_06\_04
 
-lareventdisplay v05\_06\_05(#lareventdisplay-v05_06_05)
+lareventdisplay v05\_06\_05
 ----------------------------------------------------------
 
 -   2016-04-27 Lynn Garren : lareventdisplay v05\_06\_05 for larsoft v05\_10\_00
 
-larexamples v05\_06\_05(#larexamples-v05_06_05)
+larexamples v05\_06\_05
 --------------------------------------------------
 
 -   2016-04-27 Lynn Garren : larexamples v05\_06\_05 for larsoft v05\_10\_00
 
-larpandora v05\_09\_02(#larpandora-v05_09_02)
+larpandora v05\_09\_02
 ------------------------------------------------
 
 -   2016-04-27 Lynn Garren : larpandora v05\_09\_02 for larsoft v05\_10\_00
 
-larana v05\_08\_02(#larana-v05_08_02)
+larana v05\_08\_02
 ----------------------------------------
 
 -   2016-04-27 Lynn Garren : larana v05\_08\_02 for larsoft v05\_10\_00
 -   2016-04-26 mdhaigh : Add some variables to MVA PID and code to allow cheating of track sense based on truth vertex.
 -   2016-04-19 Hamlet : Bug fix after PhotonVisibility interface change: check that queried location is covered by the service
 
-larreco v05\_10\_00(#larreco-v05_10_00)
+larreco v05\_10\_00
 ------------------------------------------
 
 -   2016-04-27 Lynn Garren : larreco v05\_10\_00 for larsoft v05\_10\_00
@@ -229,7 +229,7 @@ larreco v05\_10\_00(#larreco-v05_10_00)
 -   2015-12-31 Bruce Baller : Put StepCrawl code in a separate file
 -   2015-12-22 Bruce Baller : StepCrawl development
 
-larsim v05\_10\_00(#larsim-v05_10_00)
+larsim v05\_10\_00
 ----------------------------------------
 
 -   2016-04-27 Lynn Garren : larsim v05\_10\_00 for larsoft v05\_10\_00
@@ -240,21 +240,21 @@ larsim v05\_10\_00(#larsim-v05_10_00)
 -   2016-04-25 Gianluca Petrillo : Moved artext::SeedService into sim::LArSeedService
 -   2016-04-20 Gleb Sinev : Fix the supernova neutrino spectrum filename in supernova.fcl.
 
-larevt v05\_06\_05(#larevt-v05_06_05)
+larevt v05\_06\_05
 ----------------------------------------
 
 -   2016-04-27 Lynn Garren : larevt v05\_06\_05 for larsoft v05\_10\_00
 
-lardata v05\_07\_04(#lardata-v05_07_04)
+lardata v05\_07\_04
 ------------------------------------------
 
 -   2016-04-27 Lynn Garren : lardata v05\_07\_04 for larsoft v05\_10\_00
 -   2016-04-26 mdhaigh : Add some new variables to MVAPIDResult.
 
-larcore v05\_07\_01(#larcore-v05_07_01)
+larcore v05\_07\_01
 ------------------------------------------
 
-larbatch v01\_21\_02(#larbatch-v01_21_02)
+larbatch v01\_21\_02
 --------------------------------------------
 
 -   2016-04-27 Lynn Garren : larbatch v01\_21\_02 for larsoft v05\_10\_00
@@ -266,7 +266,7 @@ larbatch v01\_21\_02(#larbatch-v01_21_02)
 -   2016-04-20 yuntse : Work around zero-event TimeTracker crash.
 -   2016-04-19 Herbert Greenlee : When checking in analysis mode, require the existence of at least one analysis file.
 
-larutils v1\_06\_01(#larutils-v1_06_01)
+larutils v1\_06\_01
 ------------------------------------------
 
 -   2016-04-27 Lynn Garren : larutils v1\_06\_01 for larsoft v05\_10\_00

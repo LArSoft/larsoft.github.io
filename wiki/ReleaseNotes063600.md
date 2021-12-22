@@ -1,4 +1,4 @@
-LArSoft v06\_36\_00 Release Notes(#LArSoft-v06_36_00-Release-Notes)
+LArSoft v06\_36\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,14 +30,14 @@ LArSoft v06\_36\_00 Release Notes(#LArSoft-v06_36_00-Release-Notes)
 Download instructions for [larsoft v06\_36\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_36_00/larsoft-v06_36_00.html)\
 Download instructions for [just larsoftobj v1\_20\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_20_00/larsoftobj-v1_20_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved features
 -   ifdhc v2\_0\_7
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   feature/dgg\_lightprop
@@ -47,10 +47,10 @@ New features(#New-features)
     -   multiple scattering momentum estimation (data product/algorithm/module)
     -   new features to the KF track fitter allowing creation of track without updating the input trajectory points
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ----------- ------------ ------------ --------------------------------------------------------------------------------------------------
@@ -60,37 +60,37 @@ Updated dependencies(#Updated-dependencies)
   ifdhc       v2\_0\_7     e14:p2713d   
   ----------- ------------ ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_36\_00(#larsoft-v06_36_00)
+larsoft v06\_36\_00
 ------------------------------------------
 
 -   2017-05-16 Lynn Garren : larsoft v06\_36\_00 for larsoft v06\_36\_00
 -   2017-05-16 Lynn Garren : update product versions
 -   2017-05-16 Lynn Garren : update depenedency database
 
-lareventdisplay v06\_05\_05(#lareventdisplay-v06_05_05)
+lareventdisplay v06\_05\_05
 ----------------------------------------------------------
 
 -   2017-05-16 Lynn Garren : lareventdisplay v06\_05\_05 for larsoft v06\_36\_00
 
-larexamples v06\_03\_05(#larexamples-v06_03_05)
+larexamples v06\_03\_05
 --------------------------------------------------
 
 -   2017-05-16 Lynn Garren : larexamples v06\_03\_05 for larsoft v06\_36\_00
 
-larpandora v06\_10\_05(#larpandora-v06_10_05)
+larpandora v06\_10\_05
 ------------------------------------------------
 
 -   2017-05-16 Lynn Garren : larpandora v06\_10\_05 for larsoft v06\_36\_00
 
-larwirecell v06\_04\_05(#larwirecell-v06_04_05)
+larwirecell v06\_04\_05
 --------------------------------------------------
 
 -   2017-05-16 Lynn Garren : larwirecell v06\_04\_05 for larsoft v06\_36\_00
 
-larana v06\_06\_00(#larana-v06_06_00)
+larana v06\_06\_00
 ----------------------------------------
 
 -   2017-05-16 Lynn Garren : larana v06\_06\_00 for larsoft v06\_36\_00
@@ -100,7 +100,7 @@ larana v06\_06\_00(#larana-v06_06_00)
 -   2017-05-12 Diego Gamez : making the light tree false by default
 -   2017-04-07 Diego Gamez : adding the light analysis tree
 
-larreco v06\_28\_00(#larreco-v06_28_00)
+larreco v06\_28\_00
 ------------------------------------------
 
 -   2017-05-16 Lynn Garren : larreco v06\_28\_00 for larsoft v06\_36\_00
@@ -128,7 +128,7 @@ larreco v06\_28\_00(#larreco-v06_28_00)
 -   2017-04-21 Giuseppe Cerati : first versions of TrajectoryMCSFitter and MCSFitProducer
 -   2017-04-21 Giuseppe Cerati : add cleanZigzag and keepInputTrajectoryPoints options to kf track fitter
 
-larsim v06\_22\_00(#larsim-v06_22_00)
+larsim v06\_22\_00
 ----------------------------------------
 
 -   2017-05-16 Lynn Garren : larsim v06\_22\_00 for larsoft v06\_36\_00
@@ -139,12 +139,12 @@ larsim v06\_22\_00(#larsim-v06_22_00)
 -   2017-04-07 Diego Gamez : all the modifications for the simulation of the propagation time of the photons
 -   2017-04-07 Diego Gamez : modifying the photon library visibilities and services to include the reflected component
 
-larevt v06\_13\_03(#larevt-v06_13_03)
+larevt v06\_13\_03
 ----------------------------------------
 
 -   2017-05-16 Lynn Garren : larevt v06\_13\_03 for larsoft v06\_36\_00
 
-lardata v06\_21\_00(#lardata-v06_21_00)
+lardata v06\_21\_00
 ------------------------------------------
 
 -   2017-05-16 Lynn Garren : lardata v06\_21\_00 for larsoft v06\_36\_00
@@ -154,19 +154,19 @@ lardata v06\_21\_00(#lardata-v06_21_00)
 -   2017-04-07 Diego Gamez : adding the TPB info in lar properties file
 -   2017-04-07 Diego Gamez : modifying accordingly argoneut services
 
-larcore v06\_09\_02(#larcore-v06_09_02)
+larcore v06\_09\_02
 ------------------------------------------
 
-larpandoracontent v03\_05\_00(#larpandoracontent-v03_05_00)
+larpandoracontent v03\_05\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_20\_00(#larsoftobj-v1_20_00)
+larsoftobj v1\_20\_00
 ----------------------------------------------
 
 -   2017-05-16 Lynn Garren : larsoftobj v1\_20\_00 for larsoft v06\_36\_00
 -   2017-05-16 Lynn Garren : update product versions
 
-lardataobj v1\_16\_00(#lardataobj-v1_16_00)
+lardataobj v1\_16\_00
 ----------------------------------------------
 
 -   2017-05-16 Lynn Garren : lardataobj v1\_16\_00 for larsoft v06\_36\_00
@@ -184,13 +184,13 @@ lardataobj v1\_16\_00(#lardataobj-v1_16_00)
 -   2017-04-07 Diego Gamez : including MotherTrackID in OnePhoton class for the merging with the charge information
 -   2017-04-07 Diego Gamez : including MotherTrackID in OnePhoton class for the merging with the charge information
 
-larcoreobj v1\_13\_01(#larcoreobj-v1_13_01)
+larcoreobj v1\_13\_01
 ----------------------------------------------
 
-larbatch v01\_32\_00(#larbatch-v01_32_00)
+larbatch v01\_32\_00
 --------------------------------------------
 
-larutils v1\_13\_00(#larutils-v1_13_00)
+larutils v1\_13\_00
 ------------------------------------------
 
 -   2017-05-16 Lynn Garren : larutils v1\_13\_00 for larsoft v06\_36\_00

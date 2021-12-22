@@ -1,4 +1,4 @@
-LArSoft v06\_27\_00 Release Notes(#LArSoft-v06_27_00-Release-Notes)
+LArSoft v06\_27\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,13 +30,13 @@ LArSoft v06\_27\_00 Release Notes(#LArSoft-v06_27_00-Release-Notes)
 Download instructions for [larsoft v06\_27\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_27_00/larsoft-v06_27_00.html)\
 Download instructions for [just larsoftobj v1\_13\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_13_00/larsoftobj-v1_13_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   tracking updats
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardataobj, feature/cerati\_kffitresiduals:
@@ -52,51 +52,51 @@ New features(#New-features)
 -   lareventdisplay, feature/cerati\_flags-evd:
     -   change event display so that flags only valid points in Tracks are drawn
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   [\#15702](/redmine/issues/15702 "Bug: order of list the generators issue with PhotonBackTracker  (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_27\_00(#larsoft-v06_27_00)
+larsoft v06\_27\_00
 ------------------------------------------
 
 -   2017-03-08 Lynn Garren : larsoft v06\_27\_00 for larsoft v06\_27\_00
 -   2017-03-08 Lynn Garren : update product versions
 
-lareventdisplay v06\_03\_00(#lareventdisplay-v06_03_00)
+lareventdisplay v06\_03\_00
 ----------------------------------------------------------
 
 -   2017-03-08 Lynn Garren : lareventdisplay v06\_03\_00 for larsoft v06\_27\_00
 -   2017-03-07 Lynn Garren : Merge branch ‘feature/cerati\_flags-evd’ into release/v06\_27\_00
 -   2017-03-07 Giuseppe Cerati : draw only valid points for tracks
 
-larexamples v06\_01\_17(#larexamples-v06_01_17)
+larexamples v06\_01\_17
 --------------------------------------------------
 
 -   2017-03-08 Lynn Garren : larexamples v06\_01\_17 for larsoft v06\_27\_00
 
-larpandora v06\_08\_02(#larpandora-v06_08_02)
+larpandora v06\_08\_02
 ------------------------------------------------
 
 -   2017-03-08 Lynn Garren : larpandora v06\_08\_02 for larsoft v06\_27\_00
 
-larwirecell v06\_00\_15(#larwirecell-v06_00_15)
+larwirecell v06\_00\_15
 --------------------------------------------------
 
 -   2017-03-08 Lynn Garren : larwirecell v06\_00\_15 for larsoft v06\_27\_00
 
-larana v06\_03\_20(#larana-v06_03_20)
+larana v06\_03\_20
 ----------------------------------------
 
 -   2017-03-08 Lynn Garren : larana v06\_03\_20 for larsoft v06\_27\_00
 
-larreco v06\_21\_00(#larreco-v06_21_00)
+larreco v06\_21\_00
 ------------------------------------------
 
 -   2017-03-08 Lynn Garren : add missing libraries
@@ -170,18 +170,18 @@ larreco v06\_21\_00(#larreco-v06_21_00)
 -   2016-12-22 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/bb\_TJWork’ into feature/tjyang\_TJWork
 -   2016-12-22 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/tjyang\_TJWork
 
-larsim v06\_13\_03(#larsim-v06_13_03)
+larsim v06\_13\_03
 ----------------------------------------
 
 -   2017-03-08 Lynn Garren : larsim v06\_13\_03 for larsoft v06\_27\_00
 -   2017-03-03 Jason Stock : OpFastScintillation now includes larsim/ParticleListAction.h OpFastScintillation now uses ParticleListAction to determine the TrackIDs of G4Tracks and steps instead of relying on the G4Tracks to know their correct ID.
 
-larevt v06\_07\_11(#larevt-v06_07_11)
+larevt v06\_07\_11
 ----------------------------------------
 
 -   2017-03-08 Lynn Garren : larevt v06\_07\_11 for larsoft v06\_27\_00
 
-lardata v06\_15\_00(#lardata-v06_15_00)
+lardata v06\_15\_00
 ------------------------------------------
 
 -   2017-03-08 Lynn Garren : Merge branch ‘feature/cerati\_kffitresiduals’ into release/v06\_27\_00
@@ -204,20 +204,20 @@ lardata v06\_15\_00(#lardata-v06_15_00)
 -   2017-01-30 Giuseppe Cerati : temporary commit
 -   2017-01-27 Giuseppe Cerati : add files
 
-larcore v06\_05\_03(#larcore-v06_05_03)
+larcore v06\_05\_03
 ------------------------------------------
 
-larpandoracontent v03\_02\_00(#larpandoracontent-v03_02_00)
+larpandoracontent v03\_02\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_13\_00(#larsoftobj-v1_13_00)
+larsoftobj v1\_13\_00
 ----------------------------------------------
 
 -   2017-03-08 Lynn Garren : Merge branch ‘release/v06\_27\_00’
 -   2017-03-08 Lynn Garren : larsoftobj v1\_13\_00 for larosoft v06\_27\_00
 -   2017-03-06 Lynn Garren : add bundle directory
 
-lardataobj v1\_13\_00(#lardataobj-v1_13_00)
+lardataobj v1\_13\_00
 ----------------------------------------------
 
 -   2017-03-08 Lynn Garren : lardataobj v1\_13\_00 for larsoft v06\_27\_00
@@ -228,10 +228,10 @@ lardataobj v1\_13\_00(#lardataobj-v1_13_00)
 -   2017-03-06 Gianluca Petrillo : Removed ROOT GenReflex guards from sparse\_vector.
 -   2017-02-10 Giuseppe Cerati : fix bug in TrackingPlane in case HasMomentum=false, add new TrackFitHitInfo data object
 
-larcoreobj v1\_06\_02(#larcoreobj-v1_06_02)
+larcoreobj v1\_06\_02
 ----------------------------------------------
 
-larbatch v01\_27\_01(#larbatch-v01_27_01)
+larbatch v01\_27\_01
 --------------------------------------------
 
 -   2017-03-08 Lynn Garren : larbatch v01\_27\_01 for larsoft v06\_27\_00
@@ -240,7 +240,7 @@ larbatch v01\_27\_01(#larbatch-v01_27_01)
 -   2017-03-02 Herbert Greenlee : Handle case where output stream is just “out.”
 -   2017-03-02 Herbert Greenlee : Add more protection against unkillable hanging copy processes.
 
-larutils v1\_12\_00(#larutils-v1_12_00)
+larutils v1\_12\_00
 ------------------------------------------
 
 -   2017-03-08 Lynn Garren : larutils v1\_12\_00 for larsoft v06\_27\_00

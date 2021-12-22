@@ -1,4 +1,4 @@
-Rerunning a job starting from its output(#Rerunning-a-job-starting-from-its-output)
+Rerunning a job starting from its output
 ======================================================================================
 
 -   **Table of contents**
@@ -31,7 +31,7 @@ will produce an output file `myjob_output_SOMEOTHERTIMESTAMP.root` will all the 
 
 ^1^ Nothing LArSoft-specific in this page: you can replace `lar` command with any other `art`-based executable or with `art` itself.
 
-Optimisation: don’t keep the output from the original job *(recommended)*(#Optimisation-dont-keep-the-output-from-the-original-job-recommended)
+Optimisation: don’t keep the output from the original job *(recommended)*
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 The configuration above will produce an output file with *both* `MyJob` and `MyJobAgain` output data products. While this does not any harm in common cases^[2](#fn2)^, they have the potential to create confusion, they take disk space and they have no purpose. In short: we should get rid of them:\
@@ -47,7 +47,7 @@ The file still remembers that `MyJob` was run and which data products it produce
 
 ^2^ Exceptions apply: see below.
 
-A failure: `myjob.fcl` does not ask for timestamp to be added to output file name(#A-failure-myjobfcl-does-not-ask-for-timestamp-to-be-added-to-output-file-name)
+A failure: `myjob.fcl` does not ask for timestamp to be added to output file name
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 If the output file name does not include timestamps (e.g. `myjob_output.root`), rerunning the job will attempt to overwrite the input file. We *definitely* don’t want that.\
@@ -68,7 +68,7 @@ A more systematic approach is to have the new file name in the new FHiCL configu
 (`%ifb` is replaced with the base name of the input file, `myjob_output`; another popular option is `%ifb_%p-%tc.root`, adding process name and timestamp at file closure).\
 Note that instead of `out1` you will have to put the name of the `RootOutput` instance in `myjob.fcl` (find it with `fhicl-dump myjob.fcl | less`).
 
-A failure: process name is explicitly specified in the configuration of modules or services(#A-failure-process-name-is-explicitly-specified-in-the-configuration-of-modules-or-services)
+A failure: process name is explicitly specified in the configuration of modules or services
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 If downstream configuration explicitly specifies the process name (`MyJob`), that is going to cause trouble (typically, the old data is used instead of the new one).\

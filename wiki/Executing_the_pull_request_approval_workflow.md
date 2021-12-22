@@ -1,14 +1,14 @@
-Executing the pull request approval workflow(#Executing-the-pull-request-approval-workflow)
+Executing the pull request approval workflow
 ==============================================================================================
 
-Roles(#Roles)
+Roles
 ----------------
 
 -   Users: the people working on code changes who create pull requests, and fix problems that arise during the approval workflow
 -   Level 1 managers: the group with write privilege to the primary repositories, who merge PRs after all tests have succeeded. Level 1 managers may perform any Level 2 manager function.
 -   Level 2 managers: the group of individuals from each experiment who review changes, trigger tests, review results, and approve PRs. They are charged with resolving problems identified via the review and testing stages. Level 2 managers may perform any user function.
 
-Methods(#Methods)
+Methods
 --------------------
 
 ### Structured comments on pull requests
@@ -26,7 +26,7 @@ Methods(#Methods)
 -   Runs jobs that perform each of the actions in the PR testing and approval workflow
 -   Actions include running checks or tests, posting comments with results, labeling comments with the appropriate status label
 
-Workflow(#Workflow)
+Workflow
 ----------------------
 
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-LArSoft v06\_46\_00 Release Notes(#LArSoft-v06_46_00-Release-Notes)
+LArSoft v06\_46\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,12 +31,12 @@ LArSoft v06\_46\_00 Release Notes(#LArSoft-v06_46_00-Release-Notes)
 Download instructions for [larsoft v06\_46\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_46_00/larsoft-v06_46_00.html)\
 Download instructions for [just larsoftobj v1\_24\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_24_01/larsoftobj-v1_24_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes from develop
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   update the 3D clustering to handle multiple TPC’s
@@ -45,20 +45,20 @@ New features(#New-features)
     -   for example, the 3D geometry is now handled by an experiment specific art tool so that multiple TPC’s can be displayed (e.g. ICARUS).
     -   Plus lots of other enhancements.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   fix of the shower energy in larreco/Calorimetry/LinearEnergyAlg.\*
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v1\_10\_00
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_46\_00(#larsoft-v06_46_00)
+larsoft v06\_46\_00
 ------------------------------------------
 
 -   2017-08-09 Lynn Garren : larsoft v06\_46\_00 for larsoft v06\_46\_00
@@ -66,29 +66,29 @@ larsoft v06\_46\_00(#larsoft-v06_46_00)
 -   2017-08-09 Lynn Garren : update dependency database
 -   2017-08-09 Lynn Garren : update product versions
 
-lareventdisplay v06\_10\_03(#lareventdisplay-v06_10_03)
+lareventdisplay v06\_10\_03
 ----------------------------------------------------------
 
 -   2017-08-09 Lynn Garren : lareventdisplay v06\_10\_03 for larsoft v06\_46\_00
 
-larexamples v06\_05\_04(#larexamples-v06_05_04)
+larexamples v06\_05\_04
 --------------------------------------------------
 
 -   2017-08-09 Lynn Garren : larexamples v06\_05\_04 for larsoft v06\_46\_00
 
-larpandora v06\_15\_04(#larpandora-v06_15_04)
+larpandora v06\_15\_04
 ------------------------------------------------
 
 -   2017-08-09 Lynn Garren : larpandora v06\_15\_04 for larsoft v06\_46\_00
 
-larwirecell v06\_05\_08(#larwirecell-v06_05_08)
+larwirecell v06\_05\_08
 --------------------------------------------------
 
 -   2017-08-09 Lynn Garren : larwirecell v06\_05\_08 for larsoft v06\_45\_02
 -   2017-08-08 Usher, Tracy L : Merge branch ‘master’ into feature/usher\_truncationorderswap
 -   2017-07-27 Usher, Tracy L : Swap the order of truncation/filtering - noise filter runs on full set of ticks, truncation then picks out the sub waveform for output.
 
-larana v06\_08\_04(#larana-v06_08_04)
+larana v06\_08\_04
 ----------------------------------------
 
 -   2017-08-09 Lynn Garren : larana v06\_08\_04 for larsoft v06\_46\_00
@@ -100,7 +100,7 @@ larana v06\_08\_04(#larana-v06_08_04)
 -   2017-05-18 Usher, Tracy L : Merge branch ‘master’ into feature/usher\_cluster3dupdates
 -   2017-05-12 Usher, Tracy L : Add the check requiring more than 1 hit on a PFParticle to be out of time before rejecting
 
-larreco v06\_37\_00(#larreco-v06_37_00)
+larreco v06\_37\_00
 ------------------------------------------
 
 -   2017-08-09 Lynn Garren : larreco has grown a dependency on eigen
@@ -191,7 +191,7 @@ larreco v06\_37\_00(#larreco-v06_37_00)
 -   2016-10-20 Usher, Tracy L : Remove the code to build 3D points (moved to separate module) and then bring in the remaining clustering code that had been separated into the cluster3d module. Goal is to have a complete clustering algorithm in one algorithm/module (which and then be interchanged).
 -   2016-10-20 Usher, Tracy L : Separate the construction of 3D hits from the clustering algorithm
 
-larsim v06\_29\_00(#larsim-v06_29_00)
+larsim v06\_29\_00
 ----------------------------------------
 
 -   2017-08-09 Lynn Garren : larsim v06\_29\_00 for larsoft v06\_46\_00
@@ -204,12 +204,12 @@ larsim v06\_29\_00(#larsim-v06_29_00)
 -   2017-08-06 Lucas Mendes Santos : Creation of a OpDetBacktrackerRecords Dumper
 -   2017-08-06 Jason Stock : Changing ides to sdps in a couple places for correctness and consistency.
 
-larevt v06\_15\_04(#larevt-v06_15_04)
+larevt v06\_15\_04
 ----------------------------------------
 
 -   2017-08-09 Lynn Garren : larevt v06\_15\_04 for larsoft v06\_46\_00
 
-lardata v06\_26\_00(#lardata-v06_26_00)
+lardata v06\_26\_00
 ------------------------------------------
 
 -   2017-08-09 Lynn Garren : lardata v06\_26\_00 for larsoft v06\_46\_00
@@ -249,29 +249,29 @@ lardata v06\_26\_00(#lardata-v06_26_00)
 -   2016-11-03 Usher, Tracy L : add more status bit definitions
 -   2016-10-20 Usher, Tracy L : Make sure the wire id vector is properly initialized
 
-larcore v06\_14\_00(#larcore-v06_14_00)
+larcore v06\_14\_00
 ------------------------------------------
 
 -   2017-08-09 Lynn Garren : larcore v06\_14\_00 for larsoft v06\_46\_00
 -   2017-08-04 Gianluca Petrillo : Removed detector name check from StandardGeometryHelper
 
-larpandoracontent v03\_07\_03(#larpandoracontent-v03_07_03)
+larpandoracontent v03\_07\_03
 --------------------------------------------------------------
 
-larsoftobj v1\_24\_01(#larsoftobj-v1_24_01)
+larsoftobj v1\_24\_01
 ----------------------------------------------
 
 -   2017-08-09 Lynn Garren : larsoftobj v1\_24\_01 for larsoft v06\_46\_00
 -   2017-08-09 Lynn Garren : new mrb
 
-lardataobj v1\_18\_01(#lardataobj-v1_18_01)
+lardataobj v1\_18\_01
 ----------------------------------------------
 
 -   2017-08-09 Lynn Garren : lardataobj v1\_18\_01 for larsoft v06\_46\_00
 -   2017-08-01 Gianluca Petrillo : Added a constructor to track flags object.
 -   2017-08-01 Gianluca Petrillo : Cosmetic documentation fixes.
 
-larcorealg v1\_06\_01(#larcorealg-v1_06_01)
+larcorealg v1\_06\_01
 ----------------------------------------------
 
 -   2017-08-09 Lynn Garren : larcorealg v1\_06\_01 for larsoft v06\_46\_00
@@ -279,16 +279,16 @@ larcorealg v1\_06\_01(#larcorealg-v1_06_01)
 -   2017-08-01 Gianluca Petrillo : Improve error message in geometry unit tests.
 -   2017-08-01 Gianluca Petrillo : Cosmetic fix to driftvolume\_test.
 
-larcoreobj v1\_15\_01(#larcoreobj-v1_15_01)
+larcoreobj v1\_15\_01
 ----------------------------------------------
 
-larbatch v01\_32\_04(#larbatch-v01_32_04)
+larbatch v01\_32\_04
 --------------------------------------------
 
 -   2017-08-09 Lynn Garren : larbatch v01\_32\_04 for larsoft v06\_46\_00
 -   2017-08-09 Herbert Greenlee : Allow more ifdh retries.
 
-larutils v1\_17\_00(#larutils-v1_17_00)
+larutils v1\_17\_00
 ------------------------------------------
 
 -   2017-08-09 Lynn Garren : larutils v1\_17\_00 for larsoft v06\_46\_00

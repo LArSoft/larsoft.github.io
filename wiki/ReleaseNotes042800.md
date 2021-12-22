@@ -1,4 +1,4 @@
-LArSoft v04\_28\_00 Release Notes(#LArSoft-v04_28_00-Release-Notes)
+LArSoft v04\_28\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,13 +24,13 @@ LArSoft v04\_28\_00 Release Notes(#LArSoft-v04_28_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_28_00/larsoft-v04_28_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   build with art v1\_17\_02 to resolve [\#10614](/redmine/issues/10614 "Bug: larsoft v04_27_00 with art v1_16_02 cannot read old MC/data files (Closed)")
 -   With the exception of the 3 files listed below, the code is the same as in v04\_27\_01.
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   art v1\_17\_02 [Release Notes](/redmine/projects/art/wiki/Release_Notes_11702)
@@ -40,12 +40,12 @@ New features(#New-features)
     -   larreco/TrackFinder/CCTrackMaker\_module.cc
     -   larana/ParticleIdentification/Chi2ParticleID\_module.cc
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   [\#10614](/redmine/issues/10614 "Bug: larsoft v04_27_00 with art v1_16_02 cannot read old MC/data files (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------------- ------------ ------------- ----------------------------------------------------------------------------------------------------------------------------
@@ -58,67 +58,67 @@ Updated dependencies(#Updated-dependencies)
   cetbuildtools   v4\_16\_00                 
   --------------- ------------ ------------- ----------------------------------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_28\_00(#larsoft-v04_28_00)
+larsoft v04\_28\_00
 ------------------------------------------
 
 -   2015-10-23 Lynn Garren : larsoft v04\_28\_00 for larsoft v04\_28\_00
 -   2015-10-23 Lynn Garren : update product versions
 
-lareventdisplay v04\_12\_01(#lareventdisplay-v04_12_01)
+lareventdisplay v04\_12\_01
 ----------------------------------------------------------
 
 -   2015-10-23 Lynn Garren : lareventdisplay v04\_12\_01 for larsoft v04\_28\_00
 
-larexamples v04\_06\_02(#larexamples-v04_06_02)
+larexamples v04\_06\_02
 --------------------------------------------------
 
 -   2015-10-23 Lynn Garren : larexamples v04\_06\_02 for larsoft v04\_28\_00
 
-larpandora v04\_08\_02(#larpandora-v04_08_02)
+larpandora v04\_08\_02
 ------------------------------------------------
 
 -   2015-10-23 Lynn Garren : larpandora v04\_08\_02 for larsoft v04\_28\_00
 
-larana v04\_15\_02(#larana-v04_15_02)
+larana v04\_15\_02
 ----------------------------------------
 
 -   2015-10-23 Lynn Garren : larana v04\_15\_02 for larsoft v04\_28\_00
 -   2015-10-23 Lynn Garren : produce the promised products
 
-larreco v04\_21\_01(#larreco-v04_21_01)
+larreco v04\_21\_01
 ------------------------------------------
 
 -   2015-10-23 Lynn Garren : larreco v04\_21\_01 for larsoft v04\_28\_00
 -   2015-10-23 Lynn Garren : don’t register a product which is never created
 
-larsim v04\_14\_00(#larsim-v04_14_00)
+larsim v04\_14\_00
 ----------------------------------------
 
 -   2015-10-23 Lynn Garren : larsim v04\_14\_00 for larsoft v04\_28\_00
 
-larevt v04\_13\_02(#larevt-v04_13_02)
+larevt v04\_13\_02
 ----------------------------------------
 
 -   2015-10-23 Lynn Garren : larevt v04\_13\_02 for larsoft v04\_28\_00
 
-lardata v04\_18\_00(#lardata-v04_18_00)
+lardata v04\_18\_00
 ------------------------------------------
 
 -   2015-10-23 Lynn Garren : lardata v04\_18\_00 for larsoft v04\_28\_00
 -   2015-10-23 Lynn Garren : make sure trig\_handle is not empty
 
-larcore v04\_19\_00(#larcore-v04_19_00)
+larcore v04\_19\_00
 ------------------------------------------
 
 -   2015-10-23 Lynn Garren : larcore v04\_19\_00 for larsoft v04\_28\_00
 
-larbatch v01\_18\_00(#larbatch-v01_18_00)
+larbatch v01\_18\_00
 --------------------------------------------
 
-larutils v1\_04\_01(#larutils-v1_04_01)
+larutils v1\_04\_01
 ------------------------------------------
 
 -   2015-10-23 Lynn Garren : larutils v1\_04\_01 for larsoft v04\_28\_00

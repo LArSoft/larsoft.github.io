@@ -1,4 +1,4 @@
-LArSoft v08\_57\_00 Release Notes(#LArSoft-v08_57_00-Release-Notes)
+LArSoft v08\_57\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -35,13 +35,13 @@ LArSoft v08\_57\_00 Release Notes(#LArSoft-v08_57_00-Release-Notes)
 Download instructions for [larsoft v08\_57\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_57_00/larsoft-v08_57_00.html)\
 Download instructions for [just larsoftobj v08\_29\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_02/larsoftobj-v08_29_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandora PR 8
@@ -57,7 +57,7 @@ New features(#New-features)
 -   larg4 PR 12
     -   Added ParticleListActionService configuration parameter to enable trajectory sparsification for MCParticles to reduce memory consumption in the ROOT output stage. If enabled this applies only to particles with full trajectories (as opposed to being called for all particles including those with only a start and and end point)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larsim PR 27
@@ -67,13 +67,13 @@ Bug fixes(#Bug-fixes)
 -   larsoft PR 14
     -   bug fixes for the larwire distribution
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_57\_00(#larsoft-v08_57_00)
+larsoft v08\_57\_00
 ------------------------------------------
 
 -   2020-07-08 Lynn Garren : larsoft v08\_57\_00 for larsoft v08\_57\_00
@@ -81,17 +81,17 @@ larsoft v08\_57\_00(#larsoft-v08_57_00)
 -   2020-07-02 Lynn Garren : Merge pull request \#14 from lgarren/feature/lg\_more\_larwire
 -   2020-07-02 Lynn Garren : adding libwda and art\_root\_io, and fixing pyqual
 
-lareventdisplay v08\_12\_20(#lareventdisplay-v08_12_20)
+lareventdisplay v08\_12\_20
 ----------------------------------------------------------
 
 -   2020-07-08 Lynn Garren : lareventdisplay v08\_12\_20 for larsoft v08\_57\_00
 
-larexamples v08\_06\_20(#larexamples-v08_06_20)
+larexamples v08\_06\_20
 --------------------------------------------------
 
 -   2020-07-08 Lynn Garren : larexamples v08\_06\_20 for larsoft v08\_57\_00
 
-larg4 v08\_14\_06(#larg4-v08_14_06)
+larg4 v08\_14\_06
 --------------------------------------
 
 -   2020-07-08 Lynn Garren : larg4 v08\_14\_06 for larsoft v08\_57\_00
@@ -99,7 +99,7 @@ larg4 v08\_14\_06(#larg4-v08_14_06)
 -   2020-07-06 David Rivera : Merge branch ‘develop’ of github.com:LArSoft/larg4 into feature\_drivera\_sparsify\_trajectories (pull in changes from larsoft\_suite\_v08\_56\_00 and develop HEAD )
 -   2020-07-06 David Rivera : Added fhicl parameter to enable simb::MCParticle::SparsifyTrajectory() method to be called on particles with full trajectories to reduce memory usage.
 
-larpandora v08\_13\_00(#larpandora-v08_13_00)
+larpandora v08\_13\_00
 ------------------------------------------------
 
 -   2020-07-08 Lynn Garren : m\_maxGapSize is unused
@@ -122,7 +122,7 @@ larpandora v08\_13\_00(#larpandora-v08_13_00)
 -   2020-05-20 Maria Brigida Brunetti : Add gaps between CRPs for ProtoDUNE DP
 -   2020-05-20 Etienne Chardonnet : Added unpolished LEM gaps in LArPandora.Input.cxx
 
-larrecodnn v08\_06\_00(#larrecodnn-v08_06_00)
+larrecodnn v08\_06\_00
 ------------------------------------------------
 
 -   2020-07-08 Lynn Garren : larrecodnn v08\_06\_00 for larsoft v08\_57\_00
@@ -133,36 +133,36 @@ larrecodnn v08\_06\_00(#larrecodnn-v08_06_00)
 -   2020-04-27 Tingjun Yang : Remove white space.
 -   2020-04-27 Tingjun Yang : Add Mike’s module to dump raw waveform info for ROI finding network training.
 
-larwirecell v08\_12\_16(#larwirecell-v08_12_16)
+larwirecell v08\_12\_16
 --------------------------------------------------
 
-larana v08\_17\_12(#larana-v08_17_12)
+larana v08\_17\_12
 ----------------------------------------
 
 -   2020-07-08 Lynn Garren : larana v08\_17\_12 for larsoft v08\_57\_00
 
-larreco v08\_32\_05(#larreco-v08_32_05)
+larreco v08\_32\_05
 ------------------------------------------
 
 -   2020-07-08 Lynn Garren : larreco v08\_32\_05 for larsoft v08\_57\_00
 
-larsim v08\_28\_01(#larsim-v08_28_01)
+larsim v08\_28\_01
 ----------------------------------------
 
 -   2020-07-08 Lynn Garren : larsim v08\_28\_01 for larsoft v08\_57\_00
 -   2020-07-03 Lynn Garren : Merge pull request \#27 from PetrilloAtWork/feature/gp\_LightSource
 -   2020-07-02 Gianluca Petrillo : LightSource bug fix: random generation location restored
 
-larevt v08\_12\_00(#larevt-v08_12_00)
+larevt v08\_12\_00
 ----------------------------------------
 
-lardata v08\_15\_09(#lardata-v08_15_09)
+lardata v08\_15\_09
 ------------------------------------------
 
-larcore v08\_11\_10(#larcore-v08_11_10)
+larcore v08\_11\_10
 ------------------------------------------
 
-larpandoracontent v03\_17\_00(#larpandoracontent-v03_17_00)
+larpandoracontent v03\_17\_00
 --------------------------------------------------------------
 
 -   2020-07-08 Lynn Garren : larpandoracontent v03\_17\_00 for larsoft v08\_57\_00
@@ -246,26 +246,26 @@ larpandoracontent v03\_17\_00(#larpandoracontent-v03_17_00)
 -   2020-06-19 johnmarshall80 : Merge pull request [\#128](/redmine/issues/128 "Feature: Add quadrant leaders to signature requirements (New)") from AndyChappell/feature/cpp17
 -   2020-06-19 Andy Chappell : Move to C++17 standard
 
-larsoftobj v08\_29\_02(#larsoftobj-v08_29_02)
+larsoftobj v08\_29\_02
 ------------------------------------------------
 
-lardataobj v08\_11\_02(#lardataobj-v08_11_02)
+lardataobj v08\_11\_02
 ------------------------------------------------
 
-lardataalg v08\_13\_14(#lardataalg-v08_13_14)
+lardataalg v08\_13\_14
 ------------------------------------------------
 
-larcorealg v08\_22\_02(#larcorealg-v08_22_02)
+larcorealg v08\_22\_02
 ------------------------------------------------
 
-larcoreobj v08\_12\_01(#larcoreobj-v08_12_01)
+larcoreobj v08\_12\_01
 ------------------------------------------------
 
-webevd v08\_00\_07(#webevd-v08_00_07)
+webevd v08\_00\_07
 ----------------------------------------
 
-larbatch v01\_52\_02(#larbatch-v01_52_02)
+larbatch v01\_52\_02
 --------------------------------------------
 
-larutils v1\_26\_00(#larutils-v1_26_00)
+larutils v1\_26\_00
 ------------------------------------------

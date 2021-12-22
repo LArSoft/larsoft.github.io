@@ -1,4 +1,4 @@
-LArSoft v06\_17\_00 Release Notes(#LArSoft-v06_17_00-Release-Notes)
+LArSoft v06\_17\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,14 +30,14 @@ LArSoft v06\_17\_00 Release Notes(#LArSoft-v06_17_00-Release-Notes)
 Download instructions for [larsoft v06\_17\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_17_00/larsoft-v06_17_00.html)\
 Download instructions for [just larsoftobj v1\_08\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_08_02/larsoftobj-v1_08_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
 -   genie v2\_12\_2
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   remove setup of genie\_xsec and genie\_phyopt from larsim
@@ -50,7 +50,7 @@ New features(#New-features)
 -   requested analyzer added to larpandora
 -   larpandoracontent has changes related to performance monitoring
 
-GENIE(#GENIE)
+GENIE
 ----------------
 
 In going from R-2\_10\_X to R-2\_12\_0, more values were added to an enum, but in the middle of the list rather than at the end.
@@ -59,10 +59,10 @@ Because of the way the information is stored (essentially indexed by this enum),
 
 GENIE R-2\_12\_2 restores the order to the older values and puts the new ones at the end.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   --------- -------------- ------------ --------------------------------------------------------------------------------------------------
@@ -72,10 +72,10 @@ Updated dependencies(#Updated-dependencies)
   dk2nu     v01\_04\_01g   e10:r6       
   --------- -------------- ------------ --------------------------------------------------------------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_17\_00(#larsoft-v06_17_00)
+larsoft v06\_17\_00
 ------------------------------------------
 
 -   2016-12-08 Lynn Garren : larsoft v06\_17\_00 for larsoft v06\_17\_00
@@ -83,17 +83,17 @@ larsoft v06\_17\_00(#larsoft-v06_17_00)
 -   2016-12-08 Lynn Garren : update product versions
 -   2016-12-05 Lynn Garren : add bin/python/SerialSubstitution.py to PYTHONPATH
 
-lareventdisplay v06\_02\_04(#lareventdisplay-v06_02_04)
+lareventdisplay v06\_02\_04
 ----------------------------------------------------------
 
 -   2016-12-08 Lynn Garren : lareventdisplay v06\_02\_04 for larsoft v06\_17\_00
 
-larexamples v06\_01\_05(#larexamples-v06_01_05)
+larexamples v06\_01\_05
 --------------------------------------------------
 
 -   2016-12-08 Lynn Garren : larexamples v06\_01\_05 for larsoft v06\_17\_00
 
-larpandora v06\_04\_00(#larpandora-v06_04_00)
+larpandora v06\_04\_00
 ------------------------------------------------
 
 -   2016-12-08 Lynn Garren : larpandora v06\_04\_00 for larsoft v06\_17\_00
@@ -109,13 +109,13 @@ larpandora v06\_04\_00(#larpandora-v06_04_00)
 -   2016-12-06 John Marshall : Merge branch ‘updates’ into develop
 -   2016-12-06 John Marshall : PandoraSettings files in LArPandoraInterface/scripts are now for use with generic detector models at DUNE; those in MicroBooNEPandora/scripts are for MicroBooNE usage.
 
-larwirecell(#larwirecell)
+larwirecell
 ----------------------------
 
 -   2016-12-08 Lynn Garren : larwirecell for larsoft v06\_17\_00
 -   2016-12-08 Lynn Garren : pick up larcoreobj headers
 
-larana v06\_03\_08(#larana-v06_03_08)
+larana v06\_03\_08
 ----------------------------------------
 
 -   2016-12-08 Lynn Garren : larana v06\_03\_08 for larsoft v06\_17\_00
@@ -123,7 +123,7 @@ larana v06\_03\_08(#larana-v06_03_08)
 -   2016-11-30 Usher, Tracy L : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larana into develop
 -   2016-11-29 Usher, Tracy L : Add fcl controllable parameter to reject PFParticle hierarchies if more than n hits “out of time”
 
-larreco v06\_12\_01(#larreco-v06_12_01)
+larreco v06\_12\_01
 ------------------------------------------
 
 -   2016-12-08 Lynn Garren : larreco v06\_12\_01 for larsoft v06\_17\_00
@@ -142,7 +142,7 @@ larreco v06\_12\_01(#larreco-v06_12_01)
 -   2016-11-22 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2016-11-22 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/tjyang\_TJWork
 
-larsim v06\_09\_00(#larsim-v06_09_00)
+larsim v06\_09\_00
 ----------------------------------------
 
 -   2016-12-08 Lynn Garren : larsim v06\_09\_00 for larsoft v06\_17\_00
@@ -152,7 +152,7 @@ larsim v06\_09\_00(#larsim-v06_09_00)
 -   2016-12-01 Jason Stock : adding all changes in
 -   2016-12-01 Jason Stock : Merging PhotonBackTracker in
 
-larevt v06\_07\_00(#larevt-v06_07_00)
+larevt v06\_07\_00
 ----------------------------------------
 
 -   2016-12-08 Lynn Garren : larevt v06\_07\_00 for larsoft v06\_17\_00
@@ -161,24 +161,24 @@ larevt v06\_07\_00(#larevt-v06_07_00)
 -   2016-12-02 Brandon Eberly : Fixed some error messages
 -   2016-11-29 Brandon Eberly : Electronics Calibrations Provider and Service
 
-lardata v06\_10\_01(#lardata-v06_10_01)
+lardata v06\_10\_01
 ------------------------------------------
 
 -   2016-12-08 Lynn Garren : lardata v06\_10\_01 for larsoft v06\_17\_00
 -   2016-12-08 Lynn Garren : nutools v2\_09\_00
 
-larcore v06\_05\_00(#larcore-v06_05_00)
+larcore v06\_05\_00
 ------------------------------------------
 
 -   2016-12-08 Lynn Garren : larcore v06\_05\_00 for larsoft v06\_17\_00
 -   2016-12-06 Gianluca Petrillo : Removed geo::PlaneGeo::SignalType() and geo::PlaneGeo::SetSignalType()
 
-larsoftobj v1\_08\_02(#larsoftobj-v1_08_02)
+larsoftobj v1\_08\_02
 ----------------------------------------------
 
 -   2016-12-08 Lynn Garren : larsoftobj v1\_08\_02 for larsoft v06\_17\_00
 
-lardataobj v1\_08\_00(#lardataobj-v1_08_00)
+lardataobj v1\_08\_00
 ----------------------------------------------
 
 -   2016-12-08 Lynn Garren : lardataobj v1\_08\_00 for larsoft v06\_17\_00
@@ -187,10 +187,10 @@ lardataobj v1\_08\_00(#lardataobj-v1_08_00)
 -   2016-12-01 Jason Stock : Merging in code for distibution.
 -   2016-11-08 Gianluca Petrillo : Fixed documentation.
 
-larcoreobj v1\_06\_01(#larcoreobj-v1_06_01)
+larcoreobj v1\_06\_01
 ----------------------------------------------
 
-larbatch v01\_25\_00(#larbatch-v01_25_00)
+larbatch v01\_25\_00
 --------------------------------------------
 
 -   2016-12-08 Lynn Garren : larbatch v01\_25\_00 for larsoft v06\_17\_00
@@ -206,5 +206,5 @@ larbatch v01\_25\_00(#larbatch-v01_25_00)
 -   2016-12-05 Herbert Greenlee : Remove duplicate copies.
 -   2016-12-01 Tingjun Yang : Fix textfile mode.
 
-larutils v1\_11\_00(#larutils-v1_11_00)
+larutils v1\_11\_00
 ------------------------------------------

@@ -1,4 +1,4 @@
-LArSoft v08\_32\_00 Release Notes(#LArSoft-v08_32_00-Release-Notes)
+LArSoft v08\_32\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,14 +33,14 @@ LArSoft v08\_32\_00 Release Notes(#LArSoft-v08_32_00-Release-Notes)
 Download instructions for [larsoft v08\_32\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_32_00/larsoft-v08_32_00.html)\
 Download instructions for [just larsoftobj v08\_18\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_18_01/larsoftobj-v08_18_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 -   resolve [\#23348](/redmine/issues/23348 "Bug: Memory leaks while reading artdaq Fragments from data files (Closed)")
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larwirecell feature/wgu\_simChannel
@@ -49,14 +49,14 @@ New features(#New-features)
     -   see [\#23343](/redmine/issues/23343 "Feature: thread-safe replacement for LArFFT (Closed)")
     -   as part of adding LArFFTW to lardata/Utilities, MarqFitAlg was move from larreco to lardata/Utilities
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   root v6\_18\_04b resolves [\#23348](/redmine/issues/23348 "Bug: Memory leaks while reading artdaq Fragments from data files (Closed)")
     -   Reading certain DUNE data fragments with root v6\_18\_04 triggered a bug that had been in root for a very long time.
     -   This bug was identified and fixed with a patch in root v6\_18\_04b
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   root v6\_18\_04b
@@ -79,36 +79,36 @@ Updated dependencies(#Updated-dependencies)
 -   marley v1\_1\_1c
 -   pandora v03\_11\_01e
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_32\_00(#larsoft-v08_32_00)
+larsoft v08\_32\_00
 ------------------------------------------
 
 -   2019-10-03 Lynn Garren : larsoft v08\_32\_00 for larsoft v08\_32\_00
 -   2019-10-03 Lynn Garren : Product versions
 
-lareventdisplay v08\_08\_15(#lareventdisplay-v08_08_15)
+lareventdisplay v08\_08\_15
 ----------------------------------------------------------
 
 -   2019-10-03 Lynn Garren : lareventdisplay v08\_08\_15 for larsoft v08\_32\_00
 
-larexamples v08\_02\_21(#larexamples-v08_02_21)
+larexamples v08\_02\_21
 --------------------------------------------------
 
 -   2019-10-03 Lynn Garren : larexamples v08\_02\_21 for larsoft v08\_32\_00
 
-larg4 v08\_04\_01(#larg4-v08_04_01)
+larg4 v08\_04\_01
 --------------------------------------
 
 -   2019-10-03 Lynn Garren : larg4 v08\_04\_01 for larsoft v08\_32\_00
 
-larpandora v08\_07\_19(#larpandora-v08_07_19)
+larpandora v08\_07\_19
 ------------------------------------------------
 
 -   2019-10-03 Lynn Garren : larpandora v08\_07\_19 for larsoft v08\_32\_00
 
-larwirecell v08\_06\_00(#larwirecell-v08_06_00)
+larwirecell v08\_06\_00
 --------------------------------------------------
 
 -   2019-10-03 Lynn Garren : larwirecell v08\_06\_00 for larsoft v08\_32\_00
@@ -116,29 +116,29 @@ larwirecell v08\_06\_00(#larwirecell-v08_06_00)
 -   2019-10-01 Wenqiang Gu : keep it compatible with uboone so far
 -   2019-09-23 Wenqiang Gu : generic simChannelSink
 
-larana v08\_10\_15(#larana-v08_10_15)
+larana v08\_10\_15
 ----------------------------------------
 
 -   2019-10-03 Lynn Garren : larana v08\_10\_15 for larsoft v08\_32\_00
 
-larreco v08\_19\_00(#larreco-v08_19_00)
+larreco v08\_19\_00
 ------------------------------------------
 
 -   2019-10-03 Lynn Garren : larreco v08\_19\_00 for larsoft v08\_32\_00
 -   2019-10-02 Lynn Garren : move MarqFitAlg to lardata Utilities
 -   2019-10-01 Usher, Tracy L : Enabling better output for the diagnostics mode of the candidate peak finder. This required a slight modification to the interface class. These changes should be minor and non-breaking to standard users (icaruscode needs this for some updates it has in the pipeline).
 
-larsim v08\_13\_02(#larsim-v08_13_02)
+larsim v08\_13\_02
 ----------------------------------------
 
 -   2019-10-03 Lynn Garren : larsim v08\_13\_02 for larsoft v08\_32\_00
 
-larevt v08\_06\_11(#larevt-v08_06_11)
+larevt v08\_06\_11
 ----------------------------------------
 
 -   2019-10-03 Lynn Garren : larevt v08\_06\_11 for larsoft v08\_32\_00
 
-lardata v08\_08\_00(#lardata-v08_08_00)
+lardata v08\_08\_00
 ------------------------------------------
 
 -   2019-10-03 Lynn Garren : lardata v08\_08\_00 for larsoft v08\_32\_00
@@ -146,49 +146,49 @@ lardata v08\_08\_00(#lardata-v08_08_00)
 -   2019-10-02 Lynn Garren : move MarqFitAlg here from larreco
 -   2019-09-26 Michael Wang : added thread-safe version of LArFFT called LArFFTW
 
-larcore v08\_05\_02(#larcore-v08_05_02)
+larcore v08\_05\_02
 ------------------------------------------
 
 -   2019-10-03 Lynn Garren : larcore v08\_05\_02 for larsoft v08\_32\_00
 
-larpandoracontent v03\_15\_06(#larpandoracontent-v03_15_06)
+larpandoracontent v03\_15\_06
 --------------------------------------------------------------
 
 -   2019-10-03 Lynn Garren : larpandoracontent v03\_15\_06 for larsoft v08\_32\_00
 -   2019-10-03 Lynn Garren : v03\_15\_06 with root v6\_18\_04b
 
-larsoftobj v08\_18\_01(#larsoftobj-v08_18_01)
+larsoftobj v08\_18\_01
 ------------------------------------------------
 
 -   2019-10-03 Lynn Garren : larsoftobj v08\_18\_01 for larsoft v08\_32\_00
 -   2019-10-03 Lynn Garren : versions
 -   2019-10-03 Lynn Garren : product versions
 
-lardataobj v08\_05\_01(#lardataobj-v08_05_01)
+lardataobj v08\_05\_01
 ------------------------------------------------
 
 -   2019-10-03 Lynn Garren : lardataobj v08\_05\_01 for larsoft v08\_32\_00
 
-lardataalg v08\_08\_07(#lardataalg-v08_08_07)
+lardataalg v08\_08\_07
 ------------------------------------------------
 
 -   2019-10-03 Lynn Garren : lardataalg v08\_08\_07 for larsoft v08\_32\_00
 
-larcorealg v08\_14\_04(#larcorealg-v08_14_04)
+larcorealg v08\_14\_04
 ------------------------------------------------
 
 -   2019-10-03 Lynn Garren : larcorealg v08\_14\_04 for larsoft v08\_32\_00
 
-larcoreobj v08\_05\_05(#larcoreobj-v08_05_05)
+larcoreobj v08\_05\_05
 ------------------------------------------------
 
 -   2019-10-03 Lynn Garren : larcoreobj v08\_05\_05 for larsoft v08\_32\_00
 
-larbatch v01\_51\_08(#larbatch-v01_51_08)
+larbatch v01\_51\_08
 --------------------------------------------
 
 -   2019-10-03 Lynn Garren : larbatch v01\_51\_08 for larsoft v08\_32\_00
 -   2019-09-26 Herbert Greenlee : Add optional stage xml element batchname.
 
-larutils v1\_24\_04(#larutils-v1_24_04)
+larutils v1\_24\_04
 ------------------------------------------

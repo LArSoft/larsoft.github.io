@@ -1,4 +1,4 @@
-LArSoft v08\_13\_00 Release Notes(#LArSoft-v08_13_00-Release-Notes)
+LArSoft v08\_13\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,23 +33,23 @@ LArSoft v08\_13\_00 Release Notes(#LArSoft-v08_13_00-Release-Notes)
 Download instructions for [larsoft v08\_13\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_13_00/larsoft-v08_13_00.html)\
 Download instructions for [just larsoftobj v08\_08\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_08_00/larsoftobj-v08_08_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   updates to light simulation
     -   larsim larana feature/lightprop\_ugr\_mcr
     -   [https://indico.fnal.gov/event/20138/contribution/1/material/slides/0.pdf](https://indico.fnal.gov/event/20138/contribution/1/material/slides/0.pdf)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   nutools v2\_26\_11
@@ -59,41 +59,41 @@ Updated dependencies(#Updated-dependencies)
 
 -   nusystematics v00\_02\_10
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_13\_00(#larsoft-v08_13_00)
+larsoft v08\_13\_00
 ------------------------------------------
 
 -   2019-03-13 Lynn Garren : product versions
 -   2019-03-13 Lynn Garren : larsoft v08\_13\_00 for larsoft v08\_13\_00
 
-lareventdisplay v08\_03\_09(#lareventdisplay-v08_03_09)
+lareventdisplay v08\_03\_09
 ----------------------------------------------------------
 
 -   2019-03-13 Lynn Garren : lareventdisplay v08\_03\_09 for larsoft v08\_13\_00
 
-larexamples v08\_01\_09(#larexamples-v08_01_09)
+larexamples v08\_01\_09
 --------------------------------------------------
 
 -   2019-03-13 Lynn Garren : larexamples v08\_01\_09 for larsoft v08\_13\_00
 
-larg4 v08\_01\_09(#larg4-v08_01_09)
+larg4 v08\_01\_09
 --------------------------------------
 
 -   2019-03-13 Lynn Garren : larg4 v08\_01\_09 for larsoft v08\_13\_00
 
-larpandora v08\_05\_02(#larpandora-v08_05_02)
+larpandora v08\_05\_02
 ------------------------------------------------
 
 -   2019-03-13 Lynn Garren : larpandora v08\_05\_02 for larsoft v08\_13\_00
 
-larwirecell v08\_03\_02(#larwirecell-v08_03_02)
+larwirecell v08\_03\_02
 --------------------------------------------------
 
 -   2019-03-13 Lynn Garren : larwirecell v08\_03\_02 for larsoft v08\_13\_00
 
-larana v08\_04\_00(#larana-v08_04_00)
+larana v08\_04\_00
 ----------------------------------------
 
 -   2019-03-13 Lynn Garren : larana v08\_04\_00 for larsoft v08\_13\_00
@@ -109,12 +109,12 @@ larana v08\_04\_00(#larana-v08_04_00)
 -   2019-02-26 Andrzej Szelc : modifying simPhotonCounter to take Reflected light, first try
 -   2019-02-18 Diego Gamez : updating light analysis tree
 
-larreco v08\_10\_01(#larreco-v08_10_01)
+larreco v08\_10\_01
 ------------------------------------------
 
 -   2019-03-13 Lynn Garren : larreco v08\_10\_01 for larsoft v08\_13\_00
 
-larsim v08\_04\_00(#larsim-v08_04_00)
+larsim v08\_04\_00
 ----------------------------------------
 
 -   2019-03-13 Lynn Garren : larsim v08\_04\_00 for larsoft v08\_13\_00
@@ -142,39 +142,39 @@ larsim v08\_04\_00(#larsim-v08_04_00)
 -   2019-02-20 Patrick Green : restructured VUV GH input
 -   2019-02-18 Diego Gamez : towards semianalytic opfast mode
 
-larevt v08\_02\_05(#larevt-v08_02_05)
+larevt v08\_02\_05
 ----------------------------------------
 
 -   2019-03-13 Lynn Garren : larevt v08\_02\_05 for larsoft v08\_13\_00
 
-lardata v08\_03\_06(#lardata-v08_03_06)
+lardata v08\_03\_06
 ------------------------------------------
 
 -   2019-03-13 Lynn Garren : lardata v08\_03\_06 for larsoft v08\_13\_00
 
-larcore v08\_02\_02(#larcore-v08_02_02)
+larcore v08\_02\_02
 ------------------------------------------
 
-larpandoracontent v03\_14\_05(#larpandoracontent-v03_14_05)
+larpandoracontent v03\_14\_05
 --------------------------------------------------------------
 
-larsoftobj v08\_08\_00(#larsoftobj-v08_08_00)
+larsoftobj v08\_08\_00
 ------------------------------------------------
 
-lardataobj v08\_02\_03(#lardataobj-v08_02_03)
+lardataobj v08\_02\_03
 ------------------------------------------------
 
-lardataalg v08\_04\_02(#lardataalg-v08_04_02)
+lardataalg v08\_04\_02
 ------------------------------------------------
 
-larcorealg v08\_05\_00(#larcorealg-v08_05_00)
+larcorealg v08\_05\_00
 ------------------------------------------------
 
-larcoreobj v08\_02\_02(#larcoreobj-v08_02_02)
+larcoreobj v08\_02\_02
 ------------------------------------------------
 
-larbatch v01\_48\_01(#larbatch-v01_48_01)
+larbatch v01\_48\_01
 --------------------------------------------
 
-larutils v1\_23\_13(#larutils-v1_23_13)
+larutils v1\_23\_13
 ------------------------------------------

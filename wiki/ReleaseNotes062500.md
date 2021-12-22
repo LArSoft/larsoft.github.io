@@ -1,4 +1,4 @@
-LArSoft v06\_25\_00 Release Notes(#LArSoft-v06_25_00-Release-Notes)
+LArSoft v06\_25\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,13 +30,13 @@ LArSoft v06\_25\_00 Release Notes(#LArSoft-v06_25_00-Release-Notes)
 Download instructions for [larsoft v06\_25\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_25_00/larsoft-v06_25_00.html)\
 Download instructions for [just larsoftobj v1\_11\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_11_00/larsoftobj-v1_11_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   approved features
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   lardataobj, larpandora feature/gp\_LArShowerPfoSuggestions
@@ -46,35 +46,35 @@ New features(#New-features)
 -   larsim feature/trj\_radiogeom
     -   [Radiological generator and geometry](https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=13823)
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lardata [\#15400](/redmine/issues/15400 "Bug: unit test test_feag and test_feag2 fail on MacOS only (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_25\_00(#larsoft-v06_25_00)
+larsoft v06\_25\_00
 ------------------------------------------
 
 -   2017-02-15 Lynn Garren : larsoft v06\_25\_00 for larsoft v06\_25\_00
 -   2017-02-15 Lynn Garren : update product versions
 -   2017-02-15 Lynn Garren : update dependency database
 
-lareventdisplay v06\_02\_13(#lareventdisplay-v06_02_13)
+lareventdisplay v06\_02\_13
 ----------------------------------------------------------
 
 -   2017-02-15 Lynn Garren : lareventdisplay v06\_02\_13 for larsoft v06\_25\_00
 
-larexamples v06\_01\_14(#larexamples-v06_01_14)
+larexamples v06\_01\_14
 --------------------------------------------------
 
 -   2017-02-15 Lynn Garren : larexamples v06\_01\_14 for larsoft v06\_25\_00
 
-larpandora v06\_07\_00(#larpandora-v06_07_00)
+larpandora v06\_07\_00
 ------------------------------------------------
 
 -   2017-02-15 Lynn Garren : larpandora now depends directly on eigen
@@ -99,17 +99,17 @@ larpandora v06\_07\_00(#larpandora-v06_07_00)
 -   2017-02-02 John Marshall : Placeholder shower output code.
 -   2017-02-02 John Marshall : Add LArPandoraShowers content, with eigen dependency. This content may move to separate larpandoracontent library as it matures.
 
-larwirecell v06\_00\_11(#larwirecell-v06_00_11)
+larwirecell v06\_00\_11
 --------------------------------------------------
 
 -   2017-02-15 Lynn Garren : larwirecell v06\_00\_11 for larsoft v06\_25\_00
 
-larana v06\_03\_17(#larana-v06_03_17)
+larana v06\_03\_17
 ----------------------------------------
 
 -   2017-02-15 Lynn Garren : larana v06\_03\_17 for larsoft v06\_25\_00
 
-larreco v06\_19\_00(#larreco-v06_19_00)
+larreco v06\_19\_00
 ------------------------------------------
 
 -   2017-02-15 Lynn Garren : larreco v06\_19\_00 for larsoft v06\_25\_00
@@ -270,7 +270,7 @@ larreco v06\_19\_00(#larreco-v06_19_00)
 -   2016-11-29 Bruce Baller : Add switch to turn off ReversePropagate code in FixTrajBegin
 -   2016-11-29 Bruce Baller : Add switch to turn off ReversePropagate code in FixTrajBegin
 
-larsim v06\_13\_00(#larsim-v06_13_00)
+larsim v06\_13\_00
 ----------------------------------------
 
 -   2017-02-15 Lynn Garren : larsim v06\_13\_00 for larsoft v06\_25\_00
@@ -282,12 +282,12 @@ larsim v06\_13\_00(#larsim-v06_13_00)
 -   2017-02-01 Thomas Junk : make radiogen aware of geometry – need to specify which materials are radioactive and skip others in the prism
 -   2017-02-01 Thomas Junk : Make radiogen aware of geometry – specify only those materials we want to be radioactive and skip others
 
-larevt v06\_07\_08(#larevt-v06_07_08)
+larevt v06\_07\_08
 ----------------------------------------
 
 -   2017-02-15 Lynn Garren : larevt v06\_07\_08 for larsoft v06\_25\_00
 
-lardata v06\_14\_03(#lardata-v06_14_03)
+lardata v06\_14\_03
 ------------------------------------------
 
 -   2017-02-15 Lynn Garren : lardata v06\_14\_03 for larsoft v06\_25\_00
@@ -301,18 +301,18 @@ lardata v06\_14\_03(#lardata-v06_14_03)
 -   2017-02-08 Gianluca Petrillo : Added artless unit test for associated\_groups().
 -   2017-02-08 Gianluca Petrillo : Fixed the test of for\_each\_associated\_groups().
 
-larcore v06\_05\_02(#larcore-v06_05_02)
+larcore v06\_05\_02
 ------------------------------------------
 
-larpandoracontent v03\_02\_00(#larpandoracontent-v03_02_00)
+larpandoracontent v03\_02\_00
 --------------------------------------------------------------
 
-larsoftobj v1\_11\_00(#larsoftobj-v1_11_00)
+larsoftobj v1\_11\_00
 ----------------------------------------------
 
 -   2017-02-15 Lynn Garren : larsoftobj v1\_11\_00 for larsoft v06\_25\_00
 
-lardataobj v1\_11\_00(#lardataobj-v1_11_00)
+lardataobj v1\_11\_00
 ----------------------------------------------
 
 -   2017-02-15 Lynn Garren : lardataobj v1\_11\_00 for larsoft v06\_25\_00
@@ -332,13 +332,13 @@ lardataobj v1\_11\_00(#lardataobj-v1_11_00)
 -   2017-02-02 Yun-Tse Tsai : add more variables for the shower object
 -   2017-02-02 Yun-Tse Tsai : add more variables for the shower object
 
-larcoreobj v1\_06\_02(#larcoreobj-v1_06_02)
+larcoreobj v1\_06\_02
 ----------------------------------------------
 
-larbatch v01\_26\_05(#larbatch-v01_26_05)
+larbatch v01\_26\_05
 --------------------------------------------
 
-larutils v1\_11\_01(#larutils-v1_11_01)
+larutils v1\_11\_01
 ------------------------------------------
 
 -   2017-02-15 Lynn Garren : larutils v1\_11\_01 for larsoft v06\_25\_00

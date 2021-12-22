@@ -1,4 +1,4 @@
-LArSoft v04\_25\_00 Release Notes(#LArSoft-v04_25_00-Release-Notes)
+LArSoft v04\_25\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -25,13 +25,13 @@ LArSoft v04\_25\_00 Release Notes(#LArSoft-v04_25_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_25_00/larsoft-v04_25_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   Changes to develop since v04\_24\_00
 -   New features listed below
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   WireCell
@@ -51,15 +51,15 @@ New features(#New-features)
     -   lareventdisplay feature/eberly\_channelfilter
     -   uboonecode feature/eberly\_channelfilter
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Known issues(#Known-issues)
+Known issues
 ------------------------------
 
 Although all available tests passed, there are still some issues with the [Channel Status service changes](https://cdcvs.fnal.govBreaking_Changes#ChannelStatus-readiness)
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ------------------- ------------- ----------- ----------------------------------------
@@ -69,28 +69,28 @@ Updated dependencies(#Updated-dependencies)
   larpandoracontent   v02\_03\_00   e7:nu       depends on pandora, may change rapidly
   ------------------- ------------- ----------- ----------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_25\_00(#larsoft-v04_25_00)
+larsoft v04\_25\_00
 ------------------------------------------
 
 -   2015-10-01 Lynn Garren : larsoft v04\_25\_00 for larsoft v04\_25\_00
 -   2015-10-01 Lynn Garren : update dependency database
 
-lareventdisplay v04\_09\_01(#lareventdisplay-v04_09_01)
+lareventdisplay v04\_09\_01
 ----------------------------------------------------------
 
 -   2015-10-01 Lynn Garren : lareventdisplay v04\_09\_01 for larsoft v04\_25\_00
 -   2015-09-30 Brandon Eberly : merge with develop
 -   2015-08-29 Brandon Eberly : Update to work with service-based ChannelFilter
 
-larexamples v04\_05\_06(#larexamples-v04_05_06)
+larexamples v04\_05\_06
 --------------------------------------------------
 
 -   2015-10-01 Lynn Garren : larexamples v04\_05\_06 for larsoft v04\_25\_00
 
-larpandora v04\_07\_00(#larpandora-v04_07_00)
+larpandora v04\_07\_00
 ------------------------------------------------
 
 -   2015-10-01 Lynn Garren : larpandora v04\_07\_00 for larsoft v04\_25\_00
@@ -98,12 +98,12 @@ larpandora v04\_07\_00(#larpandora-v04_07_00)
 -   2015-09-30 Lynn Garren : Merge branch ‘feature/PrepareForPandora\_v02-02-00’ into work
 -   2015-09-25 John Marshall : Updated settings for use with Pandora v02-02-00, using new algorithms in LArPandoraContent v02-02-00. Options for reconstructing entire events as a single neutrino, or slicing-up events into separate interactions. Adjusted minimum package version for Pandora.
 
-larana v04\_12\_05(#larana-v04_12_05)
+larana v04\_12\_05
 ----------------------------------------
 
 -   2015-10-01 Lynn Garren : larana v04\_12\_05 for larsoft v04\_25\_00
 
-larreco v04\_18\_00(#larreco-v04_18_00)
+larreco v04\_18\_00
 ------------------------------------------
 
 -   2015-10-01 Lynn Garren : larreco v04\_18\_00 for larsoft v04\_25\_00
@@ -124,14 +124,14 @@ larreco v04\_18\_00(#larreco-v04_18_00)
 -   2015-09-06 Tingjun Yang : Use cryostat and tpc numbers in the ttree.
 -   2015-09-05 Tingjun Yang : Add module to merge wirecell reconstruction with larsoft root file.
 
-larsim v04\_11\_01(#larsim-v04_11_01)
+larsim v04\_11\_01
 ----------------------------------------
 
 -   2015-10-01 Lynn Garren : larsim v04\_11\_01 for larsoft v04\_25\_00
 -   2015-09-28 Thomas Warburton : Adding protections for if input file is incorrectly specified. Before events were hanging if the file was not found. Also adding an example generaion script for MUSUN.
 -   2015-09-25 Thomas Warburton : Also pushed tilda files, so removing them. Sorry.
 
-larevt v04\_11\_00(#larevt-v04_11_00)
+larevt v04\_11\_00
 ----------------------------------------
 
 -   2015-10-01 Lynn Garren : larevt v04\_11\_00 for larsoft v04\_25\_00
@@ -159,17 +159,17 @@ larevt v04\_11\_00(#larevt-v04_11_00)
 -   2014-11-25 Gianluca Petrillo : Added a function filtering out bad digits from a list
 -   2014-11-25 Gianluca Petrillo : Issue [\#1083](/redmine/issues/1083 "Bug: filter::ChannelFilter should be made into a service (Closed)"): ChannelFilter moved into a service
 
-lardata v04\_14\_02(#lardata-v04_14_02)
+lardata v04\_14\_02
 ------------------------------------------
 
 -   2015-10-01 Lynn Garren : lardata v04\_14\_02 for larsoft v04\_25\_00
 -   2015-10-01 Thomas Warburton : Made a mistake with adding the variable, which is now fixed.
 -   2015-10-01 Thomas Warburton : Adding TriggerConfidence to T0 object, and adding descriptions for each member
 
-larcore v04\_17\_00(#larcore-v04_17_00)
+larcore v04\_17\_00
 ------------------------------------------
 
-larbatch v01\_16\_00(#larbatch-v01_16_00)
+larbatch v01\_16\_00
 --------------------------------------------
 
 -   2015-10-01 Lynn Garren : larbatch v01\_16\_00 for larsoft v04\_25\_00
@@ -181,5 +181,5 @@ larbatch v01\_16\_00(#larbatch-v01_16_00)
 -   2015-09-30 Herbert Greenlee : Modify batch worker scripts to handle dynamic subruns.
 -   2015-09-30 Herbert Greenlee : Add script subruns.py to extract runs and subruns from artroot file.
 
-larutils v1\_03\_02(#larutils-v1_03_02)
+larutils v1\_03\_02
 ------------------------------------------

@@ -1,4 +1,4 @@
-Release Managers and Offline Coordinators(#Release-Managers-and-Offline-Coordinators)
+Release Managers and Offline Coordinators
 ========================================================================================
 
 -   **Table of contents**
@@ -7,7 +7,7 @@ Release Managers and Offline Coordinators(#Release-Managers-and-Offline-Coordina
     -   [Relevant Meetings](#Relevant-Meetings)
     -   [Offline coordinators](#Offline-coordinators)
 
-Release Managers(#Release-Managers)
+Release Managers
 --------------------------------------
 
 LArSoft itself and each experiment have a release manager.
@@ -22,7 +22,7 @@ LArSoft itself and each experiment have a release manager.
   [SBND](/redmine/projects/sbndcode/wiki)   [Tom Brooks](/redmine/projects/sbndcode/wiki/List_of_SBND_code_releases)
   ICARUS                                    Tracy Usher
 
-Relevant Meetings(#Relevant-Meetings)
+Relevant Meetings
 ----------------------------------------
 
   Meeting                                                                                    Frequency   Time/Location   Organizer
@@ -30,7 +30,7 @@ Relevant Meetings(#Relevant-Meetings)
   [LArSoft Coordination Meeting](https://indico.fnal.gov/categoryDisplay.py?categId=405)     biweekly    Tue 9 am        Erica Snider
   [LArSoft Steering Group Meeting](https://indico.fnal.gov/categoryDisplay.py?categId=234)   quarterly   Varies          Erica Snider
 
-Offline coordinators(#Offline-coordinators)
+Offline coordinators
 ----------------------------------------------
 
   Experiment   Coordinators

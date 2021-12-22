@@ -1,16 +1,16 @@
-Release Notes 1.01.00(#Release-Notes-10100)
+Release Notes 1.01.00
 ==============================================
 
 This is the first build with art v1\_09\_02. The code used for the v1\_01\_00 tag is identical to the code used for the v1\_00\_08 tag, with the exception of ups/product\_deps in each package.
 
-Comments(#Comments)
+Comments
 ----------------------
 
 This release is built with gcc 4.8.2 and cmake 2.8.12.2. The combination of new gcc and cmake is required for the Mavericks build. Many other packages have been updated as well. However, there are no changes required to the code. The build simply uses the new set of products.
 
 This cmake warning is ignorable: Obsolete function cet\_check\_gcc called – NOP.
 
-Product Comparison(#Product-Comparison)
+Product Comparison
 ------------------------------------------
 
 In many cases, only the build changed. In other cases, picking up the latest release solved OSX build problems.

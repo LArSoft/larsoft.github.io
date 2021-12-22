@@ -1,4 +1,4 @@
-LArSoft v06\_75\_01 Release Notes(#LArSoft-v06_75_01-Release-Notes)
+LArSoft v06\_75\_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,52 +31,52 @@ LArSoft v06\_75\_01 Release Notes(#LArSoft-v06_75_01-Release-Notes)
 Download instructions for [larsoft v06\_75\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_75_01/larsoft-v06_75_01.html)\
 Download instructions for [just larsoftobj v1\_43\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_43_01/larsoftobj-v1_43_01.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_75\_01(#larsoft-v06_75_01)
+larsoft v06\_75\_01
 ------------------------------------------
 
 -   2018-05-01 Lynn Garren : High Sierra and c2
 -   2018-05-01 Lynn Garren : larsoft v06\_75\_01 for larsoft v06\_75\_01
 -   2018-05-01 Lynn Garren : product versions
 
-lareventdisplay v06\_19\_04(#lareventdisplay-v06_19_04)
+lareventdisplay v06\_19\_04
 ----------------------------------------------------------
 
 -   2018-05-01 Lynn Garren : lareventdisplay v06\_19\_04 for larsoft v06\_75\_01
 
-larexamples v06\_13\_03(#larexamples-v06_13_03)
+larexamples v06\_13\_03
 --------------------------------------------------
 
-larpandora v06\_26\_04(#larpandora-v06_26_04)
+larpandora v06\_26\_04
 ------------------------------------------------
 
 -   2018-05-01 Lynn Garren : larpandora v06\_26\_04 for larsoft v06\_75\_01
 
-larwirecell v06\_12\_03(#larwirecell-v06_12_03)
+larwirecell v06\_12\_03
 --------------------------------------------------
 
-larana v06\_19\_04(#larana-v06_19_04)
+larana v06\_19\_04
 ----------------------------------------
 
 -   2018-05-01 Lynn Garren : larana v06\_19\_04 for larsoft v06\_75\_01
 
-larreco v06\_60\_01(#larreco-v06_60_01)
+larreco v06\_60\_01
 ------------------------------------------
 
 -   2018-05-01 Lynn Garren : larreco v06\_60\_01 for larsoft v06\_75\_01
@@ -219,35 +219,35 @@ larreco v06\_60\_01(#larreco-v06_60_01)
 -   2018-02-24 baller : Add TjDirFOM and UpdateVxEnvironment. Bundle UpdateTotChg, UpdateAveChg and UpdateChgRMS into UpdateTjChgProperties.
 -   2018-02-24 baller : Add TjDirFOM and UpdateVxEnvironment. Bundle UpdateTotChg, UpdateAveChg and UpdateChgRMS into UpdateTjChgProperties.
 
-larsim v06\_45\_00(#larsim-v06_45_00)
+larsim v06\_45\_00
 ----------------------------------------
 
-larevt v06\_20\_03(#larevt-v06_20_03)
+larevt v06\_20\_03
 ----------------------------------------
 
-lardata v06\_43\_03(#lardata-v06_43_03)
+lardata v06\_43\_03
 ------------------------------------------
 
-larcore v06\_19\_01(#larcore-v06_19_01)
+larcore v06\_19\_01
 ------------------------------------------
 
-larpandoracontent v03\_11\_01(#larpandoracontent-v03_11_01)
+larpandoracontent v03\_11\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_43\_01(#larsoftobj-v1_43_01)
+larsoftobj v1\_43\_01
 ----------------------------------------------
 
-lardataobj v1\_31\_00(#lardataobj-v1_31_00)
+lardataobj v1\_31\_00
 ----------------------------------------------
 
-larcorealg v1\_19\_01(#larcorealg-v1_19_01)
+larcorealg v1\_19\_01
 ----------------------------------------------
 
-larcoreobj v1\_23\_00(#larcoreobj-v1_23_00)
+larcoreobj v1\_23\_00
 ----------------------------------------------
 
-larbatch v01\_39\_00(#larbatch-v01_39_00)
+larbatch v01\_39\_00
 --------------------------------------------
 
-larutils v1\_22\_04(#larutils-v1_22_04)
+larutils v1\_22\_04
 ------------------------------------------

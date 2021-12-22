@@ -1,4 +1,4 @@
-How to tag and build a LArSoft patch release(#How-to-tag-and-build-a-LArSoft-patch-release)
+How to tag and build a LArSoft patch release
 ==============================================================================================
 
 -   **Table of contents**
@@ -34,12 +34,12 @@ Please make a service desk ticket asking for these permissions. Use the SciSoft 
 
 [LArSoft responsiblities for patch releases](LArSoft_responsiblities_for_patch_releases)
 
-Request a release(#Request-a-release) {.wiki-class-count}
+Request a release
 ----------------------------------------
 
 -   Before starting any patch release, fill out a redmine issue requesting the release with all pertinent information.
 
-Tools(#Tools) {.wiki-class-count}
+Tools
 ----------------
 
 -   Scripts used to build the patch release will be found in the larreltools product.
@@ -47,17 +47,17 @@ Tools(#Tools) {.wiki-class-count}
     -   Always use the latest release, which will be declared current.
     -   More [information](/redmine/projects/larreltools/wiki)
 
-Initial setup(#Initial-setup) {.wiki-class-count}
+Initial setup
 --------------------------------
 
 **This step is done once for any patch release set and will be done by the LArSoft release manager.**
 
-Making a patch release(#Making-a-patch-release) {.wiki-class-count}
+Making a patch release
 --------------------------------------------------
 
 -   These notes presume that you do not have an existing directory
 
-### Setup the working area(#Setup-the-working-area) {.wiki-class-count}
+### Setup the working area
 
 -   setup the latest release of larreltools
 -   startPatchRel [-e \<experiment] \<working\_dir\> \<new patch tag\> \<larsoft branch\> [\<experiment branch\>]
@@ -68,7 +68,7 @@ Making a patch release(#Making-a-patch-release) {.wiki-class-count}
     -   The directory structure will include a single source code directory with subdirectories for e17 and c2 debug and prof builds.
     -   Use “dogit branch” to double check that you are on the expected branch of all packages.
 
-### Local development(#Local-development) {.wiki-class-count}
+### Local development
 
 -   Before integrating any feature branches, make sure that the release builds as is and that the unit tests work.
     -   Make sure to build and test both e17 and c2. Usually the prof build is sufficient for testing. prof is preferred over debug, which sometimes masks problems.\
@@ -80,7 +80,7 @@ Making a patch release(#Making-a-patch-release) {.wiki-class-count}
 -   Next make changes and integrate feature branches
     -   Because feature branches may conflict or not have been thoroughly tested, we recommend merging one feature branch set at a time. Build and test after each set.
 
-### Update the package versions(#Update-the-package-versions) {.wiki-class-count}
+### Update the package versions
 
 -   Do this once all changes have been made.
 
@@ -108,7 +108,7 @@ Making a patch release(#Making-a-patch-release) {.wiki-class-count}
     -   commit changes in the releaseDB or bundle subdirectories, but do not commit changes in ups/product\_deps.
 -   DO NOT commit the changes to ups/product\_deps. tagPatchRel will commit ups/product\_deps.
 
-### Dependency order(#Dependency-order) {.wiki-class-count}
+### Dependency order
 
 -   Within the larsoftobj suite
     -   larcoreobj
@@ -136,7 +136,7 @@ Making a patch release(#Making-a-patch-release) {.wiki-class-count}
     -   larexamples (depends on larreco)
     -   larsoft
 
-### Tagging the release(#Tagging-the-release) {.wiki-class-count}
+### Tagging the release
 
 -   Do a final build and test with just the packages you expect to tag.
     -   This step will also create the necessary build config files.
@@ -157,7 +157,7 @@ Making a patch release(#Making-a-patch-release) {.wiki-class-count}
     -   Use “dogit status” to doublecheck.
     -   **IMPORTANT**: patch release tags are never merged with the master branch
 
-### Official build(#Official-build) {.wiki-class-count}
+### Official build
 
 -   build on Jenkins
 -   Use special patch release build jobs.
@@ -168,7 +168,7 @@ Making a patch release(#Making-a-patch-release) {.wiki-class-count}
 -   use copyToSciSoft to upload the tarballs and release manifests to SciSoft
     -   This step requires extra privileges.
 
-### Release Notes and Cross Package Tag(#Release-Notes-and-Cross-Package-Tag) {.wiki-class-count}
+### Release Notes and Cross Package Tag
 
 -   Once the build is complete for ALL variants (SLF and macOS), make the cross package tag.
     -   We wait because sometimes a problem is not found until building and we need to move a tag.
@@ -190,7 +190,7 @@ Making a patch release(#Making-a-patch-release) {.wiki-class-count}
             -   Do not edit anything under the “Change List” section.
             -   It is important to use cat so that there are no unexpected line breaks.
 
-### Upload to cvmfs(#Upload-to-cvmfs) {.wiki-class-count}
+### Upload to cvmfs
 
 -   This step requires login privileges.
 -   ssh
@@ -205,7 +205,7 @@ Making a patch release(#Making-a-patch-release) {.wiki-class-count}
 -   installBundleSLF.sh is the same as installBundle.sh, but only installs for SLF6 and SLF7.
 -   Do not leave a transaction open. You can abort the changes you made if there is a problem.
 
-Presentations(#Presentations) {.wiki-class-count}
+Presentations
 --------------------------------
 
 A patch release tutorial was given at the [2019 LArSoft workshop](https://indico.fnal.gov/event/20453/session/7/material/1/0.pdf)

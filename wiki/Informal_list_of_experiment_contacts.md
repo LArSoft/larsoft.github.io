@@ -1,4 +1,4 @@
-Informal list of experiment contacts(#Informal-list-of-experiment-contacts)
+Informal list of experiment contacts
 ==============================================================================
 
 This is an informal list of people we contact when there are problems with experiment code.

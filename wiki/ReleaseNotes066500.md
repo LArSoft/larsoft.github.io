@@ -1,4 +1,4 @@
-LArSoft v06\_65\_00 Release Notes(#LArSoft-v06_65_00-Release-Notes)
+LArSoft v06\_65\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,19 +31,19 @@ LArSoft v06\_65\_00 Release Notes(#LArSoft-v06_65_00-Release-Notes)
 Download instructions for [larsoft v06\_65\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_65_00/larsoft-v06_65_00.html)\
 Download instructions for [just larsoftobj v1\_38\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_38_00/larsoftobj-v1_38_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   migrate to art v2\_09\_06
 -   based on larsoft v06\_64\_00
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   use art v2\_09\_06 and nutools v2\_17\_02
 -   feature/team\_for\_art209 is available for experiment code
 
-Breaking changes(#Breaking-changes)
+Breaking changes
 --------------------------------------
 
 -   Please use UpdateArt209.sh
@@ -51,7 +51,7 @@ Breaking changes(#Breaking-changes)
 -   art::SourceHelper is explicitly const&
 -   art/Persistency/RootDB is now art/Framework/IO/Root/RootDB
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
   ------------------ ------------- ---------------------------------------------------------------------
@@ -68,10 +68,10 @@ Updated dependencies(#Updated-dependencies)
 
 -   Note that nearly all dependencies have new versions.
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_65\_00(#larsoft-v06_65_00)
+larsoft v06\_65\_00
 ------------------------------------------
 
 -   2018-01-22 Lynn Garren : larsoft v06\_65\_00 for larsoft v06\_65\_00
@@ -84,7 +84,7 @@ larsoft v06\_65\_00(#larsoft-v06_65_00)
 -   2018-01-05 Lynn Garren : module path
 -   2018-01-05 Lynn Garren : update for art 2.09.03
 
-lareventdisplay v06\_16\_00(#lareventdisplay-v06_16_00)
+lareventdisplay v06\_16\_00
 ----------------------------------------------------------
 
 -   2018-01-22 Lynn Garren : lareventdisplay v06\_16\_00 for larsoft v06\_65\_00
@@ -92,7 +92,7 @@ lareventdisplay v06\_16\_00(#lareventdisplay-v06_16_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larexamples v06\_09\_00(#larexamples-v06_09_00)
+larexamples v06\_09\_00
 --------------------------------------------------
 
 -   2018-01-22 Lynn Garren : larexamples v06\_09\_00 for larsoft v06\_65\_00
@@ -100,7 +100,7 @@ larexamples v06\_09\_00(#larexamples-v06_09_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larpandora v06\_20\_00(#larpandora-v06_20_00)
+larpandora v06\_20\_00
 ------------------------------------------------
 
 -   2018-01-22 Lynn Garren : larpandora v06\_20\_00 for larsoft v06\_65\_00
@@ -108,7 +108,7 @@ larpandora v06\_20\_00(#larpandora-v06_20_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larwirecell v06\_09\_00(#larwirecell-v06_09_00)
+larwirecell v06\_09\_00
 --------------------------------------------------
 
 -   2018-01-22 Lynn Garren : larwirecell v06\_09\_00 for larsoft v06\_65\_00
@@ -116,7 +116,7 @@ larwirecell v06\_09\_00(#larwirecell-v06_09_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : rtype has been given a more descriptive name
 
-larana v06\_15\_00(#larana-v06_15_00)
+larana v06\_15\_00
 ----------------------------------------
 
 -   2018-01-22 Lynn Garren : larana v06\_15\_00 for larsoft v06\_65\_00
@@ -124,7 +124,7 @@ larana v06\_15\_00(#larana-v06_15_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larreco v06\_53\_00(#larreco-v06_53_00)
+larreco v06\_53\_00
 ------------------------------------------
 
 -   2018-01-22 Lynn Garren : larreco v06\_53\_00 for larsoft v06\_65\_00
@@ -132,7 +132,7 @@ larreco v06\_53\_00(#larreco-v06_53_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larsim v06\_39\_00(#larsim-v06_39_00)
+larsim v06\_39\_00
 ----------------------------------------
 
 -   2018-01-22 Lynn Garren : larsim v06\_39\_00 for larsoft v06\_65\_00
@@ -140,7 +140,7 @@ larsim v06\_39\_00(#larsim-v06_39_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larevt v06\_17\_00(#larevt-v06_17_00)
+larevt v06\_17\_00
 ----------------------------------------
 
 -   2018-01-22 Lynn Garren : larevt v06\_17\_00 for larsoft v06\_65\_00
@@ -149,7 +149,7 @@ larevt v06\_17\_00(#larevt-v06_17_00)
 -   2018-01-08 Lynn Garren : art/Persistency/RootDB moved to art/Framework/IO/Root/RootD
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-lardata v06\_37\_00(#lardata-v06_37_00)
+lardata v06\_37\_00
 ------------------------------------------
 
 -   2018-01-22 Lynn Garren : range v3\_0\_3\_0
@@ -161,7 +161,7 @@ lardata v06\_37\_00(#lardata-v06_37_00)
 -   2018-01-08 Lynn Garren : art/Persistency/RootDB moved to art/Framework/IO/Root/RootD
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larcore v06\_16\_00(#larcore-v06_16_00)
+larcore v06\_16\_00
 ------------------------------------------
 
 -   2018-01-22 Lynn Garren : larcore v06\_16\_00 for larsoft v06\_65\_00
@@ -169,7 +169,7 @@ larcore v06\_16\_00(#larcore-v06_16_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larpandoracontent v03\_09\_03(#larpandoracontent-v03_09_03)
+larpandoracontent v03\_09\_03
 --------------------------------------------------------------
 
 -   2018-01-22 Lynn Garren : larpandoracontent v03\_09\_03 for larsoft v06\_65\_00
@@ -177,7 +177,7 @@ larpandoracontent v03\_09\_03(#larpandoracontent-v03_09_03)
 -   2018-01-19 Lynn Garren : Merge branch ‘feature/team\_for\_art209’ into release/v06\_65\_00
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 
-larsoftobj v1\_38\_00(#larsoftobj-v1_38_00)
+larsoftobj v1\_38\_00
 ----------------------------------------------
 
 -   2018-01-22 Lynn Garren : larsoftobj v1\_38\_00 for larsoft v06\_65\_00
@@ -187,7 +187,7 @@ larsoftobj v1\_38\_00(#larsoftobj-v1_38_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-lardataobj v1\_27\_00(#lardataobj-v1_27_00)
+lardataobj v1\_27\_00
 ----------------------------------------------
 
 -   2018-01-22 Lynn Garren : lardataobj v1\_27\_00 for larsoft v06\_65\_00
@@ -195,7 +195,7 @@ lardataobj v1\_27\_00(#lardataobj-v1_27_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larcorealg v1\_16\_00(#larcorealg-v1_16_00)
+larcorealg v1\_16\_00
 ----------------------------------------------
 
 -   2018-01-22 Lynn Garren : larcorealg v1\_16\_00 for larsoft v06\_65\_00
@@ -203,7 +203,7 @@ larcorealg v1\_16\_00(#larcorealg-v1_16_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larcoreobj v1\_19\_00(#larcoreobj-v1_19_00)
+larcoreobj v1\_19\_00
 ----------------------------------------------
 
 -   2018-01-22 Lynn Garren : nu qualified
@@ -212,8 +212,8 @@ larcoreobj v1\_19\_00(#larcoreobj-v1_19_00)
 -   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
 -   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
 
-larbatch v01\_36\_00(#larbatch-v01_36_00)
+larbatch v01\_36\_00
 --------------------------------------------
 
-larutils v1\_20\_05(#larutils-v1_20_05)
+larutils v1\_20\_05
 ------------------------------------------

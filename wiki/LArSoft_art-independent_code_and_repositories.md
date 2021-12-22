@@ -1,4 +1,4 @@
-LArSoft art-independent code and repositories(#LArSoft-art-independent-code-and-repositories) {.wiki-class-count}
+LArSoft art-independent code and repositories
 ================================================================================================
 
 -   **Table of contents**
@@ -11,7 +11,7 @@ LArSoft art-independent code and repositories(#LArSoft-art-independent-code-and-
     -   [Naming convention](#Naming-convention)
     -   [References](#References)
 
-Background(#Background) {.wiki-class-count}
+Background
 --------------------------
 
 Goal is to make it possible to run LArSoft code in an alternate framework such as gallery. This requires that code be in specific repositories as detailed below.
@@ -28,7 +28,7 @@ One of the [LArSoft design principles](http://larsoft.org/important-concepts-in-
 -   “algorithmic” code providing the actual software functionality, as portable as possible and framework-independent
 -   interface between the “algorithmic” and LArSoft code, usually depending on the [*art*](https://cdcvs.fnal.gov/redmine/projects/art) framework
 
-Code organization(#Code-organization) {.wiki-class-count}
+Code organization
 ----------------------------------------
 
 The code organization chosen to accommodate the factorization model includes:
@@ -41,7 +41,7 @@ The code organization chosen to accommodate the factorization model includes:
 
 The following text will describe the allocation of an hypothetical reconstruction software suite based on TensorFlow, going with the generic name of `RecoTF`.
 
-### Algorithmic code(#Algorithmic-code) {.wiki-class-count}
+### Algorithmic code
 
 The category of algorithmic code includes not only actual algorithms, but any code providing some functionality. It is required to be framework-independent insofar as its full core functionality can be made available on “any” framework context. This category includes:
 
@@ -65,7 +65,7 @@ They are forbidden from depending on:
 
 These items are in order of decreasing likelihood of being needed. We encourage the use of LArSoft data products (e.g. from `lardataobj`) as deep in the code as possible and recommend the use of FHiCL as configuration language.
 
-### Algorithm-framework interface code(#Algorithm-framework-interface-code) {.wiki-class-count}
+### Algorithm-framework interface code
 
 This category includes code to enable the use of algorithmic code (above) into a specific framework.\
 This category includes:
@@ -81,14 +81,14 @@ The `RecoTF` software will include algorithm-framework interface code repositori
 -   usually the *art* framework, in the common case where a run-time plug-in system is needed (modules, services, tools)
 -   LArSoft core code (below)
 
-### LArSoft core code(#LArSoft-core-code) {.wiki-class-count}
+### LArSoft core code
 
 LArSoft already includes a lot of code, with a backbone of core repositories in a dependency chain: `LArCore, LArData, LArEvt, LArSim, LArReco, LArAna` (in dependency order).\
 These repositories functionally merge the two categories above. Where factorization has taken place, each of these repositories has a matching algorithmic code repository. Where factorization is complete (as for `larcore`), one of the repositories is fully in the algorithmic code category ([`LArCoreAlg`](https://cdcvs.fnal.gov/redmine/projects/larcorealg)), and the other is in the algorithm-framework interface category ([`LArCore`).](https://cdcvs.fnal.gov/redmine/projects/larcore) ^1^
 
 The `RecoTF` software will not entwine with this category: LArSoft users will be able to pull in `RecoTF` facilities through FHiCL configuration pulling in the run-time plug-ins provided in[`larrecotf`.](https://cdcvs.fnal.gov/redmine/projects/larcore)
 
-Naming convention(#Naming-convention) {.wiki-class-count}
+Naming convention
 ----------------------------------------
 
 Repository naming convention is as follows:
@@ -97,7 +97,7 @@ Repository naming convention is as follows:
 -   algorithmic code (art independent) - larlibraryalg
 -   algorithm-framework interface code - larlibrary
 
-References(#References) {.wiki-class-count}
+References
 --------------------------
 
 This material is from Gianluca Petrillo’s issue [\#18283](/redmine/issues/18283 "Meeting: Define a policy for LArSoft art-independent code and repositories (Closed)").

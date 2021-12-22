@@ -1,4 +1,4 @@
-LArSoft v06\_60\_00 Release Notes(#LArSoft-v06_60_00-Release-Notes)
+LArSoft v06\_60\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,14 +31,14 @@ LArSoft v06\_60\_00 Release Notes(#LArSoft-v06_60_00-Release-Notes)
 Download instructions for [larsoft v06\_60\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_60_00/larsoft-v06_60_00.html)\
 Download instructions for [just larsoftobj v1\_33\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_33_00/larsoftobj-v1_33_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   new pandora
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   pandora v03\_07\_00
@@ -55,10 +55,10 @@ New features(#New-features)
 -   larcoreobj larcorealg feature/gp\_GenVectorTransition
     -   The changes allow the geometry infrastructure object to talk exclusively GenVector vectors (without the need of TVector3, which is still supported as legacy for a while).
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   pandora v3\_07\_00
@@ -66,10 +66,10 @@ Updated dependencies(#Updated-dependencies)
 -   ifdh\_art v2\_04\_02
 -   nutools v2\_16\_09
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_60\_00(#larsoft-v06_60_00)
+larsoft v06\_60\_00
 ------------------------------------------
 
 -   2017-12-13 Lynn Garren : larsoft v06\_60\_00 for larsoft v06\_60\_00
@@ -77,18 +77,18 @@ larsoft v06\_60\_00(#larsoft-v06_60_00)
 -   2017-12-13 Lynn Garren : larsoft\_data v1\_02\_01
 -   2017-12-08 Gianluca Petrillo : Added pnfsToXRootD script converting PNFS paths to XRootD URLs.
 
-lareventdisplay v06\_15\_05(#lareventdisplay-v06_15_05)
+lareventdisplay v06\_15\_05
 ----------------------------------------------------------
 
 -   2017-12-13 Lynn Garren : lareventdisplay v06\_15\_05 for larsoft v06\_60\_00
 
-larexamples v06\_07\_13(#larexamples-v06_07_13)
+larexamples v06\_07\_13
 --------------------------------------------------
 
 -   2017-12-13 Lynn Garren : larexamples v06\_07\_13 for larsoft v06\_60\_00
 -   2017-12-08 Jost Migenda : fixed typo in a comment
 
-larpandora v06\_18\_00(#larpandora-v06_18_00)
+larpandora v06\_18\_00
 ------------------------------------------------
 
 -   2017-12-13 Lynn Garren : larpandora v06\_18\_00 for larsoft v06\_60\_00
@@ -143,12 +143,12 @@ larpandora v06\_18\_00(#larpandora-v06_18_00)
 -   2017-09-28 John Marshall : Work in progress, taking-on functionality previously provided by LArPandora output.
 -   2017-09-28 John Marshall : Add empty modules.
 
-larwirecell v06\_08\_07(#larwirecell-v06_08_07)
+larwirecell v06\_08\_07
 --------------------------------------------------
 
 -   2017-12-13 Lynn Garren : larwirecell v06\_08\_07 for larsoft v06\_60\_00
 
-larana v06\_13\_02(#larana-v06_13_02)
+larana v06\_13\_02
 ----------------------------------------
 
 -   2017-12-13 Lynn Garren : add missing library
@@ -157,7 +157,7 @@ larana v06\_13\_02(#larana-v06_13_02)
 -   2017-12-04 Tingjun Yang : Remove printout.
 -   2017-12-04 Tingjun Yang : Add option to calculate PIDA using median instead of mean. Set it to false by default.
 
-larreco v06\_49\_00(#larreco-v06_49_00)
+larreco v06\_49\_00
 ------------------------------------------
 
 -   2017-12-13 Lynn Garren : Merge branch ‘release/v06\_60\_00’
@@ -174,7 +174,7 @@ larreco v06\_49\_00(#larreco-v06_49_00)
 -   2017-12-07 Gianluca Petrillo : Have PMA use vector types from tracking.
 -   2017-11-26 Tingjun Yang : Use median instead of mean when calculating dE/dx.
 
-larsim v06\_38\_00(#larsim-v06_38_00)
+larsim v06\_38\_00
 ----------------------------------------
 
 -   2017-12-13 Lynn Garren : larsim v06\_38\_00 for larsoft v06\_60\_00
@@ -194,12 +194,12 @@ larsim v06\_38\_00(#larsim-v06_38_00)
 -   2017-08-08 Jason Stock : Merge branch ‘develop’ into feature/JStock\_RadioGenMultiPart
 -   2017-08-07 Jason Stock : Adding the ability to generate more than one particle per decay for the radiological generator. Added the structure needed to properly model a complete K42-Ca42 (For Ar42 decay).
 
-larevt v06\_16\_12(#larevt-v06_16_12)
+larevt v06\_16\_12
 ----------------------------------------
 
 -   2017-12-13 Lynn Garren : larevt v06\_16\_12 for larsoft v06\_60\_00
 
-lardata v06\_33\_02(#lardata-v06_33_02)
+lardata v06\_33\_02
 ------------------------------------------
 
 -   2017-12-13 Lynn Garren : lardata v06\_33\_02 for larsoft v06\_60\_00
@@ -214,12 +214,12 @@ lardata v06\_33\_02(#lardata-v06_33_02)
 -   2017-10-28 Jason Stock : Setting this branch back up for the BackTrackerService/ParticleInventoryService update
 -   2017-11-29 Gianluca Petrillo : Added a trajectory accessor to Track proxy
 
-larcore v06\_15\_08(#larcore-v06_15_08)
+larcore v06\_15\_08
 ------------------------------------------
 
 -   2017-12-13 Lynn Garren : larcore v06\_15\_08 for larsoft v06\_60\_00
 
-larpandoracontent v03\_09\_00(#larpandoracontent-v03_09_00)
+larpandoracontent v03\_09\_00
 --------------------------------------------------------------
 
 -   2017-12-13 Lynn Garren : larpandoracontent v03\_09\_00 for larsoft v06\_60\_00
@@ -276,20 +276,20 @@ larpandoracontent v03\_09\_00(#larpandoracontent-v03_09_00)
 -   2017-11-10 John Marshall : Alter some default parameter values for cosmic reco.
 -   2017-10-12 John Marshall : Handle use of repeated stitching tool instances.
 
-larsoftobj v1\_33\_00(#larsoftobj-v1_33_00)
+larsoftobj v1\_33\_00
 ----------------------------------------------
 
 -   2017-12-13 Lynn Garren : larsoftobj v1\_33\_00 for larsoft v06\_60\_00
 -   2017-12-13 Lynn Garren : updating build
 
-lardataobj v1\_24\_00(#lardataobj-v1_24_00)
+lardataobj v1\_24\_00
 ----------------------------------------------
 
 -   2017-12-13 Lynn Garren : lardataobj v1\_24\_00 for larsoft v06\_60\_00
 -   2017-12-07 Gianluca Petrillo : Updated recob::Vertex version and checksum
 -   2017-12-07 Gianluca Petrillo : Tracking objects now use geometry vector types directly.
 
-larcorealg v1\_12\_00(#larcorealg-v1_12_00)
+larcorealg v1\_12\_00
 ----------------------------------------------
 
 -   2017-12-13 Lynn Garren : larcorealg v1\_12\_00 for larsoft v06\_60\_00
@@ -297,7 +297,7 @@ larcorealg v1\_12\_00(#larcorealg-v1_12_00)
 -   2017-12-08 Gianluca Petrillo : Added simplified interface for vector types in affine space
 -   2017-12-08 Gianluca Petrillo : Using full path in Doxygen file name documentation
 
-larcoreobj v1\_18\_00(#larcoreobj-v1_18_00)
+larcoreobj v1\_18\_00
 ----------------------------------------------
 
 -   2017-12-13 Lynn Garren : larcoreobj v1\_18\_00 for larsoft v06\_60\_00
@@ -306,13 +306,13 @@ larcoreobj v1\_18\_00(#larcoreobj-v1_18_00)
 -   2017-12-07 Lynn Garren : larsoft v06\_59\_00
 -   2017-12-07 Gianluca Petrillo : Adding ROOT dictionary for geo::Vector\_t and geo::Point\_t
 
-larbatch v01\_34\_03(#larbatch-v01_34_03)
+larbatch v01\_34\_03
 --------------------------------------------
 
 -   2017-12-13 Lynn Garren : larbatch v01\_34\_03 for larsoft v06\_60\_00
 -   2017-12-07 Herbert Greenlee : Fix bug in copy to dropbox
 
-larutils v1\_20\_03(#larutils-v1_20_03)
+larutils v1\_20\_03
 ------------------------------------------
 
 -   2017-12-13 Lynn Garren : larutils v1\_20\_03 for larsoft v06\_60\_00

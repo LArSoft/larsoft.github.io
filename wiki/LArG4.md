@@ -3,7 +3,7 @@
     -   [Using Custom Physics Modules:](#Using-Custom-Physics-Modules)
     -   [Optical Physics in LArG4](#Optical-Physics-in-LArG4)
 
-LArG4(#LArG4)
+LArG4
 ================
 
 The maintainer of this package is Brian Rebel ().
@@ -22,7 +22,7 @@ If you want to change the output of the simulation, start with these files and r
 
 % cp \$SRT\_PUBLIC\_CONTEXT/job/prodgenie.fcl \<my-working-directory\>
 
-Using Custom Physics Modules:(#Using-Custom-Physics-Modules)
+Using Custom Physics Modules:
 ---------------------------------------------------------------
 
 LArG4 now contains a configurable physics list which allows the user to enable or disable physical processes used in the GEANT4 simulation. To control which G4PhysicsConstructors are loaded, set the following two parameters for the LArG4Parameters service, eg:
@@ -43,7 +43,7 @@ Where Object is the name of the object inherriting from G4VPhysicsConstructor, a
 
 The default constructors loaded in the QGSP\_BERT physics list are all registered in the CustomPhysicsBuiltIns.hh and CustomPhysicsBuiltIns.cxx files. Under no circumstances should new modules be registered this way - this file just provides wrappers for the default GEANT4 objects. To register a new physics constructor, use the method described above.
 
-Optical Physics in LArG4(#Optical-Physics-in-LArG4)
+Optical Physics in LArG4
 ------------------------------------------------------
 
 A PMT Sensitive detector will be associated with any volume in the geometry which has logical volume named “PMTSensitive”. This volume name (or any volume name with this as a substring) should not be used for any volume which does not represent the sensitive lens of a photomultiplier tube.

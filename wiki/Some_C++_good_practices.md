@@ -1,4 +1,4 @@
-Some C++ good practices(#Some-C-good-practices)
+Some C++ good practices
 ==================================================
 
 We collect here some frequently asked questions and tricks about using C++:

@@ -1,4 +1,4 @@
-LArSoft v06\_26\_01\_10 Release Notes(#LArSoft-v06_26_01_10-Release-Notes)
+LArSoft v06\_26\_01\_10 Release Notes
 =============================================================================
 
 -   **Table of contents**
@@ -30,53 +30,53 @@ LArSoft v06\_26\_01\_10 Release Notes(#LArSoft-v06_26_01_10-Release-Notes)
 Download instructions for [larsoft v06\_26\_01\_10](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_26_01_10/larsoft-v06_26_01_10.html)\
 Download instructions for [just larsoftobj v1\_11\_00\_05](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_11_00_05/larsoftobj-v1_11_00_05.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   MicroBoone request [\#18840](/redmine/issues/18840 "Support: Request patch release larsoft v06_26_01_10 (Closed)")
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   mrb v1\_13\_02
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_26\_01\_10(#larsoft-v06_26_01_10)
+larsoft v06\_26\_01\_10
 -------------------------------------------------
 
 -   2018-01-31 Lynn Garren : fix squal
 -   2018-01-31 Lynn Garren : larsoft v06\_26\_01\_10 for larsoft v06\_26\_01\_10
 -   2018-01-31 Lynn Garren : update product versions
 
-lareventdisplay v06\_02\_14\_10(#lareventdisplay-v06_02_14_10)
+lareventdisplay v06\_02\_14\_10
 -----------------------------------------------------------------
 
 -   2018-01-31 Lynn Garren : lareventdisplay v06\_02\_14\_10 for larsoft v06\_26\_01\_10
 
-larexamples v06\_01\_15\_06(#larexamples-v06_01_15_06)
+larexamples v06\_01\_15\_06
 ---------------------------------------------------------
 
 -   2018-01-31 Lynn Garren : larexamples v06\_01\_15\_06 for larsoft v06\_26\_01\_10
 
-larpandora v06\_08\_00\_10(#larpandora-v06_08_00_10)
+larpandora v06\_08\_00\_10
 -------------------------------------------------------
 
 -   2018-01-31 Lynn Garren : larpandora v06\_08\_00\_10 for larsoft v06\_26\_01\_10
 
-larwirecell v06\_00\_13\_08(#larwirecell-v06_00_13_08)
+larwirecell v06\_00\_13\_08
 ---------------------------------------------------------
 
 -   2018-01-31 Lynn Garren : larwirecell v06\_00\_13\_08 for larsoft v06\_26\_01\_10
 
-larana v06\_03\_18\_10(#larana-v06_03_18_10)
+larana v06\_03\_18\_10
 -----------------------------------------------
 
 -   2018-01-31 Lynn Garren : larana v06\_03\_18\_10 for larsoft v06\_26\_01\_10
@@ -84,12 +84,12 @@ larana v06\_03\_18\_10(#larana-v06_03_18_10)
 -   2018-01-24 Gianluca Petrillo : Fixed inconsistent produces() declaration in MCParticleHitMatching
 -   2018-01-11 Adi Ashkenazi : Enabling backtracking to work with overlay sample by adding OverrideRealData variable
 
-larreco v06\_20\_00\_10(#larreco-v06_20_00_10)
+larreco v06\_20\_00\_10
 -------------------------------------------------
 
 -   2018-01-31 Lynn Garren : larreco v06\_20\_00\_10 for larsoft v06\_26\_01\_10
 
-larsim v06\_13\_01\_06(#larsim-v06_13_01_06)
+larsim v06\_13\_01\_06
 -----------------------------------------------
 
 -   2018-01-31 Lynn Garren : larsim v06\_13\_01\_06 for larsoft v06\_26\_01\_10
@@ -98,37 +98,37 @@ larsim v06\_13\_01\_06(#larsim-v06_13_01_06)
 -   2018-01-24 Herbert Greenlee : MCC 8.0 compatibility mode.
 -   2017-12-08 Wesley Ketchum : add in option to backtracker to ignore the realdata flag
 
-larevt v06\_07\_09\_06(#larevt-v06_07_09_06)
+larevt v06\_07\_09\_06
 -----------------------------------------------
 
 -   2018-01-31 Lynn Garren : larevt v06\_07\_09\_06 for larsoft v06\_26\_01\_10
 
-lardata v06\_14\_04\_05(#lardata-v06_14_04_05)
+lardata v06\_14\_04\_05
 -------------------------------------------------
 
 -   2018-01-31 Lynn Garren : lardata v06\_14\_04\_05 for larsoft v06\_26\_01\_10
 
-larcore v06\_05\_03\_02(#larcore-v06_05_03_02)
+larcore v06\_05\_03\_02
 -------------------------------------------------
 
-larpandoracontent v03\_07\_02\_05(#larpandoracontent-v03_07_02_05)
+larpandoracontent v03\_07\_02\_05
 ---------------------------------------------------------------------
 
-larsoftobj v1\_11\_00\_05(#larsoftobj-v1_11_00_05)
+larsoftobj v1\_11\_00\_05
 -----------------------------------------------------
 
 -   2018-01-31 Lynn Garren : larsoftobj v1\_11\_00\_05 for larsoft v06\_26\_01\_10
 
-lardataobj v1\_11\_00\_05(#lardataobj-v1_11_00_05)
+lardataobj v1\_11\_00\_05
 -----------------------------------------------------
 
 -   2018-01-31 Lynn Garren : lardataobj v1\_11\_00\_05 for larsoft v06\_26\_01\_10
 -   2018-01-24 Gianluca Petrillo : Added missing classes for association dictionary
 
-larcoreobj v1\_06\_02\_02(#larcoreobj-v1_06_02_02)
+larcoreobj v1\_06\_02\_02
 -----------------------------------------------------
 
-larbatch v01\_36\_01(#larbatch-v01_36_01)
+larbatch v01\_36\_01
 --------------------------------------------
 
 -   2018-01-23 Lynn Garren : larbatch v01\_36\_01 for larsoft v06\_66\_00
@@ -150,7 +150,7 @@ larbatch v01\_36\_01(#larbatch-v01_36_01)
 -   2017-12-13 Herbert Greenlee : Updates to condor\_lar.sh to reduce copying duplicate files back from batch jobs.
 -   2017-12-07 Herbert Greenlee : Fix bug in copy to dropbox
 
-larutils v1\_20\_06(#larutils-v1_20_06)
+larutils v1\_20\_06
 ------------------------------------------
 
 -   2018-01-23 Lynn Garren : larutils v1\_20\_06 for larsoft v06\_66\_00

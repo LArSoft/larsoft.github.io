@@ -1,4 +1,4 @@
-How to tag and build a LArSoft vx\_yy\_zz release(#How-to-tag-and-build-a-LArSoft-vx_yy_zz-release)
+How to tag and build a LArSoft vx\_yy\_zz release
 ======================================================================================================
 
 -   **Table of contents**
@@ -23,33 +23,33 @@ We are using a procedure that mimics git flow instead of using it directly.
 
 Guiding philosophy: the code should build consistently before the tagging process starts. This means that we make a test build first and commit fixes to develop if necessary. We are also now running the quick CI tests locally.
 
-[Overview of Building a LArSoft Release](Overview_of_Building_a_LArSoft_Release)(#Overview-of-Building-a-LArSoft-Release) {.wiki-class-count}
+[Overview of Building a LArSoft Release](Overview_of_Building_a_LArSoft_Release)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[Informal list of experiment contacts](Informal_list_of_experiment_contacts)(#Informal-list-of-experiment-contacts) {.wiki-class-count}
+[Informal list of experiment contacts](Informal_list_of_experiment_contacts)
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-Archival instructions for working with redmine repositories.(#Archival-instructions-for-working-with-redmine-repositories) {.wiki-class-count}
+Archival instructions for working with redmine repositories.
 -----------------------------------------------------------------------------------------------------------------------------
 
 Although these instructions are archival, much of the information remains relevant.
 
-### [Overview of Building a LArSoft Release from redmine](Overview_of_Building_a_LArSoft_Release_from_redmine)(#Overview-of-Building-a-LArSoft-Release-from-redmine) {.wiki-class-count}
+### [Overview of Building a LArSoft Release from redmine](Overview_of_Building_a_LArSoft_Release_from_redmine)
 
-### [LArSoft Release Build Preliminary Steps](LArSoft_Release_Build_Preliminary_Steps)(#LArSoft-Release-Build-Preliminary-Steps) {.wiki-class-count}
+### [LArSoft Release Build Preliminary Steps](LArSoft_Release_Build_Preliminary_Steps)
 
-### [Create a Working Branch](Create_a_Working_Branch)(#Create-a-Working-Branch) {.wiki-class-count}
+### [Create a Working Branch](Create_a_Working_Branch)
 
-### [Update versions](Update_versions)(#Update-versions) {.wiki-class-count}
+### [Update versions](Update_versions)
 
-### [Run the quick CI tests](Run_the_quick_CI_tests)(#Run-the-quick-CI-tests) {.wiki-class-count}
+### [Run the quick CI tests](Run_the_quick_CI_tests)
 
-### [Create Tags for a LArSoft Release Build](Create_Tags_for_a_LArSoft_Release_Build)(#Create-Tags-for-a-LArSoft-Release-Build) {.wiki-class-count}
+### [Create Tags for a LArSoft Release Build](Create_Tags_for_a_LArSoft_Release_Build)
 
-### [LArSoft Release Official Build](LArSoft_Release_Official_Build)(#LArSoft-Release-Official-Build) {.wiki-class-count}
+### [LArSoft Release Official Build](LArSoft_Release_Official_Build)
 
-### [Install for cvmfs](Install_for_cvmfs)(#Install-for-cvmfs) {.wiki-class-count}
+### [Install for cvmfs](Install_for_cvmfs)
 
-### [LArSoft Release Final Steps](LArSoft_Release_Final_Steps)(#LArSoft-Release-Final-Steps) {.wiki-class-count}
+### [LArSoft Release Final Steps](LArSoft_Release_Final_Steps)
 
-### [Special Instructions for Major Releases](Special_Instructions_for_Major_Releases)(#Special-Instructions-for-Major-Releases) {.wiki-class-count}
+### [Special Instructions for Major Releases](Special_Instructions_for_Major_Releases)

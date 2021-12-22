@@ -1,4 +1,4 @@
-LArSoft v06\_57\_00 Release Notes(#LArSoft-v06_57_00-Release-Notes)
+LArSoft v06\_57\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -31,14 +31,14 @@ LArSoft v06\_57\_00 Release Notes(#LArSoft-v06_57_00-Release-Notes)
 Download instructions for [larsoft v06\_57\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_57_00/larsoft-v06_57_00.html)\
 Download instructions for [just larsoftobj v1\_31\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_31_00/larsoftobj-v1_31_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 -   new release of nutools
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   fcl validation of `SingleGen`
@@ -47,12 +47,12 @@ New features(#New-features)
     -   lardata feature/gp\_Issue18220
     -   feature branch also available for icaruscode and uboonecode
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lareventdisplay feature/cerati\_fix-evd-invalid-hits for [\#17843](/redmine/issues/17843 "Bug: Fix event display so that hits associated to invalid trajectory points are not connected to the t... (Assigned)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   ifdhc v2\_2\_1
@@ -60,10 +60,10 @@ Updated dependencies(#Updated-dependencies)
 -   genie v2\_12\_8a with ROOT\_INCLUDE\_PATH improvement
 -   [nutools v2\_16\_07](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_07-11212017)
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_57\_00(#larsoft-v06_57_00)
+larsoft v06\_57\_00
 ------------------------------------------
 
 -   2017-11-21 Lynn Garren : larsoft v06\_57\_00 for larsoft v06\_57\_00
@@ -72,33 +72,33 @@ larsoft v06\_57\_00(#larsoft-v06_57_00)
 -   2017-11-21 Lynn Garren : for nutools v2\_16\_07
 -   2017-11-14 Lynn Garren : Yosemite is no longer supported
 
-lareventdisplay v06\_15\_02(#lareventdisplay-v06_15_02)
+lareventdisplay v06\_15\_02
 ----------------------------------------------------------
 
 -   2017-11-21 Lynn Garren : lareventdisplay v06\_15\_02 for larsoft v06\_57\_00
 -   2017-11-20 Giuseppe Cerati : fix bug of displaying hits associated to invalid points
 
-larexamples v06\_07\_10(#larexamples-v06_07_10)
+larexamples v06\_07\_10
 --------------------------------------------------
 
 -   2017-11-21 Lynn Garren : larexamples v06\_07\_10 for larsoft v06\_57\_00
 
-larpandora v06\_17\_07(#larpandora-v06_17_07)
+larpandora v06\_17\_07
 ------------------------------------------------
 
 -   2017-11-21 Lynn Garren : larpandora v06\_17\_07 for larsoft v06\_57\_00
 
-larwirecell v06\_08\_04(#larwirecell-v06_08_04)
+larwirecell v06\_08\_04
 --------------------------------------------------
 
 -   2017-11-21 Lynn Garren : larwirecell v06\_08\_04 for larsoft v06\_57\_00
 
-larana v06\_12\_02(#larana-v06_12_02)
+larana v06\_12\_02
 ----------------------------------------
 
 -   2017-11-21 Lynn Garren : larana v06\_12\_02 for larsoft v06\_57\_00
 
-larreco v06\_46\_00(#larreco-v06_46_00)
+larreco v06\_46\_00
 ------------------------------------------
 
 -   2017-11-21 Lynn Garren : recover from previous revert
@@ -133,7 +133,7 @@ larreco v06\_46\_00(#larreco-v06_46_00)
 -   2017-11-14 baller : Comment out unused code
 -   2017-11-14 baller : Recover from an error instead of stopping.
 
-larsim v06\_35\_00(#larsim-v06_35_00)
+larsim v06\_35\_00
 ----------------------------------------
 
 -   2017-11-21 Lynn Garren : larsim v06\_35\_00 for larsoft v06\_57\_00
@@ -147,36 +147,36 @@ larsim v06\_35\_00(#larsim-v06_35_00)
 -   2017-10-17 Gianluca Petrillo : Revised internal management of SingleGen histograms.
 -   2017-10-17 Gianluca Petrillo : Revised SingleGen internal parsing of histograms.
 
-larevt v06\_16\_09(#larevt-v06_16_09)
+larevt v06\_16\_09
 ----------------------------------------
 
 -   2017-11-21 Lynn Garren : larevt v06\_16\_09 for larsoft v06\_57\_00
 
-lardata v06\_32\_00(#lardata-v06_32_00)
+lardata v06\_32\_00
 ------------------------------------------
 
 -   2017-11-21 Lynn Garren : lardata v06\_32\_00 for larsoft v06\_57\_00
 -   2017-11-20 Gianluca Petrillo : Removing deprecated MemoryPeakTracker service.
 
-larcore v06\_15\_06(#larcore-v06_15_06)
+larcore v06\_15\_06
 ------------------------------------------
 
 -   2017-11-21 Lynn Garren : larcore v06\_15\_06 for larsoft v06\_57\_00
 
-larpandoracontent v03\_08\_01(#larpandoracontent-v03_08_01)
+larpandoracontent v03\_08\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_31\_00(#larsoftobj-v1_31_00)
+larsoftobj v1\_31\_00
 ----------------------------------------------
 
 -   2017-11-21 Lynn Garren : larsoftobj v1\_31\_00 for larsoft v06\_57\_00
 -   2017-11-21 Lynn Garren : update products
 -   2017-11-14 Lynn Garren : Yosemite is no longer supported
 
-lardataobj v1\_22\_00(#lardataobj-v1_22_00)
+lardataobj v1\_22\_00
 ----------------------------------------------
 
-larcorealg v1\_10\_00(#larcorealg-v1_10_00)
+larcorealg v1\_10\_00
 ----------------------------------------------
 
 -   2017-11-21 Lynn Garren : larcorealg v1\_10\_00 for larsoft v06\_57\_00
@@ -185,10 +185,10 @@ larcorealg v1\_10\_00(#larcorealg-v1_10_00)
 -   2017-10-26 Gianluca Petrillo : Added TPC half-length methods.
 -   2017-10-26 Gianluca Petrillo : Cosmetic changes to documentation.
 
-larcoreobj v1\_16\_02(#larcoreobj-v1_16_02)
+larcoreobj v1\_16\_02
 ----------------------------------------------
 
-larbatch v01\_34\_00(#larbatch-v01_34_00)
+larbatch v01\_34\_00
 --------------------------------------------
 
 -   2017-11-21 Lynn Garren : larbatch v01\_34\_00 for larsoft v06\_57\_00
@@ -199,5 +199,5 @@ larbatch v01\_34\_00(#larbatch-v01_34_00)
 -   2017-11-16 Herbert Greenlee : Add initializer.
 -   2017-11-14 Herbert Greenlee : Add –recur option.
 
-larutils v1\_20\_01(#larutils-v1_20_01)
+larutils v1\_20\_01
 ------------------------------------------

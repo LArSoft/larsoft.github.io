@@ -1,7 +1,7 @@
-ProtoDUNE and DUNE Far Detector simulation and reconstruction workflows (v06 57 00)(#ProtoDUNE-and-DUNE-Far-Detector-simulation-and-reconstruction-workflows-v06-57-00)
+ProtoDUNE and DUNE Far Detector simulation and reconstruction workflows (v06 57 00)
 ==========================================================================================================================================================================
 
-A typical workflow for detector simulation and reconstruction (gen-g4-detsim-reco-ana)(#A-typical-workflow-for-detector-simulation-and-reconstruction-gen-g4-detsim-reco-ana)
+A typical workflow for detector simulation and reconstruction (gen-g4-detsim-reco-ana)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ****ProtoDune (single particle)****
@@ -53,10 +53,10 @@ A typical workflow for detector simulation and reconstruction (gen-g4-detsim-rec
     lar -c standard_reco_dune10kt_1x2x6.fcl prodgenie_nue_dune10kt_1x2x6_gen_g4_detsim.root       
     lar -c standard_ana_dune10kt_1x2x6.fcl prodgenie_nue_dune10kt_1x2x6_gen_g4_detsim_reco.root
 
-Profiling memory and CPU performance(#Profiling-memory-and-CPU-performance)
+Profiling memory and CPU performance
 ------------------------------------------------------------------------------
 
-### IgProf ([http://igprof.org/](http://igprof.org/))(#IgProf-httpigproforg)
+### IgProf ([http://igprof.org/](http://igprof.org/))
 
 -   installation: see [http://igprof.org/install.html](http://igprof.org/install.html)
 
@@ -93,7 +93,7 @@ Profiling memory and CPU performance(#Profiling-memory-and-CPU-performance)
 
 -   results: see [https://g4cpt.fnal.gov/larsoft/dunetpc\_v06\_57\_00/igprof.html](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html)
 
-### HPCToolkit ([http://hpctoolkit.org/index.html](http://hpctoolkit.org/index.html))(#HPCToolkit-httphpctoolkitorgindexhtml)
+### HPCToolkit ([http://hpctoolkit.org/index.html](http://hpctoolkit.org/index.html))
 
 -   installation: [http://hpctoolkit.org/software-instructions.html](http://hpctoolkit.org/software-instructions.html)
 
@@ -176,7 +176,7 @@ Profiling memory and CPU performance(#Profiling-memory-and-CPU-performance)
 
 -   results: see [https://g4cpt.fnal.gov/larsoft/dunetpc\_v06\_57\_00/hpctoolkit.html](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/hpctoolkit.html)
 
-### Open|Speedshop ([https://openspeedshop.org/](https://openspeedshop.org/))(#OpenSpeedshop-httpsopenspeedshoporg)
+### Open|Speedshop ([https://openspeedshop.org/](https://openspeedshop.org/))
 
 -   installation: see [https://openspeedshop.org/documentation/](https://openspeedshop.org/documentation/)
 
@@ -212,4 +212,4 @@ Profiling memory and CPU performance(#Profiling-memory-and-CPU-performance)
      The problem was reported to OSS developers (Jim Galarowicz@Krell), but it has not been resolved yet.\
      [https://groups.google.com/a/krellinst.org/forum/?fromgroups\#!topic/oss-questions/g\_wNYLmiKbY](https://groups.google.com/a/krellinst.org/forum/?fromgroups#!topic/oss-questions/g_wNYLmiKbY)
 
-### Support: contact (#Support-contact-syjunfnalgov)
+### Support: contact 

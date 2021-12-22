@@ -1,4 +1,4 @@
-Overview of the pull request testing and approval workflow(#Overview-of-the-pull-request-testing-and-approval-workflow)
+Overview of the pull request testing and approval workflow
 ==========================================================================================================================
 
 Committing code to the LArSoft repositories requires that developers initiate a pull request (PR) on GitHub against the appropriate LArSoft repositories. That action triggers a testing and approval workflow, the final step of which is a merge of the proposed change to the requested branch. The purpose of the testing and approval workflow is:

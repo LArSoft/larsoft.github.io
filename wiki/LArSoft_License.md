@@ -1,4 +1,4 @@
-LArSoft License(#LArSoft-License)
+LArSoft License
 ====================================
 
 -   **Table of contents**
@@ -16,10 +16,10 @@ LArSoft License(#LArSoft-License)
 
 LArSoft proposes using the [Apache v2](http://www.apache.org/licenses/LICENSE-2.0) license. This page contains a list of products that larsoft links against.
 
-Products that larsoft depends on directly(#Products-that-larsoft-depends-on-directly)
+Products that larsoft depends on directly
 ----------------------------------------------------------------------------------------
 
-### LArSoft packages(#LArSoft-packages)
+### LArSoft packages
 
 1.  “larsoft” “v07\_06\_00”
 2.  “lareventdisplay” “v07\_01\_04”
@@ -41,7 +41,7 @@ Products that larsoft depends on directly(#Products-that-larsoft-depends-on-dire
 18. “larwirecell” “v07\_01\_01”
 19. “larsoftobj” “v07\_03\_00”
 
-### External packages(#External-packages)
+### External packages
 
 -   “marley” “v1\_0\_0e”
     -   [https://github.com/sjgardiner/marley/](https://github.com/sjgardiner/marley/)
@@ -62,7 +62,7 @@ Products that larsoft depends on directly(#Products-that-larsoft-depends-on-dire
 -   “jsonnet” “v0\_11\_2”
     -   [https://github.com/google/jsonnet](https://github.com/google/jsonnet)
 
-### Fermilab packages(#Fermilab-packages)
+### Fermilab packages
 
 -   “artg4tk” “v08\_01\_00”
     -   [https://cdcvs.fnal.gov/redmine/projects/artg4tk/wiki](https://cdcvs.fnal.gov/redmine/projects/artg4tk/wiki)
@@ -74,10 +74,10 @@ Products that larsoft depends on directly(#Products-that-larsoft-depends-on-dire
 -   “nusimdata” “v1\_14\_01”
     -   subsidiary of nutools, no license
 
-Products that nutools depends on directly(#Products-that-nutools-depends-on-directly)
+Products that nutools depends on directly
 ----------------------------------------------------------------------------------------
 
-### External packages(#External-packages-2)
+### External packages
 
 -   “genie” “v2\_12\_10c”
     -   [https://genie.hepforge.org/](https://genie.hepforge.org/)
@@ -95,7 +95,7 @@ Products that nutools depends on directly(#Products-that-nutools-depends-on-dire
 -   “xerces\_c” “v3\_2\_0a”
     -   [https://xerces.apache.org/](https://xerces.apache.org/)
 
-### Fermilab packages(#Fermilab-packages-2)
+### Fermilab packages
 
 -   art
 -   dk2nu (which we build as two separate packages)
@@ -122,12 +122,12 @@ Products that nutools depends on directly(#Products-that-nutools-depends-on-dire
         -   [https://cdcvs.fnal.gov/redmine/projects/ifdhc/repository/libwda](https://cdcvs.fnal.gov/redmine/projects/ifdhc/repository/libwda)
         -   Vladimir Podstavkov
 
-The art framework(#The-art-framework)
+The art framework
 ----------------------------------------
 
 The art framework is under the [BSD license](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/develop/entry/LICENSE)
 
-### Fermilab art framework packages(#Fermilab-art-framework-packages)
+### Fermilab art framework packages
 
 1.  “art” “v2\_11\_03”
 2.  “cetpkgsupport” “v1\_14\_01”
@@ -140,7 +140,7 @@ The art framework is under the [BSD license](https://cdcvs.fnal.gov/redmine/proj
 9.  “hep\_concurrency” “v1\_00\_03”
 10. “gallery” “v1\_08\_03”
 
-### External packages(#External-packages-3)
+### External packages
 
 -   “gcc” “v7\_3\_0”
     -   [https://gcc.gnu.org/](https://gcc.gnu.org/)

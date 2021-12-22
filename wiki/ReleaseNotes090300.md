@@ -1,4 +1,4 @@
-LArSoft v09\_03\_00 Release Notes(#LArSoft-v09_03_00-Release-Notes)
+LArSoft v09\_03\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -36,14 +36,14 @@ LArSoft v09\_03\_00 Release Notes(#LArSoft-v09_03_00-Release-Notes)
 Download instructions for [larsoft v09\_03\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_03_00/larsoft-v09_03_00.html)\
 Download instructions for [just larsoftobj v09\_00\_04](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_00_04/larsoftobj-v09_00_04.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved PRs
 -   **drop the py2 qualified builds**
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   move TRACS functionality from larreco to larpandora
@@ -60,42 +60,42 @@ New features(#New-features)
         -   ICARUS: feature/howard\_pandorashower\_v09\_01\_00
         -   dunetpc will also want to make changes
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   lardataalg PR 11
     -   fixes to documentation per [\#24928](/redmine/issues/24928 "Bug: Time scale documentation moved (Closed)")
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   geant4reweight v01\_04\_00
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v09\_03\_00(#larsoft-v09_03_00)
+larsoft v09\_03\_00
 ------------------------------------------
 
 -   2020-09-17 Lynn Garren : larsoft v09\_03\_00 for larsoft v09\_03\_00
 -   2020-09-17 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_04(#lareventdisplay-v09_00_04)
+lareventdisplay v09\_00\_04
 ----------------------------------------------------------
 
 -   2020-09-17 Lynn Garren : lareventdisplay v09\_00\_04 for larsoft v09\_03\_00
 
-larexamples v09\_00\_04(#larexamples-v09_00_04)
+larexamples v09\_00\_04
 --------------------------------------------------
 
 -   2020-09-17 Lynn Garren : larexamples v09\_00\_04 for larsoft v09\_03\_00
 
-larg4 v09\_00\_04(#larg4-v09_00_04)
+larg4 v09\_00\_04
 --------------------------------------
 
 -   2020-09-17 Lynn Garren : larg4 v09\_00\_04 for larsoft v09\_03\_00
 
-larpandora v09\_01\_00(#larpandora-v09_01_00)
+larpandora v09\_01\_00
 ------------------------------------------------
 
 -   2020-09-17 Lynn Garren : larpandora v09\_01\_00 for larsoft v09\_03\_00
@@ -153,27 +153,27 @@ larpandora v09\_01\_00(#larpandora-v09_01_00)
 -   2020-05-12 Edward Tyley : Added fcls, tidied and updated dependancies to remove rouge larreco tracs reference
 -   2020-05-11 Edward Tyley : First build of TRACS to LArPandoraModularShowerCreation
 
-larsimrad v09\_00\_04(#larsimrad-v09_00_04)
+larsimrad v09\_00\_04
 ----------------------------------------------
 
 -   2020-09-17 Lynn Garren : larsimrad v09\_00\_04 for larsoft v09\_03\_00
 
-larrecodnn v09\_00\_04(#larrecodnn-v09_00_04)
+larrecodnn v09\_00\_04
 ------------------------------------------------
 
 -   2020-09-17 Lynn Garren : larrecodnn v09\_00\_04 for larsoft v09\_03\_00
 
-larwirecell v09\_01\_01(#larwirecell-v09_01_01)
+larwirecell v09\_01\_01
 --------------------------------------------------
 
 -   2020-09-17 Lynn Garren : larwirecell v09\_01\_01 for larsoft v09\_03\_00
 
-larana v09\_00\_04(#larana-v09_00_04)
+larana v09\_00\_04
 ----------------------------------------
 
 -   2020-09-17 Lynn Garren : larana v09\_00\_04 for larsoft v09\_03\_00
 
-larreco v09\_01\_00(#larreco-v09_01_00)
+larreco v09\_01\_00
 ------------------------------------------
 
 -   2020-09-17 Lynn Garren : larreco v09\_01\_00 for larsoft v09\_03\_00
@@ -181,37 +181,37 @@ larreco v09\_01\_00(#larreco-v09_01_00)
 -   2020-09-09 Edward Tyley : Update to LArSoft v09\_01\_00
 -   2020-05-12 Edward Tyley : Removed TRACS
 
-larsim v09\_02\_01(#larsim-v09_02_01)
+larsim v09\_02\_01
 ----------------------------------------
 
 -   2020-09-17 Lynn Garren : larsim v09\_02\_01 for larsoft v09\_03\_00
 
-larevt v09\_00\_04(#larevt-v09_00_04)
+larevt v09\_00\_04
 ----------------------------------------
 
 -   2020-09-17 Lynn Garren : larevt v09\_00\_04 for larsoft v09\_03\_00
 
-lardata v09\_00\_04(#lardata-v09_00_04)
+lardata v09\_00\_04
 ------------------------------------------
 
 -   2020-09-17 Lynn Garren : lardata v09\_00\_04 for larsoft v09\_03\_00
 
-larcore v09\_00\_00(#larcore-v09_00_00)
+larcore v09\_00\_00
 ------------------------------------------
 
-larpandoracontent v03\_19\_03(#larpandoracontent-v03_19_03)
+larpandoracontent v03\_19\_03
 --------------------------------------------------------------
 
-larsoftobj v09\_00\_04(#larsoftobj-v09_00_04)
+larsoftobj v09\_00\_04
 ------------------------------------------------
 
 -   2020-09-17 Lynn Garren : larsoftobj v09\_00\_04 for larsoft v09\_03\_00
 -   2020-09-17 Lynn Garren : product versions
 
-lardataobj v09\_00\_00(#lardataobj-v09_00_00)
+lardataobj v09\_00\_00
 ------------------------------------------------
 
-lardataalg v09\_00\_04(#lardataalg-v09_00_04)
+lardataalg v09\_00\_04
 ------------------------------------------------
 
 -   2020-09-17 Lynn Garren : lardataalg v09\_00\_04 for larsoft v09\_03\_00
@@ -219,19 +219,19 @@ lardataalg v09\_00\_04(#lardataalg-v09_00_04)
 -   2020-09-17 Lynn Garren : Merge pull request \#11 from PetrilloAtWork/feature/gp\_detInfoDoc
 -   2020-09-16 Gianluca Petrillo : Added necessary documentation on the new DetectorClocks system.
 
-larcorealg v09\_00\_00(#larcorealg-v09_00_00)
+larcorealg v09\_00\_00
 ------------------------------------------------
 
-larcoreobj v09\_00\_00(#larcoreobj-v09_00_00)
+larcoreobj v09\_00\_00
 ------------------------------------------------
 
-webevd v09\_00\_04(#webevd-v09_00_04)
+webevd v09\_00\_04
 ----------------------------------------
 
 -   2020-09-17 Lynn Garren : webevd v09\_00\_04 for larsoft v09\_03\_00
 
-larbatch v01\_53\_01(#larbatch-v01_53_01)
+larbatch v01\_53\_01
 --------------------------------------------
 
-larutils v1\_26\_01(#larutils-v1_26_01)
+larutils v1\_26\_01
 ------------------------------------------

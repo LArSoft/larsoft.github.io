@@ -1,4 +1,4 @@
-LArSoft v04\_00\_00 Release Notes(#LArSoft-v04_00_00-Release-Notes)
+LArSoft v04\_00\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -24,26 +24,26 @@ LArSoft v04\_00\_00 Release Notes(#LArSoft-v04_00_00-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_00_00/larsoft-v04_00_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   MCC6 preliminary release
 
-New features(#New-features)
+New features
 ------------------------------
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   note that larpandora now depends on larreco
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v04\_00\_00(#larsoft-v04_00_00)
+larsoft v04\_00\_00
 ------------------------------------------
 
 -   2015-02-11 Lynn Garren : Merge branch ‘v04\_00\_rc’
@@ -59,7 +59,7 @@ larsoft v04\_00\_00(#larsoft-v04_00_00)
 -   2015-02-05 Lynn Garren : Merge branch ‘feature/DataProductRevision’ into v04\_00\_rc
 -   2015-01-30 Gianluca Petrillo : Merge tag ‘LARSOFT\_SUITE\_v03\_08\_00’ into feature/DataProductRevision
 
-lareventdisplay v04\_00\_00(#lareventdisplay-v04_00_00)
+lareventdisplay v04\_00\_00
 ----------------------------------------------------------
 
 -   2015-02-11 Lynn Garren : Merge branch ‘v04\_00\_rc’
@@ -79,7 +79,7 @@ lareventdisplay v04\_00\_00(#lareventdisplay-v04_00_00)
 -   2014-12-23 Gianluca Petrillo : Update for the new recob::Hit. Test needed.
 -   2014-12-10 Gianluca Petrillo : Changes for data product review: raw::RawData (lardata commit b4b4d04)
 
-larexamples v04\_00\_00(#larexamples-v04_00_00)
+larexamples v04\_00\_00
 --------------------------------------------------
 
 -   2015-02-11 Lynn Garren : Merge branch ‘v04\_00\_rc’
@@ -93,7 +93,7 @@ larexamples v04\_00\_00(#larexamples-v04_00_00)
 -   2014-12-26 Gianluca Petrillo : Merge branch ‘develop’ into feature/DataProductRevision
 -   2014-12-23 Gianluca Petrillo : Update for the new recob::Hit.
 
-larpandora v04\_00\_00(#larpandora-v04_00_00)
+larpandora v04\_00\_00
 ------------------------------------------------
 
 -   2015-02-11 Lynn Garren : Merge branch ‘v04\_00\_rc’
@@ -118,7 +118,7 @@ larpandora v04\_00\_00(#larpandora-v04_00_00)
 -   2014-12-26 Gianluca Petrillo : Merge branch ‘develop’ into feature/DataProductRevision
 -   2014-12-23 Gianluca Petrillo : Update for the new recob::Hit. Compiles, needs testing.
 
-larana v04\_00\_00(#larana-v04_00_00)
+larana v04\_00\_00
 ----------------------------------------
 
 -   2015-02-11 Lynn Garren : Merge branch ‘v04\_00\_rc’
@@ -142,7 +142,7 @@ larana v04\_00\_00(#larana-v04_00_00)
 -   2014-12-23 Gianluca Petrillo : Using TimeService to define the spill window in CRHitRemoval
 -   2014-12-19 Gianluca Petrillo : Code updated with new RawDigit, Wire and Hit.
 
-larreco v04\_00\_00(#larreco-v04_00_00)
+larreco v04\_00\_00
 ------------------------------------------
 
 -   2015-02-11 Lynn Garren : Merge branch ‘v04\_00\_rc’
@@ -225,7 +225,7 @@ larreco v04\_00\_00(#larreco-v04_00_00)
 -   2014-12-23 Gianluca Petrillo : Updated for new recob::Hit . The code compiles, but many to-do’s are left
 -   2014-12-19 Gianluca Petrillo : Code updated for new RawDigit, Wire and Hit. A bit log of it does not compile yet. RecoAlg and VertexFinder libraries fully compile, as GausHitFinder module does.
 
-larsim v04\_00\_00(#larsim-v04_00_00)
+larsim v04\_00\_00
 ----------------------------------------
 
 -   2015-02-11 Lynn Garren : Merge branch ‘v04\_00\_rc’
@@ -267,7 +267,7 @@ larsim v04\_00\_00(#larsim-v04_00_00)
 -   2014-12-02 Matthew Toups : Update optical library build tools.
 -   2014-12-01 Matthew Toups : Comment out redundant line in simulationservices.fcl for microboone.fcl.
 
-larevt v04\_00\_00(#larevt-v04_00_00)
+larevt v04\_00\_00
 ----------------------------------------
 
 -   2015-02-11 Lynn Garren : Merge branch ‘v04\_00\_rc’
@@ -285,7 +285,7 @@ larevt v04\_00\_00(#larevt-v04_00_00)
 -   2014-12-19 Gianluca Petrillo : Code updated for new RawDigit, Wire and Hit.
 -   2014-12-10 Gianluca Petrillo : Changes for data product review: raw::RawData (lardata commit b4b4d04); also added support for compressed raw digits in ArgoNeuT CalData
 
-lardata v04\_00\_00(#lardata-v04_00_00)
+lardata v04\_00\_00
 ------------------------------------------
 
 -   2015-02-12 Lynn Garren : Merge branch ‘v04\_00\_rc’
@@ -351,7 +351,7 @@ lardata v04\_00\_00(#lardata-v04_00_00)
 -   2014-12-19 Gianluca Petrillo : Code updated with new RawDigit, Wire and Hit and utilities.
 -   2014-12-10 Gianluca Petrillo : Data product review: raw::RawData - fADC made private, interface added - added bitset and interface; currently one bit is supported: saturation - added aliases for types - pedestal and its RMS transformed from double to float - documentation added
 
-larcore v04\_00\_00(#larcore-v04_00_00)
+larcore v04\_00\_00
 ------------------------------------------
 
 -   2015-02-11 Lynn Garren : larcore v04\_00\_00
@@ -369,7 +369,7 @@ larcore v04\_00\_00(#larcore-v04_00_00)
 -   2014-12-23 Gianluca Petrillo : Replaced the channel IDs with variables of raw::ChannelID\_t type
 -   2014-12-19 Gianluca Petrillo : Added TDC tick and channel ID types into raw namespace.
 
-larbatch v01\_04\_01(#larbatch-v01_04_01)
+larbatch v01\_04\_01
 --------------------------------------------
 
 -   2015-02-11 Lynn Garren : larbatch v01\_04\_01 for larsoft v03\_08\_02
@@ -382,7 +382,7 @@ larbatch v01\_04\_01(#larbatch-v01_04_01)
 -   2015-02-10 Herbert Greenlee : Preserve current directory during job submission.
 -   2015-02-05 Tingjun Yang : Missing “then”.
 
-larutils v1\_00\_03(#larutils-v1_00_03)
+larutils v1\_00\_03
 ------------------------------------------
 
 -   2015-02-11 Lynn Garren : larutils v1\_00\_03 for larsoft v03\_08\_02

@@ -1,4 +1,4 @@
-LArSoft v06\_41\_00 Release Notes(#LArSoft-v06_41_00-Release-Notes)
+LArSoft v06\_41\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -30,13 +30,13 @@ LArSoft v06\_41\_00 Release Notes(#LArSoft-v06_41_00-Release-Notes)
 Download instructions for [larsoft v06\_41\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_41_00/larsoft-v06_41_00.html)\
 Download instructions for [just larsoftobj v1\_22\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_22_00/larsoftobj-v1_22_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes to develop
 -   merge approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   dual phase raw hit finding using a new version of MVAReader/Writer in lardata
@@ -51,19 +51,19 @@ New features(#New-features)
     -   TrajCluster now accepts an optional fcl parameter (VLAStepSize) which will be used to adjust the tracking strategy when long-pulse hits are reconstructed as a series of narrow equally-spaced hits. (This needs more work)
     -   larreco, argoneutcode, lariatsoft, dunetpc
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
 -   larcore feature/gp\_Issue13792
     -   work in progress
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v06\_41\_00(#larsoft-v06_41_00)
+larsoft v06\_41\_00
 ------------------------------------------
 
 -   2017-06-21 Lynn Garren : larsoft v06\_41\_00 for larsoft v06\_41\_00
@@ -71,7 +71,7 @@ larsoft v06\_41\_00(#larsoft-v06_41_00)
 -   2017-06-21 Lynn Garren : update dependency database
 -   2017-06-15 Lynn Garren : ifdhc\_config v2\_0\_8a
 
-lareventdisplay v06\_07\_00(#lareventdisplay-v06_07_00)
+lareventdisplay v06\_07\_00
 ----------------------------------------------------------
 
 -   2017-06-21 Lynn Garren : add missing library
@@ -81,27 +81,27 @@ lareventdisplay v06\_07\_00(#lareventdisplay-v06_07_00)
 -   2017-06-12 Christoph Alt : Added functionality to plot raw waveform fits in event display
 -   2017-05-22 Christoph Alt : added functions to draw double exponential fit on raw waveforms for dual phase
 
-larexamples v06\_04\_02(#larexamples-v06_04_02)
+larexamples v06\_04\_02
 --------------------------------------------------
 
 -   2017-06-21 Lynn Garren : larexamples v06\_04\_02 for larsoft v06\_41\_00
 
-larpandora v06\_13\_02(#larpandora-v06_13_02)
+larpandora v06\_13\_02
 ------------------------------------------------
 
 -   2017-06-21 Lynn Garren : larpandora v06\_13\_02 for larsoft v06\_41\_00
 
-larwirecell v06\_05\_02(#larwirecell-v06_05_02)
+larwirecell v06\_05\_02
 --------------------------------------------------
 
 -   2017-06-21 Lynn Garren : larwirecell v06\_05\_02 for larsoft v06\_41\_00
 
-larana v06\_07\_02(#larana-v06_07_02)
+larana v06\_07\_02
 ----------------------------------------
 
 -   2017-06-21 Lynn Garren : larana v06\_07\_02 for larsoft v06\_41\_00
 
-larreco v06\_32\_00(#larreco-v06_32_00)
+larreco v06\_32\_00
 ------------------------------------------
 
 -   2017-06-21 Lynn Garren : larreco v06\_32\_00 for larsoft v06\_41\_00
@@ -295,19 +295,19 @@ larreco v06\_32\_00(#larreco-v06_32_00)
 -   2017-03-09 baller : Shower reconstruction development
 -   2017-03-09 baller : Shower reconstruction development
 
-larsim v06\_25\_00(#larsim-v06_25_00)
+larsim v06\_25\_00
 ----------------------------------------
 
 -   2017-06-21 Lynn Garren : larsim v06\_25\_00 for larsoft v06\_41\_00
 -   2017-06-15 Gianluca Petrillo : Ooops. Swapped two steps.
 -   2017-06-14 Gianluca Petrillo : Added simplifyGDML utility to redigest and simplify a GDML file.
 
-larevt v06\_14\_02(#larevt-v06_14_02)
+larevt v06\_14\_02
 ----------------------------------------
 
 -   2017-06-21 Lynn Garren : larevt v06\_14\_02 for larsoft v06\_41\_00
 
-lardata v06\_23\_00(#lardata-v06_23_00)
+lardata v06\_23\_00
 ------------------------------------------
 
 -   2017-06-21 Lynn Garren : lardata v06\_23\_00 for larsoft v06\_41\_00
@@ -329,7 +329,7 @@ lardata v06\_23\_00(#lardata-v06_23_00)
 -   2017-03-28 Robert Sulej : rename type
 -   2017-03-24 Robert Sulej : refactor helpers, so mva-specific things are separated from reading and writing generic feature vectors
 
-larcore v06\_11\_00(#larcore-v06_11_00)
+larcore v06\_11\_00
 ------------------------------------------
 
 -   2017-06-21 Lynn Garren : larcore v06\_11\_00 for larsoft v06\_41\_00
@@ -340,33 +340,33 @@ larcore v06\_11\_00(#larcore-v06_11_00)
 -   2017-06-20 Gianluca Petrillo : Added “local” iterators for all TPCs in a specified cryostat.
 -   2017-06-16 Gianluca Petrillo : Added TPC set and readout plane ID iterators to geometry service.
 
-larpandoracontent v03\_07\_01(#larpandoracontent-v03_07_01)
+larpandoracontent v03\_07\_01
 --------------------------------------------------------------
 
-larsoftobj v1\_22\_00(#larsoftobj-v1_22_00)
+larsoftobj v1\_22\_00
 ----------------------------------------------
 
 -   2017-06-21 Lynn Garren : larsoftobj v1\_22\_00 for larsoft v06\_41\_00
 -   2017-06-21 Lynn Garren : update product versions
 
-lardataobj v1\_17\_01(#lardataobj-v1_17_01)
+lardataobj v1\_17\_01
 ----------------------------------------------
 
 -   2017-06-21 Lynn Garren : lardataobj v1\_17\_01 for larsoft v06\_41\_00
 -   2017-06-15 Gianluca Petrillo : Added OpFlash::PEs() to return all the photoelectrons in all channels.
 
-larcoreobj v1\_15\_00(#larcoreobj-v1_15_00)
+larcoreobj v1\_15\_00
 ----------------------------------------------
 
 -   2017-06-21 Lynn Garren : larcoreobj v1\_15\_00 for larsoft v06\_41\_00
 -   2017-06-16 Gianluca Petrillo : Added medhods in geometry IDs useful for metaprogramming.
 
-larbatch v01\_32\_02(#larbatch-v01_32_02)
+larbatch v01\_32\_02
 --------------------------------------------
 
 -   2017-06-21 Lynn Garren : larbatch v01\_32\_02 for larsoft v06\_41\_00
 -   2017-06-19 Herbert Greenlee : Clean up tmp files even if jobsub\_submit returns an error.
 -   2017-06-15 Herbert Greenlee : Move sam cleanups, include stop project, inside loop over stages.
 
-larutils v1\_16\_00(#larutils-v1_16_00)
+larutils v1\_16\_00
 ------------------------------------------

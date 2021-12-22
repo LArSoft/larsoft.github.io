@@ -1,4 +1,4 @@
-LArSoft v03\_03\_02 Release Notes(#LArSoft-v03_03_02-Release-Notes)
+LArSoft v03\_03\_02 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -21,44 +21,44 @@ LArSoft v03\_03\_02 Release Notes(#LArSoft-v03_03_02-Release-Notes)
 [list of LArSoft releases](LArSoft_release_list)\
 [Download instructions](http://scisoft.fnal.gov/scisoft/projects/larsoft/v03_03_02/larsoft-v03_03_02.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 Include changes in development since v03\_03\_01.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 The head of develop for all larsoft packages now uses bug fix release cetbuildtools v4\_03\_01.
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v03\_03\_02(#larsoft-v03_03_02)
+larsoft v03\_03\_02
 ------------------------------------------
 
 -   2014-10-28 Lynn Garren : larsoft v03\_03\_02
 -   2014-10-28 Lynn Garren : new file Calorimetry/TrackCalorimetryAlg.h
 
-lareventdisplay v03\_02\_02(#lareventdisplay-v03_02_02)
+lareventdisplay v03\_02\_02
 ----------------------------------------------------------
 
 -   2014-10-28 Lynn Garren : for larsoft v03\_03\_02
 
-larexamples v03\_02\_02(#larexamples-v03_02_02)
+larexamples v03\_02\_02
 --------------------------------------------------
 
 -   2014-10-28 Lynn Garren : for larsoft v03\_03\_02
 
-larpandora v03\_03\_01(#larpandora-v03_03_01)
+larpandora v03\_03\_01
 ------------------------------------------------
 
 -   2014-10-28 Lynn Garren : for larsoft v03\_03\_02
 
-larana v03\_02\_03(#larana-v03_02_03)
+larana v03\_02\_03
 ----------------------------------------
 
 -   2014-10-28 Lynn Garren : for larsoft v03\_03\_02
@@ -79,7 +79,7 @@ larana v03\_02\_03(#larana-v03_02_03)
 -   2014-10-22 Wesley Ketchum : start fleshing out the TrackCalorimetryAlg: set up the loops over tracks and planes, and start to map out looping over the hits to get track pitch
 -   2014-10-21 Wesley Ketchum : start refactoring track calorimetry
 
-larreco v03\_02\_03(#larreco-v03_02_03)
+larreco v03\_02\_03
 ------------------------------------------
 
 -   2014-10-28 Lynn Garren : for larsoft v03\_03\_02
@@ -91,18 +91,18 @@ larreco v03\_02\_03(#larreco-v03_02_03)
 -   2014-10-22 Gianluca Petrillo : LineMerger module: moved FindManyP query out of loop (issue [\#7058](/redmine/issues/7058 "Bug: FindManyP() usage in LineMerger module (Closed)")); also removed dependency on Geometry service and changed constantness of some elements and minor technical details.
 -   2014-10-17 Herbert Greenlee : Update debugging output.
 
-larsim v03\_02\_02(#larsim-v03_02_02)
+larsim v03\_02\_02
 ----------------------------------------
 
 -   2014-10-28 Lynn Garren : for larsoft v03\_03\_02
 -   2014-10-23 Alex Himmel : Make the new x-axis in the y-z projection plots of the photon library analyzer configurable. Default behavior is unchanged. Needed since LBNE and MicroBooNE seem to prefer different orientations here.
 
-larevt v03\_02\_02(#larevt-v03_02_02)
+larevt v03\_02\_02
 ----------------------------------------
 
 -   2014-10-28 Lynn Garren : for larsoft v03\_03\_02
 
-lardata v03\_02\_02(#lardata-v03_02_02)
+lardata v03\_02\_02
 ------------------------------------------
 
 -   2014-10-28 Lynn Garren : for larsoft v03\_03\_02
@@ -112,7 +112,7 @@ lardata v03\_02\_02(#lardata-v03_02_02)
 -   2014-10-22 Wesley Ketchum : Revert “make const function for convert X to ticks and vice versa”
 -   2014-10-22 Wesley Ketchum : make const function for convert X to ticks and vice versa
 
-larcore v03\_02\_02(#larcore-v03_02_02)
+larcore v03\_02\_02
 ------------------------------------------
 
 -   2014-10-28 Lynn Garren : for larsoft v03\_03\_02

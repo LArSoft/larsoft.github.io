@@ -3,12 +3,12 @@
     -   [Creating Associations](#Creating-Associations)
     -   [Retrieving art::Assns from the art::Event](#Retrieving-artAssns-from-the-artEvent)
 
-How To Use Associations(#How-To-Use-Associations)
+How To Use Associations
 ====================================================
 
 [Associations](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Inter-Product_References#The-association-collection-Assns) are a way to make references between two data objects stored in an art::Event. LArSoft provides a set of in-line functions to create associations and retrieve them from the art::Event. Rather than repeat information that is in the art wiki, please read the [art information on associations](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Inter-Product_References) before proceeding.
 
-Creating Associations(#Creating-Associations)
+Creating Associations
 ------------------------------------------------
 
 To avoid having to do multiple steps in LArSoft, CreateAssn was developed, but it was confusing to the users so the use of it is no longer recommended. We have [PtrMaker utility](https://cdcvs.fnal.gov/redmine/projects/art/wiki/The_PtrMaker_utility) now available in *art*, which provides functions to create one-to-one and one-to-many associations. The input parameters can vary slightly depending on what is needed. One version allows the creation of pointers for new data products and another version allows the creation of pointers for existing data products.
@@ -63,7 +63,7 @@ To create an association in a producer module:
 
           evt.put(assns);
 
-Retrieving `art::Assns` from the `art::Event`(#Retrieving-artAssns-from-the-artEvent)
+Retrieving `art::Assns` from the `art::Event`
 ----------------------------------------------------------------------------------------
 
 There are many ways to access the associated information.\

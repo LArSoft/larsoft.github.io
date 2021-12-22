@@ -1,4 +1,4 @@
-LArSoft v08\_09\_00 Release Notes(#LArSoft-v08_09_00-Release-Notes)
+LArSoft v08\_09\_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
@@ -33,13 +33,13 @@ LArSoft v08\_09\_00 Release Notes(#LArSoft-v08_09_00-Release-Notes)
 Download instructions for [larsoft v08\_09\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_09_00/larsoft-v08_09_00.html)\
 Download instructions for [just larsoftobj v08\_06\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_06_00/larsoftobj-v08_06_00.html)
 
-Purpose(#Purpose)
+Purpose
 --------------------
 
 -   changes in develop
 -   approved feature branches
 
-New features(#New-features)
+New features
 ------------------------------
 
 -   larpandoracontent feature/sgreen\_T0Calculation
@@ -89,18 +89,18 @@ New features(#New-features)
             verified that I can still load ICARUS geometry in a python interactive 
             session.
 
-Bug fixes(#Bug-fixes)
+Bug fixes
 ------------------------
 
-Updated dependencies(#Updated-dependencies)
+Updated dependencies
 ----------------------------------------------
 
 -   wirecell 0.10.9
 
-Change List(#Change-List)
+Change List
 ============================
 
-larsoft v08\_09\_00(#larsoft-v08_09_00)
+larsoft v08\_09\_00
 ------------------------------------------
 
 -   2019-02-14 Lynn Garren : larsoft v08\_09\_00 for larsoft v08\_09\_00
@@ -108,44 +108,44 @@ larsoft v08\_09\_00(#larsoft-v08_09_00)
 -   2019-02-11 Lynn Garren : nusystematics v00\_02\_06
 -   2019-02-07 Lynn Garren : fix version
 
-lareventdisplay v08\_03\_04(#lareventdisplay-v08_03_04)
+lareventdisplay v08\_03\_04
 ----------------------------------------------------------
 
 -   2019-02-14 Lynn Garren : lareventdisplay v08\_03\_04 for larsoft v08\_09\_00
 -   2019-02-11 Kyle Knoepfel : Update header dependencies.
 -   2019-02-08 Kyle Knoepfel : Call non-default base-class constructors in preparation for art 3.02.
 
-larexamples v08\_01\_04(#larexamples-v08_01_04)
+larexamples v08\_01\_04
 --------------------------------------------------
 
 -   2019-02-14 Lynn Garren : larexamples v08\_01\_04 for larsoft v08\_09\_00
 -   2019-02-11 Kyle Knoepfel : Disambiguate between util and larsoft::util namespaces.
 -   2019-02-08 Kyle Knoepfel : Call non-default base-class constructors in preparation for art 3.02.
 
-larg4 v08\_01\_04(#larg4-v08_01_04)
+larg4 v08\_01\_04
 --------------------------------------
 
 -   2019-02-14 Lynn Garren : larg4 v08\_01\_04 for larsoft v08\_09\_00
 
-larpandora v08\_04\_03(#larpandora-v08_04_03)
+larpandora v08\_04\_03
 ------------------------------------------------
 
 -   2019-02-14 Lynn Garren : larpandora v08\_04\_03 for larsoft v08\_09\_00
 -   2019-02-11 Kyle Knoepfel : Add missing header dependency.
 -   2019-02-08 Kyle Knoepfel : Call non-default base-class constructors in preparation for art 3.02.
 
-larwirecell v08\_02\_04(#larwirecell-v08_02_04)
+larwirecell v08\_02\_04
 --------------------------------------------------
 
 -   2019-02-14 Lynn Garren : larwirecell v08\_02\_04 for larsoft v08\_09\_00a
 -   2019-02-08 Kyle Knoepfel : Call non-default base-class constructors in preparation for art 3.02.
 
-larana v08\_02\_01(#larana-v08_02_01)
+larana v08\_02\_01
 ----------------------------------------
 
 -   2019-02-14 Lynn Garren : larana v08\_02\_01
 
-larreco v08\_08\_00(#larreco-v08_08_00)
+larreco v08\_08\_00
 ------------------------------------------
 
 -   2019-02-14 Lynn Garren : larreco v08\_08\_00 for larsoft v08\_09\_00
@@ -160,7 +160,7 @@ larreco v08\_08\_00(#larreco-v08_08_00)
 -   2018-11-30 Hannah Rogers : Remove debug cout statments
 -   2018-11-28 Hannah Rogers : Added space charge dx correction to calorimetry module
 
-larsim v08\_03\_01(#larsim-v08_03_01)
+larsim v08\_03\_01
 ----------------------------------------
 
 -   2019-02-14 Lynn Garren : larsim v08\_03\_01 for larsoft v08\_09\_00
@@ -174,7 +174,7 @@ larsim v08\_03\_01(#larsim-v08_03_01)
 -   2019-02-07 Chris Green : Revert “Merge branch ‘feature/knoepfel\_nodiscard’ into release/v08\_08\_00”
 -   2019-02-07 Lynn Garren : larsim v08\_03\_00 for larsoft v08\_08\_00
 
-larevt v08\_02\_00(#larevt-v08_02_00)
+larevt v08\_02\_00
 ----------------------------------------
 
 -   2019-02-14 Lynn Garren : larevt v08\_02\_00 for larsoft v08\_09\_00
@@ -186,12 +186,12 @@ larevt v08\_02\_00(#larevt-v08_02_00)
 -   2018-11-26 Hannah Rogers : Merge tag ‘tags/v07\_01\_03’ into feature/herogers\_voxelizedSCE
 -   2018-09-24 Hannah Rogers : Added necessary nominal functions to add SCE for reconstruction using calibration maps
 
-lardata v08\_03\_01(#lardata-v08_03_01)
+lardata v08\_03\_01
 ------------------------------------------
 
 -   2019-02-14 Lynn Garren : lardata v08\_03\_01 for larsoft v08\_09\_00
 
-larcore v08\_02\_00(#larcore-v08_02_00)
+larcore v08\_02\_00
 ------------------------------------------
 
 -   2019-02-14 Lynn Garren : recover from a revert
@@ -200,7 +200,7 @@ larcore v08\_02\_00(#larcore-v08_02_00)
 -   2019-02-12 Lynn Garren : Merge branch ‘feature/gp\_factorizeGeometryBuilding’ into release/v08\_09\_00
 -   2019-02-07 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp\_factorizeGeometryBuilding
 
-larpandoracontent v03\_14\_05(#larpandoracontent-v03_14_05)
+larpandoracontent v03\_14\_05
 --------------------------------------------------------------
 
 -   2019-02-14 Lynn Garren : larpandoracontent v03\_14\_05 for larsoft v08\_09\_00
@@ -214,13 +214,13 @@ larpandoracontent v03\_14\_05(#larpandoracontent-v03_14_05)
 -   2019-01-28 Steven Green : Adding option to always calculate T0 when stitching cosmics rays.
 -   2019-02-11 Kyle Knoepfel : Add missing header dependencies.
 
-larsoftobj v08\_06\_00(#larsoftobj-v08_06_00)
+larsoftobj v08\_06\_00
 ------------------------------------------------
 
 -   2019-02-14 Lynn Garren : larsoftobj v08\_06\_00 for larsoft v08\_09\_00
 -   2019-02-14 Lynn Garren : product versions
 
-lardataobj v08\_02\_00(#lardataobj-v08_02_00)
+lardataobj v08\_02\_00
 ------------------------------------------------
 
 -   2019-02-14 Lynn Garren : lardataobj v08\_02\_00 for larsoft v08\_09\_00
@@ -231,12 +231,12 @@ lardataobj v08\_02\_00(#lardataobj-v08_02_00)
 -   2019-02-12 Gianluca Petrillo : Converting indentation from tabular to spaces.
 -   2018-11-08 Gianluca Petrillo : Added features to lar::sparse\_vector
 
-lardataalg v08\_03\_04(#lardataalg-v08_03_04)
+lardataalg v08\_03\_04
 ------------------------------------------------
 
 -   2019-02-14 Lynn Garren : lardataalg v08\_03\_04 for larsoft v08\_09\_00
 
-larcorealg v08\_04\_00(#larcorealg-v08_04_00)
+larcorealg v08\_04\_00
 ------------------------------------------------
 
 -   2019-02-14 Lynn Garren : Merge branch ‘release/v08\_09\_00’
@@ -249,11 +249,11 @@ larcorealg v08\_04\_00(#larcorealg-v08_04_00)
 -   2019-02-07 Lynn Garren : larcorealg v08\_03\_00
 -   2019-02-07 Lynn Garren : Merge branch ‘feature/ss\_issue19191’ into release/v08\_08\_00
 
-larcoreobj v08\_02\_01(#larcoreobj-v08_02_01)
+larcoreobj v08\_02\_01
 ------------------------------------------------
 
-larbatch v01\_47\_03(#larbatch-v01_47_03)
+larbatch v01\_47\_03
 --------------------------------------------
 
-larutils v1\_23\_11(#larutils-v1_23_11)
+larutils v1\_23\_11
 ------------------------------------------
