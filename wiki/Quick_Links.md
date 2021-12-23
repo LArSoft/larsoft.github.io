@@ -10,7 +10,7 @@ Quick Start Guides - experiment specific
 -   [ArgoNeuT](https://cdcvs.fnal.gov/redmine/projects/argoneutcode/wiki)
 -   [LArIAT](https://cdcvs.fnal.gov/redmine/projects/lardbt/wiki/Setting_up_the_Offline_Software)
 -   [ICARUS](https://cdcvs.fnal.gov/redmine/projects/icaruscode/wiki/The_ICARUS_Guide_to_using_LArSoft)
--   [LArSoft General Quick Start Guide](_Quick-start_guide_to_using_and_developing_LArSoft_code_) (For new experiments to use as a base for developing a guide.)
+-   [LArSoft General Quick Start Guide](Quick-start_guide_to_using_and_developing_LArSoft_code) (For new experiments to use as a base for developing a guide.)
 
 [List of LArSoft releases](LArSoft_release_list)
 
