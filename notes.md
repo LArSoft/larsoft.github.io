@@ -27,9 +27,13 @@ It is possible to download the pages individually by hand,
 but LArSoft has too many pages for this to be useful.
 Instead, we are looking at a script to strip the headers and footers off the files,
 either before or after conversion.
-* Testing with [convert.pl](convert.pl) [md wiki from html](wiki/LArSoftWiki.md)
-* Testing with older [convert.sh](convert.sh) [md wiki from html](wiki4/LArSoftWiki.md)
-
+* The latest work is with a perl script: [convert.pl](https://cdcvs.fnal.gov/redmine/projects/laradmin/repository/revisions/master/entry/gitwiki/convert.pl)
+  * This script has 3 parts:
+    * process the html file from redmine
+    * run pandoc
+    * process the temporary file produced by pandoc
+* A basic conversion from html to markdown was made using a bash script and pandoc [convert.sh](https://cdcvs.fnal.gov/redmine/projects/laradmin/repository/revisions/master/entry/gitwiki/convert.sh)
+  * This script has deficiencies, such as not removing email addresses.
 *  Copying textile pages does not work.
   * Among other things, the internal links are not respected.  This is probably because github uses different textile conventions.
   * Although we can use pandoc to convert from textile to markdown, an excessive amount of editing seems to be required.
