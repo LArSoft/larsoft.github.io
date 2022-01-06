@@ -87,7 +87,7 @@ N.B. It is not necessary to mount all `mrb-larsoft-*` volumes, just those to be 
 
 #### Daily Development Operations
 
-Assuming the same `docker run` command as above:\
+Assuming the same `docker run` command as above:
 
     (-dc-) $ . /products/setup
     (-dc-) $ setup mrb

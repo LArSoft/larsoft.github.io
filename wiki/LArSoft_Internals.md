@@ -82,7 +82,7 @@ Code cleanup
 Completed Projects
 ------------------------------------------
 
-[Building with clang](Building_with_clang)\
+[Building with clang](Building_with_clang)
 [Migration to root 6](Migration_to_root_6)
 
 LArSoft code analysis
@@ -102,7 +102,7 @@ Legacy Redmine project sites
 
 These were the sites used when LArSoft was developed under cvs and svn + SoftRelTools, respectively:
 
-[LArSoft-cvs wiki for the legacy cvs-based LArSoft project](/redmine/projects/larsoft-cvs/wiki)\
+[LArSoft-cvs wiki for the legacy cvs-based LArSoft project](/redmine/projects/larsoft-cvs/wiki)
 [LArSoft-svn wiki for the legacy svn-based LArSoft project](/redmine/projects/larsoftsvn/wiki)
 
 As of Jan 24, 2014, LArSoft transitioned from svn / SRT to git / mrb / ups, but we retain the legacy projects for historical reasons.

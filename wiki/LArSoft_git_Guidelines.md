@@ -15,15 +15,15 @@ LArSoft git Guidelines
 normal development
 ------------------------------------------
 
-Work should be done on feature branches, not directly on the head of develop. \
-When your work is ready, merge your feature branch with develop and delete the feature branch.\
+Work should be done on feature branches, not directly on the head of develop.
+When your work is ready, merge your feature branch with develop and delete the feature branch.
 Start a new feature branch for each project.
 
 These instructions reference git flow, which is used for convenience.
 
 ### Create a feature branch
 
-Within the local repository, make sure you are on the develop branch and then create the branch:\
+Within the local repository, make sure you are on the develop branch and then create the branch:
 
     git flow feature start <identifier>_<my_feature>
 
@@ -32,19 +32,19 @@ Within the local repository, make sure you are on the develop branch and then cr
 
 ### Publishing a feature branch
 
-Sometimes you need to make your feature branch available for other developers to work with and/or test.\
-Push to the remote repository and set tracking.\
+Sometimes you need to make your feature branch available for other developers to work with and/or test.
+Push to the remote repository and set tracking.
 
     git push -u origin feature/<identifier>_<my_feature>
 
 ### Merging your changes back into the repository
 
-If this is a breaking change, request that the branch be merged during the next larsoft release.\
-A breaking change is anything that requires other users of larsoft to change their code. \
-If this is not a breaking change, and you have tested your code, merge it with develop. \
+If this is a breaking change, request that the branch be merged during the next larsoft release.
+A breaking change is anything that requires other users of larsoft to change their code.
+If this is not a breaking change, and you have tested your code, merge it with develop.
 See [Getting new code into a LArSoft release](Getting_new_code_into_a_LArSoft_release) for guidelines.
 
-Within the local repository:\
+Within the local repository:
 
     git fetch origin
     git rebase origin/develop
@@ -53,28 +53,28 @@ Within the local repository:\
 
 ### Deleting a published feature branch
 
-“git flow feature finish” will remove your local feature branch, but any published branches remain in the remote repository.\
-Once you have finished your work and merged your changes, please remove the remote feature branch:\
+“git flow feature finish” will remove your local feature branch, but any published branches remain in the remote repository.
+Once you have finished your work and merged your changes, please remove the remote feature branch:
 
     git push origin :feature/<identifier>_<my_feature>
 
 working with special branches
 ----------------------------------------------------------------
 
-An experiment may need a special branch for long term development when their code has temporarily diverged from the head. These branches are requested by the experiment software coordinator and created by the LArSoft code manager.\
+An experiment may need a special branch for long term development when their code has temporarily diverged from the head. These branches are requested by the experiment software coordinator and created by the LArSoft code manager.
 (See [Policy for development from a tagged release](Policy_for_development_from_a_tagged_release).)
 
--   Check out the base release\
+-   Check out the base release
 
         mrb g -b vxx_yy_zz_branch <repository>
         cd <repository>
 
--   Verify you are on the vxx\_yy\_zz branch\
+-   Verify you are on the vxx\_yy\_zz branch
 
         git branch
 
 -   Create and check out the new ‘feature branch’
-    -   Your feature branch should conform to the standard feature branch naming conventions\
+    -   Your feature branch should conform to the standard feature branch naming conventions
 
             git checkout -b feature_vxx_yy_zz/<my_branch_name>
 
@@ -90,7 +90,7 @@ Developers are expected to follow a specific development workflow in order to ma
 
 The development workflow adopted by LArSoft is based on that documented by Vincent Driessen at [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/), and implemented by the git extensions in the [git flow](http://github.com/nvie/gitflow) product.
 
-![](/redmine/attachments/download/33550/Git-branching-model.png)\
+![](/redmine/attachments/download/33550/Git-branching-model.png)
 Branch structure and workflow to be used for LArSoft development
 
 Within this framework, all git repositories have the following branch structure:

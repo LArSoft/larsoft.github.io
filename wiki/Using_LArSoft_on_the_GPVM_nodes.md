@@ -42,15 +42,15 @@ Disk Space
 
 Two disk areas are available for user code and data:
 
-`/<experiment>/app/users`\
+`/<experiment>/app/users`
 `/<experiment>/data/users`
 
-Where \<experiment\> is the name of the experiment the users is working on. The `app` area is where where users should store their test releases as well as any analysis files. No data should be stored in these areas.\
+Where \<experiment\> is the name of the experiment the users is working on. The `app` area is where where users should store their test releases as well as any analysis files. No data should be stored in these areas.
 (on lariatgpvms the /lariat/app directory does not exist and so the users are encouraged to create their test releases in /lariat/data )
 
 All data or Monte Carlo files should be stored on the `data` disk, regardless whether they are for general consumption by the experiment or whether they are for the user alone. This file system is mounted without executable permission, both on grid nodes and on the interactive notes. Files located here cannot be executed, regardless of the permissions on the individual files. Executables must be run from the `/<experiment>/app` directories.
 
 These filesystems are located on disks collectively called “BlueArc” (after the manufacturer’s name).
 
-On the grid, many jobs accessing the BlueArc disks can cause I/O slowdowns for interactive and batch processing. Users should use the \
+On the grid, many jobs accessing the BlueArc disks can cause I/O slowdowns for interactive and batch processing. Users should use the
 [IF Dat Handling Client Tools (ifdhc)](/redmine/projects/ifdhc/wiki/Wiki) to move files to and from storage resources in general, and from BlueArc in particular. The tools in this product will select the optimal transport protocol and ensure that loads are managed so as to maximize throughput.

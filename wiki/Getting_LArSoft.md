@@ -14,8 +14,8 @@ Installation Procedures
 LArSoft cvmfs
 --------------------------------
 
-The LArSoft code is available on cvmfs at /cvmfs/fermilab.opensciencegrid.org/products/larsoft/\
-This is a complete copy of /grid/fermiapp/products/larsoft\
+The LArSoft code is available on cvmfs at /cvmfs/fermilab.opensciencegrid.org/products/larsoft/
+This is a complete copy of /grid/fermiapp/products/larsoft
 The cvmfs area is automatically updated nightly, but we also update manually when a new release is available.
 
 [cvmfs instructions](LArSoft_cvmfs_page)

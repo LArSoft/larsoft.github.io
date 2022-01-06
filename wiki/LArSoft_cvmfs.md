@@ -26,7 +26,7 @@ Install a larsoft release
 --------------------------------------------------------
 
 -   The product directory is /cvmfs/larsoft.opensciencegrid.org/products
--   To install any larsoft release:\
+-   To install any larsoft release:
 
         cvmfs_server transaction larsoft.opensciencegrid.org
         ./scripts/installBundle.sh larsoft <release> <qualifiers>

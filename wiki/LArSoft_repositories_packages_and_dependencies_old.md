@@ -22,24 +22,24 @@ There are three types of repositories:
 
 1.  framework-dependent - depends on *art* and directly and indirectly on other things.
 2.  framework-independent - sometimes referred to as shared repositories in the context of LArLite because they are shared directly between external frameworks and LArSoft. They are designed to have minimal dependencies.
-3.  product-interface - provides direct access to a particular package (such as Pandora or LArWireCell) without making any other part of LArSoft dependent on them.\
+3.  product-interface - provides direct access to a particular package (such as Pandora or LArWireCell) without making any other part of LArSoft dependent on them.
     The second and third type will be explicitly identified below.
 
-With the addition of framework-independent repositories, there is now a dependency on the new repositories as shown in the following diagram:\
+With the addition of framework-independent repositories, there is now a dependency on the new repositories as shown in the following diagram:
 
 
     laccoreobj      larcore
-           ^       /    ^
-           |      /     |
-           |     v      |
+    ^       /    ^
+    |      /     |
+    |     v      |
     laracorealg     lardata
-           ^         /  ^
-           |        /   |
-           |       /    |
+    ^         /  ^
+    |        /   |
+    |       /    |
     lardataobj    / larevt
-           ^     /      ^
-           |    /       |
-           |   v        |
+    ^     /      ^
+    |    /       |
+    |   v        |
     laradataalg     larsim
 
 larcore
@@ -128,8 +128,8 @@ This is type 2, framework-independent, but it does depend on [canvas](https://cd
 larsoft\_data
 -------------------------------
 
--   A special package that contains data files needed by some LArSoft jobs. This product is *not* \
-     included in larsoft\_suite, and strictly speaking, *is not* part of core LArSoft. It is maintained\
+-   A special package that contains data files needed by some LArSoft jobs. This product is *not*
+     included in larsoft\_suite, and strictly speaking, *is not* part of core LArSoft. It is maintained
      here until a more general solution can be found. Setting up larsoft will set up larsoft\_data.
 
 larsoft

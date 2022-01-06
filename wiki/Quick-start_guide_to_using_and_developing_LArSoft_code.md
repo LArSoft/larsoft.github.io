@@ -33,12 +33,12 @@ Quick-start guide to using and developing LArSoft code
 
 LArSoft is not a stand-alone product. It is intended to be used as part of an experiment, so the set-up instructions for the experiment you are working with is the best place to start. To find a specific project, first check the [Quick Links](Quick_Links), then look on your experiment’s pages in redmine for instructions on installing LArSoft software. (Go to: [https://cdcvs.fnal.gov/redmine/projects](https://cdcvs.fnal.gov/redmine/projects) and search for your experiment.)
 
-The following is provided just to provide the general information that can be adapted by each experiment.\
+The following is provided just to provide the general information that can be adapted by each experiment.
 These instructions are for working with larsoft release v1\_00\_00 and later, and mrb v1\_00\_00 and later. The instructions assume that LArSoft is installed locally using the download and installation instructions linked from the download page (see [Download instructions](Getting_LArSoft)). Changes needed for off-site installations will be noted. This documentation is evolving as we receive feedback. Please open an issue ticket if you have suggestions or complaints.
 
 Please note that all Fermilab redmine repository names are lower case. See the [LArSoft product list](_LArSoft_repositories_packages_and_dependencies_).
 
-See [The developer environment](_The_developer_environment_) page for important information about the git branching model that should be used when developing LArSoft code.\
+See [The developer environment](_The_developer_environment_) page for important information about the git branching model that should be used when developing LArSoft code.
 Detailed information about mrb is available from the [mrb reference guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbRefereceGuide). Information about UPS is available from [getting started using UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/Getting_Started_Using_UPS)
 
 Before you start
@@ -72,16 +72,14 @@ More detailed explanations of what is happening during each of these can be foun
 
 ### Initial setup of the working environment (starting from a fresh login):
 
-Run experiment-specific setup script:\
+Run experiment-specific setup script:
 
     source /cvmfs/uboone.opensciencegrid.org/products/setup_uboone.sh
 
-\
-or\
+or
 
     source /cvmfs/dune.opensciencegrid.org/products/dune/setup_dune.sh
 
-\
 (`*.csh` versions may also be available for csh/tcsh users)
 
 If off-site, the appropriate script should be modified to reflect the locations of local product installations.
@@ -121,7 +119,7 @@ To build experiment-specific code for DUNE or uBooNE against an existing LArSoft
 >     mrbsetenv
 >     mrb i -j4     # (if the machine has enough cores)
 
-> “\<xxx|yyy\>” is intended to denote selecting one or the other of xxx or yyy.\
+> “\<xxx|yyy\>” is intended to denote selecting one or the other of xxx or yyy.
 > To work with an existing work area, omit `mkdir` and `mrb newDev` steps above.
 
 ### Run the software you just built
@@ -131,13 +129,13 @@ To build experiment-specific code for DUNE or uBooNE against an existing LArSoft
 -   Note: “mrbslp” will setup ALL products in your working localProducts directory.
 -   If you’ve been following these directions, then uboonecode or dunetpc will be the ONLY product in your localProducts directory.
 
--   Now run\
+-   Now run
 
         lar -c xxx.fcl ...
 
-> -   Note that the build procedure will un-setup any products that are being built, so those\
+> -   Note that the build procedure will un-setup any products that are being built, so those
 >     need to be set-up again before they can be used.
-> -   The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See\
+> -   The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See
 >     the list of releases for the most current version, or use @ups list -aK+ \<dunetpc | uboonecode\>
 
 To build and work with larsoft itself
@@ -145,7 +143,7 @@ To build and work with larsoft itself
 
 ### Create a working area
 
-> After you have performed the initial setup:\
+> After you have performed the initial setup:
 >
 >     mkdir <working_dir>
 >     cd <working_dir>
@@ -160,7 +158,7 @@ To build and work with larsoft itself
 
 ### Check out, develop and build LArSoft code
 
-> After performing the initial setup and creating the working area, from `<working_dir>`:\
+> After performing the initial setup and creating the working area, from `<working_dir>`:
 >
 >     source ./localProducts_XXX/setup
 >     cd srcs
@@ -174,7 +172,7 @@ To build and work with larsoft itself
 >     mrbsetenv  
 >     mrb install -j4    # -jN => N parallel processes for the build (if the machine has enough cores)
 >
-> -   `mrb install` (abbreviates to `mrb i`) will build then install results in localProducts\_XXX. This\
+> -   `mrb install` (abbreviates to `mrb i`) will build then install results in localProducts\_XXX. This
 >     is the preferred command if you need to run what you are building.
 > -   You can also use `mrb build` (or `mrb b`) if you just want the build with no install. Be aware, however, that you cannot run using the resulting build products.
 
@@ -182,7 +180,7 @@ To build and work with larsoft itself
 
 ### Run the software you just built
 
-> Starting from the build directory immediately after running `mrb build`:\
+> Starting from the build directory immediately after running `mrb build`:
 >
 >     mrb install  # if this was not run previously
 >     cd ..        # should now be in the top-level directory of working area
@@ -205,9 +203,9 @@ To build and work with larsoft itself
 >     # Now run
 >     lar -c xxx.fcl ...
 
-> -   Note that the build procedure will un-setup any products that are being built, so those\
+> -   Note that the build procedure will un-setup any products that are being built, so those
 >     need to be set-up again before they can be used.
-> -   The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See\
+> -   The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See
 >     the list of releases for the most current version, or use @ups list -aK+ \<dunetpc | uboonecode\>
 
 Annotated quick-start guide
@@ -223,8 +221,7 @@ There are experiment-specific setup scripts to perform setup. For example.
 >     /grid/fermiapp/lbne/software/setup_lbne.sh
 >     /grid/fermiapp/lbne/software/setup_lbne.csh
 >
-> \
-> AND:\
+> AND:
 >
 >     /grid/fermiapp/uboone/software/setup_uboone.sh
 >     /grid/fermiapp/uboone/software/setup_uboone.csh
@@ -244,7 +241,7 @@ There are experiment-specific setup scripts to perform setup. For example.
 > > -   Eventually, you will be able to use the experiment name for the project.
 > > -   For now, just use “larsoft” in all cases.
 
--   This fragment works on uboonegpvm01 and other gpvm machines:\
+-   This fragment works on uboonegpvm01 and other gpvm machines:
 
         source /grid/fermiapp/products/larsoft/setup
         setup git
@@ -260,7 +257,7 @@ Create a working area
 
 ### Everything (source code, \<localProdDir\>, and build directory) in one directory tree
 
-Case 1: you have setup \<MRB\_PROJECT\> \<version\> (the recommended procedure)\
+Case 1: you have setup \<MRB\_PROJECT\> \<version\> (the recommended procedure)
 
     mkdir <working_dir>
     cd  <working_dir>
@@ -271,7 +268,7 @@ Case 1: you have setup \<MRB\_PROJECT\> \<version\> (the recommended procedure)\
 
 -   source \<localProdDir\>/setup
 
-Case 2: you did not setup \<MRB\_PROJECT\> \<version\>\
+Case 2: you did not setup \<MRB\_PROJECT\> \<version\>
 
     mkdir <working_dir>
     cd  <working_dir>
@@ -282,7 +279,7 @@ Case 2: you did not setup \<MRB\_PROJECT\> \<version\>\
 
 -   source \<localProdDir\>/setup
 
-Source code under your home directory\
+Source code under your home directory
 
     mkdir <working_dir>
     mkdir <source_dir>
@@ -305,8 +302,8 @@ To set up the working environment for an existing working area, you need to sour
 > -   set the \$PRODUCTS path
 > -   make sure you have gitflow and git 1.8 or newer
 
--   source \<localProdDir\>/setup\
-    On uboonegpvm0X and lbnegpvm0X:\
+-   source \<localProdDir\>/setup
+    On uboonegpvm0X and lbnegpvm0X:
 
         source /grid/fermiapp/products/larsoft/setup
         setup git
@@ -322,14 +319,13 @@ To set up the working environment for an existing working area, you need to sour
 Developing a package
 ----------------------------------------------
 
--   After setting up the working environment:\
+-   After setting up the working environment:
 
         cd $MRB_SOURCE
         mrb gitCheckout <package_1>
         mrb g <package_2>
 
-    \
-    Or to check out the entire larsoft suite, replace the separate `mrb g ...` with:\
+    Or to check out the entire larsoft suite, replace the separate `mrb g ...` with:
 
         mrb g larsoft_suite 
 
@@ -349,7 +345,7 @@ Developing a package
 Build code in your working area
 --------------------------------------------------------------------
 
--   After setting up the working environment:\
+-   After setting up the working environment:
 
         cd $MRB_BUILDDIR
         mrbsetenv
@@ -364,7 +360,7 @@ Build code in your working area
 > -   The mrb install command will make a ups product in your \<localProdDir\> for the package you are building.
 > -   You can also just type “make install [-jN]”
 
--   To get rid of what you just built (or tried to build) and start over:\
+-   To get rid of what you just built (or tried to build) and start over:
 
         cd $MRB_BUILDDIR
         rm -rf *
@@ -380,7 +376,7 @@ This behavior results in the following curious complication. If you build only *
 
 Since all this seems complicated, we have introduced the `mrb setup_local_products` command (abbreviated to `mrb slp`) that will perform the proper setup.
 
-So, assuming that the basic setup has been completed and the local products setup has been sourced, then starting from the build directory:\
+So, assuming that the basic setup has been completed and the local products setup has been sourced, then starting from the build directory:
 
     cd ..
     unsetup larsoft   
@@ -398,7 +394,7 @@ So, assuming that the basic setup has been completed and the local products setu
 
 You will also need to manually set up any other products that are installed in the local products area that are not already dependencies of either larsoft or the experiment-specific products.
 
-Since all this seemed complicated, we have introduced the `mrb setup_local_products` command (abbreviated to `mrb slp`) that will perform the proper setup of all products in the local products directory, regardless of whether they are part of LArSoft. To use this command in the above example (where we am assuming that you had set up `uboonecode`, `dunetpc`, or `larsoft` going into the build):\
+Since all this seemed complicated, we have introduced the `mrb setup_local_products` command (abbreviated to `mrb slp`) that will perform the proper setup of all products in the local products directory, regardless of whether they are part of LArSoft. To use this command in the above example (where we am assuming that you had set up `uboonecode`, `dunetpc`, or `larsoft` going into the build):
 
     cd ..
     mrbslp
@@ -406,7 +402,6 @@ Since all this seemed complicated, we have introduced the `mrb setup_local_produ
     # Now run
     lar -c ...
 
-\
 (Note that if this command is used, then you must run programs in the same shell)
 
 If starting from a fresh login, then the usual setup procedure (`setup <dunetpc | uboonecode | larsoft>` is all that it needed.
@@ -419,8 +414,7 @@ Performing a clean build
     mrbsetenv
     mrb install
 
-\
-OR:\
+OR:
 
     cd $MRB_BUILDDIR
     rm -rf *
@@ -458,32 +452,31 @@ Then build as usual.
 Comparison of mrb and SRT commands
 ==========================================================================
 
-The following table compares SRT commands with their approximate mrb analogs. \
-The equivalency is based entirely upon approximate parallel functionality within their respective frameworks.\
+The following table compares SRT commands with their approximate mrb analogs.
+The equivalency is based entirely upon approximate parallel functionality within their respective frameworks.
 HOWEVER, please see the instructions above since there is not a one-to-one translation and behaviors differ.
 
-  ------------------------------------ ------------------------------------------
-  **Legacy / SRT command**             **Analogous mrb command**
-  setup\_larsoft\_fnal.sh              The setup procedure above
-  newrel -t \<release\> \<name\>       mkdir \<name\>; cd \<name\>; mrb newDev
-  addpkg\_svn -h \<package\> \<tag\>   mrb gitCheckout [-t \<tag\>] \<package\>
-  newpkg \<name\>                      mrb newProduct \<name\>
-  srt\_setup -a                        mrb setEnv
-  gmake all                            mrb install
-  rmpkg \<name\>                       rm -r \<name\> ; mrb uc
-  ------------------------------------ ------------------------------------------
+||
+|**Legacy / SRT command**|**Analogous mrb command**|
+|setup\_larsoft\_fnal.sh|The setup procedure above|
+|newrel -t \<release\> \<name\>|mkdir \<name\>; cd \<name\>; mrb newDev|
+|addpkg\_svn -h \<package\> \<tag\>|mrb gitCheckout [-t \<tag\>] \<package\>|
+|newpkg \<name\>|mrb newProduct \<name\>|
+|srt\_setup -a|mrb setEnv|
+|gmake all|mrb install|
+|rmpkg \<name\>|rm -r \<name\> ; mrb uc|
 
 Using prebuilt releases
 ====================================================
 
-The new larsoft ups product and all its dependencies are installed in the /grid/fermiapp/products/larsoft product directory.\
-This directory is mounted on the relevant gpvm machines and Fermilab grid worker nodes.\
-In addition, a mirror of this directory is available on cvmfs at /cvmfs/fermilab.opensciencegrid.org/products/larsoft/ \
+The new larsoft ups product and all its dependencies are installed in the /grid/fermiapp/products/larsoft product directory.
+This directory is mounted on the relevant gpvm machines and Fermilab grid worker nodes.
+In addition, a mirror of this directory is available on cvmfs at /cvmfs/fermilab.opensciencegrid.org/products/larsoft/
 We encourage users to [install and use a cvmfs client](LArSoft_cvmfs_page) instead of installing the binary distribution wherever possible.
 
 Binary distributions are available under [http://scisoft.fnal.gov/](http://scisoft.fnal.gov/)
 
-If you need to pull everything (LArSoft plus all external packages) in order to create a new installation of the software (for instance, for an off-site installation to support a local analysis group), we recommend using the download script available from SciSoft.\
+If you need to pull everything (LArSoft plus all external packages) in order to create a new installation of the software (for instance, for an off-site installation to support a local analysis group), we recommend using the download script available from SciSoft.
 
     curl -O  http://scisoft.fnal.gov/bundles/tools/pullProducts
     chmod +x pullProducts

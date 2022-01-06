@@ -67,7 +67,7 @@ These items are in order of decreasing likelihood of being needed. We encourage 
 
 ### Algorithm-framework interface code
 
-This category includes code to enable the use of algorithmic code (above) into a specific framework.\
+This category includes code to enable the use of algorithmic code (above) into a specific framework.
 This category includes:
 
 -   interfaces to third party code (e.g. the pandora toolkit); for example, `LArPandora, larrecotf`
@@ -83,8 +83,8 @@ The `RecoTF` software will include algorithm-framework interface code repositori
 
 ### LArSoft core code
 
-LArSoft already includes a lot of code, with a backbone of core repositories in a dependency chain: `LArCore, LArData, LArEvt, LArSim, LArReco, LArAna` (in dependency order).\
-These repositories functionally merge the two categories above. Where factorization has taken place, each of these repositories has a matching algorithmic code repository. Where factorization is complete (as for `larcore`), one of the repositories is fully in the algorithmic code category ([`LArCoreAlg`](https://cdcvs.fnal.gov/redmine/projects/larcorealg)), and the other is in the algorithm-framework interface category ([`LArCore`).](https://cdcvs.fnal.gov/redmine/projects/larcore) ^1^
+LArSoft already includes a lot of code, with a backbone of core repositories in a dependency chain: `LArCore, LArData, LArEvt, LArSim, LArReco, LArAna` (in dependency order).
+These repositories functionally merge the two categories above. Where factorization has taken place, each of these repositories has a matching algorithmic code repository. Where factorization is complete (as for `larcore`), one of the repositories is fully in the algorithmic code category ([`LArCoreAlg`](https://cdcvs.fnal.gov/redmine/projects/larcorealg)), and the other is in the algorithm-framework interface category ([`LArCore`).](https://cdcvs.fnal.gov/redmine/projects/larcore) <sup>1</sup>
 
 The `RecoTF` software will not entwine with this category: LArSoft users will be able to pull in `RecoTF` facilities through FHiCL configuration pulling in the run-time plug-ins provided in[`larrecotf`.](https://cdcvs.fnal.gov/redmine/projects/larcore)
 
@@ -102,4 +102,4 @@ References
 
 This material is from Gianluca Petrillo’s issue [\#18283](/redmine/issues/18283 "Meeting: Define a policy for LArSoft art-independent code and repositories (Closed)").
 
-​1. Repository `larcore` contains utilities that are *art*-specific and do not have any *art* independent scope, e.g. classes to facilitate the creation of *art* services from service providers. In this sense, `larcore` is not exclusively an interface repository. That is, a user might want to include larcore functionality even when not needing even indirectly any from `larcorealg`.
+1. Repository `larcore` contains utilities that are *art*-specific and do not have any *art* independent scope, e.g. classes to facilitate the creation of *art* services from service providers. In this sense, `larcore` is not exclusively an interface repository. That is, a user might want to include larcore functionality even when not needing even indirectly any from `larcorealg`.

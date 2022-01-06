@@ -146,7 +146,7 @@ Setting up a Development Environment
 
 ### Conventions
 
-We use the following conventions while demonstrating command input or output:\
+We use the following conventions while demonstrating command input or output:
 
     (host) $ # Command-line prompt on host machine
     # Output...
@@ -163,7 +163,7 @@ We use the following conventions while demonstrating command input or output:\
 
 ### Image Retrieval
 
-An explicit command to obtain the base image is not *necessary*: the first `docker run` command referencing an image not currently installed will trigger an attempt to obtain it from DockerHub. At any time one can check what images are available on the local system with (*e.g.*):\
+An explicit command to obtain the base image is not *necessary*: the first `docker run` command referencing an image not currently installed will trigger an attempt to obtain it from DockerHub. At any time one can check what images are available on the local system with (*e.g.*):
 
     (host) $ docker images | grep fnalart
     fnalart/os_base     centos7             398e2b29aca9        2 years ago         712MB
@@ -175,13 +175,13 @@ However, we *recommend* regular use of an explicit `docker pull` command prior t
 
 ### Create and Populate the External UPS Products Volume
 
--   Create the Docker volume:\
+-   Create the Docker volume:
 
         (host) $ docker volume create ups-products
         (host) $ docker run —-rm -it \
         --mount source=ups-products,target=/products fnalart/os_base:centos7
 
--   Populate it with the desired release (*e.g.*):\
+-   Populate it with the desired release (*e.g.*):
 
         (-dc-) $ curl -O https://scisoft.fnal.gov/scisoft/bundles/tools/pullProducts
         (-dc-) $ chmod +x pullProducts

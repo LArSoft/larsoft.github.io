@@ -17,7 +17,7 @@ The LArSoft release manager will make the larsoft patch branches and do the hous
 
 ### Make branches for the release
 
--   If a release is named vaa\_bb\_cc, branches will be created for the larsoft/larsoftobj suite with the name vaa\_bb\_cc\_br.\
+-   If a release is named vaa\_bb\_cc, branches will be created for the larsoft/larsoftobj suite with the name vaa\_bb\_cc\_br.
 
         (setup the latest larreltools)
         setup mrb

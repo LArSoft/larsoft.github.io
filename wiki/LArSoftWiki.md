@@ -15,7 +15,7 @@ For general information on LArSoft, including links to videos and presentations,
 [Using LArSoft](Using_LArSoft)
 --------------------------------------------------------------------------------
 
-> This covers the preliminaries needed to get started, where to find releases, using LArSoft with your experiment and where to find the software.\
+> This covers the preliminaries needed to get started, where to find releases, using LArSoft with your experiment and where to find the software.
 > [Quick Links](Quick_Links)
 
 [Developing With LArSoft](Developing_With_LArSoft)

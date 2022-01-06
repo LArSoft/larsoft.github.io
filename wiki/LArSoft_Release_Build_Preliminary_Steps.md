@@ -100,7 +100,7 @@ update releaseDB
 Using the CI to check feature branches
 ----------------------------------------------------------------------------------
 
--   setup the CI environment\
+-   setup the CI environment
 
         source /cvmfs/fermilab.opensciencegrid.org/products/common/etc/setups.sh
         setup cigetcert
@@ -108,12 +108,12 @@ Using the CI to check feature branches
         voms-proxy-init -noregen -rfc -voms fermilab:/fermilab/lariat/Role=Analysis
         setup lar_ci
 
--   request a CI build with relevant feature branches. Be sure to use quotes for the list of revisions.\
+-   request a CI build with relevant feature branches. Be sure to use quotes for the list of revisions.
 
         trigger --build-delay 0 --revisions "lardataobj@feature/bb_recobslice larreco@feature/bb_restruct" 
 
 -   In special cases, test a release candidate.
-    -   workflows are listed on the [lar\_ci wiki](/redmine/projects/lar_ci/wiki/LArCI_Workflows)\
+    -   workflows are listed on the [lar\_ci wiki](/redmine/projects/lar_ci/wiki/LArCI_Workflows)
 
             trigger --build-delay 0 --revisions "*@feature/team_for_art_v3" --workflow argoneutcode_wf
 
@@ -122,7 +122,7 @@ Special instructions for experiment code
 
 ### dunetpc
 
--   dunetpc uses a differently qualified genie\_xsec than the other experiments. mrb v3 is sensitive to this, so we maintain a special working branch.\
+-   dunetpc uses a differently qualified genie\_xsec than the other experiments. mrb v3 is sensitive to this, so we maintain a special working branch.
 
         cd $MRB_SOURCE/dunetpc
         git checkout feature/team_for_larsoft_release_testing
@@ -134,43 +134,43 @@ Special instructions for experiment code
 
 -   uboonecode has some comprehensive tests that are really integration tests.
 -   Until these tests are moved to the CI, it is best to disable some, but not all, of them.
--   I prefer to retain ProductionMCC9 and disable DataProductionMCC9 and OverlayProductionMCC9\
+-   I prefer to retain ProductionMCC9 and disable DataProductionMCC9 and OverlayProductionMCC9
 
         diff --git a/test/CMakeLists.txt b/test/CMakeLists.txt
         index ba6bffc..996c7e1 100644
         --- a/test/CMakeLists.txt
         +++ b/test/CMakeLists.txt
         @@ -13,10 +13,10 @@ add_subdirectory(test_fcl)
-         #add_subdirectory(Production)
-         add_subdirectory(ProductionMCC9)
-         #add_subdirectory(DataProduction)
+        #add_subdirectory(Production)
+        add_subdirectory(ProductionMCC9)
+        #add_subdirectory(DataProduction)
         -add_subdirectory(DataProductionMCC9)
         +#add_subdirectory(DataProductionMCC9)
-         add_subdirectory(SpaceCharge)
-         #add_subdirectory(OverlayProduction)
+        add_subdirectory(SpaceCharge)
+        #add_subdirectory(OverlayProduction)
         -add_subdirectory(OverlayProductionMCC9)
         +#add_subdirectory(OverlayProductionMCC9)
-         add_subdirectory(SparseRawDigits)
-         add_subdirectory(Swizzle)
-         add_subdirectory(CRTSwizzle)
+        add_subdirectory(SparseRawDigits)
+        add_subdirectory(Swizzle)
+        add_subdirectory(CRTSwizzle)
 
 ### argoneutcode
 
 -   dunetpc and argoneutcode are sharing CVN code. Library names are now unique, but the same class name is used in both repositories.
 -   The shared code is meant to be factored out and moved to larsoft.
--   In the meantime, do not build argoneutcode/CVNArgoneut.\
+-   In the meantime, do not build argoneutcode/CVNArgoneut.
 
         diff --git a/CMakeLists.txt b/CMakeLists.txt
         index 8ceaff8..9882d11 100644
         --- a/CMakeLists.txt
         +++ b/CMakeLists.txt
         @@ -100,7 +100,8 @@ add_subdirectory(production_fcl)
-         add_subdirectory(ArgoneutCalData)
-         add_subdirectory(ArgoneutEventSelection)
+        add_subdirectory(ArgoneutCalData)
+        add_subdirectory(ArgoneutEventSelection)
 
         -add_subdirectory(CVNArgoneut)
         +# dictionary problems
         +#add_subdirectory(CVNArgoneut)
 
-         # Top level fcl files.
-         #add_subdirectory(fcl)
+        # Top level fcl files.
+        #add_subdirectory(fcl)

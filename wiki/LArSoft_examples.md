@@ -7,7 +7,7 @@ LArSoft examples
     -   [Services](#Services)
     -   [Algorithms and modules](#Algorithms-and-modules)
 
-> Note that a single example is often not enough for your real purpose.\
+> Note that a single example is often not enough for your real purpose.
 > We expect users to copy pieces from different examples to make up their solution, and the `README` files try to highlight which are the most serviceable parts to be exported to other code.
 
 List of examples
@@ -84,13 +84,13 @@ A [section in LArSoft doxygen page](http://nusoft.fnal.gov/larsoft/doxsvn/html/m
 Services
 ----------------------
 
-We provide a few examples of services.\
+We provide a few examples of services.
 How to pick the right one?
 
 -   **factorization**: do you need to split the actual code providing the service from the specificity of the *art* framework?
     -   *yes*: **you do**. This is a major LArSoft recommendation. If you think you don’t need it, please discuss with LArSoft team. All examples currently follow this model, the simplest being `AtomicNumber`.
 -   **experiment-specific implementation**: is it apparent that different experiments or scenarios will need different implementations?
-    -   *yes*: for example, it uses database access^[1](#fn1)^; or it uses one of many specific models available in your experiment (e.g. assumptions based on the candidate geometry) =\> `ShowerCalibrationGalore` (nice name!)
+    -   *yes*: for example, it uses database access<sup>[1](#fn1)</sup>; or it uses one of many specific models available in your experiment (e.g. assumptions based on the candidate geometry) =\> `ShowerCalibrationGalore` (nice name!)
     -   *no*: it uses no specific experiment assumptions or dependencies. Even in this case some time should be devoted to the interface design, so that the jump to the experiment-dependent implementation will not be too troublesome. But you want =\> `AtomicNumber`
 -   **automatic calls**: does the service need to react when a new run or event happens, or to some other framework status?
     -   *yes*: take a look at `TBD3` to see how to add that feature on top of `ShowerCalibrationGalore`
@@ -99,7 +99,7 @@ How to pick the right one?
     -   *yes*: take a look at the unit tests for `ShowerCalibrationGalore`; the unit tests are for those very services, but the set up of the test environment is just the same.
     -   *no*: no problem.
 
-^1^ … and, as of LArSoft 5, we are far from having converged on a single database access model or interface.
+<sup>1</sup> … and, as of LArSoft 5, we are far from having converged on a single database access model or interface.
 
 Algorithms and modules
 --------------------------------------------------

@@ -226,7 +226,7 @@ NOTE: These are instructions for working with the legacy Redmine-based git repos
 
 -   [git guidelines](LArSoft_git_Guidelines)
 -   [git flow quick start](/redmine/projects/cet-is-public/wiki/Git_flow_quick_start)
--   [Git Tips and Tricks](/redmine/projects/cet-is-public/wiki/GitTipsAndTricks)\
+-   [Git Tips and Tricks](/redmine/projects/cet-is-public/wiki/GitTipsAndTricks)
     *(for the purposes of LArSoft development, please please ignore anything other than how to use various git commands to do specific tasks - and especially ignore the workflow advice)*
 
 #### Profiling
