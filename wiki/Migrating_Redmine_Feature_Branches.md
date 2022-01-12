@@ -19,7 +19,7 @@ General Instructions
 
 These instructions describe how to check-out a legacy feature branch in a local repository cloned from Redmine prior to the GitHub migration, and add it to a new fork on GitHub that then be the source of a pull request to the upstream LArSoft repository.
 
-**Important**: It is necessary to use mrb v3\_03\_01 or later.
+**Important**: It is necessary to use mrb v3_03_01 or later.
 
     # Check-out the desired legacy feature branch in a local repository "package" 
     #
@@ -51,7 +51,7 @@ These instructions describe how to check-out a legacy feature branch in a local 
     git push origin <feature branch>
     hub pull-request --edit --base develop
 
-Running the `truncate-history.sh` script will take between a few seconds to a few minutes, depending on the repository. This table shows the time it took to run the `truncate-history.sh` script using branch `feature/Spack-MVP1a`. (The table of example times is copied from [Truncating\_commit\_history\_at\_svn\_to\_git\_transition](Truncating_commit_history_at_svn_to_git_transition).)
+Running the `truncate-history.sh` script will take between a few seconds to a few minutes, depending on the repository. This table shows the time it took to run the `truncate-history.sh` script using branch `feature/Spack-MVP1a`. (The table of example times is copied from [Truncating_commit_history_at_svn_to_git_transition](Truncating_commit_history_at_svn_to_git_transition).)
 
 ||
 |repo|runtime|\# rewritten|
@@ -78,7 +78,7 @@ Special cases
 
 ### What if I have more than one feature branch?
 
-Check out each of the branches in the local repo before removing the Redmine origin. Run the truncate\_history.sh script on each branch.
+Check out each of the branches in the local repo before removing the Redmine origin. Run the truncate_history.sh script on each branch.
 
 ### What if there is a fork already existing for your github username?
 

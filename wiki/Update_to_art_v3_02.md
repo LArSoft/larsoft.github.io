@@ -1,8 +1,8 @@
-Update to art v3\_02
+Update to art v3_02
 =============================================
 
 -   **Table of contents**
--   [Update to art v3\_02](#Update-to-art-v3_02)
+-   [Update to art v3_02](#Update-to-art-v3_02)
     -   [Migration script](#Migration-script)
     -   [Products](#Products)
     -   [Problems encountered](#Problems-encountered)
@@ -11,54 +11,54 @@ Update to art v3\_02
         -   [Missing root library](#Missing-root-library)
         -   [Undefined reference reference to \`typeinfo for art::TFileService’](#Undefined-reference-reference-to-typeinfo-for-artTFileService)
         -   [fhicl no longer recognizes boost::any](#fhicl-no-longer-recognizes-boostany)
-        -   [Boost date\_time](#Boost-date_time)
+        -   [Boost date_time](#Boost-date_time)
         -   [MixFilter](#MixFilter)
         -   [CLHEP 2.4](#CLHEP-24)
         -   [Construction of unused modules](#Construction-of-unused-modules)
         -   [Using ROOT in the constructors of services and modules](#Using-ROOT-in-the-constructors-of-services-and-modules)
 
-With [art 3.02.00](/redmine/projects/art/wiki/Series_302), art has been split into art and art\_root\_io. This will allow the use of other IO options in the future.
+With [art 3.02.00](/redmine/projects/art/wiki/Series_302), art has been split into art and art_root_io. This will allow the use of other IO options in the future.
 
 Migration script
 --------------------------------------
 
-art\_root\_io contains a migration script, \$ART\_ROOT\_IO\_DIR/tools/migration/art-3.02-migration. Please make sure you are using art\_root\_io v1\_00\_04 or later. Earlier versions contained a bug. **This script is designed to work with a single directory designation, it does not accept wildcards.**
+art_root_io contains a migration script, \$ART_ROOT_IO_DIR/tools/migration/art-3.02-migration. Please make sure you are using art_root_io v1_00_04 or later. Earlier versions contained a bug. **This script is designed to work with a single directory designation, it does not accept wildcards.**
 
 Products
 ----------------------
 
-art 3.02 has a new product stack, which includes boost v1\_69\_0 and root v6\_16\_00.
+art 3.02 has a new product stack, which includes boost v1_69_0 and root v6_16_00.
 
 Updates to products used by larsoft and the experiments:
 
--   artg4tk v09\_04\_00
--   marley v1\_1\_0a
--   pandora v03\_11\_01a
--   protobuf v3\_5\_2a
--   tensorflow v1\_3\_0e
--   wirecell v0\_10\_9a
--   systematicstools v00\_03\_00
--   nusystematics v00\_03\_00
--   nutools v2\_29\_00
--   nusimdata v1\_17\_00
--   range v3\_0\_4\_0
--   ifdh\_art v2\_08\_00
--   artdaq\_core v3\_04\_13
--   art v3\_02\_03 (s81)
--   art\_root\_io v1\_00\_03
-    -   In many cases the dependency on art is now a dependency on art\_root\_io.
--   canvas\_root\_io v1\_03\_03
--   gallery v1\_12\_03
--   python v2\_7\_15a
+-   artg4tk v09_04_00
+-   marley v1_1_0a
+-   pandora v03_11_01a
+-   protobuf v3_5_2a
+-   tensorflow v1_3_0e
+-   wirecell v0_10_9a
+-   systematicstools v00_03_00
+-   nusystematics v00_03_00
+-   nutools v2_29_00
+-   nusimdata v1_17_00
+-   range v3_0_4_0
+-   ifdh_art v2_08_00
+-   artdaq_core v3_04_13
+-   art v3_02_03 (s81)
+-   art_root_io v1_00_03
+    -   In many cases the dependency on art is now a dependency on art_root_io.
+-   canvas_root_io v1_03_03
+-   gallery v1_12_03
+-   python v2_7_15a
 -   caffe NO LONGER IN USE
--   cetbuildtools v7\_11\_00 or later is required for boost cmake support
+-   cetbuildtools v7_11_00 or later is required for boost cmake support
 
 Problems encountered
 ----------------------------------------------
 
 ### Unrecognized GENIE header
 
-nutools v2\_29\_00 is built with GENIE v2, but the nutools headers have been designed to work with either GENIE v2 or GENIE v3. They default to looking for GENIE v3.
+nutools v2_29_00 is built with GENIE v2, but the nutools headers have been designed to work with either GENIE v2 or GENIE v3. They default to looking for GENIE v3.
 
 The symptom:
 
@@ -71,7 +71,7 @@ The symptom:
     compilation terminated.
 
 The solution:
-Compile with -DGENIE\_PRE\_R3.
+Compile with -DGENIE_PRE_R3.
 
     diff --git a/CMakeLists.txt b/CMakeLists.txt
     index a0f22676..12a7b0c0 100644
@@ -182,7 +182,7 @@ The symptom:
     /home/garren/scratch/playground/testbuild/build/root/v6_16_00/Linux64bit+3.10-2.17-e17-prof/include/TVersionCheck.h:42: undefined reference to `TVersionCheck::TVersionCheck(int)'
 
 The solution:
-Add \${ROOT\_CORE} to the appropriate link list in CMakeLists.txt
+Add \${ROOT_CORE} to the appropriate link list in CMakeLists.txt
 
 ### Undefined reference reference to \`typeinfo for art::TFileService’
 
@@ -197,7 +197,7 @@ The symptom:
     /products/art/v3_02_03/include/art/Utilities/SharedResource.h:15: undefined reference to `typeinfo for art::TFileService'
 
 The solution:
-add \${ART\_ROOT\_IO\_TFILESERVICE\_SERVICE} to the appropriate link list
+add \${ART_ROOT_IO_TFILESERVICE_SERVICE} to the appropriate link list
 
 ### fhicl no longer recognizes boost::any
 
@@ -250,7 +250,7 @@ The solution:
     cfg.put("NoisyChannels", fNoisyChannels);
     cfg.put("BadChannels", fBadChannels);
 
-### Boost date\_time
+### Boost date_time
 
 The symptom:
 
@@ -264,7 +264,7 @@ The solution:
 
 With Boost 1.69, it is now a requirement that the argument to microseconds(…) be an integral type—an int, unsigned, whatever. With Boost 1.66, which is what art 3.01 used, a floating-point number could be provided, and it would be implicitly cast to a 64-bit integer. It is now necessary for that cast to be explicit.
 
-We have used an explicit cast to int in the feature branch, but we could have chosen long int, or std::int64\_t. Since this problem is in MicroBooNE code (ubraw), someone from MicroBooNE should review and decide what they think is appropriate.
+We have used an explicit cast to int in the feature branch, but we could have chosen long int, or std::int64_t. Since this problem is in MicroBooNE code (ubraw), someone from MicroBooNE should review and decide what they think is appropriate.
 
 ### MixFilter
 
@@ -286,7 +286,7 @@ This is the first release of larsoft to use CLHEP 2.4. MixMax is now the default
 
 ### Construction of unused modules
 
-*art* 3.02 unnecessarily constructs modules that have been configured but that are not included on any path. This bug has been document in issue [\#22407](/redmine/issues/22407 "Bug: art 3.02.04 constructs modules that are not included in paths (Closed)"). The work around is to provide the `'--prune-config'` `lar` program option (e.g. ‘lar -c \<my\_config.fcl\> –prune-config …’).
+*art* 3.02 unnecessarily constructs modules that have been configured but that are not included on any path. This bug has been document in issue [\#22407](/redmine/issues/22407 "Bug: art 3.02.04 constructs modules that are not included in paths (Closed)"). The work around is to provide the `'--prune-config'` `lar` program option (e.g. ‘lar -c \<my_config.fcl\> –prune-config …’).
 
 A symptom of the problem:
 
@@ -300,7 +300,7 @@ A symptom of the problem:
 
 ### Using ROOT in the constructors of services and modules
 
-Due to the splitting of *art* into *art* and *art\_root\_io*, the framework’s custom setup of ROOT occurs later than it used to. The consequence is that:
+Due to the splitting of *art* into *art* and *art_root_io*, the framework’s custom setup of ROOT occurs later than it used to. The consequence is that:
 
 -   **Anyone wanting to use ROOT inside of the constructors of their services, modules, or sources should first call `TH1::AddDirectory(kFALSE)`**.
 

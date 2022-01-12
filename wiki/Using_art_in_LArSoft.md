@@ -7,7 +7,7 @@
         -   [art::Event](#artEvent)
         -   [art::ValidHandle and art::Handle](#artValidHandle-and-artHandle)
         -   [Upcast on read](#Upcast-on-read)
-        -   [cet::search\_path](#cetsearch_path)
+        -   [cet::search_path](#cetsearch_path)
         -   [FHiCL configuration: fhicl::ParameterSet and fhicl::Table](#FHiCL-configuration-fhiclParameterSet-and-fhiclTable)
         -   [art::ServiceHandle](#artServiceHandle)
         -   [art::TFileService](#artTFileService)
@@ -345,7 +345,7 @@ This is a specialized service that connects up to the file where histograms made
 
 The MessageLogger provides several levels of messages that can be used to print information to an output log. The decision of which level to use is your first way to determine how frequently your message will be printed. If you choose the INFO level, then typically all such messages are printed; if instead you choose the DEBUG level, then typically those messages are not printed unless a specific environmental flag is set or the message service is configured properly.
 
-The levels most likely to be useful are LOG\_DEBUG, mf::LogInfo, mf::LogVerbatim, mf::LogWarning and mf::LogError. Note there is no mf:: in front of LOG\_DEBUG because it is a macro that will include the file and line numbers of the code producing the output. These are listed in order of severity and have the following behaviors:
+The levels most likely to be useful are LOG_DEBUG, mf::LogInfo, mf::LogVerbatim, mf::LogWarning and mf::LogError. Note there is no mf:: in front of LOG_DEBUG because it is a macro that will include the file and line numbers of the code producing the output. These are listed in order of severity and have the following behaviors:
 
 -   LogInfo, LogWarning, and LogError represent three levels of “severity” of the message. It is possible (see MessageLogger Parameters ) to configure the job to ignore all LogInfo messages, or all messages of severity less than LogError.
 -   LogVerbatim is identical in all ways to LogInfo, except that absolutely no message formatting is performed, and no context, module, or other information is appended to the message. This is appropriate, for example, if the program has prepared a nicely-formatted table for output.
@@ -358,12 +358,12 @@ The levels most likely to be useful are LOG\_DEBUG, mf::LogInfo, mf::LogVerbatim
 -   There is no need to add spaces at the beginning or end of text items sent to the message, or to add text separators between numerical items. This spacing is taken care of by the logger. However, if any item appended to a message ends in a space, then it is assumed that the user is handling spacing explicitly, and no further automatic spaces are inserted for that message.
 -   There is no need to affix any sort of endl; when the statement ends the message will be dispatched.
 -   Newline characters can be included in the objects appended to the message. These will be used in formatting the message. But they are generally not necessary: Line breaks are automatically inserted if the next appended object would cause the line to exceed 80 characters.
--   LOG\_DEBUG is identical to the others, except:
-    -   LOG\_DEBUG affixes the *FILE* and *LINE* number to the message.
-    -   LOG\_DEBUG messages are considered to be lower in severity than LogInfo messages.
-    -   By default, LOG\_DEBUG messages will be rapidly discarded with a minimum of overhead. The user must specify in the .fcl file LOG\_DEBUG messages from various modules that are to be enabled
-    -   Because it must get *FILE* and *LINE* from the spot issuing the message, LOG\_DEBUG is implemented as a macro rather than a free function.
-    -   Because LOG\_DEBUG is a macro, it is not prepended with the mf:: namespace designation.
+-   LOG_DEBUG is identical to the others, except:
+    -   LOG_DEBUG affixes the *FILE* and *LINE* number to the message.
+    -   LOG_DEBUG messages are considered to be lower in severity than LogInfo messages.
+    -   By default, LOG_DEBUG messages will be rapidly discarded with a minimum of overhead. The user must specify in the .fcl file LOG_DEBUG messages from various modules that are to be enabled
+    -   Because it must get *FILE* and *LINE* from the spot issuing the message, LOG_DEBUG is implemented as a macro rather than a free function.
+    -   Because LOG_DEBUG is a macro, it is not prepended with the mf:: namespace designation.
 
 **Using the Message Service in Code**
 
@@ -388,7 +388,7 @@ You can use std formatting functions in all message service levels. For example
     << " and now define the precision of the following field to be 1, " 
     << std::setprecision(2) << 1.00012;
 
-The above example uses mf::LogVerbatim, but the same would work in LOG\_DEBUG, mf::LogInfo, mf::LogWarning, and mf::LogError.
+The above example uses mf::LogVerbatim, but the same would work in LOG_DEBUG, mf::LogInfo, mf::LogWarning, and mf::LogError.
 
 **Configuring the Message Service**
 
@@ -407,7 +407,7 @@ in the services block of the file, where xxx indicates the message level severit
 
 **NB** you can only use one of the above in a job .fcl file.
 
-The MessageLogger can be configured to set the number of messages printed and to send each class of message to a different output stream. For example, see the standard\_warning configuration of the [source:trunk/Utilities/messageservice.fcl](/redmine/projects/larsoft/repository/entry/trunk/Utilities/messageservice.fcl) file, which is repeated here
+The MessageLogger can be configured to set the number of messages printed and to send each class of message to a different output stream. For example, see the standard_warning configuration of the [source:trunk/Utilities/messageservice.fcl](/redmine/projects/larsoft/repository/entry/trunk/Utilities/messageservice.fcl) file, which is repeated here
 
     standard_warning: { 
 
@@ -519,7 +519,7 @@ To make use of the associations and retrieve objects from the file, one would do
     std::vector<art::Ptr<recob::Hit> > hits = fmh.at(t);
     }
 
-One can also use the art::FindOne and art::FindOneP, see the detailed description on how to use art::Assns is [here.](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Inter-Product_References) The art::FindOne returns a cet::maybe\_ref, whose interface is defined [here.](http://cdcvs.fnal.gov/lxr/cetlib/source/cetlib/maybe_ref.h#044) The cet::maybe\_ref can be tested for validity, allowing a user to be sure a valid association was created.
+One can also use the art::FindOne and art::FindOneP, see the detailed description on how to use art::Assns is [here.](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Inter-Product_References) The art::FindOne returns a cet::maybe_ref, whose interface is defined [here.](http://cdcvs.fnal.gov/lxr/cetlib/source/cetlib/maybe_ref.h#044) The cet::maybe_ref can be tested for validity, allowing a user to be sure a valid association was created.
 
 **NB** The art::FindMany(P) and art::FindOne(P) are smart query objects and should only be instantiated once for a given collection. If they are instantiated once for each item in a art::Handle, art::PtrVector, art::View or std::vector\< art::Ptr\<T\> \> then a heavy performance price will be paid as a lookup table is made multiple times.
 
@@ -547,7 +547,7 @@ Making objects to store in the art::Event is a straightforward operation. The fi
 
     std::unique_ptr<std::vector<mp::MyProd> > mpCollection(new std::vector<mp::MyProd>);
 
-Here we used the std::auto\_ptr because it handles the cleanup of the memory for the collection for us.
+Here we used the std::auto_ptr because it handles the cleanup of the memory for the collection for us.
 
 The mpCollection now behaves just like a std::vector, except one accesses the std::vector methods using the “-\>” operator. Once the collection has been filled (and it can be a collection of just one object), it is written to the event by doing
 

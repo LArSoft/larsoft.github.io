@@ -14,7 +14,7 @@ a command example would look like:
 
     (the field separator can be either space or comma)
 
-the options *–version develop* and *–workflow default\_wf* in this example are using the default values.
+the options *–version develop* and *–workflow default_wf* in this example are using the default values.
 
 To get the cert, it is enough to run the *kx509* command, then the cert path can be provided to the option *–cert* or pointed through an environment variable.
 

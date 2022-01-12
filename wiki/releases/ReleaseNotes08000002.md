@@ -1,34 +1,34 @@
-LArSoft v08\_00\_00\_02 Release Notes
+LArSoft v08_00_00_02 Release Notes
 =============================================================================
 
 -   **Table of contents**
--   [LArSoft v08\_00\_00\_02 Release Notes](#LArSoft-v08_00_00_02-Release-Notes)
+-   [LArSoft v08_00_00_02 Release Notes](#LArSoft-v08_00_00_02-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v08\_00\_00\_02](#larsoft-v08_00_00_02)
-    -   [lareventdisplay v08\_00\_00\_02](#lareventdisplay-v08_00_00_02)
-    -   [larexamples v08\_00\_00\_02](#larexamples-v08_00_00_02)
-    -   [larg4 v08\_00\_00\_02](#larg4-v08_00_00_02)
-    -   [larpandora v08\_00\_00\_02](#larpandora-v08_00_00_02)
-    -   [larwirecell v08\_00\_00\_02](#larwirecell-v08_00_00_02)
-    -   [larana v08\_00\_00\_02](#larana-v08_00_00_02)
-    -   [larreco v08\_00\_00\_02](#larreco-v08_00_00_02)
-    -   [larsim v08\_00\_00\_02](#larsim-v08_00_00_02)
-    -   [larevt v08\_00\_00\_02](#larevt-v08_00_00_02)
-    -   [lardata v08\_00\_00](#lardata-v08_00_00)
-    -   [larcore v08\_00\_00](#larcore-v08_00_00)
-    -   [larsoftobj v08\_00\_00](#larsoftobj-v08_00_00)
-    -   [lardataobj v08\_00\_00](#lardataobj-v08_00_00)
-    -   [lardataalg v08\_00\_00](#lardataalg-v08_00_00)
-    -   [larcorealg v08\_00\_00](#larcorealg-v08_00_00)
-    -   [larcoreobj v08\_00\_00](#larcoreobj-v08_00_00)
+    -   [larsoft v08_00_00_02](#larsoft-v08_00_00_02)
+    -   [lareventdisplay v08_00_00_02](#lareventdisplay-v08_00_00_02)
+    -   [larexamples v08_00_00_02](#larexamples-v08_00_00_02)
+    -   [larg4 v08_00_00_02](#larg4-v08_00_00_02)
+    -   [larpandora v08_00_00_02](#larpandora-v08_00_00_02)
+    -   [larwirecell v08_00_00_02](#larwirecell-v08_00_00_02)
+    -   [larana v08_00_00_02](#larana-v08_00_00_02)
+    -   [larreco v08_00_00_02](#larreco-v08_00_00_02)
+    -   [larsim v08_00_00_02](#larsim-v08_00_00_02)
+    -   [larevt v08_00_00_02](#larevt-v08_00_00_02)
+    -   [lardata v08_00_00](#lardata-v08_00_00)
+    -   [larcore v08_00_00](#larcore-v08_00_00)
+    -   [larsoftobj v08_00_00](#larsoftobj-v08_00_00)
+    -   [lardataobj v08_00_00](#lardataobj-v08_00_00)
+    -   [lardataalg v08_00_00](#lardataalg-v08_00_00)
+    -   [larcorealg v08_00_00](#larcorealg-v08_00_00)
+    -   [larcoreobj v08_00_00](#larcoreobj-v08_00_00)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v08\_00\_00\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_00_00_02/larsoft-v08_00_00_02.html)
-Download instructions for [just larsoftobj v08\_00\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_00_00/larsoftobj-v08_00_00.html)
+Download instructions for [larsoft v08_00_00_02](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_00_00_02/larsoft-v08_00_00_02.html)
+Download instructions for [just larsoftobj v08_00_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_00_00/larsoftobj-v08_00_00.html)
 
 Purpose
 --------------------
@@ -47,102 +47,102 @@ Updated dependencies
 Change List
 ============================
 
-larsoft v08\_00\_00\_02
+larsoft v08_00_00_02
 -------------------------------------------------
 
--   2020-03-30 Herbert Greenlee : larsoft v08\_00\_00\_02 for larsoft v08\_00\_00\_02
--   2020-03-27 Herbert Greenlee : Larsoft v08\_00\_00\_02.
--   2019-01-08 Lynn Garren : larsoft v08\_00\_00\_01 for larsoft v08\_00\_00\_br
--   2019-01-08 Lynn Garren : v08\_00\_00\_01
+-   2020-03-30 Herbert Greenlee : larsoft v08_00_00_02 for larsoft v08_00_00_02
+-   2020-03-27 Herbert Greenlee : Larsoft v08_00_00_02.
+-   2019-01-08 Lynn Garren : larsoft v08_00_00_01 for larsoft v08_00_00_br
+-   2019-01-08 Lynn Garren : v08_00_00_01
 
-lareventdisplay v08\_00\_00\_02
+lareventdisplay v08_00_00_02
 -----------------------------------------------------------------
 
--   2020-03-30 Herbert Greenlee : lareventdisplay v08\_00\_00\_02 for larsoft v08\_00\_00\_02
--   2019-01-08 Lynn Garren : lareventdisplay v08\_00\_00\_01 for larsoft v08\_00\_00\_br
+-   2020-03-30 Herbert Greenlee : lareventdisplay v08_00_00_02 for larsoft v08_00_00_02
+-   2019-01-08 Lynn Garren : lareventdisplay v08_00_00_01 for larsoft v08_00_00_br
 
-larexamples v08\_00\_00\_02
+larexamples v08_00_00_02
 ---------------------------------------------------------
 
--   2020-03-30 Herbert Greenlee : larexamples v08\_00\_00\_02 for larsoft v08\_00\_00\_02
--   2019-01-08 Lynn Garren : larexamples v08\_00\_00\_01 for larsoft v08\_00\_00\_br
+-   2020-03-30 Herbert Greenlee : larexamples v08_00_00_02 for larsoft v08_00_00_02
+-   2019-01-08 Lynn Garren : larexamples v08_00_00_01 for larsoft v08_00_00_br
 
-larg4 v08\_00\_00\_02
+larg4 v08_00_00_02
 ---------------------------------------------
 
--   2020-03-30 Herbert Greenlee : larg4 v08\_00\_00\_02 for larsoft v08\_00\_00\_02
--   2019-01-08 Lynn Garren : larg4 v08\_00\_00\_01 for larsoft v08\_00\_00\_br
+-   2020-03-30 Herbert Greenlee : larg4 v08_00_00_02 for larsoft v08_00_00_02
+-   2019-01-08 Lynn Garren : larg4 v08_00_00_01 for larsoft v08_00_00_br
 
-larpandora v08\_00\_00\_02
+larpandora v08_00_00_02
 -------------------------------------------------------
 
--   2020-03-30 Herbert Greenlee : larpandora v08\_00\_00\_02 for larsoft v08\_00\_00\_02
--   2019-01-08 Lynn Garren : larpandora v08\_00\_00\_01 for larsoft v08\_00\_00\_br
+-   2020-03-30 Herbert Greenlee : larpandora v08_00_00_02 for larsoft v08_00_00_02
+-   2019-01-08 Lynn Garren : larpandora v08_00_00_01 for larsoft v08_00_00_br
 
-larwirecell v08\_00\_00\_02
+larwirecell v08_00_00_02
 ---------------------------------------------------------
 
--   2020-03-30 Herbert Greenlee : larwirecell v08\_00\_00\_02 for larsoft v08\_00\_00\_02
--   2019-01-08 Lynn Garren : larwirecell v08\_00\_00\_01 for larsoft v08\_00\_00\_br
+-   2020-03-30 Herbert Greenlee : larwirecell v08_00_00_02 for larsoft v08_00_00_02
+-   2019-01-08 Lynn Garren : larwirecell v08_00_00_01 for larsoft v08_00_00_br
 
-larana v08\_00\_00\_02
+larana v08_00_00_02
 -----------------------------------------------
 
--   2020-03-30 Herbert Greenlee : larana v08\_00\_00\_02 for larsoft v08\_00\_00\_02
--   2019-01-08 Lynn Garren : larana v08\_00\_00\_01 for larsoft v08\_00\_00\_br
+-   2020-03-30 Herbert Greenlee : larana v08_00_00_02 for larsoft v08_00_00_02
+-   2019-01-08 Lynn Garren : larana v08_00_00_01 for larsoft v08_00_00_br
 
-larreco v08\_00\_00\_02
+larreco v08_00_00_02
 -------------------------------------------------
 
--   2020-03-30 Herbert Greenlee : larreco v08\_00\_00\_02 for larsoft v08\_00\_00\_02
--   2019-01-08 Lynn Garren : larreco v08\_00\_00\_01 for larsoft v08\_00\_00\_br
+-   2020-03-30 Herbert Greenlee : larreco v08_00_00_02 for larsoft v08_00_00_02
+-   2019-01-08 Lynn Garren : larreco v08_00_00_01 for larsoft v08_00_00_br
 
-larsim v08\_00\_00\_02
+larsim v08_00_00_02
 -----------------------------------------------
 
--   2020-03-30 Herbert Greenlee : larsim v08\_00\_00\_02 for larsoft v08\_00\_00\_02
+-   2020-03-30 Herbert Greenlee : larsim v08_00_00_02 for larsoft v08_00_00_02
 -   2020-03-27 Herbert Greenlee : Revert “making MCReco module compatible with SimEnergyDeposit input –DC”
 -   2020-03-27 Herbert Greenlee : Revert “removing validation couts –DC”
 -   2020-03-27 Herbert Greenlee : Revert “driftcoordinate is not used”
--   2019-01-08 Lynn Garren : larsim v08\_00\_00\_01 for larsoft v08\_00\_00\_br
+-   2019-01-08 Lynn Garren : larsim v08_00_00_01 for larsoft v08_00_00_br
 -   2019-01-08 Lynn Garren : driftcoordinate is not used
 -   2019-01-03 David Caratelli : removing validation couts –DC
 -   2019-01-03 David Caratelli : making MCReco module compatible with SimEnergyDeposit input –DC
 
-larevt v08\_00\_00\_02
+larevt v08_00_00_02
 -----------------------------------------------
 
--   2020-03-30 Herbert Greenlee : larevt v08\_00\_00\_02 for larsoft v08\_00\_00\_02
--   2020-03-27 Herbert Greenlee : Merge remote-tracking branch ‘origin/feature/greenlee\_sqlite\_mcc9reco1’ into v08\_00\_00\_br
+-   2020-03-30 Herbert Greenlee : larevt v08_00_00_02 for larsoft v08_00_00_02
+-   2020-03-27 Herbert Greenlee : Merge remote-tracking branch ‘origin/feature/greenlee_sqlite_mcc9reco1’ into v08_00_00_br
 -   2020-03-27 Herbert Greenlee : Revert “Added necessary nominal functions to add SCE for reconstruction using calibration maps”
 -   2020-03-27 Herbert Greenlee : Revert “Added functionality back for ‘CorrSCE’”
 -   2020-03-03 Herbert Greenlee : Comment out debugging printout.
 -   2020-02-28 Herbert Greenlee : Switch to time-based query with GROUP BY.
 -   2020-02-27 Herbert Greenlee : Add ability to comppare url and sqlite or to compare two urls.
 -   2020-02-25 Herbert Greenlee : Add ability to read calibration data from sqlite.
--   2019-01-08 Lynn Garren : larevt v08\_00\_00\_01 for larsoft v08\_00\_00\_br
--   2019-01-08 Lynn Garren : Merge branch ‘feature/herogers\_voxelizedSCE’ into v08\_00\_00\_br
+-   2019-01-08 Lynn Garren : larevt v08_00_00_01 for larsoft v08_00_00_br
+-   2019-01-08 Lynn Garren : Merge branch ‘feature/herogers_voxelizedSCE’ into v08_00_00_br
 -   2018-11-28 Hannah Rogers : Added functionality back for ‘CorrSCE’
--   2018-11-26 Hannah Rogers : Merge tag ‘tags/v07\_01\_03’ into feature/herogers\_voxelizedSCE
+-   2018-11-26 Hannah Rogers : Merge tag ‘tags/v07_01_03’ into feature/herogers_voxelizedSCE
 -   2018-09-24 Hannah Rogers : Added necessary nominal functions to add SCE for reconstruction using calibration maps
 
-lardata v08\_00\_00
+lardata v08_00_00
 ------------------------------------------
 
-larcore v08\_00\_00
+larcore v08_00_00
 ------------------------------------------
 
-larsoftobj v08\_00\_00
+larsoftobj v08_00_00
 ------------------------------------------------
 
-lardataobj v08\_00\_00
+lardataobj v08_00_00
 ------------------------------------------------
 
-lardataalg v08\_00\_00
+lardataalg v08_00_00
 ------------------------------------------------
 
-larcorealg v08\_00\_00
+larcorealg v08_00_00
 ------------------------------------------------
 
-larcoreobj v08\_00\_00
+larcoreobj v08_00_00
 ------------------------------------------------

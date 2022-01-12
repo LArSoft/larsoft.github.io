@@ -1,40 +1,40 @@
-LArSoft v09\_32\_00 Release Notes
+LArSoft v09_32_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v09\_32\_00 Release Notes](#LArSoft-v09_32_00-Release-Notes)
+-   [LArSoft v09_32_00 Release Notes](#LArSoft-v09_32_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v09\_32\_00](#larsoft-v09_32_00)
-    -   [lareventdisplay v09\_02\_01](#lareventdisplay-v09_02_01)
-    -   [larexamples v09\_02\_01](#larexamples-v09_02_01)
-    -   [larpandora v09\_09\_01](#larpandora-v09_09_01)
-    -   [larsimrad v09\_03\_00](#larsimrad-v09_03_00)
-    -   [larrecodnn v09\_09\_01](#larrecodnn-v09_09_01)
-    -   [larwirecell v09\_04\_01](#larwirecell-v09_04_01)
-    -   [larana v09\_03\_01](#larana-v09_03_01)
-    -   [larreco v09\_07\_01](#larreco-v09_07_01)
-    -   [larsim v09\_16\_00](#larsim-v09_16_00)
-    -   [larg4 v09\_05\_01](#larg4-v09_05_01)
-    -   [larevt v09\_03\_01](#larevt-v09_03_01)
-    -   [lardata v09\_03\_01](#lardata-v09_03_01)
-    -   [larcore v09\_03\_00](#larcore-v09_03_00)
-    -   [larpandoracontent v03\_26\_00](#larpandoracontent-v03_26_00)
-    -   [larsoftobj v09\_10\_01](#larsoftobj-v09_10_01)
-    -   [lardataobj v09\_03\_01](#lardataobj-v09_03_01)
-    -   [lardataalg v09\_06\_01](#lardataalg-v09_06_01)
-    -   [larcorealg v09\_03\_00](#larcorealg-v09_03_00)
-    -   [larcoreobj v09\_03\_00](#larcoreobj-v09_03_00)
-    -   [webevd v09\_06\_01](#webevd-v09_06_01)
-    -   [larbatch v01\_56\_02](#larbatch-v01_56_02)
-    -   [larutils v1\_28\_02](#larutils-v1_28_02)
+    -   [larsoft v09_32_00](#larsoft-v09_32_00)
+    -   [lareventdisplay v09_02_01](#lareventdisplay-v09_02_01)
+    -   [larexamples v09_02_01](#larexamples-v09_02_01)
+    -   [larpandora v09_09_01](#larpandora-v09_09_01)
+    -   [larsimrad v09_03_00](#larsimrad-v09_03_00)
+    -   [larrecodnn v09_09_01](#larrecodnn-v09_09_01)
+    -   [larwirecell v09_04_01](#larwirecell-v09_04_01)
+    -   [larana v09_03_01](#larana-v09_03_01)
+    -   [larreco v09_07_01](#larreco-v09_07_01)
+    -   [larsim v09_16_00](#larsim-v09_16_00)
+    -   [larg4 v09_05_01](#larg4-v09_05_01)
+    -   [larevt v09_03_01](#larevt-v09_03_01)
+    -   [lardata v09_03_01](#lardata-v09_03_01)
+    -   [larcore v09_03_00](#larcore-v09_03_00)
+    -   [larpandoracontent v03_26_00](#larpandoracontent-v03_26_00)
+    -   [larsoftobj v09_10_01](#larsoftobj-v09_10_01)
+    -   [lardataobj v09_03_01](#lardataobj-v09_03_01)
+    -   [lardataalg v09_06_01](#lardataalg-v09_06_01)
+    -   [larcorealg v09_03_00](#larcorealg-v09_03_00)
+    -   [larcoreobj v09_03_00](#larcoreobj-v09_03_00)
+    -   [webevd v09_06_01](#webevd-v09_06_01)
+    -   [larbatch v01_56_02](#larbatch-v01_56_02)
+    -   [larutils v1_28_02](#larutils-v1_28_02)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09\_32\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_32_00/larsoft-v09_32_00.html)
-Download instructions for [just larsoftobj v09\_10\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_10_01/larsoftobj-v09_10_01.html)
+Download instructions for [larsoft v09_32_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_32_00/larsoft-v09_32_00.html)
+Download instructions for [just larsoftobj v09_10_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_10_01/larsoftobj-v09_10_01.html)
 
 Purpose
 --------------------
@@ -94,45 +94,45 @@ Updated dependencies
 
 -   wirecell 0.17.0 with gojsonnet
     -   replace jsonnet with gojsonnet
--   mrb v5\_19\_04
--   cetbuildtools v8\_18\_00 and v8\_18\_01
+-   mrb v5_19_04
+-   cetbuildtools v8_18_00 and v8_18_01
 
 Change List
 ============================
 
-larsoft v09\_32\_00
+larsoft v09_32_00
 ------------------------------------------
 
--   2021-09-30 Lynn Garren : cetbuildtools v8\_18\_01, cetmodules v2\_29\_02, and golang
--   2021-09-29 Lynn Garren : larsoft v09\_32\_00 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larsoft v09\_32\_00 for larsoft v09\_32\_00
+-   2021-09-30 Lynn Garren : cetbuildtools v8_18_01, cetmodules v2_29_02, and golang
+-   2021-09-29 Lynn Garren : larsoft v09_32_00 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larsoft v09_32_00 for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : product versions
--   2021-09-29 Lynn Garren : wirecell v0\_17\_0, gojsonnet v0\_17\_0, and mrb v5\_19\_04
+-   2021-09-29 Lynn Garren : wirecell v0_17_0, gojsonnet v0_17_0, and mrb v5_19_04
 
-lareventdisplay v09\_02\_01
+lareventdisplay v09_02_01
 ----------------------------------------------------------
 
--   2021-09-29 Lynn Garren : lareventdisplay v09\_02\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : lareventdisplay v09\_02\_01 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : lareventdisplay v09_02_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : lareventdisplay v09_02_01 for larsoft v09_32_00
 
-larexamples v09\_02\_01
+larexamples v09_02_01
 --------------------------------------------------
 
--   2021-09-29 Lynn Garren : larexamples v09\_02\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larexamples v09\_02\_01 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larexamples v09_02_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larexamples v09_02_01 for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : find boost
 
-larpandora v09\_09\_01
+larpandora v09_09_01
 ------------------------------------------------
 
--   2021-09-29 Lynn Garren : larpandora v09\_09\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larpandora v09\_09\_01 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larpandora v09_09_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larpandora v09_09_01 for larsoft v09_32_00
 
-larsimrad v09\_03\_00
+larsimrad v09_03_00
 ----------------------------------------------
 
--   2021-09-29 Lynn Garren : larsimrad v09\_03\_00 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larsimrad v09\_03\_00 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larsimrad v09_03_00 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larsimrad v09_03_00 for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from plasorak/feature/plasorak-better-decay0
 -   2021-09-22 Pierre Lasorak : correct a little bug
 -   2021-09-22 Pierre Lasorak : rm useless var and trailing whitespace
@@ -141,133 +141,133 @@ larsimrad v09\_03\_00
 -   2021-09-22 Pierre Lasorak : remove duplicate code for testing node
 -   2021-09-22 Pierre Lasorak : revert useless change
 -   2021-09-22 Pierre Lasorak : use empty for checking empty vectors
--   2021-09-22 Pierre Lasorak : std::cout -\> MF\_LOG\_INFO
+-   2021-09-22 Pierre Lasorak : std::cout -\> MF_LOG_INFO
 -   2021-09-16 Pierre Lasorak : new method to throw, directly from TGeoNode
 -   2021-09-10 Pierre Lasorak : no need for such complicated way to estimate the volume of the TGeoVolumes anymore
 -   2021-09-06 Pierre Lasorak : Add the possibility to generate decays according to a TF1 for the xyz positions
 -   2021-09-06 Pierre Lasorak : improve rejection method
 -   2021-09-06 Pierre Lasorak : correct a bug in the mass of alpha particle, and better handling when generation doesn’t work properly
 
-larrecodnn v09\_09\_01
+larrecodnn v09_09_01
 ------------------------------------------------
 
--   2021-09-29 Lynn Garren : larrecodnn v09\_09\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larrecodnn v09\_09\_01 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larrecodnn v09_09_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larrecodnn v09_09_01 for larsoft v09_32_00
 
-larwirecell v09\_04\_01
+larwirecell v09_04_01
 --------------------------------------------------
 
--   2021-09-29 Lynn Garren : larwirecell v09\_04\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larwirecell v09\_04\_01 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larwirecell v09_04_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larwirecell v09_04_01 for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : using gojsonnet instead of jsonnet
 
-larana v09\_03\_01
+larana v09_03_01
 ----------------------------------------
 
--   2021-09-29 Lynn Garren : larana v09\_03\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larana v09\_03\_01 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larana v09_03_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larana v09_03_01 for larsoft v09_32_00
 
-larreco v09\_07\_01
+larreco v09_07_01
 ------------------------------------------
 
--   2021-09-29 Lynn Garren : larreco v09\_07\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larreco v09\_07\_01 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larreco v09_07_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larreco v09_07_01 for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : find boost
 
-larsim v09\_16\_00
+larsim v09_16_00
 ----------------------------------------
 
--   2021-09-29 Lynn Garren : larsim v09\_16\_00 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larsim v09\_16\_00 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : Merge pull request \#74 from pgreen135/feature/pgreen\_semiana\_vertical\_drift
+-   2021-09-29 Lynn Garren : larsim v09_16_00 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larsim v09_16_00 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : Merge pull request \#74 from pgreen135/feature/pgreen_semiana_vertical_drift
 -   2021-09-29 Patrick Green : fixing bug impacting SBND
--   2021-09-27 Lynn Garren : Merge pull request \#73 from JamesJieranShen/feature/jierans\_elecDrift\_plane\_pitch\_fix
+-   2021-09-27 Lynn Garren : Merge pull request \#73 from JamesJieranShen/feature/jierans_elecDrift_plane_pitch_fix
 -   2021-09-27 Patrick Green : fixing issues identified during validation and cleaning up
 -   2021-09-21 Jieran Shen : Replace coord subtraction with pitch to prevent negative distances
 -   2021-09-10 Patrick Green : improving config flexibility and debugging
 -   2021-09-01 Patrick Green : Added geometric photon transport time approximation for Xe doped scenarios
 -   2021-08-26 Patrick Green : Implemented extensions to semi-analytic fast optical simulation required for vertical drift configuration
 
-larg4 v09\_05\_01
+larg4 v09_05_01
 --------------------------------------
 
--   2021-09-29 Lynn Garren : larg4 v09\_05\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larg4 v09\_05\_01 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larg4 v09_05_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larg4 v09_05_01 for larsoft v09_32_00
 
-larevt v09\_03\_01
+larevt v09_03_01
 ----------------------------------------
 
--   2021-09-29 Lynn Garren : larevt v09\_03\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larevt v09\_03\_01 for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larevt v09_03_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larevt v09_03_01 for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : find sqlite
 
-lardata v09\_03\_01
+lardata v09_03_01
 ------------------------------------------
 
--   2021-09-29 Lynn Garren : lardata v09\_03\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : lardata v09\_03\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : Merge pull request \#18 from PetrilloAtWork/feature/gp\_DetClockServDoc
+-   2021-09-29 Lynn Garren : lardata v09_03_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : lardata v09_03_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : Merge pull request \#18 from PetrilloAtWork/feature/gp_DetClockServDoc
 -   2021-09-20 Gianluca Petrillo : Documentation format fixes
 
-larcore v09\_03\_00
+larcore v09_03_00
 ------------------------------------------
 
-larpandoracontent v03\_26\_00
+larpandoracontent v03_26_00
 --------------------------------------------------------------
 
--   2021-09-29 Lynn Garren : larpandoracontent vVERSION for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : larpandoracontent vVERSION for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : got a little carried away, no libtorch on Ubuntu
 -   2021-09-24 Andrew Chappell : Update version and ChangeLog and set temporary export policy for standalone build
 -   2021-09-20 John Marshall : Use new iterator to cluster association map after potential changes during ambiguous propagation.
 -   2021-09-20 Andrew Chappell : Ensure test element is not a modified (deleted) cluster
 
-larsoftobj v09\_10\_01
+larsoftobj v09_10_01
 ------------------------------------------------
 
--   2021-09-30 Lynn Garren : cetbuildtools v8\_18\_01 and cetmodules v2\_29\_02
--   2021-09-29 Lynn Garren : need cetmodules v2\_29\_00 to satisfy dependencies
--   2021-09-29 Lynn Garren : larsoftobj v09\_10\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larsoftobj v09\_10\_01 for larsoft v09\_32\_00
+-   2021-09-30 Lynn Garren : cetbuildtools v8_18_01 and cetmodules v2_29_02
+-   2021-09-29 Lynn Garren : need cetmodules v2_29_00 to satisfy dependencies
+-   2021-09-29 Lynn Garren : larsoftobj v09_10_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larsoftobj v09_10_01 for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : product versions
--   2021-09-29 Lynn Garren : mrb v5\_19\_04
+-   2021-09-29 Lynn Garren : mrb v5_19_04
 
-lardataobj v09\_03\_01
+lardataobj v09_03_01
 ------------------------------------------------
 
--   2021-09-29 Lynn Garren : lardataobj v09\_03\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : lardataobj v09\_03\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : Merge pull request \#16 from PetrilloAtWork/feature/gp\_TrackPtrDicts
+-   2021-09-29 Lynn Garren : lardataobj v09_03_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : lardataobj v09_03_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : Merge pull request \#16 from PetrilloAtWork/feature/gp_TrackPtrDicts
 -   2021-09-17 Gianluca Petrillo : Added dictionaries for vectors of art pointers to reconstructed objects
 
-lardataalg v09\_06\_01
+lardataalg v09_06_01
 ------------------------------------------------
 
--   2021-09-29 Lynn Garren : lardataalg v09\_06\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : lardataalg v09\_06\_01 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : Merge pull request \#26 from PetrilloAtWork/feature/gp\_BeamTimeFix
+-   2021-09-29 Lynn Garren : lardataalg v09_06_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : lardataalg v09_06_01 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : Merge pull request \#26 from PetrilloAtWork/feature/gp_BeamTimeFix
 -   2021-09-21 Gianluca Petrillo : Fixed bug in detinfo::DetectorTimings::BeamGateTime()
 
-larcorealg v09\_03\_00
+larcorealg v09_03_00
 ------------------------------------------------
 
-larcoreobj v09\_03\_00
+larcoreobj v09_03_00
 ------------------------------------------------
 
-webevd v09\_06\_01
+webevd v09_06_01
 ----------------------------------------
 
--   2021-09-29 Lynn Garren : webevd for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : webevd for larsoft v09\_32\_00
+-   2021-09-29 Lynn Garren : webevd for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : webevd for larsoft v09_32_00
 
-larbatch v01\_56\_02
+larbatch v01_56_02
 --------------------------------------------
 
--   2021-09-30 Lynn Garren : need to call cet\_cmake\_config in order to generate the tarball
--   2021-09-30 Lynn Garren : this noarch product needs cetbuildtools v8\_18\_01
--   2021-09-29 Lynn Garren : larbatch v01\_56\_02 for larsoft v09\_32\_00
--   2021-09-29 Lynn Garren : larbatch v01\_56\_02 for larsoft v09\_32\_00
+-   2021-09-30 Lynn Garren : need to call cet_cmake_config in order to generate the tarball
+-   2021-09-30 Lynn Garren : this noarch product needs cetbuildtools v8_18_01
+-   2021-09-29 Lynn Garren : larbatch v01_56_02 for larsoft v09_32_00
+-   2021-09-29 Lynn Garren : larbatch v01_56_02 for larsoft v09_32_00
 -   2021-09-28 Lynn Garren : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from hgreenlee/develop
 -   2021-09-27 Herbert Greenlee : Revert to old version of mrb if necessary.
 
-larutils v1\_28\_02
+larutils v1_28_02
 ------------------------------------------

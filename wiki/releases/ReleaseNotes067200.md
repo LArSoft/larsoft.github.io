@@ -1,35 +1,35 @@
-LArSoft v06\_72\_00 Release Notes
+LArSoft v06_72_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v06\_72\_00 Release Notes](#LArSoft-v06_72_00-Release-Notes)
+-   [LArSoft v06_72_00 Release Notes](#LArSoft-v06_72_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v06\_72\_00](#larsoft-v06_72_00)
-    -   [lareventdisplay v06\_18\_04](#lareventdisplay-v06_18_04)
-    -   [larexamples v06\_12\_00](#larexamples-v06_12_00)
-    -   [larpandora v06\_25\_04](#larpandora-v06_25_04)
-    -   [larwirecell v06\_11\_04](#larwirecell-v06_11_04)
-    -   [larana v06\_18\_04](#larana-v06_18_04)
-    -   [larreco v06\_57\_00](#larreco-v06_57_00)
-    -   [larsim v06\_42\_04](#larsim-v06_42_04)
-    -   [larevt v06\_19\_04](#larevt-v06_19_04)
-    -   [lardata v06\_42\_00](#lardata-v06_42_00)
-    -   [larcore v06\_18\_01](#larcore-v06_18_01)
-    -   [larpandoracontent v03\_11\_00](#larpandoracontent-v03_11_00)
-    -   [larsoftobj v1\_41\_02](#larsoftobj-v1_41_02)
-    -   [lardataobj v1\_29\_01](#lardataobj-v1_29_01)
-    -   [larcorealg v1\_18\_01](#larcorealg-v1_18_01)
-    -   [larcoreobj v1\_22\_00](#larcoreobj-v1_22_00)
-    -   [larbatch v01\_38\_01](#larbatch-v01_38_01)
-    -   [larutils v1\_22\_00](#larutils-v1_22_00)
+    -   [larsoft v06_72_00](#larsoft-v06_72_00)
+    -   [lareventdisplay v06_18_04](#lareventdisplay-v06_18_04)
+    -   [larexamples v06_12_00](#larexamples-v06_12_00)
+    -   [larpandora v06_25_04](#larpandora-v06_25_04)
+    -   [larwirecell v06_11_04](#larwirecell-v06_11_04)
+    -   [larana v06_18_04](#larana-v06_18_04)
+    -   [larreco v06_57_00](#larreco-v06_57_00)
+    -   [larsim v06_42_04](#larsim-v06_42_04)
+    -   [larevt v06_19_04](#larevt-v06_19_04)
+    -   [lardata v06_42_00](#lardata-v06_42_00)
+    -   [larcore v06_18_01](#larcore-v06_18_01)
+    -   [larpandoracontent v03_11_00](#larpandoracontent-v03_11_00)
+    -   [larsoftobj v1_41_02](#larsoftobj-v1_41_02)
+    -   [lardataobj v1_29_01](#lardataobj-v1_29_01)
+    -   [larcorealg v1_18_01](#larcorealg-v1_18_01)
+    -   [larcoreobj v1_22_00](#larcoreobj-v1_22_00)
+    -   [larbatch v01_38_01](#larbatch-v01_38_01)
+    -   [larutils v1_22_00](#larutils-v1_22_00)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06\_72\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_72_00/larsoft-v06_72_00.html)
-Download instructions for [just larsoftobj v1\_41\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_41_02/larsoftobj-v1_41_02.html)
+Download instructions for [larsoft v06_72_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_72_00/larsoft-v06_72_00.html)
+Download instructions for [just larsoftobj v1_41_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_41_02/larsoftobj-v1_41_02.html)
 
 Purpose
 --------------------
@@ -44,7 +44,7 @@ New features
 -   updated documentation for `detutil::DetectorClocks` service provider
 -   `lardata` `feature/gp_TPCTime` (addition of `DetectorClocks::TPCTime()`)
 -   [Changes in LArPandoraContent v3.11](https://indico.fnal.gov/event/16752/contribution/0/material/slides/0.pdf)
-    -   feature/larpandoracontent\_v03\_11\_00
+    -   feature/larpandoracontent_v03_11_00
     -   larpandoracontent, larpandora
     -   uboonecode, uboonedata, dunetpc
 
@@ -54,67 +54,67 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   cetpkgsupport v1\_14\_01
+-   cetpkgsupport v1_14_01
 
 Change List
 ============================
 
-larsoft v06\_72\_00
+larsoft v06_72_00
 ------------------------------------------
 
--   2018-03-28 Lynn Garren : larsoft v06\_72\_00 for larsoft v06\_72\_00
--   2018-03-28 Lynn Garren : cetpkgsupport v1\_14\_01
+-   2018-03-28 Lynn Garren : larsoft v06_72_00 for larsoft v06_72_00
+-   2018-03-28 Lynn Garren : cetpkgsupport v1_14_01
 -   2018-03-28 Lynn Garren : product versions and cetpkgsupport
 
-lareventdisplay v06\_18\_04
+lareventdisplay v06_18_04
 ----------------------------------------------------------
 
--   2018-03-28 Lynn Garren : lareventdisplay v06\_18\_04 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : lareventdisplay v06_18_04 for larsoft v06_72_00
 
-larexamples v06\_12\_00
+larexamples v06_12_00
 --------------------------------------------------
 
--   2018-03-28 Lynn Garren : larexamples v06\_12\_00 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larexamples v06_12_00 for larsoft v06_72_00
 -   2018-03-22 Gianluca Petrillo : Fixed Doxygen glitches
 -   2018-03-22 Gianluca Petrillo : Added tutorial to use debugger to catch exceptions
 
-larpandora v06\_25\_04
+larpandora v06_25_04
 ------------------------------------------------
 
--   2018-03-28 Lynn Garren : larpandora v06\_25\_04 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larpandora v06_25_04 for larsoft v06_72_00
 -   2018-03-22 a-d-smith : Switched settings from neutrino id tool to simple neutrino id tool
 
-larwirecell v06\_11\_04
+larwirecell v06_11_04
 --------------------------------------------------
 
--   2018-03-28 Lynn Garren : larwirecell v06\_11\_04 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larwirecell v06_11_04 for larsoft v06_72_00
 
-larana v06\_18\_04
+larana v06_18_04
 ----------------------------------------
 
--   2018-03-28 Lynn Garren : larana v06\_18\_04 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larana v06_18_04 for larsoft v06_72_00
 
-larreco v06\_57\_00
+larreco v06_57_00
 ------------------------------------------
 
--   2018-03-28 Lynn Garren : larreco v06\_57\_00 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larreco v06_57_00 for larsoft v06_72_00
 -   2018-03-24 Christoph Alt : Update handling of long pulse trains
 
-larsim v06\_42\_04
+larsim v06_42_04
 ----------------------------------------
 
--   2018-03-28 Lynn Garren : larsim v06\_42\_04 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larsim v06_42_04 for larsoft v06_72_00
 
-larevt v06\_19\_04
+larevt v06_19_04
 ----------------------------------------
 
--   2018-03-28 Lynn Garren : larevt v06\_19\_04 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larevt v06_19_04 for larsoft v06_72_00
 -   2018-03-24 Dominic Brailsford : Add functionality to require that any of the particles in the fcl list need to be found in the event for the event to be saved, rather than demanding ALL of them be found. The default fcl functionality is to require all be found. This is controlled via a bool fcl parameters called RequireAllInterestingParticles.
 
-lardata v06\_42\_00
+lardata v06_42_00
 ------------------------------------------
 
--   2018-03-28 Lynn Garren : lardata v06\_42\_00 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : lardata v06_42_00 for larsoft v06_72_00
 -   2018-03-26 Gianluca Petrillo : Added DetectorClocks::TPCTime() and implementation.
 -   2018-03-21 Gianluca Petrillo : Detached procedures for trigger time loading
 -   2018-03-21 Gianluca Petrillo : New method to set default trigger times in DetectorClocksStandard
@@ -125,13 +125,13 @@ lardata v06\_42\_00
 -   2018-01-31 Gianluca Petrillo : Added drift output to DetectorPropertiesStandard test
 -   2017-05-11 Gianluca Petrillo : Updated DetectorClocks documentation.
 
-larcore v06\_18\_01
+larcore v06_18_01
 ------------------------------------------
 
-larpandoracontent v03\_11\_00
+larpandoracontent v03_11_00
 --------------------------------------------------------------
 
--   2018-03-28 Lynn Garren : larpandoracontent v03\_11\_00 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larpandoracontent v03_11_00 for larsoft v06_72_00
 -   2018-03-23 John Marshall : Merge branch ‘a-d-smith/coverityDefects’
 -   2018-03-22 loressa : Type change picked up by gcc 6.4.0.
 -   2018-03-20 a-d-smith : Fixed small coverity defects
@@ -180,7 +180,7 @@ larpandoracontent v03\_11\_00
 -   2018-02-13 John Marshall : Restructure.
 -   2018-02-13 John Marshall : Update list of interaction types.
 -   2018-02-12 John Marshall : Placeholder null values for cases where there are no matched pfos.
--   2018-02-09 John Marshall : Alter treatment for handling e.g. mu\_minus vs. mu\_plus. Add whether pfo reco’d as neutrino to tree.
+-   2018-02-09 John Marshall : Alter treatment for handling e.g. mu_minus vs. mu_plus. Add whether pfo reco’d as neutrino to tree.
 -   2018-02-09 John Marshall : Add GetNeutrinoWeight functionality to CheatingNeutrinoId tool.
 -   2018-02-09 John Marshall : Restore LArMCParticleHelper::GetMainMCParticle, some work to do for GetMainMCPrimary.
 -   2018-02-08 John Marshall : Add number of pfo matches to tree.
@@ -209,31 +209,31 @@ larpandoracontent v03\_11\_00
 -   2017-12-07 a-d-smith : Added functionality to LArMCParticleHelper to select reconstructable MCParticles with a given condition
 -   2017-12-01 a-d-smith : Added the LArFormattingHelper class to print coloured tables to the terminal
 
-larsoftobj v1\_41\_02
+larsoftobj v1_41_02
 ----------------------------------------------
 
-lardataobj v1\_29\_01
+lardataobj v1_29_01
 ----------------------------------------------
 
-larcorealg v1\_18\_01
+larcorealg v1_18_01
 ----------------------------------------------
 
-larcoreobj v1\_22\_00
+larcoreobj v1_22_00
 ----------------------------------------------
 
-larbatch v01\_38\_01
+larbatch v01_38_01
 --------------------------------------------
 
--   2018-03-28 Lynn Garren : larbatch v01\_38\_01 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larbatch v01_38_01 for larsoft v06_72_00
 -   2018-03-21 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
 -   2018-03-21 Herbert Greenlee : Add prestagefraction.
--   2018-03-21 Lynn Garren : larsoft v06\_71\_00
+-   2018-03-21 Lynn Garren : larsoft v06_71_00
 -   2018-03-20 Herbert Greenlee : Don’t make out/log directory more times than necessary.
 
-larutils v1\_22\_00
+larutils v1_22_00
 ------------------------------------------
 
--   2018-03-28 Lynn Garren : larutils v1\_22\_00 for larsoft v06\_72\_00
+-   2018-03-28 Lynn Garren : larutils v1_22_00 for larsoft v06_72_00
 -   2018-03-26 Lynn Garren : adding c2 support
 -   2018-03-20 Herbert Greenlee : Check out uboonedata.
--   2018-03-20 Herbert Greenlee : Add build\_uboonedata.sh.
+-   2018-03-20 Herbert Greenlee : Add build_uboonedata.sh.

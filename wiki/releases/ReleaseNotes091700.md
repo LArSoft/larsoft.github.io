@@ -1,40 +1,40 @@
-LArSoft v09\_17\_00 Release Notes
+LArSoft v09_17_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v09\_17\_00 Release Notes](#LArSoft-v09_17_00-Release-Notes)
+-   [LArSoft v09_17_00 Release Notes](#LArSoft-v09_17_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v09\_17\_00](#larsoft-v09_17_00)
-    -   [lareventdisplay v09\_01\_01](#lareventdisplay-v09_01_01)
-    -   [larexamples v09\_01\_01](#larexamples-v09_01_01)
-    -   [larpandora v09\_05\_02](#larpandora-v09_05_02)
-    -   [larsimrad v09\_01\_01](#larsimrad-v09_01_01)
-    -   [larrecodnn v09\_06\_00](#larrecodnn-v09_06_00)
-    -   [larwirecell v09\_02\_00](#larwirecell-v09_02_00)
-    -   [larana v09\_01\_01](#larana-v09_01_01)
-    -   [larreco v09\_05\_01](#larreco-v09_05_01)
-    -   [larsim v09\_10\_00](#larsim-v09_10_00)
-    -   [larg4 v09\_03\_00](#larg4-v09_03_00)
-    -   [larevt v09\_02\_00](#larevt-v09_02_00)
-    -   [lardata v09\_02\_00](#lardata-v09_02_00)
-    -   [larcore v09\_02\_00](#larcore-v09_02_00)
-    -   [larpandoracontent v03\_22\_07](#larpandoracontent-v03_22_07)
-    -   [larsoftobj v09\_05\_00](#larsoftobj-v09_05_00)
-    -   [lardataobj v09\_01\_00](#lardataobj-v09_01_00)
-    -   [lardataalg v09\_04\_00](#lardataalg-v09_04_00)
-    -   [larcorealg v09\_01\_00](#larcorealg-v09_01_00)
-    -   [larcoreobj v09\_02\_00](#larcoreobj-v09_02_00)
-    -   [webevd v09\_05\_00](#webevd-v09_05_00)
-    -   [larbatch v01\_54\_01](#larbatch-v01_54_01)
-    -   [larutils v1\_27\_04](#larutils-v1_27_04)
+    -   [larsoft v09_17_00](#larsoft-v09_17_00)
+    -   [lareventdisplay v09_01_01](#lareventdisplay-v09_01_01)
+    -   [larexamples v09_01_01](#larexamples-v09_01_01)
+    -   [larpandora v09_05_02](#larpandora-v09_05_02)
+    -   [larsimrad v09_01_01](#larsimrad-v09_01_01)
+    -   [larrecodnn v09_06_00](#larrecodnn-v09_06_00)
+    -   [larwirecell v09_02_00](#larwirecell-v09_02_00)
+    -   [larana v09_01_01](#larana-v09_01_01)
+    -   [larreco v09_05_01](#larreco-v09_05_01)
+    -   [larsim v09_10_00](#larsim-v09_10_00)
+    -   [larg4 v09_03_00](#larg4-v09_03_00)
+    -   [larevt v09_02_00](#larevt-v09_02_00)
+    -   [lardata v09_02_00](#lardata-v09_02_00)
+    -   [larcore v09_02_00](#larcore-v09_02_00)
+    -   [larpandoracontent v03_22_07](#larpandoracontent-v03_22_07)
+    -   [larsoftobj v09_05_00](#larsoftobj-v09_05_00)
+    -   [lardataobj v09_01_00](#lardataobj-v09_01_00)
+    -   [lardataalg v09_04_00](#lardataalg-v09_04_00)
+    -   [larcorealg v09_01_00](#larcorealg-v09_01_00)
+    -   [larcoreobj v09_02_00](#larcoreobj-v09_02_00)
+    -   [webevd v09_05_00](#webevd-v09_05_00)
+    -   [larbatch v01_54_01](#larbatch-v01_54_01)
+    -   [larutils v1_27_04](#larutils-v1_27_04)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09\_17\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_17_00/larsoft-v09_17_00.html)
-Download instructions for [just larsoftobj v09\_05\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_00/larsoftobj-v09_05_00.html)
+Download instructions for [larsoft v09_17_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_17_00/larsoft-v09_17_00.html)
+Download instructions for [just larsoftobj v09_05_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_00/larsoftobj-v09_05_00.html)
 
 Purpose
 --------------------
@@ -63,7 +63,7 @@ New features
     -   MergeSimSources can manage almost all LArG4 data products, with the noticeable exception of sim::SimEnergyDeposit. This commit fills that gap.
     -   The pull request also includes two commits aimed to “refresh” the coding style of the module to reflect more modern practices enabled by newer art and LArSoft versions.
 -   larsim PR 62
-    -   added new toy larg4 detector based on refactored larg4 and updated SimWire\_module with new noise models and response functions
+    -   added new toy larg4 detector based on refactored larg4 and updated SimWire_module with new noise models and response functions
 -   webevd PR 24
     -   Workaround JSON having no way to represent inf/nan
 -   webevd PR 25
@@ -82,131 +82,131 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   ifdhc\_config v2\_5\_12
+-   ifdhc_config v2_5_12
 
 Change List
 ============================
 
-larsoft v09\_17\_00
+larsoft v09_17_00
 ------------------------------------------
 
--   2021-02-17 Lynn Garren : larsoft v09\_17\_00 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : larsoft v09_17_00 for larsoft v09_17_00
 -   2021-02-17 Lynn Garren : product versions
 
-lareventdisplay v09\_01\_01
+lareventdisplay v09_01_01
 ----------------------------------------------------------
 
--   2021-02-17 Lynn Garren : lareventdisplay v09\_01\_01 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : lareventdisplay v09_01_01 for larsoft v09_17_00
 
-larexamples v09\_01\_01
+larexamples v09_01_01
 --------------------------------------------------
 
--   2021-02-17 Lynn Garren : larexamples v09\_01\_01 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : larexamples v09_01_01 for larsoft v09_17_00
 
-larpandora v09\_05\_02
+larpandora v09_05_02
 ------------------------------------------------
 
--   2021-02-17 Lynn Garren : larpandora v09\_05\_02 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : larpandora v09_05_02 for larsoft v09_17_00
 
-larsimrad v09\_01\_01
+larsimrad v09_01_01
 ----------------------------------------------
 
--   2021-02-17 Lynn Garren : larsimrad v09\_01\_01 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : larsimrad v09_01_01 for larsoft v09_17_00
 
-larrecodnn v09\_06\_00
+larrecodnn v09_06_00
 ------------------------------------------------
 
--   2021-02-17 Lynn Garren : larrecodnn v09\_06\_00 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : larrecodnn v09_06_00 for larsoft v09_17_00
 -   2021-02-12 Michael WAng : fixed hard-coded prod label for MCParticles
 -   2021-02-12 Kyle Knoepfel : Use header that silences TensorFlow comparison warnings.
 
-larwirecell v09\_02\_00
+larwirecell v09_02_00
 --------------------------------------------------
 
-larana v09\_01\_01
+larana v09_01_01
 ----------------------------------------
 
--   2021-02-17 Lynn Garren : larana v09\_01\_01 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : larana v09_01_01 for larsoft v09_17_00
 
-larreco v09\_05\_01
+larreco v09_05_01
 ------------------------------------------
 
--   2021-02-17 Lynn Garren : larreco v09\_05\_01 for larsoft v09\_17\_00
--   2021-02-17 Lynn Garren : Merge pull request \#27 from brballer/bb\_BugFixFeb12
+-   2021-02-17 Lynn Garren : larreco v09_05_01 for larsoft v09_17_00
+-   2021-02-17 Lynn Garren : Merge pull request \#27 from brballer/bb_BugFixFeb12
 -   2021-02-12 Kyle Knoepfel : Fix sign comparison.
 -   2021-02-12 Bruce Baller : Bug fix in PFPUtils.
 
-larsim v09\_10\_00
+larsim v09_10_00
 ----------------------------------------
 
--   2021-02-17 Lynn Garren : larsim v09\_10\_00 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : larsim v09_10_00 for larsoft v09_17_00
 -   2021-02-17 Lynn Garren : add missing library
 -   2021-02-15 Lynn Garren : Merge pull request \#62 from mhlswang/develop
--   2021-02-15 Lynn Garren : Merge pull request \#60 from PetrilloAtWork/feature/gp\_mergeSimSources
--   2021-02-12 Michael WAng : Added refactored gdml schemas, updated cmakelists and product\_deps to install gdml & schemas
+-   2021-02-15 Lynn Garren : Merge pull request \#60 from PetrilloAtWork/feature/gp_mergeSimSources
+-   2021-02-12 Michael WAng : Added refactored gdml schemas, updated cmakelists and product_deps to install gdml & schemas
 -   2021-02-12 Kyle Knoepfel : Fix sign comparison.
 -   2021-02-10 Gianluca Petrillo : Fixed bad typo in MergeSimSources module
 -   2021-02-10 Michael WAng : remove unused variable
 -   2021-02-05 Michael WAng : modified evdservices file for toy detector visualization
--   2021-02-05 mhlswang : added new refactored larg4 toy detector, updated SimWire\_module with new response functions and noise models
+-   2021-02-05 mhlswang : added new refactored larg4 toy detector, updated SimWire_module with new response functions and noise models
 -   2021-02-04 Gianluca Petrillo : MergeSimSources now supports SimEnergyDeposits.
 -   2021-02-04 Gianluca Petrillo : MergeSimSources module made multithread-safe.
 -   2021-02-04 Gianluca Petrillo : MergeSimSource module art/C++ updated
 
-larg4 v09\_03\_00
+larg4 v09_03_00
 --------------------------------------
 
-larevt v09\_02\_00
+larevt v09_02_00
 ----------------------------------------
 
-lardata v09\_02\_00
+lardata v09_02_00
 ------------------------------------------
 
-larcore v09\_02\_00
+larcore v09_02_00
 ------------------------------------------
 
-larpandoracontent v03\_22\_07
+larpandoracontent v03_22_07
 --------------------------------------------------------------
 
--   2021-02-17 Lynn Garren : larpandoracontent v03\_22\_07 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : larpandoracontent v03_22_07 for larsoft v09_17_00
 -   2021-02-16 Andrew Chappell : Update version and ChangeLog
 -   2021-02-12 Andrew Chappell : Address review comments
 -   2021-02-10 Andrew Chappell : Visualise best MC matches to PFOs
 -   2021-02-09 Andrew Chappell : Add PFO visualisation
 -   2021-02-08 Andrew Chappell : New visualisation of MC particles
 
-larsoftobj v09\_05\_00
+larsoftobj v09_05_00
 ------------------------------------------------
 
-lardataobj v09\_01\_00
+lardataobj v09_01_00
 ------------------------------------------------
 
-lardataalg v09\_04\_00
+lardataalg v09_04_00
 ------------------------------------------------
 
-larcorealg v09\_01\_00
+larcorealg v09_01_00
 ------------------------------------------------
 
-larcoreobj v09\_02\_00
+larcoreobj v09_02_00
 ------------------------------------------------
 
-webevd v09\_05\_00
+webevd v09_05_00
 ----------------------------------------
 
--   2021-02-17 Lynn Garren : webevd v09\_05\_00 for larsoft v09\_17\_00
+-   2021-02-17 Lynn Garren : webevd v09_05_00 for larsoft v09_17_00
 -   2021-02-17 Lynn Garren : Merge pull request \#28 from cjbackhouse/bugfix/traces
 -   2021-02-17 Lynn Garren : Merge pull request \#27 from cjbackhouse/feature/mctruth
 -   2021-02-16 Christopher Backhouse : Fix mixmerge in traces code, and protection against inf/nan hit times.
 -   2021-02-15 Christopher Backhouse : HTML formatting of truth text
 -   2021-02-15 Christopher Backhouse : Add MCTruth text to the display. Still needs to be reformatted for html rather than latex.
 -   2021-02-15 Christopher Backhouse : Add truth text function adapted from NOvA’s EventDisplay
--   2021-02-15 Lynn Garren : Merge pull request \#25 from cjbackhouse/feature/gallery\_threadsafety
+-   2021-02-15 Lynn Garren : Merge pull request \#25 from cjbackhouse/feature/gallery_threadsafety
 -   2021-02-15 Lynn Garren : Merge pull request \#24 from cjbackhouse/bugfix/infinities
 -   2021-02-11 Christopher Backhouse : gallery::Event is not designed to be threadsafe. Serialize calls through a wrapper.
 -   2021-02-11 Christopher Backhouse : Workaround JSON having no way to represent inf/nan. Otherwise serialization of any object containing inf/nan makes the whole json it’s contained in malformed.
 
-larbatch v01\_54\_01
+larbatch v01_54_01
 --------------------------------------------
 
-larutils v1\_27\_04
+larutils v1_27_04
 ------------------------------------------

@@ -15,7 +15,7 @@ Aaron Higuera is maintaining systematic efficiency tests and writes code for it.
 Similar test are done for beam neutrinos, I expect that soon we’ll have update on this using recent releases of reconstruction algorithms.
 
 Redmine links for code:
-[https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker\_module.cc](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc)
+[https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc)
 
 Vertexing functionality is collected here:
 [https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/RecoAlg/PMAlgVertexing.h](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/RecoAlg/PMAlgVertexing.h)
@@ -40,7 +40,7 @@ double MakeGradient(float penaltyValue, float endSegWeight);
 double StepWithGradient(float alfa, float tol, float penalty, float weight);
 
 The complexity on the higher level comes from scoring the tracks made of various (possible) matching of clusters in complementary 2D projections, this is done more or less here:
-[https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker\_module.cc\#L1851](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc#L1851)
+[https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc\#L1851](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc#L1851)
 
 Working session materials
 --------------------------------------------------------
@@ -49,16 +49,16 @@ Valgrind callgraph output attached to this page
 
 Sample jobs
 
--   Configuration: /pnfs/dune/persistent/users/rnd/pma\_code\_review/test\_input/fcl/
-    -   protoDUNE\_pmtrack\_reco.fcl
+-   Configuration: /pnfs/dune/persistent/users/rnd/pma_code_review/test_input/fcl/
+    -   protoDUNE_pmtrack_reco.fcl
 
--   Data: /pnfs/dune/persistent/users/rnd/pma\_code\_review/test\_input/data
-    -   protoDune\_kaon\_1GeV\_mono\_linecluster.root
-    -   protoDune\_proton\_1GeV\_mono\_linecluster.root
+-   Data: /pnfs/dune/persistent/users/rnd/pma_code_review/test_input/data
+    -   protoDune_kaon_1GeV_mono_linecluster.root
+    -   protoDune_proton_1GeV_mono_linecluster.root
 
 1.  Check out dunetpc
-2.  Run lar -c fcl/protoDUNE\_pmtrack\_reco.fcl \<input\> -o output.root
-3.  lar -c evd\_protoDUNE.fcl reconstructed.root
+2.  Run lar -c fcl/protoDUNE_pmtrack_reco.fcl \<input\> -o output.root
+3.  lar -c evd_protoDUNE.fcl reconstructed.root
 
 "The two files in data dir are 1GeV protons and kaons from the recent MCC6. I usually use for tests 2GeV pions, since they are producing moderately complicated topologies and are of the interest for many analyses we are preparing. I’ll add such file before our session, I just need to prepare it in the same way as two other files, which is:
 

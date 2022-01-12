@@ -1,4 +1,4 @@
 ReleaseNotes08050006a
 ================================================
 
--   genie updated to v3\_00\_04\_ub1 (via nutools v2\_27\_06).
+-   genie updated to v3_00_04_ub1 (via nutools v2_27_06).

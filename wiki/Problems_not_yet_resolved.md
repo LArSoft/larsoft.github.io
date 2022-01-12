@@ -7,12 +7,12 @@ uboonecode memory issue
 Herb reports that jobs consume about twice as much memory.
 This problem will be resolved when we build with art 1.19.xx.
 
-ci\_reco1\_regression\_test\_uboonecode
+ci_reco1_regression_test_uboonecode
 --------------------------------------------------------------------------------
 
-When we disable fast cloning for ci\_reco1\_regression\_test\_uboonecode, the test appears to hang. Using lar –trace the hang occurs in module for event:fuzzyclustermerger. We also notice that GausHitFinder takes significantly longer than when running with root 5. A build of the head of the v06\_00\_00\_rc branch is available on woof. We are hoping to get a handle on this problem before tagging v06\_00\_00\_rc3.
+When we disable fast cloning for ci_reco1_regression_test_uboonecode, the test appears to hang. Using lar –trace the hang occurs in module for event:fuzzyclustermerger. We also notice that GausHitFinder takes significantly longer than when running with root 5. A build of the head of the v06_00_00_rc branch is available on woof. We are hoping to get a handle on this problem before tagging v06_00_00_rc3.
 
-RESOLVED: [Migration\_to\_root\_6](Migration_to_root_6#TFormula-bug-on-missing-parameter-in-expression)
+RESOLVED: [Migration_to_root_6](Migration_to_root_6#TFormula-bug-on-missing-parameter-in-expression)
 
 ### To reproduce the problem on woof by running the CI tests:
 
@@ -39,4 +39,4 @@ This will complain, and only run some of the tests, but you will see it hang.
     cp $UBOONECODE_DIR/job/reco_uboone_stage_1.fcl .
     lar --rethrow-all -n 1 -o prodgenie_bnb_nu_cosmic_uboone_Current_reco1.root --config ci_test_reco1_uboonecode.fcl prodgenie_bnb_nu_cosmic_uboone_Reference_detsim_default.root --trace
 
-You can edit the local reco\_uboone\_stage\_1.fcl file.
+You can edit the local reco_uboone_stage_1.fcl file.

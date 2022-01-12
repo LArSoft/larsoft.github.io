@@ -46,9 +46,9 @@ setup the environment
 make a build directory
 --------------------------------------------------
 
-Since we are now building for e19, e17, c7, and c2, larreltools v1\_05\_00 or later is required.
+Since we are now building for e19, e17, c7, and c2, larreltools v1_05_00 or later is required.
 
-Decide if we think this is a bug fix or feature release. Note that feature branches are sometimes just bug fixes. This decision will be reflected in the directory name and release branch names. This example presumes a bug fix release against v08\_38\_00.
+Decide if we think this is a bug fix or feature release. Note that feature branches are sometimes just bug fixes. This decision will be reflected in the directory name and release branch names. This example presumes a bug fix release against v08_38_00.
 
 The “tagLAr mkdir” command will create a directory structure and populate the srcs directory.
 
@@ -58,7 +58,7 @@ The “tagLAr mkdir” command will create a directory structure and populate th
 Make a develop build
 ----------------------------------------------
 
-At this time, our default build is e17. Start with that and make sure the combined head of develop builds. Notice that \$MRB\_SOURCE contains both larsoft and experiment code. It may be necessary to update versions and/or merge feature branches in the experiment code. For instance, since larsoft v08\_38\_00 adds the ability to build for e19 and c7, you might need to merge or use feature/team\_for\_e19 in the experiment code until the experiments catch up. Sometimes a gentle nudge is helpful.
+At this time, our default build is e17. Start with that and make sure the combined head of develop builds. Notice that \$MRB_SOURCE contains both larsoft and experiment code. It may be necessary to update versions and/or merge feature branches in the experiment code. For instance, since larsoft v08_38_00 adds the ability to build for e19 and c7, you might need to merge or use feature/team_for_e19 in the experiment code until the experiments catch up. Sometimes a gentle nudge is helpful.
 
     source ..../e17p/local*/setup
     cd $MRB_BUILDDIR
@@ -125,14 +125,14 @@ If the only change is the version number that you just updated, then restore the
 
 ### larpandoracontent
 
-larpandoracontent is a special case. It is used by larpandora and depends only on the pandora ups product. We seldom update larpandoracontent. Our agreement with the Pandora team is to only update the micro version. The version is encoded in both ups/product\_deps and larpandoracontent/CMakeLists.txt. You will have to update CMakeLists.txt by hand.
+larpandoracontent is a special case. It is used by larpandora and depends only on the pandora ups product. We seldom update larpandoracontent. Our agreement with the Pandora team is to only update the micro version. The version is encoded in both ups/product_deps and larpandoracontent/CMakeLists.txt. You will have to update CMakeLists.txt by hand.
 
 Final test build and cleanup
 --------------------------------------------------------------
 
 Once you have gone through all the packages, make a final test build. This should go reasonably quickly, but make sure you have built the new code with all 4 compilers.
 
-The tagging process will commit changes in ups/product\_deps with an appropriate comment. Before starting that process, you must make sure that any other changes have been committed.
+The tagging process will commit changes in ups/product_deps with an appropriate comment. Before starting that process, you must make sure that any other changes have been committed.
 
     cd $MRB_SOURCE
     dogit status
@@ -145,9 +145,9 @@ The tagging process will commit changes in ups/product\_deps with an appropriate
 Tag
 ------------
 
-Make sure \$MRB\_SOURCE contains ONLY the repositories you want to tag. If it contains other repositories, you might make unintentional tags. You might also have problems with the tagging script, which does not do a lot of checking.
+Make sure \$MRB_SOURCE contains ONLY the repositories you want to tag. If it contains other repositories, you might make unintentional tags. You might also have problems with the tagging script, which does not do a lot of checking.
 
-The argument supplied is a branch name (release/v08\_38\_01). The branch name is expected to match the release name, and will be used in commit messages.
+The argument supplied is a branch name (release/v08_38_01). The branch name is expected to match the release name, and will be used in commit messages.
 
     cd $MRB_SOURCE
     tagLAr tag v08_38_01
@@ -251,7 +251,7 @@ The generated release notes contain an informative header and a list of commits 
 
 When copying the generated release notes, it is important to use cat so that lines are not wrapped. Commands such as more or less will wrap lines, which breaks the generated html.
 
-The top line of the the generated ReleaseNotes file is copied to the [LArSoft\_release\_list](releases/LArSoft_release_list) table. The remainder of the file is used to make the actual release notes. Notes about each release must be added by hand to the top section of the release notes.
+The top line of the the generated ReleaseNotes file is copied to the [LArSoft_release_list](releases/LArSoft_release_list) table. The remainder of the file is used to make the actual release notes. Notes about each release must be added by hand to the top section of the release notes.
 
     make-release-notes <top directory> <tag> <previous tag>
     (e.g., make-release-notes `pwd` v08_38_01 v08_38_00)
@@ -267,7 +267,7 @@ Once the binaries are on cvmfs and the release notes have been generated, it is 
 
 ### final merge
 
-The argument given to the merge command is the name of the release/vxx\_yy\_zz branch.
+The argument given to the merge command is the name of the release/vxx_yy_zz branch.
 
     cd $MRB_SOURCE
     tagLAr merge v08_38_00
@@ -281,7 +281,7 @@ Random notes
 
 ### dogit
 
-The dogit command will pass an arbitrary git command to all repositories in \$MRB\_SOURCE. This can be very handy.
+The dogit command will pass an arbitrary git command to all repositories in \$MRB_SOURCE. This can be very handy.
 If the argument contains more than one word, wrap it in quotes.
 
     dogit status
@@ -290,7 +290,7 @@ If the argument contains more than one word, wrap it in quotes.
 
 ### Changing your mind about the larsoft release name
 
-Sometimes you start expecting to make a bug fix release and end up making a feature release instead, or vice versa. If the larsoft release version DOES NOT match the release branch, I will make a new branch. This is to ensure that the automatically generated commit messages reference the correct larsoft release. In this example, the existing branch is release/v08\_38\_01, but the new larsoft release will actually be v08\_39\_00.
+Sometimes you start expecting to make a bug fix release and end up making a feature release instead, or vice versa. If the larsoft release version DOES NOT match the release branch, I will make a new branch. This is to ensure that the automatically generated commit messages reference the correct larsoft release. In this example, the existing branch is release/v08_38_01, but the new larsoft release will actually be v08_39_00.
 
     cd $MRB_SOURCE
     dogit branch

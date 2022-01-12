@@ -43,7 +43,7 @@ Converting the Triton Docker container to Singularity
 
 In order to run the Triton inference server in a container on machines that support Singularity but not Docker (e.g. Fermilab gpvms), one may convert the Triton Docker container described in the previous section into a Singularity container by following the steps below:
 
-1.  Set SINGULARITY\_TMPDIR and SINGULARITY\_CACHEDIR to an area with a substantial amount of disk space. Also make sure you have sufficient space in your current working directory.
+1.  Set SINGULARITY_TMPDIR and SINGULARITY_CACHEDIR to an area with a substantial amount of disk space. Also make sure you have sufficient space in your current working directory.
 2.  Run the following command to convert the Docker container to Singularity:
 
         singularity build tritonserver-21.06-py3.sif docker://nvcr.io/nvidia/tritonserver:21.06-py3

@@ -65,9 +65,9 @@ At that point, TotalView nicely shows the source code corresponding to the execu
 Actually, I find out I want to dig into Geant4. So I step through “LArG4::produce” into a `g4b::G4Helper::G4Run` call, to find myself in the middle of assembly code. In fact, TotalView reads where the source code it from the library (it is in a format called DWARF, for the libraries in ELF format…), and the location stored in there is the one where the source was compiled the first time.
 The packages in UPS ship with source code all right, and it’s only matter of telling TotalView to look at them instead of in the original location. So hit “File | Search Paths” (\<Ctrl\>+\<D\>), “Sources” tab. In there I add
 
-> \$tree(\${NUTOOLS\_DIR}/source)
-> \$tree(\${GEANT4\_DIR}/source/geant4.9.6.p02/source)
-> \$tree(\${ART\_DIR}/source)
+> \$tree(\${NUTOOLS_DIR}/source)
+> \$tree(\${GEANT4_DIR}/source/geant4.9.6.p02/source)
+> \$tree(\${ART_DIR}/source)
 
 (one per line). TotalView can use environment directories, and things like `NUTOOLS_DIR` are set up by UPS already. Enclosing them in `$tree()` makes TotalView search not only that directory but also the subdirectories.
 At that point the assembler code yields to some C++ code and everything is brighter.
@@ -91,7 +91,7 @@ If the display shows assembler code here, then add the ART source to the debugge
 
 ![](/redmine/attachments/download/34914/totalview_search_path_2.png)
 
-Note the entry, \$tree(\${ART\_DIR}/source). This will find recursively the sources in the ART product. If you are using a debug-compiled version of ART (the norm) then the assembler will switch to visible source as soon as you click, “OK.” Assuming totalview quits legally this will be saved in your totalview preferences at exit.
+Note the entry, \$tree(\${ART_DIR}/source). This will find recursively the sources in the ART product. If you are using a debug-compiled version of ART (the norm) then the assembler will switch to visible source as soon as you click, “OK.” Assuming totalview quits legally this will be saved in your totalview preferences at exit.
 
 The entry \${PATH} is needed, as totalview uses the search path to find the executable, and does not use your environment’s PATH unless it’s on the list.
 

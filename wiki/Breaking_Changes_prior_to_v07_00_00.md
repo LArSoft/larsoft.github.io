@@ -1,12 +1,12 @@
-Breaking Changes prior to v07\_00\_00
+Breaking Changes prior to v07_00_00
 ==============================================================================
 
 -   **Table of contents**
--   [Breaking Changes prior to v07\_00\_00](#Breaking-Changes-prior-to-v07_00_00)
+-   [Breaking Changes prior to v07_00_00](#Breaking-Changes-prior-to-v07_00_00)
     -   [Cluster3D.h moved from lardata to larreco](#Cluster3Dh-moved-from-lardata-to-larreco)
-    -   [update to from art v2\_10\_03 to art v2\_11\_02](#update-to-from-art-v2_10_03-to-art-v2_11_02)
+    -   [update to from art v2_10_03 to art v2_11_02](#update-to-from-art-v2_10_03-to-art-v2_11_02)
     -   [geo-GeometryCore-WirePitch changed](#geo-GeometryCore-WirePitch-changed)
-    -   [SingleGen - Search for histogram in FW\_SEARCH\_PATH](#SingleGen-Search-for-histogram-in-FW_SEARCH_PATH)
+    -   [SingleGen - Search for histogram in FW_SEARCH_PATH](#SingleGen-Search-for-histogram-in-FW_SEARCH_PATH)
     -   [Fix design flaw in geo ChannelMapAlg interface](#Fix-design-flaw-in-geo-ChannelMapAlg-interface)
     -   [Adoption of Clang 5/C++17](#Adoption-of-Clang-5C17)
     -   [Change in recob::Vertex class](#Change-in-recobVertex-class)
@@ -64,9 +64,9 @@ This is an attempt to track all the “breaking” changes which will require a 
 |Date|Version/commit|Description|Issue|
 |:---|:-------------|:----------|:----|
 |20180626|`v06_82_00`|[Cluster3D.h moved from lardata to larreco](#Cluster3Dh-moved-from-lardata-to-larreco)||
-|20180601|`v06_80_00`|[update to from art v2\_10\_03 to art v2\_11\_02](#update-to-from-art-v2_10_03-to-art-v2_11_02)||
+|20180601|`v06_80_00`|[update to from art v2_10_03 to art v2_11_02](#update-to-from-art-v2_10_03-to-art-v2_11_02)||
 |20180530|`v06_79_00`|[geo::GeometryCore::WirePitch() changed](#geo-GeometryCore-WirePitch-changed)|[\#18137](/redmine/issues/18137 "Necessary Maintenance: The method geo::GeometryCore::WirePitch() with two wires as argument should be removed (Closed)")|
-|20180524|`v06_78_00`|[SingleGen: Search for histogram in FW\_SEARCH\_PATH](#SingleGen-Search-for-histogram-in-FW_SEARCH_PATH)|[\#19313](/redmine/issues/19313 "Feature: SingleGen: search for histogram in FW_SEARCH_PATH (Closed)")|
+|20180524|`v06_78_00`|[SingleGen: Search for histogram in FW_SEARCH_PATH](#SingleGen-Search-for-histogram-in-FW_SEARCH_PATH)|[\#19313](/redmine/issues/19313 "Feature: SingleGen: search for histogram in FW_SEARCH_PATH (Closed)")|
 |20180524|`v06_78_00`|[Fix design flaw in geo::ChannelMapAlg interface](#Fix-design-flaw-in-geo-ChannelMapAlg-interface)|[\#18136](/redmine/issues/18136 "Necessary Maintenance: Fix design flaw in geo::ChannelMapAlg interface (Closed)")|
 |20180405|`v06_73_00`|[Adoption of Clang 5/C++17](#Adoption-of-Clang-5C17)||
 |20171214|`v06_60_00`|[Change in recob::Vertex class](#Change-in-recobVertex-class)|[\#18585](/redmine/issues/18585 "Bug: eventdump fails for CI test reference files for DUNE FD and protoDUNE SP in v06_60_00_01 (Closed)")|
@@ -114,7 +114,7 @@ This is an attempt to track all the “breaking” changes which will require a 
 Cluster3D.h moved from lardata to larreco
 ---------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_82\_00](ReleaseNotes068200)
+**When was committed**: [v06_82_00](ReleaseNotes068200)
 
 As part of the Cluster3D updates, Cluster3D.h moved from lardata to larreco and acquired an explicit dependency on Eigen.
 
@@ -122,29 +122,29 @@ As part of the Cluster3D updates, Cluster3D.h moved from lardata to larreco and 
 
 **Fix**:
 
-If compilation reports a missing header from lardata, use UpdateCluster3D.sh after setup of larsoft v06\_82\_00 or later.
+If compilation reports a missing header from lardata, use UpdateCluster3D.sh after setup of larsoft v06_82_00 or later.
 You may also need to add `find_ups_product( eigen )` to your top level CMakeLists.txt file.
 
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-update to from art v2\_10\_03 to art v2\_11\_02
+update to from art v2_10_03 to art v2_11_02
 ------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_80\_00](ReleaseNotes068000)
+**When was committed**: [v06_80_00](ReleaseNotes068000)
 
-Some headers that were previously in cetlib are now only found in cetlib\_except.
+Some headers that were previously in cetlib are now only found in cetlib_except.
 There is now a single messagefacility library.
 
 **Failure when not fixed**: Compilation error.
 
-**Fix**: Use UpdateArt211.sh after setup of larsoft v06\_80\_00 or later.
+**Fix**: Use UpdateArt211.sh after setup of larsoft v06_80_00 or later.
 
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
 geo-GeometryCore-WirePitch changed
 --------------------------------------------------------------------------
 
-**When was committed**: [v06\_79\_00](ReleaseNotes067800)
+**When was committed**: [v06_79_00](ReleaseNotes067800)
 
 **Motivation**:
 
@@ -192,10 +192,10 @@ That is, the two wire arguments must be deleted.
 
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
-SingleGen - Search for histogram in FW\_SEARCH\_PATH
+SingleGen - Search for histogram in FW_SEARCH_PATH
 ----------------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_78\_00](ReleaseNotes067800)
+**When was committed**: [v06_78_00](ReleaseNotes067800)
 **Motivation**: Allow searching for the file specified by fcl parameter HistogramFile.
 **Affects**: Users of the SingleGen fcl parameter HistogramFile.
 **Failure when not fixed**: Possibly finding a file which was not found previously.
@@ -204,14 +204,14 @@ SingleGen - Search for histogram in FW\_SEARCH\_PATH
 Note that due to the new searching behavior it is possible that the code now finds a file
 which it would not have found before this change. If an undesired file is found, then
 change the fcl parameter to specify the correct path to the desired file and make sure the
-environment variable FW\_SEARCH\_PATH is set to the correct value.
+environment variable FW_SEARCH_PATH is set to the correct value.
 
 **Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
 
 Fix design flaw in geo ChannelMapAlg interface
 --------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_78\_00](ReleaseNotes067800)
+**When was committed**: [v06_78_00](ReleaseNotes067800)
 **Motivation**: The `geo::ChannelMapAlg::SignalType()` function has two overloads:
 
     virtual geo::SigType_t SignalType(raw::ChannelID_t const channel) const = 0;virtual geo::SigType_t SignalType(readout::ROPID const& ropid) const;
@@ -247,7 +247,7 @@ as it is pure virtual.
 Adoption of Clang 5/C++17
 -----------------------------------------------------
 
-**When was committed**: [v06\_73\_00](ReleaseNotes067300)
+**When was committed**: [v06_73_00](ReleaseNotes067300)
 **Motivation**: Support for Clang 5.0 compiler (qualifier `c2`)
 **Affects**: C++ source code non conforming to Clang standards, and code with constructs deprecated in C++14 that were removed in C++17
 **Failure when not fixed**: multiple types of compilation errors when compiling with `c2` qualifiers
@@ -257,9 +257,9 @@ Adoption of Clang 5/C++17
 Change in recob::Vertex class
 --------------------------------------------------------------
 
-**When was committed**: [v06\_60\_00](ReleaseNotes066000)
+**When was committed**: [v06_60_00](ReleaseNotes066000)
 **Motivation**: Update of the tracking vector data types. The breakage was unintentional.
-**Affects**: reading with LArSoft version [v06\_60\_00](/redmine/versions/1481) (only) of files produced by LArSoft version [v06\_59\_00](/redmine/versions/1477) (only)
+**Affects**: reading with LArSoft version [v06_60_00](/redmine/versions/1481) (only) of files produced by LArSoft version [v06_59_00](/redmine/versions/1477) (only)
 **Failure when not fixed**: run-time failure with an exception:
 
     ---- FatalRootError BEGIN
@@ -267,13 +267,13 @@ Change in recob::Vertex class
     Cannot convert recob::Vertex::pos_ from type: ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<double>,ROOT::Math::DefaultCoordinateSystemTag> to type: ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<double>,ROOT::Math::GlobalCoordinateSystemTag>, skip element
     ---- FatalRootError END
 
-**Fix**: use a LArSoft version with this bug fixed (version:v06\_61\_00 and newer) or check out an updated version of `lardataobj` (e.g. `develop` branch) including commit [lardataobj:3e46c4c](/redmine/projects/lardataobj/repository/revisions/3e46c4c8fbdec5eff41abd62c410bb632f73606d "Added missing rules for recob::Vertex schema evolution This solves issue #18585 .")
+**Fix**: use a LArSoft version with this bug fixed (version:v06_61_00 and newer) or check out an updated version of `lardataobj` (e.g. `develop` branch) including commit [lardataobj:3e46c4c](/redmine/projects/lardataobj/repository/revisions/3e46c4c8fbdec5eff41abd62c410bb632f73606d "Added missing rules for recob::Vertex schema evolution This solves issue #18585 .")
 **Contact**: Gianluca Petrillo
 
 First adoption of GenVector vectors (continued)
 --------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_60\_00](ReleaseNotes066000)
+**When was committed**: [v06_60_00](ReleaseNotes066000)
 **Motivation**: Adoption of [GenVector ROOT data structures](From_ROOT_vectors_(TVector3)_to_ROOT_GenVector)
 
 ### Changed interface
@@ -319,7 +319,7 @@ adapt your code to use GenVectors vectors
 First adoption of GenVector vectors
 ----------------------------------------------------------------------------
 
-**When was committed**: [v06\_59\_00](ReleaseNotes065900)
+**When was committed**: [v06_59_00](ReleaseNotes065900)
 **Motivation**: Adoption of [GenVector ROOT data structures](From_ROOT_vectors_(TVector3)_to_ROOT_GenVector)
 
 ### Rearranged files and utilities
@@ -425,7 +425,7 @@ First adoption of GenVector vectors
 Removed service MemoryPeakReporter
 --------------------------------------------------------------------------
 
-**When was committed**: [v06\_57\_00](ReleaseNotes065700)
+**When was committed**: [v06_57_00](ReleaseNotes065700)
 **Motivation**: `MemoryPeakReporter` is obsolete.
 **Affects**: job configurations configuring `MemoryPeakReporter` service
 **Failure when not fixed**: run-time failure where *art* will not be able to construct the `MemoryPeakReporter` service
@@ -435,7 +435,7 @@ Removed service MemoryPeakReporter
 Removed view-related methods from geo::ChannelMapAlg
 ------------------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_54\_00](ReleaseNotes065400)
+**When was committed**: [v06_54_00](ReleaseNotes065400)
 **Motivation**: view information is produced by `geo::PlaneGeo` and presented by `geo::GeometryCore`. There are remains of view setting code in `geo::ChannelMapAlg`, which are currently unused and whose presence creates confusion.
 **Affects**: all `geo::ChannelMapAlg` implementations; compilation errors on `Views()` and `View(raw::ChannelID_t)` methods are triggered *only* if they are marked as `override` (which they should); if they are not marked `override`, no error will be shown, but the code is still sterile and never used.
 **Fix**: remove the `Views()` and `View(raw::ChannelID_t)` methods from `geo::ChannelMapAlg` implementations
@@ -444,7 +444,7 @@ Removed view-related methods from geo::ChannelMapAlg
 geo::GeometryCore::View() made compliant
 --------------------------------------------------------------------------------
 
-**When was committed**: [v06\_54\_00](ReleaseNotes065400)
+**When was committed**: [v06_54_00](ReleaseNotes065400)
 **Motivation**: documentation of `geo::GeometryCore::View()` methods claim that on invalid argument, `geo::kUnknown` view is returned; this was not always enforced.
 **Affects**: code calling `geo::GeometryCore::View(raw::ChannelID)` and `geo::GeometryCore::View(geo::PlaneID)` will need to cope with `geo::kUnknown` results (before the change, the result was undefined and typically wrong).
 **Fix**: code in the proper checks to ensure that the input of those calls is a valid channel (that is, not `raw::InvalidChannelID`) or plane (that is, `bool(planeID)` must be true).
@@ -453,7 +453,7 @@ geo::GeometryCore::View() made compliant
 geo::GeometryCore::AuxDetGeoVec() removed
 ----------------------------------------------------------------------------------
 
-**When was committed**: [v06\_52\_00](ReleaseNotes065200)
+**When was committed**: [v06_52_00](ReleaseNotes065200)
 **Motivation**: the feature is broken as it allows modifications of a constant object
 **Affects**: all code using `geo::GeometryCore::AuxDetGeoVec()`, which will trigger a compilation error
 **Fix**: use a combination of `geo::GeometryCore::NAuxDets()` and `geo::GeometryCore::AuxDet()` to access the auxiliary detectors
@@ -462,7 +462,7 @@ geo::GeometryCore::AuxDetGeoVec() removed
 geo::ChannelMapAlg::Initialize() interface changed
 ----------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_52\_00](ReleaseNotes065200)
+**When was committed**: [v06_52_00](ReleaseNotes065200)
 **Motivation**: the internal storage of cryostats in `geo::GeometryCore` has changed and `geo::ChannelMapAlg::Initialize()` needs to reflect that
 **Affects**: any channel mapping class overriding `geo::ChannelMapAlg::Initialize()`
 **Failure when not fixed**: compiler error, either “does not override anything” if `override` keyword was used, or instantiation of a pure virtual method if it was not
@@ -472,7 +472,7 @@ geo::ChannelMapAlg::Initialize() interface changed
 lar::PtrMaker moved to art
 --------------------------------------------------------
 
-**When was committed**: [v06\_49\_00](ReleaseNotes064900)
+**When was committed**: [v06_49_00](ReleaseNotes064900)
 **Motivation**: `lar::PtrMaker` was deemed mature enough to be moved into *art*
 **Affects**: all code using `lar::PtrMaker` will get a compilation error and a message like:
 
@@ -500,7 +500,7 @@ lar::PtrMaker moved to art
 Geometry and utility code moved to larcorealg
 ------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_43\_00](ReleaseNotes064300)
+**When was committed**: [v06_43_00](ReleaseNotes064300)
 **Motivation**: geometry and utilities that are independent of the *art* framework are moved into a repository (`larcorealg`) also independent of the framework, that can be more nimbly used in gallery, ROOT macros and other environments
 **Affects**: all code using LArSoft geometry and all code using the small utilities being moved (almost everything from `larcore/TestUtils` and `larcore/CoreUtils`, except for `ServiceUtils.h`)
 **Failure when not fixed**: compiler and/or linker errors
@@ -514,7 +514,7 @@ and check the changes; finally, *add `--doit` argument to apply them*. Note that
 Update to GCC 6
 ------------------------------------
 
-**When was committed**: [v06\_32\_00](ReleaseNotes063200)
+**When was committed**: [v06_32_00](ReleaseNotes063200)
 **Motivation**: update to a more modern compiler, fully C++14 compliant (and with some C++17 features)
 **Affects**: potentially all code
 **Failure when not fixed**: compiler and/or linker errors
@@ -525,7 +525,7 @@ Update to GCC 6
 Update to art 2.6
 ---------------------------------------
 
-**When was committed**: [v06\_30\_00](ReleaseNotes063000)
+**When was committed**: [v06_30_00](ReleaseNotes063000)
 **Motivation**: rationalization and consolidation of libraries
 **Description**:
 
@@ -542,7 +542,7 @@ Update to art 2.6
 SpaceCharge interface change
 --------------------------------------------------------------
 
-**When was committed**: [v06\_29\_00](ReleaseNotes062900)
+**When was committed**: [v06_29_00](ReleaseNotes062900)
 **Motivation**: optimization of `SpaceCharge` service provider performances and migration toward a uniform 3D point/vector interface
 **Affects**: code using or implementing `larevt/SpaceCharge/SpaceCharge.h`
 **Failure when not fixed**:
@@ -566,7 +566,7 @@ If the used code needs to convert back to `std::vector<double>` in order to use 
 undefined reference to TGeoMatrix::LocalToMaster
 ----------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_28\_00](ReleaseNotes062800)
+**When was committed**: [v06_28_00](ReleaseNotes062800)
 **Motivation**: add geometry support for dual phase detector
 **Affects**: code `using larcore/Geometry/LocalTransformation.h`, *directly or indirectly* (The problem is rare.)
 **Failure when not fixed**:
@@ -585,7 +585,7 @@ undefined reference to TGeoMatrix::LocalToMaster
 Deprecated methods of recob::Track
 ------------------------------------------------------------------------
 
-**When was committed**: [v06\_23\_00](ReleaseNotes062300)
+**When was committed**: [v06_23_00](ReleaseNotes062300)
 **Motivation**: first stage of the complete revision of `Recob::Track`: internal `recob::Track` structures have been rewritten and some minor changes to the interface are required.
 **Affects**: code using the deprecated `recob::Track` methods, or the underlying new classes
 **Failure when not fixed**: compilation warnings about deprecated `recob::Track`, `recob::TrackTrajectory` or `recob::Trajectory` method usage
@@ -595,7 +595,7 @@ Deprecated methods of recob::Track
 lardata/RecoBaseArt renamed lardata/ArtDataHelper
 ------------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_22\_00](ReleaseNotes062200)
+**When was committed**: [v06_22_00](ReleaseNotes062200)
 **Motivation**:
 
 A new MVA data product will be introduced this week in lardataobj. Accompanying this data product is a new helper class that manages the interactions required by art. The functionality of this helper is similar to that of existing code in lardata/RecoBaseArt.
@@ -610,7 +610,7 @@ In order to provide a single, more descriptive home for these classes and any fu
 LArSeedService from larsim replaced by NuRandomService from nutools
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_16\_00](ReleaseNotes061600)
+**When was committed**: [v06_16_00](ReleaseNotes061600)
 **Motivation**: the service will be used by the gas tpc
 **Affects**: code accessing LArSeedService
 **Failure when not fixed**: compilation error or runtime fcl error
@@ -620,7 +620,7 @@ LArSeedService from larsim replaced by NuRandomService from nutools
 Removing deprecated lar::utils namespace
 ------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_14\_00](ReleaseNotes061400)
+**When was committed**: [v06_14_00](ReleaseNotes061400)
 **Motivation**: `lar::issues` and `lar::issue` namespaces were inadvertedly present at the same time; one is enough
 **Affects**: code accessing `lar::utils` namespace
 **Failure when not fixed**: compilation error (undefined function)
@@ -630,7 +630,7 @@ Removing deprecated lar::utils namespace
 Reorganization for nutools and calorimetry
 ------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_11\_00](ReleaseNotes061100)
+**When was committed**: [v06_11_00](ReleaseNotes061100)
 
 ### Code moving into nutools
 
@@ -656,7 +656,7 @@ In order to remove algorithm code from lardata, we are making the following chan
 
 ### Experiment code
 
--   Required changes for argoneutcode, dunetpc, lariatsoft, and uboonecode are in feature/for\_v06\_11\_00
+-   Required changes for argoneutcode, dunetpc, lariatsoft, and uboonecode are in feature/for_v06_11_00
 
 ### Updating user code
 
@@ -667,7 +667,7 @@ In order to remove algorithm code from lardata, we are making the following chan
 Data member changed in SimChannel
 ------------------------------------------------------------------------
 
-**When was committed**: [v06\_02\_00](ReleaseNotes060200)
+**When was committed**: [v06_02_00](ReleaseNotes060200)
 **Motivation**: `sim::SimChannel` used to store its information using an associative container (`std::map`) associating to a TDC count (a time) a collection of electrons and deposited energies. The internal representation has been changed to a `std::vector` of pairs (TDC count, collection of electrons etc.) instead. This produces gains in speed and memory usage, with a potential for slow down during creation.
 **Affects**: code accessing `sim::SimChannel::TDCIDEMap()` may be affected
 **Does not affect**: `sim::Channel` from old input files should be transparently updated
@@ -690,7 +690,7 @@ can replace the old `const std::map<unsigned short, std::vector<sim::IDE>>& chan
 Repackaging of data products and adoption of ROOT 6
 ------------------------------------------------------------------------------------------------------------
 
-**When was committed**: [v06\_00\_01](ReleaseNotes060001) (also [v06\_00\_00](ReleaseNotes060000))
+**When was committed**: [v06_00_01](ReleaseNotes060001) (also [v06_00_00](ReleaseNotes060000))
 **Failure when not fixed**: compilation error (headers from `nutoold`, `larcore`, `lardata`, `larsim` not found); possibly other issues too
 **Fix**: [run the fix script](ReleaseNotes060000) from `larsoft` repository: ` ${LARSOFT_DIR}/bin/v06_00_00-larsoftobj/UpdateToLArSoftObj.sh`; in some cases, you may also need to run `update_sources.sh` (also in that directory); or change manually paths and library names as needed.
 
@@ -699,7 +699,7 @@ Repackaging of data products and adoption of ROOT 6
 Moved test utility headers and libraries
 --------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_13\_00](ReleaseNotes051300)
+**When was committed**: [v05_13_00](ReleaseNotes051300)
 **Failure when not fixed**: compilation error: headers `lardata/DetectorInfo/Provider*.h` and `test/Geometry/*.h` not found; linker errors: `-ltest_Geometry` library not found
 **Fix**: run the fix script from `larsoft` repository: `${LARSOFT_DIR}/bin/UpdateTestInfrastructure.py -Uv <repository path>`; check the proposed changes and, if they look reasonable, add a `--doit` argument. Or else, fix the `#include` and library names manually:
 
@@ -714,7 +714,7 @@ Moved test utility headers and libraries
 SpaceCharge improvements require new call
 ----------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_12\_00](ReleaseNotes051200)
+**When was committed**: [v05_12_00](ReleaseNotes051200)
 **Failure when not fixed**:
 
     %MSG-w LArVoxelReadout:  LArG4:largeant 27-May-2016 13:08:05 CDT run: 1 subRun: 0 event: 10
@@ -725,15 +725,15 @@ SpaceCharge improvements require new call
 
 **Fix**:
 
--   As a result of the Space Charge improvements in larsoft v05\_12\_00, each experiment needs to modify their basic services list to include the following:
-    -   SpaceCharge: @local::standard\_spacecharge
+-   As a result of the Space Charge improvements in larsoft v05_12_00, each experiment needs to modify their basic services list to include the following:
+    -   SpaceCharge: @local::standard_spacecharge
 -   Also, the following must be included:
     -   \#include “spacecharge.fcl”
 
 SeedService from artextensions replaced by LArSeedService
 ------------------------------------------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_11\_00](ReleaseNotes051100)
+**When was committed**: [v05_11_00](ReleaseNotes051100)
 **Motivation**: branching from `artextensions`’s `SeedService` to add custom features
 **Affects**: all code and configuration files using `SeedService` service
 **Failure when not fixed**:
@@ -745,7 +745,7 @@ SeedService from artextensions replaced by LArSeedService
 Explicit override of `LArG4` random seeds
 --------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_09\_00](ReleaseNotes050900)
+**When was committed**: [v05_09_00](ReleaseNotes050900)
 **Motivation**: particle, electron and photon generation by Geant4 is now independent of their transportation to TPC wires and optical systems
 **Affects**: `LArG4` module configurations explicitly specifying the random seed (`Seed` parameter)
 **Failure when not fixed**: will throw an exception (`Configuration` error) at run time when constructing `LArG4` module
@@ -757,7 +757,7 @@ Explicit override of `LArG4` random seeds
 `sim::ParticleList` can’t be copied any more
 -----------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_09\_00](ReleaseNotes050900)
+**When was committed**: [v05_09_00](ReleaseNotes050900)
 **Motivation**: Copy of `sim@ParticleList` objects is extremely expensive and most often not needed. The copy constructor and assignment have been removed to avoid the accidental use of copy, and replaced with move operations.
 **Affects**: Code trying (most likely, inadvertently) to copy the particle list.
 **Failure when not fixed**: Compilation error: copy constructor (`sim::ParticleList::ParticleList (sim::ParticleList const&)`) or copy assignment operator (`sim::ParticleList& sim::ParticleList::operator= (sim::ParticleList const&)`) are deleted
@@ -766,7 +766,7 @@ Explicit override of `LArG4` random seeds
 Photon Library returns plain data rather than vectors
 ----------------------------------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_09\_00](ReleaseNotes050900)
+**When was committed**: [v05_09_00](ReleaseNotes050900)
 **Motivation**: The photon library contains a map of a vector of “visibility” information in a discretized representation of the TPC active volume (*voxels*). The visibility information consists of the number of photons per energy seen by each of the photodetector channels. The number of voxels needs to be very high (in MicroBooNE it is currently 2.25M) and the information was represented by a nested vector (`std::vector<std::vector<float>>`), the outer vector being indexed by voxel. Changing this representation into a flat vector with proper indicing support saves about 50 MB of memory.
 **Affects**: code querying `PhotonVisibilityService::GetCounts()`, including e.g. `PhotonVisibilityService::GetAllVisibilities()` that uses it internally
 **Failure when not fixed**: compilation error asserting that a `float const*` can’t be converted into a `std::vector<float>` or that `float const*` has no member functions (`at()`, `size()`, etc.)
@@ -779,8 +779,8 @@ Photon Library returns plain data rather than vectors
 photon detector reconstruction
 ------------------------------------------------------------------
 
-**When was committed**: [v05\_04\_00](ReleaseNotes050400)
-**Motivation**: There is be a separate module to produce OpHits – OpHitFinder\_module, while OpFlashFinder\_module will produce only OpFlashes and OpHit-OpFlash associations (previously both OpHits and OpFlashes were produced in OpFlashFinder).
+**When was committed**: [v05_04_00](ReleaseNotes050400)
+**Motivation**: There is be a separate module to produce OpHits – OpHitFinder_module, while OpFlashFinder_module will produce only OpFlashes and OpHit-OpFlash associations (previously both OpHits and OpFlashes were produced in OpFlashFinder).
 **Affects**: all code running photon detector reconstruction
 **Failure when not fixed**: FHiCL files stop running properly
 **Fix**:
@@ -823,7 +823,7 @@ photon detector reconstruction
 Moving `recob::Track` methods out of the class
 ----------------------------------------------------------------------------------------------
 
-**When was committed**: [v05\_04\_00](ReleaseNotes050400)
+**When was committed**: [v05_04_00](ReleaseNotes050400)
 **Motivation**: data products should have minimal dependencies, but `recob::Track` depended on `Geometry` service. Functionality of the two offending methods have been moved into `lardata/RecoBaseArt/TrackUtils.h` as `lar::utils::TrackPitchInView` (was `recob::Track::TrackPitchInView`) and `lar::utils::TrackProjectedLength()` (from `recob::Track::ProjectedLength()`). They take the same arguments and return the same value as before, except that the reference to a track has been added as the first argument.
 **Affects**: calls to `recob::Track::PitchInView()` and `recob::Track::ProjectedLength()`
 **Failure when not fixed**: compiler error: `‘const class recob::Track’ has no member named ‘PitchInView’` (the same with `` `ProjectedLength` ``)
@@ -836,7 +836,7 @@ Moving `recob::Track` methods out of the class
 Repository structure refactoring
 ----------------------------------------------------------------------
 
-**When was committed**: [v05\_00\_00](ReleaseNotes050000)
+**When was committed**: [v05_00_00](ReleaseNotes050000)
 **Motivation**: uniforming to the include path standard `#include "reponame/path/header.h"` used everywhere else in FNAL products except nutools
 **Affects**: all code based on versions of LArSoft before `v05_00_00`
 **Failure when not fixed**: compiler errors: missing header
@@ -846,7 +846,7 @@ Core service refactoring
 ------------------------------------------------------
 
 **Related issue:** [\#10888](/redmine/issues/10888 "Feature: Complete first round of services re-architecture (Closed)")
-**When was committed**: [v05\_00\_00](ReleaseNotes050000)
+**When was committed**: [v05_00_00](ReleaseNotes050000)
 **Motivation**: refactoring of core services to apply service factorization model and allow experiment-specific implementations
 **Affects**: all code based on versions of LArSoft before `v05_00_00` that uses core services (`LArProperties`, `DetectorProperties`, `TimeService` and possibly others)
 **Failure when not fixed**: compiler errors (unknown class, undefined service class methods) and run-time errors (on service initialization)
@@ -856,7 +856,7 @@ Data products must be put into the event
 --------------------------------------------------------------------------------------
 
 **Related issue:** [\#7852](/redmine/issues/7852 "Feature: A module failing to put() a product it produces() should be an error (Closed)")
-**When was committed**: [v04\_28\_00](ReleaseNotes042800)
+**When was committed**: [v04_28_00](ReleaseNotes042800)
 **Motivation**: *art* new feature: producer and filter modules promise on construction that they will deliver some data products; the expected behaviour is for them to keep that promise. Failure to do so now triggers an exception.
 **Affects**: producer and filter modules that by design or by mistake declare with `produces<>()` that they would put a product into the event, but then for at least one event they don’t
 **Failure when not fixed**: when `produce()`/`filter()` method returns from processing a given event, and any promised products has not been put into that event, an exception like the following one will be thrown:
@@ -925,8 +925,8 @@ Unreadable old data files
 --------------------------------------------------------
 
 **Related issue:** [\#10614](/redmine/issues/10614 "Bug: larsoft v04_27_00 with art v1_16_02 cannot read old MC/data files (Closed)")
-**When was committed**: [v04\_27\_00](ReleaseNotes042700)
-**Fixed in:** [v04\_28\_00](ReleaseNotes042800)
+**When was committed**: [v04_27_00](ReleaseNotes042700)
+**Fixed in:** [v04_28_00](ReleaseNotes042800)
 **Motivation**: *art* update
 **Affects**: `v04_27_00` and `v04_27_01` reading all input files created with LArSoft older than `v04_27_00`
 **Does not affect**: files created with LArSoft `v04_27_00` or newer, read by any LArSoft version
@@ -937,7 +937,7 @@ IChannelStatusService readiness
 --------------------------------------------------------------------
 
 **Related issue:** [\#1083](/redmine/issues/1083 "Bug: filter::ChannelFilter should be made into a service (Closed)")
-**When was committed**: [v04\_25\_00](Release_Notes_04_25_00#LArSoft-v04_25_00-Release-Notes)
+**When was committed**: [v04_25_00](Release_Notes_04_25_00#LArSoft-v04_25_00-Release-Notes)
 **Motivation**: a new `IChannelStatusService` is introduced replacing the old `ChannelFilter` class to provide information about TPC channel quality
 **Change**: new service configuration is needed.
 **Affects**: all FHiCL configurations running modules or algorithms that use `ChannelFilter` or the `IChannelStatusService` replacement
@@ -964,7 +964,7 @@ IChannelStatusService readiness
 New dependency on boost
 ----------------------------------------------------
 
-If you see undefined reference errors similar to those shown below, add \${Boost\_SYSTEM\_LIBRARY} to the library link list
+If you see undefined reference errors similar to those shown below, add \${Boost_SYSTEM_LIBRARY} to the library link list
 
     CMakeFiles/LArPandoraInterface.dir/LArPandoraBase.cxx.o: In function `__static_initialization_and_destruction_0':
     /products/boost/v1_57_0/Linux64bit+2.6-2.12-e7-prof/include/boost/system/error_code.hpp:221: undefined reference to `boost::system::generic_category()'
@@ -975,7 +975,7 @@ Removed generic service configuration
 --------------------------------------------------------------------------------
 
 **Related issue:** [\#5100](/redmine/issues/5100 "Support: Remove dependency on services.fcl and evdservices.fcl from experiment specific .fcl files (Closed)")
-**When was committed**: [v02\_05\_02](Release_Notes_02_05_02#LArSoft-v02_05_02-Release-Notes)
+**When was committed**: [v02_05_02](Release_Notes_02_05_02#LArSoft-v02_05_02-Release-Notes)
 **Motivation**: configuration of service entangled settings for different experiments, resulting in epic unmaintainability
 **Change**: `services.fcl` and `evdservices.fcl` have been removed; see also [LArSoft Librarians’ meeting on August 26, 2014](https://indico.fnal.gov/getFile.py/access?contribId=4&resId=0&materialId=slides&confId=8869)
 **Affects**: configuration (FHiCL) files including directly `services.fcl` or `evdservices.fcl`
@@ -986,7 +986,7 @@ Relocation of `TrackIDE`
 ----------------------------------------------------
 
 **Related issue:** none
-**When was committed**: [v02\_05\_00](Release_Notes_02_05_00#LArSoft-v02_05_00-Release-Notes)
+**When was committed**: [v02_05_00](Release_Notes_02_05_00#LArSoft-v02_05_00-Release-Notes)
 **Motivation**: `TrackIDE` class represents a general simulation concept, not specific to “cheating”
 **Change**: `TrackIDE` has been placed into a different namespace and header file: from `cheat::TrackIDE` living in `MCCheater/BackTracker.h`, into `SimChannel.h` as `sim::TrackIDE`
 **Affects**: code referring to `cheat::TrackIDE` class

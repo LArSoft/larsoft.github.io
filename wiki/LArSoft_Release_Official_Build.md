@@ -45,13 +45,13 @@ Build larsoft from the new tag
 -   …/copyFromJenkins -N -q s86-e17 -q s86-c2 build-larsoft
     -   this will pull all artifacts from the last successful build
     -   check carefully before proceeding
-    -   artifacts of interest are tarballs and \_MANIFEST.txt files
+    -   artifacts of interest are tarballs and _MANIFEST.txt files
 
 ### Special platforms
 
 -   At this time, Ubuntu builds are done from a vagrant box on woof or cluck
     -   It turns out that vbox instances work best when not shared
-    -   Instructions for settting up an Ubuntu vagrant box: [Ubuntu\_VM](/redmine/projects/ubuntu-vm/wiki/Ubuntu_VM)
+    -   Instructions for settting up an Ubuntu vagrant box: [Ubuntu_VM](/redmine/projects/ubuntu-vm/wiki/Ubuntu_VM)
 -   We use the same procedures that are used by the Jenkins build
 -   install larutils
 

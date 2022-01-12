@@ -1,35 +1,35 @@
-LArSoft v06\_76\_00 Release Notes
+LArSoft v06_76_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v06\_76\_00 Release Notes](#LArSoft-v06_76_00-Release-Notes)
+-   [LArSoft v06_76_00 Release Notes](#LArSoft-v06_76_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v06\_76\_00](#larsoft-v06_76_00)
-    -   [lareventdisplay v06\_19\_05](#lareventdisplay-v06_19_05)
-    -   [larexamples v06\_13\_04](#larexamples-v06_13_04)
-    -   [larpandora v06\_26\_05](#larpandora-v06_26_05)
-    -   [larwirecell v06\_12\_04](#larwirecell-v06_12_04)
-    -   [larana v06\_19\_05](#larana-v06_19_05)
-    -   [larreco v06\_60\_02](#larreco-v06_60_02)
-    -   [larsim v06\_46\_00](#larsim-v06_46_00)
-    -   [larevt v06\_20\_04](#larevt-v06_20_04)
-    -   [lardata v06\_44\_00](#lardata-v06_44_00)
-    -   [larcore v06\_19\_02](#larcore-v06_19_02)
-    -   [larpandoracontent v03\_12\_00](#larpandoracontent-v03_12_00)
-    -   [larsoftobj v1\_44\_00](#larsoftobj-v1_44_00)
-    -   [lardataobj v1\_32\_00](#lardataobj-v1_32_00)
-    -   [larcorealg v1\_20\_00](#larcorealg-v1_20_00)
-    -   [larcoreobj v1\_23\_00](#larcoreobj-v1_23_00)
-    -   [larbatch v01\_39\_01](#larbatch-v01_39_01)
-    -   [larutils v1\_22\_05](#larutils-v1_22_05)
+    -   [larsoft v06_76_00](#larsoft-v06_76_00)
+    -   [lareventdisplay v06_19_05](#lareventdisplay-v06_19_05)
+    -   [larexamples v06_13_04](#larexamples-v06_13_04)
+    -   [larpandora v06_26_05](#larpandora-v06_26_05)
+    -   [larwirecell v06_12_04](#larwirecell-v06_12_04)
+    -   [larana v06_19_05](#larana-v06_19_05)
+    -   [larreco v06_60_02](#larreco-v06_60_02)
+    -   [larsim v06_46_00](#larsim-v06_46_00)
+    -   [larevt v06_20_04](#larevt-v06_20_04)
+    -   [lardata v06_44_00](#lardata-v06_44_00)
+    -   [larcore v06_19_02](#larcore-v06_19_02)
+    -   [larpandoracontent v03_12_00](#larpandoracontent-v03_12_00)
+    -   [larsoftobj v1_44_00](#larsoftobj-v1_44_00)
+    -   [lardataobj v1_32_00](#lardataobj-v1_32_00)
+    -   [larcorealg v1_20_00](#larcorealg-v1_20_00)
+    -   [larcoreobj v1_23_00](#larcoreobj-v1_23_00)
+    -   [larbatch v01_39_01](#larbatch-v01_39_01)
+    -   [larutils v1_22_05](#larutils-v1_22_05)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06\_76\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_76_00/larsoft-v06_76_00.html)
-Download instructions for [just larsoftobj v1\_44\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_44_00/larsoftobj-v1_44_00.html)
+Download instructions for [larsoft v06_76_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_76_00/larsoft-v06_76_00.html)
+Download instructions for [just larsoftobj v1_44_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_44_00/larsoftobj-v1_44_00.html)
 
 Purpose
 --------------------
@@ -43,11 +43,11 @@ New features
     -   more generic version of the methods NextValidPoint and PreviousValidPoint
     -   tools to navigate points with specific flags
     -   `feature/gp_Issue19043` in `larcorealg`, `lardataobj` and `lardata`
--   feature/larpandoracontent\_v03\_12\_00
+-   feature/larpandoracontent_v03_12_00
     -   [May 8 presentation](https://indico.fnal.gov/event/17099/contribution/4/material/slides/0.pdf)
     -   larpandoracontent, larpandora
     -   dunetpc
--   feature/wketchum\_LArG4Refactor\_develop on lardataobj and larsim
+-   feature/wketchum_LArG4Refactor_develop on lardataobj and larsim
     -   [May 8 presentation](https://indico.fnal.gov/event/17099/contribution/2/material/slides/0.pdf)
 
 Bug fixes
@@ -56,70 +56,70 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   nutools [v2\_21\_03](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_21_03-572018)
+-   nutools [v2_21_03](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_21_03-572018)
     -   `feature/gp_Issue19743` in `nutools` in
     -   resolve issue [\#19743](/redmine/issues/19743 "Bug: GeneratedEventTimestamp_plugin.cc broken in clang. (Closed)") (event time stamps very different with Clang)
 
 Change List
 ============================
 
-larsoft v06\_76\_00
+larsoft v06_76_00
 ------------------------------------------
 
--   2018-05-09 Lynn Garren : larsoft v06\_76\_00 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larsoft v06_76_00 for larsoft v06_76_00
 -   2018-05-09 Lynn Garren : update versions
 
-lareventdisplay v06\_19\_05
+lareventdisplay v06_19_05
 ----------------------------------------------------------
 
--   2018-05-09 Lynn Garren : lareventdisplay v06\_19\_05 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : lareventdisplay v06_19_05 for larsoft v06_76_00
 
-larexamples v06\_13\_04
+larexamples v06_13_04
 --------------------------------------------------
 
--   2018-05-09 Lynn Garren : larexamples v06\_13\_04 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larexamples v06_13_04 for larsoft v06_76_00
 
-larpandora v06\_26\_05
+larpandora v06_26_05
 ------------------------------------------------
 
--   2018-05-09 Lynn Garren : larpandora v06\_26\_05 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larpandora v06_26_05 for larsoft v06_76_00
 -   2018-05-03 Steven Green : fix after track/shower ID updates
 
-larwirecell v06\_12\_04
+larwirecell v06_12_04
 --------------------------------------------------
 
--   2018-05-09 Lynn Garren : larwirecell v06\_12\_04 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larwirecell v06_12_04 for larsoft v06_76_00
 
-larana v06\_19\_05
+larana v06_19_05
 ----------------------------------------
 
--   2018-05-09 Lynn Garren : larana v06\_19\_05 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larana v06_19_05 for larsoft v06_76_00
 
-larreco v06\_60\_02
+larreco v06_60_02
 ------------------------------------------
 
--   2018-05-09 Lynn Garren : larreco v06\_60\_02 for larsoft v06\_76\_00
--   2018-05-08 Lynn Garren : nutools v2\_21\_03
+-   2018-05-09 Lynn Garren : larreco v06_60_02 for larsoft v06_76_00
+-   2018-05-08 Lynn Garren : nutools v2_21_03
 -   2018-05-02 Tingjun Yang : Throw an exception if the requested track trajectory index is bad. Right now this is the only sanity check of TrackHitMeta.
 -   2018-05-02 Tingjun Yang : Fix trajectory point index in PMA TrackHitMeta.
 
-larsim v06\_46\_00
+larsim v06_46_00
 ----------------------------------------
 
--   2018-05-09 Lynn Garren : larsim v06\_46\_00 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larsim v06_46_00 for larsoft v06_76_00
 -   2018-05-08 Lynn Garren : remove unused variables to make clang happy
 -   2018-05-03 Wesley Ketchum : add energy to output tree for validation
--   2018-05-03 Wesley Ketchum : Merge branch ‘feature/wketchum\_LArG4Refactor\_develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/wketchum\_LArG4Refactor\_develop
+-   2018-05-03 Wesley Ketchum : Merge branch ‘feature/wketchum_LArG4Refactor_develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/wketchum_LArG4Refactor_develop
 -   2018-05-03 Wesley Ketchum : add ShiftEdepSCE module to shift energy depositions in space based on spacecharge, and fill in correlated numbers of electrons and photons
 -   2018-05-02 Herbert Greenlee : Remove unused variables.
 -   2018-05-01 Wesley Ketchum : did not commit a lot of my changes to get edeps going … oops…also add in sparsify trajectory option in LArG4
 -   2018-04-29 Wesley Ketchum : merging uboone larg4 refactor to develop
--   2018-04-29 Wesley Ketchum : Merge branch ‘feature/wketchum\_LArG4Edeps\_2’ into develop
+-   2018-04-29 Wesley Ketchum : Merge branch ‘feature/wketchum_LArG4Edeps_2’ into develop
 -   2018-04-26 Wesley Ketchum : bug fix for track id
 -   2018-04-24 Wesley Ketchum : bug fix to fix a minus sign on scintillation time
--   2018-04-04 Lynn Garren : larsim v06\_13\_01\_07 for larsoft v06\_26\_01\_01\_branch
+-   2018-04-04 Lynn Garren : larsim v06_13_01_07 for larsoft v06_26_01_01_branch
 -   2018-04-04 Wesley Ketchum : add in the flags for MCC80Compat mode
--   2018-03-15 Wesley Ketchum : Merge branch ‘feature/wketchum\_LArG4Edeps\_2’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/wketchum\_LArG4Edeps\_2
+-   2018-03-15 Wesley Ketchum : Merge branch ‘feature/wketchum_LArG4Edeps_2’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/wketchum_LArG4Edeps_2
 -   2018-03-15 Wesley Ketchum : switch to using service to get recombA parameter?
 -   2018-03-14 Wesley Ketchum : remove the sim energy deposits from larvoxel since we do not use them there for the moment
 -   2018-03-14 Wesley Ketchum : updates to the propagation modules, cleanup
@@ -135,34 +135,34 @@ larsim v06\_46\_00
 -   2018-02-18 Wesley Ketchum : fix for initial sim energy deposit and now working though i saw an event with no edeps??
 -   2018-02-18 Wesley Ketchum : add energy deposition storage to LArG4 module
 -   2018-02-18 Wesley Ketchum : add in energy deposition creation options in LArVoxelReadout
--   2018-01-31 Lynn Garren : larsim v06\_13\_01\_06 for larsoft v06\_26\_01\_10
--   2018-01-29 Herbert Greenlee : Merge branch ‘feature/greenlee\_mcc80compat’ into v06\_26\_01\_01\_branch
--   2018-01-29 Herbert Greenlee : Merge remote-tracking branch ‘origin/feature/yuntse\_MCHitAssnsUbooneMCC8’ into v06\_26\_01\_01\_branch
+-   2018-01-31 Lynn Garren : larsim v06_13_01_06 for larsoft v06_26_01_10
+-   2018-01-29 Herbert Greenlee : Merge branch ‘feature/greenlee_mcc80compat’ into v06_26_01_01_branch
+-   2018-01-29 Herbert Greenlee : Merge remote-tracking branch ‘origin/feature/yuntse_MCHitAssnsUbooneMCC8’ into v06_26_01_01_branch
 -   2018-01-24 Herbert Greenlee : MCC 8.0 compatibility mode.
--   2017-12-12 Lynn Garren : larsim v06\_13\_01\_05
+-   2017-12-12 Lynn Garren : larsim v06_13_01_05
 -   2017-12-08 Wesley Ketchum : add in option to backtracker to ignore the realdata flag
--   2017-11-06 Yun-Tse Tsai : checkout the header from origin/feature/yuntse\_trackide
+-   2017-11-06 Yun-Tse Tsai : checkout the header from origin/feature/yuntse_trackide
 -   2017-11-06 Yun-Tse Tsai : add one variable for number of electrons collected at a wire for TrackIDE
--   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
--   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
--   2017-05-04 Lynn Garren : larsim v06\_13\_01\_02
--   2017-05-03 Herbert Greenlee : Merge remote-tracking branch ‘origin/v06\_13\_01\_optical\_patch’ into v06\_26\_01\_01\_branch
+-   2017-10-10 Lynn Garren : for larsoft v06_26_01_06
+-   2017-09-12 Lynn Garren : for larsoft v06_26_01_05
+-   2017-05-04 Lynn Garren : larsim v06_13_01_02
+-   2017-05-03 Herbert Greenlee : Merge remote-tracking branch ‘origin/v06_13_01_optical_patch’ into v06_26_01_01_branch
 -   2017-05-02 drinkingkazu : Forgotten fix! integer effect was still there. this really fixes it, and I left commented-out lines for me to run analysis using csv file.
--   2017-05-01 Herbert Greenlee : Merge remote-tracking branch ‘origin/v06\_13\_01\_optical\_patch’ into v06\_26\_01\_01\_branch
+-   2017-05-01 Herbert Greenlee : Merge remote-tracking branch ‘origin/v06_13_01_optical_patch’ into v06_26_01_01_branch
 -   2017-04-26 Matthew Bass : Fixed timing bias due to correlations between spatial and time coordinates by adding independent randomness in the spatial coordinates.
 -   2017-02-23 Gianluca Petrillo : Prevent space charge distortion from making charge cross the wire planes.
--   2017-04-04 Lynn Garren : larsim v06\_13\_01\_01
+-   2017-04-04 Lynn Garren : larsim v06_13_01_01
 
-larevt v06\_20\_04
+larevt v06_20_04
 ----------------------------------------
 
--   2018-05-09 Lynn Garren : larevt v06\_20\_04 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larevt v06_20_04 for larsoft v06_76_00
 
-lardata v06\_44\_00
+lardata v06_44_00
 ------------------------------------------
 
--   2018-05-09 Lynn Garren : lardata v06\_44\_00 for larsoft v06\_76\_00
--   2018-05-08 Lynn Garren : nutools v2\_21\_03
+-   2018-05-09 Lynn Garren : lardata v06_44_00 for larsoft v06_76_00
+-   2018-05-08 Lynn Garren : nutools v2_21_03
 -   2018-05-02 Gianluca Petrillo : Added interface to filter trajectory points in a iteration.
 -   2018-05-02 Gianluca Petrillo : Updated an iterator to be a bit more standard.
 -   2018-05-02 Gianluca Petrillo : Documentation fixes to track proxy.
@@ -176,15 +176,15 @@ lardata v06\_44\_00
 -   2018-04-20 Gianluca Petrillo : Reorganisation of collection proxy code.
 -   2018-04-18 Gianluca Petrillo : Reorganised proxy code.
 
-larcore v06\_19\_02
+larcore v06_19_02
 ------------------------------------------
 
--   2018-05-09 Lynn Garren : larcore v06\_19\_02 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larcore v06_19_02 for larsoft v06_76_00
 
-larpandoracontent v03\_12\_00
+larpandoracontent v03_12_00
 --------------------------------------------------------------
 
--   2018-05-09 Lynn Garren : larpandoracontent v03\_12\_00 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larpandoracontent v03_12_00 for larsoft v06_76_00
 -   2018-05-06 Multi-algorithm pattern recognition : Merge pull request [\#53](/redmine/issues/53 "Feature: The front page of the site needs a "getting started" document. (Closed)") from loressa/feature/ExceptionHandlingFix
 -   2018-05-05 loressa : cosmetics
 -   2018-05-04 loressa : Fixes for no neutrino vertex failure handling
@@ -206,7 +206,7 @@ larpandoracontent v03\_12\_00
 -   2018-04-23 Steven Green : CaloHitSet used for reconstructable CaloHits look-up.
 -   2018-04-19 Steven Green : Accessing LArMCParticleHelper parameters using LArMCParticleHelper::PrimaryParameters default constructor.
 -   2018-04-16 Steven Green : Created BDT beam particle id tool.
--   2018-04-30 John Marshall : Merge pull request \#47 from StevenGreen1/feature/ProtoDUNE\_EvtVal
+-   2018-04-30 John Marshall : Merge pull request \#47 from StevenGreen1/feature/ProtoDUNE_EvtVal
 -   2018-04-27 Multi-algorithm pattern recognition : Protect build without Monitoring enabled.
 -   2018-04-25 Steven Green : Removed defunct tree variables for test beam use case.
 -   2018-04-25 Steven Green : Defining test beam particle mode in event validation algorithm.
@@ -255,32 +255,32 @@ larpandoracontent v03\_12\_00
 -   2018-03-19 Steven Green : Abstract base class for MVAs used in LArMvaHelper. Stylistic changes.
 -   2018-02-15 Steven Green : Created the LArAdaBoostDecisionTree class, restructured the use of the LArSupportVectorMachine and converted the LArSvmHelper into the more generic LArMvaHelper.
 
-larsoftobj v1\_44\_00
+larsoftobj v1_44_00
 ----------------------------------------------
 
--   2018-05-09 Lynn Garren : larsoftobj v1\_44\_00 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larsoftobj v1_44_00 for larsoft v06_76_00
 -   2018-05-09 Lynn Garren : product versions
 
-lardataobj v1\_32\_00
+lardataobj v1_32_00
 ----------------------------------------------
 
--   2018-05-09 Lynn Garren : lardataobj v1\_32\_00 for larsoft v06\_76\_00
--   2018-05-08 Lynn Garren : Merge branch ‘feature/wketchum\_LArG4Refactor\_develop’ into release/v06\_76\_00
+-   2018-05-09 Lynn Garren : lardataobj v1_32_00 for larsoft v06_76_00
+-   2018-05-08 Lynn Garren : Merge branch ‘feature/wketchum_LArG4Refactor_develop’ into release/v06_76_00
 -   2018-05-02 Gianluca Petrillo : Added TrajectoryPointFlags::match().
 -   2018-04-30 Gianluca Petrillo : Changed flag initialization to braces.
 -   2018-04-27 Gianluca Petrillo : Documentation update.
 -   2018-05-01 Wesley Ketchum : forgot to make my commits here for energy deposition stuff too…
 -   2018-04-29 Wesley Ketchum : merging uboone larg4 refactor to develop
--   2018-04-29 Wesley Ketchum : Merge branch ‘feature/wketchum\_LArG4Edeps\_2’ into develop
+-   2018-04-29 Wesley Ketchum : Merge branch ‘feature/wketchum_LArG4Edeps_2’ into develop
 -   2018-03-14 Wesley Ketchum : compare function has problems
 -   2018-02-19 Wesley Ketchum : class def update
 -   2018-02-18 Wesley Ketchum : add pdg code to SimEnergyDeposit
 -   2018-02-18 Wesley Ketchum : add in the SimEnergyDeposit class from later commits
--   2018-01-31 Lynn Garren : lardataobj v1\_11\_00\_05 for larsoft v06\_26\_01\_10
+-   2018-01-31 Lynn Garren : lardataobj v1_11_00_05 for larsoft v06_26_01_10
 -   2018-01-24 Gianluca Petrillo : Added missing classes for association dictionary
--   2017-12-12 Lynn Garren : lardataobj v1\_11\_00\_04
+-   2017-12-12 Lynn Garren : lardataobj v1_11_00_04
 -   2017-11-06 Yun-Tse Tsai : include a new checksum
--   2017-11-06 Yun-Tse Tsai : checkout from origin/feature/yuntse\_trackide
+-   2017-11-06 Yun-Tse Tsai : checkout from origin/feature/yuntse_trackide
 -   2017-11-06 Wesley Ketchum : include header guards
 -   2017-10-25 Usher, Tracy L : Working on fixing the issue where the bytes written are not the expected bytes on readback, current suspect is the bool
 -   2017-10-25 Usher, Tracy L : Forgot to define containers for the auxiliary class
@@ -288,34 +288,34 @@ lardataobj v1\_32\_00
 -   2017-10-25 Usher, Tracy L : fix typo
 -   2017-10-25 Usher, Tracy L : Add reference to the new association between hits and MCParticles
 -   2017-10-25 Wesley Ketchum : add hit assns to mctruth matching module
--   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
+-   2017-10-10 Lynn Garren : for larsoft v06_26_01_06
 -   2017-10-03 Herbert Greenlee : Add missing inline.
--   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
+-   2017-09-12 Lynn Garren : for larsoft v06_26_01_05
 -   2017-05-03 Giuseppe Cerati : forgot std::vector\<recob::MCSFitResult\>
 -   2017-04-21 Giuseppe Cerati : first version of MCSFitResult
 -   2017-05-03 Giuseppe Cerati : implement suggestions from Gianluca for constructurs in (Track)Trajectory
 -   2017-05-03 Giuseppe Cerati : create a TrackTrajectory from a Trajectory
 -   2017-08-17 Giuseppe Cerati : add lardataobj/RecoBase/MCSFitResult.h
 
-larcorealg v1\_20\_00
+larcorealg v1_20_00
 ----------------------------------------------
 
--   2018-05-09 Lynn Garren : larcorealg v1\_20\_00 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larcorealg v1_20_00 for larsoft v06_76_00
 -   2018-05-02 Gianluca Petrillo : Added a few metaprogramming utilities for containers.
 
-larcoreobj v1\_23\_00
+larcoreobj v1_23_00
 ----------------------------------------------
 
-larbatch v01\_39\_01
+larbatch v01_39_01
 --------------------------------------------
 
--   2018-05-09 Lynn Garren : larbatch v01\_39\_01 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larbatch v01_39_01 for larsoft v06_76_00
 -   2018-05-03 Herbert Greenlee : Change fixed tarball time stamp to something more recent than 1970.
 
-larutils v1\_22\_05
+larutils v1_22_05
 ------------------------------------------
 
--   2018-05-09 Lynn Garren : larutils v1\_22\_05 for larsoft v06\_76\_00
+-   2018-05-09 Lynn Garren : larutils v1_22_05 for larsoft v06_76_00
 -   2018-05-03 Thomas Junk : remove duneutil build and put retry logic on the mrb g for dunetpc
 -   2018-05-03 Lynn Garren : add e17
 -   2018-05-03 Lynn Garren : better check for gcc on Darwin

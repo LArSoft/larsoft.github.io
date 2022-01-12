@@ -22,7 +22,7 @@ The second example uses the current pull request in addition to another pull req
 The third example used the current pull request in addition to another pull request in the same repo and pull requests in other larsoft repos. The example also shows the three ways of specifying pull requests in other larsoft repos that can be parsed.
 
 -   trigger build using branchname feature/test in repo larcore
--   trigger build using branchnames feature/test,feature\_test in repos larana,larcore
+-   trigger build using branchnames feature/test,feature_test in repos larana,larcore
 
 This triggers a build of the full larsoft suite using the the branch name(s) and repo(s) to determine the pull requests that are built along with the head of develop in other larsoft repos.
 

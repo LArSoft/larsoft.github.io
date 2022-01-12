@@ -18,7 +18,7 @@ This step is optional. In general, if a CI test has run successfully for any fea
 Install packages for testing
 --------------------------------------------------------------
 
--   Once `mrb t` completes successfully, run `make -jN install`. This will install packages in \$MRB\_INSTALL for testing.
+-   Once `mrb t` completes successfully, run `make -jN install`. This will install packages in \$MRB_INSTALL for testing.
 
 Setup the environment
 ------------------------------------------------

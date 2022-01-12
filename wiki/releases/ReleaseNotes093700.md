@@ -1,40 +1,40 @@
-LArSoft v09\_37\_00 Release Notes
+LArSoft v09_37_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v09\_37\_00 Release Notes](#LArSoft-v09_37_00-Release-Notes)
+-   [LArSoft v09_37_00 Release Notes](#LArSoft-v09_37_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v09\_37\_00](#larsoft-v09_37_00)
-    -   [lareventdisplay v09\_02\_07](#lareventdisplay-v09_02_07)
-    -   [larexamples v09\_02\_07](#larexamples-v09_02_07)
-    -   [larpandora v09\_10\_01](#larpandora-v09_10_01)
-    -   [larsimrad v09\_03\_06](#larsimrad-v09_03_06)
-    -   [larrecodnn v09\_09\_08](#larrecodnn-v09_09_08)
-    -   [larwirecell v09\_04\_05](#larwirecell-v09_04_05)
-    -   [larana v09\_03\_08](#larana-v09_03_08)
-    -   [larreco v09\_07\_07](#larreco-v09_07_07)
-    -   [larsim v09\_19\_00](#larsim-v09_19_00)
-    -   [larg4 v09\_06\_02](#larg4-v09_06_02)
-    -   [larevt v09\_03\_05](#larevt-v09_03_05)
-    -   [lardata v09\_04\_02](#lardata-v09_04_02)
-    -   [larcore v09\_03\_02](#larcore-v09_03_02)
-    -   [larpandoracontent v03\_26\_01](#larpandoracontent-v03_26_01)
-    -   [larsoftobj v09\_12\_00](#larsoftobj-v09_12_00)
-    -   [lardataobj v09\_03\_05](#lardataobj-v09_03_05)
-    -   [lardataalg v09\_07\_02](#lardataalg-v09_07_02)
-    -   [larcorealg v09\_04\_00](#larcorealg-v09_04_00)
-    -   [larcoreobj v09\_03\_01](#larcoreobj-v09_03_01)
-    -   [webevd v09\_06\_05](#webevd-v09_06_05)
-    -   [larbatch v01\_56\_02](#larbatch-v01_56_02)
-    -   [larutils v1\_28\_02](#larutils-v1_28_02)
+    -   [larsoft v09_37_00](#larsoft-v09_37_00)
+    -   [lareventdisplay v09_02_07](#lareventdisplay-v09_02_07)
+    -   [larexamples v09_02_07](#larexamples-v09_02_07)
+    -   [larpandora v09_10_01](#larpandora-v09_10_01)
+    -   [larsimrad v09_03_06](#larsimrad-v09_03_06)
+    -   [larrecodnn v09_09_08](#larrecodnn-v09_09_08)
+    -   [larwirecell v09_04_05](#larwirecell-v09_04_05)
+    -   [larana v09_03_08](#larana-v09_03_08)
+    -   [larreco v09_07_07](#larreco-v09_07_07)
+    -   [larsim v09_19_00](#larsim-v09_19_00)
+    -   [larg4 v09_06_02](#larg4-v09_06_02)
+    -   [larevt v09_03_05](#larevt-v09_03_05)
+    -   [lardata v09_04_02](#lardata-v09_04_02)
+    -   [larcore v09_03_02](#larcore-v09_03_02)
+    -   [larpandoracontent v03_26_01](#larpandoracontent-v03_26_01)
+    -   [larsoftobj v09_12_00](#larsoftobj-v09_12_00)
+    -   [lardataobj v09_03_05](#lardataobj-v09_03_05)
+    -   [lardataalg v09_07_02](#lardataalg-v09_07_02)
+    -   [larcorealg v09_04_00](#larcorealg-v09_04_00)
+    -   [larcoreobj v09_03_01](#larcoreobj-v09_03_01)
+    -   [webevd v09_06_05](#webevd-v09_06_05)
+    -   [larbatch v01_56_02](#larbatch-v01_56_02)
+    -   [larutils v1_28_02](#larutils-v1_28_02)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09\_37\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_37_00/larsoft-v09_37_00.html)
-Download instructions for [just larsoftobj v09\_12\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_12_00/larsoftobj-v09_12_00.html)
+Download instructions for [larsoft v09_37_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_37_00/larsoft-v09_37_00.html)
+Download instructions for [just larsoftobj v09_12_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_12_00/larsoftobj-v09_12_00.html)
 
 Purpose
 --------------------
@@ -64,146 +64,146 @@ Updated dependencies
 Change List
 ============================
 
-larsoft v09\_37\_00
+larsoft v09_37_00
 ------------------------------------------
 
--   2021-11-18 Lynn Garren : larsoft v09\_37\_00 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larsoft v09\_37\_00 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larsoft v09_37_00 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larsoft v09_37_00 for larsoft v09_37_00
 -   2021-11-18 Lynn Garren : cleanup
 -   2021-11-18 Lynn Garren : product versions
 
-lareventdisplay v09\_02\_07
+lareventdisplay v09_02_07
 ----------------------------------------------------------
 
--   2021-11-18 Lynn Garren : lareventdisplay v09\_02\_07 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : lareventdisplay v09\_02\_07 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : lareventdisplay v09_02_07 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : lareventdisplay v09_02_07 for larsoft v09_37_00
 
-larexamples v09\_02\_07
+larexamples v09_02_07
 --------------------------------------------------
 
--   2021-11-18 Lynn Garren : larexamples v09\_02\_07 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larexamples v09\_02\_07 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larexamples v09_02_07 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larexamples v09_02_07 for larsoft v09_37_00
 
-larpandora v09\_10\_01
+larpandora v09_10_01
 ------------------------------------------------
 
--   2021-11-18 Lynn Garren : larpandora v09\_10\_01 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larpandora v09\_10\_01 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larpandora v09_10_01 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larpandora v09_10_01 for larsoft v09_37_00
 
-larsimrad v09\_03\_06
+larsimrad v09_03_06
 ----------------------------------------------
 
--   2021-11-18 Lynn Garren : larsimrad v09\_03\_06 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larsimrad v09\_03\_06 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larsimrad v09_03_06 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larsimrad v09_03_06 for larsoft v09_37_00
 
-larrecodnn v09\_09\_08
+larrecodnn v09_09_08
 ------------------------------------------------
 
--   2021-11-18 Lynn Garren : larrecodnn v09\_09\_08 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larrecodnn v09\_09\_08 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larrecodnn v09_09_08 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larrecodnn v09_09_08 for larsoft v09_37_00
 
-larwirecell v09\_04\_05
+larwirecell v09_04_05
 --------------------------------------------------
 
--   2021-11-18 Lynn Garren : larwirecell v09\_04\_05 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larwirecell v09\_04\_05 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larwirecell v09_04_05 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larwirecell v09_04_05 for larsoft v09_37_00
 
-larana v09\_03\_08
+larana v09_03_08
 ----------------------------------------
 
--   2021-11-18 Lynn Garren : larana v09\_03\_08 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larana v09\_03\_08 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larana v09_03_08 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larana v09_03_08 for larsoft v09_37_00
 -   2021-11-17 Lynn Garren : Merge pull request \#16 from LArSoft/revert-14-fix-kazus-pr
 -   2021-11-17 Lynn Garren : Revert “Address issues in Kazu’s OpDet PR”
 
-larreco v09\_07\_07
+larreco v09_07_07
 ------------------------------------------
 
--   2021-11-18 Lynn Garren : larreco v09\_07\_07 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larreco v09\_07\_07 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larreco v09_07_07 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larreco v09_07_07 for larsoft v09_37_00
 
-larsim v09\_19\_00
+larsim v09_19_00
 ----------------------------------------
 
--   2021-11-18 Lynn Garren : larsim v09\_19\_00 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larsim v09\_19\_00 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larsim v09_19_00 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larsim v09_19_00 for larsoft v09_37_00
 -   2021-11-17 Ivan Lepetic : Further cleanup
--   2021-11-17 Ivan Lepetic : Revert “larsim v09\_18\_01\_01 for larsoft v09\_36\_00\_01”
--   2021-11-17 Ivan Lepetic : Revert “larsim v09\_18\_01\_01 for larsoft v09\_36\_00\_01”
+-   2021-11-17 Ivan Lepetic : Revert “larsim v09_18_01_01 for larsoft v09_36_00_01”
+-   2021-11-17 Ivan Lepetic : Revert “larsim v09_18_01_01 for larsoft v09_36_00_01”
 -   2021-11-15 Ivan Lepetic : Cleaning up code
 -   2021-11-05 Ivan Lepetic : Remove some comments
 -   2021-11-03 Ivan Lepetic : Adding CRT translation module
--   2021-11-12 Lynn Garren : larsim v09\_18\_01\_01 for larsoft v09\_36\_00\_01
--   2021-11-12 Lynn Garren : larsim v09\_18\_01\_01 for larsoft v09\_36\_00\_01
+-   2021-11-12 Lynn Garren : larsim v09_18_01_01 for larsoft v09_36_00_01
+-   2021-11-12 Lynn Garren : larsim v09_18_01_01 for larsoft v09_36_00_01
 
-larg4 v09\_06\_02
+larg4 v09_06_02
 --------------------------------------
 
--   2021-11-18 Lynn Garren : larg4 v09\_06\_02 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larg4 v09\_06\_02 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larg4 v09_06_02 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larg4 v09_06_02 for larsoft v09_37_00
 
-larevt v09\_03\_05
+larevt v09_03_05
 ----------------------------------------
 
--   2021-11-18 Lynn Garren : larevt v09\_03\_05 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larevt v09\_03\_05 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larevt v09_03_05 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larevt v09_03_05 for larsoft v09_37_00
 
-lardata v09\_04\_02
+lardata v09_04_02
 ------------------------------------------
 
--   2021-11-18 Lynn Garren : lardata v09\_04\_02 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : lardata v09\_04\_02 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : lardata v09_04_02 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : lardata v09_04_02 for larsoft v09_37_00
 
-larcore v09\_03\_02
+larcore v09_03_02
 ------------------------------------------
 
--   2021-11-18 Lynn Garren : larcore v09\_03\_02 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larcore v09\_03\_02 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larcore v09_03_02 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larcore v09_03_02 for larsoft v09_37_00
 
-larpandoracontent v03\_26\_01
+larpandoracontent v03_26_01
 --------------------------------------------------------------
 
-larsoftobj v09\_12\_00
+larsoftobj v09_12_00
 ------------------------------------------------
 
--   2021-11-18 Lynn Garren : larsoftobj v09\_12\_00 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larsoftobj v09\_12\_00 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larsoftobj v09_12_00 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larsoftobj v09_12_00 for larsoft v09_37_00
 -   2021-11-18 Lynn Garren : product versions
 
-lardataobj v09\_03\_05
+lardataobj v09_03_05
 ------------------------------------------------
 
--   2021-11-18 Lynn Garren : lardataobj v09\_03\_05 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : lardataobj v09\_03\_05 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : lardataobj v09_03_05 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : lardataobj v09_03_05 for larsoft v09_37_00
 
-lardataalg v09\_07\_02
+lardataalg v09_07_02
 ------------------------------------------------
 
--   2021-11-18 Lynn Garren : lardataalg v09\_07\_02 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : lardataalg v09\_07\_02 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : lardataalg v09_07_02 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : lardataalg v09_07_02 for larsoft v09_37_00
 
-larcorealg v09\_04\_00
+larcorealg v09_04_00
 ------------------------------------------------
 
--   2021-11-18 Lynn Garren : larcorealg v09\_04\_00 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : larcorealg v09\_04\_00 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : larcorealg v09_04_00 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : larcorealg v09_04_00 for larsoft v09_37_00
 -   2021-11-18 Wesley : revert the signature of the pure virtual function AuxDetChannelMapAlg::PositionToAuxDetChannel to remove tolerance. If tolerance desired, can call in experiment specific code
 -   2021-11-17 Ivan Lepetic : Cleaning up code
 -   2021-11-05 Ivan Lepetic : Remove some comments
 -   2021-11-05 Ivan Lepetic : Checking for consistency of tolerance parameter
 -   2021-11-04 Ivan Lepetic : Add optional tolerance to find AuxDet functions
 
-larcoreobj v09\_03\_01
+larcoreobj v09_03_01
 ------------------------------------------------
 
-webevd v09\_06\_05
+webevd v09_06_05
 ----------------------------------------
 
--   2021-11-18 Lynn Garren : webevd v09\_06\_05 for larsoft v09\_37\_00
--   2021-11-18 Lynn Garren : webevd v09\_06\_05 for larsoft v09\_37\_00
+-   2021-11-18 Lynn Garren : webevd v09_06_05 for larsoft v09_37_00
+-   2021-11-18 Lynn Garren : webevd v09_06_05 for larsoft v09_37_00
 
-larbatch v01\_56\_02
+larbatch v01_56_02
 --------------------------------------------
 
-larutils v1\_28\_02
+larutils v1_28_02
 ------------------------------------------

@@ -1,26 +1,26 @@
-LArSoft v04\_12\_00 Release Notes
+LArSoft v04_12_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v04\_12\_00 Release Notes](#LArSoft-v04_12_00-Release-Notes)
+-   [LArSoft v04_12_00 Release Notes](#LArSoft-v04_12_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
     -   [Known Problems](#Known-Problems)
 -   [Change List](#Change-List)
-    -   [larsoft v04\_12\_00](#larsoft-v04_12_00)
-    -   [lareventdisplay v04\_05\_00](#lareventdisplay-v04_05_00)
-    -   [larexamples v04\_04\_10](#larexamples-v04_04_10)
-    -   [larpandora v04\_04\_10](#larpandora-v04_04_10)
-    -   [larana v04\_07\_02](#larana-v04_07_02)
-    -   [larreco v04\_08\_00](#larreco-v04_08_00)
-    -   [larsim v04\_07\_06](#larsim-v04_07_06)
-    -   [larevt v04\_08\_00](#larevt-v04_08_00)
-    -   [lardata v04\_08\_01](#lardata-v04_08_01)
-    -   [larcore v04\_10\_01](#larcore-v04_10_01)
-    -   [larbatch v01\_10\_00](#larbatch-v01_10_00)
-    -   [larutils v1\_00\_11](#larutils-v1_00_11)
+    -   [larsoft v04_12_00](#larsoft-v04_12_00)
+    -   [lareventdisplay v04_05_00](#lareventdisplay-v04_05_00)
+    -   [larexamples v04_04_10](#larexamples-v04_04_10)
+    -   [larpandora v04_04_10](#larpandora-v04_04_10)
+    -   [larana v04_07_02](#larana-v04_07_02)
+    -   [larreco v04_08_00](#larreco-v04_08_00)
+    -   [larsim v04_07_06](#larsim-v04_07_06)
+    -   [larevt v04_08_00](#larevt-v04_08_00)
+    -   [lardata v04_08_01](#lardata-v04_08_01)
+    -   [larcore v04_10_01](#larcore-v04_10_01)
+    -   [larbatch v01_10_00](#larbatch-v01_10_00)
+    -   [larutils v1_00_11](#larutils-v1_00_11)
 
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_12_00/larsoft-v04_12_00.html)
@@ -28,9 +28,9 @@ LArSoft v04\_12\_00 Release Notes
 Purpose
 --------------------
 
--   Include changes in development since v04\_11\_00.
--   Merge larevt feature/usher\_uboone\_pedestal
--   Merge lareventdisplay feature/usher\_uboone\_pedestals
+-   Include changes in development since v04_11_00.
+-   Merge larevt feature/usher_uboone_pedestal
+-   Merge lareventdisplay feature/usher_uboone_pedestals
 
 New features
 ------------------------------
@@ -56,49 +56,49 @@ Known Problems
 Change List
 ============================
 
-larsoft v04\_12\_00
+larsoft v04_12_00
 ------------------------------------------
 
--   2015-06-10 Lynn Garren : larsoft v04\_12\_00 for larsoft v04\_12\_00
+-   2015-06-10 Lynn Garren : larsoft v04_12_00 for larsoft v04_12_00
 -   2015-06-10 Lynn Garren : update dependency database
 -   2015-06-10 Lynn Garren : update product versions
 
-lareventdisplay v04\_05\_00
+lareventdisplay v04_05_00
 ----------------------------------------------------------
 
--   2015-06-10 Lynn Garren : lareventdisplay v04\_05\_00 for larsoft v04\_12\_00
--   2015-06-10 Lynn Garren : Merge branch ‘feature/usher\_uboone\_pedestals’ into release/v04\_12\_00
--   2015-06-09 Lynn Garren : Merge branch ‘release/v04\_11\_00’ into develop
+-   2015-06-10 Lynn Garren : lareventdisplay v04_05_00 for larsoft v04_12_00
+-   2015-06-10 Lynn Garren : Merge branch ‘feature/usher_uboone_pedestals’ into release/v04_12_00
+-   2015-06-09 Lynn Garren : Merge branch ‘release/v04_11_00’ into develop
 -   2015-06-04 Tracy Usher : Updates aimed at using ChannelFilter to detect and skip the non physical channels in the MicroBooNE RawDigit stream. ChannelFilter now assigns a status (GOOD, NOISY, DEAD, NOTPHYSICAL) to a channel and the display will skip all NOTPHYSICAL channels and have an option for the level to display for the other states.
 -   2015-06-04 Tracy Usher : Merging Tingjun’s update
 -   2015-06-03 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lareventdisplay into develop
 -   2015-06-03 Tingjun Yang : Change the way to calculate tick from x.
--   2015-06-03 Lynn Garren : larsoft v04\_10\_00
+-   2015-06-03 Lynn Garren : larsoft v04_10_00
 -   2015-06-02 Tingjun Yang : Replace ChannelsIntersect with WireIDsIntersect.
 -   2015-05-26 Tracy Usher : Primary change is to switch to using the detector pedestal algorithm to return the pedestals for RawDigits. Among other things allows access to the MicroBooNE pedestal database for real data. For other experiments the default is to return a fhicl controllable constant per wire plane. Also, temporarily add some protection against invalid channel numbers present in MicroBooNE noise data, again waiting for “correct” solution.
 
-larexamples v04\_04\_10
+larexamples v04_04_10
 --------------------------------------------------
 
--   2015-06-10 Lynn Garren : larexamples v04\_04\_10 for larsoft v04\_12\_00
+-   2015-06-10 Lynn Garren : larexamples v04_04_10 for larsoft v04_12_00
 
-larpandora v04\_04\_10
+larpandora v04_04_10
 ------------------------------------------------
 
--   2015-06-10 Lynn Garren : larpandora v04\_04\_10 for larsoft v04\_12\_00
+-   2015-06-10 Lynn Garren : larpandora v04_04_10 for larsoft v04_12_00
 
-larana v04\_07\_02
+larana v04_07_02
 ----------------------------------------
 
--   2015-06-10 Lynn Garren : larana v04\_07\_02 for larsoft v04\_12\_00
+-   2015-06-10 Lynn Garren : larana v04_07_02 for larsoft v04_12_00
 
-larreco v04\_08\_00
+larreco v04_08_00
 ------------------------------------------
 
--   2015-06-10 Lynn Garren : larreco v04\_08\_00 for larsoft v04\_12\_00
--   2015-06-09 Lynn Garren : Merge branch ‘release/v04\_11\_00’ into develop
+-   2015-06-10 Lynn Garren : larreco v04_08_00 for larsoft v04_12_00
+-   2015-06-09 Lynn Garren : Merge branch ‘release/v04_11_00’ into develop
 -   2015-06-06 Tingjun Yang : Remove duplicated trajectory points.
--   2015-06-05 Tingjun Yang : Merge branch ‘feature/tjyang\_cosmictrackeralg’ into develop
+-   2015-06-05 Tingjun Yang : Merge branch ‘feature/tjyang_cosmictrackeralg’ into develop
 -   2015-06-05 Mike Wallbank : wallbank: Updated the clustering validation module – can now specify more than one clustering output and the module will produce validation plots for each and save them, along with comparison plots, in a root file.
 -   2015-06-05 Michelle Stancari : bug fix
 -   2015-06-05 Michelle Stancari : upgrade and bug fix
@@ -106,46 +106,46 @@ larreco v04\_08\_00
 -   2015-06-05 Tingjun Yang : Change KS cut for argoneut and lbne35t.
 -   2015-06-05 Tingjun Yang : Change charge cut to 50% from 80%.
 -   2015-06-03 Mike Wallbank : wallbank: Added clustering validation module which is being used to characterise Blurred Clustering currently but is written generically for use validation any clustering method
--   2015-06-03 Tingjun Yang : Merge branch ‘develop’ into feature/tjyang\_cosmictrackeralg
+-   2015-06-03 Tingjun Yang : Merge branch ‘develop’ into feature/tjyang_cosmictrackeralg
 -   2015-06-02 Tingjun Yang : Fixing track stitching. Sorting hits.
 -   2015-06-01 Tingjun Yang : Add track stitcher. Clean up code.
 -   2015-06-01 Tingjun Yang : Make space points for each hit using trajectory points.
--   2015-05-28 Tingjun Yang : Merge branch ‘develop’ into feature/tjyang\_cosmictrackeralg
--   2015-05-27 Tingjun Yang : Merge branch ‘develop’ into feature/tjyang\_cosmictrackeralg
--   2015-05-26 Tingjun Yang : Merge branch ‘develop’ into feature/tjyang\_cosmictrackeralg
+-   2015-05-28 Tingjun Yang : Merge branch ‘develop’ into feature/tjyang_cosmictrackeralg
+-   2015-05-27 Tingjun Yang : Merge branch ‘develop’ into feature/tjyang_cosmictrackeralg
+-   2015-05-26 Tingjun Yang : Merge branch ‘develop’ into feature/tjyang_cosmictrackeralg
 -   2015-05-26 Tingjun Yang : Separate algorithm from module. Also use Bruce’s TrackTrajectoryAlg to reconstruct track trajectory.
 -   2015-05-26 Tingjun Yang : Use the middle of points as xOrigin instead of the beginning. Also relax the requirement on chgSum cut to reconstruct the last trajectory point.
 
-larsim v04\_07\_06
+larsim v04_07_06
 ----------------------------------------
 
--   2015-06-10 Lynn Garren : larsim v04\_07\_06 for larsoft v04\_12\_00
+-   2015-06-10 Lynn Garren : larsim v04_07_06 for larsoft v04_12_00
 
-larevt v04\_08\_00
+larevt v04_08_00
 ----------------------------------------
 
--   2015-06-10 Lynn Garren : larevt v04\_08\_00 for larsoft v04\_12\_00
--   2015-06-10 Lynn Garren : Merge branch ‘feature/usher\_uboone\_pedestal’ into release/v04\_12\_00
+-   2015-06-10 Lynn Garren : larevt v04_08_00 for larsoft v04_12_00
+-   2015-06-10 Lynn Garren : Merge branch ‘feature/usher_uboone_pedestal’ into release/v04_12_00
 -   2015-06-04 Tracy Usher : Updating the current ChannelFilter implementation for use in eliminating the non-physical channels read out in the MicroBooNE noise data. The original concept is now extended to assign a status, from an enumerated list, to a channel with current values: GOOD, NOISY, DEAD and NOTPHYSICAL. The object is also modified to include the current list of known noisy wires from David (via Leon) and to suppress spurious messages. It is believed this object will eventually become a larsoft service with access to a database…
 -   2015-05-26 Tracy Usher : Temporary modification to include a call to “update” passing a reference to the art::Event object. For current uboone noise data this sets a time stamp to a constant value (since current time stamps in the data are invalid). For simulation or other experiments which are not accessing a pedestals database the default action, which is independent of the timestamp, is to return a constant pedestal value per wire plane.
 
-lardata v04\_08\_01
+lardata v04_08_01
 ------------------------------------------
 
--   2015-06-10 Lynn Garren : lardata v04\_08\_01 for larsoft v04\_12\_00
+-   2015-06-10 Lynn Garren : lardata v04_08_01 for larsoft v04_12_00
 
-larcore v04\_10\_01
+larcore v04_10_01
 ------------------------------------------
 
--   2015-06-10 Lynn Garren : larcore v04\_10\_01 for larsoft v04\_12\_00
--   2015-06-09 Lynn Garren : Merge branch ‘release/v04\_11\_00’ into develop
+-   2015-06-10 Lynn Garren : larcore v04_10_01 for larsoft v04_12_00
+-   2015-06-09 Lynn Garren : Merge branch ‘release/v04_11_00’ into develop
 -   2015-06-05 Gianluca Petrillo : Bug fix: compiler was able to implicitly convert geometry IDs into integers. Updated test to detect this bug.
 
-larbatch v01\_10\_00
+larbatch v01_10_00
 --------------------------------------------
 
--   2015-06-10 Lynn Garren : larbatch v01\_10\_00 for larsoft v04\_12\_00
+-   2015-06-10 Lynn Garren : larbatch v01_10_00 for larsoft v04_12_00
 -   2015-06-10 Herbert Greenlee : Pubs-related features, improvements, and bug fixes.
 
-larutils v1\_00\_11
+larutils v1_00_11
 ------------------------------------------

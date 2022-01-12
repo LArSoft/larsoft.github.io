@@ -41,7 +41,7 @@ In order to develop and contribute LArSoft code, you will need to have a persona
         git config --global user.email <Your-Email-Address> git config --global user.email <Your-Email-Address>
         git config --global user.github <Your-GitHub-Account-Username>
 
-    -   Note that git uses \`\$VISUAL\`, not \`\$CVS\_EDITOR\` for the commit
+    -   Note that git uses \`\$VISUAL\`, not \`\$CVS_EDITOR\` for the commit
         message editor, so you might want to adapt your shell profile as well.
 
 -   To simplify pushing commits to your GitHub account, you can register your ssh key with your GitHub account. See [https://help.github.com/articles/generating-ssh-keys](https://help.github.com/articles/generating-ssh-keys) for instructions on how to do this. (Note the different tabs on each topic page for Mac, Linux, etc.)
@@ -119,7 +119,7 @@ How do I create a merge request for a legacy feature branch that existed prior t
 
 The GitHub repositories have commit histories that have been cleaned of old commits (ca. 2014), and all feature branches at the time of the migration. Because their commit histories have been rewritten, you cannot submit pull requests to `develop` from any legacy branch that existed prior to the migration, and therefore contains the old commit history.
 
-For instructions on how to alter the histories of these branches so that they can be merged with the GitHub repositories, see the instructions on the [Migrating\_Redmine\_Feature\_Branches](Migrating_Redmine_Feature_Branches) page.
+For instructions on how to alter the histories of these branches so that they can be merged with the GitHub repositories, see the instructions on the [Migrating_Redmine_Feature_Branches](Migrating_Redmine_Feature_Branches) page.
 
 How do I update an existing fork?
 -----------------------------------------------------------------------

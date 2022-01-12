@@ -32,7 +32,7 @@ SpacePoint objects are persistable, meaning they can be stored in events.
 
 Recall that Hits (class `recob::Hit`) represent a pulse on a particular wire at a particular time: (*t*, *w*). The time determines the *x*-coordinate in the global coordinate system. The wire number determines some linear combination of *y* and *z* coordinates. Hits from different views can be combined into space points with all three spatial coordinates (*x*, *y*, *z*) determined.
 
-SpacePoints are created from Hits (either directly or as a side effect of track reconstruction) as part of the reconstruction chain. SpacePoints that have been constructed from Hits are connected with their parent Hits using art associations (see [Use\_Associations](Use_Associations)).
+SpacePoints are created from Hits (either directly or as a side effect of track reconstruction) as part of the reconstruction chain. SpacePoints that have been constructed from Hits are connected with their parent Hits using art associations (see [Use_Associations](Use_Associations)).
 
 SpacePointAlg algorithm.
 -----------------------------------------------------

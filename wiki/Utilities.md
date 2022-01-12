@@ -3,7 +3,7 @@
     -   [FHICFiles](#FHICFiles)
         -   [messageservice.fcl](#messageservicefcl)
         -   [services.fcl](#servicesfcl)
-        -   [standard\_reco.fcl](#standard_recofcl)
+        -   [standard_reco.fcl](#standard_recofcl)
         -   [eventdump.fcl](#eventdumpfcl)
     -   [Services](#Services)
         -   [LArFFT](#LArFFT)
@@ -43,7 +43,7 @@ This file contains definitions of various message service configurations, with e
 
 This file contains definitions of parameter sets to configure LArSoft services for the different experiments.
 
-### [standard\_reco.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/standard_reco.fcl)
+### [standard_reco.fcl](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/repository/entry/trunk/Utilities/standard_reco.fcl)
 
 This file is an example of a standard reconstruction job. It should not be considered as the only possible reconstruction job, just an example.
 
@@ -151,13 +151,13 @@ The ??? is the tricky part, since list is a container of std::pair (otherwise yo
 
 Some solutions are:
 
--   Create a fairly unreadable (although computationally efficient) mess using &mem\_fun, bind, composeXXX, and so on. \* Use [BOOST](http://www.boost.org). Unfortunately, we’re not supposed to use BOOST in LArSoft. \* Write a custom function to sum the second item in a pair.
+-   Create a fairly unreadable (although computationally efficient) mess using &mem_fun, bind, composeXXX, and so on. \* Use [BOOST](http://www.boost.org). Unfortunately, we’re not supposed to use BOOST in LArSoft. \* Write a custom function to sum the second item in a pair.
 
 SumSecondFunction implements the last choice using a template. If you put `#include "Utilities/SumSecondFunction.h"` in your code, then you can supply a simple substitute for ??? above:
 
     std::map<Key,Value> list = // ...
     Value sum = std::accumulate( list.begin(), list.end(), Value(), util::SumSecondFunction<Key,Value>() );
 
-SumSecondFunction inherits from std::binary\_function, so you can use the various STL binding tricks to create interesting algorithms. See [source:packages/Utilities/SumSecondFunction.h](/redmine/projects/larsoft/repository/entry/packages/Utilities/SumSecondFunction.h) for the complete function template.
+SumSecondFunction inherits from std::binary_function, so you can use the various STL binding tricks to create interesting algorithms. See [source:packages/Utilities/SumSecondFunction.h](/redmine/projects/larsoft/repository/entry/packages/Utilities/SumSecondFunction.h) for the complete function template.
 
 ### LArFFT

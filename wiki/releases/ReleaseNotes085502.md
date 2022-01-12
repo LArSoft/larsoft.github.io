@@ -1,17 +1,17 @@
-LArSoft v08\_55\_02 Release Notes
+LArSoft v08_55_02 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v08\_55\_02 Release Notes](#LArSoft-v08_55_02-Release-Notes)
+-   [LArSoft v08_55_02 Release Notes](#LArSoft-v08_55_02-Release-Notes)
     -   [Purpose](#Purpose)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v08\_55\_02](#larsoft-v08_55_02)
-    -   [webevd v08\_00\_06](#webevd-v08_00_06)
+    -   [larsoft v08_55_02](#larsoft-v08_55_02)
+    -   [webevd v08_00_06](#webevd-v08_00_06)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v08\_55\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_55_02/larsoft-v08_55_02.html)
-Download instructions for [just larsoftobj v08\_29\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_01/larsoftobj-v08_29_01.html)
+Download instructions for [larsoft v08_55_02](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_55_02/larsoft-v08_55_02.html)
+Download instructions for [just larsoftobj v08_29_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_01/larsoftobj-v08_29_01.html)
 
 Purpose
 --------------------
@@ -26,21 +26,21 @@ This release incorporates changes to webevd.
 Updated dependencies
 ----------------------------------------------
 
--   stan v2\_18\_0a
+-   stan v2_18_0a
 
 Change List
 ============================
 
-larsoft v08\_55\_02
+larsoft v08_55_02
 ------------------------------------------
 
 -   2020-06-24 Lynn Garren : product versions
--   2020-06-24 Lynn Garren : larsoft v08\_55\_02 for larsoft v08\_55\_02
+-   2020-06-24 Lynn Garren : larsoft v08_55_02 for larsoft v08_55_02
 
-webevd v08\_00\_06
+webevd v08_00_06
 ----------------------------------------
 
--   2020-06-24 Lynn Garren : webevd v08\_00\_06 for larsoft v08\_55\_02
+-   2020-06-24 Lynn Garren : webevd v08_00_06 for larsoft v08_55_02
 -   2020-06-18 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from CrossR/CrossR/feat/MCOptions
 -   2020-06-18 CrossR : Fix typo.
 -   2020-06-18 CrossR : Swap to ignoring neutral particles.

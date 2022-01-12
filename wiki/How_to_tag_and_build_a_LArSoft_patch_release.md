@@ -60,9 +60,9 @@ Making a patch release
 ### Setup the working area
 
 -   setup the latest release of larreltools
--   startPatchRel [-e \<experiment] \<working\_dir\> \<new patch tag\> \<larsoft branch\> [\<experiment branch\>]
+-   startPatchRel [-e \<experiment] \<working_dir\> \<new patch tag\> \<larsoft branch\> [\<experiment branch\>]
     -   Recognized experiment names are argoneut, dune, lariat, icarus, sbnd, and uboone.
-    -   This script will create a directory named “tag” under the “working\_dir”.
+    -   This script will create a directory named “tag” under the “working_dir”.
     -   This script will clone the larsoft and larsoftobj suites using the named branch.
     -   The same branch name will be used when cloning the experiment code unless a second branch name is supplied.
     -   The directory structure will include a single source code directory with subdirectories for e17 and c2 debug and prof builds.
@@ -87,11 +87,11 @@ Making a patch release
 -   Use the **updatePatchVersion** script from larreltools.
     -   This script takes no arguments.
     -   This script will call “mrb uv” to update each patch release by one.
-    -   If there was no previous patch release, the version will be vaa\_bb\_cc\_01
+    -   If there was no previous patch release, the version will be vaa_bb_cc_01
 
 -   ONLY update the version if there is a change.
 -   cd to each directory separately
--   git diff LARSOFT\_SUITE\_vaa\_bb\_cc[\_dd]
+-   git diff LARSOFT_SUITE_vaa_bb_cc[_dd]
     -   You are comparing against the previous patch release in this set.
     -   If this is the first patch release in the set, compare against the original release.
     -   Sometimes the only change is an updated dependency.
@@ -104,9 +104,9 @@ Making a patch release
 
     -   Move all experiment code out of the way. (*mv ub\* ../notag/* for MicroBooNE)
 
--   As of mrb v3\_02\_01, the “mrb uv” command will update larsoftobj/bundle/CMakeLists.txt, larsoft/releaseDB/CMakeLists, and \<my experiment\>/releaseDB/CMakeLists.txt as well as ups/product\_deps.
-    -   commit changes in the releaseDB or bundle subdirectories, but do not commit changes in ups/product\_deps.
--   DO NOT commit the changes to ups/product\_deps. tagPatchRel will commit ups/product\_deps.
+-   As of mrb v3_02_01, the “mrb uv” command will update larsoftobj/bundle/CMakeLists.txt, larsoft/releaseDB/CMakeLists, and \<my experiment\>/releaseDB/CMakeLists.txt as well as ups/product_deps.
+    -   commit changes in the releaseDB or bundle subdirectories, but do not commit changes in ups/product_deps.
+-   DO NOT commit the changes to ups/product_deps. tagPatchRel will commit ups/product_deps.
 
 ### Dependency order
 
@@ -153,7 +153,7 @@ Making a patch release
 
 -   Now tag
     -   tagPatchRel \<existing branch\> \<new larsoft tag\>
-    -   tagPatchRel will commit ups/product\_deps with an appropriate message, make the tag, and push both tag and branch to origin.
+    -   tagPatchRel will commit ups/product_deps with an appropriate message, make the tag, and push both tag and branch to origin.
     -   Use “dogit status” to doublecheck.
     -   **IMPORTANT**: patch release tags are never merged with the master branch
 
@@ -179,10 +179,10 @@ Making a patch release
         -   It would be nice to fix cp-patch-tag so it deduces the larsoftobj tag
 
 -   Make the release notes
-    -   makePatchRelNotes \<working\_directory\> \<tag\> \<previous tag\>
-        -   This script will create a subdirectory named tag under the working\_directory and generate a text file.
+    -   makePatchRelNotes \<working_directory\> \<tag\> \<previous tag\>
+        -   This script will create a subdirectory named tag under the working_directory and generate a text file.
     -   cd into the newly created tag directory
-    -   cat ReleaseNotes-vaa\_bb\_cc\_dd
+    -   cat ReleaseNotes-vaa_bb_cc_dd
         -   The first line of this output is a table file entry. Cut and paste into the top of the [release list](releases/LArSoft_release_list)
         -   The remainder of the output is used to create the release note itself.
             -   Cut and past everything from “h1. LArSoft …” to the bottom of the file into the empty release note entry.
@@ -198,7 +198,7 @@ Making a patch release
     -   start a transaction
     -   install using installBundle.sh
     -   publish
--   installBundle.sh larsoft vaa\_bb\_cc\_zz sNN-eY
+-   installBundle.sh larsoft vaa_bb_cc_zz sNN-eY
     -   Note that if you call installBundle.sh with sNN-e17, it will install both e17 and c2 variants.
     -   The script will attempt to install the release for all supported platforms and clean up after itself.
     -   **If some expected distributions are not available, then manifests will be left in the .working subdirectory. Check and remove them if necessary.**

@@ -16,11 +16,11 @@ lar -c job/larg4.fcl
 
 There need not be larg4.fcl; in fact, you’ll probably want to copy and edit that file if you’re developing a simulation/analysis chain. The prod\*.fcl files described in the [EventGenerator](EventGenerator) documentation already include the statements to run LArG4 simulation after the events are generated.
 
-The \$SRT\_PUBLIC\_CONTEXT/LArG4/mac/LArG4.mac controls various aspects of the interaction with Geant4.
+The \$SRT_PUBLIC_CONTEXT/LArG4/mac/LArG4.mac controls various aspects of the interaction with Geant4.
 
 If you want to change the output of the simulation, start with these files and read the comments. You can copy these files into your own area to edit the parameters; e.g.,
 
-% cp \$SRT\_PUBLIC\_CONTEXT/job/prodgenie.fcl \<my-working-directory\>
+% cp \$SRT_PUBLIC_CONTEXT/job/prodgenie.fcl \<my-working-directory\>
 
 Using Custom Physics Modules:
 ---------------------------------------------------------------
@@ -31,7 +31,7 @@ LArG4 now contains a configurable physics list which allows the user to enable o
 
     EnabledPhysics           = larg4.vstring( 'Em' 'Optical' 'SynchotronAndGN' 'Ion' 'Hadron' 'Decay' 'HadronElastic' 'Stopping' 'NeutronTrackingCut')
 
-The default list of physics processes, as included in the QGSP\_BERT physics list (the previous default before the list was configurable), are:
+The default list of physics processes, as included in the QGSP_BERT physics list (the previous default before the list was configurable), are:
 
     "Em" "SynchotronAndGN" "Decay" "Hadron" "HadronElastic" "Stopping" "Ion" "NeutronTrackingCut"
 
@@ -39,9 +39,9 @@ To create a new physics constructor, create a class which inherits from G4VPhysi
 
     CustomPhysicsFactory<Object> arbitrary_factory_name("ObjectName");
 
-Where Object is the name of the object inherriting from G4VPhysicsConstructor, arbitrary\_factory\_name is an irrelevant label for the object which registers the new physics constructor and ObjectName is the string which will be used in the job control file to enable the physics processes.
+Where Object is the name of the object inherriting from G4VPhysicsConstructor, arbitrary_factory_name is an irrelevant label for the object which registers the new physics constructor and ObjectName is the string which will be used in the job control file to enable the physics processes.
 
-The default constructors loaded in the QGSP\_BERT physics list are all registered in the CustomPhysicsBuiltIns.hh and CustomPhysicsBuiltIns.cxx files. Under no circumstances should new modules be registered this way - this file just provides wrappers for the default GEANT4 objects. To register a new physics constructor, use the method described above.
+The default constructors loaded in the QGSP_BERT physics list are all registered in the CustomPhysicsBuiltIns.hh and CustomPhysicsBuiltIns.cxx files. Under no circumstances should new modules be registered this way - this file just provides wrappers for the default GEANT4 objects. To register a new physics constructor, use the method described above.
 
 Optical Physics in LArG4
 ------------------------------------------------------

@@ -1,35 +1,35 @@
-LArSoft v08\_05\_00\_04 Release Notes
+LArSoft v08_05_00_04 Release Notes
 =============================================================================
 
 -   **Table of contents**
--   [LArSoft v08\_05\_00\_04 Release Notes](#LArSoft-v08_05_00_04-Release-Notes)
+-   [LArSoft v08_05_00_04 Release Notes](#LArSoft-v08_05_00_04-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v08\_05\_00\_04](#larsoft-v08_05_00_04)
-    -   [lareventdisplay v08\_02\_00\_03](#lareventdisplay-v08_02_00_03)
-    -   [larexamples v08\_01\_00\_03](#larexamples-v08_01_00_03)
-    -   [larg4 v08\_01\_00\_03](#larg4-v08_01_00_03)
-    -   [larpandora v08\_03\_00\_03](#larpandora-v08_03_00_03)
-    -   [larwirecell v08\_02\_00\_04](#larwirecell-v08_02_00_04)
-    -   [larana v08\_01\_00\_03](#larana-v08_01_00_03)
-    -   [larreco v08\_04\_00\_03](#larreco-v08_04_00_03)
-    -   [larsim v08\_02\_00\_03](#larsim-v08_02_00_03)
-    -   [larevt v08\_01\_00\_03](#larevt-v08_01_00_03)
-    -   [lardata v08\_02\_00\_02](#lardata-v08_02_00_02)
-    -   [larcore v08\_01\_00\_02](#larcore-v08_01_00_02)
-    -   [larpandoracontent v03\_14\_04](#larpandoracontent-v03_14_04)
-    -   [larsoftobj v08\_03\_00\_02](#larsoftobj-v08_03_00_02)
-    -   [lardataobj v08\_01\_00\_02](#lardataobj-v08_01_00_02)
-    -   [lardataalg v08\_03\_00\_02](#lardataalg-v08_03_00_02)
-    -   [larcorealg v08\_01\_00\_02](#larcorealg-v08_01_00_02)
-    -   [larcoreobj v08\_01\_00\_02](#larcoreobj-v08_01_00_02)
+    -   [larsoft v08_05_00_04](#larsoft-v08_05_00_04)
+    -   [lareventdisplay v08_02_00_03](#lareventdisplay-v08_02_00_03)
+    -   [larexamples v08_01_00_03](#larexamples-v08_01_00_03)
+    -   [larg4 v08_01_00_03](#larg4-v08_01_00_03)
+    -   [larpandora v08_03_00_03](#larpandora-v08_03_00_03)
+    -   [larwirecell v08_02_00_04](#larwirecell-v08_02_00_04)
+    -   [larana v08_01_00_03](#larana-v08_01_00_03)
+    -   [larreco v08_04_00_03](#larreco-v08_04_00_03)
+    -   [larsim v08_02_00_03](#larsim-v08_02_00_03)
+    -   [larevt v08_01_00_03](#larevt-v08_01_00_03)
+    -   [lardata v08_02_00_02](#lardata-v08_02_00_02)
+    -   [larcore v08_01_00_02](#larcore-v08_01_00_02)
+    -   [larpandoracontent v03_14_04](#larpandoracontent-v03_14_04)
+    -   [larsoftobj v08_03_00_02](#larsoftobj-v08_03_00_02)
+    -   [lardataobj v08_01_00_02](#lardataobj-v08_01_00_02)
+    -   [lardataalg v08_03_00_02](#lardataalg-v08_03_00_02)
+    -   [larcorealg v08_01_00_02](#larcorealg-v08_01_00_02)
+    -   [larcoreobj v08_01_00_02](#larcoreobj-v08_01_00_02)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v08\_05\_00\_04](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_05_00_04/larsoft-v08_05_00_04.html)
-Download instructions for [just larsoftobj v08\_03\_00\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_03_00_02/larsoftobj-v08_03_00_02.html)
+Download instructions for [larsoft v08_05_00_04](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_05_00_04/larsoft-v08_05_00_04.html)
+Download instructions for [just larsoftobj v08_03_00_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_03_00_02/larsoftobj-v08_03_00_02.html)
 
 Purpose
 --------------------
@@ -45,47 +45,47 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   art v3\_01\_02
--   nutools v2\_26\_09
--   nusimdata v1\_15\_04
--   artdaq\_core v3\_04\_10
--   artg4tk v09\_01\_02
--   systematicstools v00\_02\_03
--   nusystematics v00\_02\_08
--   canvas\_root\_io v1\_02\_02
+-   art v3_01_02
+-   nutools v2_26_09
+-   nusimdata v1_15_04
+-   artdaq_core v3_04_10
+-   artg4tk v09_01_02
+-   systematicstools v00_02_03
+-   nusystematics v00_02_08
+-   canvas_root_io v1_02_02
 
 Change List
 ============================
 
-larsoft v08\_05\_00\_04
+larsoft v08_05_00_04
 -------------------------------------------------
 
--   2019-02-23 Lynn Garren : larsoft v08\_05\_00\_04 for larsoft v08\_05\_00\_04
+-   2019-02-23 Lynn Garren : larsoft v08_05_00_04 for larsoft v08_05_00_04
 -   2019-02-22 Lynn Garren : product versions
--   2019-02-22 Lynn Garren : s78 and ifdh\_art v2\_07\_02
+-   2019-02-22 Lynn Garren : s78 and ifdh_art v2_07_02
 
-lareventdisplay v08\_02\_00\_03
+lareventdisplay v08_02_00_03
 -----------------------------------------------------------------
 
--   2019-02-23 Lynn Garren : lareventdisplay v08\_02\_00\_03 for larsoft v08\_05\_00\_04
--   2019-02-19 kduffy : Merge branch ‘feature/alister1\_removepidfromevd’ into feature/kduffy\_PIDupdate\_v08\_05\_00\_br
+-   2019-02-23 Lynn Garren : lareventdisplay v08_02_00_03 for larsoft v08_05_00_04
+-   2019-02-19 kduffy : Merge branch ‘feature/alister1_removepidfromevd’ into feature/kduffy_PIDupdate_v08_05_00_br
 -   2019-01-14 Adam : removing PID from event display
 
-larexamples v08\_01\_00\_03
+larexamples v08_01_00_03
 ---------------------------------------------------------
 
--   2019-02-23 Lynn Garren : larexamples v08\_01\_00\_03 for larsoft v08\_05\_00\_04
+-   2019-02-23 Lynn Garren : larexamples v08_01_00_03 for larsoft v08_05_00_04
 
-larg4 v08\_01\_00\_03
+larg4 v08_01_00_03
 ---------------------------------------------
 
--   2019-02-23 Lynn Garren : larg4 v08\_01\_00\_03 for larsoft v08\_05\_00\_04
--   2019-02-22 Lynn Garren : artg4tk v09\_02\_00
+-   2019-02-23 Lynn Garren : larg4 v08_01_00_03 for larsoft v08_05_00_04
+-   2019-02-22 Lynn Garren : artg4tk v09_02_00
 
-larpandora v08\_03\_00\_03
+larpandora v08_03_00_03
 -------------------------------------------------------
 
--   2019-02-23 Lynn Garren : larpandora v08\_03\_00\_03 for larsoft v08\_05\_00\_04
+-   2019-02-23 Lynn Garren : larpandora v08_03_00_03 for larsoft v08_05_00_04
 -   2019-02-14 Andrew Smith : Removed POT counting from external event building
 -   2019-02-14 Andrew Smith : Fixed some whitespace issues
 -   2019-02-13 Andrew Smith : added test directory to check fcl files
@@ -106,7 +106,7 @@ larpandora v08\_03\_00\_03
 -   2018-11-16 Andrew Smith : Removed MicroBooNE specific analysis files which remained from previous tests
 -   2018-11-16 Wouter Van De Pontseele : Changed isTarget to isNeutrino
 -   2018-11-16 Wouter Van De Pontseele : Compiling version
--   2018-11-16 Wouter Van De Pontseele : rebased on v7\_11, no ubana dependency
+-   2018-11-16 Wouter Van De Pontseele : rebased on v7_11, no ubana dependency
 -   2018-11-15 Wouter Van De Pontseele : removing ubana dependencies
 -   2018-11-12 Wouter Van De Pontseele : Removed duplicate istarget definition
 -   2018-11-12 Wouter Van De Pontseele : PFParticleMetadata moved from larpandoraobj to recob
@@ -178,39 +178,39 @@ larpandora v08\_03\_00\_03
 -   2018-08-30 a-d-smith : Updated simple beam particle id tool to match logic in Pandora
 -   2018-08-29 a-d-smith : Extended neutrino id tool to the general slice id tool - now works for protoDUNE
 
-larwirecell v08\_02\_00\_04
+larwirecell v08_02_00_04
 ---------------------------------------------------------
 
--   2019-02-23 Lynn Garren : larwirecell v08\_02\_00\_04 for larsoft v08\_05\_00\_04
+-   2019-02-23 Lynn Garren : larwirecell v08_02_00_04 for larsoft v08_05_00_04
 
-larana v08\_01\_00\_03
+larana v08_01_00_03
 -----------------------------------------------
 
--   2019-02-23 Lynn Garren : larana v08\_01\_00\_03 for larsoft v08\_05\_00\_04
--   2019-02-22 Lynn Garren : Merge branch ‘feature/kduffy\_PIDupdate\_v08\_05\_00\_br’ into v08\_05\_00\_br
+-   2019-02-23 Lynn Garren : larana v08_01_00_03 for larsoft v08_05_00_04
+-   2019-02-22 Lynn Garren : Merge branch ‘feature/kduffy_PIDupdate_v08_05_00_br’ into v08_05_00_br
 -   2019-02-22 Kyle Knoepfel : Force discard of engine reference to silence compiler.
 -   2019-02-21 Herbert Greenlee : Revert “Add bitset -\> integer conversions.”
 -   2019-02-20 Herbert Greenlee : Add bitset -\> integer conversions.
--   2019-02-19 kduffy : Merge branch ‘feature/alister1\_chi2\_pidclassupgrade’ into feature/kduffy\_PIDupdate\_v08\_05\_00\_br
+-   2019-02-19 kduffy : Merge branch ‘feature/alister1_chi2_pidclassupgrade’ into feature/kduffy_PIDupdate_v08_05_00_br
 -   2019-01-30 kduffy : Add in fUseMedian to match previous behaviour for PIDA. We shouldn’t do this any more though - now we can (and should) store both PIDA by mean and median
 -   2019-01-23 kduffy : Include missing bitset include
 -   2019-01-22 kduffy : Change bitset from 5 bits to 8 and rename fPlaneMask instead of fPlaneID
 -   2019-01-10 kduffy : Remove unnecessary if statement in bitset calculation
 -   2019-01-09 Adam : updates to output chi2 in terms of new anab::ParticleID class – untested
--   2019-01-08 Lynn Garren : larana v08\_00\_00\_01 for larsoft v08\_00\_00\_br
+-   2019-01-08 Lynn Garren : larana v08_00_00_01 for larsoft v08_00_00_br
 
-larreco v08\_04\_00\_03
+larreco v08_04_00_03
 -------------------------------------------------
 
--   2019-02-23 Lynn Garren : larreco v08\_04\_00\_03 for larsoft v08\_05\_00\_04
--   2019-02-22 Lynn Garren : Merge branch ‘feature/herogers\_SCE\_mcc9\_take2’ into v08\_05\_00\_br
--   2019-02-22 Lynn Garren : Merge branch ‘feature/bb\_trajcluster\_mcc9’ into v08\_05\_00\_br
--   2019-02-22 Lynn Garren : Merge branch ‘feature/tjyang\_sps’ into v08\_05\_00\_br
--   2019-02-22 Lynn Garren : Merge branch ‘feature/kduffy\_PIDupdate\_v08\_05\_00\_br’ into v08\_05\_00\_br
--   2019-02-22 Lynn Garren : nutools v2\_26\_09
+-   2019-02-23 Lynn Garren : larreco v08_04_00_03 for larsoft v08_05_00_04
+-   2019-02-22 Lynn Garren : Merge branch ‘feature/herogers_SCE_mcc9_take2’ into v08_05_00_br
+-   2019-02-22 Lynn Garren : Merge branch ‘feature/bb_trajcluster_mcc9’ into v08_05_00_br
+-   2019-02-22 Lynn Garren : Merge branch ‘feature/tjyang_sps’ into v08_05_00_br
+-   2019-02-22 Lynn Garren : Merge branch ‘feature/kduffy_PIDupdate_v08_05_00_br’ into v08_05_00_br
+-   2019-02-22 Lynn Garren : nutools v2_26_09
 -   2019-02-22 Kyle Knoepfel : Force discard of engine reference to silence compiler.
 -   2019-02-21 baller : Don’t attempt reconstructing a slice if there are too many hits.
--   2019-02-20 kduffy : Merge branch ‘feature/alister\_pidfix’ into feature/kduffy\_PIDupdate\_v08\_05\_00\_br
+-   2019-02-20 kduffy : Merge branch ‘feature/alister_pidfix’ into feature/kduffy_PIDupdate_v08_05_00_br
 -   2019-02-20 Adam : removing PID accessor from KalmanFilterFinalTrackFitter as per info from Giuseppe
 -   2019-02-19 Herbert Greenlee : Fix signed vs. unsigned comparison.
 -   2019-01-31 baller : Remove kNewStpCuts and kNewVtxCuts
@@ -230,95 +230,95 @@ larreco v08\_04\_00\_03
 -   2019-01-31 baller : Change StopFlag to EndFlag. Replace NoFitToVtx Algmod bit to NoFitVx EndFlag bit.
 -   2019-01-30 baller : Add AttachAnyVertexToTraj
 -   2019-01-30 baller : Add AttachAnyVertexToTraj
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
--   2019-01-30 baller : Add code updates to v08\_00\_00\_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
+-   2019-01-30 baller : Add code updates to v08_00_00_br
 -   2019-01-20 baller : Fix bug in TrimEndPts
 -   2019-01-20 baller : Require high MCSMom trajectory in FindHammerVertices
 -   2019-02-18 Tingjun Yang : Move microboone configuration to ubevt.
 -   2019-02-18 Hannah Rogers : Add SCE dx correction to calorimetry module
 -   2019-01-14 Adam : removing .Pdg() usage and replacing with -1
 
-larsim v08\_02\_00\_03
+larsim v08_02_00_03
 -----------------------------------------------
 
--   2019-02-23 Lynn Garren : larsim v08\_02\_00\_03 for larsoft v08\_05\_00\_04
+-   2019-02-23 Lynn Garren : larsim v08_02_00_03 for larsoft v08_05_00_04
 -   2019-02-22 Kyle Knoepfel : Force discard of engine reference to silence compiler.
 
-larevt v08\_01\_00\_03
+larevt v08_01_00_03
 -----------------------------------------------
 
--   2019-02-23 Lynn Garren : larevt v08\_01\_00\_03 for larsoft v08\_05\_00\_04
--   2019-02-22 Lynn Garren : Merge branch ‘feature/herogers\_SCE\_mcc9\_take2’ into v08\_05\_00\_br
+-   2019-02-23 Lynn Garren : larevt v08_01_00_03 for larsoft v08_05_00_04
+-   2019-02-22 Lynn Garren : Merge branch ‘feature/herogers_SCE_mcc9_take2’ into v08_05_00_br
 -   2019-02-16 Hannah Rogers : Add space charge fcl defaults
 
-lardata v08\_02\_00\_02
+lardata v08_02_00_02
 -------------------------------------------------
 
--   2019-02-23 Lynn Garren : lardata v08\_02\_00\_02 for larsoft v08\_05\_00\_04
--   2019-02-22 Lynn Garren : nutools v2\_26\_09
+-   2019-02-23 Lynn Garren : lardata v08_02_00_02 for larsoft v08_05_00_04
+-   2019-02-22 Lynn Garren : nutools v2_26_09
 
-larcore v08\_01\_00\_02
+larcore v08_01_00_02
 -------------------------------------------------
 
--   2019-02-23 Lynn Garren : larcore v08\_01\_00\_02 for larsoft v08\_05\_00\_04
--   2019-02-22 Lynn Garren : art v3\_01\_02
+-   2019-02-23 Lynn Garren : larcore v08_01_00_02 for larsoft v08_05_00_04
+-   2019-02-22 Lynn Garren : art v3_01_02
 
-larpandoracontent v03\_14\_04
+larpandoracontent v03_14_04
 --------------------------------------------------------------
 
-larsoftobj v08\_03\_00\_02
+larsoftobj v08_03_00_02
 -------------------------------------------------------
 
--   2019-02-23 Lynn Garren : larsoftobj v08\_03\_00\_02 for larsoft v08\_05\_00\_04
+-   2019-02-23 Lynn Garren : larsoftobj v08_03_00_02 for larsoft v08_05_00_04
 -   2019-02-22 Lynn Garren : product versions
--   2019-02-22 Lynn Garren : gallery v1\_11\_02
+-   2019-02-22 Lynn Garren : gallery v1_11_02
 
-lardataobj v08\_01\_00\_02
+lardataobj v08_01_00_02
 -------------------------------------------------------
 
--   2019-02-23 Lynn Garren : lardataobj v08\_01\_00\_02 for larsoft v08\_05\_00\_04
--   2019-02-22 Lynn Garren : Merge branch ‘feature/kduffy\_PIDupdate\_v08\_05\_00\_br’ into v08\_05\_00\_br
--   2019-02-22 Lynn Garren : nusimdata v1\_15\_04
+-   2019-02-23 Lynn Garren : lardataobj v08_01_00_02 for larsoft v08_05_00_04
+-   2019-02-22 Lynn Garren : Merge branch ‘feature/kduffy_PIDupdate_v08_05_00_br’ into v08_05_00_br
+-   2019-02-22 Lynn Garren : nusimdata v1_15_04
 -   2019-02-21 Herbert Greenlee : bitset -\> std::bitset.
 -   2019-02-21 Herbert Greenlee : Revert “ParticleID bitset\<8\> -\> int.”
--   2019-02-20 Herbert Greenlee : Merge branch ‘feature/kduffy\_PIDupdate\_v08\_05\_00\_br’ of ssh://cdcvs.fnal.gov/cvs/projects/lardataobj into feature/kduffy\_PIDupdate\_v08\_05\_00\_br
+-   2019-02-20 Herbert Greenlee : Merge branch ‘feature/kduffy_PIDupdate_v08_05_00_br’ of ssh://cdcvs.fnal.gov/cvs/projects/lardataobj into feature/kduffy_PIDupdate_v08_05_00_br
 -   2019-02-20 Herbert Greenlee : ParticleID bitset\<8\> -\> int.
--   2019-02-20 kduffy : Add back in Base\_bitset to classes\_def.xml
--   2019-02-19 kduffy : Merge branch ‘feature/alister1\_pid\_ioread’ into feature/kduffy\_PIDupdate\_v08\_05\_00\_br
+-   2019-02-20 kduffy : Add back in Base_bitset to classes_def.xml
+-   2019-02-19 kduffy : Merge branch ‘feature/alister1_pid_ioread’ into feature/kduffy_PIDupdate_v08_05_00_br
 -   2019-02-19 kduffy : Comment out ioread rule for particleID because it doesn’t work yet
--   2019-02-07 kduffy : Remove unused class \_Base\_bitset\<1\>
+-   2019-02-07 kduffy : Remove unused class _Base_bitset\<1\>
 -   2019-01-23 kduffy : Change bitset to 8 bits instead of 5. ioread rule for ParticleID class is still broken, will fix asap
 -   2019-01-22 kduffy : Return a const reference to the vector not a const vector
 -   2019-01-22 kduffy : Change bitset from 5 bits to 8 and rename fPlaneMask instead of fPlaneID. Also remove unnecessary ifndef statements in ParticleID.h
 -   2019-01-14 kduffy : Change bitset definition to be the same as what we’ve defined elsewhere
 -   2019-01-10 kduffy : Fixes to ioread to make it work properly
--   2019-01-10 kduffy : Update classes\_def for anab::Calorimetry by hand
+-   2019-01-10 kduffy : Update classes_def for anab::Calorimetry by hand
 -   2019-01-10 kduffy : Hand-merge into feature branch with new PID variables
--   2019-01-10 kduffy : Merge branch ‘feature/alister1\_pid\_ioread’ of ssh://cdcvs.fnal.gov/cvs/projects/lardataobj into feature/alister1\_pid\_ioread
+-   2019-01-10 kduffy : Merge branch ‘feature/alister1_pid_ioread’ of ssh://cdcvs.fnal.gov/cvs/projects/lardataobj into feature/alister1_pid_ioread
 -   2019-01-10 Adam : adding ioread for anab::ParticleID
 -   2019-01-10 kduffy : Remove old ParticleID functions from new class, since we’ve decided to go ahead with the breaking change
 
-lardataalg v08\_03\_00\_02
+lardataalg v08_03_00_02
 -------------------------------------------------------
 
--   2019-02-23 Lynn Garren : lardataalg v08\_03\_00\_02 for larsoft v08\_05\_00\_04
+-   2019-02-23 Lynn Garren : lardataalg v08_03_00_02 for larsoft v08_05_00_04
 
-larcorealg v08\_01\_00\_02
+larcorealg v08_01_00_02
 -------------------------------------------------------
 
--   2019-02-23 Lynn Garren : larcorealg v08\_01\_00\_02 for larsoft v08\_05\_00\_04
+-   2019-02-23 Lynn Garren : larcorealg v08_01_00_02 for larsoft v08_05_00_04
 
-larcoreobj v08\_01\_00\_02
+larcoreobj v08_01_00_02
 -------------------------------------------------------
 
--   2019-02-23 Lynn Garren : larcoreobj v08\_01\_00\_02 for larsoft v08\_05\_00\_04
--   2019-02-22 Lynn Garren : canvas\_root\_io v1\_02\_02
+-   2019-02-23 Lynn Garren : larcoreobj v08_01_00_02 for larsoft v08_05_00_04
+-   2019-02-22 Lynn Garren : canvas_root_io v1_02_02

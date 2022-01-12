@@ -21,12 +21,12 @@ LArSoft code management and distribution
 -   [Adding / removing users](Adding__removing_users)
 -   [Admin scripts](Admin_scripts)
 -   [LArSoft release management](LArSoft_release_management)
-    -   [How to tag and build a normal LArSoft vxx\_yy\_zz release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)
+    -   [How to tag and build a normal LArSoft vxx_yy_zz release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)
     -   [How to tag and build a LArSoft patch release](How_to_tag_and_build_a_LArSoft_patch_release)
     -   [Installing products on cvmfs](Installing_products_on_cvmfs)
 -   [Informal list of experiment contacts](Informal_list_of_experiment_contacts)
 -   [Policy for development from a tagged release](Policy_for_development_from_a_tagged_release)
--   [Procedure to create a new version of larsoft\_data, uboone\_data, etc.](Procedure_to_create_a_new_version_of_larsoft_data)
+-   [Procedure to create a new version of larsoft_data, uboone_data, etc.](Procedure_to_create_a_new_version_of_larsoft_data)
 -   [Installation procedures](Installation_procedures)
 -   [LArSoft cvmfs](LArSoft_cvmfs)
 -   [Nightly builds](Nightly_builds) (no longer done)
@@ -95,7 +95,7 @@ LArSoft code analysis
 Profiling tests
 ------------------------------------
 
--   [ProtoDUNE and DUNE Far Detector simulation and reconstruction workflows (v06\_57\_00)](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00))
+-   [ProtoDUNE and DUNE Far Detector simulation and reconstruction workflows (v06_57_00)](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00))
 
 Legacy Redmine project sites
 --------------------------------------------------------------

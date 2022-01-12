@@ -34,7 +34,7 @@ Tasks for day of migration
 
 -   ~~Need contents of the script or a link to the script.~~
 -   ~~Best to have a link to the script that will run over all the repositories, if there is one~~
--   ~~The script to use to strip trailing white space is larsoft/bin/removeWhiteSpace.sh (\${LARSOFT\_DIR}/bin/removeWhiteSpace.sh)~~
+-   ~~The script to use to strip trailing white space is larsoft/bin/removeWhiteSpace.sh (\${LARSOFT_DIR}/bin/removeWhiteSpace.sh)~~
 
 Running the white-space script on pull-requests is sufficient. A campaign of pull requests to cleanup whitespace can happen after the migration.
 
@@ -60,12 +60,12 @@ Running the white-space script on pull-requests is sufficient. A campaign of pul
     -   v\*
 
 -   Tags to be migrated
-    -   LARSOFT\_SUITE\_v[0-9]\*\_[0-9\*\_[0-9]\*
-    -   v[0-9]\*\_[0-9]\*\_[0-9]\*
+    -   LARSOFT_SUITE_v[0-9]\*_[0-9\*_[0-9]\*
+    -   v[0-9]\*_[0-9]\*_[0-9]\*
 
--   [Truncating\_commit\_history\_at\_svn\_to\_git\_transition](Truncating_commit_history_at_svn_to_git_transition) Script used to perform these tasks updateFBR linked as updateFBR.sh
+-   [Truncating_commit_history_at_svn_to_git_transition](Truncating_commit_history_at_svn_to_git_transition) Script used to perform these tasks updateFBR linked as updateFBR.sh
 
-### Cut mrb v3\_05\_00 and install it on cvmfs (Lynn)
+### Cut mrb v3_05_00 and install it on cvmfs (Lynn)
 
 ### Run the cms-bot scripts to set up the webhooks and PR labels for the larsoft repos (Patrick)
 
@@ -82,7 +82,7 @@ Running the white-space script on pull-requests is sufficient. A campaign of pul
 
 ### Remove phrases with testing from wiki pages
 
-[https://cdcvs.fnal.gov/redmine/projects/larsoft/search?utf8=✓&scope=subprojects&wiki\_pages=1&q=testing](https://cdcvs.fnal.gov/redmine/projects/larsoft/search?utf8=✓&scope=subprojects&wiki_pages=1&q=testing)
+[https://cdcvs.fnal.gov/redmine/projects/larsoft/search?utf8=✓&scope=subprojects&wiki_pages=1&q=testing](https://cdcvs.fnal.gov/redmine/projects/larsoft/search?utf8=✓&scope=subprojects&wiki_pages=1&q=testing)
 
 Fallbacks
 ------------------------

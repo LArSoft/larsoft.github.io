@@ -25,7 +25,7 @@ e10 and e15 qualified versions of igprof are available.
 
     Other useful options:   -mp : enable memory profiling   -pp : enable performance profiling   -d  : add information about the workings of the profiler itself   -z  : compress the profile statistics file using gzip.
 
-4. To run analysis (****igprof-analyse****) with profiled data (igprof\_lar.gz)
+4. To run analysis (****igprof-analyse****) with profiled data (igprof_lar.gz)
 
 -   To produce the text file of the report,
 
@@ -37,16 +37,16 @@ e10 and e15 qualified versions of igprof are available.
 
         igprof-analyse --sqlite -d -v -g -r XMODE igprof_lar.gz | sqlite3 XMODE.sql3 
 
-    -   where XMODE=[MEM\_TOTAL|MEM\_LIVE|MEM\_MAX]
-        -   MEM\_TOTAL: the total amount of memory allocated by any function - a snapshot of poor memory locality
-        -   MEM\_LIVE: memory that has not been freed - snapshot of the heap, i.e. a heap profile.
-        -   MEM\_MAX: the largest single allocation by any function
+    -   where XMODE=[MEM_TOTAL|MEM_LIVE|MEM_MAX]
+        -   MEM_TOTAL: the total amount of memory allocated by any function - a snapshot of poor memory locality
+        -   MEM_LIVE: memory that has not been freed - snapshot of the heap, i.e. a heap profile.
+        -   MEM_MAX: the largest single allocation by any function
     -   to navigate profiling reports on web, see instruction at [http://igprof.org/analysis.html](http://igprof.org/analysis.html)
-        and an example page at [https://g4cpt.fnal.gov/larsoft/dunetpc\_v06\_57\_00/igprof.html](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html)
+        and an example page at [https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html)
 
 5. Related links
 
 -   IgProf home page: [http://igprof.org/](http://igprof.org/)
 -   installation: see [http://igprof.org/install.html](http://igprof.org/install.html)
 
-For a more recent example, see [ProtoDUNE\_and\_DUNE\_Far\_Detector\_simulation\_and\_reconstruction\_workflows\_(v06\_57\_00)\#Profiling-memory-and-CPU-performance](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00)#Profiling-memory-and-CPU-performance)
+For a more recent example, see [ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00)\#Profiling-memory-and-CPU-performance](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00)#Profiling-memory-and-CPU-performance)

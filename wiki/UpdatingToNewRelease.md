@@ -14,11 +14,11 @@ What to do when there is a new release
 ==================================================================================
 
 Conventions used in this document:
-NEW\_RELEASE\_VERSION - new release version (e.g., v03\_00\_00)
-OLD\_RELEASE\_VERSION - the version of whatever release is currently setup
-TOP\_PRODUCT - generally this is larsoft, lbnecode, etc.
-QUALIFIERS - qualifiers associated with the TOP\_PRODUCT
-WORKING\_DIRECTORY - directory where you ran the mrb newDev command
+NEW_RELEASE_VERSION - new release version (e.g., v03_00_00)
+OLD_RELEASE_VERSION - the version of whatever release is currently setup
+TOP_PRODUCT - generally this is larsoft, lbnecode, etc.
+QUALIFIERS - qualifiers associated with the TOP_PRODUCT
+WORKING_DIRECTORY - directory where you ran the mrb newDev command
 
 Reference Documentation
 ----------------------------------------------------
@@ -35,9 +35,9 @@ Preliminaries
 --------------------------------
 
 1.  type “ups active” to see what is in your current environment
-    -   check for the version and qualifiers used by your TOP\_PRODUCT here
+    -   check for the version and qualifiers used by your TOP_PRODUCT here
 
-2.  type “unsetup\_all” and reestablish your basic working environment
+2.  type “unsetup_all” and reestablish your basic working environment
 3.  If at all possible, simply logout and start from a fresh login
 
 Using a new release with your existing source code directory
@@ -73,8 +73,8 @@ When a new LArSoft release is available and you want to develop against the new 
             git checkout feature/<my feature branch>
             git merge develop
 
-    -   Repeat for each repository in \$MRB\_SOURCE
-    -   mrb uv larsoft NEW\_RELEASE\_VERSION
+    -   Repeat for each repository in \$MRB_SOURCE
+    -   mrb uv larsoft NEW_RELEASE_VERSION
 
 5.  Resolving conflicts
     -   git is very good about telling you how to resolve a conflict, please read the onscreen instructions
@@ -92,12 +92,12 @@ Getting more information
 ------------------------------------------------------
 
 1.  To see a list of lar packages in a given larsoft release:
-    -   setup larsoft -v RELEASE\_VERSION -q QUALIFIERS
-    -   cat \$LARSOFT\_DIR/releaseDB/product\_list
-    -   This feature has been available since larsoft v03\_03\_00
+    -   setup larsoft -v RELEASE_VERSION -q QUALIFIERS
+    -   cat \$LARSOFT_DIR/releaseDB/product_list
+    -   This feature has been available since larsoft v03_03_00
 
 2.  To see the complete set of dependencies:
-    -   ups depend larsoft -v RELEASE\_VERSION -q QUALIFIERS
+    -   ups depend larsoft -v RELEASE_VERSION -q QUALIFIERS
 
 Other use cases
 ====================================
@@ -107,13 +107,13 @@ You have no checked out code
 
 This is the simplest possible case. We suggest that you start from a fresh login.
 
-1.  setup TOP\_PRODUCT NEW\_RELEASE\_VERSION -q QUALIFIERS
+1.  setup TOP_PRODUCT NEW_RELEASE_VERSION -q QUALIFIERS
 2.  See [Quick Links](Quick_Links) for experiment-specific instructions on getting started
 
 Updating your own package
 --------------------------------------------------------
 
-1.  Change the dependencies (larsoft and any other package that is explicitly listed in ups/product\_deps)
+1.  Change the dependencies (larsoft and any other package that is explicitly listed in ups/product_deps)
 
         mrb uv larsoft NEW_RELEASE_VERSION
         mrb uv product version

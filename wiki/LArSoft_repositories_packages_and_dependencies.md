@@ -21,7 +21,7 @@ LArSoft repositories packages and dependencies
     -   [lardataobj](#lardataobj)
     -   [larcorealg](#larcorealg)
     -   [larcoreobj](#larcoreobj)
-    -   [larsoft\_data](#larsoft_data)
+    -   [larsoft_data](#larsoft_data)
     -   [Experiment Code](#Experiment-Code)
 
 There are a number of repositories/ups products that are in core LArSoft.
@@ -130,7 +130,7 @@ larcoreobj
 
 -   data products for geometry and core utilities that are shared between larsoft and art-independent frameworks
 
-larsoft\_data
+larsoft_data
 -------------------------------
 
 -   A special UPS package that contains configuration data in large, binary, or other file types that are unsuitable for storage in code repositories. Version control is managed through the UPS system. Because there is no corresponding code repository, this product is *not* included in the `larsoft_suite` repositories, and *is not* part of core LArSoft. Open a LArSoft issue ticket to discuss additions or modifications to the contents of this product.

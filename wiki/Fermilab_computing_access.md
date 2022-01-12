@@ -17,7 +17,7 @@ GSSAPIAuthentication yes
 GSSAPIDelegateCredentials yes
 
 In case of trouble when connecting via ssh (permission denied error) the reason can be in the OpenSSH client, the following client is compatible with Fermilab Kerberos authentification:
-OpenSSH\_4.3p2, OpenSSL 0.9.8e-fips-rhel5 01 Jul 2008
+OpenSSH_4.3p2, OpenSSL 0.9.8e-fips-rhel5 01 Jul 2008
 
 One also needs to be sure to have the correct configuration for the /etc/krb5.conf file. The current Fermilab version of this file is available [here.](http://computing.fnal.gov/authentication/krb5conf/) Make sure that this file has its read permission bits turned on (chmod +r /etc/krb5.conf if they are not).
 
@@ -25,7 +25,7 @@ Depending on whether you are behind a NAT translation service, you may need “a
 
 It is possible to allow other users (or yourself just on another machine or with another Kerberos identity) to access your account via a .k5login file in your \$HOME directory. A warning however: If you create a .k5login file, make sure you put your own username in it or you can be locked out of your own account. It should have the line
 
-\<your\_Kerberos\_principal\>@FNAL.GOV
+\<your_Kerberos_principal\>@FNAL.GOV
 
 in it. Not needed if the file does not exist.
 

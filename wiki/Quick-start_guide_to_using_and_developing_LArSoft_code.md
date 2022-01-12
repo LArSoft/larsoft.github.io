@@ -34,7 +34,7 @@ Quick-start guide to using and developing LArSoft code
 LArSoft is not a stand-alone product. It is intended to be used as part of an experiment, so the set-up instructions for the experiment you are working with is the best place to start. To find a specific project, first check the [Quick Links](Quick_Links), then look on your experiment’s pages in redmine for instructions on installing LArSoft software. (Go to: [https://cdcvs.fnal.gov/redmine/projects](https://cdcvs.fnal.gov/redmine/projects) and search for your experiment.)
 
 The following is provided just to provide the general information that can be adapted by each experiment.
-These instructions are for working with larsoft release v1\_00\_00 and later, and mrb v1\_00\_00 and later. The instructions assume that LArSoft is installed locally using the download and installation instructions linked from the download page (see [Download instructions](Getting_LArSoft)). Changes needed for off-site installations will be noted. This documentation is evolving as we receive feedback. Please open an issue ticket if you have suggestions or complaints.
+These instructions are for working with larsoft release v1_00_00 and later, and mrb v1_00_00 and later. The instructions assume that LArSoft is installed locally using the download and installation instructions linked from the download page (see [Download instructions](Getting_LArSoft)). Changes needed for off-site installations will be noted. This documentation is evolving as we receive feedback. Please open an issue ticket if you have suggestions or complaints.
 
 Please note that all Fermilab redmine repository names are lower case. See the [LArSoft product list](LArSoft_repositories_packages_and_dependencies).
 
@@ -149,9 +149,9 @@ To build and work with larsoft itself
 >     cd <working_dir>
 >     mrb newDev -v vx_yy_zz -q e7:prof    # (or -q e7:debug)
 >
-> -   where ‘vx\_yy\_zz’ is the base version for the release you are working with.
+> -   where ‘vx_yy_zz’ is the base version for the release you are working with.
 > -   Select from the [list of releases](LArSoftWiki#releases), or use ‘ups list -aK+ larsoft’ to get a complete list of available releases.
-> -   Current release is v04\_06\_00 (See [LArSoftWiki](LArSoftWiki) for most recent release)
+> -   Current release is v04_06_00 (See [LArSoftWiki](LArSoftWiki) for most recent release)
 > -   Alternatively, you can ‘setup larsoft \<version\> -q \<e7:debug|e7:prof\>’ before running ‘mrb newDev’, in which case you can omit the ‘-v’ and ‘-q’ from the ‘mrb’ command.
 
 -   If you only want to run using the base LArSoft release and uBooNE or DUNE code, then skip ahead to the “To build experiment-specific code for DUNE or uBooNE against an existing LArSoft release” step
@@ -172,7 +172,7 @@ To build and work with larsoft itself
 >     mrbsetenv  
 >     mrb install -j4    # -jN => N parallel processes for the build (if the machine has enough cores)
 >
-> -   `mrb install` (abbreviates to `mrb i`) will build then install results in localProducts\_XXX. This
+> -   `mrb install` (abbreviates to `mrb i`) will build then install results in localProducts_XXX. This
 >     is the preferred command if you need to run what you are building.
 > -   You can also use `mrb build` (or `mrb b`) if you just want the build with no install. Be aware, however, that you cannot run using the resulting build products.
 
@@ -232,12 +232,12 @@ There are experiment-specific setup scripts to perform setup. For example.
 > -   set the \$PRODUCTS path if necessary
 > -   setup git
 > -   setup gitflow
-> -   define MRB\_PROJECT
+> -   define MRB_PROJECT
 > -   setup mrb
 > -   setup \<project\> \<version\>
-> -   define MRB\_PROJECT
+> -   define MRB_PROJECT
 >
-> > -   MRB\_PROJECT is meant to define your project. `mrb newDev` will **require** that MRB\_PROJECT be the name of a ups product.
+> > -   MRB_PROJECT is meant to define your project. `mrb newDev` will **require** that MRB_PROJECT be the name of a ups product.
 > > -   Eventually, you will be able to use the experiment name for the project.
 > > -   For now, just use “larsoft” in all cases.
 
@@ -257,25 +257,25 @@ Create a working area
 
 ### Everything (source code, \<localProdDir\>, and build directory) in one directory tree
 
-Case 1: you have setup \<MRB\_PROJECT\> \<version\> (the recommended procedure)
+Case 1: you have setup \<MRB_PROJECT\> \<version\> (the recommended procedure)
 
     mkdir <working_dir>
     cd  <working_dir>
     mrb newDev 
 
-> -   this creates \<working\_dir\>/build, \<working\_dir\>/srcs, and \<working\_dir\>/localProducts\_\<MRB\_PROJECT\>\_\<version\>\_\<qualifiers\>
-> -   We refer to \<working\_dir\>/localProducts… as \<localProdDir\>
+> -   this creates \<working_dir\>/build, \<working_dir\>/srcs, and \<working_dir\>/localProducts_\<MRB_PROJECT\>_\<version\>_\<qualifiers\>
+> -   We refer to \<working_dir\>/localProducts… as \<localProdDir\>
 
 -   source \<localProdDir\>/setup
 
-Case 2: you did not setup \<MRB\_PROJECT\> \<version\>
+Case 2: you did not setup \<MRB_PROJECT\> \<version\>
 
     mkdir <working_dir>
     cd  <working_dir>
     mrb newDev -v <version> -q <qualifiers>
 
-> -   this creates \<working\_dir\>/build, \<working\_dir\>/srcs, and \<working\_dir\>/localProducts\_\<MRB\_PROJECT\>\_\<version\>\_\<qualifiers\>
-> -   We refer to \<working\_dir\>/localProducts… as \<localProdDir\>
+> -   this creates \<working_dir\>/build, \<working_dir\>/srcs, and \<working_dir\>/localProducts_\<MRB_PROJECT\>_\<version\>_\<qualifiers\>
+> -   We refer to \<working_dir\>/localProducts… as \<localProdDir\>
 
 -   source \<localProdDir\>/setup
 
@@ -285,8 +285,8 @@ Source code under your home directory
     mkdir <source_dir>
     mrb newDev -T <working_dir> -S <source_dir>
 
-> -   this creates \<working\_dir\>/build and \<working\_dir\>/localProducts\_\<MRB\_PROJECT\>\_\<version\>\_\<qualifiers\>
-> -   We refer to \<working\_dir\>/localProducts… as \<localProdDir\>
+> -   this creates \<working_dir\>/build and \<working_dir\>/localProducts_\<MRB_PROJECT\>_\<version\>_\<qualifiers\>
+> -   We refer to \<working_dir\>/localProducts… as \<localProdDir\>
 > -   Note that you may also need to specify -v \<version\> and -q \<qualifiers\> as above
 
 -   source \<localProdDir\>/setup
@@ -314,7 +314,7 @@ To set up the working environment for an existing working area, you need to sour
         source ./localProducts_XXX/setup
         setup larsoft <version> -q <qualifiers>   # optional
 
--   Note that the larsoft setup needs to come after the setup in localProducts\_XXX.
+-   Note that the larsoft setup needs to come after the setup in localProducts_XXX.
 
 Developing a package
 ----------------------------------------------
@@ -443,7 +443,7 @@ Assume that there is an existing repository with the same name that you want to 
     git remote add <alias> <new-prod-repo-url>
     git pull <alias> <branch>
 
-The new product template has two files that are important to know about and that you will almost certainly need to modify in order to create a new product (the only exception being the case that you are attaching to a repository that already has a working product in it): `<new-prod-name>/CMakeLists.txt`, and `<new-prod-name>/ups/product_deps`. In general, the `CMakeLists.txt` files control the build-time configuration and the items that get built, and specify what files in the product get installed where during the install phase. (See the [Cetbuildtools cmake modules](/redmine/projects/cet-is-public/wiki/Cetbuildtools_cmake_modules) and [Art cmake modules](/redmine/projects/cet-is-public/wiki/Art_cmake_modules) pages for information on writing CMakelists.txt files within our build system.) The `product_deps` file controls the run-time configuration via a ups “table” file (`<new-prod-name>/ups/<new-prod-name>.table`) that gets generated during the build and installation procedure. (See the [Defining products in the CET build environment](/redmine/projects/cet-is-public/wiki/Defining_products_in_the_CET_build_environment) page for details on the content of product\_deps file.) More information on the build system can be found on the [LArSoftWiki](LArSoftWiki) page.
+The new product template has two files that are important to know about and that you will almost certainly need to modify in order to create a new product (the only exception being the case that you are attaching to a repository that already has a working product in it): `<new-prod-name>/CMakeLists.txt`, and `<new-prod-name>/ups/product_deps`. In general, the `CMakeLists.txt` files control the build-time configuration and the items that get built, and specify what files in the product get installed where during the install phase. (See the [Cetbuildtools cmake modules](/redmine/projects/cet-is-public/wiki/Cetbuildtools_cmake_modules) and [Art cmake modules](/redmine/projects/cet-is-public/wiki/Art_cmake_modules) pages for information on writing CMakelists.txt files within our build system.) The `product_deps` file controls the run-time configuration via a ups “table” file (`<new-prod-name>/ups/<new-prod-name>.table`) that gets generated during the build and installation procedure. (See the [Defining products in the CET build environment](/redmine/projects/cet-is-public/wiki/Defining_products_in_the_CET_build_environment) page for details on the content of product_deps file.) More information on the build system can be found on the [LArSoftWiki](LArSoftWiki) page.
 
 Set the product version number in the `<new-prod-name>/ups/product_deps` file.
 
@@ -458,11 +458,11 @@ HOWEVER, please see the instructions above since there is not a one-to-one trans
 
 ||
 |**Legacy / SRT command**|**Analogous mrb command**|
-|setup\_larsoft\_fnal.sh|The setup procedure above|
+|setup_larsoft_fnal.sh|The setup procedure above|
 |newrel -t \<release\> \<name\>|mkdir \<name\>; cd \<name\>; mrb newDev|
-|addpkg\_svn -h \<package\> \<tag\>|mrb gitCheckout [-t \<tag\>] \<package\>|
+|addpkg_svn -h \<package\> \<tag\>|mrb gitCheckout [-t \<tag\>] \<package\>|
 |newpkg \<name\>|mrb newProduct \<name\>|
-|srt\_setup -a|mrb setEnv|
+|srt_setup -a|mrb setEnv|
 |gmake all|mrb install|
 |rmpkg \<name\>|rm -r \<name\> ; mrb uc|
 
@@ -483,7 +483,7 @@ If you need to pull everything (LArSoft plus all external packages) in order to 
     ./pullProducts <product_dir> <slf6|d14|d13> larsoft-<version> s8-e7 <debug|prof>
 
 > -   See [http://scisoft.fnal.gov/scisoft/bundles/larsoft/`<version>`/larsoft-`<version>`.html](http://scisoft.fnal.gov/scisoft/bundles/larsoft) for explicit instructions for each release.
-> -   This will pull the relocatable ups products and install them in \<product\_dir\> where you should specify the full path to the product directory.
+> -   This will pull the relocatable ups products and install them in \<product_dir\> where you should specify the full path to the product directory.
 > -   The prof distribution requires about 20G
 > -   Typing ./pullProducts without any options will echo the usage guide.
 

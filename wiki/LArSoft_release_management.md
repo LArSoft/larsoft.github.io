@@ -12,20 +12,20 @@ Release types
 
 -   [LArSoft release naming and retention policy](LArSoft_release_naming_policy)
 -   tagged
-    -   vxx\_yy\_zz
+    -   vxx_yy_zz
     -   These are made weekly against the head of develop.
 -   release candidates
     -   release candidates are tagged releases with special naming
-    -   vxx\_yy\_zz\_rcN
+    -   vxx_yy_zz_rcN
 -   patch releases
-    -   vxx\_yy\_zz\_aa
+    -   vxx_yy_zz_aa
     -   Patch releases are built from a tagged release.
-    -   If a release is named vaa\_bb\_cc, the first patch release will be vaa\_bb\_cc\_01.
+    -   If a release is named vaa_bb_cc, the first patch release will be vaa_bb_cc_01.
 
 Tagged release
 ----------------------------------
 
--   [How to tag and build a LArSoft vxx\_yy\_zz release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)
+-   [How to tag and build a LArSoft vxx_yy_zz release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)
 -   [How to tag and build a LArSoft patch release](How_to_tag_and_build_a_LArSoft_patch_release)
 
 Migration Notes

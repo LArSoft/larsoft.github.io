@@ -44,7 +44,7 @@ Tools
 -   mrb
 -   startLArSoftRel (in larreltools)
 -   manageLArGithub (in larreltools)
--   larreltools v1\_08\_02 or later
+-   larreltools v1_08_02 or later
 
 PR identification and trigger CI
 ----------------------------------------------------------------------
@@ -81,9 +81,9 @@ Start an ssh-agent for ease of working with github.
 make a build directory
 --------------------------------------------------
 
-To work with github, larreltools v1\_08\_02 or later is required.
+To work with github, larreltools v1_08_02 or later is required.
 
-Decide if we think this is a bug fix or feature release. Note that feature branches are sometimes just bug fixes. This decision will be reflected in the directory name and release branch names. This example presumes a minor release against v08\_41\_00.
+Decide if we think this is a bug fix or feature release. Note that feature branches are sometimes just bug fixes. This decision will be reflected in the directory name and release branch names. This example presumes a minor release against v08_41_00.
 
 The “startLArSoftRel” command will create a directory structure and populate the srcs directory. Experiment code is in redmine, but larsoft is on github. Note that icaruscode and uboonecode have a conflicting name (crtsimhitproducer) and cannot be tested together. LArIAT is has changed release managers and is not up to date at this time.
 
@@ -93,7 +93,7 @@ The “startLArSoftRel” command will create a directory structure and populate
 Make a develop build
 ----------------------------------------------
 
-At this time, our default build is e19. Start with that and make sure the combined head of develop builds. Also be sure to test with c7 before tagging. Notice that \$MRB\_SOURCE contains both larsoft and experiment code. It may be necessary to update versions and/or merge feature branches in the experiment code. On rare occasions, I have found it necessary to make small bug fixes in the experiment CMakeLists.txt files.
+At this time, our default build is e19. Start with that and make sure the combined head of develop builds. Also be sure to test with c7 before tagging. Notice that \$MRB_SOURCE contains both larsoft and experiment code. It may be necessary to update versions and/or merge feature branches in the experiment code. On rare occasions, I have found it necessary to make small bug fixes in the experiment CMakeLists.txt files.
 
     source ..../e19p/local*/setup
     cd $MRB_BUILDDIR
@@ -160,14 +160,14 @@ If the only change is the version number that you just updated, then restore the
 
 ### larpandoracontent
 
-larpandoracontent is a special case. It is used by larpandora and depends only on the pandora ups product. We seldom update larpandoracontent. Our agreement with the Pandora team is to only update the micro version. The version is encoded in both ups/product\_deps and larpandoracontent/CMakeLists.txt. You will have to update CMakeLists.txt by hand.
+larpandoracontent is a special case. It is used by larpandora and depends only on the pandora ups product. We seldom update larpandoracontent. Our agreement with the Pandora team is to only update the micro version. The version is encoded in both ups/product_deps and larpandoracontent/CMakeLists.txt. You will have to update CMakeLists.txt by hand.
 
 Final test build and cleanup
 --------------------------------------------------------------
 
 Once you have gone through all the packages, make a final test build. This should go reasonably quickly, but make sure you have built the new code with all supported compilers.
 
-The tagging process will commit changes in ups/product\_deps with an appropriate comment. Before starting that process, make sure that any other changes have been committed. The new manageLArGithub script will check for other changes and can be run more than once if necessary.
+The tagging process will commit changes in ups/product_deps with an appropriate comment. Before starting that process, make sure that any other changes have been committed. The new manageLArGithub script will check for other changes and can be run more than once if necessary.
 
     cd $MRB_SOURCE
     dogit status
@@ -298,7 +298,7 @@ The generated release notes contain an informative header and a list of commits 
 
 When copying the generated release notes, it is important to use cat so that lines are not wrapped. Commands such as more or less will wrap lines, which breaks the generated html.
 
-The top line of the the generated ReleaseNotes file is copied to the [LArSoft\_release\_list](releases/LArSoft_release_list) table. The remainder of the file is used to make the actual release notes. Notes about each release must be added by hand to the top section of the release notes.
+The top line of the the generated ReleaseNotes file is copied to the [LArSoft_release_list](releases/LArSoft_release_list) table. The remainder of the file is used to make the actual release notes. Notes about each release must be added by hand to the top section of the release notes.
 
     make-release-notes <top directory> <tag> <previous tag>
     (e.g., make-release-notes `pwd` v08_42_00 v08_41_01)
@@ -314,7 +314,7 @@ Once the binaries are on cvmfs and the release notes have been generated, it is 
 
 ### final merge
 
-The argument given to the merge command is the name of the release/vxx\_yy\_zz branch.
+The argument given to the merge command is the name of the release/vxx_yy_zz branch.
 
     cd $MRB_SOURCE
     manageLArGithub merge v08_38_00
@@ -328,7 +328,7 @@ Random notes
 
 ### dogit
 
-The dogit command will pass an arbitrary git command to all repositories in \$MRB\_SOURCE. This can be very handy.
+The dogit command will pass an arbitrary git command to all repositories in \$MRB_SOURCE. This can be very handy.
 If the argument contains more than one word, wrap it in quotes.
 
     dogit status
@@ -337,7 +337,7 @@ If the argument contains more than one word, wrap it in quotes.
 
 ### Changing your mind about the larsoft release name
 
-Sometimes you start expecting to make a bug fix release and end up making a feature release instead, or vice versa. If the larsoft release version DOES NOT match the release branch, I will make a new branch. This is to ensure that the automatically generated commit messages reference the correct larsoft release. In this example, the existing branch is release/v08\_38\_01, but the new larsoft release will actually be v08\_39\_00.
+Sometimes you start expecting to make a bug fix release and end up making a feature release instead, or vice versa. If the larsoft release version DOES NOT match the release branch, I will make a new branch. This is to ensure that the automatically generated commit messages reference the correct larsoft release. In this example, the existing branch is release/v08_38_01, but the new larsoft release will actually be v08_39_00.
 
     cd $MRB_SOURCE
     dogit branch

@@ -17,40 +17,40 @@ The type of release you are building determines how you select a working branch
 ### Tag against develop
 
 -   This is the most common option
--   cd \$MRB\_SOURCE
--   tagLAr start \$MRB\_PROJECT\_VERSION
-    -   makes a local branch: release/\$MRB\_PROJECT\_VERSION
+-   cd \$MRB_SOURCE
+-   tagLAr start \$MRB_PROJECT_VERSION
+    -   makes a local branch: release/\$MRB_PROJECT_VERSION
 
 ### Tag against an existing release
 
 -   Use this option to start a release with no changes except, for instance, a new version of art
--   cd \$MRB\_SOURCE
--   tagLAr patch \$MRB\_PROJECT\_VERSION \<existing\_tag\>
-    -   use LARSOFT\_SUITE\_vxx\_yy\_zz for the existing tag
-    -   makes a local branch: release/\$MRB\_PROJECT\_VERSION
+-   cd \$MRB_SOURCE
+-   tagLAr patch \$MRB_PROJECT_VERSION \<existing_tag\>
+    -   use LARSOFT_SUITE_vxx_yy_zz for the existing tag
+    -   makes a local branch: release/\$MRB_PROJECT_VERSION
 
 ### Make a new branch
 
 -   Use this option for release candidate and hotfix branches
--   cd \$MRB\_SOURCE
--   tagLAr branch \$MRB\_PROJECT\_VERSION \<existing\_tag\>
-    -   use LARSOFT\_SUITE\_vxx\_yy\_zz for the existing tag
-    -   makes a local branch: \$MRB\_PROJECT\_VERSION
+-   cd \$MRB_SOURCE
+-   tagLAr branch \$MRB_PROJECT_VERSION \<existing_tag\>
+    -   use LARSOFT_SUITE_vxx_yy_zz for the existing tag
+    -   makes a local branch: \$MRB_PROJECT_VERSION
 
 ### Use an existing branch
 
 -   Use this option for release candidates
--   cd \$MRB\_SOURCE
--   tagLAr use \<existing\_branch\>
-    -   checks out \<existing\_branch\>
+-   cd \$MRB_SOURCE
+-   tagLAr use \<existing_branch\>
+    -   checks out \<existing_branch\>
 
 Merge feature branches
 --------------------------------------------------
 
--   cd \$MRB\_SOURCE/\<package\>
--   git co feature/\<feature\_branch\>
--   git co release/\$MRB\_PROJECT\_VERSION
--   git merge feature/\<feature\_branch\>
+-   cd \$MRB_SOURCE/\<package\>
+-   git co feature/\<feature_branch\>
+-   git co release/\$MRB_PROJECT_VERSION
+-   git merge feature/\<feature_branch\>
 -   deal with conflicts if necessary
     -   In some cases, you may need to ask the author for help.
 -   **Make a clean build with these changes before proceeding**

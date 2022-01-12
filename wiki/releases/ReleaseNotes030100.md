@@ -1,23 +1,23 @@
-LArSoft v03\_01\_00 Release Notes
+LArSoft v03_01_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v03\_01\_00 Release Notes](#LArSoft-v03_01_00-Release-Notes)
+-   [LArSoft v03_01_00 Release Notes](#LArSoft-v03_01_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [Bug fixes](#Bug-fixes)
     -   [Known problems](#Known-problems)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v03\_01\_00](#larsoft-v03_01_00)
-    -   [lareventdisplay v03\_01\_00](#lareventdisplay-v03_01_00)
-    -   [larexamples v03\_01\_00](#larexamples-v03_01_00)
-    -   [larpandora v03\_01\_00](#larpandora-v03_01_00)
-    -   [larana v03\_01\_00](#larana-v03_01_00)
-    -   [larreco v03\_01\_00](#larreco-v03_01_00)
-    -   [larsim v03\_01\_00](#larsim-v03_01_00)
-    -   [larevt v03\_01\_00](#larevt-v03_01_00)
-    -   [lardata v03\_01\_00](#lardata-v03_01_00)
-    -   [larcore v03\_01\_00](#larcore-v03_01_00)
+    -   [larsoft v03_01_00](#larsoft-v03_01_00)
+    -   [lareventdisplay v03_01_00](#lareventdisplay-v03_01_00)
+    -   [larexamples v03_01_00](#larexamples-v03_01_00)
+    -   [larpandora v03_01_00](#larpandora-v03_01_00)
+    -   [larana v03_01_00](#larana-v03_01_00)
+    -   [larreco v03_01_00](#larreco-v03_01_00)
+    -   [larsim v03_01_00](#larsim-v03_01_00)
+    -   [larevt v03_01_00](#larevt-v03_01_00)
+    -   [lardata v03_01_00](#lardata-v03_01_00)
+    -   [larcore v03_01_00](#larcore-v03_01_00)
 
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/projects/larsoft/v03_01_00/larsoft-v03_01_00.html)
@@ -25,13 +25,13 @@ LArSoft v03\_01\_00 Release Notes
 Purpose
 --------------------
 
-Fix the bug reported in [\#7068](/redmine/issues/7068 "Bug: xrootd broken in art v1_12_00 (Closed)") and include changes to develop since the v02\_06\_02 tag.
+Fix the bug reported in [\#7068](/redmine/issues/7068 "Bug: xrootd broken in art v1_12_00 (Closed)") and include changes to develop since the v02_06_02 tag.
 
 Bug fixes
 ------------------------
 
 xrootd has been rolled back to 3.3.4.
-[https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release\_Notes\_11201](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11201)
+[https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11201](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11201)
 
 Known problems
 ----------------------------------
@@ -43,39 +43,39 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifier|Notes|
-|xrootd|v3\_3\_4b|e6|see [\#7068](/redmine/issues/7068 "Bug: xrootd broken in art v1_12_00 (Closed)")|
-|root|v5\_34\_21a|e6:nu|using xrootd v3\_3\_4b|
-|pandora|v00\_16d|e6:nu|uses root|
-|genie|v2\_8\_0k|e6|uses root|
-|art|v1\_12\_01|e6:nu|uses root|
-|nutools|v1\_06\_02|e6|uses art|
-|ifdh\_art|v1\_5\_3|e6:nu:s5|uses art|
-|artdaq\_core|v1\_03\_06|e6:nu:s5|uses art|
+|xrootd|v3_3_4b|e6|see [\#7068](/redmine/issues/7068 "Bug: xrootd broken in art v1_12_00 (Closed)")|
+|root|v5_34_21a|e6:nu|using xrootd v3_3_4b|
+|pandora|v00_16d|e6:nu|uses root|
+|genie|v2_8_0k|e6|uses root|
+|art|v1_12_01|e6:nu|uses root|
+|nutools|v1_06_02|e6|uses art|
+|ifdh_art|v1_5_3|e6:nu:s5|uses art|
+|artdaq_core|v1_03_06|e6:nu:s5|uses art|
 
 Change List
 ============================
 
-larsoft v03\_01\_00
+larsoft v03_01_00
 ------------------------------------------
 
--   2014-09-26 Lynn Garren : releaseDB/base\_dependency\_database for v03\_01\_00
+-   2014-09-26 Lynn Garren : releaseDB/base_dependency_database for v03_01_00
 
-lareventdisplay v03\_01\_00
+lareventdisplay v03_01_00
 ----------------------------------------------------------
 
 -   2014-09-26 Lynn Garren : the expected -std=c++ flag is now set by cetbuildtools
 
-larexamples v03\_01\_00
+larexamples v03_01_00
 --------------------------------------------------
 
 -   2014-09-26 Lynn Garren : the expected -std=c++ flag is now set by cetbuildtools
 
-larpandora v03\_01\_00
+larpandora v03_01_00
 ------------------------------------------------
 
 -   2014-09-26 Lynn Garren : the expected -std=c++ flag is now set by cetbuildtools
 
-larana v03\_01\_00
+larana v03_01_00
 ----------------------------------------
 
 -   2014-09-26 Lynn Garren : the expected -std=c++ flag is now set by cetbuildtools
@@ -84,7 +84,7 @@ larana v03\_01\_00
 -   2014-09-22 Sarah Lockwitz : fixing a cerr statement left in there…
 -   2014-09-22 Sarah Lockwitz : Fixing a feature in the code that did not ID cosmic tracks well outside of the detector. While we should not have this in data, it helps with studies.
 
-larreco v03\_01\_00
+larreco v03_01_00
 ------------------------------------------
 
 -   2014-09-26 Lynn Garren : the expected -std=c++ flag is now set by cetbuildtools
@@ -103,20 +103,20 @@ larreco v03\_01\_00
 -   2014-09-23 Brian Rebel : use best practices with FindMany(P) and move the declaration of the FindMany(P) objects out of loops. Do that by keeping track of the indices of the different objects in the handle and use those when calling theFindMany(P)::at() method
 -   2014-09-22 Brian Rebel : update to best practices with using FindManyP
 
-larsim v03\_01\_00
+larsim v03_01_00
 ----------------------------------------
 
 -   2014-09-26 Lynn Garren : the expected -std=c++ flag is now set by cetbuildtools
 -   2014-09-23 Thomas Junk : call MCParticle constructor with arguments including the mass for alpha particles since alphas are not in the TDatabasePDG and do not get their mass put in automatically.
--   2014-09-23 Thomas Junk : Add a dependency on larsoft\_data
--   2014-09-22 Thomas Junk : Upgrade to read in spectra from root files in FW\_SEARCH\_PATH/Radonuclides Random number generators are all from CLHEP – recode the root TH1::GetRandom to use the larsoft-managed CLHEP generators.
+-   2014-09-23 Thomas Junk : Add a dependency on larsoft_data
+-   2014-09-22 Thomas Junk : Upgrade to read in spectra from root files in FW_SEARCH_PATH/Radonuclides Random number generators are all from CLHEP – recode the root TH1::GetRandom to use the larsoft-managed CLHEP generators.
 
-larevt v03\_01\_00
+larevt v03_01_00
 ----------------------------------------
 
 -   2014-09-26 Lynn Garren : the expected -std=c++ flag is now set by cetbuildtools
 
-lardata v03\_01\_00
+lardata v03_01_00
 ------------------------------------------
 
 -   2014-09-26 Lynn Garren : the expected -std=c++ flag is now set by cetbuildtools
@@ -124,7 +124,7 @@ lardata v03\_01\_00
 -   2014-09-23 Lynn Garren : explicit matching of units
 -   2014-09-22 Lynn Garren : iostream needs to be explicitly included if std::cout is used
 
-larcore v03\_01\_00
+larcore v03_01_00
 ------------------------------------------
 
 -   2014-09-26 Lynn Garren : the expected -std=c++ flag is now set by cetbuildtools

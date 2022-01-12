@@ -4,11 +4,11 @@
     -   [MCCheater](#MCCheater)
         -   [Use cases for the MCCheater](#Use-cases-for-the-MCCheater)
         -   [source:trunk/MCCheater/BackTracker.h](#sourcetrunkMCCheaterBackTrackerh)
-        -   [source:trunk/ClusterFinder/ClusterCheater\_module.cc](#sourcetrunkClusterFinderClusterCheater_modulecc)
-        -   [source:trunk/TrackFinder/TrackCheater\_module.cc and source:trunk/ShowerFinder/ShowerCheater\_module.cc](#sourcetrunkTrackFinderTrackCheater_modulecc-and-sourcetrunkShowerFinderShowerCheater_modulecc)
-        -   [source:trunk/VertexFinder/VertexCheater\_module.cc](#sourcetrunkVertexFinderVertexCheater_modulecc)
-        -   [source:trunk/EventFinder/EventCheater\_module.cc](#sourcetrunkEventFinderEventCheater_modulecc)
-        -   [source:trunk/MCCheater/RecoCheckAna\_module.cc](#sourcetrunkMCCheaterRecoCheckAna_modulecc)
+        -   [source:trunk/ClusterFinder/ClusterCheater_module.cc](#sourcetrunkClusterFinderClusterCheater_modulecc)
+        -   [source:trunk/TrackFinder/TrackCheater_module.cc and source:trunk/ShowerFinder/ShowerCheater_module.cc](#sourcetrunkTrackFinderTrackCheater_modulecc-and-sourcetrunkShowerFinderShowerCheater_modulecc)
+        -   [source:trunk/VertexFinder/VertexCheater_module.cc](#sourcetrunkVertexFinderVertexCheater_modulecc)
+        -   [source:trunk/EventFinder/EventCheater_module.cc](#sourcetrunkEventFinderEventCheater_modulecc)
+        -   [source:trunk/MCCheater/RecoCheckAna_module.cc](#sourcetrunkMCCheaterRecoCheckAna_modulecc)
         -   [Using the MCCheater](#Using-the-MCCheater)
 
 Backtracking the simulation
@@ -53,12 +53,12 @@ Typically one would use only the `BackTracker::HitToEveID` and `BackTracker::Hit
 
 An example of how to use these methods can be found in [source:trunk/MCCheater/CheckBackTracking.cxx](/redmine/projects/larsoft/repository/entry/trunk/MCCheater/CheckBackTracking.cxx).
 
-### [source:trunk/ClusterFinder/ClusterCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/ClusterFinder/ClusterCheater_module.cc)
+### [source:trunk/ClusterFinder/ClusterCheater_module.cc](/redmine/projects/larsoft/repository/entry/trunk/ClusterFinder/ClusterCheater_module.cc)
 
 This module produces recob::Cluster objects from previously reconstructed recob::Hit objects. The fID data member for the clusters encodes the Eve particle track ID from LArG4 along with the plane number from which the recob::Hits originate:
 `ID = (Eve track ID)*1000 + (plane number)`.
 
-### [source:trunk/TrackFinder/TrackCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/TrackFinder/TrackCheater_module.cc) and [source:trunk/ShowerFinder/ShowerCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/ShowerFinder/ShowerCheater_module.cc)
+### [source:trunk/TrackFinder/TrackCheater_module.cc](/redmine/projects/larsoft/repository/entry/trunk/TrackFinder/TrackCheater_module.cc) and [source:trunk/ShowerFinder/ShowerCheater_module.cc](/redmine/projects/larsoft/repository/entry/trunk/ShowerFinder/ShowerCheater_module.cc)
 
 These modules produce recob::Track and recob::Shower objects using the cheated recob::Cluster objects. It groups the recob::Clusters from each Eve particle into recob::Prong derived objects. The ID of the created objects is the track ID of the Eve particle from LArG4.
 
@@ -66,15 +66,15 @@ Each recob::Prong object must take a collection of recob::SpacePoints in its con
 `ID = (Eve track ID)*10000 + (index of hit in cluster)`
 The recob::SpacePoints take only one recob::Hit in their constructor as this is perfect reconstruction.
 
-### [source:trunk/VertexFinder/VertexCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/VertexFinder/VertexCheater_module.cc)
+### [source:trunk/VertexFinder/VertexCheater_module.cc](/redmine/projects/larsoft/repository/entry/trunk/VertexFinder/VertexCheater_module.cc)
 
 This module produces recob::Vertex objects using the cheated recob::Prong derived objects. The ID of the recob::Vertex object is the Eve particle track ID from LArG4.
 
-### [source:trunk/EventFinder/EventCheater\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/EventFinder/EventCheater_module.cc)
+### [source:trunk/EventFinder/EventCheater_module.cc](/redmine/projects/larsoft/repository/entry/trunk/EventFinder/EventCheater_module.cc)
 
 This module produces recob::Event objects using the cheated recob::Vertex object. The ID of the recob::Event object is the art::ProductID of the MCTruth object corresponding to this event.
 
-### [source:trunk/MCCheater/RecoCheckAna\_module.cc](/redmine/projects/larsoft/repository/entry/trunk/MCCheater/RecoCheckAna_module.cc)
+### [source:trunk/MCCheater/RecoCheckAna_module.cc](/redmine/projects/larsoft/repository/entry/trunk/MCCheater/RecoCheckAna_module.cc)
 
 This module makes use of the `BackTracker::HitCollectionPurity` and `BackTracker::HitCollectionEfficiency` methods to check the performance of the reconstruction for any type of RecoBase object. It can be configured to test any of the RecoBase objects, ie Clusters, Tracks, Showers, Vertices, and Events. The module produces output histograms for the efficiency and purity of each type of object tested.
 
@@ -103,6 +103,6 @@ and
 
     ana:   [ check ]
 
-Then make sure to add the ana path to your end\_paths list,
+Then make sure to add the ana path to your end_paths list,
 
     end_paths:      [ ana, stream1   ]

@@ -18,8 +18,8 @@ The LArSoft event display strategy is to provide support for community developed
     Runs in gallery. The container solution (built to SLF7) will run on windows, OSX and linux in docker.
     Being used by ICARUS. Works for MicroBooNE, ArguNeut and possibly DUNE.
     Native 2D displays of low-level data. See
-    [https://sbnsoftware.github.io/icaruscode\_wiki/EventDisplay/titus\_event\_display.html](https://sbnsoftware.github.io/icaruscode_wiki/EventDisplay/titus_event_display.html)
-    [https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/TITUS\_Event\_Display](https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/TITUS_Event_Display) and
+    [https://sbnsoftware.github.io/icaruscode_wiki/EventDisplay/titus_event_display.html](https://sbnsoftware.github.io/icaruscode_wiki/EventDisplay/titus_event_display.html)
+    [https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/TITUS_Event_Display](https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/TITUS_Event_Display) and
     [https://arxiv.org/abs/2007.06517](https://arxiv.org/abs/2007.06517) for more information.
 3.  WebEVD (using three.js/WebGL for access to OpenGL)
     Lead developer: Chris Backhouse
@@ -27,7 +27,7 @@ The LArSoft event display strategy is to provide support for community developed
     Runs in LArSoft & Gallery.
     2D display of the raw digits is provided by rotating to the correct angle and using an orthographic projection.
     UPS product distributed with LArSoft.
-    Redmine page: [https://cdcvs.fnal.gov/redmine/projects/dunetpc/wiki/Instructions\_for\_WebEVD](https://cdcvs.fnal.gov/redmine/projects/dunetpc/wiki/Instructions_for_WebEVD)
+    Redmine page: [https://cdcvs.fnal.gov/redmine/projects/dunetpc/wiki/Instructions_for_WebEVD](https://cdcvs.fnal.gov/redmine/projects/dunetpc/wiki/Instructions_for_WebEVD)
     From the CERN collaboration meeting in January, 2020: [https://cdcvs.fnal.gov/redmine/attachments/62229/webevd.pdf](https://cdcvs.fnal.gov/redmine/attachments/62229/webevd.pdf)
 4.  EVE based for SBND
     Lead developer: Umut Kose
@@ -47,6 +47,6 @@ The LArSoft event display strategy is to provide support for community developed
     Experiment-agnostic, browser-based display that relies on event serialization via JSON. It allows for a shared code base.
     No known demonstration with LArSoft data.
     Does not run in LArSoft or gallery.
-    Presentation: [https://indico.cern.ch/event/916410/contributions/3852667/attachments/2051044/3437881/Phoenix\_HSF\_04062020.pdf](https://indico.cern.ch/event/916410/contributions/3852667/attachments/2051044/3437881/Phoenix_HSF_04062020.pdf)
+    Presentation: [https://indico.cern.ch/event/916410/contributions/3852667/attachments/2051044/3437881/Phoenix_HSF_04062020.pdf](https://indico.cern.ch/event/916410/contributions/3852667/attachments/2051044/3437881/Phoenix_HSF_04062020.pdf)
 
-VNC provides a remote window to easily view GUIs from a remote machine with very little delayed response. Instructions are available at: [https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/Viewing\_events\_remotely\_with\_VNC](https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/Viewing_events_remotely_with_VNC)
+VNC provides a remote window to easily view GUIs from a remote machine with very little delayed response. Instructions are available at: [https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/Viewing_events_remotely_with_VNC](https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/Viewing_events_remotely_with_VNC)

@@ -166,7 +166,7 @@ References to other redmine locations
 -   **issue trackers**: `issue #1083` renders as: issue [\#1083](/redmine/issues/1083 "Bug: filter::ChannelFilter should be made into a service (Closed)") (grayed and barred if closed); the numbering is unique within Fermilab Redmine
 -   **source code**:
     -   `source:bin/CMakeLists.txt` renders as: [source:bin/CMakeLists.txt](/redmine/projects/larsoft/repository/entry/bin/CMakeLists.txt)
-    -   `lardata:source:ups/product_deps` renders as: [lardata:source:ups/product\_deps](/redmine/projects/lardata/repository/entry/ups/product_deps)
+    -   `lardata:source:ups/product_deps` renders as: [lardata:source:ups/product_deps](/redmine/projects/lardata/repository/entry/ups/product_deps)
 -   **commits**: `lardata:commit:ce08cb0c03376890c3e9339edf95d9ce10ffb377` or shortened `lardata:commit:ce08cb0` render as [lardata:ce08cb0c03376890c3e9339edf95d9ce10ffb377](/redmine/projects/lardata/repository/revisions/ce08cb0c03376890c3e9339edf95d9ce10ffb377 "lardata v06_27_00 for larsoft v06_48_00") and [lardata:ce08cb0](/redmine/projects/lardata/repository/revisions/ce08cb0c03376890c3e9339edf95d9ce10ffb377 "lardata v06_27_00 for larsoft v06_48_00") respectively (both point to the same place)
 -   **wiki pages**: the labels can be obtained from the page and section titles, removing all “special” characters
     -   `[[art:]]` points to the main wiki page of *art* Redmine project: [art](/redmine/projects/art/wiki) (`[[art:|art wiki]]` typesets the specified label: [art wiki](/redmine/projects/art/wiki))
@@ -175,7 +175,7 @@ References to other redmine locations
     -   `[[art:Configuration validation and description]]` points to a specific wiki page of the redmine project *art*: [Configuration validation and description](/redmine/projects/art/wiki/Configuration_validation_and_description) (label syntax available as above)
 -   **projects**: `project:art` renders as [art](/redmine/projects/art)
 -   **versions**: versions are declared in the `Settings` panel of a Redmine project
-    -   `version:v06_49_00` renders as [v06\_49\_00](/redmine/versions/1370)
+    -   `version:v06_49_00` renders as [v06_49_00](/redmine/versions/1370)
     -   `art:version:2.09.00` renders as [2.09.00](/redmine/versions/1352)
 
 Custom macro test
@@ -183,10 +183,10 @@ Custom macro test
 
 *(this is currently incorrect or not working)*
 
-macro :my\_macro, :desc =\> ‘This is a custom macro’ do |obj, args| \# args is an array \# and this macro does not accept a block of text
+macro :my_macro, :desc =\> ‘This is a custom macro’ do |obj, args| \# args is an array \# and this macro does not accept a block of text
 end
 
-{{my\_macro}}
+{{my_macro}}
 
 Collapsing text
 ------------------------------------

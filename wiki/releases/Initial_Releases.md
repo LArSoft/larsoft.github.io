@@ -1,4 +1,4 @@
-Initial Releases: v1\_xx\_yy and beta
+Initial Releases: v1_xx_yy and beta
 =============================================================================
 
 Release
@@ -17,7 +17,7 @@ v1.00.08
 
 04/24/2014
 
-Full tag before building with art v1\_09\_02
+Full tag before building with art v1_09_02
 
 [Release Notes 1.00.08](Release_Notes_10008)
 

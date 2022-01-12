@@ -1,10 +1,10 @@
 -   **Table of contents**
--   [Using find\_global\_symbol.sh to find unresolved symbols](#Using-find_global_symbolsh-to-find-unresolved-symbols)
+-   [Using find_global_symbol.sh to find unresolved symbols](#Using-find_global_symbolsh-to-find-unresolved-symbols)
     -   [How to know what library is needed to resolve a linking problem](#How-to-know-what-library-is-needed-to-resolve-a-linking-problem)
     -   [Command line options](#Command-line-options)
     -   [Symbol types (per “nm”)](#Symbol-types-per-nm)
 
-Using find\_global\_symbol.sh to find unresolved symbols
+Using find_global_symbol.sh to find unresolved symbols
 ===================================================================================================================
 
 How to know what library is needed to resolve a linking problem
@@ -13,7 +13,7 @@ How to know what library is needed to resolve a linking problem
 How often have you encountered an error such as: `` undefined reference to `typeinfo for simb::MCParticle' ``?
 Where do you start looking for this? There are hundreds of libraries, it could be in any one of them.
 
-Here’s a solution: setup the `larutils` UPS product ( \> v1\_20\_08 ) (or down load the script below) and use:
+Here’s a solution: setup the `larutils` UPS product ( \> v1_20_08 ) (or down load the script below) and use:
 
     find_global_symbol.sh [-d] [-f] [-a] [-u] [-v] [-t] [-h] <symbol>
 

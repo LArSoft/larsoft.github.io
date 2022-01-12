@@ -1,8 +1,8 @@
-How to tag and build a LArSoft vx\_yy\_zz release
+How to tag and build a LArSoft vx_yy_zz release
 ======================================================================================================
 
 -   **Table of contents**
--   [How to tag and build a LArSoft vx\_yy\_zz release](#How-to-tag-and-build-a-LArSoft-vx_yy_zz-release)
+-   [How to tag and build a LArSoft vx_yy_zz release](#How-to-tag-and-build-a-LArSoft-vx_yy_zz-release)
     -   [Overview of Building a LArSoft Release](#Overview-of-Building-a-LArSoft-Release)
     -   [Informal list of experiment contacts](#Informal-list-of-experiment-contacts)
     -   [Archival instructions for working with redmine repositories.](#Archival-instructions-for-working-with-redmine-repositories)

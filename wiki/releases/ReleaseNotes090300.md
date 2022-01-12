@@ -1,40 +1,40 @@
-LArSoft v09\_03\_00 Release Notes
+LArSoft v09_03_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v09\_03\_00 Release Notes](#LArSoft-v09_03_00-Release-Notes)
+-   [LArSoft v09_03_00 Release Notes](#LArSoft-v09_03_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v09\_03\_00](#larsoft-v09_03_00)
-    -   [lareventdisplay v09\_00\_04](#lareventdisplay-v09_00_04)
-    -   [larexamples v09\_00\_04](#larexamples-v09_00_04)
-    -   [larg4 v09\_00\_04](#larg4-v09_00_04)
-    -   [larpandora v09\_01\_00](#larpandora-v09_01_00)
-    -   [larsimrad v09\_00\_04](#larsimrad-v09_00_04)
-    -   [larrecodnn v09\_00\_04](#larrecodnn-v09_00_04)
-    -   [larwirecell v09\_01\_01](#larwirecell-v09_01_01)
-    -   [larana v09\_00\_04](#larana-v09_00_04)
-    -   [larreco v09\_01\_00](#larreco-v09_01_00)
-    -   [larsim v09\_02\_01](#larsim-v09_02_01)
-    -   [larevt v09\_00\_04](#larevt-v09_00_04)
-    -   [lardata v09\_00\_04](#lardata-v09_00_04)
-    -   [larcore v09\_00\_00](#larcore-v09_00_00)
-    -   [larpandoracontent v03\_19\_03](#larpandoracontent-v03_19_03)
-    -   [larsoftobj v09\_00\_04](#larsoftobj-v09_00_04)
-    -   [lardataobj v09\_00\_00](#lardataobj-v09_00_00)
-    -   [lardataalg v09\_00\_04](#lardataalg-v09_00_04)
-    -   [larcorealg v09\_00\_00](#larcorealg-v09_00_00)
-    -   [larcoreobj v09\_00\_00](#larcoreobj-v09_00_00)
-    -   [webevd v09\_00\_04](#webevd-v09_00_04)
-    -   [larbatch v01\_53\_01](#larbatch-v01_53_01)
-    -   [larutils v1\_26\_01](#larutils-v1_26_01)
+    -   [larsoft v09_03_00](#larsoft-v09_03_00)
+    -   [lareventdisplay v09_00_04](#lareventdisplay-v09_00_04)
+    -   [larexamples v09_00_04](#larexamples-v09_00_04)
+    -   [larg4 v09_00_04](#larg4-v09_00_04)
+    -   [larpandora v09_01_00](#larpandora-v09_01_00)
+    -   [larsimrad v09_00_04](#larsimrad-v09_00_04)
+    -   [larrecodnn v09_00_04](#larrecodnn-v09_00_04)
+    -   [larwirecell v09_01_01](#larwirecell-v09_01_01)
+    -   [larana v09_00_04](#larana-v09_00_04)
+    -   [larreco v09_01_00](#larreco-v09_01_00)
+    -   [larsim v09_02_01](#larsim-v09_02_01)
+    -   [larevt v09_00_04](#larevt-v09_00_04)
+    -   [lardata v09_00_04](#lardata-v09_00_04)
+    -   [larcore v09_00_00](#larcore-v09_00_00)
+    -   [larpandoracontent v03_19_03](#larpandoracontent-v03_19_03)
+    -   [larsoftobj v09_00_04](#larsoftobj-v09_00_04)
+    -   [lardataobj v09_00_00](#lardataobj-v09_00_00)
+    -   [lardataalg v09_00_04](#lardataalg-v09_00_04)
+    -   [larcorealg v09_00_00](#larcorealg-v09_00_00)
+    -   [larcoreobj v09_00_00](#larcoreobj-v09_00_00)
+    -   [webevd v09_00_04](#webevd-v09_00_04)
+    -   [larbatch v01_53_01](#larbatch-v01_53_01)
+    -   [larutils v1_26_01](#larutils-v1_26_01)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09\_03\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_03_00/larsoft-v09_03_00.html)
-Download instructions for [just larsoftobj v09\_00\_04](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_00_04/larsoftobj-v09_00_04.html)
+Download instructions for [larsoft v09_03_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_03_00/larsoft-v09_03_00.html)
+Download instructions for [just larsoftobj v09_00_04](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_00_04/larsoftobj-v09_00_04.html)
 
 Purpose
 --------------------
@@ -56,8 +56,8 @@ New features
     -   Numerous small bug fixes
     -   PandoraModularShowerCreation will exist along slide PandoraShowerCreation so should be a non breaking change. Experiments will have to opt in to use the modular shower creation, people have been identified to handle this for SBND, ICARUS and DUNE FD and feature branches for the experiment specific repos will be made available.
     -   **This is a breaking change**
-        -   SBND: feature/etyley\_pandoraShower
-        -   ICARUS: feature/howard\_pandorashower\_v09\_01\_00
+        -   SBND: feature/etyley_pandoraShower
+        -   ICARUS: feature/howard_pandorashower_v09_01_00
         -   dunetpc will also want to make changes
 
 Bug fixes
@@ -69,45 +69,45 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   geant4reweight v01\_04\_00
+-   geant4reweight v01_04_00
 
 Change List
 ============================
 
-larsoft v09\_03\_00
+larsoft v09_03_00
 ------------------------------------------
 
--   2020-09-17 Lynn Garren : larsoft v09\_03\_00 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larsoft v09_03_00 for larsoft v09_03_00
 -   2020-09-17 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_04
+lareventdisplay v09_00_04
 ----------------------------------------------------------
 
--   2020-09-17 Lynn Garren : lareventdisplay v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : lareventdisplay v09_00_04 for larsoft v09_03_00
 
-larexamples v09\_00\_04
+larexamples v09_00_04
 --------------------------------------------------
 
--   2020-09-17 Lynn Garren : larexamples v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larexamples v09_00_04 for larsoft v09_03_00
 
-larg4 v09\_00\_04
+larg4 v09_00_04
 --------------------------------------
 
--   2020-09-17 Lynn Garren : larg4 v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larg4 v09_00_04 for larsoft v09_03_00
 
-larpandora v09\_01\_00
+larpandora v09_01_00
 ------------------------------------------------
 
--   2020-09-17 Lynn Garren : larpandora v09\_01\_00 for larsoft v09\_03\_00
--   2020-09-17 Lynn Garren : Merge branch ‘feature/PandoraModularShowerReconstruction’ into release/v09\_03\_00
--   2020-09-09 Edward Tyley : Update to LArSoft v09\_01\_00
+-   2020-09-17 Lynn Garren : larpandora v09_01_00 for larsoft v09_03_00
+-   2020-09-17 Lynn Garren : Merge branch ‘feature/PandoraModularShowerReconstruction’ into release/v09_03_00
+-   2020-09-09 Edward Tyley : Update to LArSoft v09_01_00
 -   2020-08-27 Edward Tyley : Swapped exception to error to make ut run on cosmics
 -   2020-08-27 Edward Tyley : Swap TMath, and unqualified, for std math
 -   2020-08-27 Edward Tyley : Updates for LArSoft v09 thread safe detector property services
 -   2020-08-03 Edward Tyley : Fix comparisons to make it run
 -   2020-08-03 Edward Tyley : Tidied CMakeLists
 -   2020-08-03 Edward Tyley : Improved const correctness
--   2020-07-30 Edward Tyley : Kyles PR changes part 2: Updated the shower element holder and produced ptrs holder to improve search efficiency, use make\_unique and remove returns after exceptions
+-   2020-07-30 Edward Tyley : Kyles PR changes part 2: Updated the shower element holder and produced ptrs holder to improve search efficiency, use make_unique and remove returns after exceptions
 -   2020-07-30 Edward Tyley : Remove destructors of inerited tools
 -   2020-07-30 Edward Tyley : Kyle PR changes part 1: Changed getByLabel to getValidHandle (Needed to change getFindManyP) Tidied nested namespaces Changed to cet::demangle to get type names Changed NULL to nullptr Removed returns directly after exeptions (the easy ones at least) Changed empty vector check to use empty rather than size
 -   2020-07-29 Edward Tyley : Fixed getting name of templated type to build with clang
@@ -153,85 +153,85 @@ larpandora v09\_01\_00
 -   2020-05-12 Edward Tyley : Added fcls, tidied and updated dependancies to remove rouge larreco tracs reference
 -   2020-05-11 Edward Tyley : First build of TRACS to LArPandoraModularShowerCreation
 
-larsimrad v09\_00\_04
+larsimrad v09_00_04
 ----------------------------------------------
 
--   2020-09-17 Lynn Garren : larsimrad v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larsimrad v09_00_04 for larsoft v09_03_00
 
-larrecodnn v09\_00\_04
+larrecodnn v09_00_04
 ------------------------------------------------
 
--   2020-09-17 Lynn Garren : larrecodnn v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larrecodnn v09_00_04 for larsoft v09_03_00
 
-larwirecell v09\_01\_01
+larwirecell v09_01_01
 --------------------------------------------------
 
--   2020-09-17 Lynn Garren : larwirecell v09\_01\_01 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larwirecell v09_01_01 for larsoft v09_03_00
 
-larana v09\_00\_04
+larana v09_00_04
 ----------------------------------------
 
--   2020-09-17 Lynn Garren : larana v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larana v09_00_04 for larsoft v09_03_00
 
-larreco v09\_01\_00
+larreco v09_01_00
 ------------------------------------------
 
--   2020-09-17 Lynn Garren : larreco v09\_01\_00 for larsoft v09\_03\_00
--   2020-09-17 Lynn Garren : Merge branch ‘feature/etyley\_PandoraShower’ into release/v09\_03\_00
--   2020-09-09 Edward Tyley : Update to LArSoft v09\_01\_00
+-   2020-09-17 Lynn Garren : larreco v09_01_00 for larsoft v09_03_00
+-   2020-09-17 Lynn Garren : Merge branch ‘feature/etyley_PandoraShower’ into release/v09_03_00
+-   2020-09-09 Edward Tyley : Update to LArSoft v09_01_00
 -   2020-05-12 Edward Tyley : Removed TRACS
 
-larsim v09\_02\_01
+larsim v09_02_01
 ----------------------------------------
 
--   2020-09-17 Lynn Garren : larsim v09\_02\_01 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larsim v09_02_01 for larsoft v09_03_00
 
-larevt v09\_00\_04
+larevt v09_00_04
 ----------------------------------------
 
--   2020-09-17 Lynn Garren : larevt v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larevt v09_00_04 for larsoft v09_03_00
 
-lardata v09\_00\_04
+lardata v09_00_04
 ------------------------------------------
 
--   2020-09-17 Lynn Garren : lardata v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : lardata v09_00_04 for larsoft v09_03_00
 
-larcore v09\_00\_00
+larcore v09_00_00
 ------------------------------------------
 
-larpandoracontent v03\_19\_03
+larpandoracontent v03_19_03
 --------------------------------------------------------------
 
-larsoftobj v09\_00\_04
+larsoftobj v09_00_04
 ------------------------------------------------
 
--   2020-09-17 Lynn Garren : larsoftobj v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : larsoftobj v09_00_04 for larsoft v09_03_00
 -   2020-09-17 Lynn Garren : product versions
 
-lardataobj v09\_00\_00
+lardataobj v09_00_00
 ------------------------------------------------
 
-lardataalg v09\_00\_04
+lardataalg v09_00_04
 ------------------------------------------------
 
--   2020-09-17 Lynn Garren : lardataalg v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : lardataalg v09_00_04 for larsoft v09_03_00
 -   2020-09-17 Lynn Garren : remove old comment
--   2020-09-17 Lynn Garren : Merge pull request \#11 from PetrilloAtWork/feature/gp\_detInfoDoc
+-   2020-09-17 Lynn Garren : Merge pull request \#11 from PetrilloAtWork/feature/gp_detInfoDoc
 -   2020-09-16 Gianluca Petrillo : Added necessary documentation on the new DetectorClocks system.
 
-larcorealg v09\_00\_00
+larcorealg v09_00_00
 ------------------------------------------------
 
-larcoreobj v09\_00\_00
+larcoreobj v09_00_00
 ------------------------------------------------
 
-webevd v09\_00\_04
+webevd v09_00_04
 ----------------------------------------
 
--   2020-09-17 Lynn Garren : webevd v09\_00\_04 for larsoft v09\_03\_00
+-   2020-09-17 Lynn Garren : webevd v09_00_04 for larsoft v09_03_00
 
-larbatch v01\_53\_01
+larbatch v01_53_01
 --------------------------------------------
 
-larutils v1\_26\_01
+larutils v1_26_01
 ------------------------------------------

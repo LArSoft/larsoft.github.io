@@ -25,11 +25,11 @@ There is no default version, so you have to specify the version on the setup lin
     ups list -aK+ allinea
     setup allinea <version>
 
-The above is obsolete. Now you just need to setup forge\_tools:
+The above is obsolete. Now you just need to setup forge_tools:
 
     setup forge_tools
 
-If you need to install Allinea forge on a computer that doesn’t yet have it using `upd`, follow the instructions here: [https://cdcvs.fnal.gov/redmine/projects/art/wiki/Getting\_started\_with\_Allinea\_MAP\_and\_DDT](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Getting_started_with_Allinea_MAP_and_DDT)
+If you need to install Allinea forge on a computer that doesn’t yet have it using `upd`, follow the instructions here: [https://cdcvs.fnal.gov/redmine/projects/art/wiki/Getting_started_with_Allinea_MAP_and_DDT](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Getting_started_with_Allinea_MAP_and_DDT)
 
 The debugger is called `ddt`, and it has built-in help for starting it
 
@@ -77,7 +77,7 @@ Any directories or files added are saved and restored when you use the Save Sess
 
 There doesn’t seem to be a way to do a recursive check (e.g. by setting /products as the source dir), but ddt does remember the settings for a given executable from session to session. You may need to clear out the .allinea/autosaves directory if you change the version of a package you use.
 
-Experiments can add to their environment setup the setting of an environment variable which turns all the XXX\_DIR environment variables into a path-like variable with \$XXXX\_DIR/source/XXX, where that directory exists.
+Experiments can add to their environment setup the setting of an environment variable which turns all the XXX_DIR environment variables into a path-like variable with \$XXXX_DIR/source/XXX, where that directory exists.
 
 ### Console output of the job
 

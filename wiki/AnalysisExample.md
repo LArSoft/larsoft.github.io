@@ -69,7 +69,7 @@ Set up a working directory
 
 This is described in the [quick-start guide](_Quick-start_guide_to_using_and_developing_LArSoft_code_). You’ll typically be working with files created by a specific release of LArSoft.
 
-In this example, I’ll assume you want your working directory to be `lardev` in your home directory, and you plan to work on files created with release v06\_44\_00. I’m also going to use shell variables when I can, so you can see what’s optional and what you can easily change. Let’s set up this brand-new development directory:
+In this example, I’ll assume you want your working directory to be `lardev` in your home directory, and you plan to work on files created with release v06_44_00. I’m also going to use shell variables when I can, so you can see what’s optional and what you can easily change. Let’s set up this brand-new development directory:
 
     source /nevis/amsterdam/share/seligman/microboone/setup_uboone.sh
     # At Fermilab, use these commands:
@@ -142,7 +142,7 @@ Why not? Because if you were to `git push` any of the those changes, they’d af
 
 As noted above, the mrb+git system organizes packages (e.g., HitFinder, ClusterFinder) into groups or products that can be set up with [UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/UPSV4TOC) (e.g., `larreco`); here’s a list of the [groups](_LArSoft_repositories_packages_and_dependencies_). I’m going to assume that you’ll create a product of your own. Let’s call it `myntuples`; product names must be in lower-case.
 
-In your product will be all the ntuple packages you’re going to create based on AnalysisExample; e.g., MyEnergyStudy, MyEfficiencyHistograms. Or perhaps you’ll just create one package, but with many modules; e.g., create a MyNtuples package and within it create files like MyEnergyStudy\_module.cc, MyEfficiencyHistograms\_module.cc. Either approach will work.
+In your product will be all the ntuple packages you’re going to create based on AnalysisExample; e.g., MyEnergyStudy, MyEfficiencyHistograms. Or perhaps you’ll just create one package, but with many modules; e.g., create a MyNtuples package and within it create files like MyEnergyStudy_module.cc, MyEfficiencyHistograms_module.cc. Either approach will work.
 
 ### Create a product
 
@@ -254,7 +254,7 @@ Go ahead and compile. You’ll see your new product being compiled as well. Afte
 
 ### Does it work?
 
-Read the file README.md, which will lead you to ADDITIONAL\_NOTES.md, which in turn will take you to the rest of the files in the directory. There’s lots of comments to get you started. These files are in `${MRB_SOURCE}/${myProject}/${myProject}/${myPackage}`.
+Read the file README.md, which will lead you to ADDITIONAL_NOTES.md, which in turn will take you to the rest of the files in the directory. There’s lots of comments to get you started. These files are in `${MRB_SOURCE}/${myProject}/${myProject}/${myPackage}`.
 
 Assume you have an input (or “source”) file that contains simulated and reconstructed events created by a LArSoft simulation job: `~/larwork/events.root`. Then you can run the MyEnergyStudy.fcl command file with the following (for more about the `lar` command, see [Running Jobs](_Running_Jobs_)):
 

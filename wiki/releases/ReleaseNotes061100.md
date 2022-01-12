@@ -1,8 +1,8 @@
-LArSoft v06\_11\_00 Release Notes
+LArSoft v06_11_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v06\_11\_00 Release Notes](#LArSoft-v06_11_00-Release-Notes)
+-   [LArSoft v06_11_00 Release Notes](#LArSoft-v06_11_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [Breaking Changes](#Breaking-Changes)
         -   [Code moving into nutools](#Code-moving-into-nutools)
@@ -12,21 +12,21 @@ LArSoft v06\_11\_00 Release Notes
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v06\_11\_00](#larsoft-v06_11_00)
-    -   [lareventdisplay v06\_01\_08](#lareventdisplay-v06_01_08)
-    -   [larexamples v06\_00\_12](#larexamples-v06_00_12)
-    -   [larpandora v06\_01\_03](#larpandora-v06_01_03)
-    -   [larana v06\_03\_00](#larana-v06_03_00)
-    -   [larreco v06\_08\_00](#larreco-v06_08_00)
-    -   [larsim v06\_05\_00](#larsim-v06_05_00)
-    -   [larevt v06\_03\_01](#larevt-v06_03_01)
-    -   [lardata v06\_07\_00](#lardata-v06_07_00)
-    -   [larcore v06\_02\_03](#larcore-v06_02_03)
-    -   [larsoftobj v1\_07\_00](#larsoftobj-v1_07_00)
-    -   [lardataobj v1\_07\_00](#lardataobj-v1_07_00)
-    -   [larcoreobj v1\_05\_00](#larcoreobj-v1_05_00)
-    -   [larbatch v01\_23\_07](#larbatch-v01_23_07)
-    -   [larutils v1\_09\_01](#larutils-v1_09_01)
+    -   [larsoft v06_11_00](#larsoft-v06_11_00)
+    -   [lareventdisplay v06_01_08](#lareventdisplay-v06_01_08)
+    -   [larexamples v06_00_12](#larexamples-v06_00_12)
+    -   [larpandora v06_01_03](#larpandora-v06_01_03)
+    -   [larana v06_03_00](#larana-v06_03_00)
+    -   [larreco v06_08_00](#larreco-v06_08_00)
+    -   [larsim v06_05_00](#larsim-v06_05_00)
+    -   [larevt v06_03_01](#larevt-v06_03_01)
+    -   [lardata v06_07_00](#lardata-v06_07_00)
+    -   [larcore v06_02_03](#larcore-v06_02_03)
+    -   [larsoftobj v1_07_00](#larsoftobj-v1_07_00)
+    -   [lardataobj v1_07_00](#lardataobj-v1_07_00)
+    -   [larcoreobj v1_05_00](#larcoreobj-v1_05_00)
+    -   [larbatch v01_23_07](#larbatch-v01_23_07)
+    -   [larutils v1_09_01](#larutils-v1_09_01)
 
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_11_00/larsoft-v06_11_00.html)
@@ -36,8 +36,8 @@ Purpose
 
 -   art 2.04.01, nutools 2.06.01, and ifdhc 2.0.0
 -   calorimetry reorganization
--   changes to develop since v06\_09\_00
--   NOTE that we are skipping v06\_10\_00 to avoid confusion with the release candidates.
+-   changes to develop since v06_09_00
+-   NOTE that we are skipping v06_10_00 to avoid confusion with the release candidates.
 
 Breaking Changes
 --------------------------------------
@@ -66,7 +66,7 @@ In order to remove algorithm code from lardata, we are making the following chan
 
 ### Experiment code
 
--   Required changes for argoneutcode, dunetpc, lariatsoft, and uboonecode are in feature/for\_v06\_11\_00
+-   Required changes for argoneutcode, dunetpc, lariatsoft, and uboonecode are in feature/for_v06_11_00
 
 ### Updating user code
 
@@ -82,54 +82,54 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2\_06\_01|e10|[NuTools\_Release\_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_01)|
-|ifdhc|v2\_0\_0|e10:p2711|[ifdh version 2](/redmine/projects/ifdhc/wiki/IFDH_Version_2_Major_Release)|
-|ifdh\_art|v2\_00\_00|e10:nu:s44||
-|artdaq\_core|v1\_05\_08|e10:nu:s44||
-|art|v2\_04\_01|e10:nu|[Release Notes 2.04.01](/redmine/projects/art/wiki/Release_Notes_20401)|
+|nutools|v2_06_01|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_01)|
+|ifdhc|v2_0_0|e10:p2711|[ifdh version 2](/redmine/projects/ifdhc/wiki/IFDH_Version_2_Major_Release)|
+|ifdh_art|v2_00_00|e10:nu:s44||
+|artdaq_core|v1_05_08|e10:nu:s44||
+|art|v2_04_01|e10:nu|[Release Notes 2.04.01](/redmine/projects/art/wiki/Release_Notes_20401)|
 
 Change List
 ============================
 
-larsoft v06\_11\_00
+larsoft v06_11_00
 ------------------------------------------
 
--   2016-10-12 Lynn Garren : larsoft v06\_11\_00 for larsoft v06\_11\_00
+-   2016-10-12 Lynn Garren : larsoft v06_11_00 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : do our own install
 -   2016-10-12 Lynn Garren : install the scripts
 -   2016-10-12 Lynn Garren : root6 related script
 -   2016-10-12 Lynn Garren : update product versions
 -   2016-10-12 Lynn Garren : organize update scripts by release
--   2016-10-12 Lynn Garren : v06\_22\_00 update scripts
+-   2016-10-12 Lynn Garren : v06_22_00 update scripts
 -   2016-10-12 Lynn Garren : update dependency database
--   2016-10-12 Lynn Garren : ifdh\_art v2\_00\_00
+-   2016-10-12 Lynn Garren : ifdh_art v2_00_00
 -   2016-10-12 Lynn Garren : tell user what is next
 -   2016-10-12 Lynn Garren : simple move of files with history
--   2016-10-06 Lynn Garren : larsoft v06\_09\_00
+-   2016-10-06 Lynn Garren : larsoft v06_09_00
 -   2016-10-05 Lynn Garren : update dependency data base
 
-lareventdisplay v06\_01\_08
+lareventdisplay v06_01_08
 ----------------------------------------------------------
 
--   2016-10-13 Lynn Garren : lareventdisplay v06\_01\_08 for larsoft v06\_11\_00
+-   2016-10-13 Lynn Garren : lareventdisplay v06_01_08 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : reorganization
 -   2016-10-07 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lareventdisplay into develop
 -   2016-10-07 Tingjun Yang : Update evd for argoneut.
 
-larexamples v06\_00\_12
+larexamples v06_00_12
 --------------------------------------------------
 
--   2016-10-13 Lynn Garren : larexamples v06\_00\_12 for larsoft v06\_11\_00
+-   2016-10-13 Lynn Garren : larexamples v06_00_12 for larsoft v06_11_00
 
-larpandora v06\_01\_03
+larpandora v06_01_03
 ------------------------------------------------
 
--   2016-10-13 Lynn Garren : larpandora v06\_01\_03 for larsoft v06\_11\_00
+-   2016-10-13 Lynn Garren : larpandora v06_01_03 for larsoft v06_11_00
 
-larana v06\_03\_00
+larana v06_03_00
 ----------------------------------------
 
--   2016-10-13 Lynn Garren : larana v06\_03\_00 for larsoft v06\_11\_00
+-   2016-10-13 Lynn Garren : larana v06_03_00 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : reorganization
 -   2016-10-12 Lynn Garren : Calorimetry moved to larreco
 -   2016-10-12 Lynn Garren : moving Chi2PIDAlg to larana/ParticleIdentification
@@ -137,32 +137,32 @@ larana v06\_03\_00
 -   2016-09-23 Robert Sulej : add validation of fhicl parameters
 -   2016-08-03 Tingjun Yang : Exclude the first and last point in the PID calculation.
 -   2016-06-02 Lynn Garren : more changes for lardataobj
--   2016-06-02 Lynn Garren : build with lardataobj v1\_01\_01
--   2016-06-02 Lynn Garren : changes for nutools v2\_00\_00 and art v2\_00\_02
--   2016-01-15 Lynn Garren : remove LIBRARY\_NAME
+-   2016-06-02 Lynn Garren : build with lardataobj v1_01_01
+-   2016-06-02 Lynn Garren : changes for nutools v2_00_00 and art v2_00_02
+-   2016-01-15 Lynn Garren : remove LIBRARY_NAME
 -   2015-12-21 Lynn Garren : refactor lardata
 -   2015-12-18 Lynn Garren : move AnalysisAlg to lardata/AnalysisAlg
 
-larreco v06\_08\_00
+larreco v06_08_00
 ------------------------------------------
 
 -   2016-10-13 Lynn Garren : add missing libraries
--   2016-10-13 Lynn Garren : larreco v06\_08\_00 for larsoft v06\_11\_00
+-   2016-10-13 Lynn Garren : larreco v06_08_00 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : reorganization
 -   2016-10-12 Lynn Garren : BezierTrack is deprecated
 -   2016-06-02 Lynn Garren : more changes for lardataobj
--   2016-06-02 Lynn Garren : build with lardataobj v1\_01\_01
+-   2016-06-02 Lynn Garren : build with lardataobj v1_01_01
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : move RecoObjects to lardata/RecoObjects
 -   2016-06-02 Lynn Garren : more changes for lardataobj
--   2016-06-02 Lynn Garren : changes for nutools v2\_00\_00 and art v2\_00\_02
+-   2016-06-02 Lynn Garren : changes for nutools v2_00_00 and art v2_00_02
 -   2015-12-21 Lynn Garren : refactor lardata
 -   2015-12-18 Lynn Garren : move RecoObjects to lardata/RecoObjects
 -   2016-06-02 Lynn Garren : more changes for lardataobj
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : move RecoObjects to lardata/RecoObjects
 -   2016-06-02 Lynn Garren : more changes for lardataobj
--   2016-06-02 Lynn Garren : changes for nutools v2\_00\_00 and art v2\_00\_02
+-   2016-06-02 Lynn Garren : changes for nutools v2_00_00 and art v2_00_02
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : move RecoObjects to lardata/RecoObjects
 -   2016-10-12 Lynn Garren : moving CalorimetryAlg to larreco/Calorimetry
@@ -170,9 +170,9 @@ larreco v06\_08\_00
 -   2016-09-23 Robert Sulej : add validation of fhicl parameters
 -   2016-08-03 Tingjun Yang : Exclude the first and last point in the PID calculation.
 -   2016-06-02 Lynn Garren : more changes for lardataobj
--   2016-06-02 Lynn Garren : build with lardataobj v1\_01\_01
--   2016-06-02 Lynn Garren : changes for nutools v2\_00\_00 and art v2\_00\_02
--   2016-01-15 Lynn Garren : remove LIBRARY\_NAME
+-   2016-06-02 Lynn Garren : build with lardataobj v1_01_01
+-   2016-06-02 Lynn Garren : changes for nutools v2_00_00 and art v2_00_02
+-   2016-01-15 Lynn Garren : remove LIBRARY_NAME
 -   2015-12-21 Lynn Garren : refactor lardata
 -   2015-12-18 Lynn Garren : move AnalysisAlg to lardata/AnalysisAlg
 -   2016-10-12 Lynn Garren : add Calorimetry
@@ -195,7 +195,7 @@ larreco v06\_08\_00
 -   2016-02-12 Gianluca Petrillo : Core service modification applied (from scratch)
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : move Calorimetry to larana/Calorimetry
--   2016-10-10 Bruce Baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2016-10-10 Bruce Baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2016-10-10 Bruce Baller : Throw an exception if SkipAlgs isn’t configured properly. Ongoing development of Refine2DVertices. Add CheckWireHitRange. Work on EraseHit and CreateHit.
 -   2016-10-10 Bruce Baller : Remove unused routine.
 -   2016-10-10 Bruce Baller : Add EraseHit, CreateHit and CorrectTrajectoryHits. Fix bug in FindCloseHits. Don’t recalculate Chg in SetEndPoints.
@@ -243,7 +243,7 @@ larreco v06\_08\_00
 -   2016-10-02 Bruce Baller : Add EraseHit. Change call to FindCloseHits.
 -   2016-10-02 Bruce Baller : Add VtxTj and RefineVtx
 -   2016-10-02 Bruce Baller : Add VtxTj and RefineVtx
--   2016-09-30 Bruce Baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2016-09-30 Bruce Baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2016-09-30 Bruce Baller : Improve trajectory definition at the beginning and end in MergeAndStore. Work on ReversePropagate and tweaks to StepCrawl for reverse propagation. Remove unnecessary fQuitAlg in MakeJunkTraj. Add checks for validity of WireHitRange. Add charge checking in GottaKink. Remove unnecessary EndTP code.
 -   2016-09-30 Bruce Baller : Mods to FixTrajBegin and add FixTrajEnd.
 -   2016-09-30 Bruce Baller : Remove EndTP. Add code to check the validity of WireHitRange. Change FindCloseHits structure.
@@ -258,49 +258,49 @@ larreco v06\_08\_00
 -   2016-09-29 Bruce Baller : Add FindCloseHits and ReverseTraj
 -   2016-09-27 Bruce Baller : Code cleanup in AddHits.
 
-larsim v06\_05\_00
+larsim v06_05_00
 ----------------------------------------
 
--   2016-10-12 Lynn Garren : larsim v06\_05\_00 for larsoft v06\_11\_00
+-   2016-10-12 Lynn Garren : larsim v06_05_00 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : classes moved to nutools
 -   2016-10-12 Lynn Garren : these classes are now in nutools/ParticleNavigation
 
-larevt v06\_03\_01
+larevt v06_03_01
 ----------------------------------------
 
--   2016-10-13 Lynn Garren : larevt v06\_03\_01 for larsoft v06\_11\_00
+-   2016-10-13 Lynn Garren : larevt v06_03_01 for larsoft v06_11_00
 
-lardata v06\_07\_00
+lardata v06_07_00
 ------------------------------------------
 
--   2016-10-13 Lynn Garren : lardata v06\_07\_00 for larsoft v06\_11\_00
+-   2016-10-13 Lynn Garren : lardata v06_07_00 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : AnalysisAlg classes moved to larreco and larana
 -   2016-10-12 Lynn Garren : BezierTrack is deprecated
 -   2016-10-12 Lynn Garren : AnalysisAlg classes moved to larreco and larana
 
-larcore v06\_02\_03
+larcore v06_02_03
 ------------------------------------------
 
--   2016-10-13 Lynn Garren : larcore v06\_02\_03 for larsoft v06\_11\_00
+-   2016-10-13 Lynn Garren : larcore v06_02_03 for larsoft v06_11_00
 
-larsoftobj v1\_07\_00
+larsoftobj v1_07_00
 ----------------------------------------------
 
-lardataobj v1\_07\_00
+lardataobj v1_07_00
 ----------------------------------------------
 
-larcoreobj v1\_05\_00
+larcoreobj v1_05_00
 ----------------------------------------------
 
-larbatch v01\_23\_07
+larbatch v01_23_07
 --------------------------------------------
 
--   2016-10-13 Lynn Garren : larbatch v01\_23\_07 for larsoft v06\_11\_00
+-   2016-10-13 Lynn Garren : larbatch v01_23_07 for larsoft v06_11_00
 -   2016-10-07 Herbert Greenlee : Fix bug adding mix options.
 
-larutils v1\_09\_01
+larutils v1_09_01
 ------------------------------------------
 
--   2016-10-12 Lynn Garren : larutils v1\_09\_01 for larsoft v06\_11\_00
+-   2016-10-12 Lynn Garren : larutils v1_09_01 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : add s44
 -   2016-10-11 Herbert Greenlee : Updatre repo.

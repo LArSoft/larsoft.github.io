@@ -8,8 +8,8 @@ A typical workflow for detector simulation and reconstruction (gen-g4-detsim-rec
 
 -   The following example runs one 6 GeV proton through ProtoDUNE-SP. Files are only a few MB for just one event.
      The second step, “g4” runs GEANT4, though all steps read in the geometry.
-     The gdml file it uses: /cvmfs/dune.opensciencegrid.org/products/dune/dunetpc/v06\_57\_00/gdml/protodune\_v3.gdml
-     fcl location: /cvmfs/dune.opensciencegrid.org/products/dune/dunetpc/v06\_57\_00/source/fcl/protodune/mcc/mcc8
+     The gdml file it uses: /cvmfs/dune.opensciencegrid.org/products/dune/dunetpc/v06_57_00/gdml/protodune_v3.gdml
+     fcl location: /cvmfs/dune.opensciencegrid.org/products/dune/dunetpc/v06_57_00/source/fcl/protodune/mcc/mcc8
 
 <!-- -->
 
@@ -38,7 +38,7 @@ A typical workflow for detector simulation and reconstruction (gen-g4-detsim-rec
 
 ****Dune-FD (gennie)****
 
--   Flux files are from /pnfs/dune/persistent/TaskForce\_Flux/
+-   Flux files are from /pnfs/dune/persistent/TaskForce_Flux/
 
 <!-- -->
 
@@ -79,7 +79,7 @@ Profiling memory and CPU performance
         ${IGPROF_MP} -o IgProf_nue_dune10kt_reco.gz   $exe -n 100 -c standard_reco_dune10kt_1x2x6.fcl prodgenie_nue_dune10kt_1x2x6_gen_g4_detsim.root   
         ${IGPROF_MP} -o IgProf_nue_dune10kt_ana.gz    $exe -n 100 -c standard_ana_dune10kt_1x2x6.fcl prodgenie_nue_dune10kt_1x2x6_gen_g4_detsim_reco.root    
 
--   analysis (example for MEM\_TOTAL MEM\_LIVE MEM\_MAX)
+-   analysis (example for MEM_TOTAL MEM_LIVE MEM_MAX)
 
         export IGPROF_DIR="/g4/g4p/dune/farDetector/igprof" 
         export IGPROF_ANAL="igprof-analyse --sqlite -d -v -g -r" 
@@ -91,7 +91,7 @@ Profiling memory and CPU performance
         done
         done
 
--   results: see [https://g4cpt.fnal.gov/larsoft/dunetpc\_v06\_57\_00/igprof.html](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html)
+-   results: see [https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html)
 
 ### HPCToolkit ([http://hpctoolkit.org/index.html](http://hpctoolkit.org/index.html))
 
@@ -166,15 +166,15 @@ Profiling memory and CPU performance
         -I $GEANT4_DIR/source/geant4.10.03.p01/source/'*' ${out_ana}
 
     Replace hpcrun PAPI options for other hardware counters measurement as shown below
-     hpcrun\_cmd=“hpcrun -e PAPI\_TOT\_CYC@1000000 -e PAPI\_TOT\_INS”
-     hpcrun\_cmd=“hpcrun -e PAPI\_FP\_OPS -e PAPI\_LD\_INS -e PAPI\_SR\_INS”
+     hpcrun_cmd=“hpcrun -e PAPI_TOT_CYC@1000000 -e PAPI_TOT_INS”
+     hpcrun_cmd=“hpcrun -e PAPI_FP_OPS -e PAPI_LD_INS -e PAPI_SR_INS”
 
 -   analysis with hpcviewer on a hpctoolkit db file (hpctoolkit-lar-database)
     -   hpcviewer hpctoolkit-lar-database
     -   select View - Calling (topdown call paths), Callers (bottom up call paths), or Flat
     -   navigate metrics with control buttons
 
--   results: see [https://g4cpt.fnal.gov/larsoft/dunetpc\_v06\_57\_00/hpctoolkit.html](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/hpctoolkit.html)
+-   results: see [https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/hpctoolkit.html](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/hpctoolkit.html)
 
 ### Open|Speedshop ([https://openspeedshop.org/](https://openspeedshop.org/))
 
@@ -210,6 +210,6 @@ Profiling memory and CPU performance
 
 -   NOTE: At this moment, there is an issue to run Open|Speedshop on LArSoft/(proton)DUNE.
      The problem was reported to OSS developers (Jim Galarowicz@Krell), but it has not been resolved yet.
-     [https://groups.google.com/a/krellinst.org/forum/?fromgroups\#!topic/oss-questions/g\_wNYLmiKbY](https://groups.google.com/a/krellinst.org/forum/?fromgroups#!topic/oss-questions/g_wNYLmiKbY)
+     [https://groups.google.com/a/krellinst.org/forum/?fromgroups\#!topic/oss-questions/g_wNYLmiKbY](https://groups.google.com/a/krellinst.org/forum/?fromgroups#!topic/oss-questions/g_wNYLmiKbY)
 
 ### Support: contact 

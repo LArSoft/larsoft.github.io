@@ -1,40 +1,40 @@
-LArSoft v09\_18\_00 Release Notes
+LArSoft v09_18_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v09\_18\_00 Release Notes](#LArSoft-v09_18_00-Release-Notes)
+-   [LArSoft v09_18_00 Release Notes](#LArSoft-v09_18_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v09\_18\_00](#larsoft-v09_18_00)
-    -   [lareventdisplay v09\_01\_04](#lareventdisplay-v09_01_04)
-    -   [larexamples v09\_01\_04](#larexamples-v09_01_04)
-    -   [larpandora v09\_05\_05](#larpandora-v09_05_05)
-    -   [larsimrad v09\_01\_04](#larsimrad-v09_01_04)
-    -   [larrecodnn v09\_06\_03](#larrecodnn-v09_06_03)
-    -   [larwirecell v09\_02\_03](#larwirecell-v09_02_03)
-    -   [larana v09\_01\_04](#larana-v09_01_04)
-    -   [larreco v09\_06\_00](#larreco-v09_06_00)
-    -   [larsim v09\_10\_03](#larsim-v09_10_03)
-    -   [larg4 v09\_03\_03](#larg4-v09_03_03)
-    -   [larevt v09\_02\_02](#larevt-v09_02_02)
-    -   [lardata v09\_02\_01](#lardata-v09_02_01)
-    -   [larcore v09\_02\_01](#larcore-v09_02_01)
-    -   [larpandoracontent v03\_22\_08](#larpandoracontent-v03_22_08)
-    -   [larsoftobj v09\_05\_01](#larsoftobj-v09_05_01)
-    -   [lardataobj v09\_01\_01](#lardataobj-v09_01_01)
-    -   [lardataalg v09\_04\_01](#lardataalg-v09_04_01)
-    -   [larcorealg v09\_01\_01](#larcorealg-v09_01_01)
-    -   [larcoreobj v09\_02\_00](#larcoreobj-v09_02_00)
-    -   [webevd v09\_05\_02](#webevd-v09_05_02)
-    -   [larbatch v01\_54\_01](#larbatch-v01_54_01)
-    -   [larutils v1\_27\_04](#larutils-v1_27_04)
+    -   [larsoft v09_18_00](#larsoft-v09_18_00)
+    -   [lareventdisplay v09_01_04](#lareventdisplay-v09_01_04)
+    -   [larexamples v09_01_04](#larexamples-v09_01_04)
+    -   [larpandora v09_05_05](#larpandora-v09_05_05)
+    -   [larsimrad v09_01_04](#larsimrad-v09_01_04)
+    -   [larrecodnn v09_06_03](#larrecodnn-v09_06_03)
+    -   [larwirecell v09_02_03](#larwirecell-v09_02_03)
+    -   [larana v09_01_04](#larana-v09_01_04)
+    -   [larreco v09_06_00](#larreco-v09_06_00)
+    -   [larsim v09_10_03](#larsim-v09_10_03)
+    -   [larg4 v09_03_03](#larg4-v09_03_03)
+    -   [larevt v09_02_02](#larevt-v09_02_02)
+    -   [lardata v09_02_01](#lardata-v09_02_01)
+    -   [larcore v09_02_01](#larcore-v09_02_01)
+    -   [larpandoracontent v03_22_08](#larpandoracontent-v03_22_08)
+    -   [larsoftobj v09_05_01](#larsoftobj-v09_05_01)
+    -   [lardataobj v09_01_01](#lardataobj-v09_01_01)
+    -   [lardataalg v09_04_01](#lardataalg-v09_04_01)
+    -   [larcorealg v09_01_01](#larcorealg-v09_01_01)
+    -   [larcoreobj v09_02_00](#larcoreobj-v09_02_00)
+    -   [webevd v09_05_02](#webevd-v09_05_02)
+    -   [larbatch v01_54_01](#larbatch-v01_54_01)
+    -   [larutils v1_27_04](#larutils-v1_27_04)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09\_18\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_18_00/larsoft-v09_18_00.html)
-Download instructions for [just larsoftobj v09\_05\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_01/larsoftobj-v09_05_01.html)
+Download instructions for [larsoft v09_18_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_18_00/larsoft-v09_18_00.html)
+Download instructions for [just larsoftobj v09_05_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_01/larsoftobj-v09_05_01.html)
 
 Purpose
 --------------------
@@ -62,65 +62,65 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   artg4tk v10\_02\_01
--   wirecell v0\_14\_0e
--   spdlog v1\_8\_2
+-   artg4tk v10_02_01
+-   wirecell v0_14_0e
+-   spdlog v1_8_2
 
 Change List
 ============================
 
-larsoft v09\_18\_00
+larsoft v09_18_00
 ------------------------------------------
 
--   2021-03-10 Lynn Garren : larsoft v09\_18\_00 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larsoft v09_18_00 for larsoft v09_18_00
 -   2021-03-10 Lynn Garren : product versions
 -   2021-03-09 Lynn Garren : update the compiler build section
 -   2021-03-09 Lynn Garren : adding stan build cfg file
 
-lareventdisplay v09\_01\_04
+lareventdisplay v09_01_04
 ----------------------------------------------------------
 
--   2021-03-10 Lynn Garren : lareventdisplay v09\_01\_04 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : lareventdisplay v09_01_04 for larsoft v09_18_00
 
-larexamples v09\_01\_04
+larexamples v09_01_04
 --------------------------------------------------
 
--   2021-03-10 Lynn Garren : larexamples v09\_01\_04 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larexamples v09_01_04 for larsoft v09_18_00
 
-larpandora v09\_05\_05
+larpandora v09_05_05
 ------------------------------------------------
 
--   2021-03-10 Lynn Garren : larpandora v09\_05\_05 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larpandora v09_05_05 for larsoft v09_18_00
 
-larsimrad v09\_01\_04
+larsimrad v09_01_04
 ----------------------------------------------
 
--   2021-03-10 Lynn Garren : larsimrad v09\_01\_04 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larsimrad v09_01_04 for larsoft v09_18_00
 
-larrecodnn v09\_06\_03
+larrecodnn v09_06_03
 ------------------------------------------------
 
--   2021-03-10 Lynn Garren : larrecodnn v09\_06\_03 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larrecodnn v09_06_03 for larsoft v09_18_00
 
-larwirecell v09\_02\_03
+larwirecell v09_02_03
 --------------------------------------------------
 
--   2021-03-10 Lynn Garren : larwirecell v09\_02\_03 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larwirecell v09_02_03 for larsoft v09_18_00
 
-larana v09\_01\_04
+larana v09_01_04
 ----------------------------------------
 
--   2021-03-10 Lynn Garren : larana v09\_01\_04 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larana v09_01_04 for larsoft v09_18_00
 
-larreco v09\_06\_00
+larreco v09_06_00
 ------------------------------------------
 
--   2021-03-10 Lynn Garren : larreco v09\_06\_00 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larreco v09_06_00 for larsoft v09_18_00
 -   2021-03-10 Lynn Garren : Merge pull request \#29 from SFBayLaser/develop
 -   2021-03-09 SFBayLaser : Addressing (most) of Kyle’s comments
 -   2021-03-08 SFBayLaser : Deja vu bug fix
 -   2021-03-08 SFBayLaser : Merge remote-tracking branch ‘origin/develop’ into develop
--   2021-03-05 Kyle Knoepfel : Merge remote-tracking branch ‘upstream/develop’ into feature/cluster\_update
+-   2021-03-05 Kyle Knoepfel : Merge remote-tracking branch ‘upstream/develop’ into feature/cluster_update
 -   2021-03-05 Kyle Knoepfel : Resolve non-functional diffs with upstream develop.
 -   2021-03-05 SFBayLaser : Merge branch ‘develop’ of github.com:LArSoft/larreco into develop
 -   2021-03-01 SFBayLaser : Merge branch ‘develop’ of github.com:LArSoft/larreco into develop
@@ -174,60 +174,60 @@ larreco v09\_06\_00
 -   2020-04-24 Tracy Usher : Formatting
 -   2020-04-24 Tracy Usher : Questioning the need to stretch the long hits… but allowing the possibility.
 
-larsim v09\_10\_03
+larsim v09_10_03
 ----------------------------------------
 
--   2021-03-10 Lynn Garren : larsim v09\_10\_03 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larsim v09_10_03 for larsoft v09_18_00
 
-larg4 v09\_03\_03
+larg4 v09_03_03
 --------------------------------------
 
--   2021-03-10 Lynn Garren : larg4 v09\_03\_03 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : larg4 v09_03_03 for larsoft v09_18_00
 
-larevt v09\_02\_02
+larevt v09_02_02
 ----------------------------------------
 
-lardata v09\_02\_01
+lardata v09_02_01
 ------------------------------------------
 
-larcore v09\_02\_01
+larcore v09_02_01
 ------------------------------------------
 
-larpandoracontent v03\_22\_08
+larpandoracontent v03_22_08
 --------------------------------------------------------------
 
--   2021-03-10 Lynn Garren : larpandoracontent v03\_22\_08 for larsoft v09\_18\_00
--   2021-03-09 Lynn Garren : Merge pull request \#20 from PandoraPFA/feature/larpandoracontent\_v03\_22\_08
--   2021-03-03 AndyChappell : Merge pull request \#159 from AndyChappell/feature/reco\_alg\_fix
+-   2021-03-10 Lynn Garren : larpandoracontent v03_22_08 for larsoft v09_18_00
+-   2021-03-09 Lynn Garren : Merge pull request \#20 from PandoraPFA/feature/larpandoracontent_v03_22_08
+-   2021-03-03 AndyChappell : Merge pull request \#159 from AndyChappell/feature/reco_alg_fix
 -   2021-03-02 Andrew Chappell : Update version and ChangeLog
 -   2021-03-02 Andrew Chappell : Avoid empty conditional expression body when building without Pandora Monitoring
 -   2021-03-02 Andrew Chappell : Avoid sliding fits for low hit clusters in CosmicRayTrackRecovery
 
-larsoftobj v09\_05\_01
+larsoftobj v09_05_01
 ------------------------------------------------
 
-lardataobj v09\_01\_01
+lardataobj v09_01_01
 ------------------------------------------------
 
-lardataalg v09\_04\_01
+lardataalg v09_04_01
 ------------------------------------------------
 
-larcorealg v09\_01\_01
+larcorealg v09_01_01
 ------------------------------------------------
 
-larcoreobj v09\_02\_00
+larcoreobj v09_02_00
 ------------------------------------------------
 
-webevd v09\_05\_02
+webevd v09_05_02
 ----------------------------------------
 
--   2021-03-10 Lynn Garren : webevd v09\_05\_02 for larsoft v09\_18\_00
+-   2021-03-10 Lynn Garren : webevd v09_05_02 for larsoft v09_18_00
 -   2021-03-10 Lynn Garren : Merge pull request \#30 from cjbackhouse/feature/sbn
 -   2021-03-08 Christopher Backhouse : More succinct way to check for getByLabel success.
 -   2021-03-05 Christopher Backhouse : Protection against dropped products.
 
-larbatch v01\_54\_01
+larbatch v01_54_01
 --------------------------------------------
 
-larutils v1\_27\_04
+larutils v1_27_04
 ------------------------------------------

@@ -39,16 +39,16 @@ There are only a few conventions to keep in mind when writing code for LArSoft, 
 3.  Data members of an object should have variable names that begin with “f”, ie fADC
 4.  Static variables defined in an object should have names that begin with “k”, ie kConstantValue
 5.  Variable names should be reasonably descriptive for the scope in which they are used - i is ok in a small for loop, not ok in one spanning \> 20 lines.
-6.  Typedefs for predefined types are discouraged, ie typedef int Int\_t, typedef std::vector \< double \> dubvec. Typedefs should be reserved for legitmate new types, ie Origin\_t in !SimulationBase/MCTruth.h.
+6.  Typedefs for predefined types are discouraged, ie typedef int Int_t, typedef std::vector \< double \> dubvec. Typedefs should be reserved for legitmate new types, ie Origin_t in !SimulationBase/MCTruth.h.
 7.  Comments are mandatory - each new object should have a description of its purpose in both the header and implementation file
 8.  Comments should be of a format that enables [doxygen](http://www.stack.nl/~dimitri/doxygen/docblocks.html) to interpret them
 9.  Use the [message service](Using_the_Framework?parent=Editing_Code#Message-Facility-and-MessageLogger) for output to the screen.
-10. Module types and file names should be consistent, ie if a module is of type MyModule, the file names should be MyModule.h, MyModule.cxx and MyModule\_moudle.cc
+10. Module types and file names should be consistent, ie if a module is of type MyModule, the file names should be MyModule.h, MyModule.cxx and MyModule_moudle.cc
 
 Using and Creating a Test Release
 ------------------------------------------------------------------------
 
-A test release should contain only those packages that the user plans to alter. The remaining packages will be linked from the stable base release. To create a test release cd to a directory other than \$SRT\_DIST or its subdirectories and do
+A test release should contain only those packages that the user plans to alter. The remaining packages will be linked from the stable base release. To create a test release cd to a directory other than \$SRT_DIST or its subdirectories and do
 
 % newrel -t \<base\> test/release/directory
 
@@ -61,17 +61,17 @@ Adding Packages to the Test Release
 
 Once the test release is made, the user should cd into the directory and add packages to edit by doing
 
-% addpkg\_svn -h package
+% addpkg_svn -h package
 
-where the -h indicates that the package should be checked out from the head of the repository and package is the name of the package. If you have trouble with this step, you may need to be added to the list of developers for larsoft so please contact the larsoft managers. Packages that come out of nusoft use cvs and not svn, so if addpkg\_svn fails, try
+where the -h indicates that the package should be checked out from the head of the repository and package is the name of the package. If you have trouble with this step, you may need to be added to the list of developers for larsoft so please contact the larsoft managers. Packages that come out of nusoft use cvs and not svn, so if addpkg_svn fails, try
 
-% addpkg -h nusoft\_package
+% addpkg -h nusoft_package
 
 If you have a test release based on a frozen release, SYYYY.MM.DD, then do
 
-% addpkg\_svn package \<tag\>
+% addpkg_svn package \<tag\>
 
-where \<tag\> is the svn tag for the version of that package you wish to checkout. See the \$SRT\_PUBLIC\_CONTEXT/setup/packages-SYYYY.MM.DD file to determine the tag for the package.
+where \<tag\> is the svn tag for the version of that package you wish to checkout. See the \$SRT_PUBLIC_CONTEXT/setup/packages-SYYYY.MM.DD file to determine the tag for the package.
 
 If you wish to create a package in your test release, simply do
 
@@ -96,9 +96,9 @@ Compiling Packages in the Test Release
 
 Compiling packages under the SRT environment is fairly straightforward. First, one needs to run the command
 
-% srt\_setup -a
+% srt_setup -a
 
-This command sets the \$SRT\_PRIVATE\_CONTEXT variable to the current directory and also sets paths for the compilation. To compile a package, do
+This command sets the \$SRT_PRIVATE_CONTEXT variable to the current directory and also sets paths for the compilation. To compile a package, do
 
 % gmake package.all
 
@@ -110,7 +110,7 @@ before compiling. When compiling code replace package in the above examples with
 
 If you have several packages in your release that you want to compile at the same time do
 
-% lar\_build -t
+% lar_build -t
 
 and that will do a clean build of all the packages in the proper dependency order.
 
@@ -150,13 +150,13 @@ Please follow [these instructions](Using_SVN_with_LArSoft?parent=Editing_Code#Ad
 Updating a test release
 ----------------------------------------------------
 
-It is useful to bring a test release in line with the head of the release the test is using from time to time. This is especially true if one has several packages in a test release and has not been diligent about updating them. There is a utility to automate this update, [source:SRT\_LAR/scripts/lar\_update\_testrel](/redmine/projects/larsoft/repository/entry/SRT_LAR/scripts/lar_update_testrel) and is used as follows
+It is useful to bring a test release in line with the head of the release the test is using from time to time. This is especially true if one has several packages in a test release and has not been diligent about updating them. There is a utility to automate this update, [source:SRT_LAR/scripts/lar_update_testrel](/redmine/projects/larsoft/repository/entry/SRT_LAR/scripts/lar_update_testrel) and is used as follows
 
 `$lar_update_testrel -rel xxxx`
 
 where xxxx is the name of the base release the test release is built on, ie development. If the test release is built on a frozen release, then xxx is the name of that frozen release.
 
-The script will compare all the packages in the test release that are also in the base release. If there is a package in a test release that is not in the \$SRT\_PUBLIC\_CONTEXT/setup/packages-xxxx file for the base release, it will not be updated.
+The script will compare all the packages in the test release that are also in the base release. If there is a package in a test release that is not in the \$SRT_PUBLIC_CONTEXT/setup/packages-xxxx file for the base release, it will not be updated.
 
 Editing code remotely with Emacs and Tramp
 ------------------------------------------------------------------------------------------
@@ -168,6 +168,6 @@ Emacs has a handy facility called [Tramp](http://emacswiki.org/emacs/TrampMode) 
     ("aliasname" "/ssh:somegpvm.fnal.gov:/uboone/app/users/my_user_name/")
     ))
 
-where “aliasname” is the name you want to use for an alias, “somegpvm.fnal.gov” is the name of the machine you wish to access remotely, and “my\_user\_name” is your username on that machine.
+where “aliasname” is the name you want to use for an alias, “somegpvm.fnal.gov” is the name of the machine you wish to access remotely, and “my_user_name” is your username on that machine.
 
 Restart Emacs, and then attempt to open a file with “ctrl-x ctrl-f”. Replace the “\~/” in the file open dialog window with “aliasname” and press tab to access the remote directory.

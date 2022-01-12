@@ -24,7 +24,7 @@ Pre-2016 geometry information
 
 Pictures for this information can be found at: [Geometry/](Geometry/)
 
-Up to date Geometry information can be found at: [Geometry\_Package](Geometry_Package)
+Up to date Geometry information can be found at: [Geometry_Package](Geometry_Package)
 
 The maintainer of this package is Gianluca Petrillo, .
 
@@ -83,7 +83,7 @@ Detailed description of sorting and mapping pending.
 
 ### 35t Configuration: [ChannelMap35Alg](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1ChannelMap35Alg.html)
 
-The 35t prototype is so similar to 10kt, that it has been developed in parallel. APAs are identical in 10kt geometry. In 35t geometry, there are 3 different APAs with 2 different drift directions, making for 6 different volTPC\_names. While APAAlg channel mapping may work for 35t, a separate channel mapping has been developed for 35t configuration which is slightly more general, thus allowing more flexibility and safety for the time being. Volume sorting is currently identical to APA configuration.
+The 35t prototype is so similar to 10kt, that it has been developed in parallel. APAs are identical in 10kt geometry. In 35t geometry, there are 3 different APAs with 2 different drift directions, making for 6 different volTPC_names. While APAAlg channel mapping may work for 35t, a separate channel mapping has been developed for 35t configuration which is slightly more general, thus allowing more flexibility and safety for the time being. Volume sorting is currently identical to APA configuration.
 
 Accessing coordinate information
 ----------------------------------------------------------------------

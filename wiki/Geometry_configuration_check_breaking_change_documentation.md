@@ -4,7 +4,7 @@ Geometry configuration check breaking change documentation
 Originally in [https://github.com/LArSoft/larcore/pull/6](https://github.com/LArSoft/larcore/pull/6)
 
 The LArSoft changes are in LArSoft/larcoreobj\#9, LArSoft/larcorealg\#12, LArSoft/lardataalg\#18, LArSoft/lardata\#12, LArSoft/larevt\#10, LArSoft/larsim\#56, LArSoft/larreco\#24, LArSoft/larexamples\#5 and LArSoft/lareventdisplay\#10
-The branches offered for evaluation to the experiments, all named feature/gp\_issue24328, are in the following repositories:
+The branches offered for evaluation to the experiments, all named feature/gp_issue24328, are in the following repositories:
 
 -   ArgoNeuT: argoneutcode
 -   DUNE: dunetpc
@@ -44,7 +44,7 @@ with the user configurations including something like:
     # ...
     }
 
-In this scenario, the configuration fix is to change the experiment\_geometry\_services configuration table as follows:
+In this scenario, the configuration fix is to change the experiment_geometry_services configuration table as follows:
 
     experiment_geometry_services: {
     Geometry:               @local::experiment_geometry

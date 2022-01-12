@@ -22,7 +22,7 @@
             -   [Debugging](#Debugging)
     -   [Building](#Building)
         -   [Using the build system](#Using-the-build-system)
-        -   [Understanding CMakeLists.txt and product\_deps files](#Understanding-CMakeListstxt-and-product_deps-files)
+        -   [Understanding CMakeLists.txt and product_deps files](#Understanding-CMakeListstxt-and-product_deps-files)
         -   [mrb (multi-repository build) tool](#mrb-multi-repository-build-tool)
         -   [ups](#ups)
     -   [Testing](#Testing)
@@ -37,7 +37,7 @@ Any collaborator can develop or modify code and contribute it to LArSoft. On thi
 Quick links for Developing with LArSoft
 ------------------------------------------------------------------------------------
 
--   [Overview page for using LArSoft with GitHub](Working_with_GitHub)
+-   [Overview page for using LArSoft with GitHub](Working_with_Github)
 -   [LArSoft repositories packages and dependencies](_LArSoft_repositories_packages_and_dependencies_)
 -   [Concepts in LArSoft](http://larsoft.org/important-concepts-in-larsoft/)
 
@@ -254,7 +254,7 @@ Building
 
 To get write access to the repositories, speak to the offline coordinator for your experiment. If you have a question, send email to .
 
-### Understanding CMakeLists.txt and product\_deps files
+### Understanding CMakeLists.txt and product_deps files
 
 -   [Cetbuildtools cmake modules](/redmine/projects/cet-is-public/wiki/Cetbuildtools_cmake_modules): such as `cet_make` and `cet_add_compiler_flags`. Used in `CMakeLists.txt` files throughout LArSoft
 -   [Art cmake modules](/redmine/projects/cet-is-public/wiki/Art_cmake_modules): such as `art_make` and `simple_plugin`. Used in `CMakeLists.txt` files throughout LArSoft
@@ -262,7 +262,7 @@ To get write access to the repositories, speak to the offline coordinator for yo
 -   [Adding Product Dependencies](/redmine/projects/cet-is-public/wiki/AddingProductDependencies): how to edit the `product_deps` and `CMakeLists.txt` files to add dependencies
 -   [Various helpful tips for coding in the CET C++ environment](/redmine/projects/cet-is-public/wiki/CodeTips): things you hope you never need to know
 -   [Building your own code with cmake](/redmine/projects/cet-is-public/wiki/Building_your_own_code_with_cmake): pointer to a *really* simple example
--   [Using find\_global\_symbol.sh to find unresolved symbols](Using_find_global_symbolsh_to_find_unresolved_symbols): automatic library search for symbols
+-   [Using find_global_symbol.sh to find unresolved symbols](Using_find_global_symbolsh_to_find_unresolved_symbols): automatic library search for symbols
 
 ### mrb (multi-repository build) tool
 

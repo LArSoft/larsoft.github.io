@@ -4,11 +4,11 @@ LArSoft release naming and retention policy
 Release naming policies
 ----------------------------------------------------
 
--   All LArSoft release versions and core LArSoft products will use the following numbering convention: vMM\_mm\_pp
+-   All LArSoft release versions and core LArSoft products will use the following numbering convention: vMM_mm_pp
     -   MM = major number, mm = minor number, pp = patch number
     -   Releases that require a fork in order to fix a problem will have a suffix added after the patch number
         -   **A fork is required if and only if the release to be patched is not the latest release available**
-    -   [The following item is approved on a case-by-case basis at a LArSoft Coordination Meeting] A release can be declared as a “production release candidate”, in which case it will have major, minor and patch numbers of the target production release, but with the suffix “\_rcN” appended, where N = 1, 2,…
+    -   [The following item is approved on a case-by-case basis at a LArSoft Coordination Meeting] A release can be declared as a “production release candidate”, in which case it will have major, minor and patch numbers of the target production release, but with the suffix “_rcN” appended, where N = 1, 2,…
 -   Version numbers will be incremented according to the following policy:
     -   The patch number will increment for routine weekly integration releases or bug fixes
     -   The minor number will increment when new features or changes in functionality are introduced

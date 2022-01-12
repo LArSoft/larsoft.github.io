@@ -18,12 +18,12 @@
 The rules and guidelines
 ======================================================
 
-This is a working set of rules and guidelines. Suggestions for improvements are welcomed. Basically, we urge lean, modular code that is detector-agnostic. LArSoft code is intended to be usable by any N-plane, N\_w wires, M-PMT Liquid Argon TPC.
+This is a working set of rules and guidelines. Suggestions for improvements are welcomed. Basically, we urge lean, modular code that is detector-agnostic. LArSoft code is intended to be usable by any N-plane, N_w wires, M-PMT Liquid Argon TPC.
 
 Writing modular code that is detector-agnostic.
 ---------------------------------------------------------------------------------------------------
 
-1.  All data formats which are a) stored in the output file, b) passed between job control modules or c) written to `histos.root` should be generalizable for N wire planes and / or M PMTs. Obviously, the number of wires N\_w per plane must be generalizable.
+1.  All data formats which are a) stored in the output file, b) passed between job control modules or c) written to `histos.root` should be generalizable for N wire planes and / or M PMTs. Obviously, the number of wires N_w per plane must be generalizable.
     -   No fixed size arrays for things that relate to planes, wires, PMTs, number of TPCs.
     -   No “Induction” and “Collection” data members in base classes for reconstruction or simulation. (For usability it is acceptable to have `GetCollectionPlane()` and `GetInductionPlane()` as methods of the class to return, for example, the first and last wire plane). One can test whether a plane is induction or collection using the [Geometry interface](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1GeometryCore.html) already, [`geo::PlaneGeo::SignalType()`](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1PlaneGeo.html#afee6843450e4e10af008a8dbce02d7b3), so if you have a plane number you can ask the Geometry if it is induction or collection.
     -   No hard-coded assumptions in data containers about positions, spacings, etc. That information should only come from the Geometry, as is stated in the Geometry package documentation.

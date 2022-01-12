@@ -1,38 +1,38 @@
-LArSoft v08\_53\_00 Release Notes
+LArSoft v08_53_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v08\_53\_00 Release Notes](#LArSoft-v08_53_00-Release-Notes)
+-   [LArSoft v08_53_00 Release Notes](#LArSoft-v08_53_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v08\_53\_00](#larsoft-v08_53_00)
-    -   [lareventdisplay v08\_12\_16](#lareventdisplay-v08_12_16)
-    -   [larexamples v08\_06\_16](#larexamples-v08_06_16)
-    -   [larg4 v08\_14\_02](#larg4-v08_14_02)
-    -   [larpandora v08\_12\_08](#larpandora-v08_12_08)
-    -   [larrecodnn v08\_04\_01](#larrecodnn-v08_04_01)
-    -   [larwirecell v08\_12\_14](#larwirecell-v08_12_14)
-    -   [larana v08\_17\_08](#larana-v08_17_08)
-    -   [larreco v08\_32\_01](#larreco-v08_32_01)
-    -   [larsim v08\_25\_00](#larsim-v08_25_00)
-    -   [larevt v08\_11\_07](#larevt-v08_11_07)
-    -   [lardata v08\_15\_07](#lardata-v08_15_07)
-    -   [larcore v08\_11\_08](#larcore-v08_11_08)
-    -   [larpandoracontent v03\_16\_00](#larpandoracontent-v03_16_00)
-    -   [larsoftobj v08\_29\_00](#larsoftobj-v08_29_00)
-    -   [lardataobj v08\_11\_00](#lardataobj-v08_11_00)
-    -   [lardataalg v08\_13\_12](#lardataalg-v08_13_12)
-    -   [larcorealg v08\_22\_00](#larcorealg-v08_22_00)
-    -   [larcoreobj v08\_12\_00](#larcoreobj-v08_12_00)
-    -   [larbatch v01\_52\_02](#larbatch-v01_52_02)
-    -   [larutils v1\_25\_09](#larutils-v1_25_09)
+    -   [larsoft v08_53_00](#larsoft-v08_53_00)
+    -   [lareventdisplay v08_12_16](#lareventdisplay-v08_12_16)
+    -   [larexamples v08_06_16](#larexamples-v08_06_16)
+    -   [larg4 v08_14_02](#larg4-v08_14_02)
+    -   [larpandora v08_12_08](#larpandora-v08_12_08)
+    -   [larrecodnn v08_04_01](#larrecodnn-v08_04_01)
+    -   [larwirecell v08_12_14](#larwirecell-v08_12_14)
+    -   [larana v08_17_08](#larana-v08_17_08)
+    -   [larreco v08_32_01](#larreco-v08_32_01)
+    -   [larsim v08_25_00](#larsim-v08_25_00)
+    -   [larevt v08_11_07](#larevt-v08_11_07)
+    -   [lardata v08_15_07](#lardata-v08_15_07)
+    -   [larcore v08_11_08](#larcore-v08_11_08)
+    -   [larpandoracontent v03_16_00](#larpandoracontent-v03_16_00)
+    -   [larsoftobj v08_29_00](#larsoftobj-v08_29_00)
+    -   [lardataobj v08_11_00](#lardataobj-v08_11_00)
+    -   [lardataalg v08_13_12](#lardataalg-v08_13_12)
+    -   [larcorealg v08_22_00](#larcorealg-v08_22_00)
+    -   [larcoreobj v08_12_00](#larcoreobj-v08_12_00)
+    -   [larbatch v01_52_02](#larbatch-v01_52_02)
+    -   [larutils v1_25_09](#larutils-v1_25_09)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v08\_53\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_53_00/larsoft-v08_53_00.html)
-Download instructions for [just larsoftobj v08\_29\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_00/larsoftobj-v08_29_00.html)
+Download instructions for [larsoft v08_53_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_53_00/larsoft-v08_53_00.html)
+Download instructions for [just larsoftobj v08_29_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_00/larsoftobj-v08_29_00.html)
 
 Purpose
 --------------------
@@ -44,12 +44,12 @@ New features
 ------------------------------
 
 -   larpandoracontent PR 4
-    -   REQUIRES dunetpc feature/IM\_PandoraHitWidthAlgs
+    -   REQUIRES dunetpc feature/IM_PandoraHitWidthAlgs
     -   This PR includes a set of features to improve the stitching of CR muon tracks across multiple LArTPCs and the reconstruction of highly transverse tracks via the use of hit width information. The PR breakdown is as follows:
         -   Upgrades to the StitchingCosmicRayTool and the incorporation of hit width information in sliding linear fits PandoraPFA\#118 (PR)
         -   The development of the HitWidthClusterMerging algorithm PandoraPFA\#111 (PR) PandoraPFA\#117 (PR)
         -   Small tweaks to the HitWidthClusterMerging algorithm to catch exception code throws PandoraPFA\#119 (PR)
-    -   With the application of this PR, the CR stitching improvements will be immediately activated in the CR reconstruction of all detectors. Once dunetpc feature/IM\_PandoraHitWidthAlgs is included, the HitWidthClusterMerging will be in use in the neutrino and CR reconstruction chain of the DUNE FD and the CR reconstruction chain of ProtoDUNE-DP with a view to extend its use across more detectors in the future.
+    -   With the application of this PR, the CR stitching improvements will be immediately activated in the CR reconstruction of all detectors. Once dunetpc feature/IM_PandoraHitWidthAlgs is included, the HitWidthClusterMerging will be in use in the neutrino and CR reconstruction chain of the DUNE FD and the CR reconstruction chain of ProtoDUNE-DP with a view to extend its use across more detectors in the future.
     -   Details of these changes and their impacts on the reconstruction performance can be found in the following talks:
         -   Stitching Upgrades: [https://indico.fnal.gov/event/43171/](https://indico.fnal.gov/event/43171/) (DUNEFD + ProtoDUNE-SP)
         -   HitWidthClusterMerging algorithm: [https://indico.fnal.gov/event/43171/](https://indico.fnal.gov/event/43171/) (DUNEFD), [https://indico.fnal.gov/event/24366/](https://indico.fnal.gov/event/24366/) (ProtoDUNE-DP)
@@ -58,7 +58,7 @@ New features
     -   larcorealg PR 6
     -   lardataobj PR 7
     -   larsim PR 17
-    -   REQUIRES ublite feature/gp\_issue22628
+    -   REQUIRES ublite feature/gp_issue22628
 -   larsim PR 15
     -   New module \`POTaccumulator\` counting the total POT in a simulated dataset
 -   lardataobj PR 5
@@ -70,94 +70,94 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   mrb v4\_01\_00
-    -   With this release, mrb g will checkout the known SBN repositories from github by default. The known SBN repositories are icarusutil, sbndcode, icaruscode, icarus\_signal\_processing, sbncode, and sbndutil.
+-   mrb v4_01_00
+    -   With this release, mrb g will checkout the known SBN repositories from github by default. The known SBN repositories are icarusutil, sbndcode, icaruscode, icarus_signal_processing, sbncode, and sbndutil.
     -   [https://github.com/SBNSoftware/](https://github.com/SBNSoftware/)
 
 Change List
 ============================
 
-larsoft v08\_53\_00
+larsoft v08_53_00
 ------------------------------------------
 
--   2020-05-20 Lynn Garren : larsoft v08\_53\_00 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larsoft v08_53_00 for larsoft v08_53_00
 -   2020-05-20 Lynn Garren : product versions
 
-lareventdisplay v08\_12\_16
+lareventdisplay v08_12_16
 ----------------------------------------------------------
 
--   2020-05-20 Lynn Garren : lareventdisplay v08\_12\_16 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : lareventdisplay v08_12_16 for larsoft v08_53_00
 
-larexamples v08\_06\_16
+larexamples v08_06_16
 --------------------------------------------------
 
--   2020-05-20 Lynn Garren : larexamples v08\_06\_16 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larexamples v08_06_16 for larsoft v08_53_00
 
-larg4 v08\_14\_02
+larg4 v08_14_02
 --------------------------------------
 
--   2020-05-20 Lynn Garren : larg4 v08\_14\_02 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larg4 v08_14_02 for larsoft v08_53_00
 
-larpandora v08\_12\_08
+larpandora v08_12_08
 ------------------------------------------------
 
--   2020-05-20 Lynn Garren : larpandora v08\_12\_08 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larpandora v08_12_08 for larsoft v08_53_00
 
-larrecodnn v08\_04\_01
+larrecodnn v08_04_01
 ------------------------------------------------
 
--   2020-05-20 Lynn Garren : larrecodnn v08\_04\_01 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larrecodnn v08_04_01 for larsoft v08_53_00
 
-larwirecell v08\_12\_14
+larwirecell v08_12_14
 --------------------------------------------------
 
--   2020-05-20 Lynn Garren : larwirecell v08\_12\_14 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larwirecell v08_12_14 for larsoft v08_53_00
 
-larana v08\_17\_08
+larana v08_17_08
 ----------------------------------------
 
--   2020-05-20 Lynn Garren : larana v08\_17\_08 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larana v08_17_08 for larsoft v08_53_00
 
-larreco v08\_32\_01
+larreco v08_32_01
 ------------------------------------------
 
--   2020-05-20 Lynn Garren : larreco v08\_32\_01 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larreco v08_32_01 for larsoft v08_53_00
 
-larsim v08\_25\_00
+larsim v08_25_00
 ----------------------------------------
 
--   2020-05-20 Lynn Garren : larsim v08\_25\_00 for larsoft v08\_53\_00
--   2020-05-20 Lynn Garren : Merge branch ‘feature/gp\_issue22628’ into release/v08\_53\_00
--   2020-05-20 Lynn Garren : Merge pull request \#15 from PetrilloAtWork/feature/gp\_POTaggregator
+-   2020-05-20 Lynn Garren : larsim v08_25_00 for larsoft v08_53_00
+-   2020-05-20 Lynn Garren : Merge branch ‘feature/gp_issue22628’ into release/v08_53_00
+-   2020-05-20 Lynn Garren : Merge pull request \#15 from PetrilloAtWork/feature/gp_POTaggregator
 -   2020-05-15 Gianluca Petrillo : Forgot one piece… removed redundant elements in POTsummary.fcl
 -   2020-05-15 Gianluca Petrillo : POTaccumulator module aggregation now relies on art.
 -   2020-05-15 Gianluca Petrillo : Implemented comments from code review (one pending).
--   2020-05-15 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp\_POTaggregator
+-   2020-05-15 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_POTaggregator
 -   2020-05-12 Gianluca Petrillo : Optimization of energy deposits save in LegacyLArG4
 -   2020-05-12 Gianluca Petrillo : Updates for new sim::OnePhoton.
 -   2020-05-03 Gianluca Petrillo : Fixed copy error in POTsummary.fcl.
 -   2020-04-29 Gianluca Petrillo : New module \`POTaccumulator\` counting the total POT in a dataset.
 
-larevt v08\_11\_07
+larevt v08_11_07
 ----------------------------------------
 
--   2020-05-20 Lynn Garren : larevt v08\_11\_07 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larevt v08_11_07 for larsoft v08_53_00
 
-lardata v08\_15\_07
+lardata v08_15_07
 ------------------------------------------
 
--   2020-05-20 Lynn Garren : lardata v08\_15\_07 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : lardata v08_15_07 for larsoft v08_53_00
 
-larcore v08\_11\_08
+larcore v08_11_08
 ------------------------------------------
 
--   2020-05-20 Lynn Garren : larcore v08\_11\_08 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larcore v08_11_08 for larsoft v08_53_00
 
-larpandoracontent v03\_16\_00
+larpandoracontent v03_16_00
 --------------------------------------------------------------
 
--   2020-05-20 Lynn Garren : larpandoracontent v03\_16\_00 for larsoft v08\_53\_00
--   2020-05-18 Multi-algorithm pattern recognition : Merge pull request \#119 from imawby/feature/larpandoracontent\_v03\_16\_00
+-   2020-05-20 Lynn Garren : larpandoracontent v03_16_00 for larsoft v08_53_00
+-   2020-05-18 Multi-algorithm pattern recognition : Merge pull request \#119 from imawby/feature/larpandoracontent_v03_16_00
 -   2020-05-18 Isobel Mawby : add try/catch and remove single hit allowance
 -   2020-05-15 John Marshall : Merge pull request \#118 from imawby/feature/MultipleTPCStitching
 -   2020-05-15 John Marshall : Update change log.
@@ -220,26 +220,26 @@ larpandoracontent v03\_16\_00
 -   2020-03-13 imawby : Add files via upload
 -   2020-03-13 imawby : HitWidth helper
 
-larsoftobj v08\_29\_00
+larsoftobj v08_29_00
 ------------------------------------------------
 
 -   2020-05-20 Lynn Garren : product versions
--   2020-05-20 Lynn Garren : larsoftobj v08\_29\_00 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larsoftobj v08_29_00 for larsoft v08_53_00
 
-lardataobj v08\_11\_00
+lardataobj v08_11_00
 ------------------------------------------------
 
--   2020-05-20 Lynn Garren : lardataobj v08\_11\_00 for larsoft v08\_53\_00
--   2020-05-20 Lynn Garren : Merge branch ‘feature/gp\_issue22628’ into release/v08\_53\_00
+-   2020-05-20 Lynn Garren : lardataobj v08_11_00 for larsoft v08_53_00
+-   2020-05-20 Lynn Garren : Merge branch ‘feature/gp_issue22628’ into release/v08_53_00
 -   2020-05-19 Gianluca Petrillo : Using consistent \`struct\`/\`class\` (caught by Clang).
 -   2020-05-18 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from plasorak/feature/plasorak-fibonacci
 -   2020-05-15 Gianluca Petrillo : Added a comparison operator for sim::OnePhoton.
--   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D\_t into OpticalVector\_t.
+-   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D_t into OpticalVector_t.
 -   2020-05-15 Gianluca Petrillo : Fixed semantic mistake: sim::SimPhotons:FinalLocalPosition is not in world frame.
 -   2020-05-14 Pierre Lasorak : Add unit test for fibonacci encoding
 -   2020-05-14 Pierre Lasorak : Correct one of the most stupidest bug in history
 -   2020-05-13 Gianluca Petrillo : Whitespace removal.
--   2020-05-11 Gianluca Petrillo : Breaking change: sim::OnePhoton data members moved from TVector3 to geo::Point\_t.
+-   2020-05-11 Gianluca Petrillo : Breaking change: sim::OnePhoton data members moved from TVector3 to geo::Point_t.
 -   2020-05-11 Gianluca Petrillo : Adopted some standard C++ coding practices.
 -   2020-05-11 Gianluca Petrillo : Updated SimPhotons.h documentation.
 -   2020-04-17 Pierre Lasorak : rm whitespace
@@ -248,29 +248,29 @@ lardataobj v08\_11\_00
 -   2020-02-28 Pierre Lasorak : Faster implementation without else if. User may now provide a lambda that can be used as table
 -   2020-01-21 Pierre Lasorak : add fibonacci encoding
 
-lardataalg v08\_13\_12
+lardataalg v08_13_12
 ------------------------------------------------
 
--   2020-05-20 Lynn Garren : lardataalg v08\_13\_12 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : lardataalg v08_13_12 for larsoft v08_53_00
 
-larcorealg v08\_22\_00
+larcorealg v08_22_00
 ------------------------------------------------
 
--   2020-05-20 Lynn Garren : larcorealg v08\_22\_00 for larsoft v08\_53\_00
--   2020-05-20 Lynn Garren : Merge branch ‘feature/gp\_issue22628’ into release/v08\_53\_00
--   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D\_t into OpticalVector\_t.
+-   2020-05-20 Lynn Garren : larcorealg v08_22_00 for larsoft v08_53_00
+-   2020-05-20 Lynn Garren : Merge branch ‘feature/gp_issue22628’ into release/v08_53_00
+-   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D_t into OpticalVector_t.
 -   2020-05-15 Gianluca Petrillo : Support for issue [\#22628](/redmine/issues/22628 "Feature: Change internal representation of sim::OnePhoton (Closed)") (sim::OnePhoton).
 
-larcoreobj v08\_12\_00
+larcoreobj v08_12_00
 ------------------------------------------------
 
--   2020-05-20 Lynn Garren : larcoreobj v08\_12\_00 for larsoft v08\_53\_00
+-   2020-05-20 Lynn Garren : larcoreobj v08_12_00 for larsoft v08_53_00
 -   2020-05-20 Gianluca Petrillo : Fixed a typo in a comment.
--   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D\_t into OpticalVector\_t.
+-   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D_t into OpticalVector_t.
 -   2020-05-15 Gianluca Petrillo : Support for issue [\#22628](/redmine/issues/22628 "Feature: Change internal representation of sim::OnePhoton (Closed)") (sim::OnePhoton).
 
-larbatch v01\_52\_02
+larbatch v01_52_02
 --------------------------------------------
 
-larutils v1\_25\_09
+larutils v1_25_09
 ------------------------------------------

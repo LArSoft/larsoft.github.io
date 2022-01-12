@@ -1,35 +1,35 @@
-Explicit code changes since v06\_18\_00
+Explicit code changes since v06_18_00
 ==================================================================================
 
 -   **Table of contents**
--   [Explicit code changes since v06\_18\_00](#Explicit-code-changes-since-v06_18_00)
+-   [Explicit code changes since v06_18_00](#Explicit-code-changes-since-v06_18_00)
     -   [larwirecell](#larwirecell)
-        -   [larwirecell/LArInterface/Test\_module.cc](#larwirecellLArInterfaceTest_modulecc)
-        -   [larwirecell/LArInterface/WireCellNoiseFilter\_module.cc](#larwirecellLArInterfaceWireCellNoiseFilter_modulecc)
+        -   [larwirecell/LArInterface/Test_module.cc](#larwirecellLArInterfaceTest_modulecc)
+        -   [larwirecell/LArInterface/WireCellNoiseFilter_module.cc](#larwirecellLArInterfaceWireCellNoiseFilter_modulecc)
         -   [larwirecell/LArInterface/wirecellmodules.fcl](#larwirecellLArInterfacewirecellmodulesfcl)
-        -   [larwirecell/LArInterface/wirecellmodules\_microboone.fcl](#larwirecellLArInterfacewirecellmodules_microboonefcl)
+        -   [larwirecell/LArInterface/wirecellmodules_microboone.fcl](#larwirecellLArInterfacewirecellmodules_microboonefcl)
     -   [larsim](#larsim)
-        -   [larsim/EventGenerator/MARLEY/MARLEYGen\_module.cc](#larsimEventGeneratorMARLEYMARLEYGen_modulecc)
+        -   [larsim/EventGenerator/MARLEY/MARLEYGen_module.cc](#larsimEventGeneratorMARLEYMARLEYGen_modulecc)
         -   [larsim/MCCheater/PhotonBackTracker.h](#larsimMCCheaterPhotonBackTrackerh)
-        -   [larsim/MCCheater/PhotonBackTracker\_service.cc](#larsimMCCheaterPhotonBackTracker_servicecc)
+        -   [larsim/MCCheater/PhotonBackTracker_service.cc](#larsimMCCheaterPhotonBackTracker_servicecc)
         -   [larsim/MCCheater/photonbacktracker.fcl](#larsimMCCheaterphotonbacktrackerfcl)
     -   [larreco](#larreco)
-        -   [larreco/HitFinder/GausHitFinder\_module.cc](#larrecoHitFinderGausHitFinder_modulecc)
+        -   [larreco/HitFinder/GausHitFinder_module.cc](#larrecoHitFinderGausHitFinder_modulecc)
         -   [larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.cxx](#larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgcxx)
         -   [larreco/RecoAlg/ImagePatternAlgs/PointIdAlg/PointIdAlg.h](#larrecoRecoAlgImagePatternAlgsPointIdAlgPointIdAlgh)
         -   [larreco/RecoAlg/ImagePatternAlgs/scripts/utils.py](#larrecoRecoAlgImagePatternAlgsscriptsutilspy)
         -   [larreco/RecoAlg/TrackKalmanFitter.cxx](#larrecoRecoAlgTrackKalmanFittercxx)
-        -   [larreco/TrackFinder/KalmanFilterFinalTrackFitter\_module.cc](#larrecoTrackFinderKalmanFilterFinalTrackFitter_modulecc)
+        -   [larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc](#larrecoTrackFinderKalmanFilterFinalTrackFitter_modulecc)
     -   [larana](#larana)
         -   [larana/OpticalDetector/OpHitFinder/UtilFunc.cxx](#laranaOpticalDetectorOpHitFinderUtilFunccxx)
-        -   [larana/T0Finder/PhotonCounterT0Matching\_module.cc](#laranaT0FinderPhotonCounterT0Matching_modulecc)
+        -   [larana/T0Finder/PhotonCounterT0Matching_module.cc](#laranaT0FinderPhotonCounterT0Matching_modulecc)
 
-These are changes in larsoft v06\_18\_01.
+These are changes in larsoft v06_18_01.
 
 larwirecell
 ----------------------------
 
-### larwirecell/LArInterface/Test\_module.cc
+### larwirecell/LArInterface/Test_module.cc
 
     diff --git a/larwirecell/LArInterface/Test_module.cc b/larwirecell/LArInterface/Test_module.cc
     deleted file mode 100644
@@ -281,7 +281,7 @@ larwirecell
     -
     -#endif //TESTMODULE_H
 
-### larwirecell/LArInterface/WireCellNoiseFilter\_module.cc
+### larwirecell/LArInterface/WireCellNoiseFilter_module.cc
 
     diff --git a/larwirecell/LArInterface/WireCellNoiseFilter_module.cc b/larwirecell/LArInterface/WireCellNoiseFilter_module.cc
     new file mode 100644
@@ -638,7 +638,7 @@ larwirecell
     +
     +END_PROLOG
 
-### larwirecell/LArInterface/wirecellmodules\_microboone.fcl
+### larwirecell/LArInterface/wirecellmodules_microboone.fcl
 
     diff --git a/larwirecell/LArInterface/wirecellmodules_microboone.fcl b/larwirecell/LArInterface/wirecellmodules_microboone.fcl
     new file mode 100644
@@ -661,7 +661,7 @@ larwirecell
 larsim
 ------------------
 
-### larsim/EventGenerator/MARLEY/MARLEYGen\_module.cc
+### larsim/EventGenerator/MARLEY/MARLEYGen_module.cc
 
     diff --git a/larsim/EventGenerator/MARLEY/MARLEYGen_module.cc b/larsim/EventGenerator/MARLEY/MARLEYGen_module.cc
     index 259f84b..6648eca 100644
@@ -773,7 +773,7 @@ larsim
 
     private:
 
-### larsim/MCCheater/PhotonBackTracker\_service.cc
+### larsim/MCCheater/PhotonBackTracker_service.cc
 
     diff --git a/larsim/MCCheater/PhotonBackTracker_service.cc b/larsim/MCCheater/PhotonBackTracker_service.cc
     index 6e073c8..b6b5b6d 100644
@@ -1216,7 +1216,7 @@ larsim
 larreco
 --------------------
 
-### larreco/HitFinder/GausHitFinder\_module.cc
+### larreco/HitFinder/GausHitFinder_module.cc
 
     diff --git a/larreco/HitFinder/GausHitFinder_module.cc b/larreco/HitFinder/GausHitFinder_module.cc
     index b35c72a..3273bd0 100644
@@ -1560,7 +1560,7 @@ larreco
     boost::optional<double> pdist = prop_->noise_prop(trf,khit.getMeasSurface(),trkf::Propagator::BACKWARD,true);
     if (!pdist) {
 
-### larreco/TrackFinder/KalmanFilterFinalTrackFitter\_module.cc
+### larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc
 
     diff --git a/larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc b/larreco/TrackFinder/KalmanFilterFinalTrackFitter_module.cc
     index d6728d2..3bf23a1 100644
@@ -1640,7 +1640,7 @@ larana
 
     //std::cout<<"Min: "<<(*res.first)<<" Max: "<<(*res.second)<<" Width: "<<bin_width<<std::endl;
 
-### larana/T0Finder/PhotonCounterT0Matching\_module.cc
+### larana/T0Finder/PhotonCounterT0Matching_module.cc
 
     diff --git a/larana/T0Finder/PhotonCounterT0Matching_module.cc b/larana/T0Finder/PhotonCounterT0Matching_module.cc
     index 9e1267a..4b4b4d8 100644

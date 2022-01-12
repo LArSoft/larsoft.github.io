@@ -19,8 +19,8 @@ Setting up Pull Requests and/or Push CI testing for your organizations repositor
 
 ### Setup your repository
 
--   Make a Pull Request to add your repository configuration in \`cms-bot/repos/your\_github\_user/your\_repository\`
-    -   If you have \`-\` in your github user or repository name then replace it with \`\_\`
+-   Make a Pull Request to add your repository configuration in \`cms-bot/repos/your_github_user/your_repository\`
+    -   If you have \`-\` in your github user or repository name then replace it with \`_\`
 -   It is better to copy an existing configuration and change it accordingly e.g. copy \`repos/LArSoft/larsoft\` into \`repos/(your github user or organization)/(your repo name)\` and make changes to reflect your repositories.
 -   Add these repository directories with ‘git add’ and create a pull request to have them added to the master branch.
 
@@ -29,8 +29,8 @@ Setting up Pull Requests and/or Push CI testing for your organizations repositor
     -   If it is not an organization then please add \`@FNALbuild\` as Collaborators (under the Settings of your repository).
 
 -   Add github webhook to repo so that Jenkins can get notifications.
-    -   If you have given admin rights to \`FNALbuild\` and set \`ADD\_WEB\_HOOK=True\` in \`repos/you\_or\_org/your\_repo/repo\_config.py\` then the cms-bot scripts can add the webhook programmatically.
-    -   If \`FNALbuild\` does not have admin rights to your repository then please set the github webhook (under Settings of your repository) manually with your secret and use the command below to encode your secret for the GITHUB\_WEBOOK\_TOKEN entry in repo\_config.py.
+    -   If you have given admin rights to \`FNALbuild\` and set \`ADD_WEB_HOOK=True\` in \`repos/you_or_org/your_repo/repo_config.py\` then the cms-bot scripts can add the webhook programmatically.
+    -   If \`FNALbuild\` does not have admin rights to your repository then please set the github webhook (under Settings of your repository) manually with your secret and use the command below to encode your secret for the GITHUB_WEBOOK_TOKEN entry in repo_config.py.
 
 <!-- -->
 
@@ -42,7 +42,7 @@ If the result is over two lines use triple quotes to enclose the string, eg.
     daOrk0l3uuI2tV1Dxz/n2w==""" 
 
 -   The manually configured webhook would have the following properties.
-    -   Payload URL: [https://scd-ci.fnal.gov/cgi-bin/github\_webhook](https://scd-ci.fnal.gov/cgi-bin/github_webhook)
+    -   Payload URL: [https://scd-ci.fnal.gov/cgi-bin/github_webhook](https://scd-ci.fnal.gov/cgi-bin/github_webhook)
     -   Content type: application/json
     -   Secret: any password of your choice
     -   Let me select individual events: Select

@@ -80,8 +80,8 @@ Each vector can use an internal representation in different coordinate systems:
 -   cartesian (2D, 3D)
 -   cylindrical: ![\$\\left( \\ho,\\varphi,z \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=1e3f1d87b2b0331dd2b3072c194d76785407ebbdab87efa39f980259567580e9) or ![\$\\left( \\ho,\\varphi,\\eta \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=74ad4e3bbf808e6be378fd40c06bb7c855ed077bcb4787f3fecb2b71d9b13857) (3D)
 -   polar (2D, 3D)
--   cartesian with “mass” ![\$\\left( cp\_{x},cp\_{y},cp\_{z},mc\^{2} \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=20b23c4931fa60dedb79a82ef3b022edca64a2059eef232a5e778bf79bfad5d8) or “energy” ![\$\\left( cp\_{x},cp\_{y},cp\_{z},E \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=ba0b2f2eec03bf7aed5be25c28292b491be3a31506b6613b1165a18709711b0b)
--   cylindrical with “mass” ![\$\\left( cp\_{\\perp},\\eta,\\varphi,mc\^{2} \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=9a2208f0b24a5fca6e4a36d5c90ad811247e85618e1ba4f2157dc15c80ac68df) or “energy” ![\$\\left( cp\_{\\perp},\\eta,\\varphi,E \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=0a9f4351695e2b1b9897eeb172635196b08e8aa55fc6d550122f2d64f6e2f386)
+-   cartesian with “mass” ![\$\\left( cp_{x},cp_{y},cp_{z},mc\^{2} \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=20b23c4931fa60dedb79a82ef3b022edca64a2059eef232a5e778bf79bfad5d8) or “energy” ![\$\\left( cp_{x},cp_{y},cp_{z},E \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=ba0b2f2eec03bf7aed5be25c28292b491be3a31506b6613b1165a18709711b0b)
+-   cylindrical with “mass” ![\$\\left( cp_{\\perp},\\eta,\\varphi,mc\^{2} \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=9a2208f0b24a5fca6e4a36d5c90ad811247e85618e1ba4f2157dc15c80ac68df) or “energy” ![\$\\left( cp_{\\perp},\\eta,\\varphi,E \\ight)\$](/redmine/wiki_external_filter?index=0&macro=latex&name=0a9f4351695e2b1b9897eeb172635196b08e8aa55fc6d550122f2d64f6e2f386)
 
 For 2D and 3D vectors, the library distinguishes between two concepts:
 
@@ -180,7 +180,7 @@ If the need arise, please [open a LArSoft feature request](https://cdcvs.fnal.go
 
 ### Computing the middle point
 
-The simple operation ![\$\\vec{x} = \\frac{\\sum\_{k=1}\^{N} \\vec{x}\_{k}}{N}\$](/redmine/wiki_external_filter?index=0&macro=latex&name=3395299c00e009d87f47320e48e783a31f23547c662ceb47265bfdbd85ebb24b) is not as simple any more for position vectors, which can’t be added nor scaled. An utility has been provided in the form of a [function](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a36b47c9bd80494201a449169e6e8b581) or [a more versatile class](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1MiddlePointAccumulator.html) .
+The simple operation ![\$\\vec{x} = \\frac{\\sum_{k=1}\^{N} \\vec{x}_{k}}{N}\$](/redmine/wiki_external_filter?index=0&macro=latex&name=3395299c00e009d87f47320e48e783a31f23547c662ceb47265bfdbd85ebb24b) is not as simple any more for position vectors, which can’t be added nor scaled. An utility has been provided in the form of a [function](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a36b47c9bd80494201a449169e6e8b581) or [a more versatile class](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1MiddlePointAccumulator.html) .
 
 ### Example: from `recob::Track::Extent()` update
 

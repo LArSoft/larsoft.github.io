@@ -12,7 +12,7 @@ build with mrb 5 and cetbuildtools 8
     -   [migrating from mrb 4 to mrb 5](#migrating-from-mrb-4-to-mrb-5)
     -   [known issues](#known-issues)
 
-As of larsoft v09\_31\_00, larsoft has moved to building with mrb 5 and cetbuildtools 8. This is required for building with art 3.09 and later.
+As of larsoft v09_31_00, larsoft has moved to building with mrb 5 and cetbuildtools 8. This is required for building with art 3.09 and later.
 cetbuildtools 8 is a thin wrapper around cetmodules, but using cetbuildtools 8 insulates us from the many changes that will be required when using only cetmodules. See the talks at the [Sept. 21, 2021 Coordination Meeting](https://indico.fnal.gov/event/51092/)
 
 versioning
@@ -22,11 +22,11 @@ Versions should be specified on the project line in the top level CMakeLists.txt
 
     project(larsoft VERSION 09.31.00 LANGUAGES CXX C)
 
-In a UPS-only world, version strings are completely arbitrary from the point of view of UPS, and only have the meaning anyone ascribes to them at any particular moment. If you like, they’re a token that get passed around. With this as the primary version signifier cetbuildtools could translate to something that worked for CMake when we needed it (fairly rare under cetbuildtools \<=7), but the UPS version was passed around and preserved in the form that the package author originally chose and used in ups/product\_deps: v3\_2\_1a, or v3\_02\_01\_a3, etc.. cetbuildtools 7 used the UPS format when requiring minimum versions to find\_ups\_product(), for example.
+In a UPS-only world, version strings are completely arbitrary from the point of view of UPS, and only have the meaning anyone ascribes to them at any particular moment. If you like, they’re a token that get passed around. With this as the primary version signifier cetbuildtools could translate to something that worked for CMake when we needed it (fairly rare under cetbuildtools \<=7), but the UPS version was passed around and preserved in the form that the package author originally chose and used in ups/product_deps: v3_2_1a, or v3_02_01_a3, etc.. cetbuildtools 7 used the UPS format when requiring minimum versions to find_ups_product(), for example.
 
-Preparing for a world without UPS going forward, the UPS version cannot be the one that gets passed around as the legally-binding translation, because it’s going to go out of use. Following the mandate that packages can’t assume that a dependent package is also using cetbuildtools/cetmodules, then CMake config files must be free of any such assumption. Hence, things like find\_package() must work at all times even when the client is not using cetbuildtools/cetmodules and is only able to specify a minimum version or version range in CMake’s native version nomenclature, which is quite rigid: i[.j[.k[.l]]], where i, j, k, and l are strictly numeric, and the delimiter may only be a period. It is only relatively recent versions of CMake (\>=3.16) that CMake has preserved leading zeroes in its handling of version numbers.
+Preparing for a world without UPS going forward, the UPS version cannot be the one that gets passed around as the legally-binding translation, because it’s going to go out of use. Following the mandate that packages can’t assume that a dependent package is also using cetbuildtools/cetmodules, then CMake config files must be free of any such assumption. Hence, things like find_package() must work at all times even when the client is not using cetbuildtools/cetmodules and is only able to specify a minimum version or version range in CMake’s native version nomenclature, which is quite rigid: i[.j[.k[.l]]], where i, j, k, and l are strictly numeric, and the delimiter may only be a period. It is only relatively recent versions of CMake (\>=3.16) that CMake has preserved leading zeroes in its handling of version numbers.
 
-Although it is still possible to use the product version set in ups/product\_deps, if the version is specified in both places, the version in the top level CMakeLists.txt file wins. If you use “mrb uv mypackage myversion” and the version is specified in ups/product\_deps, “mrb uv” will update the version in both places. However, we recommend removing the version from ups/product\_deps.
+Although it is still possible to use the product version set in ups/product_deps, if the version is specified in both places, the version in the top level CMakeLists.txt file wins. If you use “mrb uv mypackage myversion” and the version is specified in ups/product_deps, “mrb uv” will update the version in both places. However, we recommend removing the version from ups/product_deps.
 
     -# This line defines the product name and version
     -parent larsoft v09_31_00
@@ -39,8 +39,8 @@ In implementing a system which could handle non-numeric version components at le
 
 -   CMake style as dictated by CMake: i[.j[.k[.l]]].
 -   “Full” version style: i[.j[.k[.l]]][-X], where X is arbitrary but generally interpreted according to convention (rc1, alpha-3, etc.), and
--   “UPS” version style: vi[\_j[\_k[\_l]]][X], where X may also include a leading underscore.
-    Implementation of the “ups version style” requires setting \<project\>\_CMAKE\_PROJECT\_VERSION\_STRING. In the example below, note that the version can be specified as either “0.07.09.of1” or “0.07.09-of1”. Either will result in ups product version v0\_07\_09of1.
+-   “UPS” version style: vi[_j[_k[_l]]][X], where X may also include a leading underscore.
+    Implementation of the “ups version style” requires setting \<project\>_CMAKE_PROJECT_VERSION_STRING. In the example below, note that the version can be specified as either “0.07.09.of1” or “0.07.09-of1”. Either will result in ups product version v0_07_09of1.
 
         project(sbndaq_artdaq_core)
         set(${PROJECT}_CMAKE_PROJECT_VERSION_STRING 0.07.09-of1)
@@ -48,16 +48,16 @@ In implementing a system which could handle non-numeric version components at le
 build order matters
 --------------------------------------------
 
-mrb 5 has improved management of in-tree dependencies and include paths. This means that repoisitories must be listed in optimal order in \$MRB\_SOURCE/CMakeLists.txt. mrbsetenv will run “mrb uc” under the covers to ensure this. Note that “mrb uc” needs information generated by mrbsetenv before it can ensure optimal build order.
+mrb 5 has improved management of in-tree dependencies and include paths. This means that repoisitories must be listed in optimal order in \$MRB_SOURCE/CMakeLists.txt. mrbsetenv will run “mrb uc” under the covers to ensure this. Note that “mrb uc” needs information generated by mrbsetenv before it can ensure optimal build order.
 
 library names
 --------------------------------
 
 We recommend using CMake targets (e.g. Boost::regex) for library names in your link list. In some cases, this may be required.
 
-Explicit mention of \${\<LIBRARY\_VAR\>} as set by cet\_find\_library() must be replaced by \<LIBRARY\_VAR\> (e.g.) \${LIBTORCH} -\> LIBTORCH. This ensures that a (non-relocatable) full path is not embedded in generated CMake config files.
+Explicit mention of \${\<LIBRARY_VAR\>} as set by cet_find_library() must be replaced by \<LIBRARY_VAR\> (e.g.) \${LIBTORCH} -\> LIBTORCH. This ensures that a (non-relocatable) full path is not embedded in generated CMake config files.
 
-Do not use \$ENV in cet\_find\_library (or find\_library). Instead use bare ENV.
+Do not use \$ENV in cet_find_library (or find_library). Instead use bare ENV.
 
     -cet_find_library(XML2 NAMES xml2 PATHS $ENV{LIBXML2_FQ_DIR}/lib NO_DEFAULT_PATH)
     +cet_find_library(XML2 NAMES xml2 PATHS ENV LIBXML2_FQ_DIR PATH_SUFFIXES lib NO_DEFAULT_PATH)
@@ -81,8 +81,8 @@ migrating from mrb 4 to mrb 5
 You will need an entirely new development area.
 
 1.  Make a new development area with mrb newDev.
-2.  Move/copy/link sources into \$MRB\_SOURCE or check out a fresh copy.
-3.  If you copied sources instead of using “mrb g”, run “mrb uc” to update \$MRB\_SOURCE/CMakeLists.txt.
+2.  Move/copy/link sources into \$MRB_SOURCE or check out a fresh copy.
+3.  If you copied sources instead of using “mrb g”, run “mrb uc” to update \$MRB_SOURCE/CMakeLists.txt.
 4.  Update the cetbuildtools version in all packages with mrb uv.
 5.  Setup up products with mrbsetenv.
 6.  Build.
@@ -94,4 +94,4 @@ If there is a problem finding eigen headers, include them explicitly.
 
     include_directories($ENV{EIGEN_INC})
 
-Do not attempt to include the tensorflow third party headers. Those headers are known to be broken in tensorflow v2\_3\_1a.
+Do not attempt to include the tensorflow third party headers. Those headers are known to be broken in tensorflow v2_3_1a.

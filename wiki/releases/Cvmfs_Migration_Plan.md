@@ -25,11 +25,11 @@ Releases to be installed
 
 -   We think that most people are either using a production release or a recent larsoft release.
 -   We plan to install the following releases in /cvmfs/larsoft.opensciencegrid.org/products
-    -   recent larsoft releases starting with v06\_69\_01
+    -   recent larsoft releases starting with v06_69_01
     -   all v06 production releases
-    -   v05\_14\_00 for DUNE
-    -   v05\_08\_00\_01 for MicroBooNE
-    -   v03\_08\_02 for SBND
+    -   v05_14_00 for DUNE
+    -   v05_08_00_01 for MicroBooNE
+    -   v03_08_02 for SBND
 -   Other releases may be installed upon request.
 
 Production releases for /cvmfs/larsoft.opensciencegrid.org/products
@@ -40,10 +40,10 @@ This is a short list. The full list of releases is available [here](LArSoft_rele
 |LArSoft Production Release|LArSoftObj Release|Date|Purpose|Changes / notes|Full release notes|
 |:-------------------------|:-----------------|:---|:------|:--------------|:-----------------|
 |future|||||[Changes Expected for Future Releases](FutureChanges)|
-|**v06\_70\_01\_01**|v1\_41\_01|03/13/2018||requested by SBND for SBN workshop|[Release Notes](ReleaseNotes06700101)|
-|**v06\_26\_01\_10**|v1\_11\_00\_05|01/31/2018||requested by MicroBooNE|[Release Notes](ReleaseNotes06260110)|
-|**v06\_26\_01\_09**|v1\_11\_00\_04|12/12/2017||requested by MicroBooNE, uses art v2\_05\_01|[Release Notes](ReleaseNotes06260109)|
-|**v06\_26\_01\_08**|v1\_11\_00\_03|11/20/2017||requested by MicroBooNE|[Release Notes](ReleaseNotes06260108)|
+|**v06_70_01_01**|v1_41_01|03/13/2018||requested by SBND for SBN workshop|[Release Notes](ReleaseNotes06700101)|
+|**v06_26_01_10**|v1_11_00_05|01/31/2018||requested by MicroBooNE|[Release Notes](ReleaseNotes06260110)|
+|**v06_26_01_09**|v1_11_00_04|12/12/2017||requested by MicroBooNE, uses art v2_05_01|[Release Notes](ReleaseNotes06260109)|
+|**v06_26_01_08**|v1_11_00_03|11/20/2017||requested by MicroBooNE|[Release Notes](ReleaseNotes06260108)|
 |**v06.26.01.07**||10/19/2017||for MicroBooNE|[Release Notes](ReleaseNotes06260107)|
 |**v06.26.01.05**||09/12/2017|Production Release|for MicroBooNE|[Release Notes](ReleaseNotes06260105)|
 |**v06.26.01.04**||08/05/2017|Production Release|for MicroBooNE|[Release Notes](ReleaseNotes06260104)|
@@ -60,7 +60,7 @@ This is a short list. The full list of releases is available [here](LArSoft_rele
 |:------|:---|:------|:--------------|:-----------------|
 |**v05.08.00.01**|11/03/2016|Production Release|requested by MicroBooNE|[Release Notes](ReleaseNotes05080001)|
 |**v05.14.00**|06/29/2016|Integration release|DUNE 35t production|[Release Notes](ReleaseNotes051400)|
-|**v03.08.02**|02/12/2015|Final tag|rollup tag preceeding v04\_00\_00 - retain for SBND|[Release Notes](ReleaseNotes030802)|
+|**v03.08.02**|02/12/2015|Final tag|rollup tag preceeding v04_00_00 - retain for SBND|[Release Notes](ReleaseNotes030802)|
 
 Removing the old product area
 ----------------------------------------------------------------

@@ -1,39 +1,39 @@
-LArSoft v08\_48\_01 Release Notes
+LArSoft v08_48_01 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v08\_48\_01 Release Notes](#LArSoft-v08_48_01-Release-Notes)
+-   [LArSoft v08_48_01 Release Notes](#LArSoft-v08_48_01-Release-Notes)
     -   [Purpose](#Purpose)
     -   [Updated Rayleigh and R index for LAr](#Updated-Rayleigh-and-R-index-for-LAr)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v08\_48\_01](#larsoft-v08_48_01)
-    -   [lareventdisplay v08\_12\_09](#lareventdisplay-v08_12_09)
-    -   [larexamples v08\_06\_09](#larexamples-v08_06_09)
-    -   [larg4 v08\_12\_07](#larg4-v08_12_07)
-    -   [larpandora v08\_12\_01](#larpandora-v08_12_01)
-    -   [larrecodnn v08\_01\_02](#larrecodnn-v08_01_02)
-    -   [larwirecell v08\_12\_08](#larwirecell-v08_12_08)
-    -   [larana v08\_17\_01](#larana-v08_17_01)
-    -   [larreco v08\_30\_01](#larreco-v08_30_01)
-    -   [larsim v08\_22\_01](#larsim-v08_22_01)
-    -   [larevt v08\_11\_01](#larevt-v08_11_01)
-    -   [lardata v08\_15\_01](#lardata-v08_15_01)
-    -   [larcore v08\_11\_02](#larcore-v08_11_02)
-    -   [larpandoracontent v03\_15\_16](#larpandoracontent-v03_15_16)
-    -   [larsoftobj v08\_27\_04](#larsoftobj-v08_27_04)
-    -   [lardataobj v08\_10\_05](#lardataobj-v08_10_05)
-    -   [lardataalg v08\_13\_07](#lardataalg-v08_13_07)
-    -   [larcorealg v08\_21\_02](#larcorealg-v08_21_02)
-    -   [larcoreobj v08\_10\_04](#larcoreobj-v08_10_04)
-    -   [larbatch v01\_52\_02](#larbatch-v01_52_02)
-    -   [larutils v1\_25\_09](#larutils-v1_25_09)
+    -   [larsoft v08_48_01](#larsoft-v08_48_01)
+    -   [lareventdisplay v08_12_09](#lareventdisplay-v08_12_09)
+    -   [larexamples v08_06_09](#larexamples-v08_06_09)
+    -   [larg4 v08_12_07](#larg4-v08_12_07)
+    -   [larpandora v08_12_01](#larpandora-v08_12_01)
+    -   [larrecodnn v08_01_02](#larrecodnn-v08_01_02)
+    -   [larwirecell v08_12_08](#larwirecell-v08_12_08)
+    -   [larana v08_17_01](#larana-v08_17_01)
+    -   [larreco v08_30_01](#larreco-v08_30_01)
+    -   [larsim v08_22_01](#larsim-v08_22_01)
+    -   [larevt v08_11_01](#larevt-v08_11_01)
+    -   [lardata v08_15_01](#lardata-v08_15_01)
+    -   [larcore v08_11_02](#larcore-v08_11_02)
+    -   [larpandoracontent v03_15_16](#larpandoracontent-v03_15_16)
+    -   [larsoftobj v08_27_04](#larsoftobj-v08_27_04)
+    -   [lardataobj v08_10_05](#lardataobj-v08_10_05)
+    -   [lardataalg v08_13_07](#lardataalg-v08_13_07)
+    -   [larcorealg v08_21_02](#larcorealg-v08_21_02)
+    -   [larcoreobj v08_10_04](#larcoreobj-v08_10_04)
+    -   [larbatch v01_52_02](#larbatch-v01_52_02)
+    -   [larutils v1_25_09](#larutils-v1_25_09)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v08\_48\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_48_01/larsoft-v08_48_01.html)
-Download instructions for [just larsoftobj v08\_27\_04](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_27_04/larsoftobj-v08_27_04.html)
+Download instructions for [larsoft v08_48_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_48_01/larsoft-v08_48_01.html)
+Download instructions for [just larsoftobj v08_27_04](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_27_04/larsoftobj-v08_27_04.html)
 
 Purpose
 --------------------
@@ -52,7 +52,7 @@ Updated Rayleigh and R index for LAr
 New features
 ------------------------------
 
--   larpandoracontent v03\_15\_16
+-   larpandoracontent v03_15_16
     -   larpandoracontent PR 3
     -   This is a set of related features that have converged ready for a new development push for two-view LArTPCs (so e.g. ProtoDUNE-DP or recovery mode for a single-phase LArTPC). The changelog snippet, with links to individual pull requests on PandoraPFA/LArContent are linked here. No change in behaviour is expected, with these features enabling new developments.
 
@@ -62,84 +62,84 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   pygccxml v1\_9\_1b
+-   pygccxml v1_9_1b
     -   included in larsoft distribution for the first time
     -   This product is not setup automatically.
 
 Change List
 ============================
 
-larsoft v08\_48\_01
+larsoft v08_48_01
 ------------------------------------------
 
--   2020-04-01 Lynn Garren : larsoft v08\_48\_01 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larsoft v08_48_01 for larsoft v08_48_01
 -   2020-04-01 Lynn Garren : product versions
 -   2020-03-30 Lynn Garren : Merge pull request \#11 from lgarren/develop
 -   2020-03-30 Lynn Garren : provide pygccxml in the product stack
 
-lareventdisplay v08\_12\_09
+lareventdisplay v08_12_09
 ----------------------------------------------------------
 
--   2020-04-01 Lynn Garren : lareventdisplay v08\_12\_09 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : lareventdisplay v08_12_09 for larsoft v08_48_01
 
-larexamples v08\_06\_09
+larexamples v08_06_09
 --------------------------------------------------
 
--   2020-04-01 Lynn Garren : larexamples v08\_06\_09 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larexamples v08_06_09 for larsoft v08_48_01
 
-larg4 v08\_12\_07
+larg4 v08_12_07
 --------------------------------------
 
--   2020-04-01 Lynn Garren : larg4 v08\_12\_07 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larg4 v08_12_07 for larsoft v08_48_01
 
-larpandora v08\_12\_01
+larpandora v08_12_01
 ------------------------------------------------
 
--   2020-04-01 Lynn Garren : larpandora v08\_12\_01 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larpandora v08_12_01 for larsoft v08_48_01
 
-larrecodnn v08\_01\_02
+larrecodnn v08_01_02
 ------------------------------------------------
 
--   2020-04-01 Lynn Garren : larrecodnn v08\_01\_02 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larrecodnn v08_01_02 for larsoft v08_48_01
 
-larwirecell v08\_12\_08
+larwirecell v08_12_08
 --------------------------------------------------
 
--   2020-04-01 Lynn Garren : larwirecell v08\_12\_08 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larwirecell v08_12_08 for larsoft v08_48_01
 
-larana v08\_17\_01
+larana v08_17_01
 ----------------------------------------
 
--   2020-04-01 Lynn Garren : larana v08\_17\_01 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larana v08_17_01 for larsoft v08_48_01
 
-larreco v08\_30\_01
+larreco v08_30_01
 ------------------------------------------
 
--   2020-04-01 Lynn Garren : larreco v08\_30\_01 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larreco v08_30_01 for larsoft v08_48_01
 
-larsim v08\_22\_01
+larsim v08_22_01
 ----------------------------------------
 
--   2020-04-01 Lynn Garren : larsim v08\_22\_01 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larsim v08_22_01 for larsoft v08_48_01
 
-larevt v08\_11\_01
+larevt v08_11_01
 ----------------------------------------
 
--   2020-04-01 Lynn Garren : larevt v08\_11\_01 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larevt v08_11_01 for larsoft v08_48_01
 
-lardata v08\_15\_01
+lardata v08_15_01
 ------------------------------------------
 
--   2020-04-01 Lynn Garren : lardata v08\_15\_01 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : lardata v08_15_01 for larsoft v08_48_01
 
-larcore v08\_11\_02
+larcore v08_11_02
 ------------------------------------------
 
-larpandoracontent v03\_15\_16
+larpandoracontent v03_15_16
 --------------------------------------------------------------
 
--   2020-04-01 Lynn Garren : larpandoracontent v03\_15\_16 for larsoft v08\_48\_01
--   2020-03-30 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from PandoraPFA/feature/larpandoracontent\_v03\_15\_16
+-   2020-04-01 Lynn Garren : larpandoracontent v03_15_16 for larsoft v08_48_01
+-   2020-03-30 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from PandoraPFA/feature/larpandoracontent_v03_15_16
 -   2020-03-30 John Marshall : Merge branch ‘updates’
 -   2020-03-30 John Marshall : Update version and change log.
 -   2020-03-30 John Marshall : Remove whitespace.
@@ -190,35 +190,35 @@ larpandoracontent v03\_15\_16
 -   2020-03-12 John Marshall : Template PfoCharacterisation algorithm on mva type.
 -   2020-02-17 Patrick Gartung : remove github actions
 
-larsoftobj v08\_27\_04
+larsoftobj v08_27_04
 ------------------------------------------------
 
--   2020-04-01 Lynn Garren : larsoftobj v08\_27\_04 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larsoftobj v08_27_04 for larsoft v08_48_01
 -   2020-04-01 Lynn Garren : product versions
 
-lardataobj v08\_10\_05
+lardataobj v08_10_05
 ------------------------------------------------
 
-lardataalg v08\_13\_07
+lardataalg v08_13_07
 ------------------------------------------------
 
--   2020-04-01 Lynn Garren : lardataalg v08\_13\_07 for larsoft v08\_48\_01
--   2020-04-01 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from lpaulucc/feature/lp\_rayleigh90cm
+-   2020-04-01 Lynn Garren : lardataalg v08_13_07 for larsoft v08_48_01
+-   2020-04-01 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from lpaulucc/feature/lp_rayleigh90cm
 -   2020-03-26 Laura Paulucci : Removing empty space
 -   2020-03-26 Laura Paulucci : Updating Rayleigh and R index for LAr
 
-larcorealg v08\_21\_02
+larcorealg v08_21_02
 ------------------------------------------------
 
-larcoreobj v08\_10\_04
+larcoreobj v08_10_04
 ------------------------------------------------
 
-larbatch v01\_52\_02
+larbatch v01_52_02
 --------------------------------------------
 
-larutils v1\_25\_09
+larutils v1_25_09
 ------------------------------------------
 
--   2020-04-01 Lynn Garren : larutils v1\_25\_09 for larsoft v08\_48\_01
+-   2020-04-01 Lynn Garren : larutils v1_25_09 for larsoft v08_48_01
 -   2020-03-30 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/develop
 -   2020-03-30 Lynn Garren : need to recognize s69

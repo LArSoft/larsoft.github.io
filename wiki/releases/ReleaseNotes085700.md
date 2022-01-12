@@ -1,39 +1,39 @@
-LArSoft v08\_57\_00 Release Notes
+LArSoft v08_57_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v08\_57\_00 Release Notes](#LArSoft-v08_57_00-Release-Notes)
+-   [LArSoft v08_57_00 Release Notes](#LArSoft-v08_57_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v08\_57\_00](#larsoft-v08_57_00)
-    -   [lareventdisplay v08\_12\_20](#lareventdisplay-v08_12_20)
-    -   [larexamples v08\_06\_20](#larexamples-v08_06_20)
-    -   [larg4 v08\_14\_06](#larg4-v08_14_06)
-    -   [larpandora v08\_13\_00](#larpandora-v08_13_00)
-    -   [larrecodnn v08\_06\_00](#larrecodnn-v08_06_00)
-    -   [larwirecell v08\_12\_16](#larwirecell-v08_12_16)
-    -   [larana v08\_17\_12](#larana-v08_17_12)
-    -   [larreco v08\_32\_05](#larreco-v08_32_05)
-    -   [larsim v08\_28\_01](#larsim-v08_28_01)
-    -   [larevt v08\_12\_00](#larevt-v08_12_00)
-    -   [lardata v08\_15\_09](#lardata-v08_15_09)
-    -   [larcore v08\_11\_10](#larcore-v08_11_10)
-    -   [larpandoracontent v03\_17\_00](#larpandoracontent-v03_17_00)
-    -   [larsoftobj v08\_29\_02](#larsoftobj-v08_29_02)
-    -   [lardataobj v08\_11\_02](#lardataobj-v08_11_02)
-    -   [lardataalg v08\_13\_14](#lardataalg-v08_13_14)
-    -   [larcorealg v08\_22\_02](#larcorealg-v08_22_02)
-    -   [larcoreobj v08\_12\_01](#larcoreobj-v08_12_01)
-    -   [webevd v08\_00\_07](#webevd-v08_00_07)
-    -   [larbatch v01\_52\_02](#larbatch-v01_52_02)
-    -   [larutils v1\_26\_00](#larutils-v1_26_00)
+    -   [larsoft v08_57_00](#larsoft-v08_57_00)
+    -   [lareventdisplay v08_12_20](#lareventdisplay-v08_12_20)
+    -   [larexamples v08_06_20](#larexamples-v08_06_20)
+    -   [larg4 v08_14_06](#larg4-v08_14_06)
+    -   [larpandora v08_13_00](#larpandora-v08_13_00)
+    -   [larrecodnn v08_06_00](#larrecodnn-v08_06_00)
+    -   [larwirecell v08_12_16](#larwirecell-v08_12_16)
+    -   [larana v08_17_12](#larana-v08_17_12)
+    -   [larreco v08_32_05](#larreco-v08_32_05)
+    -   [larsim v08_28_01](#larsim-v08_28_01)
+    -   [larevt v08_12_00](#larevt-v08_12_00)
+    -   [lardata v08_15_09](#lardata-v08_15_09)
+    -   [larcore v08_11_10](#larcore-v08_11_10)
+    -   [larpandoracontent v03_17_00](#larpandoracontent-v03_17_00)
+    -   [larsoftobj v08_29_02](#larsoftobj-v08_29_02)
+    -   [lardataobj v08_11_02](#lardataobj-v08_11_02)
+    -   [lardataalg v08_13_14](#lardataalg-v08_13_14)
+    -   [larcorealg v08_22_02](#larcorealg-v08_22_02)
+    -   [larcoreobj v08_12_01](#larcoreobj-v08_12_01)
+    -   [webevd v08_00_07](#webevd-v08_00_07)
+    -   [larbatch v01_52_02](#larbatch-v01_52_02)
+    -   [larutils v1_26_00](#larutils-v1_26_00)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v08\_57\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_57_00/larsoft-v08_57_00.html)
-Download instructions for [just larsoftobj v08\_29\_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_02/larsoftobj-v08_29_02.html)
+Download instructions for [larsoft v08_57_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_57_00/larsoft-v08_57_00.html)
+Download instructions for [just larsoftobj v08_29_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_02/larsoftobj-v08_29_02.html)
 
 Purpose
 --------------------
@@ -53,7 +53,7 @@ New features
     -   This pull request contains the latest set of larcontent features, mostly providing updates for two-view LArTPC reconstruction. Additionally, the c++ standard is bumped to c++17. The latest changelog and links to the contributing larcontent pull requests can be found below.
     -   The changes should not impact any experiment output unless experiments enable the new algorithms in their configuration XML.
         The bulk of the commits/changes are related to expanding the 2D-\>3D matching for two-view LArTPCs; the matching now calculates calorimetry-based matching metrics which are starting to be used in the two-view 2D-\>3D matching process.
-    -   To enable the new matching features in dunetpc, feature/newPandoraDPfeature\_caloMatching will need to be included in the dunetpc release immediately following the merge of this PR.
+    -   To enable the new matching features in dunetpc, feature/newPandoraDPfeature_caloMatching will need to be included in the dunetpc release immediately following the merge of this PR.
 -   larg4 PR 12
     -   Added ParticleListActionService configuration parameter to enable trajectory sparsification for MCParticles to reduce memory consumption in the ROOT output stage. If enabled this applies only to particles with full trajectories (as opposed to being called for all particles including those with only a start and and end point)
 
@@ -73,42 +73,42 @@ Updated dependencies
 Change List
 ============================
 
-larsoft v08\_57\_00
+larsoft v08_57_00
 ------------------------------------------
 
--   2020-07-08 Lynn Garren : larsoft v08\_57\_00 for larsoft v08\_57\_00
+-   2020-07-08 Lynn Garren : larsoft v08_57_00 for larsoft v08_57_00
 -   2020-07-08 Lynn Garren : product versions
--   2020-07-02 Lynn Garren : Merge pull request \#14 from lgarren/feature/lg\_more\_larwire
--   2020-07-02 Lynn Garren : adding libwda and art\_root\_io, and fixing pyqual
+-   2020-07-02 Lynn Garren : Merge pull request \#14 from lgarren/feature/lg_more_larwire
+-   2020-07-02 Lynn Garren : adding libwda and art_root_io, and fixing pyqual
 
-lareventdisplay v08\_12\_20
+lareventdisplay v08_12_20
 ----------------------------------------------------------
 
--   2020-07-08 Lynn Garren : lareventdisplay v08\_12\_20 for larsoft v08\_57\_00
+-   2020-07-08 Lynn Garren : lareventdisplay v08_12_20 for larsoft v08_57_00
 
-larexamples v08\_06\_20
+larexamples v08_06_20
 --------------------------------------------------
 
--   2020-07-08 Lynn Garren : larexamples v08\_06\_20 for larsoft v08\_57\_00
+-   2020-07-08 Lynn Garren : larexamples v08_06_20 for larsoft v08_57_00
 
-larg4 v08\_14\_06
+larg4 v08_14_06
 --------------------------------------
 
--   2020-07-08 Lynn Garren : larg4 v08\_14\_06 for larsoft v08\_57\_00
--   2020-07-07 Lynn Garren : Merge pull request \#12 from drivera-fnal/feature\_drivera\_sparsify\_trajectories
--   2020-07-06 David Rivera : Merge branch ‘develop’ of github.com:LArSoft/larg4 into feature\_drivera\_sparsify\_trajectories (pull in changes from larsoft\_suite\_v08\_56\_00 and develop HEAD )
+-   2020-07-08 Lynn Garren : larg4 v08_14_06 for larsoft v08_57_00
+-   2020-07-07 Lynn Garren : Merge pull request \#12 from drivera-fnal/feature_drivera_sparsify_trajectories
+-   2020-07-06 David Rivera : Merge branch ‘develop’ of github.com:LArSoft/larg4 into feature_drivera_sparsify_trajectories (pull in changes from larsoft_suite_v08_56_00 and develop HEAD )
 -   2020-07-06 David Rivera : Added fhicl parameter to enable simb::MCParticle::SparsifyTrajectory() method to be called on particles with full trajectories to reduce memory usage.
 
-larpandora v08\_13\_00
+larpandora v08_13_00
 ------------------------------------------------
 
--   2020-07-08 Lynn Garren : m\_maxGapSize is unused
--   2020-07-08 Lynn Garren : larpandora v08\_13\_00 for larsoft v08\_57\_00
+-   2020-07-08 Lynn Garren : m_maxGapSize is unused
+-   2020-07-08 Lynn Garren : larpandora v08_13_00 for larsoft v08_57_00
 -   2020-07-08 Lynn Garren : Merge pull request \#8 from PandoraPFA/feature/ProtoDUNEDualPhaseGaps
 -   2020-07-08 Etienne Chardonnet : In LArPandoraInput.cxx: Removed explicit cast L357 – replaced try/catch L250-258 by requested if statement
--   2020-07-08 Etienne Chardonnet : In LArPandoraGeometry: Added noexcept to MaxGapSize static function – Replaced flagged push\_backs by emplace\_backs
+-   2020-07-08 Etienne Chardonnet : In LArPandoraGeometry: Added noexcept to MaxGapSize static function – Replaced flagged push_backs by emplace_backs
 -   2020-07-06 Etienne Chardonnet : used removedWhiteSpace.sh
--   2020-07-03 Etienne Chardonnet : Implemented all comments from PR – Especially, created a member variable m\_maxGapSize for LArDetectorGap class
+-   2020-07-03 Etienne Chardonnet : Implemented all comments from PR – Especially, created a member variable m_maxGapSize for LArDetectorGap class
 -   2020-06-29 Etienne Chardonnet : Modified LArPandoraGeometry and LArPandoraInput to include DP gaps together with SP gaps
 -   2020-06-01 Maria Brigida Brunetti : Shorten crp gaps to match drift volume X width
 -   2020-05-20 Maria Brigida Brunetti : Fix bug and add condition to only add CRP gaps if detector is DP and has 4 TPCs (corresponding to CRPs in DP)
@@ -122,10 +122,10 @@ larpandora v08\_13\_00
 -   2020-05-20 Maria Brigida Brunetti : Add gaps between CRPs for ProtoDUNE DP
 -   2020-05-20 Etienne Chardonnet : Added unpolished LEM gaps in LArPandora.Input.cxx
 
-larrecodnn v08\_06\_00
+larrecodnn v08_06_00
 ------------------------------------------------
 
--   2020-07-08 Lynn Garren : larrecodnn v08\_06\_00 for larsoft v08\_57\_00
+-   2020-07-08 Lynn Garren : larrecodnn v08_06_00 for larsoft v08_57_00
 -   2020-07-07 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from yangtj207/develop
 -   2020-04-28 Tingjun Yang : Use smart pointer.
 -   2020-04-28 Tingjun Yang : addressing comments
@@ -133,46 +133,46 @@ larrecodnn v08\_06\_00
 -   2020-04-27 Tingjun Yang : Remove white space.
 -   2020-04-27 Tingjun Yang : Add Mike’s module to dump raw waveform info for ROI finding network training.
 
-larwirecell v08\_12\_16
+larwirecell v08_12_16
 --------------------------------------------------
 
-larana v08\_17\_12
+larana v08_17_12
 ----------------------------------------
 
--   2020-07-08 Lynn Garren : larana v08\_17\_12 for larsoft v08\_57\_00
+-   2020-07-08 Lynn Garren : larana v08_17_12 for larsoft v08_57_00
 
-larreco v08\_32\_05
+larreco v08_32_05
 ------------------------------------------
 
--   2020-07-08 Lynn Garren : larreco v08\_32\_05 for larsoft v08\_57\_00
+-   2020-07-08 Lynn Garren : larreco v08_32_05 for larsoft v08_57_00
 
-larsim v08\_28\_01
+larsim v08_28_01
 ----------------------------------------
 
--   2020-07-08 Lynn Garren : larsim v08\_28\_01 for larsoft v08\_57\_00
--   2020-07-03 Lynn Garren : Merge pull request \#27 from PetrilloAtWork/feature/gp\_LightSource
+-   2020-07-08 Lynn Garren : larsim v08_28_01 for larsoft v08_57_00
+-   2020-07-03 Lynn Garren : Merge pull request \#27 from PetrilloAtWork/feature/gp_LightSource
 -   2020-07-02 Gianluca Petrillo : LightSource bug fix: random generation location restored
 
-larevt v08\_12\_00
+larevt v08_12_00
 ----------------------------------------
 
-lardata v08\_15\_09
+lardata v08_15_09
 ------------------------------------------
 
-larcore v08\_11\_10
+larcore v08_11_10
 ------------------------------------------
 
-larpandoracontent v03\_17\_00
+larpandoracontent v03_17_00
 --------------------------------------------------------------
 
--   2020-07-08 Lynn Garren : larpandoracontent v03\_17\_00 for larsoft v08\_57\_00
--   2020-07-07 Lynn Garren : Merge pull request \#7 from PandoraPFA/feature/larpandoracontent\_v03\_17\_00
+-   2020-07-08 Lynn Garren : larpandoracontent v03_17_00 for larsoft v08_57_00
+-   2020-07-07 Lynn Garren : Merge pull request \#7 from PandoraPFA/feature/larpandoracontent_v03_17_00
 -   2020-07-02 Dom Brailsford : Update changelog.
--   2020-07-02 Dom Brailsford : Bug fix: initialise m\_matchingScore in the empty base constructor.
+-   2020-07-02 Dom Brailsford : Bug fix: initialise m_matchingScore in the empty base constructor.
 -   2020-07-02 Andrew Chappell : Explicitly check dynamic cast worked
 -   2020-07-01 Andrew Chappell : Remove coverage checks from cron
 -   2020-07-01 Andrew Chappell : Update cron docker container
--   2020-07-01 Andrew Chappell : Merge remote-tracking branch ‘dom/feature/larpandoracontent\_v03\_17\_00’ into feature/larpandoracontent\_v03\_17\_00
+-   2020-07-01 Andrew Chappell : Merge remote-tracking branch ‘dom/feature/larpandoracontent_v03_17_00’ into feature/larpandoracontent_v03_17_00
 -   2020-06-26 Dom Brailsford : Sanity/bounds checks on some variables before using them. Style/cosmetic changes. Include a AllFloatInputData typedef.
 -   2020-06-26 Dom Brailsford : Read in params from XML
 -   2020-06-26 Dom Brailsford : Cosmetic/style changes.
@@ -182,10 +182,10 @@ larpandoracontent v03\_17\_00
 -   2020-06-25 Dom Brailsford : XML text and c++ same name
 -   2020-06-25 Dom Brailsford : Style, cosmetics and small optimisations.
 -   2020-06-25 Dom Brailsford : Make the upperLimit a function argument
--   2020-06-25 Dom Brailsford : size\_t to unsigned int. Space after comma in arguments. Real float checks.
+-   2020-06-25 Dom Brailsford : size_t to unsigned int. Space after comma in arguments. Real float checks.
 -   2020-06-15 Dom Brailsford : RNG as member variable. Initialise the seed to the sum of the cluster hits (was bugged, pCluster2 hits were self-added), in the overridden function, before all of the matching machinery is called. This is done to try and avoid code changes allowing an non-reset seed passing through to the matching functions
 -   2020-06-03 Dom Brailsford : Drop redundant lines/functions.
--   2020-06-03 Dom Brailsford : Use a well defined, reproducible random seed. There’s now no need to store the random objects as member variables. static\_cast to the type needed for the random seed.
+-   2020-06-03 Dom Brailsford : Use a well defined, reproducible random seed. There’s now no need to store the random objects as member variables. static_cast to the type needed for the random seed.
 -   2020-06-03 Dom Brailsford : Style changes. Small optimisation tweak.
 -   2020-06-03 Dom Brailsford : Only calculate width when the width is needed
 -   2020-06-02 Dom Brailsford : Style changes. Small fixes. Includes changing an unsigned int to an int for easier bounds checking.
@@ -246,26 +246,26 @@ larpandoracontent v03\_17\_00
 -   2020-06-19 johnmarshall80 : Merge pull request [\#128](/redmine/issues/128 "Feature: Add quadrant leaders to signature requirements (New)") from AndyChappell/feature/cpp17
 -   2020-06-19 Andy Chappell : Move to C++17 standard
 
-larsoftobj v08\_29\_02
+larsoftobj v08_29_02
 ------------------------------------------------
 
-lardataobj v08\_11\_02
+lardataobj v08_11_02
 ------------------------------------------------
 
-lardataalg v08\_13\_14
+lardataalg v08_13_14
 ------------------------------------------------
 
-larcorealg v08\_22\_02
+larcorealg v08_22_02
 ------------------------------------------------
 
-larcoreobj v08\_12\_01
+larcoreobj v08_12_01
 ------------------------------------------------
 
-webevd v08\_00\_07
+webevd v08_00_07
 ----------------------------------------
 
-larbatch v01\_52\_02
+larbatch v01_52_02
 --------------------------------------------
 
-larutils v1\_26\_00
+larutils v1_26_00
 ------------------------------------------

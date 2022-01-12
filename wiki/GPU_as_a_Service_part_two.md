@@ -50,9 +50,9 @@ The root directory of the model repository in this example is "`/models`". All t
 
 The files containing the actual ML model are located in the “version” subdirectory ("`./cnn_emtrkmichel_1/1`“). The Triton inference server supports several different types of ML backends. The backend used in this example is Tensorflow and the format of the model file is one of two Tensorflow types supported by Triton, referred to as a”`GraphDef`" file. This format contains a frozen model file which contains the model description with the numerical weights loaded into it, in a single file. By default, this file needs to be named as "`model.graphdef`". Additional information on the two Tensorflow formats, frozen `GraphDef` and `SavedModel`, supported by the Triton inference server can be found in the following links:
 
-[https://www.tensorflow.org/guide/saved\_model\#the\_savedmodel\_format\_on\_disk](https://www.tensorflow.org/guide/saved_model#the_savedmodel_format_on_disk)
+[https://www.tensorflow.org/guide/saved_model\#the_savedmodel_format_on_disk](https://www.tensorflow.org/guide/saved_model#the_savedmodel_format_on_disk)
 
-[https://www.tensorflow.org/js/tutorials/conversion/import\_saved\_model](https://www.tensorflow.org/js/tutorials/conversion/import_saved_model)
+[https://www.tensorflow.org/js/tutorials/conversion/import_saved_model](https://www.tensorflow.org/js/tutorials/conversion/import_saved_model)
 
 Configuration files
 --------------------------------------------

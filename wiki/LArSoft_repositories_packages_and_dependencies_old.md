@@ -13,7 +13,7 @@ LArSoft repositories packages and dependencies
     -   [lareventdisplay -\> larsim -\> larevt -\> lardata -\> larcore](#lareventdisplay-gt-larsim-gt-larevt-gt-lardata-gt-larcore)
     -   [larexamples -\> larsim -\> larevt -\> lardata -\> larcore](#larexamples-gt-larsim-gt-larevt-gt-lardata-gt-larcore)
     -   [lardataalg -\> lardataobj -\> larcorealg -\> larcoreobj -\> canvas](#lardataalg-gt-lardataobj-gt-larcorealg-gt-larcoreobj-gt-canvas)
-    -   [larsoft\_data](#larsoft_data)
+    -   [larsoft_data](#larsoft_data)
     -   [larsoft](#larsoft)
 
 The following is a list of the repositories/ups products that are in core LArSoft. The bullets show the corresponding SoftRelTools “packages” that are in each. The dependencies (approximate) area shown as arrows.
@@ -65,7 +65,7 @@ larevt -\> lardata -\> larcore
 
 -   Filters (depends on RecoBase, Geometry, and Utilities)
 
-> -   (do not build Filters/ShowerSelectorFilter\_module.cc since this depends on RecoAlg and needs to be moved)
+> -   (do not build Filters/ShowerSelectorFilter_module.cc since this depends on RecoAlg and needs to be moved)
 
 -   CalData (depends on Filters, RawData, RecoBase, and Utilities)
 
@@ -125,12 +125,12 @@ lardataalg -\> lardataobj -\> larcorealg -\> larcoreobj -\> canvas
 
 This is type 2, framework-independent, but it does depend on [canvas](https://cdcvs.fnal.gov/redmine/projects/canvas/wiki) which understands the Event Data Model of *art* and newsimdata.
 
-larsoft\_data
+larsoft_data
 -------------------------------
 
 -   A special package that contains data files needed by some LArSoft jobs. This product is *not*
-     included in larsoft\_suite, and strictly speaking, *is not* part of core LArSoft. It is maintained
-     here until a more general solution can be found. Setting up larsoft will set up larsoft\_data.
+     included in larsoft_suite, and strictly speaking, *is not* part of core LArSoft. It is maintained
+     here until a more general solution can be found. Setting up larsoft will set up larsoft_data.
 
 larsoft
 --------------------

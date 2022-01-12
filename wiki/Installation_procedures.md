@@ -13,7 +13,7 @@ A link to this script, and any instructions particular to the release, will be f
 
 -   Download pullProducts
 -   chmod +x pullProducts
--   ./pullProducts [-f|-p] \<product\_topdir\> \<OS\> \<bundle-spec\>-\<version\> \<qual\_set\> \<build-spec\>
+-   ./pullProducts [-f|-p] \<product_topdir\> \<OS\> \<bundle-spec\>-\<version\> \<qual_set\> \<build-spec\>
 
 > -   Options:
 >
@@ -43,7 +43,7 @@ A link to this script, and any instructions particular to the release, will be f
 >
 >         ./pullProducts /grid/fermiapp/products/larsoft slf6 larsoft-v04_08_00 s8-e7 prof
 >
-> -   pullProducts will check to see if products are already installed in \<product\_topdir\> and/or \$PRODUCTS, and install only those products which are not already installed.
+> -   pullProducts will check to see if products are already installed in \<product_topdir\> and/or \$PRODUCTS, and install only those products which are not already installed.
 > -   Notice that you do not need to run pullProducts in the product directory.
 > -   Tarballs for each product to be installed will be copied to the directory you are in when you run pullProducts.
 

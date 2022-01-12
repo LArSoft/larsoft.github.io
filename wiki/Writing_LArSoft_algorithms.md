@@ -314,7 +314,7 @@ According to this policy, the following constructs are allowed:
 -   CLHEP (anything… but the only thing LArSoft uses by (*art*) choice as are random engines; for the rest, there are likely better alternatives)
 -   ROOT (anything; nevertheless, [please avoid TVector3 and similar](From_ROOT_vectors_(TVector3)_to_ROOT_GenVector))
 -   Boost (be aware that C++17 includes a lot of the classes from Boost… time to get standard!)
--   [cetlib\_except](/redmine/projects/cetlib_except) exceptions (`cet::exception`)
+-   [cetlib_except](/redmine/projects/cetlib_except) exceptions (`cet::exception`)
 -   project:fhiclcpp configuration parsing (and its validation facilities as well!)
 -   [messagefacility](/redmine/projects/messagefacility) functions (e.g. `mf::LogVerbatim` and `LOG_DEBUG()`)
 -   `art::Ptr` and `art::Assns`, which, despite the legacy name, are now in [canvas](/redmine/projects/canvas)

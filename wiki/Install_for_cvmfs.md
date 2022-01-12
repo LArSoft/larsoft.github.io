@@ -10,7 +10,7 @@ Install in /cvmfs/larsoft.opensciencegrid.org/products
 -------------------------------------------------------------------------------------------------------------
 
 -   ssh
--   cvmfs\_server transaction larsoft.opensciencegrid.org
+-   cvmfs_server transaction larsoft.opensciencegrid.org
 -   ./scripts/installBundle.sh larsoft \<release\> \<qualifiers\>
     -   installBundle will install debug and prof distributions for slf7 e17 and c2, slf6 e17 and c2, d18 c2, and d17 c2.
 
@@ -19,7 +19,7 @@ Install in /cvmfs/larsoft.opensciencegrid.org/products
 -   check that the install was clean
     -   — make sure /cvmfs/larsoft.opensciencegrid.org/products/.working is empty
     -   — check everything! —
--   cvmfs\_server publish larsoft.opensciencegrid.org
+-   cvmfs_server publish larsoft.opensciencegrid.org
 -   Note that the eXY distributions are available only for SLF. The c2 distributions are available for both SLF and macOS.
 
 Install in /grid/fermiapp/products/larsoft
@@ -37,13 +37,13 @@ Install in /grid/fermiapp/products/larsoft
 -   We only install the macOS distributions on /grid/fermiapp. These are used by Jenkins builds.
 -   If you need to install by hand
     -   ../scripts/pullProducts /grid/fermiapp/products/larsoft \<dXY\> larsoft-\<version\> \<quals\> \<debug|prof\>
-    -   to pull, for instance, larsoft v06\_74\_00
+    -   to pull, for instance, larsoft v06_74_00
 
             ./pullProducts -p /grid/fermiapp/products/larsoft  d17 larsoft-v06_74_00 s65-c2 debug
             ./pullProducts -p /grid/fermiapp/products/larsoft  d17 larsoft-v06_74_00 s65-c2 prof
 
 -   verify
     -   source /grid/fermiapp/products/larsoft/setup
-    -   ups list -aK+ larsoft \<new\_version\>
-    -   ups depend larsoft \<new\_version\> -q \<qualifiers\>
-        -   Information on ups is available at [Getting\_Started\_Using\_UPS](/redmine/projects/ups/wiki/Getting_Started_Using_UPS)
+    -   ups list -aK+ larsoft \<new_version\>
+    -   ups depend larsoft \<new_version\> -q \<qualifiers\>
+        -   Information on ups is available at [Getting_Started_Using_UPS](/redmine/projects/ups/wiki/Getting_Started_Using_UPS)

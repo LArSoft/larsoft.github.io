@@ -1,35 +1,35 @@
-LArSoft v06\_52\_00 Release Notes
+LArSoft v06_52_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v06\_52\_00 Release Notes](#LArSoft-v06_52_00-Release-Notes)
+-   [LArSoft v06_52_00 Release Notes](#LArSoft-v06_52_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v06\_52\_00](#larsoft-v06_52_00)
-    -   [lareventdisplay v06\_12\_04](#lareventdisplay-v06_12_04)
-    -   [larexamples v06\_07\_03](#larexamples-v06_07_03)
-    -   [larpandora v06\_17\_00](#larpandora-v06_17_00)
-    -   [larwirecell v06\_07\_03](#larwirecell-v06_07_03)
-    -   [larana v06\_10\_04](#larana-v06_10_04)
-    -   [larreco v06\_41\_00](#larreco-v06_41_00)
-    -   [larsim v06\_31\_03](#larsim-v06_31_03)
-    -   [larevt v06\_16\_03](#larevt-v06_16_03)
-    -   [lardata v06\_30\_00](#lardata-v06_30_00)
-    -   [larcore v06\_15\_01](#larcore-v06_15_01)
-    -   [larpandoracontent v03\_08\_00](#larpandoracontent-v03_08_00)
-    -   [larsoftobj v1\_28\_00](#larsoftobj-v1_28_00)
-    -   [lardataobj v1\_21\_01](#lardataobj-v1_21_01)
-    -   [larcorealg v1\_08\_00](#larcorealg-v1_08_00)
-    -   [larcoreobj v1\_16\_00](#larcoreobj-v1_16_00)
-    -   [larbatch v01\_32\_05](#larbatch-v01_32_05)
-    -   [larutils v1\_19\_02](#larutils-v1_19_02)
+    -   [larsoft v06_52_00](#larsoft-v06_52_00)
+    -   [lareventdisplay v06_12_04](#lareventdisplay-v06_12_04)
+    -   [larexamples v06_07_03](#larexamples-v06_07_03)
+    -   [larpandora v06_17_00](#larpandora-v06_17_00)
+    -   [larwirecell v06_07_03](#larwirecell-v06_07_03)
+    -   [larana v06_10_04](#larana-v06_10_04)
+    -   [larreco v06_41_00](#larreco-v06_41_00)
+    -   [larsim v06_31_03](#larsim-v06_31_03)
+    -   [larevt v06_16_03](#larevt-v06_16_03)
+    -   [lardata v06_30_00](#lardata-v06_30_00)
+    -   [larcore v06_15_01](#larcore-v06_15_01)
+    -   [larpandoracontent v03_08_00](#larpandoracontent-v03_08_00)
+    -   [larsoftobj v1_28_00](#larsoftobj-v1_28_00)
+    -   [lardataobj v1_21_01](#lardataobj-v1_21_01)
+    -   [larcorealg v1_08_00](#larcorealg-v1_08_00)
+    -   [larcoreobj v1_16_00](#larcoreobj-v1_16_00)
+    -   [larbatch v01_32_05](#larbatch-v01_32_05)
+    -   [larutils v1_19_02](#larutils-v1_19_02)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06\_52\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_52_00/larsoft-v06_52_00.html)
-Download instructions for [just larsoftobj v1\_28\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_28_00/larsoftobj-v1_28_00.html)
+Download instructions for [larsoft v06_52_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_52_00/larsoft-v06_52_00.html)
+Download instructions for [just larsoftobj v1_28_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_28_00/larsoftobj-v1_28_00.html)
 
 Purpose
 --------------------
@@ -40,11 +40,11 @@ Purpose
 New features
 ------------------------------
 
--   feature/larpandoracontent\_v03\_08\_00
+-   feature/larpandoracontent_v03_08_00
     -   updated pandora v03-05-00
     -   larpandora, larpandoracontent
     -   uboonecode, dunetpc
--   feature/gp\_Issue14384
+-   feature/gp_Issue14384
     -   larcorealg
     -   dunetpc, lariatcode, sbndcode and icaruscode
     -   This addresses issue [\#14384](/redmine/issues/14384 "Bug: Copy of the Geometry object does not behave as the original one (Closed)")
@@ -56,33 +56,33 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   pandora v03\_05\_00
--   mrb v1\_12\_00
+-   pandora v03_05_00
+-   mrb v1_12_00
 
 Change List
 ============================
 
-larsoft v06\_52\_00
+larsoft v06_52_00
 ------------------------------------------
 
--   2017-10-04 Lynn Garren : pandora v03\_05\_00
--   2017-10-04 Lynn Garren : larsoft v06\_52\_00 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : pandora v03_05_00
+-   2017-10-04 Lynn Garren : larsoft v06_52_00 for larsoft v06_52_00
 -   2017-10-04 Lynn Garren : update product versions
 
-lareventdisplay v06\_12\_04
+lareventdisplay v06_12_04
 ----------------------------------------------------------
 
--   2017-10-04 Lynn Garren : lareventdisplay v06\_12\_04 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : lareventdisplay v06_12_04 for larsoft v06_52_00
 
-larexamples v06\_07\_03
+larexamples v06_07_03
 --------------------------------------------------
 
--   2017-10-04 Lynn Garren : larexamples v06\_07\_03 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larexamples v06_07_03 for larsoft v06_52_00
 
-larpandora v06\_17\_00
+larpandora v06_17_00
 ------------------------------------------------
 
--   2017-10-04 Lynn Garren : larpandora v06\_17\_00 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larpandora v06_17_00 for larsoft v06_52_00
 -   2017-09-26 John Marshall : Extract single-instance volume id from drift volume list.
 -   2017-09-22 John Marshall : Pass LArTPC details to correct Pandora instance.
 -   2017-09-22 John Marshall : Add missing lar tpc parameter.
@@ -97,22 +97,22 @@ larpandora v06\_17\_00
 -   2017-09-21 John Marshall : Remove old internal monitoring option and tidy-up.
 -   2017-09-12 John Marshall : Pass external steering parameters, read from fhicl parameter set, to LArParent Pandora algorithm.
 
-larwirecell v06\_07\_03
+larwirecell v06_07_03
 --------------------------------------------------
 
--   2017-10-04 Lynn Garren : larwirecell v06\_07\_03 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larwirecell v06_07_03 for larsoft v06_52_00
 
-larana v06\_10\_04
+larana v06_10_04
 ----------------------------------------
 
--   2017-10-04 Lynn Garren : larana v06\_10\_04 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larana v06_10_04 for larsoft v06_52_00
 
-larreco v06\_41\_00
+larreco v06_41_00
 ------------------------------------------
 
--   2017-10-04 Lynn Garren : larreco v06\_41\_00 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larreco v06_41_00 for larsoft v06_52_00
 -   2017-10-03 baller : Add check for killed vertex
--   2017-10-02 baller : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
+-   2017-10-02 baller : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-10-02 baller : Ongoing development
 -   2017-10-02 baller : Ongoing development
 -   2017-10-02 baller : Add Neutrino bool
@@ -121,7 +121,7 @@ larreco v06\_41\_00
 -   2017-10-02 baller : Add neutrino and primary functions
 -   2017-09-29 Tingjun Yang : Don’t allow a vertex using very short Tjs to split a long Tj.
 -   2017-09-29 Tingjun Yang : Finish implementing SplitTrajCrossingVertices.
--   2017-09-29 baller : Merge branch ‘feature/bb\_TJWork’ into develop
+-   2017-09-29 baller : Merge branch ‘feature/bb_TJWork’ into develop
 -   2017-09-29 baller : Fix Match3DCuts.
 -   2017-09-29 baller : Work-in-progress
 -   2017-09-29 baller : Don’t consider shower tjs..
@@ -136,8 +136,8 @@ larreco v06\_41\_00
 -   2017-09-28 baller : Make a neutrino PFParticle. Improve PFParticle report.
 -   2017-09-28 baller : Fix exception printing
 -   2017-09-28 Leigh Whitehead : Change some couts to LogInfo
--   2017-09-28 Leigh Whitehead : Merge branch ‘develop’ into feature/lhw\_cosmicUpdates
--   2017-09-27 baller : Merge branch ‘feature/bb\_TJWork’ into develop
+-   2017-09-28 Leigh Whitehead : Merge branch ‘develop’ into feature/lhw_cosmicUpdates
+-   2017-09-27 baller : Merge branch ‘feature/bb_TJWork’ into develop
 -   2017-09-27 baller : Remove print stuff
 -   2017-09-27 baller : Add EveID function. Convert std::courts to use mf.
 -   2017-09-27 baller : Add EveID function.
@@ -150,7 +150,7 @@ larreco v06\_41\_00
 -   2017-09-27 baller : Remove debug printout. Add TagProtons.
 -   2017-09-27 baller : Code cleanup
 -   2017-09-27 baller : Reconcile PFParticle PDG codes
--   2017-09-26 baller : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
+-   2017-09-26 baller : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-09-25 baller : Add vertex match counting
 -   2017-09-25 baller : Add vertex match counting
 -   2017-09-25 baller : Add Vx3Topo utility function
@@ -162,9 +162,9 @@ larreco v06\_41\_00
 -   2017-09-25 baller : Remove InClus.
 -   2017-09-25 baller : Remove InClus. Call MatchTruth after MakeAllTrajClusters.
 -   2017-09-25 baller : Remove InClus.
--   2017-09-25 Giuseppe Cerati : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/cerati\_TJWork
+-   2017-09-25 Giuseppe Cerati : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/cerati_TJWork
 -   2017-09-25 Giuseppe Cerati : track fit for all pfps, and make plots if fStudyMode is true
--   2017-09-22 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-09-22 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-09-22 baller : Set TrajCluster defaults
 -   2017-09-22 baller : Add AlgMod bit names.
 -   2017-09-22 baller : Change Vtx3ID to Vx3ID. Add Primary bool. Add AlgMod bits
@@ -176,7 +176,7 @@ larreco v06\_41\_00
 -   2017-09-22 baller : Add CheckTrajBeginChg. Change charge cuts in EndMerge.
 -   2017-09-20 baller : Add call to DefineTjParents. Add missing docaCut check in EndMerge.
 -   2017-09-19 Leigh Whitehead : Fix issues with out of drift tracks and stopping tracks
--   2017-09-18 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-09-18 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-09-18 baller : Add default VertexScoreWeights
 -   2017-09-18 baller : Change TagShowerTjs to TagInShowerTjs. Change meaning of ShowerTag<sup>[0](#fn0)</sup>.
 -   2017-09-18 baller : Change TagShowerTjs to TagInShowerTjs
@@ -212,7 +212,7 @@ larreco v06\_41\_00
 -   2017-09-08 baller : Remove AttachTrajToAnyVertex
 -   2017-09-08 baller : Put FinishPFParticles code into DefinePFParticleRelationships. Remove AttachTrajToAnyVertex.
 -   2017-09-08 baller : Put FinishPFParticles code into DefinePFParticleRelationships
--   2017-09-08 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-09-08 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-09-08 baller : Add functions
 -   2017-09-08 baller : Add functions
 -   2017-09-08 baller : Add vertex checking in FInishPFParticles
@@ -223,7 +223,7 @@ larreco v06\_41\_00
 -   2017-09-07 baller : Add a simple version of SetVx2Score.
 -   2017-09-07 baller : Add a simple version of SetVx2Score.
 -   2017-09-07 baller : Change short to int. Transfer StopFlag in MergeAndStore.
--   2017-09-06 baller : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
+-   2017-09-06 baller : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-09-06 baller : Ongoing development
 -   2017-09-06 baller : Comment out PrintAllTraj
 -   2017-09-06 baller : Replace KillPoorVertices with ScoreVertices. Pass lastPass to Find2DVertices. Work on vertex scoring
@@ -245,7 +245,7 @@ larreco v06\_41\_00
 -   2017-09-05 baller : Pass lastPass to EndMerge. Tweaked cuts in EndMerge and MaskedHitsOK.
 -   2017-09-05 baller : Pass lastPass to EndMerge
 -   2017-09-05 baller : Change default MinPtsFit
--   2017-09-04 Leigh Whitehead : Merge branch ‘develop’ into feature/lhw\_cosmicUpdates
+-   2017-09-04 Leigh Whitehead : Merge branch ‘develop’ into feature/lhw_cosmicUpdates
 -   2017-09-04 Leigh Whitehead : Access dE/dx information
 -   2017-09-03 baller : Changed intent of Vertex2DCuts<sup>[8](#fn8)</sup>
 -   2017-09-03 baller : Split SetVtxScore into SetVx2Score, SetVx3Score and SetHighScoreBits
@@ -254,7 +254,7 @@ larreco v06\_41\_00
 -   2017-09-03 baller : Add FinishPFParticles
 -   2017-09-03 baller : Add FinishPFParticles
 -   2017-09-03 baller : Use Vertex2DCuts<sup>[8](#fn8)</sup> as a charge fraction cut for merging and vertexing.
--   2017-09-01 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-09-01 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-09-01 baller : ReconcileParents
 -   2017-09-01 baller : ReconcileParents
 -   2017-09-01 baller : bogus
@@ -285,14 +285,14 @@ larreco v06\_41\_00
 -   2017-08-28 baller : Flag pfps dead instead of erasing them
 -   2017-08-28 baller : Remove commented call
 -   2017-08-28 baller : Fix indentation.
--   2017-08-28 baller : Sort vectors so that set\_difference works properly
+-   2017-08-28 baller : Sort vectors so that set_difference works properly
 -   2017-08-28 baller : Fix bug in FindXMatches. Fixed logic error in SetPFPEndPoints.
 -   2017-08-28 baller : Add CheckNoMatchTjs - incomplete. Add MatchFrac to MatchStruct
 -   2017-08-28 baller : Add CheckNoMatchTjs - incomplete.
 -   2017-08-28 baller : Add MatchFrac to MatchStruct.
 -   2017-08-28 baller : Add MatchFrac to MatchStruct
--   2017-08-27 baller : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
--   2017-08-27 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-08-27 baller : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
+-   2017-08-27 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-08-27 baller : Add maltreat to tjs.
 -   2017-08-27 baller : Change TransferTjHits call structure. Re-define high-score vertices in FindShowers3D.
 -   2017-08-27 baller : Shower development
@@ -302,29 +302,29 @@ larreco v06\_41\_00
 -   2017-08-27 baller : Add FindXMatches. Move ExpectedHitsRMS to Utils. Add separation check in EndMerge. Put maltreat in tjs. Replace Find3DEndPoints with Utils SetPFPEndPoints.
 -   2017-08-27 baller : Add FindXMatches. Move ExpectedHitsRMS to Utils. Add separation check in EndMerge. Put maltreat in tjs. Replace Find3DEndPoints with Utils SetPFPEndPoints.
 -   2017-08-27 baller : Add FindXMatches.
--   2017-08-25 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
+-   2017-08-25 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-08-24 Rory Fitzpatrick : fixed bug that drew shower parent sometimes
--   2017-08-24 Rory Fitzpatrick : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
+-   2017-08-24 Rory Fitzpatrick : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-08-24 Rory Fitzpatrick : fix index problems in F3DEP and FMP2
 -   2017-08-24 baller : fix dumb bug
--   2017-08-24 baller : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
+-   2017-08-24 baller : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-08-24 baller : Change ShowerTag<sup>[0](#fn0)</sup>. Re-define high-score vertex
 -   2017-08-24 baller : Shorten name
 -   2017-08-24 baller : Shorten name
 -   2017-08-24 baller : Pass scoreCut to SetVtxScore
 -   2017-08-24 baller : Pass scoreCut to SetVtxScore
 -   2017-08-24 baller : Pass scoreCut to SetVtxScore
--   2017-08-24 Rory Fitzpatrick : tc\_sh\_debugger renamed rsf\_evd, color scheme updates
--   2017-08-24 Rory Fitzpatrick : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
--   2017-08-24 baller : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
+-   2017-08-24 Rory Fitzpatrick : tc_sh_debugger renamed rsf_evd, color scheme updates
+-   2017-08-24 Rory Fitzpatrick : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
+-   2017-08-24 baller : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-08-24 baller : Tweak cuts in TagShowerTjs.
 -   2017-08-24 baller : Moved ChkStopEndPts to TrajClusterAlg.
 -   2017-08-24 baller : Moved ChkStopEndPts to TrajClusterAlg.
 -   2017-08-24 baller : Added ChkStopEndPts
 -   2017-08-24 baller : Added ChkStopEnds
--   2017-08-23 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
+-   2017-08-23 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-08-23 Tingjun Yang : More changes from Rory.
--   2017-08-23 baller : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb\_TJWork
+-   2017-08-23 baller : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-08-23 baller : Work on 3D matching
 -   2017-08-23 baller : Work on 3D matching
 -   2017-08-23 baller : Work on 3D matching
@@ -332,7 +332,7 @@ larreco v06\_41\_00
 -   2017-08-23 baller : Work on 3D matching
 -   2017-08-23 baller : Work on 3D matching
 -   2017-08-23 Tingjun Yang : Fix shower tree. Commit for Rory.
--   2017-08-22 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-08-22 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-08-22 baller : Added PFPStruct
 -   2017-08-22 baller : Added PFPStruct
 -   2017-08-22 baller : Added PFPStruct
@@ -355,7 +355,7 @@ larreco v06\_41\_00
 -   2017-08-16 baller : Change interface.
 -   2017-08-16 baller : Add AttachAnyTrajToVertex in StoreTraj. Fix bug in TagDeltaRays.
 -   2017-08-16 baller : Clean up and put in a warning statement.
--   2017-08-15 baller : Merge branch ‘feature/XL\_TJWork’ into feature/bb\_TJWork
+-   2017-08-15 baller : Merge branch ‘feature/XL_TJWork’ into feature/bb_TJWork
 -   2017-08-15 baller : Change merge order. Modify DefineShower to only work on showers w/o a parent ID. Move shower update code from FindExternalParent into UpdateShowerWithParent. Tweak the cuts in MergeShowerChain and FindNearbyTjs.
 -   2017-08-15 baller : Change voids to bools
 -   2017-08-15 baller : Add bit name for ChkStopEndPts
@@ -365,10 +365,10 @@ larreco v06\_41\_00
 -   2017-08-15 baller : Add some functions.
 -   2017-08-15 baller : Changed deltaCut in AddHits. Tweaks in Match3D.
 -   2017-08-14 Rory Fitzpatrick : shower tree debug tools added
--   2017-08-14 Rory Fitzpatrick : Merge remote-tracking branch ‘origin/feature/bb\_TJWork’ into feature/XL\_TJWork
--   2017-08-14 Rory Fitzpatrick : Merge remote-tracking branch ‘origin’ into feature/XL\_TJWork
--   2017-08-14 Rory Fitzpatrick : Merge remote-tracking branch ‘origin/feature/bb\_TJWork’ into feature/XL\_TJWork
--   2017-08-14 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-08-14 Rory Fitzpatrick : Merge remote-tracking branch ‘origin/feature/bb_TJWork’ into feature/XL_TJWork
+-   2017-08-14 Rory Fitzpatrick : Merge remote-tracking branch ‘origin’ into feature/XL_TJWork
+-   2017-08-14 Rory Fitzpatrick : Merge remote-tracking branch ‘origin/feature/bb_TJWork’ into feature/XL_TJWork
+-   2017-08-14 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-08-14 baller : Change void to bool
 -   2017-08-14 baller : Change call structure
 -   2017-08-14 baller : Change call structure
@@ -376,7 +376,7 @@ larreco v06\_41\_00
 -   2017-08-14 baller : change void to bool
 -   2017-08-14 baller : editorial comment
 -   2017-08-13 baller : Add CRT stuff. Code cleanup
--   2017-08-12 baller : Merge branch ‘feature/XL\_TJWork’ into feature/bb\_TJWork
+-   2017-08-12 baller : Merge branch ‘feature/XL_TJWork’ into feature/bb_TJWork
 -   2017-08-12 baller : Shower development
 -   2017-08-12 baller : Shower development
 -   2017-08-12 baller : Add fcnLabel.
@@ -384,7 +384,7 @@ larreco v06\_41\_00
 -   2017-08-12 baller : Shower development
 -   2017-08-12 baller : Shower development
 -   2017-08-12 baller : Shower development
--   2017-08-11 Rory Fitzpatrick : Merge remote-tracking branch ‘origin’ into feature/XL\_TJWork
+-   2017-08-11 Rory Fitzpatrick : Merge remote-tracking branch ‘origin’ into feature/XL_TJWork
 -   2017-08-11 Rory Fitzpatrick : stageName added to shtree
 -   2017-08-10 Rory Fitzpatrick : fixing merge conflicts
 -   2017-08-10 Rory Fitzpatrick : minor bug fixes and updates to showertree code
@@ -400,14 +400,14 @@ larreco v06\_41\_00
 -   2017-08-09 baller : Add histograms to TCTruth
 -   2017-08-09 baller : editorial comment
 -   2017-08-08 Rory Fitzpatrick : updating shower efficiency module
--   2017-08-08 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-08-08 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-08-08 baller : minor tweaks
 -   2017-08-08 baller : Add FindMissedVxTjs
 -   2017-08-08 baller : Add FindMissedVxTjs
 -   2017-08-08 baller : Add FindMissedVxTjs
 -   2017-08-08 baller : Add FindMissedVxTjs
 -   2017-08-08 Rory Fitzpatrick : updating a plot title in shower eff module
--   2017-08-08 baller : Merge branch ‘feature/XL\_TJWork’ into feature/bb\_TJWork
+-   2017-08-08 baller : Merge branch ‘feature/XL_TJWork’ into feature/bb_TJWork
 -   2017-08-08 baller : Minor tweaks
 -   2017-08-08 baller : Mods to FindVtxTraj
 -   2017-08-08 baller : Mods to FindVtxTraj
@@ -420,9 +420,9 @@ larreco v06\_41\_00
 -   2017-08-08 baller : Comment out fiducial cuts in 3D matching.
 -   2017-08-07 Tingjun Yang : Save origin information (cosmic or neutrino) of each pfp.
 -   2017-08-07 Tingjun Yang : Change back to save pfp xmin and xmax since no fiducial volume cut is used when making pfp vertices.
--   2017-08-07 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/XL\_TJWork’ into feature/tjyang\_TJWork
--   2017-08-07 Tingjun Yang : Add cr\_origin.
--   2017-08-07 Rory Fitzpatrick : merging with bb\_TJWork
+-   2017-08-07 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/XL_TJWork’ into feature/tjyang_TJWork
+-   2017-08-07 Tingjun Yang : Add cr_origin.
+-   2017-08-07 Rory Fitzpatrick : merging with bb_TJWork
 -   2017-08-07 baller : Change default Match3DCuts
 -   2017-08-07 baller : Remove redundant code
 -   2017-08-07 baller : Work on PFP performance metric.
@@ -451,7 +451,7 @@ larreco v06\_41\_00
 -   2017-08-03 Rory Fitzpatrick : improved showertree functionality
 -   2017-08-03 Rory Fitzpatrick : fixing merge conflicts in TCShower
 -   2017-08-03 Rory Fitzpatrick : fixing merge conflicts
--   2017-08-03 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
+-   2017-08-03 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
 -   2017-08-03 Rory Fitzpatrick : fixing merge issues in TCShower
 -   2017-08-03 Rory Fitzpatrick : moving showertree work to its own file
 -   2017-08-02 baller : clean up code
@@ -469,8 +469,8 @@ larreco v06\_41\_00
 -   2017-08-02 baller : New version of Match3D.
 -   2017-08-01 baller : Check for invalid direction magnitude
 -   2017-08-01 baller : Clean up variable names
--   2017-08-01 baller : Merge branch ‘develop’ into feature/bb\_TJWork
--   2017-08-01 baller : Merge branch ‘feature/XL\_TJWork’ into feature/bb\_TJWork
+-   2017-08-01 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-08-01 baller : Merge branch ‘feature/XL_TJWork’ into feature/bb_TJWork
 -   2017-08-01 baller : Add MatTj alg
 -   2017-08-01 baller : Add MatTj alg
 -   2017-08-01 baller : Add PFParticle performance metric
@@ -481,10 +481,10 @@ larreco v06\_41\_00
 -   2017-08-01 baller : Move MergeAndStore to Utils. Work on a different 3D matching scheme - Mat3DTj. Add hit checking at entry. Fixes to FindJunkTraj.
 -   2017-08-01 baller : Move MergeAndStore to Utils. Work on a different 3D matching scheme - Mat3DTj
 -   2017-07-31 Xiao Luo : commit after git pull
--   2017-07-31 Xiao Luo : Merge branch ‘feature/XL\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
+-   2017-07-31 Xiao Luo : Merge branch ‘feature/XL_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
 -   2017-07-31 Xiao Luo : Commit fixes of the conflicts after merging Bruce’s changes
--   2017-07-31 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-31 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
+-   2017-07-31 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-31 Xiao Luo : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
 -   2017-07-31 Xiao Luo : commit changes in TrajClusterAlg.cxx before merging Bruce’s major push on 07/28
 -   2017-07-28 baller : Add MC variables to MatchStruct
 -   2017-07-28 baller : Change vertex ID definition
@@ -501,12 +501,12 @@ larreco v06\_41\_00
 -   2017-07-28 baller : Add AlgMod bits. Generalize MatchStruct.
 -   2017-07-28 baller : Add AlgMod bits. Generalize MatchStruct.
 -   2017-07-25 Tingjun Yang : resolve conflict
--   2017-07-24 Rory Fitzpatrick : fixed but in NeutrinoShowerEff\_module.cc
+-   2017-07-24 Rory Fitzpatrick : fixed but in NeutrinoShowerEff_module.cc
 -   2017-07-24 Rory Fitzpatrick : fixed seg fault (hopefully)
 -   2017-07-24 Rory Fitzpatrick : fix merge
 -   2017-07-24 Rory Fitzpatrick : some text output for testing
--   2017-07-21 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-21 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-07-21 Xiao Luo : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-21 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-07-21 baller : Fix bugs
 -   2017-07-21 baller : Fix bugs
 -   2017-07-21 baller : Add shower AlgMod bit
@@ -525,9 +525,9 @@ larreco v06\_41\_00
 -   2017-07-20 baller : Histogram handling code
 -   2017-07-20 baller : MC truth matching code
 -   2017-07-20 baller : MC truth matching code
--   2017-07-18 Xiao Luo : Merge the 3D matching fixes, Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-18 Xiao Luo : commit local change of TCShower.cxx before merge bb\_TJWork
--   2017-07-18 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-07-18 Xiao Luo : Merge the 3D matching fixes, Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-18 Xiao Luo : commit local change of TCShower.cxx before merge bb_TJWork
+-   2017-07-18 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-07-18 baller : Put CaloAlg into TJStuff. Match3D improvements.
 -   2017-07-18 baller : Put CaloAlg into TJStuff. Match3D improvements.
 -   2017-07-18 baller : Put CaloAlg into TJStuff. Match3D improvements.
@@ -537,10 +537,10 @@ larreco v06\_41\_00
 -   2017-07-18 baller : Put CaloAlg into TJStuff. Match3D improvements.
 -   2017-07-18 baller : Put CaloAlg into TJStuff. Match3D improvements.
 -   2017-07-18 baller : Put CaloAlg into TJStuff. Match3D improvements.
--   2017-07-17 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-17 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-17 Xiao Luo : Merge branch ‘feature/XL\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-17 baller : Merge branch ‘develop’ into feature/bb\_TjWork
+-   2017-07-17 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-17 Xiao Luo : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-17 Xiao Luo : Merge branch ‘feature/XL_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-17 baller : Merge branch ‘develop’ into feature/bb_TjWork
 -   2017-07-14 baller : Ongoing shower development.
 -   2017-07-14 baller : Add print statement.
 -   2017-07-14 baller : Return success value from TransferTjHits.
@@ -548,7 +548,7 @@ larreco v06\_41\_00
 -   2017-07-14 baller : Pass reset to Match3D. Add X to fHits. Kill poor vertices before calling MakeShowers. Add flexibility in MergeAndStore. Merge broken Tjs in Match3Views. Add TPCID to MatchStruct.
 -   2017-07-14 baller : Pass reset to Match3D. Add X to fHits.
 -   2017-07-14 Xiao Luo : keep the change of mode in AddTjInsideEnvelope
--   2017-07-14 Rory Fitzpatrick : Merge branch ‘feature/XL\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
+-   2017-07-14 Rory Fitzpatrick : Merge branch ‘feature/XL_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
 -   2017-07-14 Rory Fitzpatrick : added ttree for shower variables
 -   2017-07-13 baller : Fix bug preventing PFParticle writing.
 -   2017-07-13 baller : Shorten AlgMod names
@@ -561,9 +561,9 @@ larreco v06\_41\_00
 -   2017-07-13 baller : Add MatchVecIndex and NumUsedHitsInTj.
 -   2017-07-13 baller : Work on MergeAndStore and Match3D. Shorten AlgMod names.
 -   2017-07-13 baller : Change shorts to ints.
--   2017-07-10 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-10 Xiao Luo : commit before merge bb\_TJWork
--   2017-07-10 Rory Fitzpatrick : Merge remote-tracking branch ‘origin/feature/bb\_TJWork’ into feature/XL\_TJWork
+-   2017-07-10 Xiao Luo : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-10 Xiao Luo : commit before merge bb_TJWork
+-   2017-07-10 Rory Fitzpatrick : Merge remote-tracking branch ‘origin/feature/bb_TJWork’ into feature/XL_TJWork
 -   2017-07-10 Rory Fitzpatrick : showervarstree added for debugging
 -   2017-07-10 baller : Move FillWireHitRange into Utils. Add FindShowers3D.
 -   2017-07-10 baller : Move FillWireHitRange into Utils.
@@ -579,42 +579,42 @@ larreco v06\_41\_00
 -   2017-07-09 baller : Remove kVtxInShower
 -   2017-07-09 baller : Remove PrimaryVtxIndex, Find3DVertex. Add FarEnd
 -   2017-07-09 baller : Remove PrimaryVtxIndex
--   2017-07-08 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-07 Rory Fitzpatrick : Merge remote branch ‘origin/feature/bb\_TJWork’ into feature/XL\_TJWork
+-   2017-07-08 Xiao Luo : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-07 Rory Fitzpatrick : Merge remote branch ‘origin/feature/bb_TJWork’ into feature/XL_TJWork
 -   2017-07-07 baller : fix bug
 -   2017-07-07 baller : Move vertex Score from ChkVtxAssociations to SetVtxScore. Fix bug in FindVtxTjs. Fix bugs.
 -   2017-07-07 baller : Move vertex Score from ChkVtxAssociations to SetVtxScore.
 -   2017-07-07 baller : Minor fixes
 -   2017-07-07 baller : Move vertex Score from ChkVtxAssociations to SetVtxScore. Fix bug in FindVtxTjs.
 -   2017-07-05 Rory Fitzpatrick : commenting out hardcoded wire planes
--   2017-07-05 Rory Fitzpatrick : Merge branch ‘feature/XL\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
+-   2017-07-05 Rory Fitzpatrick : Merge branch ‘feature/XL_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
 -   2017-07-05 Xiao Luo : correct dE/dx calculation
--   2017-07-05 Rory Fitzpatrick : Merge branch ‘feature/XL\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-05 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-04 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-07-05 Rory Fitzpatrick : Merge branch ‘feature/XL_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-05 Xiao Luo : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-04 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-07-04 baller : Add min vtx Score to ShowerTag.
 -   2017-07-04 baller : Bug fix in MakeVertexObsolete.
 -   2017-07-04 baller : Cleanup
 -   2017-07-04 baller : Add minimum vtx Score to ShowerTag. Add check for matching Shower Tjs in 3D match code.
 -   2017-07-04 baller : Add minimum vtx Score to ShowerTag
--   2017-07-03 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-03 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-07-03 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-07-03 Xiao Luo : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-03 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-07-03 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-07-03 baller : Call ChkVtxAssocations in StudyMode. Improvements in MatchTruth.
 -   2017-07-03 baller : Add VtxTruMatch to VtxBit
 -   2017-07-03 baller : Add VtxTruMatch to VtxBit
 -   2017-07-03 baller : Rename ChkVtxAssociations. Change debug tick. Pass study mode prt to ChkVtxAssociations.
 -   2017-07-03 baller : Rename ChkVtxAssociations
 -   2017-07-03 baller : Check for bad count in MCSThetaRMS. Printing improvements
--   2017-06-30 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
+-   2017-06-30 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
 -   2017-06-28 baller : Add VertexScoreWeights
 -   2017-06-28 baller : Add fNeutrinoEnergy. Remove old stuff.
 -   2017-06-28 baller : Add VertexScoreWeights. Some study mode histograms. Add fNeutrinoEnergy.
 -   2017-06-28 baller : Add VertexScoreWeights.
 -   2017-06-28 baller : Add a check for an invalid TrajPointSeparation. Return bogus but non-zero value of tjLen,
--   2017-06-28 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-06-28 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-06-27 Rory Fitzpatrick : Merge branch ‘feature/XL\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
+-   2017-06-28 Xiao Luo : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-06-28 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-06-27 Rory Fitzpatrick : Merge branch ‘feature/XL_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
 -   2017-06-27 baller : Change selection criteria for writing vertices.
 -   2017-06-27 baller : Add TPCID to tis to allow for consistency checking.
 -   2017-06-27 baller : Add StoreVertex and calls to ChgFracNearPos.
@@ -623,7 +623,7 @@ larreco v06\_41\_00
 -   2017-06-27 baller : Add ChgFracNearpos
 -   2017-06-27 baller : Add minimum score to Vertex2DCuts. Mode 4 for narrow hits. Vertex code improvements.
 -   2017-06-27 baller : Add minimum Score to Vertex2DCuts
--   2017-06-26 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-06-26 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-06-26 baller : Change default ChkStopCuts.
 -   2017-06-26 baller : Work on ChkVtxAssociations Score.
 -   2017-06-26 baller : Add TrajHitsOK, SignalAtTp. Change report format.
@@ -632,54 +632,54 @@ larreco v06\_41\_00
 -   2017-06-26 baller : Replace VtxStore NN (number of nearby Tjs) with TjChgFrac (fraction of charge near the vertex that is associated with the vertex Tjs).
 -   2017-06-26 baller : Move TrajHitsOK to Utils. Work on HiEndDelta (aka CheckHiDeltas). Remove ChkAllStop. Add calls to ChkStop after RevProp. Check for valid wire in Find3DEndPoints.
 -   2017-06-26 baller : Move TrajHitsOK to Utils. Work on HiEndDelta (aka CheckHiDeltas). Remove ChkAllStop
--   2017-06-26 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-06-23 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
+-   2017-06-26 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-06-23 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
 -   2017-06-23 Xiao Luo : Meaningless commit before merge Bruce’s latest developement
--   2017-06-23 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-06-23 Rory Fitzpatrick : Merge branch ‘feature/XL\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-06-22 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-06-22 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-06-09 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-06-07 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-05-23 Tingjun Yang : Rearrange fcl files so the central fcl file doesn’t depend on calorimetry\_microboone.fcl
--   2017-05-16 Xiao Luo : Merge branch ‘feature/bb\_TJWork’ into feature/XL\_TJWork
--   2017-05-16 Xiao Luo : Merge branch ‘develop’ into feature/XL\_TJWork
+-   2017-06-23 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-06-23 Rory Fitzpatrick : Merge branch ‘feature/XL_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-06-22 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-06-22 Xiao Luo : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-06-09 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-06-07 Rory Fitzpatrick : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-05-23 Tingjun Yang : Rearrange fcl files so the central fcl file doesn’t depend on calorimetry_microboone.fcl
+-   2017-05-16 Xiao Luo : Merge branch ‘feature/bb_TJWork’ into feature/XL_TJWork
+-   2017-05-16 Xiao Luo : Merge branch ‘develop’ into feature/XL_TJWork
 -   2017-05-11 Xiao Luo : adding back TrajClusterAlg.cxx
--   2017-05-11 Xiao Luo : Merge remote-tracking branch ‘origin/feature/bb\_TJWork’ into feature/XL\_TJWork
+-   2017-05-11 Xiao Luo : Merge remote-tracking branch ‘origin/feature/bb_TJWork’ into feature/XL_TJWork
 -   2017-05-11 Xiao Luo : none
 -   2017-05-11 Xiao Luo : fix the seg fault by continue the null gmom
--   2017-05-10 Xiao Luo : Merge remote-tracking branch ‘origin/feature/bb\_TJWork’ into feature/XL\_TJWork
--   2017-05-09 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL\_TJWork
--   2017-05-09 Xiao Luo : Merge remote-tracking branch ‘origin/feature/bb\_TJWork’ into feature/XL\_TJWork
+-   2017-05-10 Xiao Luo : Merge remote-tracking branch ‘origin/feature/bb_TJWork’ into feature/XL_TJWork
+-   2017-05-09 Xiao Luo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/XL_TJWork
+-   2017-05-09 Xiao Luo : Merge remote-tracking branch ‘origin/feature/bb_TJWork’ into feature/XL_TJWork
 
-larsim v06\_31\_03
+larsim v06_31_03
 ----------------------------------------
 
--   2017-10-04 Lynn Garren : larsim v06\_31\_03 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larsim v06_31_03 for larsoft v06_52_00
 
-larevt v06\_16\_03
+larevt v06_16_03
 ----------------------------------------
 
--   2017-10-04 Lynn Garren : larevt v06\_16\_03 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larevt v06_16_03 for larsoft v06_52_00
 
-lardata v06\_30\_00
+lardata v06_30_00
 ------------------------------------------
 
--   2017-10-04 Lynn Garren : lardata v06\_30\_00 for larsoft v06\_52\_00
--   2017-09-27 Gianluca Petrillo : Merge branch ‘feature/gp\_TrackProxy’ into develop
--   2017-09-27 Gianluca Petrillo : Merge remote-tracking branch ‘origin/feature/gp\_TrackProxy’ into feature/gp\_TrackProxy
+-   2017-10-04 Lynn Garren : lardata v06_30_00 for larsoft v06_52_00
+-   2017-09-27 Gianluca Petrillo : Merge branch ‘feature/gp_TrackProxy’ into develop
+-   2017-09-27 Gianluca Petrillo : Merge remote-tracking branch ‘origin/feature/gp_TrackProxy’ into feature/gp_TrackProxy
 -   2017-09-25 Gianluca Petrillo : Added a method “point()” for the track proxy.
 -   2017-09-23 Gianluca Petrillo : Minor fixes to Doxygen documentation.
 
-larcore v06\_15\_01
+larcore v06_15_01
 ------------------------------------------
 
--   2017-10-04 Lynn Garren : larcore v06\_15\_01 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larcore v06_15_01 for larsoft v06_52_00
 
-larpandoracontent v03\_08\_00
+larpandoracontent v03_08_00
 --------------------------------------------------------------
 
--   2017-10-04 Lynn Garren : larpandoracontent v03\_08\_00 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larpandoracontent v03_08_00 for larsoft v06_52_00
 -   2017-09-22 John Marshall : Merge branch ‘feature/GeometryUpdate’
 -   2017-09-21 John Marshall : Update change log and required version of PandoraMonitoring.
 -   2017-09-22 John Marshall : Stitching instance of Pandora no longer asks for specific geometry information.
@@ -751,20 +751,20 @@ larpandoracontent v03\_08\_00
 -   2017-07-20 John Marshall : Correct CR algorithm flow, for 2D reco subsection.
 -   2017-07-19 John Marshall : Begin restructuring parent algorithms, controlling neutrino and cosmic-ray reconstruction passes.
 
-larsoftobj v1\_28\_00
+larsoftobj v1_28_00
 ----------------------------------------------
 
--   2017-10-04 Lynn Garren : larsoftobj v1\_28\_00 for larsoft v06\_52\_00
--   2017-10-04 Lynn Garren : mrb v1\_12\_00
+-   2017-10-04 Lynn Garren : larsoftobj v1_28_00 for larsoft v06_52_00
+-   2017-10-04 Lynn Garren : mrb v1_12_00
 -   2017-10-04 Lynn Garren : update product versions
 
-lardataobj v1\_21\_01
+lardataobj v1_21_01
 ----------------------------------------------
 
-larcorealg v1\_08\_00
+larcorealg v1_08_00
 ----------------------------------------------
 
--   2017-10-04 Lynn Garren : larcorealg v1\_08\_00 for larsoft v06\_52\_00
+-   2017-10-04 Lynn Garren : larcorealg v1_08_00 for larsoft v06_52_00
 -   2017-09-29 Gianluca Petrillo : Updated the comment on GeometryCore deleted constructors.
 -   2017-09-29 Gianluca Petrillo : Removed broken geo::GeometryCore::AuxDetGeoVec()
 -   2017-09-29 Gianluca Petrillo : Changed the internal storage of cryostats in geo::GeometryCore.
@@ -777,11 +777,11 @@ larcorealg v1\_08\_00
 -   2017-09-28 Gianluca Petrillo : Support for dumping STL vectors.
 -   2017-09-27 Gianluca Petrillo : Standardized include guards in geometry objects.
 
-larcoreobj v1\_16\_00
+larcoreobj v1_16_00
 ----------------------------------------------
 
-larbatch v01\_32\_05
+larbatch v01_32_05
 --------------------------------------------
 
-larutils v1\_19\_02
+larutils v1_19_02
 ------------------------------------------

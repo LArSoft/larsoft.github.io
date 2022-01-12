@@ -18,12 +18,12 @@ Update from art v2 to art v3
     -   [using getEngine](#using-getEngine)
     -   [preProcessEvent](#preProcessEvent)
     -   [HoughBaseAlg transform interface changes](#HoughBaseAlg-transform-interface-changes)
-    -   [fuzzyClusterAlg::run\_fuzzy\_cluster](#fuzzyClusterAlgrun_fuzzy_cluster)
+    -   [fuzzyClusterAlg::run_fuzzy_cluster](#fuzzyClusterAlgrun_fuzzy_cluster)
     -   [PtrMaker](#PtrMaker)
     -   [WeightCalc subclasses](#WeightCalc-subclasses)
     -   [art dump-config](#art-dump-config)
 
-Use of art [v3\_00](/redmine/projects/art/wiki/Series_300) involves a number of [breaking changes](/redmine/projects/art/wiki/300_breaking_changes).
+Use of art [v3_00](/redmine/projects/art/wiki/Series_300) involves a number of [breaking changes](/redmine/projects/art/wiki/300_breaking_changes).
 Please see Kyle’s presentation on [problems found in the code](https://indico.fnal.gov/event/18618/contribution/5/material/slides/0.pdf).
 
 Header changes
@@ -57,32 +57,32 @@ Undefined references
 
 ### undefined reference to art::ModuleDescription::processName
 
--   add art\_Persistency\_Provenance to the link list
+-   add art_Persistency_Provenance to the link list
 
 ### undefined reference to art::input::RootMutexSentry::RootMutexSentry
 
--   add art\_Framework\_IO\_Root\_detail\_sources
+-   add art_Framework_IO_Root_detail_sources
 
 ### undefined reference to art::ProductRegistryHelper::insertOrThrow
 
--   add art\_Framework\_Core
+-   add art_Framework_Core
 
 ### undefined reference to art::input::RootMutexSentry::RootMutexSentry()
 
--   add art\_Framework\_IO\_Root\_detail\_sources
+-   add art_Framework_IO_Root_detail_sources
 
 NuTools update notes
 ----------------------------------------------
 
--   nutools [v2\_26\_00](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_26_00-9272018) has been built with art [v3\_00\_00](/redmine/projects/art/wiki/Release_Notes_30000).
+-   nutools [v2_26_00](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_26_00-9272018) has been built with art [v3_00_00](/redmine/projects/art/wiki/Release_Notes_30000).
     -   This release also has changes that enable the GENIE interface to be compiled with either genie v2 or genie v3.
-    -   This release was built with genie v2\_12\_10c.
-    -   This release includes dk2nudata v01\_07\_02 and dk2nugenie v01\_07\_02b.
+    -   This release was built with genie v2_12_10c.
+    -   This release includes dk2nudata v01_07_02 and dk2nugenie v01_07_02b.
 -   Note that art::ModuleDescription is replaced by art::ModuleContext
 -   NuRandomService
     -   This service uses EngineCreator
     -   Any module that calls `NuRandomService::createEngine` **must** call the non-default constructor of the base class. See [here](/redmine/projects/art/wiki/300_breaking_changes#Changes-to-modules) and click on “Modules calling createEngine”.
-    -   add art\_Framework\_Principal to the library link list
+    -   add art_Framework_Principal to the library link list
     -   the art service interface has changed
     -   The RandomNumberGenerator service no longer has any notion of the “current” module. Because of that, it is necessary to specify the appropriate schedule ID and module label values when calling getEngine.
     -   NuRandomService is not currently thread safe

@@ -16,7 +16,7 @@ Building with Clang
         -   [Braces around scalar initializer](#Braces-around-scalar-initializer)
     -   [Linker command failed](#Linker-command-failed)
     -   [C++17 standard changes](#C17-standard-changes)
-        -   [No member named ‘mem\_fun\_ref’ in namespace ‘std’](#No-member-named-mem_fun_ref-in-namespace-std)
+        -   [No member named ‘mem_fun_ref’ in namespace ‘std’](#No-member-named-mem_fun_ref-in-namespace-std)
 
 As of art `v2_10_00`, builds with Clang `v5_0_1` (`c2`) are supported. This page reflects the effort needed to build LArSoft and experiment code with `c2`.
 
@@ -200,14 +200,14 @@ Linker command failed
 
 **The explanation**: A library is missing from the link list due to differences in the build.
 **What to do**:
-Add larcorealg\_Geometry to the link list in the appropriate CMakeLists.txt file. So far, the only library we have found to be missing is larcorealg\_Geometry.
+Add larcorealg_Geometry to the link list in the appropriate CMakeLists.txt file. So far, the only library we have found to be missing is larcorealg_Geometry.
 
 C++17 standard changes
 ------------------------------------------------
 
 Some functions have been added, some deprecated functions and a keyword have been removed. All this may cause errors.
 
-### No member named ‘mem\_fun\_ref’ in namespace ‘std’
+### No member named ‘mem_fun_ref’ in namespace ‘std’
 
 **The compilation error**:
 

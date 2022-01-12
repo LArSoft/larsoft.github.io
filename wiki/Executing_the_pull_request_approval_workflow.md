@@ -15,7 +15,7 @@ Methods
 
 -   Steps in the testing and approval workflow are initiated via comments with keywords specific to a particular step.
 -   Comment labels are used by the system to indicate the status of the given stage.
--   See [Pull\_request\_comments\_that\_trigger\_CI\_actions](Pull_request_comments_that_trigger_CI_actions) for details of possible comments
+-   See [Pull_request_comments_that_trigger_CI_actions](Pull_request_comments_that_trigger_CI_actions) for details of possible comments
 
 ### “CMS-bot” scripts
 
@@ -39,7 +39,7 @@ Workflow
  The FNALbuild account will post “+code-checks” if successful, “-code-checks” if it failed
  \* If the code-checks failed, refer the PR back to the user for corrective actions, and proceed to the “reject PR” step
  \* If the code-checks succeeded, proceed to the next step|
-|Build and test|Level 2 manager|\* Post the appropriate “trigger build” comment to the PR. See [Pull\_request\_comments\_that\_trigger\_CI\_actions](Pull_request_comments_that_trigger_CI_actions) for more information
+|Build and test|Level 2 manager|\* Post the appropriate “trigger build” comment to the PR. See [Pull_request_comments_that_trigger_CI_actions](Pull_request_comments_that_trigger_CI_actions) for more information
  The CI system will build the code against `develop` for all repositories and experiments, and run all unit and CI tests.
  The FNALbuild account will post “+tests” if successful, “-tests” for any failures.
  \* If the build and test failed, refer the PR back to the user for corrective actions, and proceed to the “reject PR” step

@@ -79,21 +79,21 @@ ArgoNeuT
 
 histogram
 
-flugg\_L010z185i\_antineutrino\_mode.root
+flugg_L010z185i_antineutrino_mode.root
 
 anti-neutrino running in NuMI LE beam
 
-flugg\_L010z185i\_neutrino\_mode.root
+flugg_L010z185i_neutrino_mode.root
 
 neutrino running in NuMI LE beam
 
 simple
 
-gsimple/gsimple\_ArgoNeuT\_le010z185i\_run3\_\*\_00001.root
+gsimple/gsimple_ArgoNeuT_le010z185i_run3_\*_00001.root
 
 neutrino running in NuMI LE beam, each file is 1.0e8 POT
 
-gsimple/gsimple\_ArgoNeuT\_le010z185i\_run4\_\*\_00001.root
+gsimple/gsimple_ArgoNeuT_le010z185i_run4_\*_00001.root
 
 anti-neutrino running in NuMI LE beam, each file is 1.0e8 POT
 
@@ -109,12 +109,12 @@ The following configurations defined in [larsim:source:larsim/EventGenerator/GEN
 
 ||
 |Experiment|Flux Type|Configuration Name|
-|ArgoNeuT|histogram|argoneut\_genie\_hist\_neutrino|
-|ArgoNeuT|histogram|argoneut\_genie\_hist\_antineutrino|
-|ArgoNeuT|simple|argoneut\_genie\_simple\_neutrino|
-|ArgoNeuT|simple|argoneut\_genie\_simple\_antineutrino|
-|MicroBooNE|histogram|microboone\_genie\_hist|
-|LBNE|histogram|lbne\_genie\_hist|
+|ArgoNeuT|histogram|argoneut_genie_hist_neutrino|
+|ArgoNeuT|histogram|argoneut_genie_hist_antineutrino|
+|ArgoNeuT|simple|argoneut_genie_simple_neutrino|
+|ArgoNeuT|simple|argoneut_genie_simple_antineutrino|
+|MicroBooNE|histogram|microboone_genie_hist|
+|LBNE|histogram|lbne_genie_hist|
 
 The names should be self-explanatory, but look in [larsim:source:larsim/EventGenerator/GENIE/genie.fcl](/redmine/projects/larsim/repository/entry/larsim/EventGenerator/GENIE/genie.fcl) for more details. This list will expand over time and one should look at the genie.fcl file for the most up-to-date list.
 
@@ -162,7 +162,7 @@ GENIEGen
 ||
 |Parameter|Type|Default|Description|
 |FluxType|string|histogram|type of flux to use mono, histogram, ntuple, or simplentuple|
-|FluxFile|string|/grid/fermiapp/lbne/lar/aux/flugg\_L010z185i\_neutrino\_mode.root|name of file with fluxes|
+|FluxFile|string|/grid/fermiapp/lbne/lar/aux/flugg_L010z185i_neutrino_mode.root|name of file with fluxes|
 |BeamName|string|numi|numi or booster at this point - really for bookkeeping|
 |TopVolume|string|volTPC|volume in which to produce interactions - see gdml file for volume names|
 |TargetA|double|40.|A of target nucleus…on average|

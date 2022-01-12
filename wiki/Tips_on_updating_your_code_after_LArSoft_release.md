@@ -41,7 +41,7 @@ There are a few steps.
         mrbsetenv
         mrb i <your favorite options>
 
-For a detailed example (from a particular project, so there is some project-specific information), look at [Upgrade\_to\_LArSoft\_6](/redmine/projects/sbndcode/wiki/Upgrade_to_LArSoft_6)
+For a detailed example (from a particular project, so there is some project-specific information), look at [Upgrade_to_LArSoft_6](/redmine/projects/sbndcode/wiki/Upgrade_to_LArSoft_6)
 
 Dealing with breaking changes
 ----------------------------------------------------------------

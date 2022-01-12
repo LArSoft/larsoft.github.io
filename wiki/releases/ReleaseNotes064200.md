@@ -1,55 +1,55 @@
-LArSoft v06\_42\_00 Release Notes
+LArSoft v06_42_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v06\_42\_00 Release Notes](#LArSoft-v06_42_00-Release-Notes)
+-   [LArSoft v06_42_00 Release Notes](#LArSoft-v06_42_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v06\_42\_00](#larsoft-v06_42_00)
-    -   [lareventdisplay v06\_08\_00](#lareventdisplay-v06_08_00)
-    -   [larexamples v06\_04\_03](#larexamples-v06_04_03)
-    -   [larpandora v06\_14\_00](#larpandora-v06_14_00)
-    -   [larwirecell v06\_05\_03](#larwirecell-v06_05_03)
-    -   [larana v06\_07\_03](#larana-v06_07_03)
-    -   [larreco v06\_33\_00](#larreco-v06_33_00)
-    -   [larsim v06\_25\_01](#larsim-v06_25_01)
-    -   [larevt v06\_14\_03](#larevt-v06_14_03)
-    -   [lardata v06\_23\_01](#lardata-v06_23_01)
-    -   [larcore v06\_12\_00](#larcore-v06_12_00)
-    -   [larpandoracontent v03\_07\_02](#larpandoracontent-v03_07_02)
-    -   [larsoftobj v1\_22\_01](#larsoftobj-v1_22_01)
-    -   [lardataobj v1\_17\_02](#lardataobj-v1_17_02)
-    -   [larcoreobj v1\_15\_01](#larcoreobj-v1_15_01)
-    -   [larbatch v01\_32\_03](#larbatch-v01_32_03)
-    -   [larutils v1\_16\_00](#larutils-v1_16_00)
+    -   [larsoft v06_42_00](#larsoft-v06_42_00)
+    -   [lareventdisplay v06_08_00](#lareventdisplay-v06_08_00)
+    -   [larexamples v06_04_03](#larexamples-v06_04_03)
+    -   [larpandora v06_14_00](#larpandora-v06_14_00)
+    -   [larwirecell v06_05_03](#larwirecell-v06_05_03)
+    -   [larana v06_07_03](#larana-v06_07_03)
+    -   [larreco v06_33_00](#larreco-v06_33_00)
+    -   [larsim v06_25_01](#larsim-v06_25_01)
+    -   [larevt v06_14_03](#larevt-v06_14_03)
+    -   [lardata v06_23_01](#lardata-v06_23_01)
+    -   [larcore v06_12_00](#larcore-v06_12_00)
+    -   [larpandoracontent v03_07_02](#larpandoracontent-v03_07_02)
+    -   [larsoftobj v1_22_01](#larsoftobj-v1_22_01)
+    -   [lardataobj v1_17_02](#lardataobj-v1_17_02)
+    -   [larcoreobj v1_15_01](#larcoreobj-v1_15_01)
+    -   [larbatch v01_32_03](#larbatch-v01_32_03)
+    -   [larutils v1_16_00](#larutils-v1_16_00)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06\_42\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_42_00/larsoft-v06_42_00.html)
-Download instructions for [just larsoftobj v1\_22\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_22_01/larsoftobj-v1_22_01.html)
+Download instructions for [larsoft v06_42_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_42_00/larsoft-v06_42_00.html)
+Download instructions for [just larsoftobj v1_22_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_22_01/larsoftobj-v1_22_01.html)
 
 Purpose
 --------------------
 
 -   changes to develop
 -   approved feature branches
--   larsoft\_data update
+-   larsoft_data update
 
 New features
 ------------------------------
 
--   larpandora feature/jm\_PerObjectRejection
+-   larpandora feature/jm_PerObjectRejection
     -   Changes to larpandora exception handling. All input parameters to Pandora are already automatically NaN- and inf-checked. Previously, would abort event processing if any input parameter was not finite. Now explicitly reject only the single bad input, printing a message via the warning stream if any input object is rejected. No interface changes; only a breaking change if the inputs are NaNs or infs!
 -   larpandoracontent
     -   minor changes, including removal of an unused member variable from CutPfoCharacterisationAlgorithm and addition of LArSvmHelper::CalculateProbability(…). Minor edit to out-of-larsoft build. No breaking changes.
--   lareventdisplay: feature/chalt\_RawHitFindingDP
+-   lareventdisplay: feature/chalt_RawHitFindingDP
 
 Bug fixes
 ------------------------
 
--   larcore feature/gp\_Issue13972 [\#13972](/redmine/issues/13972 "Idea: New Geometry Feature subtask - iterators to subsets of geometry elements (Closed)")
+-   larcore feature/gp_Issue13972 [\#13972](/redmine/issues/13972 "Idea: New Geometry Feature subtask - iterators to subsets of geometry elements (Closed)")
     -   final changes
 -   larreco [\#17048](/redmine/issues/17048 "Bug: floating point divide by zero in tca:MCSMom (Resolved)")
 
@@ -58,52 +58,52 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|larsoft\_data|v1\_02\_00||[Ar39 Spectrum](https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=14779)|
+|larsoft_data|v1_02_00||[Ar39 Spectrum](https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=14779)|
 
 Change List
 ============================
 
-larsoft v06\_42\_00
+larsoft v06_42_00
 ------------------------------------------
 
--   2017-06-28 Lynn Garren : larsoft v06\_42\_00 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : larsoft v06_42_00 for larsoft v06_42_00
 -   2017-06-28 Lynn Garren : update product versions
--   2017-06-27 Lynn Garren : larsoft\_data v1\_02\_00
+-   2017-06-27 Lynn Garren : larsoft_data v1_02_00
 
-lareventdisplay v06\_08\_00
+lareventdisplay v06_08_00
 ----------------------------------------------------------
 
--   2017-06-28 Lynn Garren : lareventdisplay v06\_08\_00 for larsoft v06\_42\_00
--   2017-06-27 Lynn Garren : Merge branch ‘feature/chalt\_RawHitFindingDP’ into release/v06\_42\_00
+-   2017-06-28 Lynn Garren : lareventdisplay v06_08_00 for larsoft v06_42_00
+-   2017-06-27 Lynn Garren : Merge branch ‘feature/chalt_RawHitFindingDP’ into release/v06_42_00
 -   2017-06-22 Christoph Alt : Implemented two functions to evaluate raw waveform fits and changed lable and title offsets for raw waveform fits
 
-larexamples v06\_04\_03
+larexamples v06_04_03
 --------------------------------------------------
 
--   2017-06-28 Lynn Garren : larexamples v06\_04\_03 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : larexamples v06_04_03 for larsoft v06_42_00
 
-larpandora v06\_14\_00
+larpandora v06_14_00
 ------------------------------------------------
 
--   2017-06-28 Lynn Garren : larpandora v06\_14\_00 for larsoft v06\_42\_00
--   2017-06-27 Lynn Garren : Merge branch ‘feature/jm\_PerObjectRejection’ into release/v06\_42\_00
+-   2017-06-28 Lynn Garren : larpandora v06_14_00 for larsoft v06_42_00
+-   2017-06-27 Lynn Garren : Merge branch ‘feature/jm_PerObjectRejection’ into release/v06_42_00
 -   2017-06-22 John Marshall : Provide ability to write compact geometry xml description via fcl steering.
 -   2017-06-22 John Marshall : Explicitly deal with exceptions raised during input object creation. If input parameters for a given object are not finite, only the relevant object is now omitted. A message is printed via the warning stream.
 
-larwirecell v06\_05\_03
+larwirecell v06_05_03
 --------------------------------------------------
 
--   2017-06-28 Lynn Garren : larwirecell v06\_05\_03 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : larwirecell v06_05_03 for larsoft v06_42_00
 
-larana v06\_07\_03
+larana v06_07_03
 ----------------------------------------
 
--   2017-06-28 Lynn Garren : larana v06\_07\_03 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : larana v06_07_03 for larsoft v06_42_00
 
-larreco v06\_33\_00
+larreco v06_33_00
 ------------------------------------------
 
--   2017-06-28 Lynn Garren : larreco v06\_33\_00 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : larreco v06_33_00 for larsoft v06_42_00
 -   2017-06-28 Bruce Baller : Return 1 instead of 0 if an invalid trajectory is passed
 -   2017-06-26 Robert Sulej : add tag for muons, similar to primary electron, might become useful
 -   2017-06-25 Robert Sulej : fix condition
@@ -115,7 +115,7 @@ larreco v06\_33\_00
 -   2017-06-24 Robert Sulej : setup backend from the script level
 -   2017-06-24 Robert Sulej : remove old script
 -   2017-06-24 Robert Sulej : add script to plot data dumped to root file
--   2017-06-23 baller : Merge branch ‘develop’ into feature/bb\_TJWork
+-   2017-06-23 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-06-23 baller : Change vertex Ptr2D to Vtx2ID.
 -   2017-06-23 baller : Add Vertex2DCuts debug parameter.
 -   2017-06-23 baller : Change vertex bit names.
@@ -126,7 +126,7 @@ larreco v06\_33\_00
 -   2017-06-23 baller : Changed Ptr2D to Vtx2ID, etc. Add UpdateChgRMS. Add vertex Score. Move MakeVertexObsolete to TCVertex. Improvements to FindCloseTjs.
 -   2017-06-23 baller : Add UpdateChgRMS.
 -   2017-06-23 baller : Increase Vertex2DCuts size. Add call to CheckVtxAssociations. Fix bug in MergeAndStore.
--   2017-06-22 Lynn Garren : larsoft v06\_41\_00
+-   2017-06-22 Lynn Garren : larsoft v06_41_00
 -   2017-06-22 Robert Sulej : few more easy replacements of TVector with DisplacementVector
 -   2017-06-22 Robert Sulej : propagate direction at each hit to recobTrack
 -   2017-06-21 baller : Add AddCloseTjsToList. Define a special mode for debugging shower code. Add calls to DefineShower and AddTjsInsideEnvelope in FindExternalParent
@@ -136,27 +136,27 @@ larreco v06\_33\_00
 -   2017-06-21 baller : Add special mode for debugging shower code
 -   2017-06-21 baller : Set default debug cryostat and tpc
 
-larsim v06\_25\_01
+larsim v06_25_01
 ----------------------------------------
 
--   2017-06-28 Lynn Garren : larsim v06\_25\_01 for larsoft v06\_42\_00
--   2017-06-27 Lynn Garren : larsoft\_data v1\_02\_00
+-   2017-06-28 Lynn Garren : larsim v06_25_01 for larsoft v06_42_00
+-   2017-06-27 Lynn Garren : larsoft_data v1_02_00
 
-larevt v06\_14\_03
+larevt v06_14_03
 ----------------------------------------
 
--   2017-06-28 Lynn Garren : larevt v06\_14\_03 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : larevt v06_14_03 for larsoft v06_42_00
 
-lardata v06\_23\_01
+lardata v06_23_01
 ------------------------------------------
 
--   2017-06-28 Lynn Garren : lardata v06\_23\_01 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : lardata v06_23_01 for larsoft v06_42_00
 
-larcore v06\_12\_00
+larcore v06_12_00
 ------------------------------------------
 
--   2017-06-28 Lynn Garren : larcore v06\_12\_00 for larsoft v06\_42\_00
--   2017-06-27 Lynn Garren : Merge branch ‘feature/gp\_Issue13972’ into release/v06\_42\_00
+-   2017-06-28 Lynn Garren : larcore v06_12_00 for larsoft v06_42_00
+-   2017-06-27 Lynn Garren : Merge branch ‘feature/gp_Issue13972’ into release/v06_42_00
 -   2017-06-21 Gianluca Petrillo : Cosmetic changes.
 -   2017-06-21 Gianluca Petrillo : Added “local” iterators for all readout IDs.
 -   2017-06-21 Gianluca Petrillo : Added “local” iterators for all wires in a specified TPC and plane.
@@ -164,11 +164,11 @@ larcore v06\_12\_00
 -   2017-06-21 Gianluca Petrillo : Added GeoemtryCore method to increment geometry element IDs.
 -   2017-06-21 Gianluca Petrillo : Added text description of the iterator loop test.
 
-larpandoracontent v03\_07\_02
+larpandoracontent v03_07_02
 --------------------------------------------------------------
 
--   2017-06-28 Lynn Garren : larpandoracontent v03\_07\_02 for larsoft v06\_42\_00
--   2017-06-28 Lynn Garren : v03\_07\_02
+-   2017-06-28 Lynn Garren : larpandoracontent v03_07_02 for larsoft v06_42_00
+-   2017-06-28 Lynn Garren : v03_07_02
 -   2017-06-27 John Marshall : Merge branch ‘TravisCIPR’
 -   2017-06-27 John Marshall : Update Travis path.
 -   2017-06-25 Jack Anthony : Updated TravisCI build badge for pandorapfa master branch.
@@ -182,30 +182,30 @@ larpandoracontent v03\_07\_02
 -   2017-06-21 John Marshall : Merge branch ‘updates’ into develop
 -   2017-06-08 John Marshall : Remove unused member variable.
 
-larsoftobj v1\_22\_01
+larsoftobj v1_22_01
 ----------------------------------------------
 
--   2017-06-28 Lynn Garren : larsoftobj v1\_22\_01 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : larsoftobj v1_22_01 for larsoft v06_42_00
 -   2017-06-28 Lynn Garren : update product versions
 
-lardataobj v1\_17\_02
+lardataobj v1_17_02
 ----------------------------------------------
 
--   2017-06-28 Lynn Garren : lardataobj v1\_17\_02 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : lardataobj v1_17_02 for larsoft v06_42_00
 
-larcoreobj v1\_15\_01
+larcoreobj v1_15_01
 ----------------------------------------------
 
--   2017-06-28 Lynn Garren : larcoreobj v1\_15\_01 for larsoft v06\_42\_00
--   2017-06-22 Lynn Garren : larsoft v06\_41\_00
+-   2017-06-28 Lynn Garren : larcoreobj v1_15_01 for larsoft v06_42_00
+-   2017-06-22 Lynn Garren : larsoft v06_41_00
 -   2017-06-21 Gianluca Petrillo : Added validity interface to geometry IDs.
 -   2017-06-21 Gianluca Petrillo : Added convenience geometry ID conversion methods.
 
-larbatch v01\_32\_03
+larbatch v01_32_03
 --------------------------------------------
 
--   2017-06-28 Lynn Garren : larbatch v01\_32\_03 for larsoft v06\_42\_00
+-   2017-06-28 Lynn Garren : larbatch v01_32_03 for larsoft v06_42_00
 -   2017-06-22 Herbert Greenlee : Fix some problems with validate-on-worker.
 
-larutils v1\_16\_00
+larutils v1_16_00
 ------------------------------------------

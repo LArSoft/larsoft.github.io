@@ -199,7 +199,7 @@ Main points:
 ### Example actions and recommendations
 
 This section provided the base for (and was moved to):
-[Guidelines\_on\_using\_the\_geometry?parent=Developing\_With\_LArSoft](Guidelines_on_using_the_geometry?parent=Developing_With_LArSoft)
+[Guidelines_on_using_the_geometry?parent=Developing_With_LArSoft](Guidelines_on_using_the_geometry?parent=Developing_With_LArSoft)
 
 ### Summary
 

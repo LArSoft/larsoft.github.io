@@ -111,7 +111,7 @@ Then, get the `TritonInputData` instance associated with the model input to whic
 
         auto& triton_input = triton_client->input().begin()->second;
 
-or, equivalently, it can be specified by name (“main\_input” in this example):
+or, equivalently, it can be specified by name (“main_input” in this example):
 
         auto& triton_input = triton_client->input().at("main_input");
 
@@ -133,7 +133,7 @@ In the previous step, the inference request is a blocking call which will return
         const auto& triton_output0 = triton_client->output().at("em_trk_none_netout/Softmax");
     const auto& triton_output1 = triton_client->output().at("michel_netout/Sigmoid");
 
-In this example, there are two outputs named “em\_trk\_none\_netout/Softmax” and “michel\_netout/Sigmoid”.
+In this example, there are two outputs named “em_trk_none_netout/Softmax” and “michel_netout/Sigmoid”.
 
 Just as the example had to convert the input data to the native format of the inference server, now one has to convert it back into the output data type of the ML model so it can easily be interpreted. This is done by invoking the `fromServer()` method of the `TritonOutputdata` object with the appropriate data type (`float` in this example):
 

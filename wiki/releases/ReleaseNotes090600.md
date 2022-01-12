@@ -1,40 +1,40 @@
-LArSoft v09\_06\_00 Release Notes
+LArSoft v09_06_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v09\_06\_00 Release Notes](#LArSoft-v09_06_00-Release-Notes)
+-   [LArSoft v09_06_00 Release Notes](#LArSoft-v09_06_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v09\_06\_00](#larsoft-v09_06_00)
-    -   [lareventdisplay v09\_00\_08](#lareventdisplay-v09_00_08)
-    -   [larexamples v09\_00\_08](#larexamples-v09_00_08)
-    -   [larg4 v09\_01\_01](#larg4-v09_01_01)
-    -   [larpandora v09\_02\_00](#larpandora-v09_02_00)
-    -   [larsimrad v09\_00\_08](#larsimrad-v09_00_08)
-    -   [larrecodnn v09\_01\_03](#larrecodnn-v09_01_03)
-    -   [larwirecell v09\_01\_03](#larwirecell-v09_01_03)
-    -   [larana v09\_00\_08](#larana-v09_00_08)
-    -   [larreco v09\_02\_03](#larreco-v09_02_03)
-    -   [larsim v09\_04\_01](#larsim-v09_04_01)
-    -   [larevt v09\_00\_06](#larevt-v09_00_06)
-    -   [lardata v09\_01\_01](#lardata-v09_01_01)
-    -   [larcore v09\_00\_01](#larcore-v09_00_01)
-    -   [larpandoracontent v03\_21\_00](#larpandoracontent-v03_21_00)
-    -   [larsoftobj v09\_01\_01](#larsoftobj-v09_01_01)
-    -   [lardataobj v09\_00\_01](#lardataobj-v09_00_01)
-    -   [lardataalg v09\_01\_01](#lardataalg-v09_01_01)
-    -   [larcorealg v09\_00\_01](#larcorealg-v09_00_01)
-    -   [larcoreobj v09\_00\_00](#larcoreobj-v09_00_00)
-    -   [webevd v09\_00\_06](#webevd-v09_00_06)
-    -   [larbatch v01\_53\_01](#larbatch-v01_53_01)
-    -   [larutils v1\_27\_00](#larutils-v1_27_00)
+    -   [larsoft v09_06_00](#larsoft-v09_06_00)
+    -   [lareventdisplay v09_00_08](#lareventdisplay-v09_00_08)
+    -   [larexamples v09_00_08](#larexamples-v09_00_08)
+    -   [larg4 v09_01_01](#larg4-v09_01_01)
+    -   [larpandora v09_02_00](#larpandora-v09_02_00)
+    -   [larsimrad v09_00_08](#larsimrad-v09_00_08)
+    -   [larrecodnn v09_01_03](#larrecodnn-v09_01_03)
+    -   [larwirecell v09_01_03](#larwirecell-v09_01_03)
+    -   [larana v09_00_08](#larana-v09_00_08)
+    -   [larreco v09_02_03](#larreco-v09_02_03)
+    -   [larsim v09_04_01](#larsim-v09_04_01)
+    -   [larevt v09_00_06](#larevt-v09_00_06)
+    -   [lardata v09_01_01](#lardata-v09_01_01)
+    -   [larcore v09_00_01](#larcore-v09_00_01)
+    -   [larpandoracontent v03_21_00](#larpandoracontent-v03_21_00)
+    -   [larsoftobj v09_01_01](#larsoftobj-v09_01_01)
+    -   [lardataobj v09_00_01](#lardataobj-v09_00_01)
+    -   [lardataalg v09_01_01](#lardataalg-v09_01_01)
+    -   [larcorealg v09_00_01](#larcorealg-v09_00_01)
+    -   [larcoreobj v09_00_00](#larcoreobj-v09_00_00)
+    -   [webevd v09_00_06](#webevd-v09_00_06)
+    -   [larbatch v01_53_01](#larbatch-v01_53_01)
+    -   [larutils v1_27_00](#larutils-v1_27_00)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09\_06\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_06_00/larsoft-v09_06_00.html)
-Download instructions for [just larsoftobj v09\_01\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_01_01/larsoftobj-v09_01_01.html)
+Download instructions for [larsoft v09_06_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_06_00/larsoft-v09_06_00.html)
+Download instructions for [just larsoftobj v09_01_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_01_01/larsoftobj-v09_01_01.html)
 
 Purpose
 --------------------
@@ -46,15 +46,15 @@ New features
 ------------------------------
 
 -   larpandoracontent PR 12
-    -   **dunetpc will need feature/imawby\_dunefdCosmicRayRecoModule**
-    -   This PR replaces the TrackInEMShower algorithm with the TrackMergeRefinement algorithm within Pandora. This PR accompanies the PR of the imawby\_dunefdCosmicRayRecoModule branch to dunetpc (feature/imawby\_dunefdCosmicRayRecoModule). It is important to mention that these PRs must be merged at the same time as this larpandoracontent PR removes some features that dunetpc depends on (this dependency is removed in the dunetpc PR referenced).
+    -   **dunetpc will need feature/imawby_dunefdCosmicRayRecoModule**
+    -   This PR replaces the TrackInEMShower algorithm with the TrackMergeRefinement algorithm within Pandora. This PR accompanies the PR of the imawby_dunefdCosmicRayRecoModule branch to dunetpc (feature/imawby_dunefdCosmicRayRecoModule). It is important to mention that these PRs must be merged at the same time as this larpandoracontent PR removes some features that dunetpc depends on (this dependency is removed in the dunetpc PR referenced).
     -   The TrackMergeRefinement algorithm (previously the TrackInEMShower algorithm) is a 2D hit clustering algorithm that attempts to better cluster cosmic ray muon tracks that have been split by large amounts of electromagnetic behaviour. In terms of code structure, the TrackInEMShower algorithm has been refactored into the TrackMergeRefinement algorithm which inherits from a newly created TrackRefinementBase algorithm. In terms of functionality, the TrackMergeRefinement algorithm primarily improves upon the TrackInEMShower algorithm by including a consideration of the detector gaps when searching for split muon tracks. This is essential to optimise the algorithm’s performance when removing the stitching procedure in the DUNE FD cosmic ray reconstruction which will be implemented in the accompanying dunetpc branch.
 -   lardataalg PR 14
     -   Dump LAr density in DetectorProperties unit test
 -   larutils PR 6
     -   New build script added for sbncode and sbnobj, based on script for sbnd. Tested and builds locally. Also updated buildSBND.sh to be executable as it wasn’t by default before.
 -   larpandora PR 11
-    -   PR to include Space Charge Effect (SCE) corrections into the TrajPoint dEdx tool (although most of the work is done in the alg for extensibility). This builds on the work in larsoft v09\_04\_00. The input should already have spatial corrections applied by the SCECorrections module.
+    -   PR to include Space Charge Effect (SCE) corrections into the TrajPoint dEdx tool (although most of the work is done in the alg for extensibility). This builds on the work in larsoft v09_04_00. The input should already have spatial corrections applied by the SCECorrections module.
     -   Specifically the corrections are:
         -   Correct for the “squeezing” from SCE in the dx
         -   Use the local electric field when calculating the recombination in conversion from dQ/dx -\> dE/dx
@@ -72,86 +72,86 @@ Updated dependencies
 Change List
 ============================
 
-larsoft v09\_06\_00
+larsoft v09_06_00
 ------------------------------------------
 
--   2020-10-07 Lynn Garren : larsoft v09\_06\_00 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larsoft v09_06_00 for larsoft v09_06_00
 -   2020-10-07 Lynn Garren : product versions
 
-lareventdisplay v09\_00\_08
+lareventdisplay v09_00_08
 ----------------------------------------------------------
 
--   2020-10-07 Lynn Garren : lareventdisplay v09\_00\_08 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : lareventdisplay v09_00_08 for larsoft v09_06_00
 
-larexamples v09\_00\_08
+larexamples v09_00_08
 --------------------------------------------------
 
--   2020-10-07 Lynn Garren : larexamples v09\_00\_08 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larexamples v09_00_08 for larsoft v09_06_00
 
-larg4 v09\_01\_01
+larg4 v09_01_01
 --------------------------------------
 
--   2020-10-07 Lynn Garren : larg4 v09\_01\_01 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larg4 v09_01_01 for larsoft v09_06_00
 
-larpandora v09\_02\_00
+larpandora v09_02_00
 ------------------------------------------------
 
--   2020-10-07 Lynn Garren : larpandora v09\_02\_00 for larsoft v09\_06\_00
--   2020-10-07 Lynn Garren : Merge pull request \#11 from PandoraPFA/feature/sce\_v9
--   2020-09-30 AndyChappell : Merge pull request \#7 from etyley/feature/etyley\_sce\_v9
+-   2020-10-07 Lynn Garren : larpandora v09_02_00 for larsoft v09_06_00
+-   2020-10-07 Lynn Garren : Merge pull request \#11 from PandoraPFA/feature/sce_v9
+-   2020-09-30 AndyChappell : Merge pull request \#7 from etyley/feature/etyley_sce_v9
 -   2020-09-22 Edward Tyley : Added SCE corrections to TrajPoint dEdx tool. N.B. this requires input to have been corrected using SCECorrections module
 
-larsimrad v09\_00\_08
+larsimrad v09_00_08
 ----------------------------------------------
 
--   2020-10-07 Lynn Garren : larsimrad v09\_00\_08 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larsimrad v09_00_08 for larsoft v09_06_00
 -   2020-10-07 Lynn Garren : find headers
 
-larrecodnn v09\_01\_03
+larrecodnn v09_01_03
 ------------------------------------------------
 
--   2020-10-07 Lynn Garren : larrecodnn v09\_01\_03 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larrecodnn v09_01_03 for larsoft v09_06_00
 
-larwirecell v09\_01\_03
+larwirecell v09_01_03
 --------------------------------------------------
 
--   2020-10-07 Lynn Garren : larwirecell v09\_01\_03 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larwirecell v09_01_03 for larsoft v09_06_00
 
-larana v09\_00\_08
+larana v09_00_08
 ----------------------------------------
 
--   2020-10-07 Lynn Garren : larana v09\_00\_08 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larana v09_00_08 for larsoft v09_06_00
 
-larreco v09\_02\_03
+larreco v09_02_03
 ------------------------------------------
 
--   2020-10-07 Lynn Garren : larreco v09\_02\_03 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larreco v09_02_03 for larsoft v09_06_00
 
-larsim v09\_04\_01
+larsim v09_04_01
 ----------------------------------------
 
--   2020-10-07 Lynn Garren : larsim v09\_04\_01 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larsim v09_04_01 for larsoft v09_06_00
 
-larevt v09\_00\_06
+larevt v09_00_06
 ----------------------------------------
 
--   2020-10-07 Lynn Garren : larevt v09\_00\_06 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larevt v09_00_06 for larsoft v09_06_00
 
-lardata v09\_01\_01
+lardata v09_01_01
 ------------------------------------------
 
--   2020-10-07 Lynn Garren : lardata v09\_01\_01 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : lardata v09_01_01 for larsoft v09_06_00
 
-larcore v09\_00\_01
+larcore v09_00_01
 ------------------------------------------
 
--   2020-10-07 Lynn Garren : larcore v09\_00\_01 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larcore v09_00_01 for larsoft v09_06_00
 
-larpandoracontent v03\_21\_00
+larpandoracontent v03_21_00
 --------------------------------------------------------------
 
--   2020-10-07 Lynn Garren : larpandoracontent v03\_21\_00 for larsoft v09\_06\_00
--   2020-10-07 Lynn Garren : v03\_21\_00 per branch name
+-   2020-10-07 Lynn Garren : larpandoracontent v03_21_00 for larsoft v09_06_00
+-   2020-10-07 Lynn Garren : v03_21_00 per branch name
 -   2020-10-02 Andrew Chappell : Catch potential exception
 -   2020-10-01 AndyChappell : Merge pull request \#139 from imawby/feature/NoStitching
 -   2020-10-01 Isobel Mawby : Whitespace removal
@@ -212,50 +212,50 @@ larpandoracontent v03\_21\_00
 -   2020-06-29 Isobel Mawby : Class creation
 -   2019-10-23 StevenGreen1 : Adding X0 to output validation root trees.
 
-larsoftobj v09\_01\_01
+larsoftobj v09_01_01
 ------------------------------------------------
 
--   2020-10-07 Lynn Garren : larsoftobj v09\_01\_01 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larsoftobj v09_01_01 for larsoft v09_06_00
 -   2020-10-07 Lynn Garren : product versions
 
-lardataobj v09\_00\_01
+lardataobj v09_00_01
 ------------------------------------------------
 
--   2020-10-07 Lynn Garren : lardataobj v09\_00\_01 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : lardataobj v09_00_01 for larsoft v09_06_00
 
-lardataalg v09\_01\_01
+lardataalg v09_01_01
 ------------------------------------------------
 
--   2020-10-07 Lynn Garren : lardataalg v09\_01\_01 for larsoft v09\_06\_00
--   2020-10-07 Lynn Garren : Merge pull request \#14 from PetrilloAtWork/feature/gp\_testDensity
+-   2020-10-07 Lynn Garren : lardataalg v09_01_01 for larsoft v09_06_00
+-   2020-10-07 Lynn Garren : Merge pull request \#14 from PetrilloAtWork/feature/gp_testDensity
 -   2020-10-05 Gianluca Petrillo : Fixed typo.
 -   2020-10-02 Gianluca Petrillo : … and I forgot the units.
 -   2020-10-02 Gianluca Petrillo : Added dump of LAr density to DetectorProperties “test”
 
-larcorealg v09\_00\_01
+larcorealg v09_00_01
 ------------------------------------------------
 
--   2020-10-07 Lynn Garren : larcorealg v09\_00\_01 for larsoft v09\_06\_00
--   2020-10-07 Lynn Garren : Merge pull request \#11 from PetrilloAtWork/feature/gp\_issue25003
+-   2020-10-07 Lynn Garren : larcorealg v09_00_01 for larsoft v09_06_00
+-   2020-10-07 Lynn Garren : Merge pull request \#11 from PetrilloAtWork/feature/gp_issue25003
 -   2020-10-06 Gianluca Petrillo : Fix OpDetGeo.h for Clang 7.
 -   2020-10-05 Gianluca Petrillo : Fixed bug in \`OpDetGeo::isShape()\` implementation.
 -   2020-10-02 Gianluca Petrillo : Fixed geo::OpDetGeo::isBar().
 
-larcoreobj v09\_00\_00
+larcoreobj v09_00_00
 ------------------------------------------------
 
-webevd v09\_00\_06
+webevd v09_00_06
 ----------------------------------------
 
--   2020-10-07 Lynn Garren : webevd v09\_00\_06 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : webevd v09_00_06 for larsoft v09_06_00
 
-larbatch v01\_53\_01
+larbatch v01_53_01
 --------------------------------------------
 
-larutils v1\_27\_00
+larutils v1_27_00
 ------------------------------------------
 
--   2020-10-07 Lynn Garren : larutils v1\_27\_00 for larsoft v09\_06\_00
+-   2020-10-07 Lynn Garren : larutils v1_27_00 for larsoft v09_06_00
 -   2020-10-07 Lynn Garren : remove whitespace
--   2020-10-07 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from SBNSoftware/feature/ascarff\_sbncodeBuildScript
+-   2020-10-07 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from SBNSoftware/feature/ascarff_sbncodeBuildScript
 -   2020-10-07 Andrew Scarff : Adding SBN build script. Small update to buildSBND.sh too.

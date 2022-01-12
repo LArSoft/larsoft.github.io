@@ -1,48 +1,48 @@
-LArSoft v09\_41\_00 Release Notes
+LArSoft v09_41_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v09\_41\_00 Release Notes](#LArSoft-v09_41_00-Release-Notes)
+-   [LArSoft v09_41_00 Release Notes](#LArSoft-v09_41_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Experiment code](#Experiment-code)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v09\_41\_00](#larsoft-v09_41_00)
-    -   [lareventdisplay v09\_03\_03](#lareventdisplay-v09_03_03)
-    -   [larexamples v09\_03\_03](#larexamples-v09_03_03)
-    -   [larpandora v09\_12\_00](#larpandora-v09_12_00)
-    -   [larsimrad v09\_04\_03](#larsimrad-v09_04_03)
-    -   [larrecodnn v09\_10\_03](#larrecodnn-v09_10_03)
-    -   [larwirecell v09\_05\_02](#larwirecell-v09_05_02)
-    -   [larana v09\_05\_00](#larana-v09_05_00)
-    -   [larreco v09\_09\_00](#larreco-v09_09_00)
-    -   [larsim v09\_21\_01](#larsim-v09_21_01)
-    -   [larg4 v09\_07\_02](#larg4-v09_07_02)
-    -   [larevt v09\_04\_02](#larevt-v09_04_02)
-    -   [lardata v09\_07\_00](#lardata-v09_07_00)
-    -   [larcore v09\_04\_00](#larcore-v09_04_00)
-    -   [larpandoracontent v03\_26\_02](#larpandoracontent-v03_26_02)
-    -   [larsoftobj v09\_16\_00](#larsoftobj-v09_16_00)
-    -   [larvecutils v09\_00\_00](#larvecutils-v09_00_00)
-    -   [lardataobj v09\_05\_00](#lardataobj-v09_05_00)
-    -   [lardataalg v09\_09\_01](#lardataalg-v09_09_01)
-    -   [larcorealg v09\_05\_00](#larcorealg-v09_05_00)
-    -   [larcoreobj v09\_04\_00](#larcoreobj-v09_04_00)
-    -   [webevd v09\_08\_02](#webevd-v09_08_02)
-    -   [larbatch v01\_56\_02](#larbatch-v01_56_02)
-    -   [larutils v1\_28\_02](#larutils-v1_28_02)
+    -   [larsoft v09_41_00](#larsoft-v09_41_00)
+    -   [lareventdisplay v09_03_03](#lareventdisplay-v09_03_03)
+    -   [larexamples v09_03_03](#larexamples-v09_03_03)
+    -   [larpandora v09_12_00](#larpandora-v09_12_00)
+    -   [larsimrad v09_04_03](#larsimrad-v09_04_03)
+    -   [larrecodnn v09_10_03](#larrecodnn-v09_10_03)
+    -   [larwirecell v09_05_02](#larwirecell-v09_05_02)
+    -   [larana v09_05_00](#larana-v09_05_00)
+    -   [larreco v09_09_00](#larreco-v09_09_00)
+    -   [larsim v09_21_01](#larsim-v09_21_01)
+    -   [larg4 v09_07_02](#larg4-v09_07_02)
+    -   [larevt v09_04_02](#larevt-v09_04_02)
+    -   [lardata v09_07_00](#lardata-v09_07_00)
+    -   [larcore v09_04_00](#larcore-v09_04_00)
+    -   [larpandoracontent v03_26_02](#larpandoracontent-v03_26_02)
+    -   [larsoftobj v09_16_00](#larsoftobj-v09_16_00)
+    -   [larvecutils v09_00_00](#larvecutils-v09_00_00)
+    -   [lardataobj v09_05_00](#lardataobj-v09_05_00)
+    -   [lardataalg v09_09_01](#lardataalg-v09_09_01)
+    -   [larcorealg v09_05_00](#larcorealg-v09_05_00)
+    -   [larcoreobj v09_04_00](#larcoreobj-v09_04_00)
+    -   [webevd v09_08_02](#webevd-v09_08_02)
+    -   [larbatch v01_56_02](#larbatch-v01_56_02)
+    -   [larutils v1_28_02](#larutils-v1_28_02)
 
 [list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09\_41\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_41_00/larsoft-v09_41_00.html)
-Download instructions for [just larsoftobj v09\_16\_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_16_00/larsoftobj-v09_16_00.html)
+Download instructions for [larsoft v09_41_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_41_00/larsoft-v09_41_00.html)
+Download instructions for [just larsoftobj v09_16_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_16_00/larsoftobj-v09_16_00.html)
 
 Purpose
 --------------------
 
 -   approved mcc9 PRs from MicroBooNE
-    -   [https://indico.fnal.gov/event/52332/contributions/230420/attachments/150317/193830/larsoft\_mcc10\_dec14\_2021.pdf](https://indico.fnal.gov/event/52332/contributions/230420/attachments/150317/193830/larsoft_mcc10_dec14_2021.pdf)
-    -   [https://indico.fnal.gov/event/51726/contributions/227303/attachments/148868/191433/larsoft\_mcc10\_nov2\_2021.pdf](https://indico.fnal.gov/event/51726/contributions/227303/attachments/148868/191433/larsoft_mcc10_nov2_2021.pdf)
+    -   [https://indico.fnal.gov/event/52332/contributions/230420/attachments/150317/193830/larsoft_mcc10_dec14_2021.pdf](https://indico.fnal.gov/event/52332/contributions/230420/attachments/150317/193830/larsoft_mcc10_dec14_2021.pdf)
+    -   [https://indico.fnal.gov/event/51726/contributions/227303/attachments/148868/191433/larsoft_mcc10_nov2_2021.pdf](https://indico.fnal.gov/event/51726/contributions/227303/attachments/148868/191433/larsoft_mcc10_nov2_2021.pdf)
 
 New features
 ------------------------------
@@ -59,9 +59,9 @@ New features
 Experiment code
 ------------------------------------
 
--   argoneutcode branch greenlee\_pid\_update
--   dunetpc branch greenlee\_pid\_update
--   uboone suite branch greenlee\_mcc9\_develop
+-   argoneutcode branch greenlee_pid_update
+-   dunetpc branch greenlee_pid_update
+-   uboone suite branch greenlee_mcc9_develop
 -   sbncode PR 222
 -   sbndcode PR 242
 -   icaruscode PR 313
@@ -72,42 +72,42 @@ Updated dependencies
 Change List
 ============================
 
-larsoft v09\_41\_00
+larsoft v09_41_00
 ------------------------------------------
 
--   2021-12-17 Lynn Garren : larsoft v09\_41\_00 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larsoft v09\_41\_00 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : larsoft v09_41_00 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larsoft v09_41_00 for larsoft v09_41_00
 -   2021-12-17 Lynn Garren : product versions
 
-lareventdisplay v09\_03\_03
+lareventdisplay v09_03_03
 ----------------------------------------------------------
 
--   2021-12-17 Lynn Garren : lareventdisplay v09\_03\_03 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : lareventdisplay v09\_03\_03 for larsoft v09\_41\_00
--   2021-12-16 Lynn Garren : Merge branch ‘greenlee\_mcc9\_pid’ into release/v09\_41\_00
--   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee\_mcc9\_pid
--   2021-10-22 Herbert Greenlee : Merge branch ‘develop’ into greenlee\_mcc9\_pid
--   2021-10-08 Herbert Greenlee : Merge remote-tracking branch ‘origin/greenlee\_mcc9\_pid’ into develop
+-   2021-12-17 Lynn Garren : lareventdisplay v09_03_03 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : lareventdisplay v09_03_03 for larsoft v09_41_00
+-   2021-12-16 Lynn Garren : Merge branch ‘greenlee_mcc9_pid’ into release/v09_41_00
+-   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee_mcc9_pid
+-   2021-10-22 Herbert Greenlee : Merge branch ‘develop’ into greenlee_mcc9_pid
+-   2021-10-08 Herbert Greenlee : Merge remote-tracking branch ‘origin/greenlee_mcc9_pid’ into develop
 -   2019-01-14 Adam : removing PID from event display
 
-larexamples v09\_03\_03
+larexamples v09_03_03
 --------------------------------------------------
 
--   2021-12-17 Lynn Garren : larexamples v09\_03\_03 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larexamples v09\_03\_03 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : larexamples v09_03_03 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larexamples v09_03_03 for larsoft v09_41_00
 
-larpandora v09\_12\_00
+larpandora v09_12_00
 ------------------------------------------------
 
--   2021-12-17 Lynn Garren : larpandora v09\_12\_00 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larpandora v09\_12\_00 for larsoft v09\_41\_00
--   2021-12-16 Lynn Garren : Merge branch ‘greenlee\_mcc9\_event\_building’ into release/v09\_41\_00
--   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee\_mcc9\_event\_building
--   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee\_mcc9\_event\_building
+-   2021-12-17 Lynn Garren : larpandora v09_12_00 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larpandora v09_12_00 for larsoft v09_41_00
+-   2021-12-16 Lynn Garren : Merge branch ‘greenlee_mcc9_event_building’ into release/v09_41_00
+-   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee_mcc9_event_building
+-   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee_mcc9_event_building
 -   2021-10-12 Herbert Greenlee : Update CMakeLists.txt for mrb 5.
--   2021-10-12 Herbert Greenlee : Merge branch ‘develop’ into greenlee\_mcc9\_event\_building
--   2021-10-12 Herbert Greenlee : Merge branch ‘greenlee\_mcc9\_event\_building’ of github.com:uboone/larpandora into greenlee\_mcc9\_event\_building
--   2021-10-12 Herbert Greenlee : Merge remote-tracking branch ‘uboone/greenlee\_mcc9\_event\_building’ into develop
+-   2021-10-12 Herbert Greenlee : Merge branch ‘develop’ into greenlee_mcc9_event_building
+-   2021-10-12 Herbert Greenlee : Merge branch ‘greenlee_mcc9_event_building’ of github.com:uboone/larpandora into greenlee_mcc9_event_building
+-   2021-10-12 Herbert Greenlee : Merge remote-tracking branch ‘uboone/greenlee_mcc9_event_building’ into develop
 -   2021-07-23 Herbert Greenlee : Fix compilation errors.
 -   2019-02-14 Andrew Smith : Removed POT counting from external event building
 -   2019-02-14 Andrew Smith : Fixed some whitespace issues
@@ -127,7 +127,7 @@ larpandora v09\_12\_00
 -   2018-11-16 Andrew Smith : Removed MicroBooNE specific analysis files which remained from previous tests
 -   2018-11-16 Wouter Van De Pontseele : Changed isTarget to isNeutrino
 -   2018-11-16 Wouter Van De Pontseele : Compiling version
--   2018-11-16 Wouter Van De Pontseele : rebased on v7\_11, no ubana dependency
+-   2018-11-16 Wouter Van De Pontseele : rebased on v7_11, no ubana dependency
 -   2018-11-15 Wouter Van De Pontseele : removing ubana dependencies
 -   2018-11-12 Wouter Van De Pontseele : Removed duplicate istarget definition
 -   2018-11-12 Wouter Van De Pontseele : PFParticleMetadata moved from larpandoraobj to recob
@@ -199,34 +199,34 @@ larpandora v09\_12\_00
 -   2018-08-30 a-d-smith : Updated simple beam particle id tool to match logic in Pandora
 -   2018-08-29 a-d-smith : Extended neutrino id tool to the general slice id tool - now works for protoDUNE
 
-larsimrad v09\_04\_03
+larsimrad v09_04_03
 ----------------------------------------------
 
--   2021-12-17 Lynn Garren : larsimrad v09\_04\_03 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larsimrad v09\_04\_03 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : larsimrad v09_04_03 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larsimrad v09_04_03 for larsoft v09_41_00
 
-larrecodnn v09\_10\_03
+larrecodnn v09_10_03
 ------------------------------------------------
 
--   2021-12-17 Lynn Garren : larrecodnn v09\_10\_03 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larrecodnn v09\_10\_03 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : larrecodnn v09_10_03 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larrecodnn v09_10_03 for larsoft v09_41_00
 
-larwirecell v09\_05\_02
+larwirecell v09_05_02
 --------------------------------------------------
 
--   2021-12-17 Lynn Garren : larwirecell v09\_05\_02 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larwirecell v09\_05\_02 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : larwirecell v09_05_02 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larwirecell v09_05_02 for larsoft v09_41_00
 
-larana v09\_05\_00
+larana v09_05_00
 ----------------------------------------
 
--   2021-12-17 Lynn Garren : larana v09\_05\_00 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larana v09\_05\_00 for larsoft v09\_41\_00
--   2021-12-16 Lynn Garren : Merge branch ‘greenlee\_mcc9\_pid’ into release/v09\_41\_00
--   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee\_mcc9\_pid
--   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee\_mcc9\_pid
+-   2021-12-17 Lynn Garren : larana v09_05_00 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larana v09_05_00 for larsoft v09_41_00
+-   2021-12-16 Lynn Garren : Merge branch ‘greenlee_mcc9_pid’ into release/v09_41_00
+-   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee_mcc9_pid
+-   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee_mcc9_pid
 -   2021-10-21 Herbert Greenlee : Add geo::PlaneID to ParticleID.
--   2021-10-08 Herbert Greenlee : Merge remote-tracking branch ‘origin/greenlee\_mcc9\_pid’ into develop
+-   2021-10-08 Herbert Greenlee : Merge remote-tracking branch ‘origin/greenlee_mcc9_pid’ into develop
 -   2021-02-18 Herbert Greenlee : Add missing include.
 -   2019-01-30 kduffy : Add in fUseMedian to match previous behaviour for PIDA. We shouldn’t do this any more though - now we can (and should) store both PIDA by mean and median
 -   2019-01-23 kduffy : Include missing bitset include
@@ -234,135 +234,135 @@ larana v09\_05\_00
 -   2019-01-10 kduffy : Remove unnecessary if statement in bitset calculation
 -   2019-01-09 Adam : updates to output chi2 in terms of new anab::ParticleID class – untested
 
-larreco v09\_09\_00
+larreco v09_09_00
 ------------------------------------------
 
--   2021-12-17 Lynn Garren : larreco v09\_09\_00 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larreco v09\_09\_00 for larsoft v09\_41\_00
--   2021-12-16 Lynn Garren : Merge branch ‘greenlee\_mcc9\_pid’ into release/v09\_41\_00
--   2021-12-16 Lynn Garren : Merge branch ‘greenlee\_mcc9\_mcs’ into release/v09\_41\_00
--   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee\_mcc9\_mcs
--   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee\_mcc9\_pid
--   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee\_mcc9\_mcs
--   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee\_mcc9\_pid
+-   2021-12-17 Lynn Garren : larreco v09_09_00 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larreco v09_09_00 for larsoft v09_41_00
+-   2021-12-16 Lynn Garren : Merge branch ‘greenlee_mcc9_pid’ into release/v09_41_00
+-   2021-12-16 Lynn Garren : Merge branch ‘greenlee_mcc9_mcs’ into release/v09_41_00
+-   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee_mcc9_mcs
+-   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee_mcc9_pid
+-   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee_mcc9_mcs
+-   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee_mcc9_pid
 -   2021-02-18 Herbert Greenlee : Update breaking changes.
 -   2019-06-11 Giuseppe Cerati : updates to mcs
 -   2019-06-03 Giuseppe Cerati : update to TrajectoryMCSFitter for MicroBooNE MCC9.1
 -   2019-02-20 Adam : removing PID accessor from KalmanFilterFinalTrackFitter as per info from Giuseppe
 -   2019-01-14 Adam : removing .Pdg() usage and replacing with -1
 
-larsim v09\_21\_01
+larsim v09_21_01
 ----------------------------------------
 
--   2021-12-17 Lynn Garren : larsim v09\_21\_01 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larsim v09\_21\_01 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : larsim v09_21_01 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larsim v09_21_01 for larsoft v09_41_00
 
-larg4 v09\_07\_02
+larg4 v09_07_02
 --------------------------------------
 
--   2021-12-17 Lynn Garren : larg4 v09\_07\_02 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larg4 v09\_07\_02 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : larg4 v09_07_02 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larg4 v09_07_02 for larsoft v09_41_00
 
-larevt v09\_04\_02
+larevt v09_04_02
 ----------------------------------------
 
--   2021-12-17 Lynn Garren : larevt v09\_04\_02 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larevt v09\_04\_02 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : larevt v09_04_02 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larevt v09_04_02 for larsoft v09_41_00
 
-lardata v09\_07\_00
+lardata v09_07_00
 ------------------------------------------
 
--   2021-12-17 Lynn Garren : lardata v09\_07\_00 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : lardata v09\_07\_00 for larsoft v09\_41\_00
--   2021-12-16 Lynn Garren : Merge branch ‘greenlee\_mcc9\_pid’ into release/v09\_41\_00
--   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee\_mcc9\_pid
--   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee\_mcc9\_pid
+-   2021-12-17 Lynn Garren : lardata v09_07_00 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : lardata v09_07_00 for larsoft v09_41_00
+-   2021-12-16 Lynn Garren : Merge branch ‘greenlee_mcc9_pid’ into release/v09_41_00
+-   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee_mcc9_pid
+-   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee_mcc9_pid
 -   2021-10-21 Herbert Greenlee : Add geo::PlaneID to dump output.
 -   2021-10-14 Herbert Greenlee : Add DumpParticleIDs module.
 
-larcore v09\_04\_00
+larcore v09_04_00
 ------------------------------------------
 
-larpandoracontent v03\_26\_02
+larpandoracontent v03_26_02
 --------------------------------------------------------------
 
-larsoftobj v09\_16\_00
+larsoftobj v09_16_00
 ------------------------------------------------
 
--   2021-12-17 Lynn Garren : larsoftobj v09\_16\_00 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : larsoftobj v09\_16\_00 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : larsoftobj v09_16_00 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : larsoftobj v09_16_00 for larsoft v09_41_00
 -   2021-12-17 Lynn Garren : product versions
 
-larvecutils v09\_00\_00
+larvecutils v09_00_00
 --------------------------------------------------
 
-lardataobj v09\_05\_00
+lardataobj v09_05_00
 ------------------------------------------------
 
--   2021-12-17 Lynn Garren : lardataobj v09\_05\_00 for larsoft v09\_41\_00
--   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee\_mcc9\_pid
--   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee\_mcc9\_pid
+-   2021-12-17 Lynn Garren : lardataobj v09_05_00 for larsoft v09_41_00
+-   2021-12-13 Herbert Greenlee : Merge branch ‘develop’ into greenlee_mcc9_pid
+-   2021-10-22 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee_mcc9_pid
 -   2021-10-21 Herbert Greenlee : Add accessor and constructor argument for geo::PlaneID.
 -   2021-10-20 Herbert Greenlee : Get rid of unneeded versions of struct sAlgParticleIDAlgScores.
 -   2021-10-20 Herbert Greenlee : Update ParticleID schema evolution.
 -   2021-10-19 Herbert Greenlee : Update ParticleID.
--   2021-10-18 Herbert Greenlee : Merge remote-tracking branch ‘kirsty/feature/kduffy\_merge\_uB\_PID’ into greenlee\_mcc9\_pid
--   2021-10-18 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee\_mcc9\_pid
+-   2021-10-18 Herbert Greenlee : Merge remote-tracking branch ‘kirsty/feature/kduffy_merge_uB_PID’ into greenlee_mcc9_pid
+-   2021-10-18 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into greenlee_mcc9_pid
 -   2021-02-12 Herbert Greenlee : Add missing include.
 -   2019-02-21 Herbert Greenlee : bitset -\> std::bitset.
--   2019-02-20 kduffy : Add back in Base\_bitset to classes\_def.xml
+-   2019-02-20 kduffy : Add back in Base_bitset to classes_def.xml
 -   2019-02-19 kduffy : Comment out ioread rule for particleID because it doesn’t work yet
--   2019-02-07 kduffy : Remove unused class \_Base\_bitset\<1\>
+-   2019-02-07 kduffy : Remove unused class _Base_bitset\<1\>
 -   2019-01-23 kduffy : Change bitset to 8 bits instead of 5. ioread rule for ParticleID class is still broken, will fix asap
 -   2019-01-22 kduffy : Return a const reference to the vector not a const vector
 -   2019-01-22 kduffy : Change bitset from 5 bits to 8 and rename fPlaneMask instead of fPlaneID. Also remove unnecessary ifndef statements in ParticleID.h
 -   2019-01-14 kduffy : Change bitset definition to be the same as what we’ve defined elsewhere
 -   2019-01-10 kduffy : Fixes to ioread to make it work properly
--   2019-01-10 kduffy : Update classes\_def for anab::Calorimetry by hand
+-   2019-01-10 kduffy : Update classes_def for anab::Calorimetry by hand
 -   2019-01-10 kduffy : Hand-merge into feature branch with new PID variables
 -   2019-01-10 Adam : adding ioread for anab::ParticleID
 -   2019-01-10 kduffy : Remove old ParticleID functions from new class, since we’ve decided to go ahead with the breaking change
 -   2020-11-16 Kirsty Duffy : Add vector class definition
 -   2020-11-16 Kirsty Duffy : Make const function to be consistent with ostream in ParticleID.cxx
 -   2020-11-16 Kirsty Duffy : Fix use of isValid
--   2020-11-16 Kirsty Duffy : Updates to allow backwards-compatibility for reading files. Don’t attempt to split geo::PlaneID in ioread in classes\_def.xml, but copy to new object and convert to plane mask when reading
+-   2020-11-16 Kirsty Duffy : Updates to allow backwards-compatibility for reading files. Don’t attempt to split geo::PlaneID in ioread in classes_def.xml, but copy to new object and convert to plane mask when reading
 -   2020-11-13 Kirsty Duffy : Add back in an \#include \<vector\> that got lost in the merge
 -   2019-02-21 Herbert Greenlee : bitset -\> std::bitset.
 -   2019-02-21 Herbert Greenlee : Revert “ParticleID bitset\<8\> -\> int.”
 -   2019-02-20 Herbert Greenlee : ParticleID bitset\<8\> -\> int.
--   2019-02-20 kduffy : Add back in Base\_bitset to classes\_def.xml
+-   2019-02-20 kduffy : Add back in Base_bitset to classes_def.xml
 -   2019-02-19 kduffy : Comment out ioread rule for particleID because it doesn’t work yet
--   2019-02-07 kduffy : Remove unused class \_Base\_bitset\<1\>
+-   2019-02-07 kduffy : Remove unused class _Base_bitset\<1\>
 -   2019-01-23 kduffy : Change bitset to 8 bits instead of 5. ioread rule for ParticleID class is still broken, will fix asap
 -   2019-01-22 kduffy : Return a const reference to the vector not a const vector
 -   2019-01-22 kduffy : Change bitset from 5 bits to 8 and rename fPlaneMask instead of fPlaneID. Also remove unnecessary ifndef statements in ParticleID.h
 -   2019-01-14 kduffy : Change bitset definition to be the same as what we’ve defined elsewhere
 -   2019-01-10 kduffy : Fixes to ioread to make it work properly
--   2019-01-10 kduffy : Update classes\_def for anab::Calorimetry by hand
+-   2019-01-10 kduffy : Update classes_def for anab::Calorimetry by hand
 -   2019-01-10 kduffy : Hand-merge into feature branch with new PID variables
 -   2019-01-10 Adam : adding ioread for anab::ParticleID
 -   2019-01-10 kduffy : Remove old ParticleID functions from new class, since we’ve decided to go ahead with the breaking change
 
-lardataalg v09\_09\_01
+lardataalg v09_09_01
 ------------------------------------------------
 
--   2021-12-17 Lynn Garren : lardataalg v09\_09\_01 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : lardataalg v09\_09\_01 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : lardataalg v09_09_01 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : lardataalg v09_09_01 for larsoft v09_41_00
 
-larcorealg v09\_05\_00
+larcorealg v09_05_00
 ------------------------------------------------
 
-larcoreobj v09\_04\_00
+larcoreobj v09_04_00
 ------------------------------------------------
 
-webevd v09\_08\_02
+webevd v09_08_02
 ----------------------------------------
 
--   2021-12-17 Lynn Garren : webevd v09\_08\_02 for larsoft v09\_41\_00
--   2021-12-17 Lynn Garren : webevd v09\_08\_02 for larsoft v09\_41\_00
+-   2021-12-17 Lynn Garren : webevd v09_08_02 for larsoft v09_41_00
+-   2021-12-17 Lynn Garren : webevd v09_08_02 for larsoft v09_41_00
 
-larbatch v01\_56\_02
+larbatch v01_56_02
 --------------------------------------------
 
-larutils v1\_28\_02
+larutils v1_28_02
 ------------------------------------------

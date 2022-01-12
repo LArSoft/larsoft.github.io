@@ -8,7 +8,7 @@ By modifying the Birks model in order to include escaping electrons at zero elec
     QY_LArQL = QY_Birks + QY_ee 
     = (A_B/W_ion) / (1 + k_B/rho_LAr 1/xi dE/dx) + chi_0 f_corr QY_infinity,
 
-where QY\_LArQL is the corrected charge yield, QY\_Birks is the Birks model estimate, chi\_0 is the fraction of scaping electrons, and f\_corr is a correcting factor for the xi dependence.
+where QY_LArQL is the corrected charge yield, QY_Birks is the Birks model estimate, chi_0 is the fraction of scaping electrons, and f_corr is a correcting factor for the xi dependence.
 
 The charge-light master equation is, therefore given by:
 
@@ -19,7 +19,7 @@ Therefore the emitted light density is obtained as:
 
     dL/dx = 1/W_ion dE/dx [ 1 + N_ex/N_i - chi_0 f_corr - A_B/ (1 + k_B/rho_LAr 1/xi dE/dx) ].
 
-Using experimental data, a preliminary fit of the chi\_0 function to obtain its dependence on the energy deposited, as well as a fit to f\_corr to obtain its dependence on the electric field was performed, resulting in the following parameterization:
+Using experimental data, a preliminary fit of the chi_0 function to obtain its dependence on the energy deposited, as well as a fit to f_corr to obtain its dependence on the electric field was performed, resulting in the following parameterization:
 
     f_corr (xi, dE/dx) = exp{ - xi / [alpha ln(dE/dx) + beta] }, 
 

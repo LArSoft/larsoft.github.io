@@ -36,14 +36,14 @@ For a simple example, set up a ROOT installation, taking special care of using t
 
 This will display your geometry onscreen, supposing your World Volume is named volWorld.
 
-**NOTE: the rest of this was copied from the legacy site: [https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/Creating\_GDML\_](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/Creating_GDML_)
+**NOTE: the rest of this was copied from the legacy site: [https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/Creating_GDML_](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/Creating_GDML_)
 It needs major updating.**
 Look inside the geometry service to see what information it keys on to navigate the geometry.
 May also want to look at perl scripts.
 
 You should **not** alter the number of volumes in the GDML files as that may have unknown consequences on the running of the code that depends on the geometry. If you think you need to do that for some reason, please contact the larsoft-team () to see if an alternate solution is possible.
 
-The key scripts are [source:trunk/Geometry/gdml/generate\_gdml.pl](/redmine/projects/larsoft/repository/entry/trunk/Geometry/gdml/generate_gdml.pl) and [source:trun/Geometry/gdml/make\_gdml.pl](/redmine/projects/larsoft/repository/entry/trun/Geometry/gdml/make_gdml.pl). Try running each script with the -h option to see what the options are.
+The key scripts are [source:trunk/Geometry/gdml/generate_gdml.pl](/redmine/projects/larsoft/repository/entry/trunk/Geometry/gdml/generate_gdml.pl) and [source:trun/Geometry/gdml/make_gdml.pl](/redmine/projects/larsoft/repository/entry/trun/Geometry/gdml/make_gdml.pl). Try running each script with the -h option to see what the options are.
 
 Quick start
 ----------------------------
@@ -95,17 +95,17 @@ For a given detector, LArSoft maintains its detector-geometry description in a [
 
 In LArSoft, the use of GDML is affected by the need to preserve geometry files associated with existing detectors and some limitations with ROOT, as discussed below. As a result, it’s a two-step procedure to create a GDML file that describes the MicroBooNE detector:
 
-1) The Perl script [source:trunk/Geometry/gdml/generate\_gdml.pl](/redmine/projects/larsoft/repository/entry/trunk/Geometry/gdml/generate_gdml.pl) reads an XML file containing the geometry and material parameters associated with the MicroBooNE detector. It writes several files:
+1) The Perl script [source:trunk/Geometry/gdml/generate_gdml.pl](/redmine/projects/larsoft/repository/entry/trunk/Geometry/gdml/generate_gdml.pl) reads an XML file containing the geometry and material parameters associated with the MicroBooNE detector. It writes several files:
 
 -   a file of GDML \<constant\> statements, normally contained within a GDML \<define\> block; \* several GDML sub-files, each file describing a hierarchical level of the detector (e.g., a file for the cryostat, a file for the TPC, etc.); \* an XML file (the “fragments” file) with the names of the above files.
 
-2) The Perl script [source:trunk/Geometry/gdml/make\_gdml.pl](/redmine/projects/larsoft/repository/entry/trunk/Geometry/gdml/make_gdml.pl) does the following:
+2) The Perl script [source:trunk/Geometry/gdml/make_gdml.pl](/redmine/projects/larsoft/repository/entry/trunk/Geometry/gdml/make_gdml.pl) does the following:
 
 -   reads the fragments file; \* “zips” together the GDML sub-files into a single syntactically-correct GDML file; \* substitutes the numeric values for the constants wherever they’re used in the GDML.
 
-Steps (1) and (2) are separate because the geometry files for Bo and ArgoNeut are assembled only using the second Perl script; generate\_gdml.pl is mainly for use with MicroBooNE.
+Steps (1) and (2) are separate because the geometry files for Bo and ArgoNeut are assembled only using the second Perl script; generate_gdml.pl is mainly for use with MicroBooNE.
 
-make\_gdml.pl substitutes numeric values for the constants because of a potential limitation within ROOT. An sequence like this is valid in GDML:
+make_gdml.pl substitutes numeric values for the constants because of a potential limitation within ROOT. An sequence like this is valid in GDML:
 
     <define>
     <constant name="xSize" value="3">
@@ -118,19 +118,19 @@ However, in ROOT 5.16, a formula like “2\*xSize” would cause an error, while
 
 ### Notes on the scripts
 
-To see the full list of options available with either script, use the -h or –help option; e.g., generate\_gdml.pl -h.
+To see the full list of options available with either script, use the -h or –help option; e.g., generate_gdml.pl -h.
 
-By default, generate\_gdml.pl writes the fragments file to standard output (STDOUT), and make\_gdml.pl reads the fragments file from standard input (STDIN). This means you can pipe the output of the first script to the second, as shown in the Quick Start above.
+By default, generate_gdml.pl writes the fragments file to standard output (STDOUT), and make_gdml.pl reads the fragments file from standard input (STDIN). This means you can pipe the output of the first script to the second, as shown in the Quick Start above.
 
-generate\_gdml.pl writes several files to disk, and make\_gdml.pl reads them. If you’re doing detector-design studies, you may want to have several sets of these files; for example, you may want to have groups with different wire pitches. To support this, generate\_gdml.pl has a -s option; generate\_gdml.pl -s w1337 will add the suffix -w1337 to the names of the files it creates. Again, there is an example of this in the Quick Start section above.
+generate_gdml.pl writes several files to disk, and make_gdml.pl reads them. If you’re doing detector-design studies, you may want to have several sets of these files; for example, you may want to have groups with different wire pitches. To support this, generate_gdml.pl has a -s option; generate_gdml.pl -s w1337 will add the suffix -w1337 to the names of the files it creates. Again, there is an example of this in the Quick Start section above.
 
 ### Recipes
 
 In the case of MicroBooNE, if you want to make a minor change to a detector parameter:
 
--   create your own copy of microboone-gdml-parameters.xml \* edit your copy \* process the file with generate\_gdml.pl; e.g., generate\_gdml.pl -i my-parameters.xml -o my-gdml-fragments.xml \* create the final GDML description with make\_gdml.pl; e.g., generate\_gdml.pl -i my-gdml-fragments.xml -o my-detector.gdml \* copy/edit Geometry/microboone.xml with your GDML file’s name
+-   create your own copy of microboone-gdml-parameters.xml \* edit your copy \* process the file with generate_gdml.pl; e.g., generate_gdml.pl -i my-parameters.xml -o my-gdml-fragments.xml \* create the final GDML description with make_gdml.pl; e.g., generate_gdml.pl -i my-gdml-fragments.xml -o my-detector.gdml \* copy/edit Geometry/microboone.xml with your GDML file’s name
 
-If you want to make a major change to the structure of the detector, one that is not currently parametrized in some way, then you’ll have to copy and edit generate\_gdml.pl. It’s a long script, and perhaps cryptic if you’re not familiar with Perl, but the sections that generate the GDML are fairly straight-forward. Another option would be to run generate\_gdml.pl, then manually edit the GDML sub-files, or edit the fragments file to include a GDML file of your own with an extension to the detector’s geometry (such as a phototube).
+If you want to make a major change to the structure of the detector, one that is not currently parametrized in some way, then you’ll have to copy and edit generate_gdml.pl. It’s a long script, and perhaps cryptic if you’re not familiar with Perl, but the sections that generate the GDML are fairly straight-forward. Another option would be to run generate_gdml.pl, then manually edit the GDML sub-files, or edit the fragments file to include a GDML file of your own with an extension to the detector’s geometry (such as a phototube).
 
 All the files read and written by these scripts are either valid XML or GDML. They can be edited directly with any text editor.
 
@@ -138,7 +138,7 @@ Other experiments will need to develop their own systems for making minor change
 
 ### Visualization
 
-The ROOT script \<detector\>\_geo.C can be used to check and inspect the \<detector\> geometry. Invoke it through ROOT:
+The ROOT script \<detector\>_geo.C can be used to check and inspect the \<detector\> geometry. Invoke it through ROOT:
 
     root -l <detector>_geo.C
 
@@ -164,7 +164,7 @@ Double-click on the Geometry folder. Double-click on “Master volume” to see 
 
 ### Installation notes
 
-The Perl scripts generate\_gdml.pl and make\_gdml.pl require the package [perl-XML-LibXML](http://search.cpan.org/dist/XML-LibXML/) to parse the XML input files. It’s available for almost all UNIX. flavors, but it may not be installed by default.
+The Perl scripts generate_gdml.pl and make_gdml.pl require the package [perl-XML-LibXML](http://search.cpan.org/dist/XML-LibXML/) to parse the XML input files. It’s available for almost all UNIX. flavors, but it may not be installed by default.
 
 ### Sensitive Optical Elements
 

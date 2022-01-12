@@ -42,15 +42,15 @@ larreltools
 Make a new working directory and checkout the code
 ----------------------------------------------------------------------------------------------------------
 
--   tagLar mkdir \<new\_release\> \<working\_dir\>
-    -   this will create and populate \<working\_dir\>/\<new\_release\>
+-   tagLar mkdir \<new_release\> \<working_dir\>
+    -   this will create and populate \<working_dir\>/\<new_release\>
 -   At this time, we test against ArgoNeuT, DUNE, LArIAT, SBND, and MicroBooNE code.
     -   ICARUS will be added once we deal with naming conflicts.
 
 ### Directory structure
 
 -   Build directories are created for debug and prof builds of both e17 and c2.
--   The directory structure at \<working\_dir\>/\<new\_release\> is now:
+-   The directory structure at \<working_dir\>/\<new_release\> is now:
 
         srcs
 
@@ -70,7 +70,7 @@ Make sure the head of develop is consistent
 --------------------------------------------------------------------------------------------
 
 -   source e17p/localProducts\*/setup
--   cd \$MRB\_BUILDDIR
+-   cd \$MRB_BUILDDIR
 -   mrbsetenv
 -   mrb t -jN
     -   (use -j20 on woof)
@@ -83,17 +83,17 @@ Make sure the head of develop is consistent
 update releaseDB
 --------------------------------------
 
--   releaseDB/base\_dependency\_database should be updated for larsoft, dunetpc, and uboonecode
--   This step must be done with all of larsoft\_suite, dunetpc, and uboonecode in srcs
+-   releaseDB/base_dependency_database should be updated for larsoft, dunetpc, and uboonecode
+-   This step must be done with all of larsoft_suite, dunetpc, and uboonecode in srcs
 -   Make these changes in the develop branch before starting the release tag
--   cd \$MRB\_BUILDDIR
+-   cd \$MRB_BUILDDIR
 -   mrb md
--   cat .dependency\_database | grep -v uboonecode | grep -v dunetpc | grep -v lbne\_raw\_data | grep -v argoneutcode | grep -v lariat | grep -v sbndcode \> \$MRB\_SOURCE/larsoft/releaseDB/base\_dependency\_database
--   cat .dependency\_database | grep -v uboonecode | grep -v argoneutcode | grep -v lariat | grep -v sbndcode \> \$MRB\_SOURCE/dunetpc/releaseDB/base\_dependency\_database
--   cat .dependency\_database | grep -v dunetpc | grep -v lbne\_raw\_data | grep -v argoneutcode | grep -v lariat | grep -v sbndcode \> \$MRB\_SOURCE/uboonecode/releaseDB/base\_dependency\_database
--   cd \$MRB\_SOURCE/larsoft
+-   cat .dependency_database | grep -v uboonecode | grep -v dunetpc | grep -v lbne_raw_data | grep -v argoneutcode | grep -v lariat | grep -v sbndcode \> \$MRB_SOURCE/larsoft/releaseDB/base_dependency_database
+-   cat .dependency_database | grep -v uboonecode | grep -v argoneutcode | grep -v lariat | grep -v sbndcode \> \$MRB_SOURCE/dunetpc/releaseDB/base_dependency_database
+-   cat .dependency_database | grep -v dunetpc | grep -v lbne_raw_data | grep -v argoneutcode | grep -v lariat | grep -v sbndcode \> \$MRB_SOURCE/uboonecode/releaseDB/base_dependency_database
+-   cd \$MRB_SOURCE/larsoft
     -   git diff releaseDB
-    -   git commit -m“update dependency database” releaseDB/base\_dependency\_database
+    -   git commit -m“update dependency database” releaseDB/base_dependency_database
     -   git push origin develop
 -   repeat the commit for dunetpc and uboonecode
 
@@ -113,7 +113,7 @@ Using the CI to check feature branches
         trigger --build-delay 0 --revisions "lardataobj@feature/bb_recobslice larreco@feature/bb_restruct" 
 
 -   In special cases, test a release candidate.
-    -   workflows are listed on the [lar\_ci wiki](/redmine/projects/lar_ci/wiki/LArCI_Workflows)
+    -   workflows are listed on the [lar_ci wiki](/redmine/projects/lar_ci/wiki/LArCI_Workflows)
 
             trigger --build-delay 0 --revisions "*@feature/team_for_art_v3" --workflow argoneutcode_wf
 
@@ -122,7 +122,7 @@ Special instructions for experiment code
 
 ### dunetpc
 
--   dunetpc uses a differently qualified genie\_xsec than the other experiments. mrb v3 is sensitive to this, so we maintain a special working branch.
+-   dunetpc uses a differently qualified genie_xsec than the other experiments. mrb v3 is sensitive to this, so we maintain a special working branch.
 
         cd $MRB_SOURCE/dunetpc
         git checkout feature/team_for_larsoft_release_testing

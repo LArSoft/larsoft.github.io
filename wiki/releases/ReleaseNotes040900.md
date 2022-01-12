@@ -1,25 +1,25 @@
-LArSoft v04\_09\_00 Release Notes
+LArSoft v04_09_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v04\_09\_00 Release Notes](#LArSoft-v04_09_00-Release-Notes)
+-   [LArSoft v04_09_00 Release Notes](#LArSoft-v04_09_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v04\_09\_00](#larsoft-v04_09_00)
-    -   [lareventdisplay v04\_04\_07](#lareventdisplay-v04_04_07)
-    -   [larexamples v04\_04\_07](#larexamples-v04_04_07)
-    -   [larpandora v04\_04\_07](#larpandora-v04_04_07)
-    -   [larana v04\_06\_05](#larana-v04_06_05)
-    -   [larreco v04\_07\_00](#larreco-v04_07_00)
-    -   [larsim v04\_07\_03](#larsim-v04_07_03)
-    -   [larevt v04\_07\_01](#larevt-v04_07_01)
-    -   [lardata v04\_07\_01](#lardata-v04_07_01)
-    -   [larcore v04\_08\_00](#larcore-v04_08_00)
-    -   [larbatch v01\_08\_00](#larbatch-v01_08_00)
-    -   [larutils v1\_00\_10](#larutils-v1_00_10)
+    -   [larsoft v04_09_00](#larsoft-v04_09_00)
+    -   [lareventdisplay v04_04_07](#lareventdisplay-v04_04_07)
+    -   [larexamples v04_04_07](#larexamples-v04_04_07)
+    -   [larpandora v04_04_07](#larpandora-v04_04_07)
+    -   [larana v04_06_05](#larana-v04_06_05)
+    -   [larreco v04_07_00](#larreco-v04_07_00)
+    -   [larsim v04_07_03](#larsim-v04_07_03)
+    -   [larevt v04_07_01](#larevt-v04_07_01)
+    -   [lardata v04_07_01](#lardata-v04_07_01)
+    -   [larcore v04_08_00](#larcore-v04_08_00)
+    -   [larbatch v01_08_00](#larbatch-v01_08_00)
+    -   [larutils v1_00_10](#larutils-v1_00_10)
 
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_09_00/larsoft-v04_09_00.html)
@@ -32,11 +32,11 @@ Integrate Geometry changes
 New features
 ------------------------------
 
--   larcore feature/brebel\_AuxDetSensitive
+-   larcore feature/brebel_AuxDetSensitive
     -   non-breaking change needed by LArIAT
--   larcore feature/gp\_FactorizeGeometryService
+-   larcore feature/gp_FactorizeGeometryService
     -   see [May 18 coordination meeting slides](https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=9987)
--   feature/gp\_FactorizeGeometryService provided for uboonecode, lbnecode, argoneutcode, lariatsoft, and lar1ndcode.
+-   feature/gp_FactorizeGeometryService provided for uboonecode, lbnecode, argoneutcode, lariatsoft, and lar1ndcode.
 
 Bug fixes
 ------------------------
@@ -47,65 +47,65 @@ Updated dependencies
 Change List
 ============================
 
-larsoft v04\_09\_00
+larsoft v04_09_00
 ------------------------------------------
 
--   2015-05-27 Lynn Garren : larsoft v04\_09\_00 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : larsoft v04_09_00 for larsoft v04_09_00
 -   2015-05-27 Lynn Garren : update dependency database
 -   2015-05-27 Lynn Garren : update product versions
 
-lareventdisplay v04\_04\_07
+lareventdisplay v04_04_07
 ----------------------------------------------------------
 
--   2015-05-27 Lynn Garren : lareventdisplay v04\_04\_07 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : lareventdisplay v04_04_07 for larsoft v04_09_00
 
-larexamples v04\_04\_07
+larexamples v04_04_07
 --------------------------------------------------
 
--   2015-05-27 Lynn Garren : larexamples v04\_04\_07 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : larexamples v04_04_07 for larsoft v04_09_00
 
-larpandora v04\_04\_07
+larpandora v04_04_07
 ------------------------------------------------
 
--   2015-05-27 Lynn Garren : larpandora v04\_04\_07 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : larpandora v04_04_07 for larsoft v04_09_00
 
-larana v04\_06\_05
+larana v04_06_05
 ----------------------------------------
 
--   2015-05-27 Lynn Garren : larana v04\_06\_05 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : larana v04_06_05 for larsoft v04_09_00
 
-larreco v04\_07\_00
+larreco v04_07_00
 ------------------------------------------
 
--   2015-05-27 Lynn Garren : larreco v04\_07\_00 for larsoft v04\_09\_00
--   2015-05-27 Lynn Garren : Merge branch ‘feature/gp\_FactorizeGeometryService’ into release/v04\_09\_00
+-   2015-05-27 Lynn Garren : larreco v04_07_00 for larsoft v04_09_00
+-   2015-05-27 Lynn Garren : Merge branch ‘feature/gp_FactorizeGeometryService’ into release/v04_09_00
 -   2015-05-16 Gianluca Petrillo : Updated code with new geometry iterator names.
 
-larsim v04\_07\_03
+larsim v04_07_03
 ----------------------------------------
 
--   2015-05-27 Lynn Garren : larsim v04\_07\_03 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : larsim v04_07_03 for larsoft v04_09_00
 
-larevt v04\_07\_01
+larevt v04_07_01
 ----------------------------------------
 
--   2015-05-27 Lynn Garren : larevt v04\_07\_01 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : larevt v04_07_01 for larsoft v04_09_00
 
-lardata v04\_07\_01
+lardata v04_07_01
 ------------------------------------------
 
--   2015-05-27 Lynn Garren : lardata v04\_07\_01 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : lardata v04_07_01 for larsoft v04_09_00
 -   2015-05-27 Lynn Garren : adding meta information for geo::TPCID and geo::CryostatID
 -   2015-05-11 Gianluca Petrillo : Updated class version for the geometry IDs
 
-larcore v04\_08\_00
+larcore v04_08_00
 ------------------------------------------
 
--   2015-05-27 Lynn Garren : Merge branch ‘release/v04\_09\_00’
--   2015-05-27 Lynn Garren : larcore v04\_08\_00
--   2015-05-27 Gianluca Petrillo : Almost-manual merge of feature/brebel\_AuxDetSensitive into feature/gp\_FactorizeGeometryService
--   2015-05-27 Brian\_Rebel : add in methods for going from AuxDet digit channel to AuxDetGeo objects. The method assumes you have a AuxDetDigit to get the name of the detector and the channel of the digit
--   2015-05-27 Lynn Garren : larcore v04\_08\_00 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : Merge branch ‘release/v04_09_00’
+-   2015-05-27 Lynn Garren : larcore v04_08_00
+-   2015-05-27 Gianluca Petrillo : Almost-manual merge of feature/brebel_AuxDetSensitive into feature/gp_FactorizeGeometryService
+-   2015-05-27 Brian_Rebel : add in methods for going from AuxDet digit channel to AuxDetGeo objects. The method assumes you have a AuxDetDigit to get the name of the detector and the channel of the digit
+-   2015-05-27 Lynn Garren : larcore v04_08_00 for larsoft v04_09_00
 -   2015-05-27 Gianluca Petrillo : Fixed the last rebase with develop branch
 -   2015-05-26 Gianluca Petrillo : Rewritten the plane pitch test (now supports 2-plane geometries)
 -   2015-05-26 Gianluca Petrillo : Simplified the math of the WireIntersection geometry test. Unfortunately both this and the previous versions are buggy and fail on detectors where wire number does not always increase with z. Fix pending.
@@ -150,8 +150,8 @@ larcore v04\_08\_00
 -   2015-04-27 Gianluca Petrillo : Source code alignment: replaced tabulation characters with 8 spaces
 -   2015-04-27 Gianluca Petrillo : Renamed Geometry service files into GeometryCore. Hoping this will make future merges easier.
 
-larbatch v01\_08\_00
+larbatch v01_08_00
 --------------------------------------------
 
-larutils v1\_00\_10
+larutils v1_00_10
 ------------------------------------------

@@ -12,8 +12,8 @@ Create Tags for a LArSoft Release Build
 Determine which packages to tag.
 ---------------------------------------------------------------------
 
--   Make sure all experiment packages are removed from \$MRB\_SOURCE.
--   Remove the package from \$MRB\_SOURCE if no new tag is required.
+-   Make sure all experiment packages are removed from \$MRB_SOURCE.
+-   Remove the package from \$MRB_SOURCE if no new tag is required.
     -   cd  $MRB_SOURCE; mkdir ../notag
             mv ub* ../notag
             mv dune* ../notag
@@ -36,16 +36,16 @@ Check the information for the build files
     -   Update the versions in larsoft/releaseDB/CMakeLists.txt as appropriate.
     -   On rare occasion, the lar\* templates also need to be updated.
 -   **update larsoft/releaseDB/CMakeLists.txt with new product versions**
-    -   git commit this change to releaseDB, but NOT the change to ups/product\_deps
+    -   git commit this change to releaseDB, but NOT the change to ups/product_deps
 -   **update larsoftobj/bundle/CMakeLists.txt with new product versions**
-    -   git commit this change to bundle, but NOT the change to ups/product\_deps
+    -   git commit this change to bundle, but NOT the change to ups/product_deps
 -   build again
 
 Merge changes with the master branch and tag
 ----------------------------------------------------------------------------------------------
 
--   NOTE: tagLAr will commit the changes to ups/product\_deps. Any other changes must be committed BEFORE running tagLAr.
--   tagLAr tag \$MRB\_PROJECT\_VERSION
+-   NOTE: tagLAr will commit the changes to ups/product_deps. Any other changes must be committed BEFORE running tagLAr.
+-   tagLAr tag \$MRB_PROJECT_VERSION
 -   Notice that we have not yet updated the develop branch. That step is done AFTER the build is complete and installed.
 
 ### tagging by hand
@@ -80,7 +80,7 @@ Copy the build files to SciSoft
         Only in releaseDB/: larsoft-v08_24_00.html
 
     -   It’s also a good idea to check the lar\* files against the files used for the [previous release](http://scisoft.fnal.gov/scisoft/bundles/larsoft/).
--   cd \$MRB\_BUILDDIR/larsoft/releaseDB
+-   cd \$MRB_BUILDDIR/larsoft/releaseDB
     -   curl -O [http://scisoft.fnal.gov/scisoft/bundles/tools/copyToSciSoft](http://scisoft.fnal.gov/scisoft/bundles/tools/copyToSciSoft)
     -   chmod +x copyToSciSoft
     -   copyToSciSoft lar\*

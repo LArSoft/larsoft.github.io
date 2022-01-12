@@ -127,7 +127,7 @@ This encompasses 13 LArSoft classes:
 ![](recoblock_simple.svg)
 ![](legend.svg)
 
-“(version with modules creating each associations)”:recoblock\_assns.svg
+“(version with modules creating each associations)”:recoblock_assns.svg
 
 ### `raw::RawDigit`
 

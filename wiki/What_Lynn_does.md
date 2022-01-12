@@ -56,9 +56,9 @@ Build “third party” ups products as needed for art and larsoft
 
 -   We have a [defined procedure](/redmine/projects/build-framework/wiki) that uses a number of scriptlets found in the ssibuildshims product.
 -   Each product has a tiny redmine repository for the build and bootstrap scripts.
-    -   Scripts include autobuild.sh, bootstrap.sh, build\_xxx.sh, and usually ups/xxx.table, where xxx is the product name.
+    -   Scripts include autobuild.sh, bootstrap.sh, build_xxx.sh, and usually ups/xxx.table, where xxx is the product name.
     -   We sometimes need patch files.
-    -   Other scripts are occasionally included, such as bootstrap\_datasets.sh for geant4.
+    -   Other scripts are occasionally included, such as bootstrap_datasets.sh for geant4.
     -   We tag these repositories with the product version.
 -   To ensure reproducible builds, we only build from tagged releases. In rare cases, we use a commit hash.
 -   We require that the source code be captured in a source code tarball for reproducible builds.
@@ -98,15 +98,15 @@ Build art releases after they are tagged.
 Update other products to use the appropriate release of art (SciSoft team or experiments, see bullet notes)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--   artdaq\_core (~~This should go to the artdaq group -~~ Eric Flumerfelt-, Lynn says we just need a tag, so Scisoft team with tag from Eric)
+-   artdaq_core (~~This should go to the artdaq group -~~ Eric Flumerfelt-, Lynn says we just need a tag, so Scisoft team with tag from Eric)
     -   Owned by the artdaq group
     -   This product is designed to build against several different releases of art, as reflected in the generated table file.
     -   If the head of develop matches the latest tag, then use git flow to tag against the head of develop. Otherwise make a release branch against the latest tag and edit product deps.
-    -   We only edit ups/product\_deps to make a new release.
--   ifdh\_art (SciSoft)
+    -   We only edit ups/product_deps to make a new release.
+-   ifdh_art (SciSoft)
     -   This is the ifdh service developed by Marc Mengel at the request of the art team.
-    -   ifdh\_art can build against several different releases of art.
-    -   ifdh\_art is updated when libwda or ifdhc is updated or if it needs to recognize a new release of art.
+    -   ifdh_art can build against several different releases of art.
+    -   ifdh_art is updated when libwda or ifdhc is updated or if it needs to recognize a new release of art.
 -   nutools (Robert Hatcher will take this over)
     -   This product is owned by NOvA
     -   However, larsoft uses it extensively and sometimes makes contributions to the code.
@@ -129,7 +129,7 @@ Build nutools releases and the nu or nulite distributions.
     -   NOvA uses the full nu distribution.
     -   LArSoft now uses the nulite distribution which ignores packages that are NOvA specific.
 -   nutools has been split into modular components.
-    -   This was a staged deployment. As of nutools v3\_05\_00, only the CRY interface remains in nutools.
+    -   This was a staged deployment. As of nutools v3_05_00, only the CRY interface remains in nutools.
     -   The nutools suite now contains nusimdata, nugen, nug4, nuevdb, nurandom, and nutools.
     -   The build configure scripts are now generated from templates in nutools/bundle.
 
@@ -158,7 +158,7 @@ LArSoft release management (SciSoft team plus experiment activity on patch relea
     -   make release notes
     -   final merge with develop
     -   send an announcement
--   The procedure is described in detail at [How\_to\_tag\_and\_build\_a\_LArSoft\_vx\_yy\_zz\_release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)
+-   The procedure is described in detail at [How_to_tag_and_build_a_LArSoft_vx_yy_zz_release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)
     -   Although it is tempting to take shortcuts, the procedure is designed to allow the release manager to recover from various problems that may arise. Taking shortcuts removes those safeguards.
 
 support various infrastructure products (SciSoft team)

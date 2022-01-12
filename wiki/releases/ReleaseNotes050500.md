@@ -1,25 +1,25 @@
-LArSoft v05\_05\_00 Release Notes
+LArSoft v05_05_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v05\_05\_00 Release Notes](#LArSoft-v05_05_00-Release-Notes)
+-   [LArSoft v05_05_00 Release Notes](#LArSoft-v05_05_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Bug fixes](#Bug-fixes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v05\_05\_00](#larsoft-v05_05_00)
-    -   [lareventdisplay v05\_02\_00](#lareventdisplay-v05_02_00)
-    -   [larexamples v05\_00\_07](#larexamples-v05_00_07)
-    -   [larpandora v05\_02\_01](#larpandora-v05_02_01)
-    -   [larana v05\_03\_00](#larana-v05_03_00)
-    -   [larreco v05\_03\_00](#larreco-v05_03_00)
-    -   [larsim v05\_02\_00](#larsim-v05_02_00)
-    -   [larevt v05\_01\_03](#larevt-v05_01_03)
-    -   [lardata v05\_03\_00](#lardata-v05_03_00)
-    -   [larcore v05\_00\_02](#larcore-v05_00_02)
-    -   [larbatch v01\_20\_07](#larbatch-v01_20_07)
-    -   [larutils v1\_05\_05](#larutils-v1_05_05)
+    -   [larsoft v05_05_00](#larsoft-v05_05_00)
+    -   [lareventdisplay v05_02_00](#lareventdisplay-v05_02_00)
+    -   [larexamples v05_00_07](#larexamples-v05_00_07)
+    -   [larpandora v05_02_01](#larpandora-v05_02_01)
+    -   [larana v05_03_00](#larana-v05_03_00)
+    -   [larreco v05_03_00](#larreco-v05_03_00)
+    -   [larsim v05_02_00](#larsim-v05_02_00)
+    -   [larevt v05_01_03](#larevt-v05_01_03)
+    -   [lardata v05_03_00](#lardata-v05_03_00)
+    -   [larcore v05_00_02](#larcore-v05_00_02)
+    -   [larbatch v01_20_07](#larbatch-v01_20_07)
+    -   [larutils v1_05_05](#larutils-v1_05_05)
 
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_05_00/larsoft-v05_05_00.html)
@@ -34,11 +34,11 @@ New features
 
 -   larreco, lardata feature/ss-refactoring
     -   uboonecode feature/feature/ss-refactoring
-    -   refactor Track3DKalmanHit\_module
--   larreco, lareventdisplay feature/rsulej\_MultipleVtxCollections
+    -   refactor Track3DKalmanHit_module
+-   larreco, lareventdisplay feature/rsulej_MultipleVtxCollections
     -   Save reconstructed vertices separately for each type (interaction, kink, …) using instance names of collections. [\#11871](/redmine/issues/11871 "Necessary Maintenance: Decay products in pandora do not start from the same vertex, while Projection Matching Algorithm'... (Accepted)")
--   lardata, larana feature/wketchum\_\_CosmicTagIsolation
-    -   New algorithm (TrackContainmentAlg) and module (TrackContainmentTagger) that looks at all tracks in a set of collections, identifies those that are uncontained, and then loops through the remaining contained tracks to identify those that are spatially close to an uncontained track. There is a loop to establish this track linkage throughout the whole track collection. The module can create a CosmicTag object and associate it to these tracks. I’ve added a new anab::CosmicTagID\_t value in the enum, “kNotIsolated=500”, in the CosmicTag object to account for contained tracks that are not isolated and thus potentially cosmic.
+-   lardata, larana feature/wketchum__CosmicTagIsolation
+    -   New algorithm (TrackContainmentAlg) and module (TrackContainmentTagger) that looks at all tracks in a set of collections, identifies those that are uncontained, and then loops through the remaining contained tracks to identify those that are spatially close to an uncontained track. There is a loop to establish this track linkage throughout the whole track collection. The module can create a CosmicTag object and associate it to these tracks. I’ve added a new anab::CosmicTagID_t value in the enum, “kNotIsolated=500”, in the CosmicTag object to account for contained tracks that are not isolated and thus potentially cosmic.
 
 Bug fixes
 ------------------------
@@ -51,37 +51,37 @@ Updated dependencies
 Change List
 ============================
 
-larsoft v05\_05\_00
+larsoft v05_05_00
 ------------------------------------------
 
--   2016-03-23 Lynn Garren : larsoft v05\_05\_00 for larsoft v05\_05\_00
+-   2016-03-23 Lynn Garren : larsoft v05_05_00 for larsoft v05_05_00
 -   2016-03-23 Lynn Garren : update dependency database
 -   2016-03-23 Lynn Garren : update product versions
--   2016-03-17 Lynn Garren : larsoft v05\_04\_00
+-   2016-03-17 Lynn Garren : larsoft v05_04_00
 -   2016-03-16 Lynn Garren : using standard qualifier ordering
 
-lareventdisplay v05\_02\_00
+lareventdisplay v05_02_00
 ----------------------------------------------------------
 
--   2016-03-23 Lynn Garren : lareventdisplay v05\_02\_00 for larsoft v05\_05\_00
--   2016-03-22 Lynn Garren : Merge branch ‘feature/rsulej\_MultipleVtxCollections’ into release/v05\_05\_00
+-   2016-03-23 Lynn Garren : lareventdisplay v05_02_00 for larsoft v05_05_00
+-   2016-03-22 Lynn Garren : Merge branch ‘feature/rsulej_MultipleVtxCollections’ into release/v05_05_00
 -   2016-03-22 Robert Sulej : add display of kinks in the ortho views (kinks reconstructed along the track are saved as recob::vertex in the named collection)
 -   2016-03-22 Usher, Tracy L : Add option to allow viewing of “bad” channels in raw data event display (and “wire” data too) - should not change current behavior of event display. Also add protection in 3D display of tracks for special cases to prevent crash.
 
-larexamples v05\_00\_07
+larexamples v05_00_07
 --------------------------------------------------
 
--   2016-03-23 Lynn Garren : larexamples v05\_00\_07 for larsoft v05\_05\_00
+-   2016-03-23 Lynn Garren : larexamples v05_00_07 for larsoft v05_05_00
 
-larpandora v05\_02\_01
+larpandora v05_02_01
 ------------------------------------------------
 
--   2016-03-23 Lynn Garren : larpandora v05\_02\_01 for larsoft v05\_05\_00
+-   2016-03-23 Lynn Garren : larpandora v05_02_01 for larsoft v05_05_00
 
-larana v05\_03\_00
+larana v05_03_00
 ----------------------------------------
 
--   2016-03-23 Lynn Garren : larana v05\_03\_00 for larsoft v05\_05\_00
+-   2016-03-23 Lynn Garren : larana v05_03_00 for larsoft v05_05_00
 -   2016-03-22 Usher, Tracy L : Another tweak to logic to make sure catch right entering/exiting conditions.
 -   2016-03-22 Usher, Tracy L : Fix inequality sign faux pas
 -   2016-03-22 Usher, Tracy L : Change fiducial distance in x for PFParticle and PCA taggers
@@ -91,12 +91,12 @@ larana v05\_03\_00
 -   2016-03-22 Wesley Ketchum : merging in for v5
 -   2016-03-22 Wesley Ketchum : add in a new TrackContainment alg to link tracks that are contained with those that are not contained based on proximity
 
-larreco v05\_03\_00
+larreco v05_03_00
 ------------------------------------------
 
--   2016-03-23 Lynn Garren : larreco v05\_03\_00 for larsoft v05\_05\_00
--   2016-03-22 Lynn Garren : Merge branch ‘feature/rsulej\_MultipleVtxCollections’ into release/v05\_05\_00
--   2016-03-22 Lynn Garren : Merge branch ‘feature/ss-refactoring’ into release/v05\_05\_00
+-   2016-03-23 Lynn Garren : larreco v05_03_00 for larsoft v05_05_00
+-   2016-03-22 Lynn Garren : Merge branch ‘feature/rsulej_MultipleVtxCollections’ into release/v05_05_00
+-   2016-03-22 Lynn Garren : Merge branch ‘feature/ss-refactoring’ into release/v05_05_00
 -   2016-03-22 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2016-03-22 Tingjun Yang : Disable the checking of reconstructed vertex for now.
 -   2016-03-22 Robert Sulej : save kinks in the named vertex collection and assns to tracks in the named collection as well; interaction vertices are saved with no instance name, as it was up to now; track and pfp are assigned to the vertex where they were created (so 1 vertex for each track or pfp, but many tracks or pfps can be assigned to 1 vtx); a track can have many kinks assigned to it.
@@ -192,25 +192,25 @@ larreco v05\_03\_00
 -   2015-12-23 Saba Sehirsh : wrapped up a body of code into a FilterHitsonKalmanTracks
 -   2015-12-22 Saba Sehirsh : added FillHistograms function and re-indented code
 
-larsim v05\_02\_00
+larsim v05_02_00
 ----------------------------------------
 
--   2016-03-23 Lynn Garren : larsim v05\_02\_00 for larsoft v05\_05\_00
+-   2016-03-23 Lynn Garren : larsim v05_02_00 for larsoft v05_05_00
 -   2016-03-21 Gianluca Petrillo : Added dumpers for MCShower and MCTrack data products.
 -   2016-03-17 Tyler Alion : Add fcl switch for G4 overlap checker, document LArG4 parameters.
 
-larevt v05\_01\_03
+larevt v05_01_03
 ----------------------------------------
 
--   2016-03-23 Lynn Garren : larevt v05\_01\_03 for larsoft v05\_05\_00
+-   2016-03-23 Lynn Garren : larevt v05_01_03 for larsoft v05_05_00
 
-lardata v05\_03\_00
+lardata v05_03_00
 ------------------------------------------
 
--   2016-03-23 Lynn Garren : lardata v05\_03\_00 for larsoft v05\_05\_00
--   2016-03-22 Lynn Garren : Merge branch ‘feature/ss-refactoring’ into release/v05\_05\_00
--   2016-03-22 Wesley Ketchum : Merge branch ‘feature/wketchum\_CosmicTagIsolation’ into feature/wketchum\_CosmicTagIsolation\_v5
--   2016-03-21 Wesley Ketchum : Merge tag ‘LARSOFT\_SUITE\_v04\_36\_00’ into HEAD
+-   2016-03-23 Lynn Garren : lardata v05_03_00 for larsoft v05_05_00
+-   2016-03-22 Lynn Garren : Merge branch ‘feature/ss-refactoring’ into release/v05_05_00
+-   2016-03-22 Wesley Ketchum : Merge branch ‘feature/wketchum_CosmicTagIsolation’ into feature/wketchum_CosmicTagIsolation_v5
+-   2016-03-21 Wesley Ketchum : Merge tag ‘LARSOFT_SUITE_v04_36_00’ into HEAD
 -   2016-03-21 Wesley Ketchum : add not isolated option for tag
 -   2016-03-11 Saba Sehirsh : Merge branch ‘develop’ into feature/ss-refactoring
 -   2016-02-27 Saba Sehirsh : Merge branch ‘develop’ into feature/ss-refactoring
@@ -219,18 +219,18 @@ lardata v05\_03\_00
 -   2016-02-02 Saba Sehirsh : Merge branch ‘develop’ into feature/feature/ss-recolearn
 -   2016-01-13 Saba Sehirsh : added a virtual method fill to the base class and added override to the derived
 
-larcore v05\_00\_02
+larcore v05_00_02
 ------------------------------------------
 
-larbatch v01\_20\_07
+larbatch v01_20_07
 --------------------------------------------
 
--   2016-03-23 Lynn Garren : larbatch v01\_20\_07 for larsoft v05\_05\_00
+-   2016-03-23 Lynn Garren : larbatch v01_20_07 for larsoft v05_05_00
 -   2016-03-21 Herbert Greenlee : Override EmptyEvent run number in wrapper.fcl.
--   2016-03-18 Herbert Greenlee : Add function batch\_status\_check.
+-   2016-03-18 Herbert Greenlee : Add function batch_status_check.
 
-larutils v1\_05\_05
+larutils v1_05_05
 ------------------------------------------
 
--   2016-03-23 Lynn Garren : larutils v1\_05\_05 for larsoft v05\_05\_00
+-   2016-03-23 Lynn Garren : larutils v1_05_05 for larsoft v05_05_00
 -   2016-03-23 Lynn Garren : update nu version for build

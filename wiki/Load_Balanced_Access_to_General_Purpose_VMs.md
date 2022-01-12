@@ -19,4 +19,4 @@ Then repeat for the other load balancing LArSoft interactive VMs. (e.g. argoneut
 
 The options may be slightly different depending on your OpenSSH client.
 
-As an alternative to the above method, you can also manually modify your \~/.ssh/known\_hosts file to have several entries for uboonevm.fnal.gov. You would accomplish this by explicitly logging into uboonegpvm01, 02, and 03, and in each case confirming that OpenSSH should commit the RSA key fingerprint to the known\_hosts file. Then edit the known\_hosts file, changing the hostnames from uboonegpvmXX.fnal.gov to uboonevm.fnal.gov.
+As an alternative to the above method, you can also manually modify your \~/.ssh/known_hosts file to have several entries for uboonevm.fnal.gov. You would accomplish this by explicitly logging into uboonegpvm01, 02, and 03, and in each case confirming that OpenSSH should commit the RSA key fingerprint to the known_hosts file. Then edit the known_hosts file, changing the hostnames from uboonegpvmXX.fnal.gov to uboonevm.fnal.gov.

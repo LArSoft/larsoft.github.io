@@ -14,7 +14,7 @@ Move to v05
         -   [Lessons learned (ongoing)](#Lessons-learned-ongoing)
         -   [Known shortcomings of the replacement script (larsoft/bin/UpdateCoreServices.py)](#Known-shortcomings-of-the-replacement-script-larsoftbinUpdateCoreServicespy)
 
-v05\_00\_00 is a major change
+v05_00_00 is a major change
 
 Pass 1 - refactor
 --------------------------------------
@@ -28,28 +28,28 @@ Pass 1 - refactor
 
 ### user scripts
 
--   update\_sources.sh
+-   update_sources.sh
     -   found in larsoft
     -   manages the header and library name changes
 
 ### known issues
 
--   argoneutcode geometry\_iterator\_loop\_argoneut\_test
-    -   This test uses geometry\_microboone.fcl, which is found in uboonecode
+-   argoneutcode geometry_iterator_loop_argoneut_test
+    -   This test uses geometry_microboone.fcl, which is found in uboonecode
     -   The test passes only if you build and test argoneutcode and uboonecode at the same time.
 
 ### branches and tags
 
 -   larcore larevt larpandora larsoft larana lardata larexamples larreco lareventdisplay larsim
-    -   v05\_00\_00 tag
-    -   branch v05\_00\_branch
+    -   v05_00_00 tag
+    -   branch v05_00_branch
 -   argoneutcode dunetpc lariatsoft uboonecode lar1ndcode
-    -   branch v05\_00\_branch
+    -   branch v05_00_branch
 
 Pass 2 - Core Service changes
 --------------------------------------------------------------
 
-Now merge v05\_00\_00\_rc with v05\_00\_branch.
+Now merge v05_00_00_rc with v05_00_branch.
 Requires careful checking.
 
 Summary of the branches:
@@ -61,7 +61,7 @@ Summary of the branches:
 |`v05_00_refactor`|based on `v05_00_branch`|has a bad name; and will have core service changes|
 
 This pass 2 is about creating the branch `v05_00_refactor`.
-Once created, the v05\_00\_refactor branch was merged with v05\_00\_branch and removed.
+Once created, the v05_00_refactor branch was merged with v05_00_branch and removed.
 
 ### Basic steps
 

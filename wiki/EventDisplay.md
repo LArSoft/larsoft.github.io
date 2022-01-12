@@ -34,7 +34,7 @@ The event display is called using the lar executable and requires a job control 
 
     % lar -c job/evd_XXX.fcl file.root
 
-Here the \_XXX can be either t962 (for ArgoNeuT), ub (for MicroBooNE), or lbne (for LBNE).
+Here the _XXX can be either t962 (for ArgoNeuT), ub (for MicroBooNE), or lbne (for LBNE).
 
 **NB** The MicroBooNE and LBNE versions are identical for the time being to reflect the fact that the full simulation chain cannot yet be run for LBNE.
 
@@ -93,7 +93,7 @@ Configuration
 
 ### Job Configuration
 
-The event display is currently implemented as an EDAnalyzer module. To run it, you need to specify a configuration file. The default job configuration to run the event dispaly is [source:trunk/EventDisplay/evd.fcl](/redmine/projects/larsoft/repository/entry/trunk/EventDisplay/evd.fcl). It produces and event display for ArgoNeuT. Experiments are welcome to create and commit their own default versions with appropriate names, ie evd\_lbne.fcl and evd\_ub.fcl.
+The event display is currently implemented as an EDAnalyzer module. To run it, you need to specify a configuration file. The default job configuration to run the event dispaly is [source:trunk/EventDisplay/evd.fcl](/redmine/projects/larsoft/repository/entry/trunk/EventDisplay/evd.fcl). It produces and event display for ArgoNeuT. Experiments are welcome to create and commit their own default versions with appropriate names, ie evd_lbne.fcl and evd_ub.fcl.
 
     #include "job/evdservices.fcl" 
     #include "job/services.fcl" 

@@ -17,7 +17,7 @@ The LArSoft release manager will make the larsoft patch branches and do the hous
 
 ### Make branches for the release
 
--   If a release is named vaa\_bb\_cc, branches will be created for the larsoft/larsoftobj suite with the name vaa\_bb\_cc\_br.
+-   If a release is named vaa_bb_cc, branches will be created for the larsoft/larsoftobj suite with the name vaa_bb_cc_br.
 
         (setup the latest larreltools)
         setup mrb
@@ -38,7 +38,7 @@ The LArSoft release manager will make the larsoft patch branches and do the hous
 
 ### Housecleaning
 
--   cd \$MRB\_SOURCE/larsoft/releaseDB
+-   cd \$MRB_SOURCE/larsoft/releaseDB
 -   Make sure that larutils, larbatch, and mrb are removed from the cfg scripts.
     -   We might streamline this by creating a small “larsoft extras” distribution that can be optionally included.
 -   commit and push the change

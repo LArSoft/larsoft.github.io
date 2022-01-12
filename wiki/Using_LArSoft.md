@@ -7,7 +7,7 @@
     -   [Using HPC with LArSoft](#Using-HPC-with-LArSoft)
 -   [How-to](#How-to)
 
--   [Quick\_Links](Quick_Links) \* [Concepts in LArSoft](http://larsoft.org/important-concepts-in-larsoft/)
+-   [Quick_Links](Quick_Links) \* [Concepts in LArSoft](http://larsoft.org/important-concepts-in-larsoft/)
 
 Preliminaries
 ================================
@@ -48,7 +48,7 @@ First-time, or infrequent, users will be well-served to go through the following
 Information on GitHub and pull request testing
 --------------------------------------------------------------------------------------------------
 
-Start by reviewing the information on [the overview page for using LArSoft with GitHub](Working_with_GitHub). The GitHub repositories are available. Contact your experiment offline management to identify acting Level 2 managers. Send any comments to , or via Redmine issues.
+Start by reviewing the information on [the overview page for using LArSoft with GitHub](Working_with_Github). The GitHub repositories are available. Contact your experiment offline management to identify acting Level 2 managers. Send any comments to , or via Redmine issues.
 
 Some hints
 --------------------------
@@ -58,7 +58,7 @@ Some hints
 -   [Reproducing jobs using the same random number sequences](Reproducing_jobs_using_the_same_random_number_sequences)
 -   [Rerunning a job starting from its output](Rerunning_a_job_starting_from_its_output)
 -   About [fast cloning](Fast_cloning)
--   [Working With LArSoft GitHub Repositories](Working_with_GitHub)
+-   [Working With LArSoft GitHub Repositories](Working_with_Github)
 
 Documentation
 ================================

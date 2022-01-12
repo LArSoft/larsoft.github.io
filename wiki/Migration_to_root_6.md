@@ -4,18 +4,18 @@ Migration to root 6
 -   **Table of contents**
 -   [Migration to root 6](#Migration-to-root-6)
 -   [Release Candidates rc4, rc5, and rc6](#Release-Candidates-rc4-rc5-and-rc6)
-    -   [v06\_00\_00\_rc5 is in sync with larsoft v05\_13\_00](#v06_00_00_rc5-is-in-sync-with-larsoft-v05_13_00)
+    -   [v06_00_00_rc5 is in sync with larsoft v05_13_00](#v06_00_00_rc5-is-in-sync-with-larsoft-v05_13_00)
     -   [Guide to new products](#Guide-to-new-products)
 -   [Release Candidates rc1, rc2, and rc3](#Release-Candidates-rc1-rc2-and-rc3)
-    -   [v06\_00\_00\_rc3 is in sync with larsoft v05\_11\_01](#v06_00_00_rc3-is-in-sync-with-larsoft-v05_11_01)
-    -   [v06\_00\_00\_rc2 is in sync with larsoft v05\_10\_00](#v06_00_00_rc2-is-in-sync-with-larsoft-v05_10_00)
-    -   [v06\_00\_00\_rc1 is in sync with larsoft v05\_08\_00](#v06_00_00_rc1-is-in-sync-with-larsoft-v05_08_00)
+    -   [v06_00_00_rc3 is in sync with larsoft v05_11_01](#v06_00_00_rc3-is-in-sync-with-larsoft-v05_11_01)
+    -   [v06_00_00_rc2 is in sync with larsoft v05_10_00](#v06_00_00_rc2-is-in-sync-with-larsoft-v05_10_00)
+    -   [v06_00_00_rc1 is in sync with larsoft v05_08_00](#v06_00_00_rc1-is-in-sync-with-larsoft-v05_08_00)
 -   [Known issues and changes](#Known-issues-and-changes)
     -   [gdml breaking change](#gdml-breaking-change)
         -   [units](#units)
     -   [fast cloning](#fast-cloning)
     -   [root dictionaries](#root-dictionaries)
-        -   [ROOT\_INCLUDE\_PATH](#ROOT_INCLUDE_PATH)
+        -   [ROOT_INCLUDE_PATH](#ROOT_INCLUDE_PATH)
         -   [enums](#enums)
         -   [art::Assns \#12247](#artAssns-12247)
         -   [template instantiations](#template-instantiations)
@@ -24,7 +24,7 @@ Migration to root 6
 -   [Migration tools](#Migration-tools)
     -   [RemoveMathFromGDML.py](#RemoveMathFromGDMLpy)
         -   [verification of RemoveMathFromGDML.py](#verification-of-RemoveMathFromGDMLpy)
-    -   [check\_dictionaries.sh](#check_dictionariessh)
+    -   [check_dictionaries.sh](#check_dictionariessh)
     -   [DealWithGaus.sh](#DealWithGaussh)
     -   [UpdateToLArSoftObj.sh](#UpdateToLArSoftObjsh)
 -   [Problems not yet resolved](#Problems-not-yet-resolved)
@@ -32,12 +32,12 @@ Migration to root 6
 Release Candidates rc4, rc5, and rc6
 ============================================================================
 
--   Release candidate v06\_00\_00\_rc4 builds on the previous candidates, but moves ahead to art [2.00.02](/redmine/versions/1003)
+-   Release candidate v06_00_00_rc4 builds on the previous candidates, but moves ahead to art [2.00.02](/redmine/versions/1003)
     -   A memory leak was identified and fixed in root 6. rc5 and rc6 use art [2.00.03](/redmine/versions/1031)
--   Because this release candidate has more refactoring, it is on the v06\_00\_00\_art2 branch.
+-   Because this release candidate has more refactoring, it is on the v06_00_00_art2 branch.
 -   Changes are provided for the the experiment code, but users may need to run [UpdateToLArSoftObj.sh](#UpdateToLArSoftObjsh)
 
-v06\_00\_00\_rc5 is in sync with larsoft v05\_13\_00
+v06_00_00_rc5 is in sync with larsoft v05_13_00
 ---------------------------------------------------------------------------------------------------------
 
 Guide to new products
@@ -56,7 +56,7 @@ Several products have been split into separate parts. The new products make a su
 Release Candidates rc1, rc2, and rc3
 ============================================================================
 
-Code for building with root 6 and art v1\_18\_05 will be found in the v06\_00\_00\_rc branch of the following repositories. Release candidate tags will only be made for the larsoft repositories.
+Code for building with root 6 and art v1_18_05 will be found in the v06_00_00_rc branch of the following repositories. Release candidate tags will only be made for the larsoft repositories.
 
 -   argoneutcode
 -   dunetpc
@@ -76,13 +76,13 @@ Code for building with root 6 and art v1\_18\_05 will be found in the v06\_00\_0
 -   uboonecode
 -   ubutil
 
-v06\_00\_00\_rc3 is in sync with larsoft v05\_11\_01
+v06_00_00_rc3 is in sync with larsoft v05_11_01
 ---------------------------------------------------------------------------------------------------------
 
-v06\_00\_00\_rc2 is in sync with larsoft v05\_10\_00
+v06_00_00_rc2 is in sync with larsoft v05_10_00
 ---------------------------------------------------------------------------------------------------------
 
-v06\_00\_00\_rc1 is in sync with larsoft v05\_08\_00
+v06_00_00_rc1 is in sync with larsoft v05_08_00
 ---------------------------------------------------------------------------------------------------------
 
 Known issues and changes
@@ -125,11 +125,11 @@ fast cloning
 root dictionaries
 ----------------------------------------
 
-### ROOT\_INCLUDE\_PATH
+### ROOT_INCLUDE_PATH
 
--   Root 6 needs to find all classes and enums defined by included headers at runtime. This is handled by defining ROOT\_INCLUDE\_PATH.
--   cetbuildtools v4\_19\_04 or later is required.
--   For the time being, larcore sets ROOT\_INCLUDE\_PATH to include art, fhicl, cetlib, and boost.
+-   Root 6 needs to find all classes and enums defined by included headers at runtime. This is handled by defining ROOT_INCLUDE_PATH.
+-   cetbuildtools v4_19_04 or later is required.
+-   For the time being, larcore sets ROOT_INCLUDE_PATH to include art, fhicl, cetlib, and boost.
 
 ### enums
 
@@ -166,7 +166,7 @@ root dictionaries
 -   Unfortunately, this problem is not spotted during dictionary generation and will result in a segfault.
 -   There will be a fix in art 1.19.00 to report the error as early as possible.
 -   We must make sure that both definitions are included in the xml files.
-    -   see check\_dictionaries.sh in the tools section
+    -   see check_dictionaries.sh in the tools section
 
 ### template instantiations
 
@@ -219,7 +219,7 @@ Migration tools
 RemoveMathFromGDML.py
 -----------------------------------------------
 
-This script is in larsoft. RemoveMathFromGDML.py uses root 5 to translate expressions and must be run with root 5.34.32. You must setup an appropriate larsoft v05\_xx\_yy release.
+This script is in larsoft. RemoveMathFromGDML.py uses root 5 to translate expressions and must be run with root 5.34.32. You must setup an appropriate larsoft v05_xx_yy release.
 
     setup larsoft v05_09_00 or later
     cd to the gdml directory
@@ -229,10 +229,10 @@ This script is in larsoft. RemoveMathFromGDML.py uses root 5 to translate expres
 ### verification of RemoveMathFromGDML.py
 
 -   The redmine project [parsegdml](/redmine/projects/parsegdml/wiki) uses root 5 to read a gdml file and export the parsed file.
-    -   xxx.gdml is exported as xxx\_reparsed.gdml
-    -   note that xxx\_reparsed.gdml is not very readable
+    -   xxx.gdml is exported as xxx_reparsed.gdml
+    -   note that xxx_reparsed.gdml is not very readable
 -   Verification process
-    -   Run parsegdml on the gdml files in develop and in the v06\_00\_00\_rc branch
+    -   Run parsegdml on the gdml files in develop and in the v06_00_00_rc branch
     -   compare the output of parsegdml
 -   Results
     -   larcore/larcore/Geometry/gdml - OK
@@ -240,7 +240,7 @@ This script is in larsoft. RemoveMathFromGDML.py uses root 5 to translate expres
     -   lariatsoft/Geo/gdml - OK
     -   uboonecode/uboone/Geometry/gdml - OK
 
-check\_dictionaries.sh
+check_dictionaries.sh
 ------------------------------------------------
 
     USAGE: check_dictionaries.sh [-h] <directory>

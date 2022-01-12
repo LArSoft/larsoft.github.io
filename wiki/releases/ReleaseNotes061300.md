@@ -1,28 +1,28 @@
-LArSoft v06\_13\_00 Release Notes
+LArSoft v06_13_00 Release Notes
 ======================================================================
 
 -   **Table of contents**
--   [LArSoft v06\_13\_00 Release Notes](#LArSoft-v06_13_00-Release-Notes)
+-   [LArSoft v06_13_00 Release Notes](#LArSoft-v06_13_00-Release-Notes)
     -   [Purpose](#Purpose)
     -   [New features](#New-features)
     -   [Breaking Changes](#Breaking-Changes)
     -   [Updated dependencies](#Updated-dependencies)
 -   [Change List](#Change-List)
-    -   [larsoft v06\_13\_00](#larsoft-v06_13_00)
-    -   [lareventdisplay v06\_01\_10](#lareventdisplay-v06_01_10)
-    -   [larexamples v06\_01\_00](#larexamples-v06_01_00)
-    -   [larpandora v06\_02\_01](#larpandora-v06_02_01)
-    -   [larana v06\_03\_02](#larana-v06_03_02)
-    -   [larreco v06\_09\_01](#larreco-v06_09_01)
-    -   [larsim v06\_05\_02](#larsim-v06_05_02)
-    -   [larevt v06\_05\_00](#larevt-v06_05_00)
-    -   [lardata v06\_08\_00](#lardata-v06_08_00)
-    -   [larcore v06\_03\_01](#larcore-v06_03_01)
-    -   [larsoftobj v1\_08\_01](#larsoftobj-v1_08_01)
-    -   [lardataobj v1\_07\_02](#lardataobj-v1_07_02)
-    -   [larcoreobj v1\_06\_01](#larcoreobj-v1_06_01)
-    -   [larbatch v01\_23\_07](#larbatch-v01_23_07)
-    -   [larutils v1\_10\_01](#larutils-v1_10_01)
+    -   [larsoft v06_13_00](#larsoft-v06_13_00)
+    -   [lareventdisplay v06_01_10](#lareventdisplay-v06_01_10)
+    -   [larexamples v06_01_00](#larexamples-v06_01_00)
+    -   [larpandora v06_02_01](#larpandora-v06_02_01)
+    -   [larana v06_03_02](#larana-v06_03_02)
+    -   [larreco v06_09_01](#larreco-v06_09_01)
+    -   [larsim v06_05_02](#larsim-v06_05_02)
+    -   [larevt v06_05_00](#larevt-v06_05_00)
+    -   [lardata v06_08_00](#lardata-v06_08_00)
+    -   [larcore v06_03_01](#larcore-v06_03_01)
+    -   [larsoftobj v1_08_01](#larsoftobj-v1_08_01)
+    -   [lardataobj v1_07_02](#lardataobj-v1_07_02)
+    -   [larcoreobj v1_06_01](#larcoreobj-v1_06_01)
+    -   [larbatch v01_23_07](#larbatch-v01_23_07)
+    -   [larutils v1_10_01](#larutils-v1_10_01)
 
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions for larsoft](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_13_00/larsoft-v06_13_00.html)
@@ -42,12 +42,12 @@ New features
     -   Herb MixFilter feature request [\#13766](/redmine/issues/13766 "Feature: MixFilter should share EventAuxiliary information from mixed events with detail class. (Closed)")
     -   artmod is explicitly deprecated [\#13654](/redmine/issues/13654 "Bug: artmod for analyzer prints "art/Utilities/InputTag.h" instead of "canvas/Utilities/InputTag.h" (Closed)")
     -   deprecated [art features](/redmine/projects/art/wiki/Wiki#Deprecations) have been removed
-    -   feature/lg\_for\_art\_v2\_05\_00 provided for argoneutcode, dunetpc, lariatsoft, and uboonecode
+    -   feature/lg_for_art_v2_05_00 provided for argoneutcode, dunetpc, lariatsoft, and uboonecode
 -   larevt
     -   general service+provider for pmt gain calibration information
 -   tests moved from lardata to argoneutcode
-    -   LArPropertiesServiceArgoNeuT\_test and DetectorPropertiesServiceArgoNeuT
-    -   see feature/lg\_for\_art\_v2\_05\_00 for argoneutcode
+    -   LArPropertiesServiceArgoNeuT_test and DetectorPropertiesServiceArgoNeuT
+    -   see feature/lg_for_art_v2_05_00 for argoneutcode
 
 Breaking Changes
 --------------------------------------
@@ -57,137 +57,137 @@ Breaking Changes
     -   Timing -\> TimeTracker
     -   SimpleMemoryCheck -\> MemoryTracker
     -   services.user.MyService: -\> services.MyService:
-        -   Please use RemoveUserFromServiceConfig.py (available since larsoft v06\_04\_00) for user code
+        -   Please use RemoveUserFromServiceConfig.py (available since larsoft v06_04_00) for user code
 
 Updated dependencies
 ----------------------------------------------
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2\_06\_02|e10|[NuTools\_Release\_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_02)|
-|nusimdata|v1\_06\_01|e10||
-|ifdh\_art|v2\_00\_01|e10:nu:s43||
-|artdaq\_core|v1\_05\_08|e10:nu:s43||
-|art|v2\_05\_00|e10:nu|[Release Notes 2.05.00](/redmine/projects/art/wiki/Release_Notes_20500)|
-|canvas|v1\_05\_01|e10:nu||
-|cetpkgsupport|v1\_11\_00|||
-|git|v2\_10\_0|||
-|gitflow|v1\_10\_1|||
-|mrb|v1\_08\_03|||
+|nutools|v2_06_02|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_02)|
+|nusimdata|v1_06_01|e10||
+|ifdh_art|v2_00_01|e10:nu:s43||
+|artdaq_core|v1_05_08|e10:nu:s43||
+|art|v2_05_00|e10:nu|[Release Notes 2.05.00](/redmine/projects/art/wiki/Release_Notes_20500)|
+|canvas|v1_05_01|e10:nu||
+|cetpkgsupport|v1_11_00|||
+|git|v2_10_0|||
+|gitflow|v1_10_1|||
+|mrb|v1_08_03|||
 
 Change List
 ============================
 
-larsoft v06\_13\_00
+larsoft v06_13_00
 ------------------------------------------
 
--   2016-10-26 Lynn Garren : larsoft v06\_13\_00 for larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : larsoft v06_13_00 for larsoft v06_13_00
 -   2016-10-26 Lynn Garren : update product versions
 -   2016-10-25 Lynn Garren : updating html files
 -   2016-10-25 Lynn Garren : adding larsoftobj.html.in
--   2016-10-24 Lynn Garren : updating for art v2\_05\_00 and nutools v2\_06\_02
+-   2016-10-24 Lynn Garren : updating for art v2_05_00 and nutools v2_06_02
 
-lareventdisplay v06\_01\_10
+lareventdisplay v06_01_10
 ----------------------------------------------------------
 
--   2016-10-26 Lynn Garren : lareventdisplay v06\_01\_10 for larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : lareventdisplay v06_01_10 for larsoft v06_13_00
 -   2016-10-24 Lynn Garren : replace Timing: with TimeTracker:
 -   2016-10-21 Lynn Garren : run larsoft/bin/RemoveUserFromServiceConfig.py
 
-larexamples v06\_01\_00
+larexamples v06_01_00
 --------------------------------------------------
 
--   2016-10-26 Lynn Garren : larexamples v06\_01\_00 for larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : larexamples v06_01_00 for larsoft v06_13_00
 -   2016-10-20 Gianluca Petrillo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larexamples into develop
 -   2016-10-20 Gianluca Petrillo : Added a doxygen introduction page to the examples.
 
-larpandora v06\_02\_01
+larpandora v06_02_01
 ------------------------------------------------
 
--   2016-10-26 Lynn Garren : larpandora v06\_02\_01 for larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : larpandora v06_02_01 for larsoft v06_13_00
 -   2016-10-21 Lynn Garren : run larsoft/bin/RemoveUserFromServiceConfig.py
 
-larana v06\_03\_02
+larana v06_03_02
 ----------------------------------------
 
--   2016-10-26 Lynn Garren : larana v06\_03\_02 for larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : larana v06_03_02 for larsoft v06_13_00
 -   2016-10-21 Lynn Garren : replace Timing and SimpleMemoryCheck with TimeTracker and MemoryTracker
 -   2016-10-21 Lynn Garren : run larsoft/bin/RemoveUserFromServiceConfig.py
 
-larreco v06\_09\_01
+larreco v06_09_01
 ------------------------------------------
 
--   2016-10-26 Lynn Garren : larreco v06\_09\_01 for larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : larreco v06_09_01 for larsoft v06_13_00
 -   2016-10-24 Lynn Garren : replace Timing and SimpleMemoryCheck with TimeTracker and MemoryTracker
--   2016-10-21 Lynn Garren : using nutools v2\_06\_02
+-   2016-10-21 Lynn Garren : using nutools v2_06_02
 -   2016-10-21 Lynn Garren : run larsoft/bin/RemoveUserFromServiceConfig.py
 -   2016-10-19 Lynn Garren : fix typo for doxgen end of group
 -   2016-10-19 Lynn Garren : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
--   2016-10-18 Lynn Garren : Merge branch ‘feature/tjyang\_lifetimedb’ into develop
+-   2016-10-18 Lynn Garren : Merge branch ‘feature/tjyang_lifetimedb’ into develop
 
-larsim v06\_05\_02
+larsim v06_05_02
 ----------------------------------------
 
--   2016-10-26 Lynn Garren : larsim v06\_05\_02 for larsoft v06\_13\_00
--   2016-10-26 Lynn Garren : Merge branch ‘feature/lg\_for\_art\_v2\_05\_00’ into release/v06\_13\_00
+-   2016-10-26 Lynn Garren : larsim v06_05_02 for larsoft v06_13_00
+-   2016-10-26 Lynn Garren : Merge branch ‘feature/lg_for_art_v2_05_00’ into release/v06_13_00
 -   2016-10-21 Lynn Garren : replace Timing and SimpleMemoryCheck with TimeTracker and MemoryTracker
 -   2016-10-21 Lynn Garren : run larsoft/bin/RemoveUserFromServiceConfig.py
--   2016-10-21 Bruce Baller : Merge branch ‘feature/bb\_MCCheaterFix’ into develop
+-   2016-10-21 Bruce Baller : Merge branch ‘feature/bb_MCCheaterFix’ into develop
 -   2016-10-20 Bruce Baller : Change name of ChannelToTrackID to ChannelToTrackIDEs for clarity.
 -   2016-10-20 Bruce Baller : Change name of ChannelToTrackID to ChannelToTrackIDEs for clarity.
 
-larevt v06\_05\_00
+larevt v06_05_00
 ----------------------------------------
 
--   2016-10-26 Lynn Garren : larevt v06\_05\_00 for larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : larevt v06_05_00 for larsoft v06_13_00
 -   2016-10-24 Lynn Garren : replace Timing: with TimeTracker:
 -   2016-10-21 Lynn Garren : run larsoft/bin/RemoveUserFromServiceConfig.py
--   2016-10-20 Brandon Eberly : Merge remote-tracking branch ‘origin/feature/eberly\_PmtGainDBI’ into develop
+-   2016-10-20 Brandon Eberly : Merge remote-tracking branch ‘origin/feature/eberly_PmtGainDBI’ into develop
 -   2016-10-18 Brandon Eberly : Update PmtGain retrieval framework to include access to an ExtraData object that stores experiment dependent information related to the calibration technique
 -   2016-10-17 Brandon Eberly : Moved files to new larevt subdirectory
--   2016-10-14 Brandon Eberly : Merge branch ‘develop’ into feature/eberly\_PmtGainDBI
+-   2016-10-14 Brandon Eberly : Merge branch ‘develop’ into feature/eberly_PmtGainDBI
 -   2015-08-31 Brandon Eberly : PMT gain retrieval service interface and SIOV implementation
 
-lardata v06\_08\_00
+lardata v06_08_00
 ------------------------------------------
 
--   2016-10-26 Lynn Garren : lardata v06\_08\_00 for larsoft v06\_13\_00
--   2016-10-26 Lynn Garren : Merge branch ‘feature/lg\_for\_art\_v2\_05\_00’ into release/v06\_13\_00
--   2016-10-26 Lynn Garren : using nutools v2\_06\_02
--   2016-10-26 Lynn Garren : moving DetectorPropertiesServiceArgoNeuT\_test and LArPropertiesServiceArgoNeuT\_test out of lardata
--   2016-10-24 Lynn Garren : use lardataobj v1\_07\_02
+-   2016-10-26 Lynn Garren : lardata v06_08_00 for larsoft v06_13_00
+-   2016-10-26 Lynn Garren : Merge branch ‘feature/lg_for_art_v2_05_00’ into release/v06_13_00
+-   2016-10-26 Lynn Garren : using nutools v2_06_02
+-   2016-10-26 Lynn Garren : moving DetectorPropertiesServiceArgoNeuT_test and LArPropertiesServiceArgoNeuT_test out of lardata
+-   2016-10-24 Lynn Garren : use lardataobj v1_07_02
 -   2016-10-24 Lynn Garren : replace Timing: with TimeTracker:
 -   2016-10-22 Tingjun Yang : Throw if no password is found.
--   2016-10-22 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/gp\_Issue14013’ into develop
--   2016-10-21 Lynn Garren : using nutools v2\_06\_02
+-   2016-10-22 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/gp_Issue14013’ into develop
+-   2016-10-21 Lynn Garren : using nutools v2_06_02
 -   2016-10-21 Lynn Garren : run larsoft/bin/RemoveUserFromServiceConfig.py
 -   2016-10-03 Gianluca Petrillo : DatabaseUtil now loudly reacts to the absence of password file.
 
-larcore v06\_03\_01
+larcore v06_03_01
 ------------------------------------------
 
--   2016-10-26 Lynn Garren : larcore v06\_03\_01 for larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : larcore v06_03_01 for larsoft v06_13_00
 
-larsoftobj v1\_08\_01
+larsoftobj v1_08_01
 ----------------------------------------------
 
--   2016-10-24 Lynn Garren : larsoftobj v1\_08\_01 for larsoft v1\_08\_01
+-   2016-10-24 Lynn Garren : larsoftobj v1_08_01 for larsoft v1_08_01
 
-lardataobj v1\_07\_02
+lardataobj v1_07_02
 ----------------------------------------------
 
--   2016-10-24 Lynn Garren : lardataobj v1\_07\_02 for larsoft v1\_08\_01
+-   2016-10-24 Lynn Garren : lardataobj v1_07_02 for larsoft v1_08_01
 
-larcoreobj v1\_06\_01
+larcoreobj v1_06_01
 ----------------------------------------------
 
--   2016-10-24 Lynn Garren : larcoreobj v1\_06\_01 for larsoft v1\_08\_01
+-   2016-10-24 Lynn Garren : larcoreobj v1_06_01 for larsoft v1_08_01
 
-larbatch v01\_23\_07
+larbatch v01_23_07
 --------------------------------------------
 
-larutils v1\_10\_01
+larutils v1_10_01
 ------------------------------------------
 
--   2016-10-26 Lynn Garren : larutils v1\_10\_01 for larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : larutils v1_10_01 for larsoft v06_13_00
 -   2016-10-26 Lynn Garren : add s43:e10
