@@ -183,7 +183,7 @@ Making a patch release
         -   This script will create a subdirectory named tag under the working\_directory and generate a text file.
     -   cd into the newly created tag directory
     -   cat ReleaseNotes-vaa\_bb\_cc\_dd
-        -   The first line of this output is a table file entry. Cut and paste into the top of the [release list](LArSoft_release_list)
+        -   The first line of this output is a table file entry. Cut and paste into the top of the [release list](releases/LArSoft_release_list)
         -   The remainder of the output is used to create the release note itself.
             -   Cut and past everything from “h1. LArSoft …” to the bottom of the file into the empty release note entry.
             -   Edit the information in part as appropriate.

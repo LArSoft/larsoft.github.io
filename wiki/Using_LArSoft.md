@@ -25,7 +25,7 @@ First-time, or infrequent, users will be well-served to go through the following
 1.  Start by reading [Concepts in LArSoft](https://larsoft.org/important-concepts-in-larsoft/), the [training material at larsoft.org](http://larsoft.org/training) and other information available at [larsoft.org](http://larsoft.org)
     -   Also look at your experiment’s [Experiment-specific information](Quick_Links).
 
-2.  Choose the correct release from the [List of LArSoft Releases and Release Notes](LArSoft_release_list).
+2.  Choose the correct release from the [List of LArSoft Releases and Release Notes](releases/LArSoft_release_list).
     -   If you can use a tagged release as is (aside from fcl files which can be modified and used from any directory), you can now run LArSoft.
     -   If you need to modify the code locally, or use code not yet in a tagged release, then additional steps (below) are required.
 

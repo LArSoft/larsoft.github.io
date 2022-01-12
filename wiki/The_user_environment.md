@@ -28,7 +28,7 @@ Just as for the case of the LArSoft core repositories, the list of versions and 
 
     ups list -aK+ <dunetpc | uboonecode>
 
-or by looking at the [table of releases on the LArSoft wiki](LArSoft_release_list).
+or by looking at the [table of releases on the LArSoft wiki](releases/LArSoft_release_list).
 
 The experiment software depends upon the core LArSoft packages, so setting up either will also set up the appropriate version of larsoft, which in turn will set up all the larsoft sub-products. For DUNE and uBooNE users, the single
 

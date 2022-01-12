@@ -12,7 +12,7 @@ Quick Start Guides - experiment specific
 -   [ICARUS](https://cdcvs.fnal.gov/redmine/projects/icaruscode/wiki/The_ICARUS_Guide_to_using_LArSoft)
 -   [LArSoft General Quick Start Guide](Quick-start_guide_to_using_and_developing_LArSoft_code) (For new experiments to use as a base for developing a guide.)
 
-[List of LArSoft releases](LArSoft_release_list)
+[List of LArSoft releases](releases/LArSoft_release_list)
 
 [List of supported platforms](Supported_platforms)
 

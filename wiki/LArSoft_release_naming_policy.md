@@ -30,7 +30,7 @@ Release retention policies
     -   Nightly
 
 -   Retention policy for production releases
-    -   Production releases will announced as such to the LArSoft community and identified on the [LArSoft release list](LArSoft_release_list) page.
+    -   Production releases will announced as such to the LArSoft community and identified on the [LArSoft release list](releases/LArSoft_release_list) page.
         -   The determination of what releases qualify as “production” will be made by the experiments.
         -   The affirmation of a single experiment is sufficient to declare a release as “production”.
     -   Production releases will be retained indefinitely.

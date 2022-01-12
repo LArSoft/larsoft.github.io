@@ -131,7 +131,7 @@ This is the scenario:
 
 Following the guide above may very well be all you need to do: you’ll get to work with the latest LArSoft (`v07_09_00`) and with an `sbndcode` that is the latest available (`develop` based officially on LArSoft `v07_08_00`), tweaked to work with the latest LArSoft.
 But if there are [breaking changes](Breaking_changes) of any type between LArSift `v07_08_00` and `v07_09_00`, it might not work!
-If the breaking changes pertain directly your code, you’d better bite it and fix them now following the [release notes](LArSoft_release_list) and the [breaking changes](Breaking_changes) instructions.
+If the breaking changes pertain directly your code, you’d better bite it and fix them now following the [release notes](releases/LArSoft_release_list) and the [breaking changes](Breaking_changes) instructions.
 If instead the issues are not in your code, you may either fix the repository code (that is, the whole `sbndcode`) for your collaboration, and make the fix available to your release manager as a feature branch (not including your personal code changed); or let the collaboration take care of that.
 If you opt for the latter, in the meanwhile you need to:
 

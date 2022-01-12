@@ -8,7 +8,7 @@ Installation Procedures
 
 -   [Supported Platforms](_Supported_Platforms_)
 -   [installing a LArSoft release](Installation_procedures)
--   [list of LArSoft releases](LArSoft_release_list)
+-   [list of LArSoft releases](releases/LArSoft_release_list)
 -   [LArSoft release naming and retention policy](LArSoft_release_naming_policy)
 
 LArSoft cvmfs

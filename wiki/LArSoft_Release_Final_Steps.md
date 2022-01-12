@@ -34,7 +34,7 @@ Update the release notes
 -   the script will create a \<new tag\> subdirectory under \<working\_directory\>, checkout the larsoft suite there, and run git log
 -   note that make-release-notes uses the cross package tag
 
--   the first line in ReleaseNotes-\<version\> is the entry for the [Release Notes table](LArSoft_release_list)
+-   the first line in ReleaseNotes-\<version\> is the entry for the [Release Notes table](releases/LArSoft_release_list)
 -   the remainder of the file is used to populate the release note itself
 
 Update doxygen

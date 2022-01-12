@@ -249,7 +249,7 @@ Building
 ### Using the build system
 
 -   **[Look for experiment specific guides to using and developing LArSoft code](Quick_Links)**
--   Choose the correct release from the [List of LArSoft Releases and Release Notes](LArSoft_release_list).
+-   Choose the correct release from the [List of LArSoft Releases and Release Notes](releases/LArSoft_release_list).
 -   [What to do when there is a new release](UpdatingToNewRelease) (a.k.a. **[update LArSoft version](UpdatingToNewRelease)**)
 
 To get write access to the repositories, speak to the offline coordinator for your experiment. If you have a question, send email to .
