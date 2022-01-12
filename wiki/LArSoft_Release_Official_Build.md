@@ -13,7 +13,7 @@ LArSoft Release Official Build
 Platforms
 ------------------------
 
-See the [Supported Platform](_Supported_platforms_) list for full details.
+See the [Supported Platform](Supported_platforms) list for full details.
 
 Builds:
 

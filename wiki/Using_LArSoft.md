@@ -14,7 +14,7 @@ Preliminaries
 
 -   Fermilab computing accounts: see [the process to request access to Fermilab](https://get-connected.fnal.gov/faq/#SABprocess) and [Fermilab computing access](Fermilab_computing_access).
 -   See [Load Balanced Access to General Purpose VMs](Load_Balanced_Access_to_General_Purpose_VMs) for information on accessing experiment VMs at Fermilab (e.g., lbnegpvm0X, uboonegpvm0X, etc., collectively known as GPCF.)
--   [Supported platforms](_Supported_platforms_)
+-   [Supported platforms](Supported_platforms)
 -   To join the LArSoft mailing list, please follow [these instructions](https://listserv.fnal.gov/users.asp#subscribe%20to%20list) using the list name LARSOFT.
 
 Using LArSoft
@@ -35,7 +35,7 @@ First-time, or infrequent, users will be well-served to go through the following
 
 4.  To modify the code, clone the reference software into your working area from the [LArSoft github](https://github.com/LArSoft) repositories.
     -   This is where to find [Experiment-specific code](_Experiment-specific_code).
-    -   And this is the [Sub-package locations](_Sub-package_locations_) (e.g., in which repository can I find the `HitFinder` sub-package?)
+    -   And this is the [Sub-package locations](Sub-package_locations) (e.g., in which repository can I find the `HitFinder` sub-package?)
 
 5.  To install a local copy of the pre-built products, or to build and install a local copy of the products for the core LArSoft suite, follow the [Installation Procedures on the Getting LArSoft page](Getting_LArSoft).
     -   To use cvmfs to access the binaries and header files in a tagged release (thereby avoiding the need to install or build a local copy), follow the [LArSoft cvmfs](_LArSoft_cvmfs_) instructions.
@@ -43,7 +43,7 @@ First-time, or infrequent, users will be well-served to go through the following
     -   Comments in the code are incorporated into documentation at [LArSoft Doxygen](https://nusoft.fnal.gov/larsoft/doxsvn/html/index.html) using [the Doxygen tool.](http://www.doxygen.nl/helpers.html)
 
 6.  Recommended.
-    -   Install and run [igprof profiler](_igprof_profiler).
+    -   Install and run [igprof profiler](Igprof_profiler).
 
 Information on GitHub and pull request testing
 --------------------------------------------------------------------------------------------------
@@ -64,19 +64,19 @@ Documentation
 ================================
 
 -   Description of [Event Displays](Event_Displays) options with links to further information.
--   Description of [The user environment](_The_user_environment_) with examples.
--   Description of [The developer environment](_The_developer_environment_) with a picture.
+-   Description of [The user environment](The_user_environment) with examples.
+-   Description of [The developer environment](The_developer_environment) with a picture.
 
 Using HPC with LArSoft
 --------------------------------------------------
 
 -   Using GPU as a service to accelerate machine learning inference applications.
-    -   [Part One: Overview and introduction to the NuSonic Triton client library](_GPU_as_a_Service_)
+    -   [Part One: Overview and introduction to the NuSonic Triton client library](GPU_as_a_Service)
     -   [Part Two: Setting up the model on the Triton inference server](GPU_as_a_Service_part_two)
     -   [Part Three: Testing the Triton client and model configuration with an inference server](GPU_as_a_Service_part_three)
 
 How-to
 ==================
 
--   [Getting started with an analysis task: an example](_AnalysisExample_)
--   [Running Jobs](_Running_Jobs_)
+-   [Getting started with an analysis task: an example](AnalysisExample)
+-   [Running Jobs](Running_Jobs)

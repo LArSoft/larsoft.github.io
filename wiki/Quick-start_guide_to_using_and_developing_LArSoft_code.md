@@ -36,9 +36,9 @@ LArSoft is not a stand-alone product. It is intended to be used as part of an ex
 The following is provided just to provide the general information that can be adapted by each experiment.
 These instructions are for working with larsoft release v1\_00\_00 and later, and mrb v1\_00\_00 and later. The instructions assume that LArSoft is installed locally using the download and installation instructions linked from the download page (see [Download instructions](Getting_LArSoft)). Changes needed for off-site installations will be noted. This documentation is evolving as we receive feedback. Please open an issue ticket if you have suggestions or complaints.
 
-Please note that all Fermilab redmine repository names are lower case. See the [LArSoft product list](_LArSoft_repositories_packages_and_dependencies_).
+Please note that all Fermilab redmine repository names are lower case. See the [LArSoft product list](LArSoft_repositories_packages_and_dependencies).
 
-See [The developer environment](_The_developer_environment_) page for important information about the git branching model that should be used when developing LArSoft code.
+See [The developer environment](The_developer_environment) page for important information about the git branching model that should be used when developing LArSoft code.
 Detailed information about mrb is available from the [mrb reference guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbRefereceGuide). Information about UPS is available from [getting started using UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/Getting_Started_Using_UPS)
 
 Before you start

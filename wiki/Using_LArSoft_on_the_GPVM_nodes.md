@@ -33,7 +33,7 @@ Each of the experiments has their own setup procedure. The one’s we know about
 -   For LBNE: `/grid/fermiapp/lbne/software/setup_lbne.sh`(`csh`)
 -   For MicroBooNE: `/grid/fermiapp/products/uboone/setup_uboone.sh`(`csh`)
 
-See the [Quick-start guide to using and developing LArSoft code](_Quick-start_guide_to_using_and_developing_LArSoft_code_) and the experiment user guides for further details on on setting up and configuring LArSoft and the accompanying experiment software.
+See the [Quick-start guide to using and developing LArSoft code](Quick-start_guide_to_using_and_developing_LArSoft_code) and the experiment user guides for further details on on setting up and configuring LArSoft and the accompanying experiment software.
 
 See the [LArSoft wiki](LArSoftWiki#Where-to-find-the-software) to see where to find the software.
 
