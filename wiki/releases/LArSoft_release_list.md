@@ -223,7 +223,7 @@ Release versions in **bold font** will be preserved according to the [production
 |**v07_08_00_01**|**v07_05_02**|11/02/2018||for ProtoDUNE-SP data reco production|[Release Notes](ReleaseNotes07080001)|
 |**v07_09_00**|**v07_06_00**|10/31/2018||for DUNE CAFMaker|[Release Notes](ReleaseNotes070900)|
 |**v07_08_00**|**v07_05_02**|10/25/2018||for ProtoDUNE-SP data reco production|[Release Notes](ReleaseNotes070800)|
-|**v06_26_01_15**|**v1_11_00_06**|10/23/2018||for MicroBooNE [redmine issue 21205](https://cdcvs.fnal.gov/redmine/issues/21205) "Support: Request patch release larsoft v06_26_01_15 (Closed)"|[Release Notes](ReleaseNotes06260115)|
+|**v06_26_01_15**|**v1_11_00_06**|10/23/2018||for MicroBooNE [redmine issue 21205](https://cdcvs.fnal.gov/redmine/issues/21205)|[Release Notes](ReleaseNotes06260115)|
 |v07_07_03|v07_05_01|10/17/2018|||[Release Notes](ReleaseNotes070703)|
 |v07_07_02|v07_05_01|10/17/2018|||[Release Notes](ReleaseNotes070702)|
 |v07_07_01|v07_05_00|10/11/2018|||[Release Notes](ReleaseNotes070701)|
@@ -250,16 +250,16 @@ Release versions in **bold font** will be preserved according to the [production
 |v06_78_00|v1_45_00|05/24/2018|||[Release Notes](ReleaseNotes067800)|
 |v06_77_00|v1_44_01|05/16/2018|||[Release Notes](ReleaseNotes067700)|
 |v06_76_00_01|v1_44_00_01|05/15/2018|**Test Release**|test art v2_11_02|[Release Notes](ReleaseNotes06760001)|
-|**v06_26_01_13**|**v1_11_00_06**|05/15/2018||for MicroBooNE [redmine issue 19943](https://cdcvs.fnal.gov/redmine/issues/19943) "Support: Request patch release larsoft v06_26_01_13 (Closed)"|[Release Notes](ReleaseNotes06260113)|
+|**v06_26_01_13**|**v1_11_00_06**|05/15/2018||for MicroBooNE [redmine issue 19943](https://cdcvs.fnal.gov/redmine/issues/19943)|[Release Notes](ReleaseNotes06260113)|
 |v06_76_00|v1_44_00|05/10/2018|||[Release Notes](ReleaseNotes067600)|
 |v06_75_01|v1_43_01|05/01/2018|||[Release Notes](ReleaseNotes067501)|
-|**v06_26_01_12**|**v1_11_00_06**|04/26/2018||for MicroBooNE mcc8 [redmine issue 19795](https://cdcvs.fnal.gov/redmine/issues/19795) "Support: Request patch release larsoft (v06_26_01_12) (Closed)"|[Release Notes](ReleaseNotes06260112)|
+|**v06_26_01_12**|**v1_11_00_06**|04/26/2018||for MicroBooNE mcc8 [redmine issue 19795](https://cdcvs.fnal.gov/redmine/issues/19795)|[Release Notes](ReleaseNotes06260112)|
 |v06_75_00|v1_43_01|04/26/2018||first release with geant4 v4_10_3_p03b|[Release Notes](ReleaseNotes067500)|
 |v06_74_01_01|v1_43_01|04/22/2018|**Test Release**|test geant4 v4_10_3_p03b|[Release Notes](ReleaseNotes06740101)|
 |v06_74_01|v1_43_01|04/19/2018|||[Release Notes](ReleaseNotes067401)|
 |v06_74_00|v1_43_00|04/12/2018||first relese with full c2 support|[Release Notes](ReleaseNotes067400)|
 |v06_73_00|v1_42_00|04/05/2018|||[Release Notes](ReleaseNotes067300)|
-|**v06_26_01_11**|**v1_11_00_06**|04/05/2018||for MicroBooNE mcc8 [redmine issue 19561](https://cdcvs.fnal.gov/redmine/issues/19561) "Support: Request patch release larsoft v06_26_01_11 (Closed)"|[Release Notes](ReleaseNotes06260111)|
+|**v06_26_01_11**|**v1_11_00_06**|04/05/2018||for MicroBooNE mcc8 [redmine issue 19561](https://cdcvs.fnal.gov/redmine/issues/19561)|[Release Notes](ReleaseNotes06260111)|
 |v06_72_00|v1_41_02|03/29/2018|||[Release Notes](ReleaseNotes067200)|
 |v06_71_00|v1_41_02|03/21/2018||first release with genie v2_12_10a|[Release Notes](ReleaseNotes067100)|
 |v06_70_02|v1_41_02|03/16/2018|||[Release Notes](ReleaseNotes067002)|
