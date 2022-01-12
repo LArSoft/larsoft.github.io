@@ -1,0 +1,5255 @@
+LArSoft v08\_15\_01 Release Notes
+======================================================================
+
+-   **Table of contents**
+-   [LArSoft v08\_15\_01 Release Notes](#LArSoft-v08_15_01-Release-Notes)
+    -   [Purpose](#Purpose)
+    -   [New features](#New-features)
+    -   [Bug fixes](#Bug-fixes)
+    -   [Updated dependencies](#Updated-dependencies)
+-   [Change List](#Change-List)
+    -   [larsoft v08\_15\_01](#larsoft-v08_15_01)
+    -   [lareventdisplay v08\_05\_01](#lareventdisplay-v08_05_01)
+    -   [larexamples v08\_01\_15](#larexamples-v08_01_15)
+    -   [larg4 v08\_01\_13](#larg4-v08_01_13)
+    -   [larpandora v08\_05\_08](#larpandora-v08_05_08)
+    -   [larwirecell v08\_03\_06](#larwirecell-v08_03_06)
+    -   [larana v08\_04\_06](#larana-v08_04_06)
+    -   [larreco v08\_11\_01](#larreco-v08_11_01)
+    -   [larsim v08\_05\_01](#larsim-v08_05_01)
+    -   [larevt v08\_02\_09](#larevt-v08_02_09)
+    -   [lardata v08\_03\_10](#lardata-v08_03_10)
+    -   [larcore v08\_02\_06](#larcore-v08_02_06)
+    -   [larpandoracontent v03\_14\_06](#larpandoracontent-v03_14_06)
+    -   [larsoftobj v08\_10\_01](#larsoftobj-v08_10_01)
+    -   [lardataobj v08\_02\_07](#lardataobj-v08_02_07)
+    -   [lardataalg v08\_05\_01](#lardataalg-v08_05_01)
+    -   [larcorealg v08\_07\_01](#larcorealg-v08_07_01)
+    -   [larcoreobj v08\_03\_01](#larcoreobj-v08_03_01)
+    -   [larbatch v01\_51\_01](#larbatch-v01_51_01)
+    -   [larutils v1\_23\_14](#larutils-v1_23_14)
+
+[list of LArSoft releases](LArSoft_release_list)
+Download instructions for [larsoft v08\_15\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_15_01/larsoft-v08_15_01.html)
+Download instructions for [just larsoftobj v08\_10\_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_10_01/larsoftobj-v08_10_01.html)
+
+Purpose
+--------------------
+
+-   changes to develop
+-   approved feature branches
+
+New features
+------------------------------
+
+Bug fixes
+------------------------
+
+-   Error Messages from OpDetBTRs [\#22339](/redmine/issues/22339 "Bug: Tons of Error Messages from OpDetBTRs (Closed)")
+    -   larsim feature/JStock\_Issue22339\_2
+-   trailing whitespace removed
+
+Updated dependencies
+----------------------------------------------
+
+-   mrb v3\_01\_02
+
+Change List
+============================
+
+larsoft v08\_15\_01
+------------------------------------------
+
+-   2019-04-16 Lynn Garren : larsoft v08\_15\_01 for larsoft v08\_15\_01
+-   2019-04-16 Lynn Garren : product versions
+
+lareventdisplay v08\_05\_01
+----------------------------------------------------------
+
+-   2019-04-16 Lynn Garren : lareventdisplay v08\_05\_01 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-09 Kyle Knoepfel : Non-breaking cleanups.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-09 Kyle Knoepfel : Remove inappropriate header guard.
+
+larexamples v08\_01\_15
+--------------------------------------------------
+
+-   2019-04-16 Lynn Garren : larexamples v08\_01\_15 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-11 Kyle Knoepfel : Remove unused header dependency.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-11 Kyle Knoepfel : Remove unused functions/header dependencies.
+
+larg4 v08\_01\_13
+--------------------------------------
+
+-   2019-04-16 Lynn Garren : larg4 v08\_01\_13 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
+-   2019-04-10 Kyle Knoepfel : Remove unused ActivityRegistry argument.
+-   2019-04-10 Kyle Knoepfel : Modernize unique\_ptr construction.
+
+larpandora v08\_05\_08
+------------------------------------------------
+
+-   2019-04-16 Lynn Garren : larpandora v08\_05\_08 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-11 Kyle Knoepfel : Remove unused header dependency.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
+
+larwirecell v08\_03\_06
+--------------------------------------------------
+
+-   2019-04-16 Lynn Garren : larwirecell v08\_03\_06 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-10 Kyle Knoepfel : Remove unused headers.
+-   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
+-   2019-04-09 Kyle Knoepfel : Remove inappropriate header guard.
+
+larana v08\_04\_06
+----------------------------------------
+
+-   2019-04-16 Lynn Garren : larana v08\_04\_06 for larsoft v08\_15\_01
+-   2019-04-11 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-11 Kyle Knoepfel : Remove more unused headers.
+-   2019-04-11 Kyle Knoepfel : Remove unnecessary header dependencies.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-10 Kyle Knoepfel : Remove unused functions/header dependencies.
+-   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
+-   2019-04-10 Kyle Knoepfel : Remove unused ActivityRegistry.
+-   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
+
+larreco v08\_11\_01
+------------------------------------------
+
+-   2019-04-16 Lynn Garren : larreco v08\_11\_01 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-11 Kyle Knoepfel : Remove more unused headers.
+-   2019-04-10 Kyle Knoepfel : Remove unused headers.
+-   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
+
+larsim v08\_05\_01
+----------------------------------------
+
+-   2019-04-16 Lynn Garren : larsim v08\_05\_01 for larsoft v08\_15\_01
+-   2019-04-12 Jason Stock : Merge commit ‘535c4374ecc698af9190ed48b4fdce15ae337471’ into feature/JStock\_Issue22339\_2
+-   2019-03-27 Kyle Knoepfel : Declare LArG4Parameters service to be thread-safe.
+-   2019-03-27 Kyle Knoepfel : Declare LArVoxelCalculator to be a thread-safe service.
+-   2019-03-01 Kyle Knoepfel : Convert to MT-aware modules.
+-   2019-04-12 Kyle Knoepfel : Remove unused functions.
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-10 Kyle Knoepfel : Non-breaking cleanups.
+-   2019-04-11 Lynn Garren : Merge branch ‘master’ into develop
+-   2019-04-10 Lynn Garren : larsim v08\_05\_00 for larsoft v08\_15\_00
+-   2019-04-10 Lynn Garren : Merge branch ‘feature/gp\_PhotonVisTransformations’ into release/v08\_15\_00
+-   2019-04-10 Lynn Garren : Merge branch ‘feature/dgg\_opt\_maintenance’ into release/v08\_15\_00
+-   2019-04-10 Lynn Garren : Merge branch ‘feature/davidc\_mcreco\_segfaultfix’ into release/v08\_15\_00
+-   2019-04-10 Lynn Garren : Merge branch ‘feature/pgreen\_lightprop\_updated’ into release/v08\_15\_00
+-   2019-04-10 Jason Stock : LArSoft Issue [\#22339](/redmine/issues/22339 "Bug: Tons of Error Messages from OpDetBTRs (Closed)") In all cases the energy should now be a useful quantity. When the Birk Coefficient is used, we store the visible energy from ISCalc. When not used, we store the g4 TotalEnergyDeposit. The Edeposited should never be an uninitialized value in any possible case now.
+-   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros; some cleanups.
+-   2019-03-21 Kyle Knoepfel : Remove unnecessary headers.
+-   2019-02-27 David Caratelli : removed an old COUT and added exception handling for nearestwire function call from geometry service –DC
+-   2019-04-08 Patrick Green : updated comments
+-   2019-04-08 Patrick Green : Merge branch ‘develop’ into feature/pgreen\_lightprop\_updated
+-   2019-04-05 Gianluca Petrillo : Moved definition of new PhotonVisibilityService types into their own header.
+-   2019-04-04 Gianluca Petrillo : Many changes to the photon library mapping.
+-   2019-04-01 Gianluca Petrillo : Photon library transformations made into art tools.
+-   2019-04-01 Gianluca Petrillo : Updated formatting of PhotonPropagation module documentation.
+-   2019-04-01 Gianluca Petrillo : Moved documentation of \`PhotonLibraryPropagation\` from file to class.
+-   2019-03-29 Gianluca Petrillo : Added mapping for all optical library related information I could find.
+-   2019-03-28 Gianluca Petrillo : Added a mapping for photon library optical detectors.
+-   2019-03-20 Gianluca Petrillo : Introduced customisation of photon mapping location in \`PhotonVisibilityService\`.
+-   2019-03-20 Gianluca Petrillo : \`PhotonVisibilityService\` interface extended to support any vector type.
+-   2019-03-20 Gianluca Petrillo : Updated trivial implementation of changed member functions in \`PhotonVisibilityService\`.
+-   2019-03-20 Gianluca Petrillo : Updated implementation of static member functions in \`PhotonVisibilityService\`.
+-   2019-03-20 Gianluca Petrillo : Moved the interface of \`PhotonVisibilityService\` implementation functions to LArSoft vectors.
+-   2019-03-20 Gianluca Petrillo : Introducing an indirection layer in \`PhotonVisibilityService\` interface.
+-   2019-03-20 Gianluca Petrillo : Removed internal use of \`TVector3\` in \`PhotonVisibilityService\`
+-   2019-03-20 Gianluca Petrillo : Documentation format changed to Doxygen.
+-   2019-03-20 Gianluca Petrillo : Breaking change: common \`sim::PhotonVoxelDef\` methods now return a LArSoft vector.
+-   2019-03-20 Gianluca Petrillo : \`PhotonVoxelDef\` internally using LArSoft vectors instead of \`TVector3\`
+-   2019-03-20 Gianluca Petrillo : \`PhotonVoxelDef::GetNeighboringVoxelIDs()\` returns an optional array instead of a vector
+-   2019-03-20 Gianluca Petrillo : \`PhotonVoxelDef::GetPhotonVoxel()\` now returns an array rather than a vector
+-   2019-03-19 Gianluca Petrillo : Changed internals and interface of \`PhotonVoxelDef::GetNeighboringVoxelIDs()\`.
+-   2019-03-19 Gianluca Petrillo : \`PhotonVoxelDef::GetSteps()\` now returns an array of integers.
+-   2019-03-19 Gianluca Petrillo : Removed undefined method.
+-   2019-03-19 Gianluca Petrillo : \`sim::PhotonVoxelDef::GetVoxelID()\` supports any vector input.
+-   2019-03-19 Gianluca Petrillo : Interface change: \`sim::PhotonVoxelDef::GetNVoxels()\` turned unsigned.
+-   2019-03-19 Gianluca Petrillo : Cosmetic changes to \`sim::PhotonVoxelDef\`.
+-   2019-03-19 Gianluca Petrillo : \`sim::PhotonVoxelDef\` can return any vector type for its voxel size.
+-   2019-03-19 Gianluca Petrillo : More internal changes to \`sim::PhotonVoxelDef\` storage.
+-   2019-03-19 Gianluca Petrillo : \`sim::PhotonVoxelDef\` can return any vector type for its vertices.
+-   2019-03-19 Gianluca Petrillo : Internal changes to \`sim::PhotonVoxelDef\` storage.
+-   2019-03-19 Gianluca Petrillo : \`sim::PhotonVoxel\` full support for LArSoft vector types.
+-   2019-03-19 Gianluca Petrillo : \`sim::PhotonVoxel\` can return any vector type.
+-   2019-03-19 Gianluca Petrillo : Internal changes to \`sim::PhotonVoxel\` storage.
+-   2019-03-18 Gianluca Petrillo : Replaced \<TAB\> characters with spaces.
+-   2019-03-18 Gianluca Petrillo : Applying some standard LArSoft/C++ practices to \`PhotonVoxel\`.
+-   2019-04-02 Patrick Green : renamed width and height variables to be more explicit to avoid confusion, previously wrong way around
+-   2019-04-02 Patrick Green : semi-analytic model opdet tpc selection fix
+-   2019-04-02 Lynn Garren : larsim v08\_04\_04 for larsoft v08\_14\_01
+-   2019-04-02 Diego Gamez : moving SBND specific code to sbndcode
+-   2019-03-28 Jason Stock : Merge remote branch ‘remotes/origin/feature/JStock\_EveIdCalcUpdate’ into develop
+-   2019-03-27 Lynn Garren : larsim v08\_04\_03 for larsoft v08\_14\_00
+-   2019-03-22 Steven Gardiner : Update MARLEYHelper validated FHiCL configuration for marley v1\_1\_0. Also update reaction data file names in marley.fcl.
+-   2019-03-21 Lynn Garren : larsoft v08\_13\_02
+-   2019-03-20 Lynn Garren : larsim v08\_04\_02 for larsoft v08\_13\_02
+-   2019-03-20 Lynn Garren : marley v1\_1\_0
+-   2019-03-19 Gianluca Petrillo : Minor bug fix on photon visibility voxelisation.
+-   2019-03-19 Kyle Knoepfel : Restore Boost system library dependency.
+-   2019-03-19 Kyle Knoepfel : Restore required libraries.
+-   2019-03-08 Kyle Knoepfel : Many cleanups.
+-   2019-03-14 Lynn Garren : larsim v08\_04\_01 for larsoft v08\_13\_01
+-   2019-03-14 Lynn Garren : larsoft v08\_13\_00
+-   2019-03-13 Gianluca Petrillo : Making the proton cut customisation from commit 8a85be0 optional.
+-   2019-03-13 Lynn Garren : larsim v08\_04\_00 for larsoft v08\_13\_00
+-   2019-03-13 Steven Gardiner : Add the “box” sampling mode to ActiveVolumeVertexSampler. This allows the user to specify a box in which all vertices must be generated. Optionally, these may be required to lie within a TPC active volume as well.
+-   2019-03-12 Lynn Garren : variable unused in this context
+-   2019-03-11 Patrick Green : removed erroneous inclusion of LoadExtraMatProperties in photonvisibilityservice, must be manually set
+-   2019-03-11 Patrick Green : set LoadExtraMatProperties:True in visibilty services for including visible component + updated default optical detector size to supercell dimensions
+-   2019-03-11 Patrick Green : Merge branch ‘develop’ into feature/lightprop\_ugr\_mcr
+-   2019-03-11 Patrick Green : Merge branch ‘develop’ into feature/lightprop\_ugr\_mcr
+-   2019-03-09 Jason Stock : Adding the ability to set the EveIdCalculator from a fcl file.
+-   2019-03-07 Diego Gamez : reorganizing the definition of the photonvisibilityservices
+-   2019-03-06 Patrick Green : fixed visible timing seg fault + added plane depth symmetry + cathode centre input for semi-analytic visible hits
+-   2019-03-06 Robert Hatcher : get rid of obsolete use of GENIEHelper Environment fcl parameter; replace use of GEVGL pair with direct use of EventGeneratorList parameter
+-   2019-03-06 Lynn Garren : larsoft v08\_12\_00
+-   2019-03-06 Diego Gamez : not loading voxel scheme if semi-analytic estimation of number of photons
+-   2019-03-06 Diego Gamez : some fixes in photon services
+-   2019-03-04 David Rivera : Added the HadronHP physics list as well as parameters in the simulationservices.fcl to adjust the Proton range cut to be consistent with the Hadron HP physics lists which set this cut to 0.
+-   2019-03-05 Lynn Garren : larsim v08\_03\_05 for larsoft v08\_12\_00
+-   2019-03-04 Alex Himmel : Clean up the fhicl configurations of the PhotonVisibilityService.
+-   2019-02-26 Lynn Garren : larsim v08\_03\_04 for larsoft v08\_11\_00
+-   2019-02-26 Patrick Green : removing testing settings etc
+-   2019-02-25 Patrick Green : added separate fcl for paramters
+-   2019-02-25 Patrick Green : reflected timings added
+-   2019-02-25 Patrick Green : added check opdet & scintpoint have same sign
+-   2019-02-25 Patrick Green : fixed negative solid angle bug
+-   2019-02-22 Patrick Green : reflected solid angle hits working, unresolved bug with disk solid angle -\> negative values
+-   2019-02-21 Lynn Garren : larsim v08\_03\_03 for larsoft v08\_10\_01
+-   2019-02-21 Patrick Green : added reflected solid angle hits calculation
+-   2019-02-20 Lynn Garren : larsim v08\_03\_02 for larsoft v08\_10\_00
+-   2019-02-20 Patrick Green : further restructuring of VUV GH input + now reads in vis hits parameters successfully
+-   2019-02-20 Patrick Green : restructured VUV GH input
+-   2019-02-18 Diego Gamez : towards semianalytic opfast mode
+-   2019-02-14 Lynn Garren : larsim v08\_03\_01 for larsoft v08\_09\_00
+-   2019-02-08 Kyle Knoepfel : Call non-default base-class constructors in preparation for art 3.02.
+-   2019-02-07 Kyle Knoepfel : Fix clang errors.
+-   2019-02-07 Lynn Garren : Merge branch ‘feature/knoepfel\_nodiscard’ into release/v08\_08\_00
+-   2019-02-08 Lynn Garren : larsoft v08\_08\_00
+-   2019-02-07 Lynn Garren : larsim v08\_03\_00
+-   2019-02-07 Lynn Garren : Revert “larsim v08\_03\_00 for larsoft v08\_08\_00”
+-   2019-02-07 Lynn Garren : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2019-02-07 Chris Green : Revert “Merge branch ‘feature/knoepfel\_nodiscard’ into release/v08\_08\_00”
+-   2019-02-07 Chris Green : Revert “Merge branch ‘feature/knoepfel\_nodiscard’ into release/v08\_08\_00”
+-   2019-02-07 Lynn Garren : larsim v08\_03\_00 for larsoft v08\_08\_00
+-   2019-02-07 Lynn Garren : Merge branch ‘feature/knoepfel\_nodiscard’ into release/v08\_08\_00
+-   2019-02-07 Kyle Knoepfel : Fix clang errors.
+-   2019-02-07 Lynn Garren : Merge branch ‘feature/knoepfel\_nodiscard’ into release/v08\_08\_00
+-   2019-02-04 Lynn Garren : larsim v08\_02\_02 for larsoft v08\_07\_01
+-   2019-02-04 Kyle Knoepfel : Merge branch ‘develop’ into feature/knoepfel\_nodiscard
+-   2019-01-30 Lynn Garren : larsim v08\_02\_01 for larsoft v08\_07\_00
+-   2018-10-08 Kyle Knoepfel : Remove getEngine calls; other cleanups.
+-   2019-01-15 Lynn Garren : larsim v08\_02\_00 for larsoft v08\_05\_00
+-   2019-01-15 Lynn Garren : LOG\_ macros are now MF\_LOG\_
+-   2019-01-14 Lynn Garren : larsim v08\_01\_01 for larsoft v08\_04\_00
+-   2019-01-09 Lynn Garren : larsim v08\_01\_00 for larsoft v08\_03\_00
+-   2019-01-08 Lynn Garren : Merge branch ‘feature/davidc\_mcrecovalidation’ into release/v08\_03\_00
+-   2019-01-08 Lynn Garren : driftcoordinate is not used
+-   2019-01-07 Lynn Garren : Merge branch ‘feature/davidc\_mcrecovalidation’ into release/v08\_03\_00
+-   2019-01-03 David Caratelli : removing validation couts –DC
+-   2019-01-03 David Caratelli : making MCReco module compatible with SimEnergyDeposit input –DC
+-   2018-12-18 Lynn Garren : larsim v08\_00\_01 for larsoft v08\_01\_00
+-   2018-12-12 Lynn Garren : larsim v08\_00\_00 for larsoft v08\_00\_00
+-   2018-12-12 Lynn Garren : Merge branch ‘v08\_00\_00\_rc\_br’ into release/v08\_00\_00
+-   2018-12-05 Lynn Garren : v08\_00\_00\_rc2
+-   2018-12-04 Lynn Garren : larsim v07\_09\_00 for larsoft v07\_13\_00
+-   2018-12-04 Lynn Garren : Merge branch ‘feature/herogers\_SCE\_xcorrection’ into release/v07\_13\_00
+-   2018-12-04 Lynn Garren : Merge branch ‘feature/gputnam\_MCSTReco\_FV\_fix’ into release/v07\_13\_00
+-   2018-12-04 Hannah Rogers : Correct SCE x posisiton correction direction
+-   2018-12-04 gputnam : fix typo in comment
+-   2018-12-04 gputnam : add doxygen comment to variables defining volume box
+-   2018-12-04 gputnam : Merge tag ‘v07\_07\_01’ into feature/gputnam\_MCSTReco\_FV\_fix
+-   2018-12-04 Lynn Garren : Merge branch ‘ref\_v07\_12\_00’ into v08\_00\_00\_rc\_br
+-   2018-12-03 Lynn Garren : larsim v08\_00\_00\_rc1
+-   2018-12-03 Lynn Garren : Merge branch ‘feature/team\_for\_art\_v3’ into v08\_00\_00\_rc\_br
+-   2018-11-28 Lynn Garren : larsim v07\_08\_00 for larsoft v07\_12\_00
+-   2018-11-28 gputnam : Add comment to update
+-   2018-11-28 gputnam : Fix fiducial volume definition in MCRecoPart. Fiducial volume is now defined as a box that extends to include all TPC’s in the detector. This removes implicit coupling to MicroBooNE and fixes saving of MCTrack points in (e.g.) SBND and ICARUS. (Note: Should FV definition be all cryostats instead of all TPCs?).
+-   2018-11-28 Jason Stock : Merge branch ‘feature/JStock\_fix21417’ into develop
+-   2018-11-28 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2018-11-28 Jason Stock : Merge branch ‘feature/JStock\_fix21417’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock\_fix21417
+-   2018-11-27 Jason Stock : Bugfix larsoft issue [\#21417](/redmine/issues/21417 "Bug: BackTracker "HitToEveTrackIDEs" does not fill # electrons (Closed)")
+-   2018-11-27 Jason Stock : Bugfix larsoft issue [\#21417](/redmine/issues/21417 "Bug: BackTracker "HitToEveTrackIDEs" does not fill # electrons (Closed)")
+-   2018-11-21 Wesley Ketchum : Merge branch ‘feature/wketchum\_OverrideRealDataBackTracker’ into develop
+-   2018-11-21 Wesley Ketchum : forgot a default option on override real data…
+-   2018-11-21 Wesley Ketchum : Merge branch ‘feature/wketchum\_OverrideRealDataBackTracker’ into develop
+-   2018-11-21 Alex Himmel : Bug fix: add Reflected label to reflected SimPhoton collection (missed since CI does not have any tests with reflected light).
+-   2018-11-20 Wesley Ketchum : add in override paramater to BackTracker for use of overlays on top of data events
+-   2018-11-19 Patrick Gartung : Merge branch ‘master’ into develop
+-   2018-11-19 Patrick Gartung : Revert “update larevt version”
+-   2018-11-19 Patrick Gartung : Revert “correct larsim version”
+-   2018-11-15 Patrick Gartung : correct larsim version
+-   2018-11-15 Patrick Gartung : update larevt version
+-   2018-11-14 Patrick Gartung : Merge branch ‘develop’
+-   2018-11-14 Wesley Ketchum : mcreco option for different particle and simchannel input sources
+-   2018-11-13 Patrick Gartung : larsim v07\_07\_01 for larsoft v07\_11\_00
+-   2018-11-12 Patrick Gartung : larsim v07\_07\_00 for larsoft v07\_10\_00\_01
+-   2018-11-12 Patrick Gartung : larsim v07\_08\_01 for larsoft v07\_10\_00\_01
+-   2018-11-09 Wesley Ketchum : Merge remote branch ‘origin/develop’ into feature/wketchum\_TestIonization
+-   2018-11-09 Wesley Ketchum : remove TRACE statements again
+-   2018-11-09 Wesley Ketchum : some cleanup of variables extracted from larg4 service
+-   2018-11-09 Wesley Ketchum : fix for ds being zero…BAD BUG!
+-   2018-11-09 Kyle Knoepfel : Fix getEngine usage.
+-   2018-11-08 Lynn Garren : larsoft v07\_10\_00
+-   2018-11-07 Jason Stock : Update to PBT to fix Flash to OpHit functions.
+-   2018-11-07 Lynn Garren : larsim v07\_06\_00 for larsoft v07\_10\_00
+-   2018-11-06 Lynn Garren : PositionInVolumeFilter is now in util namespace
+-   2018-11-06 Lynn Garren : move ParticleFilters.h to larcorealg
+-   2018-11-01 Lynn Garren : use override
+-   2018-10-31 Lynn Garren : larsim v07\_05\_00 for larsoft v07\_09\_00
+-   2018-10-30 Lynn Garren : remove unused variable
+-   2018-10-26 Alex Himmel : Merge branch ‘feature/aih\_FastScintillationCleanup’ into develop
+-   2018-10-26 Alex Himmel : Merge remote-tracking branch ‘origin/develop’ into feature/aih\_FastScintillationCleanup
+-   2018-10-25 Lynn Garren : v08\_00\_00\_rc0
+-   2018-10-24 Alex Himmel : Put in some safety catches in case PhotonVisibilityService isn’t configured. What this means is that if full simulation is run, reflected light will be stored in the regular SimPhotons collection instead of the special reflected light SimPhotons collection. This is a compromise, but there’s no other simple way to have this work (without more major changes to how LArG4 works).
+-   2018-10-24 Lynn Garren : larsim v07\_04\_03 for larsoft v07\_08\_00
+-   2018-10-23 Alex Himmel : Move PhotonVisibilityService inside check for photon propogation.
+-   2018-10-23 Alex Himmel : Merge remote-tracking branch ‘origin/develop’ into feature/aih\_FastScintillationCleanup
+-   2018-10-23 Alex Himmel : Unify the handling of OnePhoton and SimPhotonsLite in FastScintillation in LArG4. Should allow any timing parameterization or reflected light to be used with either output data product choice. Direct and reflected light are stored in 2 different data products with different labels (“”, “Reflected”) for all of the relevant data products (OnePhoton, SimPhotonsLite, and OpDetBacktrackerRecords).
+-   2018-10-23 Jose Soto : removing a segfault when ParPropTimeTF1 is not defined
+-   2018-10-18 Alex Himmel : Fix indentation.
+-   2018-10-17 Lynn Garren : larsoft v07\_07\_02
+-   2018-10-17 Lynn Garren : larsim v07\_04\_02 for larsoft v07\_07\_02
+-   2018-10-16 Kyle Knoepfel : Adjust EventWeight system interface to fix getEngine issues.
+-   2018-10-15 Alex Himmel : Add an option (default false) to reflect voxels over X = 0 (allows time savings when generating a library.
+-   2018-10-10 Lynn Garren : larsim v07\_04\_01 for larsoft v07\_07\_01
+-   2018-10-09 Jose Soto : Fixing a segfault when interpolation between voxels and time propagation are activated.
+-   2018-10-09 Jose Soto : Merge branch ‘develop’ into feature/jsoto\_maxrange\_in\_extendedphotlib
+-   2018-10-04 Jose Soto : Feature in extended photonlibraries: Now time range can be change in a fhcl parameter
+-   2018-10-03 Lynn Garren : larsim v07\_04\_00 for larsoft v07\_07\_00
+-   2018-10-02 Kyle Knoepfel : Migrate to art 3.
+-   2018-10-01 Lynn Garren : EngineCreator.h moved to detail
+-   2018-09-27 baller : Merge branch ‘develop’ into feature/bb\_Argo
+-   2018-09-27 baller : Move ArgoNeuT code to argoneutcode
+-   2018-09-27 baller : Add SignalShapingService
+-   2018-09-27 baller : Add SignalShapingService
+-   2018-09-26 Lynn Garren : larsim v07\_03\_02 for larsoft v07\_06\_02
+-   2018-09-26 Lynn Garren : Merge branch ‘feature/chalt\_dualphasechargedrift’ into release/v07\_06\_02
+-   2018-09-25 Lauren Yates : Merge branch ‘develop’ into feature/yatesla\_MultipleSubrunPOT
+-   2018-09-23 Jason Stock : Opps. Forgot to remove line in makefile pointing to dune when I removed DUNE specific code to get ready for my merge.
+-   2018-09-23 Jason Stock : Merge branch ‘develop’ of [http://cdcvs.fnal.gov/projects/larsim](http://cdcvs.fnal.gov/projects/larsim) into develop
+-   2018-09-23 Jason Stock : Removing code from MCCheater that is DUNE specific before merging with the common branch.
+-   2018-09-21 Jason Stock : Adding checks to a couple functions that require access to the event. These checks will make innappropraite use of these functions fail gracefully (throw with an error message instead of segfault).
+-   2018-09-21 Jason Stock : Fixing an issue with backtracker checks (still waiting on art updates for event caching and service event access).
+-   2018-09-21 Christoph Alt : speeding up the code
+-   2018-09-19 baller : Add SignalShapingService.
+-   2018-09-19 baller : Add SignalShapingService.
+-   2018-09-19 baller : Add SignalShapingService.
+-   2018-09-17 Lynn Garren : larsim v07\_03\_01 for larsoft v07\_07\_00
+-   2018-09-17 Lynn Garren : Merge branch ‘feature/jsoto\_lightsource\_pointsource’ into release/v07\_07\_00
+-   2018-09-17 Lynn Garren : remove unused variable
+-   2018-09-15 Jason Stock : Merge remote branch ‘origin/feature/JStock\_ChannelCorrectedSDPEnergy’ into develop
+-   2018-09-14 Beatriz Tapia Oregui : This is a fix to an infinite loop in GetScintTime and the addition of SimPhotonsLite, which now gets produced as a dataproduct.
+-   2018-09-13 Lynn Garren : larsoft v07\_06\_00
+-   2018-09-12 Jason Stock : Merge remote branch ‘origin/feature/JStock\_RadioGenSignal’ into feature/JStock\_ChannelCorrectedSDPEnergy
+-   2018-09-12 Jose Soto : Added a point-like light source option
+-   2018-09-12 Christoph Alt : Merge branch ‘develop’ into feature/chalt\_dualphasechargedrift
+-   2018-09-12 Jason Stock : Fixing a syntax error. Corrections for new flag in RadioGen.
+-   2018-09-12 Christoph Alt : Merge branch ‘develop’ into feature/chalt\_dualphasechargedrift
+-   2018-09-12 Christoph Alt : Support charge drift in y and z
+-   2018-09-12 Jason Stock : Updating a comment in RadioGen.
+-   2018-09-11 Jason Stock : Update to name of new fcl flag in RadioGen to make it a bit more clear what it does, and to prevent users from accidentally enabling it for their backgrounds.
+-   2018-09-11 Lynn Garren : larsim v07\_03\_00 for larsoft v07\_06\_00
+-   2018-09-11 Jason Stock : Adding fIsSignal flag and conditional assignment to the LorentzVector Time so that signal radiologicals can be set at T0.
+-   2018-09-11 Jason Stock : Minor changes for DivRec Backtracking.
+-   2018-09-11 Jason Stock : Merge tag ‘LARSOFT\_SUITE\_v07\_05\_00’ into feature/JStock\_ChannelCorrectedSDPEnergy
+-   2018-09-09 Saba Sehrish : moved MCDumpers to lardataalg, updated headers
+-   2018-09-08 Lauren Yates : Minor updates to POT counting for files with multiple subruns
+-   2018-09-06 Lauren Yates : Adding support for POT counting in files with multiple subruns
+-   2018-09-05 Lynn Garren : larsim v07\_02\_02 for larsoft v07\_05\_00
+-   2018-08-28 Lynn Garren : larsim v07\_02\_01 for larsoft v07\_04\_00
+-   2018-08-27 Wesley Ketchum : bug fix for + instead of \* in efield calculation
+-   2018-08-28 Paul Russo : Fix redmine issue [\#20554](/redmine/issues/20554 "Bug: AuxDetSensitive with ID 0 has no energy deposit (Closed)") - AuxDetSensitive with ID 0 has no energy deposit.
+-   2018-08-22 Lynn Garren : larsim v07\_02\_00 for larsoft v07\_03\_00
+-   2018-08-21 Wesley Ketchum : Merge branch ‘feature/wketchum\_ShiftEDep\_Debugging’ into develop
+-   2018-08-16 Gianluca Petrillo : Fixed uninitialised pointers in PhotonVisibilityService.
+-   2018-08-16 Lynn Garren : larsoft v07\_02\_00
+-   2018-08-16 Jason Stock : Remove use of ValidHandle.failedToGet() from the backtrackers. It was an unneccessary check as failedToGet will always be false for a ValidHandle.
+-   2018-08-15 Lynn Garren : larsim v07\_01\_01 for larsoft v07\_02\_00
+-   2018-08-14 Paul Russo : Fix constructor to explicitly intialize all data members.
+-   2018-08-14 Wesley Ketchum : back out the use of TRACE statements for debugging …
+-   2018-08-14 Wesley Ketchum : missed a few renaming in modules
+-   2018-08-14 Wesley Ketchum : rename ISCalculationSeparate to ISCalcSeparate
+-   2018-08-14 Wesley Ketchum : fixes for bad standalone ISCalcSeparate? Also renaming…
+-   2018-08-13 Paul Russo : Fix TF1 double delete crashes on macOS.
+-   2018-08-11 Jason Stock : Adding one more reference to DivRecs in CMake files
+-   2018-08-11 Jason Stock : Changing directory for DivRecs.
+-   2018-08-11 Jason Stock : Merge tag ‘LARSOFT\_SUITE\_v06\_85\_00’ into feature/JStock\_ChannelCorrectedSDPEnergy
+-   2018-08-11 Jason Stock : Adding DivRec controls TODO: make DivRec controls work for experiments without DivRecs (For now only implimented in DUNE).
+-   2018-08-08 Lynn Garren : larsim v07\_01\_00 for larsoft v07\_00\_02
+-   2018-08-08 Lynn Garren : find headers
+-   2018-08-06 Gianluca Petrillo : Small optimization of photon library load time
+-   2018-08-04 Jason Stock : Merge branch ‘feature/JStock\_PBT\_FlashToHitAssnsRevision’ into develop
+-   2018-08-04 Jason Stock : Fixes for the spammy PhotonBackTracker initialization messages.
+-   2018-08-01 Patrick Gartung : larsim v07\_00\_01 for larsoft v07\_00\_01
+-   2018-07-31 Lynn Garren : larsoft v07\_00\_00
+-   2018-07-30 Lynn Garren : larsim v07\_00\_00 for larsoft v07\_00\_00
+-   2018-07-28 Lynn Garren : wrong way around, larg4 uses larsim
+-   2018-07-28 Lynn Garren : for larsoft v07\_00\_00\_rc0
+-   2018-07-17 Gianluca Petrillo : Removed spurious initialisation of gRandom.
+-   2018-07-17 Gianluca Petrillo : PhotonVisibilityService made optional when photon propagation is not required.
+-   2018-07-17 Gianluca Petrillo : Constant interface of OpDetPhotonTable made formally const.
+-   2018-07-27 Lynn Garren : Merge branch ‘develop’ into feature/team\_with\_larg4
+-   2018-07-26 Lynn Garren : larsoft v06\_85\_00
+-   2018-07-26 Yun-Tse Tsai : bug fixed: the variable numElectrons in the sim::TrackIDE object in BackTracker was not filled
+-   2018-07-25 Lynn Garren : Merge branch ‘feature/wenzel\_larg4refac’ into feature/team\_with\_larg4
+-   2018-07-25 Hans-Joachim Wenzel : for now remove access to Detector name (name of gdml file)
+-   2018-07-25 Lynn Garren : larsim v06\_53\_00 for larsoft v06\_85\_00
+-   2018-07-24 Lynn Garren : Merge branch ‘feature/team\_for\_e17’ into release/v06\_85\_00
+-   2018-07-23 Lynn Garren : fix the boolean context usage
+-   2018-07-23 Lynn Garren : add e17 qualifier
+-   2018-07-23 Gianluca Petrillo : Replaced \`mf::LogDebug\` with \`LOG\_DEBUG\` in some lines of \`PhotonVisibilityService\`.
+-   2018-07-23 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp\_PhotonLibrary
+-   2018-07-22 Gianluca Petrillo : PhotonLibrary now allocates memory lazy.
+-   2018-07-18 Lynn Garren : larsim v06\_52\_00 for larsoft v06\_84\_00
+-   2018-07-18 Lynn Garren : Merge branch ‘feature/jsoto\_ExtendedPhotonLibrary’ into release/v06\_84\_00
+-   2018-07-18 Lynn Garren : Merge branch ‘feature/jsoto\_dualphase\_DriftedElectronClusters’ into release/v06\_84\_00
+-   2018-07-17 Lynn Garren : remove dune specific fcl files
+-   2018-07-17 Beatriz Tapia Oregui : Removed files that were accidentally added back. Added fhicl files to use the protoDune DP geometry within the Hybrid Library framework.
+-   2018-07-16 Jose Alfonso Soto : Improvements in the time propagation feature of the extended photon library. Now the TF1 propagation functions are created when loading the library.
+-   2018-07-16 Jose Alfonso Soto : Set up the option to read SimDriftedElectronClusters from the SimDriftElectrons module (needed for dual phase TPCs)
+-   2018-07-11 Alex Himmel : Add a new option to the Photon Library Analyzer to build a projection for each individual optical detector. New options in the fhicl, but no change in the default behavior.
+-   2018-07-11 Alex Himmel : Remove .DS\_Store files
+-   2018-07-11 Alex Himmel : Standardize indentation in Library Analyzer module
+-   2018-07-05 Lynn Garren : remove accidental duplicate
+-   2018-07-05 Lynn Garren : larsim v06\_51\_00 for larsoft v06\_83\_00
+-   2018-07-05 Lynn Garren : restore default
+-   2018-07-05 Lynn Garren : remove dune fcl files
+-   2018-07-03 Beatriz Tapia Oregui : Cleaned and ready to publish.
+-   2018-07-02 Beatriz Tapia Oregui : Merge branch ‘develop’ into feature/btapia\_hybridlibraryCB Photon Library building resolved.
+-   2018-07-02 Beatriz Tapia Oregui : Photon Library builds.
+-   2018-06-27 Gianluca Petrillo : LArVoxelReadout warning message moved into message facility
+-   2018-06-26 Gianluca Petrillo : A few changes following good practices.
+-   2018-06-26 Gianluca Petrillo : Documentation of LightSource\_module.cc converted to Doxygen
+-   2018-06-26 Gianluca Petrillo : PhotonVisibilityService made optional in LightSource module
+-   2018-06-28 Gianluca Petrillo : Using modern way to determine if a point belongs to a cryostat in FilterCryostatNus module.
+-   2018-06-28 Gianluca Petrillo : Applied some good C++ practices to FilterCryostatNus module.
+-   2018-06-28 Gianluca Petrillo : Applied some good C++ practices to FilterCryostatNus module.
+-   2018-06-28 Gianluca Petrillo : Applied some good C++ practices to FilterNoMCParticles module.
+-   2018-06-28 Gianluca Petrillo : Resolved unused variable errors from Clang.
+-   2018-06-28 Beatriz Tapia Oregui : Merge branch ‘develop’ into feature/btapia\_hybridlibraryCB larsoft\_v06\_82\_00\_debug\_e15
+-   2018-06-28 Jason Stock : Merge branch ‘feature/JStock\_PhotonBackTrackerFlashMatchFix’ into develop
+-   2018-06-28 Jason Stock : Quick fixes to PBT addressing issues raised by Pierre Lasorak with TrackSDPs (default backtracking tried to get btrs by OpChannel instead of by OpDet).
+-   2018-06-27 Herbert Greenlee : Merge remote-tracking branch ‘origin/v06\_26\_01\_01\_branch’ into develop
+-   2018-06-26 Lynn Garren : larsim v06\_50\_03 for larsoft v06\_82\_00
+-   2018-06-21 Hans-Joachim Wenzel : refactoring larg4
+-   2018-06-20 Lynn Garren : larsim v06\_50\_02 for larsoft v06\_81\_00
+-   2018-06-20 Jason Stock : Code for perchannel corrected smart function in PhotonBackTracker. This is poison. This code is very fragile, and should not be relied on.
+-   2018-06-19 Lynn Garren : larsim v06\_13\_01\_10
+-   2018-06-18 Jason Stock : Adding initial code for channel corrected energies in PhotonBacktracker.
+-   2018-06-18 Herbert Greenlee : Merge remote-tracking branch ‘origin/feature/mibass\_NewFiltersMCC8’ into v06\_26\_01\_01\_branch
+-   2018-06-18 Beatriz Tapia Oregui : Merge branch ‘develop’ into feature/btapia\_hybridlibraryCB
+-   2018-06-17 Jose Soto : fix in ParPropTime function //dual phase photon time propagation
+-   2018-06-14 Lynn Garren : larsoft v06\_81\_00
+-   2018-06-13 Jason Stock : Revert “Accidentally reverted larsim version in ups product deps.”
+-   2018-06-13 Jason Stock : Accidentally reverted larsim version in ups product deps.
+-   2018-06-13 Jason Stock : Merge remote-tracking branch ‘refs/remotes/origin/develop’ into develop
+-   2018-06-13 Jason Stock : fixing bug stopping CI tests.
+-   2018-06-13 Jason Stock : Merge remote branch ‘origin/develop’ into develop
+-   2018-06-13 Jason Stock : silencing an error message until this is updated for art3.
+-   2018-06-13 Jason Stock : Merge branch ‘tmpLocal’ into develop
+-   2018-06-13 Jason Stock : Merge commit ‘LARSOFT\_SUITE\_v06\_80\_00’ into HEAD
+-   2018-06-13 Jason Stock : Removing a single un needed include that was left from some debugging.
+-   2018-06-13 Jason Stock : Updating the filling of the sim::OpDetBacktrackerRecords to log correct energy. Before the energy stored in OpDetBTRs was incorrectly set as the total energy deposited in a G4Step. Now it is strictly the VisibleEnergy deposited in a G4Step from fEMSaturation.
+-   2018-06-13 Lynn Garren : larsim v06\_50\_01 for larsoft v06\_81\_00
+-   2018-06-04 Marc Mengel : blank line change to test push
+-   2018-05-31 Lynn Garren : larsim v06\_50\_00 for larsoft v06\_80\_00
+-   2018-05-31 Lynn Garren : Merge branch ‘v06\_76\_00\_branch’ into release/v06\_80\_00
+-   2018-05-30 Lynn Garren : larsim v06\_49\_00 for larsoft v06\_79\_00
+-   2018-05-30 Lynn Garren : Merge branch ‘feature/jsoto\_dphasefix’ into release/v06\_79\_00
+-   2018-05-30 Lynn Garren : Merge branch ‘feature/gp\_OpticalDocumentation’ into release/v06\_79\_00
+-   2018-05-29 Gianluca Petrillo : Fixed code alignment, tabs converted into spaces
+-   2018-05-29 Gianluca Petrillo : Added some optical simulation documentation.
+-   2018-05-29 Gianluca Petrillo : Provided dump\_mctruth.fcl now supports dumping generators other than GENIE.
+-   2018-05-29 Lynn Garren : ignore more
+-   2018-05-29 Jose Soto : Fix of bug when using interpolation and extended photon libraries in dual phase geometry.
+-   2018-05-26 Jason Stock : Merge commit ‘LARSOFT\_SUITE\_v06\_77\_00’ into feature/JStock\_Ni59
+-   2018-05-24 Lynn Garren : larsim v06\_48\_00 for larsoft v06\_78\_00
+-   2018-05-23 Lynn Garren : Merge branch ‘feature/russo\_ticket\_19313’ into release/v06\_78\_00
+-   2018-05-23 Lynn Garren : using lardataalg
+-   2018-05-23 Beatriz Tapia Oregui : Hybrid Library ready to be published. It has been used so far with SP Far Detector 1x2x6 and DP ProtoDune DP geometry.
+-   2018-05-23 Bea Tapia : Merge remote-tracking branch ‘origin/develop’ into origin/feature/btapia\_hybridlibraryCB
+-   2018-05-23 Beatriz Tapia Oregui : Cleaned directory with Dual Phase option running enabled.
+-   2018-05-22 Paul Russo : Use FW\_SEARCH\_PATH to find the HistogramFile.
+-   2018-05-15 Lynn Garren : larsim v06\_47\_00 for larsoft v06\_77\_00
+-   2018-05-15 Lynn Garren : larsim v06\_46\_00\_01 for larsoft v06\_76\_00\_branch
+-   2018-05-15 Lynn Garren : Merge branch ‘feature/jsoto\_dphase\_timing3x1x1’ into release/v06\_77\_00
+-   2018-05-14 Lynn Garren : larsim v06\_13\_01\_09 for larsoft v06\_26\_01\_01\_branch
+-   2018-05-14 Lynn Garren : cetlib\_except/exception.h
+-   2018-05-14 Lynn Garren : only one messagefacility library
+-   2018-05-14 Lynn Garren : only one messagefacility library
+-   2018-05-10 Beatriz Tapia Oregui : Merge tag ‘LARSOFT\_SUITE\_v06\_70\_01’ into origin/feature/btapia\_hybridlibraryCB
+-   2018-05-10 Beatriz Tapia Oregui : Rearrangements to use in Dual Phase’s geometry.
+-   2018-05-09 Lynn Garren : larsim v06\_46\_00 for larsoft v06\_76\_00
+-   2018-05-08 Lynn Garren : remove unused variables to make clang happy
+-   2018-05-04 Matthew Bass : Added filters for filter neutrinos in crysotat and filtering events with no mc particles in them.
+-   2018-05-03 Wesley Ketchum : add energy to output tree for validation
+-   2018-05-03 Wesley Ketchum : Merge branch ‘feature/wketchum\_LArG4Refactor\_develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/wketchum\_LArG4Refactor\_develop
+-   2018-05-03 Wesley Ketchum : add ShiftEdepSCE module to shift energy depositions in space based on spacecharge, and fill in correlated numbers of electrons and photons
+-   2018-05-02 Herbert Greenlee : Remove unused variables.
+-   2018-05-01 Wesley Ketchum : did not commit a lot of my changes to get edeps going … oops…also add in sparsify trajectory option in LArG4
+-   2018-04-29 Wesley Ketchum : merging uboone larg4 refactor to develop
+-   2018-04-29 Wesley Ketchum : Merge branch ‘feature/wketchum\_LArG4Edeps\_2’ into develop
+-   2018-04-26 Lynn Garren : larsim v06\_13\_01\_08 for larsoft v06\_26\_01\_01\_branch
+-   2018-04-26 Wesley Ketchum : bug fix for track id
+-   2018-04-26 Jose Soto : Adding a parameter to define the rangge of the light time propagation function
+-   2018-04-25 Lynn Garren : larsim v06\_45\_00 for larsoft v06\_75\_00
+-   2018-04-25 Lynn Garren : Merge branch ‘feature/JStock\_PBTPIDep’ into release/v06\_75\_00
+-   2018-04-24 Jason Stock : Removing DetectorClocks from PhotonBackTracker and PhotonBackTrackerService (unused variable).
+-   2018-04-24 Jason Stock : Fixing c2 build issues (unused variable).
+-   2018-04-24 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_PBTPIDep
+-   2018-04-24 Lynn Garren : Merge branch ‘feature/JStock\_PBTPIDep’ into release/v06\_75\_00
+-   2018-04-24 Wesley Ketchum : bug fix to fix a minus sign on scintillation time
+-   2018-04-23 Jason Stock : Making a map for flashes (not great), isntead of many calls to FindManyP (really bad).
+-   2018-04-23 Jose Soto : Timing parameterization function variable initialized
+-   2018-04-22 Jose Soto : Photon Library Extension to light propagation time parameters. Fit function parameterized by the user with a fcl parameter.
+-   2018-04-19 Gianluca Petrillo : Removed unrequested feature introduced with issue [\#18704](/redmine/issues/18704 "Task: Change LBNEMC tags in SAM to DUNEMC tags in sam (Closed)").
+-   2018-04-19 Lynn Garren : larsoft v06\_74\_01
+-   2018-04-19 Jason Stock : Documentation for the ParticleInventory
+-   2018-04-19 Jason Stock : Merge remote branch ‘origin/develop’ into develop
+-   2018-04-19 Jason Stock : pre-update commit (comment changes only)
+-   2018-04-18 Lynn Garren : larsim v06\_44\_01 for larsoft v06\_74\_01
+-   2018-04-18 Jason Stock : BugFix with Flash functionality.
+-   2018-04-18 Jason Stock : Merge commit ‘LARSOFT\_SUITE\_v06\_74\_00’ into feature/JStock\_PBTPIDep
+-   2018-04-18 Jose Soto : Merge branch ‘develop’ into feature/jsoto\_dphase\_timing
+-   2018-04-18 Jose Soto : Implementation of the photon time distribution from a Landau parameters library.
+-   2018-04-17 Lynn Garren : Merge branch ‘feature/gp\_Issue18199’ into release/v06\_74\_01
+-   2018-04-16 Jason Stock : Merge remote branch ‘origin/feature/JStock\_PBTPIDep’ into feature/JStock\_PBTPIDep
+-   2018-04-16 Jason Stock : Cleaning up PBTs. Adding OpFlash tools to LArSoft facing service.
+-   2018-04-16 Aaron Higuera Pichardo : Adding hadron MC fate information
+-   2018-04-13 Gianluca Petrillo : Removed workaround for unmoveable simb::MCParticle
+-   2018-02-01 Gianluca Petrillo : Documentation format fix.
+-   2018-04-11 Lynn Garren : larsim v06\_44\_00 for larsoft v06\_74\_00
+-   2018-04-11 Lynn Garren : Merge branch ‘feature/gp\_Issue17804’ into release/v06\_74\_00
+-   2018-04-11 Gianluca Petrillo : Fixed an error in particle dumper
+-   2018-04-10 Lynn Garren : Merge branch ‘feature/gp\_Issue17804’ into release/v06\_74\_00
+-   2018-01-10 Gianluca Petrillo : LArG4 now saves the index of the original particle in its MCTruth
+-   2018-04-05 Lynn Garren : larsim v06\_43\_00 for larsoft v06\_73\_00
+-   2018-04-04 Lynn Garren : larsim v06\_13\_01\_07 for larsoft v06\_26\_01\_01\_branch
+-   2018-04-04 Lynn Garren : Merge branch ‘feature/team\_for\_c2’ into release/v06\_73\_00
+-   2018-04-04 Wesley Ketchum : add in the flags for MCC80Compat mode
+-   2018-04-02 Lynn Garren : Disable the loop per Herb’s instructions
+-   2018-03-30 Gianluca Petrillo : Relying on existing utilities to dump ROOT vectors to screen
+-   2018-03-30 Gianluca Petrillo : Removed unused variable.
+-   2018-03-30 Gianluca Petrillo : Removing redundant check
+-   2018-03-30 Gianluca Petrillo : Removing unnecessary inclusion of geometry
+-   2018-03-30 Gianluca Petrillo : Removing horrid inclusion of unnexessary POXIX headers
+-   2018-03-29 Lynn Garren : use pragmas here since the base class contains verboseLevel
+-   2018-03-29 Lynn Garren : put it back
+-   2018-03-29 Lynn Garren : remove unused variables reported by c2
+-   2018-03-29 Lynn Garren : use double braces
+-   2018-03-29 Lynn Garren : fix spelling
+-   2018-03-29 Lynn Garren : more
+-   2018-03-29 Lynn Garren : avoid a problem in fhicl
+-   2018-03-29 Lynn Garren : double braces
+-   2018-03-29 Lynn Garren : dealing with unused variables
+-   2018-03-29 Lynn Garren : use override
+-   2018-03-28 Lynn Garren : larsim v06\_42\_04 for larsoft v06\_72\_00
+-   2018-03-26 Jason Stock : small change to comment format in header.
+-   2018-03-26 Jason Stock : Merge remote branch ‘origin/feature/JStock\_PBTPIDep’ into feature/JStock\_PBTPIDep
+-   2018-03-26 Jason Stock : Merge commit ‘LARSOFT\_SUITE\_v06\_71\_00’ into feature/JStock\_PBTPIDep
+-   2018-03-22 Lynn Garren : add c2
+-   2018-03-20 Lynn Garren : larsim v06\_42\_03 for larsoft v06\_71\_00
+-   2018-03-15 Lynn Garren : larsim v06\_42\_02 for larsoft v06\_70\_02
+-   2018-03-15 Wesley Ketchum : Merge branch ‘feature/wketchum\_LArG4Edeps\_2’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/wketchum\_LArG4Edeps\_2
+-   2018-03-15 Wesley Ketchum : switch to using service to get recombA parameter?
+-   2018-03-14 Wesley Ketchum : remove the sim energy deposits from larvoxel since we do not use them there for the moment
+-   2018-03-14 Wesley Ketchum : updates to the propagation modules, cleanup
+-   2018-03-14 Wesley Ketchum : refactor the refactoring to clean it up
+-   2018-03-13 Wesley Ketchum : updates to get the photon library propagation module working
+-   2018-03-06 Lynn Garren : larsim v06\_42\_01 for larsoft v06\_70\_01
+-   2018-03-06 Jason Stock : Merge remote branch ‘origin/feature/JStock\_PBTPIDep’ into feature/JStock\_PBTPIDep
+-   2018-03-06 Jason Stock : Merge commit ‘LARSOFT\_SUITE\_v06\_70\_00’ into feature/JStock\_PBTPIDep
+-   2018-03-06 Jason Stock : Adding autodocumentation information to ParticleInventory.h for Doxygen
+-   2018-03-06 Jason Stock : Resolve merge conflict with merging v06\_70\_00
+-   2018-03-03 Wesley Ketchum : make energy depositions from opfastscintillation physics
+-   2018-03-01 Lynn Garren : for art v2\_10\_03
+-   2018-03-01 Lynn Garren : remove override
+-   2018-02-28 Lynn Garren : larsim v06\_41\_01 for larsoft v06\_69\_01
+-   2018-02-27 Jason Stock : Merge remote branch ‘origin/feature/JStock\_ParticleInventoryFix19023’ into feature/JStock\_PBTPIDep
+-   2018-02-26 Jason Stock : Merge tag ‘LARSOFT\_SUITE\_v06\_69\_00’ into feature/JStock\_PBTPIDep
+-   2018-02-26 Wesley Ketchum : add in the simdriftelectron module from Bill, and some updates
+-   2018-02-25 Tingjun Yang : Break once mct is found.
+-   2018-02-24 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2018-02-24 Tingjun Yang : Make sure mct does not exist in the vector.
+-   2018-02-24 Jason Stock : Merge branch ‘feature/JStock\_ParticleInventoryFix19023’ into develop
+-   2018-02-23 Jason Stock : A bug was found the ParticleInventory by Bruce Baller where TrackIdToMCTruth was not being correctly resolved. This was found to be due to an overflow error casting an int as a short. This resolves LArSoft issue [\#19023](/redmine/issues/19023 "Bug: Problem with MCTruth, MCParticle and hit associations (Closed)")
+-   2018-02-24 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/JStock\_ParticleInventoryFix19023’ into develop
+-   2018-02-24 Jason Stock : Switching check order to prevent segfault in filling truth records for particle inventory.
+-   2018-02-24 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/JStock\_ParticleInventoryFix19023’ into develop
+-   2018-02-23 Jason Stock : TestFix 1 for larsoft commit
+-   2018-02-22 Lynn Garren : add ifdh service
+-   2018-02-21 Lynn Garren : larsim v06\_41\_00 for larsoft v06\_69\_00
+-   2018-02-21 Jason Stock : Adding a single function to PhotonBackTracker
+-   2018-02-21 Jason Stock : Merge remote-tracking branch ‘origin/feature/JStock\_PBTPIDep’ into feature/JStock\_PBTPIDep
+-   2018-02-21 Jason Stock : renamed photonbacktracker.fcl
+-   2018-02-21 Jason Stock : Fix to prep\_OpDetBTRs
+-   2018-02-20 Lynn Garren : Merge branch ‘feature/mdeltutt\_evtwgt\_migration’ into release/v06\_69\_00
+-   2018-02-20 Jason Stock : Merge remote-tracking branch ‘origin/feature/JStock\_PBTPIDep’ into feature/JStock\_PBTPIDep
+-   2018-02-20 Jason Stock : small fix to bug fix. (typo).
+-   2018-02-20 Jason Stock : Merge remote-tracking branch ‘origin/feature/JStock\_PBTPIDep’ into feature/JStock\_PBTPIDep
+-   2018-02-20 Jason Stock : Bug Fix in PhotonBackTracker (used OpChannel where OpDet was needed).
+-   2018-02-19 Wesley Ketchum : fix clearing of edeps before one should, and reduce reserve size on photon library
+-   2018-02-19 Wesley Ketchum : backout of the slightly improved but not really given implementation SCE calculations
+-   2018-02-19 Jason Stock : Merge tag ‘LARSOFT\_SUITE\_v06\_67\_01’ into feature/JStock\_PBTPIDep
+-   2018-02-18 Wesley Ketchum : add in module for doing standalone photon propagation based on photon library and edeps
+-   2018-02-18 Wesley Ketchum : add ElectronDrift code
+-   2018-02-18 Wesley Ketchum : add an IonizationScintillation directory that is separate from LArG4, to be used for separated LArG4
+-   2018-02-18 Wesley Ketchum : fix for initial sim energy deposit and now working though i saw an event with no edeps??
+-   2018-02-18 Wesley Ketchum : add energy deposition storage to LArG4 module
+-   2018-02-18 Wesley Ketchum : add in energy deposition creation options in LArVoxelReadout
+-   2018-02-14 Marco Del Tutto : clean up and document more
+-   2018-02-13 Lynn Garren : larsim v06\_40\_02 for larsoft v06\_68\_00
+-   2018-02-12 Jason Stock : debugging and adding functions to the PhotonBackTracker
+-   2018-02-12 Jason Stock : Adding functions to the PhotonBackTracker to work on OpFlash objects
+-   2018-02-12 Marco Del Tutto : adjusting fcls - ub fcls are in uboonecode, here keep only the general config for genie reweight, and an example for running
+-   2018-02-09 Marco Del Tutto : Core of EventWeight migrated from uboonecode to larsim
+-   2018-02-07 Beatriz Tapia Oregui : added fit-\>Fill
+-   2018-02-06 Lynn Garren : larsim v06\_40\_01 for larsoft v06\_67\_01
+-   2018-02-06 Beatriz Tapia Oregui : Status after CM 01/2018
+-   2018-02-06 Christopher Backhouse : Merge remote-tracking branch ‘refs/remotes/origin/develop’ into develop
+-   2018-02-06 Christopher Backhouse : Uglier return via out-param for a 25% speedup in my test.
+-   2018-02-05 Christopher Backhouse : Make GetAllVisibilities() also hit the new code path where interpolation is possible.
+-   2018-02-04 Jason Stock : Fix to include statements in PhotonBackTracker.h
+-   2018-02-04 Jason Stock : Merge commit ‘LARSOFT\_SUITE\_v06\_67\_00’ into feature/JStock\_PBTPIDep
+-   2018-02-04 Jason Stock : Missed a few files in the last commit.
+-   2018-02-04 Jason Stock : First full implimentation of the PhotonBackTrackerService/PhotonBackTracker with Gallery compliance.
+-   2018-02-02 Lynn Garren : larsoft v06\_67\_00
+-   2018-02-01 Christopher Backhouse : First attempt at interpolation feature for photon library. Needs documentation and testing (probably doesn’t work yet), but PhotonLibraryAnalyzer doesn’t actually call getVisibility() so need to do some work there to see the effects of this.
+-   2018-02-01 Lynn Garren : larsim v06\_40\_00 for larsoft v06\_67\_00
+-   2018-02-01 Christopher Backhouse : Simplify implementation of GetVoxelID().
+-   2018-01-31 Lynn Garren : larsim v06\_13\_01\_06 for larsoft v06\_26\_01\_10
+-   2018-01-29 Herbert Greenlee : Merge branch ‘feature/greenlee\_mcc80compat’ into v06\_26\_01\_01\_branch
+-   2018-01-29 Herbert Greenlee : Merge remote-tracking branch ‘origin/feature/yuntse\_MCHitAssnsUbooneMCC8’ into v06\_26\_01\_01\_branch
+-   2018-01-24 Herbert Greenlee : MCC 8.0 compatibility mode.
+-   2018-01-23 Lynn Garren : larsim v06\_39\_01 for larsoft v06\_66\_00
+-   2018-01-22 Lynn Garren : larsim v06\_39\_00 for larsoft v06\_65\_00
+-   2018-01-19 Lynn Garren : Merge branch ‘feature/team\_for\_art209’ into release/v06\_65\_00
+-   2018-01-19 Lynn Garren : v06\_63\_00\_rc0
+-   2018-01-17 Lynn Garren : larsim v06\_38\_04 for larsoft v06\_64\_00
+-   2018-01-11 Lynn Garren : larsoft v06\_62\_01
+-   2018-01-10 Lynn Garren : larsim v06\_38\_03 for larsoft v06\_62\_01
+-   2018-01-10 Jason Stock : Adding a comment headder to BackTracker.tcc. Removing old BackTracker.
+-   2018-01-09 Gianluca Petrillo : Updated LArG4 documentation (timing of SimChannel).
+-   2018-01-08 Lynn Garren : update CMAKE\_MODULE\_PATH
+-   2018-01-02 Lynn Garren : larsim v06\_38\_02 for larsoft v06\_62\_00
+-   2017-12-20 Gianluca Petrillo : Added explanation of negative track IDs to LArG4 documentation.
+-   2017-12-19 Lynn Garren : larsim v06\_38\_01 for larsoft v06\_61\_00
+-   2017-12-18 Jason Stock : Merge tag ‘LARSOFT\_SUITE\_v06\_60\_00’ into feature/JStock\_Ni59
+-   2017-12-18 Jason Stock : Fixed a typo in the ALUMINUM reflectivity message.
+-   2017-12-18 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2017-12-17 Jason Stock : Update to RadioGen for Ni59 calibration sources.
+-   2017-12-13 Lynn Garren : larsim v06\_38\_00 for larsoft v06\_60\_00
+-   2017-12-13 Lynn Garren : larsoft\_data v1\_02\_01
+-   2017-12-13 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2017-12-13 Lynn Garren : Merge branch ‘feature/JStock\_RadioGenMultiPart’ into release/v06\_60\_00
+-   2017-12-13 Gianluca Petrillo : Changed the way to comment out a piece of code.
+-   2017-12-12 Jason Stock : Merge tag ‘LARSOFT\_SUITE\_v06\_58\_00’ into feature/JStock\_RadioGenMultiPart
+-   2017-12-12 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2017-12-12 Lynn Garren : larsim v06\_13\_01\_05
+-   2017-12-08 Wesley Ketchum : add in option to backtracker to ignore the realdata flag
+-   2017-12-07 Jason Stock : Beginning work on the ParticleInventory documentation.
+-   2017-12-06 Lynn Garren : larsim v06\_37\_00 for larsoft v06\_59\_00
+-   2017-12-06 Lynn Garren : Merge branch ‘feature/gp\_GenVectorTransition’ into release/v06\_59\_00
+-   2017-12-06 Tingjun Yang : Get the correct start\_tdc and end\_tdc accounting for the trigger offset etc.
+-   2017-12-06 Jason Stock : Minor fix. const sim::SimChannel\* replaced with art::Ptr\<sim::SimChannel\>
+-   2017-12-06 Jason Stock : Update to BackTracker service provider to make sure SimChannels are sorted when prepped.
+-   2017-12-06 Jason Stock : Fixed HitToXYZ bug causing segfault.
+-   2017-12-04 Gianluca Petrillo : Update script for changes related to GenVector adoption.
+-   2017-11-29 Lynn Garren : larsim v06\_36\_00 for larsoft v06\_58\_00
+-   2017-11-29 Lynn Garren : fix a typo
+-   2017-11-28 Lynn Garren : Merge branch ‘feature/JStock\_BackTrackerIntegratedUpdate’ into release/v06\_58\_00
+-   2017-11-28 Chris Backhouse : Fix mistake in interpretation of ROOT’s expo() function.
+-   2017-11-24 Jost Migenda : fixed field description in comment
+-   2017-11-21 Lynn Garren : larsim v06\_35\_00 for larsoft v06\_57\_00
+-   2017-11-21 Lynn Garren : Merge branch ‘feature/gp\_Issue17869’ into release/v06\_57\_00
+-   2017-11-21 Jason Stock : Fixing an issue preventing the backtracker from correctly returning pointers to IDEs inside a SimChannels object.
+-   2017-11-19 Jason Stock : Update backtracker to pass event directly between prep functions. This is part of the non-lazy regression.
+-   2017-11-19 Jason Stock : Making events get passed to various functions to continue to try and circumvent event caching for now.
+-   2017-11-16 Jason Stock : Quick fixes to catch failures of rebuild (reverting to the old backtracker functionality). It isn’t pretty, but it will work until we resolve the lazy rebuild needs.
+-   2017-11-16 Jason Stock : Temporarily blocking some backtracker functions that don’t work well without lazy loading.
+-   2017-11-15 Jason Stock : Merge commit ‘LARSOFT\_SUITE\_v06\_56\_01’ into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-11-15 Jason Stock : Merge remote-tracking branch ‘remotes/origin/feature/JStock\_BackTrackerIntegratedUpdate’ into feature/JStock\_BackTrackerNoLazyUpdate
+-   2017-11-14 Jason Stock : Merge remote-tracking branch ‘origin/feature/JStock\_BackTrackerNoLazyUpdate’ into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-11-14 Lynn Garren : larsim v06\_34\_01 for larsoft v06\_56\_01
+-   2017-11-14 Jason Stock : Adding in rebuild to backtracker and particleinventory for non-lazy backtracking prep.
+-   2017-11-14 Jason Stock : Removed default copy operators from the backtracking service providers. Cleaned up some code to my liking.
+-   2017-11-12 Jason Stock : Changing Particle Inventoty to use a private class for it’s service provider
+-   2017-11-12 Jason Stock : Update to BackTracker to use a private class instead of a member for the service provider. This allows the structure to more closely follow the other services.
+-   2017-11-12 Jason Stock : Re-adding in backtracker\_loader
+-   2017-11-12 Jason Stock : Making the BackTrackerService use a private inheritance class to allow the use of provider to conform to other use cases in larsoft.
+-   2017-11-12 Jason Stock : Changed ParticleInventory to use private inheritance instead of a member function (this allows the use of the provider function to conform to other use cases in larsoft.
+-   2017-11-11 Jason Stock : Merge tag ‘LARSOFT\_SUITE\_v06\_56\_00’ into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-11-11 Jason Stock : Merge tag ‘LARSOFT\_SUITE\_v06\_56\_00’ into feature/JStock\_RadioGenMultiPart
+-   2017-11-10 Chris Backhouse : Set up FNAL location for library.
+-   2017-11-10 Gianluca Petrillo : LArG4 now produces associations with art::PtrMaker.
+-   2017-11-10 Chris Backhouse : Hacky module to create the hybrid library file from the regular libraries.
+-   2017-11-10 Gianluca Petrillo : Added some LArG4 documentation
+-   2017-11-09 Gianluca Petrillo : GENIEGen now dumps interactions of unknown types.
+-   2017-11-03 Gianluca Petrillo : Updated MCDumpers modules to use the new functions
+-   2017-11-03 Gianluca Petrillo : Utility functions to dump simb objects on screen
+-   2017-11-10 Chris Backhouse : A few minor fixes. Things now work. Also add simple job to run the analyzer module.
+-   2017-11-10 Chris Backhouse : Enable hybrid library construction in the service.
+-   2017-11-10 Chris Backhouse : Initial attempt at implementing PhotonLibraryHybrid.
+-   2017-11-10 Chris Backhouse : Use PhotonLibrary via the interface. Required dropping various “Set” methods from the service. No one seems to be using them anyway…
+-   2017-11-10 Chris Backhouse : Add IPhotonLibrary interface and make PhotonLibrary implement it.
+-   2017-11-08 Lynn Garren : larsim v06\_34\_00 for larsoft v06\_56\_00
+-   2017-11-07 Jason Stock : Merge branch ‘feature/JStock\_BackTrackerIntegratedUpdate’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-11-07 Jason Stock : Merge branch ‘feature/JStock\_BackTrackerIntegratedUpdate’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-11-07 Lynn Garren : Merge branch ‘feature/yuntse\_trackide’ into release/v06\_56\_00
+-   2017-11-07 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-11-07 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-11-07 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-11-07 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-11-06 Yun-Tse Tsai : checkout the header from origin/feature/yuntse\_trackide
+-   2017-11-06 Yun-Tse Tsai : add one variable for number of electrons collected at a wire for TrackIDE
+-   2017-11-06 Yun-Tse Tsai : add number of electrons in TrackIDE
+-   2017-11-05 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2017-11-05 Jason Stock : Material Property Loader change to allow reflective aluminum
+-   2017-11-01 Lynn Garren : include headers
+-   2017-11-01 Jason Stock : Making a few best practices changes at Gianluca’s advice. (Removal of destructors)
+-   2017-11-01 Jason Stock : Correction to the getByHandle functions in the backtracker and particle inventory for prepping the BT Cache
+-   2017-10-31 Lynn Garren : larsim v06\_33\_01 for larsoft v06\_55\_01
+-   2017-10-31 Gianluca Petrillo : PhotonLibrary does not allocate reflected photons unless requested.
+-   2017-10-31 Jason Stock : Correcting qualifiers on functions adjusted in the last commit
+-   2017-10-30 Jason Stock : Adding in prep for ParticleLists in ParticleInventoryService
+-   2017-10-30 Jason Stock : Bug Fix. SimChannels could be called without prepping the SimChannels through the BackTracker.
+-   2017-10-30 Jason Stock : Changing template file names to match an extension cet can interpret (tpp -\> tcc)
+-   2017-10-30 Jason Stock : Updates to fhicl validation in BackTrackerService and ParticleInventoryService.
+-   2017-10-29 Jason Stock : Adding Particle Inventory to appropriate fcl files.
+-   2017-10-28 Jason Stock : Fixing backtracker fcl file.
+-   2017-10-28 Jason Stock : Setting this branch back up for the BackTrackerService/ParticleInventoryService update.
+-   2017-10-28 Jason Stock : These were breaking changes that should stay on their feature branch until the next release.
+-   2017-10-27 Jason Stock : BackTrackerService was incorrectly named in one of the singles gen fcl files. This is corrected.
+-   2017-10-27 Gianluca Petrillo : Merge branch ‘develop’ into feature/gp\_Issue17869
+-   2017-10-27 Jason Stock : Changing use of TrackIdToParticle to use pointer.
+-   2017-10-27 Jason Stock : Forgot to add the header for ParticleInventoryService to RecoCheck. Fixed
+-   2017-10-27 Jason Stock : Patching RecoCheck module to use BackTrackerService
+-   2017-10-27 Jason Stock : Fix to Check BackTracking Module (ParticleInventory implimentation).
+-   2017-10-17 Gianluca Petrillo : Revised SingleGen internal parsing of histograms.
+-   2017-10-27 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock\_BackTrackerIntegratedUpdate
+-   2017-10-26 Jason Stock : BackTracker Integrated Update. Pre Test 1
+-   2017-10-25 Lynn Garren : larsim v06\_33\_00 for larsoft v06\_55\_00
+-   2017-10-21 Jason Stock : removing G4ModuleLable from ParticleInventoryService. It isn’t needed outside the service provider.
+-   2017-10-20 Jason Stock : Finalizing fhicl validation in ParticleInventoryService and passthrough of a fhicl table to ParticleInventory
+-   2017-10-20 Jason Stock : squash renaming a couple items
+-   2017-10-20 Jason Stock : Making the ParticleInventoryService fhicl validation ready.
+-   2017-10-20 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp\_Issue17869
+-   2017-10-19 Jason Stock : Merge remote-tracking branch ‘origin/develop’ into feature/JStock\_RadioGenMultiPart
+-   2017-10-19 Jason Stock : Bug Fix in the PrepEvent for the ParticleInventory service provider. Missing negation.
+-   2017-10-19 Jason Stock : Merge remote-tracking branch ‘origin/develop’ into feature/JStock\_ParticleInventory
+-   2017-10-19 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_RadioGenMultiPart
+-   2017-10-19 Jason Stock : Making the TrackIdToEveTrackId function constant. (for use in BackTracker).
+-   2017-10-19 Jason Stock : Adding TrackIdToEveTrackId function to ParticleInventory (Needed for new HitToEveId function in BackTracker).
+-   2017-10-18 Gianluca Petrillo : Distribution and mode configuration now support names.
+-   2017-10-18 Gianluca Petrillo : Introduced FHiCL validation for SingleGen
+-   2017-10-18 Jason Stock : Merge remote-tracking branch ‘remotes/origin/develop’ into feature/JStock\_ParticleInventory
+-   2017-10-18 Jason Stock : Final touches on some of the template methods. Implimenting last cleanup and data retrieval.
+-   2017-10-18 Lynn Garren : larsim v06\_32\_00 for larsoft v06\_54\_00
+-   2017-10-18 Gianluca Petrillo : Removing old code from SingleGen
+-   2017-10-17 Jason Stock : Adding in useful error handeling.
+-   2017-10-17 Jason Stock : Update to ParticleInventory using reccomendations for Gianluca to clean up a couple points and begin adding fhicl validation support.
+-   2017-10-17 Gianluca Petrillo : Revised internal management of SingleGen histograms.
+-   2017-10-17 Gianluca Petrillo : Revised SingleGen internal parsing of histograms.
+-   2017-10-17 Dorota Stefan : add two more parameters that allow to change range of the histograms showing the vertex positions. This change is useful for dual phase geometry where we expect to have asymmetric range.
+-   2017-10-13 Jason Stock : Bandaid for the ParticleInventoryService provider type until I can sit down with an expert and do it right.
+-   2017-10-13 Jason Stock : Added larprovider type to ParticleInventoryService
+-   2017-10-13 Jason Stock : Slight change in naming conventions to make functions which return pointers or vectors of pointers more explicit
+-   2017-10-13 Lynn Garren : larsoft v06\_53\_00
+-   2017-10-12 Jason Stock : Added header for Message Facility
+-   2017-10-12 Jason Stock : Updating ParticleInventory functions to be const and making the cache objects mutable.
+-   2017-10-12 Jason Stock : Fixed a bug. The run flag was backwards for realData vs Simulation.
+-   2017-10-12 Jason Stock : Changing the use of the PartInv so that a pointer to the instance can be given to BackTracker and PhotonBackTracker.
+-   2017-10-12 Jason Stock : removing fhicl support due to errors. I’ll need to talk to someone about the right way to configure ParticleInventory.
+-   2017-10-12 Jason Stock : Making Particle Inventory fhcl configurable.
+-   2017-10-12 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock\_RadioGenMultiPart
+-   2017-10-12 Jason Stock : Reduce dependency on art. (Only art::Handle left).
+-   2017-10-12 Lynn Garren : larsim v06\_31\_04 for larsoft v06\_53\_00
+-   2017-10-12 Steven Gardiner : Fix bug that prevented evgen::MARLEYHelper from loading user-defined neutrino spectra from TGraph or TH1D objects stored in ROOT files.
+-   2017-10-11 Jason Stock : Quick squash to clean up commits before sharing. Initial Commit of ParticleInventoryService.
+-   2017-10-10 Lynn Garren : for larsoft v06\_26\_01\_06
+-   2017-10-04 Jason Stock : Merge remote-tracking branch ‘origin/develop’ into feature/JStock\_RadioGenMultiPart
+-   2017-10-04 Lynn Garren : larsim v06\_31\_03 for larsoft v06\_52\_00
+-   2017-09-26 Lynn Garren : larsim v06\_31\_02 for larsoft v06\_51\_00
+-   2017-09-25 Alex Himmel : Fix uninitialized variables causing library size to explode. Also, clean up indentation.
+-   2017-09-14 Jason Stock : Merge branch ‘feature/JStock\_RadioGenMultiPart’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock\_RadioGenMultiPart
+-   2017-09-12 Lynn Garren : larsim v06\_31\_01 for larsoft v06\_49\_01
+-   2017-09-12 Lynn Garren : for larsoft v06\_26\_01\_05
+-   2017-09-07 Jason Stock : Merge branch ‘develop’ into feature/JStock\_RadioGenMultiPart
+-   2017-09-06 Lynn Garren : larsim v06\_31\_00 for larsoft v06\_49\_00
+-   2017-08-31 Lynn Garren : for art 2.08.03
+-   2017-08-31 Lynn Garren : Merge branch ‘develop’ into feature/team\_for\_art\_2\_08
+-   2017-08-29 Lynn Garren : larsim v06\_30\_00 for larsoft v06\_48\_00
+-   2017-08-29 Lynn Garren : Merge branch ‘feature/gardiner\_MARLEY\_upgrade’ into release/v06\_48\_00
+-   2017-08-28 Lynn Garren : for larsoft test release v06\_47\_01\_01
+-   2017-08-23 Steven Gardiner : Add example FHiCL file for use with the MARLEYTimeGen module
+-   2017-08-23 Steven Gardiner : Rename the event tree branches to “event” to match the MARLEY v1.0.0 convention.
+-   2017-08-22 Lynn Garren : larsim v06\_29\_02 for larsoft v06\_47\_01
+-   2017-08-21 Steven Gardiner : Add more doxygen documentation to the MARLEYTimeGen module
+-   2017-08-21 Steven Gardiner : Rename the MARLEYGenerator class to MARLEYHelper, in agreement with a similar convention for algorithm classes that provide access to CRY and GENIE
+-   2017-08-16 Steven Gardiner : Add output histograms that show the neutrino emission profiles when using a “fit”-format spectrum file
+-   2017-08-15 Steven Gardiner : Rewrite code to handle “fit” spectrum files to handle the new format used in the dune\_pardata supernova flux database
+-   2017-08-15 Steven Gardiner : Optimize calculation of the flux-averaged total cross section when using “fit”-format spectrum files
+-   2017-08-14 Steven Gardiner : Use Clenshaw-Curtis quadrature to compute integrals (via marley::Integrator) rather than the trapezoidal rule
+-   2017-08-14 Steven Gardiner : Separate the statistical event weight from the flux-averaged cross section in the sim::SupernovaTruth data product
+-   2017-08-14 Steven Gardiner : Add capability for MARLEYTimeGen to use a parameterized spectrum file format in addition to 2D ROOT histograms
+-   2017-07-18 Steven Gardiner : Update the MARLEY folder’s CMakeLists.txt to link to larcorealg\_Geometry instead of larcore\_Geometry
+-   2017-06-30 Steven Gardiner : Finish implementing biased sampling, neutrino reweighting, module configuration, etc.
+-   2017-06-13 Steven Gardiner : Add the SupernovaTruth data product (now produced by the MARLEYTimeGen module)
+-   2017-05-17 Steven Gardiner : Add an initial version of the MARLEYTimeGen module
+-   2017-04-20 Steven Gardiner : Encapsulate the vertex position sampling method used in the MARLEYGen module into a stand-alone algorithm class, and refactor the module to use it.
+-   2017-04-20 Steven Gardiner : Add example FHiCL script that produces MARLEY samples in LArIAT.
+-   2017-04-20 Steven Gardiner : Encapsulate the MARLEY interface into a stand-alone algorithm class, and refactor the MARLEYGen module to use the new algorithm.
+-   2017-04-18 Steven Gardiner : Add FHiCL configuration validation to the MARLEYGen module. Upgrade the module to use the marley::JSON class (new as of MARLEY v1.0.0) to configure the generator.
+-   2017-08-16 Lynn Garren : larsim v06\_29\_01 for larsoft v06\_47\_00
+-   2017-08-16 Lynn Garren : for cetbuildtools v5\_14\_00
+-   2017-08-09 Lynn Garren : larsim v06\_29\_00 for larsoft v06\_46\_00
+-   2017-08-08 Jason Stock : Small bug fix. Correcting format for regex match Ar42.
+-   2017-08-08 Jason Stock : Merge remote-tracking branch ‘remotes/origin/feature/JStock\_RadioGenMultiPart’ into develop
+-   2017-08-08 Jason Stock : Merge branch ‘develop’ into feature/JStock\_RadioGenMultiPart
+-   2017-08-08 Gianluca Petrillo : Reformatted TextFileGen documentation to be exposed to Doxygen.
+-   2017-08-07 Lucas Mendes Santos : Merge branch ‘feature/dump\_opdetbacktrackerrecords’ into develop
+-   2017-08-07 Lucas Mendes Santos : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/dump\_opdetbacktrackerrecords
+-   2017-08-07 Lucas Mendes Santos : New OpDetBacktrackerRecord Dumper, did some corrections in comments and changed the author name From Gianluca to myself
+-   2017-08-07 Jason Stock : Adding the ability to generate more than one particle per decay for the radiological generator. Added the structure needed to properly model a complete K42-Ca42 (For Ar42 decay).
+-   2017-08-07 Jason Stock : Restoring bug fix removed by commit 13f7f1bf. This should also address LArSoft Issue [\#17124](/redmine/issues/17124 "Bug: PhotonBacktracking to track 0. (Closed)").
+-   2017-08-06 Lucas Mendes Santos : Creation of a OpDetBacktrackerRecords Dumper
+-   2017-08-06 Lucas Mendes Santos : Creation of a OpDetBacktrackerRecords Dumper
+-   2017-08-06 Jason Stock : Changing ides to sdps in a couple places for correctness and consistency.
+-   2017-08-01 Lynn Garren : larsim v06\_28\_01 for larsoft v06\_45\_01
+-   2017-07-31 Jason Stock : Fixing tabs in Backtracker\_service. Only fixing tabs. No functional changes.
+-   2017-07-25 Lynn Garren : larsim v06\_28\_00 for larsoft v06\_45\_00
+-   2017-07-25 Lynn Garren : Merge branch ‘v06\_38\_00\_01\_branch’ into release/v06\_45\_00
+-   2017-07-21 Gianluca Petrillo : An attempt to a solution to issue [\#17117](/redmine/issues/17117 "Bug: prodsingle_sbnd.fcl crashes with larsoft v06_42_00 (Closed)").
+-   2017-07-18 Lynn Garren : larsim v06\_27\_00 for larsoft v06\_44\_00
+-   2017-07-18 Lynn Garren : Merge branch ‘feature/dgg\_lightpropv2’ into release/v06\_44\_00
+-   2017-07-17 Jeremy Hewes : Fixing bug in nnbar generator module, which was caused by changes in GENIE implementation.
+-   2017-07-12 Lynn Garren : larsim v06\_26\_00 for larsoft v06\_43\_00
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-02 Diego Gamez : temporary fix for the optical photon first step bug in the estimation of the tim
+-   2017-07-02 Diego Gamez : including g4 default opBoundary option
+-   2017-07-02 Diego Gamez : including g4 default opBoundary option
+-   2017-06-28 Lynn Garren : larsim v06\_25\_01 for larsoft v06\_42\_00
+-   2017-06-27 Lynn Garren : larsoft\_data v1\_02\_00
+-   2017-06-21 Lynn Garren : larsim v06\_25\_00 for larsoft v06\_41\_00
+-   2017-06-15 Gianluca Petrillo : Ooops. Swapped two steps.
+-   2017-06-14 Gianluca Petrillo : Added simplifyGDML utility to redigest and simplify a GDML file.
+-   2017-06-14 Lynn Garren : larsim v06\_24\_01 for larsoft v06\_40\_01
+-   2017-06-13 Lynn Garren : larsim v06\_24\_00 for larsoft v06\_40\_00
+-   2017-06-09 Lynn Garren : fix larevt
+-   2017-06-09 Lynn Garren : larsim v06\_23\_00\_02
+-   2017-06-09 Lynn Garren : larsim v06\_23\_00\_01
+-   2017-06-09 Lynn Garren : ignoreTotal is obsolete
+-   2017-06-09 Lynn Garren : marley v0\_9\_5d
+-   2017-06-09 Lynn Garren : igore \*\~
+-   2017-06-02 Lynn Garren : larsim v06\_23\_00\_01
+-   2017-06-01 Lynn Garren : Merge branch ‘feature/team\_for\_v06\_34\_01\_01’ into feature/team\_for\_v06\_38\_00\_01
+-   2017-05-30 Lynn Garren : larsim v06\_23\_00 for larsoft v06\_37\_01
+-   2017-05-30 Jason Stock : Modified code in RadioGen to allow for use of experiment specific radiologic spectra in their own FW\_SEARCH\_PATH.
+-   2017-05-26 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2017-05-25 Jason Stock : Adding ability to handle neutrons to radiogen
+-   2017-05-23 Lynn Garren : larsim v06\_22\_01 for larsoft v06\_37\_00
+-   2017-05-23 Jason Stock : Small change to ParticleListAction to assure that the fTrackIDOffset is only changed when in fact a track exists from a given generator. This addressed LArSoft issue [\#16641](/redmine/issues/16641 "Bug: G4 produces multiple particles with the same TrackID when called from generators that may not pro... (Closed)").
+-   2017-05-17 Hans Wenzel : make sure that physics is initialized
+-   2017-05-16 Lynn Garren : larsim v06\_22\_00 for larsoft v06\_36\_00
+-   2017-05-15 Gianluca Petrillo : Added BackTracker to jobs using SimPhotonCounter.
+-   2017-05-15 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/dgg\_lightprop
+-   2017-05-10 Lynn Garren : larsim v06\_21\_00 for larsoft v06\_35\_00
+-   2017-05-10 Diego Gamez : loading the TPB properties, if chosen
+-   2017-05-10 Lynn Garren : Merge branch ‘afurmans\_particleBomb’ into release/v06\_35\_00
+-   2017-05-10 Diego Gamez : doing false by default the new pvs parameters related with reflected light and prop timing
+-   2017-05-09 Andrew Furmanski : fixed a bug in SingleGen (when trying to do a ParticleBomb)
+-   2017-05-09 Andrew Furmanski : Fixed a bug in SingleGen
+-   2017-05-09 Lynn Garren : Merge branch ‘afurmans\_particleBomb’ into release/v06\_35\_00
+-   2017-05-09 Andrew Furmanski : updated to use 2D angular histograms
+-   2017-05-04 Lynn Garren : larsim v06\_13\_01\_02
+-   2017-05-04 Lynn Garren : for larsoft v06\_34\_01\_01 with geant4 v4\_10\_3\_p01
+-   2017-05-04 Lynn Garren : modify to make it work with geant 10.3.p01
+-   2017-05-03 Herbert Greenlee : Merge remote-tracking branch ‘origin/v06\_13\_01\_optical\_patch’ into v06\_26\_01\_01\_branch
+-   2017-05-03 Dorota Stefan : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2017-05-03 Dorota Stefan : add hittotrackid with reference to hit as an argument
+-   2017-05-02 Lynn Garren : larsim v06\_20\_01 for larsoft v06\_34\_01
+-   2017-05-02 Lynn Garren : Merge branch ‘feature/mibass\_CorsikaGenTimingFix’ into release/v06\_34\_01
+-   2017-05-02 drinkingkazu : Forgotten fix! integer effect was still there. this really fixes it, and I left commented-out lines for me to run analysis using csv file.
+-   2017-05-02 Gianluca Petrillo : Remove duplicate plugin (now in nutools)
+-   2017-05-02 Gianluca Petrillo : Fixed some more Doxygen warnings.
+-   2017-05-02 drinkingkazu : Forgotten fix! integer effect was still there. this really fixes it, and I left commented-out lines for me to run analysis using csv file.
+-   2017-05-01 Lynn Garren : Revert “modify to make it work with geant 10.3.p01”
+-   2017-05-01 Lynn Garren : Revert “modify to make it work with geant 10.3.p01”
+-   2017-05-01 Lynn Garren : Revert “modify to make it work with geant 10.3.p01”
+-   2017-05-01 Lynn Garren : Revert “modify to make it work with geant 10.3.p01”
+-   2017-05-01 Hans Wenzel : modify to make it work with geant 10.3.p01
+-   2017-05-01 Hans Wenzel : modify to make it work with geant 10.3.p01
+-   2017-05-01 Hans Wenzel : modify to make it work with geant 10.3.p01
+-   2017-05-01 Hans Wenzel : modify to make it work with geant 10.3.p01
+-   2017-05-01 Herbert Greenlee : Merge remote-tracking branch ‘origin/v06\_13\_01\_optical\_patch’ into v06\_26\_01\_01\_branch
+-   2017-04-26 Matthew Bass : Fixed timing bias due to correlations between spatial and time coordinates by adding independent randomness in the spatial coordinates.
+-   2017-04-27 Lynn Garren : larsim v06\_20\_00 for larsoft v06\_34\_00
+-   2017-04-27 Lynn Garren : Merge branch ‘v06\_13\_01\_optical\_patch’ into release/v06\_34\_00
+-   2017-04-26 drinkingkazu : 0) eliminate bug if statement that checks always-nullptr-is-nullptr-or-not, 1) ISCalculation.h to return ‘mean’ ionization electron and photon counts, and 2) avoid integer casting in OpFastScintillation.cxx where unnecessarily applied and caused both underestimation of photons and artificial increase in photon count resolution
+-   2017-04-26 Matthew Bass : Fixed timing bias due to correlations between spatial and time coordinates by adding independent randomness in the spatial coordinates.
+-   2017-04-20 Gianluca Petrillo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2017-04-19 Gianluca Petrillo : Removed CVS \$Id\$ tag from the comments (not supported by GIT).
+-   2017-04-19 Gianluca Petrillo : Fixed source file name for Doxygen documentation.
+-   2017-04-19 Lynn Garren : larsim v06\_19\_00 for larsoft v06\_33\_00
+-   2017-02-23 Gianluca Petrillo : Prevent space charge distortion from making charge cross the wire planes.
+-   2017-04-17 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp\_Issue16129
+-   2017-04-14 Thomas Junk : Sort the vector of simchannel pointers by channel number, and use a log2 search to find the simchannels in it in order to speed up FindSimChannel
+-   2017-04-14 Gianluca Petrillo : Modified MCTruth output about particle origin.
+-   2017-04-14 Gianluca Petrillo : Fixed bug (issue [\#16208](/redmine/issues/16208 "Bug: DumpMCTruth module crashes with a segmentation fault (Closed)")).
+-   2017-04-13 Gianluca Petrillo : Adding a small margin to the charge recovery position.
+-   2017-04-13 Lynn Garren : larsim v06\_18\_00 for larsoft v06\_32\_00
+-   2017-04-13 Lynn Garren : Merge branch ‘feature/team\_for\_gcc630’ into release/v06\_32\_00
+-   2017-04-12 Lynn Garren : larsim v06\_17\_01 for larsoft v06\_31\_01
+-   2017-04-06 Lynn Garren : cast stringstream to string
+-   2017-04-06 Lynn Garren : use curly braces
+-   2017-04-10 Gianluca Petrillo : Use the active plane as boundary for charge recovery.
+-   2017-04-10 Gianluca Petrillo : Added option “ChargeRecoveryMargin” to LArG4.
+-   2017-04-07 Diego Gamez : all the modifications for the simulation of the propagation time of the photons
+-   2017-04-07 Diego Gamez : modifying the photon library visibilities and services to include the reflected component
+-   2017-04-06 Lynn Garren : add implied curly braces
+-   2017-04-06 Lynn Garren : use e14
+-   2017-04-06 Lynn Garren : cast stringstream to string
+-   2017-04-06 Lynn Garren : use curly braces
+-   2017-04-05 Lynn Garren : larsim v06\_17\_00 for larsoft v06\_31\_00
+-   2017-04-04 Gianluca Petrillo : Moving DumpRawDigits module to lardata.
+-   2017-04-04 Lynn Garren : larsim v06\_13\_01\_01
+-   2017-04-03 Lynn Garren : larsim v06\_16\_00
+-   2017-03-30 Lynn Garren : Merge branch ‘v06\_30\_00\_rc’ into v06\_30\_00-branch
+-   2017-03-29 Lynn Garren : larsim v06\_15\_00 for larsoft v06\_29\_00
+-   2017-03-23 Gianluca Petrillo : Adapting to SpaceCharge provider interface changes.
+-   2017-03-29 Gianluca Petrillo : Bug fix (fatal typo) in empty\_events.fcl
+-   2017-03-24 Thomas Junk : Fix energy histogram upper edge – thanks to Juergen Reichenbacher for spotting that.
+-   2017-03-15 Lynn Garren : add missing library
+-   2017-03-15 Lynn Garren : larsim v06\_14\_00 for larsoft v06\_28\_00
+-   2017-03-15 Gianluca Petrillo : Added \`empty\_events.fcl\` configuration to create empty events.
+-   2017-03-12 Robert Sulej : add TrackIDToSimIDE with view selected by argument
+-   2017-03-10 Lynn Garren : for larsoft v06\_30\_00\_rc1 with art v2\_06\_01
+-   2017-03-10 Lynn Garren : Merge branch ‘feature/at\_for\_art\_2\_06’ into release/v06\_30\_00\_rc1
+-   2017-03-08 Lynn Garren : larsim v06\_13\_03 for larsoft v06\_27\_00
+-   2017-03-06 Lynn Garren : for art v2\_06
+-   2017-03-06 Lynn Garren : adjust link lists
+-   2017-03-06 Lynn Garren : simple\_plugin does not supply cetlib\_except
+-   2017-03-03 Jason Stock : OpFastScintillation now includes larsim/ParticleListAction.h OpFastScintillation now uses ParticleListAction to determine the TrackIDs of G4Tracks and steps instead of relying on the G4Tracks to know their correct ID.
+-   2017-02-28 Lynn Garren : larsim v06\_13\_02 for larsoft v06\_26\_02
+-   2017-02-23 Gianluca Petrillo : Prevent space charge distortion from making charge cross the wire planes.
+-   2017-02-22 Gianluca Petrillo : DumpMCTruth module added. It does what it says.
+-   2017-02-21 Lynn Garren : larsim v06\_13\_01 for larsoft v06\_26\_00
+-   2017-02-16 Andrew Furmanski : cleaned up code
+-   2017-02-16 Andrew Furmanski : fixed angle calculation in SampleOne as well as SampleMany
+-   2017-02-16 Andrew Furmanski : fixed a misunderstanding of what thetaxy and thetaxz mean
+-   2017-02-15 Andrew Furmanski : changed how angles are selected from histograms (theta,phi vs thetaxz,thetayz issues)
+-   2017-02-15 Andrew Furmanski : made further updates and bug fixes to retain backwards compatibility
+-   2017-02-15 Lynn Garren : larsim v06\_13\_00 for larsoft v06\_25\_00
+-   2017-02-14 Thomas Junk : Update my feature branch with other commits
+-   2017-02-14 Thomas Junk : Remove ad-hoc 39Ar simulation from LArVoxelReadout and associated files setting up its random number generator and rates. This has been superseded by the radiological generator in the EventGenerators directory.
+-   2017-02-07 Lynn Garren : larsim v06\_12\_00 for larsoft v06\_24\_00
+-   2017-02-07 Lynn Garren : Merge branch ‘feature/zennamo\_FunctionalFormFlux’ into release/v06\_24\_00
+-   2017-02-06 Gianluca Petrillo : MCReco module: release some memory after use.
+-   2017-02-03 Joseph Zennamo : Merge branch ‘develop’ into feature/zennamo\_FunctionalFormFlux
+-   2017-02-02 Lynn Garren : larsoft v06\_23\_00
+-   2017-02-02 Gianluca Petrillo : Random number engines update in CORSIKAGen module.
+-   2017-02-02 Lynn Garren : larsim v06\_11\_01 for larsoft v06\_23\_00
+-   2017-02-01 Thomas Junk : Add some commented-out logdebugs
+-   2017-02-01 Thomas Junk : Better comment
+-   2017-02-01 Thomas Junk : Add descriptive comment, and a check that we have as many material regex’s as we have nuclides on the list
+-   2017-02-01 Thomas Junk : make radiogen aware of geometry – need to specify which materials are radioactive and skip others in the prism
+-   2017-02-01 Thomas Junk : Make radiogen aware of geometry – specify only those materials we want to be radioactive and skip others
+-   2017-01-31 Joseph Zennamo : Adding an explicit fcl parameter for the binning of the functional flux
+-   2017-01-25 Lynn Garren : larsim v06\_11\_00 for larsoft v06\_22\_00
+-   2017-01-24 Joseph Zennamo : modified fcl parameters to work with a new nutools feature-branch (with same name) that allows users to define a functional form for the neutrino flux and generate events within a user defined energy range
+-   2017-01-22 Jason Stock : Changing a comment for correctness in the PhotonBackTracker. No change in code.
+-   2017-01-22 Jason Stock : Corrected name in PhotonBackTracker.h Deprecated poorly named functions. Replacement functions created with more descriptive names.
+-   2017-01-22 Jason Stock : Corrections to the PhotonBackTracker in ChannelsToSDPs. Times in OpDetBacktrackerRecords are double G4Times. As such, TDC-ticks should not be used for SDP lookup. This is a bugfix and should not have any breaking changes.
+-   2017-01-18 Lynn Garren : larsim v06\_10\_04 for larsoft v06\_21\_00
+-   2017-01-18 Lynn Garren : Merge branch ‘feature/wketchum\_InTimeCosmic’ into release/v06\_21\_00
+-   2017-01-17 Jason Stock : Implimenting fix to only throw an error for missing OpDetBacktrackerRecords when using backtracker functions. The configuration will succede with non-photonbacktrackable files, but calling backtracker functions from such files will now throw a CET exception.
+-   2017-01-12 Lynn Garren : larsim v06\_10\_03 for larsoft v06\_20\_00
+-   2017-01-06 Jason Stock : Bug Fix. Correcting use of FindOpDetBackTrackerRecord to use the OpticalDetector Number as input instead of Optical Channel (Channels do not exist yet at the level OpDetBackTrackerRecords are generated).
+-   2017-01-06 Jason Stock : Minor changes to PhotonBackTracker for better practice in error handling.
+-   2017-01-05 Jason Stock : Renamed OpHitToEveID to OpHitToEveSDPs (better description of what action is being done). Added function OpHitToEveID for legacy support. Use of this function includes and warning telling the user that it is superceded by OpHitToEveSDPs. Corrected issue with Rebuild stage causing exceptions when the service was active but the file used does not have the OpDetBacktrackerRecords data product. The step now trys to access the OpDetBackTrackerRecords and on failure produces a warning to the user that the PhotonBacktracker will not work for that event. The warning will be issued once per LArSoft invocation. There will be a debug level message for every failed event.
+-   2017-01-05 Jason Stock : Correcting Author Information in Photon BackTracker
+-   2017-01-04 Lynn Garren : larsim v06\_10\_02 for larsoft v06\_19\_00
+-   2017-01-02 Wesley Ketchum : add an always pass option
+-   2016-12-27 Wesley Ketchum : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/wketchum\_InTimeCosmic
+-   2016-12-21 Wesley Ketchum : do poisson randomization on the number of showers to process
+-   2016-12-21 Wesley Ketchum : allow filter to split mctruth into two collections
+-   2016-12-20 Patrick Gartung : larsim v06\_10\_01 for larsoft v06\_18\_01
+-   2016-12-19 Jason Stock : Merge remote branch ‘origin’ into develop
+-   2016-12-17 Steven Gardiner : Fix bug that prevents MARLEY from using nuclear structure data loaded using the larsim MARLEYGen module. This resolves LArSoft issue [\#14847](/redmine/issues/14847 "Bug: MARLEYGen module fails to use loaded nuclear structure data when simulating de-excitations (Resolved)").
+-   2016-12-16 Jason Stock : Changing tabs to spaces for convention. Changing photonbacktracker.fcl to remove standard declarations as the photonbacktracker is not experiment agnostic. Each experiment will have to make their own declaration of the service, and will need to provide their own Delay parameter. For DUNE this is 260 ns at the present time.
+-   2016-12-15 Lynn Garren : larsim v06\_10\_00 for larsoft v06\_18\_00
+-   2016-12-15 Gianluca Petrillo : Added inline comments on top of John’s changes in the previous commit.
+-   2016-12-15 John Marshall : Add track id offset to parent track id (in addition to the particle’s own track id).
+-   2016-12-13 Jason Stock : Reverting check for Photon Visibities at Alex’s request to previous (If null ptr, silently do nothing).
+-   2016-12-13 Gianluca Petrillo : OpFastScintillation now throws an exception when working out of the range of the photon library.
+-   2016-12-13 Jason Stock : Merge branch ‘JStock\_PhotonBackTracker’ into develop
+-   2016-12-12 Libo Jiang : remove larsim/EventGenerator/GENIE/genie\_default.fcl and genie\_default\_mec.fcl
+-   2016-12-12 Jason Stock : Changed a name in OpFastScintillation for better description.
+-   2016-12-11 Jason Stock : Correcting a problem with the OpDetBacktrackerRecord Map
+-   2016-12-10 Jason Stock : Updating PhotonBackTracker with changes for memory leaks.
+-   2016-12-10 Jason Stock : commenting out the backtracker Tested on 50 muon events.
+-   2016-12-09 Tingjun Yang : Fix memorgy leak. Problem was fixed by Gianluca.
+-   2016-12-08 Lynn Garren : larsim v06\_09\_00 for larsoft v06\_17\_00
+-   2016-12-08 Lynn Garren : Merge branch ‘feature/JStock\_PhotonBackTracker’ into release/v06\_17\_00
+-   2016-12-07 Lynn Garren : remove genie\_xsec and genie\_phyopt
+-   2016-12-07 Libo Jiang : replaced the genie\_default by genie\_default\_mec.fcl
+-   2016-12-01 Jason Stock : adding all changes in
+-   2016-12-01 Jason Stock : Merging PhotonBackTracker in
+-   2016-11-29 Lynn Garren : larsim v06\_08\_00 for larsoft v06\_16\_00
+-   2016-11-29 Lynn Garren : Merge branch ‘develop’ into release/v06\_16\_00
+-   2016-11-29 Lynn Garren : RandomUtils has moved to nutools
+-   2016-11-29 Lynn Garren : Merge branch ‘feature/lg\_use\_nutools\_2\_08’ into release/v06\_16\_00
+-   2016-11-29 Lynn Garren : cetbuildtools v5\_06\_01
+-   2016-11-29 Hans Wenzel : script that calculates optical properties of liquid Argon
+-   2016-11-28 Lynn Garren : Merge branch ‘develop’ into feature/lg\_use\_nutools\_2\_08
+-   2016-11-28 Lynn Garren : larsoft v06\_16\_00\_rc
+-   2016-11-28 Lynn Garren : using NuRandomService
+-   2016-11-28 Lynn Garren : latest cetbuildtools
+-   2016-11-28 Lynn Garren : move final fcl file out of larsim/RandomUtils/Providers
+-   2016-11-23 Libo Jiang : added the new fcl files for gen stage
+-   2016-11-21 Lynn Garren : RandomUtils moved to nutools
+-   2016-11-16 Lynn Garren : larsim v06\_07\_00 for larsoft v06\_15\_00
+-   2016-11-16 Lynn Garren : Merge branch ‘save\_changes’ into release/v06\_15\_00
+-   2016-11-16 Lynn Garren : standardizing cmake usage
+-   2016-11-15 Jeremy Hewes : Added event generator module for GENIE neutron-antineutron oscillation.
+-   2016-11-15 Tingjun Yang : Update NucleonDecay\_module.cc to be compatible with genie 2.12. The default decay mode is still p-\>nubar K+.
+-   2016-11-10 Lynn Garren : larsim v06\_06\_00 for larsoft v06\_14\_00
+-   2016-11-10 Lynn Garren : remove TriggerAlgoMicroBoone
+-   2016-11-10 Lynn Garren : using genie v2\_12\_0
+-   2016-11-09 Gianluca Petrillo : Replacing deprecated GeometryCore::PlaneIDs() with GeometryCore::IteratePlaneIDs().
+-   2016-11-08 Gianluca Petrillo : Fixed typo.
+-   2016-11-02 Lynn Garren : larsim v06\_05\_03 for larsoft v06\_13\_01
+-   2016-10-27 Lynn Garren : larsoft v06\_13\_00
+-   2016-10-26 Lynn Garren : larsim v06\_05\_02 for larsoft v06\_13\_00
+-   2016-10-26 Gianluca Petrillo : NUANCEGen now reacts if the input file does not exist.
+-   2016-10-26 Lynn Garren : Merge branch ‘feature/lg\_for\_art\_v2\_05\_00’ into release/v06\_13\_00
+-   2016-10-21 Lynn Garren : replace Timing and SimpleMemoryCheck with TimeTracker and MemoryTracker
+-   2016-10-21 Lynn Garren : run larsoft/bin/RemoveUserFromServiceConfig.py
+-   2016-10-21 Bruce Baller : Merge branch ‘feature/bb\_MCCheaterFix’ into develop
+-   2016-10-20 Bruce Baller : Change name of ChannelToTrackID to ChannelToTrackIDEs for clarity.
+-   2016-10-20 Bruce Baller : Change name of ChannelToTrackID to ChannelToTrackIDEs for clarity.
+-   2016-10-18 Lynn Garren : larsim v06\_05\_01 for larsoft v06\_12\_00
+-   2016-10-17 Joseph Zennamo : Updating a MicroBooNE specific fcl file to work in larsoft v06 that we will be using to generate a new photon lookup library
+-   2016-10-17 Joseph Zennamo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/zennamo\_OpticalSimulation
+-   2016-10-17 Steven Gardiner : Add FHiCL file to generate MARLEY events in MicroBooNE. Fix a typo in marley.fcl.
+-   2016-10-17 Joseph Zennamo : Merge remote-tracking branch ‘origin’ into feature/zennamo\_OpticalSimulation
+-   2016-10-15 William Foreman : More realistic LAr scintillation in lightsource module
+-   2016-10-12 Lynn Garren : larsim v06\_05\_00 for larsoft v06\_11\_00
+-   2016-10-12 Lynn Garren : classes moved to nutools
+-   2016-10-12 Lynn Garren : these classes are now in nutools/ParticleNavigation
+-   2016-10-06 Joseph Zennamo : Adding Bug fixes from Matt Toups, specifically the wire parameterization in the optical simulation
+-   2016-10-06 Lynn Garren : larsoft\_data v1\_01\_01
+-   2016-10-05 Lynn Garren : larsim v06\_04\_00 for larsoft v06\_09\_00
+-   2016-10-05 Lynn Garren : Revert “Revert”Merge branch ‘feature/mrmooney\_SCERecombFeature’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop“”
+-   2016-10-05 Gianluca Petrillo : Fixing memory leak in NEST (issue [\#14085](/redmine/issues/14085 "Bug: Memory leak running LArG4 with NEST (Closed)"))
+-   2016-10-04 Gianluca Petrillo : Changed a detail of exception throwning in LArSeedService.
+-   2016-10-04 Gianluca Petrillo : Removed old unused header
+-   2016-10-04 Michael Mooney : Revert “Merge branch ‘feature/mrmooney\_SCERecombFeature’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop”
+-   2016-10-04 Michael Mooney : Merge branch ‘feature/mrmooney\_SCERecombFeature’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2016-09-29 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2016-09-29 Tingjun Yang : Set GENIE random number seed using the one from LArSeedService.
+-   2016-09-28 Lynn Garren : larsim v06\_03\_06 for larsoft v06\_08\_00
+-   2016-09-22 Lynn Garren : larsim v06\_03\_05 for larsoft v06\_07\_00
+-   2016-09-13 Patrick Gartung : larsim v06\_03\_04 for larsoft v06\_06\_01
+-   2016-09-08 Lynn Garren : larsim v06\_03\_03 for larsoft v06\_05\_01
+-   2016-09-07 Lynn Garren : Merge branch ‘feature/gp\_QuieterCORSIKAGen’ into release/v06\_05\_01
+-   2016-09-06 Gianluca Petrillo : This addresses LArSoft issue [\#13750](/redmine/issues/13750 "Bug: CORSIKAGen too verbose (Closed)").
+-   2016-08-31 Michael Mooney : Reduce verbosity of output
+-   2016-08-31 Lynn Garren : larsim v06\_03\_02 for larsoft v06\_05\_00
+-   2016-08-30 Lynn Garren : larsimobj no longer exists
+-   2016-08-30 Lynn Garren : larsimobj no longer exists
+-   2016-08-30 Lynn Garren : larsimobj/Simulation moved to lardataobj/Simulation
+-   2016-08-23 Gianluca Petrillo : Reduced the amount of CORSIKAGen output on screen
+-   2016-08-23 Lynn Garren : larsim v06\_03\_01 for larsoft v06\_04\_01
+-   2016-08-23 Gleb Sinev : Merge branch ‘feature/gardiner\_MARLEY\_fhicl’ into develop
+-   2016-08-23 Dorota Stefan : added SkipWireSignalInTPCs parameter. It is a vector of tpcs which have dead LAr volumes so ionization electrons will not be simulated
+-   2016-08-23 Steven Gardiner : Create a detector-agnostic FHiCL file to use to configure MARLEY, and use it in prodmarley.fcl.
+-   2016-08-23 Steven Gardiner : Remove G4ParticleTable calls from the MARLEYGen module. If we want to track recoil nuclei, we’ll need to define the particles within LArG4. Otherwise, running the generator without largeant will fail.
+-   2016-08-18 Lynn Garren : larsim v06\_03\_00 for larsoft v06\_04\_00
+-   2016-08-18 Lynn Garren : finally remove files now in larsimobj
+-   2016-08-18 Lynn Garren : using the marley ups product in the standard manner
+-   2016-08-18 Lynn Garren : Merge branch ‘feature/gardiner\_MARLEYmodule’ into release/v06\_04\_00
+-   2016-08-17 Thomas Warburton : Adding a TTree, turned off by default which stores the cryostat sizes.
+-   2016-08-17 Steven Gardiner : Add code to allow the user to set a fixed vertex location for the MARLEYGen module. Update prodmarley.fcl and add comments.
+-   2016-08-17 Steven Gardiner : Add all particles from MARLEY to the MCTruth object, and call SetNeutrino appropriately as well.
+-   2016-08-16 Steven Gardiner : Use the LArSeedService to handle all RNG seeds in the MARLEYGen module.
+-   2016-08-15 Steven Gardiner : Add code to configure MARLEY from FHiCL setttings rather than a separate config.txt file (requires using MARLEY v0.9.5 or greater). Update the prodmarley.fcl script accordingly.
+-   2016-07-25 Steven Gardiner : Adjust starting trackID passed to Geant4 so that all final particles have trackID \>= 1. This ensures that Geant4 will track all of them. The outgoing electrons previously had trackID = 0, and Geant4 appeared to skip them in the simulation.
+-   2016-07-25 Steven Gardiner : Add a TTree of MARLEY events to the “hist” ROOT file produced by the MARLEYGen module. These may be matched to art::Event objects in the “gen” ROOT file by comparing the run, subrun, and event numbers included as other branches in the tree.
+-   2016-07-24 Steven Gardiner : Enable high-precision neutron physics (“NeutronHP” in the FHiCL file custom physics list) so that neutrino-induced neutrons from MARLEY will be tracked more accurately.
+-   2016-07-03 Steven Gardiner : Add module that provides an interface to the MARLEY (Model of Argon Reaction Low Energy Yields) event generator for tens-of-MeV neutrinos in liquid argon. For more information, see [http://marleygen.org](http://marleygen.org).
+-   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
+-   2016-08-11 Lynn Garren : larsim v06\_02\_00 for larsoft v06\_03\_00
+-   2016-08-11 Lynn Garren : Merge branch ‘feature/jpdavies\_supernova\_truth’ into release/v06\_03\_00
+-   2016-08-11 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2016-08-11 Brian Rebel : move visualization .mac file to the correct location
+-   2016-08-08 Michael Baird : Merge branch ‘develop’ into feature/jpdavies\_supernova\_truth
+-   2016-08-05 Lynn Garren : larsim v06\_01\_01 for larsoft v06\_02\_00
+-   2016-08-04 Lynn Garren : adding ROOT core library
+-   2016-08-04 Lynn Garren : using auto in advance of SimChannel changes
+-   2016-08-03 Michael Baird : In the MCTruth particle list, setting the status bit for the neutrino to 0, setting the motherID for the primary electron to -1, and picking a different isotrpoic direction for the electron.
+-   2016-08-01 Brian Rebel : Add file for configuring G4 to visualize volumes in HepRep format
+-   2016-08-01 Dorota Stefan : add parameter which specifies minimum number of electron clusters. Default MinNumberOfElCluster is 0 so behavior is not changed until new parameter is set.
+-   2016-07-28 Lynn Garren : larsim v06\_01\_00 for larsoft v06\_00\_02
+-   2016-07-27 Brian Rebel : BUG FIX: The stopping momentum vector components were being scaled by CLHEP::cm instead of CLHEP::GeV.
+-   2016-07-27 James Sinclair : Fixed bug fit start/stop momentum in DumpMCParticles
+-   2016-07-27 Michael Mooney : Incorporate E-field distortions in recombination model
+-   2016-07-21 Gianluca Petrillo : Updated for LArSoft 6
+-   2016-07-06 Gianluca Petrillo : RecompressRawDigits: produces raw::RawDigit collection with different compression
+-   2016-07-19 Michael Baird : Making use of the SetNeutrino function to set the neutrino for the MCTruths, and implementing adding in one MCTruth for each neutrino created.
+-   2016-07-15 Lynn Garren : updates for larsoft v06\_00\_00
+-   2016-07-15 Lynn Garren : Merge branch ‘release/LARSOFT\_SUITE\_v05\_15\_00’ into v06\_00\_00\_art2
+-   2016-07-12 Lynn Garren : larsim v05\_15\_00 for larsoft v05\_15\_00
+-   2016-07-12 Lynn Garren : Merge branch ‘feature/brebel\_HadronScattering’ into release/v05\_15\_00
+-   2016-07-12 Brian Rebel : Add new file for configuring magnetic fields, lardata/Utilities/magfield\_larsoft.fcl
+-   2016-07-12 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2016-07-12 Brian Rebel : change no\_mag to no\_mag\_larsoft to use the correct name for the world volume, i.e. volWorld.
+-   2016-07-10 Brian Rebel : Changes to allow the storage of hadron scattering processes.
+-   2016-07-10 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/brebel\_HadronScattering
+-   2016-07-08 Brian Rebel : changes to store the scattering process for hadrons.
+-   2016-07-06 Patrick Gartung : larsim v05\_14\_01 for larsoft v05\_14\_01
+-   2016-07-05 Brian Rebel : fix formatting to look right with Xcode
+-   2016-06-30 Lynn Garren : v06\_00\_00\_rc6
+-   2016-06-30 Lynn Garren : fix again
+-   2016-06-30 Lynn Garren : Merge branch ‘larsim-v05\_14\_00’ into v06\_00\_00\_art2
+-   2016-06-30 Lynn Garren : no template instantiation in classes.h
+-   2016-06-28 Lynn Garren : larsim v05\_14\_00 for larsoft v05\_14\_00
+-   2016-06-23 Lynn Garren : revert
+-   2016-06-23 Lynn Garren : cetbuildtools v5\_04\_01
+-   2016-06-23 Lynn Garren : rc5
+-   2016-06-23 Lynn Garren : Merge branch ‘LARSOFT\_SUITE\_v05\_13\_00-branch’ into v06\_00\_00\_art2
+-   2016-06-23 Lynn Garren : larsoft\_data v1\_01\_00
+-   2016-06-22 Tingjun Yang : User DUNE FD 1x2x6 geometry as the default geometry.
+-   2016-06-22 Tingjun Yang : First version of a working module to do nucleon decay simulation in larsoft. It only simulates proton decays in the active volume. Currently it converts the genie record to mctruth using exiting code in nutools. Robert Hatcher is working on a generic function to do the conversion. Will switch to use it when it is available.
+-   2016-06-22 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/tjyang\_ndk
+-   2016-06-21 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2016-06-17 Tingjun Yang : Force to load genie messenger first so the problem does not crash on exit. Thanks Robert Hatcher for the help.
+-   2016-06-17 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/tjyang\_ndk
+-   2016-06-16 Tingjun Yang : Progress on porting nucleon decay app. Now it creates genie record. Next step is to convert it to MCTruth.
+-   2016-06-15 Lynn Garren : larsim v05\_13\_00 for larsoft v05\_13\_00
+-   2016-06-15 Tingjun Yang : Remove genie from CMaleLists.txt.
+-   2016-06-15 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/tjyang\_ndk
+-   2016-06-15 Tingjun Yang : Move NucleonDecay\_module.cc to GENIE directory. Modify CMakeLists.txt to include GENIE libraries.
+-   2016-06-15 Jeremy H : A couple of updates to GENIE nucleon decay parser module – Jeremy Hewes
+-   2016-06-14 Tingjun Yang : Start porting genie’s proton decay simulator as a larsoft module.
+-   2016-06-13 Jeremy H : Temporarily restoring previous version of NDKGen\_module.cc pending further merges – Jeremy Hewes
+-   2016-06-13 Jeremy H : Bugfix: committing changes which restore previously defunct GENIE parser module NDKGen\_module.cc – J. Hewes
+-   2016-06-13 Kevin Wood : Generalized vertex assignment in NDKGen\_module.cc for geometries with any number of TPCs (still assumes single cryostat)
+-   2016-06-12 Kevin Wood : Made vertex assignment uniformly distributed
+-   2016-06-09 Lynn Garren : use larsimobj v06\_00\_00\_rc4
+-   2016-06-08 Lynn Garren : larsim v05\_12\_01 for larsoft v05\_12\_01
+-   2016-06-03 Lynn Garren : larsim v06\_00\_00\_rc4
+-   2016-06-02 Lynn Garren : more changes for lardataobj and larsimobj
+-   2016-06-02 Lynn Garren : Merge branch ‘develop’ into v06\_00\_00\_art2
+-   2016-06-02 Lynn Garren : use larsimobj v1\_01\_01
+-   2016-06-02 Lynn Garren : move files in larsimobj v1\_01\_01
+-   2016-06-02 Lynn Garren : use larsimobj v1\_01\_01
+-   2016-06-02 Lynn Garren : changes for nutools 2.00.00 and art 2.00.02
+-   2016-06-02 Lynn Garren : changes for nutools 2.00.00 and art 2.00.02
+-   2016-06-02 Lynn Garren : build with art 2.00.02
+-   2016-05-25 Lynn Garren : larsim v05\_12\_00 for larsoft v05\_12\_00
+-   2016-05-25 Lynn Garren : Merge branch ‘feature/mrmooney\_SpaceChargeMay6th2016’ into release/v05\_12\_00
+-   2016-05-16 Lynn Garren : larsoft v06\_00\_00\_rc3
+-   2016-05-12 Lynn Garren : use cetbuildtools v5\_02\_02
+-   2016-05-11 Lynn Garren : Merge branch ‘develop’ into v06\_00\_00\_rc
+-   2016-05-11 Lynn Garren : larsim v05\_11\_01 for larsoft v05\_11\_01
+-   2016-05-06 Michael Mooney : Fixed sign error in space charge implementation of LArVoxelReadout.cxx
+-   2016-05-06 Lynn Garren : use genie\_xsec v2\_10\_6a
+-   2016-05-06 Michael Mooney : New space charge service implementation
+-   2016-05-03 Lynn Garren : genie\_xsec v2\_10\_6a
+-   2016-05-03 Lynn Garren : larsim v05\_11\_00 for larsoft v05\_11\_00
+-   2016-05-03 Lynn Garren : LArSoft no longer uses artextensions
+-   2016-05-03 Lynn Garren : we no longer use artextensions
+-   2016-05-02 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp\_LArSeedService
+-   2016-04-28 Lynn Garren : larsoft v06\_00\_00\_rc2
+-   2016-04-28 Lynn Garren : Merge branch ‘develop’ into v06\_00\_00\_rc
+-   2016-04-27 Lynn Garren : larsim v05\_10\_00 for larsoft v05\_10\_00
+-   2016-04-27 Gianluca Petrillo : Enabling LArSeedService extended support for CLHEP engines by default.
+-   2016-04-27 Gianluca Petrillo : Merging artextensions branch gp\_GlobalSeedService
+-   2016-04-25 Gianluca Petrillo : Update after moving from SeedService to LArSeedService
+-   2016-04-25 Gianluca Petrillo : Moved tests to testing namespace
+-   2016-04-25 Gianluca Petrillo : Uniformed the stile of header include guards
+-   2016-04-25 Gianluca Petrillo : Moved artext::SeedService into sim::LArSeedService
+-   2016-04-20 Gleb Sinev : Fix the supernova neutrino spectrum filename in supernova.fcl.
+-   2016-04-19 Lynn Garren : larsim v05\_09\_01 for larsoft v05\_09\_01
+-   2016-04-19 Tingjun Yang : Move dunefd\_workspace\_supernova to dunetpc
+-   2016-04-14 Lynn Garren : Merge branch ‘feature/gp\_MemoryOptimization’ into release/v05\_09\_00
+-   2016-04-14 Gianluca Petrillo : Moving or removing some files that git did not figure out how to correctly merge.
+-   2016-04-14 Lynn Garren : larsim v05\_09\_00 for larsoft v05\_09\_00
+-   2016-04-14 Lynn Garren : Merge branch ‘feature/gp\_MemoryOptimization’ into release/v05\_09\_00
+-   2016-04-14 Lynn Garren : cetbuildtools v4\_19\_04
+-   2016-04-14 Lynn Garren : Merge branch ‘feature/gp\_Issue12197’ into release/v05\_09\_00
+-   2016-04-14 Lynn Garren : genie\_xsec only has the defaultplusccmec qualifier now
+-   2016-04-14 Lynn Garren : genie\_xsec, genie\_phyopt v2\_10\_6
+-   2016-04-12 Gianluca Petrillo : Geant4 job memory optimization
+-   2016-04-12 Gleb Sinev : Change the default supernova spectrum in supernova.fcl.
+-   2016-04-11 Lynn Garren : Merge branch ‘develop’ into v06\_00\_00\_rc
+-   2016-04-11 Lynn Garren : v06\_00\_00\_rc1
+-   2016-04-08 Gianluca Petrillo : LArG4: explicitly removed the old ‘Seed’ parameter
+-   2016-04-08 Gianluca Petrillo : Removed debug structures.
+-   2016-04-08 Gianluca Petrillo : Split LArG4 random number stream into three: generation, propagation and radiodecay
+-   2016-04-08 Lynn Garren : larsim v05\_08\_00 for larsoft v05\_08\_00
+-   2016-04-07 Gianluca Petrillo : Removed unused service and header inclusion
+-   2016-04-06 Lynn Garren : declare enum
+-   2016-04-06 Saba Sehrish : constructors cleanup
+-   2016-04-06 Saba Sehrish : two constructors for deposit and MCEdep structs instead of one
+-   2016-04-05 Saba Sehrish : added constructors to deposit and MCEdep, and moved deposit to MCEdep
+-   2016-04-05 Saba Sehrish : Merge branch ‘v04\_36\_00\_branch’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into v04\_36\_00\_branch
+-   2016-04-05 Saba Sehrish : added create index map function to a namespace
+-   2016-04-04 Gianluca Petrillo : Merge branch ‘v04\_36\_00\_branch’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into v04\_36\_00\_branch
+-   2016-04-04 Gianluca Petrillo : Removed useless inclusion of iostream
+-   2016-04-04 Lynn Garren : use cetbuildtools v4\_19\_04
+-   2016-04-03 Saba Sehrish : Merge branch ‘v04\_36\_00\_branch’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into v04\_36\_00\_branch
+-   2016-04-03 Saba Sehrish : minor change
+-   2016-04-01 Gianluca Petrillo : Removed obsolete code.
+-   2016-04-01 Lynn Garren : correct artextensions qualifiers
+-   2016-04-01 Lynn Garren : removing duplicate declaration of vector\<int\>
+-   2016-04-01 Lynn Garren : using std::ifstream
+-   2016-04-01 Lynn Garren : using std::ifstream
+-   2016-04-01 Lynn Garren : cetbuildtools v4\_19\_03
+-   2016-03-31 Saba Sehrish : renamed map variable, removed mchits and comments
+-   2016-03-31 Gianluca Petrillo : Removed old piece of code
+-   2016-03-31 Lynn Garren : larsoft v05\_07\_00
+-   2016-03-30 Gianluca Petrillo : Merge branch ‘v04\_36\_00\_branch’ into feature\_v04\_36\_00/gp\_MemoryOptimizationG4
+-   2016-03-30 Gianluca Petrillo : Adapted dumpers from v5
+-   2016-03-30 Gianluca Petrillo : Added dumpers for sim::SimChannel and sim::SimPhotons data products
+-   2016-03-30 Gianluca Petrillo : Added dumpers for sim::SimChannel and sim::SimPhotons data products
+-   2016-03-30 Gianluca Petrillo : DumpMCParticle: removed timestamps from output; output now uses one buffer per particle (saves memory)
+-   2016-03-30 Gianluca Petrillo : Minor changes
+-   2016-03-30 Lynn Garren : larsim v05\_07\_00 for larsoft v05\_07\_00
+-   2016-03-30 Lynn Garren : Merge branch ‘feature/greenlee\_small\_simchannel’ into release/v05\_07\_00
+-   2016-03-30 Lynn Garren : use larsoft\_data v0\_06\_01
+-   2016-03-29 Gianluca Petrillo : Trivial interface change.
+-   2016-03-29 Gianluca Petrillo : Flattened nested vector in photon library. Breaking change: some PhotonVisibilityService methods have changed signature.
+-   2016-03-29 Gianluca Petrillo : In some way v5 version of dumper module ended up in v4 branch. Fixed.
+-   2016-03-29 Gianluca Petrillo : Merge remote-tracking branch ‘origin/gp\_MemoryOptimizationLArG4’ into v04\_36\_00\_branch
+-   2016-03-29 Saba Sehrish : added clear function for \_mc\_edeps
+-   2016-03-28 Saba Sehrish : minor change to add mcparticles name
+-   2016-03-28 Saba Sehrish : Remove an unexisting test directory from CMakeLists.txt
+-   2016-03-28 Saba Sehrish : Merge remote branch ‘origin/gp\_MemoryOptimizationLArG4’ into all\_MemoryOptimization
+-   2016-03-28 Saba Sehrish : used pair key
+-   2016-03-27 Gianluca Petrillo : Merged two maps into one in LArVoxelReadout, and given more meaningful names to a bunch of variables.
+-   2016-03-27 Gianluca Petrillo : During data transfer to data product, each particle is deleted as soon as it’s moved, to avoid memory spikes. A bug fix in nutools will make this almost completely redundant.
+-   2016-03-27 Gianluca Petrillo : ParticleListAction now deletes a particle as soon as it knows it wouldn’t be saved. A complete revision of ParticleListAction is desireable to make this mechanism more robust.
+-   2016-03-27 Saba Sehrish : uncommented \_mc\_edep and \_track\_index
+-   2016-03-27 Saba Sehrish : minor cleanup
+-   2016-03-26 Gianluca Petrillo : Flush the output buffer at every particle, preventing it from becoming huge.
+-   2016-03-26 Saba Sehrish : replaced map of struct with a smaller map of index and a vector of structs
+-   2016-03-25 Gianluca Petrillo : Track filtering moved early so that tracks are dropped as soon as we know we don’t want them. “Dropped” tracks are actually kept in the list, but pruned of most of the information.
+-   2016-03-25 Saba Sehrish : changed the name of energycharge to deposit
+-   2016-03-25 Herbert Greenlee : Merge remote-tracking branch ‘origin/develop’ into feature/greenlee\_small\_simchannel
+-   2016-03-25 Saba Sehrish : minor cleanup
+-   2016-03-25 Saba Sehrish : merged two maps into one with energy and charge as struct, step 1
+-   2016-03-24 Saba Sehrish : added std::unique\_ptr return type
+-   2016-03-24 Gianluca Petrillo : Removed the ability to copy ParticleList containers. Added the ability to move ParticleList containers. MCParticle objects are now moved out of ParticleListAction, and into the data product when needed.
+-   2016-03-24 Gianluca Petrillo : Particle and particle list objects moved from static to ParticleListAction members
+-   2016-03-24 Gianluca Petrillo : Moved the filtering logic into an object (also propagated to ParticleListAction)
+-   2016-03-24 Herbert Greenlee : Merge remote-tracking branch ‘origin/develop’ into feature/greenlee\_small\_simchannel
+-   2016-03-24 Saba Sehrish : changed to unique ptr
+-   2016-03-23 Saba Sehrish : one fcl file to create all three output files
+-   2016-03-23 Saba Sehrish : Changed return types ofMCTrack and MCShower Reconstruct functions, remove destructor, added explict to constructor
+-   2016-03-24 Lynn Garren : larsim v05\_06\_00 for larsoft v05\_06\_00
+-   2016-03-24 Lynn Garren : Merge branch ‘v05\_03\_00\_rc’ into release/v05\_06\_00
+-   2016-03-23 Lynn Garren : larsim v05\_02\_00 for larsoft v05\_05\_00
+-   2016-03-22 Saba Sehrish : added const ref and remove virtual destructors
+-   2016-03-22 larsoft User : change the return type of Reconstruct in MCShowerRecoAlg
+-   2016-02-04 Lynn Garren : larsim v04\_21\_00 for larsoft v04\_36\_00
+-   2016-03-21 Gianluca Petrillo : Added dumpers for MCShower and MCTrack data products.
+-   2016-03-18 Herbert Greenlee : Change doubles to floats in sim::IDE.
+-   2016-03-17 Tyler Alion : Add fcl switch for G4 overlap checker, document LArG4 parameters.
+-   2016-03-16 Lynn Garren : larsim v05\_01\_02 for larsoft v05\_04\_00
+-   2016-03-10 Lynn Garren : v05\_03\_00\_rc1 for geant4 10.1.p03
+-   2016-03-09 Lynn Garren : Merge branch ‘feature/lg\_for\_geant4\_10’ into v05\_03\_00\_rc
+-   2016-03-09 Lynn Garren : larsim v05\_01\_01 for larsoft v05\_02\_00
+-   2016-03-04 Lynn Garren : v05\_30\_00\_rc for geant4 10.1.p03
+-   2016-03-02 Lynn Garren : try to match updated interfaces
+-   2016-03-02 Lynn Garren : need to defined the physics vector
+-   2016-03-02 Lynn Garren : can also use aParticleIterator here
+-   2016-03-02 Lynn Garren : here we can use aParticleIterator
+-   2016-03-02 Lynn Garren : larsim v05\_01\_00 for larsoft v05\_01\_02
+-   2016-03-02 Lynn Garren : make all CLHEP units explicit
+-   2016-03-01 Lynn Garren : use CLHEP::cm explicitly - in advance of the move to geant4 10.1
+-   2016-02-24 Lynn Garren : larsim v05\_00\_03 for larsoft v05\_01\_01
+-   2016-02-23 Lynn Garren : changes for genie v2\_10\_4
+-   2016-02-18 Lynn Garren : larsim v05\_00\_02 for larsoft v05\_01\_00
+-   2016-02-12 Lynn Garren : v05\_00\_01
+-   2016-02-11 Gianluca Petrillo : Merge branch ‘v05\_00\_00\_rc’ into v05\_00\_refactor
+-   2016-02-10 Lynn Garren : refactored larsoft
+-   2016-02-10 Lynn Garren : add larsim/larsim/CMakeLists.txt
+-   2016-02-10 Lynn Garren : add larsim/larsim/CMakeLists.txt
+-   2016-02-10 Lynn Garren : move DetSim to larsim/DetSim
+-   2016-02-10 Lynn Garren : move EventGenerator to larsim/EventGenerator
+-   2016-02-10 Lynn Garren : move LArG4 to larsim/LArG4
+-   2016-02-10 Lynn Garren : move MCCheater to larsim/MCCheater
+-   2016-02-10 Lynn Garren : move MCDumpers to larsim/MCDumpers
+-   2016-02-10 Lynn Garren : move MCSTReco to larsim/MCSTReco
+-   2016-02-10 Lynn Garren : move PhotonPropagation to larsim/PhotonPropagation
+-   2016-02-10 Lynn Garren : move SimFilters to larsim/SimFilters
+-   2016-02-10 Lynn Garren : move Simulation to larsim/Simulation
+-   2016-02-10 Lynn Garren : move TriggerAlgo to larsim/TriggerAlgo
+-   2016-02-04 Lynn Garren : larsim v04\_21\_00 for larsoft v04\_36\_00
+-   2016-02-04 Lynn Garren : Merge branch ‘feature/warburton\_NuclearPhysics’ into release/v04\_36\_00
+-   2016-02-04 Lynn Garren : Merge branch ‘feature/gvsinev\_Rn222Background’ into release/v04\_36\_00
+-   2016-02-03 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2016-02-03 Brian Rebel : formatting changes
+-   2016-02-02 Thomas Warburton : Turning MuonNuclear on
+-   2016-02-01 Gleb Sinev : Merge branch ‘develop’ into feature/gvsinev\_Rn222Background
+-   2016-02-01 Gleb Sinev : Merge branch ‘develop’ into feature/gvsinev\_SNGeneratorImprovements
+-   2016-01-28 Lynn Garren : larsim v04\_20\_00 for larsoft v04\_35\_00
+-   2016-01-28 Lynn Garren : Merge branch ‘feature/mibass\_GenInTimeFilter’ into release/v04\_35\_00
+-   2016-01-27 Matthew Bass : Change IFDH usage to not call findMatchingFiles when no \* is used in filename.
+-   2016-01-27 Matthew Bass : Adjust timing of particles to add randomness between adjacent grid positions
+-   2016-01-26 Gleb Sinev : Merge branch ‘develop’ into feature/gvsinev\_SNGeneratorImprovements
+-   2016-01-26 Gleb Sinev : Merge branch ‘develop’ into feature/gvsinev\_Rn222Background
+-   2016-01-26 Wesley Ketchum : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/wketchum\_ParticleTimeFilter
+-   2016-01-25 Matthew Bass : New filter to requre an event have a trajectory through the cryostat within a specified time window.
+-   2016-01-21 Lynn Garren : larsim v04\_19\_00 for larsoft v04\_34\_00
+-   2016-01-20 Lynn Garren : Merge branch ‘zennamo\_MCTrackdEdx’ into release/v04\_34\_00
+-   2016-01-20 Thomas Warburton : Changing the tfs file to make a ROOT TTree not a set of histograms.
+-   2016-01-19 Gleb Sinev : Correct a bug slightly affecting the energy of electrons produced in the supernova generator.
+-   2016-01-19 Gleb Sinev : Add options to generate monoenergetic neutrinos and to use the Poisson distribution for the number of neutrinos generated per event to the supernova generator.
+-   2016-01-19 Gleb Sinev : Add 222Rn to the RadioGen module.
+-   2016-01-19 Joseph Zennamo : Added back in zero length tracks
+-   2016-01-19 Wesley Ketchum : store an array of summed energies
+-   2016-01-19 Wesley Ketchum : add in a new filter for events based on simulated photon times
+-   2016-01-18 Joseph Zennamo : Added contact details for new calculations
+-   2016-01-18 David Caratelli : adding filter for stopping muons – David Caratelli
+-   2016-01-18 Joseph Zennamo : Fix edep index bug
+-   2016-01-18 Joseph Zennamo : Disregard any energy deposition from a pair MCSteps separated by less than a voxel distance
+-   2016-01-18 Joseph Zennamo : Fixing storage of dQdx and updating the dEdx calculation to recover MIP energy loss
+-   2016-01-15 Lynn Garren : v05\_00\_00\_rc2
+-   2016-01-15 Lynn Garren : remove most instances of LIBRARY\_NAME
+-   2016-01-14 Lynn Garren : larsim v04\_18\_00 for larsoft v04\_33\_00
+-   2016-01-11 Joseph Zennamo : Merge remote-tracking branch ‘origin/develop’ into zennamo\_MCTrackdEdx
+-   2016-01-08 Matthew Bass : Added retrieval of flux database files via ifdhc based on fixed or wildcard file paths.
+-   2016-01-06 Lynn Garren : larsim v04\_17\_01 for larsoft v04\_32\_00
+-   2016-01-06 Lynn Garren : larsim v04\_17\_00 for larsoft v04\_32\_00
+-   2016-01-06 Matthew Bass : Merge branch ‘feature/mibass\_LArG4KeepByVolume’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/mibass\_LArG4KeepByVolume
+-   2016-01-06 Matthew Bass : Further tuning for KeepParticlesInVolumes and code cleanup.
+-   2016-01-03 Matthew Bass : Implemented auto-retrieval of WorldToLocal volume/node info.
+-   2015-11-25 Matthew Bass : Added root geometry lib.
+-   2015-11-25 Matthew Bass : Added fcl parameters and code to keep MCParticles that intersect volume(s)
+-   2016-01-03 Matthew Bass : Implemented auto-retrieval of WorldToLocal volume/node info.
+-   2016-01-03 Matthew Bass : Merge branch ‘feature/mibass\_LArG4KeepByVolume’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/mibass\_LArG4KeepByVolume
+-   2015-11-25 Matthew Bass : Added root geometry lib.
+-   2015-11-25 Matthew Bass : Added fcl parameters and code to keep MCParticles that intersect volume(s)
+-   2015-12-24 Katherine Woodruff : Merge branch ‘feature/kwoodruf\_cryoEvents’ into develop
+-   2015-12-24 Katherine Woodruff : Change cryostat filter default to false
+-   2015-12-21 Lynn Garren : larsim v05\_00\_00\_rc1 for larsoft v05\_00\_00\_rc1
+-   2015-12-21 Lynn Garren : refactor larsim
+-   2015-12-21 Gabriel Santucci : changes to NDKGen\_module.cc to make it compatible with newer GENIE output
+-   2015-12-18 Lynn Garren : add larsim/larsim/CMakeLists.txt
+-   2015-12-18 Lynn Garren : move DetSim to larsim/DetSim
+-   2015-12-18 Lynn Garren : move EventGenerator to larsim/EventGenerator
+-   2015-12-18 Lynn Garren : move LArG4 to larsim/LArG4
+-   2015-12-18 Lynn Garren : move MCCheater to larsim/MCCheater
+-   2015-12-18 Lynn Garren : move MCSTReco to larsim/MCSTReco
+-   2015-12-18 Lynn Garren : move PhotonPropagation to larsim/PhotonPropagation
+-   2015-12-18 Lynn Garren : move SimFilters to larsim/SimFilters
+-   2015-12-18 Lynn Garren : move Simulation to larsim/Simulation
+-   2015-12-18 Lynn Garren : move TriggerAlgo to larsim/TriggerAlgo
+-   2015-12-18 Lynn Garren : larsim v04\_16\_00 for larsoft v04\_31\_00
+-   2015-12-18 Lynn Garren : new rules for EmptyEvent
+-   2015-12-18 Lynn Garren : need to link with Boost libraries
+-   2015-12-18 Lynn Garren : Merge branch ‘feature/gp\_DumpMCParticle’ into release/v04\_31\_00
+-   2015-12-15 Joseph Zennamo : cleaning up, adding useful comments
+-   2015-12-15 Joseph Zennamo : Adding first attempt at defining MCTrack step-by-step dEdx and dQdx
+-   2015-12-15 Joseph Zennamo : Removing cout
+-   2015-12-09 Lynn Garren : larsim v04\_15\_02 for larsoft v04\_30\_03
+-   2015-12-07 Thomas Warburton : Fixing a bug where wrong PDGCode was entered into the event record.
+-   2015-12-07 Lynn Garren : larsim v05\_00\_00\_rc0 for larsoft v05\_00\_00\_rc0
+-   2015-12-03 Gianluca Petrillo : New analyser to dump MCParticles on screen (for humans to read them)
+-   2015-12-02 Lynn Garren : larsim v04\_15\_01 for larsoft v04\_30\_02
+-   2015-11-30 Gianluca Petrillo : Moving Temperature() (and what follows) from LArProperties to DetectorProperties
+-   2015-11-26 Matthew Bass : Added ability to get corsika particle time offset from db and removed offsets from fcl.
+-   2015-11-25 Matthew Bass : Modified time offset fcl parameters to work just like CosmicsGen.
+-   2015-11-25 Matthew Bass : Added root geometry lib.
+-   2015-11-25 Matthew Bass : Added fcl parameters and code to keep MCParticles that intersect volume(s)
+-   2015-11-23 Gianluca Petrillo : Renamed namespace for ElecClock and stuff it depends on
+-   2015-11-20 Gianluca Petrillo : Updated paths and class names after relocation to DetectorInfo
+-   2015-11-19 Gianluca Petrillo : Merging with LArSoft v04\_30\_00.
+-   2015-11-19 Katherine Woodruff : Change dirt filter default to keep cryostat events
+-   2015-11-19 Gianluca Petrillo : Renaming ChannelStatusService and DetectorPedestalService to adhere more closely to the standard pattern (but not there yet…)
+-   2015-11-19 Lynn Garren : larsim v04\_15\_00 for larsoft v04\_30\_00
+-   2015-11-18 Lynn Garren : Merge branch ‘feature/gvsinev\_SupernovaGenerator’ into release/v04\_30\_00
+-   2015-11-18 Katherine Woodruff : Fixed dirt filter loop
+-   2015-11-18 Gleb Sinev : Add a configuration table for dunefd\_workspace in supernova.fcl.
+-   2015-11-18 Gleb Sinev : Change directory where the algorithm is looking for the energy spectrum in NueAr40CCGenerator to SupernovaNeutrinos.
+-   2015-11-18 Gleb Sinev : Use the random number generator service in NueAr40CCGenerator.
+-   2015-11-18 Gleb Sinev : Add SNNueAr40CCGen supernova generator.
+-   2015-11-16 Thomas Warburton : Tyler made the 10kt geometry larger to accomodate the 5 m required for MUSUN in the Z direction. Changing the defualt positions to reflet that change.
+-   2015-11-16 Matthew Bas : Merge branch ‘feature/mibass\_CorsikaGen’ into develop
+-   2015-11-16 Matthew Bas : Fixed exception error messages.
+-   2015-11-16 Matthew Bas : Added default fcl’s for CMC and proton only models. Misc changes/bug fixes to module.
+-   2015-11-07 Matthew Bass : Fixed particles being propagated to ylo instead of yhi.
+-   2015-11-06 Matthew Bass : Added RandomXZShift parameter to randomize shower starting points
+-   2015-11-06 Matthew Bass : Troubleshooting run parameters
+-   2015-11-04 Matthew Bass : Updated CMakeLists.txt to include CORSIKA subdir
+-   2015-11-04 Matthew Bass : Initial commit of CORSIKA based generator
+-   2015-11-12 Gianluca Petrillo : Overlooked one linkage to a service implementation
+-   2015-11-06 Gianluca Petrillo : Fixed bug on algorithm used by MCShowerReco manifesting on empty events
+-   2015-11-12 Katherine Woodruff : Change cryostat from cylinder to box
+-   2015-11-12 Gianluca Petrillo : Removing link to implementations of core service interfaces
+-   2015-11-11 Katherine Woodruff : Add option to save dirt events that enter cryostat
+-   2015-11-11 Gianluca Petrillo : (Automated) fix of FHiCL configuration file after service renaming
+-   2015-11-11 Thomas Warburton : Adding a zoomed in energy histogram.
+-   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch ‘origin/feature/jpaley\_LArPropertiesBreakup’ into feature/jpaley\_LArPropertiesBreakup
+-   2015-11-10 Jonathan Paley : Remove “I”
+-   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/jpaley\_LArPropertiesBreakup
+-   2015-11-04 Lynn Garren : larsim v04\_14\_02 for larsoft v04\_29\_01
+-   2015-11-03 Thomas Warburton : Fixing an observed error with the energy returned by sampling. Now fully consistent with Vitalys fortran code.
+-   2015-11-03 Jonathan Paley : Use IServices.
+-   2015-10-30 Thomas Warburton : Fixing a bug with the calculation of the normalisation.
+-   2015-10-28 Lynn Garren : larsim v04\_14\_01 for larsoft v04\_29\_00
+-   2015-10-28 Tingjun Yang : Use ModBox recombination in simulation by default. Most experiments already use it.
+-   2015-10-23 Lynn Garren : larsim v04\_14\_00 for larsoft v04\_28\_00
+-   2015-10-21 Lynn Garren : larsim v04\_13\_01 for larsoft v04\_27\_01
+-   2015-10-16 Lynn Garren : larsim v04\_13\_00 for larsoft v04\_27\_00
+-   2015-10-14 Lynn Garren : larsim v04\_12\_01 for larsoft v04\_26\_01
+-   2015-10-08 Lynn Garren : add missing library to link list
+-   2015-10-08 Lynn Garren : larsim v04\_12\_00 for larsoft v04\_26\_00
+-   2015-10-08 Lynn Garren : use new ALLOW\_DEPRECATIONS compilation option
+-   2015-10-07 Lynn Garren : Merge branch ‘feature/Issue1083’ into release/v04\_26\_00
+-   2015-10-06 Thomas Warburton : Changing MUSUN generation parameters to full DUNE far detector geometry. Previously was using workspace geometry and old LBNE cavern dimensions.
+-   2015-10-05 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley\_LArPropertiesBreakup
+-   2015-10-02 Gianluca Petrillo : Fix to generation test configuration (requires lardata commit a79072f )
+-   2015-10-02 Gianluca Petrillo : Replaced deprecated ChannelFilter with IChannelStatusService calls.
+-   2015-10-02 Gianluca Petrillo : Updated configurations with IChannelStatusService
+-   2015-10-02 Lynn Garren : larsoft v04\_25\_00
+-   2015-10-02 Thomas Warburton : Changing Gen\_MUSUN geometry to workspace.
+-   2015-10-01 Lynn Garren : larsim v04\_11\_01 for larsoft v04\_25\_00
+-   2015-09-28 Thomas Warburton : Adding protections for if input file is incorrectly specified. Before events were hanging if the file was not found. Also adding an example generaion script for MUSUN.
+-   2015-09-28 Jonathan Paley : Code modifications required for service factorization.
+-   2015-09-25 Thomas Warburton : Also pushed tilda files, so removing them. Sorry.
+-   2015-09-24 Lynn Garren : larsim v04\_11\_00 for larsoft v04\_24\_00
+-   2015-09-21 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-09-21 Thomas Warburton : Polishing MUSUN integration
+-   2015-09-16 Lynn Garren : cetbuildtools v4\_13\_00 needs an updated setup\_for\_development
+-   2015-09-16 Lynn Garren : larsim v04\_10\_00 for larsoft v04\_23\_00
+-   2015-09-16 Lynn Garren : Merge branch ‘feature/zennamo\_MCShowerdEdx’ into release/v04\_23\_00
+-   2015-09-09 Joseph Zennamo : Clean up after last commit
+-   2015-09-09 Joseph Zennamo : Adding dQdx to MCShower and fixing PlaneCharge
+-   2015-08-28 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-08-26 Lynn Garren : larsim v04\_09\_03 for larsoft v04\_21\_00
+-   2015-08-24 Joseph Zennamo : Merge remote-tracking branch ‘origin/develop’ into feature/zennamo\_MCShowerdEdx
+-   2015-08-19 Lynn Garren : larsim v04\_09\_0 for larsoft v04\_20\_00
+-   2015-08-14 Thomas Warburton : Merging develop
+-   2015-08-13 Lynn Garren : larsim v04\_09\_01 for larsoft v04\_19\_00
+-   2015-08-13 Lynn Garren : Merge branch ‘feature/tjyang\_duneification’ into release/v04\_19\_00
+-   2015-08-13 Lynn Garren : remove sample files
+-   2015-08-13 Lynn Garren : remove SRT GNUmakefile
+-   2015-08-13 Lynn Garren : remove SRT GNUmakefiles
+-   2015-08-13 Lynn Garren : remove unmaintained sample files
+-   2015-08-07 Tingjun Yang : Replace lbne with dune.
+-   2015-08-04 Lynn Garren : larsim v04\_09\_00 for larsoft v04\_18\_00
+-   2015-07-30 Gianluca Petrillo : Using specific LArProperties service configuration for singel particle production with the “standard” LAr TPC detector
+-   2015-07-30 Gianluca Petrillo : Adding configuration for the “generic” LAr TPC detector, contained in LArSoft
+-   2015-07-22 Gianluca Petrillo : larsim v04\_08\_04 for larsoft v04\_17\_00
+-   2015-07-16 Lynn Garren : larsim v04\_08\_03 for larsoft v04\_16\_00
+-   2015-07-14 Gleb Sinev : Fix a bug in printVecs method of SingleGen\_module.
+-   2015-07-14 Joseph Zennamo : Filling MCShower radial dEdx and the MCShower direction from the inital energy deposits
+-   2015-07-09 Joseph Zennamo : Filling MCShower dEdx, using a signed distance to start point plane. Includes extra iteration through Shower Daughters.
+-   2015-07-08 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-07-07 Lynn Garren : larsim v04\_08\_02 for larsoft v04\_15\_00
+-   2015-07-01 Lynn Garren : larsim v04\_08\_01 for larsoft v04\_14\_01
+-   2015-06-30 Tingjun Yang : add trigger offset
+-   2015-06-25 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-06-24 Lynn Garren : larsim v04\_08\_00 for larsoft v04\_14\_00
+-   2015-06-24 Lynn Garren : larsim v04\_07\_08 for larsoft v04\_13\_01
+-   2015-06-22 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-06-22 Thomas Warburton : Updating MUSUN\_module
+-   2015-06-16 Lynn Garren : larsim v04\_07\_07 for larsoft v04\_13\_00
+-   2015-06-11 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-06-10 Lynn Garren : larsim v04\_07\_06 for larsoft v04\_12\_00
+-   2015-06-08 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-06-08 Thomas Warburton : Adding MUSUN Files
+-   2015-06-05 Lynn Garren : larsim v04\_07\_05 for larsoft v04\_11\_00
+-   2015-06-04 Lynn Garren : add Boost\_SYSTEM\_LIBRARY
+-   2015-06-03 Lynn Garren : larsim v04\_07\_05 for larsoft v04\_11\_00
+-   2015-06-03 Thomas Warburton : Renaming GaisserParam to more generic name, also adding MUSUN module
+-   2015-06-02 Lynn Garren : larsim v04\_07\_04 for larsoft v04\_10\_00
+-   2015-05-28 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-05-27 Lynn Garren : larsim v04\_07\_03 for larsoft v04\_09\_00
+-   2015-05-27 Lynn Garren : larsim v04\_07\_02 for larsoft v04\_08\_02
+-   2015-05-21 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-05-20 Lynn Garren : larsim v04\_07\_01 for larsoft v04\_08\_01
+-   2015-05-12 Alex Himmel : Add option to Library Analyzer module to make plots for a single optical detector.
+-   2015-05-12 Lynn Garren : larsim v04\_07\_00 for larsoft v04\_08\_00
+-   2015-05-12 Lynn Garren : Merge branch ‘feature/brebel\_AuxDetSensitive’ into release/v04\_08\_00
+-   2015-05-07 Lynn Garren : larsim v04\_06\_00 for larsoft v04\_07\_00
+-   2015-05-07 Thomas Warburton : Changing file path searches again.
+-   2015-05-07 Thomas Warburton : Changing naming conventions
+-   2015-05-07 Thomas Warburton : Correcting + character in PDF name
+-   2015-05-05 Thomas Warburton : fcl description
+-   2015-05-01 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-04-30 Alex Himmel : When asking for number of channels in the library, load the library first.
+-   2015-04-29 Lynn Garren : larsim v04\_05\_02 for larsoft v04\_06\_02
+-   2015-04-28 Alex Himmel : Use number of optical detectors instead of number of optical channels when creating the OpDetPhotonTable. Bug fix for library generation, no impact on LitePhotons used during event simulation.
+-   2015-04-28 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-04-27 Lynn Garren : larsim v04\_05\_01 for larsoft v04\_06\_01
+-   2015-04-24 Brian\_Rebel : Changes to account for the use of AuxDetSensitiveGeo. AuxDetReadoutGeometry now first tries to find volumes with Sensitive in their name in the gdml file, and if it does not find any it defaults to looking for AuxDet volumes. AuxDetReadout now has a data member to keep track of which sensitive volume in an AuxDet that it correponds too. The sensitive volume is now part of the name used to describe the sensitive volume to G4. AuxDetSimChannel now knows what sensitive volume it corresponds to as well. Make it possible for old code to still work by providing defaults for the sensitive volume value in the methods that now take that parameter.
+-   2015-04-24 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-04-23 Lynn Garren : larsim v04\_05\_00 for larsoft v04\_06\_00
+-   2015-04-23 Lynn Garren : larsim v04\_05\_00 for larsoft v04\_06\_00
+-   2015-04-20 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-04-20 Thomas Warburton : Additions to GaisserParameterisation module and fcl files
+-   2015-04-16 Lynn Garren : Merge branch ‘release/v04\_05\_00’
+-   2015-04-16 Lynn Garren : Merge branch ‘feature/ahimmel\_NewOpticalChannelMap’ into release/v04\_05\_00
+-   2015-04-16 Alex Himmel : Remove reference to OpDetResponseInterface to avoid a circular dependence.
+-   2015-04-16 Lynn Garren : larsim v04\_04\_00 for larsoft v04\_05\_00
+-   2015-04-16 Lynn Garren : larsim v04\_04\_00 for larsoft v04\_05\_00
+-   2015-04-16 Lynn Garren : Merge branch ‘feature/ahimmel\_scintPreScale’ into release/v04\_05\_00
+-   2015-04-14 Alex Himmel : Merge remote-tracking branch ‘origin/develop’ into feature/ahimmel\_NewOpticalChannelMap
+-   2015-04-14 Alex Himmel : Merge remote-tracking branch ‘origin/develop’ into feature/ahimmel\_scintPreScale
+-   2015-04-09 Lynn Garren : larsim v04\_03\_04 for larsoft v04\_04\_00
+-   2015-04-09 Lynn Garren : larsim v04\_03\_04 for larsoft v04\_04\_00
+-   2015-04-07 Alex Himmel : Adapt to having OpChannel and OpDet not being the same thing, and new geometry interface.
+-   2015-04-05 Alex Himmel : Change photon library loading to determine \# channels from the photon library, since the library may or may not have the same number of channels as are at the end of OpDetResponseInterface.
+-   2015-02-06 Alex Himmel : Get scintillation yields that have had prescales applied.
+-   2015-04-02 Thomas Warburton : Merge branch ‘develop’ into feature/php13tkw\_GaisserParam
+-   2015-04-01 Lynn Garren : larsim v04\_03\_03 for larsoft v04\_03\_03
+-   2015-04-01 Lynn Garren : larsim v04\_03\_03 for larsoft v04\_03\_03
+-   2015-03-30 Thomas Warburton : Changes needed for adding a new event generator based on gaissers parameterisation.
+-   2015-03-30 Thomas Warburton : Changes needed for adding a new event generator based on gaissers parameterisation.
+-   2015-03-30 Lynn Garren : restore extra find\_ups\_product calls for now
+-   2015-03-26 Lynn Garren : Merge branch ‘release/v04\_03\_02’
+-   2015-03-26 Lynn Garren : using larsoft\_data v0\_03\_04
+-   2015-03-25 Lynn Garren : larsim v04\_03\_02 for larsoft v04\_03\_02
+-   2015-03-25 Lynn Garren : larsim v04\_03\_02 for larsoft v04\_03\_02
+-   2015-03-25 Lynn Garren : simplifying the top CMakeLists.txt file
+-   2015-03-18 Lynn Garren : larsim v04\_03\_01 for larsoft v04\_03\_01
+-   2015-03-18 Lynn Garren : larsim v04\_03\_01 for larsoft v04\_03\_01
+-   2015-03-12 Lynn Garren : Merge branch ‘release/v04\_03\_00’
+-   2015-03-12 Lynn Garren : larsim v04\_03\_00 with art v1\_13\_01
+-   2015-03-11 Lynn Garren : Merge branch ‘release/v04\_02\_02’
+-   2015-03-11 Lynn Garren : larsim v04\_02\_01 for larsoft v04\_02\_02
+-   2015-03-05 Lynn Garren : larsim v04\_02\_00 for larsoft v04\_01\_01
+-   2015-03-05 Lynn Garren : larsim v04\_02\_00 for larsoft v04\_01\_01
+-   2015-03-03 Wesley Ketchum : Merge remote-tracking branch ‘origin/feature/andrzej\_save\_endprocess’ into develop
+-   2015-03-02 Wesley Ketchum : Merge branch ‘develop’ into feature/wketchum\_MergeSimSources
+-   2015-02-27 Lynn Garren : Merge branch ‘release/v04\_01\_00’
+-   2015-02-27 Lynn Garren : have to install the headers
+-   2015-02-27 Lynn Garren : disable the new gensingle test if we are not using mrb
+-   2015-02-27 Lynn Garren : disable the new gensingle test if we are not using mrb
+-   2015-02-27 Lynn Garren : larsim v04\_01\_00 for larsoft v04\_01\_00
+-   2015-02-27 Lynn Garren : larsim v04\_01\_00 for larsoft v04\_01\_00
+-   2015-02-27 Lynn Garren : add missing library
+-   2015-02-27 Lynn Garren : Merge branch ‘feature/SeedService’ into release/v04\_01\_00
+-   2015-02-27 Lynn Garren : use larevt v04\_00\_02
+-   2015-02-26 Gianluca Petrillo : Added explicit dependency on artextensions
+-   2015-02-26 Andrzej Szelc : add saving of EndProcess to particle in LArG4
+-   2015-02-25 Gianluca Petrillo : Changed test to GeneratedEventTimestamp to reflect the new SeedService per-event seed policy behaviour (throw for events without valid timestamp)
+-   2015-02-25 Gianluca Petrillo : Merging develop (based on larsoft v04\_00\_01)
+-   2015-02-25 Gianluca Petrillo : Fixed a bug in debug mode of GeneratedEventTimestamp
+-   2015-02-25 Gianluca Petrillo : Added GeneratedEventTimestamp to EmptyEvent configuration in a FHiCL file
+-   2015-02-24 Gianluca Petrillo : Added single particle generation test
+-   2015-02-23 Gianluca Petrillo : Added GeneratedEventTimestamp tinestamp plug in to the configuration files.
+-   2015-02-23 Gianluca Petrillo : Timestamp plugin for EmptyEvent.
+-   2015-02-23 Gianluca Petrillo : Using the new SeedService interface.
+-   2015-02-21 Wesley Ketchum : Merge branch ‘feature/wketchum\_MCTrackCollectionAna’ into develop
+-   2015-02-21 Wesley Ketchum : fix to the RMS, now ready to merge to develop
+-   2015-02-19 Wesley Ketchum : MCTrackCollectionAnaAlg compiles…
+-   2015-02-19 Wesley Ketchum : create an MCTrackCollectionAnaAlg, for analyzing geometry info on a collection of MCTracks…
+-   2015-02-19 drinkingkazu : Fixing daughter start point & energy, improve speed a bit –kazu
+-   2015-02-18 Wesley Ketchum : fix making of associations … now ready to commit!
+-   2015-02-18 Lynn Garren : larsim v04\_00\_01 for larsoft v04\_00\_01
+-   2015-02-18 Lynn Garren : larsim v04\_00\_01 for larsoft v04\_00\_01
+-   2015-02-18 Wesley Ketchum : add option in LArG4 to specify generator input; also, changes/updates to reset MergeSimSourceUtility between events
+-   2015-02-18 Wesley Ketchum : finish up the MergeSimSourcesUtility class, and add in a module to run it … module makes all the things LArG4 makes
+-   2015-02-13 Gianluca Petrillo : Fixed a bug with the new random seed in LArG4
+-   2015-02-13 Wesley Ketchum : add a MergeSimSourcesUtility: requires additional methods in simulation products
+-   2015-02-12 Gianluca Petrillo : GENIE adapted to the use of SeedService.
+-   2015-02-12 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/SeedService
+-   2015-02-12 Gianluca Petrillo : Geant4 and ToyOneShowerGen adapted to SeedService
+-   2015-02-12 Gianluca Petrillo : All generator interfaces except GENIE’s adapted to SeedService
+-   2015-02-12 Lynn Garren : Merge branch ‘v04\_00\_rc’ into develop
+-   2015-02-11 Lynn Garren : Merge branch ‘v04\_00\_rc’
+-   2015-02-11 Lynn Garren : larsim v04\_00\_00
+-   2015-02-11 Lynn Garren : larsim v03\_07\_00 for larsoft v03\_08\_02
+-   2015-02-11 Lynn Garren : Merge branch ‘feature/mrmooney\_SpaceChargeTest’ into v04\_00\_rc
+-   2015-02-11 Michael Mooney : Quick fix
+-   2015-02-11 Lynn Garren : photon\_library.xml is a sample
+-   2015-01-27 Matthew Toups : Update version of larsoft.
+-   2015-01-27 Matthew Toups : Nonfunctional changes to largeant fcl file.
+-   2015-01-27 Matthew Toups : Update job submission script
+-   2014-12-02 Matthew Toups : Update optical library build tools.
+-   2014-12-01 Matthew Toups : Comment out redundant line in simulationservices.fcl for microboone.fcl.
+-   2015-02-10 Gianluca Petrillo : Support for SeedService (SimWireT962 module only)
+-   2015-02-10 Matthew Toups : Change default file for photon library to point to the updated library with 32 PMTs.
+-   2015-02-10 Matthew Toups : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/toups\_photon\_library
+-   2015-02-10 Matthew Toups : Updated ups product\_deps
+-   2015-02-09 Gianluca Petrillo : Extended interfact of BackTracker::HitToEveID()
+-   2015-02-07 Michael Mooney : Merge branch ‘develop’ into feature/mrmooney\_SpaceChargeTest
+-   2015-02-06 Lynn Garren : Merge branch ‘feature/mrmooney\_SpaceChargeTest’ into v04\_00\_rc
+-   2015-02-06 Michael Mooney : Moved space charge effect service to larevt
+-   2015-02-05 Lynn Garren : larsim v04\_00\_00\_rc1
+-   2015-01-30 Gianluca Petrillo : Merge tag ‘LARSOFT\_SUITE\_v03\_08\_00’ into feature/DataProductRevision
+-   2015-01-29 Lynn Garren : add missing root library to the link list
+-   2015-01-28 Lynn Garren : larsim v03\_06\_00
+-   2015-01-28 Lynn Garren : cleanup CMakeLists.txt
+-   2015-01-28 Herbert Greenlee : Remove -r dynamic.
+-   2015-01-27 Matthew Toups : Update version of larsoft.
+-   2015-01-27 Matthew Toups : Merge remote-tracking branch ‘origin/develop’ into feature/toups\_photon\_library
+-   2015-01-27 Matthew Toups : Nonfunctional changes to largeant fcl file.
+-   2015-01-27 Matthew Toups : Update job submission script
+-   2015-01-27 Herbert Greenlee : Add subdirectory MCSTReco.
+-   2015-01-22 Michael Mooney : Modifications for improved performance
+-   2015-01-21 Lynn Garren : larsim v03\_05\_00 for larsoft v03\_07\_00
+-   2015-01-21 Michael Mooney : Another minor bug fix for SCE implementation
+-   2015-01-20 Michael Mooney : Minor bug fixes for SCE
+-   2015-01-20 Tingjun Yang : Add option to move particles to a new plane.
+-   2015-01-17 Michael Mooney : First version of space charge effect implementation
+-   2015-01-15 Brandon Eberly : Fixed bug in particle filter in which some particles that intersect the cryostat were not kept for simulation
+-   2015-01-15 Gianluca Petrillo : Updated DumpRawDigits module for new RawDigit
+-   2015-01-15 Gianluca Petrillo : Merge branch ‘develop’ into feature/DataProductRevision
+-   2015-01-15 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/DataProductRevision This synchronizes to larsoft v03\_06\_00 .
+-   2015-01-14 Gianluca Petrillo : Added module to dump content of raw::RawDigit on screen
+-   2015-01-14 Lynn Garren : larsim v03\_04\_00 for larsoft v03\_06\_00
+-   2015-01-14 Gianluca Petrillo : Merge branch ‘develop’ into feature/DataProductRevision
+-   2015-01-14 Tyler Alion : Merge branch ‘feature/AuxDetGeneralize\_talion’ into develop
+-   2015-01-14 Tyler Alion : change the object itentifier to not be the same name as the object type
+-   2015-01-13 Tyler Alion : Merge branch ‘develop’ into feature/AuxDetGeneralize\_talion
+-   2015-01-07 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/DataProductRevision
+-   2015-01-05 Lynn Garren : larsim v03\_03\_02 for larsoft v03\_05\_00
+-   2014-12-31 Tingjun Yang : Merge branch ‘develop’ into feature/AuxDetGeneralize\_talion
+-   2014-12-30 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/DataProductRevision
+-   2014-12-30 Lynn Garren : using ROOT\_EGPYTHIA6 which is now properly defined by cetbuildtools v4\_04\_02
+-   2014-12-29 Lynn Garren : use the predefined library name
+-   2014-12-27 Tyler Alion : Rewrite AuxDetReadoutGeometry to find and make AuxDets the same way that the Geometry service does. Change AuxDetReadout constructor to take a name as well as a number attached to the AuxDet. This number is the index in the vector of AuxDetGeos stored in Geometry, which will eventually be explicitly sorted just like the other \*Geo objects. The number then becomes the AuxDetSimChannel number. The old way was not flexible enough fo new users, but can now work with any GDML volume whose name starts with volAuxDet, regardless of what comes after. This GDML volume can also be anywhere in the volume tree under the World.
+-   2014-12-23 Gianluca Petrillo : Channel ID variables now of type raw::ChannelID\_t instead of uint32\_t
+-   2014-12-22 Gianluca Petrillo : Added explicit link to Root Pytia6 library, silently needed by Genie
+-   2014-12-19 Gianluca Petrillo : Code updated for new RawDigit, Wire and Hit.
+-   2014-12-16 Lynn Garren : larsim v03\_03\_01 for larsoft v03\_04\_06
+-   2014-12-16 Brian\_Rebel : put both non-default constructors behind the \#ifndef *GCCXML* guard because genreflex does not need to know about anything but the default ctor and the data members
+-   2014-12-10 Lynn Garren : larsim v03\_03\_00 for larsoft v03\_04\_05
+-   2014-12-10 Gianluca Petrillo : Adding a error message when trying to add no electrons or no energy to a SimChannel
+-   2014-12-09 Gianluca Petrillo : Fix to Issue [\#7460](/redmine/issues/7460 "Bug: NaN's in the simulation (Closed)"): do not add ionization contributions with no electrons to SimChannel’s
+-   2014-12-02 Lynn Garren : larsim v03\_02\_07 for larsoft v03\_04\_04
+-   2014-12-02 Matthew Toups : Update optical library build tools.
+-   2014-12-01 Matthew Toups : Comment out redundant line in simulationservices.fcl for microboone.fcl.
+-   2014-12-01 Matthew Toups : Add comments to prodsingle\_buildopticallibrary.fcl in photon library build tools.
+-   2014-12-01 Matthew Toups : Add comments to SubmitCommand.sh in library build tools.
+-   2014-12-01 Matthew Toups : Merge head of develop with minor edits to photon library build tool commits.
+-   2014-12-01 Matthew Toups : Add some comments to library build tool script and fcl file.
+-   2014-11-24 Lynn Garren : larsim v03\_02\_06 for larsoft v03\_04\_03
+-   2014-11-19 Lynn Garren : larsim v03\_02\_05 for larsoft v03\_04\_02
+-   2014-11-11 Lynn Garren : larsim v03\_02\_04 for larsoft v03\_04\_01
+-   2014-11-10 Sowjanya Gollapinni : Adding in a provision to specify a buffer box that goes around the cryostat, to increase the CRY rate that is fed to GEANT4. Saving only particles that geometrically cross the TPC doesn’t consider the rate loss due to multiple scattering effects one encounters in the GEANT step. A buffer box will compensate for this loss
+-   2014-11-07 Tingjun Yang : remove experiment specific configurations
+-   2014-11-04 Lynn Garren : larsim v03\_02\_03
+-   2014-10-28 Lynn Garren : for larsoft v03\_03\_02
+-   2014-10-23 Alex Himmel : Make the new x-axis in the y-z projection plots of the photon library analyzer configurable. Default behavior is unchanged. Needed since LBNE and MicroBooNE seem to prefer different orientations here.
+-   2014-10-22 Lynn Garren : use cetbuildtools v4\_03\_00
+-   2014-10-16 Lynn Garren : for larsoft v03\_02\_01
+-   2014-10-08 Alex Himmel : Merge branch ‘feature/storePhotonFinalPosition’ into develop
+-   2014-10-08 Alex Himmel : Merge branch ‘develop’ into feature/storePhotonFinalPosition
+-   2014-10-06 Lynn Garren : for larsoft v03\_02\_00
+-   2014-09-25 Alex Himmel : Store the final local position of the photon when it hits the photon detector in the SimPhotons class. Required for implementing light guide photon detectors.
+-   2014-09-29 Thomas Junk : Add a space at the end of a comment to re-push (had a ruby timeout trying to push this before.
+-   2014-09-29 Thomas Junk : Add qualifier matrix column for larsoft\_data’s dependence here
+-   2014-09-29 Thomas Junk : Update comment
+-   2014-09-26 Lynn Garren : the expectd -std=c++ flag is now set by cetbuildtools
+-   2014-09-26 Lynn Garren : for larsoft v03\_01\_00
+-   2014-09-24 Lynn Garren : Merge branch ‘master’ into develop
+-   2014-09-23 Lynn Garren : larsim v03\_00\_00 with art v1\_12\_00 and gcc v4\_9\_1
+-   2014-09-23 Lynn Garren : use cetbuildtools v4\_02\_02
+-   2014-09-23 Thomas Junk : call MCParticle constructor with arguments including the mass for alpha particles since alphas are not in the TDatabasePDG and do not get their mass put in automatically.
+-   2014-09-23 Thomas Junk : Add a dependency on larsoft\_data
+-   2014-09-22 Thomas Junk : Upgrade to read in spectra from root files in FW\_SEARCH\_PATH/Radonuclides Random number generators are all from CLHEP – recode the root TH1::GetRandom to use the larsoft-managed CLHEP generators.
+-   2014-09-18 Lynn Garren : for larsoft v02\_06\_02
+-   2014-09-10 Lynn Garren : larsoft v02\_06\_01
+-   2014-09-10 Thomas Junk : Generator module for radiological decays. This first version just generates decays within a rectangular prism specified in world coordinates. It can simulate arbitrarily many of these as the inputs are arrays. Future work – tie it to the GDML.
+-   2014-09-10 Lynn Garren : for larsoft v02\_06\_01
+-   2014-09-08 Lynn Garren : Merge tag ‘v02\_06\_00’ into develop
+-   2014-09-04 Lynn Garren : for larsoft v02\_06\_00
+-   2014-09-03 Lynn Garren : for larsoft v02\_05\_03
+-   2014-09-02 Alex Himmel : Bug fix: Check root file sub-TDirectories for photon library if it is not found in the top directory of the TFile.
+-   2014-08-26 Lynn Garren : for larsoft v02\_05\_02
+-   2014-08-26 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-08-26 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-08-26 Brian Rebel : Merge branch ‘feature/NoDetId’ into develop
+-   2014-08-25 Brian Rebel : remove use of ChannelFilter as it is undefined for most detectors
+-   2014-08-22 Thomas Junk : fix bug in bugfix – uniform in sin(thetaYZ) (mistakenly had been switched to uniform in thetaYZ). Keep the bounds checking to ensure that the interval stays in -pi/2 to pi/2 for all user input.
+-   2014-08-21 Tristan Blackburn : Fixed bug in uniform thetaYZ
+-   2014-08-21 Tristan Blackburn : Fixed bug in uniform thetaYZ
+-   2014-08-15 Tingjun Yang : clean up fcl files
+-   2014-08-14 Lynn Garren : for larsoft v02\_05\_01
+-   2014-08-14 Brian Rebel : remove use of Geometry::DetId() throughout the code. Use instead the Geometry::DetectorName() to store the string of the detector.
+-   2014-08-12 Lynn Garren : for larsoft v02\_05\_00
+-   2014-08-12 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-08-12 Tingjun Yang : fix a bug identified by Kazu, fix suggested by Brian, donot track electrons between wire planes for now
+-   2014-08-11 Gianluca Petrillo : Reworked all the code using ParticleList::Particle(int), ::TrackID(int) and ::Primary(int) in a inefficient way (turns out, it was always the case). Added ParticleList::GetPrimaries() to provide all primaries in a decently efficient way.
+-   2014-08-11 Wesley Ketchum : change TrackIDE namespace from cheat to sim
+-   2014-08-09 Wesley Ketchum : move TrackIDE definition to SimChannel; add default constructor and a non-default constructor to allow me to emplace\_back; translate backtrackers ChannelToTrackIDE to a method of SimChannel (TrackIDEs); modify sim.h to include \<limits\> and not \<climits\>, as for some reason that was not compiling for me
+-   2014-08-08 Wesley Ketchum : fix single particle gen to allow negative times
+-   2014-08-06 Eric Church : Remove frivolous couts.
+-   2014-08-06 Eric Church : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-08-06 Gianluca Petrillo : BackTracker: (1) removed an almost unused member whose initialiazation took ages (2) removed an unnecessary copy (3) interface expanded to return non-const vectors when proper
+-   2014-08-06 Eric Church : NoDirtFilter now works
+-   2014-08-05 Lynn Garren : for larsoft v02\_04\_00
+-   2014-08-05 Lynn Garren : removing another library that does not belong in a larsim link list
+-   2014-08-05 Lynn Garren : remove RecoAlg, which would create a circular dependency and does not appear to be used.
+-   2014-08-05 Eric Church : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-08-05 Eric Church : More fies to NoDirt Filter. Still not ready.
+-   2014-08-04 Gianluca Petrillo : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-08-04 yuntse : Bill’s fix on LArG4
+-   2014-08-04 Gianluca Petrillo : Merge branch ‘feature/MicroBooNEauxDet’ into develop
+-   2014-08-03 Eric Church : New Filter
+-   2014-07-29 Gianluca Petrillo : Replaced std::set by std::vector in sim::AuxDetSimChannel; added move constructor.
+-   2014-07-22 Lynn Garren : for larsoft v02\_03\_01
+-   2014-07-18 Lynn Garren : for larsoft v02\_03\_00
+-   2014-07-14 Lynn Garren : for larsoft v02\_02\_01
+-   2014-07-14 Lynn Garren : Merge branch ‘feature/greenlee\_lazy\_photon\_library’ into develop Approved by Matt Toups.
+-   2014-07-09 Herbert Greenlee : Merge branch ‘develop’ into feature/greenlee\_lazy\_photon\_library
+-   2014-07-03 Gianluca Petrillo : Merge branch ‘feature/LBNFgeometry’ into develop
+-   2014-07-02 Herbert Greenlee : Modify PhotonVisibilityService to defer loading photon library out of constructor until it is needed (never load if not needed).
+-   2014-07-02 Gianluca Petrillo : Merge branch ‘develop’ into feature/LBNFgeometry
+-   2014-07-02 Gianluca Petrillo : Avoid unnecessary copy of data structure
+-   2014-07-01 drinkingkazu : We are not currently hanting the cpu time but rather memory usage. Remove 10k photon reservation @ clear –kazu
+-   2014-07-01 Lynn Garren : larsoft v02\_02\_00
+-   2014-06-30 Katherine Woodruff : bug fix on aux detector (clears data per event + some fix in data product & filling algorithm)
+-   2014-06-30 Lynn Garren : for larsoft v02\_02\_00
+-   2014-06-27 drinkingkazu : Better photon data product handling –kazu
+-   2014-06-26 Gianluca Petrillo : Fixed compilation in profiling mode; added channel output to LArSimChannelAna module; minor optimization to LArG4 data movement.
+-   2014-06-24 Gianluca Petrillo : Redesign of the LArVoxelReadout connections
+-   2014-05-28 Gianluca Petrillo : Added reuse of the same Geant readout volume (LArVoxel) for multiple TPCs.
+-   2014-06-25 Gianluca Petrillo : Adding an option to LArG4 to dump all SimChannels on screen.
+-   2014-06-25 Lynn Garren : always use NO\_DEFAULT\_PATH
+-   2014-06-19 Lynn Garren : for larsoft v02\_01\_01
+-   2014-06-06 drinkingkazu : Bug fix suggested/requested by Herb –kazu
+-   2014-06-04 Lynn Garren : changes for new TimeService
+-   2014-06-04 Lynn Garren : Merge branch ‘ub\_dev’ into release/v02\_01\_00
+-   2014-06-02 Lynn Garren : for larsoft v02\_00\_01
+-   2014-06-02 drinkingkazu : Merge branch ‘develop’ into ub\_dev
+-   2014-05-27 Lynn Garren : Merge branch ‘release/v02\_00\_00’
+-   2014-05-27 Lynn Garren : for v02\_00\_00
+-   2014-05-23 Lynn Garren : for larsoft v1\_02\_01
+-   2014-05-23 Lynn Garren : more realistic minimum required versions
+-   2014-05-22 drinkingkazu : Merge branch ‘develop’ into ub\_dev
+-   2014-05-21 drinkingkazu : Merge branch ‘develop’ into ub\_dev
+-   2014-05-21 drinkingkazu : Revert addition of extra variable in user interface… instead use TimeService internally –kazu
+-   2014-05-21 Lynn Garren : for larsoft v1\_02\_00
+-   2014-05-21 Lynn Garren : use the new install\_fw macro
+-   2014-05-21 Lynn Garren : remove obsolete macro
+-   2014-05-21 drinkingkazu : Adding TS dependency –kazu
+-   2014-05-20 drinkingkazu : Use TimeService –kazu
+-   2014-05-20 drinkingkazu : Merge branch ‘develop’ into ub\_dev
+-   2014-05-20 drinkingkazu : Saving beam type in BeamGateInfo –kazu
+-   2014-05-19 Bruce Baller : Add TrackIDsToHits
+-   2014-05-16 Gianluca Petrillo : “Side effects of cut and paste…”
+-   2014-04-25 Lynn Garren : use cetbuildtools v3\_10\_01
+-   2014-04-25 Lynn Garren : for larsoft v1\_01\_00
+-   2014-04-23 Lynn Garren : for larsoft v1\_00\_08
+-   2014-04-23 Lynn Garren : install geant4 macros in LARSIM\_DIR/G4
+-   2014-04-15 Gianluca Petrillo : Issue 5174: removing special enable of assertions; Issue 5589: removed workaround
+-   2014-04-08 Gianluca Petrillo : Merge branch ‘feature/Issue5174’ into develop
+-   2014-04-08 Gianluca Petrillo : Reformatting the cet::exception messages
+-   2014-04-08 Gianluca Petrillo : Replacing asserts with exceptions.
+-   2014-04-08 William Seligman : BadIdeaAction no longer needed with current Gean4 version
+-   2014-04-03 Nathaniel Tagg : Fix cast error on configure. long64t is apparently unusable.
+-   2014-04-02 Nathaniel Tagg : Make it compile/link on OSX under MRB
+-   2014-03-31 Lynn Garren : for larsoft v1\_00\_07
+-   2014-03-25 Lynn Garren : the minimum required version for larsoft packages was too high
+-   2014-03-25 Lynn Garren : for larsoft v1\_00\_06
+-   2014-03-19 acciarri : Merge branch ‘feature/RecoRetreat’ into develop
+-   2014-03-19 acciarri : “Update MCCheater – Roberto”
+-   2014-03-19 acciarri : update MCCheater – Roberto
+-   2014-03-18 Eric Church : Remove \~ flotsam.
+-   2014-03-18 Eric Church : Because of would-be circulary dependency (MCCheater is needed) in larevt we remove FilterPrimaryPDG\_module and put it into larsim/SimFilters/ instead.
+-   2014-03-11 Lynn Garren : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-03-11 Lynn Garren : larsoft v1\_00\_05
+-   2014-03-11 Eric Church : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-03-11 Eric Church : Updates
+-   2014-03-10 Matthew Toups : Remove cout
+-   2014-03-10 Matthew Toups : Fix memory leaked when retrieving SimPhotonCollection:
+-   2014-03-09 Brian Rebel : change event from being unsigned short to int to allow for very large event numbers
+-   2014-03-06 petrillo : Prehemptively reserve memory for vectors to avoid memory usage peaks on vector expansion.
+-   2014-03-06 Gianluca Petrillo : Reverting a change on PhotonLibrary from the last commit
+-   2014-03-05 Hamlet : Fix of a very minor, only potential memory leak. Change of interface: some return values became constant. Replacement of unnecessary dynamically allocated vectors with static ones in PhotonLibrary (flattening the lookup table would be even better): saves a bit of memory.
+-   2014-03-04 Hamlet : Issue 5589: switching off LOG\_DEBUG macro when not in debug build
+-   2014-03-03 Lynn Garren : for larsoft v1\_00\_04
+-   2014-03-03 Lynn Garren : Merge branch ‘release/v1\_00\_04’
+-   2014-03-03 Lynn Garren : copy LArG4 macros to build area for tests
+-   2014-03-03 Tingjun Yang : This may not be necessary according to Kazu, just to make sure.
+-   2014-03-02 Wesley Ketchum : Merge branch ‘feature/wketchum\_OpDetPhotonMemLeak’ into develop
+-   2014-03-02 Wesley Ketchum : missed another instance…now all simb::OnePhoton are handled with std::unique\_ptr and std::move
+-   2014-03-02 Wesley Ketchum : first attempt at memory leak fix
+-   2014-02-25 Lynn Garren : Merge branch ‘release/v1\_00\_03’ into develop
+-   2014-02-25 Lynn Garren : Merge branch ‘release/v1\_00\_03’
+-   2014-02-25 Lynn Garren : larsoft v1\_00\_03
+-   2014-02-25 Lynn Garren : use cetbuildtools v3\_07\_10
+-   2014-02-09 Eric Church : Allow a slightly larger epsilon to catch stuck particles, as we had a perfectly good muon stepping in tiny steps that were 50% bigger than previous epsilon, and the event just hung. This fixes it.
+-   2014-02-07 Brian Rebel : change repeated index variable i in nested for loops to not have the same designation
+-   2014-02-03 Lynn Garren : Merge branch ‘release/v1\_00\_02’ into develop
+-   2014-02-03 Lynn Garren : Merge branch ‘release/v1\_00\_02’
+-   2014-02-03 Lynn Garren : v1\_00\_02 with warnings fixed and using a cetbuildtools that supports nightly updates
+-   2014-02-01 Gianluca Petrillo : Reverting compiler flag change.
+-   2014-01-31 Gianluca Petrillo : Merge branch ‘feature/Bug5105’ into develop Bug [\#5105](/redmine/issues/5105 "Bug: Fix compiler warnings (Closed)"): compilation fixed for flags: VIGILANT -pedantic -Wno-unused-local-typedefs .
+-   2014-01-31 Gianluca Petrillo : Added comment
+-   2014-01-31 Gianluca Petrillo : Compilation fixed for flags: VIGILANT -pedantic -Wno-unused-local-typedefs -Wno-unused-variable (the latter needed because of CLHEP)
+-   2014-01-31 Gianluca Petrillo : Fixed warnings (almost-PARANOID level)
+-   2014-01-31 Eric Church : Merge branch ‘master’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-01-31 Eric Church : Fix dead if clause …
+-   2014-01-31 Eric Church : Make this script use lbne detsim by default.
+-   2014-01-24 Brian Rebel : remove lariat specific files
+-   2014-01-23 Lynn Garren : Merge branch ‘develop’
+-   2014-01-23 Lynn Garren : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-01-23 Lynn Garren : TriggerAlgoMicroBoone depends on TriggerAlgoBase
+-   2014-01-23 Eric Church : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-01-23 Eric Church : Andrzej\\’s fix to the broken singleton implementation that was resulting in every G4 step on a given track depositing the same exact ionization energy.
+-   2014-01-23 Lynn Garren : Merge branch ‘release/v1\_00\_01’ into develop
+-   2014-01-23 Lynn Garren : Merge branch ‘release/v1\_00\_01’
+-   2014-01-23 Lynn Garren : v1\_00\_01
+-   2014-01-23 rs : Move TriggerAlgoMicroBoone back into larsim so that OpFlashFinder is usable. Will fix this in a later release.
+-   2014-01-23 Lynn Garren : install G4 macros
+-   2014-01-23 Lynn Garren : do not link with TriggerAlgoMicroBoone\_service
+-   2014-01-22 Lynn Garren : Merge branch ‘release/v1\_00\_00’
+-   2014-01-22 rs : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
+-   2014-01-22 rs : Add “.sample” to the end of all files re-factored into lbnecode and uboonecode
+-   2014-01-22 Lynn Garren : initialize TFile and TTree pointers
+-   2014-01-22 Lynn Garren : restore cmake files
+-   2014-01-22 Lynn Garren : root files once in LibraryData are now in larsoft\_data
+-   2014-01-22 Lynn Garren : remove unwanted semicolon
+-   2014-01-21 Brian Rebel : set the GENIE and nutools versions to 2\_8\_0c and 1\_01\_03 for S2014.01.21 build.
+-   2014-01-21 Brian Rebel : set the GENIE and nutools versions to 2\_8\_0c and 1\_01\_03 for development build respectively.
+-   2014-01-21 Brian Rebel : prepare for S2014.01.21 tag.
+-   2014-01-21 Andrzej Szelc : tweaks, mainly to the shower start selection
+-   2014-01-21 Andrzej Szelc : use hit selecting code from Geometry Utilities, instead of local outdated copy
+-   2014-01-21 Andrzej Szelc : Save origin points for all MC true particles
+-   2014-01-21 Andrzej Szelc : tweaks to 3d angle calculation, move some methods from RecoAlg
+-   2014-01-21 Benjamin Jones : Add width to flash class
+-   2014-01-21 Benjamin Jones : Update beam time handling
+-   2014-01-21 Benjamin Jones : Add InBeam flag
+-   2014-01-21 Benjamin Jones : Add x and L marginalization
+-   2014-01-20 Benjamin Jones : Remove relic couts
+-   2014-01-20 Benjamin Jones : Improve handling of out-of-bounds lookup
+-   2014-01-20 Benjamin Jones : remove couts
+-   2014-01-20 Benjamin Jones : Add simplest-possible ana module for track matches
+-   2014-01-20 Benjamin Jones : Track matching updates
+-   2014-01-20 Benjamin Jones : account for variable name change
+-   2014-01-20 Benjamin Jones : Variable name adjustment to prevent confusion later
+-   2014-01-20 Benjamin Jones : Update dictionary info for track flash matches
+-   2014-01-20 Benjamin Jones : bug fix
+-   2014-01-20 Benjamin Jones : Minor updates + remove couts
+-   2014-01-20 Tingjun Yang : sort clusters by wire first
+-   2014-01-20 Tingjun Yang : update direction calculation
+-   2014-01-18 Tingjun Yang : delete messages
+-   2014-01-18 Tingjun Yang : bug fixing
+-   2014-01-18 Lynn Garren : update LArPandora cmake instructions
+-   2014-01-18 Tingjun Yang : fixing a bug
+-   2014-01-17 Lynn Garren : adding class version info
+-   2014-01-17 Benjamin Jones : Flash bug fix
+-   2014-01-17 Tingjun Yang : update fcl parameters
+-   2014-01-17 Benjamin Carls : Using a binomial distribution to determine if a bin in the accumulator has enough hits to form a line
+-   2014-01-17 Herbert Greenlee : Fix bug involving multiple tpc detectors.
+-   2014-01-17 Benjamin Jones : Flash finding updates
+-   2014-01-17 Benjamin Carls : Fuzzy cluster parameter optimizations
+-   2014-01-17 Benjamin Carls : Fuzzy cluster bug fixes
+-   2014-01-17 Benjamin Carls : Fuzzy cluster bug fixes
+-   2014-01-17 Tingjun Yang : a few tweaks
+-   2014-01-17 Tingjun Yang : improve track direction cosine calculation
+-   2014-01-17 Benjamin Jones : Fix flash bug
+-   2014-01-17 Benjamin Jones : Fix flash bug
+-   2014-01-17 Brian Rebel : AddPoint(int x, int y) called DoAddPoint(int x, int y) which was commented out and no longer defined. AddPointReturnMax(int x, int y) was also not defined. I removed AddPoint, DoAddPoint and AddPointReturnMax(int x, int y). The single call to AddPoint(int x, int y) was changed to AddPointReturnMax(int x, int y). (Do)AddPointReturnMax(int x, int y, int\* maxx, int\* maxy) were changed to return a std::vector\<int\> with the overall maximum value and the x y location of that maximum value and to have the signature of (Do)AddPointReturnMax(int x, int y). The relevant bits of code were changed to follow this new signature and return type. This change was required to build properly with CMake which flagged the undefined DoAddPoint and failed. Also removed references to SaveBMPFile as that function was not defined and only called once. Instead use HLSSaveBMPFile.
+-   2014-01-16 Erica Snider : Cosmetic (for a test)
+-   2014-01-16 Benjamin Jones : remove check statements
+-   2014-01-16 Benjamin Jones : Updates to flash finder and ana
+-   2014-01-16 Benjamin Jones : Changes to optical reco types
+-   2014-01-15 Benjamin Jones : Remove deprecated bezier track analyzer
+-   2014-01-15 Benjamin Jones : Add assocs we need for the new flash finder
+-   2014-01-15 Benjamin Jones : Fix seeding bug
+-   2014-01-15 Benjamin Jones : Fix seeding bug
+-   2014-01-14 Jonathan Insler : turned off MakeTree in calorimetry\_lbne35t defaults, changed default hits to gaushit
+-   2014-01-14 Benjamin Jones : Fix seed nan bug
+-   2014-01-13 Bruce Baller : Define fAllowNoHitWire
+-   2014-01-13 Ariana Hackenburg : EndCaps
+-   2014-01-13 Bruce Baller : Add FitVtx to ClusterCrawler
+-   2014-01-10 Seong Tae Park : Deleted file rawevd.fcl
+-   2014-01-10 Seong Tae Park : Deleted file rawevd.fcl
+-   2014-01-10 Seong Tae Park : Deleted file RawEVD35t\_module.cc
+-   2014-01-10 Seong Tae Park : Deleted file rawevd35t.fcl
+-   2014-01-10 Seong Tae Park : Deleted file rawEVD35tFD.C
+-   2014-01-10 Seong Tae Park : Deleted file rawEVD10ktFD.C
+-   2014-01-10 Seong Tae Park : 35t raw data event display
+-   2014-01-10 Seong Tae Park : 10kt raw data event display
+-   2014-01-10 Seong Tae Park : Fcl for 35t raw data event display module
+-   2014-01-10 Seong Tae Park : Module for 35t raw data event display
+-   2014-01-10 Seong Tae Park : Fcl for 10kt raw data event display module
+-   2014-01-10 Seong Tae Park : Module for 10kt raw data event display
+-   2014-01-10 Bruce Baller : CCHitRefiner use LogVerbatim
+-   2014-01-09 Tingjun Yang : fix a bug
+-   2014-01-08 Bruce Baller : Fix ClusterCrawler version difference
+-   2014-01-08 Bruce Baller : CCHitFinder remove cout
+-   2014-01-08 Tingjun Yang : add inline function that was forgot initially
+-   2014-01-08 Tingjun Yang : fix calculation of PIDA
+-   2014-01-07 Thomas Junk : Fix compiler warnings about uninitialized memory that are now treated as errors in the new git/cmake world
+-   2014-01-07 Benjamin Jones : Add I/O part of producer
+-   2014-01-07 Benjamin Jones : First draft of flash finder for FIFO objects
+-   2014-01-07 Bruce Baller : CCHitRefiner development
+-   2014-01-07 Bruce Baller : CCHitFinder: use LogDebug
+-   2014-01-07 Tingjun Yang : update fcl
+-   2014-01-06 Michelle Stancari : generalized algorithm for calculating slope of 2D prongs
+-   2014-01-06 Michelle Stancari : added Craig Thornes parameterization for drift velocity at electric fields below 500 V/cm
+-   2014-01-05 Brian Rebel : add method to access the direction vectors for the wire.
+-   2014-01-04 Tingjun Yang : update fcl
+-   2014-01-04 Tingjun Yang : update fcl
+-   2014-01-03 Bruce Baller : CCHitFinder: add AllowNoHitWire
+-   2014-01-03 Bruce Baller : CCHitFinder: add AllowNoHitWire
+-   2014-01-03 Brian Rebel : add in a few more comments for the determination of the wire angle with respect to the z axis
+-   2014-01-03 Thomas Junk : Comment out some unused, large arrays with hardcoded sizes (that are not appropriate for LBNE anyhow).
+-   2014-01-03 Tingjun Yang : sort spacepoints
+-   2014-01-02 Tingjun Yang : update bad channels
+-   2014-01-02 Tingjun Yang : change interface
+-   2014-01-02 Tingjun Yang : Add PIDA (created by Bruce Baller)
+-   2014-01-02 Tingjun Yang : simplify interface
+-   2014-01-02 Tingjun Yang : update fcl parameter
+-   2014-01-02 Kazuhiro Terao : (**) Ability to run 2D cluster merging added to ShowerAngleCluster (**) By default it doesn’t merge anything as the parameter tuning is on-going.
+-   2014-01-02 Kazuhiro Terao : (**) Introduce ClusterMergeAlg module … used in ShowerAngleCluster to merge 2D shower clusters on the same plane (**) Modified a fcl file to properly introduce ClusterMergeAlg and ClusterMatchAlg as double-include is now allowed in the present version of art.
+-   2013-12-31 Tingjun Yang : sort clusters by 2d length first
+-   2013-12-30 Tingjun Yang : fix fcl
+-   2013-12-29 Tingjun Yang : fix services.fcl
+-   2013-12-28 Tingjun Yang : update fcl
+-   2013-12-28 Tingjun Yang : update fcl
+-   2013-12-28 Tingjun Yang : update fcl
+-   2013-12-28 Tingjun Yang : update fcl
+-   2013-12-28 Tingjun Yang : update fcl
+-   2013-12-28 Tingjun Yang : update fcl
+-   2013-12-28 Tingjun Yang : Update CosmicTracker
+-   2013-12-27 Kazuhiro Terao : (**) Simplified I/O structure for using ClusterMatchAlg (**) Updated loop structure to prepare for using ClusterMergeAlg (not yet using it) (\*) Should not change any physics output by this commit
+-   2013-12-27 Kazuhiro Terao : (\*) Updated ClusterMatchAlg I/O to handle recob::Cluster created within ShowerAngleCluster
+-   2013-12-26 Tingjun Yang : update fcl
+-   2013-12-26 Bruce Baller : Revise CCHitFinder fcl inputs
+-   2013-12-26 Bruce Baller : ClusterCrawler revisions
+-   2013-12-26 Bruce Baller : CCHitFinder: add InClus
+-   2013-12-26 Bruce Baller : ClusterCrawler revisions
+-   2013-12-24 Tingjun Yang : (Temporarily) add dead channels for Long Bo
+-   2013-12-24 Tingjun Yang : update seedfinderalgorithm parameters for Long Bo
+-   2013-12-24 Tingjun Yang : update clustercrawleralg parameters for Long Bo
+-   2013-12-24 Tingjun Yang : flip collection wires of Long Bo to be consistent with offline geometry.
+-   2013-12-23 Tingjun Yang : add spacepointfinder parameters for bo
+-   2013-12-23 Tingjun Yang : add clustercrawler parameters for bo
+-   2013-12-23 Tingjun Yang : set longbo gdml
+-   2013-12-22 Tingjun Yang : fix typo
+-   2013-12-21 Tyler Alion : Fix up the standard reco for 35t. HitAna and DIsambig to be added next.
+-   2013-12-20 Bruce Baller : comment out HITSTUDY
+-   2013-12-20 Bruce Baller : CCHitFinder revisions
+-   2013-12-20 Eric Church : Checkin the S2013.11.25 packages
+-   2013-12-19 Eric Church : New S2013.11.25 tag to match svn2git beta date.
+-   2013-12-18 Andrzej Szelc : revert back to previous order of includes
+-   2013-12-18 Andrzej Szelc : Set UseArea to false for Microboone, to get real values
+-   2013-12-18 Kazuhiro Terao : BUG FIX: (\*) Find some matching clusters for 2 plane mode.
+-   2013-12-18 Andrzej Szelc : reuintroduce catch, for \<3 planes geometry, to avoid vector range check exceptions
+-   2013-12-17 Eric Church : Prep for tag/branch S2013.12.17
+-   2013-12-17 Brian Rebel : bump the totalview version number
+-   2013-12-17 Kazuhiro Terao : UPDATE & FIX (**) Store vector index as cluster ID like other algorithms =\> no effect to ShowerReco (**) Re-enable the minimum hit cut which was taken out due to technical difficulty =\> resolved (\*) Store std::vector\<art::PtrVector\<recob::SpacePoint\>\> if user specified so in ClusterMatchAlg.
+-   2013-12-17 Kazuhiro Terao : UPDATE:
+-   2013-12-16 Brian Rebel : change services.fcl to services\_argoneut.fcl
+-   2013-12-16 Brian Rebel : include the geometry\_lbne.fcl instead of geometry.fcl
+-   2013-12-16 Brian Rebel : change services.fcl to services\_microboone.fcl
+-   2013-12-16 Kazuhiro Terao : FIX: fix \#include order so that calorimetry modules are recognized by shower modules –kazu
+-   2013-12-16 Andrzej Szelc : fix the MCOrig list of particles to not have a ton of empty entries
+-   2013-12-16 Eric Church : Some Track modules may only put 1st and last cov and momentum measurements on the track, so protect against that in TrackStitcher which is trying to concatenate all properties of component tracks into the new stitched track.
+-   2013-12-15 Andrzej Szelc : fix accounting of what gets saved into the std::vector\< art::PtrVector \<cluster \> \>
+-   2013-12-15 Andrzej Szelc : add catches to work with 2-plane geometry
+-   2013-12-15 Brian Rebel : remove setting of RelativePath from the .fcl files and make the default value an emptty string in favor of using the FW\_SEARCH\_PATH variable looking in the Geometry/gdml file by default. This change is for the conversion to the new git/cmake system
+-   2013-12-15 Brian Rebel : add in Geometry/gdml for SRT\_PRIVATE\_CONTEXT
+-   2013-12-15 Brian Rebel : add LARSOFT/Geometry/gdml to the FW\_SEARCH\_PATH
+-   2013-12-15 Brian Rebel : add SRT\_PRIVATE(PUBLIC)\_CONTEXT/Geometry/gdml to the FW\_SEARCH\_PATH
+-   2013-12-15 Brian Rebel : initialize vector of pointers to nullptr
+-   2013-12-13 Jonathan Asaadi : Fixes and improvements to FeatureVertexFinder…the alg still returns all possible 3d AND 2d vertex candidates, but now the first vertex in that list has a higher likelihood of being the primary vertex
+-   2013-12-13 Brian Rebel : make the IonizationAndScintillation singleton save a pointer to the current G4Step. Also require the Reset(step) method to be called before asking for the number of electrons, photons, or total energy deposition from the IonizationAndScintillation singleton. The Reset method will check its pointer against the current step and do the calculation if the steps are different.
+-   2013-12-13 Brian Rebel : roll nutools version forward. included explicit linking in of libEventDisplayBase to libEventDisplay\_service.
+-   2013-12-13 Jonathan Asaadi : Putting in a protection to catch when the fit fails in the hit finder….thanks for Tingjun for catching the error
+-   2013-12-12 Michael Kirby : Added the LARSOFT directory to FW\_SEARCH\_PATH and fixed typo
+-   2013-12-12 Michael Kirby : Added the LARSOFT directory to FW\_SEARCH\_PATH as well for ArgoNeuT
+-   2013-12-12 Bruce Baller : CCHitRefiner: Fixed error when swapping Begin/End
+-   2013-12-12 Eric Church : Make lar20jdjmuons.fcl pick up correct location of LArG4 service.
+-   2013-12-12 Brian Rebel : now move forward to ifdh\_art v1\_2\_10
+-   2013-12-12 Brian Rebel : add extra entries to FHICL\_FP using the \${LARSOFT} environmental variable. For LArSoft users the effect is to have \$SRT\_PUBLIC\_CONTEXT listed in the path an extra 2 times. For T962 users it means that the LArSoft FHICL files will be available in the FHICL\_FILE\_PATH variable.
+-   2013-12-12 Benjamin Jones : Update calib modules to those used in PMT pre-commissioning tests
+-   2013-12-12 Eric Church : Update FileMuons-related script and parameter set.
+-   2013-12-12 Eric Church : Update FileMuons-related script and parameter set.
+-   2013-12-11 William Seligman : Fix comments to reflect that nutools is no longer part of LArSoft SRT
+-   2013-12-11 Michael Kirby : Added a few backslashes to get better string formatting for fhicl environment variables
+-   2013-12-11 Tingjun Yang : fix a typo
+-   2013-12-11 Brian Rebel : add != operators for WireID and PlaneID
+-   2013-12-11 Brian Rebel : flatten more nested loops
+-   2013-12-11 Brian Rebel : flatten out a bunch of nested for loops making use of PlaneIDs instead. also change a bunch of abs and fabs calls to std::abs to be sure the right type is automatically used
+-   2013-12-11 Brian Rebel : remove apparently unnecessary nested loops over cryostat/tpc/plane. Doing so also prevents a possible error with the algorithm in that the p index in the plane loop was getting redefined in loops over protoshowers that were contained within that loop.
+-   2013-12-11 Brian Rebel : jumped the gun on the last change
+-   2013-12-11 Brian Rebel : change to using ifdh\_art v1.2.10
+-   2013-12-11 Brian Rebel : more nested for loop consolidation
+-   2013-12-10 Tingjun Yang : add clustercrawler configuration for argoneut
+-   2013-12-10 Tingjun Yang : add clustercrawler configuration for argoneut
+-   2013-12-10 Brian Rebel : add methods to return a set of PlaneIDs for the full detector. These methods should allow users to remove the last of the nested for loops over cryostats/tpcs/planes
+-   2013-12-10 Brian Rebel : more changes to remove nested loops in favor of looping over either maps or the set of geometry views
+-   2013-12-10 Brian Rebel : change nested for loops over cryostat/tpc/planes to make use of map\<geo::PlaneID, std::vector\<art::Ptr\> \> and loop over that instead.
+-   2013-12-10 Brian Rebel : change some art::PtrVector to std::vector\< art::Ptr\> to accommodate some changes in ClusterFinder
+-   2013-12-10 Brian Rebel : add ability to get a set of the different View\_ts used in the current detector
+-   2013-12-10 Brian Rebel : make INPUT and STRIP\_FROM\_PATH easier to parse
+-   2013-12-10 Brian Rebel : add GENIE directory to STRIP\_FROM\_PATH setting
+-   2013-12-10 Brian Rebel : make sure to call the .sh version of the setup script to set environmental variables before making doxygen
+-   2013-12-10 Brian Rebel : put more {} around environmental variables
+-   2013-12-10 Brian Rebel : put {} around environmental variables
+-   2013-12-10 Andrzej Szelc : change hardcoded values in favor of those based on the number of planes in order to actually have a collection plane in detectors with two planes
+-   2013-12-10 Andrzej Szelc : add LArIAT to the configuration options
+-   2013-12-10 Tingjun Yang : update fcl for argoneut
+-   2013-12-10 Brian Rebel : add the -gdwarf-2 so that totalview will be able to interpret the debugging symbols produced by gcc. This flag is necessary because gcc 4.8.1 (the gccc with art 1.08.10) produces symbols that are newer than totalview or gdb understand
+-   2013-12-09 Herbert Greenlee : Fix for FileCatalogMetadataExtras broken by art v1\_08\_xx.
+-   2013-12-09 Brian Rebel : use the geo::PlaneID object and a map of those to vectors of hits to avoid looping over all cryostats/tpcs/planes and just loop over the map entries. This change improves the speed of the module for events with lots of hits as we are no longer looping over all hits at the inner-most loop in a set of 3 nested loops. The speed for other events is effectively the same as before.
+-   2013-12-09 Lynn Garren : properly initialize the constructor
+-   2013-12-09 Brian Rebel : make sure to link in the FHICL included files and strip more away from the path for external products
+-   2013-12-09 Brian Rebel : make use of range based for loops and use the geo::PlaneID to tidy up comparisons of whether we have the correct cryostat/tpc/plane combination for 2D drawing
+-   2013-12-09 Brian Rebel : explicitly remove the old log file before running doxygen.
+-   2013-12-09 Brian Rebel : add methods to get the view and signal type for a plane using the PlaneID struct
+-   2013-12-09 Brian Rebel : make the minimum fraction of the total energy of a hit that a particle has to contribute to it to be considered in efficiency and purity calculations a tunable parameter
+-   2013-12-09 Brian Rebel : update nutools version to properly handle ParameterSet as parameter in EventDisplay diaglogs
+-   2013-12-09 Tingjun Yang : update fcl for bo
+-   2013-12-08 Eric Church : A fix to get in Sppt-Trk associations appropriately added to the Stizitcher.
+-   2013-12-08 Brian Rebel : make sure to update the setup directory before attempting to source the setup script in the nightly build script. This will prevent the circumstance that the first build after a switch in ART release fails to build because the ups products are setup for the previous set of ART and other external packages.
+-   2013-12-08 Brian Rebel : add in a .sh version for building doxygen as well
+-   2013-12-08 Brian Rebel : add .sh version of nightly build script
+-   2013-12-06 Brian Rebel : change art::Ptr\<const XXX\> to art::Ptr\<XXX\> as art::Ptrs by definition return const references to the desired data product and gcc 4.8.1 throws an error if an extra const is put in there.
+-   2013-12-06 Brian Rebel : a new analyzer module that didnt have the previous commented out fix. Also remove lots of unnecessary ;
+-   2013-12-06 Brian Rebel : updates for use with ART v1.08.10
+-   2013-12-06 Brian Rebel : prepare for ART v1.08.10 by putting back the explicit call to EDAnalyzer(fhicl::ParameterSet) for all EDAnalyzer derived modules.
+-   2013-12-06 Andrzej Szelc : bug fix
+-   2013-12-05 Brian Rebel : add include for \<iostream\> to quite compiler errors
+-   2013-12-05 Brian Rebel : make the prof build actually do some optimization.
+-   2013-12-05 Brian Rebel : add SRT\_PUBLIC\_CONTEXT/LArG4 as well - missed it yesterday
+-   2013-12-05 Benjamin Jones : Code to extract SPE scale per channel for LED runs
+-   2013-12-05 Benjamin Jones : Remove some unnecessary memory hogging
+-   2013-12-05 Benjamin Jones : Fix up a couple of bugs
+-   2013-12-05 Andrzej Szelc : comment out couts
+-   2013-12-05 Eric Church : Comment out the scant useful output statements, which is minimal in my estimation, but of which some Reco Box officiators seem to think are too numerous …
+-   2013-12-05 Andrzej Szelc : comment out couts
+-   2013-12-05 Benjamin Jones : First draft of LED calibration ana module
+-   2013-12-04 Benjamin Jones : Add shell of LEDCalibrationAna module
+-   2013-12-04 Kazuhiro Terao : ADDITION: (\*) Simple PMT pulse reconstruction tools imported from my tool to LArSoft -Kazu
+-   2013-12-04 Andrzej Szelc : comment out couts
+-   2013-12-04 Andrzej Szelc : adding the bonus feature of ‘being able to compile’
+-   2013-12-04 Andrzej Szelc : comment out cout statements
+-   2013-12-04 Benjamin Jones : Add job script for fifo hist making
+-   2013-12-04 Benjamin Jones : Add FIFO histogramming module
+-   2013-12-04 Wesley Ketchum : updates removing some warnings and getting the featurevertexfinder to use the fast corner finding
+-   2013-12-04 Wesley Ketchum : remove some cout statements
+-   2013-12-04 Wesley Ketchum : updates to track stitcher to make spacepoint-track associations, needed for calorimetry
+-   2013-12-04 Wesley Ketchum : updates to calorimetry to take in separate spacepointfinder module for sspt-hit associations
+-   2013-12-04 Brian Rebel : build the prof build each night
+-   2013-12-04 Jonathan Insler : adc vector properly resized if longer than original adc vector
+-   2013-12-04 Wesley Ketchum : fix wrong array index
+-   2013-12-04 Brian Rebel : update hidden location that sets FHICL\_FILE\_PATH and FW\_SEARCH\_PATH
+-   2013-12-04 Jonathan Asaadi : More Vertex work improvements getting rid of non-primary verticies
+-   2013-12-04 Andy Blake : Suppressing output from algorithms
+-   2013-12-04 Andy Blake : suppressing output from reconstruction chain
+-   2013-12-04 Jonathan Asaadi : Removing cout statements
+-   2013-12-04 Jonathan Asaadi : Improvements to FeatureVertexFinder to keep features found matched between 3 planes….still need to fully utilize the information of the found 3d point in order to find the primary vertex
+-   2013-12-04 Kazuhiro Terao : (**) Fix ordering of matched clusters in the saved cluster vector. =\> This fix 3D shower reco to work. (**) Fix needed (?) to prevent 3D shower reco to run when there is no matched 2D clusters (this is still happening).
+-   2013-12-04 Brian Rebel : add LArG4 directory to FW\_SEARCH\_PATH and remove LArG4/ from line 6 of largeantmodules.fcl. This change is for the move to the new LArSoft git+cmake transition where the location of the LArG4.mac file is different from the location in the svn+SRT model. In both cases FW\_SEARCH\_PATH is used to find the file, with this change the full path to the file is expected to be set in FW\_SEARCH\_PATH.
+-   2013-12-04 Brian Rebel : add LArG4 directory to FW\_SEARCH\_PATH and remove LArG4/ from line 6 of largeantmodules.fcl. This change is for the move to the new LArSoft git+cmake transition where the location of the LArG4.mac file is different from the location in the svn+SRT model. In both cases FW\_SEARCH\_PATH is used to find the file, with this change the full path to the file is expected to be set in FW\_SEARCH\_PATH.
+-   2013-12-04 Brian Rebel : add new RelativePath parameter to the geometry that holds the relative location to the gdml files. Update the .fcl files accordingly. The change has been tested and shown to work as expected.
+-   2013-12-03 Tingjun Yang : Use ModBox for calorimetry
+-   2013-12-03 Kazuhiro Terao : FIX: (\*) Resolving mixed-up commits (some old code segment sneaked in) –kazu
+-   2013-12-03 Andrzej Szelc : Remove calls to recob::Wire
+-   2013-12-03 Andrzej Szelc : Remove calls to recob::Wire
+-   2013-12-03 Benjamin Carls : Quick tweak of parameters
+-   2013-12-03 Benjamin Carls : Quick tweak of parameters
+-   2013-12-03 Benjamin Carls : Quick tweak of parameters
+-   2013-12-03 Brian Rebel : remove magfield.fcl file as it is really part of nutools and should not be in larsoft
+-   2013-12-03 Andrzej Szelc : catch problems with bad vertex determination
+-   2013-12-03 Kazuhiro Terao : UPDATE: Use boolean vector filled with ClusterParamsAlg::isShower() return … forgotten. -kazu
+-   2013-12-03 Kazuhiro Terao : UPDATE: Add a function to take a boolean vector to skip certain cluster vector index from matching. –kazu
+-   2013-12-03 Andrzej Szelc : Add isShower decision to the matching stanza, it is probably still not used. Use the matching ids in creating the vector sets
+-   2013-12-03 Andrzej Szelc : bug fixes
+-   2013-12-03 Wesley Ketchum : cleanup RFF\_hitfinder, and better fhicl parameters
+-   2013-12-02 Tingjun Yang : update calibration constants for microboone using muon MC, still not final…
+-   2013-12-02 Benjamin Carls : Taking out cout statements
+-   2013-12-02 Brian Rebel : make sure to include the microboone versions of the configuration files.
+-   2013-12-02 Lynn Garren : unitialized variables and missing iostream header
+-   2013-12-02 Benjamin Carls : Forgot to take out variables that don’t exist anymore
+-   2013-12-02 Benjamin Carls : Fuzzy cluster code reorganization of shower and track like objects
+-   2013-12-02 Benjamin Carls : Taking out cout statements
+-   2013-12-02 Benjamin Carls : Fuzzy cluster code reorganization of shower and track like objects
+-   2013-12-02 Wesley Ketchum : fix bug in fhicl parameter name
+-   2013-12-02 Benjamin Carls : Hough speed improvements
+-   2013-12-02 Benjamin Carls : Hough speed improvements
+-   2013-12-02 Benjamin Carls : Fuzzy cluster code reorganization of shower and track like objects
+-   2013-12-02 Benjamin Carls : Fuzzy cluster code reorganization of shower and track like objects
+-   2013-12-02 Pawel Kryczynski : side flange and preliminary version of pmts added
+-   2013-12-01 Kazuhiro Terao : MINOR … (\*) default value change + comment fix -kazu
+-   2013-12-01 Kazuhiro Terao : MODIFY: (\*) Add ClusterMatchAlg for demonstration purpose (as of this version of the code, reco output should not be affected) –Kazu
+-   2013-12-01 Kazuhiro Terao : ADDITION: (\*) Introducing ClusterMatchAlg class –kazu
+-   2013-11-27 Saima Farooq : adding beam angle parameter, other small changes
+-   2013-11-27 Saima Farooq : adding beam angle parameter, other small changes
+-   2013-11-27 Brian Rebel : reorder location of the include statements to place them all at the top of the file. Also change include of TriggerAlgo/TriggerAlgoMicroBoone\_service.cc to TriggerAlgo/TriggerAlgoMicroBoone.h as it should be - we should never be including .cc files. This does not address the problem that general modules should not include experiment specific code. Instead, they should be including the general code that then is able to access the experiment specific code.
+-   2013-11-27 Andrzej Szelc : add some pxpoint utilities, which were checked in in showerangleclusterana. oops.
+-   2013-11-27 Andrzej Szelc : comment out calorimetry functions that are not yet checked in
+-   2013-11-27 Andrzej Szelc : Current Version of ShowerReco. Requires vector \< vector \< clusters\> \> and so should work for multiples. Still requires tweaks
+-   2013-11-27 Andrzej Szelc : fix bug + add saving of per particle info to the TTree in the Ana module
+-   2013-11-27 Wesley Ketchum : updates for a speedier version that trims incoming histograms
+-   2013-11-26 Bruce Baller : ClusterCrawler: tweaks and fixes (uB doc 3045)
+-   2013-11-26 Bruce Baller : ClusterCrawler\_module: clean up code
+-   2013-11-25 Brian Rebel : change declaration of variable length arrays to vectors. variable length arrays are flagged by the compiler as a bad thing
+-   2013-11-25 Brian Rebel : change call to SaveBMPFile to HLSSaveBMPFile, remove extern void declarations of SaveBMPFile
+-   2013-11-25 Brian Rebel : update version of ack
+-   2013-11-25 Lynn Garren : cmake build for LArPandora modules
+-   2013-11-24 Andy Blake : Now use cet::cpu\_timer tool to measure processing time. Also, bail out of simulated data if the full set of truth information is not available.
+-   2013-11-22 Lynn Garren : remove unnecessary semicolon
+-   2013-11-22 Lynn Garren : fix a couple of warnings
+-   2013-11-22 Lynn Garren : make sure we can build with cmake from here
+-   2013-11-22 Brian Rebel : fix a doxygen complaint
+-   2013-11-22 Brian Rebel : strip /nusoft/app/externals from the path of external products
+-   2013-11-22 Brian Rebel : why not also link int ART, messagefacility and cetlib
+-   2013-11-22 Bruce Baller : ClusteCrawler: change std:couts to mf::LogError
+-   2013-11-22 Bruce Baller : ClusterCrawler revisions
+-   2013-11-22 Bruce Baller : Add baseline subtraction in CalWireMicroBooNE\_module.cc
+-   2013-11-22 Brian Rebel : fix the directory location for G4 source
+-   2013-11-22 Erica Snider : Add geometry helper classes that decouple generic Geometry service from detector-specific actions in preparation for re-factoring experiment-specific code out of core LArsoft.
+-   2013-11-21 Andrzej Szelc : Add capability of accepting external start points overriding calculation. Start inserting placeholders for matching.
+-   2013-11-20 Tingjun Yang : Update Calorimetry module for microboone 1. Calculate track pitch along track trajectory using space points 2. Does calculation on all wire planes, update calibration constants obtained using MC (with the current gain) It does not work for BesizerTracker which has its own Calorimetry module.
+-   2013-11-20 Benjamin Jones : Fix bug (spotted by Tingjun)
+-   2013-11-20 Benjamin Jones : Fix a nomenclature issue
+-   2013-11-20 Benjamin Jones : Tidy up interpolation code
+-   2013-11-20 Benjamin Jones : Tidy up interpolation code
+-   2013-11-20 Benjamin Jones : Fix track drawing bug (crash when leaving volume)
+-   2013-11-20 Brian Rebel : point to repository version of doxygen configuration file when running doxygen
+-   2013-11-20 Brian Rebel : add doxygen configuration file for larsoft to repository
+-   2013-11-20 Brian Rebel : update doxygen generation script to setup the environment so that NUTOOLS\_DIR is supplied and doxygen will also link against the nutools code
+-   2013-11-20 Bruce Baller : CCHitFinder: check for min signal
+-   2013-11-19 Andy Blake : (Small adjustment to settings file - keep track of MC particles)
+-   2013-11-19 Andy Blake : Committing the full Pandora settings file
+-   2013-11-19 Andy Blake : Tidy-ups for algorithms
+-   2013-11-18 Benjamin Jones : Bezier tweak
+-   2013-11-18 Benjamin Jones : Pre-filtering of cluster hits for performance speedup
+-   2013-11-18 Andy Blake : Adding a zeroth-pass Pandora settings file for testing
+-   2013-11-18 Andy Blake : Adding a template Pandora Algorithm
+-   2013-11-18 Andy Blake : Modify LArPandoraInterface so that Pandora steering file is loaded from somewhere within FW\_SEARCH\_PATH. Also, add some initial fcl files.
+-   2013-11-18 Andrzej Szelc : remove opticaldetectorservices.fcl include from services.fcl as it currently is microboone specific. If you need it use include services\_microboone.fcl instead
+-   2013-11-17 Eric Church : Add two Pandora packages to the build.
+-   2013-11-17 Eric Church : Add two Pandora packages to the build.
+-   2013-11-16 Andy Blake : Enable studies of 2D particles, and neutrinos overlaid with cosmics
+-   2013-11-16 Andy Blake : Adding some basic monitoring, removing some superfluous include files
+-   2013-11-15 Wesley Ketchum : updates for getting errors on peak position and width
+-   2013-11-15 Andy Blake : Fixing the previous compiler warnings… no changes to algorithms.
+-   2013-11-15 Brian Rebel : one last commenting out of parameterSet variable from EDAnalyzer.
+-   2013-11-15 Kazuhiro Terao : BUG FIX: (\*) TriggerAlgo forgotten to be added in lar\_build script
+-   2013-11-15 Benjamin Jones : Bezier updates
+-   2013-11-15 Benjamin Jones : Bezier speedups
+-   2013-11-14 Kazuhiro Terao : Minor bug fix -kazu
+-   2013-11-14 Kazuhiro Terao : MODIFY:
+-   2013-11-14 Kazuhiro Terao : MODIFICATION: (\*) Add trigger frame size as a parameter and make it accessible -Kazu
+-   2013-11-14 Benjamin Jones : Add placeholder for beam timing info
+-   2013-11-14 Kazuhiro Terao : UPDATE:
+-   2013-11-13 Benjamin Jones : Slight performance tweaks
+-   2013-11-13 Tia Miceli : introducing Auxiliary Detectors
+-   2013-11-13 Tia Miceli : introducing Auxiliary Detectors
+-   2013-11-13 Tia Miceli : introducing Auxiliary Detectors
+-   2013-11-13 Benjamin Jones : Some speed tweaks
+-   2013-11-13 Andy Blake : Tweaking Makefile
+-   2013-11-13 Andy Blake : More GNUmakefile tweaks
+-   2013-11-13 Andy Blake : Updating GNUmakefile, in order to compile against LArPandoraAlgorithms.
+-   2013-11-13 Andy Blake : First commit of LArPandoraAlgorithms - for testing and safe-keeping.
+-   2013-11-13 Benjamin Jones : Bezier update
+-   2013-11-13 Benjamin Jones : Bezier update
+-   2013-11-13 Benjamin Jones : Bezier update
+-   2013-11-12 Jonathan Insler : corrected index i to bin
+-   2013-11-12 Benjamin Jones : Remove deprecated code
+-   2013-11-11 Benjamin Jones : Tidy up bezier code
+-   2013-11-11 Benjamin Jones : Remove deprecated seed code
+-   2013-11-11 Benjamin Jones : Tidy up seed object
+-   2013-11-11 Benjamin Jones : Remove deprecated parameterset
+-   2013-11-09 Benjamin Jones : Bezier tracker tweaks
+-   2013-11-09 Benjamin Jones : Bezier tracker tweaks
+-   2013-11-09 Benjamin Jones : Bezier tracker tweaks
+-   2013-11-08 Wesley Ketchum : getting rid of warning messages
+-   2013-11-08 Jonathan Insler : fixed index typo eliminating induction plane hits
+-   2013-11-07 Benjamin Jones : Bump seed class number
+-   2013-11-07 Benjamin Jones : New bezier tracker version
+-   2013-11-07 Benjamin Jones : New bezier tracker version
+-   2013-11-07 Benjamin Jones : New bezier tracker version
+-   2013-11-07 Benjamin Jones : New bezier tracker version
+-   2013-11-07 Brian Rebel : missed commenting out a pset
+-   2013-11-07 Andy Blake : First commit of LArPandoraInterface - note: this package doesn’t compile yet!
+-   2013-11-07 Brian Rebel : back out accidental commit yesterday
+-   2013-11-07 Andy Blake : First import of LArPandoraAlgorithms
+-   2013-11-07 Andy Blake : First import of LArPandoraInterface
+-   2013-11-07 Brian Rebel : bump the pandora version number for development to 00\_13
+-   2013-11-07 Kazuhiro Terao : BUG FIX:
+-   2013-11-07 Brian Rebel : make sure the job/ directories are in the FHICL\_FILE\_PATH, both local release and public release
+-   2013-11-06 Brian Rebel : back out the EDAnalyzer(pset) call in the ctor initialization list for now by commenting out the pset bit - that way the change to art v1.08.09 will be less painful. just another query/replace operation.
+-   2013-11-06 Brian Rebel : remove leading job/ from include statements in .fcl files. the job/ is unnecessary as the FHICL\_FILE\_PATH variable, which is what is used to search for the .fcl files by ART already has the job directory in it. This change will ease the transition to the new build system.
+-   2013-11-06 Brian Rebel : fix typos. Also, should use art::Ptr\<T\>::isNull and isNonnull rather than ==0 or similar.
+-   2013-11-06 Brian Rebel : fix typos
+-   2013-11-06 Brian Rebel : fix typos
+-   2013-11-06 Brian Rebel : fix typos
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : back out accidental change
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond. This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+-   2013-11-06 Brian Rebel : complete the 3-\>1 clean up
+-   2013-11-06 Brian Rebel : cleaning up 3 file module, adding explicit call to EDAnalyzer base constructor for use with future ART versions. This call has no impact on previous versions.
+-   2013-11-03 Wesley Ketchum : updates to fcl file
+-   2013-11-03 Wesley Ketchum : putting in first instance of RFFHitFinder
+-   2013-10-29 Bruce Baller : CCHitFinder: more tweaks
+-   2013-10-29 Bruce Baller : CCHitFinder: handle hits near the edges
+-   2013-10-29 Benjamin Jones : Add FlashMatch object
+-   2013-10-29 Benjamin Jones : Remove unused variables
+-   2013-10-28 Benjamin Jones : Add flash to track matching code to TrackTimeAssoc
+-   2013-10-28 Benjamin Jones : Add FlashMatch object to AnalysisBase
+-   2013-10-25 Benjamin Jones : Remove some accidentally left couts
+-   2013-10-25 Benjamin Jones : Efficiency and speed improvements for seed finding
+-   2013-10-25 Benjamin Jones : Efficiency and speed improvements for seed finding
+-   2013-10-25 Tyler Alion : Fix bug in wireID intersect function. It was only affecting lbne geometry, and even then the return value was right. This fixes the intersection point value passed by reference and set.
+-   2013-10-23 Benjamin Jones : A few tidy-ups
+-   2013-10-22 Herbert Greenlee : Fix infinite loop.
+-   2013-10-21 Eric Church : Tag/build new (delayed) date, thus new name.
+-   2013-10-20 Benjamin Jones : Fix one possible source of inf loops
+-   2013-10-20 Bruce Baller : CCHitFinderAlg skip bad wires
+-   2013-10-19 Benjamin Carls : Rolling back a change to the fake Hough line veto
+-   2013-10-19 Bruce Baller : ClusterCrawler: add error checking
+-   2013-10-19 Bruce Baller : ClusterCrawler: added error checking
+-   2013-10-19 Brian Rebel : remove commented out include as it is no longer necessary.
+-   2013-10-18 Benjamin Jones : Update parametersets
+-   2013-10-18 Benjamin Jones : Possibly fix bug herb found + improve refit
+-   2013-10-18 Thomas Junk : remove include LArG4/NestS1Light.hh
+-   2013-10-18 Benjamin Jones : Quick fix
+-   2013-10-18 Benjamin Jones : Update seedfinder [huzzah]
+-   2013-10-18 Eric Church : Initial steps for new tagged, frozen release.
+-   2013-10-18 Benjamin Jones : Update parameterset
+-   2013-10-18 Benjamin Jones : Move geometrical calcs to method called in constructor
+-   2013-10-18 Eric Church : Fix a bug with TrackStitcher’s Hit-Track Assns
+-   2013-10-17 Eric Church : One quick tune.
+-   2013-10-17 Eric Church : Add Hit-Track Assns in Track3DKalmanSPS, TrackStitch. Bug fix to dQdx calc in T3DKSPS.
+-   2013-10-17 Tingjun Yang : add configuration for cosmic ray
+-   2013-10-17 Andrzej Szelc : Initialize variables to NULL, which seems to solve the EVD crash
+-   2013-10-17 Tingjun Yang : fix a bug in clustermodules.fcl
+-   2013-10-17 Tingjun Yang : update clusteralgorithms.fcl
+-   2013-10-17 Bruce Baller : Major ClusterCrawler revision
+-   2013-10-16 Tingjun Yang : add configuration for microboone\_clustercrawleralg
+-   2013-10-16 Tingjun Yang : add configuration for microbone\_clustercrawler
+-   2013-10-16 Benjamin Jones : Fix typo
+-   2013-10-16 Brian Rebel : Make the G4UserLimits passed to G4LogicalVolume a std::unique\_ptr. It appears that G4 doesnt take ownership of pointers and doesnt tell you that. Remove the NestS1Light and LArNestInterface code from the repository as it is no longer used.
+-   2013-10-16 Benjamin Jones : Add seed consolidation and extension methods
+-   2013-10-16 Benjamin Jones : Add seed consolidation and extension methods
+-   2013-10-16 Andrzej Szelc : fix bug where the set Wire number window would be limited to the number of induction wires
+-   2013-10-16 Bruce Baller : Major ClusterCrawler revisions
+-   2013-10-16 Andrzej Szelc : Add call to accessor in InfoTransfer, plus small tweaks
+-   2013-10-16 Benjamin Jones : Adjust seeding parameters
+-   2013-10-16 Benjamin Jones : New direction fit code
+-   2013-10-15 Herbert Greenlee : Add method getPreferredPlane.
+-   2013-10-15 Herbert Greenlee : Fix missing track-hit associations bug.
+-   2013-10-15 Benjamin Jones : Change iterative structure of seed finder
+-   2013-10-15 Benjamin Jones : Change iterative structure of seed finder
+-   2013-10-14 Benjamin Jones : Update seedfinder interface (in prep for next algorithm updates)
+-   2013-10-14 Benjamin Jones : Update seedfinder interface (in prep for next algorithm updates)
+-   2013-10-14 Tingjun Yang : add parameters for ub
+-   2013-10-14 Brian Rebel : remove io rule for converting LBNE10ktPhotons to SimPhotonsLite as it appears to not work anyway.
+-   2013-10-14 Benjamin Jones : Remove unused/unmaintained code
+-   2013-10-14 Benjamin Jones : Modernize SeedFinderModule and update configs
+-   2013-10-14 Benjamin Jones : New seedfinder version
+-   2013-10-14 Benjamin Jones : New seedfinder version
+-   2013-10-11 Bruce Baller : Increase label size on ADC-time display. Add option to draw connecting lines between cluster hits.
+-   2013-10-11 Zarko Pavlovic : Remove obsolete OpDetPulse, fill OpticalDetectorData instead.
+-   2013-10-10 Andrzej Szelc : branch out some of the GraphCluster methods to an Alg
+-   2013-10-10 Andrzej Szelc : change arrays to std::vector, add checks for out of TPC vertices, so that exceptions don’t get thrown
+-   2013-10-10 Andrzej Szelc : Add simple check to catch zero size hitlists
+-   2013-10-10 Brian Rebel : adopt new PlaneID struct when making eveID struct
+-   2013-10-10 Brian Rebel : add a PlaneID struct that is analogous to WireID to facilitate sorting methods.
+-   2013-10-10 Brian Rebel : remove stupid whitespace between types and variable names
+-   2013-10-09 Lynn Garren : intialize variables and include missing headers
+-   2013-10-09 Lynn Garren : intialize variables and include missing headers
+-   2013-10-09 Lynn Garren : initialize variables
+-   2013-10-09 Lynn Garren : intialize variables
+-   2013-10-09 Lynn Garren : intialize variables
+-   2013-10-09 Zarko Pavlovic : Removed using namespace, removed some unnecessary header files, refactored code, added output beam histograms
+-   2013-10-07 Eric Church : Embellishments to TrackAna (and much Assn gymnastics) to allow Hit level histograms for stitched tracks. Also, bug fix to Track3DKalmanSPS to allow only passing once, not twice and thus skipping out on MS calculation of energy in favor of keeping more sppts in the track fit. Finally, TrackStitcher now only puts out its new vector\<vector\>Tracks and not the redundant component tracks.
+-   2013-10-07 Andrzej Szelc : Bump up the BeamInfo class number
+-   2013-10-03 Michael Kirby : fixed a problem with having geant4 and fftw being setup in conflicting version with the better art product setup
+-   2013-10-03 Michael Kirby : fix a typo
+-   2013-10-03 Zarko Pavlovic : Commiting code to read uboone daq files.
+-   2013-10-02 Jonathan Asaadi : Fixes inspired by MicroBooNE HackDay
+-   2013-10-02 Andrzej Szelc : fix some indexing, add plots. May still need some tweaking
+-   2013-10-02 Mitchell Soderberg : Tweak the color scale for MicroBooNE so all tracks aren’t red. Range for Induction planes might now put MIPs too far into the blue, so may tweak again if people have feedback.
+-   2013-10-02 Andrzej Szelc : Add method to calculate 2D point projection from 3D
+-   2013-10-02 Brian Rebel : add ifdh\_art to be setup by default, remove explicit setup of G4 and FFTW as they are pulled in by other products
+-   2013-10-02 Andrzej Szelc : Introducing ShowerAngleClusterAna module. Should test angle and cluster start point reconstruction. In progress.
+-   2013-10-02 Andrzej Szelc : update ClusterParamsAlg for HackDay
+-   2013-10-02 Jonathan Asaadi : Adding code improvements in preperation for MicroBooNE hack day
+-   2013-10-01 Benjamin Carls : Cleaning up old fcl parameters
+-   2013-10-01 Benjamin Carls : Cleaning up old fcl parameters
+-   2013-10-01 Benjamin Carls : Taking out call to SaveBMPFile
+-   2013-10-01 Benjamin Carls : Adding back lines needed for gcc 4.8.1
+-   2013-10-01 Benjamin Carls : Cleaning up code that’s not necessary anymore
+-   2013-10-01 Benjamin Carls : Cleaning up code that’s not necessary anymore
+-   2013-10-01 Benjamin Carls : Cleaning up code that’s not necessary anymore
+-   2013-10-01 Benjamin Carls : Cleaning up code that’s not necessary anymore
+-   2013-10-01 Benjamin Carls : Cleaning up code that’s not necessary anymore
+-   2013-10-01 Brian Rebel : change const ref to just making the vector
+-   2013-10-01 Brian Rebel : a better way to initialize a vector to an empty vector by default in the argument list of a method. also use the vector::swap method to quickly copy the contents of the input vector into the owned vector
+-   2013-09-30 Tyler Alion : Change default 35t geometry to the newer 4apa design.
+-   2013-09-27 Herbert Greenlee : Protect against crash caused by invalid track.
+-   2013-09-26 Eric Church : Allow user to choose in which dimension to sort spacepoints.
+-   2013-09-26 Eric Church : Remove diagnostic couts
+-   2013-09-26 Eric Church : Remove diagnostic couts
+-   2013-09-23 Eric Church : Add 2 lines to account for new vector\<vector\<Track\>\> output in TrackStitcher.
+-   2013-09-23 Eric Church : Introduction of TrackStitcher module. Bug fix for Track3DSPS.
+-   2013-09-22 Zepeng Li : Updated the fcl file for 35t fast optical simulation
+-   2013-09-20 Benjamin Jones : Add cluster pca for hack day showeriness challenge
+-   2013-09-18 Brian Rebel : fix up definition of BeamInfo to move non-default ctor into ifndef to hide it from reflex. Fix up other formatting etc issues.
+-   2013-09-15 Zepeng Li : Rebuilt the library with new lbne35t geometry
+-   2013-09-15 Tyler Alion : Update lbnefd evd defaults.
+-   2013-09-15 Tyler Alion : Update example lbne reconstruction script.
+-   2013-09-13 Tyler Alion : Put hit finding module back in apa namespace.
+-   2013-09-13 Tyler Alion : Repair missing definition.
+-   2013-09-13 Tyler Alion : Remove accidental line of code.
+-   2013-09-13 Herbert Greenlee : Add SeedAna module.
+-   2013-09-13 Tyler Alion : Alg holding disambiguation methods and APA geometry methods.
+-   2013-09-13 Tyler Alion : Module to run disambiguation on channel hits, such as from GausHitFinder. Also add RecoAlg to make file.
+-   2013-09-13 Brian Rebel : adapt geo::XXXGeo objects to expect the GeoObjectSorter when trying to sort subvolumes. Remove Bo and ArgoNeuT specific channel maps as they are not different in algorithm from the ChannelMapStandardAlg
+-   2013-09-13 Brian Rebel : \\c\\h\\a\\n\\g\\e\\ \\t\\o\\ \\u\\s\\i\\n\\g\\ \\n\\e\\w\\ \\G\\e\\o\\O\\b\\j\\e\\c\\t\\S\\o\\r\\t\\e\\r\\ \\o\\b\\j\\e\\c\\t\\s
+-   2013-09-13 Brian Rebel : \\n\\e\\w\\ \\o\\b\\j\\e\\c\\t\\s\\ \\f\\o\\r\\ \\s\\o\\r\\t\\i\\n\\g\\ \\g\\e\\o\\:\\:\\X\\X\\X\\G\\e\\o\\ \\o\\b\\j\\e\\c\\t\\s\\.\\ \\ \\T\\h\\e\\ \\u\\s\\e\\ \\o\\f\\ \\t\\h\\e\\s\\e\\ \\o\\b\\j\\e\\c\\t\\s\\ \\w\\i\\l\\l\\ \\a\\l\\l\\o\\w\\ \\c\\o\\n\\f\\i\\g\\u\\r\\a\\t\\i\\o\\n\\ \\o\\f\\ \\t\\h\\e\\ \\s\\o\\r\\t\\i\\n\\g\\ \\a\\l\\g\\o\\r\\i\\t\\h\\m\\s\\ \\w\\h\\i\\c\\h\\ \\w\\i\\l\\l\\ \\h\\e\\l\\p\\ \\w\\i\\t\\h\\ \\s\\t\\u\\d\\i\\e\\s\\ \\o\\f\\ \\d\\i\\f\\f\\e\\r\\e\\n\\t\\ \\d\\e\\t\\e\\c\\t\\o\\r\\ \\c\\o\\n\\f\\i\\g\\u\\r\\a\\t\\i\\o\\n\\s
+-   2013-09-13 Bruce Baller : ClusterCrawler tweaks for short clusters
+-   2013-09-13 Bruce Baller : ClusterCrawler updates
+-   2013-09-12 Tyler Alion : Back out accidental wire pitch change.
+-   2013-09-12 Tyler Alion : Reposition the photon detectors based off of DocDb 7803.
+-   2013-09-12 Zepeng Li : Update the fcl file for lbne35t fast optical simulation
+-   2013-09-12 Zepeng Li : First version of lbne35t photon library, the information of library is included in README.txt
+-   2013-09-12 Lynn Garren : cmake files
+-   2013-09-12 Lynn Garren : properly qualify the include
+-   2013-09-11 Zepeng Li : Fixed the bug in CageId calculation in LBNE10kt optical parameterization
+-   2013-09-11 Tyler Alion : Put the ICARUS collection wires back to horizontal after accidental rotation. Passes all of geometry test except nearest wire, checking into this soon.
+-   2013-09-11 Brian Rebel : add back in the definition of the LBNE10ktPhotons for the time being to establish backwards compatibility with previously produced files. This data product is no longer being produced, instead it is now called SimPhotonsLite.
+-   2013-09-11 Lynn Garren : remove extraneous semicolons
+-   2013-09-11 Lynn Garren : use %u with unsigned int
+-   2013-09-11 Lynn Garren : cleanup warnings
+-   2013-09-11 Lynn Garren : removing extraneous semicolons
+-   2013-09-11 Lynn Garren : type correctness for root signal handling
+-   2013-09-10 Brian Rebel : remove use of sprintf in favor of c++2011 compliant stringstream
+-   2013-09-10 Brian Rebel : remove variable length arrays in favor of vectors of vectors
+-   2013-09-10 Brian Rebel : remove variable length arrays in favor of vectors of vectors
+-   2013-09-10 Brian Rebel : remove variable length arrays in favor of vectors of vectors
+-   2013-09-10 Lynn Garren : removing extraneous semicolons
+-   2013-09-10 Brian Rebel : missed a save before the last commit
+-   2013-09-10 Brian Rebel : clean up the code by removing unnecessary includes, duplicated service handles as data members and use the message facility rather than std::cout as specified by the coding conventions. add comments for doxygen for all data members
+-   2013-09-10 Brian Rebel : remove unnecessary .cxx and .h files
+-   2013-09-10 Brian Rebel : actually fill the SimPhotonsLite data members from the LBNE10ktPhotons product stored in the file
+-   2013-09-09 Lynn Garren : comment out unused variables with Brian Rebel’s approval
+-   2013-09-09 Lynn Garren : package level CMakeLists.txt files for larsim
+-   2013-09-09 Lynn Garren : package level CMakeLists.txt files for larreco
+-   2013-09-09 Lynn Garren : package level CMakeLists.txt files for larevt
+-   2013-09-09 Lynn Garren : package level CMakeLists.txt files for lardata
+-   2013-09-09 Lynn Garren : package level CMakeLists.txt files for larcorereco
+-   2013-09-09 Lynn Garren : package level CMakeLists.txt files for larcore
+-   2013-09-09 Lynn Garren : package level CMakeLists.txt files for larana
+-   2013-09-09 Lynn Garren : use unsigned int to match the type of NOpChannels
+-   2013-09-09 Lynn Garren : removing extraneous simicolon from DEFINE\_ART\_XXX(yyy) macro line
+-   2013-09-08 Brian Rebel : fix compiler warnings about declaration of variable length arrays, remove some unused pointers
+-   2013-09-08 Brian Rebel : change array declared with a variable length into a std::vector. NEVER declare variable length arrays, ALWAYS use std::vectors if you do not know how long the array will be. std::vectors are still almost always preferable to arrays. Remove unnecessary library dependencies from the GNUmakefile
+-   2013-09-08 Tyler Alion : Remove the outdated APA frame volumes from lbne35t4apa. They were covering most of the optical detectors.
+-   2013-09-08 Brian Rebel : specify ioread rule for backwards compatibility between LBNE10ktPhotons and SimPhotonsLite. Reorder entries to put all the data product definitions together in the file for easier updating in the future.
+-   2013-09-08 Brian Rebel : add ClassVersion number to SimPhotonsLite
+-   2013-09-08 Tyler Alion : Remove 10kt/34kt files.
+-   2013-09-08 Tyler Alion : Remove 10kt/34kt files.
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-08 Tyler Alion : lbne10kt and lbne34kt configurations –\> lbnefd
+-   2013-09-07 Jonathan Insler : back out accidental commit of caldata\_lbne.fcl
+-   2013-09-07 Jonathan Insler : removed CalWireLBNE34kt\_module.cc from repository
+-   2013-09-07 Jonathan Insler : removed SimWireLBNE34kt\_module.cc from repository
+-   2013-09-07 Tyler Alion : Fix defaults again… Also transition this package to using the configuration keyword lbnefd in place of lbne34kt and lbne10kt. Having one for each is excessive since they are thus far treated completely the same except that a different GDML file is imported. So now the configuration approach is to have the FD configuration, and in geometry\_lbne.fcl select the desired GDML – this fits in nicely with the several other FD-related geometries.
+-   2013-09-07 Tyler Alion : Change the View and SignalType functions to work for multiple TPCs – No functionality change whatsoever for other geometries. Also complete the break out of the nested for loops in ChannelToWire. Add ICARUS into Geometry\_service.
+-   2013-09-07 Tyler Alion : Add ICARUS hard coding of wire and plane pitch.
+-   2013-09-07 Tyler Alion : ICARUS geometry tune ups. Fix origin. Generate it with the actual pitch. Improve wire placement method in the generate script.
+-   2013-09-07 Tyler Alion : Put geometry configurations in one place. Detector specific files hold each different configuration, geometry.fcl ties them together and holds a standard configuration (a copy of microboone\_geo.) Also add a configuration for the ICARUS T600 detector.
+-   2013-09-07 Tyler Alion : Add detector id for ICARUS T600
+-   2013-09-07 Bruce Baller : ClusterCrawler fixes
+-   2013-09-07 Bruce Baller : ClusterCrawler fixes
+-   2013-09-07 Andrzej Szelc : add catch on hitlist size, to avoid segfaults down the line
+-   2013-09-07 Brian Rebel : remove calls to extern void SaveBMPFile as those are most likely copy and paste errors
+-   2013-09-07 Brian Rebel : make SaveBMPFile a method of the module
+-   2013-09-07 Brian Rebel : make SaveBMPFile a method of the module
+-   2013-09-07 Brian Rebel : quite some compilation problems. For NestS1Light remove the code that has been moved into NestAlg. For OpParamSD.cxx temporarily comment out call to SimpleWireplanAction constructor with 2 parameters until it can be fixed by experts. Define dummy implementation for NestAlg::GetGasElectronDriftSpeed until experts can be contacted.
+-   2013-09-06 Kazuhiro Terao : ADDITION
+-   2013-09-06 Kazuhiro Terao : UPDATE:
+-   2013-09-06 Zepeng Li : Updated the SimPhotonCounter and OpMCDigi modules to use SimLitePhotons/SimPhotons
+-   2013-09-06 Zepeng Li : Digitization of SimPhotonsLite in LBNE10kt
+-   2013-09-06 Zepeng Li : Change LBNE10ktPhotons to SimPhotonsLite
+-   2013-09-06 Zepeng Li : Change the LBNE10ktPhotons to SimPhotonsLite, and add a LitePhoton parameter to the fcl file
+-   2013-09-06 Tyler Alion : Improve wire placement method.
+-   2013-09-05 Brian Rebel : actually set the ElectricField variable when grabbing the ELECTRICFIELD value from the materials property table.
+-   2013-09-05 Jonathan Insler : removed G4StepLimiter additions to PhysicsList.cxx to stop segfault in new implementation of NEST
+-   2013-09-05 Brian Rebel : fix compiler warnings by removing variable length arrays in favor of using vectors
+-   2013-09-05 Kazuhiro Terao : BUG FIX:
+-   2013-09-05 Brian Rebel : remove EnableNest parameter in favor of parameter to select the type of ISCalculation method
+-   2013-09-05 Brian Rebel : changes to complete the switch to using the IonizationAndScintillation singleton for calculating the number of ionization electrons and scintillation photons for each step. Split the ISCalculation::Reset methods into a Reset method that sets the fEnergyDeposit, fNumIonElectrons and fNumScintPhotons variables to 0. and a CalculateIonizationAndScintillation method that sets them based on the calculations.
+-   2013-09-04 Herbert Greenlee : Get rid of assertion that efficiency is between 0 and 1.
+-   2013-09-04 Jonathan Insler : added G4StepLimiter to PhysicsList to enable step size upper limit
+-   2013-09-04 Tyler Alion : Fix bad operator bug, this passes geometry test when the channel map is in a certain mode. Solution in progress.
+-   2013-09-04 Tyler Alion : Add basic ICARUS geometry file based off of a few of their NIM papers. No art configurations yet.
+-   2013-09-04 Eric Church : Tweak the GNUMakefile, which MUST stay here, even though we don’t yet build NuWro in the nightly build. The ubooneoffline repository customers will use it.
+-   2013-09-04 Brian Rebel : Add new UserAction to Reset the IonizationAndScintillation singleton with each step. Will turn this UserAction on once there is signoff to do so.
+-   2013-09-03 Bruce Baller : ClusterCrawler fixes
+-   2013-09-03 Bruce Baller : ClusterCrawler fixes
+-   2013-09-03 Eric Church : Add only a comment regarding NuWro.
+-   2013-09-02 Brian Rebel : add histograms for number of photons and electrons per MeV deposited as well
+-   2013-09-02 Brian Rebel : adjust histogram axis limits and binning
+-   2013-09-02 Brian Rebel : remove reference to IonAndScintAna
+-   2013-09-02 Brian Rebel : remove the IonAndScintAna module in favor of making histograms that are filled with each step in the IonizationAndScintillation singleton.
+-   2013-09-02 Tyler Alion : Check for empty signal vector in fewer steps.
+-   2013-09-02 Tyler Alion : Make Wire constructor more efficient by only uncompressing RawDigit if the supplied signal list is empty. Saves about 20 seconds in the 10kt geometry calibration, and WILL NOT effect the functionality.
+-   2013-09-02 Tyler Alion : Add geometry to parallel design proposal involving fitting an extra anode plane in the same volume. Not really ready for studies until a few more decisions are made, though.
+-   2013-09-02 Tyler Alion : back out unintentional 10kt edit
+-   2013-09-02 Andrzej Szelc : quiet compiler warnings
+-   2013-09-02 Andrzej Szelc : some clean up. Mainly pickup changes in CLusterParamsAlg so that the build doesn’t fall over
+-   2013-09-02 Andrzej Szelc : introduycing first version of ShowerSelectorFilter. Still Somewhat rough around the edges.
+-   2013-09-02 Tyler Alion : Hooks to use the newer lbne35t 4apa geometry. Default is still left to the old lbne35t for now so that current/old root files work.
+-   2013-09-02 Tyler Alion : New 35t geometry with slimmer APAs. It’s possible to define different wire angles for each APA. There are the right number of (vertical) optical detectors, but the y positions are placeholders. Though this will draw with lbne\_geo.C and there are no overlaps, root does have to handle 2 invalid syntax errors which aren’t handled in the LArSoft import. Still looking for this evasive bug.
+-   2013-09-01 Andrzej Szelc : Add preliminary Shower/track differentiating function. Also some utilities like Principal components and other Cluster parameter calculation. Fix bug where multiple instances of the Alg would balk. Code is somewhat gritty a clean-up will come
+-   2013-09-01 Brian Rebel : add saving of random numbers to fast optical prodsingle fcl file
+-   2013-08-31 Brian Rebel : put try/catch block around the call to Geometry::PositionToTPC and for now just move on to the next IDE in the set if an exception is thrown
+-   2013-08-30 Brian Rebel : adjust to new interface to CryostatGeo::PositionToTPC
+-   2013-08-30 Brian Rebel : switch abs to std::abs, adjust to using Geometry::PositionToTPC rather than access the cryostat object and then do PositionToTPC
+-   2013-08-30 Brian Rebel : set limits on the frequency of GeometryBadInputPoint messages
+-   2013-08-30 Brian Rebel : allow user to define an epsilon when looking for which cryostat or TPC a given position in the geometry is located. Also remove fNBadVol counter in favor of using the message facility for limiting the number of messages. Will commit to Utility/messageservice.fcl to make the limit a default.
+-   2013-08-30 Brian Rebel : module to validate ionization and scintillation code.
+-   2013-08-30 Herbert Greenlee : Fix seed import bug for Kalman Hit track finder.
+-   2013-08-30 Herbert Greenlee : Tweak Kalman Hit track finder fcl parameters.
+-   2013-08-29 Tingjun Yang : Fix a bug when induction hits = collection hits. Eric&Tingjun
+-   2013-08-28 Tyler Alion : Make the default the full geometry still.
+-   2013-08-28 Tyler Alion : Add example lines to choose a different gdml file to be associated with the lbne10kt fcl keyword. Specifically for choosing a significantly smaller file so that work can be done in FD APAs in a reasonable compute time, while leaving the true, full geometry unaltered.
+-   2013-08-28 Tyler Alion : Add gdml files with minimal volWorld size, only one cryostat, and only 4 APAs in that cryostat. Each APA has the same x center; there are two-by-two vertically and in the z direction. Files for each 36 and \~45 degree configurations.
+-   2013-08-28 Brian Rebel : add property for the ELECTRICFIELD in LAr, set it using the LArProperties service
+-   2013-08-28 Brian Rebel : add flag to pick which of the Ionization and Scintillation Calculators to use, default it to using the separate methods
+-   2013-08-28 Brian Rebel : New design pattern for using/specifying different algorithms to determine the number of scintillation photons and ionization electrons for each step from G4. The IonizationAndScintillation object is a singleton that is only accessible through an Instance() method - there is no public constructor. This singleton owns a pointer to the base class representation of ISCalculation. The different algorithms to determine the number of ionization (I) electrons and scintillation (S) photons are derived from this base class. Every point in the code that needs to know the number of electrons or photons calls the singleton and asks it for those numbers. The singleton in turn accesses the pointer it owns and returns the requested values. The choice of which type of algorithm to use is made in the singleton constructor by querying the sim::LArG4Parameters service to ask it which the user wants. Currently there are two possible algorithms, the ISCalculationSeparate uses the algorithm that was previously in LArVoxelReadout to determine the number of ionization electrons and the algorithm from OpFastScintillation for scintillation photons. The changes to LArVoxelReadout and OpFastScintillation will come in a later commit. ISCalculationNEST uses the NestAlg to determine both. NestAlg is basically the code that currently resides in NestS1Light.
+-   2013-08-28 Eric Church : Pass const &s, and \\’new\\’ things only once per job. Progress, perhaps, but still not fixed.
+-   2013-08-28 Eric Church : Pass const &s, and \\’new\\’ things only once per job. Progress, perhaps, but still not fixed.
+-   2013-08-22 Kazuhiro Terao : Added TriggerAlgo to development packages list. –kazu
+-   2013-08-22 Kazuhiro Terao : Added ClearTriggerInfo() function in Base and MicroBoone algo for event-wise clear.
+-   2013-08-22 Kazuhiro Terao : Simple typo fix in the comment.
+-   2013-08-22 Kazuhiro Terao : Adding TriggerAlgo package
+-   2013-08-22 Bruce Baller : ClusterCrawler improvements
+-   2013-08-22 Bruce Baller : ClusterCrawler improvements
+-   2013-08-16 Jonathan Insler : fixed ElectricField unit conversion
+-   2013-08-15 Brian Rebel : redo the HitCheater so that it correctly handles the possibility of multiple geo::WireID objects for each channel. Now the algorithm first determines the geo::WireIDs for each channel. It then loops over the TDCIDEMap from the SimChannel and uses the actual location of the energy depositions to associated deposed charge with each geo::WireID as a function of TDC value. Finally, the TDC values for each WireID are examined to determine the locations of the hits.
+-   2013-08-15 Brian Rebel : add necessary include into this .fcl file
+-   2013-08-14 Zepeng Li : Changed the LBNE10kt opdet sort
+-   2013-08-14 Zepeng Li : Sensl SiPM single pe waveform
+-   2013-08-14 Zepeng Li : Added LBNE10kt digitization module
+-   2013-08-14 Zepeng Li : Updated the fcl file for LBNE10kt SimPhotonCounter
+-   2013-08-14 Zepeng Li : Added SimPhotonCounter for LBNE10kt
+-   2013-08-14 Zepeng Li : Optimized the LBNE10kt optical parameterization based on the opdet sorting
+-   2013-08-14 Zepeng Li : LBNE10kt specific opdet sorting
+-   2013-08-13 William Seligman : Fix a comment.
+-   2013-08-13 William Seligman : Correcting FEM parameters according to recommendations from Georgia Karageorgi.
+-   2013-08-12 Brian Rebel : comment and tabbing changes to make code easier to read
+-   2013-08-10 Zepeng Li : Added the LBNE10ktOpDetPhotonTable that stores the map of time ticks and number of photons
+-   2013-08-09 Jonathan Insler : updated CalGausHFLBNE10kt\_module.cc with bug fixes
+-   2013-08-09 Zepeng Li : Added LBNE10ktPhotons to SimPhotons
+-   2013-08-09 Zepeng Li : LBNE10kt fast optical parameterization using LBNE10ktPhotons class
+-   2013-08-09 William Seligman : A somewhat-improved estimate for the low-gain parameters for the FEMs. An expert still needs to go over those parameters and adjust them to the actual FEM values.
+-   2013-08-08 Brian Rebel : set defaults for the region of interest zooming to be the full scale of the detector.
+-   2013-08-08 William Seligman : A better example of how to read in a data project that might not actually be present in the event.
+-   2013-08-08 William Seligman : A better way to test if there are zero data products on input.
+-   2013-08-08 Bruce Baller : ClusterCrawler: vertex improvements
+-   2013-08-08 Bruce Baller : ClusterCrawler: pass vertex struct
+-   2013-08-08 Tyler Alion : Put lbne configurations back in here for dependency reasons. It would be nice to move as much lbne configurations out of standard files as possible, though.
+-   2013-08-07 Tyler Alion : Add the Disambiguation Cheater to the trigger\_path.
+-   2013-08-07 Tyler Alion : Add module that makes cheated disambiguated hits using IDE information. Running it on several single particle events gives 100% disambiguation efficiency (analysis module still private), and the event displays of those cheated hits look perfect.
+-   2013-08-07 William Seligman : Now that I’ve learned the “magic” of how to read zero data products, incorporate that into AnalysisExample.
+-   2013-08-07 William Seligman : Reverse accidental commit of a debug option.
+-   2013-08-07 William Seligman : A tested solution to the problem of reading zero data products from the input file.
+-   2013-08-07 Kazuhiro Terao : UPDATE:
+-   2013-08-06 Bruce Baller : ClusterCrawler: Add 2D vertex finding
+-   2013-08-06 William Seligman : Trying again to suppress exceptions if there are no data products on input.
+-   2013-08-06 William Seligman : In OpticalFEM\_module, try using getView instead of getByLabel when there’s a possibility of zero BeamGateInfo objects in the event.
+-   2013-08-05 William Seligman : Try to continue the FEM simulation even there are no BeamGateInfo objects in the event (e.g., we’re doing a cosmic-ray simulation).
+-   2013-08-01 Bruce Baller : Add link to ROOT Minuit library for ClusterCrawler
+-   2013-07-31 Brian Rebel : move the include of clusterfindermodules.fcl higher in the list so that clusterfinderalgorithms.fcl is available to the trackfinder, showerfinder, etc fcl files.
+-   2013-07-31 Brian Rebel : fix some formatting
+-   2013-07-31 Tyler Alion : Put in time offsets for lbne views, take lbne configurations out of standard file.
+-   2013-07-30 Jonathan Insler : removed old commented out diagnostic lines from SimWireLBNE10kt\_module
+-   2013-07-29 Jonathan Insler : restord resizing of adc vectors at end of loop over channels
+-   2013-07-27 Jonathan Insler : updated SimWire LBNE modules with NearestNeighbor and removed unnecessary resizing of adcvec
+-   2013-07-27 Eric Church : No-op test of DetSim check-in.
+-   2013-07-26 Jonathan Insler : removed unnecessary comments
+-   2013-07-26 Thomas Junk : change comment. Really just a check to see if I can commit
+-   2013-07-26 Tyler Alion : remove unnecessary call for TPC dimensions.
+-   2013-07-26 Tyler Alion : Add 10kt geometry with 36 degree wires named lbne10kt36. The 45 degree version is still named lbne10kt. fcl configurations for lbne10kt36 are not being made, it can just be copied into lbne10kt.gdml when 36 deg wires are desired, and reverted for 45 again.
+-   2013-07-26 Tyler Alion : get rid of compiler warning
+-   2013-07-26 Corey Adams : Message printout attacks are tamer by default, so restoring the warning.
+-   2013-07-26 Tyler Alion : Add == and \< operators for WireID.
+-   2013-07-25 Jonathan Insler : removed recursive include to hitfindermodules\_lbne.fcl from standard\_reco\_lbne\*.fcl files
+-   2013-07-25 Jonathan Insler : cleaned up CalGausHFLBNE 35t and 10kt modules
+-   2013-07-25 Jonathan Insler : added DeconvGausHFLBNE modules to deconvolute signals and zero unsuppress without making recob::Wires
+-   2013-07-25 Brian Rebel : add control of RecoBaseDefaultCtor to the standard\_info configuration, limit output of that string to 5 messages every 1000 seconds. formatting changes to LArProperties\_service.cc
+-   2013-07-24 Bruce Baller : ClusterCrawler: Reconstruct close pair tracks in a standard way
+-   2013-07-24 Eric Church : Overlooked this svn ci for LArSoftification of NEST yesterday.
+-   2013-07-23 Corey Adams : Removing the message when the default constructor is called because it spews a lot of messages to the screen which cause significant printout clutter. This is the only change.
+-   2013-07-23 Eric Church : LArSoft-ification of NEST. Still needs validation.
+-   2013-07-23 Eric Church : LArSoft-ification of NEST. Still needs validation.
+-   2013-07-23 Eric Church : LArSoft-ification of NEST. Still needs validation.
+-   2013-07-23 Eric Church : LArSoft-ification of NEST. Still needs validation.
+-   2013-07-23 Corey Adams : Replacing missing parameters that have been lost in recent checkins.
+-   2013-07-23 Corey Adams : Replacing a lost parameter.
+-   2013-07-23 Corey Adams : Adding parameters for small cluster finder.
+-   2013-07-23 Corey Adams : Adding clustering alg to find very small blips, like deexcitation gammas or radioactive backgrounds.
+-   2013-07-23 Corey Adams : Combining into the \_module.cc business…
+-   2013-07-23 Corey Adams : Adding alg for Small cluster finding.
+-   2013-07-23 Corey Adams : Adding alg for Small cluster finding.
+-   2013-07-23 Brian Rebel : add a comment about units to the introductory comments on how to use this module.
+-   2013-07-23 Jonathan Insler : Updated CalGausHFLBNE for 35t and 10kt to directly fit collection plane ADC counts and integrate induction plane ADC counts instead of deconvoluting
+-   2013-07-22 Corey Adams : Adding a filter to look for radioactive decay type events, SmallClusterFilter
+-   2013-07-22 Corey Adams : Adding a filter to look for radioactive decay type events, SmallClusterFilter
+-   2013-07-22 Bruce Baller : Code cleanup
+-   2013-07-22 Bruce Baller : Change kink slope cut to angle cut. Added FudgeBigHits. Merging improvements
+-   2013-07-19 William Seligman : That’s *high*-gain channels, not the low-gain channels!
+-   2013-07-19 William Seligman : PMT Trigger processing is for high-gain channels only.
+-   2013-07-19 William Seligman : Fix a bug in OpticalFEM\_module that would cause the program’s execution speed to increase by a factor of ten if you didn’t compile it with optimization turned on. Gotta watch for those loop invariants!
+-   2013-07-18 Bruce Baller : Version 1 of code. Give it a spin.
+-   2013-07-18 Bruce Baller : Version 1 of code. Give it a spin.
+-   2013-07-18 William Seligman : Added a comment to indicate the very preliminary guesswork for the FEM parameters.
+-   2013-07-17 William Seligman : Add the detailed PMT digization and readout simulations. Note the file microboone\_optical\_sim.fcl, which contains an example of how to run these new simulation steps. These new modules are specific to MicroBooNE.
+-   2013-07-17 Benjamin Jones : Factorize fast scintillation process for nestification
+-   2013-07-16 Benjamin Jones : Resolve header dependency
+-   2013-07-15 Andrzej Szelc : add a base trackfindermodules with no experiment info and add noinclude versions for argoneut
+-   2013-07-15 Andrzej Szelc : cleanup services.fcl for argoneut
+-   2013-07-15 Andrzej Szelc : add a noinclude showerfindermodules for use with the evd
+-   2013-07-15 Andrzej Szelc : fix .fcl files for the evd\_t962\_analysis to work
+-   2013-07-14 Jonathan Asaadi : Adding small bug fixes and parts to make the code detector agnostic…more tweaks to come
+-   2013-07-12 Tyler Alion : Fix 35t OpDetSensitive overlap.
+-   2013-07-12 Tyler Alion : Fix perl script bug.
+-   2013-07-12 Benjamin Carls : Forgot a variable in clusteralgorithms.fcl
+-   2013-07-11 Benjamin Carls : Simplifying the method of the user supplying a seed to the Hough line finder
+-   2013-07-11 Jonathan Insler : added new Hit constructor to make hit collections without recob::Wire
+-   2013-07-11 Jonathan Insler : Added combined calwire/hitfinder module for LBNE10kt
+-   2013-07-10 Benjamin Carls : Creating a flag that will allow the user to supply their own seed for the random number generator the PPHT needs
+-   2013-07-10 Benjamin Carls : Now setting random number see for the PPHT to 1, this will allow reproducibility
+-   2013-07-10 Andrzej Szelc : Updated version of ClusterParamsAlg to fix the ClusterFinder compile errors. oops
+-   2013-07-10 Tingjun Yang : protect against dx=0 for the Box recombination model
+-   2013-07-10 Tyler Alion : Add a flexible way to dictate number and positions of optical detectors in the assymitry of 35t. Put some placeholder optical detectors to allow 35t optical parameterization to begin.
+-   2013-07-09 Andrzej Szelc : fix in Geometry Utilities
+-   2013-07-09 Andrzej Szelc : revamp of ShowerAngleCluster. Change to use methods from ClusterParamsAlg. Results not fit for public consumption (until further tested)
+-   2013-07-09 Benjamin Carls : Fix bug in the summation of the matrix describing hit belonging
+-   2013-07-09 Benjamin Carls : Massive code cleanup for the Hough transform, minimizing the use of pairs and maps
+-   2013-07-09 Benjamin Carls : Massive code cleanup for the Hough transform, minimizing the use of pairs and maps
+-   2013-07-09 Tingjun Yang : fix a bug that I introduced, modified residual range calculation
+-   2013-07-09 Michael Kirby : added setup for the art\_workbook option
+-   2013-07-09 Wesley Ketchum : fixes to method to pull histogram
+-   2013-07-09 Jonathan Insler : Added new zero suppression function with nearest neighbor buffer
+-   2013-07-08 Andrzej Szelc : clean up .fcl files to get evd\_analysis\_uboone.fcl to work again. Also correct a bug introduced with the Geometry changes
+-   2013-07-08 Andrzej Szelc : change calorimetry include and add \_noinclude .fcl file to be used by evd
+-   2013-07-08 Andrzej Szelc : correct DB settings for the microboone version of database\_util
+-   2013-07-08 Wesley Ketchum : Histogram accessors for CornerFinderAlg, crucial for figuring out what the heck is going on
+-   2013-07-07 Benjamin Jones : Fix infy loop again
+-   2013-07-05 Wesley Ketchum : forgot to add in the derivative neighborhood parameter here. Also, add run and event number to WireData\_histo
+-   2013-07-05 Wesley Ketchum : removing RawDataModuleLabel from CornerFinder things, as it was not being used and might have been mucking things up
+-   2013-07-05 Tingjun Yang : added subrun in the event list
+-   2013-07-05 Wesley Ketchum : updates to the cornerfinderalg to provide more options for conversion, derivatives, and corner score
+-   2013-07-05 Eric Church : Bring NDk processing fcl up to date.
+-   2013-07-03 Benjamin Jones : Compilation error fix
+-   2013-07-03 Benjamin Jones : Fix infy loop found by Ben C
+-   2013-07-03 Tingjun Yang : add clustercrawleralg in fcl
+-   2013-07-03 Tingjun Yang : remove printout
+-   2013-07-03 Tingjun Yang : fix a bug introduced by me that prevents Calorimetry/PID from working, sorry
+-   2013-07-02 Tingjun Yang : specify fluxtype to be simple\_flux for microboone\_genie\_simple
+-   2013-07-02 Michael Kirby : Getting rid of come cp commands and switching from cpn to ifdh.
+-   2013-07-02 Tingjun Yang : add microboone\_genie\_simple to use simple flux
+-   2013-07-02 Bruce Baller : new 2D cluster algorithm. Not ready for use
+-   2013-07-02 Bruce Baller : new 2D cluster finder. Not ready for use
+-   2013-07-01 Tyler Alion : Take out accidental apa configuration commit.
+-   2013-07-01 Andrzej Szelc : add prodsingle\_lariat.fcl
+-   2013-06-28 Benjamin Jones : Temporarily roll back optical detector until crashes fixed
+-   2013-06-28 Benjamin Jones : Temporarily roll back OpticalDetector until crashes fixed
+-   2013-06-28 Zepeng Li : Added OpDetPulse constructor that does not require compression type argument
+-   2013-06-28 Brian Rebel : commit declaration for NearestWireID methods in Geometry.h, also make them all return const geo::WireID
+-   2013-06-28 Brian Rebel : fix tabbing to make code easier to read by humans
+-   2013-06-28 Tyler Alion : Add NearestWireID and rework NearestWire to call on it; change the NearestWire return back to unsigned int - most of LArSoft expects this type.
+-   2013-06-27 Zepeng Li : Implement ZeroSuppression for LBNE10kt optical digitization
+-   2013-06-27 Zepeng Li : Implement ZeroSuppression for LBNE10kt optical digitization
+-   2013-06-27 Benjamin Jones : Shuffle of module / alg methods
+-   2013-06-27 Benjamin Jones : Shuffle of module / alg methods
+-   2013-06-27 Brian Rebel : use proper fhicl commenting with \# rather than c++ commenting //
+-   2013-06-27 Benjamin Jones : Roll back parameterset
+-   2013-06-27 Benjamin Jones : Pset adjustment
+-   2013-06-27 Benjamin Jones : Small seed finder update
+-   2013-06-27 Benjamin Jones : Fix warning message, and looping issue
+-   2013-06-26 Benjamin Jones : fcl parameter updates
+-   2013-06-26 Benjamin Jones : Seed finding using principal component analysis
+-   2013-06-26 Tingjun Yang : change FluxType to string
+-   2013-06-26 Tingjun Yang : Specify FluxType to be histogram for genie\_hist mode
+-   2013-06-26 Benjamin Carls : Comment out another segfault in corner matching alorithm
+-   2013-06-25 Tingjun Yang : use correct bnb hist flux produced by Zarko
+-   2013-06-25 Eric Church : New tag/freeze: S2013.06.25
+-   2013-06-25 Tingjun Yang : fix a bug in dealing with bad pedestals
+-   2013-06-25 Benjamin Jones : Improve bezier drawing
+-   2013-06-25 Benjamin Jones : Latest bezier code
+-   2013-06-25 Benjamin Jones : Latest bezier code
+-   2013-06-25 Benjamin Jones : Bezier track joiner has been subsumed into BezierTrackerModule
+-   2013-06-25 Benjamin Jones : Latest bezier code
+-   2013-06-25 Benjamin Carls : Fixing a seg fault (confusion over lastHits) in the refinement of the Hough line finder
+-   2013-06-25 Benjamin Carls : Fixing a bug in the refinement of the Hough line finder
+-   2013-06-25 Benjamin Carls : Making sure the right Hough line variables are being used, missed a couple
+-   2013-06-25 Benjamin Carls : Making sure the right Hough line variables are being used
+-   2013-06-25 Benjamin Jones : Renovate the bezier track joiner module
+-   2013-06-25 Benjamin Jones : Remove info messages
+-   2013-06-25 Benjamin Jones : Some more up to date flash track association code
+-   2013-06-24 William Seligman : Include OpticalDetectorData in the build process. At present, it depends on no other LArSoft packages (nor on nutools), so it can be compiled fairly early in the overall build process.
+-   2013-06-24 William Seligman : Update for new OpticalDetectorData package.
+-   2013-06-24 William Seligman : First import of the OpticalDetectorData package. This contains data classes associated with simulating the ADCs and FEM (Front-End Modules) associated with the optical detectors (PMTs).
+-   2013-06-24 Benjamin Carls : Removing a cout statement
+-   2013-06-24 Benjamin Carls : Refining the fake Hough line rejection, it now handles lines with negative slope a lot better
+-   2013-06-24 William Seligman : Modify GENIEGen\_module.cc to create a sim::BeamGateInfo record for every event.
+-   2013-06-24 William Seligman : Add a simple new output class, BeamGateInfo, for recording a simulated hardware beam gate.
+-   2013-06-24 Benjamin Jones : More tune-ups
+-   2013-06-24 Benjamin Jones : More tidying up of seeding alg
+-   2013-06-24 Benjamin Jones : More memory leak avoidance and general code tidyup
+-   2013-06-24 Benjamin Jones : Tweaking parameters
+-   2013-06-24 Benjamin Jones : Bit of a tidy up / improve memory footprint
+-   2013-06-24 Benjamin Jones : Factorize bezier calorimetry out of bezier tracker
+-   2013-06-24 Benjamin Jones : Factorize bezier calorimetry out of bezier tracker
+-   2013-06-23 Benjamin Jones : Bezier tracker honing
+-   2013-06-23 Benjamin Jones : Bezier tracker honing
+-   2013-06-23 Benjamin Jones : Bezier tracker honing
+-   2013-06-23 Andrzej Szelc : missed the Bezier addititions in the .fcl files
+-   2013-06-23 Andrzej Szelc : changing the trackfinderservices\_detector to trackfinderalgorithms\_detector, seeing the former doesn’t exist
+-   2013-06-23 Andrzej Szelc : changing the trackfinderservices\_detector to trackfinderalgorithms\_detector, seeing the former doesn’t exist
+-   2013-06-23 Andrzej Szelc : add .fcl configuration files for the lariat evd
+-   2013-06-23 Andrzej Szelc : add LArIAT fDetID to the Geometry service, clean up the .fcl file
+-   2013-06-23 Andrzej Szelc : add LArIAT to the geotypes
+-   2013-06-22 Wesley Ketchum : Fixes to some integer division errors, and a typo in the pulse binning. Also, increasing the isolation fraction cut to 60%, to be below the theoretical max for that (56% according to B. Jones).
+-   2013-06-22 Benjamin Jones : Adding bezier calorimetry
+-   2013-06-22 Benjamin Jones : Some more consting and reffing
+-   2013-06-22 Benjamin Jones : Remove couts
+-   2013-06-22 Benjamin Jones : Change LogInfos to LogVerbatims
+-   2013-06-22 Benjamin Jones : Prevent extra message information when report=false
+-   2013-06-22 Benjamin Jones : Add hit associations
+-   2013-06-22 Benjamin Jones : Add hit associations
+-   2013-06-22 Benjamin Jones : some consting and passing by ref, for speed
+-   2013-06-22 Benjamin Jones : Swap wrappers to optimize bezier tracker
+-   2013-06-22 Benjamin Jones : Factorize the cluster and seeding parts - this will improve hit association efficiency
+-   2013-06-22 Benjamin Jones : Some more bug fixes / optimization
+-   2013-06-22 Benjamin Jones : Some more bug fixes / optimization
+-   2013-06-22 Benjamin Jones : Some more bug fixes / optimization
+-   2013-06-21 Benjamin Jones : More memory leak protection
+-   2013-06-21 Benjamin Jones : More memory leak protection
+-   2013-06-21 Benjamin Jones : Restructure a bit to prevent memory leaks
+-   2013-06-21 Benjamin Jones : Restructure a bit to prevent memory leaks
+-   2013-06-21 Benjamin Jones : Restructure a bit to prevent memory leaks
+-   2013-06-21 Benjamin Jones : Restructure a bit to prevent memory leaks
+-   2013-06-21 Andrzej Szelc : add detector specific configuration for lariat
+-   2013-06-21 Benjamin Jones : Some tidying up
+-   2013-06-21 Benjamin Jones : Some tidying up
+-   2013-06-21 Benjamin Jones : Some tidying up
+-   2013-06-21 Benjamin Jones : Working bezier tracker
+-   2013-06-21 Benjamin Jones : Working bezier tracker
+-   2013-06-21 Benjamin Jones : Working bezier tracker
+-   2013-06-21 Benjamin Jones : Fix bezier track scoping issue
+-   2013-06-21 Benjamin Jones : Bezier track viewing code (by popular demand of analysis tools groups)
+-   2013-06-21 Benjamin Jones : Fix scoping issue with bezier tracks
+-   2013-06-21 Benjamin Jones : Remove obsolete parameterset
+-   2013-06-21 Benjamin Jones : Remove obsolete parameterset
+-   2013-06-20 Benjamin Jones : Fix to vector ranging bug which put the brakes on SeedFinder for MC challenge
+-   2013-06-18 Benjamin Jones : remove annoying warning messages
+-   2013-06-18 Benjamin Jones : Silence annoying OpDetPulse warning message
+-   2013-06-17 Eric Church : Prepare for new tag
+-   2013-06-17 Jonathan Asaadi : Fix to FeatureVertexFinder to give a more realistic strength score for the 2d verticies…just in time for the MicroBooNE MC challenge
+-   2013-06-17 Benjamin Carls : Commenting out print statements
+-   2013-06-17 Benjamin Carls : Simplifying the charge asymmetry calculation, no longer using a train of if statements
+-   2013-06-17 Eric Church : Suppress warnings per flag.
+-   2013-06-17 Eric Church : Suppress warnings
+-   2013-06-15 Benjamin Carls : Slightly modify fake Hough line veto cuts
+-   2013-06-14 Tingjun Yang : take into account the fact that some hits are not associated with space points
+-   2013-06-13 Tingjun Yang : add MakeTree
+-   2013-06-12 Benjamin Carls : Test check in
+-   2013-06-12 Benjamin Carls : Tweaking the charge asymmetry angle variable, I’m now squaring the sin of the angle
+-   2013-06-12 Benjamin Carls : Tweaking the charge asymmetry angle variable, I’m now squaring the sin of the angle
+-   2013-06-12 Benjamin Carls : Tweaking the charge asymmetry angle variable, I’m now squaring the sin of the angle
+-   2013-06-12 Benjamin Carls : Tweaking the charge asymmetry angle variable, I’m now squaring the sin of the angle
+-   2013-06-12 Benjamin Carls : Tweaking the charge asymmetry angle variable, I’m now squaring the sin of the angle
+-   2013-06-11 Jonathan Asaadi : Fixes and additions to remove duplicate verticies from the list and better establish the strength of the 2d verticies found
+-   2013-06-11 Tyler Alion : Change csu40L GDML to use cm, add configuration option in geotest.fcl to easily check for overlaps
+-   2013-06-11 Tyler Alion : Make a few csu40L GDML syntax edits
+-   2013-06-10 Eric Church : Properly setup S2013.06.09
+-   2013-06-10 Bruce Baller : Turn UseModBoxRecomb off
+-   2013-06-10 Eric Church : New packages-S2013.06.09
+-   2013-06-08 Tyler Alion : Add configurations for CSU to build an optical library for their 40L test detector. Still need to sort out the lack of a TPC volume before LightSource can run to completion
+-   2013-06-08 Tyler Alion : Add sevices blocks for csu40L
+-   2013-06-08 Eric Church : Return default to Birks from Box, because currently Box seems to cause memory problems and even the simplest simulation jobs Throw and stop.
+-   2013-06-08 Eric Church : Type-o fix.
+-   2013-06-07 Tyler Alion : Add detector ID for CSUs 40L
+-   2013-06-07 Tyler Alion : Add Geometry services for csu 40 su 40L – also add detector ID assignment for JP 250 L
+-   2013-06-07 Brian Rebel : remove g4 data files from the setup for versions that use G4 v4.9.6+
+-   2013-06-07 Brian Rebel : add check whether a geometry is APA like or not in printChannels, add paramter to turn on/off the checking of overlaps, default it to off.
+-   2013-06-07 Brian Rebel : add in a standard configuration for producing atmospheric neutrinos with GENIE. Standard uses BARTOL fluxes in energy range 0.01 - 100 GeV on a sphere of radius 20 m
+-   2013-06-06 Jonathan Asaadi : More commits to make the vertex finder even better and more robust, now returns multiple vertex candidates with strengths corresponding to how well they are matched
+-   2013-06-06 Herbert Greenlee : Update fcl parameters in microboone\_detectorproperties.
+-   2013-06-06 Mitchell Soderberg : Change ADC range to ~~10~~\>30 (instead of ~~20~~\>60) for Induction plane when drawing ArgoNeuT display for raw or deconvolved data. For now control this in evdservices.fcl, though perhaps migrating to evdservices\_argoneut.fcl is preferred. - Mitch
+-   2013-06-06 Bruce Baller : Fix error in residual range calc, check for track direction, add two MF streams
+-   2013-06-06 Bruce Baller : Add ModBoxCorrection to CalorimetryAlg
+-   2013-06-06 Bruce Baller : Add ModBoxCorrection
+-   2013-06-06 Bruce Baller : Add modified Box model recombination
+-   2013-06-06 Bruce Baller : Add modified Box recombination
+-   2013-06-06 Bruce Baller : Added modified Box model recombination parameters with units
+-   2013-06-06 Bruce Baller : Added modified Box model recombination parameters
+-   2013-06-05 Jonathan Asaadi : Another tweak to the vertex finder….
+-   2013-06-05 Jonathan Asaadi : Adding an ana module to check how the reconstruction of any vertex finder (2d/3d) is doing in general…but more for FeatureVertexFinder
+-   2013-06-05 Brian Rebel : make the default configuration for InheritTriggerOffset and InheritNumberTimeSamples be false, ie do not try to do that. This solves a problem with trying to use the ArgoNeuT neutrino files that were made before some change in the SQLite storage of the metadata. It also makes more sense for the user to have to explicitly tell a job to ignore its configuration in favor of a previously stored one.
+-   2013-06-05 Zepeng Li : Change the name of parameterization paramerter to LBNE10ktParameterization
+-   2013-06-05 Tyler Alion : Add WireIDIntersection type, with the main purpose of facilitating finding multiple intersections in APAs
+-   2013-06-05 Tyler Alion : Add WireIDsIntersect function to return true and pass back if the wireIDs do intersect
+-   2013-06-05 Benjamin Carls : In the charge assymmetry angle variable used for Hough lines, I’m now squaring the sin of the angle
+-   2013-06-05 Benjamin Carls : In the charge assymmetry angle variable used for Hough lines, I’m now squaring the sin of the angle
+-   2013-06-04 Zepeng Li : Update the fcl file for LBNE fast optical simulation
+-   2013-06-04 Zepeng Li : Adding the fast optical parameterization for LBNE
+-   2013-06-04 Zepeng Li : Adding the fast optical parameterization for LBNE
+-   2013-06-04 Jonathan Asaadi : Fixed a merging bug in the vertex finding, now finding the primary vertex much more often
+-   2013-06-04 Jonathan Insler : removed old comment from SimWireLBNE34kt\_module.cc
+-   2013-06-04 Benjamin Carls : Fixing a seg fault that resulted from events with no hits in them
+-   2013-06-04 Benjamin Carls : Fixing a seg fault that resulted from events with no hits in them
+-   2013-06-04 Benjamin Carls : Fixing a seg fault that resulted from events with no hits in them
+-   2013-06-04 Benjamin Carls : Increasing the number of hits used for determining the charge asymmetry between Hough lines
+-   2013-06-04 Jonathan Asaadi : Add changes to FeatureVertexFinder. Now this saves many candidate 2d/3d verticies and assigns a weight to them depending on if they are matched to a 3d feature or have been merged together…lots more explanation coming in the Ana module to be written
+-   2013-06-03 Benjamin Carls : Putting the fix back in that handled a singular covariance matrix in the G-K algorithm
+-   2013-06-03 Jonathan Asaadi : Upgrades and tweaks to FeatureVtxFinder…much better but still needing tuning before ready for primetime
+-   2013-06-02 Jonathan Asaadi : Minor fix to the checkins for HoughBaseAlg to get Hough base code to work in development
+-   2013-06-01 Andrzej Szelc : try to resolve a segfault, due to std:vector mismatches
+-   2013-06-01 Andrzej Szelc : restore HoughBaseAlg parameters changed by mistake. and fix order of algorithms
+-   2013-06-01 Herbert Greenlee : Make it such that per-file metadata specified to FileCatalogMetadataExtras overrides per-job metadata specified to FileCatalogMetadata.
+-   2013-06-01 Tingjun Yang : fix a segmentation fault
+-   2013-05-31 Andrzej Szelc : First checkin of ClusterParamsAlg, i.e. outsourced methods from ShowerAngleCluster. Compiles, may segfault. Testing in progress
+-   2013-05-31 Andrzej Szelc : add an interface to houghbasealg that takes a hitlist instead of clusters. Get the old cluster interface to use it
+-   2013-05-31 Benjamin Carls : Forgot several fcl variables
+-   2013-05-31 Benjamin Carls : Big fuzzy clustering update, using vertexing for shower direction and significantly reducing the complexity of the algorithm as it now uses one Hough line merge instead of four
+-   2013-05-31 Benjamin Carls : Big fuzzy clustering update, using vertexing for shower direction and significantly reducing the complexity of the algorithm as it now uses one Hough line merge instead of four
+-   2013-05-31 Benjamin Carls : Big fuzzy clustering update, using vertexing for shower direction and significantly reducing the complexity of the algorithm as it now uses one Hough line merge instead of four
+-   2013-05-31 Benjamin Carls : Big fuzzy clustering update, using vertexing for shower direction and significantly reducing the complexity of the algorithm as it now uses one Hough line merge instead of four
+-   2013-05-30 Benjamin Carls : Moving clusteralgorithms.fcl from ClusterFinder to RecoAlg
+-   2013-05-30 Benjamin Carls : Moving clusteralgorithms.fcl from ClusterFinder to RecoAlg
+-   2013-05-30 Jonathan Asaadi : Adding a new vertex finder which uses similar methods to VertexFinder2d, however this module only saves verticies found if they match in multiple planes. Additionally, it utilizes the new CornerFinderAlg to match 3d features to found vertex candidates. This module will need some continued work before it is completely ready for prime-time, but is in a running and useable state
+-   2013-05-30 Herbert Greenlee : Add ability to copy sam metadata attributes from input file to output file.
+-   2013-05-30 Benjamin Carls : Adding in fake Hough line veto, it looks for large gaps between hits and vetoes the lines if too many hits are missing
+-   2013-05-30 Benjamin Carls : Adding in fake Hough line veto, it looks for large gaps between hits and vetoes the lines if too many hits are missing
+-   2013-05-30 Benjamin Carls : Adding in fake Hough line veto, it looks for large gaps between hits and vetoes the lines if too many hits are missing
+-   2013-05-29 Herbert Greenlee : Comment out standard\_cosmicfinder (no such definition).
+-   2013-05-29 Herbert Greenlee : Do some tweaks to renaming service more user-friendly.
+-   2013-05-29 Herbert Greenlee : Remove include of services.fcl from services\_microboone.fcl, as including the former file makes services\_microboone.fcl itself unparseable (fcl files don’t have include guards).
+-   2013-05-29 Tyler Alion : Add initial lbne10kt optical simulation fcl scripts to run full simulation, fast simulation, and to build library. The photon sampling library built on the grid with scripts in PhotonPropagation/LibraryBuildTools is **necessary** for fast optical simulation, but is not being committed yet. So these are just preemptive.
+-   2013-05-29 Tyler Alion : Change lbne minimum hit width to 1 for induction and collection
+-   2013-05-29 Tyler Alion : Add lbne configurations for photon propagation modules/services
+-   2013-05-29 Tyler Alion : Add lbne configurations for optical detector modules/services
+-   2013-05-29 Tyler Alion : take lbne configurations out of services.fcl, to make sure services\_lbne.fcl is used
+-   2013-05-29 Herbert Greenlee : Add ability of FileCatalogMetadataExtras to rename output art files to be unique.
+-   2013-05-28 Herbert Greenlee : Add ability to generate standard per-file sam metadata.
+-   2013-05-26 Tyler Alion : A few touch-ups, notably adding the name volOpDetSensitive to gdml generate scripts, in anticipation of lbne optical simulation commits.
+-   2013-05-25 Wesley Ketchum : Adding back in ConvertTicksToTDC, which is needed by the BackTracker
+-   2013-05-25 Benjamin Jones : Recommit code which got lost in the alg-ing
+-   2013-05-25 Benjamin Jones : Recommit code which got lost in the alg-ing
+-   2013-05-25 Benjamin Jones : Recommit code which got lost in the alg-ing
+-   2013-05-24 Herbert Greenlee : Update handling of parameters TriggerOffset and NumberTimeSamples to allow the value of these parameters to be inherited from previous jobs as recorded in the art metadata.
+-   2013-05-24 Andrzej Szelc : update bo configuration in the generic databaseutil.fcl
+-   2013-05-24 Andrzej Szelc : Changes to conform to the B.J.P. Jones manual of style, also clear up a misunderstanding
+-   2013-05-24 Benjamin Jones : Changes to optical configs
+-   2013-05-24 Benjamin Jones : Account for event generator timing in photon sim
+-   2013-05-23 Andrzej Szelc : Add T0 to detector properties. Also bump DB comments to LogDebug to appease the naysayers.
+-   2013-05-21 Kazuhiro Terao : Unintentional commit…
+-   2013-05-21 Kazuhiro Terao : Test and first import of FirstPackage
+-   2013-05-21 Herbert Greenlee : Add sqlite to arch\_spec\_art.mk.
+-   2013-05-21 Andrzej Szelc : finally fix the T962 code to pick up the DB info when it should.
+-   2013-05-21 Andrzej Szelc : rollback yesterday’s change as it cuases segfaults
+-   2013-05-20 Andrzej Szelc : Move parts accessing LArProperties into the preBeginRun section
+-   2013-05-20 Andrzej Szelc : allow a configurable main table name in the DB
+-   2013-05-17 Herbert Greenlee : Fix back-tracking for 3-window simulation.
+-   2013-05-17 Herbert Greenlee : Add methods for converting between geant time and daq time.
+-   2013-05-17 Tingjun Yang : Add ChannelMapAlg for ArgoNeuT
+-   2013-05-15 Tyler Alion : add different module type for 35t and 34kt, prodsingle etc… crashes otherwise
+-   2013-05-14 Thomas Junk : Two bugs – radiological decay angles are now uniform in costheta and not theta, and fix a bug introduced May 10 with the tpc and cryostat inputs to NearestChannel not being set to the current ones but instead to zero.
+-   2013-05-14 Thomas Junk : Make comments more doxygen friendly
+-   2013-05-14 Sarah Lockwitz : Changed the order of variables to fix a compiler warning
+-   2013-05-14 Brian Rebel : change build order to move MCCheater directly after simulation
+-   2013-05-14 Brian Rebel : fix up test to either use nutools or set the NUTOOLS variables to the \$LARSOFT area
+-   2013-05-14 Brian Rebel : put in a missing \$
+-   2013-05-14 Jonathan Insler : fixed services\_lbne.fcl to use SignalShapingService specific to each detector
+-   2013-05-14 Eric Church : 3-\>1 removal of cruft
+-   2013-05-14 Eric Church : 3-\>1
+-   2013-05-13 Brian Rebel : nutools ups v1.00.00 is now available and ready for use. it is built against GENIE v2.8.0 and other packages required for art v1.06.00
+-   2013-05-13 Brian Rebel : do not try to addpkg\_svn with the nutools packages if using development. left the code in for ability to add frozen releases
+-   2013-05-13 Brian Rebel : remove job/ from in front of magfield.fcl. this is a no-op because the job/ prefix is in the FHICL\_FILE\_PATH variable that is used to find fcl files. the change is necessary to use with nutools ups v1.00.00
+-   2013-05-13 Brian Rebel : revert development to use GENIE v3665c until strangeness with 2.8.0 is resolved
+-   2013-05-12 Brian Rebel : fix genie xsec version
+-   2013-05-12 Brian Rebel : fix a bash syntax error
+-   2013-05-12 Brian Rebel : ready frozen release S2013.05.12 corresponding to revision 4287
+-   2013-05-12 Brian Rebel : fix includes and GNUmakefile for RecoObjects
+-   2013-05-12 Brian Rebel : fix includes and GNUmakefile for AnalysisAlg
+-   2013-05-12 Brian Rebel : missed one change to an include file
+-   2013-05-12 Brian Rebel : commit new packages RecoAlg, RecoObjects, AnalysisAlg
+-   2013-05-12 Brian Rebel : add new packages RecoObjects, RecoAlg, AnalysisAlg
+-   2013-05-12 Brian Rebel : change includes to account for RecoAlg, RecoObjects, AnalysisAlg
+-   2013-05-12 Brian Rebel : adjust includes to use new RecoObjects, RecoAlg packages
+-   2013-05-12 Brian Rebel : remove unneeded libraries from link list
+-   2013-05-12 Brian Rebel : change includes to new AnalysisAlg package, remove unneeded libraries in link list
+-   2013-05-12 Brian Rebel : change includes to point to new AnalysisAlg package
+-   2013-05-12 Brian Rebel : change includes to point to new RecoAlg package
+-   2013-05-12 Brian Rebel : make the new package compile - fix various includes, etc
+-   2013-05-12 Brian Rebel : make the new package compile - fix various includes, etc
+-   2013-05-12 Brian Rebel : make the new package compile - fix various includes, etc
+-   2013-05-12 Brian Rebel : move testing code of Kalman objects into RecoObjects from TrackFinder
+-   2013-05-12 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-12 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-12 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-12 Brian Rebel : change XXXFinder to RecoAlg in includes
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : move non-data product reco related objects to RecoObjects
+-   2013-05-11 Brian Rebel : new package to hold reconstruction related objects that are not data products
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move track related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move cluster related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move cluster related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move cluster related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move cluster related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move cluster related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move cluster related algs into RecoAlg
+-   2013-05-11 Brian Rebel : move cluster related algs into RecoAlg
+-   2013-05-11 Brian Rebel : \\\${message}
+-   2013-05-11 Brian Rebel : \$message
+-   2013-05-11 Brian Rebel : move cluster related algs to RecoAlg
+-   2013-05-11 Brian Rebel : move Chi2PIDAlg into AnalysisAlg
+-   2013-05-11 Brian Rebel : move Chi2PIDAlg into AnalysisAlg
+-   2013-05-11 Brian Rebel : move CalorimetryAlg into AnalysisAlg
+-   2013-05-11 Brian Rebel : mv CalorimetryAlg into AnalysisAlg
+-   2013-05-11 Brian Rebel : add package to contain reconstruction Alg objects to avoid dependencies between different module containing packages
+-   2013-05-11 Brian Rebel : Add package to contain algorithms used in analysis
+-   2013-05-10 Brian Rebel : add fcl parameter for quieting GENIE output.
+-   2013-05-10 Brian Rebel : minor changes to variable initialization
+-   2013-05-09 Thomas Junk : Better check against negative TDC times for radiologicals due to diffusion or wireplane differnces
+-   2013-05-09 Thomas Junk : Save timing offsets between the two hits for the radiologicals so as not to split them into two different times.
+-   2013-05-09 Thomas Junk : Add Argon 39 radiological simulation. Somewhat clumsy – same energy on each decay, but with a random orientation. Two G4 “steps” are simulated, in case the radiological shares energy with neighboring wires. Randomize both the position and the TDC values of the radiological decays.
+-   2013-05-09 Thomas Junk : Add an Argon 39 Decay rate. Default to set it to zero. Provide a useful rate in a comment.
+-   2013-05-08 Tingjun Yang : change default parameters
+-   2013-05-08 Tingjun Yang : Set long bo signal to be 400 if it is 0 (bad pedestal)
+-   2013-05-08 Brian Rebel : define the -L option
+-   2013-05-08 Brian Rebel : add an option, -L or –larsoft, to set the url to be the larsoft general repository. this change should allow folks to check out larsoft packages into test releases for experiment specific repositories.
+-   2013-05-07 Brian Rebel : prepare the setup script for nutools as a ups product, not actually implemented yet though.
+-   2013-05-07 Brian Rebel : Change SRT\_PUBLIC\_CONTEXT to LARSOFT in GNUmakefile to make it easier to use LArSoft packages in test releases for other experiments
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : \${message}
+-   2013-05-07 Brian Rebel : add arch\_spec\_nutools.mk file in preparation for nutools as ups product
+-   2013-05-07 Andrzej Szelc : change the Track3DKalmanSPS fcl configuration to what the module expects
+-   2013-05-07 Brian Rebel : fix the drawing of the truth vectors - the sampling rate returns in ns, but the velocity is returned in cm/us. convert sampling rate to us
+-   2013-05-07 Andrzej Szelc : remove include to calorimetry from showerfindermodules so that the evd\_uboone\_analysis.fcl will work
+-   2013-05-07 Andrzej Szelc : restore proper DB configuration for MicroBooNE
+-   2013-05-07 Tyler Alion : remove 35t compiler warning
+-   2013-05-07 Brian Rebel : make the warning messages in DriftVelocity indicate that a value will still be returned if the E field or temperature are out of range, they just might not be right
+-   2013-05-06 Benjamin Carls : Adding in protection in case the covariance matrix in the G-K clustering algorithm is singular
+-   2013-05-06 Herbert Greenlee : Use default larfft options.
+-   2013-05-06 Herbert Greenlee : Turn off fft planning by default.
+-   2013-05-06 Thomas Junk : Initialize uncompressed vector to zero in the zero unsupression algorithm (bugfix)
+-   2013-05-06 Benjamin Jones : Link trackfinder against clusterfinder
+-   2013-05-06 Benjamin Jones : Add new tracking, developed at MicroBooNE Hack Day
+-   2013-05-06 Benjamin Jones : Intefaces for corner finder to feature tracking
+-   2013-05-06 Tyler Alion : Tweak the defaults for single particles in lbne, fix accidental change
+-   2013-05-03 Jonathan Insler : removed redundant LBNE parameters from caldata.fcl
+-   2013-05-03 Jonathan Insler : removed redundant LBNE parameters from detsimmodules.fcl
+-   2013-05-03 Tyler Alion : add back evd\_lbne\*\*\* for each lbne geometry
+-   2013-05-03 Tyler Alion : fix comma error
+-   2013-05-03 Tyler Alion : add signalservices\_lbne.fcl
+-   2013-05-03 Tyler Alion : fix order of ID
+-   2013-05-03 Tyler Alion : add detectorproperties\_lbne.fcl
+-   2013-05-03 Tyler Alion : add geometry\_lbne.fcl for some of the seperate lbne fcl scripts
+-   2013-05-03 Tyler Alion : Add a few more generate scripts
+-   2013-05-03 Tyler Alion : catch up DetSim
+-   2013-05-03 Tyler Alion : forgot the caldata\_lbne.fcl file
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Tyler Alion : Restructure the lbne PROLOG files so that the 35t, 10kt, and 34kt parameter sets are in a single include file named like name\_lbne.fcl. All parameter changes and additions should be put in such files when possible. Also, add the hook in for an APAHitFinder module, though it is just a copy of GausHit.
+-   2013-05-03 Jonathan Insler : added CalWire module and .fcl file for LBNE 34kt
+-   2013-05-03 Jonathan Insler : added SimWire module and detsimmodules\_lbne34kt.fcl for LBNE 34kt
+-   2013-05-03 Jonathan Insler : added SignalShapingService for LBNE 34kt
+-   2013-05-03 Tyler Alion : Add DetId type, kLBNE34kt for the full detector
+-   2013-05-03 Tyler Alion : Add 34kt lbne geometry, end to end cryostats each with 108 APAs. Add relevant configuration files, and tweak a gdml chain of definitions
+-   2013-05-02 Herbert Greenlee : Get rid of FileCatalogMetadataMicroBooNE in favor of FileCatalogMetadataExtras, which is an experiment-agnostic service for adding experiment-specific metadata.
+-   2013-05-02 Tingjun Yang : remove isolated hits in clusters
+-   2013-05-02 Tyler Alion : Add preliminary lbne reco scripts.
+-   2013-05-01 Wesley Ketchum : praying we will never need run numbers in the histo names too, but putting them there just in case
+-   2013-05-01 Wesley Ketchum : change histogram names to use current event
+-   2013-04-30 Herbert Greenlee : Add FileCatalogMetadataMicroBooNE service for generating per-job microboone-specific sam metadata.
+-   2013-04-29 Brian Rebel : initialize the fGENIEHelp to 0 in the initialization list.
+-   2013-04-29 Benjamin Carls : Turning off the corner finder temporarily to allow use of the default fuzzy cluster alg
+-   2013-04-29 Brian Rebel : Remove use of the TFileService to make histograms that appear to not need persisting one more time. From the commit message of 4188: histograms made in the attach\_feature\_points\* methods should not be made with the TFileService as these histograms do not appear to be intended to be saved from event to event. If that is not the case, then the making of those histograms should be moved to a beginJob method as the implementation before this commit caused exceptions to be thrown by ROOT with multiple histograms being made having identical names.
+-   2013-04-29 Brian Rebel : make the standard configuration for GeneralCalorimetry have the required CaloAlg field
+-   2013-04-29 Jonathan Insler : updated clustermodules.fcl and clusteralgorithms.fcl with links for lbne10kt and lbne35t to use fuzzyCluster
+-   2013-04-27 Brian Rebel : make use of the hits in the collection plane and the back tracker to get the position and direction of each trajectory point along the track. this is a change from using just the MCParticl trajectory points and does a better job of mimicing what the reconstruction would output.
+-   2013-04-27 Tingjun Yang : added more configurable parameters
+-   2013-04-26 Wesley Ketchum : fixes to the CornerFinderAlg so that now it should actually work
+-   2013-04-26 Tingjun Yang : use hit amplitude since calibration constant only available for amplitudes for uboone
+-   2013-04-26 Tingjun Yang : use CalorimetryAlg to calculate dEdx from dQdx for GeneralCalorimetry
+-   2013-04-25 Benjamin Carls : Switch service handles of geom to fGeom which the algorithm already owns
+-   2013-04-25 Benjamin Carls : Forgot to remove a cout statement
+-   2013-04-25 Benjamin Carls : Adding in loops over cryostats and TPCs in get\_feature\_points\_LineIntegralScore and get\_feature\_points, seg faults result from just looping over planes
+-   2013-04-25 Benjamin Carls : Adding in loops over cryostats and TPCs in get\_feature\_points\_LineIntegralScore and get\_feature\_points\_LineIntegralScore, seg faults resulted from just running over planes
+-   2013-04-25 Brian Rebel : histograms made in the attach\_feature\_points\* methods should not be made with the TFileService as these histograms do not appear to be intended to be saved from event to event. If that is not the case, then the making of those histograms should be moved to a beginJob method as the implementation before this commit caused exceptions to be thrown by ROOT with multiple histograms being made having identical names
+-   2013-04-25 Brian Rebel : forgot to change a localz to locz
+-   2013-04-25 Brian Rebel : if requested localz position extends beyond the length of the wire, return the position at the end point and emit a warning that you are doing so
+-   2013-04-25 Brian Rebel : save the center of the wire in world coordinates and the direction cosines of its orientation and use those in the GetCenter method rather than the rotation matrix
+-   2013-04-25 Brian Rebel : avoid calling geo::WireGeo::LocalToWorld in favor of using the wire pitch values that were already being stored
+-   2013-04-25 Brian Rebel : use cached values to return plane pitch rather than doing multiple function calls
+-   2013-04-25 Brian Rebel : remove unnecessary calls to geo::WireGeo::LocalToWorld - this solves problems with memory stomping, although the root cause is still unknown
+-   2013-04-25 Brian Rebel : move calculation of pitch between wires in a plane to the PlaneGeo object ctor and save the value for quick access.
+-   2013-04-25 Brian Rebel : cache values of the half lenght, and radii for the wires
+-   2013-04-25 Wesley Ketchum : changing some of the default parameters in the fhicl file, and changing how the algorithms are accessed a little bit
+-   2013-04-25 Brian Rebel : remove use of new with arrays in favor of vectors as the newed arrays were not deleted and stomping on memory.
+-   2013-04-25 Brian Rebel : comment out for loop to fill fWirePitch vector as that vector appears to not be used in the code and somehow is triggering a segfault
+-   2013-04-25 Brian Rebel : fix histograms having the same name due to cut and paste error
+-   2013-04-24 Brian Rebel : fix bug where geometry was asked for non-existant plane.
+-   2013-04-24 Jonathan Insler : added CalWireLBNE35t\_module.cc with fixed links for LBNE35t reconstruction
+-   2013-04-23 Brian Rebel : one more calorimetry algorithm configuration to switch, make the default for mc files.
+-   2013-04-23 Brian Rebel : make the dx in the dQ/dx calculation be the full distance traveled, not just one component of it
+-   2013-04-23 Brian Rebel : no need to grab hits for track as track contains all the necessary info
+-   2013-04-23 Brian Rebel : missed an unsigned int –\> uint32\_t change
+-   2013-04-23 Benjamin Carls : Commenting out std::cout statements
+-   2013-04-23 Benjamin Carls : Commenting out std::cout statements
+-   2013-04-23 Benjamin Carls : Commenting out std::cout statements
+-   2013-04-23 Benjamin Carls : Adding intializations for variables in the lineSlope structure
+-   2013-04-23 Benjamin Carls : Turning back on the Hough algorithm
+-   2013-04-23 Benjamin Carls : Adding in a requirement that lines be colinear before merging
+-   2013-04-23 Benjamin Carls : Adding in a requirement that lines be colinear before merging
+-   2013-04-23 Benjamin Carls : Replacing the old fuzzy clustering with the Gustafson-Kessel algorithm
+-   2013-04-23 Benjamin Carls : Replacing the old fuzzy clustering with the Gustafson-Kessel algorithm
+-   2013-04-23 Benjamin Carls : Adding in a requirement that lines be colinear before merging
+-   2013-04-23 Brian Rebel : actually call the reconfigure method.
+-   2013-04-22 Wesley Ketchum : New version (no. 13) of EndPoint2D: use geo::WireID instead of int wire\_num.
+-   2013-04-22 Wesley Ketchum : New version (no. 13) of EndPoint2D: use geo::WireID instead of int wire\_num.
+-   2013-04-22 Wesley Ketchum : New version (no. 13) of EndPoint2D: use geo::WireID instead of int wire\_num.
+-   2013-04-22 Wesley Ketchum : New version (no. 13) of EndPoint2D: use geo::WireID instead of int wire\_num.
+-   2013-04-22 Wesley Ketchum : New version (no. 13) of EndPoint2D: use geo::WireID instead of int wire\_num.
+-   2013-04-22 Wesley Ketchum : New version (no. 13) of EndPoint2D: use geo::WireID instead of int wire\_num. Also some cleaning up of CornerFinderAlg. But the important thing is the EndPoint2D change.
+-   2013-04-22 Brian Rebel : set the pandora version correctly for development
+-   2013-04-22 Wesley Ketchum : removed warning messages in CornerFinderAlg
+-   2013-04-21 Brian Rebel : fixes to account for removed EventDisplayBase/evdb.h
+-   2013-04-21 Brian Rebel : remove any references (even commented out ones) to the deprecated version of Geometry::ChannelToWire
+-   2013-04-21 Brian Rebel : make the stored TGeoHMatrix a const\*
+-   2013-04-21 Brian Rebel : change call to Geometry::WireIDToWireGeo to accept a const reference to the geo::WireGeo like the method returns rather than instantiating a new copy of a geo::WireGeo. This prevents some strange memory stomping bug that was showing up
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : add a todo flag about the need to change the plane argument to a view instead
+-   2013-04-21 Brian Rebel : changes related to upgrades for using ART v1.06.00
+-   2013-04-21 Brian Rebel : add new packages file for tagged release 2013.04.21 and add that release to the fermilab setup script
+-   2013-04-20 Jonathan Asaadi : More fixes to CornerFinder…it runs…and runs…and runs…in an example job using fuzzycluster…still need to find out if it ever finishes
+-   2013-04-20 Brian Rebel : remove double ;
+-   2013-04-20 Brian Rebel : fix uninitialized variables and make a bool a static as it should have been
+-   2013-04-20 Wesley Ketchum : using stringstreams to do smarter naming of histograms per view
+-   2013-04-20 Benjamin Carls : Fix errors (not all)
+-   2013-04-20 Benjamin Carls : Fix errors (not all)
+-   2013-04-20 Benjamin Carls : Fix errors (not all)
+-   2013-04-20 Benjamin Carls : Fix errors (not all)
+-   2013-04-20 Brian Rebel : fix compilation error. Move setting of module labels into reconfigure method as that is called from the ctor so no need to set those variables explicitly in the ctor as an initialization list
+-   2013-04-20 Wesley Ketchum : added line intergal part
+-   2013-04-20 Wesley Ketchum : added line intergal part
+-   2013-04-20 Jonathan Asaadi : Adding back RawDataLabel
+-   2013-04-20 Wesley Ketchum : corner algorithm now can produce a vector of EndPoint 2D objects for all planes from calibrated wires
+-   2013-04-20 Jonathan Asaadi : fix to make sure takes in wires
+-   2013-04-20 Jonathan Asaadi : Committing method to loop over wire objects instead of Raw Digits
+-   2013-04-20 Wesley Ketchum : spit out vector of EndPoint2D as possible output
+-   2013-04-20 Wesley Ketchum : removing some warning messages and putting histograms in file via file service
+-   2013-04-20 Benjamin Carls : Cleaning up compiler warnings
+-   2013-04-20 Benjamin Carls : Switching the Corner object to EndPoint2D
+-   2013-04-20 Benjamin Carls : Switching the Corner object to EndPoint2D
+-   2013-04-20 Benjamin Carls : Removing Corner object
+-   2013-04-20 Benjamin Carls : Removing Corner object
+-   2013-04-19 Tingjun Yang : update to use the new calorimetryalg interface (without checking isData)
+-   2013-04-19 Tingjun Yang : update to use the new calorimetryalg interface (without checking isData)
+-   2013-04-19 Tingjun Yang : update to use the new calorimetryalg interface (without checking isData)
+-   2013-04-19 Herbert Greenlee : Update tests.
+-   2013-04-19 Tyler Alion : Change FitBins in FFT from 20 to 5 for LBNE 35t/10kt. Fixes induction/collection tick offset.
+-   2013-04-19 Tyler Alion : update prodsingle and prodgenie fcl scripts for lbne 35t/10kt
+-   2013-04-18 Jonathan Insler : fixed noise generation in SimWireLBNE 10kt and 35t to properly use different parameters for each plane type
+-   2013-04-18 Brian Rebel : make the Track::Length() method take a trajectory point so that it can return the distance between the position at that point and the end of the track
+-   2013-04-18 Jonathan Insler : replaced fabs with std::abs in SignalShapingServiceLBNE10kt\_service.cc
+-   2013-04-18 Tingjun Yang : Set different constants for data and MC in fcl files. Remove dependence on data/MC in code
+-   2013-04-17 Brian Rebel : set a limit to the number of times RecoBaseDefaultCtor messages are displayed in standard\_warning configuration
+-   2013-04-17 Brian Rebel : remove some extra characters for dereferencing std::unique\_ptrs
+-   2013-04-17 Brian Rebel : add configuration for GeneralCalorimetry and remove unused beginJob method
+-   2013-04-17 Brian Rebel : make use of dQdx and trajectory information stored in tracks rather than trying to sync up hits and space points.
+-   2013-04-17 Brian Rebel : switch over to using Geometry::WirePitch(view) and Geometry::WireAngleToVertical(view) methods.
+-   2013-04-17 Brian Rebel : explicitly include the MessageLogger.h file in the ChannelMap algorithms
+-   2013-04-17 Jonathan Insler : updated caldata.fcl, caldata\_lbne10kt.fcl, and added CalWireLBNE10kt\_module.cc for lbne10kt reconstruction
+-   2013-04-17 Benjamin Jones : Flash finder updates
+-   2013-04-17 Benjamin Jones : Updates to optical reco objects
+-   2013-04-17 Brian Rebel : first commit of module to perform calorimetry in a way that does not assume only 2 wire planes but rather just uses information from the collection plane. this module is very similar to Calorimetry\_module.cc
+-   2013-04-17 Jonathan Asaadi : First commit of CornerFinder Reco object. This compiles but has not been test driven…don’t use yet…work done by Wes, Ben, Jonathan…mostly Wes
+-   2013-04-17 Jonathan Asaadi : First commit of CornerFinderAlg. This compiles but has not been test driven…don’t use yet…work done by Wes, Ben, Jonathan…mostly Wes
+-   2013-04-16 Brian Rebel : remove HitIndexC data member and methods as it really has no meaning because the indecies stored arent meaningful.
+-   2013-04-16 Tingjun Yang : fixed XTicksOffset calculations for ArgoNeuT
+-   2013-04-16 Benjamin Carls : Fixing ART exception, mislabeled histogram for fShowerPurityEfficiency2D
+-   2013-04-15 Benjamin Carls : Changing fuzzy cluster merging criteria slightly
+-   2013-04-15 Benjamin Carls : Adding a protection
+-   2013-04-15 Benjamin Carls : Major fuzzy cluster update, using shower direction for merging and using a wide, charge dependent line merging
+-   2013-04-15 Benjamin Carls : Major fuzzy cluster update, using shower direction for merging and using a wide, charge dependent line merging
+-   2013-04-15 Benjamin Carls : Major fuzzy cluster update, using shower direction for merging and using a wide, charge dependent line merging
+-   2013-04-15 Brian Rebel : get wire pitch according to view
+-   2013-04-15 Brian Rebel : put Cryostat in fcl configuration for RawDrawingOptions so that it appears in the text dialog box, remove AutoZoom from uB configuration of RawDrawingOptions in evdservices\*.fcl as that configuration is not part of RawDrawingOptions but rather EvdLayoutOptions.
+-   2013-04-12 Tyler Alion : Make 35t TPC volumes touch in the y and z directions - appropriate spacing is still between the actual APAs
+-   2013-04-11 Thomas Junk : And 35T has a different vector listing the maximum number of wires per plane than 10 kT – use fWiresPerPlane instead of fWiresInPlane
+-   2013-04-11 Thomas Junk : take out some print statements accidentally checked in
+-   2013-04-11 Thomas Junk : Do not wrap over end of channel list for a TPC when adding 1 for rounding
+-   2013-04-10 Tyler Alion : Put the hooks in for a wire oreder test
+-   2013-04-10 Benjamin Carls : Removing the old (and slow) Hough line finder
+-   2013-04-10 Benjamin Carls : Removing the old (and slow) Hough line finder
+-   2013-04-10 Benjamin Carls : Removing the old (and slow) Hough line finder
+-   2013-04-10 Tyler Alion : Clean up 35t generate script, move 35t sorting messiness all the way into 35Alg, make the longer 35t drift volume on the positive x end, with a negative drift direction, put the world x origin at the first plane in this long drift volume, much like uB. Put the hooks in for gaseous argon and a few other things.
+-   2013-04-10 Jonathan Asaadi : Slowly adding more to the swizzling of rawdata to LArSoft format…more work still needed to get things to run cleanly, but wanted to get progress thus far committed
+-   2013-04-10 Benjamin Jones : Updates to optical detector package + cut out deprecated modules
+-   2013-04-09 Sarah Lockwitz : A starting point for cosmic tagging
+-   2013-04-09 Brian Rebel : use the non-debug version of the log file to make the log posted to the web. the debug version is typically \>700 MB in size and takes forever to load.
+-   2013-04-09 Brian Rebel : fix comments in TextFileGen module and add fcl file to run job to make events from text files using the hepevt format
+-   2013-04-09 Brian Rebel : back out accidental commit of GNUmakefiles
+-   2013-04-09 Brian Rebel : fix up the comments in TextFileGen\_module.cc and add example job file for producing events using that generator.
+-   2013-04-08 Tingjun Yang : calculated cluster dtdw by hand
+-   2013-04-08 Tingjun Yang : fixed calwireana
+-   2013-04-08 Benjamin Carls : Fix ART exception
+-   2013-04-08 Brian Rebel : configurations for JP250L detector
+-   2013-04-08 Brian Rebel : single particle generator job for JP250L detector
+-   2013-04-08 Brian Rebel : reco job for JP250L detector
+-   2013-04-08 Brian Rebel : add initial geometry file for JP250L detector
+-   2013-04-08 Brian Rebel : add configurations for jp250L
+-   2013-04-08 Tyler Alion : Adjust sorting to accomodate sorting the asymmetric 35t geometry. Does not affect other geometries. Move 35t world origin to the upstream z face of the fiducial volume, where it is vertically centered between the two stacked APAs and centered in the x direction between drift volumes.
+-   2013-04-08 Brian Rebel : add configurations for jp250L
+-   2013-04-08 Tyler Alion : Add 35t configuration for single production
+-   2013-04-08 Benjamin Jones : Remove debugging message
+-   2013-04-08 Benjamin Carls : add parameters for simple shower finding
+-   2013-04-08 Brian Rebel : fcl file for TextFileGen configuration
+-   2013-04-08 Brian Rebel : first commit of module to read in text file and produce MCTruth objects. The comments outline the format that the text file must be in, ie the hepevt format.
+-   2013-04-08 Benjamin Carls : Replace wrongly committed file
+-   2013-04-08 Benjamin Carls : Replace wrongly committed file
+-   2013-04-08 Tyler Alion : add prodgenie script for lbne10kt, fix genie 10kt configuration include to start in TPC 0 for now
+-   2013-04-08 Benjamin Carls : adding very simple shower finding to the algorithm
+-   2013-04-08 Benjamin Carls : adding very simple shower finding to the algorithm
+-   2013-04-08 Benjamin Carls : adding very simple shower finding to the algorithm
+-   2013-04-08 Benjamin Carls : adding very simple shower finding to the algorithm
+-   2013-04-08 Benjamin Jones : Final fixes to PMT geometry in MicroBooNE
+-   2013-04-08 Benjamin Jones : Remove temporary lines from grid fcl
+-   2013-04-08 Benjamin Jones : Update grid tools for library building
+-   2013-04-08 Benjamin Jones : Fix voxel sizes in README
+-   2013-04-08 Benjamin Jones : Fix voxel sizes
+-   2013-04-08 Benjamin Jones : Add standard config for analyzing photon library
+-   2013-04-08 Benjamin Jones : Latest photon library
+-   2013-04-08 Benjamin Carls : Taking out the fake line veto
+-   2013-04-08 Benjamin Carls : Taking out the fake line veto
+-   2013-04-08 William Seligman : Since AnalysisExample is a training module, use “auto” instead of “uint32\_t” so the students don’t have to remember exotic data types.
+-   2013-04-08 Jonathan Asaadi : First commit of the ability to input raw data for MicroBooNE and ‘swizzle’ it into LArSoft…only basic functionality is in right now…can successfully take in a raw bin file from the DAQ and output a basic LArSoft event…still needs lots of work and commenting…not ready for primetime yet, but one step closer
+-   2013-04-08 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : fix some problems flagged by cppcheck
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Brian Rebel : change to using uint32\_t for channel numbers
+-   2013-04-07 Tingjun Yang : Commit for Michelle Stancari. Add trigger information for long bo raw data
+-   2013-04-07 Tingjun Yang : Improved cluster matching between views.
+-   2013-04-07 Tingjun Yang : updated bo timeoffsets and temperature
+-   2013-04-07 Tingjun Yang : added back the EventFilter.cxx content
+-   2013-04-07 Jonathan Insler : removed unused type ZeroUnsuppressionNew
+-   2013-04-07 Jonathan Insler : fixed RawData by correcting or removing all references to old function name ZeroUnsuppressionNew
+-   2013-04-06 Eric Church : Forgot to prototype and, in fact, include the function. Hence, this module did not compile. It’s a no-op for now. Please fix.
+-   2013-04-06 Eric Church : Left out constant made build fall over.
+-   2013-04-06 Jonathan Insler : Updated SimWireLBNE modules with new ZeroSuppression type names
+-   2013-04-06 Jonathan Insler : Cleaned up RawTypes.h
+-   2013-04-06 Jonathan Insler : Removed outdated zero suppression function from RawData
+-   2013-04-05 Jonathan Insler : updated SimWireLBNE35t\_module.cc with efficiency improvements from 10kt
+-   2013-04-05 Thomas Junk : for symmetry, do not fill in array pointers for pre and post adc’s if we’re not doing pre and post spill digitization
+-   2013-04-05 Thomas Junk : Reorder loops for speed and readability. Use different noise samples for prespill, spill, and postspill adc’s. Skip over all prespill and postspill processing if we aren’t writing it to the output event.
+-   2013-04-05 Thomas Junk : Do our own rounding instead of calling TMath::Nint. Also refer to vectors as arrays to save a function call. Speeds up digitization by more than a minute/event.
+-   2013-04-05 Tyler Alion : More 10kt geo tune-ups. readjust vertical wire placement to possibly fix the unexplained collection wire hits. Define the drift volume x dimensions in a cleaner, safer way. clean up code layout further. add test script that will call totalview when debugging is desired.
+-   2013-04-05 Tingjun Yang : Take into account different Efields between wire planes when calculating total drift time
+-   2013-04-04 Tyler Alion : Clean up 10kt generate script, add helpful method to GeometryTest, commented out by default
+-   2013-04-04 Tingjun Yang : initial commit of CosmicTrack, tuned with LongBo data
+-   2013-04-03 Tingjun Yang : Changed the way to calculate drift time between planes taking into account different fields
+-   2013-04-03 Thomas Junk : Speed tweaks – skip the check for multiple SimChannels for a single channel if we only have one TPC, and build the check map separately for each cryostat.
+-   2013-04-02 Thomas Junk : Collect SimChannels for channels that already have a SimChannel on the list. A consequence of channels reading out data from multiple TPC’s.
+-   2013-04-02 Thomas Junk : Propagate the distance formula change from APAAlg to 35Alg
+-   2013-04-02 Thomas Junk : Add some speed optimizations to the distance formula – take out the tan and the sqrt and precompute cosines.
+-   2013-04-02 Jonathan Insler : updated SimWireLBNE10kt for compatibility with ZeroSuppressionNew
+-   2013-04-02 Jonathan Insler : added ZeroSuppressionNew function with ordered data structure to RawData
+-   2013-04-02 Jonathan Insler : updated RawTypes with ZeroSuppressionNew compression type
+-   2013-04-01 Benjamin Jones : Add new library file
+-   2013-04-01 Benjamin Jones : Remove bad photon library file
+-   2013-04-01 Thomas Junk : Skip unpacking channel data we know we won’t be drawing
+-   2013-03-29 Benjamin Jones : Latest + greatest ub geometry
+-   2013-03-29 Benjamin Jones : Remove old debugging file
+-   2013-03-29 Benjamin Jones : Remove deprecated pmt position file
+-   2013-03-29 Benjamin Jones : Remove leftover references to .root files from services
+-   2013-03-29 Benjamin Jones : Remove .root files that we no longer use
+-   2013-03-29 Benjamin Jones : Add single step script for doing the whole uB geometry build process
+-   2013-03-29 Benjamin Jones : Tidy up specialized fragments into their own directory
+-   2013-03-29 Brian Rebel : update configurations for lbne detectors
+-   2013-03-29 Brian Rebel : make configurations for lbne 35t and 10kt.
+-   2013-03-29 Brian Rebel : clean up configurations and some code, make it possible to run LBNE without the InfoTransfer service. Move all experiment specific configuring to the bottom of evdservices.fcl to make eventually removing them easier
+-   2013-03-29 Tingjun Yang : Changed the names sortCryoStandard and sortTPCStandard and sortPlaneStandard to sortCryoBo and sortTPCBo and sortPlaneBo
+-   2013-03-29 Tingjun Yang : Flipped wire numbers on plane 2 for Bo to reflect the actual wire connections
+-   2013-03-29 Brian Rebel : clean up lbne specific configurations to not refer to microboone configurations
+-   2013-03-29 Jonathan Insler : changed std::cout to proper messaging service in SignalShapingService modules in Utilities
+-   2013-03-29 Benjamin Jones : Re-update pmt geometry after rollback
+-   2013-03-29 Brian Rebel : remove InfoTransfer.cxx as services should only have \_service.cc and .h files. Some changes to configurations.
+-   2013-03-29 Benjamin Jones : Remove another old geometry
+-   2013-03-29 Benjamin Jones : Remove old and unused microboone geometries
+-   2013-03-29 Benjamin Jones : Localize uboone gdml scripts into microboone directory
+-   2013-03-28 Benjamin Jones : Make microboone fragments consistent in repository
+-   2013-03-28 Benjamin Jones : Merge back to sensible starting point for making consistent
+-   2013-03-28 Andrzej Szelc : introduce the CalWire module for LArIAT. For the time being a blatant copy of the T962 module, but with no bad channels
+-   2013-03-28 Benjamin Jones : Symmetrize pmts wrt the TPC
+-   2013-03-28 Andrzej Szelc : add lariat specific geometry configuration file.
+-   2013-03-28 Andrzej Szelc : introduced LAriAT phase 1 geometry files, aka ArgoNeuT with front flange and excluder. the wdisk geometry is with a steel disk in front.
+-   2013-03-28 Brian Rebel : remove Print() statement for TGeoMatrix
+-   2013-03-28 Benjamin Jones : Remove deprecated PMT coordinate specification
+-   2013-03-28 Benjamin Jones : Remove deprecated geometry build script
+-   2013-03-28 Brian Rebel : add back in Titanium material and change cryostat to be a big volume of LAr.
+-   2013-03-28 Brian Rebel : cache the detector width, height, length info as data members, also check the rotation matrix to be sure that the right values are getting returned in the case of LongBo where the local z is the world x, etc
+-   2013-03-28 Benjamin Jones : Update to photon library assembly script
+-   2013-03-28 Jonathan Insler : changed W to Z in all collection plane variables and replaced std::cout with proper message service in DetSim
+-   2013-03-28 Brian Rebel : more refinements to the positioning of the TPC in world volume
+-   2013-03-28 Brian Rebel : actually commit the update for longbo
+-   2013-03-28 Brian Rebel : move TPC such that start of plane in z is at 0
+-   2013-03-28 Brian Rebel : new gdml file for longbo geometry, set it as the default for the bo configuration
+-   2013-03-27 Brian Rebel : put try/catch around the NearestWire calls, put TWQMultiTPCProjectionView in LinkDef.h
+-   2013-03-27 Brian Rebel : final change associated with kW to kZ
+-   2013-03-27 Brian Rebel : change geo::kW to geo::kZ; make them equivalent in geo\_types.h for now
+-   2013-03-27 Brian Rebel : change geo::kW to geo::kZ; make them equivalent in geo\_types.h for now
+-   2013-03-27 Brian Rebel : change geo::kW to geo::kZ
+-   2013-03-27 Brian Rebel : change geo::kW to geo::kZ
+-   2013-03-27 Brian Rebel : change geo::kW to geo::kZ
+-   2013-03-27 Brian Rebel : change geo::kW to geo::kZ
+-   2013-03-27 Brian Rebel : change geo::kW to geo::kZ
+-   2013-03-27 Brian Rebel : final removal of Prong from LArSoft
+-   2013-03-27 Benjamin Carls : Add in new histograms for purity and efficiency evaluations
+-   2013-03-26 Benjamin Carls : Clean up compile error
+-   2013-03-26 Tyler Alion : Add preliminary lbne10kt prodsingle script
+-   2013-03-26 Benjamin Carls : Bug with charge assymetry determination
+-   2013-03-26 Tyler Alion : Change order of transformation in FindNestedVolume so that the daughter to mother transform is done in the right order.
+-   2013-03-26 Brian Rebel : major rework of ClusterCheater to improve performance. Now runs at 0.5s per cluster or less. Make new parameter to set requirement on number of hits required to make a cluster, default value is 1.
+-   2013-03-26 Brian Rebel : fix up the output operator to output both dTdW and dQdW
+-   2013-03-26 Brian Rebel : remove factors of 1.e3 from determination of distances as those are now correctly incorporated into the production of simb::MCParticle trajectory information.
+-   2013-03-26 Benjamin Carls : Added missing fcl includes
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Benjamin Carls : Experiment specific fcl configuration files
+-   2013-03-26 Brian Rebel : speed up the ClusterCheater by removing loops over cryostats, tpcs, and planes and instead make use of hit information to produce a map that contains information about eveID as well as cryostat/tpc/plane to hits. still need to figure out a better way to get cluster slope and intercept in tdc vs wire space than using the hough transform as that is very slow for some reason. make the HoughBaseAlg take const vector of art::Ptr\<recob::Hit\>
+-   2013-03-26 Brian Rebel : add new view for displaying events in detectors with multiple TPCs. not ready for prime time yet.
+-   2013-03-25 Brian Rebel : make use of c++2011 range based for loops
+-   2013-03-25 Brian Rebel : remove Prong.h from comment lines
+-   2013-03-25 Brian Rebel : remove reference to Prong
+-   2013-03-25 Brian Rebel : remove include of Prong.h as Prong is going away
+-   2013-03-25 Brian Rebel : fix a couple of comments
+-   2013-03-25 Brian Rebel : use c++2011 range based for loops, so much nicer than having to declare iterators, etc
+-   2013-03-24 Tyler Alion : Back out accidental GeometryTest commit AGAIN.
+-   2013-03-24 Tyler Alion : clean up ChannelMapAPAAlg, speed up ChannelToWire ever so slightly by taking advantage of the modular nature of the current APA cryostat configuration
+-   2013-03-23 Jonathan Insler : removed outdated SignalShapingServiceLBNE files
+-   2013-03-23 Brian Rebel : change acos to std::acos
+-   2013-03-23 Brian Rebel : change acos to std::acos
+-   2013-03-23 Brian Rebel : change acos to std::acos
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : attempt to clean up some warnings, not really necessary as NuWro subdir is not built
+-   2013-03-23 Brian Rebel : remove unnecessary files
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Jonathan Insler : Corrected comparisons between signed and unsigned integers in RawData’s raw.cxx
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change sqrt to std::sqrt
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Brian Rebel : change fabs to std::abs
+-   2013-03-23 Jonathan Insler : added SignalShapingService10kt and SignalShapingService35t to Utilities
+-   2013-03-23 Benjamin Jones : Tweak sandbox pmt geometry
+-   2013-03-23 Benjamin Jones : Remove defunct pmt perl script
+-   2013-03-22 Jonathan Insler : changed collection plane name from X to W in SimWireLBNE object names
+-   2013-03-22 Jonathan Insler : updated SimWireLBNE10kt\_module.cc and SimWireLBNE35t\_module.cc to use kU,kV,kW for plane ID
+-   2013-03-22 Benjamin Jones : Add sandbox uboone pmt geometry to play around with
+-   2013-03-22 Benjamin Jones : Tweaks to wireplane handline
+-   2013-03-22 Tyler Alion : Back out accidental GeometryTest commit
+-   2013-03-22 Tyler Alion : Adjust the z center in the GDML such that it is on the front face of the fiducial volume rather than the detector enclosure. Watch out: world origin is not active, being between cryostats.
+-   2013-03-22 Brian Rebel : add in a comment to TPCGeo::SortSubVolumes implementation about where the TPC drift direction setting happens. Also change TPCGeo::SetDrift to TPCGeo::SetDriftDirection to make the methods purpose a little more explicit.
+-   2013-03-21 Tyler Alion : Move volume sorting into ChannelMap classes so it can be detector specific – makes for much cleaner code. Also move volDetEnc so that the world origin is centered in x between the cryostats, centered in y between the APAs, on the front face in z. Lastly, adjust some generate script parameters for a more accurate 10kt GDML.
+-   2013-03-20 Zepeng Li : fixing the bug of photon initial position shift
+-   2013-03-18 Tyler Alion : Move View() and SignalType() into the ChannelMapAlg classes – these classes contain data that help optimize speed
+-   2013-03-18 Brian Rebel : changes to ClusterCheater\_module for efficiency
+-   2013-03-17 Benjamin Jones : Wireplane transmission geometry fix
+-   2013-03-17 Benjamin Jones : Temporarily remove new library whilst debugging
+-   2013-03-17 Benjamin Jones : Add phot prop modules fcl file
+-   2013-03-17 Benjamin Jones : new version of uboone library (larger voxels, higher stats)
+-   2013-03-15 Benjamin Carls : Latest version of fuzzy clustering, adding in charge discrimminant
+-   2013-03-15 Benjamin Carls : Latest version of fuzzy clustering, adding in charge discrimminant
+-   2013-03-15 Benjamin Carls : Latest version of fuzzy clustering, adding in charge discrimminant
+-   2013-03-15 Benjamin Carls : Latest version of fuzzy clustering, adding in charge discrimminant
+-   2013-03-15 Benjamin Carls : Latest version of fuzzy clustering, adding in charge discrimminant
+-   2013-03-14 Tingjun Yang : take presamplings from DetectorProperties
+-   2013-03-14 Tingjun Yang : added TriggerOffset for Long Bo
+-   2013-03-14 Jonathan Insler : Moved geo-\>View(chan) command outside of time tick loop to reduce processing time
+-   2013-03-13 Thomas Junk : lowercase t in the enum lbne10kt to match code in Geometry
+-   2013-03-13 Benjamin Jones : Fix geometry placement bug
+-   2013-03-13 Tyler Alion : make capitilization in lbne10kt uniformly lowercase, note that lbne10kt\_10Paddles has been removed - lbne10kt has 10 per APA by default
+-   2013-03-12 Benjamin Jones : Optical library building grid tools for v2.0
+-   2013-03-12 Brian Rebel : fix a couple of missing configurations for lbne35t and lbne10kt
+-   2013-03-12 Brian Rebel : remove infotransfer services for lbne
+-   2013-03-12 Brian Rebel : make the lbne evd use the 10kt version of the services configuration for now
+-   2013-03-12 Brian Rebel : add explicit configurations for lbne 10kt and 35t detectors
+-   2013-03-12 Brian Rebel : add explicit configurations for lbne 10kt and 35t detectors
+-   2013-03-12 Brian Rebel : add explicit configurations for lbne 10kt and 35t detectors
+-   2013-03-12 Brian Rebel : add explicit configurations for lbne 10kt and 35t detectors
+-   2013-03-12 Brian Rebel : add explicit configurations for lbne 10kt and 35t detectors
+-   2013-03-12 Brian Rebel : add explicit configurations for lbne 10kt and 35t detectors
+-   2013-03-12 Brian Rebel : add explicit configurations for lbne 10kt and 35t detectors
+-   2013-03-12 Brian Rebel : add explicit configurations for lbne 10kt and 35t detectors
+-   2013-03-12 Benjamin Jones : Restore parameterset
+-   2013-03-12 Benjamin Jones : Remember to save voxel
+-   2013-03-12 Jonathan Insler : updated largeantmodules.fcl with 10kT and 35 t
+-   2013-03-12 Jonathan Insler : updating types with zero suppression
+-   2013-03-12 Jonathan Insler : adding zero suppression to data compression methods
+-   2013-03-12 Jonathan Insler : adding SignalShapingService for LBNE in Utilities
+-   2013-03-12 Jonathan Insler : adding SimWire LBNE modules for 10 kT and 35 t
+-   2013-03-12 Tyler Alion : Add the right detector IDs to make the 35t commit work
+-   2013-03-12 Eric Church : into dev
+-   2013-03-12 Eric Church : Tagging S2013.03.11
+-   2013-03-11 Brian Rebel : remove previous version of build log before putting the current nights results into the file
+-   2013-03-11 Andrzej Szelc : Remove compiler warnings, some hardcoded values and add looping over Cryostats and TPCs and todo tag
+-   2013-03-11 David Mckee : Replace reference to std::cout with a use of Message service. Change variable name in fill[Complex]SpacePoint to prevent a confusing but non-destructive shadowing. Pedantic indentation corrections.
+-   2013-03-11 Tyler Alion : Add basic 35t generate script and GDML accurate inside Cryostat only, and add 35t channel mapping.
+-   2013-03-11 Eric Church : Allow to configure the distance between sppts.
+-   2013-03-11 Herbert Greenlee : Remove unused fcl config variable.
+-   2013-03-11 Herbert Greenlee : Update tests.
+-   2013-03-11 Brian Rebel : add configurations for lbne 10kt and 35t detectors.
+-   2013-03-11 Brian Rebel : add configurations for lbne 10kt and 35t detectors.
+-   2013-03-11 Brian Rebel : add configurations for lbne 10kt and 35t detectors.
+-   2013-03-11 Benjamin Jones : Add do-nothing action for wirepane testing
+-   2013-03-11 Benjamin Jones : Small adjustments to uB PMT sensitive geometry
+-   2013-03-11 Benjamin Jones : Restore library vox scheme
+-   2013-03-11 Benjamin Jones : Oops…
+-   2013-03-11 Benjamin Jones : Parameter update
+-   2013-03-11 Benjamin Jones : Fix compiler warning
+-   2013-03-11 Benjamin Jones : Add capabilities for generic optically parameterized volumes such as wireplanes and meshes to LArG4.
+-   2013-03-11 Benjamin Jones : Add parameters relevant to configuration of optically parameterized wireplane volumes in LArG4
+-   2013-03-10 Benjamin Jones : Rebeltimize once per event fCurrentVoxel++ statement
+-   2013-03-10 Benjamin Jones : Fix small voxel counting bug
+-   2013-03-10 Benjamin Jones : Fix small voxel counting bug
+-   2013-03-08 Eric Church : Ensure a \>0 value for wire separation. In ArgoNeuT, anyway, this was giving -0.4cm prior to this fix.
+-   2013-03-07 Tyler Alion : remove unnecessary changes, set DisableWiresInG4 to true in geometry.fcl for now to improve performance
+-   2013-03-07 Benjamin Jones : Updates to optical library building tools
+-   2013-03-07 Tyler Alion : Fix ChannelMapAPAAlg::Initialize to handle files with no wires
+-   2013-03-07 Andrzej Szelc : Add an Ana module to calculate the Wiener Filer based on noise. Currently the noise and signal wires are hard-coded
+-   2013-03-07 Andrzej Szelc : allow introducing noise via a .root file. Leaving off for now
+-   2013-03-07 Andrzej Szelc : Allow inserting filter from a .root file and field shapes defined via a function in the .fcl file. Leaving turned off by default
+-   2013-03-07 Benjamin Jones : Update to momentum sampling
+-   2013-03-07 Benjamin Jones : Bump class number
+-   2013-03-07 Eric Church : Allow track fKill for negative values of fSmartStacking
+-   2013-03-07 Eric Church : (Re-)allow scaling down of theta error
+-   2013-03-07 Eric Church : Fix cov rotation bug. Shrink 1/p error on 2nd pass, uncontained.
+-   2013-03-06 Tyler Alion : update lbne10kT\_nowires.gdml file
+-   2013-03-06 David Mckee : Analysis of the generated SimChanels. Useful in checking the equivalence of code between versions.
+-   2013-03-06 Benjamin Jones : Fix library content reporting
+-   2013-03-06 Benjamin Jones : First add of new flash prototype finder
+-   2013-03-06 Benjamin Jones : Updates and bug fixes for optical digi and reco algorithms
+-   2013-03-06 Benjamin Jones : Updates to optical sim classes
+-   2013-03-06 Benjamin Jones : Add optical flash drawing option to evd
+-   2013-03-06 Benjamin Jones : Updates to optical raw classes
+-   2013-03-06 Benjamin Jones : Updates to optical reco classes
+-   2013-03-06 Herbert Greenlee : Remove assertion testing consistency of views between hits and geometry system.
+-   2013-03-03 Jonathan Asaadi : Adding a fix to clustercheater to more often correctly assign the clusters start point and end point using information about the MC truth vertex…previously the start point was simply assigned to the lowest wire number and time tick irrespecitve of the direction of the particle
+-   2013-02-27 Benjamin Carls : Clean out std::cout statements
+-   2013-02-27 Benjamin Carls : Using trackIDs instead of eveIDs for purities and efficiencies, also fixed a bug
+-   2013-02-27 Benjamin Carls : Using trackIDs instead of eveIDs for purities and efficiencies, also fixed a bug
+-   2013-02-27 Benjamin Carls : Using trackIDs instead of eveIDs for purities and efficiencies, also fixed a bug
+-   2013-02-27 Benjamin Carls : Using trackIDs instead of eveIDs for purities and efficiencies, also fixed a bug
+-   2013-02-26 Andrzej Szelc : throw the exception when the index is out of bounds and not in
+-   2013-02-26 Brian Rebel : add the randomnumbersaver module to the simulate path
+-   2013-02-25 Herbert Greenlee : Revert to revision 3732.
+-   2013-02-25 Eric Church : Clean-up and tune verbosity of output and add new job fcl script for Track3DKalmanSPS to enforce it.
+-   2013-02-24 Eric Church : Bug fixes
+-   2013-02-24 Eric Church : Many updates: dQdx, properly transformed cov added to Track object, among other things.
+-   2013-02-21 Thomas Junk : Make LBNE event display work – was missing infotransfer and make a line LBNE specific
+-   2013-02-20 Brian Rebel : first go at creating voxels in multiple TPCs and Cryostats. There is some optimization that needs to be done, but that is true of LArG4 in general. Switch a lot of for loops to use c++2011 range based for loops.
+-   2013-02-18 Brian Rebel : move DriftDirection\_t into geo\_types.h
+-   2013-02-18 Brian Rebel : make a few variables passed into methods const, fix up some tabbing
+-   2013-02-15 Tingjun Yang : Check wire number in FillTQHisto
+-   2013-02-14 Tingjun Yang : Changed ReadOutWindowSize to 4096 for long-bo
+-   2013-02-14 Tingjun Yang : Changed E-field for long-bo for the current configuration: HV=75kV, V\_A=0, V\_B=+350 V, V\_C=+800 V, spacing between wire planes is 6.5+-0.3 mm
+-   2013-02-14 Brian Rebel : change unsigned short to unsigned int for a couple of data members.
+-   2013-02-14 Tingjun Yang : Added configuration for long-bo (from Michelle)
+-   2013-02-14 Tingjun Yang : Added configuration for long-bo
+-   2013-02-14 Tyler Alion : remove all overlaps in the 10kt geometry, and adjust for proper steel thickness in the hollow APA frame tubes
+-   2013-02-14 Brian Rebel : fixes to LArRawInputDriverJP250L for it to work. Added a bunch of comments about what data members are and various other comments for making it work.
+-   2013-02-13 Tyler Alion : make APA frame bars hollow, filled with LAr; put in hooks for SiPM extension of light guides
+-   2013-02-13 Brian Rebel : fix tabbing problem
+-   2013-02-13 Brian Rebel : fix super header that managed to miss the last purge
+-   2013-02-13 Brian Rebel : fix super header that managed to miss the last purge
+-   2013-02-13 Eito Iwai : first iteration of LArRawInputDriverJP250L code
+-   2013-02-13 Michelle Stancari : Flipped the polarity of channels 64-79 to undo the hardware polarity flip introduced by adapting the BNL ASIC to the existing motherboard
+-   2013-02-13 Benjamin Carls : Adding configuration for jp250L detector
+-   2013-02-13 Tyler Alion : add overlap check on the order of 10E-5 to GeometryTest
+-   2013-02-13 Tyler Alion : fix position naming in APA volumes, add a check for overlaps in GeometryTest - possibly reveals some work to do for each detector
+-   2013-02-12 Brian Rebel : remove erroneous comment
+-   2013-02-12 Brian Rebel : remove erroneous comment
+-   2013-02-12 Brian Rebel : new file to define enumerated types for RawData
+-   2013-02-12 Brian Rebel : remove unused Set methods from RawDigit. Change assert calls to throw cet::exception calls. Move definition of compression type into SimpleTypesAndConstants/RawTypes.h. Add new data product, AuxDetDigit to describe the digitization of an auxilliary detector.
+-   2013-02-12 Brian Rebel : some alignment changes
+-   2013-02-12 David Mckee : Add some historgrams for diagnosing trouble with LArVoxelReadout::DriftIonizationElectrons needed for getting full magnetic field support working.
+-   2013-02-12 Brian Rebel : use @local syntax for both argoneut and bo, define generic t92\_calwire configuration they both use.
+-   2013-02-12 Brian Rebel : add configurations for jp250L
+-   2013-02-12 Brian Rebel : add configurations for jp250L
+-   2013-02-12 Brian Rebel : move the calculation of the wire angle with respect to the world z axis into the constructor. also make change to account for situation where read out channels may run entirely in the y direction.
+-   2013-02-12 Brian Rebel : planes were being sorted before the drift direction had been established. This caused the sorting to be incorrect for uBooNE, probably every other experiment too.
+-   2013-02-12 Brian Rebel : add enumeration to DetId\_t for JPARC 250 L detector
+-   2013-02-12 Brian Rebel : add input drivers for the jp250L detector
+-   2013-02-12 Brian Rebel : add configuration for jp250L detector
+-   2013-02-12 Brian Rebel : add configurations for jp250L detector
+-   2013-02-12 Brian Rebel : add configurations for jp250L detector
+-   2013-02-11 Brian Rebel : set the proper labels for hit and cluster modules
+-   2013-02-10 Tyler Alion : speed up NearestChannel, clean up GeometryTest and ChannelMapAPAAlg
+-   2013-02-10 Tyler Alion : Add in APA frames - partially blocking light guides, overlap fixes, add make\_APA().
+-   2013-02-08 Brian Rebel : update position of bo TPC as well as spacing between planes to reflect the as built value.
+-   2013-02-08 Brian Rebel : remove unnecessary declaration of theta variable now that it is no longer used to set the view
+-   2013-02-08 Tyler Alion : Add back in: kLBNE Channel switch, sorting, SetView
+-   2013-02-08 Brian Rebel : put back some changes that had been lost. note, std::abs is better than fabs or abs.
+-   2013-02-08 Brian Rebel : a few fixes for running with bo and argoneut
+-   2013-02-08 Brian Rebel : put the APA ChannelMap back in.
+-   2013-02-08 Brian Rebel : fix observed problem for experiments using ChannelMapStandardAlg. The problem was that it was trying to calculate the number of channels using TPCGeo::Nchannels() which no longer fills TPCGeo::fNChannels. So remove that data member and the corresponding method and then fix the ChannelMapStandardAlg.
+-   2013-02-08 Brian Rebel : bring the gdml directory back to where it was at r3680
+-   2013-02-08 Brian Rebel : back out recent changes until we understand some strange behavior being observed. revert to revision 3677
+-   2013-02-08 Brian Rebel : quiet compiler warning
+-   2013-02-08 Brian Rebel : few minor changes including some changes to account for bo geometry in the GeometryTest module.
+-   2013-02-08 Tyler Alion : change APAAlg ChannelToWire to use the WireID constructor
+-   2013-02-08 Brian Rebel : adjust y center of the tpc
+-   2013-02-08 Tyler Alion : combine the few lbne generate scripts, fix wire spacing
+-   2013-02-08 Tyler Alion : Introduce APA Channel Mapping and generalize sorting
+-   2013-02-07 Brian Rebel : fix the orientation of the wires such that one view measures the z position and that is the last plane in the drift direction.
+-   2013-02-07 Brian Rebel : change fabs to std::abs
+-   2013-02-07 Brian Rebel : change fabs to std::abs
+-   2013-02-07 Brian Rebel : fcl file for reconstructing bo data
+-   2013-02-07 Brian Rebel : put in todo flag to move calorimetry options into their own service.
+-   2013-02-07 Brian Rebel : make it possible to turn off use of the HitSelector as it interacts poorly with the Bo geometry - that needs to be examined further. Update the configurations for the Bo geometry.
+-   2013-02-07 Brian Rebel : add configuration for bo, make use of @local syntax for other configurations.
+-   2013-02-07 Brian Rebel : fix up settings for bo
+-   2013-02-07 Brian Rebel : fix a bad attempt to comment something out with // instead of \#
+-   2013-02-07 Brian Rebel : add configurations for bo
+-   2013-02-07 Brian Rebel : add configurations for bo
+-   2013-02-07 Brian Rebel : add configurations for bo
+-   2013-02-06 Brian Rebel : add configurations for bo
+-   2013-02-06 Brian Rebel : add configurations for bo
+-   2013-02-06 William Seligman : Two major changes:
+-   2013-02-05 Herbert Greenlee : Fix bug in SpacePointToXYZ.
+-   2013-02-05 Herbert Greenlee : Catch exceptions from ToXYZ back track methods.
+-   2013-02-05 Benjamin Jones : Changes to ana outputs to improve file scaling
+-   2013-02-04 Brian Rebel : remove obsolete interface of ChannelToWire, make use of new WireID ctor in ChannelMapStandardAlg::ChannelToWire
+-   2013-02-04 Brian Rebel : move the WireID implementation into the .cxx file as it now checks for a valid fWireID and then makes some calls to Geometry to try to determine the id if fWireID is not valid. Bump the class version number for geo::WireID in the classes\_def.xml file as well.
+-   2013-02-04 Brian Rebel : add isValid field to WireID. Also add constructors to the struct where the default setting is for isValid to be false. If one uses the non-default ctor, then isValid is automatically set to true because one had to know all the fields to use that ctor.
+-   2013-02-04 Benjamin Jones : Fix compiler warning
+-   2013-02-04 Benjamin Jones : Suppress some annoying compiler warnings
+-   2013-01-30 Brian Rebel : throw exceptions if we are in danger of returning unset values from any of the \*ToXYZ methods.
+-   2013-01-30 Brian Rebel : make the z = 0 position coincide with an edge of the TPC to be like the other single tpc detectors.
+-   2013-01-30 Brian Rebel : put the TPC in the correct orientation in the world coordinate system and in the correct location. Origin is now in the center of the wire planes in Y and Z, X=0 is at the wire planes and x increases in the opposite direction of the drift.
+-   2013-01-30 Brian Rebel : fix errors with trying to draw the geometry.
+-   2013-01-29 Sarah Lockwitz : changes to hitcheater to better handle cosmics in three windows
+-   2013-01-29 Jonathan Asaadi : Fix to the fitting range to get rid of the error cropping up in the new ROOT version
+-   2013-01-28 Tyler Alion : add generate script with paddles, without hillside and service building.
+-   2013-01-28 Tyler Alion : re-commit the 10kT gdml with hillside and sevice building that was accidentally overwritten
+-   2013-01-28 Jonathan Asaadi : A very ugly fix to make showeranglecluster handle mulitple clusters from mulitple views…this will be cleaned up further later, but is necessary for fixes coming in ShowerReco
+-   2013-01-28 Tyler Alion : fix paddle placement for the LBNE geometry 10 and 20 paddle files
+-   2013-01-27 Brian Rebel : add in some comments about using view to determin pitch etc in the LBNE geometry being a bad idea. fix up tabbing.
+-   2013-01-25 Brian Rebel : make sure to not setup PANDORA for older tagged releases
+-   2013-01-24 Jonathan Asaadi : The first of many commits to fix-up and improve the ShowerReco object. Start by allowing the code to handle multiple TPC’s and Cryostats as well as add comments to part of the code….working toward having this be capable of handling multiple clusters over the next few commits
+-   2013-01-22 Brian Rebel : make the destructor for ChannelMapAlg virtual so the derived classes can be deleted in Geometry::InitializeChannelMap to avoid a memory leak
+-   2013-01-21 Brian Rebel : fix up bad commit from last night, make sure to return a value in a non-void method
+-   2013-01-21 Benjamin Jones : Fix mysteriousely injected geometry bug
+-   2013-01-21 Brian Rebel : make the change over to using the ChannelMapAlgs in Geometry\_service.cc for providing ChannelToWire, PlaneWireToChannel, and other channel connection map functionality. Make the ChannelMapAlg::Initialize() method take a const reference to std::vector\<geo::CryostatGeo\*\> to provide the ability to make the connection map before the Geometry service ctor has completed. This change has been vetted with the GeometryTest module as well as by generating new events and examining them in the EventDisplay. Also get rid of some assert(0) statements.
+-   2013-01-21 Brian Rebel : fix unused variable warnings
+-   2013-01-20 Brian Rebel : remove use of assert(0) in favor of cet::exception to control the program flow
+-   2013-01-20 Brian Rebel : change assert(0) to throw cet::exception, which is how people should be controling the code, assert(0) should **not** be used. Also do 3 -\> 1 conversion of files for LightSource\_module.cc
+-   2013-01-20 Brian Rebel : change assert(0) to throw cet::exception, which is how people should be controling the code, assert(0) should **not** be used
+-   2013-01-18 Brian Rebel : commit algorithm type objects that handle the channel mapping duties. These objects will replace the channel mapping methods in Geometry\_service and allow us to gracefully handle the different styles of channel mapping for T962, Bo, LArIAT, and uB vs LBNE.
+-   2013-01-17 Brian Rebel : limit the number of RecoBaseDefaultCtor messages
+-   2013-01-17 Brian Rebel : fix tabbing to make easier to read
+-   2013-01-17 Brian Rebel : add a LOG\_DEBUG message
+-   2013-01-17 Brian Rebel : convert the mass provided by G4 to units of GeV to be consistent with rest of LArSoft
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : add geo::WireID to Hit object along with added SingalType and View interfaces to Hit and Wire
+-   2013-01-17 Brian Rebel : add geo::WireID to Hit object along with added SingalType and View interfaces to Hit and Wire
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-17 Brian Rebel : changes to account for new Geometry::ChannelToWire interface
+-   2013-01-16 Tyler Alion : add 10 and 20 paddle configuration for lbne 10kT detector geometry - wires do not work yet.
+-   2013-01-16 William Seligman : Fix a few comments. (There’s more work to be done to get this code to correctly calculate dE/dx, and I’ll get around to it… but that’s secondary to the main code of being a code example.)
+-   2013-01-16 Michelle Stancari : fixed causes of compiler warnings
+-   2013-01-16 Eric Church : Bug fix to properly define contained tracks in y
+-   2013-01-16 Brian Rebel : remove references to Simulation/Particle
+-   2013-01-16 Brian Rebel : remove references to Simulation/Particle
+-   2013-01-16 Brian Rebel : remove references to Simulation/Particle
+-   2013-01-16 Brian Rebel : remove references to Simulation/Particle
+-   2013-01-16 Brian Rebel : remove Particle from the repository as all its functionality is in SimulationBase/MCParticle
+-   2013-01-16 Brian Rebel : get ready for tag of S2013.01.16
+-   2013-01-14 Brian Rebel : add pandora to list of external packages that get set up
+-   2013-01-14 Brian Rebel : catch an exception that could be thrown by geometry.
+-   2013-01-14 Benjamin Jones : Data frame stitching fixes
+-   2013-01-14 David Mckee : Fix unreasonably fine binning on two histograms. No point in using sub-integer bins for integer data.
+-   2013-01-10 Benjamin Jones : Improve const correctness
+-   2013-01-10 Benjamin Jones : stitching module for combining PMT data frames
+-   2013-01-10 Benjamin Jones : Bo raw text data input module
+-   2013-01-10 Benjamin Jones : Add first sample number to opdetpulse object
+-   2013-01-10 Benjamin Jones : Add PMT frame number to opdetpulse object
+-   2013-01-09 Benjamin Jones : Lay groundwork for Bo raw data input
+-   2013-01-09 Benjamin Jones : update to new photon library format
+-   2013-01-08 Benjamin Jones : Improve optical sim memory management
+-   2013-01-08 Benjamin Jones : Improve optical sim memory management
+-   2013-01-08 Benjamin Jones : Improve optical sim memory management
+-   2013-01-08 Benjamin Jones : Improve optical sim memory management
+-   2013-01-08 Benjamin Jones : Add NOpChannels method to geometry
+-   2013-01-07 Michelle Stancari : Added LongBo and ShortBo data file formats
+-   2013-01-04 Michelle Stancari : modified for bo data
+-   2013-01-04 Michelle Stancari : modified for bo data
+-   2013-01-04 Michelle Stancari : modified for Bo data
+-   2012-12-21 Herbert Greenlee : Add block “microboone\_optical\_services.”
+-   2012-12-20 Eric Church : More generous flags to compile GENFIT.
+-   2012-12-20 Eric Church : remove recursive includes
+-   2012-12-20 Eric Church : Suppress plentiful and harmless no overloaded virtual warnings (wrt calls to GENFIT classes).
+-   2012-12-18 Brian Rebel : fix to addpkg\_svn for use with frozen releases
+-   2012-12-18 Brian Rebel : commit changes for S2012.12.17
+-   2012-12-17 Michael Kirby : This is the first commit of an updated perl script that will generate the LBNE 10 kT far detector gdml files, to include the overburden initial design. This is a starting point.
+-   2012-12-17 Benjamin Carls : Creating a version of the PPHT to be run as a module
+-   2012-12-17 Benjamin Carls : Creating a version of the PPHT to be run as a module
+-   2012-12-17 Benjamin Carls : Creating a version of the PPHT to be run as a module
+-   2012-12-17 Benjamin Carls : Creating a version of the PPHT to be run as a module
+-   2012-12-17 Benjamin Carls : Creating a version of the PPHT to be run as a module
+-   2012-12-17 Benjamin Carls : Creating a version of the PPHT to be run as a module
+-   2012-12-14 Herbert Greenlee : Remove include of opticaldetectorservices.fcl and photpropservices.fcl (now included in services.fcl).
+-   2012-12-14 Herbert Greenlee : Remove debugging output.
+-   2012-12-13 Herbert Greenlee : Add microboone\_optical\_simulation\_services in services.fcl.
+-   2012-12-13 Brian Rebel : make a separate logfile for the update portion of the nightly build script
+-   2012-12-12 Benjamin Jones : Change simphoton to reduce memory hog
+-   2012-12-12 Benjamin Jones : Change simphoton to reduce memory hog
+-   2012-12-12 Benjamin Jones : Change simphoton to reduce memory hog
+-   2012-12-12 Benjamin Jones : Add uboone service
+-   2012-12-12 Brian Rebel : remove the .cxx file for one more service.
+-   2012-12-10 Benjamin Jones : Adding standard optical reconstruction fcl
+-   2012-12-10 Benjamin Jones : Small bug fixes
+-   2012-12-10 Benjamin Jones : Add flag to disable library load for performance
+-   2012-12-10 Brian Rebel : fix tabbing and some comments
+-   2012-12-10 Benjamin Jones : Quiet down optical modules ready for MC challenge
+-   2012-12-10 Benjamin Jones : Properly treat relative path
+-   2012-12-10 Benjamin Jones : Properly treat relative path
+-   2012-12-07 Benjamin Jones : Add zero suppression
+-   2012-12-07 Eric Church : Small compile error fix.
+-   2012-12-06 Benjamin Jones : Remove toy file
+-   2012-12-06 Benjamin Jones : Trying more unpleasant root file things
+-   2012-12-06 Benjamin Jones : Commiting garbage to the repository
+-   2012-12-06 Benjamin Jones : test diffing
+-   2012-12-06 Benjamin Jones : test of root file changes
+-   2012-12-05 Brian Rebel : fix a bug in the bootstrap file and remove bit for nutools code as it is no longer necessary.
+-   2012-12-05 Brian Rebel : updates to use new nusoft svn repository which was directly converted from the cvs version. all version history was retained
+-   2012-12-04 Herbert Greenlee : Add initialization of environment variable GROUP in setup\_larsoft\_fnal.csh. Change GROUP to be “uboone” (instead of “microboone”) in setup\_larsoft\_fnal.sh.
+-   2012-12-04 Mitchell Soderberg : Remove hardcoding of Calorimetry template filename. Move it into AnalysisDrawingOptions.
+-   2012-12-04 Benjamin Jones : Oops, added it twice
+-   2012-12-04 Benjamin Jones : Add OpticalDetector to the build order
+-   2012-12-04 Benjamin Jones : Correct rounding error
+-   2012-12-04 Brian Rebel : get the correct spline file version for older frozen releases than S2012.09.18
+-   2012-12-04 Benjamin Jones : Add dark noise for opdets
+-   2012-12-04 Benjamin Jones : update fast optical config
+-   2012-12-04 Brian Rebel : get the correct spline file version for S2012.09.18
+-   2012-12-04 Brian Rebel : make older frozen releases also setup the ups versioned copies of the genie spline files
+-   2012-12-04 Benjamin Jones : Move waveform load into service
+-   2012-12-04 Benjamin Jones : Fix config file bug
+-   2012-12-03 Benjamin Jones : Globalize supply of digi parameters, and rename some modules to keep sensible convention
+-   2012-12-03 Benjamin Jones : Add beam time flag to OpFlash
+-   2012-12-03 Herbert Greenlee : Tweak fcl parameters for TrackAna.
+-   2012-12-03 Herbert Greenlee : Tweak histograms.
+-   2012-12-03 Herbert Greenlee : Don’t fill histograms unless defined.
+-   2012-12-02 Benjamin Jones : Updated LAr optical properties
+-   2012-12-01 Brian Rebel : remove deprecated parameters
+-   2012-12-01 Brian Rebel : remove unnecessary include
+-   2012-12-01 Brian Rebel : add include for cet::search\_path
+-   2012-12-01 Brian Rebel : remove unnecessary includes
+-   2012-11-30 Herbert Greenlee : Add art::Ptr\<raw::RawDigit\> data member in Hit.
+-   2012-11-29 Benjamin Jones : Rename full optical sim fcl file
+-   2012-11-29 Benjamin Jones : variable name change
+-   2012-11-29 Benjamin Jones : Tidy up variable names
+-   2012-11-29 Benjamin Jones : Improve configuration file for LightSource
+-   2012-11-28 Benjamin Jones : Rename sample steering file
+-   2012-11-28 Benjamin Jones : remove deprecated parameter
+-   2012-11-28 Benjamin Jones : Bug fix
+-   2012-11-28 Benjamin Jones : Commit phot library to svn, as requested in LArSoft meeting
+-   2012-11-28 Benjamin Jones : Add ana modules for hit and flash finding
+-   2012-11-28 Benjamin Jones : Some digi and flash fixes
+-   2012-11-28 Benjamin Jones : Change on beam flag to int
+-   2012-11-28 Benjamin Jones : Changes to scint property input
+-   2012-11-28 Benjamin Jones : Add beam time determination
+-   2012-11-28 Benjamin Jones : Add on beam time flag
+-   2012-11-27 Benjamin Jones : Op geometry fix
+-   2012-11-27 Benjamin Jones : Adding digi ana, and new hit finder
+-   2012-11-27 Benjamin Jones : Digi and reco updates
+-   2012-11-27 Benjamin Jones : OpFlash base clase change
+-   2012-11-27 Herbert Greenlee : Change uniform angle generation to be flat in sin(theta\_yz) instead of flat in theta\_yz (same as flat in phase space).
+-   2012-11-26 Herbert Greenlee : Change microboone event display back to color.
+-   2012-11-19 Brian Rebel : add in appropriate library to link from art and fix up a namespace
+-   2012-11-19 Brian Rebel : update include path for art v1.02.06
+-   2012-11-19 Brian Rebel : pick up bug fixes for using SAM and patches to CLHEP
+-   2012-11-17 Benjamin Jones : Add geometrical info to OpFlash
+-   2012-11-17 Benjamin Jones : Tidy up rough edges of OpDet digitization module
+-   2012-11-17 Benjamin Jones : Simplify OpDetPulse object handling
+-   2012-11-17 Brian Rebel : forgot to commit the package list for S2012.11.16
+-   2012-11-17 Brian Rebel : prepare for tag of S2012.11.16 corresponding to repository after removal of T962 package
+-   2012-11-17 Brian Rebel : remove T962 package from LArSoft as it now lives in the ArgoNeuT Offline repository
+-   2012-11-16 Eric Church : Inititialize taulife
+-   2012-11-16 Eric Church : Add the lifetime to the TTree.
+-   2012-11-16 Benjamin Jones : Add configurations for optical reco modules@
+-   2012-11-14 Mitchell Soderberg : Initial commit of ReverseMinosFilter in T962/MatchFilter.
+-   2012-11-14 Benjamin Jones : Basic per-particle scintillation quenching, default geant4 method applied to fast sim
+-   2012-11-14 Benjamin Jones : Supply LArG4 basic yield and pulse shape info
+-   2012-11-14 Mitchell Soderberg : 3-\>1 of T962/MatchFilter.
+-   2012-11-13 Benjamin Jones : Fix fcl config and time reporting
+-   2012-11-13 Benjamin Jones : Fix typo
+-   2012-11-13 Benjamin Jones : Remove pointless functions
+-   2012-11-13 Benjamin Jones : General tidyup and 3\>1
+-   2012-11-13 Benjamin Jones : Tidying up
+-   2012-11-13 Benjamin Jones : Tidy up rough edges of sim photon storage
+-   2012-11-13 Benjamin Jones : Remove dependencies on the class I just threw out
+-   2012-11-13 Benjamin Jones : Trim fat from optical sim code
+-   2012-11-13 Benjamin Jones : Trim fat from optical sim code
+-   2012-11-13 Benjamin Jones : fcl files for simulations with optical
+-   2012-11-13 Benjamin Carls : Update header file with new parameters
+-   2012-11-13 Benjamin Jones : First working optical fastsim
+-   2012-11-13 Benjamin Jones : Add switch for Cerenkov light on / off
+-   2012-11-12 Benjamin Carls : Updating fake rejection and enabling merging of fuzzy cluster remnants
+-   2012-11-12 Benjamin Carls : Updating fake rejection and enabling merging of fuzzy cluster remnants
+-   2012-11-12 Benjamin Jones : parameter change and annotation
+-   2012-11-12 Brian Rebel : make use of patched version of G4 4.9.5.p02 for S2012.10.02.
+-   2012-11-12 Brian Rebel : make use of patched version of G4 4.9.5.p02
+-   2012-11-11 Eric Church : Bug fix that did not translate under the new std::vector\<art::PtrVector spacepoints\> port.
+-   2012-11-07 Brian Rebel : remove obsolete header
+-   2012-11-06 Brian Rebel : go back to using art::Handle instead of art::View to cut down on the amount of output generated when the requested collection cant be found
+-   2012-11-06 Benjamin Jones : Small chanes to photon voxels
+-   2012-11-06 Benjamin Jones : Photon library analysis methods
+-   2012-11-05 Benjamin Carls : Cleaned up some infinite loops and added memory protections for histograms
+-   2012-11-05 Brian Rebel : remove the PhotonLibraryParameters dtor again
+-   2012-11-05 Benjamin Jones : Bug fixes
+-   2012-11-05 Brian Rebel : \\a\\d\\d\\ \\t\\h\\e\\ \\B\\a\\c\\k\\T\\r\\a\\c\\k\\e\\r\\L\\o\\a\\d\\e\\r\\ \\m\\o\\d\\u\\l\\e\\ \\t\\o\\ \\t\\h\\e\\ \\p\\r\\o\\d\\u\\c\\e\\r\\s\\ \\s\\o\\ \\t\\h\\a\\t\\ \\L\\A\\r\\G\\4\\A\\n\\a\\ \\r\\u\\n\\s\\ \\c\\o\\r\\r\\e\\c\\t\\l\\y
+-   2012-11-05 Benjamin Jones : Small update to photon voxel handling
+-   2012-11-05 Benjamin Jones : Photon library building tools
+-   2012-11-03 Eric Church : Make Track3DKalmanSPS finally understand how to read std::vector\<art:PtrVector \<SpacePoints\>\>. Next up: trim back the Warnings.
+-   2012-11-02 Brian Rebel : add some todo indicators of what to remove in the future
+-   2012-11-02 Brian Rebel : make the transition to using simb::MCParticle more backwards compatible by defaulting back to using sim::Particles if necessary
+-   2012-11-02 Brian Rebel : add in comments about each parameter is supposed to be
+-   2012-11-02 Brian Rebel : apparently exceptions thrown by getView arent caught in the same way as those from getByLabel. Catch it myself
+-   2012-11-02 Brian Rebel : another missed sim::Particle –\> simb::MCParticle
+-   2012-11-02 Brian Rebel : missed a sim::Particle –\> simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : fix the include for Simulation/Particle.h to Simulation/MCParticle.h
+-   2012-11-01 Brian Rebel : use art::Event::getView when looking for the particles in order to maintain some backwards compatibility in the switch from sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : convert sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : remove pointless comments
+-   2012-11-01 Brian Rebel : change sim::Particle to simb::MCParticle
+-   2012-11-01 Brian Rebel : let the compiler provide the dtor for data products
+-   2012-11-01 Brian Rebel : let the compiler provide the dtor for data products
+-   2012-11-01 Brian Rebel : let the compiler provide the dtor for data products
+-   2012-11-01 Brian Rebel : let the compiler provide the dtor for data products
+-   2012-11-01 Brian Rebel : commits that were accidentally left off the one from yesterday
+-   2012-10-31 Brian Rebel : more changes to conform to data product guidelines.
+-   2012-10-30 Andrzej Szelc : 3-\>1 of GrahpCluster
+-   2012-10-30 Andrzej Szelc : and remove old files
+-   2012-10-30 Andrzej Szelc : 3-\>1 of ShowerAngleCluster
+-   2012-10-30 Benjamin Jones : 3-\>1 change
+-   2012-10-30 Brian Rebel : remove setting of GSPLOAD environmental variable as we now have a ups product to do that for us
+-   2012-10-30 Brian Rebel : setup the correct genie cross section file going forward
+-   2012-10-30 Benjamin Carls : Removed G4ModuleLabel
+-   2012-10-29 Brian Rebel : make use of C++2011 auto syntax
+-   2012-10-29 Brian Rebel : fix up some tabbing and comments
+-   2012-10-25 Brian Rebel : change use of sim::Particle::EndPoint to be simb::MCParticle::EndPosition as they have the same functionality. This is the first step in removing the inheritance of sim::Particle from simb::MCParticle
+-   2012-10-25 Brian Rebel : change use of sim::Particle::EndPoint to be simb::MCParticle::EndPosition as they have the same functionality. This is the first step in removing the inheritance of sim::Particle from simb::MCParticle
+-   2012-10-25 Brian Rebel : change use of sim::Particle::EndPoint to be simb::MCParticle::EndPosition as they have the same functionality. This is the first step in removing the inheritance of sim::Particle from simb::MCParticle
+-   2012-10-25 Brian Rebel : change use of sim::Particle::EndPoint to be simb::MCParticle::EndPosition as they have the same functionality. This is the first step in removing the inheritance of sim::Particle from simb::MCParticle
+-   2012-10-25 Brian Rebel : change use of sim::Particle::EndPoint to be simb::MCParticle::EndPosition as they have the same functionality. This is the first step in removing the inheritance of sim::Particle from simb::MCParticle
+-   2012-10-25 Brian Rebel : change use of sim::Particle::EndPoint to be simb::MCParticle::EndPosition as they have the same functionality. This is the first step in removing the inheritance of sim::Particle from simb::MCParticle
+-   2012-10-24 Brian Rebel : further clean up the simulation dictionary generation by remmoving \#includes and objects that are no longer needed
+-   2012-10-24 Brian Rebel : remove LArVoxelID and LArVoxelData from the classes\_def.xml and classes.h files as they have not been written to any files for at least a year
+-   2012-10-24 Roxanne Guenette : 3-\>1 ShowerFinder
+-   2012-10-24 Jonathan Asaadi : fix back for HoughBaseAlg for argoneut
+-   2012-10-23 Jonathan Asaadi : Slight modifications in order to run ShowerReco in development…could also need these tweaks in the frozen releases
+-   2012-10-23 Jonathan Asaadi : Fix to argoneut\_houghlinefinder.HoughBaseAlg so HoughLineFinder will run for argoneut in development
+-   2012-10-23 Brian Rebel : 3 -\> 1 file module change.
+-   2012-10-23 Brian Rebel : include SimpleTypesAndConstants/geo\_types.h in Track.h
+-   2012-10-23 Brian Rebel : more changes to conform to data product design guidelines
+-   2012-10-22 Brian Rebel : add setup of genie aux files to allow for charm and tau decays, which G4 does not do by default
+-   2012-10-22 Brian Rebel : conform to the Data Product Design Guide: [https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data\_Product\_Design\_Guide](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data_Product_Design_Guide)
+-   2012-10-21 Brian Rebel : conform to the Data Product Design Guide: [https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data\_Product\_Design\_Guide](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data_Product_Design_Guide)
+-   2012-10-21 Brian Rebel : tabbing
+-   2012-10-21 Brian Rebel : conform to the Data Product Design Guide: [https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data\_Product\_Design\_Guide](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data_Product_Design_Guide)
+-   2012-10-21 Brian Rebel : conform to the Data Product Design Guide: [https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data\_Product\_Design\_Guide](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data_Product_Design_Guide)
+-   2012-10-21 Brian Rebel : conform to the Data Product Design Guide: [https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data\_Product\_Design\_Guide](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Data_Product_Design_Guide)
+-   2012-10-21 Brian Rebel : hack to make ShowerReco compile, make a vector for the collection plane pitch of the track, not sure why it is a vector
+-   2012-10-21 Brian Rebel : remove unnecessary includes
+-   2012-10-20 Brian Rebel : condense service into 2 files from 3
+-   2012-10-20 Saima Farooq : undo the recent accidental change in .fcl
+-   2012-10-20 Saima Farooq : PrimaryVertexFinder .cxx, .h to .cc
+-   2012-10-20 Saima Farooq : FinalStateParticleFilter .cxx, .h to .cc
+-   2012-10-20 Saima Farooq : deleting .cxx and .h
+-   2012-10-20 Saima Farooq : NAUNCEGen .cxx, .h to .cc
+-   2012-10-19 David Mckee : Remove references to deleted headers.
+-   2012-10-19 Brian Rebel : 3 -\> 1
+-   2012-10-19 Jonathan Asaadi : 3-\>1 for GausHitFinderAna
+-   2012-10-19 Jonathan Asaadi : 3-\>1 for FFTHitFinder
+-   2012-10-19 Jonathan Asaadi : 3-\>1 for GausHitFinder
+-   2012-10-19 Tingjun Yang : forgot to delete .h and .cxx
+-   2012-10-19 Tingjun Yang : 3-\>1
+-   2012-10-19 Tingjun Yang : 3-\>1
+-   2012-10-19 Tingjun Yang : 3-\>1
+-   2012-10-18 David Mckee : Remove reference to deleted header file
+-   2012-10-18 Eric Church : Aggregate
+-   2012-10-18 Eric Church : Aggregate
+-   2012-10-18 Eric Church : Aggregate
+-   2012-10-18 Eric Church : Aggregate
+-   2012-10-18 Eric Church : Aggregate
+-   2012-10-18 Eric Church : Aggregate
+-   2012-10-17 Mitchell Soderberg : 3-\>1 ification of T962/MatchTracks.
+-   2012-10-17 Mitchell Soderberg : 3-\>1 ification of T962/MergeData.
+-   2012-10-17 Mitchell Soderberg : Forgot to delete some includes.
+-   2012-10-17 Mitchell Soderberg : 3-\>1 ification of some Filter modules.
+-   2012-10-17 Benjamin Carls : Cleaning up MicroBooNE Hough line parameters
+-   2012-10-17 Benjamin Carls : Cleaning up MicroBooNE Hough line parameters
+-   2012-10-17 David Mckee : Merge MagDriftAna files.
+-   2012-10-17 Brian Rebel : fix an accidental commit including recobase.h
+-   2012-10-17 Brian Rebel : merge a bunch of modules from 3 files each into one each
+-   2012-10-17 Brian Rebel : merge Muon\_elifetime into one file
+-   2012-10-17 Brian Rebel : merge LArG4Ana into one file
+-   2012-10-17 Brian Rebel : merge SimWireT962 into one file
+-   2012-10-17 Brian Rebel : merge CalWireT962 module into one file
+-   2012-10-17 Brian Rebel : merge CalWireT962 module into one file
+-   2012-10-17 Brian Rebel : remove .cxx file as there is nothing in it any more
+-   2012-10-17 Mitchell Soderberg : Small tweak to numbers used to parameterize error bars in Calorimetry display.
+-   2012-10-16 Mitchell Soderberg : Reworking of Calorimetry display to add in Kinetic Energy vs. range curves, and also to beautify things a touch (e.g. - grayscale for template curves). I have copied the necessary template files to a public directory, so users should no longer need to have a copy in their test release to pick them up.
+-   2012-10-15 Mitchell Soderberg : 3-\>1 ification of MuonAna
+-   2012-10-15 Mitchell Soderberg : Initial commit of T962/BeamAna module, which is primarily used for P.O.T. tabulation of ArgoNeuT data.
+-   2012-10-14 Tingjun Yang : added index to hit array
+-   2012-10-14 Tingjun Yang : added index to hit array
+-   2012-10-14 Tingjun Yang : added index to hit array
+-   2012-10-12 William Seligman : Try to intercept a “ModuleFail” warning with a try-catch block if the input file doesn’t contain any reconstruction objects. This doesn’t work (you still get the warning), but the code provides a minor lesson in error handling so I’ll leave it in..
+-   2012-10-11 Benjamin Carls : Adding a warning message about altering Hough transform parameters.
+-   2012-10-11 Benjamin Carls : Adding in special set of HoughBaseAlg parameters for Argoneut, cleaning it up a bit.
+-   2012-10-11 Benjamin Carls : Adding in special set of HoughBaseAlg parameters for Argoneut.
+-   2012-10-11 Benjamin Carls : Reverting Hough line parameters to values optimized for the traditional transform
+-   2012-10-04 Herbert Greenlee : Merge files for modules CalWireMicroBooNE and test/FFTTest. Tweak test fcl files.
+-   2012-10-04 Herbert Greenlee : Merge files for SimWireMicroBooNE module.
+-   2012-10-04 Tingjun Yang : protected against trkid=0
+-   2012-10-03 Mitchell Soderberg : Modifications to MergeDataPaddles to achieve better, though still not quite perfect, matching. Still need to update this, and numerous other modules, within T962 to follow new paradigm of all-code-in-one-file.
+-   2012-10-03 Brian Rebel : prepare for new tag for ArgoNeuT
+-   2012-10-03 Tingjun Yang : protected against bad channel ID
+-   2012-10-03 Tingjun Yang : fixed the code to get paddle information
+-   2012-10-02 Sarah Lockwitz : Added two exceptions to the ParticleList code
+-   2012-10-02 Kinga Partyka : adding additional variables from geant4, saving all particles instead of primaries only
+-   2012-10-02 William Seligman : Revise the README file to include mention of the associations examples.
+-   2012-10-02 William Seligman : Add a couple of brief examples of how to use associations; to be frank, this is probably more useful than the long dEdx examples that form most of the sample code.
+-   2012-10-02 Benjamin Jones : Fix signed unsigned comparison warning
+-   2012-10-01 Brian Rebel : change the value of NoParticleId to be the minimum int the compiler can supply rather than -999. The change is necessary now that we allow secondaries and later generations of particles in EM showers to have negative track id values to indicate their status as not coming from primary particles but being related to them.
+-   2012-09-28 Herbert Greenlee : Combine some test module files.
+-   2012-09-28 Herbert Greenlee : Combine .h, .cxx, and \_module.cc files for the following modules: SpacePointCheater SpacePointFinder TrackKalmanCheater Track3DKalmanHit TrackAna test/PropTest test/KalmanFilterTest
+-   2012-09-28 Benjamin Carls : Removing EndPointCLusAlg, it’s obsolete
+-   2012-09-28 Benjamin Carls : Removing EndPointCLusAlg, it’s obsolete
+-   2012-09-28 Benjamin Carls : Removing EndPointCLusAlg, it’s obsolete
+-   2012-09-28 Benjamin Carls : Removing EndPointCLusAlg, it’s obsolete
+-   2012-09-28 Brian Rebel : bump art to version 1.02.04 to grab bug fix for using -e option on command line
+-   2012-09-27 Herbert Greenlee : Combine files for SpacePointAna module.
+-   2012-09-27 Benjamin Carls : Removed some old HoughClusAlg mentions
+-   2012-09-27 Benjamin Carls : Removed some old HoughClusAlg mentions
+-   2012-09-27 Benjamin Carls : Removed some old HoughClusAlg mentions
+-   2012-09-27 William Seligman : - Turn the AnalysisExample class into a module.
+-   2012-09-27 Herbert Greenlee : boost::shared\_ptr -\> std::shared\_ptr.
+-   2012-09-27 Jonathan Asaadi : Checking in fix to GausHitFinder into development in order to fix exceptions found when processing Argoneut data, some hits found to have a negative size (from start point to end point), this bug fix gets rid of this, as well as expand the comments associated with the HitFinder
+-   2012-09-27 Benjamin Carls : Cleaning out unnecessary functions left over from the conversion from DBScan
+-   2012-09-27 Benjamin Carls : Cleaning out unnecessary functions left over from the conversion from DBScan
+-   2012-09-27 Brian Rebel : fix some configuration problems leftover from HoughLineAlg and HoughClusAlg conversion to HoughBaseAlg, put static declared variables into .cxx files in appropriate namespace
+-   2012-09-26 Tingjun Yang : fixed warning
+-   2012-09-26 Brian Rebel : remove nonexistant header file from include list
+-   2012-09-26 William Seligman : In case any of the other offsite installations would find it useful, here’s the Nevis version of the setup script for the major C++11 release of LArSoft.
+-   2012-09-26 Brian Rebel : remove postgresql from the setup list as ROOT pulls in the correct dependency and remove pdfsets as GENIE pulls in the right one
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-26 Benjamin Carls : Making the module changes
+-   2012-09-25 Benjamin Carls : Removing unnecessary code for saving and recovering random number engine states
+-   2012-09-25 Benjamin Carls : Removing unnecessary code for saving and recovering random number engine states
+-   2012-09-25 Benjamin Carls : Removing unnecessary code for saving and recovering random number engine states
+-   2012-09-25 Brian Rebel : move development forward to updated art v1.02.03 to pick up bug fix
+-   2012-09-25 Brian Rebel : add protection against having negative event times
+-   2012-09-25 Brian Rebel : fix poor tabbing making the code harder to read
+-   2012-09-25 Brian Rebel : fix poor tabbing making the code harder to read
+-   2012-09-25 Brian Rebel : fix poor tabbing making the code harder to read
+-   2012-09-24 Benjamin Carls : Adding in ability to save and recover random number engines for PPHT
+-   2012-09-24 Benjamin Carls : Adding in ability to save and recover random number engines for PPHT
+-   2012-09-24 Benjamin Carls : Adding in ability to save and recover random number engines for PPHT
+-   2012-09-24 Benjamin Carls : Cleaning up static const declarations
+-   2012-09-24 Benjamin Carls : Cleaning up static const declarations
+-   2012-09-24 Benjamin Carls : Cleaning up static const declarations
+-   2012-09-24 Benjamin Carls : Cleaning up static const declarations
+-   2012-09-24 David Mckee : Improve const correctness, and make the expected dimension of the position arguments explicit. No change of function.
+-   2012-09-24 Brian Rebel : remove more super headers
+-   2012-09-24 Brian Rebel : remove unnecessary includes
+-   2012-09-24 Brian Rebel : remove unnecessary includes
+-   2012-09-24 Brian Rebel : forgot to remove old header
+-   2012-09-24 Brian Rebel : forgot to remove old header
+-   2012-09-24 Brian Rebel : forgot to remove old header
+-   2012-09-24 Brian Rebel : remove unnecessary include of summary.h
+-   2012-09-24 Brian Rebel : forgot to change a summary.h to RunData.h
+-   2012-09-24 Brian Rebel : forgot to remove the include for GeometryTest.h
+-   2012-09-24 Brian Rebel : forgot to remove GeometryTest.h/cxx from the repository
+-   2012-09-24 Brian Rebel : add + before qualifiers for frozen releasees
+-   2012-09-24 Brian Rebel : remove summary.h from include list
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-24 Brian Rebel : Removal super-headers recobase.h, anabase.h and simbase.h from include lists. sim.h no longer acts as a super-header. Fix a few more modules to only have the .cc file. Completely remove the use of recob::Prong from the code, will remove the actual .h and .cxx files later today
+-   2012-09-22 Brian Rebel : missed a geo.h
+-   2012-09-22 Brian Rebel : remove geo.cxx as the free functions are now in-line in the geo.h file
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : emove use of Geometry/geo.h in favor of explicit includes, except for the case where the Geometry free functions that live in geo.h are needed. Also merge the .cxx and .cc files for Services and .h, .cxx, and .cc files for modules that I maintain.
+-   2012-09-22 Brian Rebel : remove accidentally committed definition of prod\_db
+-   2012-09-21 Christopher Green : Add new package SimpleTypesAndConstants to build.
+-   2012-09-21 Brian Rebel : back out accidental change of SETUP\_LOCATION value
+-   2012-09-21 Christopher Green : Changes to use new art and C++ 2011.
+-   2012-09-21 Christopher Green : Changes required for C++2011 build.
+-   2012-09-21 Christopher Green : New option -failonerror.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : Remainder of code fixes for header includes, Geant4 interface changes, etc.
+-   2012-09-21 Christopher Green : New package to resolve dependency issues.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : auto\_ptr -\> unique\_ptr.
+-   2012-09-21 Christopher Green : Refer to G4 includes with Geant4/ for better dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Christopher Green : Add package name to includes to improve dependency tracking.
+-   2012-09-21 Tingjun Yang : changed way to select mc interaction
+-   2012-09-21 Brian Rebel : adjust build order for ShowerFinder relative to Calorimetry
+-   2012-09-21 Tingjun Yang : fixed fcl file label errors
+-   2012-09-21 Brian Rebel : make the cvs update command for nutools packages remove any sticky tags if the specified release is HEAD
+-   2012-09-20 Benjamin Carls : Switching HoughLineAlg to HoughBaseAlg
+-   2012-09-20 Benjamin Carls : Switching HoughLineAlg to HoughBaseAlg
+-   2012-09-20 Brian Rebel : set a sticky tag in a nutools directory if the version is not HEAD as defined by the packages list
+-   2012-09-20 Brian Rebel : set a sticky tag for the nutools packages as they are being updated for c++2011 before the rest of LArSoft
+-   2012-09-20 Brian Rebel : fix location of methods relative to comments
+-   2012-09-19 Andrzej Szelc : add function to retrieve POT from the Database
+-   2012-09-19 Benjamin Carls : Creating Utilities class to handle random number seed creation
+-   2012-09-19 Benjamin Carls : Inserting use of CreateRandomNumber seeed from Utilities/SeedCreator.h
+-   2012-09-19 Benjamin Carls : Switching use of HoughLineAlg to HoughBaseAlg
+-   2012-09-19 Tingjun Yang : added protection for events with no mc record
+-   2012-09-19 Benjamin Carls : HoughLineAlg has been replaced by HoughBaseAlg
+-   2012-09-19 Tingjun Yang : fixed how to specify fCalorimetryModuleLabel
+-   2012-09-19 Brian Rebel : make the I/O rule more efficient
+-   2012-09-19 Brian Rebel : handle the new NuTools package
+-   2012-09-19 Brian Rebel : add NuReweight to the build list
+-   2012-09-19 Brian Rebel : add I/O rule to be able to read in files produced with version 11 or older for recob::Wire, ie before the fSignal change from std::vector\<double\> to std::vector\<float\>. The change has been tested and shown to allow one to read in those files successfully.
+-   2012-09-19 Brian Rebel : add NuReweight as a NuTools package. This package allows one to take a MCTruth and GTruth and feed that to the GENIE internal reweighting code.
+-   2012-09-19 Benjamin Carls : Not needed anymore, moved functions to the base class
+-   2012-09-18 Benjamin Jones : Add OpticalDetector to packages list
+-   2012-09-18 Brian Rebel : remove accidentally committed lock file
+-   2012-09-18 Mitchell Soderberg : Fix exception handling in MinosDrawer.
+-   2012-09-18 Andrzej Szelc : remove cruft from the .fcl files for the handscan
+-   2012-09-18 Mitchell Soderberg : Fix exception handling in PaddlesDrawer.
+-   2012-09-18 Andrzej Szelc : change names of handscan .fcl files. Reinsert name changes
+-   2012-09-18 Benjamin Jones : Remove per-photon simulation comment
+-   2012-09-18 Benjamin Jones : Fix segfault problem from MCtruth toggle option
+-   2012-09-18 Andrzej Szelc : Clean up compiler warnings
+-   2012-09-17 Benjamin Jones : Remove output stream from optical production job
+-   2012-09-17 Benjamin Jones : Voxelization scheme for optical production
+-   2012-09-17 Benjamin Jones : Small length calculation fix
+-   2012-09-17 Mitchell Soderberg : Loosen timing one last time.
+-   2012-09-17 Tingjun Yang : added fcl files w/ and w/o kalman
+-   2012-09-17 Tingjun Yang : added beam time information
+-   2012-09-17 Mitchell Soderberg : Another minor tweak to hopefully remove remaining incorrect matches.
+-   2012-09-17 Mitchell Soderberg : Changes to MergeDataPaddles to get exact agreement with Tingjun for TPC+Paddle matching.
+-   2012-09-17 Brian Rebel : get ready for next frozen release tag
+-   2012-09-17 Brian Rebel : change SetPoints to SetPoint to avoid type issues in the template
+-   2012-09-17 Brian Rebel : template a bunch of the FFT functions so that they can use vectors of either doubles or floats. Templating requires inlining the relevant functions in the .h files
+-   2012-09-17 Brian Rebel : change vectors of doubles to vectors of floats as we are not making use of the extra information
+-   2012-09-17 Brian Rebel : add EnableMCTruthCheckBox parameter to config for evdlayoutopt
+-   2012-09-17 Brian Rebel : Wire::fSignal now is a vector of floats
+-   2012-09-17 Brian Rebel : Wire::fSignal now is a vector of floats
+-   2012-09-17 Mitchell Soderberg : Add fcl file that was missed yesterday.
+-   2012-09-17 Brian Rebel : comment out if statement that is the only place xtheta2 is used
+-   2012-09-17 Eric Church : Make compile warnings in NDKGen go away.
+-   2012-09-17 Brian Rebel : make fSignal in Wire be a float instead of a double to save disk space. Still working on a way to read in files created before this change. Will commit that fix to development when it is ready but for the soon to be tagged frozen release all the created files will be made with this change.
+-   2012-09-17 Brian Rebel : add layout option to toggle the display of the MCTruth check box on and off. change a bunch of std::cout to mf::LogVerbatim and change a bunch of unsigned int to size\_t when looping over entries in a std::vector. adjust the fcl files for the uboone hand scanning to toggle the MCTruth check box off.
+-   2012-09-17 Andrzej Szelc : correct spelling errors and change bullet labels
+-   2012-09-17 Andrzej Szelc : outsource angle and pitch calculation to the improved version in GeometryUtilities. Some bug fixes and tweaks. Clean up coming soon.
+-   2012-09-17 Andrzej Szelc : final tweaks for the handscan. comment out unnecessary couts
+-   2012-09-17 Andrzej Szelc : move start, end point wire,time determination into HitSelector. This makes the code much more reliable and stable
+-   2012-09-17 Andrzej Szelc : add pitch calculating methods, resolve dependency for backwards going showers
+-   2012-09-17 Tingjun Yang : updated fcl file to include kalman
+-   2012-09-17 Tingjun Yang : added functionality to filter based on a text file while keeping the default unchanged
+-   2012-09-16 Mitchell Soderberg : Add code to merge Paddles information into ArgoNeuT data. Add functionality to ArgoNeuT version of the EventDisplay to show the Paddles information.
+-   2012-09-16 Tingjun Yang : changed fcl files
+-   2012-09-15 Tingjun Yang : added protection for 0-element track pitch array
+-   2012-09-14 Benjamin Carls : Implementing a base class for the Hough transform
+-   2012-09-14 Benjamin Carls : Implementing a base class for the Hough transform
+-   2012-09-14 Tingjun Yang : Turned off hit sharing
+-   2012-09-14 Benjamin Carls : Implementing a base class for the Hough transform
+-   2012-09-14 Benjamin Carls : Implementing a base class for the Hough transform
+-   2012-09-14 Benjamin Carls : Implementing a base class for the Hough transform
+-   2012-09-14 Benjamin Carls : Setting random number seed needed for PPHT to event number
+-   2012-09-14 Benjamin Carls : Setting random number seed needed for PPHT to event number
+-   2012-09-14 Eric Church : svn mv nuwro fcl files to their subdirectory
+-   2012-09-14 Eric Church : Get nuwro config in.
+-   2012-09-14 Andrzej Szelc : Set the starting value of kDistance to 3.5 to correspond with the text box
+-   2012-09-14 Andrzej Szelc : make the Color of Selected Hits a configurable option via RecoDrawingOptions, change label of width selector box
+-   2012-09-14 Tingjun Yang : added track index of best matched track
+-   2012-09-14 Brian Rebel : link against the EventGeneratorNuWro library, not just the general EventGenerator library
+-   2012-09-14 Brian Rebel : change fSignal to be private, change interface to Signal to return a reference to the signal vector. Remove the fStatus data member as it was never used. Bump the ClassVersion number. See [https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/Trouble\_Shooting\#One-of-the-export-sub-branches-is-not-present-in-the-import-TTree](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/Trouble_Shooting#One-of-the-export-sub-branches-is-not-present-in-the-import-TTree) if you have trouble reading previously made files after this change.
+-   2012-09-14 Brian Rebel : conform to new Wire interface
+-   2012-09-14 Tingjun Yang : added dedx information
+-   2012-09-14 Brian Rebel : conform to new Wire interface
+-   2012-09-14 Brian Rebel : use new interface to get rb::Wire signal vector
+-   2012-09-14 Brian Rebel : change access of Wire::fSignal.size() to Wire::NSignal()
+-   2012-09-14 Brian Rebel : change access of Wire::fSignal.size() to Wire::NSignal()
+-   2012-09-14 Brian Rebel : remove std::endl from the end of cet::exception calls as they are redundant. add //—– between functions
+-   2012-09-13 Brian Rebel : remove Set functions from Wire as they are not used in the code and the state of a data product should be set from the constructor
+-   2012-09-13 Mitchell Soderberg : Update makefile for T962.
+-   2012-09-13 Mitchell Soderberg : Delete CCQEanalysis from within T962. Functionality of this code has been merged into AnalysisTree.
+-   2012-09-13 Tingjun Yang : added placeholder for paddles, added hadron from target information for future beam reweighting
+-   2012-09-13 Tingjun Yang : merged analysistree and ccqeanalysistree
+-   2012-09-12 Mitchell Soderberg : Small tweaks to make sure this code still compiles in absence of ScanInfo.
+-   2012-09-12 Mitchell Soderberg : Also delete ScanInfo object.
+-   2012-09-12 Mitchell Soderberg : Delete several modules from within T962 package.
+-   2012-09-12 Mitchell Soderberg : Many minor tweaks to quiet compiler warnings for Modules that we intend to keep around in the upcoming frozen release.
+-   2012-09-11 Mitchell Soderberg : Addition of a DrawingOptions service that is specific to the ArgoNeuT version of the EventDisplay. Nothing too revolutionary, but removes the hardcoding of labels for MINOS tracks and Matched T962/MINOS associations.
+-   2012-09-11 Andrzej Szelc : remove calorimetry.fcl include to avoid multiple includes
+-   2012-09-10 Andrzej Szelc : add analysis files with different windows for the handscan
+-   2012-09-10 Benjamin Jones : Fix crash reported by mitch, when no analysis tools enabled
+-   2012-09-10 Benjamin Jones : Add key to interactive calo view
+-   2012-09-09 Benjamin Jones : 3D track colour change
+-   2012-09-09 Benjamin Jones : Boundary checking for 3D points
+-   2012-09-09 Eric Church : put this subRun feature in Dev too\\!
+-   2012-09-09 Eric Church : put this subRun feature in Dev too\\!
+-   2012-09-09 Benjamin Jones : Report track L and E in text box
+-   2012-09-09 Benjamin Jones : Big fixes and performance improvements
+-   2012-09-09 Benjamin Jones : Curve handling update
+-   2012-09-08 Mitchell Soderberg : Fixes to get Calorimetry view to wipe all previous TPolyMarker/TLatex/etc… objects after each event. Small tweaks to error message reporting to use MessageFacility. Restore color of TLatex text back to original intent, which is to match color of Track objects in other windows, and not to reflect PDG value. Still need to locate template ROOT file in a public place so folks don’t need it in their own areas.
+-   2012-09-08 Benjamin Jones : Temporarily remove refit seeds button, until it is implemented
+-   2012-09-08 Benjamin Jones : Store zoom settings, and add back button
+-   2012-09-07 Brian Rebel : change evd.h to eventdisplay.h to avoid confusion with EVD.h
+-   2012-09-07 Brian Rebel : adapt to new G4Helper interface.
+-   2012-09-07 Brian Rebel : adjust to recent changes in EVGB
+-   2012-09-07 Benjamin Jones : Fixed event display issue
+-   2012-09-07 Benjamin Jones : Part way to evd fix
+-   2012-09-07 Andrzej Szelc : Add DrawingPad to LinkDef.h
+-   2012-09-07 Brian Rebel : back out some unintended recent changes
+-   2012-09-07 Andrzej Szelc : Put try/catch around drawing shower Calorimetry objects
+-   2012-09-07 Benjamin Jones : Drawing fix
+-   2012-09-07 Andrzej Szelc : add shower reco the uboone\_analysis.fcl file
+-   2012-09-07 Benjamin Jones : Plane offset fixes
+-   2012-09-07 Andrzej Szelc : Change Scan Window to the needs of the handscan
+-   2012-09-06 Andrzej Szelc : Add saving of Calorimetry object. Clean-up coming soon
+-   2012-09-06 Andrzej Szelc : tweaks for the Handscan. Clean up coming later
+-   2012-09-06 Andrzej Szelc : tweaks to startpoint saving and add shower display to Calorimetry
+-   2012-09-06 Andrzej Szelc : add Shower - Calorimetry Associations
+-   2012-09-06 Andrzej Szelc : add recob::Shower PtrVectors
+-   2012-09-06 Benjamin Jones : interactive evd tweaks, part 1
+-   2012-09-06 Benjamin Jones : Calorimetry feature for event display
+-   2012-09-06 Benjamin Jones : Fixes and evd compatability features
+-   2012-09-06 Jonathan Asaadi : Committing recent fixes and changes to GausHitFinder and GausHitFinderAna to update the error calculation and make various histograms useful to checking the performance of the hitfinding algorithm…more updates to the histograms to come soon
+-   2012-09-06 Tingjun Yang : added true nu dir
+-   2012-09-06 Brian Rebel : fix compiler warning
+-   2012-09-05 Brian Rebel : move GENIEGen module into GENIE subdirectory of EventGenerator
+-   2012-09-05 Brian Rebel : move GENIEGen module into GENIE subdirectory of EventGenerator
+-   2012-09-05 Brian Rebel : move GENIEGen module into GENIE subdirectory of EventGenerator
+-   2012-09-05 Brian Rebel : move GENIEGen module into GENIE subdirectory of EventGenerator
+-   2012-09-05 Brian Rebel : move GENIEGen module into GENIE subdirectory of EventGenerator
+-   2012-09-05 Brian Rebel : move CosmicsGen module into CRY subdirectory of EventGenerator
+-   2012-09-05 Brian Rebel : move CosmicsGen module into CRY subdirectory of EventGenerator
+-   2012-09-05 Brian Rebel : move CosmicsGen module into CRY subdirectory of EventGenerator
+-   2012-09-05 Brian Rebel : move CosmicsGen module into CRY subdirectory of EventGenerator
+-   2012-09-05 Brian Rebel : move CosmicsGen module into CRY subdirectory
+-   2012-09-05 Brian Rebel : changes to make it possible to load only the CRY or only the GENIE libraries in jobs that want just one or the other
+-   2012-09-05 Benjamin Jones : Bezier track tweaks
+-   2012-09-05 Benjamin Jones : Event display tweaks
+-   2012-09-05 Andrzej Szelc : Switch Calorimetry to using CalorimetryAlg methods. Add fhicl option to use Area for dE/dx calculation if needed. Save dE/dx calculated with induction - very preliminary
+-   2012-09-05 Andrzej Szelc : add end point section to t962 EVD analysis file
+-   2012-09-05 Brian Rebel : put the tabbing back to emacs standard
+-   2012-09-04 William Seligman : - Try to make AnalysisExample still relevant to the current version of LArSoft, mainly by adding notes explaining why we’re not using cheat::BackTraker.
+-   2012-09-04 Brian Rebel : fix up some include paths, include event1dict.h instead of event1.h to try to fix vtable errors. event1dict.h includes event1.h, added comment about that to NuWroGen.h
+-   2012-09-04 Benjamin Jones : Make sure we walk all the way to ends of tracks
+-   2012-09-04 Benjamin Jones : Track drawing fix
+-   2012-09-03 Andrzej Szelc : reorganize the panel of the cluster/seed finding frame. Make seed guiding lines not moveable. Refine run,evt,subrun bookkeeping in Infotransfer. Fix some bugs.
+-   2012-09-03 Andrzej Szelc : const the methods in CalorimetryAlg. TrackFinder should compile now
+-   2012-09-03 Benjamin Jones : Hit collection code
+-   2012-09-03 Benjamin Jones : Interactive 3D tracking functions
+-   2012-09-03 Benjamin Jones : Improvement to curve drawing
+-   2012-09-03 Benjamin Jones : Work towards interactive 3D tracking
+-   2012-09-03 Benjamin Jones : Bezier updates
+-   2012-09-03 Benjamin Jones : Bug fixes
+-   2012-09-03 Benjamin Jones : Add GetYZ method to GeomUtils
+-   2012-09-02 Benjamin Jones : Const up geomutilities methods
+-   2012-09-02 Benjamin Jones : Methods to get ends of pxline
+-   2012-09-01 Brian Rebel : move NuWro generator into a subdirectory as there is a linking issue with the NuWro event library. NuWroGen compiles but does not yet run. Eventually I think we want each type of generator that depends on external libraries to be in separate subdirectories to prevent loading unnecessary libraries at run time
+-   2012-09-01 Andrzej Szelc : add PtrVector \<recob::cluster\> to classes def, so that graphCluster works
+-   2012-08-31 Andrzej Szelc : Outsource some code to methods plus reorganize. Add saving a vector of Clusters - useful for matching
+-   2012-08-31 Brian Rebel : now setup nuwro as a ups product
+-   2012-08-31 Brian Rebel : declare an environmental variable specifying the location of the nuwro build, this will have to be changed once nuwro is ups-ified.
+-   2012-08-31 Brian Rebel : remove NuWro related files as we should never store files from another repository in LArSoft. The NuWro files are now handled by using the arch\_spec\_nuwro.mk file that was just added
+-   2012-08-31 Brian Rebel : add file to handle NuWro neutrino generator
+-   2012-08-31 Andrzej Szelc : add microboone equivalent of evd\_t962\_analysis.fcl
+-   2012-08-31 Brian Rebel : put EventGenerator back
+-   2012-08-31 Eric Church : Null
+-   2012-08-31 Brian Rebel : remove linking and dependency files
+-   2012-08-31 Brian Rebel : remove backup files that must have been committed by accident
+-   2012-08-30 Eric Church : Eric’s useful-featured, non-LArSoft-approved EventGenerator. Initial check-in
+-   2012-08-30 Eric Church : Roll back the GNUMakefile. Inadvertent ci there.
+-   2012-08-30 Eric Church : Eric’s useful-featured, non-LArSoft-approved EventGenerator. Initial check-in
+-   2012-08-30 Andrzej Szelc : Add projection of selection tool clusters to third plane. Remove pxpoint and pxline. Try to consolidate the updateing, modifying and drawing somewhat. Clean up of the hand scan code. Removed InfoTransfer dependence from places other than HitSelector. Add capability to select and save a list of pxlines in order to convert them to seeds. Some stuff will still need to be ironed out
+-   2012-08-30 Andrzej Szelc : move pxpoint and pxline from TWQProjectionView to GeometryUtilities. Change member names. Add method to calculate projection of two points into the third plane.
+-   2012-08-30 Benjamin Jones : const some methods
+-   2012-08-29 Brian Rebel : only need to declare class T once for CreateSameAssn
+-   2012-08-29 Brian Rebel : add a method to create an association between two objects of the same type.
+-   2012-08-29 Benjamin Jones : Fill all points in trajectory for scalar pitch method
+-   2012-08-29 Brian Rebel : alphabetize the association definitions
+-   2012-08-29 Tingjun Yang : changed chi2particleid to an algorithm
+-   2012-08-28 Benjamin Jones : Change passing pointers to passing references, to avoid duplicating methods for art::Ptrs
+-   2012-08-28 Benjamin Jones : Fix compilation problem
+-   2012-08-28 Benjamin Carls : Changing art::PtrVector to std::vector\<art::Ptr\<\>\>
+-   2012-08-28 Benjamin Carls : Changing art::PtrVector to std::vector\<art::Ptr\<\>\>
+-   2012-08-28 Benjamin Carls : Changing art::PtrVector to std::vector\<art::Ptr\<\>\>
+-   2012-08-28 Benjamin Carls : Changing art::PtrVector to std::vector\<art::Ptr\<\>\>
+-   2012-08-28 Benjamin Carls : Changing art::PtrVector to std::vector\<art::Ptr\<\>\>
+-   2012-08-27 Andrzej Szelc : conform to the change in AnalysisBase, this time without undoing previous changes
+-   2012-08-27 Andrzej Szelc : conform to the change in AnalysisBase
+-   2012-08-27 Benjamin Jones : Deprecate old bezier tracker
+-   2012-08-27 Benjamin Jones : Algorithm-ize bezier tracker
+-   2012-08-27 Andrzej Szelc : introducing first version of CalorimetryAlg. Area Calculation functions will work for ArgoNeut only, until the calibration cosntants for MicroBooNE are determined
+-   2012-08-27 Robert Hatcher : Respond to change in G4Helper where InitMC() was split into InitPhysics() and SetUserAction(). Place those so they bracket UserActionManager configuration. Enabling “fSmartStacking” will override any stacking actions provided by UserActionManager by individual UserActions it holds.
+-   2012-08-27 Andrzej Szelc : change naming and check in of method needed for ShowerAngleCluster to compile
+-   2012-08-27 Andrzej Szelc : add Cluster - Cluster pairs and Assns to definitions
+-   2012-08-27 Andrzej Szelc : Change the way the module works. Switch from plane-centric to Clusterlist-centric. Clean up the code some (more to come) and outsource some methods to GeometryUtilities. This in preparation for trying to match clusters between views. Work in Progress.
+-   2012-08-26 Brian Rebel : catch exceptions from FindSimChannel. If there is no SimChannel for an input channel, then empty vectors are returned and it should have no effect on the rest of the code
+-   2012-08-25 Tingjun Yang : changed kinematic to kinetic
+-   2012-08-25 Tingjun Yang : changed kinematic to kinetic
+-   2012-08-25 Benjamin Carls : Implementing a new, faster version of the Hough transform, based on a probabilistic variant
+-   2012-08-25 Benjamin Carls : Implementing a new, faster version of the Hough transform, based on a probabilistic variant
+-   2012-08-25 Benjamin Carls : Implementing a new, faster version of the Hough transform, based on a probabilistic variant
+-   2012-08-24 Benjamin Jones : Accessor to SeedFinderAlgorithm
+-   2012-08-24 Benjamin Jones : Methods moving towards interactive tracking for handscan
+-   2012-08-24 Benjamin Jones : Change to anab::Calorimetry object to store multiple pitches, for curved tracks
+-   2012-08-23 Eric Church : umask 0002 in place of chmod 755
+-   2012-08-23 Herbert Greenlee : Reorganize histograms.
+-   2012-08-23 Brian Rebel : tighten up some syntax
+-   2012-08-22 Herbert Greenlee : Use seed parameters to set initial track hypothesis.
+-   2012-08-22 Herbert Greenlee : Fix histogram saving bug.
+-   2012-08-22 Herbert Greenlee : Fix bug if target surface is a SurfYZPlane.
+-   2012-08-22 Brian Rebel : only keep trajectory points for the cheated track that exist inside of a TPC
+-   2012-08-22 Mitchell Soderberg : Begin to add histograms in MuonAna for Hits associated with through-going tracks.
+-   2012-08-22 Herbert Greenlee : Add histograms.
+-   2012-08-20 Benjamin Carls : Adding in code to handle Hough line segment merging, distance for merge is determined using line segments now
+-   2012-08-20 Benjamin Carls : Adding in code to handle Hough line segment merging, distance for merge is determined using line segments now
+-   2012-08-20 Benjamin Carls : Cleaning up signed integers
+-   2012-08-20 Benjamin Carls : Adding in parameters for nearly parallel Hough line merging
+-   2012-08-20 Brian Rebel : make the world a bit bigger
+-   2012-08-20 Brian Rebel : change configuration for lbne, fix up some histograms
+-   2012-08-20 Mitchell Soderberg : Tweaks to MatchFilter to make it run without error.
+-   2012-08-20 Brian Rebel : use the lbne10kT.gdml file to build the lbne geometry, also change some LogInfo messages to LOG\_DEBUG
+-   2012-08-18 Tingjun Yang : take into account order when merging hits from two clusters: ref doc-1776
+-   2012-08-18 Tingjun Yang : added method to calculate neutrino energy, moved minos information to the end since art::FindOne\<t962::MINOS\> give exception if there is no minos information
+-   2012-08-17 Brian Rebel : remove unused fChannelMap in TPCGeo in favor of just counting and storing the number of channels in the ctor
+-   2012-08-17 Brian Rebel : remove deprecated parameter
+-   2012-08-17 Christie Chiu : Added OpFlash data objects
+-   2012-08-17 Christie Chiu : Subevent grouping information saved to event as OpFlash object
+-   2012-08-16 Ellen Klein : more files for evd analysis tool
+-   2012-08-16 Ellen Klein : Adding code for evd analysis tool. Default option is off. To use, use evd\_t962\_analysis.fcl .
+-   2012-08-16 Mitchell Soderberg : Added some additional histograms to MuonAna.
+-   2012-08-16 Tingjun Yang : added track truth information
+-   2012-08-16 Tingjun Yang : added function to calculate track purity
+-   2012-08-15 Sarah Lockwitz : fixing the pre- and post-spill windows
+-   2012-08-15 Benjamin Jones : Parameter updates
+-   2012-08-15 Benjamin Jones : Bux fix and parameter set change
+-   2012-08-15 Benjamin Jones : Bug fix
+-   2012-08-15 Benjamin Jones : Remove unnecessary library service
+-   2012-08-15 Benjamin Jones : Update lightsource for modern library photon library building
+-   2012-08-15 Benjamin Jones : Integrate library building using service into SimPhotonCounter
+-   2012-08-15 Benjamin Jones : Modernized photon fastsim library building methods
+-   2012-08-14 Mitchell Soderberg : Minor changes to MuonAna histos and fcl file.
+-   2012-08-13 Sarah Lockwitz : Adding the ability to read out a data before and after the spill
+-   2012-08-13 Sarah Lockwitz : Adding the ability to read out a data before and after the spill
+-   2012-08-13 Sarah Lockwitz : Adding the ability to read out a data before and after the spill
+-   2012-08-13 Christie Chiu : Updates made to fitting and subevent grouping algorithms
+-   2012-08-13 Mitchell Soderberg : Add additional histograms to MuonAna.
+-   2012-08-13 Mitchell Soderberg : Revert standard\_houghlinefinder to look for DBCluster clusters.
+-   2012-08-13 Tingjun Yang : added event time information
+-   2012-08-12 Mitchell Soderberg : Replace all instances of MINOSTrackMatch class in favor of Associations between Track and MINOS objects. Delete MINOSTrackMatch, and also RadArgonAna.
+-   2012-08-10 Brian Rebel : new interfaces for 1 to 1 and 1 to many creations using all art::Ptr\<\>s.
+-   2012-08-09 Benjamin Jones : Remove last reference to old seedfinder
+-   2012-08-09 Benjamin Jones : deprecate old seedfinder code
+-   2012-08-09 Benjamin Jones : Add photon voxel service for conveying voxelization scheme globally
+-   2012-08-08 Christie Chiu : Using Message Facility
+-   2012-08-08 Benjamin Jones : Add optical detector to build order
+-   2012-08-08 Benjamin Jones : Small seed change
+-   2012-08-08 Benjamin Jones : Add T to single particle generator
+-   2012-08-07 Benjamin Jones : Line of sight visibility methods
+-   2012-08-07 Benjamin Jones : Optical detector geometry methods
+-   2012-08-07 Benjamin Jones : Line of sight visibility methods
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm, this is a specialized version of the Hough line finder needed to spin off found lines into their own clusters
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm, this is a specialized version of the Hough line finder needed to spin off found lines into their own clusters
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm to be recognized as a clustering algorithm
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm, this is a specialized version of the end point finder needed
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm to be recognized as a clustering module
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm, this is a specialized version of the Hough line finder needed to spin off found lines into their own clusters
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm, this is a specialized version of the end point finder needed
+-   2012-08-07 Benjamin Carls : Adding in fuzzy clustering algorithm
+-   2012-08-06 Herbert Greenlee : Add methods to Track to calculate rotation matrix between global and local coordinate systems.
+-   2012-08-03 Herbert Greenlee : Add TrackAna module.
+-   2012-08-03 Herbert Greenlee : Merge nonessential differences between SpacePointFinder and SpacePointCheater. In particular, remove G4ModuleLabel parameter from SpacePointCheater (now part of BackTracker service). Also make SpacePointCheater insert cluster grouping of space points in event.
+-   2012-08-03 Herbert Greenlee : Protect against negative stopping number.
+-   2012-08-02 Benjamin Jones : Fix 0th element lookup
+-   2012-08-02 Benjamin Jones : Update config file
+-   2012-08-01 Benjamin Jones : Update optical sim fcl file
+-   2012-08-01 Andrzej Szelc : Introduce GeometryUtilites class, which performs a lot of small 2d/3d calculations. This will be needed by the handscan tool and may be still cleaned up a bit
+-   2012-08-01 Andrzej Szelc : remove AxisRecoAlg
+-   2012-08-01 Brian Rebel : add evd.h file that defines colors to be used for various data product id colors, make use of Style::ColorFromPDG in calorimetry and analysis base drawing when drawing things with for a determined particle
+-   2012-08-01 Tingjun Yang : changed FindOneP to FindOne as suggested by Brian
+-   2012-08-01 Tingjun Yang : Changed comments for missing energy
+-   2012-08-01 Benjamin Jones : fix name issue
+-   2012-08-01 Benjamin Jones : fix name issue
+-   2012-08-01 Tingjun Yang : saved more track information
+-   2012-08-01 Tingjun Yang : corrected for dead wires
+-   2012-08-01 Tingjun Yang : corrected for dead wires
+-   2012-08-01 Tingjun Yang : added variables to save energy from dead wires
+-   2012-07-31 Benjamin Jones : Move to multi cryostat OpDet labels
+-   2012-07-31 Benjamin Jones : Move to multi cryostat OpDet labels
+-   2012-07-31 Benjamin Jones : Move to multi cryostat OpDet labels
+-   2012-07-31 Benjamin Jones : Move to multi cryostat OpDet labels
+-   2012-07-31 Benjamin Jones : Move to multi cryostat OpDet labels
+-   2012-07-31 Benjamin Jones : Comment fix
+-   2012-07-31 Christie Chiu : Module to sort OpHits by timing
+-   2012-07-31 Benjamin Jones : methods for dealing with OpIDs in multiple cryostats
+-   2012-07-31 Benjamin Jones : First commit of TrackTimeAssoc, for parallel development with OpDetRecon
+-   2012-07-31 Benjamin Jones : PhotonVisibilityService development
+-   2012-07-31 Mitchell Soderberg : Added Calorimetry view to ArgoNeuT-specific event display. Also remove unnecessary library from TGMuon GNUmakefile.
+-   2012-07-31 Mitchell Soderberg : Initial commit of EventDisplay code for displaying Calorimetry/ParticleID information using the AnalysisBase classes. This is bare bones right now, and just displays the dE/dx vs. range information stored in the Calorimetry objects (if they exist in input file), as well as the Chi2 information from the ParticleIdentification objects (if they exist in the file). Will beautify some more in the near future.
+-   2012-07-31 Christie Chiu : New module to connect OpHit data to track reconstruction
+-   2012-07-31 Brian Rebel : rename method to make it clear which templated type is which
+-   2012-07-31 Brian Rebel : remove stray v that was preventing compilation
+-   2012-07-30 Benjamin Jones : Comment changes
+-   2012-07-30 Christie Chiu : Save peak information to event with OpHit
+-   2012-07-30 Christie Chiu : Added error variables to OpHit data object
+-   2012-07-30 Brian Rebel : remove inheritance from TObject for PhotonLibraryObjects and PhotonLibrary
+-   2012-07-30 Brian Rebel : add a configuration for the PhotonLibraryBuilder module
+-   2012-07-27 Brian Rebel : add GNUmakefile to build the unit-test subdirectory, add to the email list for the unit test run, other changes to hopefully make the running of the nightly build more reliable
+-   2012-07-27 Benjamin Jones : Placeholder for photon visibility service code
+-   2012-07-27 Benjamin Jones : removing last traces of cint
+-   2012-07-27 Benjamin Jones : Remove code duplicated in OpticalDetector package
+-   2012-07-27 Benjamin Jones : remove old cint relics from PhotonPropagation
+-   2012-07-27 Benjamin Jones : Tie the LArG4 OpDet lookup into the geometry services OpDet store
+-   2012-07-27 Benjamin Jones : Minor changes to opdet geometry code
+-   2012-07-27 Benjamin Jones : Tidy up some confusing comments
+-   2012-07-27 Benjamin Jones : Adding OpDetGeo object
+-   2012-07-27 Benjamin Jones : Have LArG4 start talking to geometry package for OpDet placements
+-   2012-07-27 Benjamin Jones : Geometry infrastructure for optical detector event reco
+-   2012-07-26 Benjamin Jones : PMTID name change update
+-   2012-07-26 Benjamin Jones : PMT ID name change
+-   2012-07-26 Benjamin Jones : OpDet name changes
+-   2012-07-26 Benjamin Jones : More variable name updates
+-   2012-07-26 David Mckee : Changes need to run microboone simulations after Ben’s photon changes. Hope I’m doing this right.
+-   2012-07-26 David Mckee : Changes need to run microboone simulations after Ben’s photon changes. Hope I’m doing this right.
+-   2012-07-26 Benjamin Jones : Last renaming updates
+-   2012-07-26 Benjamin Jones : Removing old PMT-named files
+-   2012-07-26 Benjamin Jones : adding missing opdet files
+-   2012-07-26 Brian Rebel : get rid of PMTs in the class definition files
+-   2012-07-25 Jonathan Asaadi : One last bug fix for the amplitude of the hit for multipeaked pulses
+-   2012-07-25 Christina Brasco : After testing the full geometry and the old geometry to compare event generation speed, I concluded that there is not a significant difference in the amount of time with the new changes. So the extra pieces in the Enclosure are being added back again. Events will be simulated in them if the top volume specified is volDetEnclosure or volWorld.
+-   2012-07-25 Benjamin Jones : Oops - remove temporary file
+-   2012-07-25 Benjamin Jones : Complete renaming process
+-   2012-07-25 Jonathan Asaadi : Bug fix for GausHitFinder in the amplitude for multi-peaked pulses and adding GausHitFinder to the Argoneut list of hit finding
+-   2012-07-25 Benjamin Jones : Add OpHit data objects
+-   2012-07-25 Benjamin Jones : OpDet class renaming to be non PMT specific
+-   2012-07-25 Benjamin Jones : OpDet class renaming to be non PMT specific
+-   2012-07-25 Benjamin Jones : OpDet class renaming to be non PMT specific
+-   2012-07-25 Benjamin Jones : OpDet class renaming to be non PMT specific
+-   2012-07-24 Tingjun Yang : reassign xyz\_previous if first point is closer to the end, this is to fix a bug in range calculation
+-   2012-07-24 Tingjun Yang : added one fcl file
+-   2012-07-24 Christie Chiu : Added signal deconvolution and gaussian fitting to extract arrival time and \# of PE
+-   2012-07-22 Brian Rebel : add ParticleIdentification to the build list
+-   2012-07-20 Brian Rebel : Add RandomNumberSaver module to the list of producers
+-   2012-07-20 David Mckee : Minor change to insure reasonable histogram limits.
+-   2012-07-19 Tingjun Yang : added pid information
+-   2012-07-19 Tingjun Yang : return if no track is available
+-   2012-07-18 Tingjun Yang : check validity of art::FindOne\<anab::Calorimetry\>
+-   2012-07-18 Brian Rebel : add geometries for LBNE 10 kiloton detector with and without wires. These files were produced by Tyler Alion at South Carolina
+-   2012-07-18 Tingjun Yang : changed FindOneP to FindOne
+-   2012-07-18 Brian Rebel : make the argoneut\_genie\_simple\_antineutrino configuration derive from argoneut\_genie\_simple\_neutrino
+-   2012-07-18 Tingjun Yang : changed i++ to ++i
+-   2012-07-18 Tingjun Yang : changed art::PtrVector\<recob::Track\> to std::vector\<art::Ptr\<recob::Track\> \>, changed art::PtrVector\<recob::Hit\> to std::vector\< art::Ptr\<recob::Hit\> \>, moved art::FindManyP outside the for loop
+-   2012-07-17 Tingjun Yang : added package ParticleIdentification to release list
+-   2012-07-17 Tingjun Yang : First import of ParticleIdentification
+-   2012-07-17 Tingjun Yang : Add class anab::ParticleID
+-   2012-07-17 Tingjun Yang : Change the way to handle the exceptions based on Brian R.’s suggestion.
+-   2012-07-16 Christina Brasco : reverting to the old geometry.gdml files - the extra material ones will be in separate .gdml files and will be turned on via fhicl parameters in next commit
+-   2012-07-16 Tingjun Yang : Protest against cases where the track is parallel to the wires
+-   2012-07-16 Christina Brasco : Adding all of the new volumes (platform, insulation, saddles, tanks, computer racks, etc.) add new file containing these volumes as well.
+-   2012-07-16 Brian Rebel : change the drawing of tracks and showers to no longer require the existance of an association to clusters. instead use the initial direction and position to draw the end points and slopes in 2D.
+-   2012-07-14 Tingjun Yang : Chanage dEdX() to dEdx()
+-   2012-07-11 Christie Chiu : OpDetWaveform now reads in PMT pulse waveform from .txt file
+-   2012-07-11 Christie Chiu : Gaussian toy PMT pulse added; first commit of WaveformAnalyzer code
+-   2012-07-11 Brian Rebel : adjust interface to GENIEHelper::Sample to work with updates to last nights changes. Also create associations between MCTruth and MCFlux as well as MCTruth and GTruth. Add a GTruth collection to the data products made in GENIEGen
+-   2012-07-10 Christie Chiu : Waveform vectors modified from unsigned short to short
+-   2012-07-10 Herbert Greenlee : Make Track3DKalmanHit work with new seed finder algorithm.
+-   2012-07-10 Herbert Greenlee : Remove traces of prongs.
+-   2012-07-10 Benjamin Jones : Seed tweaks
+-   2012-07-10 Benjamin Jones : Seed tweak in evd
+-   2012-07-10 Benjamin Jones : Major seed finder update
+-   2012-07-09 Herbert Greenlee : Simplify SpacePointAlg interface by removing the ability to override config parameters by passing arguments to methods (unnecessary since SpacePointAlg became an algorithm instead of a service).
+-   2012-07-09 Brian Rebel : remove \\todo about needing associations as they are all now made
+-   2012-07-09 Tingjun Yang : Show an example to add Calorimetry information to an analysis tree.
+-   2012-07-09 Tingjun Yang : Convert Calorimetry from an Analyzer to a Producer. Remove MINOS-related histograms.
+-   2012-07-09 Tingjun Yang : Add association between spacepoints and hits for SpacePts
+-   2012-07-09 Tingjun Yang : Change constructor, add functions to access members
+-   2012-07-09 Brian Rebel : add method to return plane based on a geo::View\_t
+-   2012-07-05 Herbert Greenlee : Fix some things that were broken or removed by recent large update of TrackFinder.
+-   2012-07-05 Herbert Greenlee : Make SpacePointAna module work again by instantiating three instances of SpacePointAlg.
+-   2012-07-05 Herbert Greenlee : Update some fcl files to add BackTracker (and DatabaseUtil) services.
+-   2012-07-05 Benjamin Jones : Seed finder module check in
+-   2012-07-05 Brian Rebel : add a new utility method or two to BackTracker and clean up some comments. Revamp the way the results tree in RecoCheckAna was filled, including making tree branches vectors to avoid having a predefined limit on the number of entries allowed. Generalize code to determine purity and efficiency for Clusters/Tracks/Showers and fill maps to enable the creation of the tree at the end of the event.
+-   2012-07-05 Andrzej Szelc : Move the 2D and 3D angle determination methods to an external algorithm class. Part of the ShowerReco code cleanup, but can be used elsewhere more easily. Work in progress.
+-   2012-07-03 Benjamin Jones : Bring in extendable seed code
+-   2012-07-03 Benjamin Jones : Seeding code tidying
+-   2012-07-03 Benjamin Jones : Remove deprecated method
+-   2012-07-03 Benjamin Jones : First commit of new SeedFinderAlgorithm
+-   2012-07-03 Brian Rebel : add the \<\< operator
+-   2012-07-03 Benjamin Jones : Seed fixes in anticipation of new seeding algorithm commit
+-   2012-07-03 Eric Church : Same check in as in Dev: re-check for adding a new spacepoint right on top of the last one, now that we’ve sorted them in z.
+-   2012-07-03 Brian Rebel : dont try to get associations if there are no items of the desired associated type in the event, ie dont try to get associated hits if there are no tracks in the event
+-   2012-07-03 Brian Rebel : forgot to remove SpacePointCollection from the repository
+-   2012-07-03 Brian Rebel : So long SpacePointCollection, hello std::vector\< art::PtrVector\<recob::SpacePoint\> \>
+-   2012-07-03 Brian Rebel : now storing std::vector\< art::PtrVector\<recob::SpacePoint\> \> directly into the event seems to be working. thanks to Chris Green for looking menacingly at the code so it would compile.
+-   2012-07-02 Brian Rebel : fix bug in creation of association between 2 vectors being produced in same module.
+-   2012-07-02 Brian Rebel : fix bug in use of SpacePoint ctor, fix up some variable initializations
+-   2012-07-02 Brian Rebel : convert to using BackTracker as a service
+-   2012-07-02 Christie Chiu : added code in OpDetPulse to create PMT signal from photon arrival times
+-   2012-07-02 Brian Rebel : changes to use art::Assns to get associations between data products. Also convert some art::PtrVector\<T\> to std::vector\< art::Ptr\<T\> \> as that provides a performance boost when one does not need to store the collection of art::Ptr\<T\> in the art::Event
+-   2012-07-02 Brian Rebel : remove FindMany(P) and FindOne(P) methods from AssociationUtil. The reason to do that is the art::FindXXX objects are smart query objects and one takes a huge performance hit to make them multiple times rather than just once. Removing these methods allows users to instantiate the objects once for each query to be done at the cost of 1 more line of code. Lots of examples of how to do that now exist throughout the reconstruction and analysis code.
+-   2012-07-02 Brian Rebel : changes to use art::Assns to get associations between data products. Also convert some art::PtrVector\<T\> to std::vector\< art::Ptr\<T\> \> as that provides a performance boost when one does not need to store the collection of art::Ptr\<T\> in the art::Event
+-   2012-07-02 Brian Rebel : changes to use art::Assns to get associations between data products. Also convert some art::PtrVector\<T\> to std::vector\< art::Ptr\<T\> \> as that provides a performance boost when one does not need to store the collection of art::Ptr\<T\> in the art::Event
+-   2012-07-02 Brian Rebel : changes to use art::Assns to get associations between data products. Also convert some art::PtrVector\<T\> to std::vector\< art::Ptr\<T\> \> as that provides a performance boost when one does not need to store the collection of art::Ptr\<T\> in the art::Event
+-   2012-07-02 Brian Rebel : Turn the BackTracker into a service.
+-   2012-07-02 Brian Rebel : changes to account for the BackTracker becoming a service
+-   2012-07-02 Brian Rebel : changes to use art::Assns to get associations between data products. Also convert some art::PtrVector\<T\> to std::vector\< art::Ptr\<T\> \> as that provides a performance boost when one does not need to store the collection of art::Ptr\<T\> in the art::Event
+-   2012-07-02 Brian Rebel : changes to use art::Assns to get associations between data products. Also convert some art::PtrVector\<T\> to std::vector\< art::Ptr\<T\> \> as that provides a performance boost when one does not need to store the collection of art::Ptr\<T\> in the art::Event
+-   2012-07-02 Brian Rebel : changes to use art::Assns to get associations between data products. Also convert some art::PtrVector\<T\> to std::vector\< art::Ptr\<T\> \> as that provides a performance boost when one does not need to store the collection of art::Ptr\<T\> in the art::Event
+-   2012-07-02 Brian Rebel : changes to use art::Assns to get associations between data products. Also convert some art::PtrVector\<T\> to std::vector\< art::Ptr\<T\> \> as that provides a performance boost when one does not need to store the collection of art::Ptr\<T\> in the art::Event
+-   2012-07-02 Brian Rebel : changes to use art::Assns to get associations between data products. Also convert some art::PtrVector\<T\> to std::vector\< art::Ptr\<T\> \> as that provides a performance boost when one does not need to store the collection of art::Ptr\<T\> in the art::Event
+-   2012-07-02 Brian Rebel : Changes to remove data members of the form art::Ptr\<T\> or art::PtrVector\<T\>. Users should now make use of art::Assns instead through art::FindOne(P) and art::FindMany(P). Add SpacePointCollection class to hold a collection of art::PtrVector\<recob::SpacePoint\>; the purpose of this class is to provide a way to gather references to SpacePoints that have been determined to belong to a single topological collection. It may eventually turn into a typedef to art::PtrVector\<recob::SpacePoint\>. The SpacePointFinder module will produce a collection of these variables
+-   2012-07-02 Brian Rebel : can now build dictionary for AnalysisBase defined data products
+-   2012-06-30 David Mckee : An analysis module to be used in evaluation changes associated with improving magnetic field support. Compares MCTruth positions versus reconstructed positions (so far strictly by wire number, but evetually using SpacePoints which is why I choose TrackFinder).
+-   2012-06-29 Brian Rebel : add GNUmakefile and some fixes here and there. Still doesnt quite build the dictionary though
+-   2012-06-29 Brian Rebel : add AnalysisBase to list of packages
+-   2012-06-29 Brian Rebel : add AnalysisBase to the build list
+-   2012-06-29 Brian Rebel : add another interface for CreateAssn
+-   2012-06-28 Benjamin Jones : First commit of OpDet waveforming code
+-   2012-06-28 Benjamin Jones : First commit of OpticalDetector module
+-   2012-06-28 Brian Rebel : first import of AnalysisBase package to hold analysis related data products. Will likely need to iterate with these…
+-   2012-06-28 Benjamin Jones : Add raw data objects for PMT pulses
+-   2012-06-28 Benjamin Jones : Fix disaster-waiting-to-happen iterator names
+-   2012-06-28 Andrzej Szelc : move all the mouse generated actions into one - called MouseDispatch, which will decide based on the signal. Will give two compiler warnings less and is more elegant
+-   2012-06-27 Benjamin Jones : Actually fix the material loading bug
+-   2012-06-27 Benjamin Jones : Add uBooNE optical simulation default config
+-   2012-06-27 Benjamin Jones : Fix material property bug
+-   2012-06-27 Benjamin Jones : Add config file for PMTResponseAnalyzer
+-   2012-06-27 Brian Rebel : add AnalysisExample to the package list for building
+-   2012-06-27 Brian Rebel : change some includes to use the package .h files instead of individuals files in the package
+-   2012-06-26 Herbert Greenlee : Fill reconstructed track momentum better.
+-   2012-06-26 Herbert Greenlee : Fill recob::Track covariance matrices.
+-   2012-06-26 Herbert Greenlee : Bug fix. Don’t fill histograms if they aren’t defined.
+-   2012-06-26 Herbert Greenlee : Add constructor to construct SurfXYZPlane from normal vector.
+-   2012-06-26 David Mckee : Provide convenience aliases for NearestChannel that accept the std::vector\<double\> returned by Prong::Extent() and the TVector3 returned by Track::Vertex() and Track::End(). Change the signature of the array based version to be explicit about the dimensionality of the input. Update the unit tests to exercise all three versions.
+-   2012-06-26 Benjamin Jones : More book-keeping
+-   2012-06-26 Benjamin Jones : Algorithmic book-keeping tidyup for SeedFinder (paving way for new features)
+-   2012-06-25 Brian Rebel : change Calorimetry module to make use of art::Assns between Tracks, SpacePoints and Hits. These changes have been shown to produce identicial results as the previous version of the code for a list of data and MC events specified by Kinga and Ornella. Also change several arrays that were allocated using the new command to be vectors. Remove input parameters from the configuration that are no longer necessary thanks to those changes.
+-   2012-06-25 Herbert Greenlee : Fix handling of dE/dx for infinite momentum tracks.
+-   2012-06-22 Benjamin Jones : Seed filtering based on RMS deviation per view
+-   2012-06-21 Herbert Greenlee : Change name of virtual propagation method from vec\_prop to short\_vec\_prop in Propagator base class and derived classes (implementation didn’t change). Add separate method vec\_prop in Propagator base class for long distance propagation (with dE/dx).
+-   2012-06-20 William Seligman : Fixed a bug: beginRun takes a const art::Run& argument
+-   2012-06-20 Benjamin Jones : Bezier tracking updates
+-   2012-06-19 Brian Rebel : remove art::Ptr\<simb::MCTruth\> definition as that has been moved into the equivalent file in SimulationBase
+-   2012-06-19 Jonathan Asaadi : Adding a chi2 per NDF cut that is tunable in the fcl file to reject poorly fit hits
+-   2012-06-19 Mitchell Soderberg : Change ordering of SUBDIRS in T962/GNUmakefile. For some reason this seems to restore ArgoneutEventDisplay to working condition, whereas it doesn’t work if it’s not last in the SUBDIRS list. Not sure of what’s actually going on here.
+-   2012-06-19 Benjamin Jones : Add vector separation method
+-   2012-06-18 Herbert Greenlee : Add methods to return modifiable state vector and error matrix.
+-   2012-06-16 Mitchell Soderberg : Added Ortho views to ArgoNeuT specific EventDisplay.
+-   2012-06-16 Brian Rebel : change fftfinder.fcl to hitfindermodules.fcl
+-   2012-06-15 Herbert Greenlee : Add function to calculate trace of matrix.
+-   2012-06-15 Brian Rebel : lots of stupid bug fixes
+-   2012-06-14 Brian Rebel : fix some message output
+-   2012-06-14 Brian Rebel : remove fChannelMap and related typedefs and rewrite Nchannels() method as fChannelMap was not really utilized anywhere else in the code and Nchannels didnt account for multiple cryostats properly. Changes were tested with the microboone geometry and shown to work as expected.
+-   2012-06-14 Brian Rebel : add printout of number of channels and test that the Nchannels method returns the same value as adding the number of wires in each plane of each TPC
+-   2012-06-14 Tingjun Yang : Add a TTree to save reconstruction information: hit efficiency, cluster efficiency/purity, track efficiency/purity
+-   2012-06-12 Jonathan Asaadi : Bug fix in HitCheater to correctly calculate the number of adc hits found on the wire. Now allows for a comparison between truth hits and reconstructed hits
+-   2012-06-12 Jonathan Asaadi : Fixing variable type in GausHitFinderAna for outputting wire number
+-   2012-06-12 Jonathan Asaadi : Update to GausHitFinder improving the time it takes to process the hits and removing some unnecessary code
+-   2012-06-11 Brian Rebel : make the value of fCurrentTrackID be the negative of the parent for the cases when either the particle falls under the tracking threshold or it is a secondary, tertiary, etc of an EM process and we are not keeping those particles. there is no change in the behavior when we do keep particles from those processes.
+-   2012-06-09 Brian Rebel : change \#include statements to use the explicit files rather than sim.h everywhere. also add delineation between methods in several .cxx files
+-   2012-06-07 Tingjun Yang : change simides[e].numElectrons to simides[e].energy
+-   2012-06-07 Brian Rebel : make the code a little easier to read
+-   2012-06-07 Benjamin Jones : Add optional least squares refitting of seeds to hits in each view
+-   2012-06-05 Herbert Greenlee : Give SpacePointCheater and SpacePointFinder the ability to produce SpacePoint- Cluster associations.
+-   2012-06-05 Herbert Greenlee : Add SpacePoint - Cluster associations.
+-   2012-05-31 Brian Rebel : \\r\\e\\m\\o\\v\\e\\ \\c\\l\\u\\s\\t\\e\\r\\s\\e\\r\\v\\i\\c\\e\\s
+-   2012-05-31 Brian Rebel : \\r\\e\\m\\o\\v\\e\\ \\c\\l\\u\\s\\t\\e\\r\\s\\e\\r\\v\\i\\c\\e\\s
+-   2012-05-31 Brian Rebel : remove clusterservices
+-   2012-05-31 Brian Rebel : remove caloitaniano in favor of calorimetry
+-   2012-05-31 Brian Rebel : \\c\\h\\a\\n\\g\\e\\ \\f\\f\\t\\f\\i\\n\\d\\e\\r\\ \\t\\o\\ \\h\\i\\t\\f\\i\\n\\d\\e\\r\\m\\o\\d\\u\\l\\e\\s
+-   2012-05-31 Brian Rebel : \\c\\h\\a\\n\\g\\e\\ \\f\\f\\t\\f\\i\\n\\d\\e\\r\\ \\t\\o\\ \\h\\i\\t\\f\\i\\n\\d\\e\\r\\m\\o\\d\\u\\l\\e\\s
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : change fftfinder to hitfindermodules
+-   2012-05-31 Brian Rebel : be sure to explicitly remove the fcl files from the job directory before the update of the packages so that files that are removed from the repository dont keep showing up in the job directory
+-   2012-05-30 Herbert Greenlee : Add PropXYZPlane.
+-   2012-05-29 Brian Rebel : add entries for bo
+-   2012-05-24 Tingjun Yang : fixing the definition of fiducial volume in y direction
+-   2012-05-22 Eric Church : Updates.
+-   2012-05-22 Eric Church : Updates.
+-   2012-05-22 Herbert Greenlee : Teach Ortho3D view to display mc truth trajectories (add method SimulationDrawer::MCTruthOrtho, copied from SimulationDrawer::MCTruth3D).
+-   2012-05-21 Herbert Greenlee : Make incremental chisquare cut during smoothing.
+-   2012-05-21 Herbert Greenlee : Fill dQdx attribute of recob::Track. Add tighter quality requirements near track endpoint.
+-   2012-05-20 Eric Church : Fix a pset complaint.
+-   2012-05-17 Brian Rebel : make Track3Dreco produce a collection of SpacePoints to store in the event record. Also have it produce associations between those SpacePoints and the Tracks that are made as well as between the SpacePoints and their corresponding hits. Quiet some compiler warnings as long as we are editing the code.
+-   2012-05-17 Brian Rebel : add another CreateAssn function that takes 2 std::vectors for the objects to be associated rather than one std::vector and one art::PtrVector
+-   2012-05-17 Brian Rebel : add code to prevent occassional orphaned track ids.
+-   2012-05-16 Adam Patch : (now months old) macros to generate tree for root session manipulation of analysis histograms
+-   2012-05-15 Andrzej Szelc : change the splines file used by genie to that used by NOVA, which provides more definitions and should solve the recent Genie crashes. The ToDo here is to find out is which definitions were missing and add them to the LArSpline file to conserve memory
+-   2012-05-15 Andrzej Szelc : fix up microboone geometry some more. Redefine Vacuum as per NOVA definition, get the Air fractions to sum up to 1. Add option to define wires\_on in generate\_gdml as -w in the command line. Remove wires from the \_nowires.gdml as they were accidentally left there. Refine wire subtraction values to a nitpicky level. Regenerate .root file and .gdml file.
+-   2012-05-15 Brian Rebel : back out accidental commits in r2636
+-   2012-05-15 Brian Rebel : use the gdml file to create both the G4 geometry and the ROOT TGeoManager as ROOT v5.30.06 can once again interpret gdml in batch mode. Leave the hooks for separate variables for the ROOT and GDML file names in just in case the interpreter breaks again. In this case, think of the fROOTFile as holding the name of the file used to make the ROOT TGeoManager. This change still allows the G4 geometry to be specified without wires.
+-   2012-05-15 Herbert Greenlee : Fix bug exposed by geometry change.
+-   2012-05-15 Herbert Greenlee : Tweaks for Hit Kalman filter.
+-   2012-05-14 Brian Rebel : change include of PlaneGeo.h to be Geometry.h to account for change in location of geo::SigType\_t definition
+-   2012-05-14 Eric Church : Return to complain below 500 V/cm. Throttle warnings instead through msg logger in fcl files.
+-   2012-05-14 Eric Church : Silence the \~100 lines of code/per event generated by ArgoNeuT’s 481 V/cm.
+-   2012-05-12 Brian Rebel : add new methods to provide the wire pitch and the angle of the wires for a given view, the methods assume the same pitch and angle in all planes of the same view
+-   2012-05-12 Eric Church : Calculate cov7x7 for Track() and TTree
+-   2012-05-12 Eric Church : Calculate cov7x7 for Track()
+-   2012-05-11 Andrzej Szelc : change geometry to have the TPCActive size correspond to the TDR + fix overlapping wire problems
+-   2012-05-11 Herbert Greenlee : Add some cleanup of found tracks.
+-   2012-05-11 Brian Rebel : fix ParticleListAction::GetCurrentTrackID to just return fCurrentTrackID because adding fTrackIDOffset in that method is double counting the offset, which is added in the preTrackingAction to the fCurrentTrackID.
+-   2012-05-11 Herbert Greenlee : Add new module Track3DKalmanHit, plus related updates of other Kalman filter classes.
+-   2012-05-09 Herbert Greenlee : Add missing fcl parameter.
+-   2012-05-09 Benjamin Jones : Fix ordering of physics initiations in LArG4
+-   2012-05-09 Kinga Partyka : adding another branch
+-   2012-05-09 Brian Rebel : prepare for new release, S2012.05.09
+-   2012-05-09 Brian Rebel : add package list for new frozen release, S2012.05.09
+-   2012-05-09 Brian Rebel : explicitly sort the hits obtained from the cluster. This addition simply mimics what is already done when the line merger merges 2 clusters with the current Cluster + operator, ie it should be a no-op now, but will be necessary when we fully utilize associations
+-   2012-05-09 Andrzej Szelc : lower the ParticleKineticEnergyCut value, as discussed at the LArSoft meeting
+-   2012-05-09 Brian Rebel : reorder enumerated types for the views
+-   2012-05-09 Benjamin Jones : Fix some compiler warnings
+-   2012-05-09 Benjamin Jones : Typo fix
+-   2012-05-09 Benjamin Jones : Complete optical property supply to LArG4 through utils
+-   2012-05-09 Benjamin Jones : Fixes and update to optical property loading
+-   2012-05-08 Benjamin Jones : remove deprecated parameter supply module
+-   2012-05-08 Benjamin Jones : Supply optical properties as if its 2012 and LArSoft has utility services
+-   2012-05-08 Benjamin Jones : Hook optical physics back up in LArG4
+-   2012-05-08 Eric Church : Check-ins to obviate need to comment/uncomment and rebuild for data/MC ArgoNeuT running everywhere. Just run on either one with same code. MC truth quantities are set to a default value in data.
+-   2012-05-08 Herbert Greenlee : Adjust to interface change in EventDisplay.
+-   2012-05-07 Herbert Greenlee : Remove unused data member.
+-   2012-05-07 Herbert Greenlee : Updates to improve robustness of Kalman filter.
+-   2012-05-07 Brian Rebel : clean up the exception message for the cases where either a GDML or ROOT file cannot be found
+-   2012-05-07 Brian Rebel : throw an exception with a clear message as to why it is being thrown if the electronics response file cannot be found
+-   2012-05-07 Herbert Greenlee : Add some histograms.
+-   2012-05-06 Brian Rebel : allow lar\_srt\_bootstrap to checkout larsoft anonymously
+-   2012-05-05 Herbert Greenlee : Teach event display to do the following: 1. Draw bare space points. 2. Draw space points associated with prongs/tracks/showers. 3. Draw trajectory points associated with tracks.
+-   2012-05-05 Herbert Greenlee : Add associations between prongs and space points, and showers and space points.
+-   2012-05-04 Herbert Greenlee : Module TrackKalmanCheater will now store RecoBase objects Track and SpacePoint.
+-   2012-05-04 Herbert Greenlee : Update fcl parameters.
+-   2012-05-04 Herbert Greenlee : Give some attributes default values in constructor that weren’t being defined.
+-   2012-05-04 Herbert Greenlee : Add methods in KGTrack to make RecoBase tracks and space points.
+-   2012-05-04 Herbert Greenlee : Modify KHitWireX to store the art::Ptr\<recob::Hit\> that was used to create it.
+-   2012-05-04 Herbert Greenlee : Make compatibility test method public and other minor changes.
+-   2012-05-04 Eric Church : Fix TDataBasePDG usage
+-   2012-05-04 Eric Church : Restore fuller printout.
+-   2012-05-04 Eric Church : Return hits.sort(). Recover Calorimetry.
+-   2012-05-04 Herbert Greenlee : Add cut on minimum number of Hits per Cluster.
+-   2012-05-03 Eric Church : CaloAnalysis somehow omitted. I put it back.
+-   2012-05-02 Eric Church : Namespace change
+-   2012-05-02 Jonathan Asaadi : Rechecking in GausHitFinder with the std::cout statements removed or commented out
+-   2012-05-02 Jonathan Asaadi : Adding GausHitFinder and GausHitFinderAna to the HitFinder package
+-   2012-05-02 Jonathan Asaadi : Incorporating GausHitFinder into hitfindermodules.fcl
+-   2012-05-01 Benjamin Jones : Bezier track updates, including latest track joiner
+-   2012-05-01 Kinga Partyka : further improvements, getting KE and analyzing pdgs of each hit
+-   2012-05-01 William Seligman : Revised as per Andrzej Szelc’s suggestions re: delaying access to LArProperties
+-   2012-04-30 Herbert Greenlee : Hit Kalman filter tweaks.
+-   2012-04-30 Saima Farooq : adding GetEndPoint2D() method to avoid symbol lookup error while displaying recob::EndPoint2D
+-   2012-04-28 Herbert Greenlee : Use linearized propagation early in unidirectional track fit. Add ability to do iterative smoothing.
+-   2012-04-27 Herbert Greenlee : Add some new features to Hit Kalman filter. a) Automatic resorting of hits during multi-view Kalman filter. b) Linearized track propagation model with respect to reference track.
+-   2012-04-27 Brian Rebel : fix up the file to use the wire pitch defined to get the number of wires on a plane so that everything is nice and consistent
+-   2012-04-27 Brian Rebel : fix bug with getting pset for HoughLineAlgo object in ClusterCheater reconfigure
+-   2012-04-27 Brian Rebel : fix some problems with the cheaterreco.fcl file, fixes recursive includes and other problems
+-   2012-04-27 Brian Rebel : remove unnecessary include
+-   2012-04-27 Brian Rebel : change job files tag to look for .fcl files
+-   2012-04-27 Brian Rebel : make histograms to plot number of each particle going through TPCs in the detector
+-   2012-04-26 Eric Church : more user-dialable Kalman tracking parameters
+-   2012-04-26 Eric Church : more user-dialable Kalman tracking parameters
+-   2012-04-26 Brian Rebel : attempt to avoid recasting of a size\_t to an int was thwarted by original test on that variable being \>=0 in an decrementing loop - if you subtract 1 from size\_t = 0 it becomes a very large positive value. add todo flag to fix up that logic at some point.
+-   2012-04-25 Brian Rebel : updates to account for the changes to the EndPoint2D constructor.
+-   2012-04-25 Andrzej Szelc : add the saving of energy to the IDE objects in a way that piggy backs on the numelectrons saving. There may be a more efficient way to do this
+-   2012-04-25 Andrzej Szelc : Add energy as a member of IDE. This stores the true energy in a way analogous to the numelectrons variable
+-   2012-04-25 Herbert Greenlee : Add standard\_reco\_uboone.fcl.
+-   2012-04-25 Herbert Greenlee : Change hitmap from map to multimap (allows to save multiple hits per wire).
+-   2012-04-24 Herbert Greenlee : Add new class KHitMulti compound measurement. Collection of measurements, acts like single measurement.
+-   2012-04-24 Brian Rebel : changes associated with the updates in RecoBase.
+-   2012-04-24 Brian Rebel : make the view and total charge of the cluster arguments for the constructor. make the total charge of the hits associated with an endpoint2d also an argument of its constructor. add definitions for associations between hits and endpoint2d objects. add /// \\todo tags for what needs to happen after the next release is tagged
+-   2012-04-24 Herbert Greenlee : Add plane index as attribute if Kalman measurements. Add plane index as attribute of Kalman measurements. Allow prediction surface to be different than measurement surface. Add Kalman filter algorithm test.
+-   2012-04-24 Benjamin Jones : Bezier tracking performance soup up
+-   2012-04-24 Kinga Partyka : getting KE from truth and reco, making plots
+-   2012-04-23 Benjamin Jones : flatten back out unworkably complicated configuration file for bezier tracks (will put experiment specific configs back later)
+-   2012-04-23 Brian Rebel : make it possible to associate hits to the produced clusters without having to get them from the clusters…ie get ready for when the art::PtrVectors are no longer owned by data products. also remove a test on plane number = 0 to decide if a plane is an induction plane and instead use geo::kInduction and geo::SigType\_t.
+-   2012-04-23 Kinga Partyka : getting track length in 3 different ways, other changes to structure of Ttree
+-   2012-04-23 Herbert Greenlee : Really save space points directly in event.
+-   2012-04-23 Herbert Greenlee : Put space points and associations into event.
+-   2012-04-23 Benjamin Jones : Iterative seed refitting to 2D hits
+-   2012-04-23 Kinga Partyka : checking that we have a nu event
+-   2012-04-23 Kinga Partyka : adding analysis module for calorimetry.
+-   2012-04-23 Brian Rebel : add definition of art::Assns\<recob::Prong, recob::Hit\> and art::Assns\<recob::Hit, recob::Prong\>
+-   2012-04-22 Herbert Greenlee : Add Kalman smoothing in KalmanFilterAlg.
+-   2012-04-22 Herbert Greenlee : Silence some warnings.
+-   2012-04-22 Herbert Greenlee : Add energy loss noise.
+-   2012-04-22 Herbert Greenlee : Update Kalman filter track classes. Add class KGTrack (global track). Add methods to combine tracks in KETrack and KFitTrack.
+-   2012-04-22 Herbert Greenlee : Add method to calculate energy loss fluctuations.
+-   2012-04-22 Brian Rebel : forgot this one too. ugh.
+-   2012-04-22 Brian Rebel : remove statements like if(plane==0) in favor of if(sigType == geo::kInduction) to make the code more detector agnostic. also make a data member of the service handle to the geometry rather than getting it all the time. comment out code that is in an if statement that tests on art::Event::isRealData as those types of tests should **never** be in reconstruction code to avoid introducing data/MC discrepancies that are very hard to track down. switch std::cout to mf::LogInfo to conform to coding conventions. mark lots of magic numbers with /// \\todo tags to indicate they need to be examined and made into parameters or commented. lots of ancilliary formatting fixes. no algorithm changes have been introduced.
+-   2012-04-22 Brian Rebel : these changes didnt get committed yesterday with other geometry changes
+-   2012-04-22 Eric Church : updates
+-   2012-04-21 Brian Rebel : add arguments to PositionToCryostat and PositionToTPC methods that are unsigned int references to the logical cryostat and tpc numbers so that information is also provided by the methods. Useful in LArVoxelReadout::DriftIonizationElectrons where one then wants to use the NearestChannel method
+-   2012-04-21 Brian Rebel : fix multiple include of FindManyP.h, return type for FindOne.
+-   2012-04-21 Brian Rebel : add version of FindOne to return const reference to desired object. Also add methods to return collections of objects of type X that are not associated with objects of type Y, both std::vector\<const \*\> and art::PtrVector forms for the return.
+-   2012-04-20 Brian Rebel : one more configuration file change…hopefully the last for a while. SeedFinder-\>SeedConfig for configuration of SeedFinder module
+-   2012-04-20 Benjamin Jones : fix config file confusion
+-   2012-04-20 Brian Rebel : change SeedConfig –\> SeedFinder
+-   2012-04-20 Brian Rebel : merge with recent changes from Ben
+-   2012-04-20 Benjamin Jones : Iterative tracking (hit-\>sp-\>seed-\>track, throw away hits collected and go again)
+-   2012-04-20 Brian Rebel : move cheater module configurations into the configuration files for the packages in which they live
+-   2012-04-20 Brian Rebel : rename eventmodules.fcl in favor of more consistent eventfindermodules.fcl
+-   2012-04-20 Brian Rebel : add configuration for event cheater to eventmodules.fcl
+-   2012-04-20 Brian Rebel : move vertex cheater configuration into vertexfindermodules.fcl, also make use of @local:: syntax by defining standard configurations and calling those for argoneut implementations
+-   2012-04-20 Brian Rebel : adapt to renamed hitfindermodules.fcl
+-   2012-04-20 Brian Rebel : remove fftfinder(ana).fcl in favor of more consistently named hitfindermodules.fcl file. Note any private job files that make use of the removed files will need to change fftfinder(ana).fcl to hitfindermodules.fcl in the includes. standard\_reco.fcl will be updated now.
+-   2012-04-20 Brian Rebel : move track cheater configuration into trackfindermodules.fcl. make gratuitous use of @local:: syntax in fcl files rather than repeating the same lines 3 times for each experiment. move the seed configuration into a new parameter set so that SeedFinder and BezierTracker dont have to repeat the same quantities in their configurations and can use the new seed configuration parameter set.
+-   2012-04-20 Brian Rebel : move shower cheater module configuration into showerfindermodules.fcl
+-   2012-04-20 Brian Rebel : move configuration of cluster cheater module into clustermodules.fcl
+-   2012-04-20 Herbert Greenlee : Fix some broken fcl files.
+-   2012-04-20 Herbert Greenlee : Fix compilation problems caused by over hasty commit.
+-   2012-04-20 Herbert Greenlee : Didn’t mean to commit this one.
+-   2012-04-20 Herbert Greenlee : Add SpacePointAlg config parameter in SeedFinder module configs.
+-   2012-04-19 Eric Church : Protection in GFKalman against crazy cov values =\> far greater recon efficiency. Insert more configurability by containedness status in Track3DKalmanSPS. Conform to latest Track() constuctor requirements. New fcl job script to run.
+-   2012-04-19 Eric Church : Protection in GFKalman against crazy cov values =\> far greater recon efficiency. Insert more configurability by containedness status in Track3DKalmanSPS. Conform to latest Track() constuctor requirements. New fcl job script to run.
+-   2012-04-19 Eric Church : Protection in GFKalman against crazy cov values =\> far greater recon efficiency. Insert more configurability by containedness status in Track3DKalmanSPS. Conform to latest Track() constuctor requirements.
+-   2012-04-19 Herbert Greenlee : Fix return type.
+-   2012-04-19 Herbert Greenlee : More updates of fcl files.
+-   2012-04-19 Herbert Greenlee : SpacePointService is replaced with SpacePointAlg.
+-   2012-04-19 Herbert Greenlee : Remove SpacePointCheater module configuration out of mccheatermodules.fcl (moved to TrackFinder/trackfindermodules.fcl).
+-   2012-04-19 William Seligman : Put AnalysisExample in a namespace
+-   2012-04-19 Brian Rebel : make dummy variable to quiet compiler warnings about unused variables…so annoying.
+-   2012-04-19 Brian Rebel : update for the interface change to the recob::Track ctor
+-   2012-04-18 Brian Rebel : add static types to hold obviously bogus values. folks should use these as defaults for numbers that may not get filled so as to alert downstream users that what is contained by the variable is not legit.
+-   2012-04-18 Brian Rebel : add methods to access the first and last members of each stored vector, ie vertex and end values. also add data member to hold the fit momentum for vertex and end positions at least, so default is to make a vector of length 2 filled with util::kBogusD. add data member to return the length of the track based on the distances between the points held in fXYZ. add method to access the dQdx information.
+-   2012-04-18 Andrzej Szelc : Remove spurious line.
+-   2012-04-18 Andrzej Szelc : modify LArVoxelReadout so that it picks up the LArProperties values at the beginning of an event instead of in the constructor which was indirectly launched by the BeginJob() of LArG4. Promote services to data members of LArVoxelReadout in the process.
+-   2012-04-18 Andrzej Szelc : Introduce a flag that checks if the values read out from LArProperties have already been extracted from the DB. If not, the behaviour of the code can be to throw an exception or display a warning. For the time being setting thee warning option for all three experiments. Some code cleanup.
+-   2012-04-18 Brian Rebel : remove extraneous “;”
+-   2012-04-18 Brian Rebel : changes to persistent Track object decided at tracking meeting today. Remove fState datamember, add method to return size of dQdx vector, make dQdx vector default to a vector with 0 entries if not supplied in the constructor. Add some comments.
+-   2012-04-18 Brian Rebel : change ordering of views back until the next tagged release
+-   2012-04-18 Benjamin Jones : Improved analysis module for Bezier tracks
+-   2012-04-18 Benjamin Jones : SpacePoint making feature to feed Kalman filter, and other updates
+-   2012-04-17 Benjamin Jones : 3D dQdx methods for Bezier Track, and other updates
+-   2012-04-17 Brian Rebel : add Nviews method to Geometry to provide number of different wire plane orientations
+-   2012-04-17 Brian Rebel : change ordering of View\_t enumerations so that the 0th is an actual view to make ordering of vectors based on these views easier.
+-   2012-04-17 Brian Rebel : remove include for BezierTrackBase from list as it is removed from the repository. This will fix the overnight build failure.
+-   2012-04-17 Benjamin Jones : Update to DetectorProperties methods as recommended by Herb
+-   2012-04-16 Benjamin Jones : Fix dumb mistake - oops
+-   2012-04-16 Benjamin Jones : Say goodbye to BezierTrackBase
+-   2012-04-16 Benjamin Jones : Move to revamped track base class
+-   2012-04-16 Andrzej Szelc : If the database is swamped with connections the service will wait incremental periods of time up to 20 seconds trying to reconnect. Plus some changes in the output messages.
+-   2012-04-16 Benjamin Jones : Data members made protected, so derived classes have access
+-   2012-04-16 Benjamin Jones : Remove seedfinders reliance on 2D clusters - can now feed with plain hits instead
+-   2012-04-15 Brian Rebel : add methods to track to get the number of trajectory points (position and direction pairs) and covariance and state pairs from the object. Also add method to return a trajectory point. Add lines to classes\_def.xml and classes.h to prepare for making associations between Tracks and SpacePoints and Hits and SpacePoints.
+-   2012-04-15 Brian Rebel : add doxygen friendly commentting
+-   2012-04-15 Eric Church : post-merge sanity check (in)
+-   2012-04-15 Brian Rebel : make Track3Dreco also produce art::Assns of Tracks to Clusters and Tracks to Hits.
+-   2012-04-15 Eric Church : Return to situation in which dQdx is not forced to have same size as dir and pos. This is intentional. It is possible, not incumbent, that Track algorithms will also do dQdx calculation. More desirable way to do this is to default the dQdx arguments to something, but that appears impossible. Don’t bump class version \#.
+-   2012-04-15 Brian Rebel : add code to create art::Assns between Showers and Clusters and Showers and Hits. Also clean up code to use the message facility rather than std::cout. Add some doxygen \\todo flags to various places that assume single cryostat and single tpc geometries. Other changes to make the formatting of the code easier to read.
+-   2012-04-15 Brian Rebel : add creation of art::Assns between Prongs or Tracks and the Hits they correspond to. Also add \\todo flags to Track3DKalmanSPS indicating that art::Event::isRealData should never be called in reconstruction algorithms as that introduces the potential for data/MC discrepancies. All such code should be removed ASAP. Remove test on whether the std::vector\<recob::Track\> produced in Track3DKalmanSPS has any entries before putting it into the event as even if none were made an empty collection would still have to be put in the event as the module says it is making one - ART would complain by design otherwise.
+-   2012-04-15 Brian Rebel : add std::vector\<TVector3\>, std::vector\<TMatrixD\>, and std::vector\< std::vector\<double\> \> to the dictionary generating classes\_def.xml. Also add comments to the Track.h file to explain what each data member represents. Change TMatrixT\<double\> to TMatrixD everywhere to reduce the amount of typing that people have to do. Update the tests of the input vector sizes in the constructors to explicitly state which vectors are the problem. Also check that the dQdx and position vectors are the same size. Add includes for TMatrixD and TVector3 to the .h file to make sure they are explicitly there, must have been pulled in from somewhere, who knows where. Increment Track ClassVersion with the changes that were made. Update the \<\< operator to reflect the information that is currently in Track.
+-   2012-04-14 Eric Church : Style changes, largely.
+-   2012-04-13 Benjamin Jones : Bezier code updates
+-   2012-04-13 Benjamin Jones : First commit of BezierTrackAna module
+-   2012-04-13 Eric Church : Insert some track fitting parameters as user-settable. Build tracks with new constructor to create hit-by-hit vectors of Kalman info.
+-   2012-04-13 Andrzej Szelc : Set connection configuration for separate databases for each experiment. Set a ShouldConnect flag determining whether the code should try to connect to the DB at all - true only for ArgoNeut. Limit connection time to query only and not for the whole duration of running.
+-   2012-04-13 Eric Church : New hit-bMoreit Set/Get methods
+-   2012-04-13 Herbert Greenlee : Remove needless includes of SpacePointService.h.
+-   2012-04-13 Eric Church : New constructors/methods to accomodate all new tracking work! More methods needed to check vector.size()s.
+-   2012-04-13 Benjamin Jones : Bezier methods for curvature, RMS curvature
+-   2012-04-13 Benjamin Jones : Add methods for finding proximity of bezier track to hits, spacepoints
+-   2012-04-13 Herbert Greenlee : Fix compilation error.
+-   2012-04-13 Eric Church : Add potential decay time offset.
+-   2012-04-13 Benjamin Jones : Add some comments to make the ‘track converters’ lives easier
+-   2012-04-13 Benjamin Jones : Latest Bezier methods
+-   2012-04-13 Herbert Greenlee : Add hit pull histograms in SpacePointAna. Fix x error calculation in SpacePointService.
+-   2012-04-13 Herbert Greenlee : Update microboone time offsets to be zero.
+-   2012-04-12 Herbert Greenlee : Update tests.
+-   2012-04-12 Herbert Greenlee : Add printout methods for measurements.
+-   2012-04-12 Benjamin Jones : Bezier track fitting algorithm first commit
+-   2012-04-12 Herbert Greenlee : Add derive from virtual plane surface instead of virtual general surface.
+-   2012-04-12 Herbert Greenlee : Update propagators to use interactor class to calculate propagation noise. Also calculate dE/dx.
+-   2012-04-12 Benjamin Jones : First commit of high level beziertrack object
+-   2012-04-12 Herbert Greenlee : Add pure virtual plane surface class.
+-   2012-04-12 Herbert Greenlee : Add planar interactor class.
+-   2012-04-12 Herbert Greenlee : Add mass accessor for KTrack.
+-   2012-04-12 Benjamin Jones : First commit of BezierTrackBase class
+-   2012-04-12 Benjamin Jones : first commit of bezier curve helper object
+-   2012-04-12 Benjamin Jones : Back the ticks to x calc as far out of spacepointservice as possible
+-   2012-04-12 Benjamin Jones : Added helper methods to facilitate common ticks to x calculations
+-   2012-04-12 Benjamin Jones : SeedFinder service to module conversion
+-   2012-04-12 Benjamin Jones : Update to meet the standards of the Rebel manual of style
+-   2012-04-12 Eric Church : Track3DKalmanSPS tweaks.
+-   2012-04-12 Eric Church : Genfit updates
+-   2012-04-11 Benjamin Jones : Seedfinder streamlining and Bezier tracking groundwork
+-   2012-04-11 Benjamin Jones : Ortho and 3D displays for seeds in evd
+-   2012-04-11 Benjamin Jones : Updates to seed class
+-   2012-04-11 William Seligman : Update Nevis versions of local installation scripts
+-   2012-04-11 William Seligman : Add AnalysisExample to package list
+-   2012-04-11 William Seligman : Initial import of AnalysisExample package.
+-   2012-04-11 Tingjun Yang : add fcl file for bo event display
+-   2012-04-11 Tingjun Yang : update bo\_properties
+-   2012-04-11 Tingjun Yang : add bo properties
+-   2012-04-11 Benjamin Jones : Seed base class updates
+-   2012-04-10 Tingjun Yang : Update Bo geometry so that: Drift direction is -X Y is in parallel with one set of wires X=0 is the first wire plane origin is at the TPC edge TPC strips are replace by one signle TPC sheet
+-   2012-04-10 Herbert Greenlee : Set time offsets to zero.
+-   2012-04-10 Benjamin Jones : Seed drawing methods for evd
+-   2012-04-10 Benjamin Jones : Seed finder updates
+-   2012-04-10 Benjamin Jones : Added X to ticks calculation to DetectorProperties
+-   2012-04-09 Brian Rebel : output more information in some checks
+-   2012-04-09 Brian Rebel : making the code easier to read with tabs and line breaks.
+-   2012-04-09 Herbert Greenlee : Add radiation length attribute. Add method Eloss, calculates dE/dx. Provide default arguments for temperature and electric field. Clean up interface.
+-   2012-04-09 Eric Church : Fix
+-   2012-04-08 Eric Church : Update
+-   2012-04-08 Eric Church : Update
+-   2012-04-08 Eric Church : Update
+-   2012-04-08 Eric Church : Genfit updates
+-   2012-04-08 Eric Church : Genfit updates
+-   2012-04-08 Eric Church : Update Track3D stuff
+-   2012-04-08 Eric Church : Insert protection to not add same SpacePoint more than once.
+-   2012-04-06 Herbert Greenlee : Add missing quote.
+-   2012-04-06 Bruce Baller : Comment out Cryostat code that doesnt work for ArgoNeuT
+-   2012-04-05 Brian Rebel : use geo::SignalType\_t to key the area normalization array rather than plane number as the latter does not work for experiments with more than 2 planes. Also remove call to evt.isRealData as reconstruction should never have those sorts of calls in the algorithms. The same functionality is recovered by having different parameter sets for data and MC. Still not sure why they are different, but this way the difference is up front in a fcl file and not buried in the code where it may not be easily found.
+-   2012-04-05 Brian Rebel : remove references to old cluster services.
+-   2012-04-05 Brian Rebel : make use of HoughLineAlg
+-   2012-04-05 Brian Rebel : change Service code that performed algorithms (ie EndPointService, DBScanService, HoughLineService) to no longer be services. Instead, they are simply objects, denoted with the suffix Alg in their names to indicate they encapsulate an algorithm. These objects are still configurable by requiring the modules calling them own a local copy and pass the relevant fcl parameter set into the object constructor or reconfigure method. clusterservices.fcl has been renamed to clusteralgorithms.fcl and all \_service.cc files have been removed. The clustermodules.fcl file has been updated to account for the changes. A test job with these changes ran to completion. No changes to the algorithm code has been made.
+-   2012-04-04 Herbert Greenlee : Interface change.
+-   2012-04-04 Herbert Greenlee : Make KHitBase::predict method const Bug fixes.
+-   2012-04-04 Herbert Greenlee : Add KHitGroup class.
+-   2012-04-04 Herbert Greenlee : Add printout methods for surfaces.
+-   2012-04-04 Herbert Greenlee : Add pdg hypothesis in KTrack. Add printout methods. Add KHitsTrack.
+-   2012-04-03 Benjamin Jones : First commit of seedfinder module
+-   2012-04-02 Benjamin Jones : Add seed base classes
+-   2012-04-02 Brian Rebel : add ability to draw nutau and tau with green lines/text
+-   2012-04-02 Benjamin Jones : Modify seed finder service to incorporate base class seed
+-   2012-04-02 Benjamin Jones : Added seed base class for kalman tracking
+-   2012-04-02 Brian Page : Add normalizations for charge calculated by area, such that the two agree for flat tracks. Enable by setting AreaMethod to 1.
+-   2012-03-30 Andrzej Szelc : change the induction filter lower setting to 0 to get rid of ringing and undershoot in high energy events
+-   2012-03-29 Brian Rebel : make it possible to define different ranges for the colors in planes with different geo::SigType\_t values.
+-   2012-03-29 Brian Rebel : change ordering of SigType\_t enumerations to make kMysterType come last so it can be used as a maximum value for the enumerations too.
+-   2012-03-29 Andrzej Szelc : correct endpoint x calculation for trigger offset
+-   2012-03-27 Herbert Greenlee : Minor updates.
+-   2012-03-26 Herbert Greenlee : Add non-interacting straight line propagator for Kalman filter.
+-   2012-03-25 Herbert Greenlee : Add Kalman filter measurement classes KHitBase, KHit, and KHitWireX, plus other Kalman filter updates.
+-   2012-03-21 Andrzej Szelc : Change the declared sample size in the saved RawDigit to correspond with the actual vector size
+-   2012-03-21 Herbert Greenlee : Add Kalman filter general plane surface.
+-   2012-03-20 Herbert Greenlee : Add Kalman filter classes for surfaces and tracks.
+-   2012-03-20 Herbert Greenlee : Change channel numbers from unsighed short to unsighed int. Hit provides them as unsigned short, but Geometry accepts them as unsigned int.
+-   2012-03-20 Eric Church : Provide necessary overloaded implementation of PointHit().
+-   2012-03-19 Kinga Partyka : making Calorimetry compile
+-   2012-03-19 Herbert Greenlee : Adapt to Geometry interface change due to adding multiple cryostats.
+-   2012-03-16 Andrzej Szelc : Remove printout message
+-   2012-03-15 Mitchell Soderberg : Remove all traces of LArTracker, which never did anything anyways.
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : add new CryostatGeo object to hold collection of TPCGeo objects. Update all interfaces to account for possibility of multiple cryostatsts. Update unit tests in test subdirectory.
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-15 Brian Rebel : changes for new Geometry with multiple cryostats
+-   2012-03-14 Brian Rebel : prepare for tag of S2012.03.14
+-   2012-03-14 Andrzej Szelc : upload latest version of ShowerAngleCluster before geometry changes. This is a work in progress.
+-   2012-03-14 Andrzej Szelc : upload latest version of ShowerReco before geometry changes. This is a work in progress.
+-   2012-03-13 Andrzej Szelc : Make the LArFFT service pickup the number of time ticks from DetectorProperties and calculate FFTsize as the next power of two. The FFTSize in the larfft.fcl is now not necessary.
+-   2012-03-13 Brian Rebel : add Calorimetry package
+-   2012-03-13 Eric Church : Add appropriate prototype to get TrackFinder3DKalmanSPS to compile.
+-   2012-03-12 Brian Rebel : update tag for nutools packages
+-   2012-03-12 Brian Rebel : prepare for new frozen release prior to upgrade of ART version to v1.00.11 that has necessary changes for our database implementation. There will be two tagged frozen releases - the first S2012.03.11 will correspond to the code base before upgrading to v1.00.11. The second S2012.03.12 will correspond to the code base with the upgrade to v1.00.11 and the associated changes to the database service.
+-   2012-03-09 Elena Guardincerri : lbne near detector geometry added to repository
+-   2012-03-08 Eric Church : Insert Association usage in a couple more modules.
+-   2012-03-07 Saima Farooq : updating GNUmakefile for MatchFilter
+-   2012-03-07 Saima Farooq : adding a new filter package: saves the filtered reconstructed file having events with atleast 1 matched track with MINOS (save the disk space specially when reconstructing anti-neutrino ArgoNeuT data)
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //. also use std::swap instead of locally defined Swap in MuonFilter
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Brian Rebel : make the \\todo tags work in doxygen. need /// before the \\todo, not just //
+-   2012-03-07 Eric Church : Revert to 2296
+-   2012-03-06 Brian Rebel : cause a thrown exception when the input vector size is different from fPDG or 1 and padding out is desired. that flags the case where it is unclear what the user intended.
+-   2012-03-06 Brian Rebel : add some more comments to the PadVector method. Also acknowledge that fPDG is the vector we care about and remove the maxSize input in favor of just using fPDG.size(). Finally, ensure that it always causes an exception if the pad out vector option is not chosen and the vector in question is not the same size as fPDG….even if it is bigger because we dont know what the user intention was.
+-   2012-03-06 Eric Church : Add a fcl script for compression-mode running.
+-   2012-03-06 Andrzej Szelc : do not throw exception if PDG.size()==1.
+-   2012-03-06 Eric Church : Changes to make Compression mode work. See corresponding ../EventGenerator/prodsingle\_uboone\_comp.fcl
+-   2012-03-05 Brian Rebel : make the association of hits to the super cluster work in LineMerger. Previously only the hits from the seed cluster were added, now all hits from participating clusters in a super cluster should be added. Also make the code easier to read.
+-   2012-03-05 Andrzej Szelc : add normalization of the electronics response function for uBooNE
+-   2012-03-05 Brian Rebel : fix formatting of messages about padding out vectors and bad vector sizes
+-   2012-03-05 Eric Church : Make fPadOutVectors of consistent types.
+-   2012-03-05 Brian Rebel : remove presorting of super clusters before putting the collection into the event. downstream modules should not depend on the sorting of these clusters.
+-   2012-03-02 Eric Church : (1) Go some way toward detector acgnostification in SpacePts. Much left to do. (2) Introduce Associations in SpacePoint\* classes.
+-   2012-03-02 Brian Rebel : remove dependency of SummaryData on Geometry library as the only dependency is on the DetId enumerated type from Geometry.h
+-   2012-03-01 Brian Rebel : change fPadVectors from int to a bool, also read it in with the reconfigure method. Make some changes to the printVecs method to make it a little easier to parse for people reading the code. also condense the check on a vector size into a method to make that section of the code a little easier to read.
+-   2012-03-01 Andrzej Szelc : remove unneeded extra variable
+-   2012-03-01 Andrzej Szelc : Flesh out the single generation for when configuration parameters are specified in a vector. If the size is one (default) the vectors will be padded to the size of the PDG vector. If larger \>1 but \< PDG.size() an exception will be thrown. In case of multiple configuration settings the used versions will be printed out. Also, change .fcl files to not pickup the ArgoNeut beam setting for microboone
+-   2012-02-29 Brian Rebel : add definitions for associations of Prongs and Clusters
+-   2012-02-29 Herbert Greenlee : Add fcl parameter Merge in standard\_spacepointcheater.
+-   2012-02-29 Eric Church : Fix a pernicious bug in fMode==1 (multi-particle) mode following from assumption that all the single particle generation configuration vectors were the same length and were properly initialized. That is now carefully done. User must hand-prescribe the PDG and P0 vectors at the minimum. {Finally, note to the fastidious: couts are coded here over mf::warnings in places for ease of printing out vectors.}
+-   2012-02-28 Brian Rebel : define associations in both directions to make all aspects of the system happy
+-   2012-02-28 Brian Rebel : make use of associations of simb::MCTruth to sim::Particle to do the back tracking, also remove error message about it not working as it now does.
+-   2012-02-28 Brian Rebel : add definitions for associations in both directions for simb::MCTruth and sim::Particle
+-   2012-02-28 Benjamin Jones : cleaning up a minor commit mishap
+-   2012-02-28 Benjamin Jones : First commit of SeedFinder. Not for public consumption yet.
+-   2012-02-27 Brian Rebel : add new UserAction, G4BadIdeaAction, to hold code that grabs const pointers from G4 and then tries to change them. That code is removed from ParticleListAction and moved into this new UserAction. The new action warns users when it starts up that it is there and why it is there, which should remind us to take it out once we switch to the new version of G4 (\>4.9.4.p02). Also remove test to kill tracks that leave the world volume as that issue is indicative of a real problem that needs to be solved. The test also effectively stopped cosmic ray event generation.
+-   2012-02-27 Eric Church : Kill the secondaries too when it steps outside the volume.
+-   2012-02-27 Eric Church : Insert protection against tracks in outer space…
+-   2012-02-24 Andrzej Szelc : remove unnecessary std::cout comments
+-   2012-02-24 Andrzej Szelc : Add reading the temperature and electric field values from the DB. Change definition of fEfield to a vector where elements above zero are the interplane field values. The DatabaseUtil will apparently not work on condor jobs yet, also due to an ART bug LArProperties may not be initialized early enough. These issues will be solved ASAP, in the meantime contact me if you want to run jobs using electronlifetime
+-   2012-02-23 Brian Rebel : remove hardcoded but commented out include path to postgresql at fnal.
+-   2012-02-23 Eric Church : Genfit updates. It’s been a while. This code is still very much under construction.
+-   2012-02-23 Brian Rebel : put back the LArVoxelList, turns out we still use them in the 3D event display.
+-   2012-02-23 Brian Rebel : remove deprecated LArVoxelList object
+-   2012-02-23 Brian Rebel : remove references to the deprecated LArVoxelList object.
+-   2012-02-22 Brian Rebel : update the event display fcl files for ub and lbne to not try to open an output file for histograms, do the timing service, or use the random number generator service…presumably those arent needed if one just wants to look at events
+-   2012-02-22 Saima Farooq : adjusting the spaces etc
+-   2012-02-22 Saima Farooq : adding more histograms: probability as a function of muon true angle
+-   2012-02-22 Brian Rebel : make the window for the cosmic ray generation 4.8ms to correspond to the actualy DAQ timing window around a spill
+-   2012-02-22 Saima Farooq : adding the macro to make the probability histograms of CC nu-mu event reconstruction (from TTree generated by CCRecoEffTree)
+-   2012-02-21 Brian Rebel : make it possible to draw truth vectors for art::Events with more than one simb::MCTruth object
+-   2012-02-21 Brian Rebel : changes necessary to be able to overlay events from multiple MC generators, ie CRY and GENIE. Add methods to LArVoxelReadout to keep the ionization electrons from multiple MCTruth lists around through an entire art::Event rather than reseting the collection for each one.
+-   2012-02-21 Saima Farooq : update the T962 GNUmakefile (in order to incorporate the recent changes: deletion of Calorimetry package and addition of CCRecoEffTree in T962)
+-   2012-02-21 Eric Church : Saima’s new pkg
+-   2012-02-21 Saima Farooq : 2nd try to Restore AnalysisTree to 20-Feb-2012 version.
+-   2012-02-21 Saima Farooq : Restore AnalysisTree to 20-Feb-2012 version.
+-   2012-02-21 Eric Church : purge inadvertent AnalysisTree directory itself.
+-   2012-02-21 Eric Church : Make inadvertent top level AnalysisTree go away
+-   2012-02-21 Eric Church : flailing
+-   2012-02-21 Saima Farooq : retry check in of elements of CCRecoEffTree
+-   2012-02-21 Saima Farooq : adding an analysis package that makes TTree for CC event reconstruction probability study
+-   2012-02-20 Brian Rebel : make the SampleTime match the maximum drift time for the chosen detector
+-   2012-02-20 Brian Rebel : remove unused histograms and add histograms to count the number of photons, electrons and muons in each window that pass through the cryostat. Add test to ensure that at least 1 particle passes through the cryostat for each time window. Only pass those particles that go through the cryostat, ie have a closest approach to the center of the cryostat that is within it, on to Geant4.
+-   2012-02-20 Brian Rebel : add new method to Geometry Ncryostats as a place holder for when the LBNE geometry is updated. Also add cryostat number argument to CryostatBoundaries to specify which cryostat is desired, not currently used. Remove CrossesVol method as it was unused in LArSoft and also had an unaccounted for 50 m padding.
+-   2012-02-20 Andrzej Szelc : Force remove of scrollbars in the ShowEndPointSection text-view in the sidebar
+-   2012-02-20 Brian Rebel : remove Calorimetry package from T962 directory as requested by Ornella and agreed to by Mitch. The package is now in the main LArSoft directory.
+-   2012-02-17 Ornella Palamara : fixing cout
+-   2012-02-17 Kinga Partyka : removing unnecessary file
+-   2012-02-17 Ornella Palamara : added package Calorimetry to release list
+-   2012-02-16 Saima Farooq : getting all the clusters (associated to a track) from all the planes for a detector… making he code detector agnostic
+-   2012-02-16 Ornella Palamara : Adding Calorimetry package
+-   2012-02-16 Saima Farooq : making Prong::Clusters() method to return clusters that are associated to Prong/Track from all views if user does not specify the view
+-   2012-02-16 Herbert Greenlee : Add drawing option option ColorSpacePointsByChisq.
+-   2012-02-15 Herbert Greenlee : Add job file prong\_reco\_uboone.fcl to reconstruct prongs using modules SpacePointFinder and SpacePointCheater.
+-   2012-02-15 Herbert Greenlee : Bug fixes.
+-   2012-02-15 Herbert Greenlee : Modify SpacePointService to fill new attributes of SpacePoint, namely, error matrix and chisquare. Also add new fcl parameter Merge for SpacePointService (still in development).
+-   2012-02-15 Herbert Greenlee : Add error matrix and chisquare attribute to SpacePoint.
+-   2012-02-14 Andrzej Szelc : Add DatabaseUtil service to evdservices.fcl
+-   2012-02-14 Andrzej Szelc : Introduce the DatabaseUtil service, which will be used to extract run parameters from a database
+-   2012-02-14 Andrzej Szelc : Add postgresql include .mk to SoftRelTools
+-   2012-02-14 Andrzej Szelc : change setup script to load postgresql in preparation for the database connection
+-   2012-02-13 Andrzej Szelc : Catch events that end up in an endless loop in geant4. This should be a temporary fix until we get to a newer geant version
+-   2012-02-11 Brian Rebel : make the DrawClusters value in the configure be 1 to draw the hits in the cluster and 2 for the outline of the cluster which still isnt working
+-   2012-02-11 Brian Rebel : comment out sorting of clusters before they are placed into the event in DBcluster.cxx. Set the cluster ID of each cluster made in DBcluster to be its position in the vector. Replace NO\_CLUSTER and NOISE\_CLUSTER with kNO\_CLUSTER and kNOISE\_CLUSTER in DBScanService as per the coding conventions.
+-   2012-02-09 Brian Rebel : add fcl files for the microboone and lbne event display. currently they are the same as lbne folks will be using the microboone simulation for a while until the full lbne simulation (ie geometry) is finished.
+-   2012-02-08 Andrzej Szelc : change to conform with new version of the Birks function in Utilities
+-   2012-02-08 Andrzej Szelc : change to conform with new version of the Birks function in Utilities
+-   2012-02-08 Andrzej Szelc : Reorganize Birks Correction function and change k recombination factor to be Efield independent; code cleanup
+-   2012-02-08 Ornella Palamara : Change Electron to ADC calibration factor for ArgoNeuT
+-   2012-02-06 Brian Rebel : update doxygen release
+-   2012-02-06 Brian Rebel : make the initialized value of highestID be 0 instead of -999.
+-   2012-02-06 Andrzej Szelc : Decomment the association creating code.
+-   2012-02-01 Andrzej Szelc : Code clean up and reorganization
+-   2012-01-31 Brian Rebel : put the newly created cluster in the collection before trying to make an association with it to the hits in the cluster.
+-   2012-01-31 Brian Rebel : put the newly created cluster in the collection before trying to make an association with it to the hits in the cluster. also get rid of some argoneut specific checks on channel numbers to determine induction vs collection plane and use geo::PlaneGeo::SignalType() instead.
+-   2012-01-31 Andrzej Szelc : correct calculation of projection when calculating endpoint (remove pretrigger)
+-   2012-01-31 Andrzej Szelc : Lock the wire projection planes’ positions also after clicking the Grayscale, MCTruth and other buttons
+-   2012-01-31 Andrzej Szelc : roll back the FFTsize change to 3200 samples because it makes the startup of the LArFFT service go unnaturaly long
+-   2012-01-29 Brian Rebel : make it possible to draw objects using art::Assns. Will default to the previous use of art::PtrVectors stored as part of objects when art::Assns are not in the event
+-   2012-01-29 Brian Rebel : make pairs for more assns
+-   2012-01-29 Brian Rebel : formatting changes
+-   2012-01-29 Brian Rebel : updates to the FindOne and FindMany variants. Use try/catch statements around FindMany statements to see if there are any problems.
+-   2012-01-27 Brian Rebel : make Assns for events to hits
+-   2012-01-27 Brian Rebel : make Assns for vertices to hits
+-   2012-01-27 Brian Rebel : make Assns for showers to hits
+-   2012-01-27 Brian Rebel : make Assns for tracks to hits
+-   2012-01-27 Brian Rebel : add art::Assns for Track/Shower/Vertex/Event to Hits
+-   2012-01-27 Brian Rebel : add unit tests to the script that actually gets run each night for the build, remove the confusingly named and unused fnal\_build\_larsoft.sh
+-   2012-01-26 Andrzej Szelc : change slope to same units as intercept to avoid negative density. Without this change geant4 crashes pretty quickly
+-   2012-01-26 Brian Rebel : update the unit test script to reflect its new location, update the nightly build script to also run the unit tests
+-   2012-01-26 Brian Rebel : moving unit test scripts to be in same location as other “utility” scripts
+-   2012-01-26 Brian Rebel : update to ART v1.00.08, the wiki has been updated to point to the relevant tarballs needed to make this update
+-   2012-01-25 Andrzej Szelc : Add endpoint position finding feature to the GUI. Click shift+Left Mouse Button to mark points on two planes and then the “Find XYZ” button to calculate the resulting point’s positon in XYZ coordinates. Setting it to off for ArgoNeut.
+-   2012-01-25 Brian Rebel : some readability improvements
+-   2012-01-25 Brian Rebel : make the calculation use the correct units
+-   2012-01-25 Brian Rebel : improve the density calculation based on temperature to correspond to the NIST tables. this parameterization is good to within 0.5%. thanks to Ornella for pointing me at the NIST tables.
+-   2012-01-25 Brian Rebel : fix location of url for output message
+-   2012-01-25 Brian Rebel : mail results of test to LArSoft conveners
+-   2012-01-25 Jonathan Asaadi : Require fft sample size to also be 3200. Unfortunate that the number of ticks must be set in two places.
+-   2012-01-25 Brian Rebel : attempt to fix warning message that prevents script from running
+-   2012-01-25 Brian Rebel : attempt to fix warning message that prevents script from running
+-   2012-01-25 Brian Rebel : attempt to fix warning message that prevents script from running
+-   2012-01-25 Brian Rebel : attempt to fix warning message that prevents script from running
+-   2012-01-25 Brian Rebel : attempt to fix warning message that prevents script from running
+-   2012-01-25 Brian Rebel : attempt to fix warning message that prevents script from running
+-   2012-01-25 Brian Rebel : add fnal specific unit test running script
+-   2012-01-24 Georgia Karagiorgi : SimWireMicroBooNE updated to get convolution kernel from SignalShapingServiceMicroBooNE
+-   2012-01-19 William Seligman : Initial scripts for LArSoft unit test
+-   2012-01-17 Brian Rebel : fix typo
+-   2012-01-13 Brian Rebel : make use of new wrapper to create art::Assns
+-   2012-01-13 Brian Rebel : make use of new wrapper to create art::Assns
+-   2012-01-13 Brian Rebel : make use of new wrapper to create art::Assns
+-   2012-01-13 Brian Rebel : make use of new wrapper to create art::Assns
+-   2012-01-13 Herbert Greenlee : Add Ortho3D view to event display. This view allows to display 3D objects (yz view in particular) on 2D canvas.
+-   2012-01-13 Brian Rebel : make use of new wrapper to create art::Assns
+-   2012-01-13 Brian Rebel : make use of new wrappers to create art:Assns.
+-   2012-01-13 Brian Rebel : move association utility code into header file and dont make it a class.
+-   2012-01-13 Brian Rebel : comment out making associations for now
+-   2012-01-13 Brian Rebel : use new AssociationUtil to make association between MCTruth objects and Sim::Particle objects. Also take the density of the argon into account while calculating the recombination.
+-   2012-01-13 Brian Rebel : add method to make 1 to 1 associations
+-   2012-01-13 Brian Rebel : Add method to LArProperties service to return the density of the LAr based on the temperature. For now if the temperature is less than 100K it returns a constant 1.43 g/cm\^3 and 1.449e-3 g/cm\^3 (ie density of argon gas) otherwise. Fix the larparameters.fcl set for the MicroBooNE lifetime to be 3 ms rather than 1e8 ms. Add new utility class to make art::Assns objects to provide inter-product referencing functionality.
+-   2012-01-12 Kinga Partyka : minor change of values
+-   2012-01-11 Kinga Partyka : missed clearing of the last histo’s bin-fixed now, quitting program when no range of peak is found
+-   2012-01-10 Andrzej Szelc : Fix the wire projection pads so that they don’t move when selecting zoom region with mouse
+-   2012-01-04 Herbert Greenlee : Add configuration of SpacePointCheater module.
+-   2012-01-04 Herbert Greenlee : Add SpacePointFinder and SpacePointCheater modules.
+-   2012-01-04 Herbert Greenlee : Remove fcl parameter and attribute UseMC from SpacePointService. Calling programs can still build space points using mc truth by calling a different public method.
+-   2012-01-03 Herbert Greenlee : Fix the normalization of the deconvolution kernel dynamically (make it independent of the normalization of the filter function), such that peak of response = peak of deconvoluted response.
+-   2011-12-31 Brian Rebel : bump the ART version to v1.00.06. see [https://cdcvs.fnal.gov/redmine/projects/art/wiki\#ART-Suite-release-notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki#ART-Suite-release-notes) for information on what changed between v1.00.02 and 1.00.06. This change should not impact reading of files that were made with v1.00.02.
+-   2011-12-20 Adam Patch : granite block geometry from Bill Seligman; option added to generate\_gdml.pl
+-   2011-12-18 Kinga Partyka : don’t include genie/geant4 info when running on data,also minor name change
+-   2011-12-17 Brian Rebel : add a missing call to HeaderPad::Pad()::Clear() that should help speed up the event display to some extent. NOvA found this problem in their event display and we had the same problem.
+-   2011-12-15 Brian Rebel : fix a todo tag for doxygen
+-   2011-12-15 Brian Rebel : make all modules that produce recob::Cluster objects also produce Assns\<recob::Cluster, recob::Hit\> objects as well.
+-   2011-12-14 Kinga Partyka : small correction
+-   2011-12-14 Brian Rebel : redo the EndPoint2D constructors to fit the new interface.
+-   2011-12-14 Brian Rebel : redo the EndPoint2D constructors to fit the new interface.
+-   2011-12-14 Brian Rebel : set data members of EndPoint2D in the constructor, remove set methods. Do we really need to store a collection of Hits for EndPoint2D objects? Does any one know what the strength parameter allowed values are?
+-   2011-12-13 Herbert Greenlee : Adjust microboone space point time offsets.
+-   2011-12-13 Herbert Greenlee : Update CalWireMicroBooNE module to use SignalShapingServiceMicroBooNE service.
+-   2011-12-13 Herbert Greenlee : Tweak filter functions. Adjust normalization to produce reasonable size signals. Add a low frequency cutoff on induction filter.
+-   2011-12-13 Brian Rebel : draw EndPoint2D objects after drawing cluters. Also draw them as markers rather than boxes.
+-   2011-12-13 Kinga Partyka : adding info to the ttree
+-   2011-12-12 Brian Rebel : a minor change to the previous commit
+-   2011-12-12 Brian Rebel : looks like the non-debug build has not worked since the setup script made debug the default build. change the nightly build script to account for the change.
+-   2011-12-12 Kinga Partyka : catching NearestChannel exception, further improvements to the TTree
+-   2011-12-12 Kinga Partyka : taking out MC dependency when making clusters-that was not used anyway. Cleaning up and making better TTree for analysis
+-   2011-12-12 Brian Rebel : make the method to draw the EndPoint2D objects not need to use Hits to draw. Should probably give EndPoint2D a method to return which TPC it is in.
+-   2011-12-12 Herbert Greenlee : Add SignalShapingServiceMicroBooNE.
+-   2011-12-12 Brian Rebel : changes to allow generation of hand scan files with vertices throughout the volume.
+-   2011-12-11 Brian Rebel : clean up the code by switching to using the MessageLogger consistently and attempting to remove lots of ArgoNeuT specific calculations in favor of using information from DetectorProperties and LArProperties services. Still one instance of ArgoNeuT specific calculation in HarrisVertexFinder, flagged with \\todo for doxygen
+-   2011-12-11 Brian Rebel : lots of clean up of the EndPointService and EndPointModule code, including removing some ArgoNeuT specific hard coded numbers.
+-   2011-12-11 Brian Rebel : remove view arguments for Hits() and Charge() methods as EndPoint2D can only have hits associated with one view by definition
+-   2011-12-11 Brian Rebel : make it possible to draw EndPoint2D objects
+-   2011-12-09 Brian Rebel : put back the channumber calculation and stuffing of it into the exception message
+-   2011-12-09 Brian Rebel : change exception messages to no longer claim that UINT\_MAX will be returned as throwing an exception prevents one from returning anything. change the strings in the exceptions and messages to all be Geometry in order to make more efficient use of the message service ability to turn off messages if so desired.
+-   2011-12-08 Adam Patch : flag and loop added to catch meaningful events
+-   2011-12-08 Brian Rebel : put the art::FindMany in Cluster2D method in a try/catch block
+-   2011-12-06 Adam Patch : brought up to date
+-   2011-12-06 Adam Patch : fix to reconfigure argument
+-   2011-11-28 Adam Patch : expanded TPC, adjusted size of world volume, fix to geo script
+-   2011-11-28 Brian Page : Change default FFTW planning flag to P. This introduces a small startup penalty(\~0.5s) but makes transforms roughly 10% faster.
+-   2011-11-27 Andrzej Szelc : return to exception throwing in geo::NearestChannel that should solve the evd crashes in a cleaner way, since it is being caught in SimulationDrawer
+-   2011-11-27 Andrzej Szelc : adding a try/catch clause to catch exceptions from geo::NearestChannel that should solve the evd crashes in a cleaner way
+-   2011-11-27 Brian Rebel : remove MagField as its functionality is now in the nutools MagneticField package
+-   2011-11-23 Andrzej Szelc : put in a fix, so that Simulation MCTruth vectors that arrive at the edge of the chamber don’t cause a crash of the event display. The Nearest Channel Method now returns 0 or max-channel number in case the calculation goes out of bounds and does not throw an exception.
+-   2011-11-22 Brian Rebel : return the TGeoNode::Name() rather than the TGeoVolume::Name() in Geometry::VolumeName() as the former provides a unique identifier for that instance of the requested volume
+-   2011-11-22 Eric Church : Until multi-cryo, multi-TPC code is robust, this geometry is nice to have.
+-   2011-11-21 Brian Rebel : make warning message about using default constructors more user friendly by giving an indication about when using the default ctors is expected. keep the message in place to remind people to not use default ctors when making data products to store in the event. also give the messages a common label in the message facility so that they can be quieted if desired.
+-   2011-11-20 Brian Rebel : add data members to hold the Clusters view and total charge in preparation for moving to a system where Clusters are associated with their constituent hits and dont own them. For now, return the view and charge information based on the owned collection of hits. Backwards compatibility is preserved. Will have to alter the signature of the constructor when we move to just using the Assns. These changes have been tested to ensure backwards compatibility.
+-   2011-11-20 Brian Rebel : clean up the RecoBaseDrawer code for several types of objects, including Clusters, Prongs, Vertices, and Events. Make use of the Hit() method in each of those to just call Hit2D when appropriate. Also make changes in anticipation of using art::Associations in the future. Direct use of Assns through FindMany objects is currently commented out. These changes have been tested and shown to work.
+-   2011-11-18 Brian Rebel : fix bad tag in packages-S2011.11.18
+-   2011-11-18 Brian Rebel : fix typo for S2011.11.18
+-   2011-11-18 Brian Rebel : change setup script to work for S2011.11.18
+-   2011-11-18 Brian Rebel : start process of tagging S2011.11.18
+-   2011-11-18 Brian Rebel : add some helpful comments at the end of long for loops and if statements. also some anal retentive curly brace management
+-   2011-11-18 Brian Rebel : make some output message lines of the code easier to read, clean up a few other things.
+-   2011-11-18 Eric Church : Need starting line as Info, not Debug.
+-   2011-11-18 Brian Rebel : remove initialization list from LArProperties constructor (again) because that is now handled by the reconfigure method. make use of @local syntax for the fcl file.
+-   2011-11-18 Eric Church : Take DriftTheElectrons out and avail of already existing \\!DisableWireplanes in sim::LArG4Parameters
+-   2011-11-18 Eric Church : Take DriftTheElectrons out and avail of already existing \\!DisableWireplanes in sim::LArG4Parameters
+-   2011-11-18 Eric Church : Take DriftTheElectrons out and avail of already existing \\!DisableWireplanes in sim::LArG4Parameters
+-   2011-11-18 Brian Rebel : make ElectronLifetime, Efield and Temperature in-line functions again. Implement reconfigure method. Clean up comments.
+-   2011-11-17 Eric Church : FileMuons changes for new lbnebulky. Center the muons over middle point between the 2 cryostats.
+-   2011-11-17 Eric Church : (Re)introduce switch to drift e’s. Default is true
+-   2011-11-17 Eric Church : (Re)introduce switch to drift e’s. Default is true
+-   2011-11-17 Brian Rebel : put in message about not using EventCheater for now. Need to wait for a feature from ART for it to really work.
+-   2011-11-17 Brian Rebel : make an association between MCTruth objects and the sim::Particles they correspond to. Rearrange the code in LArG4 to run one MCTruth through Geant4 at a time.
+-   2011-11-17 Brian Rebel : remove the art::Ptr\<simb::MCTruth\> as a data member of sim::Particle. Make associations between the particles put into the event and the simb::MCTruth instead. No code was using that data member or associated methods except EventFinder/EventCheater.cxx anyway.
+-   2011-11-17 Brian Rebel : improve the functioning of the HitCheater by making direct use of the number of electrons deposited per TDC from the SimChannels and converting that value to ADC through the use of DetectorProperties::ElectronsToADC. This avoids having to deal with bipolar pulses for induction planes.
+-   2011-11-17 Brian Page : Give microboone smaller values for minimum width to fix missing hit issue.
+-   2011-11-17 Adam Patch : addition of center rock + correction to placement of A/CPAs inside of cryostats
+-   2011-11-16 Kinga Partyka : adding additional info to the tree
+-   2011-11-16 Eric Church : More info and flags for condor.
+-   2011-11-15 David Mckee : Port impovements in the setup script to the KSU version.
+-   2011-11-15 Brian Rebel : fix bug in parsing of options
+-   2011-11-15 David Mckee : DBcluster had a dependency on the implementation of DBScanService that was causing Method=3 (the new clustering algorithm) to break. This commit brings all three methods into alignment, but **leaves the dependency**.
+-   2011-11-15 David Mckee : More changes to the logging priorities, and a minor defnesive test added to run\_dbscan\_cluster.
+-   2011-11-15 Brian Rebel : add in some missing quotes
+-   2011-11-15 Brian Rebel : dont try to delete the fActiveVolume as it was never **newed**. This change makes it possible to use the lbnebulky geometry.
+-   2011-11-14 David Mckee : Downgrade the severity of various informative output.
+-   2011-11-14 David Mckee : Fix a fencepost error with initializaing fBadWireSum, and gaurd against access errors to the same in AcceptFindNeignbor
+-   2011-11-14 Brian Page : Fix bug in the calculation of signal area for multi-hits.
+-   2011-11-14 Eric Church : Add -opportunistic to submit scripts to pick up extra, idle grid nodes. Rumor in gridland is that this could have a big effect in getting extra cycles.
+-   2011-11-13 David Mckee : ::Boggle:: The RStarTree has been storing positions as integers all along. This would certainly make it impossible to match the findNeighbors metric. Patched to use doubles.
+-   2011-11-13 David Mckee : Changes to the \#include file management to be more consistent with the rest of LArSoft. Should not affect function
+-   2011-11-13 Brian Rebel : remove Print() methods in favor of only having \<\< operators
+-   2011-11-13 Brian Rebel : remove Print() methods in favor of only having \<\< operators
+-   2011-11-13 Brian Rebel : remove Print() methods in favor of just having \<\< operators
+-   2011-11-13 Brian Rebel : add production of event to vertex associations
+-   2011-11-13 Brian Rebel : add production of vertex to track and vertex to shower associations
+-   2011-11-13 Brian Rebel : add production of shower to cluster associations and add commented out code to eventually do shower to hit associations
+-   2011-11-13 Brian Rebel : add production of track to cluster associations and add commented out code to eventually do track to hit associations
+-   2011-11-13 Brian Rebel : add production of cluster to hit associations
+-   2011-11-13 Brian Rebel : remove Event::Print and just use the \<\< operator, add necessary lines to make associations to classes.h and classes\_def.xml
+-   2011-11-13 Brian Rebel : fix bug that allowed a track id to be put into the sim::SimChannel that was not represented in the sim::ParticleList. See comments in ParticleListAction around line 145 to understand how that happened.
+-   2011-11-13 Brian Rebel : remove simulation related services from the microboone\_services configuration
+-   2011-11-12 Brian Rebel : make use of @local syntax to avoid repeating lots of lines in the fcl file for standard\_dbscanservice\_fast
+-   2011-11-11 Brian Rebel : update to use hit as the hit module label and to include shower and track module label parameters for the vertex cheater
+-   2011-11-11 Brian Rebel : quiet set but not used complier warning and also suggest parentheses around && within ||
+-   2011-11-11 Brian Rebel : quiet set but not used complier warning
+-   2011-11-11 Brian Rebel : quiet set but not used complier warning
+-   2011-11-11 Brian Rebel : quiet set but not used complier warning
+-   2011-11-11 Brian Rebel : use the process string to determine if a particle is a primary one or not. this is in anticipation of eventually using art::Assns to associate sim::Particles to simb::MCTruth objects and removing the Primary() method and fprimary data member from sim::Particle.
+-   2011-11-11 Brian Rebel : comment out kc and khbar until they are needed in order to quiet compiler warnings
+-   2011-11-10 David Mckee : Convert some naive debugging output to use the framework logger.
+-   2011-11-10 David Mckee : Reworked DBScanService now supporting two R\*-tree based methods of clustering. The existing code is still present and accessible my setting Method to 0 in the FCL file.
+-   2011-11-10 David Mckee : Provide a R\*-tree implementation to speed up DBSCAN. From [http://www.virtualroadside.com/blog/index.php/2008/10/04/r-tree-implementation-for-cpp/](http://www.virtualroadside.com/blog/index.php/2008/10/04/r-tree-implementation-for-cpp/)
+-   2011-11-10 Brian Rebel : quiet some compiler warnings and add a few comments
+-   2011-11-10 Brian Rebel : fix method to return cryostat boundaries to be in the world coordinates. also add data members to save the cryostat volume and rotation matrix.
+-   2011-11-10 Brian Rebel : add method to TPCGeo to return the drift distance for the TPC.
+-   2011-11-10 Brian Rebel : make SimWireMicroBooNE get the number of time samples from the DetectorProperties service. Also change std::cout and std::cerr to us the MessageLogger instead. Truncate the number of entries in the produced ADC vector to be the number of time samples before filling the RawDigit.
+-   2011-11-10 Brian Rebel : add number of time samples for a readout frame to the DetectorProperties service, set to 2048 for ArgoNeuT, 3200 for uB/LBNE
+-   2011-11-10 Georgia Karagiorgi : Accompanying changes to updated electronics simulation for MicroBooNE, revision 2064
+-   2011-11-10 Georgia Karagiorgi : Updated electronics simulation for MicroBooNE with more realistic electronics response function (from BNL SPICE simulation)
+-   2011-11-09 Brian Page : Oops, try again.
+-   2011-11-09 Brian Page : Initial import of code to generate response functions for deconvolution of Microboone data.
+-   2011-11-09 Andrzej Szelc : switch recontruction autozoom to digits instead of hits
+-   2011-11-09 David Mckee : Bring the KSU setup script up to date
+-   2011-11-09 Brian Rebel : add ability to select type of build when sourcing the setup script. for now the default is debug, so that every one setting up at FNAL will get the debug build. this build does not hamper performance for users working interactively. those wishing a non-debug build will have the option of a profile build called prof as soon as it is available from the cet group.
+-   2011-11-09 Brian Rebel : remove the Old from ChannelToWire calls
+-   2011-11-09 Brian Rebel : make the new ChannelToPlaneWire also return const WireGeo& like the old one instead of a void
+-   2011-11-09 Eric Church : Signature change on ChannelToWire out from under us. Use ChannelToWireOld for now to allow the build. Defer intended use of new ChannelToWire to author of signature change or this code itself
+-   2011-11-09 Eric Church : Conform to NearestChannel() change
+-   2011-11-09 Brian Rebel : changes to account for NearestChannelFast now being NearestChannel, ie make the signature of the methods agree
+-   2011-11-09 Brian Rebel : changes to account for NearestChannelFast now being NearestChannel, ie make the signature of the methods agree
+-   2011-11-09 Brian Rebel : changes to account for NearestChannelFast now being NearestChannel, ie make the signature of the methods agree
+-   2011-11-09 Brian Rebel : change NearestChannel to NearestChannelOld and NearestChannelFast to NearestChannel. Similar changes for other fast labeled methods
+-   2011-11-08 Brian Rebel : add configuration for HitCheater. also update the cheaterreco.fcl job to use the HitCheater
+-   2011-11-08 Brian Rebel : add new HitCheater to make hits from the MCTruth information. The hits wont line up exactly in the event display with the signals from the recob::Wire objects. The deconvolution seems to shift the peak time of the signals to be earlier than the raw data would seem to indicate. These hits should be good enough for now. This module should allow people trying to work on MicroBooNE reconstruction to make progress until the electronics simulation for MicroBooNE is sorted out.
+-   2011-11-08 Brian Rebel : format the output of the Hit \<\< operator
+-   2011-11-07 Brian Rebel : protect against there not being a neutrino in the MCTruth for the case of single particle or cosmic ray files
+-   2011-11-06 Saima Farooq : avoiding conflict: analysis should read those track that are used in track matching with MINOS, (if wish to use tracks from spacepts, replace ‘track3d’ by ‘spacepts’ in analysistreemodule.fcl AND in matchtracksmodule.fcl both
+-   2011-11-06 Saima Farooq : deleting SimListUtils as a service for each experiment to avoid error about \<experiment\>\_simlistutils while running evd.fcl job
+-   2011-11-05 Brian Rebel : remove SimListUtils as a service in the list of simulation services for each experiment. This fixes errors of the type
+-   2011-11-05 Brian Rebel : missed one commit on the SimListUtils conversion away from a service
+-   2011-11-05 Saima Farooq : fix a couple of problems so that the job runs
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : keep backing out the SimListUtils as service
+-   2011-11-04 Brian Rebel : Change SimListUtils back to **not** being a service. Having it as a service caused problems in jobs where both the LArG4 and LArG4Ana modules were run. The issue is that as a service it was unable to grab the simulation produced objects in the preEvent processing as they were not yet made.
+-   2011-11-03 Brian Rebel : remove superfluous line
+-   2011-11-03 Mitchell Soderberg : Added a few more plots.
+-   2011-11-03 Brian Rebel : change to using xxx\_simulation\_services
+-   2011-11-03 Brian Rebel : with ROOT v5.30.02 we can finally use the OGL view for 3D.
+-   2011-11-03 Mitchell Soderberg : Changed 3D display background color to white. Removed unnecessary cout statements.
+-   2011-11-02 Brian Rebel : turn the SimListUtils services back on in the simulation\_services parameter sets as the previous commit to SimListUtils fixes the problem that was keeping people from running jobs.
+-   2011-11-02 Brian Rebel : check that the art::Handle\< std::vector\<sim::Particle\> \> was successfully found in this event, simply return if it wasnt as that means we cant fill a particle list, etc
+-   2011-11-02 Kinga Partyka : adding more info to branches
+-   2011-11-02 Mitchell Soderberg : Initial commit of ArgoNeuT-specific EventDisplay, which builds on top of LArSoft EventDisplay. The main purpose of this display is to draw a 3D version of ArgoNeuT+MINOS and show tracks reconstructed in both. Tracks in ArgoNeuT that are matched to negatively(positively) charged MINOS tracks are drawn with blue(red) markers, and the MINOS tracks as blue(red) lines. Unmatched negative(positive) MINOS tracks are drawn as unconnected blue(red) markers. Unmatched ArgoNeuT tracks are drawn as green markers.
+-   2011-11-02 Brian Rebel : remove SimListUtils from list of services for now
+-   2011-11-02 Andrzej Szelc : turn the uboone noise back down to 0.0132
+-   2011-11-02 Mitchell Soderberg : Fix a few things in Calorimetry.
+-   2011-11-02 Brian Rebel : clean up SimListUtils.cxx
+-   2011-11-01 William Seligman : Get SimListUtils to compile. I hope my guesses on what was intended are correct.
+-   2011-11-01 Andrzej Szelc : update argoneut .gdml file to work with the new version of root
+-   2011-11-01 Brian Rebel : make all the lists in the preEvent method as data members and distribute those when using the service
+-   2011-11-01 Brian Rebel : fix typo
+-   2011-11-01 Andrzej Szelc : clean up remaining compiler warnings
+-   2011-11-01 Brian Rebel : add SimListUtils to list of services
+-   2011-11-01 Andrzej Szelc : now works for newest geometry, still work in progress
+-   2011-11-01 Andrzej Szelc : now works for newest geometry, upgrade of shower start finding algorithm, clean up compiler warnings. Still work in progress
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now, also quite compiler warnings about set but not used variables
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : add ability to get list of SimChannels for event from SimListUtils
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : adapt to sim::SimListUtils being a service now
+-   2011-11-01 Brian Rebel : make use of new user simulation services parameter sets
+-   2011-11-01 Brian Rebel : add new configurations called xxx\_simulation\_services where xxx is an experiment name. Simulation jobs should use these parameter sets for the user services. This means that non-simulation jobs no longer require the loading of simulation specific services
+-   2011-11-01 Brian Rebel : make SimListUtils into a service
+-   2011-10-31 Brian Rebel : change to art v1.00.02
+-   2011-10-31 Mitchell Soderberg : Small tweak to muonana.fcl
+-   2011-10-31 Mitchell Soderberg : Update muonana.fcl file so job runs.
+-   2011-10-31 Brian Rebel : Calorimetry now part of T962 package
+-   2011-10-31 Brian Rebel : remove Calorimetry from list of LArSoft packages as it is now a T962 package
+-   2011-10-31 Brian Rebel : remove Calorimetry from list of LArSoft packages as it is now a T962 package
+-   2011-10-31 Mitchell Soderberg : Migrate Calorimetry code to T962 since it is heavily ArgoNeuT specific.
+-   2011-10-31 Saima Farooq : fixing ‘Recursive \#include directive’ error
+-   2011-10-31 Brian Rebel : remove redundant include .fcl file
+-   2011-10-31 Brian Rebel : changes updated for new version of ART v1.00.01
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Christopher Green : Updates for ART v1.0
+-   2011-10-31 Brian Rebel : more changes for switch to art v1.00.01
+-   2011-10-31 Brian Rebel : handle build log correctly
+-   2011-10-31 Brian Rebel : put comma in the correct location
+-   2011-10-31 Brian Rebel : add ability to handle nutools cvs repository for nutools packages
+-   2011-10-31 Brian Rebel : make Calorimetry build after T962 as it now depends on that package
+-   2011-10-31 Brian Rebel : update external versions for build against art v1.00.01
+-   2011-10-31 Brian Rebel : remove redundant include of simulationservices.fcl as it is included already in service.fcl
+-   2011-10-31 Saima Farooq : making NUANCEGen read the ‘after FSI particles’ from nuance. still reads undecayed hyperons from channel 95
+-   2011-10-30 Kinga Partyka : fixed compiler warnings
+-   2011-10-30 Kinga Partyka : minor changes
+-   2011-10-30 Kinga Partyka : minor changes
+-   2011-10-29 Kinga Partyka : adding some info to trees
+-   2011-10-29 Kinga Partyka : fixed missing label,other minor changes
+-   2011-10-28 Mitchell Soderberg : Add information about MINOS track matching, and make plots for matched tracks. Need to migrate all this ArgoNeuT-specific code elsewhere soon.
+-   2011-10-28 Brian Rebel : fix link to be MagneticField rather than MagField
+-   2011-10-28 Ornella Palamara : Correction of a mistake in LifetimeCorrection
+-   2011-10-28 Mitchell Soderberg : Bug fix to Track3Dreco and SpacePts. SpacePoints incorrectly created by not considering all Hit combinations.
+-   2011-10-27 Mitchell Soderberg : Changes to some of the plots produced by MuonAna.
+-   2011-10-27 Brian Rebel : fix up algorithm to determine distance of an energy deposition from the axis of a EM shower
+-   2011-10-27 Brian Rebel : forward declare LArVoxelList
+-   2011-10-27 Brian Rebel : adapt to new MagenticField rather than MagField service
+-   2011-10-27 Adam Patch : first port of Josh’s cc-inclusive analysis root macros, just for the record
+
+larevt v08\_02\_09
+----------------------------------------
+
+-   2019-04-16 Lynn Garren : larevt v08\_02\_09 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-10 Kyle Knoepfel : Remove unused headers.
+-   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
+-   2019-04-10 Kyle Knoepfel : Remove unused ActivityRegistry.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
+
+lardata v08\_03\_10
+------------------------------------------
+
+-   2019-04-16 Lynn Garren : lardata v08\_03\_10 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Fix compile-time failure.
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-11 Kyle Knoepfel : Remove unused header dependency.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-10 Kyle Knoepfel : Remove unused headers.
+-   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
+-   2019-04-10 Kyle Knoepfel : Remove unused ActivityRegistry.
+-   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
+
+larcore v08\_02\_06
+------------------------------------------
+
+-   2019-04-16 Lynn Garren : larcore v08\_02\_06 for larsoft v08\_15\_01
+-   2019-04-16 Lynn Garren : larcore v08\_02\_06 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-10 Kyle Knoepfel : Change ServiceHandle\<T\> to ServiceHandle\<T const\> where possible.
+-   2019-04-10 Kyle Knoepfel : Remove unused ActivityRegistry argument.
+
+larpandoracontent v03\_14\_06
+--------------------------------------------------------------
+
+larsoftobj v08\_10\_01
+------------------------------------------------
+
+-   2019-04-16 Lynn Garren : larsoftobj v08\_10\_01 for larsoft v08\_15\_01
+-   2019-04-16 Lynn Garren : product versions
+
+lardataobj v08\_02\_07
+------------------------------------------------
+
+-   2019-04-16 Lynn Garren : lardataobj v08\_02\_07 for larsoft v08\_15\_01
+-   2019-04-11 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-11 Kyle Knoepfel : Remove unused header.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-11 Kyle Knoepfel : Remove unused header dependencies.
+
+lardataalg v08\_05\_01
+------------------------------------------------
+
+-   2019-04-16 Lynn Garren : lardataalg v08\_05\_01 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-11 Kyle Knoepfel : Remove unnecessary header dependencies.
+-   2019-04-11 Lynn Garren : larsoft v08\_15\_00
+-   2019-04-11 Kyle Knoepfel : Remove unused headers.
+-   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros.
+
+larcorealg v08\_07\_01
+------------------------------------------------
+
+-   2019-04-16 Lynn Garren : larcorealg v08\_07\_01 for larsoft v08\_15\_01
+-   2019-04-16 Lynn Garren : larcorealg v08\_07\_01 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+-   2019-04-11 Kyle Knoepfel : Remove unnecessary header dependencies.
+
+larcoreobj v08\_03\_01
+------------------------------------------------
+
+-   2019-04-16 Lynn Garren : larcoreobj v08\_03\_01 for larsoft v08\_15\_01
+-   2019-04-12 Kyle Knoepfel : Remove trailing whitespace.
+
+larbatch v01\_51\_01
+--------------------------------------------
+
+-   2019-04-16 Lynn Garren : larbatch v01\_51\_01 for larsoft v08\_15\_01
+-   2019-04-15 Herbert Greenlee : Modify sam process description to be jobsub job id.
+
+larutils v1\_23\_14
+------------------------------------------

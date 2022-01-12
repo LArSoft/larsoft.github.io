@@ -14,9 +14,9 @@ Quick Start Guides - experiment specific
 
 [List of LArSoft releases](LArSoft_release_list)
 
-[List of supported platforms](_Supported_platforms_)
+[List of supported platforms](Supported_platforms)
 
-[Packages and dependencies](_LArSoft_repositories_packages_and_dependencies_)
+[Packages and dependencies](LArSoft_repositories_packages_and_dependencies)
 
 [Working with GitHub and LArSoft pull requests](Working_with_GitHub)
 
