@@ -27,7 +27,7 @@ a simple service, following the factorization model
 
 `AtomicNumber`
 
-[larexamples:source:larexamples/Services/AtomicNumber](/redmine/projects/larexamples/repository/entry/larexamples/Services/AtomicNumber)
+[larexamples:source:larexamples/Services/AtomicNumber](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/entry/larexamples/Services/AtomicNumber)
 
 a simple service depending on other services
 
@@ -37,7 +37,7 @@ a simple service, with experiment-specific implementations
 
 `ShowerCalibrationGalore`
 
-[larexamples:source:larexamples/Services/ShowerCalibrationGalore](/redmine/projects/larexamples/repository/entry/larexamples/Services/ShowerCalibrationGalore)
+[larexamples:source:larexamples/Services/ShowerCalibrationGalore](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/entry/larexamples/Services/ShowerCalibrationGalore)
 
 similar to `ShowerCalibrationGalore`, but needs to know about new run and events
 
@@ -51,7 +51,7 @@ a trivial reconstruction algorithm using services, with a unit test
 
 `RemoveIsolatedSpacePoints`
 
-[larexamples:source:larexamples/Algorithms/RemoveIsolatedSpacePoints](/redmine/projects/larexamples/repository/entry/larexamples/Algorithms/RemoveIsolatedSpacePoints)
+[larexamples:source:larexamples/Algorithms/RemoveIsolatedSpacePoints](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/entry/larexamples/Algorithms/RemoveIsolatedSpacePoints)
 
 a trivial producer module with a integration test
 
@@ -67,7 +67,7 @@ a module producing a new data product and its associations
 
 `TotallyCheatTracks`
 
-[larexamples:source:larexamples/Algorithms/TotallyCheatTracks](/redmine/projects/larexamples/repository/entry/larexamples/Algorithms/TotallyCheatTracks)
+[larexamples:source:larexamples/Algorithms/TotallyCheatTracks](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/entry/larexamples/Algorithms/TotallyCheatTracks)
 
 analysis module
 
@@ -75,7 +75,7 @@ analysis module
 
 `AnalysisExample`
 
-[larexamples:source:larexamples/AnalysisExample](/redmine/projects/larexamples/repository/entry/larexamples/AnalysisExample)
+[larexamples:source:larexamples/AnalysisExample](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/entry/larexamples/AnalysisExample)
 
 Tests are in the matching `test/...` directory (for example, a service in `larexamples/Services/AtomicNumber/Services` will have its tests in `test/Services/AtomicNumberService/Services`).
 

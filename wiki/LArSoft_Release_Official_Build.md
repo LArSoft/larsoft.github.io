@@ -51,7 +51,7 @@ Build larsoft from the new tag
 
 -   At this time, Ubuntu builds are done from a vagrant box on woof or cluck
     -   It turns out that vbox instances work best when not shared
-    -   Instructions for settting up an Ubuntu vagrant box: [Ubuntu_VM](/redmine/projects/ubuntu-vm/wiki/Ubuntu_VM)
+    -   Instructions for settting up an Ubuntu vagrant box: [Ubuntu_VM](https://cdcvs.fnal.gov/redmine/projects/ubuntu-vm/wiki/Ubuntu_VM)
 -   We use the same procedures that are used by the Jenkins build
 -   install larutils
 

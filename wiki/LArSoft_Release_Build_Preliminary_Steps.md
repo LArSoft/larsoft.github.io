@@ -113,7 +113,7 @@ Using the CI to check feature branches
         trigger --build-delay 0 --revisions "lardataobj@feature/bb_recobslice larreco@feature/bb_restruct" 
 
 -   In special cases, test a release candidate.
-    -   workflows are listed on the [lar_ci wiki](/redmine/projects/lar_ci/wiki/LArCI_Workflows)
+    -   workflows are listed on the [lar_ci wiki](https://cdcvs.fnal.gov/redmine/projects/lar_ci/wiki/LArCI_Workflows)
 
             trigger --build-delay 0 --revisions "*@feature/team_for_art_v3" --workflow argoneutcode_wf
 

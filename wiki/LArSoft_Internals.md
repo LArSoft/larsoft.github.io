@@ -54,8 +54,8 @@ Some pages in LArSoft have a combination of useful and out-of-date information. 
 -   [Reconstruction](Reconstruction) - merge into larsoft.org?
 -   [Simulation](Simulation) - update code references, split?
 -   [Space Points](Space_Points) - out of date?
--   [Seed Finding and Bezier Tracking](/redmine/projects/larsoftsvn/wiki/Seed_Finding_and_Bezier_Tracking) - look at legacy info, maybe delete, or find owner?
--   [Optical Simulations](/redmine/projects/larsoftsvn/wiki/Optical_Simulations) - - look at legacy info, update, split?
+-   [Seed Finding and Bezier Tracking](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/Seed_Finding_and_Bezier_Tracking) - look at legacy info, maybe delete, or find owner?
+-   [Optical Simulations](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/Optical_Simulations) - - look at legacy info, update, split?
 -   [dependencies](Dependencies)
 
 [FNAL Redmine tricks](FNAL_Redmine_tricks)
@@ -102,7 +102,7 @@ Legacy Redmine project sites
 
 These were the sites used when LArSoft was developed under cvs and svn + SoftRelTools, respectively:
 
-[LArSoft-cvs wiki for the legacy cvs-based LArSoft project](/redmine/projects/larsoft-cvs/wiki)
-[LArSoft-svn wiki for the legacy svn-based LArSoft project](/redmine/projects/larsoftsvn/wiki)
+[LArSoft-cvs wiki for the legacy cvs-based LArSoft project](https://cdcvs.fnal.gov/redmine/projects/larsoft-cvs/wiki)
+[LArSoft-svn wiki for the legacy svn-based LArSoft project](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki)
 
 As of Jan 24, 2014, LArSoft transitioned from svn / SRT to git / mrb / ups, but we retain the legacy projects for historical reasons.

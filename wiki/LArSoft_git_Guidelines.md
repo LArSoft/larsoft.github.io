@@ -105,4 +105,4 @@ Note that all branches are created from the develop branch, with the exception o
 
 Developers who choose not to use git flow are expected to understand the details of the workflow model and adhere to the model conventions.
 
-For specific instructions on using git flow, see the [git flow quick-start guide](/redmine/projects/cet-is-public/wiki/Git_flow_quick_start).
+For specific instructions on using git flow, see the [git flow quick-start guide](https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/Git_flow_quick_start).

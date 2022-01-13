@@ -10,7 +10,7 @@ General instructions for managing software
 -   login as cvmfslarsoft@oasiscfs
     -   you will be in the /home/cvmfslarsoft directory
 -   FIFE instructions
-    -   copied from [Introduction_to_FIFE_and_Component_Services](/redmine/projects/fife/wiki/Introduction_to_FIFE_and_Component_Services#OASISCVMFS-process-for-VOs-that-have-Fermilab-as-a-host-institution)
+    -   copied from [Introduction_to_FIFE_and_Component_Services](https://cdcvs.fnal.gov/redmine/projects/fife/wiki/Introduction_to_FIFE_and_Component_Services#OASISCVMFS-process-for-VOs-that-have-Fermilab-as-a-host-institution)
     -   The files for the repository are found in /cvmfs/larsoft.opensciencegrid.org.
         -   They are initially read-only until a transaction is started.
     -   Do cvmfs_server transaction larsoft.opensciencegrid.org to initiate a transaction.

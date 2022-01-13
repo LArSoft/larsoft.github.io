@@ -18,4 +18,4 @@ Installing cvmfs
 Experiment specific instructions
 ----------------------------------------------------------------------
 
-MicroBooNE instructions for [SLF and OSX](/redmine/projects/uboonecode/wiki/CVMFS)
+MicroBooNE instructions for [SLF and OSX](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/CVMFS)
