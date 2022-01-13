@@ -1,5 +1,5 @@
 -   **Table of contents**
--   [\<PackageName\>](#ltPackageNamegt)
+-   [\<PackageName\>](PackageName)
     -   [Summary](#Summary)
     -   [List of Parameters for the Modules in your Package](#List-of-Parameters-for-the-Modules-in-your-Package)
     -   [Usage](#Usage)
