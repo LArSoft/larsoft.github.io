@@ -52,7 +52,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_09_01|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_09_01)|
+|nutools|v2_09_01|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_09_01)|
 |larpandoracontent|v03_01_02|e10||
 
 Change List

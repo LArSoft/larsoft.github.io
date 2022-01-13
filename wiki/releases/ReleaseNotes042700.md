@@ -28,7 +28,7 @@ Purpose
 --------------------
 
 -   use art v1_16_02
-    -   [Release_Notes_11602](/redmine/projects/art/wiki/Release_Notes_11602)
+    -   [Release_Notes_11602](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11602)
     -   changes to gcc, python, root, and other products
     -   [presentation](https://indico.fnal.gov/getFile.py/access?contribId=11&resId=1&materialId=slides&confId=10545)
 -   except for required changes, the code is identical to v04_26_02

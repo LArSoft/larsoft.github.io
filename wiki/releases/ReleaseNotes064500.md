@@ -69,7 +69,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_15_00|e14|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_15_00)|
+|nutools|v2_15_00|e14|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_15_00)|
 |geant4|v4_10_3_p01a|e14||
 |genie|v2_12_6a|e14||
 |dk2nu|v01_05_00e|e14||

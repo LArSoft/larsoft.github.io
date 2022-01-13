@@ -41,7 +41,7 @@ New features
     -   The noifdh build is no longer necessary.
     -   Athough building with ifdhc is supported, using ifdhc needs to be tested.
     -   The optional ifdh_platform_pkgs product, found in the “common” ups db is required to use ifdhc, but is not yet thouroughly tested.
-    -   [SupportedPlatforms](/redmine/projects/ifdhc/wiki/SupportedPlatforms)
+    -   [SupportedPlatforms](https://cdcvs.fnal.gov/redmine/projects/ifdhc/wiki/SupportedPlatforms)
 
 Bug fixes
 ------------------------

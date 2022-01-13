@@ -40,7 +40,7 @@ Purpose
 New features
 ------------------------------
 
--   new tutorial in [larexamples:source:larexamples/DebuggingExamples/CatchException](/redmine/projects/larexamples/repository/entry/larexamples/DebuggingExamples/CatchException) on how to interactively capture exception throwing in a *art* job with a debugger
+-   new tutorial in [larexamples:source:larexamples/DebuggingExamples/CatchException](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/entry/larexamples/DebuggingExamples/CatchException) on how to interactively capture exception throwing in a *art* job with a debugger
 -   updated documentation for `detutil::DetectorClocks` service provider
 -   `lardata` `feature/gp_TPCTime` (addition of `DetectorClocks::TPCTime()`)
 -   [Changes in LArPandoraContent v3.11](https://indico.fnal.gov/event/16752/contribution/0/material/slides/0.pdf)

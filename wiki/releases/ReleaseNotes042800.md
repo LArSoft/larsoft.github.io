@@ -33,7 +33,7 @@ Purpose
 New features
 ------------------------------
 
--   art v1_17_02 [Release Notes](/redmine/projects/art/wiki/Release_Notes_11702)
+-   art v1_17_02 [Release Notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11702)
     -   [ Breaking change ] Verification that products are put on the event: Per experiment request, it is now an error by default to fail to put a product on an event if a product has been declared in the module constructor using `produces<MyProduct>("optionalInstanceName")`. Failure to “put a product” may indicate a design flaw, which can cause difficulties in downstream `art` processes. For cases where conditional product-putting is required, the old behavior can be restored via FHiCL configuration. Resolves feature [redmine issue 7852](https://cdcvs.fnal.gov/redmine/issues/7852) (see posting for details).
 -   minor changes were required in 3 files to accommodate the new logic
     -   lardata/Utilities/TimeService_service.cc

@@ -40,7 +40,7 @@ Purpose
 --------------------
 
 -   art 3.09.03
--   See the art 3.09 [release notes](/redmine/projects/art/wiki/Series_309) and [breaking changes](/redmine/projects/art/wiki/309_breaking_changes)
+-   See the art 3.09 [release notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_309) and [breaking changes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/309_breaking_changes)
 -   Also see the talks at the [Sept. 21, 2021 Coordination Meeting](https://indico.fnal.gov/event/51092/)
     -   [LArSoft migration to art 3.09](https://indico.fnal.gov/event/51092/contributions/223975/attachments/147368/188807/2021-09-21.pdf)
     -   [Using cetbuildtools 8 and mrb 5](https://indico.fnal.gov/event/51092/contributions/223976/attachments/147413/188910/Mrb5Cetbuildtools8_2021-09-21.pdf)

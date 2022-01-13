@@ -13,7 +13,7 @@ larsoft v02_06_00
 lardata v02_06_00
 ------------------------------------------
 
--   implement changes required by art v1_10_00b - see [Release_Notes_11000](/redmine/projects/art/wiki/Release_Notes_11000)
+-   implement changes required by art v1_10_00b - see [Release_Notes_11000](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11000)
 -   RawData: art::PrincipalMaker has been replaced by art::SourceHelper
 -   Utilities: header for art::OutputFileInfo has moved from art/Framework/Core to art/Utilities
 

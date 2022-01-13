@@ -52,7 +52,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_01_01|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_00_01)|
+|nutools|v2_01_01|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_00_01)|
 |dk2nu|v01_04_00|e10:r6||
 |genie|v2_10_8c|e10:r6|use a matching root5 release for the root5 build|
 

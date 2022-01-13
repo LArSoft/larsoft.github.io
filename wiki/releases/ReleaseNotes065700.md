@@ -58,7 +58,7 @@ Updated dependencies
 -   ifdhc v2_2_1
 -   dk2nu v01_05_01
 -   genie v2_12_8a with ROOT_INCLUDE_PATH improvement
--   [nutools v2_16_07](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_07-11212017)
+-   [nutools v2_16_07](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_07-11212017)
 
 Change List
 ============================

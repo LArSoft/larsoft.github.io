@@ -73,7 +73,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_10_01|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_10_00)|
+|nutools|v2_10_01|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_10_00)|
 |dk2nu|v01_05_00|e10:r6||
 |ifdhc|v2_0_3|e10:p2711||
 |ifdhc_config|v2_0_3b|||

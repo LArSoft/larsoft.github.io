@@ -82,11 +82,11 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_06_01|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_01)|
-|ifdhc|v2_0_0|e10:p2711|[ifdh version 2](/redmine/projects/ifdhc/wiki/IFDH_Version_2_Major_Release)|
+|nutools|v2_06_01|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_01)|
+|ifdhc|v2_0_0|e10:p2711|[ifdh version 2](https://cdcvs.fnal.gov/redmine/projects/ifdhc/wiki/IFDH_Version_2_Major_Release)|
 |ifdh_art|v2_00_00|e10:nu:s44||
 |artdaq_core|v1_05_08|e10:nu:s44||
-|art|v2_04_01|e10:nu|[Release Notes 2.04.01](/redmine/projects/art/wiki/Release_Notes_20401)|
+|art|v2_04_01|e10:nu|[Release Notes 2.04.01](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20401)|
 
 Change List
 ============================

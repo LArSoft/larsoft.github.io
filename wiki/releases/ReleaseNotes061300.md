@@ -41,7 +41,7 @@ New features
     -   bug fix for Johnny Ho problem [redmine issue 14160](https://cdcvs.fnal.gov/redmine/issues/14160)
     -   Herb MixFilter feature request [redmine issue 13766](https://cdcvs.fnal.gov/redmine/issues/13766)
     -   artmod is explicitly deprecated [redmine issue 13654](https://cdcvs.fnal.gov/redmine/issues/13654)
-    -   deprecated [art features](/redmine/projects/art/wiki/Wiki#Deprecations) have been removed
+    -   deprecated [art features](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Wiki#Deprecations) have been removed
     -   feature/lg_for_art_v2_05_00 provided for argoneutcode, dunetpc, lariatsoft, and uboonecode
 -   larevt
     -   general service+provider for pmt gain calibration information
@@ -52,7 +52,7 @@ New features
 Breaking Changes
 --------------------------------------
 
--   deprecated [art features](/redmine/projects/art/wiki/Wiki#Deprecations) have been removed
+-   deprecated [art features](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Wiki#Deprecations) have been removed
 -   updates were required for fcl files
     -   Timing -\> TimeTracker
     -   SimpleMemoryCheck -\> MemoryTracker
@@ -64,11 +64,11 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_06_02|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_02)|
+|nutools|v2_06_02|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_02)|
 |nusimdata|v1_06_01|e10||
 |ifdh_art|v2_00_01|e10:nu:s43||
 |artdaq_core|v1_05_08|e10:nu:s43||
-|art|v2_05_00|e10:nu|[Release Notes 2.05.00](/redmine/projects/art/wiki/Release_Notes_20500)|
+|art|v2_05_00|e10:nu|[Release Notes 2.05.00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20500)|
 |canvas|v1_05_01|e10:nu||
 |cetpkgsupport|v1_11_00|||
 |git|v2_10_0|||

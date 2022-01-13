@@ -47,7 +47,7 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   nutools [v2_15_01](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_15_01-8222017)
+-   nutools [v2_15_01](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_15_01-8222017)
 
 Change List
 ============================

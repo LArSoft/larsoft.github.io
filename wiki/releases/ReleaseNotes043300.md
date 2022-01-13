@@ -50,7 +50,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|art|v1_17_06|e9:nu|[Release Notes 1.17.06](/redmine/projects/art/wiki/Release_Notes_11706)|
+|art|v1_17_06|e9:nu|[Release Notes 1.17.06](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11706)|
 |artdaq_core|v1_04_27|e9:nu:s28||
 |ifdh_art|v1_14_06|e9:nu:s28||
 |libwda|v2_22_2|||

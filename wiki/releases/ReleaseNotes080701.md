@@ -44,7 +44,7 @@ New features
 Bug fixes
 ------------------------
 
--   An incorrect porting of the fix to issue [redmine issue 20246](https://cdcvs.fnal.gov/redmine/issues/20246) resulted in __rdtscp calls still being made. This has been fixed in [art v3_01_01](/redmine/projects/art/wiki/Series_301#releases)
+-   An incorrect porting of the fix to issue [redmine issue 20246](https://cdcvs.fnal.gov/redmine/issues/20246) resulted in __rdtscp calls still being made. This has been fixed in [art v3_01_01](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_301#releases)
 
 Updated dependencies
 ----------------------------------------------

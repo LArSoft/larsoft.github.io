@@ -49,7 +49,7 @@ Breaking Changes
 -   Branch feature/team_for_art_v3_03 is provided for all experiment code.
 -   nutools EventDisplayBase is now in nuevdb
     -   If necessary, run UseNuevdb.sh (found in nutools v3_05_00)
--   see the [art series 3.03](/redmine/projects/art/wiki/Series_303) page for art breaking changes
+-   see the [art series 3.03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_303) page for art breaking changes
 -   boost v1_70_0 requires cmake v3_13_1 or later
     -   FindBoost.cmake uses an exact match for each version number
     -   please use cetbuildtools v7_14_00

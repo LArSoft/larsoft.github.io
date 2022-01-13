@@ -40,8 +40,8 @@ Purpose
 New features
 ------------------------------
 
--   art [v2_06_03](/redmine/projects/art/wiki/Release_Notes_20603)
--   nutools [v2_12_00](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_12_00-3302017)
+-   art [v2_06_03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20603)
+-   nutools [v2_12_00](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_12_00-3302017)
 
 Breaking Changes
 --------------------------------------
@@ -57,11 +57,11 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_12_00|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_12_00)|
+|nutools|v2_12_00|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_12_00)|
 |nusimdata|v1_07_01|e10||
 |ifdh_art|v2_01_02|e10:nu:s48||
 |artdaq_core|v1_07_02|e10:nu:s48||
-|art|v2_06_03|e10:nu|[Release Notes 2.06.03](/redmine/projects/art/wiki/Release_Notes_20603)|
+|art|v2_06_03|e10:nu|[Release Notes 2.06.03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20603)|
 |canvas|v1_06_04|e10:nu||
 |clhep|v2_3_4_4|e10||
 |root|v6_08_06d|e10:nu||

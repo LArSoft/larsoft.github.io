@@ -52,7 +52,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_10_00|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_10_00)|
+|nutools|v2_10_00|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_10_00)|
 |cetbuildtools|v5_06_06||recognize \*.tcc headers|
 
 Change List

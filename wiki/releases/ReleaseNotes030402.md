@@ -26,7 +26,7 @@ Purpose
 --------------------
 
 -   Include changes in development since v03_04_01.
--   Use art [v1_12_04](/redmine/projects/art/wiki/Release_Notes_11204), nutools v1_07_00, and root v5_34_23
+-   Use art [v1_12_04](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11204), nutools v1_07_00, and root v5_34_23
 -   Include the latest releases of artdaq_core and ifdh_art
 
 New features
@@ -49,7 +49,7 @@ Updated dependencies
 |root|v5_34_23|e6:nu|see bug [redmine issue 7253](https://cdcvs.fnal.gov/redmine/issues/7253)|
 |pandora|v00_17a|e6:nu|uses root|
 |genie|v2_8_0m|e6|uses root|
-|art|[v1_12_04](/redmine/projects/art/wiki/Release_Notes_11204)|e6:nu|feature requests|
+|art|[v1_12_04](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11204)|e6:nu|feature requests|
 |nutools|v1_07_00|e6|cleanup the link list|
 |ifdh_art|v1_6_0|e6:nu:s5|with ifdhc v1_5_1|
 |artdaq_core|v1_04_07|e6:nu:s5|uses art|

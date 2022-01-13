@@ -462,7 +462,7 @@ Release versions in **bold font** will be preserved according to the [production
 
 |Other Release|Date|Notes|Full release notes|
 |:------------|:---|:----|:-----------------|
-|**nu v2_17_04**|02/13/2018|DUNE Long Baseline production|[nutools v2_17_04](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_17_04-2132018)|
+|**nu v2_17_04**|02/13/2018|DUNE Long Baseline production|[nutools v2_17_04](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_17_04-2132018)|
 
 [Retired Production Releases](Retired_Production_Releases)
 

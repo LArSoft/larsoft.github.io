@@ -30,7 +30,7 @@ LArSoft v06_07_00 Release Notes
 Purpose
 --------------------
 
--   build with [art 2.04.00](/redmine/projects/art/wiki/Release_Notes_20400)
+-   build with [art 2.04.00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20400)
     -   feature/for_larsoft_v06_07_00 is provided for **dunetpc** and **lariatsoft**
     -   A simple mrb uv larsoft v06_07_00 is sufficient for uboonecode and argoneutcode
 -   update pandora
@@ -61,7 +61,7 @@ Updated dependencies
 |pandora|v02_09_02|e10:nu||
 |ifdh_art|v1_15_06|e10:nu:s42||
 |artdaq_core|v1_05_07|e10:nu:s42||
-|art|v2_04_00|e10:nu|[Release Notes 2.04.00](/redmine/projects/art/wiki/Release_Notes_20400)|
+|art|v2_04_00|e10:nu|[Release Notes 2.04.00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20400)|
 |geant4|v4_10_1_p03d|e10||
 |genie|v2_10_10a|e10:r6||
 |dk2nu|v01_04_01b|e10:r6||

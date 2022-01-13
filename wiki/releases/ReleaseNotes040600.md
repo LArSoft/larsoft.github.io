@@ -35,7 +35,7 @@ New features
 -   CalibrationDBI is enabled in larevt
 -   larpandora has been rewritten for pandora v01_01_00a
 -   This release is built with art v1_13_02
--   The distribution qualifer set is now s8-e7 [AboutQualifiers](/redmine/projects/cet-is-public/wiki/AboutQualifiers)
+-   The distribution qualifer set is now s8-e7 [AboutQualifiers](https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/AboutQualifiers)
 
 Bug fixes
 ------------------------

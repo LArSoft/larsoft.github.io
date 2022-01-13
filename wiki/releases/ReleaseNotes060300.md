@@ -50,12 +50,12 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_03_00|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_03_00)|
+|nutools|v2_03_00|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_03_00)|
 |nusimdata|v1_05_01|e10||
 |geant4|v4_10_1_p03b|e10||
 |ifdh_art|v1_15_04|e10:nu:s39||
 |artdaq_core|v1_05_04|e10:nu:s39||
-|art|v2_02_02|e10:nu|[Release Notes 2.02.02](/redmine/projects/art/wiki/Release_Notes_20202)|
+|art|v2_02_02|e10:nu|[Release Notes 2.02.02](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20202)|
 
 Change List
 ============================

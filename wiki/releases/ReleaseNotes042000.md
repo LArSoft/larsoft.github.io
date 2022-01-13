@@ -44,7 +44,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifier|Notes|
-|art|v1_15_02|e7:nu|[Release_Notes_11502](/redmine/projects/art/wiki/Release_Notes_11502)|
+|art|v1_15_02|e7:nu|[Release_Notes_11502](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11502)|
 |ifdh_art|v1_12_02|e7:nu:s15||
 |nutools|v1_14_02|e7 & e7:noifdh||
 |artdaq_core|v1_04_17|e7:nu:s15||

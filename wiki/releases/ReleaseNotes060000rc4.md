@@ -38,8 +38,8 @@ Several products have been split into separate parts. The new products make a su
 
 ||
 |art 1.xx|art 2.xx|notes|
-|art|art, canvas|[Release Notes 2.00.02](/redmine/projects/art/wiki/Release_Notes_20002)|
-|nutools|nutools, nusimdata|nusimdata contains SimulationBase [NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_00_00)|
+|art|art, canvas|[Release Notes 2.00.02](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20002)|
+|nutools|nutools, nusimdata|nusimdata contains SimulationBase [NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_00_00)|
 |larcore|larcore, larcoreobj|larcoreobj contains SimpleTypesAndConstants and SummaryData|
 |lardata|lardata, lardataobj|lardataobj contains AnalysisBase, MCBase, OpticalDetectorData, RawData, RecoBase, and part of Utilities|
 |larsim|larsim, larsimobj|larsimobj contains part of Simulation|
@@ -54,8 +54,8 @@ Updated dependencies
 ----------------------------------------------
 
 -   This release uses a new product stack built with gcc v4_9_3a (e10)
--   art v2_00_02 (s33) [Release_Notes_20002](/redmine/projects/art/wiki/Release_Notes_20002)
--   nutools v2_00_00 [NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_00_00)
+-   art v2_00_02 (s33) [Release_Notes_20002](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20002)
+-   nutools v2_00_00 [NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_00_00)
 -   [larsoftobj v1_02_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_02_00/larsoftobj-v1_02_00.html)
 
 Change List

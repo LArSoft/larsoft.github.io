@@ -62,13 +62,13 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_16_03|e14|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_03)|
+|nutools|v2_16_03|e14|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_03)|
 |nusimdata|v1_08_03|e14||
 |ifdh_art|v2_01_06|e14:nu:s54||
 |artdaq_core|v1_07_11|e14:nu:s54||
-|gallery|v1_05_02|e14:nu|[Release Notes 1.05.02](/redmine/projects/gallery/wiki/Release_Notes_10502)|
-|art|v2_08_03|e14:nu|[Release Notes 2.08.03](/redmine/projects/art/wiki/Release_Notes_20803)|
-|canvas|v3_00_02|e14:nu|[Release Notes 3.00.02](/redmine/projects/canvas/wiki/Release_Notes#30002)|
+|gallery|v1_05_02|e14:nu|[Release Notes 1.05.02](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/Release_Notes_10502)|
+|art|v2_08_03|e14:nu|[Release Notes 2.08.03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20803)|
+|canvas|v3_00_02|e14:nu|[Release Notes 3.00.02](https://cdcvs.fnal.gov/redmine/projects/canvas/wiki/Release_Notes#30002)|
 |root|v6_10_04d|e14:nu||
 |marley|v1_0_0a|e14||
 |pandora|v03_04_01a|e14:nu||

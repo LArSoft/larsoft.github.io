@@ -55,7 +55,7 @@ Updated dependencies
 -   nutools v2_26_11
     -   Per a request (and outstanding issue on my plate) I’ve added code so that one can configure the pulse-train time structure of the beam when using the FHICL parameter, ala: `physics.producers.generator.SpillTimeConfig:  " evgb::EvtTimeFNALBeam booster"`
     -   with no additional parameters EvtTimeFNALBeam configures for a NuMI setup, with “booster” it’s a one batch pulse train.
-    -   Additional parameters are configurable and will be documented on the [GENIEHelper wiki](/redmine/projects/nutools/wiki/GENIEHelper)
+    -   Additional parameters are configurable and will be documented on the [GENIEHelper wiki](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/GENIEHelper)
 
 -   nusystematics v00_02_10
 

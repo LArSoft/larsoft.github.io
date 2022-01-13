@@ -53,13 +53,13 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|canvas|v3_00_03|e14:nu|[Release Notes](/redmine/projects/canvas/wiki/Release_Notes)|
-|gallery|v1_05_03|e14:nu|[Release Notes](/redmine/projects/gallery/wiki/Release_Notes_10503)|
-|art|v2_08_04|e14:nu|[Release Notes](/redmine/projects/art/wiki/Series_208)|
+|canvas|v3_00_03|e14:nu|[Release Notes](https://cdcvs.fnal.gov/redmine/projects/canvas/wiki/Release_Notes)|
+|gallery|v1_05_03|e14:nu|[Release Notes](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/Release_Notes_10503)|
+|art|v2_08_04|e14:nu|[Release Notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_208)|
 |ifdh_art|v2_03_05|e14:nu:s56||
 |artdaq_core|v1_07_12|e14:nu:s56||
 |nusimdata|v1_08_04|e14||
-|nutools|v2_16_06|e14|[Release Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_06-10232017)|
+|nutools|v2_16_06|e14|[Release Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_06-10232017)|
 
 Change List
 ============================

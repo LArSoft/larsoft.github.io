@@ -37,7 +37,7 @@ New features
     -   this means that nutools now depends explicitly on ifdhc
     -   nutools and all products in the larsoft suite now support the noifdh qualifier
     -   OSX builds use the noifdh qualifier
-    -   [SupportedPlatforms](/redmine/projects/ifdhc/wiki/SupportedPlatforms) for ifdhc
+    -   [SupportedPlatforms](https://cdcvs.fnal.gov/redmine/projects/ifdhc/wiki/SupportedPlatforms) for ifdhc
 
 Bug fixes
 ------------------------

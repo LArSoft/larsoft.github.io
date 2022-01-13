@@ -58,7 +58,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_13_03|e14|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_13_03)|
+|nutools|v2_13_03|e14|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_13_03)|
 |genie|v2_12_6|e14|[http://releases.genie-mc.org/](http://releases.genie-mc.org/)|
 |geant4|v4_10_3_p01a|e14|[http://geant4.web.cern.ch/geant4/support/Patch4.10.3-1.txt](http://geant4.web.cern.ch/geant4/support/Patch4.10.3-1.txt)|
 

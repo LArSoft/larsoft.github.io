@@ -54,7 +54,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_06_03|e10|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_03)|
+|nutools|v2_06_03|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_03)|
 |genie|v2_12_0a|e10:r6|enable NeutronOsc module|
 |ifdhc|v2_0_1|e10:p2711||
 

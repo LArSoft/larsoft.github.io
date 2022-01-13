@@ -57,7 +57,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_16_05|e14|[release notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_05-10162017)|
+|nutools|v2_16_05|e14|[release notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_05-10162017)|
 |genie|v2_12_8|e14||
 |dk2nu|v01_05_00j|e14||
 |wirecell|v0_6_2|e14||

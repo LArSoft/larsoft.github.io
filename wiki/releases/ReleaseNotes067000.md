@@ -45,11 +45,11 @@ New features
 Breaking Changes
 --------------------------------------
 
--   [change to reconfigure](/redmine/projects/art/wiki/210_breaking_changes#Removal-of-modules-reconfigureParameterSet-const38-virtual-function)
+-   [change to reconfigure](https://cdcvs.fnal.gov/redmine/projects/art/wiki/210_breaking_changes#Removal-of-modules-reconfigureParameterSet-const38-virtual-function)
     -   The script no_reconfigure_override.sh is provided to remove the override.
--   [FirstAbsoluteOrLookupWithDotPolicy renamed](/redmine/projects/art/wiki/210_breaking_changes#Relocationrenaming-of-artFirstAbsoluteOrLookupWithDotPolicy)
+-   [FirstAbsoluteOrLookupWithDotPolicy renamed](https://cdcvs.fnal.gov/redmine/projects/art/wiki/210_breaking_changes#Relocationrenaming-of-artFirstAbsoluteOrLookupWithDotPolicy)
     -   there was only one instance of this
--   [SourceHelper cannot be copied](/redmine/projects/art/wiki/209_breaking_changes#SourceHelper-usage)
+-   [SourceHelper cannot be copied](https://cdcvs.fnal.gov/redmine/projects/art/wiki/209_breaking_changes#SourceHelper-usage)
     -   This change was made in art v2_09_06
     -   Further changes in SourceHelper.h force a compile time failure.
 -   There is no longer a nu qualified build of root. Instead, the e15 build contains all features that were in the nu qualified build.

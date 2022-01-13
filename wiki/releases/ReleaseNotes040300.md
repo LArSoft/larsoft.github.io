@@ -37,7 +37,7 @@ New features
 -   Yosemite build added
 -   Use the e7 qualifier for gcc v4_9_2
 -   The s7 qualifier denotes art v1_13_01
--   [AboutQualifiers](/redmine/projects/cet-is-public/wiki/AboutQualifiers)
+-   [AboutQualifiers](https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/AboutQualifiers)
 
 Bug fixes
 ------------------------

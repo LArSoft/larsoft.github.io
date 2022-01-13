@@ -42,7 +42,7 @@ Breaking Changes
 --------------------------------------
 
 -   See the [upgrade notes](Update_from_art_v2_to_art_v3)
--   And also the [art v3_00 breaking changes page](/redmine/projects/art/wiki/300_breaking_changes)
+-   And also the [art v3_00 breaking changes page](https://cdcvs.fnal.gov/redmine/projects/art/wiki/300_breaking_changes)
 
 Feature branches for experiment code
 ------------------------------------------------------------------------------

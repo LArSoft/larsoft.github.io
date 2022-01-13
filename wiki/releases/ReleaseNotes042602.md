@@ -43,7 +43,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifier|Notes|
-|cetbuildtools|v4_14_02||[Release_Notes](/redmine/projects/cetbuildtools/wiki/Release_Notes)|
+|cetbuildtools|v4_14_02||[Release_Notes](https://cdcvs.fnal.gov/redmine/projects/cetbuildtools/wiki/Release_Notes)|
 
 Change List
 ============================

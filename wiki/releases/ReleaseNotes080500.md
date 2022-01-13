@@ -42,7 +42,7 @@ New features
 ------------------------------
 
 -   All art LOG_XXX macros are now MF_LOG_XXX.
--   See the [art v3_01 release notes](/redmine/projects/art/wiki/Series_301) for more information.
+-   See the [art v3_01 release notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_301) for more information.
 
 -   feature/team_for_art_v3_01 is provided for experiment code.
 -   There is a migration script in message facility.

@@ -56,7 +56,7 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   nutools [v2_21_03](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_21_03-572018)
+-   nutools [v2_21_03](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_21_03-572018)
     -   `feature/gp_Issue19743` in `nutools` in
     -   resolve issue [redmine issue 19743](https://cdcvs.fnal.gov/redmine/issues/19743) (event time stamps very different with Clang)
 

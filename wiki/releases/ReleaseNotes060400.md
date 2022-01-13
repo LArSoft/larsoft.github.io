@@ -63,7 +63,7 @@ Updated dependencies
 |marley|v0_9_5|e10||
 |ifdh_art|v1_15_05|e10:nu:s41||
 |artdaq_core|v1_05_05|e10:nu:s41||
-|art|v2_03_00|e10:nu|[Release Notes 2.03.00](/redmine/projects/art/wiki/Release_Notes_20300)|
+|art|v2_03_00|e10:nu|[Release Notes 2.03.00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20300)|
 |mrb|v1_08_00||provide more information when mrbsetenv fails|
 
 Change List

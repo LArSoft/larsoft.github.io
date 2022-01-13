@@ -50,11 +50,11 @@ Changes
 
 ### general
 
--   see the list of [breaking changes](/redmine/projects/art/wiki/List_of_breaking_changes) in art
+-   see the list of [breaking changes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/List_of_breaking_changes) in art
 
 ### MemoryTracker
 
-The MemoryTracker ignoreTotal parameter has been deprecated since [art v2_04_01](/redmine/projects/art/wiki/Release_Notes_20401) and is now completely removed. A one line command will edit nearly all fcl files appropriately.
+The MemoryTracker ignoreTotal parameter has been deprecated since [art v2_04_01](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20401) and is now completely removed. A one line command will edit nearly all fcl files appropriately.
 
     find $PWD -name "*.fcl" | xargs perl -wapi\~ -e 's&MemoryTracker:(\s*)\{\s*ignoreTotal\s*:\s*1\s*\}&MemoryTracker:$1\{ \}&;'
 
@@ -62,7 +62,7 @@ The MemoryTracker parameter printSummaries has been dropped.
 
 ### lareventdisplay
 
-With art 2.07, services that need to be reconfigurable via the EventDisplay service must now inherit from the evdb::Reconfigurable base class. See the [nutools v2_14_00 release notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_14_00-672017)
+With art 2.07, services that need to be reconfigurable via the EventDisplay service must now inherit from the evdb::Reconfigurable base class. See the [nutools v2_14_00 release notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_14_00-672017)
 
 Such changes are necessary ONLY for services that are intended to be reconfigurable via the event display. Implementing multi-threading in art has introduced various constraints, one of which involves disabling implicit reconfiguration of services, which was supported in previous versions.
 
@@ -71,11 +71,11 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_14_00|e14|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_14_00)|
+|nutools|v2_14_00|e14|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_14_00)|
 |nusimdata|v1_08_00|e14||
 |ifdh_art|v2_01_06|e14:nu:s50||
 |artdaq_core|v1_07_08|e14:nu:s50||
-|art|v2_07_03|e14:nu|[Release Notes 2.07.03](/redmine/projects/art/wiki/Release_Notes_20703)|
+|art|v2_07_03|e14:nu|[Release Notes 2.07.03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20703)|
 |canvas|v2_00_02|e14:nu||
 |root|v6_08_06g|e14:nu||
 |cetbuildtools|v5_09_01|||

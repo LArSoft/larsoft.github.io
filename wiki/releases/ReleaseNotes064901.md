@@ -48,11 +48,11 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_16_04|e14|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_04)|
+|nutools|v2_16_04|e14|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_04)|
 |libwda|v2_24_0|||
 |ifdhc|v2_1_0|e14:p2713d||
 |ifdh_art|v2_03_04|e14:nu:s54||
-|[cetpkgsupport](/redmine/projects/cetpkgsupport/wiki)|v1_12_02||with new remove_product script|
+|[cetpkgsupport](https://cdcvs.fnal.gov/redmine/projects/cetpkgsupport/wiki)|v1_12_02||with new remove_product script|
 
 Change List
 ============================

@@ -54,7 +54,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v2_14_02|e14|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_14_02)|
+|nutools|v2_14_02|e14|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_14_02)|
 |ifdh_art|v2_02_01|e14:nu:s50||
 |ifdhc|v2_0_9|e14:p2713d||
 |ifdhc_config|v2_0_9a|||

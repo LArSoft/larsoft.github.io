@@ -52,7 +52,7 @@ Known issues
 
 ### ignoreTotal
 
-The MemoryTracker ignoreTotal parameter has been deprecated since [art v2_04_01](/redmine/projects/art/wiki/Release_Notes_20401) and has now been completely removed. A one line script will edit fcl files appropriately, however there are other instances in the code base that need to be investigated.
+The MemoryTracker ignoreTotal parameter has been deprecated since [art v2_04_01](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20401) and has now been completely removed. A one line script will edit fcl files appropriately, however there are other instances in the code base that need to be investigated.
 
     find $PWD -name "*.fcl" | xargs perl -wapi\~ -e 's&MemoryTracker:(\s*)\{\s*ignoreTotal\s*:\s*1\s*\}&MemoryTracker:$1\{ \}&;'
 
@@ -70,7 +70,7 @@ In addition, your service will need to link against the nutools_EventDisplayBase
 
 Such changes are necessary ONLY for services that are intended to be reconfigurable via the event display. Implementing multi-threading in art has introduced various constraints, one of which involves disabling implicit reconfiguration of services, which was supported in previous versions.
 
-See the [nutools v2_14_00 release notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_14_00-672017)
+See the [nutools v2_14_00 release notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_14_00-672017)
 
 ### uboonecode
 
@@ -78,7 +78,7 @@ The production.sh unit test fails. This needs to be investigated by experts.
 
 ### dunetpc
 
-dunetpc uses ServiceRegistry directly and needs a rewrite to accomodate changes in [art v2_07_03](/redmine/projects/art/wiki/Release_Notes_20703) See the list of [breaking changes](/redmine/projects/art/wiki/List_of_breaking_changes)
+dunetpc uses ServiceRegistry directly and needs a rewrite to accomodate changes in [art v2_07_03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20703) See the list of [breaking changes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/List_of_breaking_changes)
 
 Updated dependencies
 ----------------------------------------------
