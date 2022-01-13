@@ -43,7 +43,7 @@ New features
 
 -   To use larg4:
     -   setup larg4 v07_00_00
-    -   Adjust the relevant fcl files according to the [Migration Notes](LArG4_Migration_Notes)
+    -   Adjust the relevant fcl files according to the [Migration Notes](OBSOLETE_LArG4_Migration_Notes)
 
 Bug fixes
 ------------------------

@@ -468,8 +468,4 @@ Release versions in **bold font** will be preserved according to the [production
 
 [Retired Non-Production Releases](Older_Releases)
 
-[cvmfs Migration Plan](Cvmfs_Migration_Plan)
-
-[LArG4 Migration Notes](LArG4_Migration_Notes)
-
 [Notes about updating from art v2 to art v3](Update_from_art_v2_to_art_v3)

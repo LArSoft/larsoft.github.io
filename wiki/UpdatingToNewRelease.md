@@ -80,7 +80,7 @@ When a new LArSoft release is available and you want to develop against the new 
     -   git is very good about telling you how to resolve a conflict, please read the onscreen instructions
     -   in particular, if you get lost, `git status` usually explains what is left to do, and how to do that
 
-6.  Check the required code changes, if any; these are called “breaking changes” and they are documented in our [Breaking Changes](Breaking_Changes) wiki page. You may need to write update scripts and/or apply changes manually.
+6.  Check the required code changes, if any; these are called “breaking changes” and they are documented in our [Breaking Changes](releases/Breaking_Changes) wiki page. You may need to write update scripts and/or apply changes manually.
 7.  Make a clean build:
 
         cd $MRB_BUILDDIR
