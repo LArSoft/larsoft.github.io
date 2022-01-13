@@ -37,12 +37,12 @@ New features
 Bug fixes
 ------------------------
 
--   Bug [\#11340](/redmine/issues/11340 "Bug: MemoryTracker and TimeTracker file sqlite db crash (Closed)") reported by MicroBooNE
+-   Bug [redmine issue 11340](https://cdcvs.fnal.gov/redmine/issues/11340) reported by MicroBooNE
 
 Known problems
 ----------------------------------
 
--   generating with genie is broken [\#11441](/redmine/issues/11441 "Bug: misnamed library (Closed)")
+-   generating with genie is broken [redmine issue 11441](https://cdcvs.fnal.gov/redmine/issues/11441)
     -   The problem is resolved with nutools v1_20_02
 
 Updated dependencies

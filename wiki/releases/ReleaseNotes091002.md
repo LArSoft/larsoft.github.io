@@ -58,7 +58,7 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   nusimdata v1_21_04 for [\#25273](/redmine/issues/25273 "Feature: Changes to nusimdata -- saving Transportation steps (Assigned)")
+-   nusimdata v1_21_04 for [redmine issue 25273](https://cdcvs.fnal.gov/redmine/issues/25273)
     -   includes changes that allow steps with transportation to be saved in the process map, and thus preserved with sparsification.
     -   The relevant ‘Adding’ methods in MCParticle and MCtrajectory simply take a flag that determines if the point with transportation is saved. Default behavior is to not save, in order to avoid many points being saved in certain situations (i.e. NOvA).
 -   nuevdb v1_02_08
@@ -124,7 +124,7 @@ larsim v09_07_02
 ----------------------------------------
 
 -   2020-12-10 Lynn Garren : larsim v09_07_02 for larsoft v09_10_02
--   2020-12-10 Lynn Garren : Merge pull request [\#57](/redmine/issues/57 "Feature: Provide R scripts that make "interesting" plots (Closed)") from SBNSoftware/mdeltutt_mcshower
+-   2020-12-10 Lynn Garren : Merge pull request [redmine issue 57](https://cdcvs.fnal.gov/redmine/issues/57) from SBNSoftware/mdeltutt_mcshower
 -   2020-12-09 Marco Del Tutto : Changing mother_part to ancestor_part for MCShower ancestor start and end MCSteps.
 
 larg4 v09_01_06

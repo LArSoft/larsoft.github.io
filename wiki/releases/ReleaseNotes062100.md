@@ -45,8 +45,8 @@ New features
 Bug fixes
 ------------------------
 
--   nutools with fix for [\#15123](/redmine/issues/15123 "Bug: sim::ParticleList::clear() does not clear the set of primary particles (Closed)")
--   photon backtracker bug [\#15012](/redmine/issues/15012 "Bug: Job crashes if no photon backtracker information is available (Closed)") is resolved
+-   nutools with fix for [redmine issue 15123](https://cdcvs.fnal.gov/redmine/issues/15123)
+-   photon backtracker bug [redmine issue 15012](https://cdcvs.fnal.gov/redmine/issues/15012) is resolved
 
 Updated dependencies
 ----------------------------------------------

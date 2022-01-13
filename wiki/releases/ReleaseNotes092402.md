@@ -47,7 +47,7 @@ New features
 
 -   larpandoracontent PR 26
     -   This PR provides a series of updates to the MVA vertex selection procedure. This includes:
-        -   a fix to issue [\#157](https://github.com/PandoraPFA/LArContent/issues/157)
+        -   a fix to issue [redmine issue 157](https://github.com/PandoraPFA/LArContent/issues/157)
         -   the addition of a new tool to calculate the dE/dx asymmetry around a vertex candidate
         -   the addition of a new variable related to the energy of the hits directly nearby a vertex candidate
         -   functionality for and inclusion of some “shared” variables between a pair of vertex candidates
@@ -61,7 +61,7 @@ Bug fixes
     -   Cleanup corner-finder algorithm
 -   larrecodnn PR 20
     -   Fix unused-result Clang compilation warning
-    -   This PR addresses a compilation warning/error related to a discarded value as described [here](https://cdcvs.fnal.gov/redmine/issues/25871). The solution adopted here follows the tensorflow-suggested method for suppressing this type of error.
+    -   This PR addresses a compilation warning/error related to a discarded value as described [here](https://cdcvs.fnal.govhttps://cdcvs.fnal.gov/redmine/issues/25871). The solution adopted here follows the tensorflow-suggested method for suppressing this type of error.
 
 Updated dependencies
 ----------------------------------------------
@@ -123,7 +123,7 @@ larrecodnn v09_07_01
 
 -   2021-06-16 Lynn Garren : larrecodnn v09_07_01 for larsoft v09_24_02
 -   2021-06-16 Lynn Garren : Merge pull request \#20 from knoepfel/bugfix/knoepfel_fix_discarded_value
--   2021-06-14 Kyle Knoepfel : Fix bug [\#25871](/redmine/issues/25871 "Bug: larrecodnn compilation issues (Closed)"): use TF-provided method of suppressing ‘unused’ error.
+-   2021-06-14 Kyle Knoepfel : Fix bug [redmine issue 25871](https://cdcvs.fnal.gov/redmine/issues/25871): use TF-provided method of suppressing ‘unused’ error.
 
 larwirecell v09_02_08
 --------------------------------------------------
@@ -171,7 +171,7 @@ larpandoracontent v03_23_02
 
 -   2021-06-16 Lynn Garren : larpandoracontent v03_23_02 for larsoft v09_24_02
 -   2021-06-08 Andrew Chappell : Update version and ChangeLog
--   2021-06-08 AndyChappell : Merge pull request [\#169](/redmine/issues/169 "Bug: Fix typos in man page (Closed)") from henrylay97/feature/hlay_vertex_bdt_changes
+-   2021-06-08 AndyChappell : Merge pull request [redmine issue 169](https://cdcvs.fnal.gov/redmine/issues/169) from henrylay97/feature/hlay_vertex_bdt_changes
 -   2021-05-20 Henry Lay : Address review comments and apply format
 -   2021-05-14 Henry Lay : Inheritance corrections
 -   2021-05-14 Henry Lay : Create asymmetry base tool from which all asymmetry tools inherit

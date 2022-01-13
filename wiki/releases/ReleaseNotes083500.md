@@ -39,7 +39,7 @@ Purpose
 New features
 ------------------------------
 
--   resolve [\#23196](/redmine/issues/23196 "Support: Make GausHitFinder's dependence on RawDigit optional (Resolved)")
+-   resolve [redmine issue 23196](https://cdcvs.fnal.gov/redmine/issues/23196)
     -   larreco feature/usher_removerawdigits
     -   larana feature/usher_removeRawDigits
 -   larcorealg feature/gp_SplitWires

@@ -46,8 +46,8 @@ New features
 Bug fixes
 ------------------------
 
--   [\#16627](/redmine/issues/16627 "Bug: Cannot run g4 in argoneut simulation (Resolved)") (argoneutcode)
--   [\#16641](/redmine/issues/16641 "Bug: G4 produces multiple particles with the same TrackID when called from generators that may not pro... (Closed)")
+-   [redmine issue 16627](https://cdcvs.fnal.gov/redmine/issues/16627) (argoneutcode)
+-   [redmine issue 16641](https://cdcvs.fnal.gov/redmine/issues/16641)
 
 Updated dependencies
 ----------------------------------------------
@@ -103,7 +103,7 @@ larsim v06_22_01
 ----------------------------------------
 
 -   2017-05-23 Lynn Garren : larsim v06_22_01 for larsoft v06_37_00
--   2017-05-23 Jason Stock : Small change to ParticleListAction to assure that the fTrackIDOffset is only changed when in fact a track exists from a given generator. This addressed LArSoft issue [\#16641](/redmine/issues/16641 "Bug: G4 produces multiple particles with the same TrackID when called from generators that may not pro... (Closed)").
+-   2017-05-23 Jason Stock : Small change to ParticleListAction to assure that the fTrackIDOffset is only changed when in fact a track exists from a given generator. This addressed LArSoft issue [redmine issue 16641](https://cdcvs.fnal.gov/redmine/issues/16641).
 
 larevt v06_13_04
 ----------------------------------------

@@ -76,7 +76,7 @@ Bug fixes
 -   bug fixes for MicroBooNE
     -   larsim: feature/wketchum_OverrideRealDataBackTracker
     -   larana: feature/wketchum_OverrideRealData
--   larsim bug fix for [\#21417](/redmine/issues/21417 "Bug: BackTracker "HitToEveTrackIDEs" does not fill # electrons (Closed)")
+-   larsim bug fix for [redmine issue 21417](https://cdcvs.fnal.gov/redmine/issues/21417)
 
 Updated dependencies
 ----------------------------------------------
@@ -303,8 +303,8 @@ larsim v07_08_00
 -   2018-11-28 Jason Stock : Merge branch ‘feature/JStock_fix21417’ into develop
 -   2018-11-28 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
 -   2018-11-28 Jason Stock : Merge branch ‘feature/JStock_fix21417’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock_fix21417
--   2018-11-27 Jason Stock : Bugfix larsoft issue [\#21417](/redmine/issues/21417 "Bug: BackTracker "HitToEveTrackIDEs" does not fill # electrons (Closed)")
--   2018-11-27 Jason Stock : Bugfix larsoft issue [\#21417](/redmine/issues/21417 "Bug: BackTracker "HitToEveTrackIDEs" does not fill # electrons (Closed)")
+-   2018-11-27 Jason Stock : Bugfix larsoft issue [redmine issue 21417](https://cdcvs.fnal.gov/redmine/issues/21417)
+-   2018-11-27 Jason Stock : Bugfix larsoft issue [redmine issue 21417](https://cdcvs.fnal.gov/redmine/issues/21417)
 -   2018-11-21 Wesley Ketchum : Merge branch ‘feature/wketchum_OverrideRealDataBackTracker’ into develop
 -   2018-11-21 Wesley Ketchum : forgot a default option on override real data…
 -   2018-11-21 Wesley Ketchum : Merge branch ‘feature/wketchum_OverrideRealDataBackTracker’ into develop

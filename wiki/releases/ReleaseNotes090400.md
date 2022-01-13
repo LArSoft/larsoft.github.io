@@ -79,14 +79,14 @@ Bug fixes
 ------------------------
 
 -   larreco PR 20
-    -   resolves [\#24985](/redmine/issues/24985 "Bug: Some missing size checks in TrajClusterAlg::FindJunkTraj (Closed)")
+    -   resolves [redmine issue 24985](https://cdcvs.fnal.gov/redmine/issues/24985)
 -   larsim PR 42
     -   restore code lost in when v09 was created
 
 Updated dependencies
 ----------------------------------------------
 
--   mrb v4_02_00 for [\#24996](/redmine/issues/24996 "Bug: Cmake warning: No project() command is present (Closed)")
+-   mrb v4_02_00 for [redmine issue 24996](https://cdcvs.fnal.gov/redmine/issues/24996)
 
 Change List
 ============================

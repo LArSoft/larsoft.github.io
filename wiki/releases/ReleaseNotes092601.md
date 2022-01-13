@@ -49,14 +49,14 @@ Bug fixes
 ------------------------
 
 -   lardata PR 16
-    -   A memory black hole was reported in Redmine issue [\#26029](/redmine/issues/26029 "Bug: problem building larcorealg tests with art 3.09 (Closed)").
+    -   A memory black hole was reported in Redmine issue [redmine issue 26029](https://cdcvs.fnal.gov/redmine/issues/26029).
     -   It turns out to be a memory leak because of a “grievous error for the application”.
-    -   This commit should resolve said Redmine issue [\#26029](/redmine/issues/26029 "Bug: problem building larcorealg tests with art 3.09 (Closed)").
+    -   This commit should resolve said Redmine issue [redmine issue 26029](https://cdcvs.fnal.gov/redmine/issues/26029).
 -   larsim PR 70
-    -   This is a proposed solution to Redmine issue [\#26010](/redmine/issues/26010 "Necessary Maintenance: Flood of BackTracker warnings "No sim::SimChannel corresponding to channel" (Closed)").
+    -   This is a proposed solution to Redmine issue [redmine issue 26010](https://cdcvs.fnal.gov/redmine/issues/26010).
     -   The method cheat::BackTracker::ChannelToTrackIDEs() uses a new method cheat::BackTracker::FindSimChannelPtr() which is quiet and reports errors by a special return value (null art::Ptr).
 -   larpandoracontent PR 29
-    -   This PR adds libtorch support to Pandora for the c7 build. This addresses the issue raised in [redmine issue 26016](https://cdcvs.fnal.gov/redmine/issues/26016#change-84368)
+    -   This PR adds libtorch support to Pandora for the c7 build. This addresses the issue raised in [redmine issue 26016](https://cdcvs.fnal.govhttps://cdcvs.fnal.gov/redmine/issues/26016#change-84368)
     -   The ups/product_deps file is modified to include the c7 build. No other modifications are made to this file.
 
 Updated dependencies

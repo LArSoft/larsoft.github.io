@@ -42,7 +42,7 @@ Purpose
 New features
 ------------------------------
 
--   resolve [\#23196](/redmine/issues/23196 "Support: Make GausHitFinder's dependence on RawDigit optional (Resolved)")
+-   resolve [redmine issue 23196](https://cdcvs.fnal.gov/redmine/issues/23196)
     -   larreco feature/usher_hitfindernorawdigits
 
 Mojave build
@@ -142,8 +142,8 @@ lardataobj v08_04_10
 ------------------------------------------------
 
 -   2019-09-05 Lynn Garren : lardataobj v08_04_10 for larsoft v08_30_01
--   2019-08-20 Chris Green : Revert "Per Philippe C., workaround for [\#23013](/redmine/issues/23013 "Bug: Unable to read recob::Vertex position information (Closed)")" as too flaky.
--   2019-08-19 Chris Green : Per Philippe C., workaround for [\#23013](/redmine/issues/23013 "Bug: Unable to read recob::Vertex position information (Closed)").
+-   2019-08-20 Chris Green : Revert "Per Philippe C., workaround for [redmine issue 23013](https://cdcvs.fnal.gov/redmine/issues/23013)" as too flaky.
+-   2019-08-19 Chris Green : Per Philippe C., workaround for [redmine issue 23013](https://cdcvs.fnal.gov/redmine/issues/23013).
 
 lardataalg v08_08_05
 ------------------------------------------------

@@ -56,7 +56,7 @@ Bug fixes
 -   larrana PR 6
     -   In AlgoSlidingWindow, ophits are found by looking where the waveform goes above baseline. When a peak (ophit) is found, the ophit is not eneded immediately, but after a few samples (in the code are called “in_post” samples). In case a new peak is found during an in_post sample, the previous peak is not ended. This causes a weird behaviour. This is now fixed by ending the previous pulse, and starting a new one.
 -   larsim PR 13
-    -   resolve [\#24301](/redmine/issues/24301 "Bug: Erroneous calculation of Rectangle_SolidAngle() in OpFastScintillation. (Closed)")
+    -   resolve [redmine issue 24301](https://cdcvs.fnal.gov/redmine/issues/24301)
 
 Updated dependencies
 ----------------------------------------------
@@ -99,7 +99,7 @@ larrecodnn v08_03_00
 ------------------------------------------------
 
 -   2020-04-14 Lynn Garren : larrecodnn v08_03_00 for larsoft v08_50_00
--   2020-04-13 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from yangtj207/develop
+-   2020-04-13 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from yangtj207/develop
 -   2020-04-12 Tingjun Yang : Change based on Tom’s suggestion.
 -   2020-04-12 Tingjun Yang : Remove white spaces.
 -   2020-04-12 Tingjun Yang : Merge branch ‘develop’ of github.com:yangtj207/larrecodnn into develop
@@ -113,7 +113,7 @@ larana v08_17_03
 ----------------------------------------
 
 -   2020-04-14 Lynn Garren : larana v08_17_03 for larsoft v08_50_00
--   2020-04-13 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from marcodeltutto/ophits_work
+-   2020-04-13 Lynn Garren : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from marcodeltutto/ophits_work
 -   2020-04-09 Marco Del Tutto : Removing trailing whitespaces.
 -   2020-04-09 Marco Del Tutto : Merge branch ‘develop’ into ophits_work
 -   2020-04-09 Marco Del Tutto : In AlgoSlidingWindow, the peak is not ended in case it is in the in_post state, and a new peak is found. This is now fixed by ending the current pulse, and starting a new one.
@@ -129,7 +129,7 @@ larsim v08_22_03
 -   2020-04-14 Lynn Garren : larsim v08_22_03 for larsoft v08_50_00
 -   2020-04-13 Lynn Garren : Merge pull request \#13 from ikatza/develop
 -   2020-04-09 Iker de Icaza Astiz : Running removeWhiteSpace.sh
--   2020-04-09 Iker de Icaza Astiz : Handle swapped orientation of rectangles in Rectangle_SolidAngle(), related to Bug [\#24301](/redmine/issues/24301 "Bug: Erroneous calculation of Rectangle_SolidAngle() in OpFastScintillation. (Closed)")
+-   2020-04-09 Iker de Icaza Astiz : Handle swapped orientation of rectangles in Rectangle_SolidAngle(), related to Bug [redmine issue 24301](https://cdcvs.fnal.gov/redmine/issues/24301)
 
 larevt v08_11_02
 ----------------------------------------

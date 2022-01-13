@@ -126,7 +126,7 @@ larsim v06_10_01
 
 -   2016-12-20 Patrick Gartung : larsim v06_10_01 for larsoft v06_18_01
 -   2016-12-19 Jason Stock : Merge remote branch ‘origin’ into develop
--   2016-12-17 Steven Gardiner : Fix bug that prevents MARLEY from using nuclear structure data loaded using the larsim MARLEYGen module. This resolves LArSoft issue [\#14847](/redmine/issues/14847 "Bug: MARLEYGen module fails to use loaded nuclear structure data when simulating de-excitations (Resolved)").
+-   2016-12-17 Steven Gardiner : Fix bug that prevents MARLEY from using nuclear structure data loaded using the larsim MARLEYGen module. This resolves LArSoft issue [redmine issue 14847](https://cdcvs.fnal.gov/redmine/issues/14847).
 -   2016-12-16 Jason Stock : Changing tabs to spaces for convention. Changing photonbacktracker.fcl to remove standard declarations as the photonbacktracker is not experiment agnostic. Each experiment will have to make their own declaration of the service, and will need to provide their own Delay parameter. For DUNE this is 260 ns at the present time.
 
 larevt v06_07_01

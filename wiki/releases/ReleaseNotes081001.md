@@ -46,7 +46,7 @@ New features
 Bug fixes
 ------------------------
 
--   resolves [\#21865](/redmine/issues/21865 "Bug: Problem with std::bitset in lariatsoft (Closed)")
+-   resolves [redmine issue 21865](https://cdcvs.fnal.gov/redmine/issues/21865)
 
 Updated dependencies
 ----------------------------------------------

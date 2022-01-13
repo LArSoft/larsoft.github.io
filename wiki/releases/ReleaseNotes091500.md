@@ -122,7 +122,7 @@ larsim v09_08_00
 ----------------------------------------
 
 -   2021-01-27 Lynn Garren : larsim v09_08_00 for larsoft v09_15_00
--   2021-01-26 Lynn Garren : Merge pull request [\#59](/redmine/issues/59 "Idea: Write a tool to transform our data formats to cachegrind format. (New)") from aihimmel/develop
+-   2021-01-26 Lynn Garren : Merge pull request [redmine issue 59](https://cdcvs.fnal.gov/redmine/issues/59) from aihimmel/develop
 -   2021-01-15 Alex Himmel : Reconfigure to remove the PhotonVisibilityService and LArG4Parameters services. Allows multiple instances with different optical property configurations to run in the same job.
 
 larg4 v09_02_03

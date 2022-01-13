@@ -47,7 +47,7 @@ New features
 -   feature/gp_Issue14384
     -   larcorealg
     -   dunetpc, lariatcode, sbndcode and icaruscode
-    -   This addresses issue [\#14384](/redmine/issues/14384 "Bug: Copy of the Geometry object does not behave as the original one (Closed)")
+    -   This addresses issue [redmine issue 14384](https://cdcvs.fnal.gov/redmine/issues/14384)
     -   Breaking change to internal interface
 
 Bug fixes

@@ -153,12 +153,12 @@ larpandoracontent v03_24_00
 
 -   2021-07-20 Lynn Garren : larpandoracontent v03_24_00 for larsoft v09_27_00
 -   2021-07-16 Andrew Chappell : Update version and ChangeLog
--   2021-07-16 AndyChappell : Merge pull request [\#177](/redmine/issues/177 "Feature: Enable worksheet upload throughout the fiscal year. (Closed)") from PandoraPFA/feature/mc_proc
+-   2021-07-16 AndyChappell : Merge pull request [redmine issue 177](https://cdcvs.fnal.gov/redmine/issues/177) from PandoraPFA/feature/mc_proc
 -   2021-06-25 Andrew Chappell : Add processes for QGSP_BERT and EM standard physics lists
--   2021-07-16 AndyChappell : Merge pull request [\#178](/redmine/issues/178 "Bug: Properly handle special characters and invalid data types in Upload Worksheet function  (Assigned)") from PandoraPFA/feature/param_refactor
+-   2021-07-16 AndyChappell : Merge pull request [redmine issue 178](https://cdcvs.fnal.gov/redmine/issues/178) from PandoraPFA/feature/param_refactor
 -   2021-07-14 Andrew Chappell : Better name for parameter filling
 -   2021-07-06 Andrew Chappell : Decouple LAr object parameters from master algorithm
--   2021-07-16 AndyChappell : Merge pull request [\#179](/redmine/issues/179 "Feature: Provide web interface and code to enable Tasks to be deleted (Closed)") from AndyChappell/fix/track_splitting
+-   2021-07-16 AndyChappell : Merge pull request [redmine issue 179](https://cdcvs.fnal.gov/redmine/issues/179) from AndyChappell/fix/track_splitting
 -   2021-07-12 Andrew Chappell : Fix bug where tracks won’t split at max x position
 
 larsoftobj v09_06_01

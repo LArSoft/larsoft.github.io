@@ -38,7 +38,7 @@ Purpose
 
 -   changes in develop
 -   approved feature branches
--   resolve [\#23348](/redmine/issues/23348 "Bug: Memory leaks while reading artdaq Fragments from data files (Closed)")
+-   resolve [redmine issue 23348](https://cdcvs.fnal.gov/redmine/issues/23348)
 
 New features
 ------------------------------
@@ -46,13 +46,13 @@ New features
 -   larwirecell feature/wgu_simChannel
 -   larreco feature/usher_candhitinterfacemods.
 -   lardata LArFFTW
-    -   see [\#23343](/redmine/issues/23343 "Feature: thread-safe replacement for LArFFT (Closed)")
+    -   see [redmine issue 23343](https://cdcvs.fnal.gov/redmine/issues/23343)
     -   as part of adding LArFFTW to lardata/Utilities, MarqFitAlg was move from larreco to lardata/Utilities
 
 Bug fixes
 ------------------------
 
--   root v6_18_04b resolves [\#23348](/redmine/issues/23348 "Bug: Memory leaks while reading artdaq Fragments from data files (Closed)")
+-   root v6_18_04b resolves [redmine issue 23348](https://cdcvs.fnal.gov/redmine/issues/23348)
     -   Reading certain DUNE data fragments with root v6_18_04 triggered a bug that had been in root for a very long time.
     -   This bug was identified and fixed with a patch in root v6_18_04b
 

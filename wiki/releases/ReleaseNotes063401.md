@@ -41,7 +41,7 @@ New features
 Bug fixes
 ------------------------
 
--   larcore geometry problem [\#16382](/redmine/issues/16382 "Bug: Larsoft geometry does not compile in Root (Closed)")
+-   larcore geometry problem [redmine issue 16382](https://cdcvs.fnal.gov/redmine/issues/16382)
 -   larsim Forgotten fix! integer effect was still there. this really fixes it.
 -   larsim Fixed timing bias due to correlations between spatial and time coordinates by adding independent randomness in the spatial coordinates.
 

@@ -45,7 +45,7 @@ New features
     -   track id based on length, track momentum based on range or mcs
 -   lardataobj, lardata, larreco feature/gp_Issue18619
     -   addition of a charge data product with an associated space point, and a proxy to manage it
-    -   feature [\#18619](/redmine/issues/18619 "Support: Add charge information to recob::SpacePoint (Closed)")
+    -   feature [redmine issue 18619](https://cdcvs.fnal.gov/redmine/issues/18619)
 
 Bug fixes
 ------------------------
@@ -76,8 +76,8 @@ larexamples v06_08_01
 --------------------------------------------------
 
 -   2018-01-10 Lynn Garren : larexamples v06_08_01 for larsoft v06_62_01
--   2018-01-10 Lynn Garren : install_source now picks up the document files - [\#18637](/redmine/issues/18637 "Feature: Provide a macro for installing documentation together with the source (Closed)") resolved
--   2018-01-10 Lynn Garren : install_source now picks up the document files - [\#18637](/redmine/issues/18637 "Feature: Provide a macro for installing documentation together with the source (Closed)") resolved
+-   2018-01-10 Lynn Garren : install_source now picks up the document files - [redmine issue 18637](https://cdcvs.fnal.gov/redmine/issues/18637) resolved
+-   2018-01-10 Lynn Garren : install_source now picks up the document files - [redmine issue 18637](https://cdcvs.fnal.gov/redmine/issues/18637) resolved
 
 larpandora v06_18_03
 ------------------------------------------------

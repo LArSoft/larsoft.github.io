@@ -48,7 +48,7 @@ New features
 Bug fixes
 ------------------------
 
--   Scintillation By Particle Type bug [\#16344](/redmine/issues/16344 "Bug: Scintillation By Particle Type bug (Closed)")
+-   Scintillation By Particle Type bug [redmine issue 16344](https://cdcvs.fnal.gov/redmine/issues/16344)
 -   Changes to improve the doxygen reference manual
 
 Updated dependencies

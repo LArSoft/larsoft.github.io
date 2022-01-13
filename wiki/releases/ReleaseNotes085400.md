@@ -46,8 +46,8 @@ Breaking Changes
 --------------------------------------
 
 -   wirecell v0_14_0
-    -   dunetpc requires feature/wgu_wirecell_release and other changes detailed in [\#24438](/redmine/issues/24438 "Support: New version of wirecell 0.14.0 (Closed)")
-    -   uboonedata requires changed detailed in [\#24438](/redmine/issues/24438 "Support: New version of wirecell 0.14.0 (Closed)")
+    -   dunetpc requires feature/wgu_wirecell_release and other changes detailed in [redmine issue 24438](https://cdcvs.fnal.gov/redmine/issues/24438)
+    -   uboonedata requires changed detailed in [redmine issue 24438](https://cdcvs.fnal.gov/redmine/issues/24438)
 
 New features
 ------------------------------

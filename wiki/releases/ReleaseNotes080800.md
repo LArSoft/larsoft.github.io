@@ -59,7 +59,7 @@ New features
     -   dunetpc:feature/knoepfel_nodiscard
     -   argoneutcode:feature/knoepfel_nodiscard
     -   icaruscode:feature/knoepfel_nodiscard
--   issue [\#19191](/redmine/issues/19191 "Feature: Add ability to iterate over ChannelID_t within a TPC (Closed)")
+-   issue [redmine issue 19191](https://cdcvs.fnal.gov/redmine/issues/19191)
     -   larcorealg feature/ss_issue19191
     -   dunetpc feature/ss_issue19191
 -   larreco feature/cerati_shw-trk-fits

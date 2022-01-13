@@ -48,7 +48,7 @@ Breaking changes
 Bug fixes
 ------------------------
 
--   [\#12197](/redmine/issues/12197 "Bug: Geant4 output different when changing G4-unrelated configuration (Closed)")
+-   [redmine issue 12197](https://cdcvs.fnal.gov/redmine/issues/12197)
 
 Updated dependencies
 ----------------------------------------------

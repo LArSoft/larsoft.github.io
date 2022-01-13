@@ -54,14 +54,14 @@ Bug fixes
 ------------------------
 
 -   larcorealg PR 20
-    -   This is the proposed resolution for Redmine issue [\#26127](/redmine/issues/26127 "Bug: Geometry WireIntersect Test (Closed)").
+    -   This is the proposed resolution for Redmine issue [redmine issue 26127](https://cdcvs.fnal.gov/redmine/issues/26127).
     -   A part of the wire intersection test is supposed to pick two wires from different TPC, that are not parallel, and return that the intersection is not possible (or something like that) because belonging on different TPC. The code picking the wire was quite lazy and relied on a situation that SBND does not fall into any more. This pull request should rectify that.
     -   It also contains minor changes that I made while working on the resolution. Another commit attempts to clarify the language of geo::GeometryCore::WireIDsIntersect() documentation explaining the domain of the method and its possible return values.
 
 Updated dependencies
 ----------------------------------------------
 
--   nurandom v1_05_04 for [\#26116](/redmine/issues/26116 "Bug: CORSIKAGen not compatible with NuRandomService "perEvent" policy (Closed)")
+-   nurandom v1_05_04 for [redmine issue 26116](https://cdcvs.fnal.gov/redmine/issues/26116)
 
 Change List
 ============================
@@ -143,11 +143,11 @@ larpandoracontent v03_24_02
 -   2021-08-18 Lynn Garren : larpandoracontent v03_24_02 for larsoft v09_28_02
 -   2021-08-18 Lynn Garren : Merge pull request \#31 from PandoraPFA/feature/larpandoracontent_v03_24_02
 -   2021-08-17 Andrew Chappell : Update version and ChangeLog
--   2021-08-17 AndyChappell : Merge pull request [\#181](/redmine/issues/181 "Bug: Properly handle Activity status change (Closed)") from henrylay97/feature/hlay_vertex_refinement_algorithm
+-   2021-08-17 AndyChappell : Merge pull request [redmine issue 181](https://cdcvs.fnal.gov/redmine/issues/181) from henrylay97/feature/hlay_vertex_refinement_algorithm
 -   2021-08-16 Henry Lay : Further review comments
 -   2021-08-16 Henry Lay : Address review comments
 -   2021-07-01 Henry Lay : Create vertex refinement algorithm
--   2021-08-11 AndyChappell : Merge pull request [\#180](/redmine/issues/180 "Feature: Provide web interface and code to enable Activity deletion (Closed)") from etyley/bugfix/etyley_vertexAsymmetry
+-   2021-08-11 AndyChappell : Merge pull request [redmine issue 180](https://cdcvs.fnal.gov/redmine/issues/180) from etyley/bugfix/etyley_vertexAsymmetry
 -   2021-08-04 Edward Tyley : Fix vertex asymmetry tools when no shower clusters are present
 
 larsoftobj v09_07_01
@@ -177,7 +177,7 @@ larcorealg v09_02_01
 -   2021-08-11 Gianluca Petrillo : Clarification on the intended behaviour of GeometryCore::WireIDsIntersect().
 -   2021-08-11 Gianluca Petrillo : Geometry test: mass computation skipping extended to TPC
 -   2021-08-11 Gianluca Petrillo : Geometry wire intersection test code trimmed a bit.
--   2021-08-11 Gianluca Petrillo : Geometry wire intersection test logic revised for issue [\#26127](/redmine/issues/26127 "Bug: Geometry WireIntersect Test (Closed)")
+-   2021-08-11 Gianluca Petrillo : Geometry wire intersection test logic revised for issue [redmine issue 26127](https://cdcvs.fnal.gov/redmine/issues/26127)
 
 larcoreobj v09_02_01
 ------------------------------------------------

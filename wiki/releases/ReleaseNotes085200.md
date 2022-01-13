@@ -104,7 +104,7 @@ larrecodnn v08_04_00
 ------------------------------------------------
 
 -   2020-05-13 Lynn Garren : larrecodnn v08_04_00 for larsoft v08_52_00
--   2020-05-12 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from yangtj207/waveformroi_rawdigits
+-   2020-05-12 Lynn Garren : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from yangtj207/waveformroi_rawdigits
 -   2020-05-12 Tingjun Yang : Address Kyle’s comments.
 -   2020-05-09 Tingjun Yang : Remove temporary code.
 -   2020-05-08 Tingjun Yang : Add module to evaluate ROI finder efficiency.
@@ -231,7 +231,7 @@ larcorealg v08_21_06
 ------------------------------------------------
 
 -   2020-05-13 Lynn Garren : larcorealg v08_21_06 for larsoft v08_52_00
--   2020-05-11 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from PetrilloAtWork/feature/gp_geoIndirectionFix
+-   2020-05-11 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from PetrilloAtWork/feature/gp_geoIndirectionFix
 -   2020-05-07 Gianluca Petrillo : Removed superfluous indirection step in some \`GeometryCore\` methods.
 
 larcoreobj v08_11_00

@@ -39,7 +39,7 @@ Bug fixes
 Known issues
 ------------------------------
 
--   [\#8873](/redmine/issues/8873 "Bug: ChannelMapAlg::NSensitiveAuxDet() has no implementation (Closed)") ChannelMapAlg::NSensitiveAuxDet() is not implemented
+-   [redmine issue 8873](https://cdcvs.fnal.gov/redmine/issues/8873) ChannelMapAlg::NSensitiveAuxDet() is not implemented
 
 Updated dependencies
 ----------------------------------------------

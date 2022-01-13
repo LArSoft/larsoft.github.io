@@ -43,14 +43,14 @@ New features
 
 -   fcl validation of `SingleGen`
     -   larsim feature/gp_Issue17869
--   remove MemoryPeakTracker ([\#18220](/redmine/issues/18220 "Necessary Maintenance: Remove MemoryPeakReporter service from lardata (Closed)"))
+-   remove MemoryPeakTracker ([redmine issue 18220](https://cdcvs.fnal.gov/redmine/issues/18220))
     -   lardata feature/gp_Issue18220
     -   feature branch also available for icaruscode and uboonecode
 
 Bug fixes
 ------------------------
 
--   lareventdisplay feature/cerati_fix-evd-invalid-hits for [\#17843](/redmine/issues/17843 "Bug: Fix event display so that hits associated to invalid trajectory points are not connected to the t... (Assigned)")
+-   lareventdisplay feature/cerati_fix-evd-invalid-hits for [redmine issue 17843](https://cdcvs.fnal.gov/redmine/issues/17843)
 
 Updated dependencies
 ----------------------------------------------

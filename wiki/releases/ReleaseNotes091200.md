@@ -45,7 +45,7 @@ Purpose
 Breaking Change
 ------------------------------------
 
-Most changes in this release are related to the resolution for [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
+Most changes in this release are related to the resolution for [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
 **This is a [breaking change](Breaking_Changes#Geometry-configuration-check). The branch feature/gp_issue24328 is provided for experiment code.**
 The complete write up is [here](Geometry_configuration_check_breaking_change_documentation)
 
@@ -93,7 +93,7 @@ lareventdisplay v09_00_17
 -   2021-01-07 Lynn Garren : lareventdisplay v09_00_17 for larsoft v09_12_00
 -   2021-01-06 Lynn Garren : Merge branch ‘feature/gp_issue24328’ into release/v09_12_00
 -   2020-12-15 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_issue24328
--   2020-12-14 Gianluca Petrillo : Configuration updates related to issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
+-   2020-12-14 Gianluca Petrillo : Configuration updates related to issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
 
 larexamples v09_00_16
 --------------------------------------------------
@@ -101,7 +101,7 @@ larexamples v09_00_16
 -   2021-01-07 Lynn Garren : larexamples v09_00_16 for larsoft v09_12_00
 -   2021-01-06 Lynn Garren : Merge branch ‘feature/gp_issue24328’ into release/v09_12_00
 -   2020-12-15 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_issue24328
--   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
+-   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
 
 larpandora v09_03_08
 ------------------------------------------------
@@ -134,7 +134,7 @@ larreco v09_04_07
 -   2021-01-07 Lynn Garren : larreco v09_04_07 for larsoft v09_12_00
 -   2021-01-06 Lynn Garren : Merge branch ‘feature/gp_issue24328’ into release/v09_12_00
 -   2020-12-15 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_issue24328
--   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
+-   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
 
 larsim v09_07_04
 ----------------------------------------
@@ -142,7 +142,7 @@ larsim v09_07_04
 -   2021-01-07 Lynn Garren : larsim v09_07_04 for larsoft v09_12_00
 -   2021-01-06 Lynn Garren : Merge branch ‘feature/gp_issue24328’ into release/v09_12_00
 -   2020-12-15 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_issue24328
--   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
+-   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
 
 larg4 v09_02_01
 --------------------------------------
@@ -155,7 +155,7 @@ larevt v09_01_04
 -   2021-01-07 Lynn Garren : larevt v09_01_04 for larsoft v09_12_00
 -   2021-01-06 Lynn Garren : Merge branch ‘feature/gp_issue24328’ into release/v09_12_00
 -   2020-12-15 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_issue24328
--   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
+-   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
 
 lardata v09_01_07
 ------------------------------------------
@@ -163,14 +163,14 @@ lardata v09_01_07
 -   2021-01-07 Lynn Garren : lardata v09_01_07 for larsoft v09_12_00
 -   2021-01-06 Lynn Garren : Merge branch ‘feature/gp_issue24328’ into release/v09_12_00
 -   2020-12-15 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_issue24328
--   2020-12-14 Gianluca Petrillo : More configuration updates related to issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
--   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
+-   2020-12-14 Gianluca Petrillo : More configuration updates related to issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
+-   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
 
 larcore v09_01_00
 ------------------------------------------
 
 -   2021-01-07 Lynn Garren : larcore v09_01_00 for larsoft v09_12_00
--   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
+-   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
 -   2020-12-07 Gianluca Petrillo : Fix to unit test.
 -   2020-11-23 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_issue24328
 -   2020-11-23 Gianluca Petrillo : Adopted some suggestions from review.
@@ -204,14 +204,14 @@ lardataalg v09_03_04
 -   2020-12-17 Gianluca Petrillo : Fix OpDetWavedform dumper console output.
 -   2020-10-15 Gianluca Petrillo : Standardized DetectorClocksStandardTriggerLoader.h include guard
 -   2020-12-15 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_issue24328
--   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)")
+-   2020-12-07 Gianluca Petrillo : Configuration updates related to issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328)
 
 larcorealg v09_00_02
 ------------------------------------------------
 
 -   2021-01-07 Lynn Garren : larcorealg v09_00_02 for larsoft v09_12_00
 -   2020-11-23 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_issue24328
--   2020-11-12 Gianluca Petrillo : Update for issue [\#24328](/redmine/issues/24328 "Bug: Fix Geometry service feature reloading the geometry at begin of run (Closed)") breaking change
+-   2020-11-12 Gianluca Petrillo : Update for issue [redmine issue 24328](https://cdcvs.fnal.gov/redmine/issues/24328) breaking change
 
 larcoreobj v09_01_00
 ------------------------------------------------

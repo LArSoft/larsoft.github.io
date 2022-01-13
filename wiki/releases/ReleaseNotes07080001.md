@@ -33,7 +33,7 @@ Download instructions for [just larsoftobj v07_05_02](http://scisoft.fnal.gov/sc
 Purpose
 --------------------
 
--   special release for protoDUNE [\#21290](/redmine/issues/21290 "Support: Request to tag special release v07_08_00_01 (Closed)")
+-   special release for protoDUNE [redmine issue 21290](https://cdcvs.fnal.gov/redmine/issues/21290)
 
 New features
 ------------------------------

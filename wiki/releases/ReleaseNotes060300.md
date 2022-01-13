@@ -30,19 +30,19 @@ Purpose
 --------------------
 
 -   art v2_02_02
-    -   fixes [\#13453](/redmine/issues/13453 "Bug: tests using boost unit do not work with art 2.02.01 (Closed)")
+    -   fixes [redmine issue 13453](https://cdcvs.fnal.gov/redmine/issues/13453)
 
 New features
 ------------------------------
 
 -   larsim feature/jpdavies_supernova_truth
--   feature/gp_Issue12367 [\#12367](/redmine/issues/12367 "Necessary Maintenance: Merge namespaces lar::utils and lar::util (Closed)")
+-   feature/gp_Issue12367 [redmine issue 12367](https://cdcvs.fnal.gov/redmine/issues/12367)
     -   Branches feature/gp_Issue12367 have been published for the LArSoft repositories lardataobj, lardata, larreco, larana; and for the experiment repositories argoneutcode, dunetpc and lariatsoft.
 
 Known Issues
 ------------------------------
 
--   When building service libraries, \${ROOT_CORE} must be include in the library list. [\#13446](/redmine/issues/13446 "Bug: service libraries now need a link to the root core library (Closed)")
+-   When building service libraries, \${ROOT_CORE} must be include in the library list. [redmine issue 13446](https://cdcvs.fnal.gov/redmine/issues/13446)
     -   The problem is understood and will be fixed in the next art release.
 
 Updated dependencies
@@ -78,7 +78,7 @@ larexamples v06_00_03
 --------------------------------------------------
 
 -   2016-08-11 Lynn Garren : larexamples v06_00_03 for larsoft v06_03_00
--   2016-08-08 Gianluca Petrillo : Fix the way we pass arguments to Boost unit tests (issue [\#13477](/redmine/issues/13477 "Necessary Maintenance: Boost unit test interface changed (Closed)"))
+-   2016-08-08 Gianluca Petrillo : Fix the way we pass arguments to Boost unit tests (issue [redmine issue 13477](https://cdcvs.fnal.gov/redmine/issues/13477))
 
 larpandora v06_00_04
 ------------------------------------------------
@@ -90,7 +90,7 @@ larana v06_01_00
 
 -   2016-08-11 Lynn Garren : larana v06_01_00 for larsoft v06_03_00
 -   2016-08-11 Lynn Garren : Merge branch ‘feature/gp_Issue12367’ into release/v06_03_00
--   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue [\#12367](/redmine/issues/12367 "Necessary Maintenance: Merge namespaces lar::utils and lar::util (Closed)"))
+-   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue [redmine issue 12367](https://cdcvs.fnal.gov/redmine/issues/12367))
 
 larreco v06_02_00
 ------------------------------------------
@@ -99,7 +99,7 @@ larreco v06_02_00
 -   2016-08-11 Lynn Garren : Merge branch ‘feature/gp_Issue12367’ into release/v06_03_00
 -   2016-08-11 Lynn Garren : nutools v2_03_00
 -   2016-08-08 Mike Wallbank : Updates to the shower energy algorithms – changed the straight line so that the energy axis is along the y-direction, which makes much more sense. Energy = (c_1 \* charge) + c_2, where c_\* are measured parameters and read from the RecoAlg/showeralgorithms.fcl file. They have been recalculated. Also added new configurations for dune35tdata shower energy determination
--   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue [\#12367](/redmine/issues/12367 "Necessary Maintenance: Merge namespaces lar::utils and lar::util (Closed)"))
+-   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue [redmine issue 12367](https://cdcvs.fnal.gov/redmine/issues/12367))
 
 larsim v06_02_00
 ----------------------------------------
@@ -123,13 +123,13 @@ lardata v06_02_00
 -   2016-08-11 Lynn Garren : lardata v06_02_00 for larsoft v06_03_00
 -   2016-08-11 Lynn Garren : Merge branch ‘feature/gp_Issue12367’ into release/v06_03_00
 -   2016-08-11 Lynn Garren : nutools v2_03_00
--   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue [\#12367](/redmine/issues/12367 "Necessary Maintenance: Merge namespaces lar::utils and lar::util (Closed)"))
+-   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue [redmine issue 12367](https://cdcvs.fnal.gov/redmine/issues/12367))
 
 larcore v06_01_00
 ------------------------------------------
 
 -   2016-08-11 Lynn Garren : larcore v06_01_00 for larsoft v06_03_00
--   2016-08-08 Gianluca Petrillo : Fix the way we pass arguments to Boost unit tests (issue [\#13477](/redmine/issues/13477 "Necessary Maintenance: Boost unit test interface changed (Closed)"))
+-   2016-08-08 Gianluca Petrillo : Fix the way we pass arguments to Boost unit tests (issue [redmine issue 13477](https://cdcvs.fnal.gov/redmine/issues/13477))
     h2. larsimobj v1_05_01
 
 -   2016-08-08 Lynn Garren : Merge branch ‘release/v1_05_01’

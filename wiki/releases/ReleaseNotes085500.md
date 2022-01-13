@@ -59,7 +59,7 @@ Bug fixes
 ------------------------
 
 -   larsim PR 22
-    -   rhatcher fixes for redmine support issue [\#24283](/redmine/issues/24283 "Support: review larsim for geant4 v4_10_6_p01 (Closed)")
+    -   rhatcher fixes for redmine support issue [redmine issue 24283](https://cdcvs.fnal.gov/redmine/issues/24283)
     -   These changes are compatible with all versions of Geant4 10.3 to 10.6.
 -   larsim PR 21
     -   Bug fix for setting fScintillationYieldRatio in the Correlated alg
@@ -138,7 +138,7 @@ larpandoracontent v03_16_01
 --------------------------------------------------------------
 
 -   2020-06-03 Lynn Garren : larpandoracontent v03_16_01 for larsoft v08_55_00
--   2020-06-02 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from PandoraPFA/feature/larpandoracontent_v03_16_01
+-   2020-06-02 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from PandoraPFA/feature/larpandoracontent_v03_16_01
 -   2020-06-01 AndyChappell : Merge pull request \#123 from AndyChappell/feature/slice_select
 -   2020-06-01 Andrew Chappell : Fix signed/unsigned comparison
 -   2020-06-01 AndyChappell : Merge pull request \#121 from AndyChappell/feature/slice_select

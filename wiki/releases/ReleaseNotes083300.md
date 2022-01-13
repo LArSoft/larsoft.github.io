@@ -62,7 +62,7 @@ Bug fixes
 ------------------------
 
 -   larreco branch feature/gp_Issue23457
-    -   resolve [\#23457](/redmine/issues/23457 "Bug: LArReco Calorimetry module places absolute cut on z position which is not detector independent (Closed)")
+    -   resolve [redmine issue 23457](https://cdcvs.fnal.gov/redmine/issues/23457)
     -   This is a [possible breaking change](Breaking_Changes#Removal-of-Calorimetry-hard-coded-values)
 -   larsim feature/pgreen_semi_ugr_mcr
     -   semi-analytic fast optical simulation visible border effect corrections bug fix

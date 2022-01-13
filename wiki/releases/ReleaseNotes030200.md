@@ -24,12 +24,12 @@ LArSoft v03_02_00 Release Notes
 Purpose
 --------------------
 
-This is a bug fix release for [\#7076](/redmine/issues/7076 "Bug: LArSoft v03_00_00 unable to read recob::Wire from MicroBooNE MCC 5 files (Closed)"). It also includes changes in development since v03_01_00.
+This is a bug fix release for [redmine issue 7076](https://cdcvs.fnal.gov/redmine/issues/7076). It also includes changes in development since v03_01_00.
 
 Bug fixes
 ------------------------
 
-Root v5_31_21b fixes bug [\#7076](/redmine/issues/7076 "Bug: LArSoft v03_00_00 unable to read recob::Wire from MicroBooNE MCC 5 files (Closed)").
+Root v5_31_21b fixes bug [redmine issue 7076](https://cdcvs.fnal.gov/redmine/issues/7076).
 
 Known problems
 ----------------------------------
@@ -39,7 +39,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifier|Notes|
-|root|v5_34_21b|e6:nu|see bug [\#7076](/redmine/issues/7076 "Bug: LArSoft v03_00_00 unable to read recob::Wire from MicroBooNE MCC 5 files (Closed)")|
+|root|v5_34_21b|e6:nu|see bug [redmine issue 7076](https://cdcvs.fnal.gov/redmine/issues/7076)|
 |pandora|v00_16e|e6:nu|uses root|
 |genie|v2_8_0l|e6|uses root|
 |art|v1_12_02|e6:nu|uses root|

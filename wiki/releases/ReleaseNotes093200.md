@@ -68,7 +68,7 @@ New features
     -   Currently, dictionaries are available for many data products of type art::PtrVector\<recob::Xxxx\>, but art::PtrVector can’t host pointers from different collections. This pull request adds ROOT dictionaries for the objects that are more likely to be needed in a selection (particles, tracks, showers, vertices…).
 -   larsim PR 73
     -   Replace coord subtraction with pitch to prevent negative distances
-    -   Resolution for [\#26277](/redmine/issues/26277 "Bug: ElecDrift miscalculates inter-plane distance when accounting for drift time between planes (Closed)")
+    -   Resolution for [redmine issue 26277](https://cdcvs.fnal.gov/redmine/issues/26277)
 -   larpandoracontent PR 33
     -   This PR includes two fixes, after which valgrind memcheck results are completely clean again for tests with ProtoDUNE-SP data:
         -   Avoid use of an iterator that has been potentially invalidated in ClusterAssociation algorithm. Simply create a new/refreshed iterator after the first ambiguous propagation pass.
@@ -133,7 +133,7 @@ larsimrad v09_03_00
 
 -   2021-09-29 Lynn Garren : larsimrad v09_03_00 for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : larsimrad v09_03_00 for larsoft v09_32_00
--   2021-09-29 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from plasorak/feature/plasorak-better-decay0
+-   2021-09-29 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from plasorak/feature/plasorak-better-decay0
 -   2021-09-22 Pierre Lasorak : correct a little bug
 -   2021-09-22 Pierre Lasorak : rm useless var and trailing whitespace
 -   2021-09-22 Pierre Lasorak : nicer handling of ill formed fcl
@@ -266,7 +266,7 @@ larbatch v01_56_02
 -   2021-09-30 Lynn Garren : this noarch product needs cetbuildtools v8_18_01
 -   2021-09-29 Lynn Garren : larbatch v01_56_02 for larsoft v09_32_00
 -   2021-09-29 Lynn Garren : larbatch v01_56_02 for larsoft v09_32_00
--   2021-09-28 Lynn Garren : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from hgreenlee/develop
+-   2021-09-28 Lynn Garren : Merge pull request [redmine issue 17](https://cdcvs.fnal.gov/redmine/issues/17) from hgreenlee/develop
 -   2021-09-27 Herbert Greenlee : Revert to old version of mrb if necessary.
 
 larutils v1_28_02

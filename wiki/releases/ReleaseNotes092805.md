@@ -50,7 +50,7 @@ Bug fixes
 
 -   larg4 PR 26
     -   Handle post step-points with no process-defined steps
-    -   This PR addresses redmine issue [\#26221](/redmine/issues/26221 "Bug: LArG4 Seg fault in SBND: can't access process information? (Closed)"), where segmentation violations were occurring due to post step-points that have no process-defined step. The cause for this is not yet understood, but the recommendation from @hanswenzel is to simply handle/side-step these cases.
+    -   This PR addresses redmine issue [redmine issue 26221](https://cdcvs.fnal.gov/redmine/issues/26221), where segmentation violations were occurring due to post step-points that have no process-defined step. The cause for this is not yet understood, but the recommendation from @hanswenzel is to simply handle/side-step these cases.
 
 Updated dependencies
 ----------------------------------------------
@@ -112,7 +112,7 @@ larg4 v09_03_14
 
 -   2021-09-07 Lynn Garren : larg4 v09_03_14 for larsoft v09_28_05
 -   2021-09-07 Lynn Garren : Merge pull request \#26 from knoepfel/bugfix/knoepfel_handle_segfault_again
--   2021-09-03 Kyle Knoepfel : Resolve bug [\#26221](/redmine/issues/26221 "Bug: LArG4 Seg fault in SBND: can't access process information? (Closed)"): Handle post step-points with no process-defined step.
+-   2021-09-03 Kyle Knoepfel : Resolve bug [redmine issue 26221](https://cdcvs.fnal.gov/redmine/issues/26221): Handle post step-points with no process-defined step.
 
 larevt v09_02_10
 ----------------------------------------

@@ -51,7 +51,7 @@ New features
 Bug fixes
 ------------------------
 
--   fix for [\#21041](/redmine/issues/21041 "Bug: Segfault in BlurredClusteringAlg (larreco) (Closed)")
+-   fix for [redmine issue 21041](https://cdcvs.fnal.gov/redmine/issues/21041)
 
 Updated dependencies
 ----------------------------------------------
@@ -107,7 +107,7 @@ larreco v07_06_00
 -   2018-10-24 Lynn Garren : larreco v07_06_00 for larsoft v07_08_00
 -   2018-10-24 Lynn Garren : larreco v07_06_00 for larsoft v07_08_00
 -   2018-10-23 Lynn Garren : Merge branch ‘feature/knoepfel_remove_TGeant3’ into release/v07_08_00
--   2018-10-17 Kyle Knoepfel : Reresolve bug [\#21041](/redmine/issues/21041 "Bug: Segfault in BlurredClusteringAlg (larreco) (Closed)"): Illegal memory access in BlurredClusterAlg.
+-   2018-10-17 Kyle Knoepfel : Reresolve bug [redmine issue 21041](https://cdcvs.fnal.gov/redmine/issues/21041): Illegal memory access in BlurredClusterAlg.
 -   2018-10-16 Kyle Knoepfel : Remove all references to TGeant3 and GeanaTrackRep2.
 
 larsim v07_04_03

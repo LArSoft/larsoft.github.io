@@ -25,7 +25,7 @@ LArSoft v03_01_00 Release Notes
 Purpose
 --------------------
 
-Fix the bug reported in [\#7068](/redmine/issues/7068 "Bug: xrootd broken in art v1_12_00 (Closed)") and include changes to develop since the v02_06_02 tag.
+Fix the bug reported in [redmine issue 7068](https://cdcvs.fnal.gov/redmine/issues/7068) and include changes to develop since the v02_06_02 tag.
 
 Bug fixes
 ------------------------
@@ -36,14 +36,14 @@ xrootd has been rolled back to 3.3.4.
 Known problems
 ----------------------------------
 
-See bug [\#7076](/redmine/issues/7076 "Bug: LArSoft v03_00_00 unable to read recob::Wire from MicroBooNE MCC 5 files (Closed)")
+See bug [redmine issue 7076](https://cdcvs.fnal.gov/redmine/issues/7076)
 
 Updated dependencies
 ----------------------------------------------
 
 ||
 |Product|Version|Qualifier|Notes|
-|xrootd|v3_3_4b|e6|see [\#7068](/redmine/issues/7068 "Bug: xrootd broken in art v1_12_00 (Closed)")|
+|xrootd|v3_3_4b|e6|see [redmine issue 7068](https://cdcvs.fnal.gov/redmine/issues/7068)|
 |root|v5_34_21a|e6:nu|using xrootd v3_3_4b|
 |pandora|v00_16d|e6:nu|uses root|
 |genie|v2_8_0k|e6|uses root|

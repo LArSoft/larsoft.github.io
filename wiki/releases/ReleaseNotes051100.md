@@ -34,7 +34,7 @@ Purpose
 New features
 ------------------------------
 
--   use LArSeedService and drop artextensions [\#12429](/redmine/issues/12429 "Feature: Update LArSoft code to use LArSeedService service in larsim (Closed)")
+-   use LArSeedService and drop artextensions [redmine issue 12429](https://cdcvs.fnal.gov/redmine/issues/12429)
     -   lardata, larsim, larreco, larana
     -   experiment code needs feature/gp_LArSeedService
         -   argoneutcode, dunetpc, lar1ndcode, lariatsoft, uboonecode
@@ -53,7 +53,7 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|larpandoracontent|v02_07_02|e9|[\#12424](/redmine/issues/12424 "Bug: The output of LArPandoraOutput module is not reproducible  (Closed)")|
+|larpandoracontent|v02_07_02|e9|[redmine issue 12424](https://cdcvs.fnal.gov/redmine/issues/12424)|
 |genie_xsec|v2_10_6a|defaultplusccmec||
 
 Change List

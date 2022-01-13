@@ -52,7 +52,7 @@ Bug fixes
 
 -   larreco feature/bb_TCWork
     -   bug fix for TrajCluster_module
--   larsim [\#15727](/redmine/issues/15727 "Task: Update simulation to support arbitrary drift direction (Closed)")
+-   larsim [redmine issue 15727](https://cdcvs.fnal.gov/redmine/issues/15727)
     -   Fixing a segfault when interpolation between voxels and time propagation are activated.
 
 Updated dependencies

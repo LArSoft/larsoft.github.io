@@ -42,7 +42,7 @@ Purpose
 New features
 ------------------------------
 
--   move MCDumpers to lardataalg from larsim [\#18281](/redmine/issues/18281 "Necessary Maintenance: Move dumper algorithms in a art-independent repository (Closed)")
+-   move MCDumpers to lardataalg from larsim [redmine issue 18281](https://cdcvs.fnal.gov/redmine/issues/18281)
     -   larsim : feature/ss_issue18281
     -   larg4 : feature/ss_issue18281
     -   lardataalg : feature/ss_issue18281
@@ -118,7 +118,7 @@ larreco v07_04_00
 -   2018-09-10 Rory Fitzpatrick : added slice-shower association. won’t compile currently
 -   2018-09-08 Tingjun Yang : Add code to handle bad channels. Disable for now.
 -   2018-09-07 Tingjun Yang : Remove hardcoded skip pdg value.
--   2018-09-07 Tingjun Yang : Fix hit-slice association, resolve [\#20777](/redmine/issues/20777 "Bug: Out of range (Resolved)").
+-   2018-09-07 Tingjun Yang : Fix hit-slice association, resolve [redmine issue 20777](https://cdcvs.fnal.gov/redmine/issues/20777).
 -   2018-09-07 Rory Fitzpatrick : fixing merge conflicts
 -   2018-09-07 Rory Fitzpatrick : Merge branch ‘feature/rsf_TCNueSelection’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/rsf_TCNueSelection
 -   2018-09-07 Rory Fitzpatrick : committing in order to merge

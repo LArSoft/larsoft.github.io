@@ -124,7 +124,7 @@ lardata v06_18_01
 -   2017-04-05 Lynn Garren : use curly braces
 -   2017-04-05 Gianluca Petrillo : Reworked constructors of supporting classes in dumper modules.
 -   2017-04-05 Gianluca Petrillo : Made static a method that should have been.
--   2017-04-05 Gianluca Petrillo : Solved issue [\#16107](/redmine/issues/16107 "Support: problem compiling lardata/Utilities/NestedIterator.h with gcc 6.3.0 (Closed)") .
+-   2017-04-05 Gianluca Petrillo : Solved issue [redmine issue 16107](https://cdcvs.fnal.gov/redmine/issues/16107) .
 -   2017-04-05 Lynn Garren : use the correct header
 -   2017-04-06 Lynn Garren : removing old code so it doesn’t confuse anyone
 
@@ -132,7 +132,7 @@ larcore v06_07_02
 ------------------------------------------
 
 -   2017-04-12 Lynn Garren : larcore v06_07_02 for larsoft v06_31_01
--   2017-04-05 Gianluca Petrillo : Added missing headers. Solves issue [\#16112](/redmine/issues/16112 "Support: larcore/CoreUtils/RealComparisons.h fails to compile with gcc 6.3.0 (Closed)") .
+-   2017-04-05 Gianluca Petrillo : Added missing headers. Solves issue [redmine issue 16112](https://cdcvs.fnal.gov/redmine/issues/16112) .
 -   2017-04-05 Gianluca Petrillo : Fixed bug on erase of items from a provider list.
 -   2017-04-05 Lynn Garren : add missing headers
 

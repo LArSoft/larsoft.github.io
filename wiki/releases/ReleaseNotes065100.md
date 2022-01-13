@@ -41,7 +41,7 @@ New features
 ------------------------------
 
 -   lardata feature/gp_TrackProxy
-    -   implement the collection proxy feature in issues [\#17359](/redmine/issues/17359 "Task: Navigate track data product (Closed)") and [\#14060](/redmine/issues/14060 "Task: Provide ways to navigate associated data products in a seamless way (Closed)")
+    -   implement the collection proxy feature in issues [redmine issue 17359](https://cdcvs.fnal.gov/redmine/issues/17359) and [redmine issue 14060](https://cdcvs.fnal.gov/redmine/issues/14060 "Task: Provide ways to navigate associated data products in a seamless way (Closed)")
 
 Bug fixes
 ------------------------

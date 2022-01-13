@@ -46,7 +46,7 @@ New features
 -   larsim PR 16
     -   SingleGen does currently not write sumdata::RunData data product, which foils the already loosy geometry version check. This change makes SingleGen create that data product just like GENIEGen does (as in: I copied the code from there). This is not a breaking change; only new samples will be affected.
 -   larcoreobj PR 3
-    -   Functions are provided to read parameters as geometry and readout IDs using FHiCL types, with validation. This should encourage authors not to implicitly assume one-cryostat or one-TPC geometries. The implementation will be greatly simplified with the implementation of Redmine issue [\#23669](/redmine/issues/23669 "Feature: Provide a FHiCL type to read an object arbitrary type from a parameter table (Closed)").
+    -   Functions are provided to read parameters as geometry and readout IDs using FHiCL types, with validation. This should encourage authors not to implicitly assume one-cryostat or one-TPC geometries. The implementation will be greatly simplified with the implementation of Redmine issue [redmine issue 23669](https://cdcvs.fnal.gov/redmine/issues/23669).
 -   larg4 PR 9
     -   fix missing traj. endpoints and add filter for primary process
 
@@ -187,7 +187,7 @@ larcoreobj v08_11_00
 -   2020-05-06 Lynn Garren : larcoreobj v08_11_00 for larsoft parent larsoft v08_51_00
 -   2020-05-06 Lynn Garren : larcoreobj v08_11_00 for larsoft v08_51_00
 -   2020-05-05 Lynn Garren : Merge branch ‘feature/gp_FHiCLIDs’ into develop
--   2020-05-05 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from PetrilloAtWork/feature/gp_FHiCLIDs
+-   2020-05-05 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from PetrilloAtWork/feature/gp_FHiCLIDs
 -   2020-02-22 Gianluca Petrillo : Removed trailing white spaces.
 -   2020-02-21 Gianluca Petrillo : Added missing libraries in unit tests.
 -   2019-11-27 Gianluca Petrillo : Added objects for reading readout ID parameters.

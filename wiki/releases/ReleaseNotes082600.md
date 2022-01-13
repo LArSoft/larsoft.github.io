@@ -50,7 +50,7 @@ New features
     -   larreco feature/calcuttj_shower_calorimetry
 -   wrapper interface for detinfo::DetectorClocks
     -   lardataalg feature/gp_quantities
--   allow DetectorClocksServiceStandard_service to read old argoneut files ([\#22837](/redmine/issues/22837 "Bug: More issues with reading argoneut data (Closed)"))
+-   allow DetectorClocksServiceStandard_service to read old argoneut files ([redmine issue 22837](https://cdcvs.fnal.gov/redmine/issues/22837))
     -   lardata feature/psr_handle_old_files
 
 Bug fixes

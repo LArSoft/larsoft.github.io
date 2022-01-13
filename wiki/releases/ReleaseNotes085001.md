@@ -93,14 +93,14 @@ larrecodnn v08_03_01
 ------------------------------------------------
 
 -   2020-04-21 Lynn Garren : larrecodnn v08_03_01 for larsoft v08_50_01
--   2020-04-21 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/fix_build
+-   2020-04-21 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/feature/fix_build
 -   2020-04-21 Lynn Garren : some untanglement of trtis_clients and tensorflow
 
 larwirecell v08_12_10
 --------------------------------------------------
 
 -   2020-04-21 Lynn Garren : larwirecell v08_12_10 for larsoft v08_50_01
--   2020-04-20 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from sabasehrish/feature/team_for_mt
+-   2020-04-20 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from sabasehrish/feature/team_for_mt
 -   2020-04-17 Saba Sehrish : removed whitespace error
 -   2020-04-13 Saba Sehrish : Merge branch ‘develop’ into feature/team_for_mt
 -   2020-04-13 Saba Sehrish : Shared producer WireCellToolkit, serlized
@@ -166,7 +166,7 @@ larcoreobj v08_10_06
 ------------------------------------------------
 
 -   2020-04-21 Lynn Garren : larcoreobj v08_10_06 for larsoft v08_50_01
--   2020-04-20 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from plasorak/feature/plasorak-fibonacci
+-   2020-04-20 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from plasorak/feature/plasorak-fibonacci
 -   2020-01-21 Pierre Lasorak : add fibonacci encoding here
 
 larbatch v01_52_02

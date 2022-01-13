@@ -95,7 +95,7 @@ lareventdisplay v08_12_04
 ----------------------------------------------------------
 
 -   2020-02-26 Lynn Garren : lareventdisplay v08_12_04 for larsoft v08_44_00
--   2020-02-25 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from knoepfel/feature/knoepfel_cleanup_cmake_files
+-   2020-02-25 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from knoepfel/feature/knoepfel_cleanup_cmake_files
 -   2020-02-20 Kyle Knoepfel : Update to target-based ROOT libraries
 -   2020-02-17 Patrick Gartung : remove github actions
 
@@ -115,7 +115,7 @@ larpandora v08_11_04
 ------------------------------------------------
 
 -   2020-02-26 Lynn Garren : larpandora v08_11_04 for larsoft v08_44_00
--   2020-02-25 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from knoepfel/feature/knoepfel_cleanup_cmake_files
+-   2020-02-25 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from knoepfel/feature/knoepfel_cleanup_cmake_files
 -   2020-02-20 Kyle Knoepfel : Use target-based ROOT libraries.
 -   2020-02-17 Patrick Gartung : remove github actions
 
@@ -130,7 +130,7 @@ larana v08_16_04
 
 -   2020-02-26 Kyle Knoepfel : Add ART_UTILITIES library dependency.
 -   2020-02-26 Lynn Garren : larana v08_16_04 for larsoft v08_44_00
--   2020-02-25 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from knoepfel/feature/knoepfel_cleanup_cmake_files
+-   2020-02-25 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from knoepfel/feature/knoepfel_cleanup_cmake_files
 -   2020-02-20 Kyle Knoepfel : Update to target-based ROOT libraries
 -   2020-02-17 Patrick Gartung : Remove github actions
 
@@ -166,7 +166,7 @@ lardata v08_14_03
 
 -   2020-02-26 Lynn Garren : add missing library
 -   2020-02-26 Lynn Garren : lardata v08_14_03 for larsoft v08_44_00
--   2020-02-25 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from knoepfel/feature/knoepfel_cleanup_cmake_files
+-   2020-02-25 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from knoepfel/feature/knoepfel_cleanup_cmake_files
 -   2020-02-20 Kyle Knoepfel : Use target-based ROOT libraries.
 -   2020-02-17 Patrick Gartung : remove github actions
 
@@ -195,7 +195,7 @@ lardataobj v08_10_03
 ------------------------------------------------
 
 -   2020-02-26 Lynn Garren : lardataobj v08_10_03 for larsoft v08_44_00
--   2020-02-25 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from knoepfel/feature/knoepfel_cleanup_cmake_files
+-   2020-02-25 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from knoepfel/feature/knoepfel_cleanup_cmake_files
 -   2020-02-20 Kyle Knoepfel : Use target-based ROOT libraries.
 -   2020-02-17 Patrick Gartung : remove github actions
 

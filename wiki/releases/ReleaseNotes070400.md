@@ -59,8 +59,8 @@ New features
 Bug fixes
 ------------------------
 
--   larsim bug fix for [\#20554](/redmine/issues/20554 "Bug: AuxDetSensitive with ID 0 has no energy deposit (Closed)") in develop
--   larsim bug fix for [\#20685](/redmine/issues/20685 "Bug: Bug in ISCalcSeparate::EFieldAtStep (Resolved)") in develop
+-   larsim bug fix for [redmine issue 20554](https://cdcvs.fnal.gov/redmine/issues/20554) in develop
+-   larsim bug fix for [redmine issue 20685](https://cdcvs.fnal.gov/redmine/issues/20685) in develop
 
 Updated dependencies
 ----------------------------------------------
@@ -131,7 +131,7 @@ larsim v07_02_01
 
 -   2018-08-28 Lynn Garren : larsim v07_02_01 for larsoft v07_04_00
 -   2018-08-27 Wesley Ketchum : bug fix for + instead of \* in efield calculation
--   2018-08-28 Paul Russo : Fix redmine issue [\#20554](/redmine/issues/20554 "Bug: AuxDetSensitive with ID 0 has no energy deposit (Closed)") - AuxDetSensitive with ID 0 has no energy deposit.
+-   2018-08-28 Paul Russo : Fix redmine issue [redmine issue 20554](https://cdcvs.fnal.gov/redmine/issues/20554) - AuxDetSensitive with ID 0 has no energy deposit.
 
 larevt v07_00_05
 ----------------------------------------

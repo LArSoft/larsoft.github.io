@@ -60,7 +60,7 @@ Bug fixes
 
 -   larrecodnn PR 15
     -   PointIdTrainingData: write and dispose of histograms as soon as possible
-    -   This is a workaround to Redmine issue [\#25476](/redmine/issues/25476 "Support: Large memory usage in analyzer job (Closed)").
+    -   This is a workaround to Redmine issue [redmine issue 25476](https://cdcvs.fnal.gov/redmine/issues/25476).
     -   Basically the module PointIdTrainingData creates several histograms per event, and the commit is forcing ROOT to write them to file at the end of each event instead of “automatically” at the end of the job.
 
 Updated dependencies

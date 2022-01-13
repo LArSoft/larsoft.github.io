@@ -35,21 +35,21 @@ New features
 ------------------------------
 
 -   lareventdisplay feature/Issue10538
-    -   improvement based on [\#10538](/redmine/issues/10538 "Bug: Event display cannot read data products with an instance name (Closed)")
+    -   improvement based on [redmine issue 10538](https://cdcvs.fnal.gov/redmine/issues/10538)
 -   larreco feature/dstefan_DirOfGamma
 -   lardata DUNE zero suppression
 
 Bug fixes
 ------------------------
 
--   [\#10623](/redmine/issues/10623 "Bug: Crash reading multiple files (Closed)") resolved with art v1_17_03
+-   [redmine issue 10623](https://cdcvs.fnal.gov/redmine/issues/10623) resolved with art v1_17_03
 
 Updated dependencies
 ----------------------------------------------
 
 ||
 |Product|Version|Qualifiers|Notes|
-|art|v1_17_03|e9:nu|resolve [\#10623](/redmine/issues/10623 "Bug: Crash reading multiple files (Closed)")|
+|art|v1_17_03|e9:nu|resolve [redmine issue 10623](https://cdcvs.fnal.gov/redmine/issues/10623)|
 |artdaq_core|v1_04_21|e9:nu:s21||
 |ifdh_art|v1_13_04|e9:nu:s21||
 |nutools|v1_16_01|e9[:noifdh]||

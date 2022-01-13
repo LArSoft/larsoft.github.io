@@ -211,7 +211,7 @@ lardataalg v09_02_00
 
 -   2020-10-23 Lynn Garren : lardataalg v09_02_00 for larsoft v09_08_00
 -   2020-10-22 Lynn Garren : whitespace cleanup
--   2020-10-21 Lynn Garren : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from PetrilloAtWork/feature/gp_tickConversions
+-   2020-10-21 Lynn Garren : Merge pull request [redmine issue 17](https://cdcvs.fnal.gov/redmine/issues/17) from PetrilloAtWork/feature/gp_tickConversions
 -   2020-10-15 Gianluca Petrillo : DetectorTimings now supports tick-to-tick conversions.
 
 larcorealg v09_00_01

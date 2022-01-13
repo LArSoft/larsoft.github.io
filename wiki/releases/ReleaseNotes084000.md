@@ -68,7 +68,7 @@ Updated dependencies
 -   nulite v3_05_01b
     -   nurandom v1_03_02 with bug fix
     -   artdaq_core v3_05_09
--   geant4reweight v01_00_01 ([\#23835](/redmine/issues/23835 "Support: Support for Geant4Reweight package (Closed)"))
+-   geant4reweight v01_00_01 ([redmine issue 23835](https://cdcvs.fnal.gov/redmine/issues/23835))
 
 Change List
 ============================

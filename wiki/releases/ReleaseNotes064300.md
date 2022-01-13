@@ -42,11 +42,11 @@ New features
 -   add larcorealg
     -   contains gdml and other parts of the geometry
     -   part of larsoftobj distribution
-    -   larcorealg fixes [\#17123](/redmine/issues/17123 "Bug: GeometryCore::WireIDsIntersect() gives wrong intersection points in TVector3 version (Closed)")
+    -   larcorealg fixes [redmine issue 17123](https://cdcvs.fnal.gov/redmine/issues/17123)
     -   See [Geometry and utility code moved to larcorealg](Breaking_Changes#Geometry-and-utility-code-moved-to-larcorealg)
     -   **The experiments should merge feature/gp_Issue17099**
 -   larcore feature/wketchum_SortingUpdate
-    -   more general wire sorting, tracked by ticket [\#15688](/redmine/issues/15688 "Task: Extend wire sorting to accommodate wires parallel to z direction (Closed)")
+    -   more general wire sorting, tracked by ticket [redmine issue 15688](https://cdcvs.fnal.gov/redmine/issues/15688)
     -   this code is also in larcorealg
 -   lardataobj feature/usher_cluster3dupdates
 
@@ -65,25 +65,25 @@ larsoft v06_43_00
 -   2017-07-12 Lynn Garren : larsoft v06_43_00 for larsoft v06_43_00
 -   2017-07-11 Lynn Garren : update dependency database
 -   2017-07-11 Lynn Garren : update product versions and add larcorealg
--   2017-07-05 Gianluca Petrillo : Added update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Added update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 
 lareventdisplay v06_09_00
 ----------------------------------------------------------
 
 -   2017-07-12 Lynn Garren : lareventdisplay v06_09_00 for larsoft v06_43_00
--   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 
 larexamples v06_05_00
 --------------------------------------------------
 
 -   2017-07-12 Lynn Garren : larexamples v06_05_00 for larsoft v06_43_00
--   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 
 larpandora v06_15_00
 ------------------------------------------------
 
 -   2017-07-12 Lynn Garren : larpandora v06_15_00 for larsoft v06_43_00
--   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 
 larwirecell v06_05_04
 --------------------------------------------------
@@ -94,7 +94,7 @@ larana v06_08_00
 ----------------------------------------
 
 -   2017-07-12 Lynn Garren : larana v06_08_00 for larsoft v06_43_00
--   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 
 larreco v06_34_00
 ------------------------------------------
@@ -103,7 +103,7 @@ larreco v06_34_00
 -   2017-07-11 Lynn Garren : Merge branch ‘feature/gp_Issue17099’ into release/v06_43_00
 -   2017-07-11 Mike Wallbank : protect against dividing by zero at a point noted for throwing exceptions on occassion
 -   2017-07-10 Bruce Baller : Protect against FitChi = 0
--   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 -   2017-07-04 Robert Sulej : remove terminal output
 -   2017-07-04 Robert Sulej : add cmakelists for job folder
 -   2017-07-04 Robert Sulej : move example job cfg to subdir
@@ -119,19 +119,19 @@ larsim v06_26_00
 ----------------------------------------
 
 -   2017-07-12 Lynn Garren : larsim v06_26_00 for larsoft v06_43_00
--   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 
 larevt v06_15_00
 ----------------------------------------
 
 -   2017-07-12 Lynn Garren : larevt v06_15_00 for larsoft v06_43_00
--   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 
 lardata v06_24_00
 ------------------------------------------
 
 -   2017-07-12 Lynn Garren : lardata v06_24_00 for larsoft v06_43_00
--   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 
 larcore v06_13_00
 ------------------------------------------

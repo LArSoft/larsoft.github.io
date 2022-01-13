@@ -165,7 +165,7 @@ lardataobj v08_10_06
 ------------------------------------------------
 
 -   2020-04-07 Lynn Garren : lardataobj v08_10_06 for larsoft v08_49_00
--   2020-04-07 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from wesketchum/wketchum_missing_VtxSliceAssnsDicts
+-   2020-04-07 Lynn Garren : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from wesketchum/wketchum_missing_VtxSliceAssnsDicts
 -   2020-04-01 Wesley : add VertexSlice Assns
 
 lardataalg v08_13_08
@@ -182,7 +182,7 @@ larcoreobj v08_10_05
 ------------------------------------------------
 
 -   2020-04-07 Lynn Garren : larcoreobj v08_10_05 for larsoft v08_49_00
--   2020-04-07 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from wesketchum/wketchum_SampledDicts
+-   2020-04-07 Lynn Garren : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from wesketchum/wketchum_SampledDicts
 -   2020-04-06 Wesley : removeWhiteSpace
 -   2020-04-06 Wesley : add in SampledDicts files for SamplingSource
 

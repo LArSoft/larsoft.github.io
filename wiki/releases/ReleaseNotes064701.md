@@ -42,7 +42,7 @@ New features
 Bug fixes
 ------------------------
 
--   [\#17552](/redmine/issues/17552 "Support: Cannot preserve changes to event display services (Closed)") fixed with nutools v2_15_01
+-   [redmine issue 17552](https://cdcvs.fnal.gov/redmine/issues/17552) fixed with nutools v2_15_01
 
 Updated dependencies
 ----------------------------------------------

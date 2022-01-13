@@ -67,7 +67,7 @@ Bug fixes
     -   This PR contains fixes for a bug introduced with PR \#81 .
 -   larsim PR 82
     -   Map SimChannels by Cryostat only to prevent extra SimChannels from being created when a channel is associated with multiple TPCs
-    -   Part of redmine issue [\#26453](/redmine/issues/26453 "Bug: Incorrect SimChannel Instantiation in SimDriftElectrons_modules.cc (Closed)")
+    -   Part of redmine issue [redmine issue 26453](https://cdcvs.fnal.gov/redmine/issues/26453)
 -   larsim PR 79
     -   Removed spurious configuration parameter
     -   Parameter UseModLarqlRecomb does not belong to LegacyLArG4, so it should not be in its configuration.
@@ -183,7 +183,7 @@ larpandoracontent v03_26_02
 --------------------------------------------------------------
 
 -   2021-12-01 Lynn Garren : larpandoracontent v03_26_02 for larsoft v09_38_00
--   2021-11-29 AndyChappell : Merge pull request [\#186](/redmine/issues/186 "Bug: Properly handle SWF line items across changes in Effort Reportable flag. (Closed)") from AndyChappell/feature/ht_update
+-   2021-11-29 AndyChappell : Merge pull request [redmine issue 186](https://cdcvs.fnal.gov/redmine/issues/186) from AndyChappell/feature/ht_update
 -   2021-11-01 Steve Dennis : changes for Clang 12
 -   2021-11-23 Andrew Chappell : Add tier 1 specific metrics and updates to quality cuts and reconstructability criteria
 -   2021-11-09 Andrew Chappell : Add expected ADC weight to validation

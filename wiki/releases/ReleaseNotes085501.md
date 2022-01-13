@@ -45,7 +45,7 @@ New features
 ------------------------------
 
 -   larsoft PR 12
-    -   add stan, stan_math, and sundials to the larsoft distribution (issue [\#23688](/redmine/issues/23688 "Support: Requesting new UPS packages CVODES, Stan-math, Stan (and new version of Eigen) (Closed)"))
+    -   add stan, stan_math, and sundials to the larsoft distribution (issue [redmine issue 23688](https://cdcvs.fnal.gov/redmine/issues/23688))
     -   do some cleanup of the build config scripts
 -   larpandoracontent PR 6
     -   This PR includes a minor update to ensure LArContent builds with GCC 7.3. Versions of GCC prior to 8 that support C++ 17 issue warnings when there are unused structured bindings. This update avoids this problem. The details can be found in PandoraPFA\#126
@@ -125,9 +125,9 @@ larpandoracontent v03_16_02
 --------------------------------------------------------------
 
 -   2020-06-16 Lynn Garren : larpandoracontent v03_16_02 for larsoft v08_55_01
--   2020-06-16 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from PandoraPFA/feature/larpandoracontent_v03_16_02
+-   2020-06-16 Lynn Garren : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from PandoraPFA/feature/larpandoracontent_v03_16_02
 -   2020-06-15 Andrew Chappell : Update version and change log
--   2020-06-15 AndyChappell : Merge pull request [\#126](/redmine/issues/126 "Bug: REQUESTER_GROUP needs to be calculated using a different date when people are re-orged while req ... (New)") from AndyChappell/feature/gcc7
+-   2020-06-15 AndyChappell : Merge pull request [redmine issue 126](https://cdcvs.fnal.gov/redmine/issues/126) from AndyChappell/feature/gcc7
 -   2020-06-15 Andrew Chappell : Allow gcc 7 to compile an unused structured binding
 
 larsoftobj v08_29_01

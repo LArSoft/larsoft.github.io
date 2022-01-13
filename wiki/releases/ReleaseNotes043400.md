@@ -49,8 +49,8 @@ Updated dependencies
 
 ||
 |Product|Version|Qualifiers|Notes|
-|geant4|v2_22_2|e9|[\#11459](/redmine/issues/11459 "Support: request geant4 v4_9_6_p04d  (Closed)")|
-|nutools|v1_20_03|e9|[\#11441](/redmine/issues/11441 "Bug: misnamed library (Closed)")|
+|geant4|v2_22_2|e9|[redmine issue 11459](https://cdcvs.fnal.gov/redmine/issues/11459)|
+|nutools|v1_20_03|e9|[redmine issue 11441](https://cdcvs.fnal.gov/redmine/issues/11441)|
 
 Change List
 ============================

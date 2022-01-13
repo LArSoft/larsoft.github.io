@@ -62,7 +62,7 @@ Bug fixes
 ------------------------
 
 -   lardataobj feature/knoepfel_separate_dicts
-    -   for issue [\#22464](/redmine/issues/22464 "Necessary Maintenance: split up lardataobj RecoBase dictionary (Closed)")
+    -   for issue [redmine issue 22464](https://cdcvs.fnal.gov/redmine/issues/22464)
     -   splits the RecoBase dictionary building into 3 separate dictionary builds, which can be executed in parallel.
     -   I have not refactored the AnalysisBase dictionaries yet, but this at least is a start. You should notice an improvement in build time/memory usage. The dictionaries still take a long time to build, but it’s \~100 secs each instead of \~300 when combined into one library.
 
@@ -143,7 +143,7 @@ larreco v08_13_00
 -   2019-05-09 Lynn Garren : larreco v08_13_00 for larsoft v08_19_00
 -   2019-05-08 Lynn Garren : Merge branch ‘feature/usher_chargeasymmetry’ into release/v08_19_00
 -   2019-05-08 Tingjun Yang : Fix memory issues.
--   2019-05-07 Tingjun Yang : More fix to [\#22219](/redmine/issues/22219 "Bug: Acess invalid element of array in Calorimetry reconstruction  (Closed)").
+-   2019-05-07 Tingjun Yang : More fix to [redmine issue 22219](https://cdcvs.fnal.gov/redmine/issues/22219).
 -   2019-05-03 Usher, Tracy L : Merge branch ‘master’ into feature/usher_chargeasymmetry
 -   2019-05-01 Usher, Tracy L : Provide the ability to use hits from more than one producer - the aim is to allow input from multiple TPCs and combine into one global output
 -   2019-04-26 Usher, Tracy L : Merge branch ‘master’ into feature/usher_chargeasymmetry

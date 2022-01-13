@@ -41,7 +41,7 @@ webevd v08_00_06
 ----------------------------------------
 
 -   2020-06-24 Lynn Garren : webevd v08_00_06 for larsoft v08_55_02
--   2020-06-18 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from CrossR/CrossR/feat/MCOptions
+-   2020-06-18 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from CrossR/CrossR/feat/MCOptions
 -   2020-06-18 CrossR : Fix typo.
 -   2020-06-18 CrossR : Swap to ignoring neutral particles.
 -   2020-06-18 CrossR : Revert change in drawing options.

@@ -41,7 +41,7 @@ Purpose
 New features
 ------------------------------
 
--   moving argoneut files and resolve [\#5104](/redmine/issues/5104 "Bug: Remove dependency of geometry.fcl in larcore on experiment-specific geometry fcl files. (Closed)")
+-   moving argoneut files and resolve [redmine issue 5104](https://cdcvs.fnal.gov/redmine/issues/5104)
     -   argoneutcode larcore lardata lareventdisplay larreco
     -   feature/tjyang_bug5104_moveargoneutfcl
 -   geometry support for dual phase detector

@@ -34,7 +34,7 @@ Download instructions for [just larsoftobj v1_41_01](http://scisoft.fnal.gov/sci
 Purpose
 --------------------
 
--   requested by SBND for SBN workshop [\#19359](/redmine/issues/19359 "Support: Special release for SBN workshop (SBND) (Closed)")
+-   requested by SBND for SBN workshop [redmine issue 19359](https://cdcvs.fnal.gov/redmine/issues/19359)
 
 New features
 ------------------------------

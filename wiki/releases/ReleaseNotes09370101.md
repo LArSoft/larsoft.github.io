@@ -36,7 +36,7 @@ Download instructions for [just larsoftobj v09_12_00](http://scisoft.fnal.gov/sc
 Purpose
 --------------------
 
--   production release for SBN2021C (see [\#26513](/redmine/issues/26513 "Support: LArSoft patch for SBN2021C production (Closed)"))
+-   production release for SBN2021C (see [redmine issue 26513](https://cdcvs.fnal.gov/redmine/issues/26513))
 
 New features
 ------------------------------
@@ -49,7 +49,7 @@ Bug fixes
     -   This PR contains fixes for a bug introduced with PR \#81 .
 -   larsim PR 82
     -   Map SimChannels by Cryostat only to prevent extra SimChannels from being created when a channel is associated with multiple TPCs
-    -   Part of redmine issue [\#26453](/redmine/issues/26453 "Bug: Incorrect SimChannel Instantiation in SimDriftElectrons_modules.cc (Closed)")
+    -   Part of redmine issue [redmine issue 26453](https://cdcvs.fnal.gov/redmine/issues/26453)
 -   larsim PR 79
     -   Removed spurious configuration parameter
     -   Parameter UseModLarqlRecomb does not belong to LegacyLArG4, so it should not be in its configuration.

@@ -51,7 +51,7 @@ Updated dependencies
 ----------------------------------------------
 
 -   root v6_18_04d
-    -   This resolves the problem loading ParameterSet.h reported in [\#23808](/redmine/issues/23808 "Bug: Can't load ParameterSet.h header in ROOT (Closed)")
+    -   This resolves the problem loading ParameterSet.h reported in [redmine issue 23808](https://cdcvs.fnal.gov/redmine/issues/23808)
 -   canvas_root_io v1_05_01 (s95)
 -   art_root_io v1_02_01 (s95)
 -   gallery v1_14_01 (s95)
@@ -141,7 +141,7 @@ larreco v08_28_00
 ------------------------------------------
 
 -   2020-02-12 Lynn Garren : larreco v08_28_00 for larsoft v08_43_00
--   2020-02-11 Kyle Knoepfel : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from cjbackhouse/feature/bckhouse_quadvtx
+-   2020-02-11 Kyle Knoepfel : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from cjbackhouse/feature/bckhouse_quadvtx
 -   2020-02-07 Christopher Backhouse : Review changes part 3. Makefile, comment, protected-\>private.
 -   2020-02-07 Christopher Backhouse : Review changes, part 2, things that required refactoring.
 -   2020-02-07 Christopher Backhouse : Review changes, part 1, all the easy ones.
@@ -156,7 +156,7 @@ larsim v08_19_03
 ----------------------------------------
 
 -   2020-02-12 Lynn Garren : larsim v08_19_03 for larsoft v08_43_00
--   2020-02-11 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from PetrilloAtWork/develop
+-   2020-02-11 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from PetrilloAtWork/develop
 -   2020-02-07 Gianluca Petrillo : Removed trailing spaces.
 -   2020-02-07 Kyle Knoepfel : Merge branch ‘master’ into develop
 -   2020-02-06 Gianluca Petrillo : Fix in CORSIKAGen documentation format
@@ -174,7 +174,7 @@ lardata v08_14_02
 
 -   2020-02-12 Lynn Garren : lardata v08_14_02 for larsoft v08_43_00
 -   2020-02-05 Fermilab build bot account : Create greetings.yml
--   2020-02-04 Fermilab build bot account : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
 larcore v08_10_02
@@ -182,7 +182,7 @@ larcore v08_10_02
 
 -   2020-02-12 Lynn Garren : larcore v08_10_02 for larsoft v08_43_00
 -   2020-02-05 Fermilab build bot account : Create greetings.yml
--   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
 larpandoracontent v03_15_15
@@ -199,7 +199,7 @@ larsoftobj v08_26_02
 -   2020-02-12 Lynn Garren : larsoftobj v08_26_02 for larsoft v08_43_00
 -   2020-02-12 Lynn Garren : product versions
 -   2020-02-05 Fermilab build bot account : Create greetings.yml
--   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
 lardataobj v08_10_02
@@ -207,7 +207,7 @@ lardataobj v08_10_02
 
 -   2020-02-12 Lynn Garren : lardataobj v08_10_02 for larsoft v08_43_00
 -   2020-02-05 Fermilab build bot account : Create greetings.yml
--   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
 lardataalg v08_13_02
@@ -215,7 +215,7 @@ lardataalg v08_13_02
 
 -   2020-02-12 Lynn Garren : lardataalg v08_13_02 for larsoft v08_43_00
 -   2020-02-05 Fermilab build bot account : Create greetings.yml
--   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
 larcorealg v08_20_02
@@ -223,7 +223,7 @@ larcorealg v08_20_02
 
 -   2020-02-12 Lynn Garren : larcorealg v08_20_02 for larsoft v08_43_00
 -   2020-02-05 Fermilab build bot account : Create greetings.yml
--   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
 larcoreobj v08_10_02
@@ -231,16 +231,16 @@ larcoreobj v08_10_02
 
 -   2020-02-12 Lynn Garren : larcoreobj v08_10_02 for larsoft v08_43_00
 -   2020-02-05 Fermilab build bot account : Create greetings.yml
--   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
 larbatch v01_52_01
 --------------------------------------------
 
 -   2020-02-12 Lynn Garren : larbatch v01_52_01 for larsoft v08_43_00
--   2020-02-11 Fermilab build bot account : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from LArSoft/gartung-remove-github-actions
+-   2020-02-11 Fermilab build bot account : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from LArSoft/gartung-remove-github-actions
 -   2020-02-11 Patrick Gartung : Delete Github Actions.
--   2020-02-10 Fermilab build bot account : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from hgreenlee/pr4
+-   2020-02-10 Fermilab build bot account : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from hgreenlee/pr4
 -   2020-02-07 Herbert Greenlee : Remove trailing whitespace.
 -   2020-02-07 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into develop
 -   2020-02-07 Herbert Greenlee : Use default encoding.
@@ -255,5 +255,5 @@ larutils v1_25_07
 -   2020-02-12 Lynn Garren : larutils v1_25_07 for larsoft v08_43_00
 -   2020-02-06 Lynn Garren : modernize
 -   2020-02-05 Fermilab build bot account : Create greetings.yml
--   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project

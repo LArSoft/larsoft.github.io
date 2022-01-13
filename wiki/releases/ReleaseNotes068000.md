@@ -84,7 +84,7 @@ larsoft v06_80_00
 -   2018-05-02 Lynn Garren : larsoft v06_75_01_01
 -   2018-05-02 Lynn Garren : update product versions and get rid of old artifacts
 -   2018-05-02 Lynn Garren : notes
--   2018-05-02 Lynn Garren : workaround for [\#19851](/redmine/issues/19851 "Bug: messagefacility problem (Closed)")
+-   2018-05-02 Lynn Garren : workaround for [redmine issue 19851](https://cdcvs.fnal.gov/redmine/issues/19851)
 -   2018-05-02 Lynn Garren : s67
 -   2018-05-02 Lynn Garren : accept a list
 -   2018-05-02 Lynn Garren : temporary home for the fixup scripts

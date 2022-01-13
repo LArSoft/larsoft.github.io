@@ -48,7 +48,7 @@ New features
 Bug fixes
 ------------------------
 
--   [\#13765](/redmine/issues/13765 "Bug: RangeSet merging is very slow for concatenated files (Closed)")
+-   [redmine issue 13765](https://cdcvs.fnal.gov/redmine/issues/13765)
 
 Updated dependencies
 ----------------------------------------------

@@ -64,7 +64,7 @@ Bug fixes
 ------------------------
 
 -   larcorealg PR 11
-    -   This should solve issue [\#25003](/redmine/issues/25003 "Bug: Bug in geo::OpDetGeo isBar() when using sphere/semi-sphere optical detectors  (Closed)").
+    -   This should solve issue [redmine issue 25003](https://cdcvs.fnal.gov/redmine/issues/25003).
 
 Updated dependencies
 ----------------------------------------------
@@ -257,5 +257,5 @@ larutils v1_27_00
 
 -   2020-10-07 Lynn Garren : larutils v1_27_00 for larsoft v09_06_00
 -   2020-10-07 Lynn Garren : remove whitespace
--   2020-10-07 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from SBNSoftware/feature/ascarff_sbncodeBuildScript
+-   2020-10-07 Lynn Garren : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from SBNSoftware/feature/ascarff_sbncodeBuildScript
 -   2020-10-07 Andrew Scarff : Adding SBN build script. Small update to buildSBND.sh too.

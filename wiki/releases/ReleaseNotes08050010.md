@@ -187,7 +187,7 @@ larpandoracontent v03_14_04_01
 -   2019-02-14 Lynn Garren : larpandoracontent v03_14_05 for larsoft v08_09_00
 -   2019-02-12 Steven Green : Merge branch ‘updates’
 -   2019-02-01 Steven Green : Update version and change log.
--   2019-02-12 Steven Green : Merge pull request [\#76](/redmine/issues/76 "Bug: Notification preferences link in email (Closed)") from StevenGreen1/feature/ApplyT0Calculation
+-   2019-02-12 Steven Green : Merge pull request [redmine issue 76](https://cdcvs.fnal.gov/redmine/issues/76) from StevenGreen1/feature/ApplyT0Calculation
 -   2019-02-11 Steven Green : Adjusting the resetting of hit positions post stitching for ambiguous cosmic rays to reflect X0 setting modifications.
 -   2019-02-11 Steven Green : Set the x0 shift for all pfos in the hierarchy when stitching.
 -   2019-02-11 Steven Green : Added helper functions that indicate whether a pfo was stitched and to return the stitched x0 value.

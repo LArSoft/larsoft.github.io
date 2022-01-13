@@ -126,7 +126,7 @@ larrecodnn v08_06_00
 ------------------------------------------------
 
 -   2020-07-08 Lynn Garren : larrecodnn v08_06_00 for larsoft v08_57_00
--   2020-07-07 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from yangtj207/develop
+-   2020-07-07 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from yangtj207/develop
 -   2020-04-28 Tingjun Yang : Use smart pointer.
 -   2020-04-28 Tingjun Yang : addressing comments
 -   2020-04-28 Tingjun Yang : Add option to save noise.
@@ -241,9 +241,9 @@ larpandoracontent v03_17_00
 -   2020-03-19 Dom Brailsford : The two-view track and two-view transverse track overlap result initial blueprints.
 -   2020-03-19 Dom Brailsford : A class which represents the overlap of two clusters in a two-view detector or when only two views are used. The class provides some functionality, such as calculating a cluster’s fractional overlap (how much of the cluster is contained in the overlap region).
 -   2019-11-19 Dominic Brailsford : Function to create calo hit list from cluster hits contained in a bounding box. The bounding box works in multiple dimensions.
--   2020-06-26 AndyChappell : Merge pull request [\#129](/redmine/issues/129 "Feature: move financial approvers so they can edit reqs (New)") from AndyChappell/feature/cpp17
+-   2020-06-26 AndyChappell : Merge pull request [redmine issue 129](https://cdcvs.fnal.gov/redmine/issues/129) from AndyChappell/feature/cpp17
 -   2020-06-26 Andrew Chappell : Update version
--   2020-06-19 johnmarshall80 : Merge pull request [\#128](/redmine/issues/128 "Feature: Add quadrant leaders to signature requirements (New)") from AndyChappell/feature/cpp17
+-   2020-06-19 johnmarshall80 : Merge pull request [redmine issue 128](https://cdcvs.fnal.gov/redmine/issues/128) from AndyChappell/feature/cpp17
 -   2020-06-19 Andy Chappell : Move to C++17 standard
 
 larsoftobj v08_29_02

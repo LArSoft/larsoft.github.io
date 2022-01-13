@@ -45,7 +45,7 @@ New features
 Bug fixes
 ------------------------
 
--   Error Messages from OpDetBTRs [\#22339](/redmine/issues/22339 "Bug: Tons of Error Messages from OpDetBTRs (Closed)")
+-   Error Messages from OpDetBTRs [redmine issue 22339](https://cdcvs.fnal.gov/redmine/issues/22339)
     -   larsim feature/JStock_Issue22339_2
 -   trailing whitespace removed
 
@@ -150,7 +150,7 @@ larsim v08_05_01
 -   2019-04-10 Lynn Garren : Merge branch ‘feature/dgg_opt_maintenance’ into release/v08_15_00
 -   2019-04-10 Lynn Garren : Merge branch ‘feature/davidc_mcreco_segfaultfix’ into release/v08_15_00
 -   2019-04-10 Lynn Garren : Merge branch ‘feature/pgreen_lightprop_updated’ into release/v08_15_00
--   2019-04-10 Jason Stock : LArSoft Issue [\#22339](/redmine/issues/22339 "Bug: Tons of Error Messages from OpDetBTRs (Closed)") In all cases the energy should now be a useful quantity. When the Birk Coefficient is used, we store the visible energy from ISCalc. When not used, we store the g4 TotalEnergyDeposit. The Edeposited should never be an uninitialized value in any possible case now.
+-   2019-04-10 Jason Stock : LArSoft Issue [redmine issue 22339](https://cdcvs.fnal.gov/redmine/issues/22339) In all cases the energy should now be a useful quantity. When the Birk Coefficient is used, we store the visible energy from ISCalc. When not used, we store the g4 TotalEnergyDeposit. The Edeposited should never be an uninitialized value in any possible case now.
 -   2019-04-09 Kyle Knoepfel : Remove inappropriate preprocessor macros; some cleanups.
 -   2019-03-21 Kyle Knoepfel : Remove unnecessary headers.
 -   2019-02-27 David Caratelli : removed an old COUT and added exception handling for nearestwire function call from geometry service –DC
@@ -284,8 +284,8 @@ larsim v08_05_01
 -   2018-11-28 Jason Stock : Merge branch ‘feature/JStock_fix21417’ into develop
 -   2018-11-28 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
 -   2018-11-28 Jason Stock : Merge branch ‘feature/JStock_fix21417’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock_fix21417
--   2018-11-27 Jason Stock : Bugfix larsoft issue [\#21417](/redmine/issues/21417 "Bug: BackTracker "HitToEveTrackIDEs" does not fill # electrons (Closed)")
--   2018-11-27 Jason Stock : Bugfix larsoft issue [\#21417](/redmine/issues/21417 "Bug: BackTracker "HitToEveTrackIDEs" does not fill # electrons (Closed)")
+-   2018-11-27 Jason Stock : Bugfix larsoft issue [redmine issue 21417](https://cdcvs.fnal.gov/redmine/issues/21417)
+-   2018-11-27 Jason Stock : Bugfix larsoft issue [redmine issue 21417](https://cdcvs.fnal.gov/redmine/issues/21417)
 -   2018-11-21 Wesley Ketchum : Merge branch ‘feature/wketchum_OverrideRealDataBackTracker’ into develop
 -   2018-11-21 Wesley Ketchum : forgot a default option on override real data…
 -   2018-11-21 Wesley Ketchum : Merge branch ‘feature/wketchum_OverrideRealDataBackTracker’ into develop
@@ -375,7 +375,7 @@ larsim v08_05_01
 -   2018-09-05 Lynn Garren : larsim v07_02_02 for larsoft v07_05_00
 -   2018-08-28 Lynn Garren : larsim v07_02_01 for larsoft v07_04_00
 -   2018-08-27 Wesley Ketchum : bug fix for + instead of \* in efield calculation
--   2018-08-28 Paul Russo : Fix redmine issue [\#20554](/redmine/issues/20554 "Bug: AuxDetSensitive with ID 0 has no energy deposit (Closed)") - AuxDetSensitive with ID 0 has no energy deposit.
+-   2018-08-28 Paul Russo : Fix redmine issue [redmine issue 20554](https://cdcvs.fnal.gov/redmine/issues/20554) - AuxDetSensitive with ID 0 has no energy deposit.
 -   2018-08-22 Lynn Garren : larsim v07_02_00 for larsoft v07_03_00
 -   2018-08-21 Wesley Ketchum : Merge branch ‘feature/wketchum_ShiftEDep_Debugging’ into develop
 -   2018-08-16 Gianluca Petrillo : Fixed uninitialised pointers in PhotonVisibilityService.
@@ -519,7 +519,7 @@ larsim v08_05_01
 -   2018-04-23 Jason Stock : Making a map for flashes (not great), isntead of many calls to FindManyP (really bad).
 -   2018-04-23 Jose Soto : Timing parameterization function variable initialized
 -   2018-04-22 Jose Soto : Photon Library Extension to light propagation time parameters. Fit function parameterized by the user with a fcl parameter.
--   2018-04-19 Gianluca Petrillo : Removed unrequested feature introduced with issue [\#18704](/redmine/issues/18704 "Task: Change LBNEMC tags in SAM to DUNEMC tags in sam (Closed)").
+-   2018-04-19 Gianluca Petrillo : Removed unrequested feature introduced with issue [redmine issue 18704](https://cdcvs.fnal.gov/redmine/issues/18704).
 -   2018-04-19 Lynn Garren : larsoft v06_74_01
 -   2018-04-19 Jason Stock : Documentation for the ParticleInventory
 -   2018-04-19 Jason Stock : Merge remote branch ‘origin/develop’ into develop
@@ -589,7 +589,7 @@ larsim v08_05_01
 -   2018-02-24 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
 -   2018-02-24 Tingjun Yang : Make sure mct does not exist in the vector.
 -   2018-02-24 Jason Stock : Merge branch ‘feature/JStock_ParticleInventoryFix19023’ into develop
--   2018-02-23 Jason Stock : A bug was found the ParticleInventory by Bruce Baller where TrackIdToMCTruth was not being correctly resolved. This was found to be due to an overflow error casting an int as a short. This resolves LArSoft issue [\#19023](/redmine/issues/19023 "Bug: Problem with MCTruth, MCParticle and hit associations (Closed)")
+-   2018-02-23 Jason Stock : A bug was found the ParticleInventory by Bruce Baller where TrackIdToMCTruth was not being correctly resolved. This was found to be due to an overflow error casting an int as a short. This resolves LArSoft issue [redmine issue 19023](https://cdcvs.fnal.gov/redmine/issues/19023)
 -   2018-02-24 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/JStock_ParticleInventoryFix19023’ into develop
 -   2018-02-24 Jason Stock : Switching check order to prevent segfault in filling truth records for particle inventory.
 -   2018-02-24 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/JStock_ParticleInventoryFix19023’ into develop
@@ -828,7 +828,7 @@ larsim v08_05_01
 -   2017-08-07 Lucas Mendes Santos : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/dump_opdetbacktrackerrecords
 -   2017-08-07 Lucas Mendes Santos : New OpDetBacktrackerRecord Dumper, did some corrections in comments and changed the author name From Gianluca to myself
 -   2017-08-07 Jason Stock : Adding the ability to generate more than one particle per decay for the radiological generator. Added the structure needed to properly model a complete K42-Ca42 (For Ar42 decay).
--   2017-08-07 Jason Stock : Restoring bug fix removed by commit 13f7f1bf. This should also address LArSoft Issue [\#17124](/redmine/issues/17124 "Bug: PhotonBacktracking to track 0. (Closed)").
+-   2017-08-07 Jason Stock : Restoring bug fix removed by commit 13f7f1bf. This should also address LArSoft Issue [redmine issue 17124](https://cdcvs.fnal.gov/redmine/issues/17124).
 -   2017-08-06 Lucas Mendes Santos : Creation of a OpDetBacktrackerRecords Dumper
 -   2017-08-06 Lucas Mendes Santos : Creation of a OpDetBacktrackerRecords Dumper
 -   2017-08-06 Jason Stock : Changing ides to sdps in a couple places for correctness and consistency.
@@ -836,12 +836,12 @@ larsim v08_05_01
 -   2017-07-31 Jason Stock : Fixing tabs in Backtracker_service. Only fixing tabs. No functional changes.
 -   2017-07-25 Lynn Garren : larsim v06_28_00 for larsoft v06_45_00
 -   2017-07-25 Lynn Garren : Merge branch ‘v06_38_00_01_branch’ into release/v06_45_00
--   2017-07-21 Gianluca Petrillo : An attempt to a solution to issue [\#17117](/redmine/issues/17117 "Bug: prodsingle_sbnd.fcl crashes with larsoft v06_42_00 (Closed)").
+-   2017-07-21 Gianluca Petrillo : An attempt to a solution to issue [redmine issue 17117](https://cdcvs.fnal.gov/redmine/issues/17117).
 -   2017-07-18 Lynn Garren : larsim v06_27_00 for larsoft v06_44_00
 -   2017-07-18 Lynn Garren : Merge branch ‘feature/dgg_lightpropv2’ into release/v06_44_00
 -   2017-07-17 Jeremy Hewes : Fixing bug in nnbar generator module, which was caused by changes in GENIE implementation.
 -   2017-07-12 Lynn Garren : larsim v06_26_00 for larsoft v06_43_00
--   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [\#17099](/redmine/issues/17099 "Feature: Make standard geometry available in gallery environment (Closed)"))
+-   2017-07-05 Gianluca Petrillo : Ran update script for code move from larcore to larcorealg (issue [redmine issue 17099](https://cdcvs.fnal.gov/redmine/issues/17099))
 -   2017-07-02 Diego Gamez : temporary fix for the optical photon first step bug in the estimation of the tim
 -   2017-07-02 Diego Gamez : including g4 default opBoundary option
 -   2017-07-02 Diego Gamez : including g4 default opBoundary option
@@ -865,7 +865,7 @@ larsim v08_05_01
 -   2017-05-26 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
 -   2017-05-25 Jason Stock : Adding ability to handle neutrons to radiogen
 -   2017-05-23 Lynn Garren : larsim v06_22_01 for larsoft v06_37_00
--   2017-05-23 Jason Stock : Small change to ParticleListAction to assure that the fTrackIDOffset is only changed when in fact a track exists from a given generator. This addressed LArSoft issue [\#16641](/redmine/issues/16641 "Bug: G4 produces multiple particles with the same TrackID when called from generators that may not pro... (Closed)").
+-   2017-05-23 Jason Stock : Small change to ParticleListAction to assure that the fTrackIDOffset is only changed when in fact a track exists from a given generator. This addressed LArSoft issue [redmine issue 16641](https://cdcvs.fnal.gov/redmine/issues/16641).
 -   2017-05-17 Hans Wenzel : make sure that physics is initialized
 -   2017-05-16 Lynn Garren : larsim v06_22_00 for larsoft v06_36_00
 -   2017-05-15 Gianluca Petrillo : Added BackTracker to jobs using SimPhotonCounter.
@@ -912,7 +912,7 @@ larsim v08_05_01
 -   2017-04-17 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp_Issue16129
 -   2017-04-14 Thomas Junk : Sort the vector of simchannel pointers by channel number, and use a log2 search to find the simchannels in it in order to speed up FindSimChannel
 -   2017-04-14 Gianluca Petrillo : Modified MCTruth output about particle origin.
--   2017-04-14 Gianluca Petrillo : Fixed bug (issue [\#16208](/redmine/issues/16208 "Bug: DumpMCTruth module crashes with a segmentation fault (Closed)")).
+-   2017-04-14 Gianluca Petrillo : Fixed bug (issue [redmine issue 16208](https://cdcvs.fnal.gov/redmine/issues/16208)).
 -   2017-04-13 Gianluca Petrillo : Adding a small margin to the charge recovery position.
 -   2017-04-13 Lynn Garren : larsim v06_18_00 for larsoft v06_32_00
 -   2017-04-13 Lynn Garren : Merge branch ‘feature/team_for_gcc630’ into release/v06_32_00
@@ -992,7 +992,7 @@ larsim v08_05_01
 -   2016-12-21 Wesley Ketchum : allow filter to split mctruth into two collections
 -   2016-12-20 Patrick Gartung : larsim v06_10_01 for larsoft v06_18_01
 -   2016-12-19 Jason Stock : Merge remote branch ‘origin’ into develop
--   2016-12-17 Steven Gardiner : Fix bug that prevents MARLEY from using nuclear structure data loaded using the larsim MARLEYGen module. This resolves LArSoft issue [\#14847](/redmine/issues/14847 "Bug: MARLEYGen module fails to use loaded nuclear structure data when simulating de-excitations (Resolved)").
+-   2016-12-17 Steven Gardiner : Fix bug that prevents MARLEY from using nuclear structure data loaded using the larsim MARLEYGen module. This resolves LArSoft issue [redmine issue 14847](https://cdcvs.fnal.gov/redmine/issues/14847).
 -   2016-12-16 Jason Stock : Changing tabs to spaces for convention. Changing photonbacktracker.fcl to remove standard declarations as the photonbacktracker is not experiment agnostic. Each experiment will have to make their own declaration of the service, and will need to provide their own Delay parameter. For DUNE this is 260 ns at the present time.
 -   2016-12-15 Lynn Garren : larsim v06_10_00 for larsoft v06_18_00
 -   2016-12-15 Gianluca Petrillo : Added inline comments on top of John’s changes in the previous commit.
@@ -1058,7 +1058,7 @@ larsim v08_05_01
 -   2016-10-06 Lynn Garren : larsoft_data v1_01_01
 -   2016-10-05 Lynn Garren : larsim v06_04_00 for larsoft v06_09_00
 -   2016-10-05 Lynn Garren : Revert “Revert”Merge branch ‘feature/mrmooney_SCERecombFeature’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop“”
--   2016-10-05 Gianluca Petrillo : Fixing memory leak in NEST (issue [\#14085](/redmine/issues/14085 "Bug: Memory leak running LArG4 with NEST (Closed)"))
+-   2016-10-05 Gianluca Petrillo : Fixing memory leak in NEST (issue [redmine issue 14085](https://cdcvs.fnal.gov/redmine/issues/14085))
 -   2016-10-04 Gianluca Petrillo : Changed a detail of exception throwning in LArSeedService.
 -   2016-10-04 Gianluca Petrillo : Removed old unused header
 -   2016-10-04 Michael Mooney : Revert “Merge branch ‘feature/mrmooney_SCERecombFeature’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop”
@@ -1070,7 +1070,7 @@ larsim v08_05_01
 -   2016-09-13 Patrick Gartung : larsim v06_03_04 for larsoft v06_06_01
 -   2016-09-08 Lynn Garren : larsim v06_03_03 for larsoft v06_05_01
 -   2016-09-07 Lynn Garren : Merge branch ‘feature/gp_QuieterCORSIKAGen’ into release/v06_05_01
--   2016-09-06 Gianluca Petrillo : This addresses LArSoft issue [\#13750](/redmine/issues/13750 "Bug: CORSIKAGen too verbose (Closed)").
+-   2016-09-06 Gianluca Petrillo : This addresses LArSoft issue [redmine issue 13750](https://cdcvs.fnal.gov/redmine/issues/13750).
 -   2016-08-31 Michael Mooney : Reduce verbosity of output
 -   2016-08-31 Lynn Garren : larsim v06_03_02 for larsoft v06_05_00
 -   2016-08-30 Lynn Garren : larsimobj no longer exists
@@ -1095,7 +1095,7 @@ larsim v08_05_01
 -   2016-07-25 Steven Gardiner : Add a TTree of MARLEY events to the “hist” ROOT file produced by the MARLEYGen module. These may be matched to art::Event objects in the “gen” ROOT file by comparing the run, subrun, and event numbers included as other branches in the tree.
 -   2016-07-24 Steven Gardiner : Enable high-precision neutron physics (“NeutronHP” in the FHiCL file custom physics list) so that neutrino-induced neutrons from MARLEY will be tracked more accurately.
 -   2016-07-03 Steven Gardiner : Add module that provides an interface to the MARLEY (Model of Argon Reaction Low Energy Yields) event generator for tens-of-MeV neutrinos in liquid argon. For more information, see [http://marleygen.org](http://marleygen.org).
--   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
+-   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [redmine issue 13513](https://cdcvs.fnal.gov/redmine/issues/13513))
 -   2016-08-11 Lynn Garren : larsim v06_02_00 for larsoft v06_03_00
 -   2016-08-11 Lynn Garren : Merge branch ‘feature/jpdavies_supernova_truth’ into release/v06_03_00
 -   2016-08-11 Brian Rebel : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
@@ -1640,7 +1640,7 @@ larsim v08_05_01
 -   2014-12-16 Brian_Rebel : put both non-default constructors behind the \#ifndef *GCCXML* guard because genreflex does not need to know about anything but the default ctor and the data members
 -   2014-12-10 Lynn Garren : larsim v03_03_00 for larsoft v03_04_05
 -   2014-12-10 Gianluca Petrillo : Adding a error message when trying to add no electrons or no energy to a SimChannel
--   2014-12-09 Gianluca Petrillo : Fix to Issue [\#7460](/redmine/issues/7460 "Bug: NaN's in the simulation (Closed)"): do not add ionization contributions with no electrons to SimChannel’s
+-   2014-12-09 Gianluca Petrillo : Fix to Issue [redmine issue 7460](https://cdcvs.fnal.gov/redmine/issues/7460): do not add ionization contributions with no electrons to SimChannel’s
 -   2014-12-02 Lynn Garren : larsim v03_02_07 for larsoft v03_04_04
 -   2014-12-02 Matthew Toups : Update optical library build tools.
 -   2014-12-01 Matthew Toups : Comment out redundant line in simulationservices.fcl for microboone.fcl.
@@ -1801,7 +1801,7 @@ larsim v08_05_01
 -   2014-02-03 Lynn Garren : Merge branch ‘release/v1_00_02’
 -   2014-02-03 Lynn Garren : v1_00_02 with warnings fixed and using a cetbuildtools that supports nightly updates
 -   2014-02-01 Gianluca Petrillo : Reverting compiler flag change.
--   2014-01-31 Gianluca Petrillo : Merge branch ‘feature/Bug5105’ into develop Bug [\#5105](/redmine/issues/5105 "Bug: Fix compiler warnings (Closed)"): compilation fixed for flags: VIGILANT -pedantic -Wno-unused-local-typedefs .
+-   2014-01-31 Gianluca Petrillo : Merge branch ‘feature/Bug5105’ into develop Bug [redmine issue 5105](https://cdcvs.fnal.gov/redmine/issues/5105): compilation fixed for flags: VIGILANT -pedantic -Wno-unused-local-typedefs .
 -   2014-01-31 Gianluca Petrillo : Added comment
 -   2014-01-31 Gianluca Petrillo : Compilation fixed for flags: VIGILANT -pedantic -Wno-unused-local-typedefs -Wno-unused-variable (the latter needed because of CLHEP)
 -   2014-01-31 Gianluca Petrillo : Fixed warnings (almost-PARANOID level)

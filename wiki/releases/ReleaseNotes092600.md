@@ -49,9 +49,9 @@ Bug fixes
 ------------------------
 
 -   larcorealg PR 18
-    -   Attempt to solve issue [\#25990](/redmine/issues/25990 "Bug: problems with experiment unit tests when using root v6_22_08b (Closed)"): GDML units in ROOT
+    -   Attempt to solve issue [redmine issue 25990](https://cdcvs.fnal.gov/redmine/issues/25990): GDML units in ROOT
 -   larcorealg PR 19
-    -   second and final fix for issue [\#25990](/redmine/issues/25990 "Bug: problems with experiment unit tests when using root v6_22_08b (Closed)")
+    -   second and final fix for issue [redmine issue 25990](https://cdcvs.fnal.gov/redmine/issues/25990)
 
 Updated dependencies
 ----------------------------------------------
@@ -245,7 +245,7 @@ larcorealg v09_01_02
 -   2021-07-01 Gianluca Petrillo : Same workaround for issue 25990 in AuxDetGeometry.
 -   2021-07-01 Lynn Garren : larcorealg v09_01_01_02 for larsoft v09_25_00_02
 -   2021-06-30 Gianluca Petrillo : Updated comment to issue 25990.
--   2021-06-30 Gianluca Petrillo : Attempt to solve issue [\#25990](/redmine/issues/25990 "Bug: problems with experiment unit tests when using root v6_22_08b (Closed)"): GDML units in ROOT
+-   2021-06-30 Gianluca Petrillo : Attempt to solve issue [redmine issue 25990](https://cdcvs.fnal.gov/redmine/issues/25990): GDML units in ROOT
 -   2021-06-29 Lynn Garren : larcorealg v09_01_01_01 for larsoft v09_25_00_01
 
 larcoreobj v09_02_01

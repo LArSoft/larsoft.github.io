@@ -96,7 +96,7 @@ larsim v06_41_01
 -   2018-02-24 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop
 -   2018-02-24 Tingjun Yang : Make sure mct does not exist in the vector.
 -   2018-02-24 Jason Stock : Merge branch ‘feature/JStock_ParticleInventoryFix19023’ into develop
--   2018-02-23 Jason Stock : A bug was found the ParticleInventory by Bruce Baller where TrackIdToMCTruth was not being correctly resolved. This was found to be due to an overflow error casting an int as a short. This resolves LArSoft issue [\#19023](/redmine/issues/19023 "Bug: Problem with MCTruth, MCParticle and hit associations (Closed)")
+-   2018-02-23 Jason Stock : A bug was found the ParticleInventory by Bruce Baller where TrackIdToMCTruth was not being correctly resolved. This was found to be due to an overflow error casting an int as a short. This resolves LArSoft issue [redmine issue 19023](https://cdcvs.fnal.gov/redmine/issues/19023)
 -   2018-02-24 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/JStock_ParticleInventoryFix19023’ into develop
 -   2018-02-24 Jason Stock : Switching check order to prevent segfault in filling truth records for particle inventory.
 -   2018-02-24 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/JStock_ParticleInventoryFix19023’ into develop

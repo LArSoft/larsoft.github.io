@@ -44,7 +44,7 @@ New features
 
 -   larana feature/kterao_ophitbipolar
     -   optical reconstruction
--   resolve [\#16812](/redmine/issues/16812 "Necessary Maintenance: Remove DUNE-specific code from GeometryGeo (Resolved)")
+-   resolve [redmine issue 16812](https://cdcvs.fnal.gov/redmine/issues/16812)
     -   larcorealg and dunetpc: feature/ss_issue16812
 
 Bug fixes

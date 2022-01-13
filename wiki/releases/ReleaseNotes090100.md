@@ -62,7 +62,7 @@ Bug fixes
 
 -   lardataalg PR 9
     -   Fix uninitialized variables encountered by sbndcode
-    -   [\#24903](/redmine/issues/24903 "Bug: Issue with Pandora and DetectorPropertyService in larsoft v09 (Closed)")
+    -   [redmine issue 24903](https://cdcvs.fnal.gov/redmine/issues/24903)
 -   larsim PR 35
     -   The LightSource module generates photons at specific points of the world. The points can be specified by a text file, and each line of the text file will determine a volume and generate photons in there for the event. The next event will read the parameters from the next line of the text file, and so on.
         When the text file is over, if further events are requested the module is supposed to start over with the settings at the beginning of the file, and then move on from there.
@@ -70,7 +70,7 @@ Bug fixes
     -   I have not investigated when this bug was introduced. My suspicion is that before my last changes, the bug was there but would effectively use the entire set of parameters from the previous event (no uninitialised memory access), hiding the issue and, in case of a single line in the steering file, producing the expected result.
 -   larsim PR 37
     -   Re-enable OpticalPhysics list accidentally disabled during v09 migration
-    -   [\#24890](/redmine/issues/24890 "Bug: Full optical GEANT4 simulation not available in v09_00_00 (Closed)")
+    -   [redmine issue 24890](https://cdcvs.fnal.gov/redmine/issues/24890)
 
 Updated dependencies
 ----------------------------------------------
@@ -139,7 +139,7 @@ larsim v09_01_00
 -   2020-09-01 Lynn Garren : Merge pull request \#36 from wenqiang-gu/develop
 -   2020-09-01 Iker de Icaza Astiz : Use std::unique_ptr\<\> to handle the memory of the CLHEP::RandGeneral
 -   2020-09-01 Iker de Icaza Astiz : Pass OpticalDetector and Dims as stack variables
--   2020-09-01 Kyle Knoepfel : Resolve bug [\#24890](/redmine/issues/24890 "Bug: Full optical GEANT4 simulation not available in v09_00_00 (Closed)"): re-enable OpticalPhysics list
+-   2020-09-01 Kyle Knoepfel : Resolve bug [redmine issue 24890](https://cdcvs.fnal.gov/redmine/issues/24890): re-enable OpticalPhysics list
 -   2020-08-31 Gianluca Petrillo : Removed white spaces from LightSource_module.cc
 -   2020-08-31 Gianluca Petrillo : Merge remote-tracking branch ‘upstream/develop’ into feature/gp_lightSourceFix
 -   2020-08-28 Wenqiang Gu : add a hit time RMS for IDE finding
@@ -176,7 +176,7 @@ lardataalg v09_00_02
 
 -   2020-09-03 Lynn Garren : lardataalg v09_00_02 for larsoft v09_01_00
 -   2020-09-03 Lynn Garren : Merge pull request \#9 from knoepfel/bugfix/knoepfel_uninitialized_variables
--   2020-09-03 Kyle Knoepfel : Resolve bug [\#24903](/redmine/issues/24903 "Bug: Issue with Pandora and DetectorPropertyService in larsoft v09 (Closed)"): fix uninitialized variables
+-   2020-09-03 Kyle Knoepfel : Resolve bug [redmine issue 24903](https://cdcvs.fnal.gov/redmine/issues/24903): fix uninitialized variables
 
 larcorealg v09_00_00
 ------------------------------------------------

@@ -63,7 +63,7 @@ Bug fixes
     -   larg4 PR 30 introduced functionality to allow for multiple larg4 instances. Since its introduction SBND has noticed an intermittent warning in our g4 tests due to a difference in the number of MCTracks produced in mcreco.
     -   After some debugging I found that this seems to be related to attempts to access a trackID from the largeant MCParticle’s which doesn’t exist. From what I can tell this is because the offset parameter in the ParticleListActionService is not currently initialised and therefore results in some undefined behaviour, taking different values.
     -   By adding this line I was able to show offline that this error did not crop up at all in 100 runs of the relevant CI test, compared to a random occurrence of about 1/10 before. I am confident this was the source of the error.
--   Fix for Bug [\#25525](/redmine/issues/25525 "Bug: Adding offset in MergeSimSources breaks symmetry assumed by truth matching (Closed)")
+-   Fix for Bug [redmine issue 25525](https://cdcvs.fnal.gov/redmine/issues/25525)
     -   nusimdata v1_24_06
     -   lardataobj PR 18
         -   This attempts to check if existing TrackID us negative, and if so applies the given offset in the “-” direction.
@@ -74,7 +74,7 @@ Known issues
 ------------------------------
 
 -   Unexplained OpHit / OpFlash product differences in SBND CI tests following larana\#14
-    -   [\#26421](/redmine/issues/26421 "Bug: Unexplained OpHit / OpFlash product differences in SBND CI tests following larana#14 (Assigned)")
+    -   [redmine issue 26421](https://cdcvs.fnal.gov/redmine/issues/26421)
     -   [https://github.com/SBNSoftware/sbndcode/issues/213](https://github.com/SBNSoftware/sbndcode/issues/213)
 
 Updated dependencies

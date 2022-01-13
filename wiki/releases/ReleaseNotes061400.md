@@ -39,8 +39,8 @@ Purpose
 New features
 ------------------------------
 
--   lardata feature/gp_Issue12367 [\#12367](/redmine/issues/12367 "Necessary Maintenance: Merge namespaces lar::utils and lar::util (Closed)")
--   larcore feature/gp_Issue14365 [\#14365](/redmine/issues/14365 "Bug: Plane geometry object hosts readout information (Closed)")
+-   lardata feature/gp_Issue12367 [redmine issue 12367](https://cdcvs.fnal.gov/redmine/issues/12367)
+-   larcore feature/gp_Issue14365 [redmine issue 14365](https://cdcvs.fnal.gov/redmine/issues/14365)
 -   larreco feature/cerati_kffit
     -   Kalman Filter track fit module+algorithm
     -   [https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=13092](https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=13092)

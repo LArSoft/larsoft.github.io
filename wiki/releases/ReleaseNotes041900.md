@@ -35,7 +35,7 @@ New features
     -   [Aug. 11 slides](https://indico.fnal.gov/getFile.py/access?contribId=6&resId=0&materialId=slides&confId=10257)
 -   larcore feature/brebel_AuxDetGeometry
 -   Names changed from lbne to dune
--   remove all sample files [\#9754](/redmine/issues/9754 "Bug: Outdated "*.sample" files in LArSoft (Closed)")
+-   remove all sample files [redmine issue 9754](https://cdcvs.fnal.gov/redmine/issues/9754)
 -   remove old SRT GNUmakefiles
 -   Starting with this release, you must use /cvmfs/fermilab.opensciencegrid.org/products
 

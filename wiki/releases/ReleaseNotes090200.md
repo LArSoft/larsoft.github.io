@@ -62,7 +62,7 @@ Bug fixes
 ------------------------
 
 -   larsim PR 40
-    -   resolve [\#24924](/redmine/issues/24924 "Bug: 0 MeV photons on LegacyOpFastScintillation (Closed)")
+    -   resolve [redmine issue 24924](https://cdcvs.fnal.gov/redmine/issues/24924)
 -   larsim PR 38
     -   improve documentation
 
@@ -144,7 +144,7 @@ larsim v09_02_00
 -   2020-09-09 Lynn Garren : larsim v09_02_00 for larsoft v09_02_00
 -   2020-09-09 Lynn Garren : Merge branch ‘feature/wgu_priorSCE_depo’ into release/v09_02_00
 -   2020-09-09 Lynn Garren : Merge pull request \#40 from knoepfel/bugfix/knoepfel_reset_state
--   2020-09-09 Kyle Knoepfel : Fix bug [\#24924](/redmine/issues/24924 "Bug: 0 MeV photons on LegacyOpFastScintillation (Closed)"): Don’t forget to reset ISCalc state.
+-   2020-09-09 Kyle Knoepfel : Fix bug [redmine issue 24924](https://cdcvs.fnal.gov/redmine/issues/24924): Don’t forget to reset ISCalc state.
 -   2020-09-08 Lynn Garren : Merge pull request \#38 from PetrilloAtWork/feature/gp_ECutDocFix
 -   2020-09-04 Gianluca Petrillo : Documentation fix.
 -   2020-08-30 Wenqiang Gu : change the SavePriorSCE to false by default
@@ -168,7 +168,7 @@ larpandoracontent v03_19_03
 
 -   2020-09-09 Lynn Garren : larpandoracontent v03_19_03 for larsoft v09_02_00
 -   2020-09-09 Lynn Garren : pandora v03_16_00
--   2020-09-07 AndyChappell : Merge pull request [\#136](/redmine/issues/136 "Bug: instructions at https://cdcvs4.fnal.gov/redmine/documents/show/11 cause error (Closed)") from AndyChappell/feature/pdsp_performance
+-   2020-09-07 AndyChappell : Merge pull request [redmine issue 136](https://cdcvs.fnal.gov/redmine/issues/136) from AndyChappell/feature/pdsp_performance
 -   2020-09-02 Andrew Chappell : CMakeLists.txt and ChangeLog.txt updates
 -   2020-08-12 Andrew Chappell : Update cluster span calls on z to use version in Cluster
 -   2020-08-10 Andrew Chappell : Update cluster span calls to use new caching version in Cluster

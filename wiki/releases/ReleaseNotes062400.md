@@ -45,7 +45,7 @@ New features
 Bug fixes
 ------------------------
 
--   Changed deprecation warning to be less intrusive (see issue [\#14281](/redmine/issues/14281 "Task: Provide an interface for access of reconstructed track information (Accepted)") )
+-   Changed deprecation warning to be less intrusive (see issue [redmine issue 14281](https://cdcvs.fnal.gov/redmine/issues/14281) )
 
 Updated dependencies
 ----------------------------------------------
@@ -145,7 +145,7 @@ lardataobj v1_10_01
 -   2017-02-07 Lynn Garren : lardataobj v1_10_01 for larsoft v06_24_00
 -   2017-02-07 Lynn Garren : lardataobj v1_10_01 for larsoft v06_24_00
 -   2017-02-06 Gianluca Petrillo : Exceptionally ignore warnings in unit tests testing deprecated methods.
--   2017-02-03 Gianluca Petrillo : Changed deprecation warning to be less intrusive (see issue [\#14281](/redmine/issues/14281 "Task: Provide an interface for access of reconstructed track information (Accepted)") )
+-   2017-02-03 Gianluca Petrillo : Changed deprecation warning to be less intrusive (see issue [redmine issue 14281](https://cdcvs.fnal.gov/redmine/issues/14281) )
 
 larcoreobj v1_06_02
 ----------------------------------------------

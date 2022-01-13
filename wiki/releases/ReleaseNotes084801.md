@@ -139,7 +139,7 @@ larpandoracontent v03_15_16
 --------------------------------------------------------------
 
 -   2020-04-01 Lynn Garren : larpandoracontent v03_15_16 for larsoft v08_48_01
--   2020-03-30 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from PandoraPFA/feature/larpandoracontent_v03_15_16
+-   2020-03-30 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from PandoraPFA/feature/larpandoracontent_v03_15_16
 -   2020-03-30 John Marshall : Merge branch ‘updates’
 -   2020-03-30 John Marshall : Update version and change log.
 -   2020-03-30 John Marshall : Remove whitespace.
@@ -203,7 +203,7 @@ lardataalg v08_13_07
 ------------------------------------------------
 
 -   2020-04-01 Lynn Garren : lardataalg v08_13_07 for larsoft v08_48_01
--   2020-04-01 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from lpaulucc/feature/lp_rayleigh90cm
+-   2020-04-01 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from lpaulucc/feature/lp_rayleigh90cm
 -   2020-03-26 Laura Paulucci : Removing empty space
 -   2020-03-26 Laura Paulucci : Updating Rayleigh and R index for LAr
 
@@ -220,5 +220,5 @@ larutils v1_25_09
 ------------------------------------------
 
 -   2020-04-01 Lynn Garren : larutils v1_25_09 for larsoft v08_48_01
--   2020-03-30 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/develop
+-   2020-03-30 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/develop
 -   2020-03-30 Lynn Garren : need to recognize s69

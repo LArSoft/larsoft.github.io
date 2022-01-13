@@ -167,7 +167,7 @@ lardata v09_04_00
 -   2021-10-19 Lynn Garren : Merge pull request \#19 from hgreenlee/greenlee_dump_pid_old
 -   2021-10-19 Herbert Greenlee : More dump pid fcl updates.
 -   2021-10-19 Herbert Greenlee : Update style and best practices.
--   2021-10-19 Lynn Garren : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from knoepfel/feature/knoepfel_boost_test_cleanups
+-   2021-10-19 Lynn Garren : Merge pull request [redmine issue 17](https://cdcvs.fnal.gov/redmine/issues/17) from knoepfel/feature/knoepfel_boost_test_cleanups
 -   2021-10-14 Herbert Greenlee : Add DumpParticleIDs module.
 -   2021-07-20 Kyle Knoepfel : Significant cleanups to Boost tests.
 -   2021-07-30 Kyle Knoepfel : Adjust library dependencies.

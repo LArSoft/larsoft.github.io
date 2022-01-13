@@ -40,14 +40,14 @@ Purpose
 New features
 ------------------------------
 
--   trk::BezierTrack is fully deprecated (issue [\#15446](/redmine/issues/15446 "Necessary Maintenance: BezierTrack should be removed from LArSoft (Closed)"))
+-   trk::BezierTrack is fully deprecated (issue [redmine issue 15446](https://cdcvs.fnal.gov/redmine/issues/15446))
     -   lardataobj, larreco and larana feature/gp_Issue15446_light
     -   also available for uboonecode, dunetpc and icaruscode
 
 Bug fixes
 ------------------------
 
--   resolved issue [\#17278](/redmine/issues/17278 "Idea: Add an example on how to create data products of a new type (Closed)") (example of data product creation)
+-   resolved issue [redmine issue 17278](https://cdcvs.fnal.gov/redmine/issues/17278) (example of data product creation)
 
 Updated dependencies
 ----------------------------------------------
@@ -92,14 +92,14 @@ larana v06_14_00
 ----------------------------------------
 
 -   2018-01-02 Lynn Garren : larana v06_14_00 for larsoft v06_62_00
--   2017-12-27 Gianluca Petrillo : Updates for issue [\#15446](/redmine/issues/15446 "Necessary Maintenance: BezierTrack should be removed from LArSoft (Closed)") (Bezier tracking)
+-   2017-12-27 Gianluca Petrillo : Updates for issue [redmine issue 15446](https://cdcvs.fnal.gov/redmine/issues/15446) (Bezier tracking)
 
 larreco v06_50_00
 ------------------------------------------
 
 -   2018-01-02 Lynn Garren : larreco v06_50_00 for larsoft v06_62_00
 -   2018-01-02 Lynn Garren : larreco v06_50_00 for larsoft v06_62_00
--   2017-12-27 Gianluca Petrillo : Updates for issue [\#15446](/redmine/issues/15446 "Necessary Maintenance: BezierTrack should be removed from LArSoft (Closed)") (Bezier tracking)
+-   2017-12-27 Gianluca Petrillo : Updates for issue [redmine issue 15446](https://cdcvs.fnal.gov/redmine/issues/15446) (Bezier tracking)
 -   2017-12-26 Gianluca Petrillo : Indentation fix.
 
 larsim v06_38_02
@@ -136,7 +136,7 @@ lardataobj v1_25_00
 ----------------------------------------------
 
 -   2018-01-02 Lynn Garren : lardataobj v1_25_00 for larsoft v06_62_00
--   2017-12-27 Gianluca Petrillo : Updates for issue [\#15446](/redmine/issues/15446 "Necessary Maintenance: BezierTrack should be removed from LArSoft (Closed)") (Bezier tracking)
+-   2017-12-27 Gianluca Petrillo : Updates for issue [redmine issue 15446](https://cdcvs.fnal.gov/redmine/issues/15446) (Bezier tracking)
 -   2017-12-22 Gianluca Petrillo : Amended documentation of recob::TrajectoryPointFlags
 
 larcorealg v1_14_00

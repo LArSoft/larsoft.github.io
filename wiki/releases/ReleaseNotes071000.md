@@ -62,7 +62,7 @@ Breaking changes
 Bug fixes
 ------------------------
 
--   [\#21135](/redmine/issues/21135 "Bug: ROOT::Minuit2::VariableMetricBuilder::Minimum Failure (Closed)")
+-   [redmine issue 21135](https://cdcvs.fnal.gov/redmine/issues/21135)
     -   larreco feature/knoepfel_TrackMomentumCalculator_cleanup
     -   dunetpc, lariatsoft, ubana feature/knoepfel_TrackMomentumCalculator_cleanup
     -   see Kyle’s [presentation](https://indico.fnal.gov/event/18991/contribution/3/material/slides/0.pdf)

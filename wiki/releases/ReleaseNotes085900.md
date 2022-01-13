@@ -87,7 +87,7 @@ lareventdisplay v08_12_22
 ----------------------------------------------------------
 
 -   2020-07-22 Lynn Garren : lareventdisplay v08_12_22 for larsoft v08_59_00
--   2020-07-22 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from SFBayLaser/develop
+-   2020-07-22 Lynn Garren : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from SFBayLaser/develop
 -   2020-07-15 Tracy Usher : Primarily convert the calls to “wirecoordinate” so they won’t throw exception. But also some formatting changes…
 -   2020-07-14 Tracy Usher : Merge branch ‘develop’ of github.com:LArSoft/lareventdisplay into develop
 -   2020-07-05 Tracy Usher : Merge branch ‘develop’ of github.com:LArSoft/lareventdisplay into develop

@@ -38,7 +38,7 @@ New features
 Bug fixes
 ------------------------
 
--   [\#7460](/redmine/issues/7460 "Bug: NaN's in the simulation (Closed)") (NaNs in simulation) is fixed
+-   [redmine issue 7460](https://cdcvs.fnal.gov/redmine/issues/7460) (NaNs in simulation) is fixed
 
 Updated dependencies
 ----------------------------------------------
@@ -89,7 +89,7 @@ larsim v03_03_00
 
 -   2014-12-10 Lynn Garren : larsim v03_03_00 for larsoft v03_04_05
 -   2014-12-10 Gianluca Petrillo : Adding a error message when trying to add no electrons or no energy to a SimChannel
--   2014-12-09 Gianluca Petrillo : Fix to Issue [\#7460](/redmine/issues/7460 "Bug: NaN's in the simulation (Closed)"): do not add ionization contributions with no electrons to SimChannel’s
+-   2014-12-09 Gianluca Petrillo : Fix to Issue [redmine issue 7460](https://cdcvs.fnal.gov/redmine/issues/7460): do not add ionization contributions with no electrons to SimChannel’s
 
 larevt v03_02_08
 ----------------------------------------

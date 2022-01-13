@@ -46,7 +46,7 @@ New features
 ------------------------------
 
 -   larcorealg PR 17
-    -   Resolve Redmine issue [\#25977](/redmine/issues/25977 "Feature: Intersection of wires from different TPC (Assigned)").
+    -   Resolve Redmine issue [redmine issue 25977](https://cdcvs.fnal.gov/redmine/issues/25977).
     -   Discussion and description of the design can be found in that ticket. As usual, the core new features are unit-tested, and all the new functions and methods are Doxygen-documented. In particular, unit testing covers the lowest level free functions (intersection of lines) and the top level (geo::GeometryCore methods).
     -   In addition, a commit is updating the Doxygen format of geo::WireGeo, which was somehow broken with methods escaping their documentation group.
 
@@ -155,7 +155,7 @@ larcorealg v09_02_00
 ------------------------------------------------
 
 -   2021-08-04 Lynn Garren : larcorealg v09_02_00 for larsoft v09_28_00
--   2021-08-04 Lynn Garren : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from PetrilloAtWork/feature/gp_issue25977
+-   2021-08-04 Lynn Garren : Merge pull request [redmine issue 17](https://cdcvs.fnal.gov/redmine/issues/17) from PetrilloAtWork/feature/gp_issue25977
 -   2021-07-29 Gianluca Petrillo : Removed geo::GeometryCore::WiresIntersection() method.
 -   2021-07-22 Gianluca Petrillo : Workaround to assign from intersection result struct with std::tie()
 -   2021-07-21 Gianluca Petrillo : Wire intersection functions now return a struct.

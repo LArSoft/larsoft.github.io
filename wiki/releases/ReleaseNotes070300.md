@@ -54,7 +54,7 @@ New features
 Bug fixes
 ------------------------
 
--   resolution of [\#20568](/redmine/issues/20568 "Necessary Maintenance: Use of ValidHandle::failedToGet break use of ParticleInventory/BackTracker/PhotonBackTracker in g... (Closed)")
+-   resolution of [redmine issue 20568](https://cdcvs.fnal.gov/redmine/issues/20568)
     -   commit e9842072b628bd4168e93b46bdfba788d841e2d6 on larsim develop
 
 Updated dependencies

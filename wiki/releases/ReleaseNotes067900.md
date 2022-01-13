@@ -44,7 +44,7 @@ New features
 -   feature/russo_ticket_18137
     -   larana, larcorealg, larreco, lardata
     -   dunetpc, lariatsoft
-    -   resolves [\#18137](/redmine/issues/18137 "Necessary Maintenance: The method geo::GeometryCore::WirePitch() with two wires as argument should be removed (Closed)")
+    -   resolves [redmine issue 18137](https://cdcvs.fnal.gov/redmine/issues/18137)
 -   feature/gp_OpticalDocumentation of larsim
     -   updated documentation
 

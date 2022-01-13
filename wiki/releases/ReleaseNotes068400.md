@@ -47,7 +47,7 @@ New features
     -   feature/jsoto_dualphase_DriftedElectronClusters in larsim
     -   feature/jsoto_photoncounter_generalized in larana
     -   feature/jsoto_ExtendedPhotonLibrary in larsim
--   resolve issue [\#19446](/redmine/issues/19446 "Feature: DetectorClocksStandard should initialise its trigger and beam times by itself (Closed)")
+-   resolve issue [redmine issue 19446](https://cdcvs.fnal.gov/redmine/issues/19446)
     -   lardataalg feature/russo_ticket_19446
 
 Bug fixes

@@ -140,7 +140,7 @@ lardata v06_19_00
 -   2017-04-06 Lynn Garren : Merge branch ‘develop’ into feature/team_for_gcc630
 -   2017-04-05 Gianluca Petrillo : Reworked constructors of supporting classes in dumper modules.
 -   2017-04-05 Gianluca Petrillo : Made static a method that should have been.
--   2017-04-05 Gianluca Petrillo : Solved issue [\#16107](/redmine/issues/16107 "Support: problem compiling lardata/Utilities/NestedIterator.h with gcc 6.3.0 (Closed)") .
+-   2017-04-05 Gianluca Petrillo : Solved issue [redmine issue 16107](https://cdcvs.fnal.gov/redmine/issues/16107) .
 -   2017-04-05 Lynn Garren : for gcc 6.3.0
 -   2017-04-05 Lynn Garren : use the correct header
 -   2017-04-05 Lynn Garren : use curly braces
@@ -153,7 +153,7 @@ larcore v06_08_00
 -   2017-04-06 Lynn Garren : cleanup
 -   2017-04-06 Lynn Garren : Merge branch ‘develop’ into feature/team_for_gcc630
 -   2017-04-05 Gianluca Petrillo : Fixed bug on erase of items from a provider list.
--   2017-04-05 Gianluca Petrillo : Added missing headers. Solves issue [\#16112](/redmine/issues/16112 "Support: larcore/CoreUtils/RealComparisons.h fails to compile with gcc 6.3.0 (Closed)") .
+-   2017-04-05 Gianluca Petrillo : Added missing headers. Solves issue [redmine issue 16112](https://cdcvs.fnal.gov/redmine/issues/16112) .
 -   2017-04-05 Lynn Garren : for gcc 6.3.0
 -   2017-04-05 Lynn Garren : add missing headers
 

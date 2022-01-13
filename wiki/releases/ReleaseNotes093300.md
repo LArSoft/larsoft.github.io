@@ -57,7 +57,7 @@ Bug fixes
 
 -   larsim PR 71
     -   Cleanups to Boost tests.
-    -   As part of [\#26092](/redmine/issues/26092 "Necessary Maintenance: Update Boost unit-test usage (Assigned)"). No breaking changes.
+    -   As part of [redmine issue 26092](https://cdcvs.fnal.gov/redmine/issues/26092). No breaking changes.
 
 Updated dependencies
 ----------------------------------------------

@@ -68,7 +68,7 @@ Bug fixes
     -   Restored recob::Trajectory I/O rule lost long time ago
 -   larg4 PR 16
     -   add install_source() to the relevant cmake files
-    -   resolves [\#25234](/redmine/issues/25234 "Bug: larg4 UPS product does not install source code (Closed)")
+    -   resolves [redmine issue 25234](https://cdcvs.fnal.gov/redmine/issues/25234)
 
 Updated dependencies
 ----------------------------------------------
@@ -132,7 +132,7 @@ larsim v09_07_01
 ----------------------------------------
 
 -   2020-12-02 Lynn Garren : larsim v09_07_01 for larsoft v09_10_01
--   2020-11-30 Lynn Garren : Merge pull request [\#55](/redmine/issues/55 "Feature: Profgraph must be documented (Closed)") from hanswenzel/wenzel_larsim_develop
+-   2020-11-30 Lynn Garren : Merge pull request [redmine issue 55](https://cdcvs.fnal.gov/redmine/issues/55) from hanswenzel/wenzel_larsim_develop
 -   2020-11-16 Hans : add test to run larg4, electron drift and wire response
 
 larg4 v09_01_05

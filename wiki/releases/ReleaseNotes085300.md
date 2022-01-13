@@ -53,7 +53,7 @@ New features
     -   Details of these changes and their impacts on the reconstruction performance can be found in the following talks:
         -   Stitching Upgrades: [https://indico.fnal.gov/event/43171/](https://indico.fnal.gov/event/43171/) (DUNEFD + ProtoDUNE-SP)
         -   HitWidthClusterMerging algorithm: [https://indico.fnal.gov/event/43171/](https://indico.fnal.gov/event/43171/) (DUNEFD), [https://indico.fnal.gov/event/24366/](https://indico.fnal.gov/event/24366/) (ProtoDUNE-DP)
--   Change internal representation of sim::OnePhoton [\#22628](/redmine/issues/22628 "Feature: Change internal representation of sim::OnePhoton (Closed)")
+-   Change internal representation of sim::OnePhoton [redmine issue 22628](https://cdcvs.fnal.gov/redmine/issues/22628)
     -   larcoreobj PR 7
     -   larcorealg PR 6
     -   lardataobj PR 7
@@ -232,7 +232,7 @@ lardataobj v08_11_00
 -   2020-05-20 Lynn Garren : lardataobj v08_11_00 for larsoft v08_53_00
 -   2020-05-20 Lynn Garren : Merge branch ‘feature/gp_issue22628’ into release/v08_53_00
 -   2020-05-19 Gianluca Petrillo : Using consistent \`struct\`/\`class\` (caught by Clang).
--   2020-05-18 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from plasorak/feature/plasorak-fibonacci
+-   2020-05-18 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from plasorak/feature/plasorak-fibonacci
 -   2020-05-15 Gianluca Petrillo : Added a comparison operator for sim::OnePhoton.
 -   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D_t into OpticalVector_t.
 -   2020-05-15 Gianluca Petrillo : Fixed semantic mistake: sim::SimPhotons:FinalLocalPosition is not in world frame.
@@ -259,7 +259,7 @@ larcorealg v08_22_00
 -   2020-05-20 Lynn Garren : larcorealg v08_22_00 for larsoft v08_53_00
 -   2020-05-20 Lynn Garren : Merge branch ‘feature/gp_issue22628’ into release/v08_53_00
 -   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D_t into OpticalVector_t.
--   2020-05-15 Gianluca Petrillo : Support for issue [\#22628](/redmine/issues/22628 "Feature: Change internal representation of sim::OnePhoton (Closed)") (sim::OnePhoton).
+-   2020-05-15 Gianluca Petrillo : Support for issue [redmine issue 22628](https://cdcvs.fnal.gov/redmine/issues/22628) (sim::OnePhoton).
 
 larcoreobj v08_12_00
 ------------------------------------------------
@@ -267,7 +267,7 @@ larcoreobj v08_12_00
 -   2020-05-20 Lynn Garren : larcoreobj v08_12_00 for larsoft v08_53_00
 -   2020-05-20 Gianluca Petrillo : Fixed a typo in a comment.
 -   2020-05-15 Gianluca Petrillo : Renamed OpticalVector3D_t into OpticalVector_t.
--   2020-05-15 Gianluca Petrillo : Support for issue [\#22628](/redmine/issues/22628 "Feature: Change internal representation of sim::OnePhoton (Closed)") (sim::OnePhoton).
+-   2020-05-15 Gianluca Petrillo : Support for issue [redmine issue 22628](https://cdcvs.fnal.gov/redmine/issues/22628) (sim::OnePhoton).
 
 larbatch v01_52_02
 --------------------------------------------

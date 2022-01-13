@@ -42,7 +42,7 @@ Purpose
 Bug fixes
 ------------------------
 
--   This release resolves issue [\#23013](/redmine/issues/23013 "Bug: Unable to read recob::Vertex position information (Closed)")
+-   This release resolves issue [redmine issue 23013](https://cdcvs.fnal.gov/redmine/issues/23013)
     -   Please see the issue for further information
     -   [Breaking_Changes](Breaking_Changes#root-IO-rules)
 
@@ -180,7 +180,7 @@ lardataobj v08_05_00
 ------------------------------------------------
 
 -   2019-09-19 Lynn Garren : lardataobj v08_05_00 for larsoft v08_31_00
--   2019-09-19 Chris Green : Fix for [\#23013](/redmine/issues/23013 "Bug: Unable to read recob::Vertex position information (Closed)") in conjunction with ROOT 6.18/04.
+-   2019-09-19 Chris Green : Fix for [redmine issue 23013](https://cdcvs.fnal.gov/redmine/issues/23013) in conjunction with ROOT 6.18/04.
 -   2019-09-18 Lynn Garren : Merge branch ‘release/v08_31_00’ into feature/team_for_root_v6_18
 -   2019-09-18 Lynn Garren : nusimdata v1_19_01
 -   2019-09-12 Lynn Garren : nusimdata v1_19_00

@@ -91,8 +91,8 @@ larreco v04_00_01
 
 -   2015-02-18 Lynn Garren : Merge branch ‘release/v04_00_01’
 -   2015-02-18 Lynn Garren : larreco v04_00_01
--   2015-02-17 Gianluca Petrillo : Issue [\#7055](/redmine/issues/7055 "Bug: FindManyP() usage in PrimaryVertexFinder module (Closed)"): association queries moved out of PrimaryVertexFinder module loops
--   2015-02-17 Gianluca Petrillo : Issue [\#7049](/redmine/issues/7049 "Bug: FindManyP() usage in ShowerCheater, ShowerFinder and ShowerReco modules (Closed)"): association queries moved out of shower module loops
+-   2015-02-17 Gianluca Petrillo : Issue [redmine issue 7055](https://cdcvs.fnal.gov/redmine/issues/7055): association queries moved out of PrimaryVertexFinder module loops
+-   2015-02-17 Gianluca Petrillo : Issue [redmine issue 7049](https://cdcvs.fnal.gov/redmine/issues/7049): association queries moved out of shower module loops
 -   2015-02-14 Gianluca Petrillo : Some internal redesign of OverriddenClusterParamsAlg. This time I even tested it.
 -   2015-02-13 Gianluca Petrillo : Fix to OverriddenClusterParamsAlg, now used by Cluster3D module
 -   2015-02-12 Lynn Garren : Merge branch ‘v04_00_rc’ into develop

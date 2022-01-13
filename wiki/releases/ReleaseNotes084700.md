@@ -50,7 +50,7 @@ New features
 -   larrecodnn PR 1
     -   Use tensorflow v1_12_0c
     -   dunetpc will need feature/tjyang_tensorflow_v1_12_0
-    -   resolves issue [\#22504](/redmine/issues/22504 "Support: Request to upgrade the tensorflow version (Closed)")
+    -   resolves issue [redmine issue 22504](https://cdcvs.fnal.gov/redmine/issues/22504)
 
 Bug fixes
 ------------------------
@@ -62,7 +62,7 @@ Updated dependencies
 ----------------------------------------------
 
 -   tensorflow v1_12_0c
-    -   see [\#22504](/redmine/issues/22504 "Support: Request to upgrade the tensorflow version (Closed)")
+    -   see [redmine issue 22504](https://cdcvs.fnal.gov/redmine/issues/22504)
     -   available for SLF6 e19-py2 and SLF7 e19 and e19-py2
 -   trtis_clients v19_11b
     -   available for SLF7 e19 and e19-py2
@@ -90,7 +90,7 @@ larg4 v08_12_05
 --------------------------------------
 
 -   2020-03-18 Lynn Garren : larg4 v08_12_05 for larsoft v08_47_00
--   2020-03-16 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from drivera-fnal/develop
+-   2020-03-16 Lynn Garren : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from drivera-fnal/develop
 -   2020-03-06 David Rivera : Merge branch ‘develop’ of github.com:LArSoft/larg4 into develop (pull in changes from larg4 v08_12_03)
 -   2020-03-06 David Rivera : cleanup
 -   2020-03-03 David Rivera : Update comment

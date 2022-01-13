@@ -50,7 +50,7 @@ Bug fixes
 ------------------------
 
 -   lardata bugfix for Ubuntu LTS 18
--   larreco bug fix for [\#23605](/redmine/issues/23605 "Bug: Potential infinite loop in PFPUtils.cxx (Closed)")
+-   larreco bug fix for [redmine issue 23605](https://cdcvs.fnal.gov/redmine/issues/23605)
     -   feature/vpec_pfputils_types_fix
 
 Updated dependencies
@@ -61,7 +61,7 @@ Updated dependencies
 -   nurandom v1_03_00
     -   feature/gp_ValidationForEngineSeeds
     -   allows users to use validated FHiCL parameters (more precisely, fhicl::OptionalAtom) to specify the seed of their random engines to \`rndm::NuRandomService\`
--   nuevdb v1_01_01 with bugfix for [\#23575](/redmine/issues/23575 "Bug: Instance name in services.RecoDrawingOptions.WireModuleLabels (Closed)")
+-   nuevdb v1_01_01 with bugfix for [redmine issue 23575](https://cdcvs.fnal.gov/redmine/issues/23575)
 
 Change List
 ============================
@@ -116,7 +116,7 @@ larreco v08_23_01
 -   2019-11-19 Viktor Pec : Third iteration of fixing iterator types. Replaced `unsigned int` and `short` definition of loop iterators wherever they were compared to the output of a `size() - 1`.
 -   2019-11-19 Viktor Pec : Second iteration of fixing iterator types. Replaced `unsigned int` definition of loop iterators wherever they were compared to the output of a `size()` method.
 -   2019-11-19 Viktor Pec : First iteration of fixin iterator types. Replaced `unsigned short` definition of loop iterators wherever they were compared to the output of a `size()` method.
--   2019-11-19 Viktor Pec : Fix related to Bug [\#23605](/redmine/issues/23605 "Bug: Potential infinite loop in PFPUtils.cxx (Closed)")
+-   2019-11-19 Viktor Pec : Fix related to Bug [redmine issue 23605](https://cdcvs.fnal.gov/redmine/issues/23605)
 
 larsim v08_16_01
 ----------------------------------------

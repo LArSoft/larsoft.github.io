@@ -51,7 +51,7 @@ New features
 Bug fixes
 ------------------------
 
--   resolve [\#22453](/redmine/issues/22453 "Feature: Exception when loading unknown terms from the PhysicsList. (Closed)")
+-   resolve [redmine issue 22453](https://cdcvs.fnal.gov/redmine/issues/22453)
     -   feature/russo_throw_on_bad_physics
 
 Updated dependencies
@@ -111,7 +111,7 @@ larsim v08_07_01
 
 -   2019-05-14 Lynn Garren : larsim v08_07_01 for larsoft v08_20_00
 -   2019-05-14 Lynn Garren : Merge branch ‘feature/russo_throw_on_bad_physics’ into release/v08_20_00
--   2019-05-13 Jason Stock : Changing warning message from LArVoxelReadout that write many messages for particles outside of the TPC or for each event to be debug level. This addresses LArSoft issue [\#22452](/redmine/issues/22452 "Idea: Tons of messages for background simulations. (Feedback)")
+-   2019-05-13 Jason Stock : Changing warning message from LArVoxelReadout that write many messages for particles outside of the TPC or for each event to be debug level. This addresses LArSoft issue [redmine issue 22452](https://cdcvs.fnal.gov/redmine/issues/22452)
 -   2019-05-13 Paul Russo : Throw an exception on bad physics in the custom physics list.
 
 larevt v08_04_03

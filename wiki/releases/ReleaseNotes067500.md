@@ -50,7 +50,7 @@ New features
 -   feature/chalt_DPRawHitFinderUpdate
     -   larreco and lareventdisplay
     -   minor changes in the dual phase code
--   feature/chalt_Tensorflow in larreco for [\#19539](/redmine/issues/19539 "Necessary Maintenance: Restore tensorflow-dependent code disabled for support to Clang (Assigned)")
+-   feature/chalt_Tensorflow in larreco for [redmine issue 19539](https://cdcvs.fnal.gov/redmine/issues/19539)
     -   dunetpc feature/chalt_Tensorflow
     -   lariatsoft feature/team_issue19539
 
@@ -124,7 +124,7 @@ larsim v06_45_00
 -   2018-04-24 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock_PBTPIDep
 -   2018-04-24 Lynn Garren : Merge branch ‘feature/JStock_PBTPIDep’ into release/v06_75_00
 -   2018-04-23 Jason Stock : Making a map for flashes (not great), isntead of many calls to FindManyP (really bad).
--   2018-04-19 Gianluca Petrillo : Removed unrequested feature introduced with issue [\#18704](/redmine/issues/18704 "Task: Change LBNEMC tags in SAM to DUNEMC tags in sam (Closed)").
+-   2018-04-19 Gianluca Petrillo : Removed unrequested feature introduced with issue [redmine issue 18704](https://cdcvs.fnal.gov/redmine/issues/18704).
 -   2018-04-19 Lynn Garren : larsoft v06_74_01
 -   2018-04-19 Jason Stock : Documentation for the ParticleInventory
 -   2018-04-19 Jason Stock : Merge remote branch ‘origin/develop’ into develop

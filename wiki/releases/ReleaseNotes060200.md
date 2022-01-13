@@ -30,7 +30,7 @@ LArSoft v06_02_00 Release Notes
 Purpose
 --------------------
 
--   fix for [\#13329](/redmine/issues/13329 "Bug: ROOT 6 emits a load of "errors" when running GENIE+Corsika simulation (Closed)")
+-   fix for [redmine issue 13329](https://cdcvs.fnal.gov/redmine/issues/13329)
     -   genie v2_10_10
     -   dk2nu v01_04_01
 -   larsimobj feature/gp_SimChannelRevision
@@ -47,7 +47,7 @@ New features
 Bug fixes
 ------------------------
 
--   [\#13329](/redmine/issues/13329 "Bug: ROOT 6 emits a load of "errors" when running GENIE+Corsika simulation (Closed)") is fixed with genie v2_10_10
+-   [redmine issue 13329](https://cdcvs.fnal.gov/redmine/issues/13329) is fixed with genie v2_10_10
 
 Updated dependencies
 ----------------------------------------------
@@ -56,7 +56,7 @@ Updated dependencies
 |Product|Version|Qualifiers|Notes|
 |nutools|v2_01_03|e10||
 |dk2nu|v01_04_01|e10:r6||
-|genie|v2_10_10|e10:r6|[\#13329](/redmine/issues/13329 "Bug: ROOT 6 emits a load of "errors" when running GENIE+Corsika simulation (Closed)")|
+|genie|v2_10_10|e10:r6|[redmine issue 13329](https://cdcvs.fnal.gov/redmine/issues/13329)|
 |cetbuildtools|v5_04_03|||
 
 Change List
@@ -76,7 +76,7 @@ lareventdisplay v06_00_03
 -   2016-08-04 Tingjun Yang : Add information of number of hits per plane.
 -   2016-08-04 Tingjun Yang : Match calorimetry color with track color.
 -   2016-08-04 Tingjun Yang : Use hist (no L) option, also fix other places with the new option.
--   2016-08-03 Gianluca Petrillo : Draw waveforms with no error bar (issue [\#13366](/redmine/issues/13366 "Bug: Draw waveform as histogram not points (Closed)"))
+-   2016-08-03 Gianluca Petrillo : Draw waveforms with no error bar (issue [redmine issue 13366](https://cdcvs.fnal.gov/redmine/issues/13366))
 -   2016-08-03 Gianluca Petrillo : Added missing service to event display
 
 larexamples v06_00_02

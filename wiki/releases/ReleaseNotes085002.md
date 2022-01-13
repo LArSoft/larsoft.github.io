@@ -49,17 +49,17 @@ Bug fixes
 -   larcore PR 5
     -   remove ICARUS geometry files
 -   larreco PR 12
-    -   [\#24318](/redmine/issues/24318 "Bug: larreco/RecoAlg/TrajClusterAlg: Unchecked loop range leads to seg fault (Closed)")
+    -   [redmine issue 24318](https://cdcvs.fnal.gov/redmine/issues/24318)
 
 Updated dependencies
 ----------------------------------------------
 
 -   webevd v08_00_01
-    -   [\#24269](/redmine/issues/24269 "Feature: Explore splitting out WebEVD as a standalone product (Closed)")
+    -   [redmine issue 24269](https://cdcvs.fnal.gov/redmine/issues/24269)
     -   Note that webevd is not supported on macOS
     -   webevd is part of the LArSoft github organization, but is not part of the larsoft suite
 -   spdlog v1_5_0
-    -   [\#24279](/redmine/issues/24279 "Support: Add spdlog as ups product (Closed)")
+    -   [redmine issue 24279](https://cdcvs.fnal.gov/redmine/issues/24279)
 
 Change List
 ============================
@@ -136,7 +136,7 @@ larcore v08_11_05
 ------------------------------------------
 
 -   2020-04-28 Lynn Garren : larcore v08_11_05 for larsoft v08_50_02
--   2020-04-27 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from PetrilloAtWork/develop
+-   2020-04-27 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from PetrilloAtWork/develop
 -   2020-04-20 Gianluca Petrillo : Removed old ICARUS geometry.
 
 larpandoracontent v03_15_16

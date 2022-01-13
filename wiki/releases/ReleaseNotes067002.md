@@ -116,7 +116,7 @@ lardata v06_40_02
 ------------------------------------------
 
 -   2018-03-15 Lynn Garren : lardata v06_40_02 for larsoft v06_70_02
--   2018-03-11 Gianluca Petrillo : Added support for printing module description (issue [\#19345](/redmine/issues/19345 "Bug: Module descriptions not printed any more (Closed)"))
+-   2018-03-11 Gianluca Petrillo : Added support for printing module description (issue [redmine issue 19345](https://cdcvs.fnal.gov/redmine/issues/19345))
 -   2018-03-07 Gianluca Petrillo : Forgot an header to be included…
 -   2018-03-07 Gianluca Petrillo : Compacted the code of util::associated_groups_with_left()
 -   2018-03-07 Gianluca Petrillo : Added \`util::associated_groups_with_left()\` utility function.

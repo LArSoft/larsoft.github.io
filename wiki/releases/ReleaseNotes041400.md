@@ -35,7 +35,7 @@ New features
 Bug fixes
 ------------------------
 
--   fixes [\#9108](/redmine/issues/9108 "Bug: Processing multiple files (Closed)")
+-   fixes [redmine issue 9108](https://cdcvs.fnal.gov/redmine/issues/9108)
 
 Updated dependencies
 ----------------------------------------------
@@ -47,9 +47,9 @@ Updated dependencies
 |ifbeam|v1_4_11|p279:e7||
 |nucondb|v1_4_11|p279:e7||
 |cetbuildtools|v4_12_05|||
-|art|v1_14_03|e7:nu|[\#9108](/redmine/issues/9108 "Bug: Processing multiple files (Closed)")|
+|art|v1_14_03|e7:nu|[redmine issue 9108](https://cdcvs.fnal.gov/redmine/issues/9108)|
 |ifdh_art|v1_11_00|e7:nu:s12||
-|genie_xsec|v2_8_6a||[\#8909](/redmine/issues/8909 "Bug: GENIE crash due to looking for splines (Closed)")|
+|genie_xsec|v2_8_6a||[redmine issue 8909](https://cdcvs.fnal.gov/redmine/issues/8909)|
 |nutools|v1_13_00|e7 & e7:noifdh||
 |artdaq_core|v1_04_14|e7:nu:s12||
 |artextensions|v1_01_06|e7:nu:s12||

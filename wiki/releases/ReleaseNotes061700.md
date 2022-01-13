@@ -42,7 +42,7 @@ New features
 
 -   remove setup of genie_xsec and genie_phyopt from larsim
 -   remove deprecated PlaneGeo::SignalType()
-    -   larcore feature/gp_Issue14704 [\#14704](/redmine/issues/14704 "Necessary Maintenance: Resolve deprecation of geo::PlaneGeo::SignalType() (Closed)")
+    -   larcore feature/gp_Issue14704 [redmine issue 14704](https://cdcvs.fnal.gov/redmine/issues/14704)
 -   larsim, lardataobj feature/JStock_PhotonBackTracker
     -   also removes the deprecated UseParamaterization methods from the larsim optical simulation
 -   larevt, uboonecode feature/eberly_asicDBI

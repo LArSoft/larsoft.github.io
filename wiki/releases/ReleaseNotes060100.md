@@ -38,9 +38,9 @@ Purpose
 Known problems
 ----------------------------------
 
--   [\#13329](/redmine/issues/13329 "Bug: ROOT 6 emits a load of "errors" when running GENIE+Corsika simulation (Closed)") - genie and dk2nu root dictionaries
--   [\#13063](/redmine/issues/13063 "Bug: Memory errors and leaks  (Assigned)") - memory hoarding
--   [\#13366](/redmine/issues/13366 "Bug: Draw waveform as histogram not points (Closed)") - event display waveform
+-   [redmine issue 13329](https://cdcvs.fnal.gov/redmine/issues/13329) - genie and dk2nu root dictionaries
+-   [redmine issue 13063](https://cdcvs.fnal.gov/redmine/issues/13063) - memory hoarding
+-   [redmine issue 13366](https://cdcvs.fnal.gov/redmine/issues/13366) - event display waveform
 
 Bug fixes
 ------------------------

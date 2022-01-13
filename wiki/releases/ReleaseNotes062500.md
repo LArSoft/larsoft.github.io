@@ -49,7 +49,7 @@ New features
 Bug fixes
 ------------------------
 
--   lardata [\#15400](/redmine/issues/15400 "Bug: unit test test_feag and test_feag2 fail on MacOS only (Closed)")
+-   lardata [redmine issue 15400](https://cdcvs.fnal.gov/redmine/issues/15400)
 
 Updated dependencies
 ----------------------------------------------
@@ -291,12 +291,12 @@ lardata v06_14_03
 ------------------------------------------
 
 -   2017-02-15 Lynn Garren : lardata v06_14_03 for larsoft v06_25_00
--   2017-02-14 Gianluca Petrillo : And added another bit of test for issue [\#15400](/redmine/issues/15400 "Bug: unit test test_feag and test_feag2 fail on MacOS only (Closed)") .
+-   2017-02-14 Gianluca Petrillo : And added another bit of test for issue [redmine issue 15400](https://cdcvs.fnal.gov/redmine/issues/15400) .
 -   2017-02-14 Gianluca Petrillo : Merge branch ‘feature/gp_Issue15400’ into develop
--   2017-02-14 Gianluca Petrillo : Another try to fix issue [\#15400](/redmine/issues/15400 "Bug: unit test test_feag and test_feag2 fail on MacOS only (Closed)") (this one works on Linux).
+-   2017-02-14 Gianluca Petrillo : Another try to fix issue [redmine issue 15400](https://cdcvs.fnal.gov/redmine/issues/15400) (this one works on Linux).
 -   2017-02-14 Lynn Garren : fix file name
 -   2017-02-14 Lynn Garren : fenced code blocks require the same number of tildes on both lines
--   2017-02-10 Gianluca Petrillo : Tentative fix to RangeForWrapperBox (util::range_for) per issue [\#15400](/redmine/issues/15400 "Bug: unit test test_feag and test_feag2 fail on MacOS only (Closed)") .
+-   2017-02-10 Gianluca Petrillo : Tentative fix to RangeForWrapperBox (util::range_for) per issue [redmine issue 15400](https://cdcvs.fnal.gov/redmine/issues/15400) .
 -   2017-02-09 Gianluca Petrillo : Disabled also the new association_groups_test (fails in profiling mode)
 -   2017-02-08 Gianluca Petrillo : Added artless unit test for associated_groups().
 -   2017-02-08 Gianluca Petrillo : Fixed the test of for_each_associated_groups().

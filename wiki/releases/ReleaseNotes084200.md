@@ -144,14 +144,14 @@ lareventdisplay v08_12_02
 
 -   2020-02-06 Kyle Knoepfel : Moved tag to use nuevdb v1_02_01
 -   2020-02-05 Kyle Knoepfel : lareventdisplay v08_12_02 for larsoft v08_42_00
--   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
 larexamples v08_06_02
 --------------------------------------------------
 
 -   2020-02-05 Kyle Knoepfel : larexamples v08_06_02 for larsoft v08_42_00
--   2020-02-04 Fermilab build bot account : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from gartung/gartung-add-github-actions
+-   2020-02-04 Fermilab build bot account : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from gartung/gartung-add-github-actions
 -   2020-02-04 Patrick Gartung : Add two github actions to move new pull requests or issues to the LArSoft pull requests project
 
 larg4 v08_12_00

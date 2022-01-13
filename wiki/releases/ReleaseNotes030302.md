@@ -88,7 +88,7 @@ larreco v03_02_03
 -   2014-10-23 Herbert Greenlee : Fix distance calculation.
 -   2014-10-23 Herbert Greenlee : Change some debugging output. Change slope cut from dx/dz to dx/ds.
 -   2014-10-23 Gianluca Petrillo : DumpClusters and DumpTracks modules now write the name of the collection on output
--   2014-10-22 Gianluca Petrillo : LineMerger module: moved FindManyP query out of loop (issue [\#7058](/redmine/issues/7058 "Bug: FindManyP() usage in LineMerger module (Closed)")); also removed dependency on Geometry service and changed constantness of some elements and minor technical details.
+-   2014-10-22 Gianluca Petrillo : LineMerger module: moved FindManyP query out of loop (issue [redmine issue 7058](https://cdcvs.fnal.gov/redmine/issues/7058)); also removed dependency on Geometry service and changed constantness of some elements and minor technical details.
 -   2014-10-17 Herbert Greenlee : Update debugging output.
 
 larsim v03_02_02

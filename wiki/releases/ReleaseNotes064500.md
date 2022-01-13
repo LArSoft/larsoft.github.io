@@ -48,7 +48,7 @@ Notes
     -   **BREAKING CHANGE**: “Default+MEC” in fcl files is obsolete. See [https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/GENIE_Configuration_Files](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/GENIE_Configuration_Files). Branch feature/team_for_v06_38_00_01 for dunetpc and uboonecode reflects this change.
 -   geant v4_10_3_p01a
     -   modifications were required in larsim LArG4
-    -   See [\#16567](/redmine/issues/16567 "Support: Please patch geant4 10.2.p03 and 10.3.p01 (Closed)") for a description of the p01a patch
+    -   See [redmine issue 16567](https://cdcvs.fnal.gov/redmine/issues/16567) for a description of the p01a patch
 
 New features
 ------------------------------
@@ -61,8 +61,8 @@ New features
 Bug fixes
 ------------------------
 
--   lardata feature/gp_AddViewXsupport for [\#17250](/redmine/issues/17250 "Bug: Adding geo::kX view and TimeOffsetX to DetectorProperties for rotated dual phase geometry gives s... (Closed)")
--   larsim feature/gp_Issue17117 for [\#17117](/redmine/issues/17117 "Bug: prodsingle_sbnd.fcl crashes with larsoft v06_42_00 (Closed)")
+-   lardata feature/gp_AddViewXsupport for [redmine issue 17250](https://cdcvs.fnal.gov/redmine/issues/17250)
+-   larsim feature/gp_Issue17117 for [redmine issue 17117](https://cdcvs.fnal.gov/redmine/issues/17117)
 
 Updated dependencies
 ----------------------------------------------
@@ -196,7 +196,7 @@ larsim v06_28_00
 
 -   2017-07-25 Lynn Garren : larsim v06_28_00 for larsoft v06_45_00
 -   2017-07-25 Lynn Garren : Merge branch ‘v06_38_00_01_branch’ into release/v06_45_00
--   2017-07-21 Gianluca Petrillo : An attempt to a solution to issue [\#17117](/redmine/issues/17117 "Bug: prodsingle_sbnd.fcl crashes with larsoft v06_42_00 (Closed)").
+-   2017-07-21 Gianluca Petrillo : An attempt to a solution to issue [redmine issue 17117](https://cdcvs.fnal.gov/redmine/issues/17117).
 -   2017-06-02 Lynn Garren : larsim v06_23_00_01
 -   2017-06-01 Lynn Garren : Merge branch ‘feature/team_for_v06_34_01_01’ into feature/team_for_v06_38_00_01
 -   2017-05-17 Hans Wenzel : make sure that physics is initialized
@@ -252,7 +252,7 @@ larcorealg v1_05_02
 ----------------------------------------------
 
 -   2017-07-25 Lynn Garren : larcorealg v1_05_02 for larsoft v06_45_00
--   2017-07-19 Gianluca Petrillo : Workaround to unit test while issue [\#17234](/redmine/issues/17234 "Support: Unit test scripts can't use bash in Ubuntu (Closed)") is discussed.
+-   2017-07-19 Gianluca Petrillo : Workaround to unit test while issue [redmine issue 17234](https://cdcvs.fnal.gov/redmine/issues/17234) is discussed.
 
 larcoreobj v1_15_01
 ----------------------------------------------

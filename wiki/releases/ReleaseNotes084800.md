@@ -94,7 +94,7 @@ larpandora v08_12_00
 ------------------------------------------------
 
 -   2020-03-25 Lynn Garren : larpandora v08_12_00 for larsoft v08_48_00
--   2020-03-25 Lynn Garren : Merge pull request [\#6](/redmine/issues/6 "Feature: Non-KCA Remediation (New)") from a-d-smith/feature/asmith_disableRealDataChecks
+-   2020-03-25 Lynn Garren : Merge pull request [redmine issue 6](https://cdcvs.fnal.gov/redmine/issues/6) from a-d-smith/feature/asmith_disableRealDataChecks
 -   2020-03-24 Andrew Smith : Added FHiCL flag to enable or diable real data checks in PFParticle monitoring module
 -   2020-03-24 Andrew Smith : Added FHiCL flag to enable or disable real data checks
 -   2020-03-23 Andrew Smith : removed is real data checks
@@ -164,7 +164,7 @@ lardataalg v08_13_06
 ------------------------------------------------
 
 -   2020-03-25 Lynn Garren : lardataalg v08_13_06 for larsoft v08_48_00
--   2020-03-23 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from PetrilloAtWork/develop
+-   2020-03-23 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from PetrilloAtWork/develop
 -   2020-03-18 Gianluca Petrillo : Added missing header.
 
 larcorealg v08_21_02

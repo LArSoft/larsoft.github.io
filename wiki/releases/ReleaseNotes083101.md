@@ -43,7 +43,7 @@ New features
 ------------------------------
 
 -   larsim feature/drivera_bug_23279_suggested_kyle_fix
-    -   resolves [\#23279](/redmine/issues/23279 "Bug: LArSim revision/commit d96375d3 breaks DUNE analysis. (Closed)")
+    -   resolves [redmine issue 23279](https://cdcvs.fnal.gov/redmine/issues/23279)
 -   larpandora feature/sgreen_RemovingRootGraphics
     -   resolves macOS build problem
 
@@ -51,17 +51,17 @@ Bug fixes
 ------------------------
 
 -   new release of artdaq_core
-    -   see [\#23319](/redmine/issues/23319 "Bug: Problems reading ProtoDUNE-SP raw data file with artdaq_core v3_05_02 (Closed)")
+    -   see [redmine issue 23319](https://cdcvs.fnal.gov/redmine/issues/23319)
 
 Updated dependencies
 ----------------------------------------------
 
 -   nugen v1_05_02
-    -   for [\#23308](/redmine/issues/23308 "Support: Useful NuGen related modules left "lost" during split from nutools (Closed)")
+    -   for [redmine issue 23308](https://cdcvs.fnal.gov/redmine/issues/23308)
     -   restore build of (most) modules in nugen/EventGeneratorBase/test
 -   nusystematics v00_06_02
 -   artdaq_core v3_05_04
-    -   resolution for DUNE’s problem [\#23319](/redmine/issues/23319 "Bug: Problems reading ProtoDUNE-SP raw data file with artdaq_core v3_05_02 (Closed)")
+    -   resolution for DUNE’s problem [redmine issue 23319](https://cdcvs.fnal.gov/redmine/issues/23319)
 
 Change List
 ============================
@@ -118,7 +118,7 @@ larsim v08_13_01
 -   2019-09-25 Lynn Garren : nugen v1_05_02
 -   2019-09-24 Lynn Garren : Merge branch ‘feature/drivera_bug_23279_suggested_kyle_fix’ into release/v08_31_01
 -   2019-09-19 David Rivera : Removed unnecessary art::Handle dependency and implemented the use of templated handles for compatibility with both larsoft and gallery.
--   2019-09-17 David Rivera : Implemented a getByLabel as suggested by Kyle Knoepfel to retrieve the MCTruth, MCParticle associations. This is aimed at fixing bug [\#23279](/redmine/issues/23279 "Bug: LArSim revision/commit d96375d3 breaks DUNE analysis. (Closed)").
+-   2019-09-17 David Rivera : Implemented a getByLabel as suggested by Kyle Knoepfel to retrieve the MCTruth, MCParticle associations. This is aimed at fixing bug [redmine issue 23279](https://cdcvs.fnal.gov/redmine/issues/23279).
 
 larevt v08_06_10
 ----------------------------------------

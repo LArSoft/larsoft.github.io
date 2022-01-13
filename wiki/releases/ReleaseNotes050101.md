@@ -40,16 +40,16 @@ Bug fixes
 ------------------------
 
 -   larsim genie.fcl updated with appropriate information for genie 2.10.4
-    -   see [\#11794](/redmine/issues/11794 "Bug: nutools and genie v2_10_4 (Closed)")
+    -   see [redmine issue 11794](https://cdcvs.fnal.gov/redmine/issues/11794)
 
 Updated dependencies
 ----------------------------------------------
 
 ||
 |Product|Version|Qualifiers|Notes|
-|nutools|v1_23_01|e9|[\#11794](/redmine/issues/11794 "Bug: nutools and genie v2_10_4 (Closed)")|
+|nutools|v1_23_01|e9|[redmine issue 11794](https://cdcvs.fnal.gov/redmine/issues/11794)|
 |genie|v2_10_4a|e9:r5|includes gevgen_fnal executable|
-|cetbuildtools|v4_18_03||[\#11708](/redmine/issues/11708 "Bug: install_fhicl does not honor EXCLUDES (Closed)")|
+|cetbuildtools|v4_18_03||[redmine issue 11708](https://cdcvs.fnal.gov/redmine/issues/11708)|
 
 Change List
 ============================

@@ -199,7 +199,7 @@ larsim v06_29_00
 -   2017-08-07 Lucas Mendes Santos : Merge branch ‘feature/dump_opdetbacktrackerrecords’ into develop
 -   2017-08-07 Lucas Mendes Santos : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/dump_opdetbacktrackerrecords
 -   2017-08-07 Lucas Mendes Santos : New OpDetBacktrackerRecord Dumper, did some corrections in comments and changed the author name From Gianluca to myself
--   2017-08-07 Jason Stock : Restoring bug fix removed by commit 13f7f1bf. This should also address LArSoft Issue [\#17124](/redmine/issues/17124 "Bug: PhotonBacktracking to track 0. (Closed)").
+-   2017-08-07 Jason Stock : Restoring bug fix removed by commit 13f7f1bf. This should also address LArSoft Issue [redmine issue 17124](https://cdcvs.fnal.gov/redmine/issues/17124).
 -   2017-08-06 Lucas Mendes Santos : Creation of a OpDetBacktrackerRecords Dumper
 -   2017-08-06 Lucas Mendes Santos : Creation of a OpDetBacktrackerRecords Dumper
 -   2017-08-06 Jason Stock : Changing ides to sdps in a couple places for correctness and consistency.

@@ -55,7 +55,7 @@ Bug fixes
 
 -   lareventdisplay PR 11
     -   Use fSimChannelLabel to get LArVoxel list
-    -   resolution for [\#25780](/redmine/issues/25780 "Bug: Event Display Malfunction (Closed)")
+    -   resolution for [redmine issue 25780](https://cdcvs.fnal.gov/redmine/issues/25780)
 -   larbatch PR 16
     -   Fix dags singularity image
 -   larevt PR 11
@@ -146,7 +146,7 @@ larpandoracontent v03_22_10
 
 -   2021-04-29 Lynn Garren : larpandoracontent v03_22_10 for larsoft v09_22_02
 -   2021-04-26 Andrew Chappell : Update version and ChangeLog
--   2021-04-26 AndyChappell : Merge pull request [\#166](/redmine/issues/166 "Feature: Correctly handle all signals of interest (Closed)") from johnmarshall80/feature/ShowerHierarchyMopUp
+-   2021-04-26 AndyChappell : Merge pull request [redmine issue 166](https://cdcvs.fnal.gov/redmine/issues/166) from johnmarshall80/feature/ShowerHierarchyMopUp
 -   2021-04-21 John Marshall : Run clang format.
 -   2021-04-21 John Marshall : Remove debug visualisation.
 -   2021-04-21 John Marshall : Initial commit of ShowerHierarchyMopUp algorithm, including visualisation.

@@ -25,7 +25,7 @@ LArSoft v05_08_00_01 Release Notes
 Purpose
 --------------------
 
--   requested by MicroBooNE [\#14390](/redmine/issues/14390 "Support: special v05_08_00_01 release for MicroBooNE (Closed)")
+-   requested by MicroBooNE [redmine issue 14390](https://cdcvs.fnal.gov/redmine/issues/14390)
 
 New features
 ------------------------------

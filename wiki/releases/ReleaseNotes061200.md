@@ -30,7 +30,7 @@ LArSoft v06_12_00 Release Notes
 Purpose
 --------------------
 
--   merge branches for [\#9264](/redmine/issues/9264 "Feature: Support reconstruction of objects from channel/time space (Closed)")
+-   merge branches for [redmine issue 9264](https://cdcvs.fnal.gov/redmine/issues/9264)
     -   feature/gp_WrappedGeometry in larcoreobj, larcore, lariatsoft and dunetpc
 -   pandora v03_00_00
 -   calorimetry updates

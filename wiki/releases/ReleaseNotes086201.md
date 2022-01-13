@@ -102,7 +102,7 @@ larreco v08_32_11
 ------------------------------------------
 
 -   2020-08-14 Lynn Garren : larreco v08_32_11 for larsoft v08_62_01
--   2020-08-14 Lynn Garren : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from brballer/develop
+-   2020-08-14 Lynn Garren : Merge pull request [redmine issue 17](https://cdcvs.fnal.gov/redmine/issues/17) from brballer/develop
 -   2020-08-13 Bruce Baller : Back out product_deps
 -   2020-08-12 Bruce Baller : Add try-catch around matrix invert in PFPUtils. Remove call to unused function ChkEndKink.
 

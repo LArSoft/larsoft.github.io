@@ -41,13 +41,13 @@ New features
 
 -   icarus geometry view support
     -   feature/wketchum_ViewAssignment for larcore, larcoreobj, lardata and larevt
--   resolution of [\#16129](/redmine/issues/16129 "Feature: Can't find nearest wire for position (Closed)")
+-   resolution of [redmine issue 16129](https://cdcvs.fnal.gov/redmine/issues/16129)
     -   feature/gp_Issue16129 branch of larcore and larsim
 
 Bug fixes
 ------------------------
 
--   bug fix [\#16229](/redmine/issues/16229 "Bug: LArBatch can't find IFDH at some OSG sites (Closed)") in larbatch
+-   bug fix [redmine issue 16229](https://cdcvs.fnal.gov/redmine/issues/16229) in larbatch
 
 Updated dependencies
 ----------------------------------------------
@@ -108,7 +108,7 @@ larsim v06_19_00
 -   2017-04-17 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp_Issue16129
 -   2017-04-14 Thomas Junk : Sort the vector of simchannel pointers by channel number, and use a log2 search to find the simchannels in it in order to speed up FindSimChannel
 -   2017-04-14 Gianluca Petrillo : Modified MCTruth output about particle origin.
--   2017-04-14 Gianluca Petrillo : Fixed bug (issue [\#16208](/redmine/issues/16208 "Bug: DumpMCTruth module crashes with a segmentation fault (Closed)")).
+-   2017-04-14 Gianluca Petrillo : Fixed bug (issue [redmine issue 16208](https://cdcvs.fnal.gov/redmine/issues/16208)).
 -   2017-04-13 Gianluca Petrillo : Adding a small margin to the charge recovery position.
 -   2017-04-10 Gianluca Petrillo : Use the active plane as boundary for charge recovery.
 -   2017-04-10 Gianluca Petrillo : Added option “ChargeRecoveryMargin” to LArG4.

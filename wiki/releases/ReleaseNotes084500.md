@@ -87,28 +87,28 @@ lareventdisplay v08_12_05
 ----------------------------------------------------------
 
 -   2020-03-04 Lynn Garren : lareventdisplay v08_12_05 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 larexamples v08_06_05
 --------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larexamples v08_06_05 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 larg4 v08_12_03
 --------------------------------------
 
 -   2020-03-04 Lynn Garren : larg4 v08_12_03 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 larpandora v08_11_05
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larpandora v08_11_05 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 larrecodnn v08_00_00
@@ -118,14 +118,14 @@ larwirecell v08_12_05
 --------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larwirecell v08_12_05 for larsoft v08_45_00
--   2020-02-27 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from lgarren/feature/lg_modern_root
+-   2020-02-27 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 larana v08_16_05
 ----------------------------------------
 
 -   2020-03-04 Lynn Garren : larana v08_16_05 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 larreco v08_29_00
@@ -240,21 +240,21 @@ larevt v08_10_05
 ----------------------------------------
 
 -   2020-03-04 Lynn Garren : larevt v08_10_05 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 lardata v08_14_04
 ------------------------------------------
 
 -   2020-03-04 Lynn Garren : lardata v08_14_04 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 larcore v08_11_01
 ------------------------------------------
 
 -   2020-03-04 Lynn Garren : larcore v08_11_01 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : fix whitespace
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
@@ -266,35 +266,35 @@ larsoftobj v08_27_01
 
 -   2020-03-04 Lynn Garren : larsoftobj v08_27_01 for larsoft v08_45_00
 -   2020-03-04 Lynn Garren : product versions
--   2020-02-27 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from lgarren/feature/lg_modern_root
+-   2020-02-27 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 lardataobj v08_10_04
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : lardataobj v08_10_04 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 lardataalg v08_13_04
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : lardataalg v08_13_04 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#3](/redmine/issues/3 "Feature: Connect to Database with kerberos authentication (Rejected)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 3](https://cdcvs.fnal.gov/redmine/issues/3) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 larcorealg v08_21_01
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larcorealg v08_21_01 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 
 larcoreobj v08_10_03
 ------------------------------------------------
 
 -   2020-03-04 Lynn Garren : larcoreobj v08_10_03 for larsoft v08_45_00
--   2020-02-28 Lynn Garren : Merge pull request [\#4](/redmine/issues/4 "Feature: Postgres database  (Closed)") from lgarren/feature/lg_modern_root
+-   2020-02-28 Lynn Garren : Merge pull request [redmine issue 4](https://cdcvs.fnal.gov/redmine/issues/4) from lgarren/feature/lg_modern_root
 -   2020-02-27 Lynn Garren : declare project language and update cmake_minimum_required
 -   2020-02-17 Patrick Gartung : remove github actions
 

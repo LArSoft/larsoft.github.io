@@ -43,8 +43,8 @@ New features
 Bug fixes
 ------------------------
 
--   documentation [\#11627](/redmine/issues/11627 "Necessary Maintenance: Document better how to define a PFParticle without a daughter (Closed)")
--   larsim feature/gp_QuieterCORSIKAGen [\#13750](/redmine/issues/13750 "Bug: CORSIKAGen too verbose (Closed)")
+-   documentation [redmine issue 11627](https://cdcvs.fnal.gov/redmine/issues/11627)
+-   larsim feature/gp_QuieterCORSIKAGen [redmine issue 13750](https://cdcvs.fnal.gov/redmine/issues/13750)
     -   remove unnecessary information from the console log
 
 Updated dependencies
@@ -96,7 +96,7 @@ larsim v06_03_03
 
 -   2016-09-08 Lynn Garren : larsim v06_03_03 for larsoft v06_05_01
 -   2016-09-07 Lynn Garren : Merge branch ‘feature/gp_QuieterCORSIKAGen’ into release/v06_05_01
--   2016-09-06 Gianluca Petrillo : This addresses LArSoft issue [\#13750](/redmine/issues/13750 "Bug: CORSIKAGen too verbose (Closed)").
+-   2016-09-06 Gianluca Petrillo : This addresses LArSoft issue [redmine issue 13750](https://cdcvs.fnal.gov/redmine/issues/13750).
 -   2016-08-23 Gianluca Petrillo : Reduced the amount of CORSIKAGen output on screen
 
 larevt v06_01_02
@@ -130,8 +130,8 @@ lardataobj v1_06_01
 ----------------------------------------------
 
 -   2016-09-08 Lynn Garren : lardataobj v1_06_01 for larsoft v06_05_01
--   2016-09-01 Gianluca Petrillo : The commit was a fix for issue [\#11627](/redmine/issues/11627 "Necessary Maintenance: Document better how to define a PFParticle without a daughter (Closed)")
--   2016-09-01 Gianluca Petrillo : This should be addressing [\#11627](/redmine/issues/11627 "Necessary Maintenance: Document better how to define a PFParticle without a daughter (Closed)") .
+-   2016-09-01 Gianluca Petrillo : The commit was a fix for issue [redmine issue 11627](https://cdcvs.fnal.gov/redmine/issues/11627)
+-   2016-09-01 Gianluca Petrillo : This should be addressing [redmine issue 11627](https://cdcvs.fnal.gov/redmine/issues/11627) .
 -   2016-09-01 Gianluca Petrillo : Added documentation to PFParticle
 -   2016-09-01 Gianluca Petrillo : Allow recob::Seed methods to get its quantities without their uncertainty
 

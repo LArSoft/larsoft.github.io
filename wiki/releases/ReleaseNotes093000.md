@@ -51,7 +51,7 @@ New features
     -   The data product is extended, and ROOT schema evolution is expected to be able to handle the serialisation as needed.
 -   larg4 PR 27
     -   Restore reporting of unknown PDG in MCTruthEventAction
-    -   issue [\#26210](/redmine/issues/26210 "Feature: MCTruthEventAction service in larg4 should report unknown PDG codes (Closed)")
+    -   issue [redmine issue 26210](https://cdcvs.fnal.gov/redmine/issues/26210)
     -   report unknown PDG codes at dtor
     -   quiet down some excessive messages
     -   debug option for reporting skipped and processed codes
@@ -68,7 +68,7 @@ Bug fixes
 
 -   larsim PR 72
     -   Reduce severity of message for inability to drift electrons
-    -   issue [\#26107](/redmine/issues/26107 "Idea: Warning messages from SimDriftElectrons module in larsim (Closed)")
+    -   issue [redmine issue 26107](https://cdcvs.fnal.gov/redmine/issues/26107)
 
 Updated dependencies
 ----------------------------------------------
@@ -162,7 +162,7 @@ larpandoracontent v03_25_00
 --------------------------------------------------------------
 
 -   2021-09-20 Lynn Garren : larpandoracontent v03_25_00 for larsoft v09_30_00
--   2021-09-15 AndyChappell : Merge pull request [\#183](/redmine/issues/183 "Feature: Reports should show requested and approved budget (Remission)") from AndyChappell/feature/larpandoracontent_v03_25_00
+-   2021-09-15 AndyChappell : Merge pull request [redmine issue 183](https://cdcvs.fnal.gov/redmine/issues/183) from AndyChappell/feature/larpandoracontent_v03_25_00
 -   2021-09-13 Andrew Chappell : Apply clang format
 -   2021-09-13 Andrew Chappell : Update version and ChangeLog
 -   2021-08-18 Andrew Chappell : Add leading lepton correctness and ADC weighted purity and completeness to validation

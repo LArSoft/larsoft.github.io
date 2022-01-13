@@ -82,7 +82,7 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   genie v3_00_06i - see issue [\#24574](/redmine/issues/24574 "Support: Update GENIE generator and reweight combo to use Reweight R-1_00_06 instead of R-1_00_04 (Closed)")
+-   genie v3_00_06i - see issue [redmine issue 24574](https://cdcvs.fnal.gov/redmine/issues/24574)
 -   dk2nugenie v01_08_00l
 -   ifdhc v2_5_7
 -   ifdhc_config v2_5_7
@@ -229,6 +229,6 @@ larutils v1_26_00
 ------------------------------------------
 
 -   2020-07-01 Lynn Garren : larutils v1_26_00 for larsoft v08_56_00
--   2020-07-01 Lynn Garren : Merge pull request [\#5](/redmine/issues/5 "Feature: NIMROD extended to Accelerator Division (New)") from lgarren/feature/lg_add_larwire_build
+-   2020-07-01 Lynn Garren : Merge pull request [redmine issue 5](https://cdcvs.fnal.gov/redmine/issues/5) from lgarren/feature/lg_add_larwire_build
 -   2020-07-01 Lynn Garren : optionally build larwire distribution
 -   2020-07-01 Lynn Garren : build the larwire distribution

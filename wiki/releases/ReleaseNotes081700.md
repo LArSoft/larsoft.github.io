@@ -51,7 +51,7 @@ New features
 Bug fixes
 ------------------------
 
--   more work on [\#22339](/redmine/issues/22339 "Bug: Tons of Error Messages from OpDetBTRs (Closed)")
+-   more work on [redmine issue 22339](https://cdcvs.fnal.gov/redmine/issues/22339)
 
 Updated dependencies
 ----------------------------------------------
@@ -117,7 +117,7 @@ larsim v08_06_01
 ----------------------------------------
 
 -   2019-04-24 Lynn Garren : larsim v08_06_01 for larsoft v08_17_00
--   2019-04-24 Jason Stock : Larsoft Issue [\#22339](/redmine/issues/22339 "Bug: Tons of Error Messages from OpDetBTRs (Closed)") I am revisiting this issue after a report from ProtoDUNE that they see this message often with high energy tracks.
+-   2019-04-24 Jason Stock : Larsoft Issue [redmine issue 22339](https://cdcvs.fnal.gov/redmine/issues/22339) I am revisiting this issue after a report from ProtoDUNE that they see this message often with high energy tracks.
 -   2019-04-18 Gianluca Petrillo : \`gensingle_test.fcl\`: removed unnecessary services.
 
 larevt v08_04_00

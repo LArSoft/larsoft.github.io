@@ -48,8 +48,8 @@ New features
 -   larpandoracontent PR 27
     -   This PR includes updates to
         -   Clean up 3D hits in order to support iterative shower growing: \#175
-        -   Provide helper tools to perform matching between reconstructed and MC particle hierarchies: [\#170](/redmine/issues/170 "Feature: Add a verbose option (Closed)")
-        -   Fix an issue when building larpandoracontent without PandoraMonitoring: [\#176](/redmine/issues/176 "Feature: Redesign Activity tables using hierarchical instead of flat schema (Remission)")
+        -   Provide helper tools to perform matching between reconstructed and MC particle hierarchies: [redmine issue 170](https://cdcvs.fnal.gov/redmine/issues/170)
+        -   Fix an issue when building larpandoracontent without PandoraMonitoring: [redmine issue 176](https://cdcvs.fnal.gov/redmine/issues/176)
     -   No product changes are expected for any experiment.
 -   larsim PR 68
     -   Hybrid model for Light simulation UGR
@@ -147,11 +147,11 @@ larpandoracontent v03_23_03
 
 -   2021-06-23 Lynn Garren : larpandoracontent v03_23_03 for larsoft v09_25_00
 -   2021-06-21 Andrew Chappell : Update version and ChangeLog
--   2021-06-21 AndyChappell : Merge pull request [\#170](/redmine/issues/170 "Feature: Add a verbose option (Closed)") from AndyChappell/feature/hierarchy_tools
+-   2021-06-21 AndyChappell : Merge pull request [redmine issue 170](https://cdcvs.fnal.gov/redmine/issues/170) from AndyChappell/feature/hierarchy_tools
 -   2021-06-21 AndyChappell : Merge pull request \#175 from AndyChappell/feature/rec_mopup_spacepoints
 -   2021-06-11 Andrew Chappell : Address review comments
 -   2021-03-30 Andrew Chappell : Add algorithm to clean up 3D hits
--   2021-06-21 AndyChappell : Merge pull request [\#176](/redmine/issues/176 "Feature: Redesign Activity tables using hierarchical instead of flat schema (Remission)") from imawby/feature/MonitoringFix
+-   2021-06-21 AndyChappell : Merge pull request [redmine issue 176](https://cdcvs.fnal.gov/redmine/issues/176) from imawby/feature/MonitoringFix
 -   2021-06-18 Isobel Mawby : Initialising variabels
 -   2021-06-16 Isobel Mawby : clang formatting
 -   2021-06-16 Isobel Mawby : cosmetic \#ifdef changes

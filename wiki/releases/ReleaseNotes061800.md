@@ -41,12 +41,12 @@ New features
 -   larreco, uboonecode feature/cerati_kffitupdates
     -   updates to the track fitter
 -   lardata feature/ss_ranges and range ups product
--   feature/gp_Issue14138 branches in lardata and larreco [\#14138](/redmine/issues/14138 "Necessary Maintenance: Move DumpTracks and DumpClusters together with the other dumpers (Closed)")
+-   feature/gp_Issue14138 branches in lardata and larreco [redmine issue 14138](https://cdcvs.fnal.gov/redmine/issues/14138)
 
 Bug fixes
 ------------------------
 
--   LArG4 MCParticle hierarchy information [\#14843](/redmine/issues/14843 "Bug: LArG4 MCParticle hierarchy information (Resolved)")
+-   LArG4 MCParticle hierarchy information [redmine issue 14843](https://cdcvs.fnal.gov/redmine/issues/14843)
 
 Updated dependencies
 ----------------------------------------------

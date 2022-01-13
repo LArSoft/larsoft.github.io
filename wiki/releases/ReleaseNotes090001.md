@@ -48,10 +48,10 @@ New features
 Bug fixes
 ------------------------
 
--   larbatch PR 9 for [\#24839](/redmine/issues/24839 "Bug: Metadata extraction is corrupted for ROOT files storing RooFit objects (New)")
+-   larbatch PR 9 for [redmine issue 24839](https://cdcvs.fnal.gov/redmine/issues/24839)
 -   lardata PR 8
     -   multithreading bug fix for DetectorClocksServiceStandard
--   lardataalg PR 8 for [\#24834](/redmine/issues/24834 "Bug: Trigger TPC offset incorrectly reported by DetectorClocksStandard (Closed)")
+-   lardataalg PR 8 for [redmine issue 24834](https://cdcvs.fnal.gov/redmine/issues/24834)
 -   lareventdisplay PR 7
     -   v09 bug fix
 -   webevd PR 16
@@ -60,7 +60,7 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   geant4reweight v01_03_00 ([\#24846](/redmine/issues/24846 "Support: geant4reweight for nug4 v1_05_01 (Closed)"))
+-   geant4reweight v01_03_00 ([redmine issue 24846](https://cdcvs.fnal.gov/redmine/issues/24846))
 -   artdaq_core v3_06_01
     -   DAQ added artdaq::RawEventHeader to the dictionary and artdaq is now putting that into events it generates. They want to make sure that the offline will have the ability to read these files moving forward
 
@@ -160,7 +160,7 @@ lardataalg v09_00_01
 -   2020-08-25 Lynn Garren : lardataalg v09_00_01 for larsoft v09_00_01
 -   2020-08-21 Lynn Garren : Merge pull request \#8 from PetrilloAtWork/feature/gp_issue24834
 -   2020-08-21 Gianluca Petrillo : Restored debug output in DetectorClocksStandard service provider.
--   2020-08-21 Gianluca Petrillo : Fix for issue [\#24834](/redmine/issues/24834 "Bug: Trigger TPC offset incorrectly reported by DetectorClocksStandard (Closed)").
+-   2020-08-21 Gianluca Petrillo : Fix for issue [redmine issue 24834](https://cdcvs.fnal.gov/redmine/issues/24834).
 
 larcorealg v09_00_00
 ------------------------------------------------

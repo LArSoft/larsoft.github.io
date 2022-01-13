@@ -43,8 +43,8 @@ Purpose
 New features
 ------------------------------
 
--   larsim feature/gputnam-MergeSimSources for [\#23815](/redmine/issues/23815 "Feature: Add MergeSimSources Back into larsim (Closed)")
--   removing vestigial code in larreco [\#23794](/redmine/issues/23794 "Necessary Maintenance: Remove vestigial code using TVirtualMC from larreco (Closed)")
+-   larsim feature/gputnam-MergeSimSources for [redmine issue 23815](https://cdcvs.fnal.gov/redmine/issues/23815)
+-   removing vestigial code in larreco [redmine issue 23794](https://cdcvs.fnal.gov/redmine/issues/23794)
 -   larwirecell feature/wgu_simch_priorDepo
     -   internal logic changes
 

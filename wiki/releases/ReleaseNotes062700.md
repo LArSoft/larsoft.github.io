@@ -55,7 +55,7 @@ New features
 Bug fixes
 ------------------------
 
--   [\#15702](/redmine/issues/15702 "Bug: order of list the generators issue with PhotonBackTracker  (Closed)")
+-   [redmine issue 15702](https://cdcvs.fnal.gov/redmine/issues/15702)
 
 Updated dependencies
 ----------------------------------------------

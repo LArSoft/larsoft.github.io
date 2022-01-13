@@ -56,9 +56,9 @@ New features
     -   Continuous integration tests and valgrind memory checks were run and no issues were found.
 -   larsim PR 29
     -   Prevent implicit downcasting from double to int in VUVHits() and VISH…
-    -   [\#24433](/redmine/issues/24433 "Bug: Implicit casting double to integer on larsim/LegacyLArG4/OpFastScintillation (Closed)")
+    -   [redmine issue 24433](https://cdcvs.fnal.gov/redmine/issues/24433)
 -   larsim PR 30
-    -   This is the first version of the proposed solution to Redmine issue [\#24600](/redmine/issues/24600 "Bug: OpFastScintillation only propagates light in the first cryostats (Closed)").
+    -   This is the first version of the proposed solution to Redmine issue [redmine issue 24600](https://cdcvs.fnal.gov/redmine/issues/24600).
     -   There are two main assumptions that have been applied in general, but should have been applied only when using the semi-analytic model (or better, when using it with SBND detector and maybe ProtoDUNE, for which those assumptions are satisfied):
         -   scintillation light is propagated only from the TPC active volume
             -   for the way this is implemented, another assumption is required: the detector has a single monolithic active volume, e.g. it has only one cryostat
@@ -75,7 +75,7 @@ New features
             -   introduced fOpaqueCathode flag marking the code assuming cathode opaqueness; if this flag is true, optimisations may be enabled not to propagate the scintillation light to optical detectors that are not facing the same TPC where scintillation happens; otherwise, all optical detectors are considered for propagation (any TPC, any cryostat); this flag is currently hard-coded to false because LArSoft does not have a way to detect nor express whether the cathode is transparent or opaque; this is for use in future implementations.
         -   some internals interacting with GeometryCore service provider have been converted to use geo::Point_t as point type instead of std::array\<double, 3\>, since the former is the recommended LArSoft interface (commits 9e07e5a and bfe915b); this change does not affect the behaviour of the class and it is not required in the resolution of the issue.
     -   It can be noted that the “fixes” at point 2 are very little about actions and a lot about marking assumptions throughout the code.
-        The hope is that this will make a bit easier to have full support of semi-analytic, which the SBN program is studying as an option, model for detectors like ICARUS. That will be Redmine issue [\#24601](/redmine/issues/24601 "Necessary Maintenance: Scintillation visibility by semi-analytic parametrization not supported for multi-cryostat detectors (Accepted)")
+        The hope is that this will make a bit easier to have full support of semi-analytic, which the SBN program is studying as an option, model for detectors like ICARUS. That will be Redmine issue [redmine issue 24601](https://cdcvs.fnal.gov/redmine/issues/24601)
 
 Bug fixes
 ------------------------
@@ -149,7 +149,7 @@ larsim v08_29_00
 -   2020-07-09 Gianluca Petrillo : White space removal.
 -   2020-07-09 Gianluca Petrillo : OpFastScintillation: replaced the use of Geometry with GeometryCore.
 -   2020-07-09 Gianluca Petrillo : OpFastScintillation uses geo::Point_t in operations related to geometry.
--   2020-07-09 Gianluca Petrillo : Removed optimizations which do not universally apply (Redmine issue [\#24600](/redmine/issues/24600 "Bug: OpFastScintillation only propagates light in the first cryostats (Closed)")).
+-   2020-07-09 Gianluca Petrillo : Removed optimizations which do not universally apply (Redmine issue [redmine issue 24600](https://cdcvs.fnal.gov/redmine/issues/24600)).
 -   2020-07-09 Gianluca Petrillo : OpFastScintillation::usesSemiAnalyticModel() centralizes mode query
 -   2020-07-09 Gianluca Petrillo : OpFastScintillation now owns his pointer to PhotonVisibilityService.
 -   2020-07-09 Gianluca Petrillo : Restored OpFastScintillation moveability.
@@ -171,7 +171,7 @@ larpandoracontent v03_18_00
 
 -   2020-07-16 Lynn Garren : larpandoracontent v03_18_00 for larsoft v08_58_00
 -   2020-07-14 Lynn Garren : Merge pull request \#8 from PandoraPFA/feature/larpandoracontent_v03_18_00
--   2020-07-13 John Marshall : Merge pull request [\#131](/redmine/issues/131 "Bug: Can't request subversion repository with "create_me" (Closed)") from MariaBrigida/feature/TwoViewMatching_tools
+-   2020-07-13 John Marshall : Merge pull request [redmine issue 131](https://cdcvs.fnal.gov/redmine/issues/131) from MariaBrigida/feature/TwoViewMatching_tools
 -   2020-07-13 John Marshall : Remove whitespace.
 -   2020-07-13 John Marshall : Cosmetic.
 -   2020-07-13 John Marshall : Order of checks on overlap results.

@@ -38,9 +38,9 @@ New features
 ------------------------------
 
 -   Add metadata to `simb::MCParticle` / `simb::MCTruth` association with index to the associated particle in MCTruth
-    -   new release of nutools - see [\#12067](/redmine/issues/12067 "Bug: Add move operations to simb::MCParticle (Closed)") and [\#18716](/redmine/issues/18716 "Feature: G4Helper: store the index of the true particle within MCTruth in the primary particle information (Closed)")
-        -   nutools/nusimdata: `feature/gp_Issue12067` (issue [\#12067](/redmine/issues/12067 "Bug: Add move operations to simb::MCParticle (Closed)")), `feature/gp_Issue18716` (issue [\#18716](/redmine/issues/18716 "Feature: G4Helper: store the index of the true particle within MCTruth in the primary particle information (Closed)")),
-    -   `lardataobj` and `larsim`: `feature/gp_Issue17804` (issue [\#17804](/redmine/issues/17804 "Feature: Provide a way to associate MCParticles between generator and G4 steps (Closed)"))
+    -   new release of nutools - see [redmine issue 12067](https://cdcvs.fnal.gov/redmine/issues/12067) and [redmine issue 18716](https://cdcvs.fnal.gov/redmine/issues/18716 "Feature: G4Helper: store the index of the true particle within MCTruth in the primary particle information (Closed)")
+        -   nutools/nusimdata: `feature/gp_Issue12067` (issue [redmine issue 12067](https://cdcvs.fnal.gov/redmine/issues/12067)), `feature/gp_Issue18716` (issue [redmine issue 18716](https://cdcvs.fnal.gov/redmine/issues/18716 "Feature: G4Helper: store the index of the true particle within MCTruth in the primary particle information (Closed)")),
+    -   `lardataobj` and `larsim`: `feature/gp_Issue17804` (issue [redmine issue 17804](https://cdcvs.fnal.gov/redmine/issues/17804))
 
 Bug fixes
 ------------------------
@@ -95,7 +95,7 @@ larreco v06_59_00
 -   2018-04-11 Lynn Garren : larreco v06_59_00 for larsoft v06_74_00
 -   2018-04-10 Christoph Alt : Merge branch ‘develop’ into feature/chalt_DPRawHitFinderUpdate
 -   2018-04-10 Christoph Alt : Update handling of long pulse trains
--   2018-04-10 Tingjun Yang : Change the first argument to 0, resolving [\#19619](/redmine/issues/19619 "Bug: Slowness in reconstruction since v06_73_00 (Closed)").
+-   2018-04-10 Tingjun Yang : Change the first argument to 0, resolving [redmine issue 19619](https://cdcvs.fnal.gov/redmine/issues/19619).
 -   2018-04-06 Chao Zhang : move nSample to fcl file
 -   2018-04-05 Lynn Garren : add missing library
 

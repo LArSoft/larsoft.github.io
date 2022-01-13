@@ -140,7 +140,7 @@ lardata v08_00_02
 ------------------------------------------
 
 -   2019-01-09 Lynn Garren : lardata v08_00_02 for larsoft v08_03_00
--   2019-01-07 Kyle Knoepfel : Resolve issue [\#21617](/redmine/issues/21617 "Bug: LArFFT service calling DetectorProperties service in constructor (Closed)"): support run-dependent assignment of FFTSize.
+-   2019-01-07 Kyle Knoepfel : Resolve issue [redmine issue 21617](https://cdcvs.fnal.gov/redmine/issues/21617): support run-dependent assignment of FFTSize.
 
 larcore v08_00_00
 ------------------------------------------
@@ -151,7 +151,7 @@ larpandoracontent v03_14_04
 -   2019-01-09 Lynn Garren : larpandoracontent v03_14_04 for larsoft v08_03_00
 -   2018-12-17 Steven Green : Merge branch ‘updates’
 -   2018-12-17 Steven Green : Update version and change log.
--   2018-12-17 Steven Green : Merge pull request [\#75](/redmine/issues/75 "Bug: Sender email incorrect (Closed)") from StevenGreen1/feature/APAStitching
+-   2018-12-17 Steven Green : Merge pull request [redmine issue 75](https://cdcvs.fnal.gov/redmine/issues/75) from StevenGreen1/feature/APAStitching
 -   2018-12-17 Steven Green : Removing deprecated GetCorrectedPosition function in LArStitchingHelper.
 -   2018-12-17 Steven Green : Modified inertion of element into map.
 -   2018-12-12 Steven Green : Saving x0 via meta data map.

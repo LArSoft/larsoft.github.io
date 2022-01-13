@@ -48,7 +48,7 @@ New features
 
 -   larg4 PR 30
     -   Support multiple larg4 instances
-    -   resolve [\#26249](/redmine/issues/26249 "Feature: Run multiple LArG4 paths in the same job (Assigned)") by allowing the following configuration:
+    -   resolve [redmine issue 26249](https://cdcvs.fnal.gov/redmine/issues/26249) by allowing the following configuration:
 
             physics: {
             producers: {
@@ -200,7 +200,7 @@ larsim v09_18_00
 
 -   2021-10-27 Lynn Garren : larsim v09_18_00 for larsoft v09_35_00
 -   2021-10-27 Lynn Garren : larsim v09_18_00 for larsoft v09_35_00
--   2021-10-26 Lynn Garren : Merge pull request [\#76](/redmine/issues/76 "Bug: Notification preferences link in email (Closed)") from SBNSoftware/mdeltutt_multiple_larg4_instances
+-   2021-10-26 Lynn Garren : Merge pull request [redmine issue 76](https://cdcvs.fnal.gov/redmine/issues/76) from SBNSoftware/mdeltutt_multiple_larg4_instances
 -   2021-10-23 Marco Del Tutto : Ensure that all module labels in InputModuleLabels, if specified, are found in the event.
 -   2021-10-19 Marco Del Tutto : Clean up
 -   2021-10-19 Marco Del Tutto : Clean up dumpConfiguration
@@ -231,7 +231,7 @@ larcore v09_03_01
 larpandoracontent v03_26_01
 --------------------------------------------------------------
 
--   2021-10-27 AndyChappell : Merge pull request [\#184](/redmine/issues/184 "Bug: Dummy project changed to real project not handled properly across fiscal years. (Closed)") from AndyChappell/feature/mc_proc_update
+-   2021-10-27 AndyChappell : Merge pull request [redmine issue 184](https://cdcvs.fnal.gov/redmine/issues/184) from AndyChappell/feature/mc_proc_update
 -   2021-10-25 Andrew Chappell : Update version and ChangeLog
 -   2021-10-22 Andrew Chappell : Add primary background MC process
 

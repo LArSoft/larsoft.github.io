@@ -45,7 +45,7 @@ Known issues
 Since this release is based on larsoft v09_36_00, it has the same larana defect as v09_36_00.
 
 -   Unexplained OpHit / OpFlash product differences in SBND CI tests following larana\#14
-    -   [\#26421](/redmine/issues/26421 "Bug: Unexplained OpHit / OpFlash product differences in SBND CI tests following larana#14 (Assigned)")
+    -   [redmine issue 26421](https://cdcvs.fnal.gov/redmine/issues/26421)
     -   [https://github.com/SBNSoftware/sbndcode/issues/213](https://github.com/SBNSoftware/sbndcode/issues/213)
     -   Note that this issue has nothing to do with the updates in this test release.
 

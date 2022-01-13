@@ -31,7 +31,7 @@ Download instructions for [just larsoftobj v1_11_00_06](http://scisoft.fnal.gov/
 Purpose
 --------------------
 
--   MicroBooNE request [\#21205](/redmine/issues/21205 "Support: Request patch release larsoft v06_26_01_15 (Closed)")
+-   MicroBooNE request [redmine issue 21205](https://cdcvs.fnal.gov/redmine/issues/21205)
 
 New features
 ------------------------------

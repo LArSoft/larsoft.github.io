@@ -35,7 +35,7 @@ New features
 Bug fixes
 ------------------------
 
--   memory leak in root 6 [\#12945](/redmine/issues/12945 "Bug: Excessive memory use in ROOT 6 build of uboonecode (Closed)")
+-   memory leak in root 6 [redmine issue 12945](https://cdcvs.fnal.gov/redmine/issues/12945)
 
 Updated dependencies
 ----------------------------------------------
@@ -44,7 +44,7 @@ Updated dependencies
 |Product|Version|Qualifiers|Notes|
 |nutools|v2_00_01|e10||
 |art|v2_00_03|e10:nu|s36|
-|root|v6_06_04b|e10:nu|[\#12945](/redmine/issues/12945 "Bug: Excessive memory use in ROOT 6 build of uboonecode (Closed)")|
+|root|v6_06_04b|e10:nu|[redmine issue 12945](https://cdcvs.fnal.gov/redmine/issues/12945)|
 |larsoft_data|v1_01_00|||
 |mrb|v1_07_02|||
 

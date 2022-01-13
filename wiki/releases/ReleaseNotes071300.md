@@ -52,7 +52,7 @@ New features
 Bug fixes
 ------------------------
 
--   bug fix for [\#21394](/redmine/issues/21394 "Bug: Bug in Fiducial Volume Definition in Larsim (Resolved)")
+-   bug fix for [redmine issue 21394](https://cdcvs.fnal.gov/redmine/issues/21394)
     -   larsim feature/gputnam_MCSTReco_FV_fix
     -   [https://indico.fnal.gov/event/19230/contribution/2/material/slides/0.pdf](https://indico.fnal.gov/event/19230/contribution/2/material/slides/0.pdf)
 -   larsim feature/herogers_SCE_xcorrection

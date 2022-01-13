@@ -40,7 +40,7 @@ Purpose
 New features
 ------------------------------
 
--   `lardata` `feature/gp_Issue18638` for the resolution of issue [\#18638](/redmine/issues/18638 "Feature: Add to proxy the support for associations with meta data  (Closed)")
+-   `lardata` `feature/gp_Issue18638` for the resolution of issue [redmine issue 18638](https://cdcvs.fnal.gov/redmine/issues/18638)
 -   larpandora feature/sg_TriggeredMCInfo
     -   add MCInformation about beam particles to Pandora for use at ProtoDUNE
 

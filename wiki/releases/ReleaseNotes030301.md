@@ -88,11 +88,11 @@ larreco v03_02_02
 -   2014-10-21 Lynn Garren : use cetbuildtools v4_03_00
 -   2014-10-21 Lynn Garren : larreco v03_02_02 for larsoft v03_03_01
 -   2014-10-21 Lynn Garren : DumpTracks needs to link against root
--   2014-10-21 Gianluca Petrillo : ClusterPCA module: moved FindManyP query out of loop (issue [\#7059](/redmine/issues/7059 "Bug: FindManyP() usage in ClusterPCA module (Closed)")); also removed dependency on Geometry service and changed constantness of some elements.
+-   2014-10-21 Gianluca Petrillo : ClusterPCA module: moved FindManyP query out of loop (issue [redmine issue 7059](https://cdcvs.fnal.gov/redmine/issues/7059)); also removed dependency on Geometry service and changed constantness of some elements.
 -   2014-09-24 Gianluca Petrillo : Added missing headers
 -   2014-09-19 Gianluca Petrillo : Fixed includes of FindOne/FindMany headers
 -   2014-10-21 Gianluca Petrillo : Merge branch ‘feature/CosmicTrackerOptimization’ into develop
--   2014-10-21 Gianluca Petrillo : Removed unnecessary nested association query in CosmicTracker module (issue [\#7060](/redmine/issues/7060 "Bug: FindManyP() usage in CosmicTracker module (Closed)"))
+-   2014-10-21 Gianluca Petrillo : Removed unnecessary nested association query in CosmicTracker module (issue [redmine issue 7060](https://cdcvs.fnal.gov/redmine/issues/7060))
 -   2014-10-17 Gianluca Petrillo : DumpTracks module now prints statistics on the associated objects
 -   2014-10-16 Gianluca Petrillo : First draft of a track dumper
 -   2014-09-19 Gianluca Petrillo : Adding recob::Track dumper module (stub)

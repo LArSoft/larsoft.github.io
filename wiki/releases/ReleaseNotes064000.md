@@ -100,7 +100,7 @@ lareventdisplay v06_06_00
 ----------------------------------------------------------
 
 -   2017-06-13 Lynn Garren : lareventdisplay v06_06_00 for larsoft v06_40_00
--   2017-06-10 Tingjun Yang : Make EventDisplay services reconfigurable in art v2_07_03. Resolve issue [\#16803](/redmine/issues/16803 "Necessary Maintenance: Updates to event display service classes for art 2.7 (Closed)")
+-   2017-06-10 Tingjun Yang : Make EventDisplay services reconfigurable in art v2_07_03. Resolve issue [redmine issue 16803](https://cdcvs.fnal.gov/redmine/issues/16803)
 -   2017-06-09 Lynn Garren : lareventdisplay v06_05_08_01
 -   2017-06-09 Lynn Garren : cetbuildtools v5_09_01
 

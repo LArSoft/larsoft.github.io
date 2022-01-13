@@ -86,7 +86,7 @@ larpandora v09_06_00
 ------------------------------------------------
 
 -   2021-05-25 Lynn Garren : larpandora v09_06_00 for larsoft v09_24_00
--   2021-05-21 AndyChappell : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from imawby/feature/mc_updates
+-   2021-05-21 AndyChappell : Merge pull request [redmine issue 17](https://cdcvs.fnal.gov/redmine/issues/17) from imawby/feature/mc_updates
 -   2021-01-15 Andrew Chappell : Add MC process to Pandora MC particles
 
 larsimrad v09_01_09
@@ -127,7 +127,7 @@ larpandoracontent v03_23_00
 -   2021-05-24 Isobel Mawby : whitespace removal
 -   2021-05-24 Isobel Mawby : clang formatting
 -   2021-05-24 Isobel Mawby : Removal DR visualization tools
--   2021-05-21 AndyChappell : Merge pull request [\#165](/redmine/issues/165 "Bug: Sweave runs out of file connections (Closed)") from imawby/feature/DeltaRayPreClang
+-   2021-05-21 AndyChappell : Merge pull request [redmine issue 165](https://cdcvs.fnal.gov/redmine/issues/165) from imawby/feature/DeltaRayPreClang
 -   2021-05-03 Isobel Mawby : Account for empty calohitlists in GetClosestDistance and update DeltaRayMatchingContainer constructor
 -   2021-04-30 Isobel Mawby : OneViewDeltaRayMatching PR update - creating a new DeltaRayMatchingContainers class
 -   2021-04-29 Isobel Mawby : NViewAlg PR updates

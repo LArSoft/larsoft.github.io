@@ -39,7 +39,7 @@ Purpose
 New features
 ------------------------------
 
--   resolve [\#19043](/redmine/issues/19043 "Feature: need a more generic version of the methods NextValidPoint and PreviousValidPoint, taking as an ar... (Closed)")
+-   resolve [redmine issue 19043](https://cdcvs.fnal.gov/redmine/issues/19043)
     -   more generic version of the methods NextValidPoint and PreviousValidPoint
     -   tools to navigate points with specific flags
     -   `feature/gp_Issue19043` in `larcorealg`, `lardataobj` and `lardata`
@@ -58,7 +58,7 @@ Updated dependencies
 
 -   nutools [v2_21_03](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_21_03-572018)
     -   `feature/gp_Issue19743` in `nutools` in
-    -   resolve issue [\#19743](/redmine/issues/19743 "Bug: GeneratedEventTimestamp_plugin.cc broken in clang. (Closed)") (event time stamps very different with Clang)
+    -   resolve issue [redmine issue 19743](https://cdcvs.fnal.gov/redmine/issues/19743) (event time stamps very different with Clang)
 
 Change List
 ============================
@@ -185,19 +185,19 @@ larpandoracontent v03_12_00
 --------------------------------------------------------------
 
 -   2018-05-09 Lynn Garren : larpandoracontent v03_12_00 for larsoft v06_76_00
--   2018-05-06 Multi-algorithm pattern recognition : Merge pull request [\#53](/redmine/issues/53 "Feature: The front page of the site needs a "getting started" document. (Closed)") from loressa/feature/ExceptionHandlingFix
+-   2018-05-06 Multi-algorithm pattern recognition : Merge pull request [redmine issue 53](https://cdcvs.fnal.gov/redmine/issues/53) from loressa/feature/ExceptionHandlingFix
 -   2018-05-05 loressa : cosmetics
 -   2018-05-04 loressa : Fixes for no neutrino vertex failure handling
--   2018-05-04 John Marshall : Merge pull request [\#51](/redmine/issues/51 "Feature: Clean up helper script to run profiling. (Closed)") from StevenGreen1/feature/Cheating3DHitCreation
+-   2018-05-04 John Marshall : Merge pull request [redmine issue 51](https://cdcvs.fnal.gov/redmine/issues/51) from StevenGreen1/feature/Cheating3DHitCreation
 -   2018-05-04 Steven Green : GetWireZPitch function now calls GetWirePitch function to remove duplicate code.
 -   2018-05-03 Steven Green : Resolving issue with 3D hit creation using fully cheated reconstruction. Issue relates to accessing geometry information in the case of multiple LArTPCs in a single pandora instance.
--   2018-05-03 John Marshall : Merge pull request [\#52](/redmine/issues/52 "Feature: SimpleProfiler needs documentation. (Closed)") from StevenGreen1/feature/Initialization
+-   2018-05-03 John Marshall : Merge pull request [redmine issue 52](https://cdcvs.fnal.gov/redmine/issues/52) from StevenGreen1/feature/Initialization
 -   2018-05-03 Steven Green : Added missing initialization of member variables in SliceFeatureParameters class.
--   2018-05-02 Multi-algorithm pattern recognition : Merge pull request [\#50](/redmine/issues/50 "Feature: SimpleProfiler must be easy to build. (Closed)") from StevenGreen1/feature/LArSoftTesting
+-   2018-05-02 Multi-algorithm pattern recognition : Merge pull request [redmine issue 50](https://cdcvs.fnal.gov/redmine/issues/50) from StevenGreen1/feature/LArSoftTesting
 -   2018-05-02 Steven Green : Static casts added when comparing signed vs unsigned ints.
 -   2018-05-01 John Marshall : Merge branch ‘feature/UpdateChangeLog’
 -   2018-05-01 John Marshall : Update version and change log.
--   2018-05-01 Multi-algorithm pattern recognition : Merge pull request [\#49](/redmine/issues/49 "Feature: Implement the release tarball automation (Closed)") from StevenGreen1/feature/TestBeamParticleCreationVertex
+-   2018-05-01 Multi-algorithm pattern recognition : Merge pull request [redmine issue 49](https://cdcvs.fnal.gov/redmine/issues/49) from StevenGreen1/feature/TestBeamParticleCreationVertex
 -   2018-05-01 Steven Green : Access Pfo vertex using PfoHelper and default configuration alterations.
 -   2018-05-01 Steven Green : Added configurable option to retain interaction, start or both vertices for test beam particles.
 -   2018-05-01 Steven Green : Added configurable option to position test beam particle vertex at lowest Z calo hit.

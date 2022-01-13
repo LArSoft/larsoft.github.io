@@ -94,7 +94,7 @@ larexamples v06_13_00
 -   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
 -   2018-04-03 Gianluca Petrillo : Streaming operator of data product not templated any more.
 -   2018-04-03 Gianluca Petrillo : Erased unused type definition.
--   2018-04-02 Lynn Garren : Workaround for array initialisation bug, issue [\#19474](/redmine/issues/19474 "Necessary Maintenance: Workaround for Clang bug on array initialisation (Accepted)")
+-   2018-04-02 Lynn Garren : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
 -   2018-03-22 Lynn Garren : add c2
 
 larpandora v06_26_00
@@ -145,11 +145,11 @@ larreco v06_58_00
 -   2018-04-02 Gianluca Petrillo : Silencing a Clang warning.
 -   2018-04-02 Gianluca Petrillo : Workaround to a bug in PMA.
 -   2018-04-02 Gianluca Petrillo : Fixed bug (probably a cut&paste one)
--   2018-04-02 Gianluca Petrillo : Disabled tensorflow-dependent code as in issue [\#19539](/redmine/issues/19539 "Necessary Maintenance: Restore tensorflow-dependent code disabled for support to Clang (Assigned)")
--   2018-04-02 Gianluca Petrillo : BulkAllocator feature removed as in issue [\#19494](/redmine/issues/19494 "Necessary Maintenance: Restore fuzzyCluster to a reasonable memory usage (Accepted)")
+-   2018-04-02 Gianluca Petrillo : Disabled tensorflow-dependent code as in issue [redmine issue 19539](https://cdcvs.fnal.gov/redmine/issues/19539)
+-   2018-04-02 Gianluca Petrillo : BulkAllocator feature removed as in issue [redmine issue 19494](https://cdcvs.fnal.gov/redmine/issues/19494)
 -   2018-04-02 Gianluca Petrillo : Removed \`register\` keyword, deprecated by C++17.
 -   2018-04-02 Gianluca Petrillo : Not enclosing simple return values in braces.
--   2018-04-02 Gianluca Petrillo : Workaround for array initialisation bug, issue [\#19474](/redmine/issues/19474 "Necessary Maintenance: Workaround for Clang bug on array initialisation (Accepted)")
+-   2018-04-02 Gianluca Petrillo : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
 -   2018-04-02 Gianluca Petrillo : Fixing unsigned value comparisons.
 -   2018-04-02 Gianluca Petrillo : Fixed complaint about a method hiding a virtual one of the base class.
 -   2018-04-02 Gianluca Petrillo : Removed superfluous std::move() calls.
@@ -161,7 +161,7 @@ larreco v06_58_00
 -   2018-04-02 Lynn Garren : squester tensorflow
 -   2018-04-01 Gianluca Petrillo : Fixed comparison bug with unsigned elements
 -   2018-04-01 Gianluca Petrillo : Replaced explicit initialisation of array with std::array::fill()
--   2018-04-01 Gianluca Petrillo : Workaround for array initialisation bug, issue [\#19474](/redmine/issues/19474 "Necessary Maintenance: Workaround for Clang bug on array initialisation (Accepted)")
+-   2018-04-01 Gianluca Petrillo : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
 -   2018-03-22 Lynn Garren : make tensorflow optional for now
 -   2018-03-22 Lynn Garren : add c2
 
@@ -224,11 +224,11 @@ lardata v06_43_00
 -   2018-03-28 Gianluca Petrillo : Changed struct to class for consistency with the STL declaration.
 -   2018-03-28 Gianluca Petrillo : Fixed default constructor of recob::ClusterHit2D.
 -   2018-03-28 Gianluca Petrillo : Added missing library in link list
--   2018-03-28 Gianluca Petrillo : BulkAllocator feature removed as in issue [\#19494](/redmine/issues/19494 "Necessary Maintenance: Restore fuzzyCluster to a reasonable memory usage (Accepted)")
+-   2018-03-28 Gianluca Petrillo : BulkAllocator feature removed as in issue [redmine issue 19494](https://cdcvs.fnal.gov/redmine/issues/19494)
 -   2018-03-28 Gianluca Petrillo : Always-true check removed.
 -   2018-03-28 Gianluca Petrillo : Removed unused local variable and private member data.
 -   2018-03-28 Gianluca Petrillo : Enforced consistent usage of “override” keyword
--   2018-03-28 Gianluca Petrillo : Workaround for array initialisation bug, issue [\#19474](/redmine/issues/19474 "Necessary Maintenance: Workaround for Clang bug on array initialisation (Accepted)")
+-   2018-03-28 Gianluca Petrillo : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
 -   2018-03-28 Gianluca Petrillo : Removed template stream from operator\<\< of classes.
 -   2018-03-22 Lynn Garren : adding c2
 
@@ -278,14 +278,14 @@ larcorealg v1_19_00
 -   2018-03-30 Gianluca Petrillo : Removing template stream from ROOT vector streaming operators
 -   2018-03-30 Gianluca Petrillo : Removing redundant definitions from Decomposer_test
 -   2018-03-23 Gianluca Petrillo : Fix dubious C++ practice.
--   2018-03-23 Gianluca Petrillo : Removing constexpr support for vectors (issue [\#19476](/redmine/issues/19476 "Necessary Maintenance: Workaround for GenVector classes not being constexpr (Accepted)"))
+-   2018-03-23 Gianluca Petrillo : Removing constexpr support for vectors (issue [redmine issue 19476](https://cdcvs.fnal.gov/redmine/issues/19476))
 -   2018-03-23 Gianluca Petrillo : Work around Clang inability to resolve template types
 -   2018-03-23 Gianluca Petrillo : Fix or dubious C++ practice (thanks Clang)
 -   2018-03-23 Gianluca Petrillo : Explicitly deal with impossible flow to satisfy Clang
 -   2018-03-23 Gianluca Petrillo : Infinite recursion bug fix (thanks Clang)
 -   2018-03-23 Gianluca Petrillo : Removed or declared unused types and variables
 -   2018-03-23 Gianluca Petrillo : C++17 fix: std::addressof() has now multiple signatures
--   2018-03-23 Gianluca Petrillo : Workaround for array initialisation bug, issue [\#19474](/redmine/issues/19474 "Necessary Maintenance: Workaround for Clang bug on array initialisation (Accepted)")
+-   2018-03-23 Gianluca Petrillo : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
 -   2018-03-22 Gianluca Petrillo : Update for C++17
 -   2018-03-22 Lynn Garren : missed one
 -   2018-03-22 Lynn Garren : ActiveAreaCalculator is a struct

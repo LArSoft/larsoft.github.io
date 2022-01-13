@@ -36,7 +36,7 @@ Download instructions for [just larsoftobj v08_17_01](http://scisoft.fnal.gov/sc
 Purpose
 --------------------
 
--   ProtoDUNE request [\#23064](/redmine/issues/23064 "Support: Request patch release v08_27_00_01 for ProtoDUNE production (Closed)")
+-   ProtoDUNE request [redmine issue 23064](https://cdcvs.fnal.gov/redmine/issues/23064)
 
 New features
 ------------------------------

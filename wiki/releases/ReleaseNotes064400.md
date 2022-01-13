@@ -47,7 +47,7 @@ New features
 Bug fixes
 ------------------------
 
--   larcorealg fixes [\#17123](/redmine/issues/17123 "Bug: GeometryCore::WireIDsIntersect() gives wrong intersection points in TVector3 version (Closed)")
+-   larcorealg fixes [redmine issue 17123](https://cdcvs.fnal.gov/redmine/issues/17123)
 
 Updated dependencies
 ----------------------------------------------

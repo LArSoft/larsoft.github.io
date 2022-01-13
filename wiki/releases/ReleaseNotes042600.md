@@ -76,7 +76,7 @@ lareventdisplay v04_10_00
 -   2015-10-03 Tingjun Yang : Make the shower hits brighter and thicker.
 -   2015-10-02 Gianluca Petrillo : Updated configurations with IChannelStatusService
 -   2015-10-02 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/eberly_channelfilter
--   2015-10-02 Gianluca Petrillo : Removed all references to deprecated ChannelFilter, except one (see issue [\#10381](/redmine/issues/10381 "Bug: Event display uses IChannelStatusService in a non-interoperable way (Closed)")).
+-   2015-10-02 Gianluca Petrillo : Removed all references to deprecated ChannelFilter, except one (see issue [redmine issue 10381](https://cdcvs.fnal.gov/redmine/issues/10381)).
 -   2015-10-02 Gianluca Petrillo : Updated configurations with IChannelStatusService
 -   2015-10-01 Gianluca Petrillo : Replacing deprecated ChannelFilter with IChannelStatusService
 

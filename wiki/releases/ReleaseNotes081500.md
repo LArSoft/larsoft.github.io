@@ -63,7 +63,7 @@ New features
 Bug fixes
 ------------------------
 
--   resolve [\#22250](/redmine/issues/22250 "Necessary Maintenance: Remove DUNE and SBND specific code from  larsim/PhotonPropagation/photpropservices.fcl  and larsi... (Closed)")
+-   resolve [redmine issue 22250](https://cdcvs.fnal.gov/redmine/issues/22250)
     -   larsim, dunetpc and sbndcode “feature/dgg_opt_maintenance”
 
 Updated dependencies

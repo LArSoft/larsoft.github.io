@@ -36,7 +36,7 @@ New features
     -   uboonecode feature/feature/ss-refactoring
     -   refactor Track3DKalmanHit_module
 -   larreco, lareventdisplay feature/rsulej_MultipleVtxCollections
-    -   Save reconstructed vertices separately for each type (interaction, kink, …) using instance names of collections. [\#11871](/redmine/issues/11871 "Necessary Maintenance: Decay products in pandora do not start from the same vertex, while Projection Matching Algorithm'... (Accepted)")
+    -   Save reconstructed vertices separately for each type (interaction, kink, …) using instance names of collections. [redmine issue 11871](https://cdcvs.fnal.gov/redmine/issues/11871)
 -   lardata, larana feature/wketchum__CosmicTagIsolation
     -   New algorithm (TrackContainmentAlg) and module (TrackContainmentTagger) that looks at all tracks in a set of collections, identifies those that are uncontained, and then loops through the remaining contained tracks to identify those that are spatially close to an uncontained track. There is a loop to establish this track linkage throughout the whole track collection. The module can create a CosmicTag object and associate it to these tracks. I’ve added a new anab::CosmicTagID_t value in the enum, “kNotIsolated=500”, in the CosmicTag object to account for contained tracks that are not isolated and thus potentially cosmic.
 

@@ -50,7 +50,7 @@ Caveats
 -   The build of larsim GDMLUtils was disabled. It will need modification to build with geant4 v4_10_6_p01.
 -   There is no matching release of geant4reweight
     -   geant4reweight v01_01_00 is now available, but is not part of the v08_48_01_01 distribution.
--   see [\#24284](/redmine/issues/24284 "Support: geant4reweight for geant4 v4_10_6_p01 (Closed)") and [\#24283](/redmine/issues/24283 "Support: review larsim for geant4 v4_10_6_p01 (Closed)")
+-   see [redmine issue 24284](https://cdcvs.fnal.gov/redmine/issues/24284) and [redmine issue 24283](https://cdcvs.fnal.gov/redmine/issues/24283 "Support: review larsim for geant4 v4_10_6_p01 (Closed)")
 
 Updated dependencies
 ----------------------------------------------

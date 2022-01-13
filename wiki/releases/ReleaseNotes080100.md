@@ -49,7 +49,7 @@ New features
 Bug fixes
 ------------------------
 
--   larreco feature/bb_TCFix - resolve [\#21556](/redmine/issues/21556 "Bug: Segfault in DUNE far detector reconstruction (New)")
+-   larreco feature/bb_TCFix - resolve [redmine issue 21556](https://cdcvs.fnal.gov/redmine/issues/21556)
 
 Updated dependencies
 ----------------------------------------------

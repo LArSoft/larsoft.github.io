@@ -128,13 +128,13 @@ larsim v09_07_00
 
 -   2020-11-20 Lynn Garren : larsim v09_07_00 for larsoft v09_10_00
 -   2020-11-19 Lynn Garren : Merge branch ‘feature/lg_add_larg4’ into release/v09_10_00
--   2020-11-19 Lynn Garren : Merge pull request [\#50](/redmine/issues/50 "Feature: SimpleProfiler must be easy to build. (Closed)") from pgreen135/feature/pgreen_semianalytic_refactoredLArG4
+-   2020-11-19 Lynn Garren : Merge pull request [redmine issue 50](https://cdcvs.fnal.gov/redmine/issues/50) from pgreen135/feature/pgreen_semianalytic_refactoredLArG4
 -   2020-11-19 Patrick Green : removing unused variable
--   2020-11-19 Lynn Garren : Merge pull request [\#53](/redmine/issues/53 "Feature: The front page of the site needs a "getting started" document. (Closed)") from PetrilloAtWork/feature/gp_RadioGen
+-   2020-11-19 Lynn Garren : Merge pull request [redmine issue 53](https://cdcvs.fnal.gov/redmine/issues/53) from PetrilloAtWork/feature/gp_RadioGen
 -   2020-11-19 Patrick Green : updating implementation addressing comments in PR
 -   2020-11-18 Gianluca Petrillo : Made test on T0/T1 check more demanding.
 -   2020-11-18 Gianluca Petrillo : Added documentation to RadioGen.
--   2020-11-17 Lynn Garren : Merge pull request [\#52](/redmine/issues/52 "Feature: SimpleProfiler needs documentation. (Closed)") from wforeman/wforeman_correlated_bug_fix
+-   2020-11-17 Lynn Garren : Merge pull request [redmine issue 52](https://cdcvs.fnal.gov/redmine/issues/52) from wforeman/wforeman_correlated_bug_fix
 -   2020-11-17 Will Foreman : Removing some whitespace
 -   2020-11-16 Will Foreman : Fixed bug where ScintPreScale factor wasn’t being set in LegacyLArG4/ISCalculationCorrelated
 -   2020-11-13 Gianluca Petrillo : Updates for LArSoft 9.

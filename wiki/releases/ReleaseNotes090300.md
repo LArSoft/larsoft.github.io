@@ -64,7 +64,7 @@ Bug fixes
 ------------------------
 
 -   lardataalg PR 11
-    -   fixes to documentation per [\#24928](/redmine/issues/24928 "Bug: Time scale documentation moved (Closed)")
+    -   fixes to documentation per [redmine issue 24928](https://cdcvs.fnal.gov/redmine/issues/24928)
 
 Updated dependencies
 ----------------------------------------------

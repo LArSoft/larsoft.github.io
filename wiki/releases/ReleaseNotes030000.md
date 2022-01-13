@@ -84,7 +84,7 @@ Updated dependencies
 Known issues
 ------------------------------
 
--   [\#7068](/redmine/issues/7068 "Bug: xrootd broken in art v1_12_00 (Closed)") - root still does not play nicely with newer releases of xrootd
+-   [redmine issue 7068](https://cdcvs.fnal.gov/redmine/issues/7068) - root still does not play nicely with newer releases of xrootd
 
 Updating code
 --------------------------------

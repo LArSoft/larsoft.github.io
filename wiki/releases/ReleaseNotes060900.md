@@ -41,7 +41,7 @@ New features
 Bug fixes
 ------------------------
 
--   Fix memory leak in NEST (issue [\#14085](/redmine/issues/14085 "Bug: Memory leak running LArG4 with NEST (Closed)"))
+-   Fix memory leak in NEST (issue [redmine issue 14085](https://cdcvs.fnal.gov/redmine/issues/14085))
 
 Updated dependencies
 ----------------------------------------------
@@ -112,7 +112,7 @@ larsim v06_04_00
 -   2016-10-06 Lynn Garren : larsoft_data v1_01_01
 -   2016-10-05 Lynn Garren : larsim v06_04_00 for larsoft v06_09_00
 -   2016-10-05 Lynn Garren : Revert “Revert”Merge branch ‘feature/mrmooney_SCERecombFeature’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop“”
--   2016-10-05 Gianluca Petrillo : Fixing memory leak in NEST (issue [\#14085](/redmine/issues/14085 "Bug: Memory leak running LArG4 with NEST (Closed)"))
+-   2016-10-05 Gianluca Petrillo : Fixing memory leak in NEST (issue [redmine issue 14085](https://cdcvs.fnal.gov/redmine/issues/14085))
 -   2016-10-04 Gianluca Petrillo : Changed a detail of exception throwning in LArSeedService.
 -   2016-10-04 Gianluca Petrillo : Removed old unused header
 -   2016-10-04 Michael Mooney : Revert “Merge branch ‘feature/mrmooney_SCERecombFeature’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into develop”

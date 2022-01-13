@@ -119,7 +119,7 @@ larsim v09_10_01
 ----------------------------------------
 
 -   2021-02-24 Lynn Garren : larsim v09_10_01 for larsoft v09_17_01
--   2021-02-24 Lynn Garren : Merge pull request [\#63](/redmine/issues/63 "Bug: Production Database (Closed)") from aihimmel/develop
+-   2021-02-24 Lynn Garren : Merge pull request [redmine issue 63](https://cdcvs.fnal.gov/redmine/issues/63) from aihimmel/develop
 -   2021-02-19 Alex Himmel : Add option to disable FastComponent. Helpful for Xe Doping simulation.
 -   2021-02-19 Alex Himmel : Remove a stub tool not actually implemented here. Instead, implement Xe doping in dunetpc since it is experiment-specific.
 

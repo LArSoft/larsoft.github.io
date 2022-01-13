@@ -98,7 +98,7 @@ larreco v06_61_01
 
 -   2018-06-13 Lynn Garren : larreco v06_61_01 for larsoft v06_81_00
 -   2018-06-06 Herbert Greenlee : Make it so that SpacePointAna won’t crash if SimChannels are not present for mc.
--   2018-06-04 Tingjun Yang : Fix reference for proton data. Resolving [\#20065](/redmine/issues/20065 "Bug: Documentation of momentum calculator not accessible (Assigned)").
+-   2018-06-04 Tingjun Yang : Fix reference for proton data. Resolving [redmine issue 20065](https://cdcvs.fnal.gov/redmine/issues/20065).
 
 larsim v06_50_01
 ----------------------------------------

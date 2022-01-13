@@ -56,7 +56,7 @@ Bug fixes
 ------------------------
 
 -   larbatch PR 14
-    -   resolve [\#25709](/redmine/issues/25709 "Bug: project.py: Parse error in expression (Closed)")
+    -   resolve [redmine issue 25709](https://cdcvs.fnal.gov/redmine/issues/25709)
 
 Updated dependencies
 ----------------------------------------------

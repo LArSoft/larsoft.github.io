@@ -180,7 +180,7 @@ larreco v06_08_00
 -   2016-09-28 Tingjun Yang : Add option to decide whether to flip track direction if dQ/dx is higher at track start. This used to be the default behavior. Turn it off for argoneut.
 -   2016-09-28 Tingjun Yang : Clean up code to remove TTree related stuff.
 -   2016-08-30 Lynn Garren : larsimobj/Simulation moved to lardataobj/Simulation
--   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue [\#12367](/redmine/issues/12367 "Necessary Maintenance: Merge namespaces lar::utils and lar::util (Closed)"))
+-   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue [redmine issue 12367](https://cdcvs.fnal.gov/redmine/issues/12367))
 -   2016-08-03 Tingjun Yang : Save all points (including the first and last points).
 -   2016-06-14 Gianluca Petrillo : Update after modification to the unit test infrastructure
 -   2016-06-02 Lynn Garren : changes for larsoftobj

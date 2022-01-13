@@ -61,7 +61,7 @@ New features
 Bug fixes
 ------------------------
 
--   larreco - resolve [\#19067](/redmine/issues/19067 "Bug: Trajcluster segfault (Resolved)")
+-   larreco - resolve [redmine issue 19067](https://cdcvs.fnal.gov/redmine/issues/19067)
     -   this bug fix also included a change to data products
 
 Updated dependencies

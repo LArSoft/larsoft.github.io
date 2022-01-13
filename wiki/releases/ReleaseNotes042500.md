@@ -156,7 +156,7 @@ larevt v04_11_00
 -   2015-07-20 Gianluca Petrillo : ChannelFilterService interface implemented. An implementation “SimpleChannelFilter” of that interface is provided, that drinks information from FHiCL file. That implementation has unit test.
 -   2015-07-20 Gianluca Petrillo : Merge branch ‘develop’ into feature/Issue1083
 -   2014-11-25 Gianluca Petrillo : Added a function filtering out bad digits from a list
--   2014-11-25 Gianluca Petrillo : Issue [\#1083](/redmine/issues/1083 "Bug: filter::ChannelFilter should be made into a service (Closed)"): ChannelFilter moved into a service
+-   2014-11-25 Gianluca Petrillo : Issue [redmine issue 1083](https://cdcvs.fnal.gov/redmine/issues/1083): ChannelFilter moved into a service
 
 lardata v04_14_02
 ------------------------------------------

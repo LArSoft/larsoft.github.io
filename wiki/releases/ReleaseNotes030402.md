@@ -37,16 +37,16 @@ The distribution now uses a generic pullProducts script instead of a versioned s
 Bug fixes
 ------------------------
 
--   Root v5_31_23 is the official root release with the fix for bug [\#7076](/redmine/issues/7076 "Bug: LArSoft v03_00_00 unable to read recob::Wire from MicroBooNE MCC 5 files (Closed)").
--   Fix the problems Mu2e discovered with root-config ([\#7253](/redmine/issues/7253 "Bug: root-config (Closed)"))
--   The link lists for the nutools libraries have been considerably cleaned up. ([\#5967](/redmine/issues/5967 "Support: Requesting support for running larsoft jobs on OSG nodes without X11 libraries installed (Closed)"))
+-   Root v5_31_23 is the official root release with the fix for bug [redmine issue 7076](https://cdcvs.fnal.gov/redmine/issues/7076).
+-   Fix the problems Mu2e discovered with root-config ([redmine issue 7253](https://cdcvs.fnal.gov/redmine/issues/7253))
+-   The link lists for the nutools libraries have been considerably cleaned up. ([redmine issue 5967](https://cdcvs.fnal.gov/redmine/issues/5967))
 
 Updated dependencies
 ----------------------------------------------
 
 ||
 |Product|Version|Qualifier|Notes|
-|root|v5_34_23|e6:nu|see bug [\#7253](/redmine/issues/7253 "Bug: root-config (Closed)")|
+|root|v5_34_23|e6:nu|see bug [redmine issue 7253](https://cdcvs.fnal.gov/redmine/issues/7253)|
 |pandora|v00_17a|e6:nu|uses root|
 |genie|v2_8_0m|e6|uses root|
 |art|[v1_12_04](/redmine/projects/art/wiki/Release_Notes_11204)|e6:nu|feature requests|
@@ -121,4 +121,4 @@ larcore v03_03_02
 -   2014-11-18 Tingjun Yang : fix a typo
 -   2014-11-16 Tingjun Yang : made it more general
 -   2014-11-16 Tingjun Yang : implement a new WireIDsIntersect, the old one does not work for 35t TPC0
--   2014-11-13 Gianluca Petrillo : Issue [\#6362](/redmine/issues/6362 "Feature: Pre-calculate trig functions for wire angles (Closed)"): Added WireGeo functions to return sine and cosine of ThetaZ()
+-   2014-11-13 Gianluca Petrillo : Issue [redmine issue 6362](https://cdcvs.fnal.gov/redmine/issues/6362): Added WireGeo functions to return sine and cosine of ThetaZ()

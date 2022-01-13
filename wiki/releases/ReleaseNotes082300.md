@@ -43,7 +43,7 @@ New features
 ------------------------------
 
 -   larreco feature/bb_new3D
--   removal of bezier and other unused modules for [\#20618](/redmine/issues/20618 "Support: remove liblarreco_Deprecated (Closed)")
+-   removal of bezier and other unused modules for [redmine issue 20618](https://cdcvs.fnal.gov/redmine/issues/20618)
     -   **This is a breaking change.**
     -   larsim: feature/knoepfel_rm_unused_modules
     -   larreco: feature/knoepfel_rm_bezier
@@ -67,7 +67,7 @@ Updated dependencies
 ----------------------------------------------
 
 -   ifdhc_config v2_4_5
-    -   see bug [\#22738](/redmine/issues/22738 "Bug: gfal utilities not working under larsoft setups (Closed)")
+    -   see bug [redmine issue 22738](https://cdcvs.fnal.gov/redmine/issues/22738)
     -   only the config is changed with respect to v2_4_4
 
 Change List

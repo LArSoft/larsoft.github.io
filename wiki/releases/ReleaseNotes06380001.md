@@ -51,7 +51,7 @@ Notes
     -   **BREAKING CHANGE**: “Default+MEC” in fcl files is obsolete. See [https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/GENIE_Configuration_Files](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/GENIE_Configuration_Files). Branch feature/team_for_v06_38_00_01 for dunetpc and uboonecode reflects this change.
 -   geant v4_10_3_p01a
     -   modifications were required in larsim LArG4
-    -   See [\#16567](/redmine/issues/16567 "Support: Please patch geant4 10.2.p03 and 10.3.p01 (Closed)") for a description of the p01a patch
+    -   See [redmine issue 16567](https://cdcvs.fnal.gov/redmine/issues/16567) for a description of the p01a patch
 
 Updated dependencies
 ----------------------------------------------

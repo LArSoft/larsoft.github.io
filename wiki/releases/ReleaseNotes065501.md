@@ -43,7 +43,7 @@ New features
 Bug fixes
 ------------------------
 
--   [\#17708](/redmine/issues/17708 "Bug: SimPhotonCounter causes significant memory usage for DUNE library generation. (Closed)")
+-   [redmine issue 17708](https://cdcvs.fnal.gov/redmine/issues/17708)
 -   larwirecell feature/bv_wct-0.6.2
 -   lardata feature/gp_Issue17672 (remove legacy PtrMaker.h header)
 
@@ -125,7 +125,7 @@ larreco v06_44_01
 -   2017-10-27 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/JStock_BackTrackerIntegratedUpdate
 -   2017-10-27 Usher, Tracy L : Adjust the lower limit on the peak width before the fit to allow the fitter to “shrink” the width to fit the pulse (was stopping at the lower limit for some pulses)
 -   2017-10-27 Jason Stock : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/JStock_BackTrackerIntegratedUpdate
--   2017-10-26 Jason Stock : Work around for LArSoft Issue [\#17960](/redmine/issues/17960 "Bug: problem with the debug build of larreco on SLF6 (Assigned)"). Note, this is not a fix. Just the workaround.
+-   2017-10-26 Jason Stock : Work around for LArSoft Issue [redmine issue 17960](https://cdcvs.fnal.gov/redmine/issues/17960). Note, this is not a fix. Just the workaround.
 -   2017-10-26 baller : Merge branch ‘develop’ into feature/bb_TJWork
 -   2017-10-26 baller : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-10-25 Jason Stock : BackTracker/ParticleInventory update

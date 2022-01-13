@@ -261,16 +261,16 @@ larpandoracontent v03_13_00
 -   2018-06-12 John Marshall : Include PfoPropertiesMap when copying Pfo instances.
 -   2018-06-11 Multi-algorithm pattern recognition : Merge pull request \#60 from StevenGreen1/feature/BdtBeamParticleId_Intersection
 -   2018-06-11 Steven Green : Modification to accuracy used in calculation of intersection between PCA fit and LArTPC.
--   2018-06-06 John Marshall : Merge pull request [\#56](/redmine/issues/56 "Feature: Package R scripts that create data frames from SimpleProfiler output. (Closed)") from StevenGreen1/feature/CheatedParticleVertices
+-   2018-06-06 John Marshall : Merge pull request [redmine issue 56](https://cdcvs.fnal.gov/redmine/issues/56) from StevenGreen1/feature/CheatedParticleVertices
 -   2018-06-05 Steven Green : Minor restructuring of code to improve efficiency.
 -   2018-05-30 Steven Green : Added vertices for cheated (non-neutrino) particles.
--   2018-06-05 John Marshall : Merge pull request [\#57](/redmine/issues/57 "Feature: Provide R scripts that make "interesting" plots (Closed)") from StevenGreen1/feature/RemovingCosmicRays
+-   2018-06-05 John Marshall : Merge pull request [redmine issue 57](https://cdcvs.fnal.gov/redmine/issues/57) from StevenGreen1/feature/RemovingCosmicRays
 -   2018-06-05 Multi-algorithm pattern recognition : Edit message printed upon catching a StatusCodeException.
 -   2018-03-27 Steven Green : Added CheatingRemovingCosmicRays algorithm.
--   2018-06-05 John Marshall : Merge pull request [\#55](/redmine/issues/55 "Feature: Profgraph must be documented (Closed)") from StevenGreen1/feature/TestBeamParticleCreationVertexing
+-   2018-06-05 John Marshall : Merge pull request [redmine issue 55](https://cdcvs.fnal.gov/redmine/issues/55) from StevenGreen1/feature/TestBeamParticleCreationVertexing
 -   2018-05-25 Multi-algorithm pattern recognition : Catch const StatusCodeException &
 -   2018-05-23 Steven Green : Addressed test beam particle creation algorithm failure in case of multiple reconstructed particles.
--   2018-06-05 John Marshall : Merge pull request [\#54](/redmine/issues/54 "Feature: The profgraph library and executable should be make into a Ruby gem. (New)") from StevenGreen1/feature/ParticleIdComparison
+-   2018-06-05 John Marshall : Merge pull request [redmine issue 54](https://cdcvs.fnal.gov/redmine/issues/54) from StevenGreen1/feature/ParticleIdComparison
 -   2018-05-23 Steven Green : Corrected particle id comparison inside LArPfoHelper::IsTestBeam.
 -   2018-06-05 John Marshall : Merge branch ‘feature/WireAngleW’
 -   2018-05-17 John Marshall : Updated lar rotational transformation plugin implementation to handle a non-zero w wire angle. Sign convention for v wire angle also changed.

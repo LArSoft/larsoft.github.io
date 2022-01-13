@@ -49,7 +49,7 @@ New features
 Bug fixes
 ------------------------
 
--   [\#22744](/redmine/issues/22744 "Bug: Cannot read old argoneut data (Closed)") fixed with art_root_io v1_00_07 (s86)
+-   [redmine issue 22744](https://cdcvs.fnal.gov/redmine/issues/22744) fixed with art_root_io v1_00_07 (s86)
 
 Updated dependencies
 ----------------------------------------------

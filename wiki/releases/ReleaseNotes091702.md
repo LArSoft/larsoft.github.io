@@ -47,7 +47,7 @@ New features
 
 -   larcorealg PR 15
     -   Avoid domain errors in computing TPC wire angles.
-    -   This solves issue [\#25559](/redmine/issues/25559 "Bug: geo::WireGeo wire angle calculation (Closed)").
+    -   This solves issue [redmine issue 25559](https://cdcvs.fnal.gov/redmine/issues/25559).
 -   use nug4 v1_07_00
     -   larg4 PR 22 (update ups/product_deps)
     -   larsim PR 65 (update ups/product_deps)
@@ -56,7 +56,7 @@ New features
     -   larreco PR 28
         -   Fixed MagneticField service for nug4 v1_07_00
         -   Fix MagneticField service in TrackFinder due to modifications of the MagneticField service in the nug4 package (v1_07_00)
-            See issue [\#25534](/redmine/issues/25534 "Feature: Merge branch feature/MagneticFieldService in nug4 and make a new release (Closed)")
+            See issue [redmine issue 25534](https://cdcvs.fnal.gov/redmine/issues/25534)
 
 Bug fixes
 ------------------------
@@ -67,7 +67,7 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
--   nug4 v1_07_00 per [\#25534](/redmine/issues/25534 "Feature: Merge branch feature/MagneticFieldService in nug4 and make a new release (Closed)")
+-   nug4 v1_07_00 per [redmine issue 25534](https://cdcvs.fnal.gov/redmine/issues/25534)
     -   Re-implemented the MagneticFieldService to be able to override it with a custom service and added the handling on non-uniform Bfields in the Detector Construction. Default behavior should not change.
 -   geant4reweight v01_06_06
 

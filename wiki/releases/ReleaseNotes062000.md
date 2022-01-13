@@ -40,12 +40,12 @@ New features
 
 -   larpandoracontent v03_01_02
 -   lardata feature/gp_RangeForForRanges
--   nutools v2_09_01 (bug fix [\#15071](/redmine/issues/15071 "Bug: Nutools does not recognize nuclear PDG codes (Closed)"))
+-   nutools v2_09_01 (bug fix [redmine issue 15071](https://cdcvs.fnal.gov/redmine/issues/15071))
 
 Bug fixes
 ------------------------
 
--   Initial fix for photon backtracker bug [\#15012](/redmine/issues/15012 "Bug: Job crashes if no photon backtracker information is available (Closed)")
+-   Initial fix for photon backtracker bug [redmine issue 15012](https://cdcvs.fnal.gov/redmine/issues/15012)
 
 Updated dependencies
 ----------------------------------------------

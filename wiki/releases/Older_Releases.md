@@ -16,15 +16,15 @@ These releases are no longer installed on /grid/fermiapp/products/larsoft or cvm
 |v03.07.00|01/21/2015|Weekly tag|Bezier track|[Release Notes](ReleaseNotes030700)|
 |v03.05.01|01/07/2015|larreco update for LBNE|requested build|[Release Notes](ReleaseNotes030501)|
 |v03.05.00|01/05/2015|Weekly tag|new UniqueRangeSet|[Release Notes](ReleaseNotes030500)|
-|v03.04.05|12/10/2014|Weekly tag|Fix [\#7460](/redmine/issues/7460 "Bug: NaN's in the simulation (Closed)")|[Release Notes](ReleaseNotes030405)|
+|v03.04.05|12/10/2014|Weekly tag|Fix [redmine issue 7460](https://cdcvs.fnal.gov/redmine/issues/7460)|[Release Notes](ReleaseNotes030405)|
 |v03.04.04|12/03/2014|Weekly tag|Adding an ART association between recob::PFParticle and recob::Seed|[Release Notes](ReleaseNotes030404)|
 |v03.04.03|11/24/2014|Weekly tag||[Release Notes](ReleaseNotes030403)|
 |v03.04.02|11/20/2014|Weekly tag|includes new releases of art, nutools, and root|[Release Notes](ReleaseNotes030402)|
 |v03.04.01|11/12/2014|Weekly tag||[Release Notes](ReleaseNotes030401)|
 |v03.03.02|10/28/2014|Weekly tag||[Release Notes](ReleaseNotes030302)|
 |v03.03.01|10/22/2014|Weekly tag||[Release Notes](ReleaseNotes030301)|
-|v03.02.00|10/06/2014|bug fix for [\#7076](/redmine/issues/7076 "Bug: LArSoft v03_00_00 unable to read recob::Wire from MicroBooNE MCC 5 files (Closed)")|includes change since v03_01_00|[Release Notes](ReleaseNotes030200)|
-|v03.01.00|09/26/2014|bug fix for [\#7068](/redmine/issues/7068 "Bug: xrootd broken in art v1_12_00 (Closed)")|Still cannot use newer releases of xrootd|[Release Notes](ReleaseNotes030100)|
+|v03.02.00|10/06/2014|bug fix for [redmine issue 7076](https://cdcvs.fnal.gov/redmine/issues/7076)|includes change since v03_01_00|[Release Notes](ReleaseNotes030200)|
+|v03.01.00|09/26/2014|bug fix for [redmine issue 7068](https://cdcvs.fnal.gov/redmine/issues/7068)|Still cannot use newer releases of xrootd|[Release Notes](ReleaseNotes030100)|
 |v03.00.00|09/24/2014|move to gcc 4.9.1|First release with art v1_12_00|[Release Notes](ReleaseNotes030000)|
 |v02.06.01|09/10/2014|Weekly tag||[Release_Notes_02_06_1](Release_Notes_02_06_1)|
 |v02.06.00|09/04/2014|First build with art v1_10_00b|Except for required changes, the code is identical to v02_05_03|[Release_Notes_02_06_00](Release_Notes_02_06_00)|

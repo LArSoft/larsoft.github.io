@@ -53,7 +53,7 @@ New features
 Bug fixes
 ------------------------
 
--   larsim issues have been resolved. See [\#24283](/redmine/issues/24283 "Support: review larsim for geant4 v4_10_6_p01 (Closed)")
+-   larsim issues have been resolved. See [redmine issue 24283](https://cdcvs.fnal.gov/redmine/issues/24283)
 
 Experiment code
 ------------------------------------

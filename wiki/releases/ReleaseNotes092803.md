@@ -53,7 +53,7 @@ Bug fixes
 
 -   larg4 PR 24
     -   Fix segmentation violation from MCParticles with duplicate track IDs
-    -   This PR resolves Redmine issue [\#26197](/redmine/issues/26197 "Bug: MCParticles have non-unique TrackIDs and SegFault when trying to access Trajectory information  (Closed)"), where a segmentation violation is reported due to attempting to access a trajectory point in an MCParticle that had none. The basic problem is that the larg4 services were not implemented to support reading multiple MCTruth collections where one of those collections has multiple MCTruth objects in it. This PR enables that behavior.
+    -   This PR resolves Redmine issue [redmine issue 26197](https://cdcvs.fnal.gov/redmine/issues/26197), where a segmentation violation is reported due to attempting to access a trajectory point in an MCParticle that had none. The basic problem is that the larg4 services were not implemented to support reading multiple MCTruth collections where one of those collections has multiple MCTruth objects in it. This PR enables that behavior.
 
 Updated dependencies
 ----------------------------------------------

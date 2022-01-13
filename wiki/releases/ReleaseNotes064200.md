@@ -49,9 +49,9 @@ New features
 Bug fixes
 ------------------------
 
--   larcore feature/gp_Issue13972 [\#13972](/redmine/issues/13972 "Idea: New Geometry Feature subtask - iterators to subsets of geometry elements (Closed)")
+-   larcore feature/gp_Issue13972 [redmine issue 13972](https://cdcvs.fnal.gov/redmine/issues/13972)
     -   final changes
--   larreco [\#17048](/redmine/issues/17048 "Bug: floating point divide by zero in tca:MCSMom (Resolved)")
+-   larreco [redmine issue 17048](https://cdcvs.fnal.gov/redmine/issues/17048)
 
 Updated dependencies
 ----------------------------------------------

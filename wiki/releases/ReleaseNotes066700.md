@@ -49,7 +49,7 @@ Known issues
 ------------------------------
 
 -   in a few rare cases, gcc 6.4.0 reports “set but unused” variables that were not previously reported
-    -   see issue [\#18868](/redmine/issues/18868 "Bug: new warning from gcc 6.4.0 in larreco TrackFinder (Resolved)")
+    -   see issue [redmine issue 18868](https://cdcvs.fnal.gov/redmine/issues/18868)
 
 Updated dependencies
 ----------------------------------------------
@@ -57,7 +57,7 @@ Updated dependencies
 -   Using the e15 qualifier instead of the e14 qualifier.
 -   caffe v1_0g
 -   mrb v1_14_00
-    -   resolve [\#18838](/redmine/issues/18838 "Bug: gitCheckout.sh incorrectly thinks user is not authenticated for read-write access if no xauth data (Closed)")
+    -   resolve [redmine issue 18838](https://cdcvs.fnal.gov/redmine/issues/18838)
     -   provide new changeQual command for use by code librarians
 
 Change List

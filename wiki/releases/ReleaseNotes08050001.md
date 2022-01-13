@@ -34,7 +34,7 @@ Download instructions for [just larsoftobj v08_03_00](http://scisoft.fnal.gov/sc
 Purpose
 --------------------
 
--   request [\#21754](/redmine/issues/21754 "Support: Request patch release larsoft v08_05_00_01 (Closed)")
+-   request [redmine issue 21754](https://cdcvs.fnal.gov/redmine/issues/21754)
 
 New features
 ------------------------------

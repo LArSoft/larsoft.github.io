@@ -42,7 +42,7 @@ Purpose
 New features
 ------------------------------
 
--   lardata feature/gp_Issue23817 resolves [\#23817](/redmine/issues/23817 "Bug: Incorrect Calculation of Wire Pitch in lardata (Closed)")
+-   lardata feature/gp_Issue23817 resolves [redmine issue 23817](https://cdcvs.fnal.gov/redmine/issues/23817)
 
 Bug fixes
 ------------------------
@@ -51,7 +51,7 @@ Updated dependencies
 ----------------------------------------------
 
 -   cetbuildtools v7_15_01
-    -   resolves python 3 checkClassVersion problem reported in [\#23956](/redmine/issues/23956 "Bug: checkClassVersion error in py3: (Need to update cetbuildtools to v7_15_01) (Closed)") and [\#23946](/redmine/issues/23946 "Bug: checkClassVersion uses unsupported string.strip method in Python 3.7 (Closed)")
+    -   resolves python 3 checkClassVersion problem reported in [redmine issue 23956](https://cdcvs.fnal.gov/redmine/issues/23956) and [redmine issue 23946](https://cdcvs.fnal.gov/redmine/issues/23946 "Bug: checkClassVersion uses unsupported string.strip method in Python 3.7 (Closed)")
 
 Change List
 ============================
@@ -60,7 +60,7 @@ larsoft v08_41_01
 ------------------------------------------
 
 -   2020-01-29 Lynn Garren : get cetbuildtools and fix larcore build
--   2020-01-29 Lynn Garren : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from lgarren/release/v08_41_01
+-   2020-01-29 Lynn Garren : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from lgarren/release/v08_41_01
 -   2020-01-29 Lynn Garren : use build_cet -f NULL
 -   2020-01-29 Lynn Garren : using github
 -   2020-01-29 Lynn Garren : fix whitespace
@@ -110,13 +110,13 @@ larana v08_16_01
 larreco v08_27_01
 ------------------------------------------
 
--   2020-01-29 Lynn Garren : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from lgarren/release/v08_41_01
+-   2020-01-29 Lynn Garren : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from lgarren/release/v08_41_01
 -   2020-01-29 Lynn Garren : larreco v08_27_01 for larsoft v08_41_01
 
 larsim v08_19_01
 ----------------------------------------
 
--   2020-01-29 Lynn Garren : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from lgarren/release/v08_41_01
+-   2020-01-29 Lynn Garren : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from lgarren/release/v08_41_01
 -   2020-01-29 Lynn Garren : fix whitespace
 -   2020-01-29 Lynn Garren : larsim v08_19_01 for larsoft v08_41_01
 
@@ -131,7 +131,7 @@ lardata v08_14_01
 ------------------------------------------
 
 -   2020-01-30 Lynn Garren : add missing library
--   2020-01-29 Lynn Garren : Merge pull request [\#2](/redmine/issues/2 "Bug: Self signed cert on website (Closed)") from lgarren/release/v08_41_01
+-   2020-01-29 Lynn Garren : Merge pull request [redmine issue 2](https://cdcvs.fnal.gov/redmine/issues/2) from lgarren/release/v08_41_01
 -   2020-01-29 Lynn Garren : fix whitespace
 -   2020-01-29 Lynn Garren : lardata v08_14_01 for larsoft v08_41_01
 -   2020-01-29 Lynn Garren : Merge pull request \#1 from lgarren/feature/gp_Issue23817

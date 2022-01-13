@@ -40,8 +40,8 @@ New features
 Bug fixes
 ------------------------
 
--   `feature/gp_Issue18199` of `larsim` for issue [\#18199](/redmine/issues/18199 "Necessary Maintenance: Remove unmoveable MCParticle workaround (Closed)")
--   [\#18001](/redmine/issues/18001 "Bug: lar::ProviderPack should accept objects of classes derived from the required ones (Closed)")
+-   `feature/gp_Issue18199` of `larsim` for issue [redmine issue 18199](https://cdcvs.fnal.gov/redmine/issues/18199)
+-   [redmine issue 18001](https://cdcvs.fnal.gov/redmine/issues/18001)
 
 Updated dependencies
 ----------------------------------------------

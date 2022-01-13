@@ -36,8 +36,8 @@ New features
     -   pandora v02_07_00 and larpandoracontent v02_06_00
     -   larpandora REQUIRES cetbuildtools v4_19_03
 -   changes requested by MicroBoone
-    -   [\#12098](/redmine/issues/12098 "Feature: Update MCHit (Closed)") lardata and larreco feature/greenlee_small_mchit
-    -   [\#12097](/redmine/issues/12097 "Feature: Update sim::Channel (Closed)") larsim feature/greenlee_small_simchannel
+    -   [redmine issue 12098](https://cdcvs.fnal.gov/redmine/issues/12098) lardata and larreco feature/greenlee_small_mchit
+    -   [redmine issue 12097](https://cdcvs.fnal.gov/redmine/issues/12097) larsim feature/greenlee_small_simchannel
 -   changes to larreco/RecoAlg/ProjectionMatchingAlg presented by [Dorota Stefan](https://indico.fnal.gov/getFile.py/access?contribId=6&resId=0&materialId=slides&confId=11793)
 
 Bug fixes

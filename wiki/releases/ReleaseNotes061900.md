@@ -49,7 +49,7 @@ Bug fixes
 Known problems
 ----------------------------------
 
--   If photon backtracker was not run in largeant stage, any later larsoft jobs will fail when trying to initialize the photon backtracker service. [\#15012](/redmine/issues/15012 "Bug: Job crashes if no photon backtracker information is available (Closed)")
+-   If photon backtracker was not run in largeant stage, any later larsoft jobs will fail when trying to initialize the photon backtracker service. [redmine issue 15012](https://cdcvs.fnal.gov/redmine/issues/15012)
 
 Updated dependencies
 ----------------------------------------------

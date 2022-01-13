@@ -127,7 +127,7 @@ larreco v08_18_00
 -   2019-08-27 Edward Tyley : Moved the shower element holder for tracs into RecoAlg
 -   2019-08-26 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2019-08-26 Tingjun Yang : Fix bug spotted by Kyle knoepfel.
--   2019-08-26 Kyle Knoepfel : Fix bug [\#23159](/redmine/issues/23159 "Bug: Cannot get hit handle (Closed)"): switch from Event::get to Event::getByLabel.
+-   2019-08-26 Kyle Knoepfel : Fix bug [redmine issue 23159](https://cdcvs.fnal.gov/redmine/issues/23159): switch from Event::get to Event::getByLabel.
 -   2019-08-23 Kyle Knoepfel : Improve const correctness.
 -   2019-08-22 Kyle Knoepfel : Remove unnecessary constructors/destructors.
 -   2019-08-22 Kyle Knoepfel : Remove unnecessary virtual tables.

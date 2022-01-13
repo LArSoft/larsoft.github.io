@@ -30,7 +30,7 @@ Download instructions for [just larsoftobj v1_11_00_01](http://scisoft.fnal.gov/
 Purpose
 --------------------
 
--   MicroBooNE production release ([\#17369](/redmine/issues/17369 "Support: Larsoft patch release v06_26_01_04 (Closed)"))
+-   MicroBooNE production release ([redmine issue 17369](https://cdcvs.fnal.gov/redmine/issues/17369))
 
 New features
 ------------------------------

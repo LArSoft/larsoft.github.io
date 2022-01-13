@@ -40,7 +40,7 @@ Purpose
 New features
 ------------------------------
 
--   `feature/gp_Issue18943` of `larcoreobj`, solution to issue [\#18943](/redmine/issues/18943 "Bug: Problem with sumdata::RunData aggregation (Closed)")
+-   `feature/gp_Issue18943` of `larcoreobj`, solution to issue [redmine issue 18943](https://cdcvs.fnal.gov/redmine/issues/18943)
     -   This resolves the ProductCannotBeAggregated issue.
 -   feature/larpandoracontent_v03_10_00
     -   larpandoracontent, larpandora
@@ -49,7 +49,7 @@ New features
 Bug fixes
 ------------------------
 
--   changes in lardata for [\#18979](/redmine/issues/18979 "Feature: Retrieve art::InputTag by art::ProductID (Closed)") and [\#18980](/redmine/issues/18980 "Feature: Failure of FindManyInChainP when the associated products haven't been read yet (Accepted)")
+-   changes in lardata for [redmine issue 18979](https://cdcvs.fnal.gov/redmine/issues/18979) and [redmine issue 18980](https://cdcvs.fnal.gov/redmine/issues/18980 "Feature: Failure of FindManyInChainP when the associated products haven't been read yet (Accepted)")
 
 Updated dependencies
 ----------------------------------------------
@@ -125,7 +125,7 @@ lardata v06_39_02
 
 -   2018-02-13 Lynn Garren : lardata v06_39_02 for larsoft v06_68_00
 -   2018-02-13 Gianluca Petrillo : New implementation of input tag from product ID.
--   2018-02-12 Gianluca Petrillo : Workaround to issue [\#18979](/redmine/issues/18979 "Feature: Retrieve art::InputTag by art::ProductID (Closed)") in FindManyInChainP.
+-   2018-02-12 Gianluca Petrillo : Workaround to issue [redmine issue 18979](https://cdcvs.fnal.gov/redmine/issues/18979) in FindManyInChainP.
 -   2018-02-08 Gianluca Petrillo : testAssnsChainUtils fixed and reenabled.
 
 larcore v06_17_01

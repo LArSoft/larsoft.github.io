@@ -38,7 +38,7 @@ New features
 Bug fixes
 ------------------------
 
--   A problem with the event display was traced to rootcint. Using the latest cetbuildtools resolves the problem. See [\#12395](/redmine/issues/12395 "Bug: cet_rootcint needs updating for root 6 (Closed)")
+-   A problem with the event display was traced to rootcint. Using the latest cetbuildtools resolves the problem. See [redmine issue 12395](https://cdcvs.fnal.gov/redmine/issues/12395)
 -   Fix nutools bug to allow DIS weighting to happen
 
 Updated dependencies

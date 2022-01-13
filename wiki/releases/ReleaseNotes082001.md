@@ -49,7 +49,7 @@ New features
 Bug fixes
 ------------------------
 
--   fix for [\#22596](/redmine/issues/22596 "Bug: Cannot convert recob::Vertex (Closed)")
+-   fix for [redmine issue 22596](https://cdcvs.fnal.gov/redmine/issues/22596)
 
 Updated dependencies
 ----------------------------------------------

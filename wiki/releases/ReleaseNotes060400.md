@@ -37,7 +37,7 @@ Purpose
 New features
 ------------------------------
 
--   art v2_03_00 has improved handling of fastcloning [\#13275](/redmine/issues/13275 "Feature: Disabling fast cloning on data products with updated checksum (Closed)")
+-   art v2_03_00 has improved handling of fastcloning [redmine issue 13275](https://cdcvs.fnal.gov/redmine/issues/13275)
 -   larsim feature/gardiner_MARLEYmodule
     -   uses new marley ups product
 -   larreco feature/rnd_PmaModuleSplit
@@ -50,8 +50,8 @@ Bug fixes
 ------------------------
 
 -   art v2_03_00
-    -   bug fix for [\#13564](/redmine/issues/13564 "Bug: Assertion failure on maybeInvalidateRangeSet(): Assertion `!principalRS.ranges().empty()' failed. (Closed)") (reported by LArIAT)
-    -   bug fix [\#13446](/redmine/issues/13446 "Bug: service libraries now need a link to the root core library (Closed)")
+    -   bug fix for [redmine issue 13564](https://cdcvs.fnal.gov/redmine/issues/13564) (reported by LArIAT)
+    -   bug fix [redmine issue 13446](https://cdcvs.fnal.gov/redmine/issues/13446)
 
 Updated dependencies
 ----------------------------------------------
@@ -76,7 +76,7 @@ larsoft v06_04_00
 -   2016-08-18 Lynn Garren : update product versions
 -   2016-08-17 Lynn Garren : add marley to the distribution
 -   2016-08-17 Lynn Garren : s39
--   2016-08-16 Gianluca Petrillo : Do-it-yourself part of resolution of issue [\#8104](/redmine/issues/8104 "Support: Fix the services.user directive in art FHiCL configuration files (Closed)")
+-   2016-08-16 Gianluca Petrillo : Do-it-yourself part of resolution of issue [redmine issue 8104](https://cdcvs.fnal.gov/redmine/issues/8104)
 -   2016-08-12 Gianluca Petrillo : Merging LArSoft v06_03_00.
 -   2016-08-11 Lynn Garren : qt and geant4
 -   2016-08-10 Gianluca Petrillo : Added script RemoveUserFromServiceConfig.py to remove the “user” layer from art service configuration in FHiCL.
@@ -85,7 +85,7 @@ lareventdisplay v06_01_00
 ----------------------------------------------------------
 
 -   2016-08-18 Lynn Garren : lareventdisplay v06_01_00 for larsoft v06_04_00
--   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
+-   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [redmine issue 13513](https://cdcvs.fnal.gov/redmine/issues/13513))
 
 larexamples v06_00_04
 --------------------------------------------------
@@ -170,13 +170,13 @@ larsim v06_03_00
 -   2016-07-25 Steven Gardiner : Add a TTree of MARLEY events to the “hist” ROOT file produced by the MARLEYGen module. These may be matched to art::Event objects in the “gen” ROOT file by comparing the run, subrun, and event numbers included as other branches in the tree.
 -   2016-07-24 Steven Gardiner : Enable high-precision neutron physics (“NeutronHP” in the FHiCL file custom physics list) so that neutrino-induced neutrons from MARLEY will be tracked more accurately.
 -   2016-07-03 Steven Gardiner : Add module that provides an interface to the MARLEY (Model of Argon Reaction Low Energy Yields) event generator for tens-of-MeV neutrinos in liquid argon. For more information, see [http://marleygen.org](http://marleygen.org).
--   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
+-   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [redmine issue 13513](https://cdcvs.fnal.gov/redmine/issues/13513))
 
 larevt v06_01_00
 ----------------------------------------
 
 -   2016-08-18 Lynn Garren : larevt v06_01_00 for larsoft v06_04_00
--   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
+-   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [redmine issue 13513](https://cdcvs.fnal.gov/redmine/issues/13513))
 
 lardata v06_03_00
 ------------------------------------------
@@ -184,7 +184,7 @@ lardata v06_03_00
 -   2016-08-18 Lynn Garren : lardata v06_03_00 for larsoft v06_04_00
 -   2016-08-18 Lynn Garren : finally remove files now in lardataobj
 -   2016-08-16 Gianluca Petrillo : Adding configuration for resource tracking services
--   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [\#13513](/redmine/issues/13513 "Bug: Broken FHiCL configuration (was: Bo configuration broken) (Closed)"))
+-   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue [redmine issue 13513](https://cdcvs.fnal.gov/redmine/issues/13513))
 
 larcore v06_02_00
 ------------------------------------------

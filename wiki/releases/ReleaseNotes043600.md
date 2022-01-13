@@ -51,7 +51,7 @@ Breaking Changes
 Bug fixes
 ------------------------
 
--   lardata [\#11628](/redmine/issues/11628 "Bug: Pedestal passed by mutable reference in raw.cxx  (Resolved)")
+-   lardata [redmine issue 11628](https://cdcvs.fnal.gov/redmine/issues/11628)
 
 Updated dependencies
 ----------------------------------------------

@@ -63,7 +63,7 @@ New features
     -   added option to bypass ifdh copying of corsika shower db files and use a direct file path instead
     -   I’ve added an option to use a direct file path for a corsika database file instead of copying using ifdh, analogous to option in genie. I have been using this approach on Theta (ALCF) to a). minimise the copying required at large scale and b). to allow ifdh to be avoided, due to frequent unexplained segfaults when copying files with ifdh on Theta’s filesystem (possibly a memory issue? the seg faults occur while copying db files or flux files, but sporadically and not always at the same point in the code).
     -   This is controlled by a new fhicl parameter, fShowerCopyType, which can either be “IFDH” (default) or “DIRECT”. As default the standard IFDH copying is used, so unless this parameter is set this change should be invisible.
--   nusimdata v1_21_03 for [\#25114](/redmine/issues/25114 "Feature: Merge of 2 branches into Nusimdata (Closed)")
+-   nusimdata v1_21_03 for [redmine issue 25114](https://cdcvs.fnal.gov/redmine/issues/25114)
     -   The processes ‘CoulombScat’ and ‘nCapture’ have been added to the list of allowed processes in MCTrajectory. The default margin of 0.1 comes from what’s in MCTrajectory by default (which is 0.1).
     -   This will have an effect on some Geant4 reweighting machinery which is under development.
 

@@ -41,7 +41,7 @@ New features
 Bug fixes
 ------------------------
 
--   [\#15131](/redmine/issues/15131 "Bug: LArG4: diffusion causes errors in SpaceCharge computation (Closed)") resolved with commits to larsim
+-   [redmine issue 15131](https://cdcvs.fnal.gov/redmine/issues/15131) resolved with commits to larsim
 
 Updated dependencies
 ----------------------------------------------

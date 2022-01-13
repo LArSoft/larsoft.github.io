@@ -37,7 +37,7 @@ New features
 -   lardata feature/warburton_ExternalTrigger
 -   larsim feature/mibass_GenInTimeFilter
 -   larsim feature/wketchum_ParticleTimeFilter
--   larsim feature/mibass_GenInTimeFilter (see [\#11512](/redmine/issues/11512 "Feature: Include mibass_GenInTimeFilter in next larsim release (Closed)"))
+-   larsim feature/mibass_GenInTimeFilter (see [redmine issue 11512](https://cdcvs.fnal.gov/redmine/issues/11512))
 -   larreco feature/rsulej_PmaVertexingWork
 
 Bug fixes

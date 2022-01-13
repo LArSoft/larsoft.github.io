@@ -46,8 +46,8 @@ Bug fixes
 ------------------------
 
 -   art v3_02_05 resolves two problems reported against art v3_02_04
-    -   Bug [\#22371](/redmine/issues/22371 "Bug: TimeTracker summary wrong when only one event in the job (Closed)"): The TimeTracker summary now reports the correct number of events processed in the art job.
-    -   Bug [\#22407](/redmine/issues/22407 "Bug: art 3.02.04 constructs modules that are not included in paths (Closed)"): Modules that are not enabled for event-processing will not be constructed.
+    -   Bug [redmine issue 22371](https://cdcvs.fnal.gov/redmine/issues/22371): The TimeTracker summary now reports the correct number of events processed in the art job.
+    -   Bug [redmine issue 22407](https://cdcvs.fnal.gov/redmine/issues/22407): Modules that are not enabled for event-processing will not be constructed.
 
 Updated dependencies
 ----------------------------------------------

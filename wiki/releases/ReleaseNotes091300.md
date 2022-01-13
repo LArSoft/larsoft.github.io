@@ -125,7 +125,7 @@ larsim v09_07_05
 ----------------------------------------
 
 -   2021-01-14 Lynn Garren : larsim v09_07_05 for larsoft v09_13_00
--   2021-01-13 Lynn Garren : Merge pull request [\#58](/redmine/issues/58 "Feature: Try to make the program write out data files even when SIGINT is sent. (Closed)") from tomjunk/develop
+-   2021-01-13 Lynn Garren : Merge pull request [redmine issue 58](https://cdcvs.fnal.gov/redmine/issues/58) from tomjunk/develop
 -   2021-01-08 Tom Junk : Merge branch ‘develop’ of [https://github.com/larsoft/larsim](https://github.com/larsoft/larsim) into develop
 -   2021-01-08 Tom Junk : Follow Kyle’s suggestion and use a common utility function
 -   2020-12-23 Tom Junk : Add checks for large SCE shifts as a signal to drop charge

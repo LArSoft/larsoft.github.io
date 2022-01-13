@@ -115,7 +115,7 @@ larreco v06_45_00
 -   2017-11-08 Lynn Garren : larreco v06_45_00 for larsoft v06_56_00
 -   2017-11-07 Lynn Garren : Merge branch ‘feature/greenlee_merge_mcc83’ into release/v06_56_00
 -   2017-11-07 Lynn Garren : remove the comma
--   2017-11-07 Lynn Garren : temporary hack for bug [\#17960](/redmine/issues/17960 "Bug: problem with the debug build of larreco on SLF6 (Assigned)")
+-   2017-11-07 Lynn Garren : temporary hack for bug [redmine issue 17960](https://cdcvs.fnal.gov/redmine/issues/17960)
 -   2017-11-03 Gianluca Petrillo : Added link library for compatibility with SLF6.
 -   2017-11-03 baller : Merge branch ‘feature/bb_TJWork’ into develop
 -   2017-11-03 baller : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop

@@ -46,7 +46,7 @@ New features
 Bug fixes
 ------------------------
 
--   [\#17280](/redmine/issues/17280 "Bug: PMA crashes on argoneut event (Closed)") fixed
+-   [redmine issue 17280](https://cdcvs.fnal.gov/redmine/issues/17280) fixed
 
 Updated dependencies
 ----------------------------------------------

@@ -59,7 +59,7 @@ Updated dependencies
 -   eigen v3_3_5
     -   wirecell v0_12_4e
 -   ifdhc v2_5_2
-    -   fixes [\#23691](/redmine/issues/23691 "Bug: findMatchingFiles splits paths with xroot: or root: url's wrong. (Closed)")
+    -   fixes [redmine issue 23691](https://cdcvs.fnal.gov/redmine/issues/23691)
     -   ifdh_art v2_09_03
     -   nugen v1_07_02
     -   nusystematics v00_07_01

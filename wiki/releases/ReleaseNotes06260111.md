@@ -32,7 +32,7 @@ Purpose
 --------------------
 
 -   for MicroBooNE mcc8 production
--   [\#19561](/redmine/issues/19561 "Support: Request patch release larsoft v06_26_01_11 (Closed)")
+-   [redmine issue 19561](https://cdcvs.fnal.gov/redmine/issues/19561)
 
 New features
 ------------------------------

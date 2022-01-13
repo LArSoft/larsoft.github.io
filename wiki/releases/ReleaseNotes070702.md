@@ -48,7 +48,7 @@ New features
 Bug fixes
 ------------------------
 
--   bug fix for [\#19386](/redmine/issues/19386 "Bug: raw::OpDetPulse does not have accessors to its waveform (Closed)")
+-   bug fix for [redmine issue 19386](https://cdcvs.fnal.gov/redmine/issues/19386)
     -   merged to develop
 -   wirecell 0.9.2
     -   changes in larwirecell develop
@@ -107,7 +107,7 @@ larreco v07_05_00
 -   2018-10-17 Lynn Garren : larreco v07_05_00 for larsoft v07_07_02
 -   2018-10-16 Lynn Garren : add missing override
 -   2018-10-16 Lynn Garren : Merge branch ‘feature/rsf_tcshowerPFP’ into release/v07_07_02
--   2018-10-16 Kyle Knoepfel : Revert "Fix bug [\#21041](/redmine/issues/21041 "Bug: Segfault in BlurredClusteringAlg (larreco) (Closed)"): Illegal memory accessing in BlurredClusterAlg."
+-   2018-10-16 Kyle Knoepfel : Revert "Fix bug [redmine issue 21041](https://cdcvs.fnal.gov/redmine/issues/21041): Illegal memory accessing in BlurredClusterAlg."
 -   2018-10-16 Rory Fitzpatrick : minor updates
 -   2018-10-16 Rory Fitzpatrick : avoid redudant hit checking
 -   2018-10-16 Rory Fitzpatrick : Merge remote-tracking branch ‘origin/feature/tjyang_db3d’ into feature/rsf_tcshowerPFP
@@ -117,7 +117,7 @@ larreco v07_05_00
 -   2018-10-15 Rory Fitzpatrick : Merge remote-tracking branch ‘origin/feature/tjyang_db3d’ into feature/rsf_tcshowerPFP
 -   2018-10-14 Tingjun Yang : Set max iterations fcl parameteres. Add configuration for uboone.
 -   2018-10-12 Rory Fitzpatrick : optimizing reco thresholds
--   2018-10-11 Kyle Knoepfel : Fix bug [\#21041](/redmine/issues/21041 "Bug: Segfault in BlurredClusteringAlg (larreco) (Closed)"): Illegal memory accessing in BlurredClusterAlg.
+-   2018-10-11 Kyle Knoepfel : Fix bug [redmine issue 21041](https://cdcvs.fnal.gov/redmine/issues/21041): Illegal memory accessing in BlurredClusterAlg.
 -   2018-10-11 Kyle Knoepfel : Fix out-of-bounds dereferencing.
 -   2018-10-12 Rory Fitzpatrick : improved completeness and code cleanup
 -   2018-10-12 Rory Fitzpatrick : Merge remote-tracking branch ‘origin/feature/cerati_tcshowerPFP’ into feature/rsf_tcshowerPFP

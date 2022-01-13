@@ -38,9 +38,9 @@ New features
 ------------------------------
 
 -   art 2.05.00 (s43)
-    -   bug fix for Johnny Ho problem [\#14160](/redmine/issues/14160 "Bug: Ordering of input files to source being sorted in middle of chain (Closed)")
-    -   Herb MixFilter feature request [\#13766](/redmine/issues/13766 "Feature: MixFilter should share EventAuxiliary information from mixed events with detail class. (Closed)")
-    -   artmod is explicitly deprecated [\#13654](/redmine/issues/13654 "Bug: artmod for analyzer prints "art/Utilities/InputTag.h" instead of "canvas/Utilities/InputTag.h" (Closed)")
+    -   bug fix for Johnny Ho problem [redmine issue 14160](https://cdcvs.fnal.gov/redmine/issues/14160)
+    -   Herb MixFilter feature request [redmine issue 13766](https://cdcvs.fnal.gov/redmine/issues/13766)
+    -   artmod is explicitly deprecated [redmine issue 13654](https://cdcvs.fnal.gov/redmine/issues/13654)
     -   deprecated [art features](/redmine/projects/art/wiki/Wiki#Deprecations) have been removed
     -   feature/lg_for_art_v2_05_00 provided for argoneutcode, dunetpc, lariatsoft, and uboonecode
 -   larevt

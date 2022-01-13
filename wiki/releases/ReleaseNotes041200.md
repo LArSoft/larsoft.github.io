@@ -51,7 +51,7 @@ Updated dependencies
 Known Problems
 ----------------------------------
 
--   [\#9108](/redmine/issues/9108 "Bug: Processing multiple files (Closed)")
+-   [redmine issue 9108](https://cdcvs.fnal.gov/redmine/issues/9108)
 
 Change List
 ============================

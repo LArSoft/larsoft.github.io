@@ -33,7 +33,7 @@ New features
 
 -   UniqueRangeSet object in lardata
 -   AuxDetGeo trapezoid implimentation change
--   [\#7532](/redmine/issues/7532 "Feature: Make dump_wires.fcl independent of geometry (Closed)"): make DumpWires module independent of geometry
+-   [redmine issue 7532](https://cdcvs.fnal.gov/redmine/issues/7532): make DumpWires module independent of geometry
 
 Bug fixes
 ------------------------
@@ -103,7 +103,7 @@ larevt v03_03_00
 
 -   2015-01-05 Lynn Garren : larevt v03_03_00 for larsoft v03_05_00
 -   2014-12-18 Lynn Garren : larsoft v03_04_06
--   2014-12-17 Gianluca Petrillo : Issue [\#7532](/redmine/issues/7532 "Feature: Make dump_wires.fcl independent of geometry (Closed)"): make DumpWires module independent of geometry
+-   2014-12-17 Gianluca Petrillo : Issue [redmine issue 7532](https://cdcvs.fnal.gov/redmine/issues/7532): make DumpWires module independent of geometry
 
 lardata v03_05_00
 ------------------------------------------

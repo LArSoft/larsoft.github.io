@@ -45,7 +45,7 @@ Purpose
 New features
 ------------------------------
 
--   larg4 PR 19 for [\#25279](/redmine/issues/25279 "Bug: LArG4: Sparsifying sometimes cuts out 2nd to last trajectory point (Closed)")
+-   larg4 PR 19 for [redmine issue 25279](https://cdcvs.fnal.gov/redmine/issues/25279)
     -   This includes changes to keep the second to last point during sparsification.
     -   An updated nusimdata was also required
 -   larg4 PR 18
@@ -59,7 +59,7 @@ Bug fixes
 Updated dependencies
 ----------------------------------------------
 
-nusimdata v1_21_05 for [\#25279](/redmine/issues/25279 "Bug: LArG4: Sparsifying sometimes cuts out 2nd to last trajectory point (Closed)")
+nusimdata v1_21_05 for [redmine issue 25279](https://cdcvs.fnal.gov/redmine/issues/25279)
 nuevdb v1_02_09
 nug4 v1_05_04
 nugen v1_10_12
@@ -176,7 +176,7 @@ webevd v09_01_00
 ----------------------------------------
 
 -   2020-12-16 Lynn Garren : webevd v09_01_00 for larsoft v09_11_00
--   2020-12-16 Lynn Garren : Merge pull request [\#17](/redmine/issues/17 "Support: Email setup (Closed)") from LArSoft/feature/yview_support
+-   2020-12-16 Lynn Garren : Merge pull request [redmine issue 17](https://cdcvs.fnal.gov/redmine/issues/17) from LArSoft/feature/yview_support
 -   2020-12-16 Christopher Backhouse : Add a fcl that selects the correct services for VD simulation.
 -   2020-12-16 Christopher Backhouse : Support detectors with Z/Y views rather than Z/U/V. Tested on a vertical drift file, but probably would help with ProtoDUNE-DP too.
 

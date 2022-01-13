@@ -159,7 +159,7 @@ larpandoracontent v03_20_00
 -   2020-09-29 Lynn Garren : larpandoracontent v03_20_00 for larsoft v09_05_00
 -   2020-09-29 Andrew Chappell : Read list names for training mode conditionally
 -   2020-09-25 Andrew Chappell : Fix whitespace and tabulation
--   2020-09-25 AndyChappell : Merge pull request [\#138](/redmine/issues/138 "Bug: LHAPDF config fails with setup_nova_fnal.csh (Closed)") from MoteyMousam/feature/BdtPfoCharacterisation_rebase
+-   2020-09-25 AndyChappell : Merge pull request [redmine issue 138](https://cdcvs.fnal.gov/redmine/issues/138) from MoteyMousam/feature/BdtPfoCharacterisation_rebase
 -   2020-09-23 Mousam Rai : updated CMakeLists to v03_20_00 and added comments to ChangeLog
 -   2020-09-23 Mousam Rai : removed ROOT dependencies
 -   2020-09-23 Mousam Rai : minor changes to BDT variables to make it compatible with ProtoDUNE

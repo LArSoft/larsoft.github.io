@@ -92,7 +92,7 @@ larreco v06_54_01
 
 -   2018-02-06 Lynn Garren : larreco v06_54_01 for larsoft v06_67_01
 -   2018-02-06 Usher, Tracy L : Revert handling of long pulse trains to previous method of breaking into n pulses of at least m ticks width (controlled by fhicl).
--   2018-02-02 Lynn Garren : see [\#18868](/redmine/issues/18868 "Bug: new warning from gcc 6.4.0 in larreco TrackFinder (Resolved)")
+-   2018-02-02 Lynn Garren : see [redmine issue 18868](https://cdcvs.fnal.gov/redmine/issues/18868)
 -   2018-02-02 Lynn Garren : larsoft v06_67_00
 -   2018-02-01 Gianluca Petrillo : Remove unused variable.
 

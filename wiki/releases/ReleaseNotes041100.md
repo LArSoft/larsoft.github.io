@@ -29,7 +29,7 @@ Purpose
 --------------------
 
 -   Build with [art v1_14_02](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11402)
--   See [\#8898](/redmine/issues/8898 "Support: art v1_14_02 (Closed)")
+-   See [redmine issue 8898](https://cdcvs.fnal.gov/redmine/issues/8898)
 
 New features
 ------------------------------
@@ -46,7 +46,7 @@ Bug fixes
 Known Problems
 ----------------------------------
 
--   See [\#9108](/redmine/issues/9108 "Bug: Processing multiple files (Closed)")
+-   See [redmine issue 9108](https://cdcvs.fnal.gov/redmine/issues/9108)
 -   If you see undefined reference errors similar to those shown below, add \${Boost_SYSTEM_LIBRARY} to the library link list
 
         CMakeFiles/LArPandoraInterface.dir/LArPandoraBase.cxx.o: In function `__static_initialization_and_destruction_0':

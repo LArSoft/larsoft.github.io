@@ -53,7 +53,7 @@ Updated dependencies
 |Product|Version|Qualifiers|Notes|
 |nutools|v2_14_01|e14|[NuTools_Release_Notes](/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_14_01)|
 |ifdhc|v2_0_8|e14||
-|ifdh_art|v2_02_00|e14:nu:s50|fix for [\#16804](/redmine/issues/16804 "Bug: Typo in art_sam_wrap.sh (Closed)")|
+|ifdh_art|v2_02_00|e14:nu:s50|fix for [redmine issue 16804](https://cdcvs.fnal.gov/redmine/issues/16804)|
 
 Change List
 ============================

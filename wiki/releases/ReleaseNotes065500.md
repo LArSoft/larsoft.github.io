@@ -43,10 +43,10 @@ New features
 Bug fixes
 ------------------------
 
--   [\#17898](/redmine/issues/17898 "Bug: Cannot get hit-track association in file produced with v06_26_01_07 using develop branch (Closed)") resolved with art 2.08.04
+-   [redmine issue 17898](https://cdcvs.fnal.gov/redmine/issues/17898) resolved with art 2.08.04
     -   see [Kyle’s presentation](https://indico.fnal.gov/event/15586/contribution/4/material/slides/0.pdf)
--   [\#17926](/redmine/issues/17926 "Necessary Maintenance: Implement a better name for the track proxy accessor to the unfitted trajectory. (Closed)")
--   [\#18002](/redmine/issues/18002 "Necessary Maintenance: Missing override directives in detinfo::LArPropertiesStandard (Closed)")
+-   [redmine issue 17926](https://cdcvs.fnal.gov/redmine/issues/17926)
+-   [redmine issue 18002](https://cdcvs.fnal.gov/redmine/issues/18002)
 
 Updated dependencies
 ----------------------------------------------

@@ -27,14 +27,14 @@ LArSoft v04_28_00 Release Notes
 Purpose
 --------------------
 
--   build with art v1_17_02 to resolve [\#10614](/redmine/issues/10614 "Bug: larsoft v04_27_00 with art v1_16_02 cannot read old MC/data files (Closed)")
+-   build with art v1_17_02 to resolve [redmine issue 10614](https://cdcvs.fnal.gov/redmine/issues/10614)
 -   With the exception of the 3 files listed below, the code is the same as in v04_27_01.
 
 New features
 ------------------------------
 
 -   art v1_17_02 [Release Notes](/redmine/projects/art/wiki/Release_Notes_11702)
-    -   [ Breaking change ] Verification that products are put on the event: Per experiment request, it is now an error by default to fail to put a product on an event if a product has been declared in the module constructor using `produces<MyProduct>("optionalInstanceName")`. Failure to “put a product” may indicate a design flaw, which can cause difficulties in downstream `art` processes. For cases where conditional product-putting is required, the old behavior can be restored via FHiCL configuration. Resolves feature [\#7852](/redmine/issues/7852 "Feature: A module failing to put() a product it produces() should be an error (Closed)") (see posting for details).
+    -   [ Breaking change ] Verification that products are put on the event: Per experiment request, it is now an error by default to fail to put a product on an event if a product has been declared in the module constructor using `produces<MyProduct>("optionalInstanceName")`. Failure to “put a product” may indicate a design flaw, which can cause difficulties in downstream `art` processes. For cases where conditional product-putting is required, the old behavior can be restored via FHiCL configuration. Resolves feature [redmine issue 7852](https://cdcvs.fnal.gov/redmine/issues/7852) (see posting for details).
 -   minor changes were required in 3 files to accommodate the new logic
     -   lardata/Utilities/TimeService_service.cc
     -   larreco/TrackFinder/CCTrackMaker_module.cc
@@ -43,14 +43,14 @@ New features
 Bug fixes
 ------------------------
 
--   [\#10614](/redmine/issues/10614 "Bug: larsoft v04_27_00 with art v1_16_02 cannot read old MC/data files (Closed)")
+-   [redmine issue 10614](https://cdcvs.fnal.gov/redmine/issues/10614)
 
 Updated dependencies
 ----------------------------------------------
 
 ||
 |Product|Version|Qualifiers|Notes|
-|art|v1_17_02|e9:nu|resolve [\#10614](/redmine/issues/10614 "Bug: larsoft v04_27_00 with art v1_16_02 cannot read old MC/data files (Closed)")|
+|art|v1_17_02|e9:nu|resolve [redmine issue 10614](https://cdcvs.fnal.gov/redmine/issues/10614)|
 |artdaq_core|v1_04_20|e9:nu:s20||
 |ifdh_art|v1_13_03|e9:nu:s20||
 |nutools|v1_16_00|e9[:noifdh]||
