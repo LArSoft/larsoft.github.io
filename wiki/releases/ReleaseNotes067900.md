@@ -1,33 +1,6 @@
 LArSoft v06_79_00 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v06_79_00 Release Notes](#LArSoft-v06_79_00-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v06_79_00](#larsoft-v06_79_00)
-    -   [lareventdisplay v06_19_08](#lareventdisplay-v06_19_08)
-    -   [larexamples v06_13_07](#larexamples-v06_13_07)
-    -   [larpandora v06_27_02](#larpandora-v06_27_02)
-    -   [larwirecell v06_13_02](#larwirecell-v06_13_02)
-    -   [larana v06_19_08](#larana-v06_19_08)
-    -   [larreco v06_60_05](#larreco-v06_60_05)
-    -   [larsim v06_49_00](#larsim-v06_49_00)
-    -   [larevt v06_20_07](#larevt-v06_20_07)
-    -   [lardata v06_45_01](#lardata-v06_45_01)
-    -   [larcore v06_19_04](#larcore-v06_19_04)
-    -   [larpandoracontent v03_12_00](#larpandoracontent-v03_12_00)
-    -   [larsoftobj v1_46_00](#larsoftobj-v1_46_00)
-    -   [lardataobj v1_32_02](#lardataobj-v1_32_02)
-    -   [lardataalg v1_00_01](#lardataalg-v1_00_01)
-    -   [larcorealg v1_22_00](#larcorealg-v1_22_00)
-    -   [larcoreobj v1_23_00](#larcoreobj-v1_23_00)
-    -   [larbatch v01_40_00](#larbatch-v01_40_00)
-    -   [larutils v1_22_06](#larutils-v1_22_06)
-
 [list of LArSoft releases](LArSoft_release_list)
 Download instructions for [larsoft v06_79_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_79_00/larsoft-v06_79_00.html)
 Download instructions for [just larsoftobj v1_46_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_46_00/larsoftobj-v1_46_00.html)

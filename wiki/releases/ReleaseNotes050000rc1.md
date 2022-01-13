@@ -1,24 +1,6 @@
 LArSoft v05_00_00_rc1 Release Notes
 ===============================================================================
 
--   **Table of contents**
--   [LArSoft v05_00_00_rc1 Release Notes](#LArSoft-v05_00_00_rc1-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Breaking Changes](#Breaking-Changes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v05_00_00_rc1](#larsoft-v05_00_00_rc1)
-    -   [lareventdisplay v05_00_00_rc1](#lareventdisplay-v05_00_00_rc1)
-    -   [larexamples v05_00_00_rc1](#larexamples-v05_00_00_rc1)
-    -   [larpandora v05_00_00_rc1](#larpandora-v05_00_00_rc1)
-    -   [larana v05_00_00_rc1](#larana-v05_00_00_rc1)
-    -   [larreco v05_00_00_rc1](#larreco-v05_00_00_rc1)
-    -   [larsim v05_00_00_rc1](#larsim-v05_00_00_rc1)
-    -   [larevt v05_00_00_rc1](#larevt-v05_00_00_rc1)
-    -   [lardata v05_00_00_rc1](#lardata-v05_00_00_rc1)
-    -   [larcore v05_00_00_rc1](#larcore-v05_00_00_rc1)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_00_00_rc1/larsoft-v05_00_00_rc1.html)
 

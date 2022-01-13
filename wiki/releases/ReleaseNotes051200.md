@@ -1,28 +1,6 @@
 LArSoft v05_12_00 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v05_12_00 Release Notes](#LArSoft-v05_12_00-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Breaking changes](#Breaking-changes)
-        -   [SpaceCharge improvements require new call](#SpaceCharge-improvements-require-new-call)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v05_12_00](#larsoft-v05_12_00)
-    -   [lareventdisplay v05_07_00](#lareventdisplay-v05_07_00)
-    -   [larexamples v05_06_08](#larexamples-v05_06_08)
-    -   [larpandora v05_09_05](#larpandora-v05_09_05)
-    -   [larana v05_09_02](#larana-v05_09_02)
-    -   [larreco v05_12_00](#larreco-v05_12_00)
-    -   [larsim v05_12_00](#larsim-v05_12_00)
-    -   [larevt v05_07_00](#larevt-v05_07_00)
-    -   [lardata v05_08_02](#lardata-v05_08_02)
-    -   [larcore v05_07_03](#larcore-v05_07_03)
-    -   [larbatch v01_22_00](#larbatch-v01_22_00)
-    -   [larutils v1_06_02](#larutils-v1_06_02)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_12_00/larsoft-v05_12_00.html)
 

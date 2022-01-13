@@ -1,17 +1,6 @@
 LArSoft v03_05_01 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v03_05_01 Release Notes](#LArSoft-v03_05_01-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v03_05_01](#larsoft-v03_05_01)
-    -   [larana v03_03_08](#larana-v03_03_08)
-    -   [larreco v03_04_03](#larreco-v03_04_03)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_05_01/larsoft-v03_05_01.html)
 

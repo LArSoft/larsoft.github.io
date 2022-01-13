@@ -1,33 +1,6 @@
 LArSoft v09_00_00_rc1 Release Notes
 ===============================================================================
 
--   **Table of contents**
--   [LArSoft v09_00_00_rc1 Release Notes](#LArSoft-v09_00_00_rc1-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [Synopsis](#Synopsis)
-    -   [Branch information](#Branch-information)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v09_00_00_rc1](#larsoft-v09_00_00_rc1)
-    -   [lareventdisplay v09_00_00_rc1](#lareventdisplay-v09_00_00_rc1)
-    -   [larexamples v09_00_00_rc1](#larexamples-v09_00_00_rc1)
-    -   [larg4 v09_00_00_rc1](#larg4-v09_00_00_rc1)
-    -   [larpandora v09_00_00_rc1](#larpandora-v09_00_00_rc1)
-    -   [larrecodnn v09_00_00_rc1](#larrecodnn-v09_00_00_rc1)
-    -   [larwirecell v09_00_00_rc1](#larwirecell-v09_00_00_rc1)
-    -   [larana v09_00_00_rc1](#larana-v09_00_00_rc1)
-    -   [larreco v09_00_00_rc1](#larreco-v09_00_00_rc1)
-    -   [larsim v09_00_00_rc1](#larsim-v09_00_00_rc1)
-    -   [larevt v09_00_00_rc1](#larevt-v09_00_00_rc1)
-    -   [lardata v09_00_00_rc1](#lardata-v09_00_00_rc1)
-    -   [larcore v09_00_00_rc1](#larcore-v09_00_00_rc1)
-    -   [larsoftobj v09_00_00_rc1](#larsoftobj-v09_00_00_rc1)
-    -   [lardataobj v09_00_00_rc1](#lardataobj-v09_00_00_rc1)
-    -   [lardataalg v09_00_00_rc1](#lardataalg-v09_00_00_rc1)
-    -   [larcorealg v09_00_00_rc1](#larcorealg-v09_00_00_rc1)
-    -   [larcoreobj v09_00_00_rc1](#larcoreobj-v09_00_00_rc1)
-    -   [webevd v09_00_00_rc1](#webevd-v09_00_00_rc1)
-
 [list of LArSoft releases](LArSoft_release_list)
 Download instructions for [larsoft v09_00_00_rc1](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_00_00_rc1/larsoft-v09_00_00_rc1.html)
 Download instructions for [just larsoftobj v09_00_00_rc1](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_00_00_rc1/larsoftobj-v09_00_00_rc1.html)

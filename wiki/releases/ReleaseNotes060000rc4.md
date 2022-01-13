@@ -1,24 +1,6 @@
 LArSoft v06_00_00_rc4 Release Notes
 ===============================================================================
 
--   **Table of contents**
--   [LArSoft v06_00_00_rc4 Release Notes](#LArSoft-v06_00_00_rc4-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Required changes](#Required-changes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v06_00_00_rc4](#larsoft-v06_00_00_rc4)
-    -   [lareventdisplay v06_00_00_rc4](#lareventdisplay-v06_00_00_rc4)
-    -   [larexamples v06_00_00_rc4](#larexamples-v06_00_00_rc4)
-    -   [larpandora v06_00_00_rc4](#larpandora-v06_00_00_rc4)
-    -   [larana v06_00_00_rc4](#larana-v06_00_00_rc4)
-    -   [larreco v06_00_00_rc4](#larreco-v06_00_00_rc4)
-    -   [larsim v06_00_00_rc4](#larsim-v06_00_00_rc4)
-    -   [larevt v06_00_00_rc4](#larevt-v06_00_00_rc4)
-    -   [lardata v06_00_00_rc4](#lardata-v06_00_00_rc4)
-    -   [larcore v06_00_00_rc4](#larcore-v06_00_00_rc4)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc4/larsoft-v06_00_00_rc4.html)
 

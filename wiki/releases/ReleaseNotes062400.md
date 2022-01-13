@@ -1,31 +1,6 @@
 LArSoft v06_24_00 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v06_24_00 Release Notes](#LArSoft-v06_24_00-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v06_24_00](#larsoft-v06_24_00)
-    -   [lareventdisplay v06_02_12](#lareventdisplay-v06_02_12)
-    -   [larexamples v06_01_13](#larexamples-v06_01_13)
-    -   [larpandora v06_06_01](#larpandora-v06_06_01)
-    -   [larwirecell v06_00_10](#larwirecell-v06_00_10)
-    -   [larana v06_03_16](#larana-v06_03_16)
-    -   [larreco v06_18_01](#larreco-v06_18_01)
-    -   [larsim v06_12_00](#larsim-v06_12_00)
-    -   [larevt v06_07_07](#larevt-v06_07_07)
-    -   [lardata v06_14_02](#lardata-v06_14_02)
-    -   [larcore v06_05_02](#larcore-v06_05_02)
-    -   [larpandoracontent v03_02_00](#larpandoracontent-v03_02_00)
-    -   [larsoftobj v1_10_01](#larsoftobj-v1_10_01)
-    -   [lardataobj v1_10_01](#lardataobj-v1_10_01)
-    -   [larcoreobj v1_06_02](#larcoreobj-v1_06_02)
-    -   [larbatch v01_26_05](#larbatch-v01_26_05)
-    -   [larutils v1_11_00](#larutils-v1_11_00)
-
 [list of LArSoft releases](LArSoft_release_list)
 Download instructions for [larsoft v06_24_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_24_00/larsoft-v06_24_00.html)
 Download instructions for [just larsoftobj v1_10_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_10_01/larsoftobj-v1_10_01.html)

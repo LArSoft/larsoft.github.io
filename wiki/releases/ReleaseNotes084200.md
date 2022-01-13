@@ -1,25 +1,6 @@
 LArSoft v08_42_00 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v08_42_00 Release Notes](#LArSoft-v08_42_00-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v08_42_00](#larsoft-v08_42_00)
-    -   [lareventdisplay v08_12_02](#lareventdisplay-v08_12_02)
-    -   [larexamples v08_06_02](#larexamples-v08_06_02)
-    -   [larg4 v08_12_00](#larg4-v08_12_00)
-    -   [larpandora v08_11_02](#larpandora-v08_11_02)
-    -   [larwirecell v08_12_02](#larwirecell-v08_12_02)
-    -   [larana v08_16_02](#larana-v08_16_02)
-    -   [larreco v08_27_02](#larreco-v08_27_02)
-    -   [larsim v08_19_02](#larsim-v08_19_02)
-    -   [larevt v08_10_02](#larevt-v08_10_02)
-    -   [larpandoracontent v03_15_14](#larpandoracontent-v03_15_14)
-    -   [larbatch v01_52_00](#larbatch-v01_52_00)
-
 [list of LArSoft releases](LArSoft_release_list)
 Download instructions for [larsoft v08_42_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_42_00/larsoft-v08_42_00.html)
 Download instructions for [just larsoftobj v08_26_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_26_01/larsoftobj-v08_26_01.html)

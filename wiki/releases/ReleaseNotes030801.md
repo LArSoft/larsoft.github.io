@@ -1,20 +1,6 @@
 LArSoft v03_08_01 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v03_08_01 Release Notes](#LArSoft-v03_08_01-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v03_08_01](#larsoft-v03_08_01)
-    -   [lareventdisplay v03_04_01](#lareventdisplay-v03_04_01)
-    -   [larana v03_04_01](#larana-v03_04_01)
-    -   [larreco v03_07_01](#larreco-v03_07_01)
-    -   [larbatch v01_04_00](#larbatch-v01_04_00)
-    -   [larutils v1_00_02](#larutils-v1_00_02)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_08_01/larsoft-v03_08_01.html)
 

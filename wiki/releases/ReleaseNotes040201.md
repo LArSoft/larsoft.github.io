@@ -1,18 +1,6 @@
 LArSoft v04_02_01 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v04_02_01 Release Notes](#LArSoft-v04_02_01-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v04_02_01](#larsoft-v04_02_01)
-    -   [larpandora v04_01_01](#larpandora-v04_01_01)
-    -   [larana v04_01_02](#larana-v04_01_02)
-    -   [larreco v04_01_02](#larreco-v04_01_02)
-
 [list of LArSoft releases](LArSoft_release_list)
 
 Purpose

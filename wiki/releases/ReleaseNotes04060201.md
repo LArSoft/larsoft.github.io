@@ -1,16 +1,6 @@
 LArSoft v04_06_02_01 Release Notes
 =============================================================================
 
--   **Table of contents**
--   [LArSoft v04_06_02_01 Release Notes](#LArSoft-v04_06_02_01-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v04_06_02_01](#larsoft-v04_06_02_01)
-    -   [larana v04_06_00_01](#larana-v04_06_00_01)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_06_02_01/larsoft-v04_06_02_01.html)
 

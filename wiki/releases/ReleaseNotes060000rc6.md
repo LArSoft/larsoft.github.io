@@ -1,27 +1,6 @@
 LArSoft v06_00_00_rc6 Release Notes
 ===============================================================================
 
--   **Table of contents**
--   [LArSoft v06_00_00_rc6 Release Notes](#LArSoft-v06_00_00_rc6-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v06_00_00_rc6](#larsoft-v06_00_00_rc6)
-    -   [lareventdisplay v06_00_00_rc6](#lareventdisplay-v06_00_00_rc6)
-    -   [larexamples v06_00_00_rc6](#larexamples-v06_00_00_rc6)
-    -   [larpandora v06_00_00_rc6](#larpandora-v06_00_00_rc6)
-    -   [larana v06_00_00_rc6](#larana-v06_00_00_rc6)
-    -   [larreco v06_00_00_rc6](#larreco-v06_00_00_rc6)
-    -   [larsim v06_00_00_rc6](#larsim-v06_00_00_rc6)
-    -   [larevt v06_00_00_rc6](#larevt-v06_00_00_rc6)
-    -   [lardata v06_00_00_rc6](#lardata-v06_00_00_rc6)
-    -   [larcore v06_00_00_rc6](#larcore-v06_00_00_rc6)
-    -   [larsimobj v06_00_00_rc6](#larsimobj-v06_00_00_rc6)
-    -   [lardataobj v06_00_00_rc6](#lardataobj-v06_00_00_rc6)
-    -   [larcoreobj v06_00_00_rc6](#larcoreobj-v06_00_00_rc6)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc6/larsoft-v06_00_00_rc6.html)
 

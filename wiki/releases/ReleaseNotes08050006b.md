@@ -1,31 +1,6 @@
 LArSoft v08_05_00_06b Release Notes
 ===============================================================================
 
--   **Table of contents**
--   [LArSoft v08_05_00_06b Release Notes](#LArSoft-v08_05_00_06b-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v08_05_00_06b](#larsoft-v08_05_00_06b)
-    -   [lareventdisplay v08_02_00_05b](#lareventdisplay-v08_02_00_05b)
-    -   [larexamples v08_01_00_05b](#larexamples-v08_01_00_05b)
-    -   [larg4 v08_01_00_05b](#larg4-v08_01_00_05b)
-    -   [larpandora v08_03_00_05b](#larpandora-v08_03_00_05b)
-    -   [larwirecell v08_02_00_06b](#larwirecell-v08_02_00_06b)
-    -   [larana v08_01_00_05b](#larana-v08_01_00_05b)
-    -   [larreco v08_04_00_05b](#larreco-v08_04_00_05b)
-    -   [larsim v08_02_00_05b](#larsim-v08_02_00_05b)
-    -   [larevt v08_01_00_05b](#larevt-v08_01_00_05b)
-    -   [lardata v08_02_00_04b](#lardata-v08_02_00_04b)
-    -   [larcore v08_01_00_02](#larcore-v08_01_00_02)
-    -   [larsoftobj v08_03_00_02a](#larsoftobj-v08_03_00_02a)
-    -   [lardataobj v08_01_00_02a](#lardataobj-v08_01_00_02a)
-    -   [lardataalg v08_03_00_02a](#lardataalg-v08_03_00_02a)
-    -   [larcorealg v08_01_00_02](#larcorealg-v08_01_00_02)
-    -   [larcoreobj v08_01_00_02](#larcoreobj-v08_01_00_02)
-
 [list of LArSoft releases](LArSoft_release_list)
 Download instructions for [larsoft v08_05_00_06b](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_05_00_06b/larsoft-v08_05_00_06b.html)
 Download instructions for [just larsoftobj v08_03_00_02a](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_03_00_02a/larsoftobj-v08_03_00_02a.html)

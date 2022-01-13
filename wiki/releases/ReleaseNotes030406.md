@@ -1,23 +1,6 @@
 LArSoft v03_04_06 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v03_04_06 Release Notes](#LArSoft-v03_04_06-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v03_04_06](#larsoft-v03_04_06)
-    -   [lareventdisplay v03_02_09](#lareventdisplay-v03_02_09)
-    -   [larexamples v03_02_09](#larexamples-v03_02_09)
-    -   [larpandora v03_04_02](#larpandora-v03_04_02)
-    -   [larana v03_03_06](#larana-v03_03_06)
-    -   [larreco v03_04_01](#larreco-v03_04_01)
-    -   [larsim v03_03_01](#larsim-v03_03_01)
-    -   [larevt v03_02_09](#larevt-v03_02_09)
-    -   [lardata v03_04_02](#lardata-v03_04_02)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_04_06/larsoft-v03_04_06.html)
 

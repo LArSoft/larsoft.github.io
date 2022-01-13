@@ -1,26 +1,6 @@
 LArSoft v03_07_00 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v03_07_00 Release Notes](#LArSoft-v03_07_00-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v03_07_00](#larsoft-v03_07_00)
-    -   [lareventdisplay v03_03_02](#lareventdisplay-v03_03_02)
-    -   [larexamples v03_02_12](#larexamples-v03_02_12)
-    -   [larpandora v03_06_00](#larpandora-v03_06_00)
-    -   [larana v03_03_10](#larana-v03_03_10)
-    -   [larreco v03_06_00](#larreco-v03_06_00)
-    -   [larsim v03_05_00](#larsim-v03_05_00)
-    -   [larevt v03_04_00](#larevt-v03_04_00)
-    -   [lardata v03_07_00](#lardata-v03_07_00)
-    -   [larcore v03_05_00](#larcore-v03_05_00)
-    -   [larbatch v01_02_00](#larbatch-v01_02_00)
-    -   [larutils v1_00_00](#larutils-v1_00_00)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v03_07_00/larsoft-v03_07_00.html)
 

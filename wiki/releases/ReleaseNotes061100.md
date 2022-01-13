@@ -1,33 +1,6 @@
 LArSoft v06_11_00 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v06_11_00 Release Notes](#LArSoft-v06_11_00-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [Breaking Changes](#Breaking-Changes)
-        -   [Code moving into nutools](#Code-moving-into-nutools)
-        -   [Removal of algorithm code from lardata and deprecating BezierTrack](#Removal-of-algorithm-code-from-lardata-and-deprecating-BezierTrack)
-        -   [Experiment code](#Experiment-code)
-        -   [Updating user code](#Updating-user-code)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v06_11_00](#larsoft-v06_11_00)
-    -   [lareventdisplay v06_01_08](#lareventdisplay-v06_01_08)
-    -   [larexamples v06_00_12](#larexamples-v06_00_12)
-    -   [larpandora v06_01_03](#larpandora-v06_01_03)
-    -   [larana v06_03_00](#larana-v06_03_00)
-    -   [larreco v06_08_00](#larreco-v06_08_00)
-    -   [larsim v06_05_00](#larsim-v06_05_00)
-    -   [larevt v06_03_01](#larevt-v06_03_01)
-    -   [lardata v06_07_00](#lardata-v06_07_00)
-    -   [larcore v06_02_03](#larcore-v06_02_03)
-    -   [larsoftobj v1_07_00](#larsoftobj-v1_07_00)
-    -   [lardataobj v1_07_00](#lardataobj-v1_07_00)
-    -   [larcoreobj v1_05_00](#larcoreobj-v1_05_00)
-    -   [larbatch v01_23_07](#larbatch-v01_23_07)
-    -   [larutils v1_09_01](#larutils-v1_09_01)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_11_00/larsoft-v06_11_00.html)
 

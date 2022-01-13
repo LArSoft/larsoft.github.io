@@ -1,33 +1,6 @@
 LArSoft v07_06_01_01 Release Notes
 =============================================================================
 
--   **Table of contents**
--   [LArSoft v07_06_01_01 Release Notes](#LArSoft-v07_06_01_01-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [Required changes](#Required-changes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v07_06_01_01](#larsoft-v07_06_01_01)
-    -   [lareventdisplay v07_01_05_01](#lareventdisplay-v07_01_05_01)
-    -   [larexamples v07_00_08_01](#larexamples-v07_00_08_01)
-    -   [larg4 v07_01_03_01](#larg4-v07_01_03_01)
-    -   [larpandora v07_01_05_01](#larpandora-v07_01_05_01)
-    -   [larwirecell v07_01_02_01](#larwirecell-v07_01_02_01)
-    -   [larana v07_02_01_01](#larana-v07_02_01_01)
-    -   [larreco v07_04_01_01](#larreco-v07_04_01_01)
-    -   [larsim v07_03_01_01](#larsim-v07_03_01_01)
-    -   [larevt v07_00_08_01](#larevt-v07_00_08_01)
-    -   [lardata v07_00_08_01](#lardata-v07_00_08_01)
-    -   [larcore v07_00_02](#larcore-v07_00_02)
-    -   [larpandoracontent v03_14_01](#larpandoracontent-v03_14_01)
-    -   [larsoftobj v07_03_01_01](#larsoftobj-v07_03_01_01)
-    -   [lardataobj v07_02_03_01](#lardataobj-v07_02_03_01)
-    -   [lardataalg v07_01_01_01](#lardataalg-v07_01_01_01)
-    -   [larcorealg v07_01_01](#larcorealg-v07_01_01)
-    -   [larcoreobj v07_00_01](#larcoreobj-v07_00_01)
-    -   [larbatch v01_45_00](#larbatch-v01_45_00)
-    -   [larutils v1_23_02](#larutils-v1_23_02)
-
 [list of LArSoft releases](LArSoft_release_list)
 Download instructions for [larsoft v07_06_01_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_06_01_01/larsoft-v07_06_01_01.html)
 Download instructions for [just larsoftobj v07_03_01_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_03_01_01/larsoftobj-v07_03_01_01.html)

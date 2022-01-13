@@ -1,26 +1,6 @@
 LArSoft v04_32_01 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v04_32_01 Release Notes](#LArSoft-v04_32_01-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [New features](#New-features)
-    -   [Bug fixes](#Bug-fixes)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v04_32_01](#larsoft-v04_32_01)
-    -   [lareventdisplay v04_13_03](#lareventdisplay-v04_13_03)
-    -   [larexamples v04_06_10](#larexamples-v04_06_10)
-    -   [larpandora v04_09_01](#larpandora-v04_09_01)
-    -   [larana v04_16_08](#larana-v04_16_08)
-    -   [larreco v04_27_01](#larreco-v04_27_01)
-    -   [larsim v04_17_01](#larsim-v04_17_01)
-    -   [larevt v04_14_00](#larevt-v04_14_00)
-    -   [lardata v04_19_04](#lardata-v04_19_04)
-    -   [larcore v04_24_00](#larcore-v04_24_00)
-    -   [larbatch v01_20_02](#larbatch-v01_20_02)
-    -   [larutils v1_04_06](#larutils-v1_04_06)
-
 [list of LArSoft releases](LArSoft_release_list)
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_32_01/larsoft-v04_32_01.html)
 

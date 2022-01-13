@@ -1,31 +1,6 @@
 Breaking Changes
 ======================================
 
--   **Table of contents**
--   [Breaking Changes](#Breaking-Changes)
-    -   [Table of recent changes](#Table-of-recent-changes)
-    -   [Changes for larsoft v06_xx_yy and previous](#Changes-for-larsoft-v06_xx_yy-and-previous)
-    -   [mrb 5](#mrb-5)
-    -   [Refactor EventWeight interface to GENIE v3](#Refactor-EventWeight-interface-to-GENIE-v3)
-    -   [root v6_22_06a typo](#root-v6_22_06a-typo)
-    -   [larrecodnn new directory structure](#larrecodnn-new-directory-structure)
-    -   [Geometry configuration check](#Geometry-configuration-check)
-    -   [larsoft v09_00_00](#larsoft-v09_00_00)
-    -   [Update to nutools v3_05_00 with nuevdb](#Update-to-nutools-v3_05_00-with-nuevdb)
-    -   [Using boost v1_70_0](#Using-boost-v1_70_0)
-    -   [Update to art v3_03_01](#Update-to-art-v3_03_01)
-    -   [Lengthen raw::RawDigit fSamples](#Lengthen-rawRawDigit-fSamples)
-    -   [Removal of Calorimetry hard-coded values](#Removal-of-Calorimetry-hard-coded-values)
-    -   [artdaq_core calls clock_gettime](#artdaq_core-calls-clock_gettime)
-    -   [macOS missing TGX11](#macOS-missing-TGX11)
-    -   [root IO rules](#root-IO-rules)
-    -   [code cleanup](#code-cleanup)
-    -   [genie v3_00_06](#genie-v3_00_06)
-    -   [nutools v3_02_00](#nutools-v3_02_00)
-    -   [nutools v3_00_00](#nutools-v3_00_00)
-    -   [New PhotonVisibilityService features](#New-PhotonVisibilityService-features)
-    -   [Remove deprecated members and methods from recob::Track](#Remove-deprecated-members-and-methods-from-recobTrack)
-
 This is an attempt to track all the “breaking” changes which will require a general maintenance action to have the code back working.
 
 Table of recent changes

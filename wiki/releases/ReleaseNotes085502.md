@@ -1,14 +1,6 @@
 LArSoft v08_55_02 Release Notes
 ======================================================================
 
--   **Table of contents**
--   [LArSoft v08_55_02 Release Notes](#LArSoft-v08_55_02-Release-Notes)
-    -   [Purpose](#Purpose)
-    -   [Updated dependencies](#Updated-dependencies)
--   [Change List](#Change-List)
-    -   [larsoft v08_55_02](#larsoft-v08_55_02)
-    -   [webevd v08_00_06](#webevd-v08_00_06)
-
 [list of LArSoft releases](LArSoft_release_list)
 Download instructions for [larsoft v08_55_02](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_55_02/larsoft-v08_55_02.html)
 Download instructions for [just larsoftobj v08_29_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_01/larsoftobj-v08_29_01.html)
