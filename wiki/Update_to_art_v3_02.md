@@ -1,22 +1,6 @@
 Update to art v3_02
 =============================================
 
--   **Table of contents**
--   [Update to art v3_02](#Update-to-art-v3_02)
-    -   [Migration script](#Migration-script)
-    -   [Products](#Products)
-    -   [Problems encountered](#Problems-encountered)
-        -   [Unrecognized GENIE header](#Unrecognized-GENIE-header)
-        -   [EDProducer no longer has a default constructor](#EDProducer-no-longer-has-a-default-constructor)
-        -   [Missing root library](#Missing-root-library)
-        -   [Undefined reference reference to \`typeinfo for art::TFileService’](#Undefined-reference-reference-to-typeinfo-for-artTFileService)
-        -   [fhicl no longer recognizes boost::any](#fhicl-no-longer-recognizes-boostany)
-        -   [Boost date_time](#Boost-date_time)
-        -   [MixFilter](#MixFilter)
-        -   [CLHEP 2.4](#CLHEP-24)
-        -   [Construction of unused modules](#Construction-of-unused-modules)
-        -   [Using ROOT in the constructors of services and modules](#Using-ROOT-in-the-constructors-of-services-and-modules)
-
 With [art 3.02.00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_302), art has been split into art and art_root_io. This will allow the use of other IO options in the future.
 
 Migration script

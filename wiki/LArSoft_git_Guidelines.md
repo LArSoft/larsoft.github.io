@@ -1,17 +1,6 @@
 LArSoft git Guidelines
 ==================================================
 
--   **Table of contents**
--   [LArSoft git Guidelines](#LArSoft-git-Guidelines)
-    -   [normal development](#normal-development)
-        -   [Create a feature branch](#Create-a-feature-branch)
-        -   [Publishing a feature branch](#Publishing-a-feature-branch)
-        -   [Merging your changes back into the repository](#Merging-your-changes-back-into-the-repository)
-        -   [Deleting a published feature branch](#Deleting-a-published-feature-branch)
-    -   [working with special branches](#working-with-special-branches)
-    -   [Repository Structure](#Repository-Structure)
-    -   [Workflow Background](#Workflow-Background)
-
 normal development
 ------------------------------------------
 

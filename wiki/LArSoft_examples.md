@@ -1,12 +1,6 @@
 LArSoft examples
 ======================================
 
--   **Table of contents**
--   [LArSoft examples](#LArSoft-examples)
-    -   [List of examples](#List-of-examples)
-    -   [Services](#Services)
-    -   [Algorithms and modules](#Algorithms-and-modules)
-
 > Note that a single example is often not enough for your real purpose.
 > We expect users to copy pieces from different examples to make up their solution, and the `README` files try to highlight which are the most serviceable parts to be exported to other code.
 

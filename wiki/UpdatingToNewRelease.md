@@ -1,15 +1,3 @@
--   **Table of contents**
--   [What to do when there is a new release](#What-to-do-when-there-is-a-new-release)
-    -   [Reference Documentation](#Reference-Documentation)
-    -   [Preliminaries](#Preliminaries)
-    -   [Using a new release with your existing source code directory](#Using-a-new-release-with-your-existing-source-code-directory)
-    -   [Getting more information](#Getting-more-information)
--   [Other use cases](#Other-use-cases)
-    -   [You have no checked out code](#You-have-no-checked-out-code)
-    -   [Updating your own package](#Updating-your-own-package)
-    -   [Your experiment repository/feature branch is not ready yet for the latest LArSoft release](#Your-experiment-repositoryfeature-branch-is-not-ready-yet-for-the-latest-LArSoft-release)
--   [If cetpkgsupport was updated](#If-cetpkgsupport-was-updated)
-
 What to do when there is a new release
 ==================================================================================
 

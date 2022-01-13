@@ -1,17 +1,3 @@
--   **Table of contents**
--   [Guidelines on writing (and using) services in LArSoft](#Guidelines-on-writing-and-using-services-in-LArSoft)
-    -   [Models for writing services](#Models-for-writing-services)
-        -   [Service interface with many implementations (e.g., experiment-specific)](#Service-interface-with-many-implementations-eg-experiment-specific)
-        -   [Service factorization model](#Service-factorization-model)
-        -   [Service interface factorization (e.g., experiment-specific, framework-independent service implementations)](#Service-interface-factorization-eg-experiment-specific-framework-independent-service-implementations)
-    -   [Prescriptions for the use of LArSoft services](#Prescriptions-for-the-use-of-LArSoft-services)
-        -   [Naming conventions](#Naming-conventions)
-    -   [Developing a new LArSoft service](#Developing-a-new-LArSoft-service)
-        -   [Lazy provider instantiation](#Lazy-provider-instantiation)
-        -   [Service dependencies](#Service-dependencies)
-            -   [Updating services and service dependencies](#Updating-services-and-service-dependencies)
-        -   [Multi-threading support](#Multi-threading-support)
-
 Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html).
 
 Guidelines on writing (and using) services in LArSoft

@@ -1,23 +1,6 @@
 What Lynn does
 ==================================
 
--   **Table of contents**
--   [What Lynn does](#What-Lynn-does)
-    -   [Build “third party” ups products as needed for art and larsoft](#Build-third-party-ups-products-as-needed-for-art-and-larsoft)
-    -   [Build art releases after they are tagged.](#Build-art-releases-after-they-are-tagged)
-    -   [Update other products to use the appropriate release of art (SciSoft team or experiments, see bullet notes)](#Update-other-products-to-use-the-appropriate-release-of-art-SciSoft-team-or-experiments-see-bullet-notes)
-    -   [Build mu distributions ( mu2e should take this over)](#Build-mu-distributions-mu2e-should-take-this-over)
-    -   [Build nutools releases and the nu or nulite distributions.](#Build-nutools-releases-and-the-nu-or-nulite-distributions)
-    -   [LArSoft release management (SciSoft team plus experiment activity on patch releases)](#LArSoft-release-management-SciSoft-team-plus-experiment-activity-on-patch-releases)
-    -   [support various infrastructure products (SciSoft team)](#support-various-infrastructure-products-SciSoft-team)
-    -   [SciSoft](#SciSoft)
-    -   [LArSoft archives (whoever does the larsoft releases?)](#LArSoft-archives-whoever-does-the-larsoft-releases)
-    -   [spack](#spack)
-    -   [heppdt (mu2e will take this over, Kutschke)](#heppdt-mu2e-will-take-this-over-Kutschke)
-    -   [Mailing lists](#Mailing-lists)
-    -   [CLHEP maintenance and support (someone at CERN)](#CLHEP-maintenance-and-support-someone-at-CERN)
-    -   [system management](#system-management)
-
 Build “third party” ups products as needed for art and larsoft
 --------------------------------------------------------------------------------------------------------------------------------
 

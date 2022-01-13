@@ -1,18 +1,6 @@
 Working with GitHub
 ============================================
 
--   **Table of contents**
--   [Working with GitHub](#Working-with-GitHub)
-    -   [Overview](#Overview)
-    -   [Detailed information, instructions and resources](#Detailed-information-instructions-and-resources)
-        -   [An overview of the pull request testing and approval process](#An-overview-of-the-pull-request-testing-and-approval-process)
-        -   [For LArSoft users and developers: how to check out repositories, requirements and steps to submit changes, move existing code](#For-LArSoft-users-and-developers-how-to-check-out-repositories-requirements-and-steps-to-submit-changes-move-existing-code)
-        -   [For Level 1 and Level 2 managers / approvers: procedures for managing and approving pull requests](#For-Level-1-and-Level-2-managers-approvers-procedures-for-managing-and-approving-pull-requests)
-        -   [For people who maintain the approval workflow](#For-people-who-maintain-the-approval-workflow)
-        -   [For new experiments / projects seeking to customize and use the pull request approval workflow system](#For-new-experiments-projects-seeking-to-customize-and-use-the-pull-request-approval-workflow-system)
-        -   [General references on using GitHub (not LArSoft specific)](#General-references-on-using-GitHub-not-LArSoft-specific)
-    -   [Working notes (mostly archival)](#Working-notes-mostly-archival)
-
 Overview
 ----------------------
 

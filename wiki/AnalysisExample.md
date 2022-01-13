@@ -1,29 +1,3 @@
--   **Table of contents**
--   [Getting started with an analysis task](#Getting-started-with-an-analysis-task)
-    -   -   -   [Assumptions](#Assumptions)
-            -   [Cautions](#Cautions)
-            -   [Alternatives](#Alternatives)
-            -   [Be patient](#Be-patient)
-
-    -   [Set up the LArSoft environment](#Set-up-the-LArSoft-environment)
-    -   [Set up a working directory](#Set-up-a-working-directory)
-    -   [Checkout the AnalysisExample package to your development directory](#Checkout-the-AnalysisExample-package-to-your-development-directory)
-        -   [The larexamples version tag](#The-larexamples-version-tag)
-    -   [Copying and renaming AnalysisExample to \${YourTask}](#Copying-and-renaming-AnalysisExample-to-YourTask)
-        -   [Create a product](#Create-a-product)
-        -   [mrb bookkeeping](#mrb-bookkeeping)
-        -   [Copy AnalysisExample](#Copy-AnalysisExample)
-        -   [Change the name](#Change-the-name)
-        -   [Test compile](#Test-compile)
-        -   [Does it work?](#Does-it-work)
-            -   [Doing a complete generation/simulation/reconstruction test](#Doing-a-complete-generationsimulationreconstruction-test)
-    -   [Other tips](#Other-tips)
-        -   [Quick set-up](#Quick-set-up)
-        -   [Getting information](#Getting-information)
-        -   [Browsing code on the web](#Browsing-code-on-the-web)
-        -   [Browsing code in UNIX](#Browsing-code-in-UNIX)
-    -   [Other links](#Other-links)
-
 Getting started with an analysis task
 ================================================================================
 

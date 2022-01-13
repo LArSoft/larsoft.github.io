@@ -1,20 +1,6 @@
 LArSoft Internals
 ========================================
 
--   **Table of contents**
--   [LArSoft Internals](#LArSoft-Internals)
-    -   [LArSoft code management and distribution](#LArSoft-code-management-and-distribution)
-    -   [Repository cleanup](#Repository-cleanup)
-    -   [who does what](#who-does-what)
-    -   [Pages to update and move](#Pages-to-update-and-move)
-    -   [FNAL Redmine tricks](#FNAL-Redmine-tricks)
-    -   [Ongoing Projects](#Ongoing-Projects)
-    -   [Code cleanup](#Code-cleanup)
-    -   [Completed Projects](#Completed-Projects)
-    -   [LArSoft code analysis](#LArSoft-code-analysis)
-    -   [Profiling tests](#Profiling-tests)
-    -   [Legacy Redmine project sites](#Legacy-Redmine-project-sites)
-
 LArSoft code management and distribution
 --------------------------------------------------------------------------------------
 

@@ -1,14 +1,6 @@
 Update versions
 ====================================
 
--   **Table of contents**
--   [Update versions](#Update-versions)
-    -   [Update versions](#Update-versions-2)
-        -   [Update repository versions](#Update-repository-versions)
-        -   [Check and change versions for the larsoft packages](#Check-and-change-versions-for-the-larsoft-packages)
-        -   [larpandoracontent](#larpandoracontent)
-    -   [Build debug and prof with the new versions](#Build-debug-and-prof-with-the-new-versions)
-
 Update versions
 --------------------------------------
 

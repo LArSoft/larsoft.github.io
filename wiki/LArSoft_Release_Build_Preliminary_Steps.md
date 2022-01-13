@@ -1,21 +1,6 @@
 LArSoft Release Build Preliminary Steps
 ====================================================================================
 
--   **Table of contents**
--   [LArSoft Release Build Preliminary Steps](#LArSoft-Release-Build-Preliminary-Steps)
-    -   [Send announcement](#Send-announcement)
-    -   [Setup the environment](#Setup-the-environment)
-    -   [larreltools](#larreltools)
-    -   [Make a new working directory and checkout the code](#Make-a-new-working-directory-and-checkout-the-code)
-        -   [Directory structure](#Directory-structure)
-    -   [Make sure the head of develop is consistent](#Make-sure-the-head-of-develop-is-consistent)
-    -   [update releaseDB](#update-releaseDB)
-    -   [Using the CI to check feature branches](#Using-the-CI-to-check-feature-branches)
-    -   [Special instructions for experiment code](#Special-instructions-for-experiment-code)
-        -   [dunetpc](#dunetpc)
-        -   [uboonecode](#uboonecode)
-        -   [argoneutcode](#argoneutcode)
-
 Send announcement
 ----------------------------------------
 

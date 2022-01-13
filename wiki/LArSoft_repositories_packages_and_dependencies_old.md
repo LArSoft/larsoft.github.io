@@ -1,21 +1,6 @@
 LArSoft repositories packages and dependencies
 ==================================================================================================
 
--   **Table of contents**
--   [LArSoft repositories packages and dependencies](#LArSoft-repositories-packages-and-dependencies)
-    -   [larcore](#larcore)
-    -   [lardata -\> larcore](#lardata-gt-larcore)
-    -   [larevt -\> lardata -\> larcore](#larevt-gt-lardata-gt-larcore)
-    -   [larsim -\> larevt -\> lardata -\> larcore](#larsim-gt-larevt-gt-lardata-gt-larcore)
-    -   [larreco -\> larsim -\> larevt -\> lardata -\> larcore](#larreco-gt-larsim-gt-larevt-gt-lardata-gt-larcore)
-    -   [larana -\> larreco -\> larsim -\> larevt -\> lardata -\> larcore](#larana-gt-larreco-gt-larsim-gt-larevt-gt-lardata-gt-larcore)
-    -   [larpandora -\> larsim -\> larevt -\> lardata -\> larcore](#larpandora-gt-larsim-gt-larevt-gt-lardata-gt-larcore)
-    -   [lareventdisplay -\> larsim -\> larevt -\> lardata -\> larcore](#lareventdisplay-gt-larsim-gt-larevt-gt-lardata-gt-larcore)
-    -   [larexamples -\> larsim -\> larevt -\> lardata -\> larcore](#larexamples-gt-larsim-gt-larevt-gt-lardata-gt-larcore)
-    -   [lardataalg -\> lardataobj -\> larcorealg -\> larcoreobj -\> canvas](#lardataalg-gt-lardataobj-gt-larcorealg-gt-larcoreobj-gt-canvas)
-    -   [larsoft_data](#larsoft_data)
-    -   [larsoft](#larsoft)
-
 The following is a list of the repositories/ups products that are in core LArSoft. The bullets show the corresponding SoftRelTools “packages” that are in each. The dependencies (approximate) area shown as arrows.
 
 There are three types of repositories:

@@ -1,19 +1,6 @@
 LArSoft License
 ====================================
 
--   **Table of contents**
--   [LArSoft License](#LArSoft-License)
-    -   [Products that larsoft depends on directly](#Products-that-larsoft-depends-on-directly)
-        -   [LArSoft packages](#LArSoft-packages)
-        -   [External packages](#External-packages)
-        -   [Fermilab packages](#Fermilab-packages)
-    -   [Products that nutools depends on directly](#Products-that-nutools-depends-on-directly)
-        -   [External packages](#External-packages-2)
-        -   [Fermilab packages](#Fermilab-packages-2)
-    -   [The art framework](#The-art-framework)
-        -   [Fermilab art framework packages](#Fermilab-art-framework-packages)
-        -   [External packages](#External-packages-3)
-
 LArSoft proposes using the [Apache v2](http://www.apache.org/licenses/LICENSE-2.0) license. This page contains a list of products that larsoft links against.
 
 Products that larsoft depends on directly

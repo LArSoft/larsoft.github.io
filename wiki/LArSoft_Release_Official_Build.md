@@ -1,15 +1,6 @@
 LArSoft Release Official Build
 ==================================================================
 
--   **Table of contents**
--   [LArSoft Release Official Build](#LArSoft-Release-Official-Build)
-    -   [Platforms](#Platforms)
-    -   [Build larsoft from the new tag](#Build-larsoft-from-the-new-tag)
-        -   [run the Jenkins build](#run-the-Jenkins-build)
-        -   [Copy files from Jenkins](#Copy-files-from-Jenkins)
-        -   [Special platforms](#Special-platforms)
-    -   [Make the binary build available on SciSoft](#Make-the-binary-build-available-on-SciSoft)
-
 Platforms
 ------------------------
 

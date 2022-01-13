@@ -1,22 +1,3 @@
--   **Table of contents**
--   [Utilities](#Utilities)
-    -   [FHICFiles](#FHICFiles)
-        -   [messageservice.fcl](#messageservicefcl)
-        -   [services.fcl](#servicesfcl)
-        -   [standard_reco.fcl](#standard_recofcl)
-        -   [eventdump.fcl](#eventdumpfcl)
-    -   [Services](#Services)
-        -   [LArFFT](#LArFFT)
-        -   [LArProperties](#LArProperties)
-        -   [DatabaseUtil](#DatabaseUtil)
-        -   [DetectorProperties](#DetectorProperties)
-        -   [SignalShapingService](#SignalShapingService)
-    -   [Developer tools](#Developer-tools)
-        -   [AssociationUtils](#AssociationUtils)
-        -   [VectorMap](#VectorMap)
-        -   [SumSecondFunction](#SumSecondFunction)
-        -   [LArFFT](#LArFFT-2)
-
 [Note: This page appears to refer to a very old version of LArSoft, back from the days when it was
 all in one repository called larsoftsvn. The links on this page to that repo don’t work,
 and the universal “services.fcl” file doesn’t seem to exist in any directory in the current software.

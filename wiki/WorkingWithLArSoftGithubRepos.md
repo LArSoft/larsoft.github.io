@@ -1,16 +1,6 @@
 Working With LArSoft Github Repositories
 ======================================================================================
 
--   **Table of contents**
--   [Working With LArSoft Github Repositories](#Working-With-LArSoft-Github-Repositories)
-    -   [Where are the primary LArSoft repositories?](#Where-are-the-primary-LArSoft-repositories)
-    -   [How do I join GitHub and configure my personal GitHub account?](#How-do-I-join-GitHub-and-configure-my-personal-GitHub-account)
-    -   [How do I check out LArSoft repositories from GitHub?](#How-do-I-check-out-LArSoft-repositories-from-GitHub)
-    -   [How do I submit changes to the LArSoft GitHub repository?](#How-do-I-submit-changes-to-the-LArSoft-GitHub-repository)
-        -   [What do I do if there is a problem with the pull request?](#What-do-I-do-if-there-is-a-problem-with-the-pull-request)
-    -   [How do I create a merge request for a legacy feature branch that existed prior to the migration to GitHub?](#How-do-I-create-a-merge-request-for-a-legacy-feature-branch-that-existed-prior-to-the-migration-to-GitHub)
-    -   [How do I update an existing fork?](#How-do-I-update-an-existing-fork)
-
 This page is for LArSoft users who need to check out LArSoft repositories from GitHub, and for those who need to commit changes back to LArSoft. The latter requires creation of a pull request from a personal GitHub account.
 
 In the following:

@@ -1,28 +1,6 @@
 Update from art v2 to art v3
 ==============================================================
 
--   **Table of contents**
--   [Update from art v2 to art v3](#Update-from-art-v2-to-art-v3)
-    -   [Header changes](#Header-changes)
-        -   [EngineCreator.h](#EngineCreatorh)
-        -   [ModuleDescription.h](#ModuleDescriptionh)
-        -   [MasterProductRegistry.h](#MasterProductRegistryh)
-    -   [Missing headers](#Missing-headers)
-        -   [invalid use of incomplete type ‘class art::Event’](#invalid-use-of-incomplete-type-class-artEvent)
-    -   [Undefined references](#Undefined-references)
-        -   [undefined reference to art::ModuleDescription::processName](#undefined-reference-to-artModuleDescriptionprocessName)
-        -   [undefined reference to art::input::RootMutexSentry::RootMutexSentry](#undefined-reference-to-artinputRootMutexSentryRootMutexSentry)
-        -   [undefined reference to art::ProductRegistryHelper::insertOrThrow](#undefined-reference-to-artProductRegistryHelperinsertOrThrow)
-        -   [undefined reference to art::input::RootMutexSentry::RootMutexSentry()](#undefined-reference-to-artinputRootMutexSentryRootMutexSentry-2)
-    -   [NuTools update notes](#NuTools-update-notes)
-    -   [using getEngine](#using-getEngine)
-    -   [preProcessEvent](#preProcessEvent)
-    -   [HoughBaseAlg transform interface changes](#HoughBaseAlg-transform-interface-changes)
-    -   [fuzzyClusterAlg::run_fuzzy_cluster](#fuzzyClusterAlgrun_fuzzy_cluster)
-    -   [PtrMaker](#PtrMaker)
-    -   [WeightCalc subclasses](#WeightCalc-subclasses)
-    -   [art dump-config](#art-dump-config)
-
 Use of art [v3_00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_300) involves a number of [breaking changes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/300_breaking_changes).
 Please see Kyle’s presentation on [problems found in the code](https://indico.fnal.gov/event/18618/contribution/5/material/slides/0.pdf).
 

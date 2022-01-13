@@ -1,12 +1,6 @@
 LArSoft release management
 ==========================================================
 
--   **Table of contents**
--   [LArSoft release management](#LArSoft-release-management)
-    -   [Release types](#Release-types)
-    -   [Tagged release](#Tagged-release)
-    -   [Migration Notes](#Migration-Notes)
-
 Release types
 --------------------------------
 

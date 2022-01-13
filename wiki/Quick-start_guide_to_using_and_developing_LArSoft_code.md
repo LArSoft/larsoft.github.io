@@ -1,36 +1,6 @@
 Quick-start guide to using and developing LArSoft code
 ==================================================================================================================
 
--   **Table of contents**
--   [Quick-start guide to using and developing LArSoft code](#Quick-start-guide-to-using-and-developing-LArSoft-code)
-    -   [Before you start](#Before-you-start)
--   [The ultra-quick-start guide:](#The-ultra-quick-start-guide)
-    -   -   [Initial setup of the working environment (starting from a fresh login):](#Initial-setup-of-the-working-environment-starting-from-a-fresh-login)
-        -   [Run non-DUNE or non-uBoonE jobs using only a frozen LArSoft release](#Run-non-DUNE-or-non-uBoonE-jobs-using-only-a-frozen-LArSoft-release)
-    -   [To build experiment-specific code for DUNE or uBooNE against an existing LArSoft release](#To-build-experiment-specific-code-for-DUNE-or-uBooNE-against-an-existing-LArSoft-release)
-        -   [Build uboonecode or dunetpc](#Build-uboonecode-or-dunetpc)
-        -   [Run the software you just built](#Run-the-software-you-just-built)
-    -   [To build and work with larsoft itself](#To-build-and-work-with-larsoft-itself)
-        -   [Create a working area](#Create-a-working-area)
-        -   [Check out, develop and build LArSoft code](#Check-out-develop-and-build-LArSoft-code)
-        -   [Run the software you just built](#Run-the-software-you-just-built-2)
-
--   [Annotated quick-start guide](#Annotated-quick-start-guide)
-    -   [Initial setup](#Initial-setup)
-    -   [Create a working area](#Create-a-working-area-2)
-        -   [Everything (source code, \<localProdDir\>, and build directory) in one directory tree](#Everything-source-code-ltlocalProdDirgt-and-build-directory-in-one-directory-tree)
-    -   [Setup work environment for an existing working area from a fresh login](#Setup-work-environment-for-an-existing-working-area-from-a-fresh-login)
-    -   [Developing a package](#Developing-a-package)
-    -   [Build code in your working area](#Build-code-in-your-working-area)
-    -   [Running with the modifications made in your working area](#Running-with-the-modifications-made-in-your-working-area)
-    -   [Performing a clean build](#Performing-a-clean-build)
-    -   [Removing a package from a work area](#Removing-a-package-from-a-work-area)
-    -   [Creating an entirely new product within an existing work area](#Creating-an-entirely-new-product-within-an-existing-work-area)
--   [Comparison of mrb and SRT commands](#Comparison-of-mrb-and-SRT-commands)
--   [Using prebuilt releases](#Using-prebuilt-releases)
--   [Building the larsoft “suite”](#Building-the-larsoft-suite)
--   [General Information about git and art](#General-Information-about-git-and-art)
-
 LArSoft is not a stand-alone product. It is intended to be used as part of an experiment, so the set-up instructions for the experiment you are working with is the best place to start. To find a specific project, first check the [Quick Links](Quick_Links), then look on your experiment’s pages in redmine for instructions on installing LArSoft software. (Go to: [https://cdcvs.fnal.gov/redmine/projects](https://cdcvs.fnal.gov/redmine/projects) and search for your experiment.)
 
 The following is provided just to provide the general information that can be adapted by each experiment.

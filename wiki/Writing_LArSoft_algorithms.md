@@ -1,14 +1,6 @@
 Guidelines on writing (and using) algorithms in LArSoft
 ==================================================================================================================
 
--   **Table of contents**
--   [Guidelines on writing (and using) algorithms in LArSoft](#Guidelines-on-writing-and-using-algorithms-in-LArSoft)
-    -   -   [Algorithm factorization model](#Algorithm-factorization-model)
-        -   [Developing a new algorithm](#Developing-a-new-algorithm)
-        -   [Service and algorithm dependencies](#Service-and-algorithm-dependencies)
-            -   [Dependencies from external libraries](#Dependencies-from-external-libraries)
-        -   [Multi-threading support](#Multi-threading-support)
-
 An algorithm is a class, with one or more instances managed by user code, that performs a task or part of it. In the context of the *art* framework, an algorithm is used by an *art* module class. The best practice is to make the algorithm itself as independent as possible from the framework and use the module to provide the interface between the two. In other words,
 
 -   **algorithm** class performs some or all the operations required for a task (e.g., “parametrize the shape of a hit”)

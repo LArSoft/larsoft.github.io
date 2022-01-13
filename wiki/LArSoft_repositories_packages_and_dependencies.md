@@ -1,29 +1,6 @@
 LArSoft repositories packages and dependencies
 ==================================================================================================
 
--   **Table of contents**
--   [LArSoft repositories packages and dependencies](#LArSoft-repositories-packages-and-dependencies)
-    -   [larg4](#larg4)
-    -   [larwirecell](#larwirecell)
-    -   [larpandora](#larpandora)
-    -   [larsoft](#larsoft)
-    -   [larana](#larana)
-    -   [larreco](#larreco)
-    -   [larsim](#larsim)
-    -   [larevt](#larevt)
-    -   [lardata](#lardata)
-    -   [larcore](#larcore)
-    -   [larrecodnn](#larrecodnn)
-    -   [larsimdnn](#larsimdnn)
-    -   [larsimrad](#larsimrad)
-    -   [larsoftobj](#larsoftobj)
-    -   [lardataalg](#lardataalg)
-    -   [lardataobj](#lardataobj)
-    -   [larcorealg](#larcorealg)
-    -   [larcoreobj](#larcoreobj)
-    -   [larsoft_data](#larsoft_data)
-    -   [Experiment Code](#Experiment-Code)
-
 There are a number of repositories/ups products that are in core LArSoft.
 
 There are three types of core LArSoft repositories:

@@ -1,13 +1,6 @@
 Only Update Tags for Select Packages
 ==============================================================================
 
--   **Table of contents**
--   [Only Update Tags for Select Packages](#Only-Update-Tags-for-Select-Packages)
-    -   [Prepare a local tag branch](#Prepare-a-local-tag-branch)
-    -   [Edit the code](#Edit-the-code)
-    -   [Build debug and prof with the new version](#Build-debug-and-prof-with-the-new-version)
-    -   [Merge changes with the master branch and tag](#Merge-changes-with-the-master-branch-and-tag)
-
 Prepare a local tag branch
 ----------------------------------------------------------
 

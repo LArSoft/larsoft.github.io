@@ -1,8 +1,3 @@
--   **Table of contents**
--   [VertexFinder](#VertexFinder)
-    -   [HarrisVertexFinder](#HarrisVertexFinder)
-    -   [VertexMatch](#VertexMatch)
-
 VertexFinder
 ==============================
 

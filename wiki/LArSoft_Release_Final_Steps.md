@@ -1,14 +1,6 @@
 LArSoft Release Final Steps
 ============================================================
 
--   **Table of contents**
--   [LArSoft Release Final Steps](#LArSoft-Release-Final-Steps)
-    -   [Make the cross package tag](#Make-the-cross-package-tag)
-    -   [Update the release notes](#Update-the-release-notes)
-    -   [Update doxygen](#Update-doxygen)
-    -   [Merge the changes with develop](#Merge-the-changes-with-develop)
-    -   [Announcing the release](#Announcing-the-release)
-
 Make the cross package tag
 ----------------------------------------------------------
 

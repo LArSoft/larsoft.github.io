@@ -1,13 +1,6 @@
 Updating code to GCC 6
 ==================================================
 
--   **Table of contents**
--   [Updating code to GCC 6](#Updating-code-to-GCC-6)
-    -   [Variable length array (vla)](#Variable-length-array-vla)
-    -   [Indentations](#Indentations)
-    -   [Headers](#Headers)
-    -   [Missing parenthesis](#Missing-parenthesis)
-
 Starting with *art* 2.6, GCC 6 is an available option as compiler.
 UPS packages using it are denoted by the `e14` qualifier (as opposed to `e10` for GCC 4.9.3a).
 

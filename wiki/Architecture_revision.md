@@ -1,39 +1,6 @@
 LArSoft architecture review
 ============================================================
 
--   **Table of contents**
--   [LArSoft architecture review](#LArSoft-architecture-review)
-    -   [Operative summary: modules](#Operative-summary-modules)
-    -   [Operative summary: services](#Operative-summary-services)
-    -   [Operative summary: data products](#Operative-summary-data-products)
-    -   [Interoperability](#Interoperability)
-        -   [Example actions and recommendations](#Example-actions-and-recommendations)
-        -   [Summary](#Summary)
-        -   [ClusterCrawler](#ClusterCrawler)
-            -   [Code analysis](#Code-analysis)
-            -   [Actions](#Actions)
-        -   [TrackKalmanHit](#TrackKalmanHit)
-            -   [Code analysis](#Code-analysis-2)
-            -   [Actions](#Actions-2)
-        -   [ShowerReco3D](#ShowerReco3D)
-            -   [Code analysis](#Code-analysis-3)
-            -   [Actions](#Actions-3)
-        -   [Geometry service](#Geometry-service)
-            -   [APA locator](#APA-locator)
-    -   [Maintainability](#Maintainability)
-        -   [Event display](#Event-display)
-    -   [Factorization](#Factorization)
-        -   [Current guidelines:](#Current-guidelines)
-    -   [Generic interfaces](#Generic-interfaces)
-        -   [Database interface](#Database-interface)
-    -   [Software architecture](#Software-architecture)
-        -   [Thread safety](#Thread-safety)
-    -   [LArSoft modules](#LArSoft-modules)
-        -   [List of modules used in MicroBooNE’s Monte Carlo Challenge 6](#List-of-modules-used-in-MicroBooNEs-Monte-Carlo-Challenge-6)
-        -   [List of modules used in DUNE 35t’s Monte Carlo Challenge 2](#List-of-modules-used-in-DUNE-35ts-Monte-Carlo-Challenge-2)
-        -   [List of candidate modules](#List-of-candidate-modules)
-        -   [List of candidate services](#List-of-candidate-services)
-
 Main points:
 
 -   **interoperability**: code must transparently work regardless the experiment running it

@@ -1,16 +1,6 @@
 LArSoft art-independent code and repositories
 ================================================================================================
 
--   **Table of contents**
--   [LArSoft art-independent code and repositories](#LArSoft-art-independent-code-and-repositories)
-    -   [Background](#Background)
-    -   [Code organization](#Code-organization)
-        -   [Algorithmic code](#Algorithmic-code)
-        -   [Algorithm-framework interface code](#Algorithm-framework-interface-code)
-        -   [LArSoft core code](#LArSoft-core-code)
-    -   [Naming convention](#Naming-convention)
-    -   [References](#References)
-
 Background
 --------------------------
 
