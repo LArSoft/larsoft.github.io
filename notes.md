@@ -6,6 +6,7 @@
 * We need a few site wide navigation links.  Either in the left sidebar from the minimal theme or across the top.  Can be done with css?
 * Will play with themes.  Can only use one at a time.
   * so far, this minimal theme seems to be the only approved (safe) theme that also displays our logo
+  * The other good thing about the minimal theme is the link at the top left to get back to the starting page.
 * Investigation of the [SBN site code](https://github.com/SBNSoftware/SBNSoftware.github.io) is very helpful.  See, for instance, the [navigation header](https://github.com/SBNSoftware/SBNSoftware.github.io/blob/master/_data/navigation.yml)
 * Helpful notes here about overriding theme defaults: https://jekyllrb.com/docs/themes/
 * Breadcrumbs 
@@ -26,16 +27,13 @@ We have not yet looked for other conversion options.
 The html files come with Redmine headers and footers.
 It is possible to download the pages individually by hand,
 but LArSoft has too many pages for this to be useful.
-Instead, we are looking at a script to strip the headers and footers off the files,
-either before or after conversion.
-* The latest work is with a perl script: [convert.pl](https://cdcvs.fnal.gov/redmine/projects/laradmin/repository/revisions/master/entry/gitwiki/convert.pl)
+Instead, we are using a script.
+* There is a controlling script with will run everything, including convert.pl:
+  * [doit.sh](https://cdcvs.fnal.gov/redmine/projects/laradmin/repository/revisions/develop/entry/gitwiki/doit.sh)
+  * doit.sh <new_directory_name>
+* The latest work is with a perl script: [convert.pl](https://cdcvs.fnal.gov/redmine/projects/laradmin/repository/revisions/develop/entry/gitwiki/convert.pl)
   * This script has 3 parts:
     * process the html file from redmine
     * run pandoc
     * process the temporary file produced by pandoc
-* A basic conversion from html to markdown was made using a bash script and pandoc [convert.sh](https://cdcvs.fnal.gov/redmine/projects/laradmin/repository/revisions/master/entry/gitwiki/convert.sh)
-  * This script has deficiencies, such as not removing email addresses.
-*  Copying textile pages does not work.
-  * Among other things, the internal links are not respected.  This is probably because github uses different textile conventions.
-  * Although we can use pandoc to convert from textile to markdown, an excessive amount of editing seems to be required.
 
