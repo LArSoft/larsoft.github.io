@@ -62,7 +62,7 @@ Ongoing Projects
 Code cleanup
 ------------------------------
 
--   [Services and modules scheduled for removal](Services_and_modules_scheduled_for_removal)
+-   [OBSOLETE Services and modules scheduled for removal](OBSOLETE_Services_and_modules_scheduled_for_removal)
 
 Completed Projects
 ------------------------------------------
