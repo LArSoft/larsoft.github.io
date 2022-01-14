@@ -282,7 +282,7 @@ New PhotonVisibilityService features
 **Affects**: user code calling `phot::PhotonVisibilityService`, plus code using some more hidden LArSoft utility for managing voxelized volumes.
 **Failure when not fixed**: Compilation or linking errors.
 **Fix**: Several different cases are possible. Please see the *additional material* slides in [the presentation of the new feature](https://indico.fnal.gov/event/20409/contribution/2/material/slides/0.pdf) at [LArSoft coordination meeting on April 9, 2019](https://indico.fnal.gov/event/20409) .
-**Contact**: [Gianluca Petrillo](mailto:petrillo@slac.stanford.edu)
+**Contact**: Gianluca Petrillo
 
 Remove deprecated members and methods from recob::Track
 ------------------------------------------------------------------------------------------------------------------
