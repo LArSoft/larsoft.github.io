@@ -623,4 +623,4 @@ For completeness, this is the list of services from the framework and external l
 
 * * * * *
 
-For questions, contact [Gianluca Petrillo](mailto:petrillo@fnal.gov) .
+For questions, contact Gianluca Petrillo .

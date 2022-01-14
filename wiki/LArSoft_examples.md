@@ -115,4 +115,4 @@ A guide to find your example:
 
 * * * * *
 
-*For questions or request of new examples, please contact [Gianluca Petrillo](mailto:petrillo@fnal.gov) or any person in the LArSoft project team.*
+*For questions or request of new examples, please contact Gianluca Petrillo or any person in the LArSoft project team.*
