@@ -281,4 +281,4 @@ Event display.
 * * * * *
 
 _Last update: April 3rd, 2016._
-_For questions or requests, please contact [Gianluca Petrillo](mailto:petrillo@fnal.gov "petrillo@fnal.gov") ._
+_For questions or requests, please contact Gianluca Petrillo._

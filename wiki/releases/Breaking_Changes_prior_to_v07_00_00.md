@@ -501,7 +501,7 @@ SpaceCharge interface change
 -   update the user code to pass a [`geo::Point_t`](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a8f50958e1ae782539f468fe82b56e680) as argument instead of its three components; information about that type can be found in the [From ROOT vectors (TVector3) to ROOT GenVector](From_ROOT_vectors_(TVector3)_to_ROOT_GenVector) wiki page
 -   update the code to receive a [`geo::Vector_t`](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#ac78157942b179c6abb41ed24ccb4560a) instead of a `std::vector<double>`; components are accessed with `X()`, `Y()` and `Z()` instead of index operator `[0]`, `[1]` and `[2]`.
 
-If the used code needs to convert back to `std::vector<double>` in order to use the result, please [contact LArSoft](mailto:larsoft@fnal.gov) or [open a request](https://cdcvs.fnal.gov/redmine/projects/larsoft/issues/new) to have that interface extended to also support `geo::Vector_t`.
+If the used code needs to convert back to `std::vector<double>` in order to use the result, please contact LArSoft or [open a request](https://cdcvs.fnal.gov/redmine/projects/larsoft/issues/new) to have that interface extended to also support `geo::Vector_t`.
 
 **Contact**: Gianluca Petrillo
 

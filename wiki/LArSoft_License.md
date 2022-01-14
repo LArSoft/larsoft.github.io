@@ -3,6 +3,8 @@ LArSoft License
 
 LArSoft proposes using the [Apache v2](http://www.apache.org/licenses/LICENSE-2.0) license. This page contains a list of products that larsoft links against.
 
+**THIS PAGE NEEDS UPDATING**
+
 Products that larsoft depends on directly
 ----------------------------------------------------------------------------------------
 
@@ -57,7 +59,7 @@ Products that larsoft depends on directly
 -   “nutools” “v2_24_04”
     -   [https://cdcvs.fnal.gov/redmine/projects/nutools/wiki](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki)
     -   no license
-    -   Brian J. Rebel x8226 14112N , Alexander I. Himmel \<[ahimmel@fnal.gov](mailto:ahimmel@fnal.gov)\>
+    -   Brian J. Rebel, Alexander I. Himmel
 -   “nusimdata” “v1_14_01”
     -   subsidiary of nutools, no license
 
@@ -95,7 +97,7 @@ Products that nutools depends on directly
     -   “ifdh_art” “v2_06_07”
         -   [https://cdcvs.fnal.gov/redmine/projects/ifdh-art/wiki](https://cdcvs.fnal.gov/redmine/projects/ifdh-art/wiki)
         -   [https://cdcvs.fnal.gov/redmine/projects/ifdh-art/repository](https://cdcvs.fnal.gov/redmine/projects/ifdh-art/repository)
-        -   Marc Mengel , SciSoft team \<[scisoft-team@fnal.gov](mailto:scisoft-team@fnal.gov)\>
+        -   Marc Mengel, SciSoft team
     -   “ifbeam” “v2_2_7” ’
         -   [https://cdcvs.fnal.gov/redmine/projects/ifdhc/repository/ifbeam](https://cdcvs.fnal.gov/redmine/projects/ifdhc/repository/ifbeam)
         -   Marc Mengel
