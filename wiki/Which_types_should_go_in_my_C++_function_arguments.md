@@ -40,6 +40,6 @@ Why not:
     2.  if the compiler decided it can’t use RVO, the function return value is a temporary that would trigger moving operations if available anyway
     3.  there might be some chance that returning a R-value reference would confuse the compiler into thinking that RVO doesn’t apply, and we would lose it
 
-If you have questions or comments, [let me know](mailto:petrillo@fnal.gov)!
+If you have questions or comments, “let me know”: Gianluca Petrillo!
 
 <sup>1</sup> Copying a vector means: ask the operating system for a new memory area large enough to fit the data, and copying the data itself. The operating system can take any time to get that memory. It might need to make room for it by moving other data to disk (slooooow!), and even when it does not, it has to find a suitable area and store the necessary information to be able to release it later on.

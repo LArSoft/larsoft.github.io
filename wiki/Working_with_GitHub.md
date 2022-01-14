@@ -66,6 +66,4 @@ Detailed information, instructions and resources
 Working notes (mostly archival)
 ------------------------------------------------------------------
 
--   [Old notes from LynnG](Old_notes_from_LynnG) (old - there is better information above)
-    -   These are working notes that will eventually be integrated with the official pages.
 -   The [GitHub migration plan](GitHub_migration_plan)
