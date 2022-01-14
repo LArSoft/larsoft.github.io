@@ -33,7 +33,7 @@ The common solution is to use a dynamically allocated vector:
     std::vector<int> chargePerPlane(nPlanes, 0);
 
 If this has too big an impact to the performance of your code (which might well be), please discuss
-the issue with [LArSoft](mailto:larsoft@fnal.gov). There are alternative solutions which may be better, or worse.
+the issue with LArSoft. There are alternative solutions which may be better, or worse.
 
 Indentations
 ------------------------------

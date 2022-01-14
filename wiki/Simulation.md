@@ -1,7 +1,7 @@
 Simulation
 ==========================
 
-The maintainer of this package is Brian Rebel ().
+The maintainer of this package is Brian Rebel.
 
 The following picture gives an overview of how the simulation chain in LArSoft works.
 

@@ -52,7 +52,7 @@ The command creates a file with profiling information (`CONFIG-DATE-performance.
 
     igprof-analyse --demangle --gdb --verbose CONFIG-DATE-performance.gz >& CONFIG-DATE-performance-report.txt
 
-<sup>1</sup> At the date of writing (November 2, 2017) a version `v5_9_16b` is available for qualifiers `e10`, `e14` and `e15` on selected servers; ask [Lynn Garren](mailto:garren.fnal.gov) for further deployment.
+<sup>1</sup> At the date of writing (November 2, 2017) a version `v5_9_16b` is available for qualifiers `e10`, `e14` and `e15` on selected servers; ask the SciSoft team for further deployment.
 
 <sup>2</sup> The default action for a process receiving `SIGPROF` is to terminate. `igprof` uses `SIGPROF` for its sample profiling. ROOT spawns processes like `ls` to determine some library paths, and when a `SIGPROF` is generated (because igprof activated them), `ls` is killed and ROOT (at least until 6.10) interprets it like no library path at all. Therefore it does not find dictionary libraries and it starts trying to compile any source it may find to create class dictionaries on the fly. That compilation normally fails, bringing ROOT to a quit. This also kills programs linking to ROOT libraries, like `art`/`lar`.
 
@@ -116,4 +116,4 @@ This is very cool, **but it loses the call path information**, since the `callgr
 
 * * * * *
 
-Created by: [Gianluca Petrillo](mailto:petrillo@fnal.gov "petrillo@fnal.gov")
+Created by: Gianluca Petrillo
