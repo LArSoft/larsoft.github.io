@@ -32,15 +32,15 @@ Setting up Pull Requests and/or Push CI testing for your organizations repositor
     -   If you have given admin rights to \`FNALbuild\` and set \`ADD_WEB_HOOK=True\` in \`repos/you_or_org/your_repo/repo_config.py\` then the cms-bot scripts can add the webhook programmatically.
     -   If \`FNALbuild\` does not have admin rights to your repository then please set the github webhook (under Settings of your repository) manually with your secret and use the command below to encode your secret for the GITHUB_WEBOOK_TOKEN entry in repo_config.py.
 
-<!-- -->
 
+```
     curl -d TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://scd-ci.fnal.gov/cgi-bin/encrypt_github_token
-
+```
 If the result is over two lines use triple quotes to enclose the string, eg.
-
+```
     GITHUB_WEBHOOK_TOKEN="""xxxxxxxxxxxxxxxx
     xxxxx""" 
-
+```
 -   The manually configured webhook would have the following properties.
     -   Payload URL: [https://scd-ci.fnal.gov/cgi-bin/github_webhook](https://scd-ci.fnal.gov/cgi-bin/github_webhook)
     -   Content type: application/json
