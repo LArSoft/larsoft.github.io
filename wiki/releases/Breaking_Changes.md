@@ -80,7 +80,7 @@ root v6_22_06a typo
 
     art_make( BASENAME_ONLY
 
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 larrecodnn new directory structure
 --------------------------------------------------------------------------
@@ -89,7 +89,7 @@ larrecodnn new directory structure
 **Motivation**: separate tf, keras, and trtis
 **Affects**: user or experiment code (rarely)
 **Fix**: run LArRecodnnNewDirs.sh
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 Geometry configuration check
 --------------------------------------------------------------
@@ -106,7 +106,7 @@ larsoft v09_00_00
 ------------------------------------------
 
 **When was committed**: [v09_00_00](ReleaseNotes090000)
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 Update to nutools v3_05_00 with nuevdb
 ------------------------------------------------------------------------------------
@@ -116,7 +116,7 @@ Update to nutools v3_05_00 with nuevdb
 **Affects**: user or experiment code
 **Failure when not fixed**: Compilation or linking errors.
 **Fix**: run UseNuevdb.sh (found in nutools v3_05_00 or later)
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 Using boost v1_70_0
 ----------------------------------------------
@@ -126,7 +126,7 @@ Using boost v1_70_0
 **Affects**: user or experiment code
 **Failure when not fixed**: cmake and compilation errors
 **Fix**: use cetbuildtools v7_14_00 or later
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 Update to art v3_03_01
 ----------------------------------------------------
@@ -136,7 +136,7 @@ Update to art v3_03_01
 **Affects**: user or experiment code
 **Failure when not fixed**: Compilation or linking errors.
 **Fix**: see the [art series 3.03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_303) page for art breaking changes
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 Lengthen raw::RawDigit fSamples
 ------------------------------------------------------------------
@@ -160,7 +160,7 @@ Lengthen raw::RawDigit fSamples
     -  for(int k = 0; k < allrawdigits_vec.at(1).Samples(); k++){   //UberWaveform Calculations
     +  for(unsigned int k = 0; k < allrawdigits_vec.at(1).Samples(); k++){  //UberWaveform Calculations
 
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 Removal of Calorimetry hard-coded values
 --------------------------------------------------------------------------------------
@@ -180,7 +180,7 @@ artdaq_core calls clock_gettime
 **Affects**: Any user code that builds with artdaq_core v3_05_00 or later.
 **Failure when not fixed**: Compilation or linking errors.
 **Fix**: link with `${ARTDAQ-CORE_UTILITIES}`, which is defined in artdaq_coreConfig.cmake
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 macOS missing TGX11
 --------------------------------------------
@@ -218,7 +218,7 @@ Use the root generic graphics initialization instead of explicit X11 initializat
     }
     }
 
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 root IO rules
 --------------------------------
@@ -259,7 +259,7 @@ nutools v3_02_00
 **Fix**:
 Run UseNuG4.sh and add `find_ups_product(nug4)` to the top level CMakeLists.txt file.
 The migration assistants is available after a setup of nutools v3_02_00 or later.
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 nutools v3_00_00
 ----------------------------------------
@@ -272,7 +272,7 @@ nutools v3_00_00
 For packages using `NuRandomService`, run UseNuRandom.sh
 For packages using GENIE, run UseNuGen.sh
 Both migration assistants are available after a setup of nutools v3_00_00 or later.
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 New PhotonVisibilityService features
 ------------------------------------------------------------------------------
@@ -297,4 +297,4 @@ New recob::Track interface introduced in early 2017. This came with the deprecat
 
 Several different cases are possible. Please see [this presentation](https://indico.fnal.gov/event/19103/contribution/1/material/slides/0.pdf) for an overview and a list of the most common changes.
 
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team

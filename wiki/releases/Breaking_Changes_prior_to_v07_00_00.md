@@ -67,7 +67,7 @@ As part of the Cluster3D updates, Cluster3D.h moved from lardata to larreco and 
 If compilation reports a missing header from lardata, use UpdateCluster3D.sh after setup of larsoft v06_82_00 or later.
 You may also need to add `find_ups_product( eigen )` to your top level CMakeLists.txt file.
 
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 update to from art v2_10_03 to art v2_11_02
 ------------------------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ There is now a single messagefacility library.
 
 **Fix**: Use UpdateArt211.sh after setup of larsoft v06_80_00 or later.
 
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 geo-GeometryCore-WirePitch changed
 --------------------------------------------------------------------------
@@ -132,7 +132,7 @@ to calls to:
 
 That is, the two wire arguments must be deleted.
 
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 SingleGen - Search for histogram in FW_SEARCH_PATH
 ----------------------------------------------------------------------------------------------------------
@@ -148,7 +148,7 @@ which it would not have found before this change. If an undesired file is found,
 change the fcl parameter to specify the correct path to the desired file and make sure the
 environment variable FW_SEARCH_PATH is set to the correct value.
 
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 Fix design flaw in geo ChannelMapAlg interface
 --------------------------------------------------------------------------------------------------
@@ -184,7 +184,7 @@ Note that the implementer is **required** to provide an override for:
 
 as it is pure virtual.
 
-**Contact**: [The Scisoft Team](mailto:scisoft-team@fnal.gov)
+**Contact**: The Scisoft Team
 
 Adoption of Clang 5/C++17
 -----------------------------------------------------
