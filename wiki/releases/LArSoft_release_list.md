@@ -14,6 +14,7 @@ Release versions in **bold font** will be preserved according to the [production
 |LArSoft Release|LArSoftObj Release|Date|Purpose|Changes / notes|Full release notes|
 |:--------------|:-----------------|:---|:------|:--------------|:-----------------|
 |future|||||[Changes Expected for Future Releases](FutureChanges)|
+|v09_42_00|v09_16_01|01/13/2022|||[Release Notes](ReleaseNotes094200)|
 |v09_41_00|v09_16_00|12/17/2021|||[Release Notes](ReleaseNotes094100)|
 |v09_40_00|v09_15_00|12/15/2021||larvecutils added|[Release Notes](ReleaseNotes094000)|
 |**v09_37_01_01**|**v09_12_00**|12/10/2021||SBN2021C production|[Release Notes](ReleaseNotes09370101)|
