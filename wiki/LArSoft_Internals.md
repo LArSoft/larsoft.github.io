@@ -15,7 +15,6 @@ LArSoft code management and distribution
 -   [Procedure to create a new version of larsoft_data, uboone_data, etc.](Procedure_to_create_a_new_version_of_larsoft_data)
 -   [Installation procedures](Installation_procedures)
 -   [LArSoft cvmfs](LArSoft_cvmfs)
--   [Nightly builds](Nightly_builds) (no longer done)
 
 Repository cleanup
 ------------------------------------------
