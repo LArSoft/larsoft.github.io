@@ -79,7 +79,7 @@ All changes in LArSoft packages should be made on the release branch.
 Are there outstanding changes?
 -----------------------------------------------------------------
 
-We use the [future changes](FutureChanges) page to collect a list of changes that are meant to be part of the next release. This helps make sure we don’t forget anything. This page will reflect changes that have not already been merged with some PR.
+We use the [future changes](releases/FutureChanges) page to collect a list of changes that are meant to be part of the next release. This helps make sure we don’t forget anything. This page will reflect changes that have not already been merged with some PR.
 
 If there is a breaking PR that will be included, make sure it is merged with the release branch.
 
