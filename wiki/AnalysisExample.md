@@ -29,7 +29,8 @@ Aside from AnalysisExample, there are other packages you may want to consider fo
 
 The art/LArSoft framework is actively evolving. It’s possible that some of the steps below no longer work as is (everything has been verified as of July-2017). If something goes wrong, the following resources may help:
 
--   [LArSoft Quick-Start Guide](_Quick-start_guide_to_using_and_developing_LArSoft_code_) \* [MRB user guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbUserGuide)
+-   [LArSoft Quick-Start Guide](_Quick-start_guide_to_using_and_developing_LArSoft_code_)
+-   [MRB user guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbUserGuide)
 
 This page covers much the same ground as the [quick-start guide](_Quick-start_guide_to_using_and_developing_LArSoft_code_), but this tutorial is focused on analysis tasks, and it explains the reason why everything works as we go along. Hopefully you’ll have enough clues to solve any problems that come up.
 
@@ -332,6 +333,6 @@ Other links
 
 [Using ART in LArSoft](Using_art_in_LArSoft)
 [Doxgen LArSoft documentation](http://nusoft.fnal.gov/larsoft/doxsvn/html/)
-[Running jobs](_Running_Jobs_)
+[Running jobs](Running_Jobs)
 [FHiCL Configuration validation](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/Configuration_validation_and_fhiclcpp_types)
 [FHiCL Configuration description](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Configuration_validation_and_description)
