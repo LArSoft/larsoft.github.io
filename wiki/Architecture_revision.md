@@ -138,7 +138,7 @@ Operative summary: services
 |`PhotonVisibilityService`||||not scheduled for 2015||
 |`BackTracker`||||not scheduled for 2015|need careful assessment|
 
-Details of the changes required for existing code are in the [core services migration](Core_Services_Review) page.
+Details of the changes required for existing code are in the [core services migration](releases/Core_Services_Review) page.
 
 Operative summary: data products
 ---------------------------------------------------------------------
