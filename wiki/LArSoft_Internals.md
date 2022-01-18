@@ -42,8 +42,10 @@ Some pages in LArSoft have a combination of useful and out-of-date information. 
 -   [Optical Simulations](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/Optical_Simulations) - - look at legacy info, update, split?
 -   [dependencies](Dependencies)
 
-[FNAL Redmine tricks](FNAL_Redmine_tricks)
---------------------------------------------------------------------------------------------------
+[OBSOLETE FNAL Redmine tricks](OBSOLETE_FNAL_Redmine_tricks)
+-----------------------------------------------------------------------------------------------------------------------------
+
+-   replace with github wiki tips?
 
 Ongoing Projects
 --------------------------------------
