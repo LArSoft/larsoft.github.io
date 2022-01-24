@@ -34,20 +34,25 @@ The type of release you are building determines how you select a working branch
 -   tagLAr use \<existing_branch\>
     -   checks out \<existing_branch\>
 
-Merge feature branches
+Merge PRs if necessary
 --------------------------------------------------
 
+-   Most PRs will be merged with the head of develop.
+-   PRs that need to be merged when making the release:
+    -   Multiple PRs addressing some update
+    -   PRs which require changes to dependencies
 -   cd \$MRB_SOURCE/\<package\>
--   git co feature/\<feature_branch\>
+-   hub pr list
+-   hub pr checkout \<PR number\>
+    -   This step will checkout a branch
 -   git co release/\$MRB_PROJECT_VERSION
--   git merge feature/\<feature_branch\>
+-   git merge \<PR branch\>
 -   deal with conflicts if necessary
     -   In some cases, you may need to ask the author for help.
 -   **Make a clean build with these changes before proceeding**
 -   **IMPORTANT**:
-    -   If the same branch is in several different repositories, merge all of these before starting a new build.
-    -   Make sure you merge and test each set of feature branches one at a time. This helps sort out confusion in case of conflicts.
-    -   If possible, also run the CI tests separately for each feature branch. If you do not do this, you may have to go back and untangle problems. See the next section.
+    -   If there are related PRs in several different repositories, merge all of these before starting a new build.
+    -   Make sure you merge and test each set of PRs. This helps sort out confusion in case of conflicts.
 
 ### Update non-larsoft product versions
 
