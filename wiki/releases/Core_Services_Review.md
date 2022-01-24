@@ -121,7 +121,7 @@ Renamed services
 The column “I/F” says “I” if the service is actually an interface. See the next section about service interfaces.
 Expand the following reference tables for the details necessary for the update:
 
-[Geometry service (unchanged)](#)[Geometry service (unchanged)](#)
+### Geometry service (unchanged)
 
 repo.
 
@@ -155,7 +155,7 @@ New provider name:
 
 *(unchanged)*
 
-[DatabaseUtil service (deprecated)](#)[DatabaseUtil service (deprecated)](#)
+### DatabaseUtil service (deprecated)
 
 repo.
 
@@ -193,7 +193,7 @@ no
 >  MicroBooNE-specific components in there will be moved into a MicroBooNE-specific implementation.
 >  ArgoNeuT will possibly keep using it, so it is not going to disappear, but it might be moved into their repository.
 
-[LArPropertiesService (was LArProperties)](#)[LArPropertiesService (was LArProperties)](#)
+### LArPropertiesService (was LArProperties)
 
 repo.
 
@@ -243,7 +243,7 @@ Default implementation:
 
 `Utilities/LArPropertiesServiceStandard.h`
 
-[DetectorPropertiesService (was DetectorProperties)](#)[DetectorPropertiesService (was DetectorProperties)](#)
+### DetectorPropertiesService (was DetectorProperties)
 
 repo.
 
@@ -293,7 +293,7 @@ Default implementation:
 
 `Utilities/DetectorPropertiesServiceStandard.h`
 
-[DetectorClocksService (was TimeService)](#)[DetectorClocksService (was TimeService)](#)
+### DetectorClocksService (was TimeService)
 
 repo.
 
@@ -347,7 +347,7 @@ Default implementation:
 
 `Utilities/DetectorClocksServiceStandard.h`
 
-[ChannelStatusService (was IChannelStatusService)](#)[ChannelStatusService (was IChannelStatusService)](#)
+### ChannelStatusService (was IChannelStatusService)
 
 repo.
 
@@ -403,7 +403,7 @@ Default implementation:
 
     Note that there is no header for the "standard" implementation of the art service (there is one for the provider).
 
-[DetPedestalService (was IDetPedestalService)](#)[DetPedestalService (was IDetPedestalService)](#)
+### DetPedestalService (was IDetPedestalService)
 
 repo.
 
