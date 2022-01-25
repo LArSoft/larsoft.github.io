@@ -31,27 +31,27 @@ The next section provides detailed information on each of the above steps, as we
 
 ## Detailed information, instructions and resources
 
-### An \[\[pull request testing and approval workflow\|overview of the pull request testing and approval process\]\]
+### An [overview of the pull request testing and approval process](pull request testing and approval workflow)
 
 ### For LArSoft users and developers: how to check out repositories, requirements and steps to submit changes, move existing code
 
--   \[\[WorkingWithLArSoftGithubRepos\|The basics of working with LArSoft GitHub repositories\]\]
--   \[\[Migrating_Redmine_Feature_Branches\|Moving an existing Redmine feature branch to GitHub\]\]
+-   [The basics of working with LArSoft GitHub repositories](WorkingWithLArSoftGithubRepos)
+-   [Moving an existing Redmine feature branch to GitHub](Migrating_Redmine_Feature_Branches)
 
 ### For Level 1 and Level 2 managers / approvers: procedures for managing and approving pull requests
 
--   \[\[Executing_the_pull_request_approval_workflow\|Executing the pull request approval workflow\]\]
--   \[\[Pull_request_comments_that_trigger_CI_actions\|Pull request comments that trigger CI actions\]\]
-    -   \[\[Manually trigger a CI test\]\]
--   \[\[Github_labels_used_to_indicate_pull_request_status\|Github labels used to indicate pull request status\]\]
+-   [Executing the pull request approval workflow](Executing_the_pull_request_approval_workflow)
+-   [Pull request comments that trigger CI actions](Pull_request_comments_that_trigger_CI_actions)
+    -   [Manually trigger a CI test](Manually_trigger_a_CI_test)
+-   [Github labels used to indicate pull request status](Github_labels_used_to_indicate_pull_request_status)
 
 ### For people who maintain the approval workflow
 
--   \[\[Maintaining_CMSbot_scripts_and_Jenkins_jobs\|Maintaining the LArSoft fork of CMSbot scripts and Jenkins GitHub Integration jobs at FNAL\]\]
+-   [Maintaining the LArSoft fork of CMSbot scripts and Jenkins GitHub Integration jobs at FNAL](Maintaining_CMSbot_scripts_and_Jenkins_jobs)
 
 ### For new experiments / projects seeking to customize and use the pull request approval workflow system
 
--   \[\[SetupCMSbotScriptsYourOrg\|Setting the LArSoft fork of CMSbot for your organization/repo\]\]
+-   [Setting the LArSoft fork of CMSbot for your organization/repo](SetupCMSbotScriptsYourOrg)
 
 ### General references on using GitHub (not LArSoft specific)
 
@@ -64,4 +64,4 @@ The next section provides detailed information on each of the above steps, as we
 
 ## Working notes (mostly archival)
 
--   The \[\[GitHub migration plan\]\]
+-   The [GitHub migration plan](GitHub_migration_plan)

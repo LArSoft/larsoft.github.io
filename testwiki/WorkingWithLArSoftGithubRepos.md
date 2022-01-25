@@ -109,7 +109,7 @@ Once the problem has been addressed, commit the changes, and push your feature b
 
 The GitHub repositories have commit histories that have been cleaned of old commits (ca. 2014), and all feature branches at the time of the migration. Because their commit histories have been rewritten, you cannot submit pull requests to `develop` from any legacy branch that existed prior to the migration, and therefore contains the old commit history.
 
-For instructions on how to alter the histories of these branches so that they can be merged with the GitHub repositories, see the instructions on the \[\[Migrating_Redmine_Feature_Branches\]\] page.
+For instructions on how to alter the histories of these branches so that they can be merged with the GitHub repositories, see the instructions on the [Migrating_Redmine_Feature_Branches](Migrating_Redmine_Feature_Branches) page.
 
 ## How do I update an existing fork?
 

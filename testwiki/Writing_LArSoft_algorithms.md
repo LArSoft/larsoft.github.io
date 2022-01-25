@@ -18,9 +18,9 @@ As the unit of a modular system, an algorithm should:
 
 -   perform one single task
 -   delegate subtasks to other algorithms
--   minimize its dependencies (see in particular our \[\[Architecture_revision#Factorization\|factorization guidelines\]\])
+-   minimize its dependencies (see in particular our [factorization guidelines](Architecture_revision#Factorization))
 
-Independent algorithms are more portable and easy to test. Small, independent algorithms also form a strong foundation for solving complex problems. Some criteria for developing well-factorized and portable code are collected in our \[\[Data_products_architecture_and_design\|architecture guidelines\]\].
+Independent algorithms are more portable and easy to test. Small, independent algorithms also form a strong foundation for solving complex problems. Some criteria for developing well-factorized and portable code are collected in our [architecture guidelines](Data_products_architecture_and_design).
 
 Additional requirements for a well-written LArSoft algorithm include:
 
@@ -29,7 +29,7 @@ Additional requirements for a well-written LArSoft algorithm include:
 -   has well-documented interfaces
 -   has comments where-ever the code is less than trivial
 -   follows good coding practices and [LArSoft guidelines](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/The_rules_and_guidelines)
--   follows LArSoft's \[\[Architecture_revision#Interoperability\|interoperability recommendations\]\]
+-   follows LArSoft's [interoperability recommendations](Architecture_revision#Interoperability)
 
 ### Developing a new algorithm
 
@@ -321,7 +321,7 @@ In principle, dependencies might be reduced even further, by having code that ca
 According to this policy, the following constructs are allowed:
 
 -   CLHEP (anything… but the only thing LArSoft uses by (*art*) choice as are random engines; for the rest, there are likely better alternatives)
--   ROOT (anything; nevertheless, \[\[From ROOT vectors (TVector3) to ROOT GenVector\|please avoid TVector3 and similar\]\])
+-   ROOT (anything; nevertheless, [please avoid TVector3 and similar](From ROOT vectors (TVector3) to ROOT GenVector))
 -   Boost (be aware that C++17 includes a lot of the classes from Boost… time to get standard!)
 -   project:cetlib_except exceptions (`cet::exception`)
 -   project:fhiclcpp configuration parsing (and its validation facilities as well!)

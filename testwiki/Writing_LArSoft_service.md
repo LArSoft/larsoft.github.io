@@ -28,7 +28,7 @@ A specimen of this protocol can be seen in `Geometry` service:
 -   the provider, `geo::GeometryCore`, can load given a configuration in FHiCL parameter set format, and can answer all the questions about the geometry (“which wire is the closest to this point?”)
 -   the service, `geo::Geometry`, creates, configures and owns a `geo::GeometryCore` instance, hooks to the framework to know when a run change happens, and in that case asks the provider to update accordingly
 
-To write services from scratch, one can start with the \[\[LArSoft examples#Services\|examples in larexample repository\]\].
+To write services from scratch, one can start with the [examples in larexample repository](LArSoft examples#Services).
 
 > The `Geometry` service is actually not quite following all LArSoft prescriptions, for legacy reasons.  
 > In particular, `geo::Geometry` service doesn't follow the standard name pattern (that would have it `geo::GeometryService`) and, more important, is actually able to provide directly all the geometry functionality since it inherits the interface from `geo::GeometryCore`. This is **not** the recommended implementation.

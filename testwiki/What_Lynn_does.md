@@ -38,7 +38,7 @@
 
     Who will build cry?
 
--   We have a \[\[build-framework:\|defined procedure\]\] that uses a number of scriptlets found in the ssibuildshims product.
+-   We have a [defined procedure](https://cdcvs.fnal.gov/redmine/projects/build-framework/wiki/) that uses a number of scriptlets found in the ssibuildshims product.
 -   Each product has a tiny redmine repository for the build and bootstrap scripts.
     -   Scripts include autobuild.sh, bootstrap.sh, build_xxx.sh, and usually ups/xxx.table, where xxx is the product name.
     -   We sometimes need patch files.
@@ -137,7 +137,7 @@
     -   make release notes
     -   final merge with develop
     -   send an announcement
--   The procedure is described in detail at \[\[larsoft:How_to_tag_and_build_a\_LArSoft_vx_yy_zz_release\]\]
+-   The procedure is described in detail at [How_to_tag_and_build_a_LArSoft_vx_yy_zz_release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)
     -   Although it is tempting to take shortcuts, the procedure is designed to allow the release manager to recover from various problems that may arise. Taking shortcuts removes those safeguards.
 
 ## support various infrastructure products (SciSoft team)
