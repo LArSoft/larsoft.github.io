@@ -1,4 +1,4 @@
-{{>toc}}
+{{\>toc}}
 
 %{ font-style: italic ; font-weight: bolder ; background: orange }Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html.%)
 
@@ -8,11 +8,11 @@ A LArSoft service is a class, with a single instance managed by the framework, t
 
 In the context of the *art* framework, a service is implemented as a class with the following requirements:
 
-# special macros are used to declare and then define factory functions and other things specific to *art*
+\# special macros are used to declare and then define factory functions and other things specific to *art*
 
-# an implementation file name that follows a pattern like `MyService_service.cc`
+\# an implementation file name that follows a pattern like `MyService_service.cc`
 
-# a constructor is available with a specific signature, like
+\# a constructor is available with a specific signature, like
 
     <code class="cpp">
       MyService(fhicl::ParameterSet const&amp;, art::ActivityRegistry&amp;);
@@ -73,7 +73,7 @@ The following paragraphs describe the three combinations of features on top of t
 This model allows different ways to implement the same service. This is an *art* feature, and nothing of this is specific to LArSoft.  
 At run time, a single implementation will be chosen by *art* depending on the service configuration (from the FHiCL configuration file).
 
-The service interface is a (possibly abstract[1]) class that describes all the service is expected to be able to do. For example[2]:
+The service interface is a (possibly abstract[^1]) class that describes all the service is expected to be able to do. For example[^2]:
 
     <code class="cpp">
     #include "larcorealg/CoreUtils/UncopiableAndUnmovableClass.h"
@@ -450,6 +450,6 @@ Once the supported framework, *art*, defines its multi threading policy, this mo
 
 *For questions, contact Gianluca Petrillo.*
 
-[1] An abstract class, in C sense, is a class that has virtual methods it does not provide a definition of. Derived classes must provide such definitions.
+[^1]: An abstract class, in C sense, is a class that has virtual methods it does not provide a definition of. Derived classes must provide such definitions.
 
-[2] Some LArSoft utilities enforce the recommendation of having service provider classes non-copiable and unmovable. The derivation from `lar::UncopiableAndUnmovableClass` achieves that goal.
+[^2]: Some LArSoft utilities enforce the recommendation of having service provider classes non-copiable and unmovable. The derivation from `lar::UncopiableAndUnmovableClass` achieves that goal.

@@ -1,6 +1,6 @@
 # Working with GitHub
 
-{{>TOC}}
+{{\>TOC}}
 
 ## Overview
 

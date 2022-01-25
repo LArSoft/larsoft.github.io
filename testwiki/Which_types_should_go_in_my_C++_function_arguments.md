@@ -24,7 +24,7 @@ When a (constant) reference is used instead, what gets copied under the hood is 
 
 Why not:
 
--   `std::vector<float> v`? this would copy the input vector in a new vector called `v`, while with the reference `sourceVector` is used directly (the reference is like a pointer that tells the function where to find the data). Why waste time and memory doing a copy[1], when the original one is perfectly good already?
+-   `std::vector<float> v`? this would copy the input vector in a new vector called `v`, while with the reference `sourceVector` is used directly (the reference is like a pointer that tells the function where to find the data). Why waste time and memory doing a copy[^1], when the original one is perfectly good already?
 -   `std::vector<float>&amp; v`? this would allow us to change `v` and therefore `sourceVector`, which is fine if we need to; but since we know that this is not supposed to happen, we tell the compiler. In this way:
     -   the compiler can generate better code, knowing that we can't modify the values in the vector
     -   if we attempt to change it, the compiler knows we did not expect it and will stop us from making that mistake
@@ -43,4 +43,4 @@ Why not:
 
 If you have questions or comments, “let me know”: Gianluca Petrillo!
 
-[1] Copying a vector means: ask the operating system for a new memory area large enough to fit the data, and copying the data itself. The operating system can take any time to get that memory. It might need to make room for it by moving other data to disk (slooooow!), and even when it does not, it has to find a suitable area and store the necessary information to be able to release it later on.
+[^1]: Copying a vector means: ask the operating system for a new memory area large enough to fit the data, and copying the data itself. The operating system can take any time to get that memory. It might need to make room for it by moving other data to disk (slooooow!), and even when it does not, it has to find a suitable area and store the necessary information to be able to release it later on.

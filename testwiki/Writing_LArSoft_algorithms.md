@@ -1,6 +1,6 @@
 # Guidelines on writing (and using) algorithms in LArSoft
 
-{{>toc}}
+{{\>toc}}
 
 An algorithm is a class, with one or more instances managed by user code, that performs a task or part of it. In the context of the *art* framework, an algorithm is used by an *art* module class. The best practice is to make the algorithm itself as independent as possible from the framework and use the module to provide the interface between the two. In other words,
 
@@ -298,7 +298,7 @@ A possible implementation could follow these lines:
 
   
 The module has the simple task to configure the algorithm, get the input, execute the algorithm, and save the results.  
-Here we have been fundamentalist in avoiding any framework dependency in the algorithm. This results in a quite clumsy two-step procedure to produce the cluster-hit associations, where the algorithm produces *<span class="index hit index, cluster"></span>* pairs and a fictional `lar::ConvertPairsToAssociations()` takes care of creating the associations[1].
+Here we have been fundamentalist in avoiding any framework dependency in the algorithm. This results in a quite clumsy two-step procedure to produce the cluster-hit associations, where the algorithm produces *<span class="index hit index, cluster"></span>* pairs and a fictional `lar::ConvertPairsToAssociations()` takes care of creating the associations[^1].
 
 #### Dependencies from external libraries
 
@@ -394,4 +394,4 @@ Note: These are guidelines for best practices. Some code may not currently follo
 
 *For questions, contact Gianluca Petrillo.*
 
-[1] Matter of fact, a `lar::ConvertPairsToAssociations()` template function *can* be implemented in a reasonably efficient way if there is demand for it.
+[^1]: Matter of fact, a `lar::ConvertPairsToAssociations()` template function *can* be implemented in a reasonably efficient way if there is demand for it.
