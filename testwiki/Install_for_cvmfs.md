@@ -4,13 +4,13 @@
 
 ## Install in /cvmfs/larsoft.opensciencegrid.org/products
 
--   ssh cvmfslarsoft@oasiscfs.fnal.gov
+-   `ssh -l cvmfslarsoft oasiscfs.fnal.gov`
 -   cvmfs_server transaction larsoft.opensciencegrid.org
--   ./scripts/installBundle.sh larsoft <release> <qualifiers>
+-   `./scripts/installBundle.sh larsoft <release> <qualifiers>`
     -   installBundle will install debug and prof distributions. It will also install c7 distributions when you specify the e20 qualifier.
             ./scripts/installBundle.sh larsoft v09_42_00 s112-e20
 -   check that the install was clean
-    -   —- make sure /cvmfs/larsoft.opensciencegrid.org/products/.working is empty
-    -   —- check everything! —-
+    -   make sure /cvmfs/larsoft.opensciencegrid.org/products/.working is empty
+    -   **check everything!**
 -   cvmfs_server publish larsoft.opensciencegrid.org
--   This information is also found in the README in cvmfslarsoft@oasiscfs.fnal.gov.
+-   This information is also found in the README in cvmfslarsoft on oasiscfs.fnal.gov.
