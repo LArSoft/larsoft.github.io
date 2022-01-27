@@ -2,7 +2,7 @@
 
 # VertexFinder
 
-The package maintainer is Joshua Spitz joshua.spitz@yale.edu.
+The package maintainer is Joshua Spitz (Yale).
 
 ## HarrisVertexFinder
 
