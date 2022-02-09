@@ -4,7 +4,7 @@
 
 ## How to know what library is needed to resolve a linking problem
 
-How often have you encountered an error such as: `` undefined reference to `typeinfo for simb::MCParticle&#39; ``?  
+How often have you encountered an error such as: `` undefined reference to `typeinfo for simb::MCParticle' ``?  
 Where do you start looking for this? There are hundreds of libraries, it could be in any one of them.
 
 Here's a solution: setup the `larutils` UPS product ( \> v1_20_08 ) (or down load the script below) and use:
@@ -130,7 +130,7 @@ For example:
        - (for debugger  symbol  table  entries; see -a below)
        S (symbol in a section other than those above), or
        I (indirect symbol).
-      If the symbol is local (non-external), the symbol&#39;s type is instead
+      If the symbol is local (non-external), the symbol's type is instead
       represented by the corresponding lowercase letter.  A lower case u
       in a dynamic shared library indicates a undefined reference to a
        private external in  another module in the same library.

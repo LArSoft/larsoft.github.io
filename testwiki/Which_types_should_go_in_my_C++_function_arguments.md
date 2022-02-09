@@ -7,16 +7,19 @@ The following apply to pure functions. If you are dealing with class methods, so
 So, you need to have a function that takes a vector of real numbers and a flag, and produces a different vector.  
 The safest and most efficient way to implement this is:
 
-    <code class="cpp">std::vector<float> fillRedOrBlack(std::vector<float> const&amp; v, bool red);</code>
+```cpp
+    std::vector<float> fillRedOrBlack(std::vector<float> const&amp; v, bool red);
+```
 
   
 that gets used as:
 
-    <code class="cpp">
+```cpp
+
     std::vector<float> sourceVector;
     // ... put some data in sourceVector
     std::vector<float> filledVector = fillRedOrBlack(sourceVector, false);
-    </code>
+```
 
 The guiding principle is to do what is most efficient. In most cases, copying data is inefficient, and the constant reference is the way to avoid the copy.  
 When you specify an argument *by value* in the function signature, you are asking for a copy of that argument.  

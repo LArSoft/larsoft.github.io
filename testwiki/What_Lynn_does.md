@@ -11,7 +11,7 @@
       * GENIE: Robert Hatcher / Neutrino Simulation.
       * PostGresQL, Psycopg,  SQLite, MySQL, MariaDB: Scientific Database Applications.
       * nucondb, ifbeam, ifdhc, ifdhc_config, ifdh-art, libwda, etc. (and unique dependencies): Scisoft team 
-    for ifdh_art, Steve White&#39;s group for DB items, Marc Mengel for ifdhc and _config
+    for ifdh_art, Steve White's group for DB items, Marc Mengel for ifdhc and _config
       * PyTorch, libtorch, TensorFlow, Eigen, Caffe (legacy): Algorithms for
         Reconstruction and Analysis.
 
@@ -103,7 +103,7 @@
 ## Build nutools releases and the nu or nulite distributions.
 
     Erica will talk to Laura Fields about Robert Hatcher building nutools
-    Does NOvA build nu since they&#39;re the only user and LArSoft only does nulite???? (Alex Himmel?)
+    Does NOvA build nu since they're the only user and LArSoft only does nulite???? (Alex Himmel?)
 
 -   Both NOvA and LArSoft can drive the need for a new release of nutools.
     -   NOvA uses the full nu distribution.

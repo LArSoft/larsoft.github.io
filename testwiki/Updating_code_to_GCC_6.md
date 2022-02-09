@@ -19,8 +19,10 @@ LArSoft `develop` branches have been updated, as tracked in issue \#16096. User 
 
 A variable length array is a C array whose size is not known at compile time, usually from a variable. For example:
 
-    <code class="cpp">auto const nPlanes = TPC.Nplanes();
-    int chargePerPlane[nPlanes];</code>
+```cpp
+    auto const nPlanes = TPC.Nplanes();
+    int chargePerPlane[nPlanes];
+```
 
   
 In this snippet, `chargePerPlane` *is* a variable length array, because its size `nPlanes` is not known at compile time (in fact, its value comes from the geometry description which is loaded from a GDML file at run time). Don't let yourself mislead by the fact that `nPlanes` is declared `const`: that is just a variable whose value can't be changed, which is not enough as array size specifiers go.
@@ -28,8 +30,10 @@ In this snippet, `chargePerPlane` *is* a variable length array, because its size
 Variable length arrays were never in C standard, although many compilers would allow them as “extensions”; they are instead in C (as opposed to C) standard, currently as an “optional” feature.  
 The common solution is to use a dynamically allocated vector:
 
-    <code class="cpp">auto const nPlanes = TPC.Nplanes();
-    std::vector<int> chargePerPlane(nPlanes, 0);</code>
+```cpp
+    auto const nPlanes = TPC.Nplanes();
+    std::vector<int> chargePerPlane(nPlanes, 0);
+```
 
   
 If this has too big an impact to the performance of your code (which might well be), please discuss  
@@ -40,35 +44,41 @@ the issue with LArSoft. There are alternative solutions which may be better, or 
 The compiler checks the code for misleading indentations. This can happen when curly braces are not used after an `if` statement. In at least one case, this check turned up an actual bug where two lines were meant to be within the if block.  
 The following examples of bad indentation come from LArSoft and experiment code:
 
-    <code class="cpp">
+```cpp
+
     if (btrack.NumberFitMomentum() > 0)
       //mom = btrack.VertexMomentum();
     // fill bezier track reco branches
     TrackID = iTrk;  //bezier has some screwed up track IDs
-    </code>
+```
 
+  
 (likely, the line with assignment to `mom` was commented out later, resulting in a bug).  
 The following is a “false positive”: GCC will suspect that we might have meant to have the second if nested into the first one:
 
-    <code class="cpp">if(eff[plane] == 0) eff[plane] = 0.001; if(pur[plane] == 0) pur[plane] = 0.001;</code>
+```cpp
+    if(eff[plane] == 0) eff[plane] = 0.001; if(pur[plane] == 0) pur[plane] = 0.001;
+```
 
   
 In the following, the align suggests that the last `return` be under the `if` statement (another false positive):
 
-    <code class="cpp">
+```cpp
+
     else if (a.fSeedPoint[1] != b.fSeedPoint[1])
       return a.fSeedPoint[1] < b.fSeedPoint[1];
 
       return a.fSeedPoint[0] < b.fSeedPoint[0];
-    </code>
+```
 
   
 The following has a spurious semicolon immediately after the `if` clause.
 
-    <code class="cpp">
+```cpp
+
     if (plane >= planehits.size());
       throw cet::exception("TrackKalmanCheater") << "plane " << plane << "...\n";
-    </code>
+```
 
   
 It was likely in some unused code, or it would throw an exception every single time…  
@@ -78,31 +88,36 @@ Note that here “false positive” means that the dreadfully aligned code, inte
 
 Solutions are to use proper indentations and/or define the proper blocks within braces:
 
-    <code class="cpp">
+```cpp
+
     if (btrack.NumberFitMomentum() > 0) {
       //mom = btrack.VertexMomentum();
     }
     // fill bezier track reco branches
     TrackID = iTrk;  //bezier has some screwed up track IDs
-    </code>
+```
 
   
 (in this case, it's better to comment everything out, or even better, just remove it, since commented out code is usually useless, except the cases where it is dangerous).
 
-    <code class="cpp">if(eff[plane] == 0) eff[plane] = 0.001;
-    if(pur[plane] == 0) pur[plane] = 0.001;</code>
+```cpp
+    if(eff[plane] == 0) eff[plane] = 0.001;
+    if(pur[plane] == 0) pur[plane] = 0.001;
+```
 
-    <code class="cpp">
+```cpp
+
     else if (a.fSeedPoint[1] != b.fSeedPoint[1])
       return a.fSeedPoint[1] < b.fSeedPoint[1];
 
     return a.fSeedPoint[0] < b.fSeedPoint[0];
-    </code>
+```
 
-    <code class="cpp">
+```cpp
+
     if (plane >= planehits.size())
       throw cet::exception("TrackKalmanCheater") << "plane " << plane << "...\n";
-    </code>
+```
 
 ## Headers
 

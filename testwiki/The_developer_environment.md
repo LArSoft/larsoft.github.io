@@ -14,7 +14,7 @@ The LArSoft project has adopted the git branching model described by Vincent Dri
 
 The workflow is depicted in the diagram below. Each colored circle represents a commit, which in git corresponds to a state of the repository on the particular branch after the commit.
 
-![](Git-branching-model.png)
+[[assets/img/Git-branching-model.png]]
 
 The workflow and branching model is designed to offer a high degree of stability on the head of the reference repository, and thereby in the overall development environment. The central concepts are that **no development takes place directly on the develop branch** — this is what feature branches, release branches, or hotfix branches are to be used for — and **nothing gets pushed to the reference develop branch** until the changes are tested.
 

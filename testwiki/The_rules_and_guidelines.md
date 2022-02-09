@@ -62,14 +62,14 @@ Download attachment:ups-clang-format-v7.el and place it in a directory `<my_dir>
 
 Add the following commands to your .emacs file:
 
-    (add-to-list &#39;load-path "<my_dir>")
+    (add-to-list 'load-path "<my_dir>")
     (load "ups-clang-format-v7")
 
-This will allow you to use the `&#39;M-x clang-format-buffer&#39;` and `&#39;M-x clang-format-region&#39;` commands while editing files.
+This will allow you to use the `'M-x clang-format-buffer'` and `'M-x clang-format-region'` commands while editing files.
 
 -   **VIM**
     -   Download attachment:ups-clang-format-v7.vim and place it in your `~/.vim/plugin/` subdirectory.
-    -   You can then use `&#39;Ctrl-k&#39;` while editing files to apply `clang-format` to the selected line or region.
+    -   You can then use `'Ctrl-k'` while editing files to apply `clang-format` to the selected line or region.
 
 ### Expected behavior
 
@@ -84,9 +84,11 @@ and that each of the directories `dir1`, `dir2`, and `dir3` have `.clang-format`
 The problem of conflicting names can arise when developing code against multiple experiment repositories (e.g., `argoneutcode`, `lariatsoft`, `uboonecode`, `dunetpc`, etc.). In order to facilitate being able to develop in a multiple experiment environment, it is helpful if the experiments use unique naming for classes, headers, libraries, and fcl files.
 
 1.  In the case of headers, the header path is considered part of the header name and should always be used in the include directive.
-        <code class="cpp">#include "uboone/OpticalDetectorSim/RandomServer.h" // uboonecode
+```cpp
+        #include "uboone/OpticalDetectorSim/RandomServer.h" // uboonecode
         #include "dune/Geometry/ChannelMap35Alg.h" // dunetpc
-        #include "MCShowerReco/MCShower.h" // argoneutcode</code>
+        #include "MCShowerReco/MCShower.h" // argoneutcode
+```
 2.  Classes should have a unique name. Namespaces (e.g., `uboone`, `dune`, `argoevd`) may be used to create a unique name, but it is safer to rely on the name of the class itself.
 3.  We require including the path in library names in LArSoft to ensure unique naming (e.g., `libart_Persistency_Common.so` rather than just `libCommon.so`).
     -   `art_make()` will do this by default
@@ -116,7 +118,8 @@ CMS has a very useful set of notes about [Using Data Structures Safely with Thre
 
 ### Looping over geometry entities
 
-    <code class="cpp">
+```cpp
+
     // For each plane, do something on the hits on that plane
     std::vector<recob::Hit> const&amp; hits = *hitHandle;
     auto const* geom = lar::providerFrom<geo::Geometry>();
@@ -130,7 +133,7 @@ CMS has a very useful set of notes about [Using Data Structures Safely with Thre
       geo::View_t view = geom->View(pid); // this is the view in this plane
       // do something
     } // for planes
-    </code>
+```
 
 ### Using transient data
 
@@ -140,7 +143,8 @@ Transient data *should be local*, and even if conditions force it to be a data m
 
 Let's assume we have an algorithm whose workflow is split in different phases: initialisation, run and result retrieval.
 
-    <code class="cpp">class MyProducer: public art::EDProducer {
+```cpp
+    class MyProducer: public art::EDProducer {
 
       std::unique_ptr<MyAlgorithm> myAlgo;
       // ...
@@ -161,7 +165,8 @@ Let's assume we have an algorithm whose workflow is split in different phases: i
       // move the results into the event
       event.put(std::make_unique<std::vector<recob::Vertex>>(std::move(vertices)));
 
-    } // MyProducer::produce()</code>
+    } // MyProducer::produce()
+```
 
   
 This requires the algorithm to keep the results until they are retrieved.  
@@ -169,151 +174,146 @@ To implement correctly the algorithm, there are two main options, plus a “back
 
 \# every method returning results also removes them from the object; the best way to implement this is actually merging the run and result retrieval phases:
 
-<pre>
+```cpp
+    class MyAlgorithm {
 
-<code class="cpp">class MyAlgorithm {
+          public:
+        struct Results_t {
+          std::vector<recob::Vertex> vertices; ///< result: vertices
+          // ...
+        };
 
-public:  
-struct Results_t {  
-std::vector<recob::Vertex> vertices; ///\< result: vertices  
-// …  
-};
+        results_t run() const
+          {
+            Results_t results;
+            // fill the results by executing the algorithm code
+            return results;
+          }
 
-results_t run() const  
-{  
-Results_t results;  
-// fill the results by executing the algorithm code  
-return results;  
-}
+        //...
 
-//…
+      } // class MyAlgorithm
+```
 
-} // class MyAlgorithm</code>
-
-</pre>
-
+  
 with a `produce()` like:
 
-<pre>
+```cpp
+    void MyProducer::produce(art::Event&amp; event) {
 
-<code class="cpp">void MyProducer::produce(art::Event&amp; event) {
+        // configure the algorithm, provide it inputs...
 
-// configure the algorithm, provide it inputs…
+        // run the algorithm
+        auto results = myAlgo->run();
 
-// run the algorithm  
-auto results = myAlgo-\>run();
+        // move the results into the event
+        event.put
+          (std::make_unique<std::vector<recob::Vertex>>(std::move(results.vertices)));
 
-// move the results into the event  
-event.put  
-(std::make_unique\<std::vector<recob::Vertex>\>(std::move(results.vertices)));
+      } // MyProducer::produce()
+```
 
-} // MyProducer::produce()</code>
-
-</pre>
-
+  
 If there is only one result, the `Results_t` data structure is optional.  
 This solution allows avoiding copies of the result(s).  
 The following variant keeps the two phases separate:
 
-<pre>
+```cpp
+    class MyAlgorithm {
+          public:
+        struct Results_t {
+          std::vector<recob::Vertex> vertices; ///< result: vertices
+          // ...
+        };
 
-<code class="cpp">class MyAlgorithm {  
-public:  
-struct Results_t {  
-std::vector<recob::Vertex> vertices; ///\< result: vertices  
-// …  
-};
+        void run();
 
-void run();
+        Results_t getResults() { return std::move(results); }
 
-Results_t getResults() { return std::move(results); }
+        //...
+          private:
+        Results_t results;
+      } // class MyAlgorithm
+```
 
-//…  
-private:  
-Results_t results;  
-} // class MyAlgorithm</code>
-
-</pre>
-
+  
 This still presents memory hoarding if the caller decides not to `getResults()`, and it gives wrong results if `getResults()` is called more than once. For these reasons, it is disfavoured respect to the first variant.
 
 \# require the caller to clear the data when done:
 
-<pre>
+```cpp
+    class MyAlgorithm {
 
-<code class="cpp">class MyAlgorithm {
+        std::vector<recob::Vertex> vertices; ///< result: vertices
 
-std::vector<recob::Vertex> vertices; ///\< result: vertices
+          public:
+        std::vector<recob::Vertex> const&amp; getVertices() const
+          { return vertices; }
 
-public:  
-std::vector<recob::Vertex> const&amp; getVertices() const  
-{ return vertices; }
+        void clear()
+          { vertices.clear(); /* ... */ }
 
-void clear()  
-{ vertices.clear(); /\* … \*/ }
+        // ...
 
-// …
+      } // class MyAlgorithm
+```
 
-} // class MyAlgorithm</code>
-
-</pre>
-
+  
 paired with a different version of `produce()`:
 
-<pre>
+```cpp
+    void MyProducer::produce(art::Event&amp; event) {
 
-<code class="cpp">void MyProducer::produce(art::Event&amp; event) {
+        // configure the algorithm, provide it inputs...
 
-// configure the algorithm, provide it inputs…
+        // run the algorithm
+        myAlgo->run();
 
-// run the algorithm  
-myAlgo-\>run();
+        // retrieve the results (may be more than just one collection)
+        std::vector<recob::Vertex> const&amp; vertices = myAlgo->getVertices();
 
-// retrieve the results (may be more than just one collection)  
-std::vector<recob::Vertex> const&amp; vertices = myAlgo-\>getVertices();
+        // move the results into the event
+        event.put(std::make_unique<std::vector<recob::Vertex>>(vertices));
 
-// move the results into the event  
-event.put(std::make_unique\<std::vector<recob::Vertex>\>(vertices));
+        myAlgo->clear();
 
-myAlgo-\>clear();
+      } // MyProducer::produce()
+```
 
-} // MyProducer::produce()</code>
-
-</pre>
-
+  
 The main weakness of this approach is that it can't verify that the caller actually `clear()`ed the data, and it is therefore *not recommended*.  
 Note that this will *not* avoid a copy of the vertices, since the *art* producer will be forced to create a copy to be entrusted to the event.
 
 \# if the algorithm does not allow this approach, one can instantiate the algorithm on every event anew; this is typically not that expensive, and since the algorithm is automatically destroyed after each event, no hoarding is possible:
 
-<pre>
+```cpp
+    void MyProducer::produce(art::Event&amp; event) {
 
-<code class="cpp">void MyProducer::produce(art::Event&amp; event) {
+        // construct and configure the algorithm, provide it inputs...
+        MyAlgorithm myAlgo;
 
-// construct and configure the algorithm, provide it inputs…  
-MyAlgorithm myAlgo;
+        // run the algorithm, do whatever it takes to get the results out of it
+        myAlgo.run();
 
-// run the algorithm, do whatever it takes to get the results out of it  
-myAlgo.run();
+        // retrieve the results (may be more than just one collection)
+        std::vector<recob::Vertex> vertices;
+        myAlgo.getVertices(vertices);
 
-// retrieve the results (may be more than just one collection)  
-std::vector<recob::Vertex> vertices;  
-myAlgo.getVertices(vertices);
+        // move the results into the event
+        event.put(std::make_unique<std::vector<recob::Vertex>>(std::move(vertices)));
 
-// move the results into the event  
-event.put(std::make_unique\<std::vector<recob::Vertex>\>(std::move(vertices)));
+      } // MyProducer::produce()
+```
 
-} // MyProducer::produce()</code>
-
-</pre>
-
-</code>
+  
+```
 
 </pre>
 
 Example of **wrong** behavior:
 
-    <code class="cpp">void MyProducer::produce(art::Event&amp; event) {
+```cpp
+    void MyProducer::produce(art::Event&amp; event) {
 
       // configure the algorithm, provide it inputs...
 
@@ -326,82 +326,78 @@ Example of **wrong** behavior:
       // move the results into the event
       event.put(std::make_unique<std::vector<recob::Vertex>>(vertices));
 
-    } // MyProducer::produce()</code>
+    } // MyProducer::produce()
+```
 
   
 This is the wrong implementation of the option 2, where we do not instruct the algorithm to clear its results, even if it is very likely that the algorithm is still retaining a copy of them.
 
 ## Bad code examples
 
-\# It should never be necessary to know the specific detector we are working on. If you think you need to, please should check with a convener/peer to see if there’s a more elegant alternative.
+1.  It should never be necessary to know the specific detector we are working on. If you think you need to, please should check with a convener/peer to see if there’s a more elegant alternative.
+```cpp
 
-    <code class="cpp">
-    auto const* geom = lar::providerFrom<geo::Geometry>();
-    if (geom->DetectorName() == "ArgoNeuT") {
-      // Do the desired specific ArgoNeuT thing here to get detector constants, e.g.
-    }
-    </code>
+        auto const* geom = lar::providerFrom<geo::Geometry>();
+        if (geom->DetectorName() == "ArgoNeuT") {
+          // Do the desired specific ArgoNeuT thing here to get detector constants, e.g.
+        }
+```
 
-  
-To get configuration for a specific detector, services should be used that are configured for that detector.
+      
+    To get configuration for a specific detector, services should be used that are configured for that detector.
+2.  no hard-coded numbers! these belong to a FHiCL configuration file
+```cpp
 
-\# no hard-coded numbers! these belong to a FHiCL configuration file
+        // Oi!
+          double plane_pitch = 0.3;   //wire plane pitch in cm 
+          double wire_pitch = 0.3;    //wire pitch in cm
+          double Efield_SI = 0.8;   // Electric Field between Shield and Induction planes in kV/cm
+          double Efield_IC = 0.65;     // Electric Field between Induction and Collection
+```
+3.  This is also bad (and at the end of this bad example we show a more correct approach):
+```cpp
 
-    <code class="cpp">
-    // Oi!
-      double plane_pitch = 0.3;   //wire plane pitch in cm 
-      double wire_pitch = 0.3;    //wire pitch in cm
-      double Efield_SI = 0.8;   // Electric Field between Shield and Induction planes in kV/cm
-      double Efield_IC = 0.65;     // Electric Field between Induction and Collection
-    </code>
+        // This first bit is fine ....
+        auto const channel = theWire->Channel();    
+        auto const* geom = lar::providerFrom<geo::Geometry>();
+        auto wireIDs = geom->ChannelToWire(channel); // note that there might be more wires read by the same readout channel
+        auto const&amp; wireID = wireIDs->at(0);
+          // ... But here, we go off the rails.
+        //correct for the distance between wire planes
+        if      (wireID.Plane == 0) time -= tI;         // Induction
+        else if (wireID.Plane == 1) time -= (tI+tC); // Collection
+        // Bit below is especially odious ...
+        switch (wireID.Plane) {
+          case 0:
+            IclusHitlists.push_back(hitlist);
+            break;
+          case 1:     
+            CclusHitlists.push_back(hitlist);
+            break;   
+        } // switch
 
-\# This is also bad (and at the end of this bad example we show a more correct approach):
+```
+    This is how this snippet should look like instead:
+```cpp
 
-    <code class="cpp">
-    // This first bit is fine ....
-    auto const channel = theWire->Channel();    
-    auto const* geom = lar::providerFrom<geo::Geometry>();
-    auto wireIDs = geom->ChannelToWire(channel); // note that there might be more wires read by the same readout channel
-    auto const&amp; wireID = wireIDs->at(0);
-      // ... But here, we go off the rails.
-    //correct for the distance between wire planes
-    if      (wireID.Plane == 0) time -= tI;         // Induction
-    else if (wireID.Plane == 1) time -= (tI+tC); // Collection
-    // Bit below is especially odious ...
-    switch (wireID.Plane) {
-      case 0:
-        IclusHitlists.push_back(hitlist);
-        break;
-      case 1:     
-        CclusHitlists.push_back(hitlist);
-        break;   
-    } // switch
+        auto const* geom = lar::providerFrom<geo::Geometry>();
+        auto const signalType = geom->SignalType(theWire->Channel());
+        switch (signalType) {
+          case geo::kInduction:
+            time -= tI;
+            IclusHitlists.push_back(hitlist);
+            break;
+          case geo::kCollection:
+            time -= (tI+tC);
+            CclusHitlists.push_back(hitlist);
+            break;
+          default:
+            throw art::Exception(art::errors::LogicError) << "Unexpected signal type!\n";   
+        } // switch
+```
 
-</code>  
-This is how this snippet should look like instead:
-
-<pre>
-
-<code class="cpp">  
-auto const\* geom = lar::providerFrom<geo::Geometry>();  
-auto const signalType = geom~~<span style="text-align:right;">SignalType(theWire</span>~~\>Channel());  
-switch (signalType) {  
-case geo::kInduction:  
-time -= tI;  
-IclusHitlists.push_back(hitlist);  
-break;  
-case geo::kCollection:  
-time -= (tI+tC);  
-CclusHitlists.push_back(hitlist);  
-break;  
-default:  
-throw art::Exception(art::errors::LogicError) \<\< “Unexpected signal type!\\n”;  
-} // switch  
-</code>
-
-</pre>
-
-That is: use the right abstraction (here, signal type and channel, instead of wire and plane number), and rely on the geometry service to map readout and geometry.
+      
+    That is: use the right abstraction (here, signal type and channel, instead of wire and plane number), and rely on the geometry service to map readout and geometry.
 
 ## Enforcing LArSoft coding standards
 

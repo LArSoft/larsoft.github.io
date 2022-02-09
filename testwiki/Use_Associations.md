@@ -13,7 +13,9 @@ An example of making an art::Assns can be seen by searching the source code in L
 
 Creating an association between two data products is as simple as getting *art* pointers and use:
 
-    <code class="cpp">assns->addSingle(ptrA, ptrB);</code>
+```cpp
+    assns->addSingle(ptrA, ptrB);
+```
 
   
 As creating *art* pointers to new data products may be complicated, the following example shows the use of art::PtrMaker.
@@ -21,7 +23,8 @@ As creating *art* pointers to new data products may be complicated, the followin
 To create an association in a producer module:
 
 1.  declare that the `art::EDProducer` will produce the desired `art::Assns`, as seen in the this construction:
-        <code class="cpp">
+```cpp
+
           ClusterCheater::ClusterCheater(fhicl::ParameterSet const&amp; pset)
           {
             this->reconfigure(pset);
@@ -29,21 +32,26 @@ To create an association in a producer module:
             produces< std::vector<recob::Cluster> >();
             produces< art::Assns<recob::Cluster, recob::Hit> >();
           }
-        </code>
+```
 2.  in the `produces()` method define the association object as:
-        <code class="cpp">
+```cpp
+
           // collection of new clusters:
           auto clusters = std::make_unique<std::vector<recob::Cluster>>();
           // associations of clusters to hits:
           auto assns = std::make_unique<art::Assns<recob::Cluster, recob::Hit>>();
-        </code>
+```
 
+      
     (`make_unique()` is in the standard C header `<memory>`)
 3.  prepare the `PtrMaker` object which will create pointers to clusters as needed:
-        <code class="cpp">art::PtrMaker<recob::Cluster> makeClusterPtr(event, *this);</code>
+```cpp
+        art::PtrMaker<recob::Cluster> makeClusterPtr(event, *this);
+```
 4.  add the cluster, then the cluster-to-hit associations, one by one;  
     **After** adding the cluster to the collection that is being produced, we make use of the CreateAssn method:
-        <code class="cpp">
+```cpp
+
           // transfer the cluster we created into the cluster collection
           clusters->push_back(std::move(cluster));
           // create a art pointer to that cluster (now the last one in the collection)
@@ -51,11 +59,12 @@ To create an association in a producer module:
           // add an association to each of the hits in the cluster hit list
           for (art::Ptr<recob::Hit> const&amp; hitPtr: clusterHits)
             assns->addSingle(clusterPtr, hitPtr);
-        </code>
+```
 5.  in the end, `put()` the associations into the event:
-        <code class="cpp">
+```cpp
+
           evt.put(assns);
-        </code>
+```
 
 ## Retrieving `art::Assns` from the `art::Event`
 

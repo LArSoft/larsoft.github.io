@@ -1,6 +1,6 @@
 # Update to art v3_02
 
-{{\>TOC}}
+
 
 With [art 3.02.00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_302), art has been split into art and art_root_io. This will allow the use of other IO options in the future.
 
@@ -153,18 +153,18 @@ The symptom:
     [ 68%] Linking CXX shared library ../../../lib/libtest_Algorithms_TotallyCheatTracks_ParticleMaker_m
     odule.so
     CMakeFiles/test_Algorithms_TotallyCheatTracks_ParticleMaker_module.dir/ParticleMaker_module.cc.o: In
-     function `lar::example::tests::ParticleMaker::produce(art::Event&amp;)&#39;:
+     function `lar::example::tests::ParticleMaker::produce(art::Event&amp;)':
     /products/root/v6_16_00/Linux64bit+3.10-2.17-e17-prof/include/TVector3.h:40: undefined reference to 
-    `TObject::~TObject()&#39;
+    `TObject::~TObject()'
     CMakeFiles/test_Algorithms_TotallyCheatTracks_ParticleMaker_module.dir/ParticleMaker_module.cc.o: In
-     function `TObject::TObject(TObject const&amp;)&#39;:
+     function `TObject::TObject(TObject const&amp;)':
     /products/root/v6_16_00/Linux64bit+3.10-2.17-e17-prof/include/TObject.h:264: undefined reference to 
-    `TObject::fgObjectStat&#39;
+    `TObject::fgObjectStat'
     ....
 
     [ 98%] Linking CXX shared library ../../../lib/libtest_Algorithms_TotallyCheatTracks_DumpCheatTracks_module.so
-    CMakeFiles/test_Algorithms_TotallyCheatTracks_DumpCheatTracks_module.dir/DumpCheatTracks_module.cc.o: In function `__static_initialization_and_destruction_0&#39;:
-    /home/garren/scratch/playground/testbuild/build/root/v6_16_00/Linux64bit+3.10-2.17-e17-prof/include/TVersionCheck.h:42: undefined reference to `TVersionCheck::TVersionCheck(int)&#39;
+    CMakeFiles/test_Algorithms_TotallyCheatTracks_DumpCheatTracks_module.dir/DumpCheatTracks_module.cc.o: In function `__static_initialization_and_destruction_0':
+    /home/garren/scratch/playground/testbuild/build/root/v6_16_00/Linux64bit+3.10-2.17-e17-prof/include/TVersionCheck.h:42: undefined reference to `TVersionCheck::TVersionCheck(int)'
 
 The solution:  
 Add ${ROOT_CORE} to the appropriate link list in CMakeLists.txt
@@ -174,12 +174,12 @@ Add ${ROOT_CORE} to the appropriate link list in CMakeLists.txt
 The symptom:
 
     [ 11%] Linking CXX shared library ../../../../lib/libubreco_ShowerReco_ClusterMerging_CMToolBase.so
-    CMakeFiles/ubreco_ShowerReco_ClusterMerging_CMToolBase.dir/CMManagerBase.cxx.o: In function `__static_initialization_and_destruction_0&#39;:
-    /products/art/v3_02_03/include/art/Utilities/SharedResource.h:15: undefined reference to `typeinfo for art::TFileService&#39;
-    CMakeFiles/ubreco_ShowerReco_ClusterMerging_CMToolBase.dir/CMatchManager.cxx.o: In function `__static_initialization_and_destruction_0&#39;:
-    /products/art/v3_02_03/include/art/Utilities/SharedResource.h:15: undefined reference to `typeinfo for art::TFileService&#39;
-    CMakeFiles/ubreco_ShowerReco_ClusterMerging_CMToolBase.dir/CMergeManager.cxx.o: In function `__static_initialization_and_destruction_0&#39;:
-    /products/art/v3_02_03/include/art/Utilities/SharedResource.h:15: undefined reference to `typeinfo for art::TFileService&#39;
+    CMakeFiles/ubreco_ShowerReco_ClusterMerging_CMToolBase.dir/CMManagerBase.cxx.o: In function `__static_initialization_and_destruction_0':
+    /products/art/v3_02_03/include/art/Utilities/SharedResource.h:15: undefined reference to `typeinfo for art::TFileService'
+    CMakeFiles/ubreco_ShowerReco_ClusterMerging_CMToolBase.dir/CMatchManager.cxx.o: In function `__static_initialization_and_destruction_0':
+    /products/art/v3_02_03/include/art/Utilities/SharedResource.h:15: undefined reference to `typeinfo for art::TFileService'
+    CMakeFiles/ubreco_ShowerReco_ClusterMerging_CMToolBase.dir/CMergeManager.cxx.o: In function `__static_initialization_and_destruction_0':
+    /products/art/v3_02_03/include/art/Utilities/SharedResource.h:15: undefined reference to `typeinfo for art::TFileService'
 
 The solution:  
 add ${ART_ROOT_IO_TFILESERVICE_SERVICE} to the appropriate link list
@@ -194,7 +194,7 @@ The symptom:
     unknown location(0): fatal error: in "SimpleStatusTest": cet::coded_exception<fhicl::error,
      &amp;fhicl::detail::translate[abi:cxx11]>: ---- Type mismatch BEGIN
 
-      Unsuccessful attempt to convert FHiCL parameter &#39;BadChannels&#39; to type &#39;std::vector<unsigned int, std::allocator<unsigned int> >&#39;.
+      Unsuccessful attempt to convert FHiCL parameter 'BadChannels' to type 'std::vector<unsigned int, std::allocator<unsigned int> >'.
 
       [Specific error:]
       bad any_cast
@@ -271,16 +271,16 @@ This is the first release of larsoft to use CLHEP 2.4. MixMax is now the default
 
 ### Construction of unused modules
 
-*art* 3.02 unnecessarily constructs modules that have been configured but that are not included on any path. This bug has been document in issue \#22407. The work around is to provide the `&#39;--prune-config&#39;` `lar` program option (e.g. 'lar -c \<my_config.fcl\> —prune-config …').
+*art* 3.02 unnecessarily constructs modules that have been configured but that are not included on any path. This bug has been document in issue \#22407. The work around is to provide the `'--prune-config'` `lar` program option (e.g. 'lar -c \<my_config.fcl\> —prune-config …').
 
 A symptom of the problem:
 
     %MSG-s ArtException:  ClusterCrawler:cccluster@Construction 17-Apr-2019 
     18:47:13 CDT ModuleConstruction
     cet::exception caught in art
-    ---- Can&#39;t find key BEGIN
+    ---- Can't find key BEGIN
        CalDataModuleLabel
-    ---- Can&#39;t find key END
+    ---- Can't find key END
     %MSG
 
 ### Using ROOT in the constructors of services and modules

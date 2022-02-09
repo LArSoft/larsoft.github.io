@@ -35,7 +35,8 @@ Additional requirements for a well-written LArSoft algorithm include:
 
 An algorithm devoted to cluster reconstruction may look as follows. Note this is an example for illustration, not existing code.
 
-    <code class="cpp">
+```cpp
+
 
       /// Include plenty of documentation such as the purpose of the class, what it does, how to use it, any prerequisites, input assumptions, etc.
 
@@ -64,15 +65,16 @@ An algorithm devoted to cluster reconstruction may look as follows. Note this is
       }; // class MyClusterAlg
 
     } // namespace cluster
-    </code>
+```
 
   
 The algorithm might also sport a `void Reconfigure(fhicl::ParameterSet const&amp;)` to change the configuration that was given on construction. It might also have a more compact method
 
-    <code class="cpp">
+```cpp
+
     std::pair<std::vector<recob::Cluster>, std::vector<std::pair<size_t, size_t>>>
     Reconstruct(std::vector<recob::Hit> const&amp; hits);
-    </code>
+```
 
   
 combining the input, reconstruction and output phase; this will reduce flexibility on caller side, but it's easier to write.
@@ -88,7 +90,8 @@ This model is by no mean the only one, but it's a reasonably good one for starti
 
 Other details of the implementation are to the author, as long as their effects are well documented. The complete declaration of the algorithm above might look like:
 
-    <code class="cpp">
+```cpp
+
     namespace cluster {
 
       /**
@@ -190,7 +193,7 @@ Other details of the implementation are to the author, as long as their effects 
       }; // class MyClusterAlg
 
     } // namespace cluster
-    </code>
+```
 
   
 while the implementation would provide the implementation for `cluster::MyClusterAlg::Reconstruct()`.  
@@ -203,7 +206,8 @@ If e.g. `DetectorProperties` provider depends on `LArProperties` provider, and t
 
 The algorithm may obtain other algorithms it needs from the caller, or it can instantiate them by itself, owning them. Depending on the algorithm, one or the other solution are better. We recommend the first second solution to be attempted for the highest-level algorithms, the ones delivering final products, since it makes them easier to use. We recommend that algorithm that instantiate subalgorithms require a separate sub-parameter-set for their configuration, like in:
 
-    <code class="python">
+```python
+
     physics.producers.MyModule: {
       module_type:  MyModule
 
@@ -218,11 +222,12 @@ The algorithm may obtain other algorithms it needs from the caller, or it can in
       }
 
     }
-    </code>
+```
 
 A *art* module running this algorithm would look like this:
 
-    <code class="cpp">
+```cpp
+
     namespace cluster {
 
       /// Never forget plenty of documentation!!
@@ -241,13 +246,14 @@ A *art* module running this algorithm would look like this:
       }; // class MyCluster
 
     } // namespace cluster
-    </code>
+```
 
 It is recommended, but not mandatory, to have the name of the module to reflect the name of the main algorithm when this makes sense.
 
 A possible implementation could follow these lines:
 
-    <code class="cpp">
+```cpp
+
     namespace cluster {
 
       MyCluster::MyCluster(fhicl::ParameterSet const&amp; pset)
@@ -294,7 +300,7 @@ A possible implementation could follow these lines:
       } // MyCluster::produce()
 
     } // namespace cluster
-    </code>
+```
 
   
 The module has the simple task to configure the algorithm, get the input, execute the algorithm, and save the results.  
@@ -345,7 +351,8 @@ The following are not allowed:
 
 About the access to the `Event`: both *art* and gallery have an event type (`art::Event` and `gallery::Event`, respectively), which share some interface outlook (for example, both have a `getValidHandle()` method that returns a `ValidHandle` object whose class is defined in their respective namespace). With some care, it's possible to write code to read from an event object without knowing which that one is. For example:
 
-    <code class="cpp">#include "nusimdata/SimulationBase/MCParticle.h"
+```cpp
+    #include "nusimdata/SimulationBase/MCParticle.h"
     #include "canvas/Utilities/InputTag.h"
     #include <vector>
 
@@ -360,13 +367,15 @@ About the access to the `Event`: both *art* and gallery have an event type (`art
           fMCPart = &amp;*(event.template getValidHandle<std::vector<simb::MCParticle>>(fTruthTag));
         }
 
-    }; // class MyAlg</code>
+    }; // class MyAlg
+```
 
   
 Note that neither *art* nor gallery headers were included; it will be task of the caller to include the proper headers where calling `MyAlg::loadInput()`, and to link to the proper libraries.  
 It is still recommended that this approach is avoided whenever possible, that is when the type being read is already known. For example:
 
-    <code class="cpp">#include "nusimdata/SimulationBase/MCParticle.h"
+```cpp
+    #include "nusimdata/SimulationBase/MCParticle.h"
     #include <vector>
 
     class MyAlg {
@@ -378,7 +387,8 @@ It is still recommended that this approach is avoided whenever possible, that is
           fMCPart = &amp;mcPart;
         }
 
-    }; // class MyAlg</code>
+    }; // class MyAlg
+```
 
   
 which clearly states that the algorithm requires a collection of `simb::MCParticle`.

@@ -8,15 +8,13 @@ A LArSoft service is a class, with a single instance managed by the framework, t
 
 In the context of the *art* framework, a service is implemented as a class with the following requirements:
 
-\# special macros are used to declare and then define factory functions and other things specific to *art*
+1.  special macros are used to declare and then define factory functions and other things specific to *art*
+2.  an implementation file name that follows a pattern like `MyService_service.cc`
+3.  a constructor is available with a specific signature, like
+```cpp
 
-\# an implementation file name that follows a pattern like `MyService_service.cc`
-
-\# a constructor is available with a specific signature, like
-
-    <code class="cpp">
-      MyService(fhicl::ParameterSet const&amp;, art::ActivityRegistry&amp;);
-    </code>
+          MyService(fhicl::ParameterSet const&amp;, art::ActivityRegistry&amp;);
+```
 
 The best practice is to make a service provider (see below) that is as independent as possible from the framework and to use the *art* service class to provide the interface between the service provider and the framework. In other words,
 
@@ -35,25 +33,28 @@ To write services from scratch, one can start with the [examples in larexample r
 
 To get to the functionality, a user needs to ask the framework about the service, and about the provider to the service:
 
-    <code class="cpp">
+```cpp
+
     art::ServiceHandle<geo::Geometry> GeoHandler;
     geo::Geometry const&amp; GeoService = *GeoHandler;
     geo::GeometryCore const* geom = GeoService->provider();
-    </code>
+```
 
   
 or, more compactly,
 
-    <code class="cpp">
+```cpp
+
     geo::GeometryCore const* geom = art::ServiceHandle<geo::Geometry>()->provider();
-    </code>
+```
 
   
 LArSoft provides a utility function `providerFrom()` in `larcore/CoreUtils/ServiceUtils.h` to make this even more compact:
 
-    <code class="cpp">
+```cpp
+
     geo::GeometryCore const* geom = lar::providerFrom<geo::Geometry>();
-    </code>
+```
 
   
 Both the forms can be made even more compact, at the expense of readability, by replacing the provider class name with `auto`: `geo::GeometryCore const* geom` becomes `auto const*`: faster to write, but then one has to figure out where to find the documentation of the interface (hint: start from the service documentation, and a pointer will lead you to the provider).
@@ -75,7 +76,8 @@ At run time, a single implementation will be chosen by *art* depending on the se
 
 The service interface is a (possibly abstract[^1]) class that describes all the service is expected to be able to do. For example[^2]:
 
-    <code class="cpp">
+```cpp
+
     #include "larcorealg/CoreUtils/UncopiableAndUnmovableClass.h"
 
     class DetectorProperties: private lar::UncopiableAndUnmovableClass {
@@ -92,25 +94,27 @@ The service interface is a (possibly abstract[^1]) class that describes all the 
     }; // class DetectorProperties
 
     DECLARE_ART_SERVICE_INTERFACE(DetectorProperties, LEGACY)
-    </code>
+```
 
   
 For a complete example, see [lar::example::ShowerCalibrationGalore](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__ShowerCalibrationGalore.html#details), or `geo::ExptGeoHelperInterface` in `larcore` (Redmine link to [larcore/Geometry/ExptGeoHelperInterface.h](https://cdcvs.fnal.gov/redmine/projects/larcore/repository/revisions/develop/entry/larcore/Geometry/ExptGeoHelperInterface.h) ).
 
 An module or algorithm can use this service by:
 
-    <code class="cpp">
+```cpp
+
     art::ServiceHandle<DetectorProperties> detProp;
     float temperature = detProp->Temperature();
-    </code>
+```
 
   
 or pick the class directly with
 
-    <code class="cpp">
+```cpp
+
     DetectorProperties const* detProp = &amp;(*art::ServiceHandle<DetectorProperties>());
     float temperature = detProp->Temperature();
-    </code>
+```
 
   
 Note that in both cases the service class is dependent on the framework (at very least via the *art* service macros).
@@ -140,7 +144,8 @@ or another one, like:
 
 An implementation class will have a declaration like:
 
-    <code class="cpp">
+```cpp
+
     class DetectorPropertiesStandard: public DetectorProperties {
         public:
 
@@ -160,13 +165,13 @@ An implementation class will have a declaration like:
     }; // class DetectorPropertiesStandard
 
     DECLARE_ART_SERVICE_INTERFACE_IMPL(DetectorPropertiesStandard, DetectorProperties, LEGACY)
-    </code>
+```
 
 Again, this is a standard *art* facility.
 
 ### Service factorization model
 
-![](https://cdcvs.fnal.gov/redmine/attachments/download/29534/ServiceDependency.svg)
+[[assets/img/https://cdcvs.fnal.gov/redmine/attachments/download/29534/ServiceDependency.svg]]
 
 This is a simple scheme of LArSoft services in factorization model:
 
@@ -182,7 +187,8 @@ These requests allow LArSoft to provide a simple function to obtain the provider
 
 An example of service provider may be:
 
-    <code class="cpp">
+```cpp
+
     /// Configuration parameter documentation goes here
     class DetectorProperties {
         public:
@@ -203,14 +209,15 @@ An example of service provider may be:
       float fTemperature; ///< value of argon temperature [K]
 
     }; // class DetectorProperties
-    </code>
+```
 
   
 This class has no dependency on the framework (although it *does* depend on some non-standard library, the FHiCL library). It can be instantiated in a simple unit test with no knowledge of any framework.
 
 To be able to use this service provider as a *art* service, an additional class is required:
 
-    <code class="cpp">
+```cpp
+
     class DetectorPropertiesService {
         public:
       using provider_type = DetectorProperties; ///< type of the service provider
@@ -227,12 +234,13 @@ To be able to use this service provider as a *art* service, an additional class 
     }; // class DetectorPropertiesService
 
     DECLARE_ART_SERVICE(DetectorPropertiesService, LEGACY)
-    </code>
+```
 
   
 and a possible constructor implementation may be:
 
-    <code class="cpp">
+```cpp
+
 
     DetectorPropertiesService::DetectorPropertiesService
       (fhicl::ParameterSet const&amp; pset, art::ActivityRegistry&amp;)
@@ -241,7 +249,7 @@ and a possible constructor implementation may be:
     }
 
     DEFINE_ART_SERVICE(DetectorPropertiesService)
-    </code>
+```
 
   
 An example of this factorization can be seen in the geometry service.  
@@ -250,12 +258,13 @@ The `Geometry` service instead inherits, rather than containing, the provider. T
 
 ### Service interface factorization (e.g., experiment-specific, framework-independent service implementations)
 
-![](https://cdcvs.fnal.gov/redmine/attachments/download/29535/ServiceInterfaceDependency.svg)
+[[assets/img/https://cdcvs.fnal.gov/redmine/attachments/download/29535/ServiceInterfaceDependency.svg]]
 
 The factorization model can be extended to *service interfaces* (which are summarized above).  
 The way to achieve that is by writing an additional, special configuration parameter for the service:
 
-    <code class="python">
+```python
+
     services: {
       IService: {
         service_provider: "ImplAService"
@@ -264,7 +273,7 @@ The way to achieve that is by writing an additional, special configuration param
 
       } # IService
     } # services
-    </code>
+```
 
 The factorization model applies to both the interface and to all the implementations: each of them will be split into a service and a provider.  
 For the interface side, both service and provider are abstract classes:
@@ -299,7 +308,8 @@ The algorithm is prescribed to be portable and with minimal dependencies: it sho
 A recommended pattern is to have an algorithm class with a method that receives and stores pointers to the required providers.  
 In the following example, that method is called `Setup()`:
 
-    <code class="cpp">
+```cpp
+
     namespace ns {
 
       /// Never forget plenty of documentation!!
@@ -325,11 +335,12 @@ In the following example, that method is called `Setup()`:
       }; // class MyAlgorithm
 
     } // namespace ns
-    </code>
+```
 
 An *art* module using this algorithm would look like this:
 
-    <code class="cpp">
+```cpp
+
     #include "larcore/CoreUtils/ServiceUtil.h" // lar::providerFrom()
     // ...
 
@@ -360,7 +371,7 @@ An *art* module using this algorithm would look like this:
       std::unique_ptr<ns::MyAlgorithm> pAlgo; ///< instance of my algorithm
 
     }; // class MyModule
-    </code>
+```
 
 ### Naming conventions
 
@@ -385,7 +396,8 @@ We are currently endorsing the following naming convention:
 The framework service is required to return a working, fully configured provider as the result of a `provider()` call.  
 The service can delay the creation of the provider until then. For example:
 
-    <code class="cpp">
+```cpp
+
     class MyLazyService {
         public:
       using provider_type = MyProvider;
@@ -422,7 +434,7 @@ The service can delay the creation of the provider until then. For example:
     }; // class MyLazyService
 
     DEFINE_ART_SERVICE(MyLazyService)
-    </code>
+```
 
   
 Note that in this paradigm the provider could still get effectively unused.  

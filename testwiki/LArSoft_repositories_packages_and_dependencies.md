@@ -12,9 +12,9 @@ There are three types of core LArSoft repositories:
 
 Note that arrows in the dependency diagram point to repositories that resolve direct dependencies in the repository at the tail of the arrow.
 
-![](structural.png)
+[[assets/img/structural.png]]
 
-![](dependencies.png)
+[[assets/img/dependencies.png]]
 
 ## larg4
 
@@ -98,4 +98,4 @@ The following repositories have no framework dependencies, and can be built and 
 
 The following diagram shows how experiment code fits into the system.
 
-![](experimentcode.png)
+[[assets/img/experimentcode.png]]

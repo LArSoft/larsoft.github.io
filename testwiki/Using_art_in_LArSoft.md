@@ -55,7 +55,8 @@ The `art::Event` is the primary way to access products made by `art::EDProducer`
 
 It also provides the user with information about an event such as the run, event number, etc through methods like
 
-    <code class="cpp">
+```cpp
+
 
     // assume we have an art::Event &amp;evt
 
@@ -75,7 +76,7 @@ It also provides the user with information about an event such as the run, event
 
     // get the event number - this calls a reference to art::EventID().  EventNumber_t is a typedef to unsigned int
     art::EventNumber_t event = evt.id().event();
-    </code>
+```
 
 The header files for the classes mentioned above are at:
 
@@ -88,9 +89,10 @@ The `art::Event` can also be used to access products, by asking it to return an 
 
 An `art::ValidHandle` or an `art::Handle` is what is returned to an *art* module when a data product is requested. The request can either be from a `art::EDProducer` that is attempting to get objects stored in a previous reconstruction or analysis step, or it can be from a `art::EDAnalyzer` that is attempting to do some analysis task using the information in the object. For example, to get the data product `mp::MyProd` from the event, one should do
 
-    <code class="cpp">
+```cpp
+
     auto mplistHandle = evt.getValidHandle<std::vector<mp::MyProd>>("modulelabel");
-    </code>
+```
 
 where `evt` is an object of type `art::Event`.
 
@@ -100,35 +102,39 @@ A `art::ValidHandle` always points to an existing and available data product, an
 
 You can also get all the data product of a given type out of the event using the `art::Event::getByType` method:
 
-    <code class="cpp">
+```cpp
+
     std::vector<art::Handle<std::vector<mp::MyProd>>> mpHandles;
     evt.getManyByType(mpHandles);
-    </code>
+```
 
 Notice that no module label is used because we are getting all objects of the specified type out of the event.
 
 `art::Handle` looks like a pointer in the code in that the data members of the object being handled are accessed using the `->` operator (it's a “smart pointer”). For example, to get the size of the vector of `mp::MyProd` one can do
 
-    <code class="cpp">
+```cpp
+
     mpcollHandle->size();
-    </code>
+```
 
 To use the objects in the handle collection, you can
 
 -   Use the `art::ValidHandle` directly,
-        <code class="cpp">
+```cpp
+
         // in the code below, ev is an art::Event...
         auto hnd = evt.getValidHandle<std::vector<mp::MyProd>>("..."); // use the appropriate input tag, not "..." 
 
         for (mp::MyProd const&amp; prod: *hnd) {
           // do something with prod
         }
-        </code>
+```
 
 <!-- -->
 
 -   Get the collection from the `art::ValidHandle`,
-        <code class="cpp">
+```cpp
+
         // in the code below, ev is an art::Event...
         auto hnd = evt.getValidHandle<std::vector<mp::MyProd>>("..."); // use the appropriate input tag, not "..." 
         std::vector<mp::MyProd> const&amp; prodvec(*hnd);
@@ -136,26 +142,29 @@ To use the objects in the handle collection, you can
         for (mp::MyProd const&amp; prod: prodvec) {
           // do something with prod
         }
-        </code>
+```
 
 Occasionally, it is necessary to sort such a collection, in which case, a sorted container of pointers to the original collection can be used (e.g.):
 
-    <code class="cpp">
+```cpp
+
     std::vector<mp::MyProd const*> ptrColl;
     for (mp::MyProd const&amp; prod: prodvec)
       ptrColl.push_back(&amp;prod);
-    </code>
+```
 
 or, in a more C-aware style using functions from the `algorithm` or `larcorealg/CoreUtils/operations.h` C headers[^1]:
 
-    <code class="cpp">
+```cpp
+
     std::vector<mp::MyProd const*> ptrColl(prodvec.size());
     std::transform(cbegin(prodvec), cend(prodvec), begin(ptrColl), [](auto&amp; p) { return &amp;p; }); 
 
     // or using the LArSoft utility:
     std::transform(cbegin(prodvec), cend(prodvec), begin(ptrColl), util::takeAddress);
-    </code>
+```
 
+  
 ([`util::takeAddress()`](https://nusoft.fnal.gov/larsoft/doxsvn/html/namespaceutil.html#a1b7b3801e849acc3b819c67e57bff2f3) is defined in <span style="font-style: monospace;">larcorealg:source:larcorealg/CoreUtils/operations.h</span>).
 
 Also remember that as long as the pointers in your collection are from the data product, you can track back the index of the item in the data product (for example, `prodPtr - &amp;prodvec.front()` for your vector of pointers, and `prodIter - prodvec.begin()`, or `std::distance(prodvec.begin(), prodIter)`, for iterator vectors).
@@ -164,11 +173,12 @@ In all cases, you won't be able to change the *content* of a `mp::MyProd` object
 
 **NB** Only `art::PtrVector<mp::MyProd>` and `std::vector<art::Ptr<mp::MyProd>>` correctly save the references to objects made in other modules, so if you want to save the collection, it must be one of them:
 
-    <code class="cpp">
+```cpp
+
     art::PtrVector<mp::MyProd> ptrColl;
     for (size_t i = 0; i < hnd->size(); ++i)
       ptrColl.push_back( { hnd, i } );
-    </code>
+```
 
   
 (the braces construct in place the argument that `art::PtrVector::push_back` expects, that is a `art::Ptr<mp::MyProd>`, out of the handle and the index of the element in the data product that handle points to).
@@ -180,19 +190,21 @@ In all cases, you won't be able to change the *content* of a `mp::MyProd` object
 The upcast on read functionality can be used to read back objects written into a file that follow a simple inheritance scheme, i.e. reading in objects of a derived type using the base class type.  
 For instance, imagine that `recob::Track` inherited from a `recob::Prong`. A collection of tracks, data product of type `std::vector<recob::Track>`, can be retrieved from the `art::Event` by passing a `std::vector<recob::Prong const*>` to the `art::Event::getView()` method:
 
-    <code class="cpp">
+```cpp
+
     // declare the std::vector
     std::vector<const recob::Prong*> prongs;
 
     // Read in the list of recob::Tracks we made in fTrackInputTag as recob::Prongs.
     evt.getView(fTrackInputTag, prongs)
-    </code>
+```
 
 If you write an algorithm (a function) that uses prongs in this way:
 
-    <code class="cpp">
+```cpp
+
     void doSomething(std::vector<recob::Prong const*>&amp; prongs);
-    </code>
+```
 
   
 you can use it with any data product derived from `recob::Prong`.
@@ -208,7 +220,8 @@ This is a utility that will search a list of predefined directories for a relati
 An example of using `cet::search_path` to find a file your code needs can be found in [LArSoft's `ShowerCalibrationGaloreByPID` example (`OpenROOTdirectory` method)](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/revisions/develop/entry/larexamples/Services/ShowerCalibrationGalore/Providers/ShowerCalibrationGaloreFromPID.cxx).  
 Here is another:
 
-    <code class="cpp">
+```cpp
+
     // this is the name of the GDML file, from configuration
     std::string GDMLname = pset.get<std::string>("GDML");
 
@@ -220,9 +233,9 @@ Here is another:
     if (!sp.find_file(GDMLname, fGDMLFile) {
       // failed to resolve the file name
       throw art::Exception(art::errors::Configuration)
-        << "geometry file &#39;" << GDMLname << "&#39; not found!";
+        << "geometry file '" << GDMLname << "' not found!";
     }
-    </code>
+```
 
 ### FHiCL configuration: `fhicl::ParameterSet` and `fhicl::Table`
 
@@ -263,9 +276,10 @@ A *art* service can be used within any *art* module. Services can be configured 
 LArSoft services pursue the factorization of the services into a framework interface (*art* service described above) and a *service provider* independent of any framework.  
 For this reason you will see calls to LArSoft's `lar::providerFrom()` in place of the `art::ServiceHandle` instance you would expect. For example:
 
-    <code class="cpp">
+```cpp
+
     auto const* geom = lar::providerFrom<geo::Geometry>();
-    </code>
+```
 
   
 replaces `art::ServiceHandle<geo::Geometry> geom;`. The `auto` type is effective type of the service provider, that is not `geo::Geometry`.  
@@ -275,7 +289,8 @@ We encourage to call `lar::providerFrom()` no more than once per event (and sugg
 
 This is a specialized service that connects up to the file where histograms made by modules are to be stored. It provides a mechanism for making `TObject` to be stored in that file and managing the memory for those objects. For example
 
-    <code class="cpp">
+```cpp
+
         // get the geometry to figure out something for the histogram
         auto const* geom = lar::providerFrom<geo::Geometry>();
 
@@ -292,7 +307,7 @@ This is a specialized service that connects up to the file where histograms made
         // (therefore, no additional constructor arguments) and will set number of points and values later
         fGraph   = tfs->makeAndRegister<TGraph>("channelGraph", "Graph title;channel;# PE");
 
-    </code>
+```
 
 ### [Message Facility](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility) and MessageLogger
 
@@ -324,19 +339,21 @@ The levels most likely to be useful are LOG_DEBUG, mf::LogInfo, mf::LogVerbatim,
 
 In order to issue messages, the module must include the MessageLogger header:
 
-    <code class="c">
+```c
+
     #include "messagefacility/MessageLogger/MessageLogger.h"
-    </code>
+```
 
 Having included the necessary MessageLogger header, when code wishes to issue a message, one of these functions can be used:
 
-    <code class="c">
+```c
+
     mf::LogError    ("category") << a << b << ... << z;
     mf::LogWarning  ("category") << a << b << ... << z;
     mf::LogInfo     ("category") << a << b << ... << z;
     mf::LogVerbatim ("category") << a << b << ... << z;
     LOG_DEBUG       ("category") << a << b << ... << z;
-    </code>
+```
 
 The easiest way to produce output that is formatted to your specifications is to emply the mf::LogVerbatim level. This level has absolutely no extra formatting from the message service tacked on to it and most closely resembles what one would expect from std::cout.
 
@@ -407,7 +424,7 @@ If instead, you want to add some message printing for info level messages you ca
        threshold: "INFO"      #tells the message service that this destination applies to INFO and higher level messages
        append:    true        #says to append all messages to the output
        categories{
-         default:        {limit: 0}  #don&#39;t print anything at the infomsg level except the explicitly named categories
+         default:        {limit: 0}  #don't print anything at the infomsg level except the explicitly named categories
          YourStringHere: {limit: 100 timespan: 60 }
          YourOtherString:{limit: 1   timespan: 1000} 
       }
@@ -420,9 +437,10 @@ art::Exception is defined in canvas (./canvas/Utilities/Exception.h).
 
 The use of the art::Exception can be configured to skip a module, or skip to the next event, run, etc. Different exception classes can be set to do different things. Since LArSoft is built upon art, the art::Exception is preferred to the cet::exception.
 
-    <code class="c">
+```c
+
     if(x > 2) throw art::Exception("SomeUsefulDescription") << "x = " << x << " is too big";
-    </code>
+```
 
 The default behavior of the framework upon catching an exception is to rethrow (except for some system exceptions, which skip the event). However, one can specify the behavior for exceptions with the following configuration fragment:
 
@@ -444,10 +462,11 @@ The art::Ptr<T> is a template class that acts like a ROOT TRef. It provides a li
 
 An art::Ptr<T> can only be made from an object that has been stored in the event record and is being fetched from the event record. Put another way, you can only make an art::Ptr<T> if you have an art::Handle to a collection of objects of type T. art::Ptr<T> cannot be instantiated like an object of type T,
 
-    <code class="c">
+```c
+
     // The following line will NOT work
     art::Ptr<T> myt = new T(); 
-    </code>
+```
 
 or similar will not work because the object you are interested in for that code has not been first stored in the event record.
 
@@ -464,7 +483,8 @@ source:trunk/Utilities/AssociationUtil.h There are also methods to retrieve a co
 
 To make use of the associations and retrieve objects from the file, one would do
 
-    <code class="cpp">
+```cpp
+
 
     // below trackListHandle is of type art::Handle< std::vector<recob::Track> >, 
     // evt is an art::Event, and trackCreatorModule is an std::string holding the 
@@ -483,7 +503,7 @@ To make use of the associations and retrieve objects from the file, one would do
     for(size_t t = 0; t < trackListHandle->size(); ++t){
        std::vector<art::Ptr<recob::Hit> > hits = fmh.at(t);
     }
-    </code>
+```
 
 One can also use the art::FindOne and art::FindOneP, see the detailed description on how to use art::Assns is [here.](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Inter-Product_References) The art::FindOne returns a cet::maybe_ref, whose interface is defined [here.](http://cdcvs.fnal.gov/lxr/cetlib/source/cetlib/maybe_ref.h#044) The cet::maybe_ref can be tested for validity, allowing a user to be sure a valid association was created.
 

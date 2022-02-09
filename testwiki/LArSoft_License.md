@@ -1,6 +1,6 @@
 # LArSoft License
 
-{{\>TOC}}
+
 
 LArSoft proposes using the [Apache v2](http://www.apache.org/licenses/LICENSE-2.0) license. This page contains a list of products that larsoft links against.
 

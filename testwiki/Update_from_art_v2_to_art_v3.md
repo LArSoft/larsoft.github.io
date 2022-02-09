@@ -1,6 +1,6 @@
 # Update from art v2 to art v3
 
-{{\>TOC}}
+
 
 Use of art [v3_00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_300) involves a number of \[\[art:300_breaking_changes\|breaking changes\]\].  
 Please see Kyle's presentation on [problems found in the code](https://indico.fnal.gov/event/18618/contribution/5/material/slides/0.pdf).
@@ -64,33 +64,30 @@ Please see Kyle's presentation on [problems found in the code](https://indico.fn
 
 ## using getEngine
 
-\* getEngine is designed to be called within a module.
+-   getEngine is designed to be called within a module.
+-   For calls which are not part of a constructor:
+```diff
 
-\* For calls which are not part of a constructor:
+           art::ServiceHandle<art::RandomNumberGenerator> rng;
+        -  CLHEP::HepRandomEngine &amp;engine = rng->getEngine();
+        +  CLHEP::HepRandomEngine &amp;engine = rng->getEngine(art::ScheduleID::first(),
+        +                                                  moduleDescription().moduleLabel());
+           CLHEP::RandFlat   flat(engine);
+```
+-   For calls within a constructor:
+```diff
 
-    <code class="diff">
-       art::ServiceHandle<art::RandomNumberGenerator> rng;
-    -  CLHEP::HepRandomEngine &amp;engine = rng->getEngine();
-    +  CLHEP::HepRandomEngine &amp;engine = rng->getEngine(art::ScheduleID::first(),
-    +                                                  moduleDescription().moduleLabel());
-       CLHEP::RandFlat   flat(engine);
-    </code>
-
-\* For calls within a constructor:
-
-    <code class="diff">
-     MyModule::MyModule(fhicl::ParameterSet const &amp; pset)
-    -  : ...
-    +  : EDProducer(pset), ...
-    ...
-       createEngine(sim::GetRandomNumberSeed());
-       art::ServiceHandle<art::RandomNumberGenerator> rng;
-    -  CLHEP::HepRandomEngine &amp;engine = rng->getEngine();
-    +  CLHEP::HepRandomEngine &amp;engine = rng->getEngine(art::ScheduleID::first(),
-    +                                                  pset.get<std::string>("module_label");
-       fFlatRandom = new CLHEP::RandFlat(engine);
-    </code>
-
+         MyModule::MyModule(fhicl::ParameterSet const &amp; pset)
+        -  : ...
+        +  : EDProducer(pset), ...
+        ...
+           createEngine(sim::GetRandomNumberSeed());
+           art::ServiceHandle<art::RandomNumberGenerator> rng;
+        -  CLHEP::HepRandomEngine &amp;engine = rng->getEngine();
+        +  CLHEP::HepRandomEngine &amp;engine = rng->getEngine(art::ScheduleID::first(),
+        +                                                  pset.get<std::string>("module_label");
+           fFlatRandom = new CLHEP::RandFlat(engine);
+```
 -   Calls to getEngine which are not part of a module require expert help to fix.
     -   The solution involves passing in a moduleDescription from the calling function.
 
@@ -98,30 +95,33 @@ Please see Kyle's presentation on [problems found in the code](https://indico.fn
 
 The signature of preProcessEvent now requires two arguments:
 
-    <code class="diff">
+```diff
+
            virtual void   reconfigure(fhicl::ParameterSet const&amp; pset) override;
     -      void   preProcessEvent(const art::Event&amp; evt);
     +      void   preProcessEvent(const art::Event&amp; evt, art::ScheduleContext);
            void   postOpenFile(const std::string&amp; filename);
-    </code>
+```
 
   
 preProcessEvent is designed to be called by the framework. It should never be called directly. However, the following temporary solution is possible.
 
-    <code class="diff">
+```diff
+
          // it requires a specific implementation of DetectorClocksService.
          art::ServiceHandle<detinfo::DetectorClocksServiceStandard> tss;
          // In case trigger simulation is run in the same job...
     -    tss->preProcessEvent(evt);
     +    //FIXME: you should never call preProcessEvent
     +    tss->preProcessEvent(evt, art::ScheduleContext::invalid());
-    </code>
+```
 
 ## `HoughBaseAlg` transform interface changes
 
 All `HoughBaseAlg::Transform` and `HoughBaseAlg::FastTransform` functions now require a `CLHEP::HepRandomEngine&amp;` reference argument to be passed in. The location of the argument depends on the specific function being called.
 
-    <code class="diff">
+```diff
+
       size_t FastTransform(std::vector<art::Ptr<recob::Cluster>> const&amp; clusIn,
                            std::vector<recob::Cluster>&amp; ccol,  
                            std::vector< art::PtrVector<recob::Hit>>&amp; clusHitsOut,
@@ -151,37 +151,38 @@ All `HoughBaseAlg::Transform` and `HoughBaseAlg::FastTransform` functions now re
     +      CLHEP::HepRandomEngine&amp; engine,
            std::vector<double>&amp; slope,
            std::vector<ChargeInfo_t>&amp; totalQ);
-    </code>
+```
 
 ## `fuzzyClusterAlg::run_fuzzy_cluster`
 
 The `fuzzyClusterAlg::run_fuzzy_cluster` call now requires an explicit reference to a `CLHEP::HepRandomEngine` object:
 
-    <code class="diff">
+```diff
+
     -    void run_fuzzy_cluster(const std::vector<art::Ptr<recob::Hit> >&amp; allhits);
     +    void run_fuzzy_cluster(const std::vector<art::Ptr<recob::Hit> >&amp; allhits,
     +                           CLHEP::HepRandomEngine&amp; engine);
-    </code>
+```
 
 ## `PtrMaker`
 
-\* art::PtrMaker no longer requires a *\*this* reference. See [the miscellaneous breaking changes of art v3](https://cdcvs.fnal.gov/redmine/projects/art/wiki/300_breaking_changes#Miscellaneous-changes).
+-   art::PtrMaker no longer requires a *\*this* reference. See [the miscellaneous breaking changes of art v3](https://cdcvs.fnal.gov/redmine/projects/art/wiki/300_breaking_changes#Miscellaneous-changes).
+-   Remove *\*this* from the instantiations:
+```diff
 
-\* Remove *\*this* from the instantiations:
-
-    <code class="diff">
-    -  art::PtrMaker<recob::Shower> ptrMaker(event, *this);
-    +  art::PtrMaker<recob::Shower> ptrMaker(event);
-    </code>
+        -  art::PtrMaker<recob::Shower> ptrMaker(event, *this);
+        +  art::PtrMaker<recob::Shower> ptrMaker(event);
+```
 
 ## `WeightCalc` subclasses
 
 The `RandomNumberGenerator::getEngine(...)` function cannot be called in any of the classes that inherit from `evwgh::WeightCalc`. To provide random-number engine access, an additional argument has been added to the `Configure` function. Please make the following change:
 
-    <code class="diff">
+```diff
+
     - Configure(fhicl::ParameterSet const&amp;) override
     + Configure(fhicl::ParameterSet const&amp;, CLHEP::HepRandomEngine&amp; engine) override
-    </code>
+```
 
 where the `engine` reference can be used to create any CLHEP random-number distribution. Note that the `engine` variable is a reference to an *art*-owned engine.
 

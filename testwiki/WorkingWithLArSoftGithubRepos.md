@@ -1,6 +1,6 @@
 # Working With LArSoft Github Repositories
 
-{{\>TOC}}
+
 
 This page is for LArSoft users who need to check out LArSoft repositories from GitHub, and for those who need to commit changes back to LArSoft. The latter requires creation of a pull request from a personal GitHub account.
 

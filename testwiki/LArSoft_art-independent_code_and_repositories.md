@@ -13,7 +13,7 @@ This LArSoft policy establishes:
 -   where new code should be added, according to the new code functionality
 -   where existing *art*-independent code should be moved
 
-One of the [LArSoft design principles](http://larsoft.org/important-concepts-in-larsoft/design/) requires the separation of framework and algorithm code. This is done by encapsulating algorithms, configuration, tools and utilities into a layer that is independent of the framework and external products. This is often called the ['factorization model](http://larsoft.org/services/&#39;). It prescribes:
+One of the [LArSoft design principles](http://larsoft.org/important-concepts-in-larsoft/design/) requires the separation of framework and algorithm code. This is done by encapsulating algorithms, configuration, tools and utilities into a layer that is independent of the framework and external products. This is often called the ['factorization model](http://larsoft.org/services/'). It prescribes:
 
 -   “algorithmic” code providing the actual software functionality, as portable as possible and framework-independent
 -   interface between the “algorithmic” and LArSoft code, usually depending on the [*art*](https://cdcvs.fnal.gov/redmine/projects/art) framework

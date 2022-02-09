@@ -1,6 +1,6 @@
 # LArSoft Release Build Preliminary Steps
 
-{{\>TOC}}
+
 
 ## Send announcement
 
