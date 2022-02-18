@@ -4,7 +4,7 @@
 
 This page describes the job configuration file (often, in jargon: *FHiCL file*) and how to run a job using one.
 
-It is assumed that you have previously read the [ Quick-start guide to using and developing LArSoft code ](_Quick-start_guide_to_using_and_developing_LArSoft_code_) and the information on \[\[Using LArSoft on the GPVM nodes\]\].
+It is assumed that you have previously read the [Quick-start guide to using and developing LArSoft code](Quick-start_guide_to_using_and_developing_LArSoft_code) and the information on \[\[Using LArSoft on the GPVM nodes\]\].
 
 ## The Job Configuration
 
