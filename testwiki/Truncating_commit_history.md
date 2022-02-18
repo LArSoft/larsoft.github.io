@@ -1,6 +1,6 @@
 # Truncating commit history
 
-{{\>toc}}
+
 
 ## Redmine to Github migration of all relevant branches.
 

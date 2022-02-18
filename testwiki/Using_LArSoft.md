@@ -1,4 +1,4 @@
-{{\>toc}}
+
 
 -   [Quick_Links](Quick_Links)
 -   [Concepts in LArSoft](http://larsoft.org/important-concepts-in-larsoft/)

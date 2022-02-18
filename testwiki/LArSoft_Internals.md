@@ -1,6 +1,6 @@
 # LArSoft Internals
 
-{{\>toc}}
+
 
 ## LArSoft code management and distribution
 

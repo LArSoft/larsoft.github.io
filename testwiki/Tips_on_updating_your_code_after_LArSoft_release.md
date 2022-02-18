@@ -1,6 +1,6 @@
 # Tips on updating your code after LArSoft release
 
-{{\>toc}}
+
 
 LArSoft releases happen often, and code that worked fine with one version might even not work on the next.  
 Here is some tips on updating your code so that it's back and rocking.

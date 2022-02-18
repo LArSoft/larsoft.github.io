@@ -1,4 +1,4 @@
-{{\>toc}}
+
 
 # Using art in LArSoft
 

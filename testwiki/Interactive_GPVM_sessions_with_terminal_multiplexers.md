@@ -1,6 +1,6 @@
 # Interactive GPVM sessions with terminal multiplexers
 
-{{\>toc}}
+
 
 > This is an introduction to the concepts and a few hints on how to use a terminal multiplexer.  
 > Feel free to expand with your own content and experience.

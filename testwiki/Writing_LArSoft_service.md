@@ -1,4 +1,4 @@
-{{\>toc}}
+
 
 %{ font-style: italic ; font-weight: bolder ; background: orange }Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html.%)
 
@@ -171,7 +171,7 @@ Again, this is a standard *art* facility.
 
 ### Service factorization model
 
-[[https://cdcvs.fnal.gov/redmine/attachments/download/29534/ServiceDependency.svg]]
+![](https://cdcvs.fnal.gov/redmine/attachments/download/29534/ServiceDependency.svg)
 
 This is a simple scheme of LArSoft services in factorization model:
 
@@ -258,7 +258,7 @@ The `Geometry` service instead inherits, rather than containing, the provider. T
 
 ### Service interface factorization (e.g., experiment-specific, framework-independent service implementations)
 
-[[https://cdcvs.fnal.gov/redmine/attachments/download/29535/ServiceInterfaceDependency.svg]]
+![](https://cdcvs.fnal.gov/redmine/attachments/download/29535/ServiceInterfaceDependency.svg)
 
 The factorization model can be extended to *service interfaces* (which are summarized above).  
 The way to achieve that is by writing an additional, special configuration parameter for the service:

@@ -1,6 +1,6 @@
 # LArSoft examples
 
-{{\>toc}}
+
 
 > Note that a single example is often not enough for your real purpose.  
 > We expect users to copy pieces from different examples to make up their solution, and the `README` files try to highlight which are the most serviceable parts to be exported to other code.

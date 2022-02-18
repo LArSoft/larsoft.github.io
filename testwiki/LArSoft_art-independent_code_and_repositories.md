@@ -1,6 +1,6 @@
 # LArSoft art-independent code and repositories
 
-{{\>toc}}
+
 
 ## Background
 
