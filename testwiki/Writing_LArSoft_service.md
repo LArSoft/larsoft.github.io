@@ -1,6 +1,6 @@
 
 
-%{ font-style: italic ; font-weight: bolder ; background: orange }Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html.%)
+\*%{color: orange}Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html.%*)
 
 # Guidelines on writing (and using) services in LArSoft
 
