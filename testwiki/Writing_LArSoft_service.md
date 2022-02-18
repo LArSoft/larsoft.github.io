@@ -1,6 +1,6 @@
 
 
-\*%{color: orange}Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html.%*)
+**<span style="color: orange;">Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html) .</span>**
 
 # Guidelines on writing (and using) services in LArSoft
 
