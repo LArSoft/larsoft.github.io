@@ -1,19 +1,18 @@
-LArSoft v06_15_00 Release Notes
-======================================================================
+# LArSoft v06_15_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06_15_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_15_00/larsoft-v06_15_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v06_15_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_15_00/larsoft-v06_15_00.html)  
 Download instructions for [just larsoftobj v1_08_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_08_01/larsoftobj-v1_08_01.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes in develop
 -   add larwirecell
 -   update larpandoracontent
 
-New features
-------------------------------
+## New features
 
 -   add larwirecell to larsoft
     -   wirecell, eigen, and jsoncpp added to the larsoft products
@@ -23,29 +22,26 @@ New features
     -   dunetpc feature/SettingsFor_LArPandoraContent_v03_01_00
     -   sbndcode feature/SettingsFor_LArPandoraContent_v03_01_00
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   remove accidental use of BASENAME_ONLY from larsim/EventGenerator/MARLEY/CMakeLists.txt and lareventdisplay/Landed/CMakeLists.txt
 -   ifhdc_config v2_0_2
     -   finally fixes OSX ifdhc problems
     -   path must have a trailing slash
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-||
-|Product|Version|Qualifiers|Notes|
-|wirecell|v0_0_3|e10|new|
-|jsoncpp|v1_7_2|e10|new|
-|eigen|v3_2_9a||new|
-|ifdhc_config|v2_0_2|||
+|              |          |            |       |
+|--------------|----------|------------|-------|
+| Product      | Version  | Qualifiers | Notes |
+| wirecell     | v0_0_3  | e10        | new   |
+| jsoncpp      | v1_7_2  | e10        | new   |
+| eigen        | v3_2_9a |            | new   |
+| ifdhc_config | v2_0_2  |            |       |
 
-Change List
-============================
+# Change List
 
-larsoft v06_15_00
-------------------------------------------
+## larsoft v06_15_00
 
 -   2016-11-16 Lynn Garren : larsoft v06_15_00 for larsoft v06_15_00
 -   2016-11-16 Lynn Garren : add larwirecell
@@ -55,31 +51,27 @@ larsoft v06_15_00
 -   2016-11-16 Lynn Garren : control the version of ifdhc_config
 -   2016-11-14 Lynn Garren : add wirecell to the larsoft distribution
 
-lareventdisplay v06_02_01
-----------------------------------------------------------
+## lareventdisplay v06_02_01
 
 -   2016-11-16 Lynn Garren : lareventdisplay v06_02_01 for larsoft v06_15_00
 -   2016-11-16 Lynn Garren : standardizing cmake usage
 
-larexamples v06_01_03
---------------------------------------------------
+## larexamples v06_01_03
 
 -   2016-11-16 Lynn Garren : larexamples v06_01_03 for larsoft v06_15_00
 
-larpandora v06_03_00
-------------------------------------------------
+## larpandora v06_03_00
 
 -   2016-11-16 Lynn Garren : larpandora v06_03_00 for larsoft v06_15_00
 -   2016-11-15 John Marshall : Update configuration for LArPandoraContent v03_01_00.
 
-larwirecell v06_00_00
---------------------------------------------------
+## larwirecell v06_00_00
 
 -   2016-11-16 Lynn Garren : larwirecell for larsoft v06_15_00
 -   2016-11-16 Lynn Garren : fix cmake
 -   2016-11-15 Lynn Garren : align with larsoft coding standards
 -   2016-11-15 Lynn Garren : needed for standalone build
--   2016-11-15 Lynn Garren : Merge branch ‘wirecell_ups_test’ into release/v06_15_00
+-   2016-11-15 Lynn Garren : Merge branch 'wirecell_ups_test' into release/v06_15_00
 -   2016-11-15 Usher, Tracy L : Removed reference to uboonecode library
 -   2016-11-15 Lynn Garren : make sure we can find the jsoncpp headers
 -   2016-11-15 Lynn Garren : wirecell depends on jsoncpp and eigen, no need to list them independently
@@ -97,15 +89,13 @@ larwirecell v06_00_00
 -   2016-06-24 David Adams : Start package with single include.
 -   2016-06-24 David Adams : Initial commit
 
-larana v06_03_05
-----------------------------------------
+## larana v06_03_05
 
 -   2016-11-16 Lynn Garren : larana v06_03_05 for larsoft v06_15_00
--   2016-11-14 Herbert Greenlee : Merge remote-tracking branch ‘origin/v05_07_00_br’ into develop
+-   2016-11-14 Herbert Greenlee : Merge remote-tracking branch 'origin/v05_07_00_br' into develop
 -   2016-11-03 Herbert Greenlee : Change beam gate time to trigger time.
 
-larreco v06_11_00
-------------------------------------------
+## larreco v06_11_00
 
 -   2016-11-16 Lynn Garren : larreco v06_11_00 for larsoft v06_15_00
 -   2016-11-16 Robert Sulej : add more info to tree
@@ -118,46 +108,38 @@ larreco v06_11_00
 -   2016-11-11 Mike Wallbank : retune
 -   2016-11-11 Mike Wallbank : Save more space points from EMShower and also save hit associations
 -   2016-11-10 Mike Wallbank : Bug fixes and general improvements to space point reconstruction in EMShower
--   2016-11-10 Mike Wallbank : Merge branch ‘develop’ into feature/wallbank_EMShowerImprovements
+-   2016-11-10 Mike Wallbank : Merge branch 'develop' into feature/wallbank_EMShowerImprovements
 -   2016-11-10 Mike Wallbank : Updates and improvements to EMShower space point finding
 -   2016-11-09 Mike Wallbank : Changed the way space point are saved by the EMShower module. As opposed to using just those made by PMTrack, the algorithm now creates its own based on the associated hits in each view
 
-larsim v06_07_00
-----------------------------------------
+## larsim v06_07_00
 
 -   2016-11-16 Lynn Garren : larsim v06_07_00 for larsoft v06_15_00
--   2016-11-16 Lynn Garren : Merge branch ‘save_changes’ into release/v06_15_00
+-   2016-11-16 Lynn Garren : Merge branch 'save_changes' into release/v06_15_00
 -   2016-11-16 Lynn Garren : standardizing cmake usage
 -   2016-11-15 Jeremy Hewes : Added event generator module for GENIE neutron-antineutron oscillation.
 -   2016-11-15 Tingjun Yang : Update NucleonDecay_module.cc to be compatible with genie 2.12. The default decay mode is still p-\>nubar K+.
 
-larevt v06_06_01
-----------------------------------------
+## larevt v06_06_01
 
 -   2016-11-16 Lynn Garren : larevt v06_06_01 for larsoft v06_15_00
 
-lardata v06_09_01
-------------------------------------------
+## lardata v06_09_01
 
 -   2016-11-16 Lynn Garren : lardata v06_09_01 for larsoft v06_15_00
 
-larcore v06_04_01
-------------------------------------------
+## larcore v06_04_01
 
 -   2016-11-16 Lynn Garren : larcore v06_04_01 for larsoft v06_15_00
 -   2016-11-11 Gianluca Petrillo : Added WireGeo::Length().
 
-larsoftobj v1_08_01
-----------------------------------------------
+## larsoftobj v1_08_01
 
-lardataobj v1_07_02
-----------------------------------------------
+## lardataobj v1_07_02
 
-larcoreobj v1_06_01
-----------------------------------------------
+## larcoreobj v1_06_01
 
-larbatch v01_24_00
---------------------------------------------
+## larbatch v01_24_00
 
 -   2016-11-16 Lynn Garren : larbatch v01_24_00 for larsoft v06_15_00
 -   2016-11-15 Joel Mousseau : Fix a bug in quick check
@@ -182,13 +164,12 @@ larbatch v01_24_00
 -   2016-08-05 Joel Mousseau : Add in code to run multiple lar Stages in one worker node
 -   2016-07-13 Joel Mousseau : First import of on-grid validation scripts
 -   2016-11-14 Herbert Greenlee : Changes to reduce hang risk.
--   2016-11-14 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
+-   2016-11-14 Herbert Greenlee : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
 -   2016-11-11 Herbert Greenlee : Function walk should not raise exception if directory does not exist.
 -   2016-11-11 Lynn Garren : larsoft v06_14_00
 -   2016-11-10 Herbert Greenlee : Optimize larbatch_posix.isdir and larbatch_posix.walk to improve speed and reduce hang risk.
 
-larutils v1_11_00
-------------------------------------------
+## larutils v1_11_00
 
 -   2016-11-16 Lynn Garren : larutils v1_11_00 for larsoft v06_15_00
 -   2016-11-14 Lynn Garren : no need to define basequal

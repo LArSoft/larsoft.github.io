@@ -1,5 +1,4 @@
-Informal list of experiment contacts
-==============================================================================
+# Informal list of experiment contacts
 
 This is an informal list of people we contact when there are problems with experiment code.
 
@@ -10,7 +9,7 @@ This is an informal list of people we contact when there are problems with exper
     -   Thomas R. Junk
     -   Tingjun Yang
     -   Jacob Calcultt (release manager)
-    -   Etienne CHARDONNET
+    -   Etienne Chardonnet
 -   icaruscode
     -   Tracy Usher
     -   Sergey Martynenko (BNL)
@@ -20,10 +19,10 @@ This is an informal list of people we contact when there are problems with exper
     -   Jonathan Asaadi
 -   sbndcode
     -   Patrick Green (release manager)
-    -   Brailsford, Dominic
+    -   Dominic Brailsford
     -   Andrzej Szelc
 -   uboonecode
-    -   Herbert Greenlee
+    -   Herb Greenlee
     -   Ran Itay (release manager)
 -   sbn
     -   Miquel Nebot-Guinot (release manager)

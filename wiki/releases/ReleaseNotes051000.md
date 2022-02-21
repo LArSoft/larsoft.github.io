@@ -1,37 +1,33 @@
-LArSoft v05_10_00 Release Notes
-======================================================================
+# LArSoft v05_10_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_10_00/larsoft-v05_10_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   Approved changes and nutools bug fix
 
-New features
-------------------------------
+## New features
 
 -   larsim LArSeedService is included but not used
 -   larreco TrajCluster
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   The tweaking dial that GENIE uses to vary the model parameters is passed thanks to helper functions in nutools GENIEReweight.cxx. However, this code had a bug such that Deep Inelastic Scattering events always had weight 1. The fix was supplied by Marco Del Tutto.
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-||
-|Product|Version|Qualifiers|Notes|
-|nutools|v1_24_03|e9||
+|         |          |            |       |
+|---------|----------|------------|-------|
+| Product | Version  | Qualifiers | Notes |
+| nutools | v1_24_03 | e9         |       |
 
-Change List
-============================
+# Change List
 
-larsoft v05_10_00
-------------------------------------------
+## larsoft v05_10_00
 
 -   2016-04-27 Lynn Garren : larsoft v05_10_00 for larsoft v05_10_00
 -   2016-04-27 Lynn Garren : update dependency database
@@ -41,33 +37,28 @@ larsoft v05_10_00
 -   2016-04-25 Gianluca Petrillo : Update for moving from SeedService to LArSeedService
 -   2016-04-21 Lynn Garren : mrb v1_06_04
 
-lareventdisplay v05_06_05
-----------------------------------------------------------
+## lareventdisplay v05_06_05
 
 -   2016-04-27 Lynn Garren : lareventdisplay v05_06_05 for larsoft v05_10_00
 
-larexamples v05_06_05
---------------------------------------------------
+## larexamples v05_06_05
 
 -   2016-04-27 Lynn Garren : larexamples v05_06_05 for larsoft v05_10_00
 
-larpandora v05_09_02
-------------------------------------------------
+## larpandora v05_09_02
 
 -   2016-04-27 Lynn Garren : larpandora v05_09_02 for larsoft v05_10_00
 
-larana v05_08_02
-----------------------------------------
+## larana v05_08_02
 
 -   2016-04-27 Lynn Garren : larana v05_08_02 for larsoft v05_10_00
 -   2016-04-26 mdhaigh : Add some variables to MVA PID and code to allow cheating of track sense based on truth vertex.
 -   2016-04-19 Hamlet : Bug fix after PhotonVisibility interface change: check that queried location is covered by the service
 
-larreco v05_10_00
-------------------------------------------
+## larreco v05_10_00
 
 -   2016-04-27 Lynn Garren : larreco v05_10_00 for larsoft v05_10_00
--   2016-04-25 Bruce Baller : Merge branch ‘develop’ into feature/bb_TrajCluster
+-   2016-04-25 Bruce Baller : Merge branch 'develop' into feature/bb_TrajCluster
 -   2016-04-25 Bruce Baller : Comment out MC truth code.
 -   2016-04-25 Bruce Baller : Comment out FillTrajTruth
 -   2016-04-25 Bruce Baller : Define microboone trajcluster
@@ -99,7 +90,7 @@ larreco v05_10_00
 -   2016-04-18 Bruce Baller : Correct name
 -   2016-04-18 Bruce Baller : Initialize structs. Remove algorithm
 -   2016-04-18 Bruce Baller : removed algorithm
--   2016-04-14 Bruce Baller : Merge branch ‘develop’ into feature/bb_TrajCluster
+-   2016-04-14 Bruce Baller : Merge branch 'develop' into feature/bb_TrajCluster
 -   2016-04-14 Bruce Baller : Change nTru hits requirement.
 -   2016-04-14 Bruce Baller : Add endJob to print out AlgMod counts
 -   2016-04-14 Bruce Baller : Add FillGap, Ghost
@@ -131,16 +122,16 @@ larreco v05_10_00
 -   2016-04-05 Bruce Baller : Move FillTrajTruth.
 -   2016-04-04 Bruce Baller : Change ChgRat to ChgPull. Remove fAveChg. Add EndMerge, AppendToWork.
 -   2016-04-04 Bruce Baller : Change to ChgPull. Move AveChg from TrajPoint to Trajectory. Add plane ID check in GetHitRange. Add EndMerge. Modify cuts in FindHammerVertices. Fixed missed wire test in StepCrawl. Add stopping particle check in CheckHiDeltas. Change charge weighting scheme for trajectory fit.
--   2016-04-01 Bruce Baller : Merge branch ‘develop’ into feature/bb_TrajCluster
+-   2016-04-01 Bruce Baller : Merge branch 'develop' into feature/bb_TrajCluster
 -   2016-04-01 Bruce Baller : ongoing development
 -   2016-04-01 Bruce Baller : Optionally write cluster reconstruction info to a text file
 -   2016-03-30 Bruce Baller : ongoing development
--   2016-03-30 Bruce Baller : Merge branch ‘develop’ into feature/bb_TrajCluster
+-   2016-03-30 Bruce Baller : Merge branch 'develop' into feature/bb_TrajCluster
 -   2016-03-30 Bruce Baller : ongoing development
 -   2016-03-30 Bruce Baller : ongoing development
--   2016-03-26 Bruce Baller : Merge branch ‘develop’ into feature/bb_TrajCluster
+-   2016-03-26 Bruce Baller : Merge branch 'develop' into feature/bb_TrajCluster
 -   2016-03-26 Bruce Baller : ongoing development
--   2016-03-25 Bruce Baller : Merge branch ‘develop’ into feature/bb_TrajCluster
+-   2016-03-25 Bruce Baller : Merge branch 'develop' into feature/bb_TrajCluster
 -   2016-03-25 Bruce Baller : ongoing development
 -   2016-03-24 Bruce Baller : AlgMod, vertexing
 -   2016-03-24 Bruce Baller : AlgMod, vertexing, JunkTraj
@@ -152,7 +143,7 @@ larreco v05_10_00
 -   2016-03-19 Bruce Baller : Ongoing development
 -   2016-03-12 Bruce Baller : Ongoing development
 -   2016-03-12 Bruce Baller : Ongoing development
--   2016-03-11 Bruce Baller : Merge branch ‘develop’ into feature/bb_TrajCluster
+-   2016-03-11 Bruce Baller : Merge branch 'develop' into feature/bb_TrajCluster
 -   2016-03-11 Bruce Baller : Ongoing development
 -   2016-03-09 Bruce Baller : Ongoing development
 -   2016-03-09 Bruce Baller : Ongoing development
@@ -161,7 +152,7 @@ larreco v05_10_00
 -   2016-03-04 Bruce Baller : Convert to v05. Ongoing development
 -   2016-03-04 Bruce Baller : Convert to v05. Ongoing development
 -   2016-03-04 Bruce Baller : Correct conversion to v05 blunders
--   2016-03-03 Bruce Baller : Merge branch ‘develop’ into feature/bb_TrajCluster
+-   2016-03-03 Bruce Baller : Merge branch 'develop' into feature/bb_TrajCluster
 -   2016-03-02 Bruce Baller : ongoing development
 -   2016-03-02 Bruce Baller : ongoing development
 -   2016-03-02 Bruce Baller : ongoing development
@@ -172,11 +163,11 @@ larreco v05_10_00
 -   2016-02-09 Bruce Baller : ongoing development
 -   2016-02-09 Bruce Baller : ongoing development
 -   2016-02-08 Bruce Baller : ongoing development
--   2016-02-05 Bruce Baller : Merge branch ‘develop’ into feature/bb_ccwork
+-   2016-02-05 Bruce Baller : Merge branch 'develop' into feature/bb_ccwork
 -   2016-02-05 Bruce Baller : Enter PFParticle daughters correctly
 -   2016-02-05 Bruce Baller : Continuing development
 -   2016-02-05 Bruce Baller : Continuing development
--   2016-02-01 Bruce Baller : Merge branch ‘develop’ into feature/bb_ccwork
+-   2016-02-01 Bruce Baller : Merge branch 'develop' into feature/bb_ccwork
 -   2016-02-01 Bruce Baller : Algorithm development
 -   2016-02-01 Bruce Baller : Algorithm development
 -   2016-02-01 Bruce Baller : Module development
@@ -188,7 +179,7 @@ larreco v05_10_00
 -   2016-01-23 Bruce Baller : development
 -   2016-01-23 Bruce Baller : Development
 -   2016-01-23 Bruce Baller : work in progress
--   2016-01-23 Bruce Baller : Merge branch ‘develop’ into feature/bb_ccwork
+-   2016-01-23 Bruce Baller : Merge branch 'develop' into feature/bb_ccwork
 -   2016-01-23 Bruce Baller : Removed StepCrawl
 -   2016-01-23 Bruce Baller : Removed StepCrawl
 -   2016-01-23 Bruce Baller : Pulled StepCrawl stuff into ClusterTrajectoryAlg.h
@@ -208,8 +199,7 @@ larreco v05_10_00
 -   2015-12-31 Bruce Baller : Put StepCrawl code in a separate file
 -   2015-12-22 Bruce Baller : StepCrawl development
 
-larsim v05_10_00
-----------------------------------------
+## larsim v05_10_00
 
 -   2016-04-27 Lynn Garren : larsim v05_10_00 for larsoft v05_10_00
 -   2016-04-27 Gianluca Petrillo : Enabling LArSeedService extended support for CLHEP engines by default.
@@ -219,34 +209,29 @@ larsim v05_10_00
 -   2016-04-25 Gianluca Petrillo : Moved artext::SeedService into sim::LArSeedService
 -   2016-04-20 Gleb Sinev : Fix the supernova neutrino spectrum filename in supernova.fcl.
 
-larevt v05_06_05
-----------------------------------------
+## larevt v05_06_05
 
 -   2016-04-27 Lynn Garren : larevt v05_06_05 for larsoft v05_10_00
 
-lardata v05_07_04
-------------------------------------------
+## lardata v05_07_04
 
 -   2016-04-27 Lynn Garren : lardata v05_07_04 for larsoft v05_10_00
 -   2016-04-26 mdhaigh : Add some new variables to MVAPIDResult.
 
-larcore v05_07_01
-------------------------------------------
+## larcore v05_07_01
 
-larbatch v01_21_02
---------------------------------------------
+## larbatch v01_21_02
 
 -   2016-04-27 Lynn Garren : larbatch v01_21_02 for larsoft v05_10_00
 -   2016-04-27 Lynn Garren : larbatch v01_21_02 for larsoft v05_10_00
 -   2016-04-27 yuntse : Tighten error checking.
--   2016-04-21 yuntse : Merge remote-tracking branch ‘refs/remotes/origin/develop’ into develop
+-   2016-04-21 yuntse : Merge remote-tracking branch 'refs/remotes/origin/develop' into develop
 -   2016-04-20 Lynn Garren : larsoft v05_09_01
--   2016-04-20 yuntse : Merge remote-tracking branch ‘refs/remotes/origin/develop’ into develop
+-   2016-04-20 yuntse : Merge remote-tracking branch 'refs/remotes/origin/develop' into develop
 -   2016-04-20 yuntse : Work around zero-event TimeTracker crash.
 -   2016-04-19 Herbert Greenlee : When checking in analysis mode, require the existence of at least one analysis file.
 
-larutils v1_06_01
-------------------------------------------
+## larutils v1_06_01
 
 -   2016-04-27 Lynn Garren : larutils v1_06_01 for larsoft v05_10_00
 -   2016-04-27 Lynn Garren : larutils v1_06_01 for larsoft v05_10_00

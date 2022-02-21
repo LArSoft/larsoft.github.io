@@ -1,10 +1,10 @@
-Space Points.
-===============================
+{{toc}}
+
+# Space Points.
 
 This article describes various aspects of space points, what they are, how they are created, how they used.
 
-SpacePoint class.
----------------------------------------
+## SpacePoint class.
 
 Class `recob::SpacePoint` in svn package RecoBase represents a space point objects. Data members of `recob::SpacePoint` are as follows.
 
@@ -21,8 +21,7 @@ Recall that Hits (class `recob::Hit`) represent a pulse on a particular wire at 
 
 SpacePoints are created from Hits (either directly or as a side effect of track reconstruction) as part of the reconstruction chain. SpacePoints that have been constructed from Hits are connected with their parent Hits using art associations (see [Use_Associations](Use_Associations)).
 
-SpacePointAlg algorithm.
------------------------------------------------------
+## SpacePointAlg algorithm.
 
 `SpacePointAlg` (svn package RecoAlg. The SpacePoint tracking module is in svn package TrackFinder.) is an algorithm type class, which means that it is neither an art service nor an art module, but it is nevertheless constructed from an art parameter set. As such, algorithms can easily be data members of modules. Standard configurations for `SpacePointAlg` are stored in fcl file TrackFinder/trackfinderalgorithms.fcl.
 
@@ -50,8 +49,7 @@ SpacePoint reconstruction involves a time-to-distance calculation to obtain the 
 
 The `DetectorProperties` service also includes tunable time offset parameters for each view.
 
-SpacePointFinder module.
------------------------------------------------------
+## SpacePointFinder module.
 
 Module `SpacePointFinder` (svn package TrackFinder) is a producer module that makes all possible SpacePoints based on all clustered Hits in an event. `SpacePointFinder` includes `SpacePointAlg` as a data member. `SpacePointModule` inserts the following data products into the event.
 
@@ -60,12 +58,10 @@ Module `SpacePointFinder` (svn package TrackFinder) is a producer module that ma
 -   SpacePoint-Cluster associations (if config parameter `ClusterAssns` is true).
 -   A collection of pointers to SpacePoints (`vector<PtrVector<SpacePoint> >)` that preserves the cluster structure of the constituent hits. That is, each `PtrVector<SpacePoint>` points to space points that were constructed from the same Cluster in each view.
 
-SpacePointCheater module.
--------------------------------------------------------
+## SpacePointCheater module.
 
 Module `SpacePointCheater` (svn package TrackFinder) has the identical functionality as `SpacePointFinder`, and makes the same data products, except SpacePoints are made using MC truth.
 
-SpacePointAna module.
------------------------------------------------
+## SpacePointAna module.
 
 Module `SpacePointAna` (svn package TrackFinder) is an analyzer module that fills histograms using SpacePoints in an event. Among other things, the generated histograms enable to test and/or tune time offsets in the time-to-distance calculation.

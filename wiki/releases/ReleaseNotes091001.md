@@ -1,17 +1,16 @@
-LArSoft v09_10_01 Release Notes
-======================================================================
+# LArSoft v09_10_01 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09_10_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_10_01/larsoft-v09_10_01.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v09_10_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_10_01/larsoft-v09_10_01.html)  
 Download instructions for [just larsoftobj v09_03_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_03_01/larsoftobj-v09_03_01.html)
 
-Purpose
---------------------
+## Purpose
 
 -   approved PRs
 
-New features
-------------------------------
+## New features
 
 -   larg4 PR 15
     -   **dunetpc will need feature/drivera_pdsp_sparsify_margin**
@@ -26,8 +25,7 @@ New features
     -   add test to run larg4, electron drift and wire response
     -   create examples for MinimalLArTPC
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   larpandora PR 14
     -   Protect against exception when looking for non-existent T0 association
@@ -37,101 +35,84 @@ Bug fixes
     -   Restored recob::Trajectory I/O rule lost long time ago
 -   larg4 PR 16
     -   add install_source() to the relevant cmake files
-    -   resolves [redmine issue 25234](https://cdcvs.fnal.gov/redmine/issues/25234)
+    -   resolves \#25234
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-Change List
-============================
+# Change List
 
-larsoft v09_10_01
-------------------------------------------
+## larsoft v09_10_01
 
 -   2020-12-02 Lynn Garren : larsoft v09_10_01 for larsoft v09_10_01
 -   2020-12-02 Lynn Garren : product versions
 
-lareventdisplay v09_00_14
-----------------------------------------------------------
+## lareventdisplay v09_00_14
 
 -   2020-12-02 Lynn Garren : lareventdisplay v09_00_14 for larsoft v09_10_01
 
-larexamples v09_00_13
---------------------------------------------------
+## larexamples v09_00_13
 
 -   2020-12-02 Lynn Garren : larexamples v09_00_13 for larsoft v09_10_01
 
-larpandora v09_03_05
-------------------------------------------------
+## larpandora v09_03_05
 
 -   2020-12-02 Lynn Garren : larpandora v09_03_05 for larsoft v09_10_01
 -   2020-12-02 Lynn Garren : Merge pull request \#14 from PandoraPFA/feature/etyley_t0
 -   2020-11-23 AndyChappell : Merge pull request \#15 from etyley/bugfix/etyley_showerT0
 -   2020-11-02 Edward Tyley : Move FindManyP so it is only found if it is going to be used. Improve debugging of ShowerElementHolder exception
 
-larsimrad v09_00_13
-----------------------------------------------
+## larsimrad v09_00_13
 
 -   2020-12-02 Lynn Garren : larsimrad v09_00_13 for larsoft v09_10_01
 
-larrecodnn v09_02_05
-------------------------------------------------
+## larrecodnn v09_02_05
 
 -   2020-12-02 Lynn Garren : larrecodnn v09_02_05 for larsoft v09_10_01
 
-larwirecell v09_01_07
---------------------------------------------------
+## larwirecell v09_01_07
 
 -   2020-12-02 Lynn Garren : larwirecell v09_01_07 for larsoft v09_10_01
 -   2020-12-02 Lynn Garren : Merge pull request \#9 from wenqiang-gu/develop
 -   2020-12-02 Wenqiang Gu : clean up comments
 -   2020-11-24 Wenqiang Gu : get plane view from geometry service
 
-larana v09_00_14
-----------------------------------------
+## larana v09_00_14
 
 -   2020-12-02 Lynn Garren : larana v09_00_14 for larsoft v09_10_01
 
-larreco v09_04_04
-------------------------------------------
+## larreco v09_04_04
 
 -   2020-12-02 Lynn Garren : larreco v09_04_04 for larsoft v09_10_01
 
-larsim v09_07_01
-----------------------------------------
+## larsim v09_07_01
 
 -   2020-12-02 Lynn Garren : larsim v09_07_01 for larsoft v09_10_01
--   2020-11-30 Lynn Garren : Merge pull request [redmine issue 55](https://cdcvs.fnal.gov/redmine/issues/55) from hanswenzel/wenzel_larsim_develop
+-   2020-11-30 Lynn Garren : Merge pull request \#55 from hanswenzel/wenzel_larsim_develop
 -   2020-11-16 Hans : add test to run larg4, electron drift and wire response
 
-larg4 v09_01_05
---------------------------------------
+## larg4 v09_01_05
 
 -   2020-12-02 Lynn Garren : larg4 v09_01_05 for larsoft v09_10_01
--   2020-12-02 Lynn Garren : Merge branch ‘feature/drivera_configurable_sparsify_margin’ into release/v09_10_01
+-   2020-12-02 Lynn Garren : Merge branch 'feature/drivera_configurable_sparsify_margin' into release/v09_10_01
 -   2020-11-30 Lynn Garren : Merge pull request \#16 from hanswenzel/wenzel_larg4_fixbuild
 -   2020-11-30 Hans : add install_source() to the relevant cmake files
 -   2020-11-27 David Rivera : Removed default for SparsifyMargin parameter in the PLA service.
 -   2020-11-24 David Rivera : Cleanup
--   2020-11-24 David Rivera : Merge branch ‘develop’ of github.com:drivera-fnal/larg4 into feature/drivera_configurable_sparsify_margin
--   2020-10-12 David Rivera : Merge branch ‘develop’ into feature/drivera_configurable_sparsify_margin (for larsoft suite v09_06_00)
+-   2020-11-24 David Rivera : Merge branch 'develop' of github.com:drivera-fnal/larg4 into feature/drivera_configurable_sparsify_margin
+-   2020-10-12 David Rivera : Merge branch 'develop' into feature/drivera_configurable_sparsify_margin (for larsoft suite v09_06_00)
 -   2020-10-12 David Rivera : Add trajectory sparsification margin parameter to be used when sparsification is enabled in the particlelist action service.
 
-larevt v09_01_01
-----------------------------------------
+## larevt v09_01_01
 
 -   2020-12-02 Lynn Garren : larevt v09_01_01 for larsoft v09_10_01
 
-lardata v09_01_04
-------------------------------------------
+## lardata v09_01_04
 
 -   2020-12-02 Lynn Garren : lardata v09_01_04 for larsoft v09_10_01
 
-larcore v09_00_01
-------------------------------------------
+## larcore v09_00_01
 
-larpandoracontent v03_22_03
---------------------------------------------------------------
+## larpandoracontent v03_22_03
 
 -   2020-12-02 Lynn Garren : larpandoracontent v03_22_03 for larsoft v09_10_01
 -   2020-11-23 Andrew Chappell : Update version and changelog
@@ -146,39 +127,31 @@ larpandoracontent v03_22_03
 -   2020-10-27 Edward Tyley : Add pfp Track score to pfoMergeStats and rework cluster/hit metrics
 -   2020-10-26 Edward Tyley : First working commit of RecurisvePfoMopUpAlg
 
-larsoftobj v09_03_01
-------------------------------------------------
+## larsoftobj v09_03_01
 
 -   2020-12-02 Lynn Garren : larsoftobj v09_03_01 for larsoft v09_10_01
 -   2020-12-02 Lynn Garren : mrb
 -   2020-12-02 Lynn Garren : remove old instructions
 -   2020-12-02 Lynn Garren : product versions
 
-lardataobj v09_00_03
-------------------------------------------------
+## lardataobj v09_00_03
 
 -   2020-12-02 Lynn Garren : lardataobj v09_00_03 for larsoft v09_10_01
 -   2020-11-30 Lynn Garren : Merge pull request \#9 from PetrilloAtWork/feature/gp_trajectoryDict
 -   2020-11-17 Gianluca Petrillo : Restored recob::Trajectory I/O rule lost long time ago.
 
-lardataalg v09_03_01
-------------------------------------------------
+## lardataalg v09_03_01
 
 -   2020-12-02 Lynn Garren : lardataalg v09_03_01 for larsoft v09_10_01
 
-larcorealg v09_00_01
-------------------------------------------------
+## larcorealg v09_00_01
 
-larcoreobj v09_00_00
-------------------------------------------------
+## larcoreobj v09_00_00
 
-webevd v09_00_09
-----------------------------------------
+## webevd v09_00_09
 
 -   2020-12-02 Lynn Garren : webevd v09_00_09 for larsoft v09_10_01
 
-larbatch v01_54_01
---------------------------------------------
+## larbatch v01_54_01
 
-larutils v1_27_02
-------------------------------------------
+## larutils v1_27_02

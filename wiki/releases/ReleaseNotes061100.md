@@ -1,19 +1,18 @@
-LArSoft v06_11_00 Release Notes
-======================================================================
+# LArSoft v06_11_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_11_00/larsoft-v06_11_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   art 2.04.01, nutools 2.06.01, and ifdhc 2.0.0
 -   calorimetry reorganization
 -   changes to develop since v06_09_00
 -   NOTE that we are skipping v06_10_00 to avoid confusion with the release candidates.
 
-Breaking Changes
---------------------------------------
+## Breaking Changes
 
 ### Code moving into nutools
 
@@ -22,7 +21,7 @@ The nutools product has absorbed the following classes that currently live in la
 -   ParticleList
 -   ParticleHistory
 -   EveIdCalculator
--   EmEveIdCalculator
+-   EmEveIdCalculator  
     These classes are not specific to LAr, and are useful for particle navigation, so are being moved in order to provide access to other experiments. The new location will be nutools/ParticleNavigation.
 
 ### Removal of algorithm code from lardata and deprecating BezierTrack
@@ -47,25 +46,22 @@ In order to remove algorithm code from lardata, we are making the following chan
     cd to your repository directory
     ${LARSOFT_DIR}/bin/v06_11_00-reorganize/UpdateReorg611.sh
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-||
-|Product|Version|Qualifiers|Notes|
-|nutools|v2_06_01|e10|[NuTools_Release_Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_01)|
-|ifdhc|v2_0_0|e10:p2711|[ifdh version 2](https://cdcvs.fnal.gov/redmine/projects/ifdhc/wiki/IFDH_Version_2_Major_Release)|
-|ifdh_art|v2_00_00|e10:nu:s44||
-|artdaq_core|v1_05_08|e10:nu:s44||
-|art|v2_04_01|e10:nu|[Release Notes 2.04.01](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20401)|
+|             |          |            |                                                        |                    |
+|-------------|----------|------------|--------------------------------------------------------|--------------------|
+| Product     | Version  | Qualifiers | Notes                                                  |                    |
+| nutools     | v2_06_01 | e10        | [nutools:NuTools_Release_Notes#nutools-v2_06_01](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_01) |                    |
+| ifdhc       | v2_0_0  | e10:p2711  | [ifdhc:IFDH_Version_2_Major_Release                | ifdh version 2](https://cdcvs.fnal.gov/redmine/projects/ifdhc/wiki/IFDH_Version_2_Major_Release________________|_ifdh_version_2) |
+| ifdh_art    | v2_00_00 | e10:nu:s44 |                                                        |                    |
+| artdaq_core | v1_05_08 | e10:nu:s44 |                                                        |                    |
+| art         | v2_04_01 | e10:nu     | [art:Release Notes 2.04.01](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_2.04.01)                      |                    |
 
-Change List
-============================
+# Change List
 
-larsoft v06_11_00
-------------------------------------------
+## larsoft v06_11_00
 
 -   2016-10-12 Lynn Garren : larsoft v06_11_00 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : do our own install
@@ -81,26 +77,22 @@ larsoft v06_11_00
 -   2016-10-06 Lynn Garren : larsoft v06_09_00
 -   2016-10-05 Lynn Garren : update dependency data base
 
-lareventdisplay v06_01_08
-----------------------------------------------------------
+## lareventdisplay v06_01_08
 
 -   2016-10-13 Lynn Garren : lareventdisplay v06_01_08 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : reorganization
--   2016-10-07 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lareventdisplay into develop
+-   2016-10-07 Tingjun Yang : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/lareventdisplay into develop
 -   2016-10-07 Tingjun Yang : Update evd for argoneut.
 
-larexamples v06_00_12
---------------------------------------------------
+## larexamples v06_00_12
 
 -   2016-10-13 Lynn Garren : larexamples v06_00_12 for larsoft v06_11_00
 
-larpandora v06_01_03
-------------------------------------------------
+## larpandora v06_01_03
 
 -   2016-10-13 Lynn Garren : larpandora v06_01_03 for larsoft v06_11_00
 
-larana v06_03_00
-----------------------------------------
+## larana v06_03_00
 
 -   2016-10-13 Lynn Garren : larana v06_03_00 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : reorganization
@@ -116,8 +108,7 @@ larana v06_03_00
 -   2015-12-21 Lynn Garren : refactor lardata
 -   2015-12-18 Lynn Garren : move AnalysisAlg to lardata/AnalysisAlg
 
-larreco v06_08_00
-------------------------------------------
+## larreco v06_08_00
 
 -   2016-10-13 Lynn Garren : add missing libraries
 -   2016-10-13 Lynn Garren : larreco v06_08_00 for larsoft v06_11_00
@@ -153,7 +144,7 @@ larreco v06_08_00
 -   2016-09-28 Tingjun Yang : Add option to decide whether to flip track direction if dQ/dx is higher at track start. This used to be the default behavior. Turn it off for argoneut.
 -   2016-09-28 Tingjun Yang : Clean up code to remove TTree related stuff.
 -   2016-08-30 Lynn Garren : larsimobj/Simulation moved to lardataobj/Simulation
--   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue [redmine issue 12367](https://cdcvs.fnal.gov/redmine/issues/12367))
+-   2016-08-04 Gianluca Petrillo : Replaced nsmaepace lar::utils with lar::util (issue \#12367)
 -   2016-08-03 Tingjun Yang : Save all points (including the first and last points).
 -   2016-06-14 Gianluca Petrillo : Update after modification to the unit test infrastructure
 -   2016-06-02 Lynn Garren : changes for larsoftobj
@@ -168,15 +159,15 @@ larreco v06_08_00
 -   2016-02-12 Gianluca Petrillo : Core service modification applied (from scratch)
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : move Calorimetry to larana/Calorimetry
--   2016-10-10 Bruce Baller : Merge branch ‘develop’ into feature/bb_TJWork
--   2016-10-10 Bruce Baller : Throw an exception if SkipAlgs isn’t configured properly. Ongoing development of Refine2DVertices. Add CheckWireHitRange. Work on EraseHit and CreateHit.
+-   2016-10-10 Bruce Baller : Merge branch 'develop' into feature/bb_TJWork
+-   2016-10-10 Bruce Baller : Throw an exception if SkipAlgs isn't configured properly. Ongoing development of Refine2DVertices. Add CheckWireHitRange. Work on EraseHit and CreateHit.
 -   2016-10-10 Bruce Baller : Remove unused routine.
--   2016-10-10 Bruce Baller : Add EraseHit, CreateHit and CorrectTrajectoryHits. Fix bug in FindCloseHits. Don’t recalculate Chg in SetEndPoints.
+-   2016-10-10 Bruce Baller : Add EraseHit, CreateHit and CorrectTrajectoryHits. Fix bug in FindCloseHits. Don't recalculate Chg in SetEndPoints.
 -   2016-10-10 Bruce Baller : Add EraseHit, CreateHit and CorrectTrajectoryHits
 -   2016-10-10 Bruce Baller : Add CheckWireHitRange, EraseHit, CreateHit. Remove step.
 -   2016-10-10 Robert Sulej : missed commas spotted by Dorota
 -   2016-10-09 Bruce Baller : Add CheckWireHitRange, EraseHit, CreateHit.
--   2016-10-07 Robert Sulej : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
+-   2016-10-07 Robert Sulej : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2016-10-07 Robert Sulej : move clean-track-fraction to json parameters
 -   2016-10-06 Bruce Baller : Ongoing development of Refine2DVertices - incomplete.
 -   2016-10-06 Bruce Baller : Add CorrectTrajectoryHits.
@@ -188,7 +179,7 @@ larreco v06_08_00
 -   2016-10-05 Bruce Baller : Modify VtxHit.
 -   2016-10-05 Bruce Baller : Change data stored in VtxHit. Add HitStatus enum. Ongoing Refine2DVertices development.
 -   2016-10-05 Bruce Baller : Change data stored in VtxHit. Add CreateHit. Add kHitStatus enum
--   2016-10-05 Bruce Baller : Add HitStatus enum. Replace CloneHit (which didn’t work) with CreateHit.
+-   2016-10-05 Bruce Baller : Add HitStatus enum. Replace CloneHit (which didn't work) with CreateHit.
 -   2016-10-05 Bruce Baller : Change data stored in VtxHit.
 -   2016-10-04 Bruce Baller : Remove option to make new hits - it is now always done.
 -   2016-10-04 Bruce Baller : Remove option to make new hits - it is now always done.
@@ -216,7 +207,7 @@ larreco v06_08_00
 -   2016-10-02 Bruce Baller : Add EraseHit. Change call to FindCloseHits.
 -   2016-10-02 Bruce Baller : Add VtxTj and RefineVtx
 -   2016-10-02 Bruce Baller : Add VtxTj and RefineVtx
--   2016-09-30 Bruce Baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2016-09-30 Bruce Baller : Merge branch 'develop' into feature/bb_TJWork
 -   2016-09-30 Bruce Baller : Improve trajectory definition at the beginning and end in MergeAndStore. Work on ReversePropagate and tweaks to StepCrawl for reverse propagation. Remove unnecessary fQuitAlg in MakeJunkTraj. Add checks for validity of WireHitRange. Add charge checking in GottaKink. Remove unnecessary EndTP code.
 -   2016-09-30 Bruce Baller : Mods to FixTrajBegin and add FixTrajEnd.
 -   2016-09-30 Bruce Baller : Remove EndTP. Add code to check the validity of WireHitRange. Change FindCloseHits structure.
@@ -225,54 +216,45 @@ larreco v06_08_00
 -   2016-09-30 Bruce Baller : Remove EndTP. Add parameters to check the validity of WireHitRange.
 -   2016-09-29 Bruce Baller : Eliminate global work trajectory. Rename fGoodWork to fGoodTraj.
 -   2016-09-29 Bruce Baller : Eliminate global work trajectory. Rename fGoodWork to fGoodTraj.
--   2016-09-29 Bruce Baller : Modify TrajHitsOK to use hit vectors instead of single hits. Move ReverseTraj to utils. Debugging improvements. Start work on ReversePropagate. Mods to allow more than 3 angle ranges. Fix logic errors in Find2DVertices. UpdateTraj in StepCrawl before checking for missed steps. Don’t use charge in FixTrajBegin for stopping tracks. Set dead wire condition in FillWireHitRange before setting hit ranges to allow for the situation where the channel status database is wrong.
+-   2016-09-29 Bruce Baller : Modify TrajHitsOK to use hit vectors instead of single hits. Move ReverseTraj to utils. Debugging improvements. Start work on ReversePropagate. Mods to allow more than 3 angle ranges. Fix logic errors in Find2DVertices. UpdateTraj in StepCrawl before checking for missed steps. Don't use charge in FixTrajBegin for stopping tracks. Set dead wire condition in FillWireHitRange before setting hit ranges to allow for the situation where the channel status database is wrong.
 -   2016-09-29 Bruce Baller : Modify TrajHitsOK to use hit vectors instead of single hits. Move ReverseTraj to utils.
 -   2016-09-29 Bruce Baller : Add FindCloseHits and ReverseTraj
 -   2016-09-29 Bruce Baller : Add FindCloseHits and ReverseTraj
 -   2016-09-27 Bruce Baller : Code cleanup in AddHits.
 
-larsim v06_05_00
-----------------------------------------
+## larsim v06_05_00
 
 -   2016-10-12 Lynn Garren : larsim v06_05_00 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : classes moved to nutools
 -   2016-10-12 Lynn Garren : these classes are now in nutools/ParticleNavigation
 
-larevt v06_03_01
-----------------------------------------
+## larevt v06_03_01
 
 -   2016-10-13 Lynn Garren : larevt v06_03_01 for larsoft v06_11_00
 
-lardata v06_07_00
-------------------------------------------
+## lardata v06_07_00
 
 -   2016-10-13 Lynn Garren : lardata v06_07_00 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : AnalysisAlg classes moved to larreco and larana
 -   2016-10-12 Lynn Garren : BezierTrack is deprecated
 -   2016-10-12 Lynn Garren : AnalysisAlg classes moved to larreco and larana
 
-larcore v06_02_03
-------------------------------------------
+## larcore v06_02_03
 
 -   2016-10-13 Lynn Garren : larcore v06_02_03 for larsoft v06_11_00
 
-larsoftobj v1_07_00
-----------------------------------------------
+## larsoftobj v1_07_00
 
-lardataobj v1_07_00
-----------------------------------------------
+## lardataobj v1_07_00
 
-larcoreobj v1_05_00
-----------------------------------------------
+## larcoreobj v1_05_00
 
-larbatch v01_23_07
---------------------------------------------
+## larbatch v01_23_07
 
 -   2016-10-13 Lynn Garren : larbatch v01_23_07 for larsoft v06_11_00
 -   2016-10-07 Herbert Greenlee : Fix bug adding mix options.
 
-larutils v1_09_01
-------------------------------------------
+## larutils v1_09_01
 
 -   2016-10-12 Lynn Garren : larutils v1_09_01 for larsoft v06_11_00
 -   2016-10-12 Lynn Garren : add s44

@@ -1,10 +1,8 @@
-Using git repositories
-==================================================
+# Using git repositories
 
 LArSoft has specific guidelines for git code repositories.
 
-Directory Structure
---------------------------------------------
+## Directory Structure
 
 ### Recommended Directory Structure
 
@@ -19,8 +17,7 @@ Directory Structure
 -   fcl files may be in a single subdirectory or found with their matching code. The cetbuildtools install_fhicl() cmake directive will copy fcl files into the build directory so they can be found by the unit tests and also install fcl files in the directory defined by ups/product_deps.
 -   Sometimes other directories are added for shell scripts, cmake modules, etc., but this is not the norm.
 
-Inappropriate Files
---------------------------------------------
+## Inappropriate Files
 
 ### Large files
 

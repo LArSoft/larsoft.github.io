@@ -1,14 +1,14 @@
-Removing old feature branches
-================================================================
+# Removing old feature branches
+
+
 
 Once feature branches are published, they are seldom removed, even after the branch has been merged with develop or some patch branch.
 
 **The plan was implemented on Sept. 17, 2019.**
 
-The plan
-----------------------
+## The plan
 
--   Using the script and lists [below](#Identifying-branches-that-can-be-removed), identify branches which have been merged.
+-   Using the script and lists [below](Removing_old_feature_branches#Identifying-branches-that-can-be-removed), identify branches which have been merged.
 -   Go through the output by hand to verify that we want to remove these branches.
 -   Branches to be removed are listed below.
 
@@ -646,40 +646,38 @@ The plan
 
 -   feature/team_with_larg4
 
-Identifying branches that can be removed.
----------------------------------------------------------------------------------------
+## Identifying branches that can be removed.
 
 -   [OBSOLETE_LArSoft_stale_feature_branches_page](OBSOLETE_LArSoft_stale_feature_branches_page)
 -   This script was used to identify branches that have been merged:
-
         #!/bin/bash
         source /cvmfs/larsoft.opensciencegrid.org/products/setup
         setup git
 
-        dirs="larana larcore larcorealg larcoreobj lardata lardataalg lardataobj larevt lareventdisplay larexamples larg4 larpandora larreco larsim larsoft larsoftobj larwirecell" 
+        dirs="larana larcore larcorealg larcoreobj lardata lardataalg lardataobj larevt lareventdisplay larexamples larg4 larpandora larreco larsim larsoft larsoftobj larwirecell"
 
         for dir in $dirs;do
-        if [ ! -d ${dir}.git ];then
-        git clone --mirror ssh://p-${dir}@cdcvs.fnal.gov/cvs/projects/${dir}
-        fi
-        pushd ${dir}.git >/dev/null 2>&1;
-        git remote update --prune >/dev/null 2>&1;
-        merged="" 
-        echo "Branches that have been merged in repo ${dir}" >../${dir}.txt
-        echo "Branches that have been merged in repo ${dir}" 
-        echo "branches merged into branch master/develop" >>../${dir}.txt
-        echo "branches merged into branch master/develop" 
-        merged=$(git branch --merged | grep -v 'master' | grep -v 'develop' | grep -v -e '^v')
-        echo $merged | tr ' ' '\n' >>../${dir}.txt
-        git branch -D $merged >/dev/null 2>&1
-        for vbr in $(git branch -a | grep -e '^  v'); do
-        vmerged="" 
-        echo "branches merged into branch $vbr" >>../${dir}.txt
-        echo "branches merged into branch $vbr" 
-        vmerged=$(git branch --merged $vbr| grep -v $vbr)
-        echo $vmerged | tr ' ' '\n' >>../${dir}.txt
-        echo $vmerged | tr ' ' '\n'
-        git branch -D $vmerged >/dev/null 2>&1
-        done
-        popd >/dev/null 2>&1;
+          if [ ! -d ${dir}.git ];then
+            git clone --mirror ssh://p-${dir}@cdcvs.fnal.gov/cvs/projects/${dir}
+          fi
+          pushd ${dir}.git >/dev/null 2>&amp;1;
+          git remote update --prune >/dev/null 2>&amp;1;
+          merged=""
+          echo "Branches that have been merged in repo ${dir}" >../${dir}.txt
+          echo "Branches that have been merged in repo ${dir}"
+          echo "branches merged into branch master/develop" >>../${dir}.txt
+          echo "branches merged into branch master/develop"
+          merged=$(git branch --merged | grep -v 'master' | grep -v 'develop' | grep -v -e '^v')
+          echo $merged | tr ' ' '\n' >>../${dir}.txt
+          git branch -D $merged >/dev/null 2>&amp;1
+          for vbr in $(git branch -a | grep -e '^  v'); do
+             vmerged=""
+             echo "branches merged into branch $vbr" >>../${dir}.txt
+             echo "branches merged into branch $vbr"
+             vmerged=$(git branch --merged $vbr| grep -v $vbr)
+             echo $vmerged | tr ' ' '\n' >>../${dir}.txt
+             echo $vmerged | tr ' ' '\n'
+             git branch -D $vmerged >/dev/null 2>&amp;1
+          done
+          popd >/dev/null 2>&amp;1;
         done

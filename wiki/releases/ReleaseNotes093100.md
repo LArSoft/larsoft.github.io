@@ -1,29 +1,27 @@
-LArSoft v09_31_00 Release Notes
-======================================================================
+# LArSoft v09_31_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09_31_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_31_00/larsoft-v09_31_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v09_31_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_31_00/larsoft-v09_31_00.html)  
 Download instructions for [just larsoftobj v09_10_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_10_00/larsoftobj-v09_10_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   art 3.09.03
--   See the art 3.09 [release notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_309) and [breaking changes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/309_breaking_changes)
+-   See the art 3.09 [release notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_309) and \[\[art:309_breaking_changes\|breaking changes\]\]
 -   Also see the talks at the [Sept. 21, 2021 Coordination Meeting](https://indico.fnal.gov/event/51092/)
     -   [LArSoft migration to art 3.09](https://indico.fnal.gov/event/51092/contributions/223975/attachments/147368/188807/2021-09-21.pdf)
     -   [Using cetbuildtools 8 and mrb 5](https://indico.fnal.gov/event/51092/contributions/223976/attachments/147413/188910/Mrb5Cetbuildtools8_2021-09-21.pdf)
     -   [Tips and tricks for LArSoft with art 3.09](https://indico.fnal.gov/event/51092/contributions/223977/attachments/147379/188828/Tips-and-Tricks.pdf)
 
-New features
-------------------------------
+## New features
 
 -   mrb 5 and cetbuildtools 8 **MUST** be used when working with this release
     -   mrb 5 is now the default
     -   To use mrb 4 with an older release, “setup mrb -o”
 
-Updates for experiment code
-------------------------------------------------------------
+## Updates for experiment code
 
 -   **necessary changes are provided in feature/team_for_art_v3_09 branches**
     -   You will find required changes in both code and CMakeLists.txt files
@@ -38,11 +36,12 @@ Updates for experiment code
 -   SBND
     -   feature/team_for_art_v3_09 available for sbndcode and sbndutil
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   mrb v5_18_01
 -   cetbuildtools v8_17_03
+
+<!-- -->
 
 -   MANY dependencies are updated. A few are listed here.
 -   art v3_09_03 (s112)
@@ -56,17 +55,15 @@ Updated dependencies
 -   root v6_22_08d
 -   valgrind v3_17_0
 
-Change List
-============================
+# Change List
 
-larsoft v09_31_00
-------------------------------------------
+## larsoft v09_31_00
 
 -   2021-09-21 Lynn Garren : larsoft v09_31_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larsoft v09_31_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : product versions
 -   2021-09-21 Lynn Garren : using the release number
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-09-21 Lynn Garren : pandora, tensorflow, marley, etc.
 -   2021-09-21 Lynn Garren : GeometryTestLib, SQLITE, skip cet_find_library
 -   2021-09-20 Lynn Garren : more libraries
@@ -78,7 +75,7 @@ larsoft v09_31_00
 -   2021-08-25 Lynn Garren : larsoft v09_28_02_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larsoft v09_28_02_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : product versions
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-20 Lynn Garren : for nurandom v1_07_05
 -   2021-08-19 Lynn Garren : wirecell v0_16_0
 -   2021-08-16 Lynn Garren : larsoft v09_27_00_05 for larsoft v09_27_00_05
@@ -112,18 +109,17 @@ larsoft v09_31_00
 -   2021-07-27 Lynn Garren : CMAKE_PROJECT_VERSION_STRING
 -   2021-07-26 Lynn Garren : cetbuildtools v8_11_02
 -   2021-07-26 Lynn Garren : product versions
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-26 Lynn Garren : product updates
 
-lareventdisplay v09_02_00
-----------------------------------------------------------
+## lareventdisplay v09_02_00
 
 -   2021-09-21 Lynn Garren : lareventdisplay v09_02_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : lareventdisplay v09_02_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : lareventdisplay v09_01_16_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : lareventdisplay v09_01_16_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : lareventdisplay v09_01_14_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : lareventdisplay v09_01_14_04 for larsoft v09_27_00_04
 -   2021-08-07 Lynn Garren : lareventdisplay v09_01_14_03 for larsoft v09_27_00_03
@@ -142,15 +138,14 @@ lareventdisplay v09_02_00
 -   2021-07-26 Lynn Garren : getManyByType
 -   2021-07-26 Lynn Garren : find eigen headers
 
-larexamples v09_02_00
---------------------------------------------------
+## larexamples v09_02_00
 
 -   2021-09-21 Lynn Garren : larexamples v09_02_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larexamples v09_02_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larexamples v09_01_15_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larexamples v09_01_15_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : larexamples v09_01_13_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larexamples v09_01_13_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : add missing header
@@ -171,15 +166,14 @@ larexamples v09_02_00
 -   2021-07-26 Lynn Garren : cetbuildtools v8_11_02
 -   2021-07-26 Lynn Garren : find packages
 
-larpandora v09_09_00
-------------------------------------------------
+## larpandora v09_09_00
 
 -   2021-09-21 Lynn Garren : larpandora v09_09_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larpandora v09_09_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larpandora v09_07_02_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larpandora v09_07_02_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : larpandora v09_07_00_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larpandora v09_07_00_04 for larsoft v09_27_00_04
 -   2021-08-07 Lynn Garren : larpandora v09_07_00_03 for larsoft v09_27_00_03
@@ -199,20 +193,19 @@ larpandora v09_09_00
 -   2021-07-26 Lynn Garren : cetbuildtools v8_11_02
 -   2021-07-26 Lynn Garren : add missing headers
 -   2021-07-26 Lynn Garren : find packages and headers
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-26 Lynn Garren : fix exclude
 -   2021-06-25 Lynn Garren : spell it right
 -   2021-06-25 Lynn Garren : make sure we do not try to build the tool twice
 
-larsimrad v09_02_00
-----------------------------------------------
+## larsimrad v09_02_00
 
 -   2021-09-21 Lynn Garren : larsimrad v09_02_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larsimrad v09_02_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larsimrad v09_01_15_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larsimrad v09_01_15_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : larsimrad v09_01_13_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larsimrad v09_01_13_04 for larsoft v09_27_00_04
 -   2021-08-07 Lynn Garren : larsimrad v09_01_13_03 for larsoft v09_27_00_03
@@ -228,19 +221,18 @@ larsimrad v09_02_00
 -   2021-07-27 Lynn Garren : larsimrad v09_30_00_rc1 for larsoft v09_30_00_rc1
 -   2021-07-27 Lynn Garren : CMAKE_PROJECT_VERSION_STRING
 -   2021-07-26 Lynn Garren : cetbuildtools v8_11_02
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-26 Lynn Garren : bxdecay0 v1_0_9
 -   2021-07-26 Lynn Garren : coping with gsl issues
 
-larrecodnn v09_09_00
-------------------------------------------------
+## larrecodnn v09_09_00
 
 -   2021-09-21 Lynn Garren : larrecodnn v09_09_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larrecodnn v09_09_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larrecodnn v09_08_02_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larrecodnn v09_08_02_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : larrecodnn v09_08_00_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larrecodnn v09_08_00_04 for larsoft v09_27_00_04
 -   2021-08-07 Lynn Garren : larrecodnn v09_08_00_03 for larsoft v09_27_00_03
@@ -258,18 +250,17 @@ larrecodnn v09_09_00
 -   2021-07-26 Lynn Garren : cetbuildtools v8_11_02
 -   2021-07-26 Lynn Garren : getManyByType
 -   2021-07-26 Lynn Garren : find packages
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-26 Lynn Garren : triton v2_3_0d
 
-larwirecell v09_04_00
---------------------------------------------------
+## larwirecell v09_04_00
 
 -   2021-09-21 Lynn Garren : larwirecell v09_04_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larwirecell v09_04_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larwirecell v09_02_13_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larwirecell v09_02_13_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-19 Lynn Garren : wirecell v0_16_0
 -   2021-08-16 Lynn Garren : larwirecell v09_02_10_05 for larsoft v09_27_00_05
 -   2021-08-16 Lynn Garren : larwirecell v09_02_10_05 for larsoft v09_27_00_05
@@ -290,19 +281,18 @@ larwirecell v09_04_00
 -   2021-07-27 Lynn Garren : CMAKE_PROJECT_VERSION_STRING
 -   2021-07-26 Lynn Garren : wirecell v0_14_0j
 -   2021-07-26 Lynn Garren : add missing headers
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-15 Lynn Garren : find eigen headers
 -   2021-07-15 Lynn Garren : wirecell v0_15_0
 
-larana v09_03_00
-----------------------------------------
+## larana v09_03_00
 
 -   2021-09-21 Lynn Garren : larana v09_03_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larana v09_03_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larana v09_02_12_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larana v09_02_12_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : larana v09_02_10_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larana v09_02_10_04 for larsoft v09_27_00_04
 -   2021-08-07 Lynn Garren : larana v09_02_10_03 for larsoft v09_27_00_03
@@ -320,15 +310,14 @@ larana v09_03_00
 -   2021-07-27 Kyle Knoepfel : Update service-macro headers.
 -   2021-07-26 Lynn Garren : for art 3.09
 
-larreco v09_07_00
-------------------------------------------
+## larreco v09_07_00
 
 -   2021-09-21 Lynn Garren : larreco v09_07_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larreco v09_07_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larreco v09_06_12_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larreco v09_06_12_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : larreco v09_06_10_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larreco v09_06_10_04 for larsoft v09_27_00_04
 -   2021-08-07 Lynn Garren : larreco v09_06_10_03 for larsoft v09_27_00_03
@@ -349,15 +338,14 @@ larreco v09_07_00
 -   2021-07-26 Lynn Garren : add missing headers
 -   2021-07-26 Lynn Garren : find eigen headers
 
-larsim v09_15_00
-----------------------------------------
+## larsim v09_15_00
 
 -   2021-09-21 Lynn Garren : larsim v09_15_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larsim v09_15_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larsim v09_14_04_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larsim v09_14_04_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-20 Lynn Garren : use nurandom v1_07_05
 -   2021-08-10 Lynn Garren : larsim v09_14_02_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larsim v09_14_02_04 for larsoft v09_27_00_04
@@ -377,23 +365,22 @@ larsim v09_15_00
 -   2021-07-27 Kyle Knoepfel : Update service-macro headers.
 -   2021-07-26 Lynn Garren : nutools v3_11_04
 -   2021-07-26 Lynn Garren : add missing header
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-20 Lynn Garren : xml2 problem
 -   2021-07-20 Kyle Knoepfel : More tweaks to support art 3.09
 -   2021-07-19 Lynn Garren : missing headers
 -   2021-07-19 Lynn Garren : nugen v1_14_03
 -   2021-07-19 Lynn Garren : fixes for art 3.09
 
-larg4 v09_05_00
---------------------------------------
+## larg4 v09_05_00
 
 -   2021-09-21 Lynn Garren : larg4 v09_05_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larg4 v09_05_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : add missing header
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larg4 v09_03_11_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larg4 v09_03_11_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-20 Lynn Garren : use nurandom v1_07_05
 -   2021-08-10 Lynn Garren : larg4 v09_03_09_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larg4 v09_03_09_04 for larsoft v09_27_00_04
@@ -415,20 +402,19 @@ larg4 v09_05_00
 -   2021-07-27 Lynn Garren : CMAKE_PROJECT_VERSION_STRING
 -   2021-07-27 Kyle Knoepfel : Update service-macro headers.
 -   2021-07-26 Lynn Garren : artg4tk v10_03_00 and nug4 v1_09_04
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-19 Kyle Knoepfel : Adjust getMany call.
 -   2021-07-19 Lynn Garren : nug4 v1_09_03
 -   2021-07-19 Lynn Garren : replace getManyByType
 
-larevt v09_03_00
-----------------------------------------
+## larevt v09_03_00
 
 -   2021-09-21 Lynn Garren : larevt v09_03_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larevt v09_03_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larevt v09_02_10_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larevt v09_02_10_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : larevt v09_02_08_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larevt v09_02_08_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : add missing header
@@ -446,20 +432,19 @@ larevt v09_03_00
 -   2021-07-27 Lynn Garren : CMAKE_PROJECT_VERSION_STRING
 -   2021-07-27 Kyle Knoepfel : Update service-macro headers.
 -   2021-07-26 Lynn Garren : cetbuildtools v8_11_02
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-14 Lynn Garren : cetbuildtools v8_10_01
 -   2021-07-14 Lynn Garren : remove obsolete header
 -   2021-07-14 Lynn Garren : find headers
 
-lardata v09_03_00
-------------------------------------------
+## lardata v09_03_00
 
 -   2021-09-21 Lynn Garren : lardata v09_03_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : lardata v09_03_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : lardata v09_02_08_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : lardata v09_02_08_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : lardata v09_02_06_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : lardata v09_02_06_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : add missing header
@@ -481,7 +466,7 @@ lardata v09_03_00
 -   2021-07-27 Kyle Knoepfel : Update service-macro headers.
 -   2021-07-26 Lynn Garren : cetbuildtools v8_11_02
 -   2021-07-26 Lynn Garren : add Assns.h
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-14 Lynn Garren : no semi colon here
 -   2021-07-14 Kyle Knoepfel : Re-enable (and simplify) RangeForWrapper test
 -   2021-07-14 Lynn Garren : adding parentheses
@@ -491,14 +476,13 @@ lardata v09_03_00
 -   2021-07-14 Lynn Garren : cetbuildtools v8_10_01
 -   2021-07-14 Lynn Garren : for art 3.09
 
-larcore v09_03_00
-------------------------------------------
+## larcore v09_03_00
 
 -   2021-09-21 Lynn Garren : larcore v09_03_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larcore v09_03_00 for larsoft v09_31_00
 -   2021-08-25 Lynn Garren : larcore v09_02_04_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larcore v09_02_04_01 for larsoft v09_28_02_01
--   2021-08-24 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-24 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : larcore v09_02_02_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larcore v09_02_02_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : add missing header
@@ -516,21 +500,20 @@ larcore v09_03_00
 -   2021-07-27 Lynn Garren : CMAKE_PROJECT_VERSION_STRING
 -   2021-07-27 Kyle Knoepfel : Update service-macro headers.
 -   2021-07-26 Lynn Garren : art_root_io v1_08_03
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-14 Lynn Garren : cetbuildtools v8_10_01
 -   2021-07-14 Lynn Garren : add cetlib
 -   2021-07-14 Lynn Garren : for art 3.09
 -   2021-07-14 Lynn Garren : for art 3.09
 
-larpandoracontent v03_25_01
---------------------------------------------------------------
+## larpandoracontent v03_25_01
 
 -   2021-09-21 Lynn Garren : larpandoracontent v03_25_01 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larpandoracontent v03_25_01 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larpandoracontent v03_24_02_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larpandoracontent v03_24_02_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : larpandoracontent v03_24_00_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : larpandoracontent v03_24_00_04 for larsoft v09_27_00_04
 -   2021-08-07 Lynn Garren : larpandoracontent v03_24_00_03 for larsoft v09_27_00_03
@@ -545,20 +528,19 @@ larpandoracontent v03_25_01
 -   2021-07-27 Lynn Garren : larpandoracontent v09_30_00_rc1 for larsoft v09_30_00_rc1
 -   2021-07-27 Lynn Garren : CMAKE_PROJECT_VERSION_STRING
 -   2021-07-26 Lynn Garren : pandora v03_16_00f
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-26 Lynn Garren : libtorch v1_6_0d
 
-larsoftobj v09_10_00
-------------------------------------------------
+## larsoftobj v09_10_00
 
 -   2021-09-21 Lynn Garren : larsoftobj v09_10_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larsoftobj v09_10_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : product versions
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : larsoftobj v09_07_01_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larsoftobj v09_07_01_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : product versions
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-07 Lynn Garren : larsoftobj v09_06_01_03 for larsoft v09_27_00_03
 -   2021-08-07 Lynn Garren : larsoftobj v09_06_01_03 for larsoft v09_27_00_03
 -   2021-08-07 Lynn Garren : cetbuildtools v8_14_02
@@ -577,22 +559,21 @@ larsoftobj v09_10_00
 -   2021-07-27 Lynn Garren : CMAKE_PROJECT_VERSION_STRING
 -   2021-07-26 Lynn Garren : gallery v1_18_04
 -   2021-07-26 Lynn Garren : product versions
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-12 Lynn Garren : v09_30_00_rc0
 -   2021-07-12 Lynn Garren : v09_30_00_rc0
 -   2021-07-12 Lynn Garren : hub v2_14_2
--   2021-07-09 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-09 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-09 Lynn Garren : for root v6_22_08c
 
-lardataobj v09_03_00
-------------------------------------------------
+## lardataobj v09_03_00
 
 -   2021-09-21 Lynn Garren : lardataobj v09_03_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : lardataobj v09_03_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : lardataobj v09_01_06_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : lardataobj v09_01_06_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-07 Lynn Garren : lardataobj v09_01_04_03 for larsoft v09_27_00_03
 -   2021-08-07 Lynn Garren : lardataobj v09_01_04_03 for larsoft v09_27_00_03
 -   2021-08-04 Lynn Garren : lardataobj v09_01_04_02 for larsoft v09_27_00_02
@@ -608,19 +589,18 @@ lardataobj v09_03_00
 -   2021-07-12 Lynn Garren : v09_30_00_rc0
 -   2021-07-09 Lynn Garren : find cetlib
 -   2021-07-09 Lynn Garren : need extra parentheses
--   2021-07-09 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-09 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-09 Lynn Garren : cetbuildtools v8_10_01
 -   2021-07-09 Lynn Garren : find product
 
-lardataalg v09_06_00
-------------------------------------------------
+## lardataalg v09_06_00
 
 -   2021-09-21 Lynn Garren : lardataalg v09_06_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : lardataalg v09_06_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : lardataalg v09_04_07_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : lardataalg v09_04_07_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-07 Lynn Garren : lardataalg v09_04_05_03 for larsoft v09_27_00_03
 -   2021-08-07 Lynn Garren : lardataalg v09_04_05_03 for larsoft v09_27_00_03
 -   2021-08-04 Lynn Garren : lardataalg v09_04_05_02 for larsoft v09_27_00_02
@@ -638,19 +618,18 @@ lardataalg v09_06_00
 -   2021-07-12 Lynn Garren : v09_30_00_rc0
 -   2021-07-12 Kyle Knoepfel : Reenable Boost unit tests.
 -   2021-07-09 Lynn Garren : find cetlib and clhep
--   2021-07-09 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-09 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-09 Lynn Garren : find product
 -   2021-07-09 Lynn Garren : cetbuildtools v8_10_01
 -   2021-07-09 Lynn Garren : ParameterSet
 
-larcorealg v09_03_00
-------------------------------------------------
+## larcorealg v09_03_00
 
 -   2021-09-21 Lynn Garren : larcorealg v09_03_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larcorealg v09_03_00 for larsoft v09_31_00
 -   2021-08-25 Lynn Garren : larcorealg v09_02_01_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : larcorealg v09_02_01_01 for larsoft v09_28_02_01
--   2021-08-24 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-24 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-07 Lynn Garren : larcorealg v09_01_02_03 for larsoft v09_27_00_03
 -   2021-08-07 Lynn Garren : larcorealg v09_01_02_03 for larsoft v09_27_00_03
 -   2021-08-04 Lynn Garren : larcorealg v09_01_02_02 for larsoft v09_27_00_02
@@ -674,14 +653,13 @@ larcorealg v09_03_00
 -   2021-07-09 Lynn Garren : need extra parentheses when using or
 -   2021-07-09 Lynn Garren : parse_document has a new format
 -   2021-07-09 Lynn Garren : find boost
--   2021-07-09 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-09 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-09 Lynn Garren : ParameterSet
 -   2021-07-09 Lynn Garren : ParameterSet
 -   2021-07-09 Lynn Garren : cetbuildtools v8_10_01
 -   2021-07-09 Lynn Garren : find products
 
-larcoreobj v09_03_00
-------------------------------------------------
+## larcoreobj v09_03_00
 
 -   2021-09-21 Lynn Garren : larcoreobj v09_03_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : larcoreobj v09_03_00 for larsoft v09_31_00
@@ -701,20 +679,19 @@ larcoreobj v09_03_00
 -   2021-07-27 Lynn Garren : CMAKE_PROJECT_VERSION_STRING
 -   2021-07-26 Lynn Garren : canvas_root_io v1_09_04
 -   2021-07-12 Lynn Garren : v09_30_00_rc0
--   2021-07-09 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-09 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-09 Lynn Garren : for root v6_22_08c
 -   2021-07-09 Lynn Garren : find cetlib
 -   2021-07-09 Lynn Garren : ParameterSet
 
-webevd v09_06_00
-----------------------------------------
+## webevd v09_06_00
 
 -   2021-09-21 Lynn Garren : webevd v09_06_00 for larsoft v09_31_00
 -   2021-09-21 Lynn Garren : webevd v09_06_00 for larsoft v09_31_00
--   2021-09-21 Lynn Garren : Merge branch ‘v09_30_00_rc_br’ into release/v09_31_00
+-   2021-09-21 Lynn Garren : Merge branch 'v09_30_00_rc_br' into release/v09_31_00
 -   2021-08-25 Lynn Garren : webevd v09_05_09_01 for larsoft v09_28_02_01
 -   2021-08-25 Lynn Garren : webevd v09_05_09_01 for larsoft v09_28_02_01
--   2021-08-25 Lynn Garren : Merge branch ‘master’ into v09_30_00_rc_br
+-   2021-08-25 Lynn Garren : Merge branch 'master' into v09_30_00_rc_br
 -   2021-08-10 Lynn Garren : webevd v09_05_07_04 for larsoft v09_27_00_04
 -   2021-08-10 Lynn Garren : webevd v09_05_07_04 for larsoft v09_27_00_04
 -   2021-08-07 Lynn Garren : webevd v09_05_07_03 for larsoft v09_27_00_03
@@ -731,12 +708,10 @@ webevd v09_06_00
 -   2021-07-26 Lynn Garren : gallery v1_18_04
 -   2021-07-26 Lynn Garren : add missing header
 -   2021-07-26 Lynn Garren : new parse_document format
--   2021-07-26 Lynn Garren : Merge branch ‘develop’ into v09_30_00_rc_br
+-   2021-07-26 Lynn Garren : Merge branch 'develop' into v09_30_00_rc_br
 -   2021-07-26 Lynn Garren : for gallery v1_18_02
 -   2021-07-26 Lynn Garren : ParameterSet
 
-larbatch v01_56_01
---------------------------------------------
+## larbatch v01_56_01
 
-larutils v1_28_02
-------------------------------------------
+## larutils v1_28_02

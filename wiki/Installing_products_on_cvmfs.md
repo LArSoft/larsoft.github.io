@@ -1,18 +1,16 @@
-Installing products on cvmfs
-==============================================================
+# Installing products on cvmfs
 
 In most circumstances, users are expected to get the larsoft release from cvmfs. There is a README in cvmfslarsoft with basic instructions.
 
 Because the home directory is tiny by design, we use a temporary directory on cvmfs when installing products. It is important to make sure this directory is empty before finalizing the download via cvmfs publish. Note that if there are real problems, you can always abort the cvmfs transaction.
 
-basic steps
-----------------------------
+## basic steps
 
 -   login to your cvmfs distribution account
 -   get a copy of pullProducts from SciSoft
 -   start a cvmfs transaction
 -   Make a hidden working directory in your cvmfs project directory.
-    -   This is a one-time operation. Once you’ve made it, you just have to make sure it is empty before you publish.
+    -   This is a one-time operation. Once you've made it, you just have to make sure it is empty before you publish.
     -   larsoft uses /cvmfs/larsoft.opensciencegrid.org/products/.working
 -   install the project distribution with pullProducts -r
     -   The -r option does automatic cleanup, removing tarballs after they have been downloaded and installed.
@@ -23,8 +21,7 @@ basic steps
 -   If everything is good, publish the transaction
 -   The “cvmfs abort” command can be used to abort everything and return to the state before you started working.
 
-LArSoft specific example
-------------------------------------------------------
+## LArSoft specific example
 
 For LArSoft, we wrote a script to call pullProducts. The installBundle.sh script will download for all supported platforms.
 

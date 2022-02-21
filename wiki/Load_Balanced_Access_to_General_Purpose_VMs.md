@@ -1,5 +1,4 @@
-Load Balanced Access to General Purpose VMs
-============================================================================================
+# Load Balanced Access to General Purpose VMs
 
 The following material is provided as a base, but the specifics depend on your experiment.
 
@@ -9,10 +8,10 @@ Normally, ssh requires specific matching between the IP address of the node retu
 
 Users should create or edit their personal ssh configuration file (“\~/.ssh/config”) and place an entry for the each load balancing LArSoft interactive VM telling it to trust the DNS. Here is an example for uboonevm.fnal.gov:
 
-Host uboonevm\*
-Hostname uboonevm.fnal.gov
-User \<uid\>
-GSSAPITrustDNS yes
+Host uboonevm\*  
+Hostname uboonevm.fnal.gov  
+User <uid>  
+GSSAPITrustDNS yes  
 GSSAPIAuthentication yes
 
 Then repeat for the other load balancing LArSoft interactive VMs. (e.g. argoneutvm.fnal.gov, lbnevm.fnal.gov). Note that the \* in the “Host” entry means that any host starting with “uboonevm” will be exempt from the strict DNS matching. This is convenient if you have a default search domain setup on your laptop (i.e. you normally only type “ssh uboonevm” without the “.fnal.gov”).

@@ -1,18 +1,17 @@
-LArSoft v06_48_00 Release Notes
-======================================================================
+# LArSoft v06_48_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06_48_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_48_00/larsoft-v06_48_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v06_48_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_48_00/larsoft-v06_48_00.html)  
 Download instructions for [just larsoftobj v1_26_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_26_00/larsoftobj-v1_26_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes to develop
 -   approved feature branches
 
-New features
-------------------------------
+## New features
 
 -   feature/gardiner_MARLEY_upgrade (lardataobj and larsim)
     -   The larsim branch heavily refactors the MARLEYGen module, moving most of the code into new algorithms called MARLEYHelper and ActiveVolumeVertexSampler. Other than a required upgrade to marley v1_0_0, however, I believe that the refactored MARLEYGen module will be backwards-compatible with other code (and the existing FHiCL scripts). The larsim branch also adds a new module called MARLEYTimeGen that generates events using time-dependent supernova neutrino spectra.
@@ -27,23 +26,19 @@ New features
     -   compiles and executes in the current LArSoft environment;
     -   has updated links to all web pages (no more references to larsoftsvn);
     -   has updated documentation for current packages and tools.
-    -   The [AnalysisExample](_AnalysisExample_) web page has also been updated.
+    -   The [AnalysisExample](*AnalysisExample*) web page has also been updated.
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   marley v1_0_0
 -   wirecell v0_6_1
 -   jsonnet v0_9_3 (new dependency)
 
-Change List
-============================
+# Change List
 
-larsoft v06_48_00
-------------------------------------------
+## larsoft v06_48_00
 
 -   2017-08-30 Lynn Garren : wirecell v0_6_1 and marley v1_0_0
 -   2017-08-29 Lynn Garren : larsoft v06_48_00 for larsoft v06_48_00
@@ -51,16 +46,14 @@ larsoft v06_48_00
 -   2017-08-29 Lynn Garren : update product versions
 -   2017-08-29 Lynn Garren : update dependency database
 
-lareventdisplay v06_11_02
-----------------------------------------------------------
+## lareventdisplay v06_11_02
 
 -   2017-08-29 Lynn Garren : lareventdisplay v06_11_02 for larsoft v06_48_00
 
-larexamples v06_06_00
---------------------------------------------------
+## larexamples v06_06_00
 
 -   2017-08-29 Lynn Garren : larexamples v06_06_00 for larsoft v06_48_00
--   2017-08-29 William Seligman : Merge branch ‘feature/seligman_uptodateAnalysisExample’ into develop
+-   2017-08-29 William Seligman : Merge branch 'feature/seligman_uptodateAnalysisExample' into develop
 -   2017-08-29 William Seligman : Resolving merge conflicts
 -   2017-08-29 William Seligman : Final edit-check for spelling, consistency, and readability of AnalysisExample
 -   2017-08-29 William Seligman : Wrapping up edits to AnalysisExample
@@ -82,19 +75,17 @@ larexamples v06_06_00
 -   2017-07-26 William Seligman : fix script bug
 -   2017-07-26 William Seligman : updating documentation
 
-larpandora v06_15_07
-------------------------------------------------
+## larpandora v06_15_07
 
 -   2017-08-29 Lynn Garren : larpandora v06_15_07 for larsoft v06_48_00
 
-larwirecell v06_06_00
---------------------------------------------------
+## larwirecell v06_06_00
 
 -   2017-08-30 Lynn Garren : larcore_Geometry is now larcorealg_Geometry
 -   2017-08-29 Lynn Garren : larwirecell v06_06_00 for larsoft v06_48_00
 -   2017-08-29 Lynn Garren : fix a link problem
--   2017-08-29 Lynn Garren : Merge branch ‘feature/integration’ into release/v06_48_00
--   2017-08-28 Brett Viren : Turn on magic ‘use-less-memory’ option.
+-   2017-08-29 Lynn Garren : Merge branch 'feature/integration' into release/v06_48_00
+-   2017-08-28 Brett Viren : Turn on magic 'use-less-memory' option.
 -   2017-08-28 Brett Viren : Switch off using wclsChannelNoiseDB in default fcl as the service is not available in the development environment.
 -   2017-08-28 Brett Viren : Go to wirecell 0.6.1
 -   2017-08-28 Brett Viren : Bump to using wirecell 0.6.0.
@@ -115,12 +106,12 @@ larwirecell v06_06_00
 -   2017-07-07 Brett Viren : Try ignoring params.
 -   2017-07-07 Brett Viren : Flesh out the tool configuration.
 -   2017-07-06 Brett Viren : Transfer RawDigits to IFrame.
--   2017-07-06 Brett Viren : It’s in a silly state right now, but this commit uses the entirety of art to act as the wire-cell command line program.
+-   2017-07-06 Brett Viren : It's in a silly state right now, but this commit uses the entirety of art to act as the wire-cell command line program.
 -   2017-07-05 Brett Viren : Confusion understood.
 -   2017-07-05 Brett Viren : Remove bogosity.
 -   2017-07-05 Brett Viren : More flailing.
 -   2017-07-05 Brett Viren : Fix typo found by Brooke.
--   2017-07-05 Brett Viren : Make explicit base main tool which isn’t also a WCT interface.
+-   2017-07-05 Brett Viren : Make explicit base main tool which isn't also a WCT interface.
 -   2017-07-05 Brett Viren : Switch to art_make_library after Gianluca helps me see my mistake.
 -   2017-07-05 Brett Viren : Add stub of a tool which will grow to run the WCT main entry.
 -   2017-07-05 Brett Viren : Add initial interfaces and stubs for two components.
@@ -132,25 +123,22 @@ larwirecell v06_06_00
 -   2017-06-30 Brett Viren : Initial guidance on setting up.
 -   2017-06-30 Brett Viren : Hacks and fixes to build against latest WCT itself built outside of UPS for now.
 
-larana v06_09_02
-----------------------------------------
+## larana v06_09_02
 
 -   2017-08-29 Lynn Garren : larana v06_09_02 for larsoft v06_48_00
 
-larreco v06_38_02
-------------------------------------------
+## larreco v06_38_02
 
 -   2017-08-29 Lynn Garren : larreco v06_38_02 for larsoft v06_48_00
--   2017-08-29 Christoph Alt : Don’t save hits with negative RMS (=negative width). Happens sometimes when the fitter fails. Negative RMS’s crash linecluster.
--   2017-08-24 Robert Sulej : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
--   2017-08-18 Robert Sulej : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
+-   2017-08-29 Christoph Alt : Don't save hits with negative RMS (=negative width). Happens sometimes when the fitter fails. Negative RMS's crash linecluster.
+-   2017-08-24 Robert Sulej : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
+-   2017-08-18 Robert Sulej : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2017-08-18 Robert Sulej : add scaling configuration, improve scaling function, minimize fcl; no changes to output
 
-larsim v06_30_00
-----------------------------------------
+## larsim v06_30_00
 
 -   2017-08-29 Lynn Garren : larsim v06_30_00 for larsoft v06_48_00
--   2017-08-29 Lynn Garren : Merge branch ‘feature/gardiner_MARLEY_upgrade’ into release/v06_48_00
+-   2017-08-29 Lynn Garren : Merge branch 'feature/gardiner_MARLEY_upgrade' into release/v06_48_00
 -   2017-08-23 Steven Gardiner : Add example FHiCL file for use with the MARLEYTimeGen module
 -   2017-08-23 Steven Gardiner : Rename the event tree branches to “event” to match the MARLEY v1.0.0 convention.
 -   2017-08-21 Steven Gardiner : Add more doxygen documentation to the MARLEYTimeGen module
@@ -161,7 +149,7 @@ larsim v06_30_00
 -   2017-08-14 Steven Gardiner : Use Clenshaw-Curtis quadrature to compute integrals (via marley::Integrator) rather than the trapezoidal rule
 -   2017-08-14 Steven Gardiner : Separate the statistical event weight from the flux-averaged cross section in the sim::SupernovaTruth data product
 -   2017-08-14 Steven Gardiner : Add capability for MARLEYTimeGen to use a parameterized spectrum file format in addition to 2D ROOT histograms
--   2017-07-18 Steven Gardiner : Update the MARLEY folder’s CMakeLists.txt to link to larcorealg_Geometry instead of larcore_Geometry
+-   2017-07-18 Steven Gardiner : Update the MARLEY folder's CMakeLists.txt to link to larcorealg_Geometry instead of larcore_Geometry
 -   2017-06-30 Steven Gardiner : Finish implementing biased sampling, neutrino reweighting, module configuration, etc.
 -   2017-06-13 Steven Gardiner : Add the SupernovaTruth data product (now produced by the MARLEYTimeGen module)
 -   2017-05-17 Steven Gardiner : Add an initial version of the MARLEYTimeGen module
@@ -170,16 +158,14 @@ larsim v06_30_00
 -   2017-04-20 Steven Gardiner : Encapsulate the MARLEY interface into a stand-alone algorithm class, and refactor the MARLEYGen module to use the new algorithm.
 -   2017-04-18 Steven Gardiner : Add FHiCL configuration validation to the MARLEYGen module. Upgrade the module to use the marley::JSON class (new as of MARLEY v1.0.0) to configure the generator.
 
-larevt v06_15_07
-----------------------------------------
+## larevt v06_15_07
 
 -   2017-08-29 Lynn Garren : larevt v06_15_07 for larsoft v06_48_00
 
-lardata v06_27_00
-------------------------------------------
+## lardata v06_27_00
 
 -   2017-08-29 Lynn Garren : lardata v06_27_00 for larsoft v06_48_00
--   2017-08-29 Lynn Garren : Merge branch ‘feature/cerati_phase2track’ into release/v06_48_00
+-   2017-08-29 Lynn Garren : Merge branch 'feature/cerati_phase2track' into release/v06_48_00
 -   2017-08-28 Giuseppe Cerati : add util::groupByIndex
 -   2017-08-25 Gianluca Petrillo : Added limited support for random access in wrapped ranges.
 -   2017-08-18 Gianluca Petrillo : begin() and end() methods of RangeForWrapper are made constant.
@@ -188,47 +174,39 @@ lardata v06_27_00
 -   2017-08-25 Gianluca Petrillo : Added limited support for random access in wrapped ranges.
 -   2017-08-15 Giuseppe Cerati : allow move (steal) of position and momentum data members, plus adding const to one method
 
-larcore v06_14_00
-------------------------------------------
+## larcore v06_14_00
 
-larpandoracontent v03_07_04
---------------------------------------------------------------
+## larpandoracontent v03_07_04
 
 -   2017-08-29 Lynn Garren : larpandoracontent v03_07_04 for larsoft v06_48_00
 -   2017-08-29 Lynn Garren : set FW_SEARCH_PATH
 -   2017-08-29 Lynn Garren : 03.07.04
--   2017-08-29 John Marshall : Merge branch ‘feature/ChangeLog’
+-   2017-08-29 John Marshall : Merge branch 'feature/ChangeLog'
 -   2017-08-10 John Marshall : Update changelog.
--   2017-08-29 John Marshall : Merge branch ‘feature/TrackShowerTweaks’
+-   2017-08-29 John Marshall : Merge branch 'feature/TrackShowerTweaks'
 -   2017-08-15 loressa : Strengthen tie-breaking in shower and track overlap result operators
 -   2017-08-14 loressa : Added the possibility to work with probabilities instead of binary classification
--   2017-08-29 John Marshall : Merge branch ‘feature/TrackDirections’
--   2017-08-20 Andy Blake : Modifying track direction bug fix for compatibility with LArSoft. Fixing forward/backward asymmetries in 2D and 3D sliding linear fits. Simplifying PcaShowerParticleBuildingAlgorithm by moving bulk of PCA calculations to LArPfoHelper (will later facilitate standalone shower-building module in LArSoft). Fixing STATUS_CODE_NOT_FOUND exceptions in ParticleRecoveryAlgorithm caused by PFOs which don’t have a valid 2D sliding linear fit.
+-   2017-08-29 John Marshall : Merge branch 'feature/TrackDirections'
+-   2017-08-20 Andy Blake : Modifying track direction bug fix for compatibility with LArSoft. Fixing forward/backward asymmetries in 2D and 3D sliding linear fits. Simplifying PcaShowerParticleBuildingAlgorithm by moving bulk of PCA calculations to LArPfoHelper (will later facilitate standalone shower-building module in LArSoft). Fixing STATUS_CODE_NOT_FOUND exceptions in ParticleRecoveryAlgorithm caused by PFOs which don't have a valid 2D sliding linear fit.
 -   2017-08-08 John Marshall : Refactor SlidingFitTrajectory implementation.
 -   2017-08-07 Andy Blake : Move calculation of track trajectory from TrackParticleBuildingAlgorithm and LArPfoHelper and remove assumption about direction of 3D sliding fit.
 
-larsoftobj v1_26_00
-----------------------------------------------
+## larsoftobj v1_26_00
 
 -   2017-08-29 Lynn Garren : larsoftobj v1_26_00 for larsoft v06_48_00
 -   2017-08-29 Lynn Garren : update product versions
 
-lardataobj v1_20_00
-----------------------------------------------
+## lardataobj v1_20_00
 
 -   2017-08-29 Lynn Garren : lardataobj v1_20_00 for larsoft v06_48_00
 -   2017-08-14 Steven Gardiner : Separate the statistical event weight from the flux-averaged cross section in the sim::SupernovaTruth data product. Rename the SNTime member to SupernovaTime.
 -   2017-06-30 Steven Gardiner : Update description of neutrino weights in the sim::SupernovaTruth header
 -   2017-06-13 Steven Gardiner : Add the SupernovaTruth data product (provides timing information, etc. for events produced using the MARLEYTimeGen module)
 
-larcorealg v1_06_01
-----------------------------------------------
+## larcorealg v1_06_01
 
-larcoreobj v1_15_01
-----------------------------------------------
+## larcoreobj v1_15_01
 
-larbatch v01_32_04
---------------------------------------------
+## larbatch v01_32_04
 
-larutils v1_19_00
-------------------------------------------
+## larutils v1_19_00

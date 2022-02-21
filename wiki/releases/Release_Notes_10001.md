@@ -1,20 +1,18 @@
-LArSoft suite Release Notes 1.00.01 (2014/24/01)
-================================================================================================
+# LArSoft suite Release Notes 1.00.01 (2014/24/01)
 
-Previous version’s [Release Notes 0.02.02](Release_Notes_00202)
+Previous version's [Release Notes 0.02.02](Release_Notes_0.02.02)
 
-[Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/larsoft-v1_00_01.html)
-[Binary download script](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/downloadLArSoft-v1_00_01.sh)
+[Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/larsoft-v1_00_01.html)  
+[Binary download script](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/downloadLArSoft-v1_00_01.sh)  
 [Source download script](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/downloadLArSource-v1_00_01.sh)
 
-LArSoft 1.00.01
-----------------------------------
+## LArSoft 1.00.01
 
 ### Purpose
 
-First production release of LArSoft suite under git / mrb / ups. Based on a snapshot of svn taken on
-21-Jan-2014 after the svn repository was closed to public writes, plus one bug fix (in
-larsim/LArG4/LArG4/IonizationAndScintillation\*) that was subsquently ported into svn. The svn-based
+First production release of LArSoft suite under git / mrb / ups. Based on a snapshot of svn taken on  
+21-Jan-2014 after the svn repository was closed to public writes, plus one bug fix (in  
+larsim/LArG4/LArG4/IonizationAndScintillation\*) that was subsquently ported into svn. The svn-based  
 release S2014.01.24 should be identical to the code in this release.
 
 ### New features

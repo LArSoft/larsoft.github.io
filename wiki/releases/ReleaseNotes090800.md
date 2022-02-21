@@ -1,18 +1,17 @@
-LArSoft v09_08_00 Release Notes
-======================================================================
+# LArSoft v09_08_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09_08_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_08_00/larsoft-v09_08_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v09_08_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_08_00/larsoft-v09_08_00.html)  
 Download instructions for [just larsoftobj v09_02_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_02_00/larsoftobj-v09_02_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes in develop
 -   approved PRs
 
-New features
-------------------------------
+## New features
 
 -   lardataalg PR 17
     -   detinfo::DetectorTimings::toTick() now supports tick type arguments together with time type arguments.
@@ -30,49 +29,41 @@ New features
         -   This pull request introduces the infrastructure to support deep learning via LibTorch. There will be a talk on this and the associated larpandoracontent pull request (LArSoft/larpandoracontent/pull/13) upon which it depends, in the LArSoft Coordination meeting on 20 October.
         -   This update allows LArPandoraInterface to link against the new deep learning-aware library in larpandoracontent.
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   larpandoracontent PR 14
-    -   This PR is a patch release to fix a bug in LArTrackShowerId/TrackShowerIdFeatureTool.cc where a defence against accessing an empty container was missing. Please see PandoraPFA\#146 for more information if you’re interested.
+    -   This PR is a patch release to fix a bug in LArTrackShowerId/TrackShowerIdFeatureTool.cc where a defence against accessing an empty container was missing. Please see PandoraPFA#146 for more information if you're interested.
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   gallery v1_14_03 (s102)
 -   artdaq_core v3_06_03
 -   geant4reweight v01_04_01
 -   bxdecay0 v1_0_6
 
-Change List
-============================
+# Change List
 
-larsoft v09_08_00
-------------------------------------------
+## larsoft v09_08_00
 
 -   2020-10-23 Lynn Garren : larsoft v09_08_00 for larsoft v09_08_00
 -   2020-10-23 Lynn Garren : product versions
 
-lareventdisplay v09_00_10
-----------------------------------------------------------
+## lareventdisplay v09_00_10
 
 -   2020-10-23 Lynn Garren : lareventdisplay v09_00_10 for larsoft v09_08_00
 
-larexamples v09_00_09
---------------------------------------------------
+## larexamples v09_00_09
 
 -   2020-10-23 Lynn Garren : larexamples v09_00_09 for larsoft v09_08_00
 
-larg4 v09_01_02
---------------------------------------
+## larg4 v09_01_02
 
 -   2020-10-23 Lynn Garren : larg4 v09_01_02 for larsoft v09_08_00
 
-larpandora v09_03_00
-------------------------------------------------
+## larpandora v09_03_00
 
 -   2020-10-23 Lynn Garren : larpandora v09_03_00 for larsoft v09_08_00
--   2020-10-22 Lynn Garren : Merge branch ‘feature/larpandoracontent_v03_22_00’ into release/v09_08_00
+-   2020-10-22 Lynn Garren : Merge branch 'feature/larpandoracontent_v03_22_00' into release/v09_08_00
 -   2020-10-20 AndyChappell : Merge pull request \#14 from AndyChappell/feature/build_tweaks
 -   2020-10-20 Andrew Chappell : Check for presence of LibTorch during build
 -   2020-10-14 AndyChappell : Merge pull request \#13 from AndyChappell/feature/larpandoracontent_v03_22_00
@@ -80,61 +71,51 @@ larpandora v09_03_00
 -   2020-09-14 Andrew Chappell : Conditional build based on cmake flag PANDORA_LIBTORCH
 -   2020-09-14 Andrew Chappell : Include DLMaster algorithm
 
-larsimrad v09_00_09
-----------------------------------------------
+## larsimrad v09_00_09
 
 -   2020-10-23 Lynn Garren : larsimrad v09_00_09 for larsoft v09_08_00
 
-larrecodnn v09_02_01
-------------------------------------------------
+## larrecodnn v09_02_01
 
 -   2020-10-23 Lynn Garren : larrecodnn v09_02_01 for larsoft v09_08_00
 
-larwirecell v09_01_04
---------------------------------------------------
+## larwirecell v09_01_04
 
 -   2020-10-23 Lynn Garren : larwirecell v09_01_04 for larsoft v09_08_00
 
-larana v09_00_10
-----------------------------------------
+## larana v09_00_10
 
 -   2020-10-23 Lynn Garren : larana v09_00_10 for larsoft v09_08_00
 
-larreco v09_04_00
-------------------------------------------
+## larreco v09_04_00
 
 -   2020-10-23 Lynn Garren : larreco v09_04_00 for larsoft v09_08_00
 -   2020-10-21 Lynn Garren : Merge pull request \#22 from brballer/feature/bb_vsafix
 -   2020-10-20 Bruce Baller : Improve 3D reconstruction of very small angle tracks
 
-larsim v09_05_00
-----------------------------------------
+## larsim v09_05_00
 
 -   2020-10-23 Lynn Garren : larsim v09_05_00 for larsoft v09_08_00
 -   2020-10-20 Lynn Garren : Merge pull request \#44 from SBNSoftware/mdeltutt_opfast
 -   2020-10-14 Marco Del Tutto : Removing member NOpChannels. Always using fPVS-\>NOpChannels() to get the number of optical channels.
 -   2020-10-14 Marco Del Tutto : Removing previously commented-out lines.
 -   2020-10-14 Marco Del Tutto : Marking detectedDirectHits and detectedReflecHits as const methods.
--   2020-10-09 Marco Del Tutto : Merge branch ‘develop’ into mdeltutt_opfast
+-   2020-10-09 Marco Del Tutto : Merge branch 'develop' into mdeltutt_opfast
 -   2020-10-09 Marco Del Tutto : Comment unused variable acos_arr
 -   2020-10-09 Marco Del Tutto : Use fPVS-\>NOpChannels() and not cached NOpChannels, so correct number of op channels is always returned
 -   2020-10-06 Marco Del Tutto : Making detectedDirectHits and detectedReflecHits methods public.
 
-larevt v09_00_07
-----------------------------------------
+## larevt v09_00_07
 
 -   2020-10-23 Lynn Garren : larevt v09_00_07 for larsoft v09_08_00
 
-lardata v09_01_02
-------------------------------------------
+## lardata v09_01_02
 
 -   2020-10-23 Lynn Garren : lardata v09_01_02 for larsoft v09_08_00
 
-larcore v09_00_01
-------------------------------------------
+## larcore v09_00_01
 
-larpandoracontent v03_22_00
---------------------------------------------------------------
+## larpandoracontent v03_22_00
 
 -   2020-10-23 Lynn Garren : larpandoracontent v03_22_00 for larsoft v09_08_00
 -   2020-10-20 Andrew Chappell : Add LibTorch optional dependency and check for presence during build
@@ -166,36 +147,28 @@ larpandoracontent v03_22_00
 -   2020-10-19 Dom Brailsford : Update version and changelog for patch release
 -   2020-10-16 Dom Brailsford : Bug fix where no vertex exists.
 
-larsoftobj v09_02_00
-------------------------------------------------
+## larsoftobj v09_02_00
 
 -   2020-10-23 Lynn Garren : larsoftobj v09_02_00 for larsoft v09_08_00
 -   2020-10-23 Lynn Garren : product versions
 
-lardataobj v09_00_01
-------------------------------------------------
+## lardataobj v09_00_01
 
-lardataalg v09_02_00
-------------------------------------------------
+## lardataalg v09_02_00
 
 -   2020-10-23 Lynn Garren : lardataalg v09_02_00 for larsoft v09_08_00
 -   2020-10-22 Lynn Garren : whitespace cleanup
--   2020-10-21 Lynn Garren : Merge pull request [redmine issue 17](https://cdcvs.fnal.gov/redmine/issues/17) from PetrilloAtWork/feature/gp_tickConversions
+-   2020-10-21 Lynn Garren : Merge pull request \#17 from PetrilloAtWork/feature/gp_tickConversions
 -   2020-10-15 Gianluca Petrillo : DetectorTimings now supports tick-to-tick conversions.
 
-larcorealg v09_00_01
-------------------------------------------------
+## larcorealg v09_00_01
 
-larcoreobj v09_00_00
-------------------------------------------------
+## larcoreobj v09_00_00
 
-webevd v09_00_07
-----------------------------------------
+## webevd v09_00_07
 
 -   2020-10-23 Lynn Garren : webevd v09_00_07 for larsoft v09_08_00
 
-larbatch v01_54_00
---------------------------------------------
+## larbatch v01_54_00
 
-larutils v1_27_01
-------------------------------------------
+## larutils v1_27_01

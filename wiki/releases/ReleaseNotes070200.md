@@ -1,43 +1,38 @@
-LArSoft v07_02_00 Release Notes
-======================================================================
+# LArSoft v07_02_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v07_02_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_02_00/larsoft-v07_02_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v07_02_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_02_00/larsoft-v07_02_00.html)  
 Download instructions for [just larsoftobj v07_01_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_01_01/larsoftobj-v07_01_01.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes to develop
 -   approved feature branches
 -   **Final release with e15 support**
 
-New features
-------------------------------
+## New features
 
 -   External building of consolidated Pandora events
-    -   [https://indico.fnal.gov/event/17992/contribution/2/material/slides/0.pdf](https://indico.fnal.gov/event/17992/contribution/2/material/slides/0.pdf)
+    -   https://indico.fnal.gov/event/17992/contribution/2/material/slides/0.pdf
     -   pandora v03_11_01
     -   larpandora (feature/larpandoracontent_v03_14_00)
     -   larpandoracontent (feature/larpandoracontent_v03_14_00)
     -   ubreco (feature/larpandoracontent_v03_14_00)
     -   dunetpc (feature/larpandoracontent_v03_14_00)
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   bug fix for larana macOS test
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   pandora v03_11_01
 
-Change List
-============================
+# Change List
 
-larsoft v07_02_00
-------------------------------------------
+## larsoft v07_02_00
 
 -   2018-08-15 Lynn Garren : pandora v03_11_01
 -   2018-08-15 Lynn Garren : fix larcorealg version
@@ -46,29 +41,25 @@ larsoft v07_02_00
 -   2018-08-15 Lynn Garren : product versions
 -   2018-08-15 Lynn Garren : put protobuf back for Ubuntu
 
-lareventdisplay v07_01_00
-----------------------------------------------------------
+## lareventdisplay v07_01_00
 
 -   2018-08-15 Lynn Garren : lareventdisplay v07_01_00 for larsoft v07_02_00
--   2018-08-15 Usher, Tracy L : Merge remote-tracking branch ‘origin/feature/bb_Vertex2D’ into develop
+-   2018-08-15 Usher, Tracy L : Merge remote-tracking branch 'origin/feature/bb_Vertex2D' into develop
 -   2018-08-09 Lynn Garren : larsoft v07_00_02
--   2018-08-08 Tingjun Yang : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/lareventdisplay into develop
+-   2018-08-08 Tingjun Yang : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/lareventdisplay into develop
 -   2018-08-08 Tingjun Yang : Add slice space points.
 -   2018-08-08 Thomas Junk : make sure the uncompressed data has a big enough buffer
 -   2018-08-08 baller : Draw vertices only in the correct TPC.
 
-larexamples v07_00_03
---------------------------------------------------
+## larexamples v07_00_03
 
 -   2018-08-15 Lynn Garren : larexamples v07_00_03 for larsoft v07_02_00
 
-larg4 v07_00_03
---------------------------------------
+## larg4 v07_00_03
 
 -   2018-08-15 Lynn Garren : larg4 v07_00_03 for larsoft v07_02_00
 
-larpandora v07_01_00
-------------------------------------------------
+## larpandora v07_01_00
 
 -   2018-08-15 Lynn Garren : larpandora v07_01_00 for larsoft v07_02_00
 -   2018-08-14 a-d-smith : cosmetic
@@ -77,7 +68,7 @@ larpandora v07_01_00
 -   2018-08-03 loressa : Fix for slices with no PFOs under one of the hypothesis: nu or cosmics
 -   2018-08-03 a-d-smith : Updated comments for latest speed updates
 -   2018-08-02 a-d-smith : Removed list lookups where possible for performance increase
--   2018-08-02 a-d-smith : Using vectors for O(1) lookup speed increase
+-   2018-08-02 a-d-smith : Using vectors for O (1) lookup speed increase
 -   2018-08-01 a-d-smith : Allowed for empty pfo lists in LArPandoraOutput
 -   2018-07-30 a-d-smith : Added checks before producing associations that may not exist
 -   2018-07-16 a-d-smith : Removed shower particle building from Pandora XML files
@@ -105,19 +96,16 @@ larpandora v07_01_00
 -   2018-05-23 a-d-smith : Fixed up LArPandoraOutput to produce associations
 -   2018-05-22 a-d-smith : Added first remaster pass of LArPandoraOutput
 
-larwirecell v07_00_03
---------------------------------------------------
+## larwirecell v07_00_03
 
 -   2018-08-15 Lynn Garren : larwirecell v07_00_03 for larsoft v07_02_00
 
-larana v07_00_03
-----------------------------------------
+## larana v07_00_03
 
 -   2018-08-15 Lynn Garren : larana v07_00_03 for larsoft v07_02_00
 -   2018-08-13 Lynn Garren : problem resolved by a commit in larsim
 
-larreco v07_02_00
-------------------------------------------
+## larreco v07_02_00
 
 -   2018-08-15 Lynn Garren : larreco v07_02_00 for larsoft v07_02_00
 -   2018-08-15 Lynn Garren : larreco v07_02_00 for larsoft v07_02_00
@@ -130,70 +118,58 @@ larreco v07_02_00
 -   2018-08-08 baller : Fix errors in reconfigure.
 -   2018-08-08 baller : Fix errors and prepare for future creation of PFParticle - Slice assns.
 
-larsim v07_01_01
-----------------------------------------
+## larsim v07_01_01
 
 -   2018-08-15 Lynn Garren : larsim v07_01_01 for larsoft v07_02_00
 -   2018-08-14 Paul Russo : Fix constructor to explicitly intialize all data members.
 -   2018-08-13 Paul Russo : Fix TF1 double delete crashes on macOS.
 
-larevt v07_00_03
-----------------------------------------
+## larevt v07_00_03
 
 -   2018-08-15 Lynn Garren : larevt v07_00_03 for larsoft v07_02_00
 
-lardata v07_00_03
-------------------------------------------
+## lardata v07_00_03
 
 -   2018-08-15 Lynn Garren : lardata v07_00_03 for larsoft v07_02_00
 
-larcore v07_00_01
-------------------------------------------
+## larcore v07_00_01
 
 -   2018-08-15 Lynn Garren : larcore v07_00_01 for larsoft v07_02_00
 
-larpandoracontent v03_14_00
---------------------------------------------------------------
+## larpandoracontent v03_14_00
 
 -   2018-08-15 Lynn Garren : larpandoracontent v03_14_00 for larsoft v07_02_00
 -   2018-08-02 Multi-algorithm pattern recognition : Merge pull request \#70 from StevenGreen1/feature/NuScoreLabel
 -   2018-08-01 Steven Green : Alteration made to pfo metadata in training neutrino id use case.
--   2018-07-30 John Marshall : Merge branch ‘feature/TestBeamParticleCreationWorker’
+-   2018-07-30 John Marshall : Merge branch 'feature/TestBeamParticleCreationWorker'
 -   2018-07-30 John Marshall : Update version and change log.
 -   2018-07-26 John Marshall : Refactoring, error-checking and cosmetic changes.
 -   2018-07-19 Steven Green : Restructured test beam particle creation algorithm to work within worker instance.
 
-larsoftobj v07_01_01
-------------------------------------------------
+## larsoftobj v07_01_01
 
 -   2018-08-15 Lynn Garren : larsoftobj v07_01_01 for larsoft v07_02_00
 -   2018-08-15 Lynn Garren : update versions
 
-lardataobj v07_01_01
-------------------------------------------------
+## lardataobj v07_01_01
 
 -   2018-08-15 Lynn Garren : lardataobj v07_01_01 for larsoft v07_02_00
 
-lardataalg v07_00_01
-------------------------------------------------
+## lardataalg v07_00_01
 
 -   2018-08-15 Lynn Garren : lardataalg v07_00_01 for larsoft v07_02_00
 
-larcorealg v07_01_00
-------------------------------------------------
+## larcorealg v07_01_00
 
 -   2018-08-15 Lynn Garren : larcorealg v07_01_00 for larsoft v07_02_00
 -   2018-06-21 Gianluca Petrillo : Documentation fix
 -   2018-08-14 Gianluca Petrillo : OpDetGeo interface expanded to help support for bar geometry.
 
-larcoreobj v07_00_00
-------------------------------------------------
+## larcoreobj v07_00_00
 
-larbatch v01_43_00
---------------------------------------------
+## larbatch v01_43_00
 
-larutils v1_22_11
-------------------------------------------
+## larutils v1_22_11
 
 -   2018-08-15 Lynn Garren : larutils v1_22_11 for larsoft v07_02_00
 -   2018-08-14 Herbert Greenlee : Remove offline qualifier from tarball name.

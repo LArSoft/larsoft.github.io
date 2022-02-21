@@ -1,22 +1,21 @@
-LArSoft v09_10_00 Release Notes
-======================================================================
+# LArSoft v09_10_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09_10_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_10_00/larsoft-v09_10_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v09_10_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_10_00/larsoft-v09_10_00.html)  
 Download instructions for [just larsoftobj v09_03_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_03_00/larsoftobj-v09_03_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes in develop
 -   approved PRs
 
-New features
-------------------------------
+## New features
 
 -   larsim now depends directly on larg4
 -   larsim PR 50
-    -   Updates to the refactored LArG4 parameterised light simulation module with the refined model(s) implemented in legacy LArG4 in PR 43. The changes to the models are detailed in [https://indico.fnal.gov/event/45687/](https://indico.fnal.gov/event/45687/) (presented in Sep before the update to the legacy code).
+    -   Updates to the refactored LArG4 parameterised light simulation module with the refined model(s) implemented in legacy LArG4 in PR 43. The changes to the models are detailed in https://indico.fnal.gov/event/45687/ (presented in Sep before the update to the legacy code).
     -   I have also added support for SimPhotons and Reflected photons in PDFastSimPAR following the approach used by Muve (see PR 48) and used in legacy LArG4.
 -   larsim PR 53
     -   Volume name feature for RadioGen event generator.
@@ -28,23 +27,19 @@ New features
     -   Add support for reading from sqlite calibration databases
     -   [coordination meeting talk](https://indico.fnal.gov/event/46314/contributions/201503/attachments/136947/170545/larsoft_sqlite_nov3_2020.pdf)
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   larsim PR 52
-    -   Fixed bug where ScintPreScale factor wasn’t being set
+    -   Fixed bug where ScintPreScale factor wasn't being set
     -   In LegacyLArG4/ISCalculationCorrelated.cxx, which SBND still uses, the factor “fScintPreScale” was not being set. This is now retrieved from LArPropertiesServices, as expected. This bug is not present in the newer refactorized-LArG4 version of the alg (in IonizationAndScintillation).
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   geant4reweight v01_06_00
 
-Change List
-============================
+# Change List
 
-larsoft v09_10_00
-------------------------------------------
+## larsoft v09_10_00
 
 -   2020-11-20 Lynn Garren : build order matters
 -   2020-11-20 Lynn Garren : larsoft v09_10_00 for larsoft v09_10_00
@@ -52,60 +47,51 @@ larsoft v09_10_00
 -   2020-11-19 Lynn Garren : product versions
 -   2020-11-19 Lynn Garren : removing unnecessary entries for larg4 and larreco
 
-lareventdisplay v09_00_13
-----------------------------------------------------------
+## lareventdisplay v09_00_13
 
 -   2020-11-20 Lynn Garren : lareventdisplay v09_00_13 for larsoft v09_10_00
 
-larexamples v09_00_12
---------------------------------------------------
+## larexamples v09_00_12
 
 -   2020-11-20 Lynn Garren : larexamples v09_00_12 for larsoft v09_10_00
 
-larpandora v09_03_04
-------------------------------------------------
+## larpandora v09_03_04
 
 -   2020-11-20 Lynn Garren : larpandora v09_03_04 for larsoft v09_10_00
 
-larsimrad v09_00_12
-----------------------------------------------
+## larsimrad v09_00_12
 
 -   2020-11-20 Lynn Garren : larsimrad v09_00_12 for larsoft v09_10_00
 
-larrecodnn v09_02_04
-------------------------------------------------
+## larrecodnn v09_02_04
 
 -   2020-11-20 Lynn Garren : larrecodnn v09_02_04 for larsoft v09_10_00
 
-larwirecell v09_01_06
---------------------------------------------------
+## larwirecell v09_01_06
 
 -   2020-11-20 Lynn Garren : larwirecell v09_01_06 for larsoft v09_10_00
 
-larana v09_00_13
-----------------------------------------
+## larana v09_00_13
 
 -   2020-11-20 Lynn Garren : larana v09_00_13 for larsoft v09_10_00
 
-larreco v09_04_03
-------------------------------------------
+## larreco v09_04_03
 
 -   2020-11-20 Lynn Garren : larreco v09_04_03 for larsoft v09_10_00
 
-larsim v09_07_00
-----------------------------------------
+## larsim v09_07_00
 
 -   2020-11-20 Lynn Garren : larsim v09_07_00 for larsoft v09_10_00
--   2020-11-19 Lynn Garren : Merge branch ‘feature/lg_add_larg4’ into release/v09_10_00
--   2020-11-19 Lynn Garren : Merge pull request [redmine issue 50](https://cdcvs.fnal.gov/redmine/issues/50) from pgreen135/feature/pgreen_semianalytic_refactoredLArG4
+-   2020-11-19 Lynn Garren : Merge branch 'feature/lg_add_larg4' into release/v09_10_00
+-   2020-11-19 Lynn Garren : Merge pull request \#50 from pgreen135/feature/pgreen_semianalytic_refactoredLArG4
 -   2020-11-19 Patrick Green : removing unused variable
--   2020-11-19 Lynn Garren : Merge pull request [redmine issue 53](https://cdcvs.fnal.gov/redmine/issues/53) from PetrilloAtWork/feature/gp_RadioGen
+-   2020-11-19 Lynn Garren : Merge pull request \#53 from PetrilloAtWork/feature/gp_RadioGen
 -   2020-11-19 Patrick Green : updating implementation addressing comments in PR
 -   2020-11-18 Gianluca Petrillo : Made test on T0/T1 check more demanding.
 -   2020-11-18 Gianluca Petrillo : Added documentation to RadioGen.
--   2020-11-17 Lynn Garren : Merge pull request [redmine issue 52](https://cdcvs.fnal.gov/redmine/issues/52) from wforeman/wforeman_correlated_bug_fix
+-   2020-11-17 Lynn Garren : Merge pull request \#52 from wforeman/wforeman_correlated_bug_fix
 -   2020-11-17 Will Foreman : Removing some whitespace
--   2020-11-16 Will Foreman : Fixed bug where ScintPreScale factor wasn’t being set in LegacyLArG4/ISCalculationCorrelated
+-   2020-11-16 Will Foreman : Fixed bug where ScintPreScale factor wasn't being set in LegacyLArG4/ISCalculationCorrelated
 -   2020-11-13 Gianluca Petrillo : Updates for LArSoft 9.
 -   2019-11-18 Gianluca Petrillo : Trying to fix the automatic time window detection.
 -   2019-07-25 Gianluca Petrillo : Removed code that is now in \`larcorealg\`.
@@ -120,13 +106,11 @@ larsim v09_07_00
 -   2020-10-16 Patrick Green : restructured semi-analytic hits and timing to avoid duplicate calculations for fast and slow photons
 -   2020-10-15 Patrick Green : updated semi-analytic light simulation hits and transport time models in refactored LArG4 to bring in line with updates to LegacyLArG4
 
-larg4 v09_01_04
---------------------------------------
+## larg4 v09_01_04
 
 -   2020-11-20 Lynn Garren : larg4 v09_01_04 for larsoft v09_10_00
 
-larevt v09_01_00
-----------------------------------------
+## larevt v09_01_00
 
 -   2020-11-20 Lynn Garren : larevt v09_01_00 for larsoft v09_10_00
 -   2020-11-19 Lynn Garren : Merge pull request \#9 from uboone/feature/greenlee_sqlite_develop
@@ -134,42 +118,31 @@ larevt v09_01_00
 -   2020-11-03 Herbert Greenlee : Switch from boost::variant to std::variant.
 -   2020-10-31 Herbert Greenlee : Change data type from string to boost::variant.
 -   2020-10-30 Herbert Greenlee : Update DBFolder.
--   2020-10-27 Herbert Greenlee : Merge remote-tracking branch ‘origin/develop’ into feature/greenlee_sqlite_develop
--   2020-10-23 Herbert Greenlee : Merge remote-tracking branch ‘origin/develop’ into feature/greenlee_sqlite_develop
+-   2020-10-27 Herbert Greenlee : Merge remote-tracking branch 'origin/develop' into feature/greenlee_sqlite_develop
+-   2020-10-23 Herbert Greenlee : Merge remote-tracking branch 'origin/develop' into feature/greenlee_sqlite_develop
 -   2020-04-09 Herbert Greenlee : Remove active IOV constraint.
--   2020-05-12 Herbert Greenlee : Merge remote-tracking branch ‘upstream/develop’ into develop
--   2020-05-12 Herbert Greenlee : Merge branch ‘feature/greenlee_sqlite_develop’ of github.com:uboone/larevt into develop
+-   2020-05-12 Herbert Greenlee : Merge remote-tracking branch 'upstream/develop' into develop
+-   2020-05-12 Herbert Greenlee : Merge branch 'feature/greenlee_sqlite_develop' of github.com:uboone/larevt into develop
 -   2020-02-25 Herbert Greenlee : Add ability to read calibration data from sqlite.
 
-lardata v09_01_03
-------------------------------------------
+## lardata v09_01_03
 
-larcore v09_00_01
-------------------------------------------
+## larcore v09_00_01
 
-larpandoracontent v03_22_02
---------------------------------------------------------------
+## larpandoracontent v03_22_02
 
-larsoftobj v09_03_00
-------------------------------------------------
+## larsoftobj v09_03_00
 
-lardataobj v09_00_02
-------------------------------------------------
+## lardataobj v09_00_02
 
-lardataalg v09_03_00
-------------------------------------------------
+## lardataalg v09_03_00
 
-larcorealg v09_00_01
-------------------------------------------------
+## larcorealg v09_00_01
 
-larcoreobj v09_00_00
-------------------------------------------------
+## larcoreobj v09_00_00
 
-webevd v09_00_08
-----------------------------------------
+## webevd v09_00_08
 
-larbatch v01_54_01
---------------------------------------------
+## larbatch v01_54_01
 
-larutils v1_27_02
-------------------------------------------
+## larutils v1_27_02

@@ -1,27 +1,24 @@
-LArSoft v06_73_00 Release Notes
-======================================================================
+# LArSoft v06_73_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06_73_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_73_00/larsoft-v06_73_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v06_73_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_73_00/larsoft-v06_73_00.html)  
 Download instructions for [just larsoftobj v1_42_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_42_00/larsoftobj-v1_42_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   build with both c2 and e15
 
-New features
-------------------------------
+## New features
 
 -   please see the extensive notes about [changes needed for c2](Building_with_clang)
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   changes as needed for the clang build
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   pandora v03_07_00c
 -   marley v1_0_0d
@@ -29,25 +26,22 @@ Updated dependencies
 -   nutools v2_20_02
 -   dk2nugenie v01_06_01c
 
-Change List
-============================
+# Change List
 
-larsoft v06_73_00
-------------------------------------------
+## larsoft v06_73_00
 
 -   2018-04-05 Lynn Garren : larsoft v06_73_00 for larsoft v06_73_00
 -   2018-04-05 Lynn Garren : cetpkgsupport
 -   2018-04-05 Lynn Garren : update versions
 -   2018-04-05 Lynn Garren : update versions
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-03-22 Lynn Garren : add c2
 -   2018-03-22 Lynn Garren : product updates for c2
 
-lareventdisplay v06_19_00
-----------------------------------------------------------
+## lareventdisplay v06_19_00
 
 -   2018-04-05 Lynn Garren : lareventdisplay v06_19_00 for larsoft v06_73_00
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-04-03 Gianluca Petrillo : Adding needed header.
 -   2018-04-03 Gianluca Petrillo : Make the use of “override” keyword consistent.
 -   2018-04-03 Gianluca Petrillo : Removed templateness from stream output operators
@@ -61,41 +55,37 @@ lareventdisplay v06_19_00
 -   2018-04-03 Usher, Tracy L : Include in header file to facilitate the build
 -   2018-03-22 Lynn Garren : add c2
 
-larexamples v06_13_00
---------------------------------------------------
+## larexamples v06_13_00
 
 -   2018-04-05 Lynn Garren : larexamples v06_13_00 for larsoft v06_73_00
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-04-03 Gianluca Petrillo : Streaming operator of data product not templated any more.
 -   2018-04-03 Gianluca Petrillo : Erased unused type definition.
--   2018-04-02 Lynn Garren : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
+-   2018-04-02 Lynn Garren : Workaround for array initialisation bug, issue \#19474
 -   2018-03-22 Lynn Garren : add c2
 
-larpandora v06_26_00
-------------------------------------------------
+## larpandora v06_26_00
 
 -   2018-04-05 Lynn Garren : larpandora v06_26_00 for larsoft v06_73_00
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-04-03 Gianluca Petrillo : Removed unused local variable.
 -   2018-03-26 Lynn Garren : TrackIDE is a struct
 -   2018-03-22 Lynn Garren : add c2
 
-larwirecell v06_12_00
---------------------------------------------------
+## larwirecell v06_12_00
 
 -   2018-04-05 Lynn Garren : larwirecell v06_12_00 for larsoft v06_73_00
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-03-29 Lynn Garren : private data member m_prod is unused
 -   2018-03-22 Lynn Garren : add c2
 
-larana v06_19_00
-----------------------------------------
+## larana v06_19_00
 
 -   2018-04-05 Lynn Garren : larana v06_19_00 for larsoft v06_73_00
 -   2018-04-05 Lynn Garren : remove unused variabe
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-04-03 Herbert Greenlee : Fix mismatch between “produces” call and actual data product.
--   2018-04-03 Herbert Greenlee : Update format to get rid of extraneous \^M’s.
+-   2018-04-03 Herbert Greenlee : Update format to get rid of extraneous ^M's.
 -   2018-04-02 Gianluca Petrillo : Using an unused variable.
 -   2018-04-02 Gianluca Petrillo : Making use of “override” keyword coherent (all or none)
 -   2018-04-02 Gianluca Petrillo : reworked a loop to cope with an unsigned check.
@@ -103,12 +93,11 @@ larana v06_19_00
 -   2018-04-02 Gianluca Petrillo : Commenting out unused data members.
 -   2018-03-22 Lynn Garren : add c2
 
-larreco v06_58_00
-------------------------------------------
+## larreco v06_58_00
 
 -   2018-04-05 Lynn Garren : larreco v06_58_00 for larsoft v06_73_00
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-04-04 Lynn Garren : remove obsolete register keyword
 -   2018-04-04 Lynn Garren : nutools v2_20_02
 -   2018-04-02 Gianluca Petrillo : Removing unused constants and variables.
@@ -118,12 +107,12 @@ larreco v06_58_00
 -   2018-04-02 Gianluca Petrillo : Fixed bug where exception would be unconditionally thrown.
 -   2018-04-02 Gianluca Petrillo : Silencing a Clang warning.
 -   2018-04-02 Gianluca Petrillo : Workaround to a bug in PMA.
--   2018-04-02 Gianluca Petrillo : Fixed bug (probably a cut&paste one)
--   2018-04-02 Gianluca Petrillo : Disabled tensorflow-dependent code as in issue [redmine issue 19539](https://cdcvs.fnal.gov/redmine/issues/19539)
--   2018-04-02 Gianluca Petrillo : BulkAllocator feature removed as in issue [redmine issue 19494](https://cdcvs.fnal.gov/redmine/issues/19494)
+-   2018-04-02 Gianluca Petrillo : Fixed bug (probably a cut&amp;paste one)
+-   2018-04-02 Gianluca Petrillo : Disabled tensorflow-dependent code as in issue \#19539
+-   2018-04-02 Gianluca Petrillo : BulkAllocator feature removed as in issue \#19494
 -   2018-04-02 Gianluca Petrillo : Removed \`register\` keyword, deprecated by C++17.
 -   2018-04-02 Gianluca Petrillo : Not enclosing simple return values in braces.
--   2018-04-02 Gianluca Petrillo : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
+-   2018-04-02 Gianluca Petrillo : Workaround for array initialisation bug, issue \#19474
 -   2018-04-02 Gianluca Petrillo : Fixing unsigned value comparisons.
 -   2018-04-02 Gianluca Petrillo : Fixed complaint about a method hiding a virtual one of the base class.
 -   2018-04-02 Gianluca Petrillo : Removed superfluous std::move() calls.
@@ -135,16 +124,15 @@ larreco v06_58_00
 -   2018-04-02 Lynn Garren : squester tensorflow
 -   2018-04-01 Gianluca Petrillo : Fixed comparison bug with unsigned elements
 -   2018-04-01 Gianluca Petrillo : Replaced explicit initialisation of array with std::array::fill()
--   2018-04-01 Gianluca Petrillo : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
+-   2018-04-01 Gianluca Petrillo : Workaround for array initialisation bug, issue \#19474
 -   2018-03-22 Lynn Garren : make tensorflow optional for now
 -   2018-03-22 Lynn Garren : add c2
 
-larsim v06_43_00
-----------------------------------------
+## larsim v06_43_00
 
 -   2018-04-05 Lynn Garren : larsim v06_43_00 for larsoft v06_73_00
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
--   2018-04-02 Lynn Garren : Disable the loop per Herb’s instructions
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
+-   2018-04-02 Lynn Garren : Disable the loop per Herb's instructions
 -   2018-03-30 Gianluca Petrillo : Relying on existing utilities to dump ROOT vectors to screen
 -   2018-03-30 Gianluca Petrillo : Removed unused variable.
 -   2018-03-30 Gianluca Petrillo : Removing redundant check
@@ -162,11 +150,10 @@ larsim v06_43_00
 -   2018-03-29 Lynn Garren : use override
 -   2018-03-22 Lynn Garren : add c2
 
-larevt v06_20_00
-----------------------------------------
+## larevt v06_20_00
 
 -   2018-04-05 Lynn Garren : larevt v06_20_00 for larsoft v06_73_00
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-04-03 Gianluca Petrillo : Making the service provider interface and derived uncopiable.
 -   2018-04-02 Gianluca Petrillo : Service requirements are not meant for service pure interfaces.
 -   2018-03-29 Gianluca Petrillo : Service requirements are not meant for service pure interfaces.
@@ -178,13 +165,12 @@ larevt v06_20_00
 -   2018-03-22 Lynn Garren : remove unused private data member
 -   2018-03-22 Lynn Garren : add c2
 
-lardata v06_43_00
-------------------------------------------
+## lardata v06_43_00
 
 -   2018-04-05 Lynn Garren : lardata v06_43_00 for larsoft v06_73_00
 -   2018-04-04 Lynn Garren : use double braces
 -   2018-04-04 Lynn Garren : mark functions as override
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-03-30 Gianluca Petrillo : Updated comment on ProxyBaseTest
 -   2018-03-29 Lynn Garren : nutools v2_20_02
 -   2018-03-28 Gianluca Petrillo : Workaround for inability of Clang to access constexpr function properly
@@ -194,43 +180,39 @@ lardata v06_43_00
 -   2018-03-28 Gianluca Petrillo : Removed \`register\` keyword, deprecated by C++17.
 -   2018-03-28 Gianluca Petrillo : Removed deleterious std::move() call
 -   2018-03-28 Gianluca Petrillo : Adding missing header.
--   2018-03-28 Gianluca Petrillo : C++ coding fixes.
+-   2018-03-28 Gianluca Petrillo : C coding fixes.
 -   2018-03-28 Gianluca Petrillo : Changed struct to class for consistency with the STL declaration.
 -   2018-03-28 Gianluca Petrillo : Fixed default constructor of recob::ClusterHit2D.
 -   2018-03-28 Gianluca Petrillo : Added missing library in link list
--   2018-03-28 Gianluca Petrillo : BulkAllocator feature removed as in issue [redmine issue 19494](https://cdcvs.fnal.gov/redmine/issues/19494)
+-   2018-03-28 Gianluca Petrillo : BulkAllocator feature removed as in issue \#19494
 -   2018-03-28 Gianluca Petrillo : Always-true check removed.
 -   2018-03-28 Gianluca Petrillo : Removed unused local variable and private member data.
 -   2018-03-28 Gianluca Petrillo : Enforced consistent usage of “override” keyword
--   2018-03-28 Gianluca Petrillo : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
+-   2018-03-28 Gianluca Petrillo : Workaround for array initialisation bug, issue \#19474
 -   2018-03-28 Gianluca Petrillo : Removed template stream from operator\<\< of classes.
 -   2018-03-22 Lynn Garren : adding c2
 
-larcore v06_19_00
-------------------------------------------
+## larcore v06_19_00
 
 -   2018-04-05 Lynn Garren : larcore v06_19_00 for larsoft v06_73_00
 -   2018-03-22 Lynn Garren : ServiceRequirementsChecker is a struct
 -   2018-03-22 Lynn Garren : adding c2
 
-larpandoracontent v03_11_01
---------------------------------------------------------------
+## larpandoracontent v03_11_01
 
 -   2018-04-05 Lynn Garren : larpandoracontent v03_11_01 for larsoft v06_73_00
 -   2018-04-04 Lynn Garren : v03_11_01 with pandora v03_07_00c for c2
--   2018-04-04 Lynn Garren : Merge branch ‘feature/team_for_c2’ into release/v06_73_00
+-   2018-04-04 Lynn Garren : Merge branch 'feature/team_for_c2' into release/v06_73_00
 -   2018-03-22 Lynn Garren : add c2
 
-larsoftobj v1_42_00
-----------------------------------------------
+## larsoftobj v1_42_00
 
 -   2018-04-05 Lynn Garren : larsoftobj v1_42_00 for larsoft v06_73_00
 -   2018-04-05 Lynn Garren : cetpkgsupport
 -   2018-04-05 Lynn Garren : update versions
 -   2018-03-22 Lynn Garren : adding c2
 
-lardataobj v1_30_00
-----------------------------------------------
+## lardataobj v1_30_00
 
 -   2018-04-05 Lynn Garren : lardataobj v1_30_00 for larsoft v06_73_00
 -   2018-03-30 Gianluca Petrillo : Removing GNU implementation details from VectorMap implementation
@@ -239,8 +221,7 @@ lardataobj v1_30_00
 -   2018-03-22 Lynn Garren : adding c2
 -   2018-03-22 Lynn Garren : for c2
 
-larcorealg v1_19_00
-----------------------------------------------
+## larcorealg v1_19_00
 
 -   2018-04-05 Lynn Garren : larcorealg v1_19_00 for larsoft v06_73_00
 -   2018-04-04 Gianluca Petrillo : Disabling static assert
@@ -251,15 +232,15 @@ larcorealg v1_19_00
 -   2018-03-30 Gianluca Petrillo : Added utility to have compiler print a type
 -   2018-03-30 Gianluca Petrillo : Removing template stream from ROOT vector streaming operators
 -   2018-03-30 Gianluca Petrillo : Removing redundant definitions from Decomposer_test
--   2018-03-23 Gianluca Petrillo : Fix dubious C++ practice.
--   2018-03-23 Gianluca Petrillo : Removing constexpr support for vectors (issue [redmine issue 19476](https://cdcvs.fnal.gov/redmine/issues/19476))
+-   2018-03-23 Gianluca Petrillo : Fix dubious C practice.
+-   2018-03-23 Gianluca Petrillo : Removing constexpr support for vectors (issue \#19476)
 -   2018-03-23 Gianluca Petrillo : Work around Clang inability to resolve template types
--   2018-03-23 Gianluca Petrillo : Fix or dubious C++ practice (thanks Clang)
+-   2018-03-23 Gianluca Petrillo : Fix or dubious C practice (thanks Clang)
 -   2018-03-23 Gianluca Petrillo : Explicitly deal with impossible flow to satisfy Clang
 -   2018-03-23 Gianluca Petrillo : Infinite recursion bug fix (thanks Clang)
 -   2018-03-23 Gianluca Petrillo : Removed or declared unused types and variables
 -   2018-03-23 Gianluca Petrillo : C++17 fix: std::addressof() has now multiple signatures
--   2018-03-23 Gianluca Petrillo : Workaround for array initialisation bug, issue [redmine issue 19474](https://cdcvs.fnal.gov/redmine/issues/19474)
+-   2018-03-23 Gianluca Petrillo : Workaround for array initialisation bug, issue \#19474
 -   2018-03-22 Gianluca Petrillo : Update for C++17
 -   2018-03-22 Lynn Garren : missed one
 -   2018-03-22 Lynn Garren : ActiveAreaCalculator is a struct
@@ -268,8 +249,7 @@ larcorealg v1_19_00
 -   2018-03-22 Lynn Garren : AuxDetGeometryData_t is a struct
 -   2018-03-22 Lynn Garren : adding c2
 
-larcoreobj v1_23_00
-----------------------------------------------
+## larcoreobj v1_23_00
 
 -   2018-04-05 Lynn Garren : larcoreobj v1_23_00 for larsoft v06_73_00
 -   2018-03-23 Gianluca Petrillo : Workaround to lack of support of constexpr in GenVector
@@ -277,23 +257,21 @@ larcoreobj v1_23_00
 -   2018-03-22 Gianluca Petrillo : Updated Doxygen documentation
 -   2018-03-22 Lynn Garren : adding c2
 
-larbatch v01_38_02
---------------------------------------------
+## larbatch v01_38_02
 
 -   2018-04-05 Lynn Garren : larbatch v01_38_02 for larsoft v06_73_00
 -   2018-04-03 Herbert Greenlee : Check whether input dataset contains files before submitting jobs.
 -   2018-04-02 Herbert Greenlee : Tweak recursion types.
 -   2018-04-02 Herbert Greenlee : Add recursion types.
 -   2018-04-02 Herbert Greenlee : Fix project wildcard.
--   2018-03-31 Herbert Greenlee : Add –mtime option for work tarball creation.
+-   2018-03-31 Herbert Greenlee : Add —mtime option for work tarball creation.
 -   2018-03-30 Herbert Greenlee : Give work tarball a name that includes the checksum of the content of the tarball.
--   2018-03-29 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
+-   2018-03-29 Herbert Greenlee : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
 -   2018-03-29 Herbert Greenlee : Fix validate-in-job error.
 -   2018-03-29 Lynn Garren : larsoft v06_72_00
--   2018-03-29 Herbert Greenlee : Add support for \<targetsize\> with sam datasets.
+-   2018-03-29 Herbert Greenlee : Add support for <targetsize> with sam datasets.
 
-larutils v1_22_01
-------------------------------------------
+## larutils v1_22_01
 
 -   2018-04-05 Lynn Garren : adding c2
 -   2018-04-05 Lynn Garren : larutils v1_22_01 for larsoft v06_73_00

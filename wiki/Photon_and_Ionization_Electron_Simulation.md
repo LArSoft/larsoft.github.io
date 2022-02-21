@@ -1,17 +1,13 @@
-Photon and Ionization Electron Simulation
-========================================================================================
+{{toc}}
 
-Relevant Literature
---------------------------------------------
+# Photon and Ionization Electron Simulation
 
-Ionization algorithms
-------------------------------------------------
+## Relevant Literature
 
-Scintillation light algorithms
-------------------------------------------------------------------
+## Ionization algorithms
 
-[LArQL algorithm](LArQL_algorithm)
---------------------------------------------------------------------------------------
+## Scintillation light algorithms
 
-Performance
-----------------------------
+## [LArQL algorithm](LArQL_algorithm)
+
+## Performance

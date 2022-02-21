@@ -1,18 +1,17 @@
-LArSoft v08_60_00 Release Notes
-======================================================================
+# LArSoft v08_60_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v08_60_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_60_00/larsoft-v08_60_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v08_60_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_60_00/larsoft-v08_60_00.html)  
 Download instructions for [just larsoftobj v08_29_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_29_03/larsoftobj-v08_29_03.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes in develop
 -   approved PRs
 
-New features
-------------------------------
+## New features
 
 -   lardataobj PR 8
     -   Extended \`recob::SpacePoint\` interface.
@@ -21,11 +20,11 @@ New features
     -   This PR introduces the TrackInEMShower algorithm to Pandora.
     -   The TrackInEMShower algorithm is a 2D hit clustering algorithm that attempts to better cluster cosmic ray muon tracks that have been split by large amounts of electromagnetic behaviour. A detailed description of this algorithm can be found in [this talk](https://indico.fnal.gov/event/24397/contributions/188223/attachments/129113/156520/DUNEWeek_v2.pdf) whilst some up to date performance metrics are given [here](https://indico.fnal.gov/event/44120/contributions/190068/attachments/130579/159204/CosmicRayUpdate.pdf). Once a related PR to dunetpc (dunetpc feature/imawby_trackInEMShower) is passed through, the TrackInEMShower will be in use in the cosmic ray reconstruction chain of the DUNE FD with a view to extend its use across more detectors in the future.
 -   webevd PR 14
-    -   Don’t wait for PNGs to be processed before being ready to serve the page. Instead, encode pngs on demand, and write them directly to the network socket without an intermediate file. This gives better interactive performance.
+    -   Don't wait for PNGs to be processed before being ready to serve the page. Instead, encode pngs on demand, and write them directly to the network socket without an intermediate file. This gives better interactive performance.
 -   webevd PR 15
     -   No longer require a temporary directory. coords.js is now served directly from memory, and it and the various static files are compressed on-demand.
 -   larsim PR 31
-    -   Added some features to the legacy LArG4 chain to speed up the generation of a photon visibility library.
+    -   Added some features to the legacy LArG4 chain to speed up the generation of a photon visibility library.  
         The changes in larsim include:
         -   option not to produce simb::MCParticle collection; this yield a major memory saving since a photon library job may generate hundred of thousand scintillation-like photons;
         -   option to use sim::SimPhotonsLite instead of sim::SimPhotons, which would save individual photons; the information we require for the photon library is just the total number of detected photons, and possibly a time distribution;
@@ -39,67 +38,55 @@ New features
         -   support for filling the library with information from sim::SimPhotonsLite instead of sim::SimPhotons
     -   The whole photon library generation pattern is in need of a deep redesign, which is not attempted here.
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   mrb v4_01_04
 
-Change List
-============================
+# Change List
 
-larsoft v08_60_00
-------------------------------------------
+## larsoft v08_60_00
 
 -   2020-07-29 Lynn Garren : larsoft v08_60_00 for larsoft v08_60_00
 -   2020-07-29 Lynn Garren : product versions
 -   2020-07-23 Lynn Garren : including bxdecay0
 
-lareventdisplay v08_12_23
-----------------------------------------------------------
+## lareventdisplay v08_12_23
 
 -   2020-07-29 Lynn Garren : lareventdisplay v08_12_23 for larsoft v08_60_00
 
-larexamples v08_06_23
---------------------------------------------------
+## larexamples v08_06_23
 
 -   2020-07-29 Lynn Garren : larexamples v08_06_23 for larsoft v08_60_00
 
-larg4 v08_14_07
---------------------------------------
+## larg4 v08_14_07
 
 -   2020-07-29 Lynn Garren : larg4 v08_14_07 for larsoft v08_60_00
 
-larpandora v08_13_03
-------------------------------------------------
+## larpandora v08_13_03
 
 -   2020-07-29 Lynn Garren : larpandora v08_13_03 for larsoft v08_60_00
 
-larsimrad v08_00_01
-----------------------------------------------
+## larsimrad v08_00_01
 
 -   2020-07-29 Lynn Garren : larsimrad v08_00_01 for larsoft v08_60_00
 -   2020-07-29 Lynn Garren : find headers
 -   2020-07-29 Lynn Garren : ignore temporary files
 
-larrecodnn v08_06_03
-------------------------------------------------
+## larrecodnn v08_06_03
 
 -   2020-07-29 Lynn Garren : larrecodnn v08_06_03 for larsoft v08_60_00
 
-larwirecell v08_12_17
---------------------------------------------------
+## larwirecell v08_12_17
 
 -   2020-07-29 Lynn Garren : larwirecell v08_12_17 for larsoft v08_60_00
 
-larana v08_17_15
-----------------------------------------
+## larana v08_17_15
 
 -   2020-07-29 Lynn Garren : larana v08_17_15 for larsoft v08_60_00
 -   2020-07-29 Lynn Garren : remove whitespace again - blame the merge
--   2020-07-29 Lynn Garren : Merge branch ‘feature/gp_fasterLight’ into release/v08_60_00
+-   2020-07-29 Lynn Garren : Merge branch 'feature/gp_fasterLight' into release/v08_60_00
 -   2020-07-22 Gianluca Petrillo : Attempt to make SimPhotonCounter module a bit easier to understand.
 -   2020-07-22 Gianluca Petrillo : Moved hard-coded wavelengths into constants.
 -   2020-07-16 Gianluca Petrillo : SimPhotonCounter now supports building photon library with SimPhotonsLite.
@@ -108,17 +95,15 @@ larana v08_17_15
 -   2020-07-16 Gianluca Petrillo : SimPhotonCounter: PhotonVisibilityService moved to data member.
 -   2020-07-15 Gianluca Petrillo : SimPhotonCounter: MCParticle not demanded when not needed.
 
-larreco v08_32_08
-------------------------------------------
+## larreco v08_32_08
 
 -   2020-07-29 Lynn Garren : larreco v08_32_08 for larsoft v08_60_00
 
-larsim v08_31_00
-----------------------------------------
+## larsim v08_31_00
 
 -   2020-07-29 Lynn Garren : larsim v08_31_00 for larsoft v08_60_00
 -   2020-07-29 Lynn Garren : whitespace cleanup
--   2020-07-29 Lynn Garren : Merge branch ‘feature/gp_fasterLight’ into release/v08_60_00
+-   2020-07-29 Lynn Garren : Merge branch 'feature/gp_fasterLight' into release/v08_60_00
 -   2020-07-22 Gianluca Petrillo : Missed a last commit…
 -   2020-07-22 Gianluca Petrillo : Less restrictive implementation of PhotonLibrary::GetVoxelDef()
 -   2020-07-22 Gianluca Petrillo : PhotonLibrary object does not depend on TFileService any more.
@@ -131,21 +116,17 @@ larsim v08_31_00
 -   2020-07-16 Gianluca Petrillo : Added support to generate SimPhotonsLite with full optical simulation.
 -   2020-07-16 Gianluca Petrillo : Allow disabling particle list output in LArG4
 
-larevt v08_12_01
-----------------------------------------
+## larevt v08_12_01
 
 -   2020-07-29 Lynn Garren : larevt v08_12_01 for larsoft v08_60_00
 
-lardata v08_15_10
-------------------------------------------
+## lardata v08_15_10
 
 -   2020-07-29 Lynn Garren : lardata v08_15_10 for larsoft v08_60_00
 
-larcore v08_11_10
-------------------------------------------
+## larcore v08_11_10
 
-larpandoracontent v03_19_00
---------------------------------------------------------------
+## larpandoracontent v03_19_00
 
 -   2020-07-29 Lynn Garren : larpandoracontent v03_19_00 for larsoft v08_60_00
 -   2020-07-28 Lynn Garren : Merge pull request \#9 from PandoraPFA/feature/larpandoracontent_v03_19_00
@@ -195,46 +176,38 @@ larpandoracontent v03_19_00
 -   2020-03-25 Isobel Mawby : selection of hits within shower that fall between tracks
 -   2020-03-23 Isobel Mawby : initial push
 
-larsoftobj v08_29_03
-------------------------------------------------
+## larsoftobj v08_29_03
 
 -   2020-07-29 Lynn Garren : larsoftobj v08_29_03 for larsoft v08_60_00
 -   2020-07-29 Lynn Garren : cleanup
 -   2020-07-29 Lynn Garren : product versions
 
-lardataobj v08_11_03
-------------------------------------------------
+## lardataobj v08_11_03
 
 -   2020-07-29 Lynn Garren : lardataobj v08_11_03 for larsoft v08_60_00
 -   2020-07-29 Lynn Garren : Merge pull request \#8 from PetrilloAtWork/feature/gp_SpacePoint
 -   2020-07-25 Gianluca Petrillo : Extended \`recob::SpacePoint\` interface.
 
-lardataalg v08_13_15
-------------------------------------------------
+## lardataalg v08_13_15
 
 -   2020-07-29 Lynn Garren : lardataalg v08_13_15 for larsoft v08_60_00
 
-larcorealg v08_22_02
-------------------------------------------------
+## larcorealg v08_22_02
 
-larcoreobj v08_12_01
-------------------------------------------------
+## larcoreobj v08_12_01
 
-webevd v08_01_00
-----------------------------------------
+## webevd v08_01_00
 
 -   2020-07-29 Lynn Garren : webevd v08_01_00 for larsoft v08_60_00
 -   2020-07-29 Lynn Garren : find headers
 -   2020-07-27 Lynn Garren : Merge pull request \#15 from cjbackhouse/feature/no_tmp
--   2020-07-24 Christopher Backhouse : Merge branch ‘feature/no_tmp’ of github.com:cjbackhouse/webevd into feature/no_tmp
+-   2020-07-24 Christopher Backhouse : Merge branch 'feature/no_tmp' of github.com:cjbackhouse/webevd into feature/no_tmp
 -   2020-07-23 Christopher Backhouse : No longer require a temporary directory. coords.js is now served directly from memory, and it and the various static files are compressed on-demand.
 -   2020-07-24 Lynn Garren : Merge pull request \#14 from cjbackhouse/feature/lazy_pngs
 -   2020-07-24 Christopher Backhouse : Guess at clang build fix.
 -   2020-07-23 Christopher Backhouse : No longer require a temporary directory. coords.js is now served directly from memory, and it and the various static files are compressed on-demand.
--   2020-07-20 Christopher Backhouse : Don’t wait for PNGs to be processed before being ready to serve the page. Insterad, encode pngs on demand, and write them directly to the network socket without an intermediate file. This gives better interactive performance.
+-   2020-07-20 Christopher Backhouse : Don't wait for PNGs to be processed before being ready to serve the page. Insterad, encode pngs on demand, and write them directly to the network socket without an intermediate file. This gives better interactive performance.
 
-larbatch v01_52_02
---------------------------------------------
+## larbatch v01_52_02
 
-larutils v1_26_01
-------------------------------------------
+## larutils v1_26_01

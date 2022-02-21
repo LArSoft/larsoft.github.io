@@ -1,20 +1,19 @@
-LArSoft v05_00_01 Release Notes
-======================================================================
+# LArSoft v05_00_01 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_00_01/larsoft-v05_00_01.html)
 
-Purpose
---------------------
+## Purpose
 
--   [architecture phase 1](Core_Services_Review)
+-   [architecture phase 1 ](Core_Services_Review)
 -   use recommended directory structure
 -   use complete library names
 -   this first v05 release was built from the v04_36_01 tag
     -   [log of the process](Move_to_v05)
 
-New features
-------------------------------
+## New features
 
 -   The v05_00_01 release collects the phase 1 architecture changes
     -   based on feature/jpaley_LArPropertiesBreakup in larsoft repositories
@@ -29,32 +28,27 @@ New features
     -   This branch also exists for argoneutcode, dunetpc, lar1ndcode, lariatsoft, and uboonecode.
     -   All necessary changes have been made in the branch
 
-Breaking Changes
---------------------------------------
+## Breaking Changes
 
 -   To update local code, run update_sources.sh and UpdateCoreServices.py
     -   setup larsoft v05_00_01
-    -   UpdateCoreServices.py –doit \<mydir\>
-    -   update_sources.sh \<mydir\>
+    -   UpdateCoreServices.py —doit <mydir>
+    -   update_sources.sh <mydir>
     -   It is safe to run the scripts more than once on the same code.
     -   The scripts will be merged into a single update script in a future release.
 -   There may be more changes required by the new core services changes than can be dealt with in a script.
     -   These changes are already in place for argoneutcode, dunetpc, lar1ndcode, lariatsoft, and uboonecode.
 -   If you want to test code in your favorite feature branch, it might be easier in some cases to check out the appropriate v05 tag, then merge your changes rather than rely on the translation scripts to perform all the necessary architecture changes.
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   larsoft v05_00_01 was built with the same dependencies as larsoft v04_36_01.
 
-Change List
-============================
+# Change List
 
-larsoft v05_00_01
-------------------------------------------
+## larsoft v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
 -   2016-02-12 Lynn Garren : update dependency database
@@ -64,7 +58,7 @@ larsoft v05_00_01
 -   2016-02-10 Lynn Garren : update the refactor scripts
 -   2016-02-10 Lynn Garren : update the refactor scripts
 -   2016-02-10 Lynn Garren : update to match our starting point
--   2016-02-10 Lynn Garren : Merge branch ‘v05_00_00_rc’ into v05_00_branch
+-   2016-02-10 Lynn Garren : Merge branch 'v05_00_00_rc' into v05_00_branch
 -   2016-01-15 Lynn Garren : v05_00_00_rc2
 -   2016-01-15 Lynn Garren : final cmake list
 -   2016-01-15 Lynn Garren : ignore SUBDIRNAME
@@ -81,11 +75,10 @@ larsoft v05_00_01
 -   2015-12-07 Lynn Garren : update product versions
 -   2015-12-07 Lynn Garren : update dependency database
 
-lareventdisplay v05_00_01
-----------------------------------------------------------
+## lareventdisplay v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
--   2016-02-12 Gianluca Petrillo : Merge branch ‘v05_00_00_rc’ into v05_00_refactor
+-   2016-02-12 Gianluca Petrillo : Merge branch 'v05_00_00_rc' into v05_00_refactor
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : add lareventdisplay/lareventdisplay/CMakeLists.txt
 -   2016-02-10 Lynn Garren : add lareventdisplay/lareventdisplay/CMakeLists.txt
@@ -103,19 +96,18 @@ lareventdisplay v05_00_01
 -   2015-11-19 Gianluca Petrillo : Renaming ChannelStatusService and DetectorPedestalService to adhere more closely to the standard pattern (but not there yet…)
 -   2015-11-12 Gianluca Petrillo : Updated FHiCL files to reflect new core services
 -   2015-11-12 Gianluca Petrillo : Removed unnecessary linking of concrete implementation of service interfaces
--   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch ‘origin/feature/jpaley_LArPropertiesBreakup’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch 'origin/feature/jpaley_LArPropertiesBreakup' into feature/jpaley_LArPropertiesBreakup
 -   2015-11-10 Jonathan Paley : Remove “I”
 -   2015-11-09 Gianluca Petrillo : Updated lareventdisplay to the new core services
--   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch 'origin/develop' into feature/jpaley_LArPropertiesBreakup
 -   2015-11-03 Jonathan Paley : Use IServices
--   2015-10-05 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley_LArPropertiesBreakup
+-   2015-10-05 Jonathan Paley : Merge branch 'develop' into feature/jpaley_LArPropertiesBreakup
 -   2015-09-29 Jonathan Paley : Code changes for services factorization.
 
-larexamples v05_00_01
---------------------------------------------------
+## larexamples v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
--   2016-02-12 Gianluca Petrillo : Merge branch ‘v05_00_00_rc’ into v05_00_refactor
+-   2016-02-12 Gianluca Petrillo : Merge branch 'v05_00_00_rc' into v05_00_refactor
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : add larexamples/larexamples/CMakeLists.txt
 -   2016-02-10 Lynn Garren : add larexamples/larexamples/CMakeLists.txt
@@ -128,8 +120,7 @@ larexamples v05_00_01
 -   2015-12-18 Lynn Garren : move AnalysisExample to larexamples/AnalysisExample
 -   2015-12-07 Lynn Garren : larexamples v05_00_00_rc0 for larsoft v05_00_00_rc0
 
-larpandora v05_00_01
-------------------------------------------------
+## larpandora v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
 -   2016-02-12 Gianluca Petrillo : Core service refactoring (from scratch)
@@ -141,8 +132,7 @@ larpandora v05_00_01
 -   2016-02-10 Lynn Garren : move LArPandoraInterface to larpandora/LArPandoraInterface
 -   2016-02-10 Lynn Garren : move MicroBooNEPandora to larpandora/MicroBooNEPandora
 
-larana v05_00_01
-----------------------------------------
+## larana v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
 -   2016-02-12 Gianluca Petrillo : Core service modification applied (from scratch)
@@ -155,11 +145,10 @@ larana v05_00_01
 -   2016-02-10 Lynn Garren : move ParticleIdentification to larana/ParticleIdentification
 -   2016-02-10 Lynn Garren : move T0Finder to larana/T0Finder
 
-larreco v05_00_01
-------------------------------------------
+## larreco v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
--   2016-02-12 Gianluca Petrillo : Merge branch ‘v05_00_00_rc’ into v05_00_refactor
+-   2016-02-12 Gianluca Petrillo : Merge branch 'v05_00_00_rc' into v05_00_refactor
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : add larreco/larreco/CMakeLists.txt
 -   2016-02-10 Lynn Garren : add larreco/larreco/CMakeLists.txt
@@ -201,19 +190,18 @@ larreco v05_00_01
 -   2015-11-19 Gianluca Petrillo : Renaming ChannelStatusService and DetectorPedestalService to adhere more closely to the standard pattern (but not there yet…)
 -   2015-11-12 Gianluca Petrillo : Removed unnecessary linking of concrete implementation of service interfaces
 -   2015-11-12 Gianluca Petrillo : Updated FHiCL files to reflect new core services
--   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch ‘origin/feature/jpaley_LArPropertiesBreakup’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch 'origin/feature/jpaley_LArPropertiesBreakup' into feature/jpaley_LArPropertiesBreakup
 -   2015-11-10 Jonathan Paley : Remove “I”
 -   2015-11-09 Gianluca Petrillo : Merge develop in.
 -   2015-11-09 Gianluca Petrillo : Updated lareventdisplay to the new core services
--   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/jpaley_LArPropertiesBreakup
--   2015-11-03 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch 'origin/develop' into feature/jpaley_LArPropertiesBreakup
+-   2015-11-03 Jonathan Paley : Merge branch 'develop' into feature/jpaley_LArPropertiesBreakup
 -   2015-09-29 Jonathan Paley : Code changes for service factorization.
 
-larsim v05_00_01
-----------------------------------------
+## larsim v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
--   2016-02-11 Gianluca Petrillo : Merge branch ‘v05_00_00_rc’ into v05_00_refactor
+-   2016-02-11 Gianluca Petrillo : Merge branch 'v05_00_00_rc' into v05_00_refactor
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : add larsim/larsim/CMakeLists.txt
 -   2016-02-10 Lynn Garren : add larsim/larsim/CMakeLists.txt
@@ -250,18 +238,17 @@ larsim v05_00_01
 -   2015-11-12 Gianluca Petrillo : Overlooked one linkage to a service implementation
 -   2015-11-12 Gianluca Petrillo : Removing link to implementations of core service interfaces
 -   2015-11-11 Gianluca Petrillo : (Automated) fix of FHiCL configuration file after service renaming
--   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch ‘origin/feature/jpaley_LArPropertiesBreakup’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch 'origin/feature/jpaley_LArPropertiesBreakup' into feature/jpaley_LArPropertiesBreakup
 -   2015-11-10 Jonathan Paley : Remove “I”
--   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch 'origin/develop' into feature/jpaley_LArPropertiesBreakup
 -   2015-11-03 Jonathan Paley : Use IServices.
--   2015-10-05 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley_LArPropertiesBreakup
+-   2015-10-05 Jonathan Paley : Merge branch 'develop' into feature/jpaley_LArPropertiesBreakup
 -   2015-09-28 Jonathan Paley : Code modifications required for service factorization.
 
-larevt v05_00_01
-----------------------------------------
+## larevt v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
--   2016-02-11 Gianluca Petrillo : Merge branch ‘v05_00_00_rc’ into v05_00_refactor
+-   2016-02-11 Gianluca Petrillo : Merge branch 'v05_00_00_rc' into v05_00_refactor
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : add larevt/larevt/CMakeLists.txt
 -   2016-02-10 Lynn Garren : add larevt/larevt/CMakeLists.txt
@@ -285,19 +272,18 @@ larevt v05_00_01
 -   2015-11-19 Gianluca Petrillo : Renaming ChannelStatusService and DetectorPedestalService to adhere more closely to the standard pattern (but not there yet…)
 -   2015-11-10 Gianluca Petrillo : Removing unnecessary link to service implementations
 -   2015-11-10 Gianluca Petrillo : Updated FHiCL files for new core services
--   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch ‘origin/feature/jpaley_LArPropertiesBreakup’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch 'origin/feature/jpaley_LArPropertiesBreakup' into feature/jpaley_LArPropertiesBreakup
 -   2015-11-10 Gianluca Petrillo : Services now conform the provider requirements
 -   2015-11-10 Jonathan Paley : Remove “I”
 -   2015-11-06 Gianluca Petrillo : Conforming to LArSoft service provider protocol
--   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/jpaley_LArPropertiesBreakup
--   2015-11-03 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch 'origin/develop' into feature/jpaley_LArPropertiesBreakup
+-   2015-11-03 Jonathan Paley : Merge branch 'develop' into feature/jpaley_LArPropertiesBreakup
 -   2015-09-25 Jonathan Paley : Necessary changes for service factorization.
 
-lardata v05_00_01
-------------------------------------------
+## lardata v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
--   2016-02-11 Gianluca Petrillo : Merge branch ‘v05_00_00_rc’ into v05_00_branch
+-   2016-02-11 Gianluca Petrillo : Merge branch 'v05_00_00_rc' into v05_00_branch
 -   2016-02-10 Lynn Garren : refactored larsoft
 -   2016-02-10 Lynn Garren : add lardata/lardata/CMakeLists.txt
 -   2016-02-10 Lynn Garren : add lardata/lardata/CMakeLists.txt
@@ -358,27 +344,27 @@ lardata v05_00_01
 -   2015-11-19 Gianluca Petrillo : Renaming completed for DetectorInfo and DetectorInfoServices directories
 -   2015-11-19 Gianluca Petrillo : A piece of merging to DataProviders was left behind
 -   2015-11-19 Gianluca Petrillo : Moved part of Utilities: - core service configuration files into DetectorInfo - art service interface and standard implementation in new directory DetectorInfoServices
--   2015-11-19 Gianluca Petrillo : Merging changes from DataProviders into DetectorInfo: - a few C++ improvements (delegate constructors, default destructors) - removed remnants of DetectorProperties from LArProperties - fixed a bug affecting slow scintillation light spectrum setting
+-   2015-11-19 Gianluca Petrillo : Merging changes from DataProviders into DetectorInfo: - a few C improvements (delegate constructors, default destructors) - removed remnants of DetectorProperties from LArProperties - fixed a bug affecting slow scintillation light spectrum setting
 -   2015-11-19 Gianluca Petrillo : Merging with LArSoft v04_30_00.
 -   2015-11-19 Gianluca Petrillo : Renaming ChannelStatusService and DetectorPedestalService to adhere more closely to the standard pattern (but not there yet…)
 -   2015-11-13 Gianluca Petrillo : Moved electric field and electron life time settings from LArPropertiesSservice configuration to DetectorPropertiesService for experiment configurations
 -   2015-11-13 Gianluca Petrillo : Adding a bug fix that got lost in a time warp (commit fee1d47)
--   2015-11-13 Gianluca Petrillo : All timeservice\*.fcl files set to mirror the matching detectorclocks\*.fcl
+-   2015-11-13 Gianluca Petrillo : All timeservice**.fcl files set to mirror the matching detectorclocks**.fcl
 -   2015-11-12 Gianluca Petrillo : Fixed a bug in setting the scintillation spectrum (and one on reporting the error)
 -   2015-11-12 Gianluca Petrillo : Bug fixes: - fixed the configuration check logic of DetectorPropertiesStandard - fixed the order of configuration in DetectorPropertiesStandard Good practises: - use std::make_unique\<\> - avoid empty default constructor and destructor - call default constructor in other constructors rather than duplicating its code - explicitly qualify seemingy-virtual methods called in constructors - reduce the configuration check to a single point; it is up to the provider manager that it delivers a fully configured provider
 -   2015-11-10 Gianluca Petrillo : Removing unnecessary link to service implementations
 -   2015-11-10 Gianluca Petrillo : Updated FHiCL files for new core services
 -   2015-11-10 Gianluca Petrillo : Removed electron life time from LArProperties (it was left behind in the move to DetectorProperties)
 -   2015-11-10 Gianluca Petrillo : Renamed service in test
--   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch ‘origin/feature/jpaley_LArPropertiesBreakup’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-10 Gianluca Petrillo : Merge remote-tracking branch 'origin/feature/jpaley_LArPropertiesBreakup' into feature/jpaley_LArPropertiesBreakup
 -   2015-11-10 Gianluca Petrillo : Added service class requirement checks
 -   2015-11-10 Gianluca Petrillo : Removed unnecessary linked services
 -   2015-11-10 Gianluca Petrillo : Reenabled LArProperties test
 -   2015-11-10 Jonathan Paley : Get rid of “I”.
--   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/jpaley_LArPropertiesBreakup
+-   2015-11-05 Gianluca Petrillo : Merge remote-tracking branch 'origin/develop' into feature/jpaley_LArPropertiesBreakup
 -   2015-11-03 Jonathan Paley : Use IServices.
 -   2015-11-03 Jonathan Paley : Add pure virtual base classes.
--   2015-10-05 Jonathan Paley : Merge branch ‘develop’ into feature/jpaley_LArPropertiesBreakup
+-   2015-10-05 Jonathan Paley : Merge branch 'develop' into feature/jpaley_LArPropertiesBreakup
 -   2015-09-28 Jonathan Paley : Make two more methods const.
 -   2015-09-28 Jonathan Paley : More fixes for this branch.
 -   2015-09-22 Jonathan Paley : Fix lots of bugs, typos, etc. Everything now seems to compile fine *within* lardata.
@@ -386,8 +372,7 @@ lardata v05_00_01
 -   2015-09-18 Jonathan Paley : Almost ready to break LArSoft
 -   2015-09-18 Jonathan Paley : Getting ready to break LArSoft.
 
-larcore v05_00_01
-------------------------------------------
+## larcore v05_00_01
 
 -   2016-02-12 Lynn Garren : v05_00_01
 -   2016-02-11 Gianluca Petrillo : Merge service refactoring
@@ -398,8 +383,6 @@ larcore v05_00_01
 -   2016-02-10 Lynn Garren : move SimpleTypesAndConstants to larcore/SimpleTypesAndConstants
 -   2016-02-10 Lynn Garren : move SummaryData to larcore/SummaryData
 
-larbatch v01_20_03
---------------------------------------------
+## larbatch v01_20_03
 
-larutils v1_05_01
-------------------------------------------
+## larutils v1_05_01

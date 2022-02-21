@@ -1,66 +1,55 @@
-LArSoft v06_75_01 Release Notes
-======================================================================
+# LArSoft v06_75_01 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06_75_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_75_01/larsoft-v06_75_01.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v06_75_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_75_01/larsoft-v06_75_01.html)  
 Download instructions for [just larsoftobj v1_43_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_43_01/larsoftobj-v1_43_01.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes in develop
 
-New features
-------------------------------
+## New features
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-Change List
-============================
+# Change List
 
-larsoft v06_75_01
-------------------------------------------
+## larsoft v06_75_01
 
 -   2018-05-01 Lynn Garren : High Sierra and c2
 -   2018-05-01 Lynn Garren : larsoft v06_75_01 for larsoft v06_75_01
 -   2018-05-01 Lynn Garren : product versions
 
-lareventdisplay v06_19_04
-----------------------------------------------------------
+## lareventdisplay v06_19_04
 
 -   2018-05-01 Lynn Garren : lareventdisplay v06_19_04 for larsoft v06_75_01
 
-larexamples v06_13_03
---------------------------------------------------
+## larexamples v06_13_03
 
-larpandora v06_26_04
-------------------------------------------------
+## larpandora v06_26_04
 
 -   2018-05-01 Lynn Garren : larpandora v06_26_04 for larsoft v06_75_01
 
-larwirecell v06_12_03
---------------------------------------------------
+## larwirecell v06_12_03
 
-larana v06_19_04
-----------------------------------------
+## larana v06_19_04
 
 -   2018-05-01 Lynn Garren : larana v06_19_04 for larsoft v06_75_01
 
-larreco v06_60_01
-------------------------------------------
+## larreco v06_60_01
 
 -   2018-05-01 Lynn Garren : larreco v06_60_01 for larsoft v06_75_01
 -   2018-04-30 Tingjun Yang : Add more code to calculate kaon efficiency.
 -   2018-04-30 Tingjun Yang : Add calculation of kaon efficiency for neutrino interactions.
--   2018-04-30 baller : Merge branch ‘feature/bb_TCWork’ into develop
+-   2018-04-30 baller : Merge branch 'feature/bb_TCWork' into develop
 -   2018-04-30 baller : remove std::couts
 -   2018-04-27 baller : Comment out temp code
 -   2018-04-27 baller : Convert unsigned int to int
--   2018-04-27 baller : Merge branch ‘develop’ into feature/bb_TjWork
+-   2018-04-27 baller : Merge branch 'develop' into feature/bb_TjWork
 -   2018-04-27 baller : Add FindAlongTrans. Calculate average Tp3 direction in Fit3D. Clean up code.
 -   2018-04-27 baller : Add FindAlongTrans. Calculate average Tp3 direction in Fit3D.
 -   2018-04-27 baller : Add FindAlongTrans
@@ -77,7 +66,7 @@ larreco v06_60_01
 -   2018-04-23 baller : fix clang bugs
 -   2018-04-23 baller : fix clang bugs
 -   2018-04-23 baller : fix clang bugs
--   2018-04-23 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2018-04-23 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2018-04-23 baller : Add PFPVxTjOK. Transfer PFP vertices.
 -   2018-04-23 baller : Add PFPVxTjOK
 -   2018-04-22 baller : Tweak cuts in TagInShowerTjs.
@@ -159,7 +148,7 @@ larreco v06_60_01
 -   2018-03-13 baller : Work on Mat3DMerge
 -   2018-03-13 baller : Add MatchVecIndex to PFPStruct. Remove NeedsRebuild.
 -   2018-03-12 baller : remove unused kalman fitter configuration
--   2018-03-09 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2018-03-09 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2018-03-09 baller : Comment out NeedsRebuild. 3D matching work.
 -   2018-03-09 baller : Comment out NeedsRebuild. 3D matching work.
 -   2018-03-09 baller : Comment out NeedsRebuild. 3D matching work.
@@ -172,8 +161,8 @@ larreco v06_60_01
 -   2018-03-09 baller : Comment out NeedsRebuild. 3D matching work.
 -   2018-03-09 baller : Comment out NeedsRebuild. 3D matching work.
 -   2018-03-09 baller : Comment out NeedsRebuild. 3D matching work.
--   2018-02-28 baller : Use kMat3DMerge to turn merging while 3D matching on/off. This code isn’t quite ready for general use.
--   2018-02-28 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2018-02-28 baller : Use kMat3DMerge to turn merging while 3D matching on/off. This code isn't quite ready for general use.
+-   2018-02-28 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2018-02-28 baller : Move broken code search code into DefinePFP.
 -   2018-02-28 baller : Move broken code search code into DefinePFP
 -   2018-02-27 baller : Work on PFParticle definition
@@ -193,35 +182,24 @@ larreco v06_60_01
 -   2018-02-24 baller : Add TjDirFOM and UpdateVxEnvironment. Bundle UpdateTotChg, UpdateAveChg and UpdateChgRMS into UpdateTjChgProperties.
 -   2018-02-24 baller : Add TjDirFOM and UpdateVxEnvironment. Bundle UpdateTotChg, UpdateAveChg and UpdateChgRMS into UpdateTjChgProperties.
 
-larsim v06_45_00
-----------------------------------------
+## larsim v06_45_00
 
-larevt v06_20_03
-----------------------------------------
+## larevt v06_20_03
 
-lardata v06_43_03
-------------------------------------------
+## lardata v06_43_03
 
-larcore v06_19_01
-------------------------------------------
+## larcore v06_19_01
 
-larpandoracontent v03_11_01
---------------------------------------------------------------
+## larpandoracontent v03_11_01
 
-larsoftobj v1_43_01
-----------------------------------------------
+## larsoftobj v1_43_01
 
-lardataobj v1_31_00
-----------------------------------------------
+## lardataobj v1_31_00
 
-larcorealg v1_19_01
-----------------------------------------------
+## larcorealg v1_19_01
 
-larcoreobj v1_23_00
-----------------------------------------------
+## larcoreobj v1_23_00
 
-larbatch v01_39_00
---------------------------------------------
+## larbatch v01_39_00
 
-larutils v1_22_04
-------------------------------------------
+## larutils v1_22_04

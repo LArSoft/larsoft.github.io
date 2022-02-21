@@ -1,18 +1,17 @@
-LArSoft v09_30_00 Release Notes
-======================================================================
+# LArSoft v09_30_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09_30_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_30_00/larsoft-v09_30_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v09_30_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_30_00/larsoft-v09_30_00.html)  
 Download instructions for [just larsoftobj v09_09_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_09_00/larsoftobj-v09_09_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes in develop
 -   approved PRs
 
-New features
-------------------------------
+## New features
 
 -   lardataobj PR 15
     -   The x coordinate of a light flash can be inferred in detectors with a (semi)transparent cathode in the middle by properly weighting the amount of light at the two sides, and in the ones with a opaque but reflective cathode (SBND) by comparing the timing of reflected and direct light.
@@ -20,7 +19,7 @@ New features
     -   The data product is extended, and ROOT schema evolution is expected to be able to handle the serialisation as needed.
 -   larg4 PR 27
     -   Restore reporting of unknown PDG in MCTruthEventAction
-    -   issue [redmine issue 26210](https://cdcvs.fnal.gov/redmine/issues/26210)
+    -   issue \#26210
     -   report unknown PDG codes at dtor
     -   quiet down some excessive messages
     -   debug option for reporting skipped and processed codes
@@ -32,37 +31,30 @@ New features
     -   This PR also applies the clang format to LArPandoraShower.
     -   No product changes are expected for this release.
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   larsim PR 72
     -   Reduce severity of message for inability to drift electrons
-    -   issue [redmine issue 26107](https://cdcvs.fnal.gov/redmine/issues/26107)
+    -   issue \#26107
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-Change List
-============================
+# Change List
 
-larsoft v09_30_00
-------------------------------------------
+## larsoft v09_30_00
 
 -   2021-09-20 Lynn Garren : larsoft v09_30_00 for larsoft v09_30_00
 -   2021-09-20 Lynn Garren : product versions
 
-lareventdisplay v09_01_21
-----------------------------------------------------------
+## lareventdisplay v09_01_21
 
 -   2021-09-20 Lynn Garren : lareventdisplay v09_01_21 for larsoft v09_30_00
 
-larexamples v09_01_20
---------------------------------------------------
+## larexamples v09_01_20
 
 -   2021-09-20 Lynn Garren : larexamples v09_01_20 for larsoft v09_30_00
 
-larpandora v09_08_00
-------------------------------------------------
+## larpandora v09_08_00
 
 -   2021-09-20 Lynn Garren : larpandora v09_08_00 for larsoft v09_30_00
 -   2021-07-13 Edward Tyley : Apply LArSoft Clang format
@@ -74,64 +66,53 @@ larpandora v09_08_00
 -   2021-09-02 Bruce Howard : Updates from clang formatting utility.
 -   2021-08-13 Bruce Howard : Update PandoraGeometry to use active volume directly.
 
-larsimrad v09_01_20
-----------------------------------------------
+## larsimrad v09_01_20
 
 -   2021-09-20 Lynn Garren : larsimrad v09_01_20 for larsoft v09_30_00
 
-larrecodnn v09_08_07
-------------------------------------------------
+## larrecodnn v09_08_07
 
 -   2021-09-20 Lynn Garren : larrecodnn v09_08_07 for larsoft v09_30_00
 
-larwirecell v09_03_01
---------------------------------------------------
+## larwirecell v09_03_01
 
 -   2021-09-20 Lynn Garren : larwirecell v09_03_01 for larsoft v09_30_00
 
-larana v09_02_17
-----------------------------------------
+## larana v09_02_17
 
 -   2021-09-20 Lynn Garren : larana v09_02_17 for larsoft v09_30_00
 
-larreco v09_06_17
-------------------------------------------
+## larreco v09_06_17
 
 -   2021-09-20 Lynn Garren : larreco v09_06_17 for larsoft v09_30_00
 
-larsim v09_14_09
-----------------------------------------
+## larsim v09_14_09
 
 -   2021-09-20 Lynn Garren : larsim v09_14_09 for larsoft v09_30_00
 -   2021-09-20 Lynn Garren : Merge pull request \#72 from knoepfel/suppress-warning-message
 -   2021-09-20 Kyle Knoepfel : Reduce severity of message.
 
-larg4 v09_04_00
---------------------------------------
+## larg4 v09_04_00
 
 -   2021-09-20 Lynn Garren : larg4 v09_04_00 for larsoft v09_30_00
 -   2021-09-16 Lynn Garren : Merge pull request \#27 from nusense/develop
--   2021-09-14 Robert Hatcher : Merge branch ‘LArSoft:develop’ into develop
+-   2021-09-14 Robert Hatcher : Merge branch 'LArSoft:develop' into develop
 -   2021-09-14 Robert Hatcher : restore reporting of unknown PDG codes as warning in dtor; add debug list of processed particles
 
-larevt v09_02_12
-----------------------------------------
+## larevt v09_02_12
 
 -   2021-09-20 Lynn Garren : larevt v09_02_12 for larsoft v09_30_00
 
-lardata v09_02_10
-------------------------------------------
+## lardata v09_02_10
 
 -   2021-09-20 Lynn Garren : lardata v09_02_10 for larsoft v09_30_00
 
-larcore v09_02_04
-------------------------------------------
+## larcore v09_02_04
 
-larpandoracontent v03_25_00
---------------------------------------------------------------
+## larpandoracontent v03_25_00
 
 -   2021-09-20 Lynn Garren : larpandoracontent v03_25_00 for larsoft v09_30_00
--   2021-09-15 AndyChappell : Merge pull request [redmine issue 183](https://cdcvs.fnal.gov/redmine/issues/183) from AndyChappell/feature/larpandoracontent_v03_25_00
+-   2021-09-15 AndyChappell : Merge pull request \#183 from AndyChappell/feature/larpandoracontent_v03_25_00
 -   2021-09-13 Andrew Chappell : Apply clang format
 -   2021-09-13 Andrew Chappell : Update version and ChangeLog
 -   2021-08-18 Andrew Chappell : Add leading lepton correctness and ADC weighted purity and completeness to validation
@@ -151,38 +132,30 @@ larpandoracontent v03_25_00
 -   2021-06-17 Andrew Chappell : Add streaming algorithms
 -   2021-06-17 Andrew Chappell : Allow for independent view running
 
-larsoftobj v09_09_00
-------------------------------------------------
+## larsoftobj v09_09_00
 
 -   2021-09-20 Lynn Garren : larsoftobj v09_09_00 for larsoft v09_30_00
 -   2021-09-20 Lynn Garren : product versions
 
-lardataobj v09_02_00
-------------------------------------------------
+## lardataobj v09_02_00
 
 -   2021-09-20 Lynn Garren : lardataobj v09_02_00 for larsoft v09_30_00
 -   2021-09-20 Lynn Garren : Merge pull request \#15 from PetrilloAtWork/feature/gp_OpFhash
 -   2021-09-16 Gianluca Petrillo : Added x location component to recob::OpFlash data product.
 -   2021-09-16 Gianluca Petrillo : Updated recob::OpFlash to modern practices
 
-lardataalg v09_05_01
-------------------------------------------------
+## lardataalg v09_05_01
 
 -   2021-09-20 Lynn Garren : lardataalg v09_05_01 for larsoft v09_30_00
 
-larcorealg v09_02_01
-------------------------------------------------
+## larcorealg v09_02_01
 
-larcoreobj v09_02_01
-------------------------------------------------
+## larcoreobj v09_02_01
 
-webevd v09_05_11
-----------------------------------------
+## webevd v09_05_11
 
 -   2021-09-20 Lynn Garren : webevd v09_05_11 for larsoft v09_30_00
 
-larbatch v01_56_01
---------------------------------------------
+## larbatch v01_56_01
 
-larutils v1_28_02
-------------------------------------------
+## larutils v1_28_02

@@ -1,87 +1,73 @@
-LArSoft v04_09_00 Release Notes
-======================================================================
+# LArSoft v04_09_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_09_00/larsoft-v04_09_00.html)
 
-Purpose
---------------------
+## Purpose
 
 Integrate Geometry changes
 
-New features
-------------------------------
+## New features
 
 -   larcore feature/brebel_AuxDetSensitive
     -   non-breaking change needed by LArIAT
 -   larcore feature/gp_FactorizeGeometryService
-    -   see [May 18 coordination meeting slides](https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=9987)
+    -   see [May 18 coordination meeting slides](https://indico.fnal.gov/getFile.py/access?contribId=1&amp;resId=0&amp;materialId=slides&amp;confId=9987)
 -   feature/gp_FactorizeGeometryService provided for uboonecode, lbnecode, argoneutcode, lariatsoft, and lar1ndcode.
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-Change List
-============================
+# Change List
 
-larsoft v04_09_00
-------------------------------------------
+## larsoft v04_09_00
 
 -   2015-05-27 Lynn Garren : larsoft v04_09_00 for larsoft v04_09_00
 -   2015-05-27 Lynn Garren : update dependency database
 -   2015-05-27 Lynn Garren : update product versions
 
-lareventdisplay v04_04_07
-----------------------------------------------------------
+## lareventdisplay v04_04_07
 
 -   2015-05-27 Lynn Garren : lareventdisplay v04_04_07 for larsoft v04_09_00
 
-larexamples v04_04_07
---------------------------------------------------
+## larexamples v04_04_07
 
 -   2015-05-27 Lynn Garren : larexamples v04_04_07 for larsoft v04_09_00
 
-larpandora v04_04_07
-------------------------------------------------
+## larpandora v04_04_07
 
 -   2015-05-27 Lynn Garren : larpandora v04_04_07 for larsoft v04_09_00
 
-larana v04_06_05
-----------------------------------------
+## larana v04_06_05
 
 -   2015-05-27 Lynn Garren : larana v04_06_05 for larsoft v04_09_00
 
-larreco v04_07_00
-------------------------------------------
+## larreco v04_07_00
 
 -   2015-05-27 Lynn Garren : larreco v04_07_00 for larsoft v04_09_00
--   2015-05-27 Lynn Garren : Merge branch ‘feature/gp_FactorizeGeometryService’ into release/v04_09_00
+-   2015-05-27 Lynn Garren : Merge branch 'feature/gp_FactorizeGeometryService' into release/v04_09_00
 -   2015-05-16 Gianluca Petrillo : Updated code with new geometry iterator names.
 
-larsim v04_07_03
-----------------------------------------
+## larsim v04_07_03
 
 -   2015-05-27 Lynn Garren : larsim v04_07_03 for larsoft v04_09_00
 
-larevt v04_07_01
-----------------------------------------
+## larevt v04_07_01
 
 -   2015-05-27 Lynn Garren : larevt v04_07_01 for larsoft v04_09_00
 
-lardata v04_07_01
-------------------------------------------
+## lardata v04_07_01
 
 -   2015-05-27 Lynn Garren : lardata v04_07_01 for larsoft v04_09_00
 -   2015-05-27 Lynn Garren : adding meta information for geo::TPCID and geo::CryostatID
 -   2015-05-11 Gianluca Petrillo : Updated class version for the geometry IDs
 
-larcore v04_08_00
-------------------------------------------
+## larcore v04_08_00
 
--   2015-05-27 Lynn Garren : Merge branch ‘release/v04_09_00’
+-   2015-05-27 Lynn Garren : Merge branch 'release/v04_09_00'
 -   2015-05-27 Lynn Garren : larcore v04_08_00
 -   2015-05-27 Gianluca Petrillo : Almost-manual merge of feature/brebel_AuxDetSensitive into feature/gp_FactorizeGeometryService
 -   2015-05-27 Brian_Rebel : add in methods for going from AuxDet digit channel to AuxDetGeo objects. The method assumes you have a AuxDetDigit to get the name of the detector and the channel of the digit
@@ -130,8 +116,6 @@ larcore v04_08_00
 -   2015-04-27 Gianluca Petrillo : Source code alignment: replaced tabulation characters with 8 spaces
 -   2015-04-27 Gianluca Petrillo : Renamed Geometry service files into GeometryCore. Hoping this will make future merges easier.
 
-larbatch v01_08_00
---------------------------------------------
+## larbatch v01_08_00
 
-larutils v1_00_10
-------------------------------------------
+## larutils v1_00_10

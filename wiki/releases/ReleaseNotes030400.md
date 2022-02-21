@@ -1,55 +1,47 @@
-LArSoft v03_04_00 Release Notes
-======================================================================
+# LArSoft v03_04_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
 [Download instructions](http://scisoft.fnal.gov/scisoft/projects/larsoft/v03_04_00/larsoft-v03_04_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   Include changes in development since v03_03_02.
 
-New features
-------------------------------
+## New features
 
 -   lardata, larreco, and larana now include code necessary for including a plane ID in the anab::Calorimetry data product.
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-||
-|Product|Version|Qualifier|Notes|
-|larsoft_data|v0_03_01|||
+|              |          |           |       |
+|--------------|----------|-----------|-------|
+| Product      | Version  | Qualifier | Notes |
+| larsoft_data | v0_03_01 |           |       |
 
-Change List
-============================
+# Change List
 
-larsoft v03_04_00
-------------------------------------------
+## larsoft v03_04_00
 
 -   2014-11-04 Lynn Garren : laroft v03_04_00
 -   use larsoft_data v0_03_01
 
-lareventdisplay v03_02_03
-----------------------------------------------------------
+## lareventdisplay v03_02_03
 
 -   2014-11-04 Lynn Garren : lareventdisplay v03_02_03
 
-larexamples v03_02_03
---------------------------------------------------
+## larexamples v03_02_03
 
 -   2014-11-04 Lynn Garren : larexamples v03_02_03
 
-larpandora v03_03_02
-------------------------------------------------
+## larpandora v03_03_02
 
 -   2014-11-04 Lynn Garren : larpandora v03_03_02
 
-larana v03_03_00
-----------------------------------------
+## larana v03_03_00
 
 -   2014-11-04 Wesley Ketchum : fix a typo, and normalize the KDE estimates
 -   2014-11-04 Wesley Ketchum : put in all the fcl files, make a tree to look at output more easily, and do a little debugging
@@ -71,38 +63,33 @@ larana v03_03_00
 -   2014-10-28 Wesley Ketchum : comment out a bad clear of the multiseet
 -   2014-10-28 Wesley Ketchum : put in a print function for debugging
 
-larreco v03_03_00
-------------------------------------------
+## larreco v03_03_00
 
--   2014-11-04 Wesley Ketchum : Merge branch ‘feature/wketchum_CalorimetryPlaneID’ into develop
+-   2014-11-04 Wesley Ketchum : Merge branch 'feature/wketchum_CalorimetryPlaneID' into develop
 -   2014-11-04 Bruce Baller : CCTrackMaker module + ClusterCrawler mods + new algs
 -   2014-11-04 Bruce Baller : CCTrackMaker module addition plus ClusterCrawler mods and new algs
 -   2014-10-30 Wesley Ketchum : update shower reco to use a plane ID when it makes its calo objects
 
-larsim v03_02_03
-----------------------------------------
+## larsim v03_02_03
 
 -   2014-11-04 Lynn Garren : larsim v03_02_03
 -   use larsoft_data v0_03_01
 
-larevt v03_02_03
-----------------------------------------
+## larevt v03_02_03
 
 -   2014-11-04 Lynn Garren : larevt v03_02_03
 
-lardata v03_03_00
-------------------------------------------
+## lardata v03_03_00
 
--   2014-11-04 Wesley Ketchum : Merge branch ‘feature/wketchum_CalorimetryPlaneID’ into develop
+-   2014-11-04 Wesley Ketchum : Merge branch 'feature/wketchum_CalorimetryPlaneID' into develop
 -   2014-11-04 Herbert Greenlee : Add comment to the effect that FileCatalogMetadataExtras is depracated.
 -   2014-10-30 Wesley Ketchum : add in a PlaneID for the calorimetry object
 -   2014-10-29 Wesley Ketchum : add a few other elements to be printed out with Calorimetry object
 
-larcore v03_03_00
-------------------------------------------
+## larcore v03_03_00
 
 -   2014-10-31 Gianluca Petrillo : Removed spurious file
--   2014-10-31 Gianluca Petrillo : Merge branch ‘feature/bb_wirework’ into develop
+-   2014-10-31 Gianluca Petrillo : Merge branch 'feature/bb_wirework' into develop
 -   2014-09-18 Gianluca Petrillo : Forgot to remove one noisy line from GeometryTest
 -   2014-09-18 Gianluca Petrillo : One of the wire test in GeometryTest can now be disabled.
 -   2014-09-18 Gianluca Petrillo : Reduced the output of geometry test in profiling mode.

@@ -1,18 +1,17 @@
-LArSoft v09_04_00 Release Notes
-======================================================================
+# LArSoft v09_04_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09_04_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_04_00/larsoft-v09_04_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v09_04_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_04_00/larsoft-v09_04_00.html)  
 Download instructions for [just larsoftobj v09_01_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_01_00/larsoftobj-v09_01_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes in develop
 -   approved PRs
 
-New features
-------------------------------
+## New features
 
 -   New SCE Corrections
     -   **dunetpc feature/etyley_sce_v9**
@@ -24,11 +23,11 @@ New features
         -   Changes to CalorimetryAlg to allow for passing of a local electric field when converting dQdx -\> dEdx. Requires lardataalg PR 12.
         -   Added SCECorrection module which takes in the output of pattern recognition (Pandora) and corrects the positions of all 3D objects in a slice. This uses the space charge service under the hood, and is simply meant to bring the corrections to the earliest possible stage in the reconstruction process so that downstream algorithms (i.e. track shower and calorimetry object building) will have spatially corrected inputs.
 -   New Calorimetry Module
-    -   **sbndcode - SBNSoftware/sbndcode\#31**
+    -   **sbndcode - SBNSoftware/sbndcode#31**
     -   **dunetpc - feature/pgreen_semianalytic_update**
     -   larsim PR 43
-        -   The first module (and the primary thrust of this pull request) is the GnocchiCalorimetry module. This code is intended for use to calculate the calorimetry of recob::Track objects. It is largely a rewrite of the existing Calorimetry module, with code cleaned up for easier extensibility. In the default configuration of the module, it will produce identical output to the Calorimetry module (two exceptions: DeadWireResRange’s are not computed, and the PlaneID is always valid in Gnocchi whereas sometimes the original model will output invalid plane ID’s). This has been verified to floating point precision.
-        -   In addition to this default configuration, the new module offers a few new features that are motivated by developments in SBN. First: it enables the track pitch calculation required by the space charge correction methodology described in Ed’s pull requests. Second, it enables correcting for E-field distortions directly in the calorimetry code. Third, it enables the use of the recob::Hit SummedADC() method to compute the charge of a hit, in addition to the existing Amplitude() and Integral() methods. The charge computation underlied by SummedADC() organizes individual hits into groups called “Snippets” and some of the code in the new module accommodates this organization.
+        -   The first module (and the primary thrust of this pull request) is the GnocchiCalorimetry module. This code is intended for use to calculate the calorimetry of recob::Track objects. It is largely a rewrite of the existing Calorimetry module, with code cleaned up for easier extensibility. In the default configuration of the module, it will produce identical output to the Calorimetry module (two exceptions: DeadWireResRange's are not computed, and the PlaneID is always valid in Gnocchi whereas sometimes the original model will output invalid plane ID's). This has been verified to floating point precision.
+        -   In addition to this default configuration, the new module offers a few new features that are motivated by developments in SBN. First: it enables the track pitch calculation required by the space charge correction methodology described in Ed's pull requests. Second, it enables correcting for E-field distortions directly in the calorimetry code. Third, it enables the use of the recob::Hit SummedADC() method to compute the charge of a hit, in addition to the existing Amplitude() and Integral() methods. The charge computation underlied by SummedADC() organizes individual hits into groups called “Snippets” and some of the code in the new module accommodates this organization.
         -   The second module is the CaloCheck module. It verifies that two individual anab::Calorimetry objects are identical. This is the module that was used to verify the GnocchiCalorimetry output.
 -   larrecodnn PR 10
     -   update EvaluateROIEff_module.cc, more accurate evaluation on efficiency and purity;
@@ -40,64 +39,54 @@ New features
     -   lardataalg PR 13
     -   lardata PR 10
 -   larsim PR 43
-    -   **sbndcode - SBNSoftware/sbndcode\#31**
+    -   **sbndcode - SBNSoftware/sbndcode#31**
     -   **dunetpc - feature/pgreen_semianalytic_update**
-    -   Updates to semi-analytic light simulation model, presented in LArSoft Coordination meeting on 22-Sep-2020 ([https://indico.fnal.gov/event/45687/](https://indico.fnal.gov/event/45687/)).
+    -   Updates to semi-analytic light simulation model, presented in LArSoft Coordination meeting on 22-Sep-2020 (https://indico.fnal.gov/event/45687/).
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   larreco PR 20
-    -   resolves [redmine issue 24985](https://cdcvs.fnal.gov/redmine/issues/24985)
+    -   resolves \#24985
 -   larsim PR 42
     -   restore code lost in when v09 was created
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
--   mrb v4_02_00 for [redmine issue 24996](https://cdcvs.fnal.gov/redmine/issues/24996)
+-   mrb v4_02_00 for \#24996
 
-Change List
-============================
+# Change List
 
-larsoft v09_04_00
-------------------------------------------
+## larsoft v09_04_00
 
 -   2020-09-23 Lynn Garren : larsoft v09_04_00 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : product versions
 -   2020-09-23 Lynn Garren : improve cmake
 
-lareventdisplay v09_00_05
-----------------------------------------------------------
+## lareventdisplay v09_00_05
 
 -   2020-09-23 Lynn Garren : lareventdisplay v09_00_05 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larexamples v09_00_05
---------------------------------------------------
+## larexamples v09_00_05
 
 -   2020-09-23 Lynn Garren : larexamples v09_00_05 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larg4 v09_00_05
---------------------------------------
+## larg4 v09_00_05
 
 -   2020-09-23 Lynn Garren : larg4 v09_00_05 for larsoft v09_04_00
 
-larpandora v09_01_01
-------------------------------------------------
+## larpandora v09_01_01
 
 -   2020-09-23 Lynn Garren : larpandora v09_01_01 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larsimrad v09_00_05
-----------------------------------------------
+## larsimrad v09_00_05
 
 -   2020-09-23 Lynn Garren : larsimrad v09_00_05 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larrecodnn v09_01_00
-------------------------------------------------
+## larrecodnn v09_01_00
 
 -   2020-09-23 Lynn Garren : larrecodnn v09_01_00 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
@@ -113,25 +102,22 @@ larrecodnn v09_01_00
 -   2020-09-15 Wanwei Wu : modify detprop and clockData to accomodate breaking changes
 -   2020-09-14 Wanwei Wu : update efficiency and purity calculation for ROI
 
-larwirecell v09_01_02
---------------------------------------------------
+## larwirecell v09_01_02
 
 -   2020-09-23 Lynn Garren : larwirecell v09_01_02 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larana v09_00_05
-----------------------------------------
+## larana v09_00_05
 
 -   2020-09-23 Lynn Garren : larana v09_00_05 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larreco v09_02_00
-------------------------------------------
+## larreco v09_02_00
 
 -   2020-09-23 Lynn Garren : larreco v09_02_00 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
--   2020-09-23 Lynn Garren : Merge branch ‘feature/gputnam-new-calorimetry’ into release/v09_04_00
--   2020-09-23 Lynn Garren : Merge branch ‘feature/etyley_sce_v9’ into release/v09_04_00
+-   2020-09-23 Lynn Garren : Merge branch 'feature/gputnam-new-calorimetry' into release/v09_04_00
+-   2020-09-23 Lynn Garren : Merge branch 'feature/etyley_sce_v9' into release/v09_04_00
 -   2020-09-23 gputnam : Fix typo bug.
 -   2020-09-23 gputnam : Remove unnecessary configs and move default CheckCalo config into calorimetry.fcl
 -   2020-09-23 Lynn Garren : Merge pull request \#20 from brballer/develop
@@ -150,8 +136,8 @@ larreco v09_02_00
 -   2020-03-26 Edward : Added t0 assns and refactored
 -   2020-03-24 Edward : First commit of working(ish) SCE correction module
 -   2020-09-17 gputnam : Update gnocchi calo to new services interface.
--   2020-09-17 gputnam : Merge branch ‘feature/etyley_sce_v9’ into feature/gputnam-new-calorimetry
--   2020-09-17 gputnam : Merge branch ‘sbn_develop’ into feature/gputnam-new-calorimetry
+-   2020-09-17 gputnam : Merge branch 'feature/etyley_sce_v9' into feature/gputnam-new-calorimetry
+-   2020-09-17 gputnam : Merge branch 'sbn_develop' into feature/gputnam-new-calorimetry
 -   2020-09-17 gputnam : Update checkcalo config to new name for gnocchi calo config.
 -   2020-09-17 gputnam : Sort out sign differences in space charge correction. Enable turning on/off E-field distortion correction individually.
 -   2020-09-16 Edward Tyley : Updated calo alg for v09 changes
@@ -171,12 +157,11 @@ larreco v09_02_00
 -   2020-06-26 gputnam : Make the sign of the x-dir (drift) SCE correction configurable.
 -   2020-06-25 gputnam : First draft of an updated calorimetry module with new space charge corrections and the capability to use projected-track hits and SummedADC().
 
-larsim v09_03_00
-----------------------------------------
+## larsim v09_03_00
 
 -   2020-09-23 Lynn Garren : larsim v09_03_00 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
--   2020-09-23 Lynn Garren : Merge branch ‘feature/pgreen_semianalytic_update’ into release/v09_04_00
+-   2020-09-23 Lynn Garren : Merge branch 'feature/pgreen_semianalytic_update' into release/v09_04_00
 -   2020-09-23 Patrick Green : updated generic photon transport time parameterisation for new model, generic parameters are in use by ICARUS
 -   2020-09-23 Patrick Green : updated semi-analytic light simulation implementation addressing comments in PR
 -   2020-09-23 Patrick Green : updated semi-analytic light simulation implementation addressing comments in PR
@@ -186,62 +171,50 @@ larsim v09_03_00
 -   2020-09-17 Patrick Green : updated semi-analytic hits models, vuv and visible light
 -   2020-09-16 Patrick Green : Updated transport time parameterisation models - VUV and visible light.
 
-larevt v09_00_05
-----------------------------------------
+## larevt v09_00_05
 
 -   2020-09-23 Lynn Garren : larevt v09_00_05 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-lardata v09_01_00
-------------------------------------------
+## lardata v09_01_00
 
 -   2020-09-23 Lynn Garren : lardata v09_01_00 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
--   2020-09-23 Lynn Garren : Merge branch ‘feature/etyley_sce_v9’ into release/v09_04_00
+-   2020-09-23 Lynn Garren : Merge branch 'feature/etyley_sce_v9' into release/v09_04_00
 -   2020-09-22 Lynn Garren : Merge pull request \#10 from PetrilloAtWork/feature/gp_OpDetWaveformDump
 -   2020-09-20 Gianluca Petrillo : Added option not to sort waveforms in dump.
 -   2020-09-18 Edward Tyley : Made changed to ArgoNeut Detector Property services for allowing local E field to be used in recombination calculation
 
-larcore v09_00_00
-------------------------------------------
+## larcore v09_00_00
 
-larpandoracontent v03_19_03
---------------------------------------------------------------
+## larpandoracontent v03_19_03
 
-larsoftobj v09_01_00
-------------------------------------------------
+## larsoftobj v09_01_00
 
 -   2020-09-23 Lynn Garren : larsoftobj v09_01_00 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : product versions
 -   2020-09-23 Lynn Garren : improve cmake
 
-lardataobj v09_00_00
-------------------------------------------------
+## lardataobj v09_00_00
 
-lardataalg v09_01_00
-------------------------------------------------
+## lardataalg v09_01_00
 
 -   2020-09-23 Lynn Garren : lardataalg v09_01_00 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
--   2020-09-23 Lynn Garren : Merge branch ‘feature/etyley_sce_v9’ into release/v09_04_00
+-   2020-09-23 Lynn Garren : Merge branch 'feature/etyley_sce_v9' into release/v09_04_00
 -   2020-09-22 Lynn Garren : Merge pull request \#13 from PetrilloAtWork/feature/gp_OpDetWaveformDump
 -   2020-09-20 Gianluca Petrillo : Added more range information in waveform dump.
 -   2020-09-16 Edward Tyley : Added EField as a imput param for recombination corrections
 
-larcorealg v09_00_00
-------------------------------------------------
+## larcorealg v09_00_00
 
-larcoreobj v09_00_00
-------------------------------------------------
+## larcoreobj v09_00_00
 
-webevd v09_00_05
-----------------------------------------
+## webevd v09_00_05
 
 -   2020-09-23 Lynn Garren : webevd v09_00_05 for larsoft v09_04_00
 -   2020-09-23 Lynn Garren : improve cmake
 
-larbatch v01_53_01
---------------------------------------------
+## larbatch v01_53_01
 
-larutils v1_26_01
-------------------------------------------
+## larutils v1_26_01

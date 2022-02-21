@@ -1,24 +1,23 @@
-LArSoft v06_60_00 Release Notes
-======================================================================
+# LArSoft v06_60_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06_60_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_60_00/larsoft-v06_60_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v06_60_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_60_00/larsoft-v06_60_00.html)  
 Download instructions for [just larsoftobj v1_33_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_33_00/larsoftobj-v1_33_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes to develop
 -   new pandora
 -   approved feature branches
 
-New features
-------------------------------
+## New features
 
 -   pandora v03_07_00
     -   larpandoracontent and larpandora feature/larpandoracontent_v03_09_00
     -   uboonecode, dunetpc, and sbndcode feature/larpandoracontent_v03_09_00
-    -   [https://indico.fnal.gov/event/15868/contribution/3/material/slides/0.pdf](https://indico.fnal.gov/event/15868/contribution/3/material/slides/0.pdf)
+    -   https://indico.fnal.gov/event/15868/contribution/3/material/slides/0.pdf
 -   larsim feature/JStock_RadioGenMultiPart
     -   larsoft_data v1_02_01
 -   lardataobj feature/gp_TrackingVectorTypes
@@ -29,46 +28,39 @@ New features
 -   larcoreobj larcorealg feature/gp_GenVectorTransition
     -   The changes allow the geometry infrastructure object to talk exclusively GenVector vectors (without the need of TVector3, which is still supported as legacy for a while).
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   pandora v3_07_00
 -   ifdhc v2_2_3
 -   ifdh_art v2_04_02
 -   nutools v2_16_09
 
-Change List
-============================
+# Change List
 
-larsoft v06_60_00
-------------------------------------------
+## larsoft v06_60_00
 
 -   2017-12-13 Lynn Garren : larsoft v06_60_00 for larsoft v06_60_00
 -   2017-12-13 Lynn Garren : update build scripts
 -   2017-12-13 Lynn Garren : larsoft_data v1_02_01
 -   2017-12-08 Gianluca Petrillo : Added pnfsToXRootD script converting PNFS paths to XRootD URLs.
 
-lareventdisplay v06_15_05
-----------------------------------------------------------
+## lareventdisplay v06_15_05
 
 -   2017-12-13 Lynn Garren : lareventdisplay v06_15_05 for larsoft v06_60_00
 
-larexamples v06_07_13
---------------------------------------------------
+## larexamples v06_07_13
 
 -   2017-12-13 Lynn Garren : larexamples v06_07_13 for larsoft v06_60_00
 -   2017-12-08 Jost Migenda : fixed typo in a comment
 
-larpandora v06_18_00
-------------------------------------------------
+## larpandora v06_18_00
 
 -   2017-12-13 Lynn Garren : larpandora v06_18_00 for larsoft v06_60_00
--   2017-12-13 Lynn Garren : Merge branch ‘feature/larpandoracontent_v03_09_00’ into release/v06_60_00
+-   2017-12-13 Lynn Garren : Merge branch 'feature/larpandoracontent_v03_09_00' into release/v06_60_00
 -   2017-11-30 Steven Green : Updated LArPandora to access information via ParticleInventoryService instead of BackTrackerService.
--   2017-11-29 John Marshall : Merge branch ‘feature/LArRemaster’
+-   2017-11-29 John Marshall : Merge branch 'feature/LArRemaster'
 -   2017-11-28 John Marshall : Add standard PandoraSettings files.
 -   2017-11-27 Steven Green : Set the nuance code for non-neutrino MC particles to determine whether the particle originates from beam or cosmic ray.
 -   2017-11-24 John Marshall : Truncate wire-type line gaps at physical edges of LArTPC volumes.
@@ -94,7 +86,7 @@ larpandora v06_18_00
 -   2017-10-11 a-d-smith : Fixed issues with merging. PFParticle IDs are now corrected for properly
 -   2017-10-09 a-d-smith : Added an extra splitting module as a temporary way of making the Kalman track fitters see the input structure they want
 -   2017-10-09 a-d-smith : Made track and shower creation modules produce -\> hits associations
--   2017-10-06 a-d-smith : Integrated Track and Shower creation modules. Conflict between track-\>spacepoint and track-\>hit associations
+-   2017-10-06 a-d-smith : Integrated Track and Shower creation modules. Conflict between track~~<span style="text-align:right;">spacepoint and track</span>~~\>hit associations
 -   2017-10-05 a-d-smith : Started adjusted ID work
 -   2017-10-05 a-d-smith : Updated event dumping code
 -   2017-10-04 a-d-smith : Fixed bug in LArPandoraEvent association production
@@ -109,21 +101,19 @@ larpandora v06_18_00
 -   2017-09-26 a-d-smith : Moved splitting module to larpandora
 -   2017-10-05 John Marshall : Add member variable descriptions. Remove shower energy alg for now.
 -   2017-10-05 John Marshall : Add member variable descriptions.
--   2017-10-04 John Marshall : First implementation of shower and pcaxis creation, with particle-\>shower, particle-\>pcaxis, shower-\>spacepoints and shower-\>pcaxis associations.
+-   2017-10-04 John Marshall : First implementation of shower and pcaxis creation, with particle~~<span style="text-align:right;">shower, particle</span>~~\>pcaxis, shower~~<span style="text-align:right;">spacepoints and shower</span>~~\>pcaxis associations.
 -   2017-10-04 John Marshall : Improve exception handling.
--   2017-10-04 John Marshall : Now outputs particle-\>track and track-\>spacepoints associations.
+-   2017-10-04 John Marshall : Now outputs particle~~<span style="text-align:right;">track and track</span>~~\>spacepoints associations.
 -   2017-10-02 John Marshall : A few steps forwards…
 -   2017-09-28 John Marshall : Moving functionality from LArPandoraOutput into modules in LArPandoraEventBuilding.
 -   2017-09-28 John Marshall : Work in progress, taking-on functionality previously provided by LArPandora output.
 -   2017-09-28 John Marshall : Add empty modules.
 
-larwirecell v06_08_07
---------------------------------------------------
+## larwirecell v06_08_07
 
 -   2017-12-13 Lynn Garren : larwirecell v06_08_07 for larsoft v06_60_00
 
-larana v06_13_02
-----------------------------------------
+## larana v06_13_02
 
 -   2017-12-13 Lynn Garren : add missing library
 -   2017-12-13 Lynn Garren : larana v06_13_02 for larsoft v06_60_00
@@ -131,54 +121,50 @@ larana v06_13_02
 -   2017-12-04 Tingjun Yang : Remove printout.
 -   2017-12-04 Tingjun Yang : Add option to calculate PIDA using median instead of mean. Set it to false by default.
 
-larreco v06_49_00
-------------------------------------------
+## larreco v06_49_00
 
--   2017-12-13 Lynn Garren : Merge branch ‘release/v06_60_00’
+-   2017-12-13 Lynn Garren : Merge branch 'release/v06_60_00'
 -   2017-12-13 Lynn Garren : add missing library
 -   2017-12-13 Lynn Garren : larreco v06_49_00 for larsoft v06_60_00
 -   2017-12-13 Lynn Garren : larreco v06_49_00 for larsoft v06_60_00
 -   2017-12-13 Lynn Garren : nutools v2_16_09
 -   2017-12-11 Giuseppe Cerati : make sure track satisfies conventions
 -   2017-12-11 Giuseppe Cerati : make sure track satisfies conventions
--   2017-12-11 Tingjun Yang : Merge remote-tracking branch ‘origin/feature/tjyang_emshower’ into develop
+-   2017-12-11 Tingjun Yang : Merge remote-tracking branch 'origin/feature/tjyang_emshower' into develop
 -   2017-12-11 Tingjun Yang : Add more information.
 -   2017-12-11 Tingjun Yang : Bug fix, forgot to divide by pitch.
 -   2017-12-08 Tingjun Yang : Use TMath::Median to calculate median.
 -   2017-12-07 Gianluca Petrillo : Have PMA use vector types from tracking.
 -   2017-11-26 Tingjun Yang : Use median instead of mean when calculating dE/dx.
 
-larsim v06_38_00
-----------------------------------------
+## larsim v06_38_00
 
 -   2017-12-13 Lynn Garren : larsim v06_38_00 for larsoft v06_60_00
 -   2017-12-13 Lynn Garren : larsoft_data v1_02_01
--   2017-12-13 Lynn Garren : Merge branch ‘feature/JStock_RadioGenMultiPart’ into release/v06_60_00
+-   2017-12-13 Lynn Garren : Merge branch 'feature/JStock_RadioGenMultiPart' into release/v06_60_00
 -   2017-12-13 Gianluca Petrillo : Changed the way to comment out a piece of code.
--   2017-12-12 Jason Stock : Merge tag ‘LARSOFT_SUITE_v06_58_00’ into feature/JStock_RadioGenMultiPart
--   2017-11-11 Jason Stock : Merge tag ‘LARSOFT_SUITE_v06_56_00’ into feature/JStock_RadioGenMultiPart
--   2017-10-19 Jason Stock : Merge remote-tracking branch ‘origin/develop’ into feature/JStock_RadioGenMultiPart
--   2017-10-19 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock_RadioGenMultiPart
--   2017-10-12 Jason Stock : Merge remote branch ‘origin/develop’ into feature/JStock_RadioGenMultiPart
--   2017-10-04 Jason Stock : Merge remote-tracking branch ‘origin/develop’ into feature/JStock_RadioGenMultiPart
--   2017-09-14 Jason Stock : Merge branch ‘feature/JStock_RadioGenMultiPart’ of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock_RadioGenMultiPart
--   2017-09-07 Jason Stock : Merge branch ‘develop’ into feature/JStock_RadioGenMultiPart
+-   2017-12-12 Jason Stock : Merge tag 'LARSOFT_SUITE_v06_58_00' into feature/JStock_RadioGenMultiPart
+-   2017-11-11 Jason Stock : Merge tag 'LARSOFT_SUITE_v06_56_00' into feature/JStock_RadioGenMultiPart
+-   2017-10-19 Jason Stock : Merge remote-tracking branch 'origin/develop' into feature/JStock_RadioGenMultiPart
+-   2017-10-19 Jason Stock : Merge remote branch 'origin/develop' into feature/JStock_RadioGenMultiPart
+-   2017-10-12 Jason Stock : Merge remote branch 'origin/develop' into feature/JStock_RadioGenMultiPart
+-   2017-10-04 Jason Stock : Merge remote-tracking branch 'origin/develop' into feature/JStock_RadioGenMultiPart
+-   2017-09-14 Jason Stock : Merge branch 'feature/JStock_RadioGenMultiPart' of ssh://cdcvs.fnal.gov/cvs/projects/larsim into feature/JStock_RadioGenMultiPart
+-   2017-09-07 Jason Stock : Merge branch 'develop' into feature/JStock_RadioGenMultiPart
 -   2017-08-08 Jason Stock : Small bug fix. Correcting format for regex match Ar42.
--   2017-08-08 Jason Stock : Merge remote-tracking branch ‘remotes/origin/feature/JStock_RadioGenMultiPart’ into develop
--   2017-08-08 Jason Stock : Merge branch ‘develop’ into feature/JStock_RadioGenMultiPart
+-   2017-08-08 Jason Stock : Merge remote-tracking branch 'remotes/origin/feature/JStock_RadioGenMultiPart' into develop
+-   2017-08-08 Jason Stock : Merge branch 'develop' into feature/JStock_RadioGenMultiPart
 -   2017-08-07 Jason Stock : Adding the ability to generate more than one particle per decay for the radiological generator. Added the structure needed to properly model a complete K42-Ca42 (For Ar42 decay).
 
-larevt v06_16_12
-----------------------------------------
+## larevt v06_16_12
 
 -   2017-12-13 Lynn Garren : larevt v06_16_12 for larsoft v06_60_00
 
-lardata v06_33_02
-------------------------------------------
+## lardata v06_33_02
 
 -   2017-12-13 Lynn Garren : lardata v06_33_02 for larsoft v06_60_00
 -   2017-12-13 Lynn Garren : nutools v2_16_09
--   2017-12-07 Gianluca Petrillo : Merge branch ‘feature/gp_TrajectoryInProxy’ into develop
+-   2017-12-07 Gianluca Petrillo : Merge branch 'feature/gp_TrajectoryInProxy' into develop
 -   2017-12-07 Gianluca Petrillo : Updated messagefacility configurations.
 -   2017-12-06 Lynn Garren : lardata v06_33_01 for larsoft v06_59_00
 -   2017-11-29 Lynn Garren : lardata v06_33_00 for larsoft v06_58_00
@@ -188,26 +174,24 @@ lardata v06_33_02
 -   2017-10-28 Jason Stock : Setting this branch back up for the BackTrackerService/ParticleInventoryService update
 -   2017-11-29 Gianluca Petrillo : Added a trajectory accessor to Track proxy
 
-larcore v06_15_08
-------------------------------------------
+## larcore v06_15_08
 
 -   2017-12-13 Lynn Garren : larcore v06_15_08 for larsoft v06_60_00
 
-larpandoracontent v03_09_00
---------------------------------------------------------------
+## larpandoracontent v03_09_00
 
 -   2017-12-13 Lynn Garren : larpandoracontent v03_09_00 for larsoft v06_60_00
 -   2017-12-13 Lynn Garren : pandora v03_07_00
 -   2017-12-13 Lynn Garren : fixes for doxygen
--   2017-12-12 John Marshall : Merge branch ‘feature/BeamParticleIDAnalysis’
+-   2017-12-12 John Marshall : Merge branch 'feature/BeamParticleIDAnalysis'
 -   2017-12-12 John Marshall : Finalise first version of beam particle id logic.
 -   2017-12-12 John Marshall : Further refinements for BeamParticleId tool.
 -   2017-12-12 John Marshall : Work up BeamParticleId tool for production.
 -   2017-12-12 John Marshall : Now start to examine topology of beam slice hypotheses.
 -   2017-11-27 Steven Green : Added files for beam particle ID with null logic.
--   2017-11-28 John Marshall : Merge branch ‘updates’
+-   2017-11-28 John Marshall : Merge branch 'updates'
 -   2017-11-27 John Marshall : Update version and change log.
--   2017-11-28 John Marshall : Merge branch ‘feature/LArRemaster’
+-   2017-11-28 John Marshall : Merge branch 'feature/LArRemaster'
 -   2017-11-28 John Marshall : In cosmic ray tagging, handle particles with small numbers of 3D hits, for which 3D sliding fit info is not available.
 -   2017-11-27 John Marshall : Tweak conditions for placing hits and gaps in volumes. PandoraMonitoring build optional.
 -   2017-11-27 John Marshall : Remove unnecessary message from Reset method.
@@ -250,29 +234,25 @@ larpandoracontent v03_09_00
 -   2017-11-10 John Marshall : Alter some default parameter values for cosmic reco.
 -   2017-10-12 John Marshall : Handle use of repeated stitching tool instances.
 
-larsoftobj v1_33_00
-----------------------------------------------
+## larsoftobj v1_33_00
 
 -   2017-12-13 Lynn Garren : larsoftobj v1_33_00 for larsoft v06_60_00
 -   2017-12-13 Lynn Garren : updating build
 
-lardataobj v1_24_00
-----------------------------------------------
+## lardataobj v1_24_00
 
 -   2017-12-13 Lynn Garren : lardataobj v1_24_00 for larsoft v06_60_00
 -   2017-12-07 Gianluca Petrillo : Updated recob::Vertex version and checksum
 -   2017-12-07 Gianluca Petrillo : Tracking objects now use geometry vector types directly.
 
-larcorealg v1_12_00
-----------------------------------------------
+## larcorealg v1_12_00
 
 -   2017-12-13 Lynn Garren : larcorealg v1_12_00 for larsoft v06_60_00
 -   2017-12-13 Gianluca Petrillo : Full support of GenVector vectors in geometry structures
 -   2017-12-08 Gianluca Petrillo : Added simplified interface for vector types in affine space
 -   2017-12-08 Gianluca Petrillo : Using full path in Doxygen file name documentation
 
-larcoreobj v1_18_00
-----------------------------------------------
+## larcoreobj v1_18_00
 
 -   2017-12-13 Lynn Garren : larcoreobj v1_18_00 for larsoft v06_60_00
 -   2017-12-13 Gianluca Petrillo : Removed redundant stream dump operators for vectors.
@@ -280,14 +260,12 @@ larcoreobj v1_18_00
 -   2017-12-07 Lynn Garren : larsoft v06_59_00
 -   2017-12-07 Gianluca Petrillo : Adding ROOT dictionary for geo::Vector_t and geo::Point_t
 
-larbatch v01_34_03
---------------------------------------------
+## larbatch v01_34_03
 
 -   2017-12-13 Lynn Garren : larbatch v01_34_03 for larsoft v06_60_00
 -   2017-12-07 Herbert Greenlee : Fix bug in copy to dropbox
 
-larutils v1_20_03
-------------------------------------------
+## larutils v1_20_03
 
 -   2017-12-13 Lynn Garren : larutils v1_20_03 for larsoft v06_60_00
 -   2017-12-12 Lynn Garren : s59 for art v2_05_01

@@ -1,21 +1,20 @@
-LArSoft v06_41_00 Release Notes
-======================================================================
+# LArSoft v06_41_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06_41_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_41_00/larsoft-v06_41_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v06_41_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_41_00/larsoft-v06_41_00.html)  
 Download instructions for [just larsoftobj v1_22_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_22_00/larsoftobj-v1_22_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes to develop
 -   merge approved feature branches
 
-New features
-------------------------------
+## New features
 
 -   dual phase raw hit finding using a new version of MVAReader/Writer in lardata
-    -   [https://indico.fnal.gov/getFile.py/access?contribId=4&resId=0&materialId=slides&confId=14645](https://indico.fnal.gov/getFile.py/access?contribId=4&resId=0&materialId=slides&confId=14645)
+    -   https://indico.fnal.gov/getFile.py/access?contribId=4&amp;resId=0&amp;materialId=slides&amp;confId=14645
     -   dunetpc: feature/chalt_RawHitFindingDP
     -   larreco: feature/chalt_RawHitFindingDP
     -   lareventdisplay: feature/chalt_RawHitFindingDP
@@ -26,64 +25,54 @@ New features
     -   TrajCluster now accepts an optional fcl parameter (VLAStepSize) which will be used to adjust the tracking strategy when long-pulse hits are reconstructed as a series of narrow equally-spaced hits. (This needs more work)
     -   larreco, argoneutcode, lariatsoft, dunetpc
 
-Bug fixes
-------------------------
+## Bug fixes
 
 -   larcore feature/gp_Issue13792
     -   work in progress
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-Change List
-============================
+# Change List
 
-larsoft v06_41_00
-------------------------------------------
+## larsoft v06_41_00
 
 -   2017-06-21 Lynn Garren : larsoft v06_41_00 for larsoft v06_41_00
 -   2017-06-21 Lynn Garren : update product versions
 -   2017-06-21 Lynn Garren : update dependency database
 -   2017-06-15 Lynn Garren : ifdhc_config v2_0_8a
 
-lareventdisplay v06_07_00
-----------------------------------------------------------
+## lareventdisplay v06_07_00
 
 -   2017-06-21 Lynn Garren : add missing library
 -   2017-06-21 Lynn Garren : lareventdisplay v06_07_00 for larsoft v06_41_00
 -   2017-06-21 Christoph Alt : added some comments to the code
--   2017-06-15 Christoph Alt : Merge branch ‘develop’ into feature/chalt_RawHitFindingDP
+-   2017-06-15 Christoph Alt : Merge branch 'develop' into feature/chalt_RawHitFindingDP
 -   2017-06-12 Christoph Alt : Added functionality to plot raw waveform fits in event display
 -   2017-05-22 Christoph Alt : added functions to draw double exponential fit on raw waveforms for dual phase
 
-larexamples v06_04_02
---------------------------------------------------
+## larexamples v06_04_02
 
 -   2017-06-21 Lynn Garren : larexamples v06_04_02 for larsoft v06_41_00
 
-larpandora v06_13_02
-------------------------------------------------
+## larpandora v06_13_02
 
 -   2017-06-21 Lynn Garren : larpandora v06_13_02 for larsoft v06_41_00
 
-larwirecell v06_05_02
---------------------------------------------------
+## larwirecell v06_05_02
 
 -   2017-06-21 Lynn Garren : larwirecell v06_05_02 for larsoft v06_41_00
 
-larana v06_07_02
-----------------------------------------
+## larana v06_07_02
 
 -   2017-06-21 Lynn Garren : larana v06_07_02 for larsoft v06_41_00
 
-larreco v06_32_00
-------------------------------------------
+## larreco v06_32_00
 
 -   2017-06-21 Lynn Garren : larreco v06_32_00 for larsoft v06_41_00
--   2017-06-21 Lynn Garren : Merge branch ‘feature/chalt_RawHitFindingDP’ into release/v06_41_00
+-   2017-06-21 Lynn Garren : Merge branch 'feature/chalt_RawHitFindingDP' into release/v06_41_00
 -   2017-06-21 Christoph Alt : added full path fot HitFilterAlg.h, changed some .fcl parameters and improved the DPRawHitFinder_module.cc
--   2017-06-20 Lynn Garren : Merge branch ‘feature/chalt_RawHitFindingDP’ into release/v06_41_00
--   2017-06-20 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-06-20 Lynn Garren : Merge branch 'feature/chalt_RawHitFindingDP' into release/v06_41_00
+-   2017-06-20 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-06-20 baller : Add shower algs.
 -   2017-06-20 baller : Change ID short to int. Add shower PrimaryVertex variables.
 -   2017-06-20 baller : Change ID short to int.
@@ -95,37 +84,37 @@ larreco v06_32_00
 -   2017-06-20 baller : Change short to int
 -   2017-06-19 Christoph Alt : updated raw hit finding module and corresponding .fcl parameters
 -   2017-06-17 Robert Sulej : tune electron endpoints
--   2017-06-16 Christoph Alt : Merge branch ‘develop’ into feature/chalt_RawHitFindingDP
+-   2017-06-16 Christoph Alt : Merge branch 'develop' into feature/chalt_RawHitFindingDP
 -   2017-06-16 Christoph Alt : improved raw hiw finding and deleted some unnecessary .fcl parameters
--   2017-06-16 baller : Merge branch ‘feature/bb_TJWork’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
+-   2017-06-16 baller : Merge branch 'feature/bb_TJWork' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/bb_TJWork
 -   2017-06-16 baller : Use generic calorimetry algorithm for TrajCluster CaloAlg.
--   2017-06-16 baller : Merge with Tingjun’s changes
+-   2017-06-16 baller : Merge with Tingjun's changes
 -   2017-06-16 Robert Sulej : use more vertices
 -   2017-06-16 baller : resolve version conflict
--   2017-06-16 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-06-16 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-06-16 baller : junk
 -   2017-06-16 baller : Resolved conflicts between bb_TJWork and bb_TCTune
--   2017-06-15 Robert Sulej : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
--   2017-05-23 Tingjun Yang : Rearrange fcl files so the central fcl file doesn’t depend on calorimetry_microboone.fcl
+-   2017-06-15 Robert Sulej : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
+-   2017-05-23 Tingjun Yang : Rearrange fcl files so the central fcl file doesn't depend on calorimetry_microboone.fcl
 -   2017-06-15 Robert Sulej : add electron endpoints to the training data
--   2017-06-15 baller : Merge branch ‘develop’ into feature/bb_TJWork
--   2017-06-15 baller : Merge branch ‘develop’ into feature/bb_TCTune
+-   2017-06-15 baller : Merge branch 'develop' into feature/bb_TJWork
+-   2017-06-15 baller : Merge branch 'develop' into feature/bb_TCTune
 -   2017-06-15 baller : Change ID to int.
 -   2017-06-15 baller : Add special mode to only reconstruct cosmic rays in the collection plane. Change trajectory ID to int.
--   2017-06-15 Christoph Alt : Merge branch ‘develop’ into feature/chalt_RawHitFindingDP
+-   2017-06-15 Christoph Alt : Merge branch 'develop' into feature/chalt_RawHitFindingDP
 -   2017-06-12 baller : Fix debug mode
 -   2017-06-12 Christoph Alt : Code for raw waveform hit finding + some changes to the muon tracking efficiency module
 -   2017-06-06 baller : Add Cryostat, TPC and CTP
 -   2017-06-06 baller : Define a common fDebugMode. Check for hit consistency in FindJunkTraj.
 -   2017-06-06 baller : Define a common fDebugMode
 -   2017-06-06 baller : Add DebugCryostat and DebugTPC.
--   2017-06-05 baller : Merge branch ‘develop’ into feature/bb_TCTune
+-   2017-06-05 baller : Merge branch 'develop' into feature/bb_TCTune
 -   2017-06-05 baller : Check for insufficient points in ReversePropagate. Call TrimEndPts before reverse propagation. Fix bug in CheckHiMultUnusedHits. Improve printing for DUNE.
 -   2017-05-23 baller : Protect against invalid magnitude
 -   2017-05-23 baller : Protect against invalid magnitude
 -   2017-05-23 Christoph Alt : …
 -   2017-05-22 Christoph Alt : added new module that finds hits using raw waveforms
--   2017-05-12 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-05-12 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-05-12 baller : Pass print flag to MergeAndStore
 -   2017-05-12 baller : Add IgnoreNegChiHits flag. Clean up. Pass print flag to MergeAndStore.
 -   2017-05-12 baller : Add IgnoreNegChiHits flag
@@ -151,14 +140,14 @@ larreco v06_32_00
 -   2017-05-10 baller : Print changes
 -   2017-05-10 baller : Shower reconstruction development. Match hits to MC truth before reconstruction.
 -   2017-05-10 baller : Shower reconstruction development.
--   2017-05-03 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-05-03 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-05-03 baller : Add MakeShowerObsolete. Add hits to 3D shower struct.
 -   2017-05-03 baller : Add MakeShowerObsolete
--   2017-05-01 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-05-01 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-04-21 baller : Add Hits vector to ShowerPoint.
 -   2017-04-21 baller : Re-structure shower code.
 -   2017-04-21 baller : Re-structure shower code.
--   2017-04-21 baller : Don’t mess with ShowerTjs. Improve printing.
+-   2017-04-21 baller : Don't mess with ShowerTjs. Improve printing.
 -   2017-04-21 baller : Fix begin angle.
 -   2017-04-21 baller : Nothing
 -   2017-04-18 baller : Revert back to a compatible version
@@ -167,13 +156,13 @@ larreco v06_32_00
 -   2017-04-18 baller : Add provision for changing VLAStepSize
 -   2017-04-18 baller : Work on shower dE/dx calculation
 -   2017-04-18 baller : Comment out print statement
--   2017-04-17 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-04-17 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-04-17 baller : Ongoing development
 -   2017-04-15 baller : Temp workaround
 -   2017-04-15 baller : Name change and code cleanup
 -   2017-04-15 baller : Name change
 -   2017-04-15 baller : Name change
--   2017-04-14 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-04-14 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-04-14 baller : Add Trajpoint3D
 -   2017-04-14 baller : Add Trajpoint3D
 -   2017-04-14 baller : Work on Find3DShowerEndPoints, AddLooseHits, FindAngle, MergeShowerAndStore
@@ -181,7 +170,7 @@ larreco v06_32_00
 -   2017-04-14 baller : Set default Angle to 0
 -   2017-04-14 baller : Add shower merging
 -   2017-04-11 baller : Change art error type
--   2017-04-11 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-04-11 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-04-11 baller : Ongoing shower development
 -   2017-04-11 baller : Ongoing shower development
 -   2017-04-11 baller : Ongoing shower development
@@ -197,7 +186,7 @@ larreco v06_32_00
 -   2017-04-08 baller : Shower development - incomplete
 -   2017-04-08 baller : Add maxFOM to ShowerTag
 -   2017-04-03 baller : Code cleanup
--   2017-03-31 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-03-31 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-03-31 baller : Variable name change
 -   2017-03-31 baller : Ongoing development
 -   2017-03-31 baller : Ongoing development
@@ -243,7 +232,7 @@ larreco v06_32_00
 -   2017-03-20 baller : Change PFParticle - trajectory - cluster association scheme. Move StoreTraj to Utils.
 -   2017-03-20 baller : Change PFParticle - trajectory - cluster association scheme. Move ChkInTraj to Utils/InTrajOK. Allow one broken trajectory in each plane Match3D instead of just one.
 -   2017-03-20 baller : Change PFParticle - trajectory - cluster association scheme
--   2017-03-17 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-03-17 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-03-16 baller : Define TrajCluster CaloAlg
 -   2017-03-16 baller : Remove std::cout
 -   2017-03-16 baller : Home of TrajCluster shower code
@@ -258,54 +247,50 @@ larreco v06_32_00
 -   2017-03-14 baller : Write showers to the event.
 -   2017-03-14 baller : Write showers to the event
 -   2017-03-14 baller : Write recall::Showers to the event
--   2017-03-13 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-03-13 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-03-13 baller : Shower development
 -   2017-03-13 baller : Shower development
 -   2017-03-13 baller : Shower development
 -   2017-03-13 baller : Shower development
--   2017-03-09 baller : Merge branch ‘develop’ into feature/bb_TJWork
+-   2017-03-09 baller : Merge branch 'develop' into feature/bb_TJWork
 -   2017-03-09 baller : Increase size of fUseAlg. Shower reconstruction development.
 -   2017-03-09 baller : Increase size of fUseAlg
 -   2017-03-09 baller : Shower reconstruction development
 -   2017-03-09 baller : Shower reconstruction development
 -   2017-03-09 baller : Shower reconstruction development
 
-larsim v06_25_00
-----------------------------------------
+## larsim v06_25_00
 
 -   2017-06-21 Lynn Garren : larsim v06_25_00 for larsoft v06_41_00
 -   2017-06-15 Gianluca Petrillo : Ooops. Swapped two steps.
 -   2017-06-14 Gianluca Petrillo : Added simplifyGDML utility to redigest and simplify a GDML file.
 
-larevt v06_14_02
-----------------------------------------
+## larevt v06_14_02
 
 -   2017-06-21 Lynn Garren : larevt v06_14_02 for larsoft v06_41_00
 
-lardata v06_23_00
-------------------------------------------
+## lardata v06_23_00
 
 -   2017-06-21 Lynn Garren : lardata v06_23_00 for larsoft v06_41_00
--   2017-06-20 Lynn Garren : Merge branch ‘feature/rsulej_FactorizeHelper’ into release/v06_41_00
--   2017-06-15 Gianluca Petrillo : Merge branch ‘feature/gp_Issue16781’ into develop
--   2017-06-15 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp_Issue16781
+-   2017-06-20 Lynn Garren : Merge branch 'feature/rsulej_FactorizeHelper' into release/v06_41_00
+-   2017-06-15 Gianluca Petrillo : Merge branch 'feature/gp_Issue16781' into develop
+-   2017-06-15 Gianluca Petrillo : Merge remote-tracking branch 'origin/develop' into feature/gp_Issue16781
 -   2017-06-14 Gianluca Petrillo : Extended hit collection writers to support filters.
 -   2017-06-14 Gianluca Petrillo : Using lar::PtrMaker instead of “directly” creating art pointers.
 -   2017-06-14 Gianluca Petrillo : Hit collection writers now remember which event they operate on.
 -   2017-06-14 Gianluca Petrillo : Introduced a class to reduce redundant coding using hit creators.
 -   2017-06-14 Gianluca Petrillo : Added unit test for HitCollectionCreator.
--   2017-06-14 Gianluca Petrillo : Merge remote-tracking branch ‘origin/develop’ into feature/gp_Issue16781
+-   2017-06-14 Gianluca Petrillo : Merge remote-tracking branch 'origin/develop' into feature/gp_Issue16781
 -   2017-06-12 Robert Sulej : bugfix in the function accessing data in the feature vector helper
--   2017-06-12 Robert Sulej : Merge branch ‘develop’ into feature/rsulej_FactorizeHelper
+-   2017-06-12 Robert Sulej : Merge branch 'develop' into feature/rsulej_FactorizeHelper
 -   2017-06-09 Gianluca Petrillo : Bug fix: HitAndAssociationsWriterBase does not ignore instance name any more.
 -   2017-06-07 Gianluca Petrillo : Coding style update
 -   2017-06-07 Gianluca Petrillo : Documentation style update
--   2017-04-01 Robert Sulej : Merge branch ‘develop’ into feature/rsulej_FactorizeHelper
+-   2017-04-01 Robert Sulej : Merge branch 'develop' into feature/rsulej_FactorizeHelper
 -   2017-03-28 Robert Sulej : rename type
 -   2017-03-24 Robert Sulej : refactor helpers, so mva-specific things are separated from reading and writing generic feature vectors
 
-larcore v06_11_00
-------------------------------------------
+## larcore v06_11_00
 
 -   2017-06-21 Lynn Garren : larcore v06_11_00 for larsoft v06_41_00
 -   2017-06-21 Gianluca Petrillo : Added “local” iterators for all wires in a specified cryostat.
@@ -315,33 +300,27 @@ larcore v06_11_00
 -   2017-06-20 Gianluca Petrillo : Added “local” iterators for all TPCs in a specified cryostat.
 -   2017-06-16 Gianluca Petrillo : Added TPC set and readout plane ID iterators to geometry service.
 
-larpandoracontent v03_07_01
---------------------------------------------------------------
+## larpandoracontent v03_07_01
 
-larsoftobj v1_22_00
-----------------------------------------------
+## larsoftobj v1_22_00
 
 -   2017-06-21 Lynn Garren : larsoftobj v1_22_00 for larsoft v06_41_00
 -   2017-06-21 Lynn Garren : update product versions
 
-lardataobj v1_17_01
-----------------------------------------------
+## lardataobj v1_17_01
 
 -   2017-06-21 Lynn Garren : lardataobj v1_17_01 for larsoft v06_41_00
 -   2017-06-15 Gianluca Petrillo : Added OpFlash::PEs() to return all the photoelectrons in all channels.
 
-larcoreobj v1_15_00
-----------------------------------------------
+## larcoreobj v1_15_00
 
 -   2017-06-21 Lynn Garren : larcoreobj v1_15_00 for larsoft v06_41_00
 -   2017-06-16 Gianluca Petrillo : Added medhods in geometry IDs useful for metaprogramming.
 
-larbatch v01_32_02
---------------------------------------------
+## larbatch v01_32_02
 
 -   2017-06-21 Lynn Garren : larbatch v01_32_02 for larsoft v06_41_00
 -   2017-06-19 Herbert Greenlee : Clean up tmp files even if jobsub_submit returns an error.
 -   2017-06-15 Herbert Greenlee : Move sam cleanups, include stop project, inside loop over stages.
 
-larutils v1_16_00
-------------------------------------------
+## larutils v1_16_00

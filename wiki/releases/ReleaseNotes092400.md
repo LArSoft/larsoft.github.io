@@ -1,102 +1,85 @@
-LArSoft v09_24_00 Release Notes
-======================================================================
+# LArSoft v09_24_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v09_24_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_24_00/larsoft-v09_24_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v09_24_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v09_24_00/larsoft-v09_24_00.html)  
 Download instructions for [just larsoftobj v09_05_03](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v09_05_03/larsoftobj-v09_05_03.html)
 
-Purpose
---------------------
+## Purpose
 
 -   NOTE: We are no longer supplying an e19 build.
+
+<!-- -->
 
 -   changes in develop
 -   approved PRs
 
-New features
-------------------------------
+## New features
 
 -   larpandoracontent PR 24
-    -   This pull request contains functionality for a new three view based matching reconstruction procedure for the delta rays and michel electrons within the cosmic ray reconstruction pass of pandora. This PR accompanies the PR of the feature/larpandoracontent_v03_23_00 branch to larpandora (LArSoft/larpandora\#16). It is important to mention that these PRs must be merged at the same time as this larpandoracontent PR relies on the accompanied larpandora PR adding information to our LArMCParticle objects.
-    -   The new delta ray/michel electron reconstruction introduced in this pull request allows for a more sophisticated reconstruction than that which was achieved by the LArDeltaRayMatchingAlgorithm. Here, delta ray/michel electron clusters are matched across views and tools are employed to modify the clusters making them more pure and complete. In the LArThreeViewDeltaRayMatchingAlgorithm matches require three views and in the subsequent LArTwoViewDeltaRayMatchingAlgorithm this is reduced to two views, allowing us to recover clusters in the remaining third view and optimising the DR/michel electron reconstruction efficiency. Following this, there is a LArOneViewDeltaRayMatchingAlgorithm that creates delta ray/michel electron particles from any remaining clusters, using the parent cosmic ray to project into other views and making cluster merges where appropriate. Here is a presentation outlining these algorithms in more detail ([https://indico.fnal.gov/event/46502/contributions/206710/attachments/139379/174921/DeltaRay_Collab_27_01_21.pdf](https://indico.fnal.gov/event/46502/contributions/206710/attachments/139379/174921/DeltaRay_Collab_27_01_21.pdf)).
+    -   This pull request contains functionality for a new three view based matching reconstruction procedure for the delta rays and michel electrons within the cosmic ray reconstruction pass of pandora. This PR accompanies the PR of the feature/larpandoracontent_v03_23_00 branch to larpandora (LArSoft/larpandora#16). It is important to mention that these PRs must be merged at the same time as this larpandoracontent PR relies on the accompanied larpandora PR adding information to our LArMCParticle objects.
+    -   The new delta ray/michel electron reconstruction introduced in this pull request allows for a more sophisticated reconstruction than that which was achieved by the LArDeltaRayMatchingAlgorithm. Here, delta ray/michel electron clusters are matched across views and tools are employed to modify the clusters making them more pure and complete. In the LArThreeViewDeltaRayMatchingAlgorithm matches require three views and in the subsequent LArTwoViewDeltaRayMatchingAlgorithm this is reduced to two views, allowing us to recover clusters in the remaining third view and optimising the DR/michel electron reconstruction efficiency. Following this, there is a LArOneViewDeltaRayMatchingAlgorithm that creates delta ray/michel electron particles from any remaining clusters, using the parent cosmic ray to project into other views and making cluster merges where appropriate. Here is a presentation outlining these algorithms in more detail (https://indico.fnal.gov/event/46502/contributions/206710/attachments/139379/174921/DeltaRay_Collab_27_01_21.pdf).
 -   larpandora PR 16
     -   This pull request contains a small modification to larpandora/LArPandoraInterface/LArPandoraInput.cxx which adds the simb::MCParticle process information to the pandora LArMCParticle object parameters.
     -   This PR is a necessary companion to larpandoracontent PR 24
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   h5py v3_1_0d
     -   fix table file bug that resulted in an incorrect PYTHONPATH
 -   mrb v4_04_04
     -   recognize garsoft
 
-Change List
-============================
+# Change List
 
-larsoft v09_24_00
-------------------------------------------
+## larsoft v09_24_00
 
 -   2021-05-25 Lynn Garren : larsoft v09_24_00 for larsoft v09_24_00
 -   2021-05-25 Lynn Garren : cmake is finicky
 -   2021-05-25 Lynn Garren : product versions
 -   2021-05-25 Lynn Garren : mrb v4_04_04 and hep_hpc_toolkit v0_14_01_02
 
-lareventdisplay v09_01_09
-----------------------------------------------------------
+## lareventdisplay v09_01_09
 
-larexamples v09_01_09
---------------------------------------------------
+## larexamples v09_01_09
 
-larpandora v09_06_00
-------------------------------------------------
+## larpandora v09_06_00
 
 -   2021-05-25 Lynn Garren : larpandora v09_06_00 for larsoft v09_24_00
--   2021-05-21 AndyChappell : Merge pull request [redmine issue 17](https://cdcvs.fnal.gov/redmine/issues/17) from imawby/feature/mc_updates
+-   2021-05-21 AndyChappell : Merge pull request \#17 from imawby/feature/mc_updates
 -   2021-01-15 Andrew Chappell : Add MC process to Pandora MC particles
 
-larsimrad v09_01_09
-----------------------------------------------
+## larsimrad v09_01_09
 
-larrecodnn v09_07_00
-------------------------------------------------
+## larrecodnn v09_07_00
 
-larwirecell v09_02_07
---------------------------------------------------
+## larwirecell v09_02_07
 
-larana v09_02_05
-----------------------------------------
+## larana v09_02_05
 
-larreco v09_06_05
-------------------------------------------
+## larreco v09_06_05
 
-larsim v09_13_02
-----------------------------------------
+## larsim v09_13_02
 
-larg4 v09_03_06
---------------------------------------
+## larg4 v09_03_06
 
-larevt v09_02_05
-----------------------------------------
+## larevt v09_02_05
 
-lardata v09_02_03
-------------------------------------------
+## lardata v09_02_03
 
-larcore v09_02_01
-------------------------------------------
+## larcore v09_02_01
 
-larpandoracontent v03_23_00
---------------------------------------------------------------
+## larpandoracontent v03_23_00
 
 -   2021-05-25 Lynn Garren : larpandoracontent v03_23_00 for larsoft v09_24_00
--   2021-05-24 John Marshall : Merge branch ‘feature/IsobelDeltaRay’ into feature/larpandoracontent_v03_23_00
+-   2021-05-24 John Marshall : Merge branch 'feature/IsobelDeltaRay' into feature/larpandoracontent_v03_23_00
 -   2021-05-24 Isobel Mawby : whitespace removal
 -   2021-05-24 Isobel Mawby : clang formatting
 -   2021-05-24 Isobel Mawby : Removal DR visualization tools
--   2021-05-21 AndyChappell : Merge pull request [redmine issue 165](https://cdcvs.fnal.gov/redmine/issues/165) from imawby/feature/DeltaRayPreClang
+-   2021-05-21 AndyChappell : Merge pull request \#165 from imawby/feature/DeltaRayPreClang
 -   2021-05-03 Isobel Mawby : Account for empty calohitlists in GetClosestDistance and update DeltaRayMatchingContainer constructor
 -   2021-04-30 Isobel Mawby : OneViewDeltaRayMatching PR update - creating a new DeltaRayMatchingContainers class
 -   2021-04-29 Isobel Mawby : NViewAlg PR updates
@@ -178,26 +161,18 @@ larpandoracontent v03_23_00
 -   2021-05-20 Andrew Chappell : Update version and ChangeLog
 -   2021-05-20 Valentin Volkl : Fix compilation: -Werror=range-loop-construct
 
-larsoftobj v09_05_03
-------------------------------------------------
+## larsoftobj v09_05_03
 
-lardataobj v09_01_02
-------------------------------------------------
+## lardataobj v09_01_02
 
-lardataalg v09_04_03
-------------------------------------------------
+## lardataalg v09_04_03
 
-larcorealg v09_01_01
-------------------------------------------------
+## larcorealg v09_01_01
 
-larcoreobj v09_02_00
-------------------------------------------------
+## larcoreobj v09_02_00
 
-webevd v09_05_04
-----------------------------------------
+## webevd v09_05_04
 
-larbatch v01_56_01
---------------------------------------------
+## larbatch v01_56_01
 
-larutils v1_28_00
-------------------------------------------
+## larutils v1_28_00

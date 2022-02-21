@@ -1,12 +1,10 @@
-Release notes template x.yy.zz (yyyy/mm/dd)
-======================================================================================
+# Release notes template x.yy.zz (yyyy/mm/dd)
 
-Previous version’s [release notes](Release_notes?parent=Release_notes_template)
+Previous version's [release notes](release_notes)
 
-[Download instructions](http://oink.fnal.gov/distro/larsoft/)…..
+[Download instructions](http://oink.fnal.gov/distro/larsoft/....).
 
-LArSoft x.yy.zz (link to roadmap for the release)
-----------------------------------------------------------------------------------------------------
+## LArSoft x.yy.zz (link to roadmap for the release)
 
 ### Purpose
 

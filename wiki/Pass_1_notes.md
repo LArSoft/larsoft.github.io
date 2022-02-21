@@ -1,8 +1,8 @@
-Pass 1 notes
-==============================
+# Pass 1 notes
 
-setup the working directory
-------------------------------------------------------------
+
+
+## setup the working directory
 
 -   working on woof using tools in laradmin v1_08_00
 -   setup mrb and laradmin
@@ -15,16 +15,14 @@ setup the working directory
 -   mrb g lariatsoft
 -   we now have argoneutcode, dunetpc, lar1ndcode, lariatsoft, uboonecode, and larsoft
 
-create the working tag
---------------------------------------------------
+## create the working tag
 
 -   for larsoft, create the v05_00_branch from the LARSOFT_SUITE_v04_36_01 tag
 -   for everything else, create the v05_00_branch from develop
 -   setup laradmin v1_08_01 -z /home/garren/scratch/larsoft/myprod:/products
 -   make_branch.sh LARSOFT_SUITE_v04_36_01
 
-refactor
-----------------------
+## refactor
 
 -   refactor_larsoft.sh
     -   this script moved the directories down and removes BASENAME_ONLY
@@ -48,8 +46,7 @@ refactor
     -   larreco/larreco/HitFinder/CMakeLists.txt
     -   larana/larana/OpticalDetector/CMakeLists.txt
 
-end user scripts
---------------------------------------
+## end user scripts
 
 We use the same scripts that the end user will use to fix their code.
 
@@ -57,15 +54,14 @@ We use the same scripts that the end user will use to fix their code.
 -   compare header_hash.pl and larsoft/bin/fix_headers.pl
 -   compare util_header_hash.pl and larsoft/bin/fix_headers.pl
 -   comare lib_name.pl and larsoft/bin/fix_cmake.pl
--   cd \$MRB_SOURCE
+-   cd $MRB_SOURCE
 -   ./larsoft/bin/update_sources.sh
 
-build
-----------------
+## build
 
 -   update the versions of the larsoft suite
     -   update_version.sh
--   cd \$MRB_BUILDDIR
+-   cd $MRB_BUILDDIR
     -   build and fix
 -   changes
     -   remove “temporary workaround until art v1_12_01 is available” from lardata/RecoBase/CMakeLists.txt
@@ -80,21 +76,19 @@ build
 -   find a few missing entries for update_sources.sh
 -   iterate until everything builds
 
-known issues
-------------------------------
+## known issues
 
 -   argoneutcode geometry_iterator_loop_argoneut_test
     -   This test uses geometry_microboone.fcl, which is found in uboonecode
     -   The test passes only if you build and test argoneutcode and uboonecode at the same time.
 
-commit and tag
-----------------------------------
+## commit and tag
 
 -   larcore larevt larpandora larsoft larana lardata larexamples larreco lareventdisplay larsim
     -   commit the changes
     -   git push -u origin v05_00_branch
-    -   git tag -a -m“v05_00_00” v05_00_00
-    -   git push –tags
+    -   git tag -a -m”v05_00_00” v05_00_00
+    -   git push —tags
 -   argoneutcode dunetpc lariatsoft uboonecode lar1ndcode
     -   commit the changes
     -   git push -u origin v05_00_branch

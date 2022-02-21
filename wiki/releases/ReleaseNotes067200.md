@@ -1,20 +1,19 @@
-LArSoft v06_72_00 Release Notes
-======================================================================
+# LArSoft v06_72_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
-Download instructions for [larsoft v06_72_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_72_00/larsoft-v06_72_00.html)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
+Download instructions for [larsoft v06_72_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_72_00/larsoft-v06_72_00.html)  
 Download instructions for [just larsoftobj v1_41_02](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_41_02/larsoftobj-v1_41_02.html)
 
-Purpose
---------------------
+## Purpose
 
 -   changes in develop
 -   larpandoracontent update
 
-New features
-------------------------------
+## New features
 
--   new tutorial in [larexamples:source:larexamples/DebuggingExamples/CatchException](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/entry/larexamples/DebuggingExamples/CatchException) on how to interactively capture exception throwing in a *art* job with a debugger
+-   new tutorial in <span style="font-family: monospace;">larexamples:source:larexamples/DebuggingExamples/CatchException</span> on how to interactively capture exception throwing in a *art* job with a debugger
 -   updated documentation for `detutil::DetectorClocks` service provider
 -   `lardata` `feature/gp_TPCTime` (addition of `DetectorClocks::TPCTime()`)
 -   [Changes in LArPandoraContent v3.11](https://indico.fnal.gov/event/16752/contribution/0/material/slides/0.pdf)
@@ -22,71 +21,58 @@ New features
     -   larpandoracontent, larpandora
     -   uboonecode, uboonedata, dunetpc
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
 -   cetpkgsupport v1_14_01
 
-Change List
-============================
+# Change List
 
-larsoft v06_72_00
-------------------------------------------
+## larsoft v06_72_00
 
 -   2018-03-28 Lynn Garren : larsoft v06_72_00 for larsoft v06_72_00
 -   2018-03-28 Lynn Garren : cetpkgsupport v1_14_01
 -   2018-03-28 Lynn Garren : product versions and cetpkgsupport
 
-lareventdisplay v06_18_04
-----------------------------------------------------------
+## lareventdisplay v06_18_04
 
 -   2018-03-28 Lynn Garren : lareventdisplay v06_18_04 for larsoft v06_72_00
 
-larexamples v06_12_00
---------------------------------------------------
+## larexamples v06_12_00
 
 -   2018-03-28 Lynn Garren : larexamples v06_12_00 for larsoft v06_72_00
 -   2018-03-22 Gianluca Petrillo : Fixed Doxygen glitches
 -   2018-03-22 Gianluca Petrillo : Added tutorial to use debugger to catch exceptions
 
-larpandora v06_25_04
-------------------------------------------------
+## larpandora v06_25_04
 
 -   2018-03-28 Lynn Garren : larpandora v06_25_04 for larsoft v06_72_00
 -   2018-03-22 a-d-smith : Switched settings from neutrino id tool to simple neutrino id tool
 
-larwirecell v06_11_04
---------------------------------------------------
+## larwirecell v06_11_04
 
 -   2018-03-28 Lynn Garren : larwirecell v06_11_04 for larsoft v06_72_00
 
-larana v06_18_04
-----------------------------------------
+## larana v06_18_04
 
 -   2018-03-28 Lynn Garren : larana v06_18_04 for larsoft v06_72_00
 
-larreco v06_57_00
-------------------------------------------
+## larreco v06_57_00
 
 -   2018-03-28 Lynn Garren : larreco v06_57_00 for larsoft v06_72_00
 -   2018-03-24 Christoph Alt : Update handling of long pulse trains
 
-larsim v06_42_04
-----------------------------------------
+## larsim v06_42_04
 
 -   2018-03-28 Lynn Garren : larsim v06_42_04 for larsoft v06_72_00
 
-larevt v06_19_04
-----------------------------------------
+## larevt v06_19_04
 
 -   2018-03-28 Lynn Garren : larevt v06_19_04 for larsoft v06_72_00
 -   2018-03-24 Dominic Brailsford : Add functionality to require that any of the particles in the fcl list need to be found in the event for the event to be saved, rather than demanding ALL of them be found. The default fcl functionality is to require all be found. This is controlled via a bool fcl parameters called RequireAllInterestingParticles.
 
-lardata v06_42_00
-------------------------------------------
+## lardata v06_42_00
 
 -   2018-03-28 Lynn Garren : lardata v06_42_00 for larsoft v06_72_00
 -   2018-03-26 Gianluca Petrillo : Added DetectorClocks::TPCTime() and implementation.
@@ -99,25 +85,23 @@ lardata v06_42_00
 -   2018-01-31 Gianluca Petrillo : Added drift output to DetectorPropertiesStandard test
 -   2017-05-11 Gianluca Petrillo : Updated DetectorClocks documentation.
 
-larcore v06_18_01
-------------------------------------------
+## larcore v06_18_01
 
-larpandoracontent v03_11_00
---------------------------------------------------------------
+## larpandoracontent v03_11_00
 
 -   2018-03-28 Lynn Garren : larpandoracontent v03_11_00 for larsoft v06_72_00
--   2018-03-23 John Marshall : Merge branch ‘a-d-smith/coverityDefects’
+-   2018-03-23 John Marshall : Merge branch 'a-d-smith/coverityDefects'
 -   2018-03-22 loressa : Type change picked up by gcc 6.4.0.
 -   2018-03-20 a-d-smith : Fixed small coverity defects
--   2018-03-16 John Marshall : Merge branch ‘updates’
+-   2018-03-16 John Marshall : Merge branch 'updates'
 -   2018-03-16 John Marshall : Update version and change log.
--   2018-03-12 John Marshall : Merge branch ‘feature/ControlFlowUpdates’
+-   2018-03-12 John Marshall : Merge branch 'feature/ControlFlowUpdates'
 -   2017-12-19 John Marshall : Maximum allowed difference between like wire (u and v) angles between volumes is now configurable and carries a larger default value.
 -   2018-03-08 John Marshall : Print out only if algorithm information enabled.
 -   2018-03-08 John Marshall : Drop current list names in PostProcessing algorithm.
 -   2018-03-07 Steven Green : Redesigned method for vetoing stitched particles in nu/beam particle id.
 -   2018-03-05 John Marshall : Cosmic-ray candidate pfos stitched between drift volumes are now automatically tagged as clear cosmic rays.
--   2018-03-12 John Marshall : Merge branch ‘feature/CheatingIdTools’
+-   2018-03-12 John Marshall : Merge branch 'feature/CheatingIdTools'
 -   2018-03-12 John Marshall : Rename CheatingParticleIdBaseTool as CheatingSliceIdBaseTool.
 -   2018-03-07 Steven Green : Created a base tool for cheating particle id.
 -   2018-03-06 Steven Green : Created cheating beam particle id tool.
@@ -143,7 +127,7 @@ larpandoracontent v03_11_00
 -   2018-02-07 a-d-smith : Exposed the slice id base tool to the master algorithm to access the MCParticle list. Needed to filter events by nuance code when training
 -   2018-02-07 a-d-smith : Added functionality to select the slice with the most neutrino induced hits
 -   2018-02-07 a-d-smith : Started changes to neutrino ID too
--   2018-03-02 John Marshall : Merge branch ‘feature/MonitoringRemaster’
+-   2018-03-02 John Marshall : Merge branch 'feature/MonitoringRemaster'
 -   2018-02-21 John Marshall : Ensure compilation without warning in case when PandoraMonitoring is disabled.
 -   2018-02-19 John Marshall : Ensure all final state particles are considered in event validation.
 -   2018-02-19 John Marshall : Overhaul cheating reconstruction.
@@ -154,7 +138,7 @@ larpandoracontent v03_11_00
 -   2018-02-13 John Marshall : Restructure.
 -   2018-02-13 John Marshall : Update list of interaction types.
 -   2018-02-12 John Marshall : Placeholder null values for cases where there are no matched pfos.
--   2018-02-09 John Marshall : Alter treatment for handling e.g. mu_minus vs. mu_plus. Add whether pfo reco’d as neutrino to tree.
+-   2018-02-09 John Marshall : Alter treatment for handling e.g. mu_minus vs. mu_plus. Add whether pfo reco'd as neutrino to tree.
 -   2018-02-09 John Marshall : Add GetNeutrinoWeight functionality to CheatingNeutrinoId tool.
 -   2018-02-09 John Marshall : Restore LArMCParticleHelper::GetMainMCParticle, some work to do for GetMainMCPrimary.
 -   2018-02-08 John Marshall : Add number of pfo matches to tree.
@@ -183,29 +167,23 @@ larpandoracontent v03_11_00
 -   2017-12-07 a-d-smith : Added functionality to LArMCParticleHelper to select reconstructable MCParticles with a given condition
 -   2017-12-01 a-d-smith : Added the LArFormattingHelper class to print coloured tables to the terminal
 
-larsoftobj v1_41_02
-----------------------------------------------
+## larsoftobj v1_41_02
 
-lardataobj v1_29_01
-----------------------------------------------
+## lardataobj v1_29_01
 
-larcorealg v1_18_01
-----------------------------------------------
+## larcorealg v1_18_01
 
-larcoreobj v1_22_00
-----------------------------------------------
+## larcoreobj v1_22_00
 
-larbatch v01_38_01
---------------------------------------------
+## larbatch v01_38_01
 
 -   2018-03-28 Lynn Garren : larbatch v01_38_01 for larsoft v06_72_00
--   2018-03-21 Herbert Greenlee : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
+-   2018-03-21 Herbert Greenlee : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larbatch into develop
 -   2018-03-21 Herbert Greenlee : Add prestagefraction.
 -   2018-03-21 Lynn Garren : larsoft v06_71_00
--   2018-03-20 Herbert Greenlee : Don’t make out/log directory more times than necessary.
+-   2018-03-20 Herbert Greenlee : Don't make out/log directory more times than necessary.
 
-larutils v1_22_00
-------------------------------------------
+## larutils v1_22_00
 
 -   2018-03-28 Lynn Garren : larutils v1_22_00 for larsoft v06_72_00
 -   2018-03-26 Lynn Garren : adding c2 support

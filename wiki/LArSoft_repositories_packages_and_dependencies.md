@@ -1,5 +1,6 @@
-LArSoft repositories packages and dependencies
-==================================================================================================
+# LArSoft repositories packages and dependencies
+
+{{toc}}
 
 There are a number of repositories/ups products that are in core LArSoft.
 
@@ -11,110 +12,90 @@ There are three types of core LArSoft repositories:
 
 Note that arrows in the dependency diagram point to repositories that resolve direct dependencies in the repository at the tail of the arrow.
 
-![structural diagram](/redmine/attachments/download/62528/structural.png "structural diagram")
+[[assets/img/larsoft/structural.png]]
 
-![Dependencies diagram](/redmine/attachments/download/62527/dependencies.png "Dependencies diagram")
+[[assets/img/larsoft/dependencies.png]]
 
-larg4
-----------------
+## larg4
 
 -   interface to Geant4
 
-larwirecell
-----------------------------
+## larwirecell
 
 -   interface to the Wire Cell Toolkit
 
-larpandora
---------------------------
+## larpandora
 
 -   LArSoft interface to the pandora reconstruction package
 
-larsoft
---------------------
+## larsoft
 
 -   An umbrella product which is used to setup all the individual larsoft products
 
-larana
-------------------
+## larana
 
 -   Secondary reconstruction/analysis e.g. PID
 
-larreco
---------------------
+## larreco
 
 -   Primary reconstruction modules
 
-larsim
-------------------
+## larsim
 
 -   Simulation modules
 
-larevt
-------------------
+## larevt
 
 -   Low level algorithm and utility code that may be needed at various levels of the simulation and reconstruction, and that use data products. Interface services to conditions databases typically live here.
 
-lardata
---------------------
+## lardata
 
 -   Utilities and services that manipulate or provide simplified interfaces to data products.
 
-larcore
---------------------
+## larcore
 
 -   Low level utilities, functions and services
 
 The following repositories have no framework dependencies, and can be built and used in alternate frameworks and development environments
 
-larrecodnn
---------------------------
+## larrecodnn
 
 -   Deep learning algorithms and their dependencies
 
-larsimdnn
-------------------------
+## larsimdnn
 
 -   Simulations that use deep learning algorithms
 
-larsimrad
-------------------------
+## larsimrad
 
 -   Simulations for radiologicals
 
-larsoftobj
---------------------------
+## larsoftobj
 
 -   umbrella that sets up all the individual lar\*obj and lar\*alg
 
-lardataalg
---------------------------
+## lardataalg
 
 -   algorithms shared between larsoft and art-independent frameworks such as gallery, larlite, etc.
 
-lardataobj
---------------------------
+## lardataobj
 
 -   common data products for reconstruction, analysis, etc shared between larsoft and art-independent frameworks
 
-larcorealg
---------------------------
+## larcorealg
 
 -   core algorithms shared between larsoft and art-independent frameworks such as gallery, larlite, etc.
 
-larcoreobj
---------------------------
+## larcoreobj
 
 -   data products for geometry and core utilities that are shared between larsoft and art-independent frameworks
 
-larsoft_data
--------------------------------
+## larsoft_data
 
 -   A special UPS package that contains configuration data in large, binary, or other file types that are unsuitable for storage in code repositories. Version control is managed through the UPS system. Because there is no corresponding code repository, this product is *not* included in the `larsoft_suite` repositories, and *is not* part of core LArSoft. Open a LArSoft issue ticket to discuss additions or modifications to the contents of this product.
 
-Experiment Code
-------------------------------------
+## Experiment Code
 
 The following diagram shows how experiment code fits into the system.
 
-![](/redmine/attachments/download/62924/experimentcode.png)
+[[assets/img/larsoft/experimentcode.png]]

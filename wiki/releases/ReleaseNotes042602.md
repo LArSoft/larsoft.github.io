@@ -1,74 +1,60 @@
-LArSoft v04_26_02 Release Notes
-======================================================================
+# LArSoft v04_26_02 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_26_02/larsoft-v04_26_02.html)
 
-Purpose
---------------------
+## Purpose
 
--   Microboone requests a special build of larsoft. This request is related
+-   Microboone requests a special build of larsoft. This request is related  
     to our ability to process the impending arrival of BNB beam data.
 
-New features
-------------------------------
+## New features
 
 -   larana commits from Kazu
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-||
-|Product|Version|Qualifier|Notes|
-|cetbuildtools|v4_14_02||[Release_Notes](https://cdcvs.fnal.gov/redmine/projects/cetbuildtools/wiki/Release_Notes)|
+|               |          |           |                                     |
+|---------------|----------|-----------|-------------------------------------|
+| Product       | Version  | Qualifier | Notes                               |
+| cetbuildtools | v4_14_02 |           | [cetbuildtools:Release_Notes](https://cdcvs.fnal.gov/redmine/projects/cetbuildtools/wiki/Release_Notes) |
 
-Change List
-============================
+# Change List
 
-larsoft v04_26_02
-------------------------------------------
+## larsoft v04_26_02
 
 -   2015-10-16 Lynn Garren : use larbase
 -   2015-10-16 Lynn Garren : ifdh v1_8_7 and libwda v2_22_0 in source code manifest
 -   2015-10-16 Lynn Garren : product names and cetbuildtools v4_14_02
 -   2015-10-16 Lynn Garren : larsoft v04_26_02 for larsoft v04_26_02
 
-lareventdisplay v04_10_01
-----------------------------------------------------------
+## lareventdisplay v04_10_01
 
-larexamples v04_05_08
---------------------------------------------------
+## larexamples v04_05_08
 
-larpandora v04_07_02
-------------------------------------------------
+## larpandora v04_07_02
 
-larana v04_14_00
-----------------------------------------
+## larana v04_14_00
 
 -   2015-10-16 Lynn Garren : larana v04_14_00 for larsoft v04_26_02
 -   2015-10-16 Lynn Garren : match the type of first_index
--   2015-10-15 drinkingkazu : Adding new algorithm & a bit of re-organization –kazu
+-   2015-10-15 drinkingkazu : Adding new algorithm & a bit of re-organization —kazu
 
-larreco v04_19_01
-------------------------------------------
+## larreco v04_19_01
 
-larsim v04_12_01
-----------------------------------------
+## larsim v04_12_01
 
-larevt v04_12_01
-----------------------------------------
+## larevt v04_12_01
 
-lardata v04_15_01
-------------------------------------------
+## lardata v04_15_01
 
-larcore v04_17_02
-------------------------------------------
+## larcore v04_17_02
 
-larbatch v01_18_00
---------------------------------------------
+## larbatch v01_18_00
 
 -   2015-10-16 Lynn Garren : larbatch v01_18_00 for larsoft v04_26_02
 -   2015-10-16 Herbert Greenlee : Sort input file list according to decreasing size to avoid having zero-event files first.
@@ -79,8 +65,7 @@ larbatch v01_18_00
 -   2015-10-14 Herbert Greenlee : Catch exceptions from samweb when making pubs snapshot.
 -   2015-10-14 Herbert Greenlee : Add support for multiple output streams and nonlinear staging. Raise PubsInputError if restricted pubs dataset definition would not return any files.
 
-larutils v1_04_00
-------------------------------------------
+## larutils v1_04_00
 
 -   2015-10-16 Lynn Garren : larutils v1_04_00 for larsoft v04_26_02
 -   2015-10-15 Lynn Garren : adding a larbase distribution

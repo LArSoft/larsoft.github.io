@@ -1,34 +1,30 @@
-LArSoft v04_13_00 Release Notes
-======================================================================
+# LArSoft v04_13_00 Release Notes
 
-[list of LArSoft releases](LArSoft_release_list)
+
+
+[list of LArSoft releases](LArSoft_release_list)  
 [Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_13_00/larsoft-v04_13_00.html)
 
-Purpose
---------------------
+## Purpose
 
 -   lardata feature/davidc1_daqheader
--   larreco [feature/rsulej_PmaTrack3D](https://indico.fnal.gov/getFile.py/access?contribId=5&resId=0&materialId=slides&confId=10058)
+-   larreco [feature/rsulej_PmaTrack3D](https://indico.fnal.gov/getFile.py/access?contribId=5&amp;resId=0&amp;materialId=slides&amp;confId=10058)
 -   changes to develop since v04_12_00
 
-New features
-------------------------------
+## New features
 
-Bug fixes
-------------------------
+## Bug fixes
 
-Updated dependencies
-----------------------------------------------
+## Updated dependencies
 
-||
-|Product|Version|Qualifier|Notes|
-|cetbuildtools|v4_11_03|||
+|               |          |           |       |
+|---------------|----------|-----------|-------|
+| Product       | Version  | Qualifier | Notes |
+| cetbuildtools | v4_11_03 |           |       |
 
-Change List
-============================
+# Change List
 
-larsoft v04_13_00
-------------------------------------------
+## larsoft v04_13_00
 
 -   2015-06-16 Lynn Garren : larsoft v04_13_00 for larsoft v04_13_00
 -   2015-06-16 Lynn Garren : update product versions
@@ -37,31 +33,26 @@ larsoft v04_13_00
 -   2015-06-11 Lynn Garren : using s11
 -   2015-06-10 Lynn Garren : not all larcore tests work in standalone build
 
-lareventdisplay v04_05_01
-----------------------------------------------------------
+## lareventdisplay v04_05_01
 
 -   2015-06-16 Lynn Garren : lareventdisplay v04_05_01 for larsoft v04_13_00
 
-larexamples v04_04_11
---------------------------------------------------
+## larexamples v04_04_11
 
 -   2015-06-16 Lynn Garren : larexamples v04_04_11 for larsoft v04_13_00
 
-larpandora v04_04_11
-------------------------------------------------
+## larpandora v04_04_11
 
 -   2015-06-16 Lynn Garren : larpandora v04_04_11 for larsoft v04_13_00
 
-larana v04_07_03
-----------------------------------------
+## larana v04_07_03
 
 -   2015-06-16 Lynn Garren : larana v04_07_03 for larsoft v04_13_00
 
-larreco v04_09_00
-------------------------------------------
+## larreco v04_09_00
 
 -   2015-06-16 Lynn Garren : larreco v04_09_00 for larsoft v04_13_00
--   2015-06-16 Tingjun Yang : Add \${Boost_SYSTEM_LIBRARY}
+-   2015-06-16 Tingjun Yang : Add ${Boost_SYSTEM_LIBRARY}
 -   2015-06-15 Robert Sulej : fine tuning before publish
 -   2015-06-15 Robert Sulej : dedx output to ttree
 -   2015-06-12 Robert Sulej : ready to publish, todo better logic in cluster matching, merging of tracks and some special cases
@@ -78,7 +69,7 @@ larreco v04_09_00
 -   2015-06-01 Robert Sulej : hit to sp associations (to be verified)
 -   2015-06-01 Robert Sulej : iteratively growing track tested
 -   2015-05-29 Robert Sulej : more initialization
--   2015-05-29 Robert Sulej : Merge branch ‘develop’ into feature/rsulej_PmaTrack3D
+-   2015-05-29 Robert Sulej : Merge branch 'develop' into feature/rsulej_PmaTrack3D
 -   2015-05-29 Robert Sulej : can optimize single segments and produce larsoft output
 -   2015-05-27 Robert Sulej : track saved to event structure
 -   2015-05-26 Robert Sulej : some initial code for PMAlg module
@@ -86,7 +77,7 @@ larreco v04_09_00
 -   2015-05-26 Robert Sulej : track 3D basically done, to do wrapping in an algorithm module
 -   2015-05-22 Robert Sulej : progress on track, to do initialization
 -   2015-05-21 Robert Sulej : track half done
--   2015-05-21 Robert Sulej : Merge branch ‘develop’ of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/rsulej_PmaTrack3D
+-   2015-05-21 Robert Sulej : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/rsulej_PmaTrack3D
 -   2015-05-20 Robert Sulej : hits, nodes and segments done, track still to do
 -   2015-05-20 Robert Sulej : hits, nodes and segments done, track still to do
 -   2015-05-20 Robert Sulej : hits, nodes and segments done, track still to do
@@ -97,38 +88,34 @@ larreco v04_09_00
 -   2015-05-15 Robert Sulej : porting code…
 -   2015-05-15 Robert Sulej : add PMAlg
 
-larsim v04_07_07
-----------------------------------------
+## larsim v04_07_07
 
 -   2015-06-16 Lynn Garren : larsim v04_07_07 for larsoft v04_13_00
 
-larevt v04_08_01
-----------------------------------------
+## larevt v04_08_01
 
 -   2015-06-16 Lynn Garren : larevt v04_08_01 for larsoft v04_13_00
 
-lardata v04_09_00
-------------------------------------------
+## lardata v04_09_00
 
 -   2015-06-16 Lynn Garren : lardata v04_09_00 for larsoft v04_13_00
--   2015-06-16 Lynn Garren : Merge branch ‘feature/davidc1_daqheader’ into release/v04_13_00
+-   2015-06-16 Lynn Garren : Merge branch 'feature/davidc1_daqheader' into release/v04_13_00
 -   2015-06-16 Lynn Garren : cetbuildtools v4_11_03
 -   2015-06-16 Taritree Wonjigrad : moved channel map retrival into databaseutil service
 -   2015-06-15 Taritree Wonjigrad : database access for swizzler
--   2015-06-14 Taritree Wonjigrad : Revert “Revert”merge in prep to bring branch up to develop“”
+-   2015-06-14 Taritree Wonjigrad : Revert “Revert ”merge in prep to bring branch up to develop””
 -   2015-06-12 Taritree Wonjigrad : Revert “merge in prep to bring branch up to develop”
 -   2015-06-11 Taritree Wonjigrad : merge in prep to bring branch up to develop
--   2015-06-02 kterao : Needed change for new optical stuff to coop w/ data swizzling –kazu
--   2015-05-27 kterao : Necessary change to process binary file –kazu
--   2015-05-20 kterao : bang bang –kazu
--   2015-05-20 kterao : Merge tag ‘v04_07_00’ into feature/davidc1_daqheader
--   2014-12-22 David Caratelli : DAQHeader edits: SubRun now stored in DAQHeader –David Caratelli
+-   2015-06-02 kterao : Needed change for new optical stuff to coop w/ data swizzling —kazu
+-   2015-05-27 kterao : Necessary change to process binary file —kazu
+-   2015-05-20 kterao : bang bang —kazu
+-   2015-05-20 kterao : Merge tag 'v04_07_00' into feature/davidc1_daqheader
+-   2014-12-22 David Caratelli : DAQHeader edits: SubRun now stored in DAQHeader —David Caratelli
 
-larcore v04_11_00
-------------------------------------------
+## larcore v04_11_00
 
 -   2015-06-16 Lynn Garren : larcore v04_11_00 for larsoft v04_13_00
--   2015-06-15 Gianluca Petrillo : Running geometry_iterator_test in the unit test suite only if ‘ONLY_SLF’ is specified as test group
+-   2015-06-15 Gianluca Petrillo : Running geometry_iterator_test in the unit test suite only if 'ONLY_SLF' is specified as test group
 -   2015-06-12 Gianluca Petrillo : Added unit test for geometry element iterators.
 -   2015-06-12 Gianluca Petrillo : Moved comparison operators out of geometry element iterator classes
 -   2015-06-12 Gianluca Petrillo : Switched implementation of geometry element iterators from inheritance to containment. Needs unit test.
@@ -143,15 +130,13 @@ larcore v04_11_00
 -   2015-06-05 Gianluca Petrillo : Added functionality to return the center of TPC and cryostat (from geo::BoxBoundedGeo)
 -   2015-06-03 Gianluca Petrillo : Added a very simple test for GeometryCore::ThirdPlaneSlope(), plus LaTeX documentation about the formula.
 
-larbatch v01_11_00
---------------------------------------------
+## larbatch v01_11_00
 
 -   2015-06-16 Lynn Garren : larbatch v01_11_00 for larsoft v04_13_00
 -   2015-06-16 Tingjun Yang : Return production user name if the role is Production.
 -   2015-06-12 Herbert Greenlee : Use proper ifdh option when invoking emptydir.py
 
-larutils v1_00_12
-------------------------------------------
+## larutils v1_00_12
 
 -   2015-06-16 Lynn Garren : larutils v1_00_12 for larsoft v04_13_00
 -   2015-06-12 Herbert Greenlee : Add a call to /cvmfs/grid.cern.ch/util/cvmfs-uptodate.
