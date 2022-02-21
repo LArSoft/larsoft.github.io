@@ -1,45 +1,38 @@
 # PMA module code analysis Report
 
-http://cd-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5766&amp;filename=ReportfromPatternMatchingAlgorithmCodeAnalysis.pdf&amp;version=1
+June 2016 [report from pattern matching analysis](http://cd-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5766&amp;filename=ReportfromPatternMatchingAlgorithmCodeAnalysis.pdf&amp;version=1)
 
-h1 PMA Code Analysis Background
+## PMA Code Analysis Background
 
 PMA Code and Documentation Links
 
 https://indico.fnal.gov/getFile.py/access?contribId=62&amp;sessionId=40&amp;resId=1&amp;materialId=slides&amp;confId=10276
 
-Aaron Higuera is maintaining systematic efficiency tests and writes code for it. Here is the last development, for the proton decay / atmospheric neutrino events:  
-https://indico.fnal.gov/getFile.py/access?contribId=2&amp;resId=0&amp;materialId=slides&amp;confId=12005 (note that PMA here is used together with Cluster Crawler for 2D clusters reconstruction)
+Aaron Higuera is maintaining systematic efficiency tests and writes code for it. Here is the last development, for the proton decay / atmospheric neutrino [events](https://indico.fnal.gov/getFile.py/access?contribId=2&amp;resId=0&amp;materialId=slides&amp;confId=12005) (note that PMA here is used together with Cluster Crawler for 2D clusters reconstruction)
 
 Similar test are done for beam neutrinos, I expect that soon we'll have update on this using recent releases of reconstruction algorithms.
 
-Redmine links for code:  
-https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc
+Redmine links for [code](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc)
 
-Vertexing functionality is collected here:  
-https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/RecoAlg/PMAlgVertexing.h
+Vertexing functionality is collected [here](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/RecoAlg/PMAlgVertexing.h)
 
-The most basic functions for building, testing, extending tracks are here:  
-https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/RecoAlg/ProjectionMatchingAlg.h
+The most basic functions for building, testing, extending tracks are [here](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/RecoAlg/ProjectionMatchingAlg.h)
 
-And all the building blocks for the track and vertex optimization are in the directory:  
-https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/show/larreco/RecoAlg/PMAlg
+And all the building blocks for the track and vertex optimization are in the [PMAlg directory](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/show/larreco/RecoAlg/PMAlg)
 
-The cost of computations is mostly due to trajectory node optimization, done with finite-difference calculations of the gradient of the objective function with respect to the node position. If you'd like to have a look, the code is here:  
-https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/RecoAlg/PMAlg/PmaNode3D.h#L92
+The cost of computations is mostly due to trajectory node optimization, done with finite-difference calculations of the gradient of the objective function with respect to the node position. If you'd like to have a look, the code is [here](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/RecoAlg/PMAlg/PmaNode3D.h#L92)
 
-void Optimize(float penaltyValue, float endSegWeight);
+-   void Optimize(float penaltyValue, float endSegWeight);
 
 and functions:
 
-double Pi(float endSegWeight, bool doAsymm) const;  
-double Penalty(float endSegWeight) const;  
-double Mse(void) const;  
-double MakeGradient(float penaltyValue, float endSegWeight);  
-double StepWithGradient(float alfa, float tol, float penalty, float weight);
+-   double Pi(float endSegWeight, bool doAsymm) const;
+-   double Penalty(float endSegWeight) const;
+-   double Mse(void) const;
+-   double MakeGradient(float penaltyValue, float endSegWeight);
+-   double StepWithGradient(float alfa, float tol, float penalty, float weight);
 
-The complexity on the higher level comes from scoring the tracks made of various (possible) matching of clusters in complementary 2D projections, this is done more or less here:  
-https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc#L1851
+The complexity on the higher level comes from scoring the tracks made of various (possible) matching of clusters in complementary 2D projections, this is done more or less [here](https://cdcvs.fnal.gov/redmine/projects/larreco/repository/revisions/develop/entry/larreco/TrackFinder/PMAlgTrackMaker_module.cc#L1851)
 
 ## Working session materials
 

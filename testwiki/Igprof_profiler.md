@@ -33,7 +33,7 @@ Other useful options:
 -   To produce the text file of the report,
         igprof-analyse -d -v -g igprof_lar.gz >&amp; igprof_lar.res
 
-    how to interpret the ascii report, see http://igprof.org/text-output-format.html
+    how to interpret the ascii report, see [IgProf output format](http://igprof.org/text-output-format.html)
 
 <!-- -->
 
@@ -44,12 +44,12 @@ Other useful options:
         -   MEM_TOTAL: the total amount of memory allocated by any function - a snapshot of poor memory locality
         -   MEM_LIVE: memory that has not been freed - snapshot of the heap, i.e. a heap profile.
         -   MEM_MAX: the largest single allocation by any function
-    -   to navigate profiling reports on web, see instruction at http://igprof.org/analysis.html  
-        and an example page at https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html
+    -   to navigate profiling reports on web, see instruction at [IgProf analysis](http://igprof.org/analysis.html)  
+        and a [dunetpc example page](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html)
 
 5\. Related links
 
--   IgProf home page: http://igprof.org/
--   installation: see http://igprof.org/install.html
+-   [IgProf home page](http://igprof.org/)
+-   installation: see [installation instructions](http://igprof.org/install.html)
 
-For a more recent example, see https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00)#Profiling-memory-and-CPU-performance
+For a more recent example, see [ProtoDUNE profiling](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00)#Profiling-memory-and-CPU-performance)
