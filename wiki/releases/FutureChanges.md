@@ -11,6 +11,9 @@ LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 -   gh v2_5_1a
     -   GitHub CLI
     -   note that hub is a wrapper for git, gh is a command line interface
+-   mrb v6_02_03
+-   cetmodules v3_05_04
+-   cmake v3_22_2
 
 ## Coming soon
 
