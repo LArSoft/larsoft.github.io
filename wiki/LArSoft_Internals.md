@@ -15,6 +15,7 @@
 -   [Procedure to create a new version of larsoft_data, uboone_data, etc.](Procedure to create a new version of larsoft_data)
 -   [Installation procedures](Installation_procedures)
 -   [LArSoft cvmfs](LArSoft_cvmfs)
+-   [Using the cetmodules migration script](Using_the_cetmodules_migration_script)
 
 ## Repository cleanup
 
