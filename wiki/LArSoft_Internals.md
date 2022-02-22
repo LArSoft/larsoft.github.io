@@ -4,7 +4,7 @@
 
 ## LArSoft code management and distribution
 
--   [Adding / removing users](Adding_/_removing_users)
+-   [Adding or removing users](Adding_or_removing_users)
 -   Administrative scripts will be kept in the larreltools repository.
 -   [LArSoft release management](LArSoft_release_management)
     -   [How to tag and build a normal LArSoft vxx_yy_zz release](How_to_tag_and_build_a_LArSoft_vx_yy_zz_release)

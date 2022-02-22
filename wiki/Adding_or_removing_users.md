@@ -1,4 +1,4 @@
-# Adding removing users
+# Adding or removing users
 
 To add grant write access to the repositories:
 

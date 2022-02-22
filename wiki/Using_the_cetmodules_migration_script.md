@@ -17,7 +17,8 @@ Cetmodules v6 contains a migration script to make the necessary changes when mov
     mrb g larsoftobj_suite
     mrbsetenv
 
-It's probably a good idea to do a build now to ensure there are no problems unrelated to the migration.
+It's probably a good idea to do a build now to ensure there are no problems unrelated to the migration.  
+It can be helpful to run the migration script on a new branch. This facilitates both comparison and cleanup should that be necessary.
 
 ## Run the migration script on all packages.
 

@@ -60,6 +60,8 @@ Only a small number of people (the Level 1 managers) can push to the upstream LA
 
 To assist with the various GitHub operations needed, you can use `hub`, a command-line utility that performs GitHub operations from local repositories. `hub` can, for instance, fork the upstream repositories to your GitHub account, or create pull requests from your local repositories. It is packaged as a dependency of the latest MRB, so is available whenever MRB is set up. More information on `hub` can be found at https://hub.github.com.
 
+The GitHub CLI, gh, is now available as an alternative to hub. See [this talk](https://indico.fnal.gov/event/53302/contributions/234977/attachments/152351/197249/gh-feb22.pdf) for more info.
+
 Before executing any of the steps below, these commands must be run in the current login session:
 
     setup mrb
