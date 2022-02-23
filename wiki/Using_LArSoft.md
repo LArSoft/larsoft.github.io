@@ -15,7 +15,7 @@
 First-time, or infrequent, users will be well-served to go through the following steps in order:
 
 1.  Start by reading [Concepts in LArSoft](https://larsoft.org/important-concepts-in-larsoft/), the [training material at larsoft.org](http://larsoft.org/training) and other information available at [larsoft.org](http://larsoft.org)
-    1.  Also look at your experiment's [Experiment-specific information](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Quick_Links).
+    1.  Also look at your experiment's [Quick Links](Quick_Links) for experiment-specific information.
 2.  Choose the correct release from the [List of LArSoft Releases and Release Notes](LArSoft release list).
     1.  If you can use a tagged release as is (aside from fcl files which can be modified and used from any directory), you can now run LArSoft.
     2.  If you need to modify the code locally, or use code not yet in a tagged release, then additional steps (below) are required.
@@ -43,7 +43,7 @@ Start by reviewing the information on [the overview page for using LArSoft with 
 -   [Reproducing jobs using the same random number sequences](Reproducing_jobs_using_the_same_random_number_sequences)
 -   [Rerunning a job starting from its output](Rerunning_a_job_starting_from_its_output)
 -   About [fast cloning](Fast cloning)
--   [Working With LArSoft GitHub Repositories](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Working_with_Github)
+-   [Working with Github](Working_with_Github) for LArSoft
 
 # Documentation
 

@@ -78,7 +78,7 @@ When a new LArSoft release is available and you want to develop against the new 
 This is the simplest possible case. We suggest that you start from a fresh login.
 
 1.  setup TOP_PRODUCT NEW_RELEASE_VERSION -q QUALIFIERS
-2.  See [Quick Links](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Quick_Links) for experiment-specific instructions on getting started
+2.  See [Quick links](Quick_links) for experiment-specific instructions on getting started
 
 ## Updating your own package
 

@@ -67,7 +67,7 @@ Some pages in LArSoft have a combination of useful and out-of-date information. 
 
 ## LArSoft code analysis
 
--   [Code analysis process](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Code_analysis_process_and_tools)
+-   [Code analysis process and tools](Code_analysis_process_and_tools)
 -   [Code and Performance analysis tools](Code_and_Performance_analysis_tools)
 -   [PMA module code analysis](PMA_module_code_analysis)
 
