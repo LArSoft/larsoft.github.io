@@ -71,7 +71,7 @@ Developers are expected to follow a specific development workflow in order to ma
 
 The development workflow adopted by LArSoft is based on that documented by Vincent Driessen at http://nvie.com/posts/a-successful-git-branching-model/, and implemented by the git extensions in the [git flow](http://github.com/nvie/gitflow) product.
 
-![](assets/img/larsoft/Git-branching-model.png)
+![Git-branching-model.png](/assets/img/larsoft/Git-branching-model.png)
 Branch structure and workflow to be used for LArSoft development
 
 Within this framework, all git repositories have the following branch structure:

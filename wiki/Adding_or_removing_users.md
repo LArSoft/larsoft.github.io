@@ -12,7 +12,7 @@ To add grant write access to the repositories:
 
 To remove a user, navigate to the same group members page, then select the “Delete” link on the line with appropriate user.
 
-![](assets/img/larsoft/instructions-adding-users-p1.gif)
-![](assets/img/larsoft/instructions-adding-users-p2.gif)
-![](assets/img/larsoft/instructions-adding-users-p3.gif)
-![](assets/img/larsoft/instructions-adding-users-p4.gif)
+![instructions-adding-users-p1.gif](/assets/img/larsoft/instructions-adding-users-p1.gif)
+![instructions-adding-users-p2.gif](/assets/img/larsoft/instructions-adding-users-p2.gif)
+![instructions-adding-users-p3.gif](/assets/img/larsoft/instructions-adding-users-p3.gif)
+![instructions-adding-users-p4.gif](/assets/img/larsoft/instructions-adding-users-p4.gif)
