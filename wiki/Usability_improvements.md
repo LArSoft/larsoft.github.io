@@ -14,13 +14,13 @@ Have LArSoft as a friendly platform as possible for the Experiment members to
 The potential targets are listed in the next section.  
 Due to the time span of this project, the first choices are reported in this table:
 
-|                            |                                                       |                                               |                                 |
-|----------------------------|-------------------------------------------------------|-----------------------------------------------|---------------------------------|
-| task                       | delivery                                              | status                                        |                                 |
-| [Usability improvements | Code examples](Usability_improvements_|_Code_examples)                                     | <span style="color: green;">June 2106</span>  | three examples delivered        |
-| [Usability improvements | Creation of associations with data products](Usability_improvements_|_Creation_of_associations_with_data_products)       | <span style="color: orange;">June 2106</span> | closing up                      |
-| [Usability improvements | Services inheriting configuration from input file](Usability_improvements_|_Services_inheriting_configuration_from_input_file) | off schedule                                  | thinking ongoing…               |
-| [Usability improvements | Access to indirectly associated objects](Usability_improvements_|_Access_to_indirectly_associated_objects)           | <span style="color: red;">TBD</span>          | scheduled to start on June/July |
+|                                                   |                                               |                                 |
+|---------------------------------------------------|-----------------------------------------------|---------------------------------|
+| task                                              | delivery                                      | status                          |
+| Code examples                                     | <span style="color: green;">June 2106</span>  | three examples delivered        |
+| Creation of associations with data products       | <span style="color: orange;">June 2106</span> | closing up                      |
+| Services inheriting configuration from input file | off schedule                                  | thinking ongoing…               |
+| Access to indirectly associated objects           | <span style="color: red;">TBD</span>          | scheduled to start on June/July |
 
 ## Targets
 
@@ -63,14 +63,14 @@ Expected 3 week of work to get first service on proprietary solution; 0.5 to 1 w
 
 ### Coding
 
-|                                         |                   |                           |                 |               |        |
-|-----------------------------------------|-------------------|---------------------------|-----------------|---------------|--------|
-|                                         | source            | contributors              | delivery        | effort        | status |
-| examples                                | Michael Mooney    | LArSoft team              |                 | 2-8 weeks[^1] |        |
-| \(1\) new data product                  |                   |                           | 2 week          | not scheduled |        |
-| \(2\) service: single implementation    | LArSoft core team | June 2016                 | 2 weeks         | delivered     |        |
-| \(3\) service: multiple implementations | LArSoft core team | June 2016                 | 2 weeks         | delivered     |        |
-| templates                               |                   | LArSoft (and *art*?) team | *not scheduled* |               |        |
+|                                         |                |                           |                 |               |               |
+|-----------------------------------------|----------------|---------------------------|-----------------|---------------|---------------|
+|                                         | source         | contributors              | delivery        | effort        | status        |
+| examples                                | Michael Mooney | LArSoft team              |                 | 2-8 weeks[^1] |               |
+| \(1\) new data product                  |                |                           |                 | 2 week        | not scheduled |
+| \(2\) service: single implementation    |                | LArSoft core team         | June 2016       | 2 weeks       | delivered     |
+| \(3\) service: multiple implementations |                | LArSoft core team         | June 2016       | 2 weeks       | delivered     |
+| templates                               |                | LArSoft (and *art*?) team | *not scheduled* |               |               |
 
 #### Code examples
 
