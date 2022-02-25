@@ -22,6 +22,30 @@ Download instructions for [just larsoftobj v09_17_00](http://scisoft.fnal.gov/sc
 -   lardataalg PR 29
     -   updates DetectorClocksStandardTriggerLoader.h documentation
 
+## Possible [breaking change](Breaking_Changes#larsoft-v09_43_00)
+
+Symptom:
+
+    635: CMake Error at /cvmfs/larsoft.opensciencegrid.org/products/cetmodules/v3_06_01/Modules/private/CetOverrideFindPackage.cmake:174 (_find_package):
+    636:   Found package configuration file:
+    637: 
+    638:     /cvmfs/larsoft-ib.opensciencegrid.org/LArSoft/LArSoft_custom_slf7_e20_prof_20220223_171203/localProducts_LArSoft_LArSoft_lar_ci_e20_prof/lardataobj/v09_05_01/slf7.x86_64.e20.prof/lib/lardataobj/cmake/lardataobjConfig.cmake
+    639: 
+    640:   but it set lardataobj_FOUND to FALSE so package "lardataobj" is considered
+    641:   to be NOT FOUND.  Reason given by package:
+    642: 
+    643:   The following imported targets are referenced, but are missing:
+    644:   larcoreobj::SummaryData
+
+  
+Fix:  
+Use this call order in the top level CMakeLists.txt file.
+
+    find_ups_product(larcoreobj)
+    find_ups_product(larcorealg)
+    find_ups_product(lardataobj)
+    find_ups_product(lardataalg)
+
 ## Updated dependencies
 
 -   ifdhc_config v2_6_1c

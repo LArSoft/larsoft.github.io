@@ -6,6 +6,7 @@ This is an attempt to track all the “breaking” changes which will require a 
 
 | Date     | Version/commit | Description                                                                | Issue                                                       |         |
 |----------|----------------|----------------------------------------------------------------------------|-------------------------------------------------------------|---------|
+| 20220224 | `v09_43_00`    | [Breaking_Changes#larsoft-v09_43_00                                     | larsoft v09_43_00](Breaking_Changes#larsoft-v09_43_00_____________________________________|_larsoft_v09_43_00)                                       |         |
 | 20210921 | `v09_31_00`    | [Breaking_Changes#mrb-5                                                 | mrb 5](Breaking_Changes#mrb-5_________________________________________________|_mrb_5)                                                   |         |
 | 20210407 | `v09_21_00`    | [Breaking_Changes#Refactor-EventWeight-interface-to-GENIE-v3            | Refactor EventWeight interface to GENIE v3](Breaking_Changes#Refactor-EventWeight-interface-to-GENIE-v3____________|_Refactor_EventWeight_interface_to_GENIE_v3)              |         |
 | 20210204 | `v09_16_00`    | [Breaking_Changes#root-v6_22_06a-typo                                   | root v6_22_06a typo](Breaking_Changes#root-v6_22_06a-typo___________________________________|_root_v6_22_06a_typo)                                     |         |
@@ -32,6 +33,33 @@ This is an attempt to track all the “breaking” changes which will require a 
 ## Changes for larsoft v06_xx_yy and previous
 
 For ease of navigation, older breaking changes have been moved to [Breaking Changes prior to v07_00_00](Breaking_Changes_prior_to_v07_00_00)
+
+## larsoft v09_43_00
+
+**When was committed**: [v09_43_00](ReleaseNotes094300)  
+**Motivation**: build the larsoftobj packages with cetmodules  
+**Affects**: user or experiment code  
+**Failure when not fixed**: cmake error
+
+    635: CMake Error at /cvmfs/larsoft.opensciencegrid.org/products/cetmodules/v3_06_01/Modules/private/CetOverrideFindPackage.cmake:174 (_find_package):
+    636:   Found package configuration file:
+    637: 
+    638:     /cvmfs/larsoft-ib.opensciencegrid.org/LArSoft/LArSoft_custom_slf7_e20_prof_20220223_171203/localProducts_LArSoft_LArSoft_lar_ci_e20_prof/lardataobj/v09_05_01/slf7.x86_64.e20.prof/lib/lardataobj/cmake/lardataobjConfig.cmake
+    639: 
+    640:   but it set lardataobj_FOUND to FALSE so package "lardataobj" is considered
+    641:   to be NOT FOUND.  Reason given by package:
+    642: 
+    643:   The following imported targets are referenced, but are missing:
+    644:   larcoreobj::SummaryData
+
+  
+**Fix**:  
+Use this call order in the top level CMakeLists.txt file.
+
+    find_ups_product(larcoreobj)
+    find_ups_product(larcorealg)
+    find_ups_product(lardataobj)
+    find_ups_product(lardataalg)
 
 ## mrb 5
 
