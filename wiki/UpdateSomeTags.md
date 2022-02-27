@@ -1,6 +1,6 @@
 # Only Update Tags for Select Packages
 
-{{TOC}}
+
 
 ## Prepare a local tag branch
 

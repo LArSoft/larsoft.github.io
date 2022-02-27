@@ -1,6 +1,6 @@
 # LArSoft Release Official Build
 
-{{TOC}}
+
 
 ## Platforms
 

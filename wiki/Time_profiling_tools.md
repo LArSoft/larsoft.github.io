@@ -1,6 +1,6 @@
 # Time profiling tools
 
-{{toc}}
+
 
 ## valgrind (`callgrind` tool)
 

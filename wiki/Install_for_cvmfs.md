@@ -1,6 +1,6 @@
 # Install for cvmfs
 
-{{TOC}}
+
 
 ## Install in /cvmfs/larsoft.opensciencegrid.org/products
 

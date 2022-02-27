@@ -1,6 +1,6 @@
 # What Lynn does
 
-{{TOC}}
+
 
 ## Build “third party” ups products as needed for art and larsoft
 

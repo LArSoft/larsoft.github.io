@@ -1,6 +1,6 @@
 # LArSoft release management
 
-{{TOC}}
+
 
 ## Release types
 

@@ -2,22 +2,22 @@
 
 Each release of LArSoft has a release page on [SciSoft](http://scisoft.fnal.gov/scisoft/bundles/larsoft/)
 
-\*
+<pre>
 
-    http://scisoft.fnal.gov/scisoft/bundles/larsoft/<version>/larsoft-<version>.html
+http://scisoft.fnal.gov/scisoft/bundles/larsoft/<version>/larsoft-<version>.html
+
+</pre>
 
 ## Installing a binary distribution
 
 The pull script, pullProducts, will pull any release of larsoft.  
 A link to this script, and any instructions particular to the release, will be found on the LArSoft release page.
 
-\* Download pullProducts
+\* Download pullProducts from [SciSoft tools](https://scisoft.fnal.gov/scisoft/bundles/tools/)
 
 \* chmod +x pullProducts
 
-\* ./pullProducts \[-f\|~~p\] <product_topdir> <OS> <bundle-spec>~~<version> <qual_set> <build-spec>  
-\> \*
-
+    ./pullProducts [-f|-p] <product_topdir> <OS> <bundle-spec>-<version> <qual_set> <build-spec>
     Options:
 
       -f    Force pull of tarball if it already exists
@@ -42,15 +42,13 @@ A link to this script, and any instructions particular to the release, will be f
 
       build-spec       debug or prof.
 
-  
-\> \* For instance:
+\* For instance:
 
     ./pullProducts /grid/fermiapp/products/larsoft slf6 larsoft-v04_08_00 s8-e7 prof
 
-  
-\> \* pullProducts will check to see if products are already installed in <product_topdir> and/or $PRODUCTS, and install only those products which are not already installed.  
-\> \* Notice that you do not need to run pullProducts in the product directory.  
-\> \* Tarballs for each product to be installed will be copied to the directory you are in when you run pullProducts.
+-   pullProducts will check to see if products are already installed in <product_topdir> and/or $PRODUCTS, and install only those products which are not already installed.
+-   Notice that you do not need to run pullProducts in the product directory.
+-   Tarballs for each product to be installed will be copied to the directory you are in when you run pullProducts.
 
 ## Old Download instructions
 

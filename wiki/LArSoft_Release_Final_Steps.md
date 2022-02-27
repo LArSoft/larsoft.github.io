@@ -1,6 +1,6 @@
 # LArSoft Release Final Steps
 
-{{TOC}}
+
 
 ## Make the cross package tag
 

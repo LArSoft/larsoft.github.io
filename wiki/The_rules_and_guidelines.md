@@ -1,4 +1,4 @@
-{{toc}}
+
 
 # The rules and guidelines
 

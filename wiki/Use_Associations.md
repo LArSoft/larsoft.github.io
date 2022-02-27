@@ -1,4 +1,4 @@
-{{toc}}
+
 
 # How To Use Associations
 

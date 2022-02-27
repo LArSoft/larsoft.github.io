@@ -1,6 +1,6 @@
 # Update versions
 
-{{TOC}}
+
 
 ## Update versions
 

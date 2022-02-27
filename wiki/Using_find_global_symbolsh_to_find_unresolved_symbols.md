@@ -1,4 +1,4 @@
-{{toc}}
+
 
 # Using find_global_symbol.sh to find unresolved symbols
 

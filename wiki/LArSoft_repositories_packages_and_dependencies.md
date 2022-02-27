@@ -1,6 +1,6 @@
 # LArSoft repositories packages and dependencies
 
-{{toc}}
+
 
 There are a number of repositories/ups products that are in core LArSoft.
 

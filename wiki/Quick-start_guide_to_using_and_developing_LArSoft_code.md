@@ -1,6 +1,6 @@
 # Quick-start guide to using and developing LArSoft code
 
-{{toc}}
+
 
 LArSoft is not a stand-alone product. It is intended to be used as part of an experiment, so the set-up instructions for the experiment you are working with is the best place to start. To find a specific project, first check the [Quick Links](Quick_Links), then look on your experiment's pages in redmine for instructions on installing LArSoft software. (Go to: https://cdcvs.fnal.gov/redmine/projects and search for your experiment.)
 
