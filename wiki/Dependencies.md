@@ -1,5 +1,7 @@
 # Dependencies
 
+**Note that larevtalg, larevtobj, and larsimalg do not exist.**
+
 Revising the chart
 
 
