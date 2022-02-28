@@ -63,7 +63,7 @@ If off-site, the appropriate script should be modified to reflect the locations 
     setup larsoft <version> -q e7:debug    # (or -q e17:prof)
     lar -c <job fcl file> ...
 
-\> That's it. You're set up.
+> That's it. You're set up.
 
 ## To build experiment-specific code for DUNE or uBooNE against an existing LArSoft release
 
@@ -92,8 +92,8 @@ If off-site, the appropriate script should be modified to reflect the locations 
     mrbsetenv
     mrb i -j4     # (if the machine has enough cores)
 
-\> “\<xxx\|yyy\>” is intended to denote selecting one or the other of xxx or yyy.  
-\> To work with an existing work area, omit `mkdir` and `mrb newDev` steps above.
+> “\<xxx\|yyy\>” is intended to denote selecting one or the other of xxx or yyy.  
+> To work with an existing work area, omit `mkdir` and `mrb newDev` steps above.
 
 ### Run the software you just built
 
@@ -110,9 +110,9 @@ If off-site, the appropriate script should be modified to reflect the locations 
         lar -c xxx.fcl ...
 
 > - Note that the build procedure will un-setup any products that are being built, so those  
-\> need to be set-up again before they can be used.  
+> need to be set-up again before they can be used.  
 > - The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See  
-\> the list of releases for the most current version, or use @ups list -aK+ \<dunetpc \| uboonecode\>
+> the list of releases for the most current version, or use @ups list -aK+ \<dunetpc \| uboonecode\>
 
 ## To build and work with larsoft itself
 
@@ -135,7 +135,7 @@ If off-site, the appropriate script should be modified to reflect the locations 
 
 ### Check out, develop and build LArSoft code
 
-\> After performing the initial setup and creating the working area, from `<working_dir>`:  
+> After performing the initial setup and creating the working area, from `<working_dir>`:  
 \>
 
     source ./localProducts_XXX/setup
@@ -152,14 +152,14 @@ If off-site, the appropriate script should be modified to reflect the locations 
 
   
 > - `mrb install` (abbreviates to `mrb i`) will build then install results in localProducts_XXX. This  
-\> is the preferred command if you need to run what you are building.  
+> is the preferred command if you need to run what you are building.  
 > - You can also use `mrb build` (or `mrb b`) if you just want the build with no install. Be aware, however, that you cannot run using the resulting build products.
 
-\> The list of repositories and their contents [can be found on this page ]( LArSoft repositories packages and dependencies ).
+> The list of repositories and their contents [can be found on this page ]( LArSoft repositories packages and dependencies ).
 
 ### Run the software you just built
 
-\> Starting from the build directory immediately after running `mrb build`:  
+> Starting from the build directory immediately after running `mrb build`:  
 \>
 
     mrb install  # if this was not run previously
@@ -184,9 +184,9 @@ If off-site, the appropriate script should be modified to reflect the locations 
     lar -c xxx.fcl ...
 
 > - Note that the build procedure will un-setup any products that are being built, so those  
-\> need to be set-up again before they can be used.  
+> need to be set-up again before they can be used.  
 > - The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See  
-\> the list of releases for the most current version, or use @ups list -aK+ \<dunetpc \| uboonecode\>
+> the list of releases for the most current version, or use @ups list -aK+ \<dunetpc \| uboonecode\>
 
 # Annotated quick-start guide
 
@@ -201,7 +201,7 @@ There are experiment-specific setup scripts to perform setup. For example.
     /grid/fermiapp/lbne/software/setup_lbne.csh
 
   
-\> AND:  
+> AND:  
 \>
 
     /grid/fermiapp/uboone/software/setup_uboone.sh
@@ -216,9 +216,9 @@ There are experiment-specific setup scripts to perform setup. For example.
     > - setup mrb  
     > - setup <project> <version>  
     > - define MRB_PROJECT  
-    \> > - MRB_PROJECT is meant to define your project. `mrb newDev` will **require** that MRB_PROJECT be the name of a ups product.  
-    \> > - Eventually, you will be able to use the experiment name for the project.  
-    \> > - For now, just use “larsoft” in all cases.
+> > - MRB_PROJECT is meant to define your project. `mrb newDev` will **require** that MRB_PROJECT be the name of a ups product.  
+> > - Eventually, you will be able to use the experiment name for the project.  
+> > - For now, just use “larsoft” in all cases.
 
 <!-- -->
 
@@ -337,7 +337,7 @@ To set up the working environment for an existing working area, you need to sour
         rm -rf *
 
       
-    \> Then start from the top of this section.
+> Then start from the top of this section.
 
 ## Running with the modifications made in your working area
 
