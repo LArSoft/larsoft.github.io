@@ -73,7 +73,7 @@ Some pages in LArSoft have a combination of useful and out-of-date information. 
 
 ## Profiling tests
 
--   [ProtoDUNE and DUNE Far Detector simulation and reconstruction workflows (v06_57_00)](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00))
+-   [ProtoDUNE and DUNE Far Detector v06_57_00](ProtoDUNE_and_DUNE_Far_Detector_v06_57_00)
 
 ## Legacy Redmine project sites
 
