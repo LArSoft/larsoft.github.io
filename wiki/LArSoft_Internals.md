@@ -79,7 +79,7 @@ Some pages in LArSoft have a combination of useful and out-of-date information. 
 
 These were the sites used when LArSoft was developed under cvs and svn + SoftRelTools, respectively:
 
-[ LArSoft-cvs wiki for the legacy cvs-based LArSoft project](https://cdcvs.fnal.gov/redmine/projects/larsoft-cvs/wiki/)  
-[ LArSoft-svn wiki for the legacy svn-based LArSoft project](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/)
+[LArSoft-cvs wiki for the legacy cvs-based LArSoft project](https://cdcvs.fnal.gov/redmine/projects/larsoft-cvs/wiki/)  
+[LArSoft-svn wiki for the legacy svn-based LArSoft project](https://cdcvs.fnal.gov/redmine/projects/larsoftsvn/wiki/)
 
 As of Jan 24, 2014, LArSoft transitioned from svn / SRT to git / mrb / ups, but we retain the legacy projects for historical reasons.
