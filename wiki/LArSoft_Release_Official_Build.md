@@ -39,22 +39,22 @@ Builds:
 
 ### Special platforms
 
-\* At this time, Ubuntu builds are done from a vagrant box on woof or cluck
+- At this time, Ubuntu builds are done from a vagrant box on woof or cluck
 
 It turns out that vbox instances work best when not shared
 
 Instructions for settting up an Ubuntu vagrant box: [ubuntu-vm:Ubuntu_VM](https://cdcvs.fnal.gov/redmine/projects/ubuntu-vm/wiki/Ubuntu_VM)
 
-\* We use the same procedures that are used by the Jenkins build
+- We use the same procedures that are used by the Jenkins build
 
-\* install larutils
+- install larutils
 
     vagrant ssh
     mkdir devel
     cd devel
     git clone http://cdcvs.fnal.gov/projects/larutils
 
-\* build in a working directory
+- build in a working directory
 
     vagrant ssh
     mkdir build

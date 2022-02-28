@@ -22,9 +22,9 @@ Download instructions for [just larsoftobj v09_06_01_03](http://scisoft.fnal.gov
 
 ## Updates for experiment code
 
-\* necessary changes will be provided in feature/team_for_art_v3_09 branches
+- necessary changes will be provided in feature/team_for_art_v3_09 branches
 
-\* argoneutcode feature/team_for_art_v3_09
+- argoneutcode feature/team_for_art_v3_09
 
 CI tests [pass](https://dbweb8.fnal.gov:8443/LarCI/app/ns:ArgoNeuT/view_builds/index?offset=0&amp;builds=lar_ci/12128&amp;builds=)
 

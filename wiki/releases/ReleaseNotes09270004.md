@@ -18,11 +18,11 @@ Download instructions for [just larsoftobj v09_06_01_03](http://scisoft.fnal.gov
 
 ## Working with mrb 5 and cetbuildtools 8
 
-\* Cetbuildtools 8 is a thin wrapper for cetmodules. Using cetbuildtools 8 means that the required changes to the CMakeLists.txt files are minimal.
+- Cetbuildtools 8 is a thin wrapper for cetmodules. Using cetbuildtools 8 means that the required changes to the CMakeLists.txt files are minimal.
 
 Switching to cetmodules explicitly will require more extensive changes.
 
-\* Build order matters.
+- Build order matters.
 
 To that end, mrbsetenv will complain if the repoisitories are not listed in optimal order in $MRB_SOURCE/CMakeLists.txt.
 
@@ -39,9 +39,9 @@ Once this is done, you do not need to do it again unless you add or remove a pac
 
 ## Updates for experiment code
 
-\* necessary changes will be provided in feature/team_for_art_v3_09 branches
+- necessary changes will be provided in feature/team_for_art_v3_09 branches
 
-\* argoneutcode feature/team_for_art_v3_09
+- argoneutcode feature/team_for_art_v3_09
 
 [CI tests](https://dbweb8.fnal.gov:8443/LarCI/app/ns:ArgoNeuT/view_builds/index?offset=0&amp;builds=lar_ci/12161&amp;builds=) pass
 

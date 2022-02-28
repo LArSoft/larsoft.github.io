@@ -13,9 +13,9 @@ Download instructions for [just larsoftobj v08_06_00](http://scisoft.fnal.gov/sc
 
 ## New features
 
-\* larpandoracontent feature/sgreen_T0Calculation
+- larpandoracontent feature/sgreen_T0Calculation
 
-\* space charge interface improvements
+- space charge interface improvements
 
 larevt branch feature/herogers_voxelizedSCE
 
@@ -35,7 +35,7 @@ breaking change
 
 https://indico.fnal.gov/event/19644/contribution/1/material/slides/0.pdf
 
-\* larcorealg larcore feature/gp_factorizeGeometryBuilding
+- larcorealg larcore feature/gp_factorizeGeometryBuilding
 
     I have done some refactorisation work for the initialisation of LArSoft 
     geometry.

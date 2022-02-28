@@ -37,11 +37,11 @@ note that make-release-notes uses the cross package tag
 
 ## Merge the changes with develop
 
-\* Notice that we need to make sure that the new release is available before we update the develop branch with new version numbers.
+- Notice that we need to make sure that the new release is available before we update the develop branch with new version numbers.
 
-\* This step should be done in $MRB_SOURCE
+- This step should be done in $MRB_SOURCE
 
-\* tagLAr merge vxx_yy_zz
+- tagLAr merge vxx_yy_zz
 
 tagLAr will merge local branch release/vxx_yy_zz with the head of develop
 

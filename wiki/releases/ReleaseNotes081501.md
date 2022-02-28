@@ -2155,329 +2155,329 @@ Download instructions for [just larsoftobj v08_10_01](http://scisoft.fnal.gov/sc
 -   2013-11-06 Brian Rebel : back out the EDAnalyzer(pset) call in the ctor initialization list for now by commenting out the pset bit - that way the change to art v1.08.09 will be less painful. just another query/replace operation.
 -   2013-11-06 Brian Rebel : remove leading job/ from include statements in .fcl files. the job/ is unnecessary as the FHICL_FILE_PATH variable, which is what is used to search for the .fcl files by ART already has the job directory in it. This change will ease the transition to the new build system.
 -   2013-11-06 Brian Rebel : fix typos. Also, should use art::Ptr<T>::isNull and isNonnull rather than 0 or similar.
-    \* 2013-11-06  Brian Rebel : fix typos
-    \* 2013-11-06  Brian Rebel : fix typos
-    \* 2013-11-06  Brian Rebel : fix typos
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : back out accidental change
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
-    \* 2013-11-06  Brian Rebel : complete the 3-\>1 clean up
-    \* 2013-11-06  Brian Rebel : cleaning up 3 file module, adding explicit call to EDAnalyzer base constructor for use with future ART versions.  This call has no impact on previous versions.
-    \* 2013-11-03  Wesley Ketchum : updates to fcl file
-    \* 2013-11-03  Wesley Ketchum : putting in first instance of RFFHitFinder
-    \* 2013-10-29  Bruce Baller : CCHitFinder: more tweaks
-    \* 2013-10-29  Bruce Baller : CCHitFinder: handle hits near the edges
-    \* 2013-10-29  Benjamin Jones : Add FlashMatch object
-    \* 2013-10-29  Benjamin Jones : Remove unused variables
-    \* 2013-10-28  Benjamin Jones : Add flash to track matching code to TrackTimeAssoc
-    \* 2013-10-28  Benjamin Jones : Add FlashMatch object to AnalysisBase
-    \* 2013-10-25  Benjamin Jones : Remove some accidentally left couts
-    \* 2013-10-25  Benjamin Jones : Efficiency and speed improvements for seed finding
-    \* 2013-10-25  Benjamin Jones : Efficiency and speed improvements for seed finding
-    \* 2013-10-25  Tyler Alion : Fix bug in wireID intersect function. It was only affecting lbne geometry, and even then the return value was right. This fixes the intersection point value passed by reference and set.
-    \* 2013-10-23  Benjamin Jones : A few tidy-ups
-    \* 2013-10-22  Herbert Greenlee : Fix infinite loop.
-    \* 2013-10-21  Eric Church : Tag/build new (delayed) date, thus new name.
-    \* 2013-10-20  Benjamin Jones : Fix one possible source of inf loops
-    \* 2013-10-20  Bruce Baller : CCHitFinderAlg skip bad wires
-    \* 2013-10-19  Benjamin Carls : Rolling back a change to the fake Hough line veto
-    \* 2013-10-19  Bruce Baller : ClusterCrawler: add error checking
-    \* 2013-10-19  Bruce Baller : ClusterCrawler: added error checking
-    \* 2013-10-19  Brian Rebel : remove commented out include as it is no longer necessary.
-    \* 2013-10-18  Benjamin Jones : Update parametersets
-    \* 2013-10-18  Benjamin Jones : Possibly fix bug herb found + improve refit
-    \* 2013-10-18  Thomas Junk : remove include LArG4/NestS1Light.hh
-    \* 2013-10-18  Benjamin Jones : Quick fix
-    \* 2013-10-18  Benjamin Jones : Update seedfinder \[huzzah\]
-    \* 2013-10-18  Eric Church : Initial steps for new tagged, frozen release.
-    \* 2013-10-18  Benjamin Jones : Update parameterset
-    \* 2013-10-18  Benjamin Jones : Move geometrical calcs to method called in constructor
-    \* 2013-10-18  Eric Church : Fix a bug with TrackStitcher's Hit-Track Assns
-    \* 2013-10-17  Eric Church : One quick tune.
-    \* 2013-10-17  Eric Church : Add Hit-Track Assns in Track3DKalmanSPS, TrackStitch. Bug fix to dQdx calc in T3DKSPS.
-    \* 2013-10-17  Tingjun Yang : add configuration for cosmic ray
-    \* 2013-10-17  Andrzej Szelc : Initialize variables to NULL, which seems to solve the EVD crash
-    \* 2013-10-17  Tingjun Yang : fix a bug in clustermodules.fcl
-    \* 2013-10-17  Tingjun Yang : update clusteralgorithms.fcl
-    \* 2013-10-17  Bruce Baller : Major ClusterCrawler revision
-    \* 2013-10-16  Tingjun Yang : add configuration for microboone_clustercrawleralg
-    \* 2013-10-16  Tingjun Yang : add configuration for microbone_clustercrawler
-    \* 2013-10-16  Benjamin Jones : Fix typo
-    \* 2013-10-16  Brian Rebel : Make the G4UserLimits passed to G4LogicalVolume a std::unique_ptr.  It appears that G4 doesnt take ownership of pointers and doesnt tell you that.  Remove the NestS1Light and LArNestInterface code from the repository as it is no longer used.
-    \* 2013-10-16  Benjamin Jones : Add seed consolidation and extension methods
-    \* 2013-10-16  Benjamin Jones : Add seed consolidation and extension methods
-    \* 2013-10-16  Andrzej Szelc :  fix bug where the set Wire number window would be limited to the number of induction wires
-    \* 2013-10-16  Bruce Baller : Major ClusterCrawler revisions
-    \* 2013-10-16  Andrzej Szelc : Add call to accessor in InfoTransfer, plus small tweaks
-    \* 2013-10-16  Benjamin Jones : Adjust seeding parameters
-    \* 2013-10-16  Benjamin Jones : New direction fit code
-    \* 2013-10-15  Herbert Greenlee : Add method getPreferredPlane.
-    \* 2013-10-15  Herbert Greenlee : Fix missing track-hit associations bug.
-    \* 2013-10-15  Benjamin Jones : Change iterative structure of seed finder
-    \* 2013-10-15  Benjamin Jones : Change iterative structure of seed finder
-    \* 2013-10-14  Benjamin Jones : Update seedfinder interface (in prep for next algorithm updates)
-    \* 2013-10-14  Benjamin Jones : Update seedfinder interface (in prep for next algorithm updates)
-    \* 2013-10-14  Tingjun Yang : add parameters for ub
-    \* 2013-10-14  Brian Rebel : remove io rule for converting LBNE10ktPhotons to SimPhotonsLite as it appears to not work anyway.
-    \* 2013-10-14  Benjamin Jones : Remove unused/unmaintained code
-    \* 2013-10-14  Benjamin Jones : Modernize SeedFinderModule and update configs
-    \* 2013-10-14  Benjamin Jones : New seedfinder version
-    \* 2013-10-14  Benjamin Jones : New seedfinder version
-    \* 2013-10-11  Bruce Baller : Increase label size on ADC-time display. Add option to draw connecting lines between cluster hits.
-    \* 2013-10-11  Zarko Pavlovic : Remove obsolete OpDetPulse, fill OpticalDetectorData instead.
-    \* 2013-10-10  Andrzej Szelc : branch out some of the GraphCluster methods to an Alg
-    \* 2013-10-10  Andrzej Szelc : change arrays to std::vector, add checks for out of TPC vertices, so that exceptions don't get thrown
-    \* 2013-10-10  Andrzej Szelc : Add simple check to catch zero size hitlists
-    \* 2013-10-10  Brian Rebel : adopt new PlaneID struct when making eveID struct
-    \* 2013-10-10  Brian Rebel : add a PlaneID struct that is analogous to WireID to facilitate sorting methods.
-    \* 2013-10-10  Brian Rebel : remove stupid whitespace between types and variable names
-    \* 2013-10-09  Lynn Garren : intialize variables and include missing headers
-    \* 2013-10-09  Lynn Garren : intialize variables and include missing headers
-    \* 2013-10-09  Lynn Garren : initialize variables
-    \* 2013-10-09  Lynn Garren : intialize variables
-    \* 2013-10-09  Lynn Garren : intialize variables
-    \* 2013-10-09  Zarko Pavlovic : Removed using namespace, removed some unnecessary header files, refactored code, added output beam histograms
-    \* 2013-10-07  Eric Church : Embellishments to TrackAna (and much Assn gymnastics) to allow Hit level histograms for stitched tracks. Also, bug fix to Track3DKalmanSPS to allow only passing once, not twice and thus skipping out on MS calculation of energy in favor of keeping more sppts in the track fit. Finally, TrackStitcher now only puts out its new vector\<vector\>Tracks and not the redundant component tracks.
-    \* 2013-10-07  Andrzej Szelc : Bump up the BeamInfo class number
-    \* 2013-10-03  Michael Kirby : fixed a problem with having geant4 and fftw being setup in conflicting version with the better art product setup
-    \* 2013-10-03  Michael Kirby : fix a typo
-    \* 2013-10-03  Zarko Pavlovic : Commiting code to read uboone daq files.
-    \* 2013-10-02  Jonathan Asaadi : Fixes inspired by MicroBooNE HackDay
-    \* 2013-10-02  Andrzej Szelc : fix some indexing, add plots. May still need some tweaking
-    \* 2013-10-02  Mitchell Soderberg : Tweak the color scale for MicroBooNE so all tracks aren't red.  Range for Induction planes might now put MIPs too far into the blue, so may tweak again if people have feedback.
-    \* 2013-10-02  Andrzej Szelc : Add method to calculate 2D point projection from 3D
-    \* 2013-10-02  Brian Rebel : add ifdh_art to be setup by default, remove explicit setup of G4 and FFTW as they are pulled in by other products
-    \* 2013-10-02  Andrzej Szelc : Introducing ShowerAngleClusterAna module. Should test angle and cluster start point reconstruction. In progress.
-    \* 2013-10-02  Andrzej Szelc : update ClusterParamsAlg for HackDay
-    \* 2013-10-02  Jonathan Asaadi : Adding code improvements in preperation for MicroBooNE hack day
-    \* 2013-10-01  Benjamin Carls : Cleaning up old fcl parameters
-    \* 2013-10-01  Benjamin Carls : Cleaning up old fcl parameters
-    \* 2013-10-01  Benjamin Carls : Taking out call to SaveBMPFile
-    \* 2013-10-01  Benjamin Carls : Adding back lines needed for gcc 4.8.1
-    \* 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
-    \* 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
-    \* 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
-    \* 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
-    \* 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
-    \* 2013-10-01  Brian Rebel : change const ref to just making the vector
-    \* 2013-10-01  Brian Rebel : a better way to initialize a vector to an empty vector by default in the argument list of a method.  also use the vector::swap method to quickly copy the contents of the input vector into the owned vector
-    \* 2013-09-30  Tyler Alion : Change default 35t geometry to the newer 4apa design.
-    \* 2013-09-27  Herbert Greenlee : Protect against crash caused by invalid track.
-    \* 2013-09-26  Eric Church : Allow user to choose in which dimension to sort spacepoints.
-    \* 2013-09-26  Eric Church : Remove diagnostic couts
-    \* 2013-09-26  Eric Church : Remove diagnostic couts
-    \* 2013-09-23  Eric Church : Add 2 lines to account for new vector\<vector\<Track\>\> output in TrackStitcher.
-    \* 2013-09-23  Eric Church : Introduction of TrackStitcher module. Bug fix for Track3DSPS.
-    \* 2013-09-22  Zepeng Li : Updated the fcl file for 35t fast optical simulation
-    \* 2013-09-20  Benjamin Jones : Add cluster pca for hack day showeriness challenge
-    \* 2013-09-18  Brian Rebel : fix up definition of BeamInfo to move non-default ctor into ifndef to hide it from reflex.  Fix up other formatting etc issues.
-    \* 2013-09-15  Zepeng Li : Rebuilt the library with new lbne35t geometry
-    \* 2013-09-15  Tyler Alion : Update lbnefd evd defaults.
-    \* 2013-09-15  Tyler Alion : Update example lbne reconstruction script.
-    \* 2013-09-13  Tyler Alion : Put hit finding module back in apa namespace.
-    \* 2013-09-13  Tyler Alion : Repair missing definition.
-    \* 2013-09-13  Tyler Alion : Remove accidental line of code.
-    \* 2013-09-13  Herbert Greenlee : Add SeedAna module.
-    \* 2013-09-13  Tyler Alion : Alg holding disambiguation methods and APA geometry methods.
-    \* 2013-09-13  Tyler Alion : Module to run disambiguation on channel hits, such as from GausHitFinder. Also add RecoAlg to make file.
-    \* 2013-09-13  Brian Rebel : adapt geo::XXXGeo objects to expect the GeoObjectSorter when trying to sort subvolumes.  Remove Bo and ArgoNeuT specific channel maps as they are not different in algorithm from the ChannelMapStandardAlg
-    \* 2013-09-13  Brian Rebel : \\c\\h\\a\\n\\g\\e\\ \\t\\o\\ \\u\\s\\i\\n\\g\\ \\n\\e\\w\\ \\G\\e\\o\\O\\b\\j\\e\\c\\t\\S\\o\\r\\t\\e\\r\\ \\o\\b\\j\\e\\c\\t\\s
-    \* 2013-09-13  Brian Rebel : \\n\\e\\w\\ \\o\\b\\j\\e\\c\\t\\s\\ \\f\\o\\r\\ \\s\\o\\r\\t\\i\\n\\g\\ \\g\\e\\o\\:\\:\\X\\X\\X\\G\\e\\o\\ \\o\\b\\j\\e\\c\\t\\s\\.\\ \\ \\T\\h\\e\\ \\u\\s\\e\\ \\o\\f\\ \\t\\h\\e\\s\\e\\ \\o\\b\\j\\e\\c\\t\\s\\ \\w\\i\\l\\l\\ \\a\\l\\l\\o\\w\\ \\c\\o\\n\\f\\i\\g\\u\\r\\a\\t\\i\\o\\n\\ \\o\\f\\ \\t\\h\\e\\ \\s\\o\\r\\t\\i\\n\\g\\ \\a\\l\\g\\o\\r\\i\\t\\h\\m\\s\\ \\w\\h\\i\\c\\h\\ \\w\\i\\l\\l\\ \\h\\e\\l\\p\\ \\w\\i\\t\\h\\ \\s\\t\\u\\d\\i\\e\\s\\ \\o\\f\\ \\d\\i\\f\\f\\e\\r\\e\\n\\t\\ \\d\\e\\t\\e\\c\\t\\o\\r\\ \\c\\o\\n\\f\\i\\g\\u\\r\\a\\t\\i\\o\\n\\s
-    \* 2013-09-13  Bruce Baller : ClusterCrawler tweaks for short clusters
-    \* 2013-09-13  Bruce Baller : ClusterCrawler updates
-    \* 2013-09-12  Tyler Alion : Back out accidental wire pitch change.
-    \* 2013-09-12  Tyler Alion : Reposition the photon detectors based off of DocDb 7803.
-    \* 2013-09-12  Zepeng Li : Update the fcl file for lbne35t fast optical simulation
-    \* 2013-09-12  Zepeng Li : First version of lbne35t photon library, the information of library is included in README.txt
-    \* 2013-09-12  Lynn Garren : cmake files
-    \* 2013-09-12  Lynn Garren : properly qualify the include
-    \* 2013-09-11  Zepeng Li : Fixed the bug in CageId calculation in LBNE10kt optical parameterization
-    \* 2013-09-11  Tyler Alion : Put the ICARUS collection wires back to horizontal after accidental rotation. Passes all of geometry test except nearest wire, checking into this soon.
-    \* 2013-09-11  Brian Rebel : add back in the definition of the LBNE10ktPhotons for the time being to establish backwards compatibility with previously produced files.  This data product is no longer being produced, instead it is now called SimPhotonsLite.
-    \* 2013-09-11  Lynn Garren : remove extraneous semicolons
-    \* 2013-09-11  Lynn Garren : use %u with unsigned int
-    \* 2013-09-11  Lynn Garren : cleanup warnings
-    \* 2013-09-11  Lynn Garren : removing extraneous semicolons
-    \* 2013-09-11  Lynn Garren : type correctness for root signal handling
-    \* 2013-09-10  Brian Rebel : remove use of sprintf in favor of c++2011 compliant stringstream
-    \* 2013-09-10  Brian Rebel : remove variable length arrays in favor of vectors of vectors
-    \* 2013-09-10  Brian Rebel : remove variable length arrays in favor of vectors of vectors
-    \* 2013-09-10  Brian Rebel : remove variable length arrays in favor of vectors of vectors
-    \* 2013-09-10  Lynn Garren : removing extraneous semicolons
-    \* 2013-09-10  Brian Rebel : missed a save before the last commit
-    \* 2013-09-10  Brian Rebel : clean up the code by removing unnecessary includes, duplicated service handles as data members and use the message facility rather than std::cout as specified by the coding conventions.  add comments for doxygen for all data members
-    \* 2013-09-10  Brian Rebel : remove unnecessary .cxx and .h files
-    \* 2013-09-10  Brian Rebel : actually fill the SimPhotonsLite data members from the LBNE10ktPhotons product stored in the file
-    \* 2013-09-09  Lynn Garren : comment out unused variables with Brian Rebel's approval
-    \* 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larsim
-    \* 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larreco
-    \* 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larevt
-    \* 2013-09-09  Lynn Garren : package level CMakeLists.txt files for lardata
-    \* 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larcorereco
-    \* 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larcore
-    \* 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larana
-    \* 2013-09-09  Lynn Garren : use unsigned int to match the type of NOpChannels
-    \* 2013-09-09  Lynn Garren : removing extraneous simicolon from DEFINE_ART_XXX(yyy) macro line
-    \* 2013-09-08  Brian Rebel : fix compiler warnings about declaration of variable length arrays, remove some unused pointers
-    \* 2013-09-08  Brian Rebel : change array declared with a variable length into a std::vector.  NEVER declare variable length arrays, ALWAYS use std::vectors if you do not know how long the array will be. std::vectors are still almost always preferable to arrays. Remove unnecessary library dependencies from the GNUmakefile
-    \* 2013-09-08  Tyler Alion : Remove the outdated APA frame volumes from lbne35t4apa. They were covering most of the optical detectors.
-    \* 2013-09-08  Brian Rebel : specify ioread rule for backwards compatibility between LBNE10ktPhotons and SimPhotonsLite.  Reorder entries to put all the data product definitions together in the file for easier updating in the future.
-    \* 2013-09-08  Brian Rebel : add ClassVersion number to SimPhotonsLite
-    \* 2013-09-08  Tyler Alion : Remove 10kt/34kt files.
-    \* 2013-09-08  Tyler Alion : Remove 10kt/34kt files.
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
-    \* 2013-09-07  Jonathan Insler : back out accidental commit of caldata_lbne.fcl
-    \* 2013-09-07  Jonathan Insler : removed CalWireLBNE34kt_module.cc from repository
-    \* 2013-09-07  Jonathan Insler : removed SimWireLBNE34kt_module.cc from repository
-    \* 2013-09-07  Tyler Alion : Fix defaults again... Also transition this package to using the configuration keyword lbnefd in place of lbne34kt and lbne10kt. Having one for each is excessive since they are thus far treated completely the same except that a different GDML file is imported. So now the configuration approach is to have the FD configuration, and in geometry_lbne.fcl select the desired GDML -- this fits in nicely with the several other FD-related geometries.
-    \* 2013-09-07  Tyler Alion : Change the View and SignalType functions to work for multiple TPCs -- No functionality change whatsoever for other geometries. Also complete the break out of the nested for loops in ChannelToWire. Add ICARUS into Geometry_service.
-    \* 2013-09-07  Tyler Alion : Add ICARUS hard coding of wire and plane pitch.
-    \* 2013-09-07  Tyler Alion : ICARUS geometry tune ups. Fix origin. Generate it with the actual pitch. Improve wire placement method in the generate script.
-    \* 2013-09-07  Tyler Alion : Put geometry configurations in one place. Detector specific files hold each different configuration, geometry.fcl ties them together and holds a standard configuration (a copy of microboone_geo.) Also add a configuration for the ICARUS T600 detector.
-    \* 2013-09-07  Tyler Alion : Add detector id for ICARUS T600
-    \* 2013-09-07  Bruce Baller : ClusterCrawler fixes
-    \* 2013-09-07  Bruce Baller : ClusterCrawler fixes
-    \* 2013-09-07  Andrzej Szelc : add catch on hitlist size, to avoid segfaults down the line
-    \* 2013-09-07  Brian Rebel : remove calls to extern void SaveBMPFile as those are most likely copy and paste errors
-    \* 2013-09-07  Brian Rebel : make SaveBMPFile a method of the module
-    \* 2013-09-07  Brian Rebel : make SaveBMPFile a method of the module
-    \* 2013-09-07  Brian Rebel : quite some compilation problems.  For NestS1Light remove the code that has been moved into NestAlg.  For OpParamSD.cxx temporarily comment out call to SimpleWireplanAction constructor with 2 parameters until it can be fixed by experts.  Define dummy implementation for NestAlg::GetGasElectronDriftSpeed until experts can be contacted.
-    \* 2013-09-06  Kazuhiro Terao : ADDITION
-    \* 2013-09-06  Kazuhiro Terao : UPDATE:
-    \* 2013-09-06  Zepeng Li : Updated the SimPhotonCounter and OpMCDigi modules to use SimLitePhotons/SimPhotons
-    \* 2013-09-06  Zepeng Li : Digitization of SimPhotonsLite in LBNE10kt
-    \* 2013-09-06  Zepeng Li : Change LBNE10ktPhotons to SimPhotonsLite
-    \* 2013-09-06  Zepeng Li : Change the LBNE10ktPhotons to SimPhotonsLite, and add a LitePhoton parameter to the fcl file
-    \* 2013-09-06  Tyler Alion : Improve wire placement method.
-    \* 2013-09-05  Brian Rebel : actually set the ElectricField variable when grabbing the ELECTRICFIELD value from the materials property table.
-    \* 2013-09-05  Jonathan Insler : removed G4StepLimiter additions to PhysicsList.cxx to stop segfault in new implementation of NEST
-    \* 2013-09-05  Brian Rebel : fix compiler warnings by removing variable length arrays in favor of using vectors
-    \* 2013-09-05  Kazuhiro Terao : BUG FIX:
-    \* 2013-09-05  Brian Rebel : remove EnableNest parameter in favor of parameter to select the type of ISCalculation method
-    \* 2013-09-05  Brian Rebel : changes to complete the switch to using the IonizationAndScintillation singleton for calculating the number of ionization electrons and scintillation photons for each step.  Split the ISCalculation::Reset methods into a Reset method that sets the fEnergyDeposit, fNumIonElectrons and fNumScintPhotons variables to 0. and a CalculateIonizationAndScintillation method that sets them based on the calculations.
-    \* 2013-09-04  Herbert Greenlee : Get rid of assertion that efficiency is between 0 and 1.
-    \* 2013-09-04  Jonathan Insler : added G4StepLimiter to PhysicsList to enable step size upper limit
-    \* 2013-09-04  Tyler Alion : Fix bad operator bug, this passes geometry test when the channel map is in a certain mode. Solution in progress.
-    \* 2013-09-04  Tyler Alion : Add basic ICARUS geometry file based off of a few of their NIM papers. No art configurations yet.
-    \* 2013-09-04  Eric Church : Tweak the GNUMakefile, which MUST stay here, even though we don't yet build NuWro in the nightly build. The ubooneoffline repository customers will use it.
-    \* 2013-09-04  Brian Rebel : Add new UserAction to Reset the IonizationAndScintillation singleton with each step. Will turn this UserAction on once there is signoff to do so.
-    \* 2013-09-03  Bruce Baller : ClusterCrawler fixes
-    \* 2013-09-03  Bruce Baller : ClusterCrawler fixes
-    \* 2013-09-03  Eric Church : Add only a comment regarding NuWro.
-    \* 2013-09-02  Brian Rebel : add histograms for number of photons and electrons per MeV deposited as well
-    \* 2013-09-02  Brian Rebel : adjust histogram axis limits and binning
-    \* 2013-09-02  Brian Rebel : remove reference to IonAndScintAna
-    \* 2013-09-02  Brian Rebel : remove the IonAndScintAna module in favor of making histograms that are filled with each step in the IonizationAndScintillation singleton.
-    \* 2013-09-02  Tyler Alion : Check for empty signal vector in fewer steps.
-    \* 2013-09-02  Tyler Alion : Make Wire constructor more efficient by only uncompressing RawDigit if the supplied signal list is empty. Saves about 20 seconds in the 10kt geometry calibration, and WILL NOT effect the functionality.
-    \* 2013-09-02  Tyler Alion : Add geometry to parallel design proposal involving fitting an extra anode plane in the same volume. Not really ready for studies until a few more decisions are made, though.
-    \* 2013-09-02  Tyler Alion : back out unintentional 10kt edit
-    \* 2013-09-02  Andrzej Szelc : quiet compiler warnings
-    \* 2013-09-02  Andrzej Szelc : some clean up. Mainly pickup changes in CLusterParamsAlg so that the build doesn't fall over
-    \* 2013-09-02  Andrzej Szelc : introduycing first version of ShowerSelectorFilter. Still Somewhat rough around the edges.
-    \* 2013-09-02  Tyler Alion : Hooks to use the newer lbne35t 4apa geometry. Default is still left to the old lbne35t for now so that current/old root files work.
-    \* 2013-09-02  Tyler Alion : New 35t geometry with slimmer APAs. It's possible to define different wire angles for each APA. There are the right number of (vertical) optical detectors, but the y positions are placeholders. Though this will draw with lbne_geo.C and there are no overlaps, root does have to handle 2 invalid syntax errors which aren't handled in the LArSoft import. Still looking for this evasive bug.
-    \* 2013-09-01  Andrzej Szelc : Add preliminary Shower/track differentiating function. Also some utilities like Principal components and other Cluster parameter calculation. Fix bug where multiple instances of the Alg would balk. Code is somewhat gritty a clean-up will come
-    \* 2013-09-01  Brian Rebel : add saving of random numbers to fast optical prodsingle fcl file
-    \* 2013-08-31  Brian Rebel : put try/catch block around the call to Geometry::PositionToTPC and for now just move on to the next IDE in the set if an exception is thrown
-    \* 2013-08-30  Brian Rebel : adjust to new interface to CryostatGeo::PositionToTPC
-    \* 2013-08-30  Brian Rebel : switch abs to std::abs, adjust to using Geometry::PositionToTPC rather than access the cryostat object and then do PositionToTPC
-    \* 2013-08-30  Brian Rebel : set limits on the frequency of GeometryBadInputPoint messages
-    \* 2013-08-30  Brian Rebel : allow user to define an epsilon when looking for which cryostat or TPC a given position in the geometry is located.  Also remove fNBadVol counter in favor of using the message facility for limiting the number of messages.  Will commit to Utility/messageservice.fcl to make the limit a default.
-    \* 2013-08-30  Brian Rebel : module to validate ionization and scintillation code.
-    \* 2013-08-30  Herbert Greenlee : Fix seed import bug for Kalman Hit track finder.
-    \* 2013-08-30  Herbert Greenlee : Tweak Kalman Hit track finder fcl parameters.
-    \* 2013-08-29  Tingjun Yang : Fix a bug when induction hits = collection hits. Eric&amp;Tingjun
-    \* 2013-08-28  Tyler Alion : Make the default the full geometry still.
-    \* 2013-08-28  Tyler Alion : Add example lines to choose a different gdml file to be associated with the lbne10kt fcl keyword. Specifically for choosing a significantly smaller file so that work can be done in FD APAs in a reasonable compute time, while leaving the true, full geometry unaltered.
-    \* 2013-08-28  Tyler Alion : Add gdml files with minimal volWorld size, only one cryostat, and only 4 APAs in that cryostat. Each APA has the same x center; there are two-by-two vertically and in the z direction. Files for each 36 and \~45 degree configurations.
-    \* 2013-08-28  Brian Rebel : add property for the ELECTRICFIELD in LAr, set it using the LArProperties service
-    \* 2013-08-28  Brian Rebel : add flag to pick which of the Ionization and Scintillation Calculators to use, default it to using the separate methods
-    \* 2013-08-28  Brian Rebel : New design pattern for using/specifying different algorithms to determine the number of scintillation photons and ionization electrons for each step from G4.  The IonizationAndScintillation object is a singleton that is only accessible through an Instance() method - there is no public constructor.  This singleton owns a pointer to the base class representation of ISCalculation.  The different algorithms to determine the number of ionization (I) electrons and scintillation (S) photons are derived from this base class.  Every point in the code that needs to know the number of electrons or photons calls the singleton and asks it for those numbers.  The singleton in turn accesses the pointer it owns and returns the requested values.  The choice of which type of algorithm to use is made in the singleton constructor by querying the sim::LArG4Parameters service to ask it which the user wants. Currently there are two possible algorithms, the ISCalculationSeparate uses the algorithm that was previously in LArVoxelReadout to determine the number of ionization electrons and the algorithm from OpFastScintillation for scintillation photons.  The changes to LArVoxelReadout and OpFastScintillation will come in a later commit.  ISCalculationNEST uses the NestAlg to determine both.  NestAlg is basically the code that currently resides in NestS1Light.
-    \* 2013-08-28  Eric Church : Pass const &amp;s, and \\'new\\' things only once per job. Progress, perhaps, but still not fixed.
-    \* 2013-08-28  Eric Church : Pass const &amp;s, and \\'new\\' things only once per job. Progress, perhaps, but still not fixed.
-    \* 2013-08-22  Kazuhiro Terao : Added TriggerAlgo to development packages list. --kazu
-    \* 2013-08-22  Kazuhiro Terao : Added ClearTriggerInfo() function in Base and MicroBoone algo for event-wise clear.
-    \* 2013-08-22  Kazuhiro Terao : Simple typo fix in the comment.
-    \* 2013-08-22  Kazuhiro Terao : Adding TriggerAlgo package
-    \* 2013-08-22  Bruce Baller : ClusterCrawler improvements
-    \* 2013-08-22  Bruce Baller : ClusterCrawler improvements
-    \* 2013-08-16  Jonathan Insler : fixed ElectricField unit conversion
-    \* 2013-08-15  Brian Rebel : redo the HitCheater so that it correctly handles the possibility of multiple geo::WireID objects for each channel.  Now the algorithm first determines the geo::WireIDs for each channel.  It then loops over the TDCIDEMap from the SimChannel and uses the actual location of the energy depositions to associated deposed charge with each geo::WireID as a function of TDC value.  Finally, the TDC values for each WireID are examined to determine the locations of the hits.
-    \* 2013-08-15  Brian Rebel : add necessary include into this .fcl file
-    \* 2013-08-14  Zepeng Li : Changed the LBNE10kt opdet sort
-    \* 2013-08-14  Zepeng Li : Sensl SiPM single pe waveform
-    \* 2013-08-14  Zepeng Li : Added LBNE10kt digitization module
-    \* 2013-08-14  Zepeng Li : Updated the fcl file for LBNE10kt SimPhotonCounter
-    \* 2013-08-14  Zepeng Li : Added SimPhotonCounter for LBNE10kt
-    \* 2013-08-14  Zepeng Li : Optimized the LBNE10kt optical parameterization based on the opdet sorting
-    \* 2013-08-14  Zepeng Li : LBNE10kt specific opdet sorting
-    \* 2013-08-13  William Seligman : Fix a comment.
-    \* 2013-08-13  William Seligman : Correcting FEM parameters according to recommendations from Georgia Karageorgi.
-    \* 2013-08-12  Brian Rebel : comment and tabbing changes to make code easier to read
-    \* 2013-08-10  Zepeng Li : Added the LBNE10ktOpDetPhotonTable that stores the map of time ticks and number of photons
-    \* 2013-08-09  Jonathan Insler : updated CalGausHFLBNE10kt_module.cc with bug fixes
-    \* 2013-08-09  Zepeng Li : Added LBNE10ktPhotons to SimPhotons
-    \* 2013-08-09  Zepeng Li : LBNE10kt fast optical parameterization using LBNE10ktPhotons class
-    \* 2013-08-09  William Seligman : A somewhat-improved estimate for the low-gain parameters for the FEMs. An expert still needs to go over those parameters and adjust them to the actual FEM values.
-    \* 2013-08-08  Brian Rebel : set defaults for the region of interest zooming to be the full scale of the detector.
-    \* 2013-08-08  William Seligman : A better example of how to read in a data project that might not actually be present in the event.
-    \* 2013-08-08  William Seligman : A better way to test if there are zero data products on input.
-    \* 2013-08-08  Bruce Baller : ClusterCrawler: vertex improvements
-    \* 2013-08-08  Bruce Baller : ClusterCrawler: pass vertex struct
-    \* 2013-08-08  Tyler Alion : Put lbne configurations back in here for dependency reasons. It would be nice to move as much lbne configurations out of standard files as possible, though.
-    \* 2013-08-07  Tyler Alion : Add the Disambiguation Cheater to the trigger_path.
-    \* 2013-08-07  Tyler Alion : Add module that makes cheated disambiguated hits using IDE information. Running it on several single particle events gives 100% disambiguation efficiency (analysis module still private), and the event displays of those cheated hits look perfect.
-    \* 2013-08-07  William Seligman : Now that I've learned the "magic" of how to read zero data products, incorporate that into AnalysisExample.
-    \* 2013-08-07  William Seligman : Reverse accidental commit of a debug option.
-    \* 2013-08-07  William Seligman : A tested solution to the problem of reading zero data products from the input file.
-    \* 2013-08-07  Kazuhiro Terao : UPDATE:
-    \* 2013-08-06  Bruce Baller : ClusterCrawler: Add 2D vertex finding
-    \* 2013-08-06  William Seligman : Trying again to suppress exceptions if there are no data products on input.
-    \* 2013-08-06  William Seligman : In OpticalFEM_module, try using getView instead of getByLabel when there's a possibility of zero BeamGateInfo objects in the event.
-    \* 2013-08-05  William Seligman : Try to continue the FEM simulation even there are no BeamGateInfo objects in the event (e.g., we're doing a cosmic-ray simulation).
-    \* 2013-08-01  Bruce Baller : Add link to ROOT Minuit library for ClusterCrawler
-    \* 2013-07-31  Brian Rebel : move the include of clusterfindermodules.fcl higher in the list so that clusterfinderalgorithms.fcl is available to the trackfinder, showerfinder, etc fcl files.
-    \* 2013-07-31  Brian Rebel : fix some formatting
-    \* 2013-07-31  Tyler Alion : Put in time offsets for lbne views, take lbne configurations out of standard file.
-    \* 2013-07-30  Jonathan Insler : removed old commented out diagnostic lines from SimWireLBNE10kt_module
-    \* 2013-07-29  Jonathan Insler : restord resizing of adc vectors at end of loop over channels
-    \* 2013-07-27  Jonathan Insler : updated SimWire LBNE modules with NearestNeighbor and removed unnecessary resizing of adcvec
-    \* 2013-07-27  Eric Church : No-op test of DetSim check-in.
-    \* 2013-07-26  Jonathan Insler : removed unnecessary comments
-    \* 2013-07-26  Thomas Junk : change comment.  Really just a check to see if I can commit
-    \* 2013-07-26  Tyler Alion : remove unnecessary call for TPC dimensions.
-    \* 2013-07-26  Tyler Alion : Add 10kt geometry with 36 degree wires named lbne10kt36. The 45 degree version is still named lbne10kt. fcl configurations for lbne10kt36 are not being made, it can just be copied into lbne10kt.gdml when 36 deg wires are desired, and reverted for 45 again.
-    \* 2013-07-26  Tyler Alion : get rid of compiler warning
-    \* 2013-07-26  Corey Adams : Message printout attacks are tamer by default, so restoring the warning.
-    \* 2013-07-26  Tyler Alion : Add  and \< operators for WireID.
+- 2013-11-06  Brian Rebel : fix typos
+- 2013-11-06  Brian Rebel : fix typos
+- 2013-11-06  Brian Rebel : fix typos
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : back out accidental change
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : explicitly call the EDAnalzyer baseclass ctor to be compatible with art v1.08.09 and beyond.  This change has no impact for earlier releases and is needed to allow filtering of EDAnalzyer modules in the mentioned release - yes, that is available with 1.08.09
+- 2013-11-06  Brian Rebel : complete the 3-\>1 clean up
+- 2013-11-06  Brian Rebel : cleaning up 3 file module, adding explicit call to EDAnalyzer base constructor for use with future ART versions.  This call has no impact on previous versions.
+- 2013-11-03  Wesley Ketchum : updates to fcl file
+- 2013-11-03  Wesley Ketchum : putting in first instance of RFFHitFinder
+- 2013-10-29  Bruce Baller : CCHitFinder: more tweaks
+- 2013-10-29  Bruce Baller : CCHitFinder: handle hits near the edges
+- 2013-10-29  Benjamin Jones : Add FlashMatch object
+- 2013-10-29  Benjamin Jones : Remove unused variables
+- 2013-10-28  Benjamin Jones : Add flash to track matching code to TrackTimeAssoc
+- 2013-10-28  Benjamin Jones : Add FlashMatch object to AnalysisBase
+- 2013-10-25  Benjamin Jones : Remove some accidentally left couts
+- 2013-10-25  Benjamin Jones : Efficiency and speed improvements for seed finding
+- 2013-10-25  Benjamin Jones : Efficiency and speed improvements for seed finding
+- 2013-10-25  Tyler Alion : Fix bug in wireID intersect function. It was only affecting lbne geometry, and even then the return value was right. This fixes the intersection point value passed by reference and set.
+- 2013-10-23  Benjamin Jones : A few tidy-ups
+- 2013-10-22  Herbert Greenlee : Fix infinite loop.
+- 2013-10-21  Eric Church : Tag/build new (delayed) date, thus new name.
+- 2013-10-20  Benjamin Jones : Fix one possible source of inf loops
+- 2013-10-20  Bruce Baller : CCHitFinderAlg skip bad wires
+- 2013-10-19  Benjamin Carls : Rolling back a change to the fake Hough line veto
+- 2013-10-19  Bruce Baller : ClusterCrawler: add error checking
+- 2013-10-19  Bruce Baller : ClusterCrawler: added error checking
+- 2013-10-19  Brian Rebel : remove commented out include as it is no longer necessary.
+- 2013-10-18  Benjamin Jones : Update parametersets
+- 2013-10-18  Benjamin Jones : Possibly fix bug herb found + improve refit
+- 2013-10-18  Thomas Junk : remove include LArG4/NestS1Light.hh
+- 2013-10-18  Benjamin Jones : Quick fix
+- 2013-10-18  Benjamin Jones : Update seedfinder \[huzzah\]
+- 2013-10-18  Eric Church : Initial steps for new tagged, frozen release.
+- 2013-10-18  Benjamin Jones : Update parameterset
+- 2013-10-18  Benjamin Jones : Move geometrical calcs to method called in constructor
+- 2013-10-18  Eric Church : Fix a bug with TrackStitcher's Hit-Track Assns
+- 2013-10-17  Eric Church : One quick tune.
+- 2013-10-17  Eric Church : Add Hit-Track Assns in Track3DKalmanSPS, TrackStitch. Bug fix to dQdx calc in T3DKSPS.
+- 2013-10-17  Tingjun Yang : add configuration for cosmic ray
+- 2013-10-17  Andrzej Szelc : Initialize variables to NULL, which seems to solve the EVD crash
+- 2013-10-17  Tingjun Yang : fix a bug in clustermodules.fcl
+- 2013-10-17  Tingjun Yang : update clusteralgorithms.fcl
+- 2013-10-17  Bruce Baller : Major ClusterCrawler revision
+- 2013-10-16  Tingjun Yang : add configuration for microboone_clustercrawleralg
+- 2013-10-16  Tingjun Yang : add configuration for microbone_clustercrawler
+- 2013-10-16  Benjamin Jones : Fix typo
+- 2013-10-16  Brian Rebel : Make the G4UserLimits passed to G4LogicalVolume a std::unique_ptr.  It appears that G4 doesnt take ownership of pointers and doesnt tell you that.  Remove the NestS1Light and LArNestInterface code from the repository as it is no longer used.
+- 2013-10-16  Benjamin Jones : Add seed consolidation and extension methods
+- 2013-10-16  Benjamin Jones : Add seed consolidation and extension methods
+- 2013-10-16  Andrzej Szelc :  fix bug where the set Wire number window would be limited to the number of induction wires
+- 2013-10-16  Bruce Baller : Major ClusterCrawler revisions
+- 2013-10-16  Andrzej Szelc : Add call to accessor in InfoTransfer, plus small tweaks
+- 2013-10-16  Benjamin Jones : Adjust seeding parameters
+- 2013-10-16  Benjamin Jones : New direction fit code
+- 2013-10-15  Herbert Greenlee : Add method getPreferredPlane.
+- 2013-10-15  Herbert Greenlee : Fix missing track-hit associations bug.
+- 2013-10-15  Benjamin Jones : Change iterative structure of seed finder
+- 2013-10-15  Benjamin Jones : Change iterative structure of seed finder
+- 2013-10-14  Benjamin Jones : Update seedfinder interface (in prep for next algorithm updates)
+- 2013-10-14  Benjamin Jones : Update seedfinder interface (in prep for next algorithm updates)
+- 2013-10-14  Tingjun Yang : add parameters for ub
+- 2013-10-14  Brian Rebel : remove io rule for converting LBNE10ktPhotons to SimPhotonsLite as it appears to not work anyway.
+- 2013-10-14  Benjamin Jones : Remove unused/unmaintained code
+- 2013-10-14  Benjamin Jones : Modernize SeedFinderModule and update configs
+- 2013-10-14  Benjamin Jones : New seedfinder version
+- 2013-10-14  Benjamin Jones : New seedfinder version
+- 2013-10-11  Bruce Baller : Increase label size on ADC-time display. Add option to draw connecting lines between cluster hits.
+- 2013-10-11  Zarko Pavlovic : Remove obsolete OpDetPulse, fill OpticalDetectorData instead.
+- 2013-10-10  Andrzej Szelc : branch out some of the GraphCluster methods to an Alg
+- 2013-10-10  Andrzej Szelc : change arrays to std::vector, add checks for out of TPC vertices, so that exceptions don't get thrown
+- 2013-10-10  Andrzej Szelc : Add simple check to catch zero size hitlists
+- 2013-10-10  Brian Rebel : adopt new PlaneID struct when making eveID struct
+- 2013-10-10  Brian Rebel : add a PlaneID struct that is analogous to WireID to facilitate sorting methods.
+- 2013-10-10  Brian Rebel : remove stupid whitespace between types and variable names
+- 2013-10-09  Lynn Garren : intialize variables and include missing headers
+- 2013-10-09  Lynn Garren : intialize variables and include missing headers
+- 2013-10-09  Lynn Garren : initialize variables
+- 2013-10-09  Lynn Garren : intialize variables
+- 2013-10-09  Lynn Garren : intialize variables
+- 2013-10-09  Zarko Pavlovic : Removed using namespace, removed some unnecessary header files, refactored code, added output beam histograms
+- 2013-10-07  Eric Church : Embellishments to TrackAna (and much Assn gymnastics) to allow Hit level histograms for stitched tracks. Also, bug fix to Track3DKalmanSPS to allow only passing once, not twice and thus skipping out on MS calculation of energy in favor of keeping more sppts in the track fit. Finally, TrackStitcher now only puts out its new vector\<vector\>Tracks and not the redundant component tracks.
+- 2013-10-07  Andrzej Szelc : Bump up the BeamInfo class number
+- 2013-10-03  Michael Kirby : fixed a problem with having geant4 and fftw being setup in conflicting version with the better art product setup
+- 2013-10-03  Michael Kirby : fix a typo
+- 2013-10-03  Zarko Pavlovic : Commiting code to read uboone daq files.
+- 2013-10-02  Jonathan Asaadi : Fixes inspired by MicroBooNE HackDay
+- 2013-10-02  Andrzej Szelc : fix some indexing, add plots. May still need some tweaking
+- 2013-10-02  Mitchell Soderberg : Tweak the color scale for MicroBooNE so all tracks aren't red.  Range for Induction planes might now put MIPs too far into the blue, so may tweak again if people have feedback.
+- 2013-10-02  Andrzej Szelc : Add method to calculate 2D point projection from 3D
+- 2013-10-02  Brian Rebel : add ifdh_art to be setup by default, remove explicit setup of G4 and FFTW as they are pulled in by other products
+- 2013-10-02  Andrzej Szelc : Introducing ShowerAngleClusterAna module. Should test angle and cluster start point reconstruction. In progress.
+- 2013-10-02  Andrzej Szelc : update ClusterParamsAlg for HackDay
+- 2013-10-02  Jonathan Asaadi : Adding code improvements in preperation for MicroBooNE hack day
+- 2013-10-01  Benjamin Carls : Cleaning up old fcl parameters
+- 2013-10-01  Benjamin Carls : Cleaning up old fcl parameters
+- 2013-10-01  Benjamin Carls : Taking out call to SaveBMPFile
+- 2013-10-01  Benjamin Carls : Adding back lines needed for gcc 4.8.1
+- 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
+- 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
+- 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
+- 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
+- 2013-10-01  Benjamin Carls : Cleaning up code that's not necessary anymore
+- 2013-10-01  Brian Rebel : change const ref to just making the vector
+- 2013-10-01  Brian Rebel : a better way to initialize a vector to an empty vector by default in the argument list of a method.  also use the vector::swap method to quickly copy the contents of the input vector into the owned vector
+- 2013-09-30  Tyler Alion : Change default 35t geometry to the newer 4apa design.
+- 2013-09-27  Herbert Greenlee : Protect against crash caused by invalid track.
+- 2013-09-26  Eric Church : Allow user to choose in which dimension to sort spacepoints.
+- 2013-09-26  Eric Church : Remove diagnostic couts
+- 2013-09-26  Eric Church : Remove diagnostic couts
+- 2013-09-23  Eric Church : Add 2 lines to account for new vector\<vector\<Track\>\> output in TrackStitcher.
+- 2013-09-23  Eric Church : Introduction of TrackStitcher module. Bug fix for Track3DSPS.
+- 2013-09-22  Zepeng Li : Updated the fcl file for 35t fast optical simulation
+- 2013-09-20  Benjamin Jones : Add cluster pca for hack day showeriness challenge
+- 2013-09-18  Brian Rebel : fix up definition of BeamInfo to move non-default ctor into ifndef to hide it from reflex.  Fix up other formatting etc issues.
+- 2013-09-15  Zepeng Li : Rebuilt the library with new lbne35t geometry
+- 2013-09-15  Tyler Alion : Update lbnefd evd defaults.
+- 2013-09-15  Tyler Alion : Update example lbne reconstruction script.
+- 2013-09-13  Tyler Alion : Put hit finding module back in apa namespace.
+- 2013-09-13  Tyler Alion : Repair missing definition.
+- 2013-09-13  Tyler Alion : Remove accidental line of code.
+- 2013-09-13  Herbert Greenlee : Add SeedAna module.
+- 2013-09-13  Tyler Alion : Alg holding disambiguation methods and APA geometry methods.
+- 2013-09-13  Tyler Alion : Module to run disambiguation on channel hits, such as from GausHitFinder. Also add RecoAlg to make file.
+- 2013-09-13  Brian Rebel : adapt geo::XXXGeo objects to expect the GeoObjectSorter when trying to sort subvolumes.  Remove Bo and ArgoNeuT specific channel maps as they are not different in algorithm from the ChannelMapStandardAlg
+- 2013-09-13  Brian Rebel : \\c\\h\\a\\n\\g\\e\\ \\t\\o\\ \\u\\s\\i\\n\\g\\ \\n\\e\\w\\ \\G\\e\\o\\O\\b\\j\\e\\c\\t\\S\\o\\r\\t\\e\\r\\ \\o\\b\\j\\e\\c\\t\\s
+- 2013-09-13  Brian Rebel : \\n\\e\\w\\ \\o\\b\\j\\e\\c\\t\\s\\ \\f\\o\\r\\ \\s\\o\\r\\t\\i\\n\\g\\ \\g\\e\\o\\:\\:\\X\\X\\X\\G\\e\\o\\ \\o\\b\\j\\e\\c\\t\\s\\.\\ \\ \\T\\h\\e\\ \\u\\s\\e\\ \\o\\f\\ \\t\\h\\e\\s\\e\\ \\o\\b\\j\\e\\c\\t\\s\\ \\w\\i\\l\\l\\ \\a\\l\\l\\o\\w\\ \\c\\o\\n\\f\\i\\g\\u\\r\\a\\t\\i\\o\\n\\ \\o\\f\\ \\t\\h\\e\\ \\s\\o\\r\\t\\i\\n\\g\\ \\a\\l\\g\\o\\r\\i\\t\\h\\m\\s\\ \\w\\h\\i\\c\\h\\ \\w\\i\\l\\l\\ \\h\\e\\l\\p\\ \\w\\i\\t\\h\\ \\s\\t\\u\\d\\i\\e\\s\\ \\o\\f\\ \\d\\i\\f\\f\\e\\r\\e\\n\\t\\ \\d\\e\\t\\e\\c\\t\\o\\r\\ \\c\\o\\n\\f\\i\\g\\u\\r\\a\\t\\i\\o\\n\\s
+- 2013-09-13  Bruce Baller : ClusterCrawler tweaks for short clusters
+- 2013-09-13  Bruce Baller : ClusterCrawler updates
+- 2013-09-12  Tyler Alion : Back out accidental wire pitch change.
+- 2013-09-12  Tyler Alion : Reposition the photon detectors based off of DocDb 7803.
+- 2013-09-12  Zepeng Li : Update the fcl file for lbne35t fast optical simulation
+- 2013-09-12  Zepeng Li : First version of lbne35t photon library, the information of library is included in README.txt
+- 2013-09-12  Lynn Garren : cmake files
+- 2013-09-12  Lynn Garren : properly qualify the include
+- 2013-09-11  Zepeng Li : Fixed the bug in CageId calculation in LBNE10kt optical parameterization
+- 2013-09-11  Tyler Alion : Put the ICARUS collection wires back to horizontal after accidental rotation. Passes all of geometry test except nearest wire, checking into this soon.
+- 2013-09-11  Brian Rebel : add back in the definition of the LBNE10ktPhotons for the time being to establish backwards compatibility with previously produced files.  This data product is no longer being produced, instead it is now called SimPhotonsLite.
+- 2013-09-11  Lynn Garren : remove extraneous semicolons
+- 2013-09-11  Lynn Garren : use %u with unsigned int
+- 2013-09-11  Lynn Garren : cleanup warnings
+- 2013-09-11  Lynn Garren : removing extraneous semicolons
+- 2013-09-11  Lynn Garren : type correctness for root signal handling
+- 2013-09-10  Brian Rebel : remove use of sprintf in favor of c++2011 compliant stringstream
+- 2013-09-10  Brian Rebel : remove variable length arrays in favor of vectors of vectors
+- 2013-09-10  Brian Rebel : remove variable length arrays in favor of vectors of vectors
+- 2013-09-10  Brian Rebel : remove variable length arrays in favor of vectors of vectors
+- 2013-09-10  Lynn Garren : removing extraneous semicolons
+- 2013-09-10  Brian Rebel : missed a save before the last commit
+- 2013-09-10  Brian Rebel : clean up the code by removing unnecessary includes, duplicated service handles as data members and use the message facility rather than std::cout as specified by the coding conventions.  add comments for doxygen for all data members
+- 2013-09-10  Brian Rebel : remove unnecessary .cxx and .h files
+- 2013-09-10  Brian Rebel : actually fill the SimPhotonsLite data members from the LBNE10ktPhotons product stored in the file
+- 2013-09-09  Lynn Garren : comment out unused variables with Brian Rebel's approval
+- 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larsim
+- 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larreco
+- 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larevt
+- 2013-09-09  Lynn Garren : package level CMakeLists.txt files for lardata
+- 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larcorereco
+- 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larcore
+- 2013-09-09  Lynn Garren : package level CMakeLists.txt files for larana
+- 2013-09-09  Lynn Garren : use unsigned int to match the type of NOpChannels
+- 2013-09-09  Lynn Garren : removing extraneous simicolon from DEFINE_ART_XXX(yyy) macro line
+- 2013-09-08  Brian Rebel : fix compiler warnings about declaration of variable length arrays, remove some unused pointers
+- 2013-09-08  Brian Rebel : change array declared with a variable length into a std::vector.  NEVER declare variable length arrays, ALWAYS use std::vectors if you do not know how long the array will be. std::vectors are still almost always preferable to arrays. Remove unnecessary library dependencies from the GNUmakefile
+- 2013-09-08  Tyler Alion : Remove the outdated APA frame volumes from lbne35t4apa. They were covering most of the optical detectors.
+- 2013-09-08  Brian Rebel : specify ioread rule for backwards compatibility between LBNE10ktPhotons and SimPhotonsLite.  Reorder entries to put all the data product definitions together in the file for easier updating in the future.
+- 2013-09-08  Brian Rebel : add ClassVersion number to SimPhotonsLite
+- 2013-09-08  Tyler Alion : Remove 10kt/34kt files.
+- 2013-09-08  Tyler Alion : Remove 10kt/34kt files.
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-08  Tyler Alion : lbne10kt and lbne34kt configurations --\> lbnefd
+- 2013-09-07  Jonathan Insler : back out accidental commit of caldata_lbne.fcl
+- 2013-09-07  Jonathan Insler : removed CalWireLBNE34kt_module.cc from repository
+- 2013-09-07  Jonathan Insler : removed SimWireLBNE34kt_module.cc from repository
+- 2013-09-07  Tyler Alion : Fix defaults again... Also transition this package to using the configuration keyword lbnefd in place of lbne34kt and lbne10kt. Having one for each is excessive since they are thus far treated completely the same except that a different GDML file is imported. So now the configuration approach is to have the FD configuration, and in geometry_lbne.fcl select the desired GDML -- this fits in nicely with the several other FD-related geometries.
+- 2013-09-07  Tyler Alion : Change the View and SignalType functions to work for multiple TPCs -- No functionality change whatsoever for other geometries. Also complete the break out of the nested for loops in ChannelToWire. Add ICARUS into Geometry_service.
+- 2013-09-07  Tyler Alion : Add ICARUS hard coding of wire and plane pitch.
+- 2013-09-07  Tyler Alion : ICARUS geometry tune ups. Fix origin. Generate it with the actual pitch. Improve wire placement method in the generate script.
+- 2013-09-07  Tyler Alion : Put geometry configurations in one place. Detector specific files hold each different configuration, geometry.fcl ties them together and holds a standard configuration (a copy of microboone_geo.) Also add a configuration for the ICARUS T600 detector.
+- 2013-09-07  Tyler Alion : Add detector id for ICARUS T600
+- 2013-09-07  Bruce Baller : ClusterCrawler fixes
+- 2013-09-07  Bruce Baller : ClusterCrawler fixes
+- 2013-09-07  Andrzej Szelc : add catch on hitlist size, to avoid segfaults down the line
+- 2013-09-07  Brian Rebel : remove calls to extern void SaveBMPFile as those are most likely copy and paste errors
+- 2013-09-07  Brian Rebel : make SaveBMPFile a method of the module
+- 2013-09-07  Brian Rebel : make SaveBMPFile a method of the module
+- 2013-09-07  Brian Rebel : quite some compilation problems.  For NestS1Light remove the code that has been moved into NestAlg.  For OpParamSD.cxx temporarily comment out call to SimpleWireplanAction constructor with 2 parameters until it can be fixed by experts.  Define dummy implementation for NestAlg::GetGasElectronDriftSpeed until experts can be contacted.
+- 2013-09-06  Kazuhiro Terao : ADDITION
+- 2013-09-06  Kazuhiro Terao : UPDATE:
+- 2013-09-06  Zepeng Li : Updated the SimPhotonCounter and OpMCDigi modules to use SimLitePhotons/SimPhotons
+- 2013-09-06  Zepeng Li : Digitization of SimPhotonsLite in LBNE10kt
+- 2013-09-06  Zepeng Li : Change LBNE10ktPhotons to SimPhotonsLite
+- 2013-09-06  Zepeng Li : Change the LBNE10ktPhotons to SimPhotonsLite, and add a LitePhoton parameter to the fcl file
+- 2013-09-06  Tyler Alion : Improve wire placement method.
+- 2013-09-05  Brian Rebel : actually set the ElectricField variable when grabbing the ELECTRICFIELD value from the materials property table.
+- 2013-09-05  Jonathan Insler : removed G4StepLimiter additions to PhysicsList.cxx to stop segfault in new implementation of NEST
+- 2013-09-05  Brian Rebel : fix compiler warnings by removing variable length arrays in favor of using vectors
+- 2013-09-05  Kazuhiro Terao : BUG FIX:
+- 2013-09-05  Brian Rebel : remove EnableNest parameter in favor of parameter to select the type of ISCalculation method
+- 2013-09-05  Brian Rebel : changes to complete the switch to using the IonizationAndScintillation singleton for calculating the number of ionization electrons and scintillation photons for each step.  Split the ISCalculation::Reset methods into a Reset method that sets the fEnergyDeposit, fNumIonElectrons and fNumScintPhotons variables to 0. and a CalculateIonizationAndScintillation method that sets them based on the calculations.
+- 2013-09-04  Herbert Greenlee : Get rid of assertion that efficiency is between 0 and 1.
+- 2013-09-04  Jonathan Insler : added G4StepLimiter to PhysicsList to enable step size upper limit
+- 2013-09-04  Tyler Alion : Fix bad operator bug, this passes geometry test when the channel map is in a certain mode. Solution in progress.
+- 2013-09-04  Tyler Alion : Add basic ICARUS geometry file based off of a few of their NIM papers. No art configurations yet.
+- 2013-09-04  Eric Church : Tweak the GNUMakefile, which MUST stay here, even though we don't yet build NuWro in the nightly build. The ubooneoffline repository customers will use it.
+- 2013-09-04  Brian Rebel : Add new UserAction to Reset the IonizationAndScintillation singleton with each step. Will turn this UserAction on once there is signoff to do so.
+- 2013-09-03  Bruce Baller : ClusterCrawler fixes
+- 2013-09-03  Bruce Baller : ClusterCrawler fixes
+- 2013-09-03  Eric Church : Add only a comment regarding NuWro.
+- 2013-09-02  Brian Rebel : add histograms for number of photons and electrons per MeV deposited as well
+- 2013-09-02  Brian Rebel : adjust histogram axis limits and binning
+- 2013-09-02  Brian Rebel : remove reference to IonAndScintAna
+- 2013-09-02  Brian Rebel : remove the IonAndScintAna module in favor of making histograms that are filled with each step in the IonizationAndScintillation singleton.
+- 2013-09-02  Tyler Alion : Check for empty signal vector in fewer steps.
+- 2013-09-02  Tyler Alion : Make Wire constructor more efficient by only uncompressing RawDigit if the supplied signal list is empty. Saves about 20 seconds in the 10kt geometry calibration, and WILL NOT effect the functionality.
+- 2013-09-02  Tyler Alion : Add geometry to parallel design proposal involving fitting an extra anode plane in the same volume. Not really ready for studies until a few more decisions are made, though.
+- 2013-09-02  Tyler Alion : back out unintentional 10kt edit
+- 2013-09-02  Andrzej Szelc : quiet compiler warnings
+- 2013-09-02  Andrzej Szelc : some clean up. Mainly pickup changes in CLusterParamsAlg so that the build doesn't fall over
+- 2013-09-02  Andrzej Szelc : introduycing first version of ShowerSelectorFilter. Still Somewhat rough around the edges.
+- 2013-09-02  Tyler Alion : Hooks to use the newer lbne35t 4apa geometry. Default is still left to the old lbne35t for now so that current/old root files work.
+- 2013-09-02  Tyler Alion : New 35t geometry with slimmer APAs. It's possible to define different wire angles for each APA. There are the right number of (vertical) optical detectors, but the y positions are placeholders. Though this will draw with lbne_geo.C and there are no overlaps, root does have to handle 2 invalid syntax errors which aren't handled in the LArSoft import. Still looking for this evasive bug.
+- 2013-09-01  Andrzej Szelc : Add preliminary Shower/track differentiating function. Also some utilities like Principal components and other Cluster parameter calculation. Fix bug where multiple instances of the Alg would balk. Code is somewhat gritty a clean-up will come
+- 2013-09-01  Brian Rebel : add saving of random numbers to fast optical prodsingle fcl file
+- 2013-08-31  Brian Rebel : put try/catch block around the call to Geometry::PositionToTPC and for now just move on to the next IDE in the set if an exception is thrown
+- 2013-08-30  Brian Rebel : adjust to new interface to CryostatGeo::PositionToTPC
+- 2013-08-30  Brian Rebel : switch abs to std::abs, adjust to using Geometry::PositionToTPC rather than access the cryostat object and then do PositionToTPC
+- 2013-08-30  Brian Rebel : set limits on the frequency of GeometryBadInputPoint messages
+- 2013-08-30  Brian Rebel : allow user to define an epsilon when looking for which cryostat or TPC a given position in the geometry is located.  Also remove fNBadVol counter in favor of using the message facility for limiting the number of messages.  Will commit to Utility/messageservice.fcl to make the limit a default.
+- 2013-08-30  Brian Rebel : module to validate ionization and scintillation code.
+- 2013-08-30  Herbert Greenlee : Fix seed import bug for Kalman Hit track finder.
+- 2013-08-30  Herbert Greenlee : Tweak Kalman Hit track finder fcl parameters.
+- 2013-08-29  Tingjun Yang : Fix a bug when induction hits = collection hits. Eric&amp;Tingjun
+- 2013-08-28  Tyler Alion : Make the default the full geometry still.
+- 2013-08-28  Tyler Alion : Add example lines to choose a different gdml file to be associated with the lbne10kt fcl keyword. Specifically for choosing a significantly smaller file so that work can be done in FD APAs in a reasonable compute time, while leaving the true, full geometry unaltered.
+- 2013-08-28  Tyler Alion : Add gdml files with minimal volWorld size, only one cryostat, and only 4 APAs in that cryostat. Each APA has the same x center; there are two-by-two vertically and in the z direction. Files for each 36 and \~45 degree configurations.
+- 2013-08-28  Brian Rebel : add property for the ELECTRICFIELD in LAr, set it using the LArProperties service
+- 2013-08-28  Brian Rebel : add flag to pick which of the Ionization and Scintillation Calculators to use, default it to using the separate methods
+- 2013-08-28  Brian Rebel : New design pattern for using/specifying different algorithms to determine the number of scintillation photons and ionization electrons for each step from G4.  The IonizationAndScintillation object is a singleton that is only accessible through an Instance() method - there is no public constructor.  This singleton owns a pointer to the base class representation of ISCalculation.  The different algorithms to determine the number of ionization (I) electrons and scintillation (S) photons are derived from this base class.  Every point in the code that needs to know the number of electrons or photons calls the singleton and asks it for those numbers.  The singleton in turn accesses the pointer it owns and returns the requested values.  The choice of which type of algorithm to use is made in the singleton constructor by querying the sim::LArG4Parameters service to ask it which the user wants. Currently there are two possible algorithms, the ISCalculationSeparate uses the algorithm that was previously in LArVoxelReadout to determine the number of ionization electrons and the algorithm from OpFastScintillation for scintillation photons.  The changes to LArVoxelReadout and OpFastScintillation will come in a later commit.  ISCalculationNEST uses the NestAlg to determine both.  NestAlg is basically the code that currently resides in NestS1Light.
+- 2013-08-28  Eric Church : Pass const &amp;s, and \\'new\\' things only once per job. Progress, perhaps, but still not fixed.
+- 2013-08-28  Eric Church : Pass const &amp;s, and \\'new\\' things only once per job. Progress, perhaps, but still not fixed.
+- 2013-08-22  Kazuhiro Terao : Added TriggerAlgo to development packages list. --kazu
+- 2013-08-22  Kazuhiro Terao : Added ClearTriggerInfo() function in Base and MicroBoone algo for event-wise clear.
+- 2013-08-22  Kazuhiro Terao : Simple typo fix in the comment.
+- 2013-08-22  Kazuhiro Terao : Adding TriggerAlgo package
+- 2013-08-22  Bruce Baller : ClusterCrawler improvements
+- 2013-08-22  Bruce Baller : ClusterCrawler improvements
+- 2013-08-16  Jonathan Insler : fixed ElectricField unit conversion
+- 2013-08-15  Brian Rebel : redo the HitCheater so that it correctly handles the possibility of multiple geo::WireID objects for each channel.  Now the algorithm first determines the geo::WireIDs for each channel.  It then loops over the TDCIDEMap from the SimChannel and uses the actual location of the energy depositions to associated deposed charge with each geo::WireID as a function of TDC value.  Finally, the TDC values for each WireID are examined to determine the locations of the hits.
+- 2013-08-15  Brian Rebel : add necessary include into this .fcl file
+- 2013-08-14  Zepeng Li : Changed the LBNE10kt opdet sort
+- 2013-08-14  Zepeng Li : Sensl SiPM single pe waveform
+- 2013-08-14  Zepeng Li : Added LBNE10kt digitization module
+- 2013-08-14  Zepeng Li : Updated the fcl file for LBNE10kt SimPhotonCounter
+- 2013-08-14  Zepeng Li : Added SimPhotonCounter for LBNE10kt
+- 2013-08-14  Zepeng Li : Optimized the LBNE10kt optical parameterization based on the opdet sorting
+- 2013-08-14  Zepeng Li : LBNE10kt specific opdet sorting
+- 2013-08-13  William Seligman : Fix a comment.
+- 2013-08-13  William Seligman : Correcting FEM parameters according to recommendations from Georgia Karageorgi.
+- 2013-08-12  Brian Rebel : comment and tabbing changes to make code easier to read
+- 2013-08-10  Zepeng Li : Added the LBNE10ktOpDetPhotonTable that stores the map of time ticks and number of photons
+- 2013-08-09  Jonathan Insler : updated CalGausHFLBNE10kt_module.cc with bug fixes
+- 2013-08-09  Zepeng Li : Added LBNE10ktPhotons to SimPhotons
+- 2013-08-09  Zepeng Li : LBNE10kt fast optical parameterization using LBNE10ktPhotons class
+- 2013-08-09  William Seligman : A somewhat-improved estimate for the low-gain parameters for the FEMs. An expert still needs to go over those parameters and adjust them to the actual FEM values.
+- 2013-08-08  Brian Rebel : set defaults for the region of interest zooming to be the full scale of the detector.
+- 2013-08-08  William Seligman : A better example of how to read in a data project that might not actually be present in the event.
+- 2013-08-08  William Seligman : A better way to test if there are zero data products on input.
+- 2013-08-08  Bruce Baller : ClusterCrawler: vertex improvements
+- 2013-08-08  Bruce Baller : ClusterCrawler: pass vertex struct
+- 2013-08-08  Tyler Alion : Put lbne configurations back in here for dependency reasons. It would be nice to move as much lbne configurations out of standard files as possible, though.
+- 2013-08-07  Tyler Alion : Add the Disambiguation Cheater to the trigger_path.
+- 2013-08-07  Tyler Alion : Add module that makes cheated disambiguated hits using IDE information. Running it on several single particle events gives 100% disambiguation efficiency (analysis module still private), and the event displays of those cheated hits look perfect.
+- 2013-08-07  William Seligman : Now that I've learned the "magic" of how to read zero data products, incorporate that into AnalysisExample.
+- 2013-08-07  William Seligman : Reverse accidental commit of a debug option.
+- 2013-08-07  William Seligman : A tested solution to the problem of reading zero data products from the input file.
+- 2013-08-07  Kazuhiro Terao : UPDATE:
+- 2013-08-06  Bruce Baller : ClusterCrawler: Add 2D vertex finding
+- 2013-08-06  William Seligman : Trying again to suppress exceptions if there are no data products on input.
+- 2013-08-06  William Seligman : In OpticalFEM_module, try using getView instead of getByLabel when there's a possibility of zero BeamGateInfo objects in the event.
+- 2013-08-05  William Seligman : Try to continue the FEM simulation even there are no BeamGateInfo objects in the event (e.g., we're doing a cosmic-ray simulation).
+- 2013-08-01  Bruce Baller : Add link to ROOT Minuit library for ClusterCrawler
+- 2013-07-31  Brian Rebel : move the include of clusterfindermodules.fcl higher in the list so that clusterfinderalgorithms.fcl is available to the trackfinder, showerfinder, etc fcl files.
+- 2013-07-31  Brian Rebel : fix some formatting
+- 2013-07-31  Tyler Alion : Put in time offsets for lbne views, take lbne configurations out of standard file.
+- 2013-07-30  Jonathan Insler : removed old commented out diagnostic lines from SimWireLBNE10kt_module
+- 2013-07-29  Jonathan Insler : restord resizing of adc vectors at end of loop over channels
+- 2013-07-27  Jonathan Insler : updated SimWire LBNE modules with NearestNeighbor and removed unnecessary resizing of adcvec
+- 2013-07-27  Eric Church : No-op test of DetSim check-in.
+- 2013-07-26  Jonathan Insler : removed unnecessary comments
+- 2013-07-26  Thomas Junk : change comment.  Really just a check to see if I can commit
+- 2013-07-26  Tyler Alion : remove unnecessary call for TPC dimensions.
+- 2013-07-26  Tyler Alion : Add 10kt geometry with 36 degree wires named lbne10kt36. The 45 degree version is still named lbne10kt. fcl configurations for lbne10kt36 are not being made, it can just be copied into lbne10kt.gdml when 36 deg wires are desired, and reverted for 45 again.
+- 2013-07-26  Tyler Alion : get rid of compiler warning
+- 2013-07-26  Corey Adams : Message printout attacks are tamer by default, so restoring the warning.
+- 2013-07-26  Tyler Alion : Add  and \< operators for WireID.
 -   2013-07-25 Jonathan Insler : removed recursive include to hitfindermodules_lbne.fcl from standard_reco_lbne\*.fcl files
 -   2013-07-25 Jonathan Insler : cleaned up CalGausHFLBNE 35t and 10kt modules
 -   2013-07-25 Jonathan Insler : added DeconvGausHFLBNE modules to deconvolute signals and zero unsuppress without making recob::Wires
@@ -4766,20 +4766,20 @@ Download instructions for [just larsoftobj v08_10_01](http://scisoft.fnal.gov/sc
 -   2012-03-06 Brian Rebel : add some more comments to the PadVector method. Also acknowledge that fPDG is the vector we care about and remove the maxSize input in favor of just using fPDG.size(). Finally, ensure that it always causes an exception if the pad out vector option is not chosen and the vector in question is not the same size as fPDG….even if it is bigger because we dont know what the user intention was.
 -   2012-03-06 Eric Church : Add a fcl script for compression-mode running.
 -   2012-03-06 Andrzej Szelc : do not throw exception if PDG.size()1.
-    \* 2012-03-06  Eric Church : Changes to make Compression mode work. See corresponding ../EventGenerator/prodsingle_uboone_comp.fcl
-    \* 2012-03-05  Brian Rebel : make the association of hits to the super cluster work in LineMerger.  Previously only the hits from the seed cluster were added, now all hits from participating clusters in a super cluster should be added.  Also make the code easier to read.
-    \* 2012-03-05  Andrzej Szelc : add normalization of the electronics response function for uBooNE
-    \* 2012-03-05  Brian Rebel : fix formatting of messages about padding out vectors and bad vector sizes
-    \* 2012-03-05  Eric Church : Make fPadOutVectors of consistent types.
-    \* 2012-03-05  Brian Rebel : remove presorting of super clusters before putting the collection into the event.  downstream modules should not depend on the sorting of these clusters.
-    \* 2012-03-02  Eric Church : (1) Go some way toward detector acgnostification in SpacePts. Much left to do. (2) Introduce Associations in SpacePoint\* classes.
-    \* 2012-03-02  Brian Rebel : remove dependency of SummaryData on Geometry library as the only dependency is on the DetId enumerated type from Geometry.h
-    \* 2012-03-01  Brian Rebel : change fPadVectors from int to a bool, also read it in with the reconfigure method.  Make some changes to the printVecs method to make it a little easier to parse for people reading the code.  also condense the check on a vector size into a method to make that section of the code a little easier to read.
-    \* 2012-03-01  Andrzej Szelc : remove unneeded extra variable
-    \* 2012-03-01  Andrzej Szelc : Flesh out the single generation for when configuration parameters are specified in a vector. If the size is one (default) the vectors will be padded to the size of the PDG vector. If larger \>1 but \< PDG.size() an exception will be thrown. In case of multiple configuration settings the used versions will be printed out. Also, change .fcl files to not pickup the ArgoNeut beam setting for microboone
-    \* 2012-02-29  Brian Rebel : add definitions for associations of Prongs and Clusters
-    \* 2012-02-29  Herbert Greenlee : Add fcl parameter Merge in standard_spacepointcheater.
-    \* 2012-02-29  Eric Church : Fix a pernicious bug in fMode1 (multi-particle) mode following from assumption that all the single particle generation configuration vectors were the same length and were properly initialized. That is now carefully done. User must hand-prescribe the PDG and P0 vectors at the minimum. {Finally, note to the fastidious: couts are coded here over mf::warnings in places for ease of printing out vectors.}
+- 2012-03-06  Eric Church : Changes to make Compression mode work. See corresponding ../EventGenerator/prodsingle_uboone_comp.fcl
+- 2012-03-05  Brian Rebel : make the association of hits to the super cluster work in LineMerger.  Previously only the hits from the seed cluster were added, now all hits from participating clusters in a super cluster should be added.  Also make the code easier to read.
+- 2012-03-05  Andrzej Szelc : add normalization of the electronics response function for uBooNE
+- 2012-03-05  Brian Rebel : fix formatting of messages about padding out vectors and bad vector sizes
+- 2012-03-05  Eric Church : Make fPadOutVectors of consistent types.
+- 2012-03-05  Brian Rebel : remove presorting of super clusters before putting the collection into the event.  downstream modules should not depend on the sorting of these clusters.
+- 2012-03-02  Eric Church : (1) Go some way toward detector acgnostification in SpacePts. Much left to do. (2) Introduce Associations in SpacePoint\* classes.
+- 2012-03-02  Brian Rebel : remove dependency of SummaryData on Geometry library as the only dependency is on the DetId enumerated type from Geometry.h
+- 2012-03-01  Brian Rebel : change fPadVectors from int to a bool, also read it in with the reconfigure method.  Make some changes to the printVecs method to make it a little easier to parse for people reading the code.  also condense the check on a vector size into a method to make that section of the code a little easier to read.
+- 2012-03-01  Andrzej Szelc : remove unneeded extra variable
+- 2012-03-01  Andrzej Szelc : Flesh out the single generation for when configuration parameters are specified in a vector. If the size is one (default) the vectors will be padded to the size of the PDG vector. If larger \>1 but \< PDG.size() an exception will be thrown. In case of multiple configuration settings the used versions will be printed out. Also, change .fcl files to not pickup the ArgoNeut beam setting for microboone
+- 2012-02-29  Brian Rebel : add definitions for associations of Prongs and Clusters
+- 2012-02-29  Herbert Greenlee : Add fcl parameter Merge in standard_spacepointcheater.
+- 2012-02-29  Eric Church : Fix a pernicious bug in fMode1 (multi-particle) mode following from assumption that all the single particle generation configuration vectors were the same length and were properly initialized. That is now carefully done. User must hand-prescribe the PDG and P0 vectors at the minimum. {Finally, note to the fastidious: couts are coded here over mf::warnings in places for ease of printing out vectors.}
 -   2012-02-28 Brian Rebel : define associations in both directions to make all aspects of the system happy
 -   2012-02-28 Brian Rebel : make use of associations of simb::MCTruth to sim::Particle to do the back tracking, also remove error message about it not working as it now does.
 -   2012-02-28 Brian Rebel : add definitions for associations in both directions for simb::MCTruth and sim::Particle

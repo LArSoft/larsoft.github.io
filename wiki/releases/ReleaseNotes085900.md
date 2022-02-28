@@ -13,11 +13,11 @@ Download instructions for [just larsoftobj v08_29_02](http://scisoft.fnal.gov/sc
 
 ## New features
 
-\* new larsimrad repository
+- new larsimrad repository
 
 contains interface to BxDecay0 generator
 
-\* larsim PR 28
+- larsim PR 28
 
 New Sim Filter using the sim::SimPhotonsLite data product
 

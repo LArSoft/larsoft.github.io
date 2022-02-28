@@ -56,7 +56,7 @@ If UPS is not found or Clang 7 is not installed in the UPS area, then you will n
 
 ### Supported editors
 
-\* **Emacs**
+- **Emacs**
 
 Download attachment:ups-clang-format-v7.el and place it in a directory `<my_dir>`.
 

@@ -31,9 +31,9 @@ Send an announcement to the larsoft mailing list listing any feature branches wh
 
 ### Directory structure
 
-\* Build directories are created for debug and prof builds of both e17 and c2.
+- Build directories are created for debug and prof builds of both e17 and c2.
 
-\* The directory structure at <working_dir>/<new_release> is now:
+- The directory structure at <working_dir>/<new_release> is now:
 
     srcs
 

@@ -12,11 +12,11 @@
 
 ### Check and change versions for the larsoft packages
 
-\* As a general rule, only larsoft itself uses the $MRB_PROJECT_VERSION release version
+- As a general rule, only larsoft itself uses the $MRB_PROJECT_VERSION release version
 
 All other packages should update their release versions appropriately.
 
-\* check versions for each package in the larsoft suite
+- check versions for each package in the larsoft suite
 
     cd $MRB_SOURCE/<package>
     git diff LARSOFT_SUITE-<previous_release>

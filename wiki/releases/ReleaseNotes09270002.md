@@ -22,13 +22,13 @@ Download instructions for [just larsoftobj v09_06_01_02](http://scisoft.fnal.gov
 
 ## Updates for experiment code
 
-\* necessary changes will be provided in feature/team_for_art_v3_09 branches
+- necessary changes will be provided in feature/team_for_art_v3_09 branches
 
-\* argoneutcode feature/team_for_art_v3_09
+- argoneutcode feature/team_for_art_v3_09
 
 [CI tests](https://dbweb0.fnal.gov/LarCI/app/ns:ArgoNeuT/view_builds/index?offset=0&amp;builds=lar_ci/12079&amp;builds=)
 
-\* the test has pointed out a problem in the generated larg4 table file
+- the test has pointed out a problem in the generated larg4 table file
 
     trigger --build-delay 0 --cert /tmp/x509up_u1147 --version ci_mrb5 --workflow argoneutcodestandalone_wf --revisions "argoneutcode@feature/team_for_art_v3_09" 
 

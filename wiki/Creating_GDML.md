@@ -82,15 +82,15 @@ In LArSoft, the use of GDML is affected by the need to preserve geometry files a
 
 1\) The Perl script source:trunk/Geometry/gdml/generate_gdml.pl reads an XML file containing the geometry and material parameters associated with the MicroBooNE detector. It writes several files:
 
-\* a file of GDML <constant> statements, normally contained within a GDML <define> block;  
-\* several GDML sub-files, each file describing a hierarchical level of the detector (e.g., a file for the cryostat, a file for the TPC, etc.);  
-\* an XML file (the “fragments” file) with the names of the above files.
+- a file of GDML <constant> statements, normally contained within a GDML <define> block;  
+- several GDML sub-files, each file describing a hierarchical level of the detector (e.g., a file for the cryostat, a file for the TPC, etc.);  
+- an XML file (the “fragments” file) with the names of the above files.
 
 2\) The Perl script source:trunk/Geometry/gdml/make_gdml.pl does the following:
 
-\* reads the fragments file;  
-\* “zips” together the GDML sub-files into a single syntactically-correct GDML file;  
-\* substitutes the numeric values for the constants wherever they're used in the GDML.
+- reads the fragments file;  
+- “zips” together the GDML sub-files into a single syntactically-correct GDML file;  
+- substitutes the numeric values for the constants wherever they're used in the GDML.
 
 Steps (1) and (2) are separate because the geometry files for Bo and ArgoNeut are assembled only using the second Perl script; generate_gdml.pl is mainly for use with MicroBooNE.
 
@@ -117,11 +117,11 @@ generate_gdml.pl writes several files to disk, and make_gdml.pl reads them. If y
 
 In the case of MicroBooNE, if you want to make a minor change to a detector parameter:
 
-\* create your own copy of microboone-gdml-parameters.xml  
-\* edit your copy  
-\* process the file with generate_gdml.pl; e.g., generate_gdml.pl -i my-parameters.xml -o my-gdml-fragments.xml  
-\* create the final GDML description with make_gdml.pl; e.g., generate_gdml.pl -i my-gdml-fragments.xml -o my-detector.gdml  
-\* copy/edit Geometry/microboone.xml with your GDML file's name
+- create your own copy of microboone-gdml-parameters.xml  
+- edit your copy  
+- process the file with generate_gdml.pl; e.g., generate_gdml.pl -i my-parameters.xml -o my-gdml-fragments.xml  
+- create the final GDML description with make_gdml.pl; e.g., generate_gdml.pl -i my-gdml-fragments.xml -o my-detector.gdml  
+- copy/edit Geometry/microboone.xml with your GDML file's name
 
 If you want to make a major change to the structure of the detector, one that is not currently parametrized in some way, then you'll have to copy and edit generate_gdml.pl. It's a long script, and perhaps cryptic if you're not familiar with Perl, but the sections that generate the GDML are fairly straight-forward. Another option would be to run generate_gdml.pl, then manually edit the GDML sub-files, or edit the fragments file to include a GDML file of your own with an extension to the detector's geometry (such as a phototube).
 

@@ -13,13 +13,13 @@ Download instructions for [just larsoftobj v09_00_02](http://scisoft.fnal.gov/sc
 
 ## New features
 
-\* larsim PR 34
+- larsim PR 34
 
 On SBND new geometry we're changing the sizes of XARAPUCAS such that they are not longer the same as those of the ARAPUCAS. So now every time the dimensions need to be updated such that they reflect the actual size of the current optical detector.
 
 sbndcode will need PR SBNSoftware/sbndcode#6
 
-\* larsim PR 36
+- larsim PR 36
 
 When searching for IDE from a Hit, the default time start is defined as hit-\>PeakTimeMinusRMS() in MCCheater::BackTracker. However, both the longitudinal and transverse diffusion will broaden the hit width in a more realistic simulation. As a result, 1-RMS is not enough to cover all charges of an IDE. I suggest that we can change this time window in the configuration. The default value is still 1-RMS, while we suggest 3.5-RMS when it's necessary.
 

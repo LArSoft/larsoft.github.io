@@ -14,7 +14,7 @@
 
 ## New features
 
-\* larsimobj feature/gp_SimChannelRevision
+- larsimobj feature/gp_SimChannelRevision
 
      std::map<unsigned short,std::vector<sim::IDE> > must be replaced by auto
 

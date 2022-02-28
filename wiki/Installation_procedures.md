@@ -13,9 +13,9 @@ http://scisoft.fnal.gov/scisoft/bundles/larsoft/<version>/larsoft-<version>.html
 The pull script, pullProducts, will pull any release of larsoft.  
 A link to this script, and any instructions particular to the release, will be found on the LArSoft release page.
 
-\* Download pullProducts from [SciSoft tools](https://scisoft.fnal.gov/scisoft/bundles/tools/)
+- Download pullProducts from [SciSoft tools](https://scisoft.fnal.gov/scisoft/bundles/tools/)
 
-\* chmod +x pullProducts
+- chmod +x pullProducts
 
     ./pullProducts [-f|-p] <product_topdir> <OS> <bundle-spec>-<version> <qual_set> <build-spec>
     Options:
@@ -42,7 +42,7 @@ A link to this script, and any instructions particular to the release, will be f
 
       build-spec       debug or prof.
 
-\* For instance:
+- For instance:
 
     ./pullProducts /grid/fermiapp/products/larsoft slf6 larsoft-v04_08_00 s8-e7 prof
 

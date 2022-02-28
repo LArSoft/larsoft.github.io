@@ -4,8 +4,8 @@
 
 Have LArSoft as a friendly platform as possible for the Experiment members to
 
-\* develop new analysis, reconstruction and simulation code for their Experiment  
-\* elevate that code to LArSoft standards for it to be merged for shared use by *all* LArSoft-using Experiments
+- develop new analysis, reconstruction and simulation code for their Experiment  
+- elevate that code to LArSoft standards for it to be merged for shared use by *all* LArSoft-using Experiments
 
 **Delivery time: June 2016 (“phase 1”)**
 

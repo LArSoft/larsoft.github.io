@@ -13,7 +13,7 @@ Download instructions for [just larsoftobj v08_07_00](http://scisoft.fnal.gov/sc
 
 ## New features
 
-\* feature/usher_driftvelocityfudgefactor
+- feature/usher_driftvelocityfudgefactor
 
 DriftVelFudgeFactor added to detector properties
 
@@ -21,11 +21,11 @@ The default behavior is unchanged.
 
 ***breaking if you do not inherit from detectorproperties.fcl***
 
-\* add this line:
+- add this line:
 
     DriftVelFudgeFactor: 1.
 
-\* for example, this change is needed in test_ExponentialChannelNoiseService.cxx
+- for example, this change is needed in test_ExponentialChannelNoiseService.cxx
 
     diff --git a/dune/DetSim/Service/test/test_ExponentialChannelNoiseService.cxx b/dune/DetSim/Service/test/test_ExponentialChannelNoiseService.cxx
     index 08342bcd..df4e63e4 100644

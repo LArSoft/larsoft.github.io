@@ -115,11 +115,11 @@
 
 ## larbatch v01_02_00
 
-\* 2015-01-21 Lynn Garren : larbatch v01_02_00 for larsoft v03_07_00
+- 2015-01-21 Lynn Garren : larbatch v01_02_00 for larsoft v03_07_00
 
-\* 2015-01-20 Tingjun Yang : Use gridftp as IFDH_OPT for Production role.
+- 2015-01-20 Tingjun Yang : Use gridftp as IFDH_OPT for Production role.
 
-\* 2015-01-20 Tingjun Yang : Add
+- 2015-01-20 Tingjun Yang : Add
 
 <output>
 

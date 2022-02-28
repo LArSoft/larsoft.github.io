@@ -13,7 +13,7 @@ Download instructions for [just larsoftobj v08_29_02](http://scisoft.fnal.gov/sc
 
 ## New features
 
-\* add a requested larwire distribution
+- add a requested larwire distribution
 
 this distribution contains larwirecell and everything it uses
 
@@ -25,39 +25,39 @@ larsoft PR 13
 
 larutils PR 5
 
-\* larevt PR 8
+- larevt PR 8
 
 Additions
 
-\* Optinally check whether a particle is a primary particle
+- Optinally check whether a particle is a primary particle
 
 Under the hood changes
 
-\* Check the all FCL vectors are the same length
+- Check the all FCL vectors are the same length
 
-\* Check that restricted-value fcl parameters do indeed only have restricted values
+- Check that restricted-value fcl parameters do indeed only have restricted values
 
-\* const-ify the interesting vectors to maintain their equal lengths
+- const-ify the interesting vectors to maintain their equal lengths
 
-\* Swap the index argument for unsigned int
+- Swap the index argument for unsigned int
 
-\* Check that the element requests on the vectors are valid
+- Check that the element requests on the vectors are valid
 
-\* Pass the art::Ptr by const reference rather than const value
+- Pass the art::Ptr by const reference rather than const value
 
-\* larsim PR 25
+- larsim PR 25
 
 Added filtering to LightSource module based on material type
 
-\* larsim PR 26
+- larsim PR 26
 
 Add scintillation prescaling factor to Correlated alg
 
-\* larrecodnn PR 9
+- larrecodnn PR 9
 
 implemented ROI-finding interfaces in WaveformRecogTools
 
-\* Add a bit of information to geometry dump
+- Add a bit of information to geometry dump
 
 larcoreobj PR 8
 
