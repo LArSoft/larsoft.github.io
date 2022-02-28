@@ -29,7 +29,7 @@ The distribution now uses a generic pullProducts script instead of a versioned s
 | root        | v5_34_23                    | e6:nu        | see bug \#7253        |                  |
 | pandora     | v00_17a                     | e6:nu        | uses root             |                  |
 | genie       | v2_8_0m                    | e6           | uses root             |                  |
-| art         | [art:Release_Notes_11204 | v1_12_04](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11204_|_v1_12_04) | e6:nu                 | feature requests |
+| art         | [ v1_12_04](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_11204 ) | e6:nu                 | feature requests |
 | nutools     | v1_07_00                    | e6           | cleanup the link list |                  |
 | ifdh_art    | v1_6_0                     | e6:nu:s5     | with ifdhc v1_5_1    |                  |
 | artdaq_core | v1_04_07                    | e6:nu:s5     | uses art              |                  |

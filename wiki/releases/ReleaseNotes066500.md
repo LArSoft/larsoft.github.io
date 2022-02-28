@@ -29,8 +29,8 @@ Download instructions for [just larsoftobj v1_38_00](http://scisoft.fnal.gov/sci
 |----------------|-------------|-----------------------------------------------------------|-------------------|
 | **Product**    | **Version** | **Notes**                                                 |                   |
 | canvas_root_io | v1_00_05    | Modules are now in canvas_root_io                         |                   |
-| gallery        | v1_06_04    | [gallery:Release_Notes_10604                           | Release Notes](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/Release_Notes_10604___________________________|_Release_Notes) |
-| art            | v2_09_06    | [art:Series_209                                        | Release Notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_209________________________________________|_Release_Notes) |
+| gallery        | v1_06_04    | [ Release Notes](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/Release_Notes_10604                           ) |
+| art            | v2_09_06    | [ Release Notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_209                                        ) |
 | artdaq_core    | v3_00_08    | Note that the interface to ContainerFragment has changed. |                   |
 | nutools        | v2_17_02    |                                                           |                   |
 | root           | v6_10_08b   |                                                           |                   |

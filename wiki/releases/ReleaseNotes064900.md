@@ -38,9 +38,9 @@ Download instructions for [just larsoftobj v1_27_00](http://scisoft.fnal.gov/sci
 | nusimdata     | v1_08_03   | e14        |                                                        |                           |
 | ifdh_art      | v2_01_06   | e14:nu:s54 |                                                        |                           |
 | artdaq_core   | v1_07_11   | e14:nu:s54 |                                                        |                           |
-| gallery       | v1_05_02   | e14:nu     | [gallery:Release_Notes_10502                        | Release Notes 1.05.02](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/Release_Notes_10502________________________|_Release_Notes_1.05.02) |
+| gallery       | v1_05_02   | e14:nu     | [ Release Notes 1.05.02](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/Release_Notes_10502                        ) |
 | art           | v2_08_03   | e14:nu     | [art:Release Notes 2.08.03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_2.08.03)                      |                           |
-| canvas        | v3_00_02   | e14:nu     | [canvas:Release_Notes#30002                         | Release Notes 3.00.02](https://cdcvs.fnal.gov/redmine/projects/canvas/wiki/Release_Notes#30002_________________________|_Release_Notes_3.00.02) |
+| canvas        | v3_00_02   | e14:nu     | [ Release Notes 3.00.02](https://cdcvs.fnal.gov/redmine/projects/canvas/wiki/Release_Notes#30002                         ) |
 | root          | v6_10_04d  | e14:nu     |                                                        |                           |
 | marley        | v1_0_0a   | e14        |                                                        |                           |
 | pandora       | v03_04_01a | e14:nu     |                                                        |                           |

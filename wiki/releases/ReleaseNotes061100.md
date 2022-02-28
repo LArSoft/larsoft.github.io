@@ -54,7 +54,7 @@ In order to remove algorithm code from lardata, we are making the following chan
 |-------------|----------|------------|--------------------------------------------------------|--------------------|
 | Product     | Version  | Qualifiers | Notes                                                  |                    |
 | nutools     | v2_06_01 | e10        | [nutools:NuTools_Release_Notes#nutools-v2_06_01](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_06_01) |                    |
-| ifdhc       | v2_0_0  | e10:p2711  | [ifdhc:IFDH_Version_2_Major_Release                | ifdh version 2](https://cdcvs.fnal.gov/redmine/projects/ifdhc/wiki/IFDH_Version_2_Major_Release________________|_ifdh_version_2) |
+| ifdhc       | v2_0_0  | e10:p2711  | [ ifdh version 2](https://cdcvs.fnal.gov/redmine/projects/ifdhc/wiki/IFDH_Version_2_Major_Release                ) |
 | ifdh_art    | v2_00_00 | e10:nu:s44 |                                                        |                    |
 | artdaq_core | v1_05_08 | e10:nu:s44 |                                                        |                    |
 | art         | v2_04_01 | e10:nu     | [art:Release Notes 2.04.01](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_2.04.01)                      |                    |

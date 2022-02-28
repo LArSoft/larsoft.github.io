@@ -29,7 +29,7 @@ Download instructions for [just larsoftobj v1_29_00](http://scisoft.fnal.gov/sci
 |          |            |            |                                                             |                   |
 |----------|------------|------------|-------------------------------------------------------------|-------------------|
 | Product  | Version    | Qualifiers | Notes                                                       |                   |
-| nutools  | v2_16_05   | e14        | [nutools:NuTools_Release_Notes#nutools-v2_16_05-10162017 | release notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_05-10162017_|_release_notes) |
+| nutools  | v2_16_05   | e14        | [ release notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_05-10162017 ) |
 | genie    | v2_12_8    | e14        |                                                             |                   |
 | dk2nu    | v01_05_00j | e14        |                                                             |                   |
 | wirecell | v0_6_2    | e14        |                                                             |                   |

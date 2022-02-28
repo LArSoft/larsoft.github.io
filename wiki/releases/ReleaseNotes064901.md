@@ -24,7 +24,7 @@ Download instructions for [just larsoftobj v1_27_00](http://scisoft.fnal.gov/sci
 | libwda             | v2_24_0           |            |                                                        |                                |
 | ifdhc              | v2_1_0           | e14:p2713d |                                                        |                                |
 | ifdh_art           | v2_03_04          | e14:nu:s54 |                                                        |                                |
-| [cetpkgsupport: | cetpkgsupport](https://cdcvs.fnal.gov/redmine/projects/cetpkgsupport/wiki/_|_cetpkgsupport) | v1_12_02   |                                                        | with new remove_product script |
+| [ cetpkgsupport](https://cdcvs.fnal.gov/redmine/projects/cetpkgsupport/wiki/ ) | v1_12_02   |                                                        | with new remove_product script |
 
 # Change List
 

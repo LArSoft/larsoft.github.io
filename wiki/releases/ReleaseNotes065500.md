@@ -25,13 +25,13 @@ Download instructions for [just larsoftobj v1_29_01](http://scisoft.fnal.gov/sci
 |             |          |            |                                                             |                   |
 |-------------|----------|------------|-------------------------------------------------------------|-------------------|
 | Product     | Version  | Qualifiers | Notes                                                       |                   |
-| canvas      | v3_00_03 | e14:nu     | [canvas:Release_Notes                                    | Release Notes](https://cdcvs.fnal.gov/redmine/projects/canvas/wiki/Release_Notes____________________________________|_Release_Notes) |
-| gallery     | v1_05_03 | e14:nu     | [gallery:Release_Notes_10503                             | Release Notes](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/Release_Notes_10503_____________________________|_Release_Notes) |
-| art         | v2_08_04 | e14:nu     | [art:Series_208                                          | Release Notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_208__________________________________________|_Release_Notes) |
+| canvas      | v3_00_03 | e14:nu     | [ Release Notes](https://cdcvs.fnal.gov/redmine/projects/canvas/wiki/Release_Notes                                    ) |
+| gallery     | v1_05_03 | e14:nu     | [ Release Notes](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/Release_Notes_10503                             ) |
+| art         | v2_08_04 | e14:nu     | [ Release Notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_208                                          ) |
 | ifdh_art    | v2_03_05 | e14:nu:s56 |                                                             |                   |
 | artdaq_core | v1_07_12 | e14:nu:s56 |                                                             |                   |
 | nusimdata   | v1_08_04 | e14        |                                                             |                   |
-| nutools     | v2_16_06 | e14        | [nutools:NuTools_Release_Notes#nutools-v2_16_06-10232017 | Release Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_06-10232017_|_Release_Notes) |
+| nutools     | v2_16_06 | e14        | [ Release Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_16_06-10232017 ) |
 
 # Change List
 

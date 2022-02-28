@@ -32,7 +32,7 @@
 |         |          |            |                                                    |                   |
 |---------|----------|------------|----------------------------------------------------|-------------------|
 | Product | Version  | Qualifiers | Notes                                              |                   |
-| nutools | v1_24_05 | e9         | [nutools:NuTools_Release_Notes#nutools-v1_24_05 | Release Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v1_24_05_|_Release_Notes) |
+| nutools | v1_24_05 | e9         | [ Release Notes](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v1_24_05 ) |
 | mrb     | v1_07_03 |            |                                                    |                   |
 
 # Change List
