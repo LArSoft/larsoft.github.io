@@ -53,9 +53,9 @@
 
 ## Profiling memory and CPU performance
 
-### IgProf (https://igprof.org/)
+### [IgProf](https://igprof.org/)
 
--   installation: see https://igprof.org/install.html
+-   installation: [see](https://igprof.org/install.html)
 
 <!-- -->
 
@@ -93,11 +93,11 @@
 
 <!-- -->
 
--   results: see https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html
+-   results: [see](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html)
 
-### HPCToolkit (https://hpctoolkit.org/index.html)
+### [HPCToolkit](https://hpctoolkit.org/index.html)
 
--   installation: https://hpctoolkit.org/software-instructions.html
+-   [installation](https://hpctoolkit.org/software-instructions.html)
 
 <!-- -->
 
@@ -181,11 +181,11 @@
 
 - navigate metrics with control buttons
 
--   results: see https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/hpctoolkit.html
+-   results: [see](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/hpctoolkit.html)
 
-### Open\|Speedshop (https://openspeedshop.org/)
+### [Open\|Speedshop](https://openspeedshop.org/)
 
--   installation: see https://openspeedshop.org/documentation/
+-   installation: [see](https://openspeedshop.org/documentation/)
 
 <!-- -->
 
@@ -220,7 +220,6 @@
 <!-- -->
 
 -   NOTE: At this moment, there is an issue to run Open\|Speedshop on LArSoft/(proton)DUNE.  
-    The problem was reported to OSS developers (Jim Galarowicz at Krell), but it has not been resolved yet.  
-    https://groups.google.com/a/krellinst.org/forum/?fromgroups#!topic/oss-questions/g_wNYLmiKbY
+    The [problem](https://groups.google.com/a/krellinst.org/forum/?fromgroups#!topic/oss-questions/g_wNYLmiKbY) was reported to OSS developers (Jim Galarowicz at Krell), but it has not been resolved yet.
 
 ### Support: contact Soon Yung Jun
