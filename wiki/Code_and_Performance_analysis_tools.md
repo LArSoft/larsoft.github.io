@@ -12,8 +12,8 @@ Eventually a defined level of support and availability for this running and anal
 
 ## Instructions and Guidelines
 
--   igprof http://igprof.org/ the tool is available on larsoftbuild06.fnal.gov
--   valgrind http://valgrind.org/
+-   igprof https://igprof.org/ the tool is available on larsoftbuild06.fnal.gov
+-   valgrind https://valgrind.org/
 -   mem..
--   Coverity. http://www.coverity.com/resource-library/
--   clang static code analyzer. [CMS experiment toolkit](https://github.com/dpiparo/SAS) [Clang documentation](http://clang.llvm.org/doxygen/)
+-   Coverity. https://www.coverity.com/resource-library/
+-   clang static code analyzer. [CMS experiment toolkit](https://github.com/dpiparo/SAS) [Clang documentation](https://clang.llvm.org/doxygen/)

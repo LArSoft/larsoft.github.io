@@ -3,8 +3,8 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-Download instructions for [larsoft v06_74_01_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_74_01_01/larsoft-v06_74_01_01.html)  
-Download instructions for [just larsoftobj v1_43_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_43_01/larsoftobj-v1_43_01.html)
+Download instructions for [larsoft v06_74_01_01](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_74_01_01/larsoft-v06_74_01_01.html)  
+Download instructions for [just larsoftobj v1_43_01](https://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_43_01/larsoftobj-v1_43_01.html)
 
 **This is a test release.**
 
@@ -30,19 +30,19 @@ Download instructions for [just larsoftobj v1_43_01](http://scisoft.fnal.gov/sci
 
     argoneutcode: OK
     argoneut_ci/155
-    http://dbweb5.fnal.gov:8080/LarCI/app/ns:argoneut/view_builds/index?offset=0&amp;builds=argoneut_ci%2F155+&amp;builds=1
+    https://dbweb5.fnal.gov:8080/LarCI/app/ns:argoneut/view_builds/index?offset=0&amp;builds=argoneut_ci%2F155+&amp;builds=1
 
     dunetpc: OK
     dune_ci/345
-    http://dbweb5.fnal.gov:8080/LarCI/app/ns:dune/view_builds/index?offset=0&amp;builds=dune_ci%2F345+&amp;builds=1
+    https://dbweb5.fnal.gov:8080/LarCI/app/ns:dune/view_builds/index?offset=0&amp;builds=dune_ci%2F345+&amp;builds=1
 
     lariatsoft: OK
     lariat_ci/183
-    http://dbweb5.fnal.gov:8080/LarCI/app/ns:lariat/view_builds/index?offset=0&amp;builds=lariat_ci%2F183&amp;builds=1
+    https://dbweb5.fnal.gov:8080/LarCI/app/ns:lariat/view_builds/index?offset=0&amp;builds=lariat_ci%2F183&amp;builds=1
 
     sbndcode: Warning (data product size change in nucosmics_g4_quick_test_sbndcode
     sbnd_ci/200
-    http://dbweb5.fnal.gov:8080/LarCI/app/ns:sbnd/view_builds/index?offset=0&amp;builds=sbnd_ci%2F200&amp;builds=1
+    https://dbweb5.fnal.gov:8080/LarCI/app/ns:sbnd/view_builds/index?offset=0&amp;builds=sbnd_ci%2F200&amp;builds=1
 
     < v06_74_01
     ---
@@ -81,7 +81,7 @@ Download instructions for [just larsoftobj v1_43_01](http://scisoft.fnal.gov/sci
     Warning (data product size change in ci_g4_regression_test_uboonecode)
     Other failure/changes are the same as in v06_74_01
     uboone_ci/222
-    http://dbweb5.fnal.gov:8080/LarCI/app/ns:uboone/view_builds/index?offset=0&amp;builds=uboone_ci%2F222&amp;builds=1
+    https://dbweb5.fnal.gov:8080/LarCI/app/ns:uboone/view_builds/index?offset=0&amp;builds=uboone_ci%2F222&amp;builds=1
 
     < v06_74_01
     ---

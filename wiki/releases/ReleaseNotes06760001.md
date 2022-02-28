@@ -6,8 +6,8 @@
 
 **THIS IS A TEST RELEASE**
 
-Download instructions for [larsoft v06_76_00_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_76_00_01/larsoft-v06_76_00_01.html)  
-Download instructions for [just larsoftobj v1_44_00_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_44_00_01/larsoftobj-v1_44_00_01.html)
+Download instructions for [larsoft v06_76_00_01](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_76_00_01/larsoft-v06_76_00_01.html)  
+Download instructions for [just larsoftobj v1_44_00_01](https://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_44_00_01/larsoftobj-v1_44_00_01.html)
 
 ## Purpose
 

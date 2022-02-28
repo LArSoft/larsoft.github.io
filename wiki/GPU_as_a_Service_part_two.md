@@ -6,11 +6,11 @@
 
 These material is presented in three parts.
 
-[ Part One: Overview and introduction to the NuSonic Triton client library ]( GPU as a Service )
+[Part One: Overview and introduction to the NuSonic Triton client library](GPU_as_a_Service)
 
-[Part Two: Setting up the model on the Triton inference server](GPU as a Service part two)
+[Part Two: Setting up the model on the Triton inference server](GPU_as_a_Service_part_two)
 
-[Part Three: Testing the Triton client and model configuration with an inference ](GPU as a Service part three)
+[Part Three: Testing the Triton client and model configuration with an inference](GPU_as_a_Service_part_three)
 
 ## Introduction
 
@@ -50,9 +50,9 @@ The root directory of the model repository in this example is “`/models`”. A
 
 The files containing the actual ML model are located in the “version” subdirectory (“`./cnn_emtrkmichel_1/1`”). The Triton inference server supports several different types of ML backends. The backend used in this example is Tensorflow and the format of the model file is one of two Tensorflow types supported by Triton, referred to as a “`GraphDef`” file. This format contains a frozen model file which contains the model description with the numerical weights loaded into it, in a single file. By default, this file needs to be named as “`model.graphdef`”. Additional information on the two Tensorflow formats, frozen `GraphDef` and `SavedModel`, supported by the Triton inference server can be found in the following links:
 
-https://www.tensorflow.org/guide/saved_model#the_savedmodel_format_on_disk
+[saved model](https://www.tensorflow.org/guide/saved_model#the_savedmodel_format_on_disk)
 
-https://www.tensorflow.org/js/tutorials/conversion/import_saved_model
+[import saved model](https://www.tensorflow.org/js/tutorials/conversion/import_saved_model)
 
 ## Configuration files
 
@@ -97,9 +97,7 @@ Looking at this file, the first line provides the name of the model correspondin
 
 ### Input section
 
-The `EmTrackMichelId` model has only one input so there is only one input subsection. The first line in this subsection is the name of the input in the model. The second line labeled “`data_type`” describes the type of the input data, in this case `TYPE_FP32`, which corresponds to Tensorflow's `DT_FLOAT` datatype. The next line describes the format of the input images or tensors. In this case, it is specified as `FORMAT_NHWC` where `N`, `H`, `W`, and `C` refer to batch size, height, width, and channels, respectively. This is followed by the line labeled “`dims`” which specifies `H`, `W`, and `C` as 48, 48, and 1, respectively. See the following link for more details on tensor formats:
-
-https://docs.nvidia.com/deeplearning/performance/dl-performance-convolutional/index.html
+The `EmTrackMichelId` model has only one input so there is only one input subsection. The first line in this subsection is the name of the input in the model. The second line labeled “`data_type`” describes the type of the input data, in this case `TYPE_FP32`, which corresponds to Tensorflow's `DT_FLOAT` datatype. The next line describes the format of the input images or tensors. In this case, it is specified as `FORMAT_NHWC` where `N`, `H`, `W`, and `C` refer to batch size, height, width, and channels, respectively. This is followed by the line labeled “`dims`” which specifies `H`, `W`, and `C` as 48, 48, and 1, respectively. See the following link for more details on [tensor formats](https://docs.nvidia.com/deeplearning/performance/dl-performance-convolutional/index.html)
 
 ### Output section
 
@@ -128,8 +126,6 @@ The last section in `config.pbtxt` specifies how many instances of the model to 
 
 ## Additional information
 
-The tutorial described above provides a minimal example configuration for setting up a model on the inference server. For more configuration options and information on other supported backends and datatypes, please refer to the Nvidia Triton inference server documentation:
-
-https://github.com/triton-inference-server/server/blob/main/README.md#documentation
+The tutorial described above provides a minimal example configuration for setting up a model on the inference server. For more configuration options and information on other supported backends and datatypes, please refer to the [Nvidia Triton inference server documentation](https://github.com/triton-inference-server/server/blob/main/README.md#documentation)
 
 ### In [GPU as a Service Part 3](GPU as a Service part three), we describe how to test the client and model configuration locally, or via a dedicated test server at Fermilab.

@@ -3,8 +3,8 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-Download instructions for [larsoft v08_16_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_16_00/larsoft-v08_16_00.html)  
-Download instructions for [just larsoftobj v08_11_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_11_00/larsoftobj-v08_11_00.html)
+Download instructions for [larsoft v08_16_00](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_16_00/larsoft-v08_16_00.html)  
+Download instructions for [just larsoftobj v08_11_00](https://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_11_00/larsoftobj-v08_11_00.html)
 
 ## Purpose
 

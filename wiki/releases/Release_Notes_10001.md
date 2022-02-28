@@ -2,9 +2,9 @@
 
 Previous version's [Release Notes 0.02.02](Release_Notes_0.02.02)
 
-[Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/larsoft-v1_00_01.html)  
-[Binary download script](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/downloadLArSoft-v1_00_01.sh)  
-[Source download script](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/downloadLArSource-v1_00_01.sh)
+[Download instructions](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/larsoft-v1_00_01.html)  
+[Binary download script](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/downloadLArSoft-v1_00_01.sh)  
+[Source download script](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v1_00_01/downloadLArSource-v1_00_01.sh)
 
 ## LArSoft 1.00.01
 

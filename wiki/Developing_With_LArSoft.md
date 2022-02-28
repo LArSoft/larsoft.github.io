@@ -8,7 +8,7 @@ Any collaborator can develop or modify code and contribute it to LArSoft. On thi
 
 -   [Overview page for using LArSoft with GitHub](Working_with_Github)
 -   [LArSoft repositories packages and dependencies](LArSoft_repositories_packages_and_dependencies)
--   [Concepts in LArSoft](http://larsoft.org/important-concepts-in-larsoft/)
+-   [Concepts in LArSoft](https://larsoft.org/important-concepts-in-larsoft/)
 
 ## Platforms
 
@@ -31,14 +31,14 @@ To design LArSoft code, it's important to understand the core LArSoft suite and 
 
 ### The *art* framework
 
--   [*art* documentation on WordPress](http://art.fnal.gov) for general information
+-   [*art* documentation on WordPress](https://art.fnal.gov) for general information
 -   [*art* documentation in Redmine](https://cdcvs.fnal.gov/redmine/projects/art/wiki) for code specific information
--   [*art* workbook](http://art.fnal.gov/art-workbook/) for examples and tutorials
+-   [*art* workbook](https://art.fnal.gov/art-workbook/) for examples and tutorials
 -   [Using art in LArSoft](Using_art_in_LArSoft)
 
 ### *gallery*
 
-*gallery* provides lightweight access to event data in art/ROOT files outside the art event processing framework executable. It is not an alternative framework; rather, it provides a library that can be used to write programs that need to read (but not write) art/ROOT files. Information is available at: http://art.fnal.gov/gallery/
+*gallery* provides lightweight access to event data in art/ROOT files outside the art event processing framework executable. It is not an alternative framework; rather, it provides a library that can be used to write programs that need to read (but not write) art/ROOT files. Information is available at: https://art.fnal.gov/gallery/
 
 ### External packages
 
@@ -46,19 +46,19 @@ These are package written and maintained by the general physics and computing co
 
 | Package                                                                                             | Namespace               | Short description                                           | Location of headers     |                |
 |-----------------------------------------------------------------------------------------------------|-------------------------|-------------------------------------------------------------|-------------------------|----------------|
-| [C](http://www.cplusplus.com/reference/)                                                            | `std::`                 | Extensions to base C that are part of the standard language |                         |                |
+| [C](https://www.cplusplus.com/reference/)                                                            | `std::`                 | Extensions to base C that are part of the standard language |                         |                |
 | [ROOT](https://root.cern.ch)                                                                        | See below               | Data-analysis tools                                         | `$ROOT_INC`             |                |
-| [CLHEP](http://proj-clhep.web.cern.ch/proj-clhep/)                                                  | `CLHEP::`               | Class Library for High-Energy Physics                       | `$CLHEP_INC/CLHEP`      |                |
-| [Geant4](http://geant4.web.cern.ch/geant4/)                                                         | See below               | Detector simulations                                        | `$G4INCLUDE`            |                |
-| [GENIE](http://www.genie-mc.org/)                                                                   | `genie::`               | Neutrino Monte-Carlo Generator                              | `$GENIE_INC/GENIE`      |                |
-| [boost](http://www.boost.org/)                                                                      | `boost::`               | General programming tools for C                             | `$BOOST_INC/boost`      |                |
+| [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/)                                                  | `CLHEP::`               | Class Library for High-Energy Physics                       | `$CLHEP_INC/CLHEP`      |                |
+| [Geant4](https://geant4.web.cern.ch/geant4/)                                                         | See below               | Detector simulations                                        | `$G4INCLUDE`            |                |
+| [GENIE](https://www.genie-mc.org/)                                                                   | `genie::`               | Neutrino Monte-Carlo Generator                              | `$GENIE_INC/GENIE`      |                |
+| [boost](https://www.boost.org/)                                                                      | `boost::`               | General programming tools for C                             | `$BOOST_INC/boost`      |                |
 | [Message Facility wiki documentation](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki) | `mf::`                  | Service for console messages                                | `$MESSAGEFACILITY_INC`  |                |
 | [FHiCL Configuration](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Wiki#Job-configuration)      | `fhicl::`               | Configuration language and parsing tools                    | `$FHICLCPP_INC`         |                |
 | [ nutools and LArSoft](NuSoft and LArSoft                                                                              ) | `simb::`                                                    | Neutrino platform tools | `$NUTOOLS_INC` |
 
-ROOT and Geant4 do not use namespaces. In general, ROOT classes begin with “T” (e.g., [TTree](http://root.cern.ch/root/html522/TTree.html), [TH1](http://root.cern.ch/root/html522/TH1.html)) while [Geant4 classes](http://geant4www.triumf.ca/lxr/) begin with “G4” (e.g., [G4Track](http://geant4www.triumf.ca/lxr/source//track/include/G4Track.hh), [G4Step](http://geant4www.triumf.ca/lxr/source//track/include/G4Step.hh)). Exception: Some of the newer ROOT sub-packages have namespaces (such as `ROOT::Math::`, `ROOT::Fit::`, `ROOT::Minuit2::`, `Reflex::`, `TMVA::`).
+ROOT and Geant4 do not use namespaces. In general, ROOT classes begin with “T” (e.g., [TTree](https://root.cern.ch/root/html522/TTree.html), [TH1](https://root.cern.ch/root/html522/TH1.html)) while [Geant4 classes](https://geant4www.triumf.ca/lxr/) begin with “G4” (e.g., [G4Track](https://geant4www.triumf.ca/lxr/source//track/include/G4Track.hh), [G4Step](https://geant4www.triumf.ca/lxr/source//track/include/G4Step.hh)). Exception: Some of the newer ROOT sub-packages have namespaces (such as `ROOT::Math::`, `ROOT::Fit::`, `ROOT::Minuit2::`, `Reflex::`, `TMVA::`).
 
-Some of these packages duplicate functionality; e.g., 4-vectors are implemented in both [ROOT](http://root.cern.ch/root/html522/TLorentzVector.html) and [CLHEP](http://proj-clhep.web.cern.ch/proj-clhep/doc/CLHEP_2_1_2_2/doxygen/html/LorentzVector_8h.html). Given a choice, use a package that's higher in the above tables over one that's lower; e.g., choose ROOT classes over their CLHEP equivalents.
+Some of these packages duplicate functionality; e.g., 4-vectors are implemented in both [ROOT](https://root.cern.ch/root/html522/TLorentzVector.html) and [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/doc/CLHEP_2_1_2_2/doxygen/html/LorentzVector_8h.html). Given a choice, use a package that's higher in the above tables over one that's lower; e.g., choose ROOT classes over their CLHEP equivalents.
 
 ### Policy for including new external packages in LArSoft
 
@@ -113,8 +113,8 @@ Whether you are writing new code or modifying existing code, please follow the g
 
 #### Documenting and browsing code
 
--   [LArSoft Doxygen](http://nusoft.fnal.gov/larsoft/doxsvn/html/index.html) - comments in the code are incorporated into documentation using [the Doxygen tool.](http://www.doxygen.nl/helpers.html)
--   [LXR Cross Referencer](http://cdcvs.fnal.gov/lxr/) - general purpose source code indexer and cross-referencer that provides web-based browsing of source code with links to the definition and usage of any identifier. Supports multiple languages. Includes LArSoft code. Note, pages may take several seconds to load.
+-   [LArSoft Doxygen](https://nusoft.fnal.gov/larsoft/doxsvn/html/index.html) - comments in the code are incorporated into documentation using [the Doxygen tool.](https://www.doxygen.nl/helpers.html)
+-   [LXR Cross Referencer](https://cdcvs.fnal.gov/lxr/) - general purpose source code indexer and cross-referencer that provides web-based browsing of source code with links to the definition and usage of any identifier. Supports multiple languages. Includes LArSoft code. Note, pages may take several seconds to load.
 
 #### [Working with GitHub](Working_with_GitHub) and contributing code via LArSoft pull requests
 
@@ -178,12 +178,12 @@ To get write access to the repositories, speak to the offline coordinator for yo
 
 ## Testing
 
-High-level description of testing is available at [larsoft.org](http://larsoft.org/larsoft-testing/)
+High-level description of testing is available at [larsoft.org](https://larsoft.org/larsoft-testing/)
 
 ### LArSoft Continuous Integration (CI) system
 
--   [High-level description of CI](http://larsoft.org/continuous-integration/)
--   [CI results display page](http://lar-ci-history.fnal.gov/LarCI/app)
+-   [High-level description of CI](https://larsoft.org/continuous-integration/)
+-   [CI results display page](https://lar-ci-history.fnal.gov/LarCI/app)
 -   [ LAr-Continuous-Integration subproject wiki](https://cdcvs.fnal.gov/redmine/projects/lar_ci/wiki/)
 
 ## Submitting for next release

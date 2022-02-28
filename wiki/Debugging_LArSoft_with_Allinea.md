@@ -4,7 +4,7 @@
 
 This information is based on [Dune's writeup](https://cdcvs.fnal.gov/redmine/projects/dune/wiki/Getting_Started_with_the_Allinea_Forge_Debugger_and_Profiler)
 
-Allinea Forge is a commercially-available suite including a [debugger](https://www.allinea.com/sites/default/files/uploads/Datasheets/allinea_ddt.pdf) (`ddt`) and a [profiling tool](http://www.allinea.com/products/map/features) (`map`). The `ddt` debugger is a GUI frontend to the `gdb` debugging tool.
+Allinea Forge is a commercially-available suite including a [debugger](https://www.allinea.com/sites/default/files/uploads/Datasheets/allinea_ddt.pdf) (`ddt`) and a [profiling tool](https://www.allinea.com/products/map/features) (`map`). The `ddt` debugger is a GUI frontend to the `gdb` debugging tool.
 
 Fermilab has a few licenses available. Debugging videos demos and tutorials are available at: https://www.allinea.com/debugger-videos.
 
@@ -27,7 +27,7 @@ The debugger is called `ddt`, and it has built-in help for starting it
     ddt --help
 
   
-in addition to the web manual (both `ddt` and `map`) at http://www.allinea.com/user-guide/forge/userguide.html
+in addition to the web manual (both `ddt` and `map`) at https://www.allinea.com/user-guide/forge/userguide.html
 
 ## Tips
 

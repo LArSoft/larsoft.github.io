@@ -18,13 +18,13 @@ In many cases, only the build changed. In other cases, picking up the latest rel
 | ups             | v5_0_4        | v5_0_5        |                                                                                                                   |
 | cmake           | v2_8_8        | v2_8_12_2     | improved OSX and compiler support                                                                                 |
 | gcc             | v4_8_1        | v4_8_2        | new qualifiers e5 and gcc482                                                                                      |
-| boost           | v1_53_0        | v1_55_0        | http://www.boost.org/users/history/version_1_55_0.html                                                           |
+| boost           | v1_53_0        | v1_55_0        | https://www.boost.org/users/history/version_1_55_0.html                                                           |
 | fftw            | v3_3_3        | v3_3_3        |                                                                                                                   |
-| sqlite          | v3_08_00_02    | v3_08_03_00    | http://www.sqlite.org/releaselog/3_8_3.html                                                                      |
+| sqlite          | v3_08_00_02    | v3_08_03_00    | https://www.sqlite.org/releaselog/3_8_3.html                                                                      |
 | python          | v2_7_5c       | v2_7_6        |                                                                                                                   |
 | cppunit         | v1_12_1        | v1_12_1        |                                                                                                                   |
 | gccxml          | v0_9_20130621 | v0_9_20131217 |                                                                                                                   |
-| clhep           | v2_1_3_1      | v2_1_4_1      | http://svnweb.cern.ch/world/wsvn/clhep/tags/CLHEP_2_1_4_1/ChangeLog                                             |
+| clhep           | v2_1_3_1      | v2_1_4_1      | https://svnweb.cern.ch/world/wsvn/clhep/tags/CLHEP_2_1_4_1/ChangeLog                                             |
 | libxml2         | v2_9_1        | v2_9_1        |                                                                                                                   |
 | tbb             | v4_1_3        | v4_2_3        | https://software.intel.com/sites/default/files/release_notes_tbb_4.2_update3.txt                                  |
 | xrootd          | v3_3_4        | v3_3_6a       | build protection against accidental inclusion of non-system libevent2                                             |
@@ -37,7 +37,7 @@ In many cases, only the build changed. In other cases, picking up the latest rel
 | pythia          | v6_4_28       | v6_4_28a      | add e5 support                                                                                                    |
 | geant4          | v4_9_6_p02    | v4_9_6_p02b   | backported correction to PENELOPE code from Krzysztof Genser                                                      |
 | gsl             | v1_16          | v1_16          |                                                                                                                   |
-| root            | v5_34_12       | v5_34_18       | http://root.cern.ch/drupal/content/root-version-v5-34-00-patch-release-notes                                      |
+| root            | v5_34_12       | v5_34_18       | https://root.cern.ch/drupal/content/root-version-v5-34-00-patch-release-notes                                      |
 | pandora         | v00_13a        | v00_13b        | uses root v5_34_18                                                                                                |
 | genie           | v2_8_0d       | v2_8_0e       | uses root v5_34_18, pythia v6_4_28a, and log4cpp v1_1_1                                                         |
 | cstxsd          | v3_3_0_p02a   | v3_3_0_p02b   | uses Boost 1.55.0 and xerces_c v3_1_1a                                                                           |

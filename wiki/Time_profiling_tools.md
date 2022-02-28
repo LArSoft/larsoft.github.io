@@ -38,7 +38,7 @@ This is a sampling profiler. Results are produced with running the profiled prog
 Additional tools, also provided by `igprof`, will allow queries and human-readable reports.  
 [Instructions to obtain it]( igprof profiler) are available (so far, for Linux only).  
 The `igprof` profiler also allows memory profiling.  
-Public documentation is available at http://igprof.org/.
+Public documentation is available at https://igprof.org/.
 
 ### Quick start
 
@@ -82,9 +82,9 @@ The only limit is that it has not been updated in a while, and that could affect
 -   does not require recompilation
 -   produce cachegrind output
 -   it also has a heap profiler
--   documentation at http://google-perftools.googlecode.com/svn/trunk/doc/cpuprofile.html
+-   documentation at https://google-perftools.googlecode.com/svn/trunk/doc/cpuprofile.html
 
-The [Google performance tools](http://code.google.com/p/gperftools) are a tool performing similarly to FAST, with the added advantage that they are more or less actively maintained to be up-to-date with the current execution environments.
+The [Google performance tools](https://code.google.com/p/gperftools) are a tool performing similarly to FAST, with the added advantage that they are more or less actively maintained to be up-to-date with the current execution environments.
 
 The profiler **does not force** recompilation, but having debugging information is obviously a plus.  
 The easiest way to go with no recompilation is to preload the profiling library. In Linux it works like:
@@ -105,7 +105,7 @@ A perl script is provided which converts the output in callgrind format:
 
   
 (my script `gperf_lar_callgrinder.sh` does this recursively).  
-Then one can use a viewer to get a better view or the profiling data (for example, [`kcachegrind`](http://kcachegrind.sourceforge.net)).  
+Then one can use a viewer to get a better view or the profiling data (for example, [`kcachegrind`](https://kcachegrind.sourceforge.net)).  
 This is very cool, **but it loses the call path information**, since the `callgrind` format does not keep that information.
 
 ------------------------------------------------------------------------

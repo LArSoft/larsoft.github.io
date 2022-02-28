@@ -6,7 +6,7 @@ This material is under development.
 
 For a given detector, LArSoft maintains its detector-geometry description in a GDML file. The concepts behind GDML (such as the hierarchy of shapes, materials, and physical volumes) will be familiar to anyone who's worked with other physics modeling packages, such as Geant4 or GeoModel. In LArSoft, the use of GDML is affected by the need to preserve geometry files associated with existing detectors and some limitations with ROOT. The ability to create new GDML files is provided for detector optimization studies, i.e. changing wire spacings, number of planes, etc. Altering the number of volumes in the GDML files may have unknown consequences on the running of the code that depends on the geometry.
 
-The [GDML](http://gdml.web.cern.ch/GDML) files describe the geometry of the different LAr TPC detectors in LArSoft. May want to start by looking at the GDML manual at: http://lcgapp.cern.ch/project/simu/framework/GDML/doc/GDMLmanual.pdf
+The [GDML](https://gdml.web.cern.ch/GDML) files describe the geometry of the different LAr TPC detectors in LArSoft. May want to start by looking at the GDML manual at: https://lcgapp.cern.ch/project/simu/framework/GDML/doc/GDMLmanual.pdf
 
 There exist two toolkit bindings for GDML, the Geant4 binding and the ROOT binding, both integrated within the respective frameworks. Both bindings support reading and writing GDML files.
 
@@ -76,7 +76,7 @@ The highest level volume is the volWorld. It contains all elements of the geomet
 
 ### Procedure
 
-For a given detector, LArSoft maintains its detector-geometry description in a [GDML](http://gdml.web.cern.ch/GDML/) file; here's the [language manual](http://lcgapp.cern.ch/project/simu/framework/GDML/doc/GDMLmanual.pdf). The concepts behind GDML (such as the hierarchy of shapes, materials, and physical volumes) will be familiar to anyone who's worked with other physics modeling packages, such as [Geant4](http://geant4.web.cern.ch/geant4/), ROOT's [TGeo](http://root.cern.ch/download/doc/18Geometry.pdf), or [GeoModel](http://atlas.web.cern.ch/Atlas/GROUPS/DATABASE/detector_description/Geometry_Kernel_Classes.pdf).
+For a given detector, LArSoft maintains its detector-geometry description in a [GDML](https://gdml.web.cern.ch/GDML/) file; here's the [language manual](https://lcgapp.cern.ch/project/simu/framework/GDML/doc/GDMLmanual.pdf). The concepts behind GDML (such as the hierarchy of shapes, materials, and physical volumes) will be familiar to anyone who's worked with other physics modeling packages, such as [Geant4](https://geant4.web.cern.ch/geant4/), ROOT's [TGeo](https://root.cern.ch/download/doc/18Geometry.pdf), or [GeoModel](https://atlas.web.cern.ch/Atlas/GROUPS/DATABASE/detector_description/Geometry_Kernel_Classes.pdf).
 
 In LArSoft, the use of GDML is affected by the need to preserve geometry files associated with existing detectors and some limitations with ROOT, as discussed below. As a result, it's a two-step procedure to create a GDML file that describes the MicroBooNE detector:
 
@@ -157,7 +157,7 @@ Double-click on the Geometry folder. Double-click on “Master volume” to see 
 
 ### Installation notes
 
-The Perl scripts generate_gdml.pl and make_gdml.pl require the package [perl-XML-LibXML](http://search.cpan.org/dist/XML-LibXML/) to parse the XML input files. It's available for almost all UNIX. flavors, but it may not be installed by default.
+The Perl scripts generate_gdml.pl and make_gdml.pl require the package [perl-XML-LibXML](https://search.cpan.org/dist/XML-LibXML/) to parse the XML input files. It's available for almost all UNIX. flavors, but it may not be installed by default.
 
 ### Sensitive Optical Elements
 

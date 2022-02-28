@@ -1,6 +1,6 @@
 
 
-**<span style="color: orange;">Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html) .</span>**
+**<span style="color: orange;">Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](https://nusoft.fnal.gov/larsoft/doxsvn/html/group__larexamples__Services.html) .</span>**
 
 # Guidelines on writing (and using) services in LArSoft
 
@@ -97,7 +97,7 @@ The service interface is a (possibly abstract[^1]) class that describes all the 
 ```
 
   
-For a complete example, see [lar::example::ShowerCalibrationGalore](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__ShowerCalibrationGalore.html#details), or `geo::ExptGeoHelperInterface` in `larcore` (Redmine link to [larcore/Geometry/ExptGeoHelperInterface.h](https://cdcvs.fnal.gov/redmine/projects/larcore/repository/revisions/develop/entry/larcore/Geometry/ExptGeoHelperInterface.h) ).
+For a complete example, see [lar::example::ShowerCalibrationGalore](https://nusoft.fnal.gov/larsoft/doxsvn/html/group__ShowerCalibrationGalore.html#details), or `geo::ExptGeoHelperInterface` in `larcore` (Redmine link to [larcore/Geometry/ExptGeoHelperInterface.h](https://cdcvs.fnal.gov/redmine/projects/larcore/repository/revisions/develop/entry/larcore/Geometry/ExptGeoHelperInterface.h) ).
 
 An module or algorithm can use this service by:
 
@@ -138,7 +138,7 @@ or another one, like:
       DetectorProperties: # this is the name of the service interface
       {
          service_provider: DetectorPropertiesFromDB            # this is the name of the implementation chosen
-         DBServer: "http://database.experiment.org/conditions" # the remaining configuration is implementation-dependent
+         DBServer: "https://database.experiment.org/conditions" # the remaining configuration is implementation-dependent
       } # DetectorProperties 
     } # services
 
@@ -298,7 +298,7 @@ The service providers are contained in `lardataalg/DetectorInfo`, while the *art
 
 The interface classes (of provider and service) do not need to have an implementation file (in case of `DetectorProperties`, they don't).
 
-*Note:* %{font-family: monospace}[ShowerCalibrationGalore](http://nusoft.fnal.gov/larsoft/doxsvn/html/group__ShowerCalibrationGalore.html%) in `larexamples` is also a fully developed and thoroughly documented example of this pattern.
+*Note:* %{font-family: monospace}[ShowerCalibrationGalore](https://nusoft.fnal.gov/larsoft/doxsvn/html/group__ShowerCalibrationGalore.html%) in `larexamples` is also a fully developed and thoroughly documented example of this pattern.
 
 ## Prescriptions for the use of LArSoft services
 

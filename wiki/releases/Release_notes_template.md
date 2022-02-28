@@ -2,7 +2,7 @@
 
 Previous version's [release notes](release_notes)
 
-[Download instructions](http://oink.fnal.gov/distro/larsoft/....).
+[Download instructions](https://oink.fnal.gov/distro/larsoft/....).
 
 ## LArSoft x.yy.zz (link to roadmap for the release)
 

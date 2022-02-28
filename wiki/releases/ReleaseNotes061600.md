@@ -3,8 +3,8 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-Download instructions for [larsoft v06_16_00](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_16_00/larsoft-v06_16_00.html)  
-Download instructions for [just larsoftobj v1_08_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_08_01/larsoftobj-v1_08_01.html)
+Download instructions for [larsoft v06_16_00](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_16_00/larsoft-v06_16_00.html)  
+Download instructions for [just larsoftobj v1_08_01](https://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_08_01/larsoftobj-v1_08_01.html)
 
 ## Purpose
 
@@ -131,15 +131,15 @@ Download instructions for [just larsoftobj v1_08_01](http://scisoft.fnal.gov/sci
 -   2016-11-15 Tingjun Yang : Change MaxWireSkipNoSignal to 4 for argoneut.
 -   2016-11-15 Tingjun Yang : Remove argoneut_trajclusteralg.Vertex2DCuts.
 -   2016-11-15 Tingjun Yang : Merge branch 'feature/bb_TJWork' into feature/tjyang_TJWork
--   2016-11-15 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-11-15 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
 -   2016-11-15 Bruce Baller : Merge branch 'develop' into feature/bb_TJWork
 -   2016-11-15 Tingjun Yang : Merge remote-tracking branch 'origin/feature/bb_TJWork' into feature/tjyang_TJWork
 -   2016-11-15 Bruce Baller : Fix prt problem.
--   2016-11-15 Tingjun Yang : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larreco into develop
+-   2016-11-15 Tingjun Yang : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larreco into develop
 -   2016-11-15 Tingjun Yang : Merge branch 'feature/tjyang_TJWork' into develop
--   2016-11-15 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-11-15 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
 -   2016-11-15 Tingjun Yang : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/tjyang_TJWork
--   2016-11-14 Tingjun Yang : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larreco into develop
+-   2016-11-14 Tingjun Yang : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larreco into develop
 -   2016-11-14 Bruce Baller : Add TrajIsClean.
 -   2016-11-14 Bruce Baller : Add TrajIsClean.
 -   2016-11-14 Bruce Baller : Comment out SetHitMultiplicity.
@@ -153,8 +153,8 @@ Download instructions for [just larsoftobj v1_08_01](http://scisoft.fnal.gov/sci
 -   2016-11-04 Bruce Baller : Add SetHitMultiplicity but don't use it yet. Comment out code snippet in FindUseHits that Tingjun found to do bad things. Re-write EndMerge. Change kink check in CheckTraj to use Delta ratios instead of chisq ratios.
 -   2016-11-04 Bruce Baller : Add SetHitMultiplicity but don't use it yet.
 -   2016-11-03 Tingjun Yang : Merge branch 'feature/bb_TJWork' into develop
--   2016-11-03 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
--   2016-11-03 Tingjun Yang : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larreco into develop
+-   2016-11-03 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-11-03 Tingjun Yang : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larreco into develop
 -   2016-11-03 Tingjun Yang : Merge branch 'feature/bb_TJWork' into feature/tjyang_TJWork
 -   2016-11-03 Tingjun Yang : Check plane number in CTP for debugging.
 -   2016-11-03 Bruce Baller : Modify EP printing code.
@@ -186,7 +186,7 @@ Download instructions for [just larsoftobj v1_08_01](http://scisoft.fnal.gov/sci
 -   2016-10-28 Bruce Baller : Add ChkStop code. Add performance histograms. Add hit width consistency check in CheckTraj. Fix MaskHitsOK.
 -   2016-10-28 Bruce Baller : Remove temporary variables. Add fChkStopCuts.
 -   2016-10-28 Bruce Baller : Add ChkStopCuts
--   2016-10-28 Tingjun Yang : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larreco into develop
+-   2016-10-28 Tingjun Yang : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larreco into develop
 -   2016-10-28 Tingjun Yang : Use information of original trajectory when adding hits in CheckHiMultUnusedHits().
 -   2016-10-28 Tingjun Yang : Increase maxDelta by 2.5x in FillGaps.
 -   2016-10-28 Tingjun Yang : Fix indexing for deleting hits after hit merging.
@@ -207,7 +207,7 @@ Download instructions for [just larsoftobj v1_08_01](http://scisoft.fnal.gov/sci
 -   2016-10-23 Tingjun Yang : Change std::cout to mf::LogVerbatim for debugging hits.
 -   2016-10-23 Tingjun Yang : Merge branch 'feature/bb_TJWork' into feature/tjyang_TJWork
 -   2016-10-23 Tingjun Yang : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/tjyang_TJWork
--   2016-10-22 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-22 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
 -   2016-10-21 Bruce Baller : Fix loop logic in RunTrajClusterAlg. FillTrajTruth development.
 -   2016-10-21 Bruce Baller : Don't print bad values badly
 -   2016-10-21 Bruce Baller : Merge branch 'develop' into feature/bb_TJWork
@@ -217,8 +217,8 @@ Download instructions for [just larsoftobj v1_08_01](http://scisoft.fnal.gov/sci
 -   2016-10-20 Bruce Baller : Modify FillTrajTruth to work with local hits.
 -   2016-10-20 Bruce Baller : Sum muon and pion Efficiency \* Purity separately
 -   2016-10-20 Bruce Baller : Formatting changes
--   2016-10-19 Tingjun Yang : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
--   2016-10-19 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-19 Tingjun Yang : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-19 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
 -   2016-10-18 Tingjun Yang : Merge branch 'feature/bb_TJWork' into feature/tjyang_TJWork
 -   2016-10-18 Tingjun Yang : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
 -   2016-10-18 Bruce Baller : Work on FillTrajTruth
@@ -228,19 +228,19 @@ Download instructions for [just larsoftobj v1_08_01](http://scisoft.fnal.gov/sci
 -   2016-10-17 Bruce Baller : Added StopsAtEnd.
 -   2016-10-17 Bruce Baller : Added SetStopsAtEnd.
 -   2016-10-17 Bruce Baller : Added SetStopsAtEnd.
--   2016-10-17 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-17 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
 -   2016-10-17 Bruce Baller : Make the charge pull cut double-sided
--   2016-10-16 Tingjun Yang : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
--   2016-10-16 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
--   2016-10-13 Tingjun Yang : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
--   2016-10-10 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-16 Tingjun Yang : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-16 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-13 Tingjun Yang : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-10 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
 -   2016-10-10 Tingjun Yang : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into develop
--   2016-10-04 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
--   2016-10-03 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-04 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-03 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
 -   2016-10-02 Tingjun Yang : Merge remote-tracking branch 'origin/feature/bb_TJWork' into develop
 -   2016-10-02 Tingjun Yang : Merge remote-tracking branch 'origin/feature/bb_TJWork' into develop
--   2016-10-01 Tingjun Yang : Merge branch 'feature/bb_TJWork' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
--   2016-09-29 Tingjun Yang : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-10-01 Tingjun Yang : Merge branch 'feature/bb_TJWork' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
+-   2016-09-29 Tingjun Yang : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larreco into feature/bb_TJWork
 
 ## larsim v06_08_00
 

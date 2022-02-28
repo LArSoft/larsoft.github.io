@@ -3,7 +3,7 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-[Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc2/larsoft-v06_00_00_rc2.html)
+[Download instructions](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc2/larsoft-v06_00_00_rc2.html)
 
 ## Purpose
 
@@ -191,7 +191,7 @@
 -   2016-04-05 Bruce Baller : Move FillTrajTruth.
 -   2016-04-04 Bruce Baller : Change ChgRat to ChgPull. Remove fAveChg. Add EndMerge, AppendToWork.
 -   2016-04-04 Bruce Baller : Change to ChgPull. Move AveChg from TrajPoint to Trajectory. Add plane ID check in GetHitRange. Add EndMerge. Modify cuts in FindHammerVertices. Fixed missed wire test in StepCrawl. Add stopping particle check in CheckHiDeltas. Change charge weighting scheme for trajectory fit.
--   2016-04-04 Michael Wallbank : Merge branch 'feature/wallbank_EMShowerImprovements' of http://cdcvs.fnal.gov/projects/larreco into feature/wallbank_EMShowerImprovements
+-   2016-04-04 Michael Wallbank : Merge branch 'feature/wallbank_EMShowerImprovements' of https://cdcvs.fnal.gov/projects/larreco into feature/wallbank_EMShowerImprovements
 -   2016-04-04 Michael Wallbank : Merge branch 'develop' into feature/wallbank_EMShowerImprovements
 -   2016-04-01 Bruce Baller : Merge branch 'develop' into feature/bb_TrajCluster
 -   2016-04-01 Bruce Baller : ongoing development

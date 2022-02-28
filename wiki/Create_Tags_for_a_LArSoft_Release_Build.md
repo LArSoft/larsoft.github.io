@@ -75,8 +75,8 @@ On rare occasion, the lar\* templates also need to be updated.
         Only in releaseDB/: larsoft-cfg-08.24.00
         Only in releaseDB/: larsoft-v08_24_00.html
 
-    -   It's also a good idea to check the lar\* files against the files used for the [previous release](http://scisoft.fnal.gov/scisoft/bundles/larsoft/).
+    -   It's also a good idea to check the lar\* files against the files used for the [previous release](https://scisoft.fnal.gov/scisoft/bundles/larsoft/).
 -   cd $MRB_BUILDDIR/larsoft/releaseDB
-    -   curl -O http://scisoft.fnal.gov/scisoft/bundles/tools/copyToSciSoft
+    -   curl -O https://scisoft.fnal.gov/scisoft/bundles/tools/copyToSciSoft
     -   chmod +x copyToSciSoft
     -   copyToSciSoft lar\*

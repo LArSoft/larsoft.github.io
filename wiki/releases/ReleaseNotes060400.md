@@ -3,7 +3,7 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-[Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_04_00/larsoft-v06_04_00.html)
+[Download instructions](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_04_00/larsoft-v06_04_00.html)
 
 ## Purpose
 
@@ -136,7 +136,7 @@
 -   2016-07-25 Steven Gardiner : Adjust starting trackID passed to Geant4 so that all final particles have trackID \>= 1. This ensures that Geant4 will track all of them. The outgoing electrons previously had trackID = 0, and Geant4 appeared to skip them in the simulation.
 -   2016-07-25 Steven Gardiner : Add a TTree of MARLEY events to the “hist” ROOT file produced by the MARLEYGen module. These may be matched to art::Event objects in the “gen” ROOT file by comparing the run, subrun, and event numbers included as other branches in the tree.
 -   2016-07-24 Steven Gardiner : Enable high-precision neutron physics (“NeutronHP” in the FHiCL file custom physics list) so that neutrino-induced neutrons from MARLEY will be tracked more accurately.
--   2016-07-03 Steven Gardiner : Add module that provides an interface to the MARLEY (Model of Argon Reaction Low Energy Yields) event generator for tens-of-MeV neutrinos in liquid argon. For more information, see http://marleygen.org.
+-   2016-07-03 Steven Gardiner : Add module that provides an interface to the MARLEY (Model of Argon Reaction Low Energy Yields) event generator for tens-of-MeV neutrinos in liquid argon. For more information, see https://marleygen.org.
 -   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue \#13513)
 
 ## larevt v06_01_00

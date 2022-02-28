@@ -26,11 +26,11 @@ Quick Start Guides - experiment specific
 
 [Working with GitHub and LArSoft pull requests](Working_with_GitHub)
 
-[Training videos and presentations on LArSoft](http://larsoft.org/training/)
+[Training videos and presentations on LArSoft](https://larsoft.org/training/)
 
-[A video introduction to LArSoft by Ruth Pordes and Erica Snider](http://vms.fnal.gov/w1/Lectures/LarSoft/160805Pordes/index.htm)  
+[A video introduction to LArSoft by Ruth Pordes and Erica Snider](https://vms.fnal.gov/w1/Lectures/LarSoft/160805Pordes/index.htm)  
 [PDF of the paper for the above video](https://indico.cern.ch/event/432527/contributions/1071433/attachments/1319976/1981094/LArSoftICHEP_V05.pdf)
 
 [Presentations in Indico](https://indico.fnal.gov/categoryDisplay.py?categId=233)
 
-[LArSoft documentation from the code (Doxygen)](http://nusoft.fnal.gov/larsoft/doxsvn/html)
+[LArSoft documentation from the code (Doxygen)](https://nusoft.fnal.gov/larsoft/doxsvn/html)

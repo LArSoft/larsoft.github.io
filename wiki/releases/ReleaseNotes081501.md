@@ -3,8 +3,8 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-Download instructions for [larsoft v08_15_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_15_01/larsoft-v08_15_01.html)  
-Download instructions for [just larsoftobj v08_10_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_10_01/larsoftobj-v08_10_01.html)
+Download instructions for [larsoft v08_15_01](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v08_15_01/larsoft-v08_15_01.html)  
+Download instructions for [just larsoftobj v08_10_01](https://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v08_10_01/larsoftobj-v08_10_01.html)
 
 ## Purpose
 
@@ -302,7 +302,7 @@ Download instructions for [just larsoftobj v08_10_01](http://scisoft.fnal.gov/sc
 -   2018-09-26 Lynn Garren : Merge branch 'feature/chalt_dualphasechargedrift' into release/v07_06_02
 -   2018-09-25 Lauren Yates : Merge branch 'develop' into feature/yatesla_MultipleSubrunPOT
 -   2018-09-23 Jason Stock : Opps. Forgot to remove line in makefile pointing to dune when I removed DUNE specific code to get ready for my merge.
--   2018-09-23 Jason Stock : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larsim into develop
+-   2018-09-23 Jason Stock : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larsim into develop
 -   2018-09-23 Jason Stock : Removing code from MCCheater that is DUNE specific before merging with the common branch.
 -   2018-09-21 Jason Stock : Adding checks to a couple functions that require access to the event. These checks will make innappropraite use of these functions fail gracefully (throw with an error message instead of segfault).
 -   2018-09-21 Jason Stock : Fixing an issue with backtracker checks (still waiting on art updates for event caching and service event access).
@@ -1053,7 +1053,7 @@ Download instructions for [just larsoftobj v08_10_01](http://scisoft.fnal.gov/sc
 -   2016-07-25 Steven Gardiner : Adjust starting trackID passed to Geant4 so that all final particles have trackID \>= 1. This ensures that Geant4 will track all of them. The outgoing electrons previously had trackID = 0, and Geant4 appeared to skip them in the simulation.
 -   2016-07-25 Steven Gardiner : Add a TTree of MARLEY events to the “hist” ROOT file produced by the MARLEYGen module. These may be matched to art::Event objects in the “gen” ROOT file by comparing the run, subrun, and event numbers included as other branches in the tree.
 -   2016-07-24 Steven Gardiner : Enable high-precision neutron physics (“NeutronHP” in the FHiCL file custom physics list) so that neutrino-induced neutrons from MARLEY will be tracked more accurately.
--   2016-07-03 Steven Gardiner : Add module that provides an interface to the MARLEY (Model of Argon Reaction Low Energy Yields) event generator for tens-of-MeV neutrinos in liquid argon. For more information, see http://marleygen.org.
+-   2016-07-03 Steven Gardiner : Add module that provides an interface to the MARLEY (Model of Argon Reaction Low Energy Yields) event generator for tens-of-MeV neutrinos in liquid argon. For more information, see https://marleygen.org.
 -   2016-08-16 Gianluca Petrillo : Removed obsolete configuration files (issue \#13513)
 -   2016-08-11 Lynn Garren : larsim v06_02_00 for larsoft v06_03_00
 -   2016-08-11 Lynn Garren : Merge branch 'feature/jpdavies_supernova_truth' into release/v06_03_00
@@ -4997,7 +4997,7 @@ Download instructions for [just larsoftobj v08_10_01](http://scisoft.fnal.gov/sc
 -   2011-11-11 Brian Rebel : comment out kc and khbar until they are needed in order to quiet compiler warnings
 -   2011-11-10 David Mckee : Convert some naive debugging output to use the framework logger.
 -   2011-11-10 David Mckee : Reworked DBScanService now supporting two R\*-tree based methods of clustering. The existing code is still present and accessible my setting Method to 0 in the FCL file.
--   2011-11-10 David Mckee : Provide a R\*-tree implementation to speed up DBSCAN. From http://www.virtualroadside.com/blog/index.php/2008/10/04/r-tree-implementation-for-cpp/
+-   2011-11-10 David Mckee : Provide a R\*-tree implementation to speed up DBSCAN. From https://www.virtualroadside.com/blog/index.php/2008/10/04/r-tree-implementation-for-cpp/
 -   2011-11-10 Brian Rebel : quiet some compiler warnings and add a few comments
 -   2011-11-10 Brian Rebel : fix method to return cryostat boundaries to be in the world coordinates. also add data members to save the cryostat volume and rotation matrix.
 -   2011-11-10 Brian Rebel : add method to TPCGeo to return the drift distance for the TPC.

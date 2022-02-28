@@ -6,17 +6,15 @@
 
 This material is presented in three parts.
 
-[ Part One: Overview and introduction to the NuSonic Triton client library ]( GPU as a Service )
+[ Part One: Overview and introduction to the NuSonic Triton client library ](GPU_as_a_Service)
 
-[Part Two: Setting up the model on the Triton inference server](GPU as a Service part two)
+[Part Two: Setting up the model on the Triton inference server](GPU_as_a_Service_part_two)
 
-[Part Three: Testing the Triton client and model configuration with an inference ](GPU as a Service part three)
+[Part Three: Testing the Triton client and model configuration with an inference ](GPU_as_a_Service_part_three)
 
 ## Local Triton inference server in a Docker container
 
-When developing code using the NuSonic Triton client libraries or setting up the model for deployment on a remote inference server, it is very useful to have a Triton inference server running locally for testing that can be easily configured. Fortunately, this can be done using a Triton Docker image. Detailed instructions on installing the image and running the server can be found here:
-
-https://github.com/triton-inference-server/server/blob/main/docs/quickstart.md
+When developing code using the NuSonic Triton client libraries or setting up the model for deployment on a remote inference server, it is very useful to have a Triton inference server running locally for testing that can be easily configured. Fortunately, this can be done using a Triton Docker image. Detailed instructions on installing the image and running the server can be found [here](https://github.com/triton-inference-server/server/blob/main/docs/quickstart.md)
 
 Although described in detail in the link above, an actual example command for running the Triton Docker image with the server running on an available GPU is:
 

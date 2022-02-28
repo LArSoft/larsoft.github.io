@@ -3,8 +3,8 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-Download instructions for [larsoft v07_06_02](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_06_02/larsoft-v07_06_02.html)  
-Download instructions for [just larsoftobj v07_03_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_03_01/larsoftobj-v07_03_01.html)
+Download instructions for [larsoft v07_06_02](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_06_02/larsoft-v07_06_02.html)  
+Download instructions for [just larsoftobj v07_03_01](https://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_03_01/larsoftobj-v07_03_01.html)
 
 ## Purpose
 
@@ -64,7 +64,7 @@ Download instructions for [just larsoftobj v07_03_01](http://scisoft.fnal.gov/sc
 -   2018-09-26 Lynn Garren : Merge branch 'feature/chalt_dualphasechargedrift' into release/v07_06_02
 -   2018-09-25 Lauren Yates : Merge branch 'develop' into feature/yatesla_MultipleSubrunPOT
 -   2018-09-23 Jason Stock : Opps. Forgot to remove line in makefile pointing to dune when I removed DUNE specific code to get ready for my merge.
--   2018-09-23 Jason Stock : Merge branch 'develop' of http://cdcvs.fnal.gov/projects/larsim into develop
+-   2018-09-23 Jason Stock : Merge branch 'develop' of https://cdcvs.fnal.gov/projects/larsim into develop
 -   2018-09-23 Jason Stock : Removing code from MCCheater that is DUNE specific before merging with the common branch.
 -   2018-09-21 Jason Stock : Adding checks to a couple functions that require access to the event. These checks will make innappropraite use of these functions fail gracefully (throw with an error message instead of segfault).
 -   2018-09-21 Jason Stock : Fixing an issue with backtracker checks (still waiting on art updates for event caching and service event access).

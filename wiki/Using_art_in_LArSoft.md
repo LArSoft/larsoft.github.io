@@ -4,7 +4,7 @@
 
 The *art* framework interface makes use of the following basic ideas - all the algorithms are stored in modules and the event information is accessed using objects living in the art namespace. The I/O uses ROOT, but it is not based on `TObject`.
 
-For information on using *art*, please examine the [art workbook](http://art.fnal.gov/art-workbook/). It may also be useful to issue the command `art --help`.
+For information on using *art*, please examine the [art workbook](https://art.fnal.gov/art-workbook/). It may also be useful to issue the command `art --help`.
 
 ## Basic Concepts
 
@@ -240,7 +240,7 @@ Here is another:
 ### FHiCL configuration: `fhicl::ParameterSet` and `fhicl::Table`
 
 Either objects keep track of the configuration passed to the current *art* module or service.  
-The configuration is read from files in a specific language, [FHiCL](https://cdcvs.fnal.gov/redmine/documents/327), and *art* distributes to each module and service the chunk of configuration that pertains that module and service. For examples on using FHiCL, please read/listen to the information available at: http://larsoft.org/configuration/
+The configuration is read from files in a specific language, [FHiCL](https://cdcvs.fnal.gov/redmine/documents/327), and *art* distributes to each module and service the chunk of configuration that pertains that module and service. For examples on using FHiCL, please read/listen to the information available at: https://larsoft.org/configuration/
 
 The interpretation of that information can follow one of two possible approaches:
 
@@ -433,7 +433,7 @@ If instead, you want to add some message printing for info level messages you ca
 ### art::Exception
 
 art::Exception is defined in canvas (./canvas/Utilities/Exception.h).  
-[Doxygen source file](http://nusoft.fnal.gov/larsoft/doxsvn/html/Exception_8h_source.html)
+[Doxygen source file](https://nusoft.fnal.gov/larsoft/doxsvn/html/Exception_8h_source.html)
 
 The use of the art::Exception can be configured to skip a module, or skip to the next event, run, etc. Different exception classes can be set to do different things. Since LArSoft is built upon art, the art::Exception is preferred to the cet::exception.
 
@@ -505,13 +505,13 @@ To make use of the associations and retrieve objects from the file, one would do
     }
 ```
 
-One can also use the art::FindOne and art::FindOneP, see the detailed description on how to use art::Assns is [here.](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Inter-Product_References) The art::FindOne returns a cet::maybe_ref, whose interface is defined [here.](http://cdcvs.fnal.gov/lxr/cetlib/source/cetlib/maybe_ref.h#044) The cet::maybe_ref can be tested for validity, allowing a user to be sure a valid association was created.
+One can also use the art::FindOne and art::FindOneP, see the detailed description on how to use art::Assns is [here.](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Inter-Product_References) The art::FindOne returns a cet::maybe_ref, whose interface is defined [here.](https://cdcvs.fnal.gov/lxr/cetlib/source/cetlib/maybe_ref.h#044) The cet::maybe_ref can be tested for validity, allowing a user to be sure a valid association was created.
 
 **NB** The art::FindMany(P) and art::FindOne(P) are smart query objects and should only be instantiated once for a given collection. If they are instantiated once for each item in a art::Handle, art::PtrVector, art::View or std::vector\< art::Ptr<T> \> then a heavy performance price will be paid as a lookup table is made multiple times.
 
 ### art::RandomNumberGenerator Service
 
-A nice description of how to use this service can be found [here](http://mu2e.fnal.gov/public/hep/computing/Random.shtml). Note that this write up is for the older fw implementation of art, but there are only minor differences.
+A nice description of how to use this service can be found [here](https://mu2e.fnal.gov/public/hep/computing/Random.shtml). Note that this write up is for the older fw implementation of art, but there are only minor differences.
 
 To store the [state](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Persistency/Common/RNGsnapshot.h) of the random number engines for each event one must add the RandomNumberSaver module to the list of physics producers to be run by the job. The necessary line to add to the fcl file is
 

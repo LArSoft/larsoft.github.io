@@ -1,6 +1,6 @@
 # Getting LArSoft
 
-You may either download binaries to your computer from [SciSoft](http://scisoft.fnal.gov/scisoft/bundles/larsoft/) or mount the cvmfs distribution. If you have a stable internet connection, you will probably be happy with cvmfs.
+You may either download binaries to your computer from [SciSoft](https://scisoft.fnal.gov/scisoft/bundles/larsoft/) or mount the cvmfs distribution. If you have a stable internet connection, you will probably be happy with cvmfs.
 
 ## Installation Procedures
 

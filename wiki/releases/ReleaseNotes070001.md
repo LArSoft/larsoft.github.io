@@ -3,8 +3,8 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-Download instructions for [larsoft v07_00_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_00_01/larsoft-v07_00_01.html)  
-Download instructions for [just larsoftobj v07_00_01](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_00_01/larsoftobj-v07_00_01.html)
+Download instructions for [larsoft v07_00_01](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v07_00_01/larsoft-v07_00_01.html)  
+Download instructions for [just larsoftobj v07_00_01](https://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v07_00_01/larsoftobj-v07_00_01.html)
 
 ## Purpose Weekly integration release
 

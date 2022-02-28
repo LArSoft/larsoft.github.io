@@ -3,7 +3,7 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-[Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc6/larsoft-v06_00_00_rc6.html)
+[Download instructions](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc6/larsoft-v06_00_00_rc6.html)
 
 ## Purpose
 

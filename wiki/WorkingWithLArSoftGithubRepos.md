@@ -12,7 +12,7 @@ In the following:
 
 ## Where are the primary LArSoft repositories?
 
-The LArSoft repositories are owned by the LArSoft organization on Github: http://github.com/LArSoft
+The LArSoft repositories are owned by the LArSoft organization on Github: https://github.com/LArSoft
 
 ## How do I join GitHub and configure my personal GitHub account?
 

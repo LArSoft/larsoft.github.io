@@ -3,7 +3,7 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-[Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_05_00/larsoft-v04_05_00.html)
+[Download instructions](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v04_05_00/larsoft-v04_05_00.html)
 
 ## Purpose
 
@@ -137,24 +137,24 @@
 -   2015-03-25 Alex Himmel : Add this new data product to the dictionary, modify as necessary to place nice with ROOT.
 -   2015-03-25 Alex Himmel : Rename for (slightly) less verbosity.
 -   2015-03-23 Gleb Sinev : this -> -this in Waveform() in RawOpDetWaveform.h.
--   2015-03-23 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of http://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
+-   2015-03-23 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of https://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
 -   2015-03-23 Alex Himmel : Reverse order of constructor arguments to better match pre-existing object.
 -   2015-03-23 Alex Himmel : Use a double to store absolute time in us, which is unambiguous across experiments.
--   2015-03-23 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of http://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
+-   2015-03-23 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of https://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
 -   2015-03-23 Alex Himmel : Bugfix.
--   2015-03-23 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of http://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
+-   2015-03-23 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of https://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
 -   2015-03-23 Alex Himmel : Add a new data product to store raw optical waveforms.
 -   2015-03-23 Alex Himmel : Revert “Update classes_def.xml.”
 -   2015-03-23 Alex Himmel : Revert “A first attempt at re-designing the OpticalRawDigit to be less uboone-specific.”
--   2015-03-23 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of http://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
+-   2015-03-23 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of https://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
 -   2015-03-23 Alex Himmel : Merge remote-tracking branch 'origin/develop' into feature/SharedOpticalRawDigit
 -   2015-03-17 Tingjun Yang : Update classes_def.xml.
 -   2015-03-17 Tingjun Yang : Merge branch 'develop' into feature/SharedOpticalRawDigit
 -   2015-03-13 Alex Himmel : Restore original definition of TimeSlice_t
 -   2015-03-13 Alex Himmel : Merge tag v04_00_03 into feature/SharedOpticalRawDigit.
--   2015-03-04 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of http://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
+-   2015-03-04 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of https://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
 -   2015-03-04 Alex Himmel : Merge remote-tracking branch 'origin/develop' into feature/SharedOpticalRawDigit
--   2015-02-20 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of http://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
+-   2015-02-20 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of https://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
 -   2015-01-30 Alex Himmel : A first attempt at re-designing the OpticalRawDigit to be less uboone-specific. - Inverted the inheritance so now FIFOChannel is derived from OpticalRawDigit. - OpticalRawDigit now has just a time, a channel, and the waveform. - A Frame() function which just returns zero is kept for now so that algorithms which expect multiple frames can still be used. May want to deprecate this out in the future as algorithms are developed. - TimeSlice_t was made an unsigned long so it can hold the 64 bit NOvA-type time stamp used in the LBNE electronics.
 -   2015-01-30 Alex Himmel : A first attempt at re-designing the OpticalRawDigit to be less uboone-specific. - Inverted the inheritance so now FIFOChannel is derived from OpticalRawDigit. - OpticalRawDigit now has just a time, a channel, and the waveform. - A Frame() function which just returns zero is kept for now so that algorithms which expect multiple frames can still be used. May want to deprecate this out in the future as algorithms are developed. - TimeSlice_t was made an unsigned long so it can hold the 64 bit NOvA-type time stamp used in the LBNE electronics.
 

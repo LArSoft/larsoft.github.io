@@ -6,10 +6,10 @@ e10 and e15 qualified versions of igprof are available.
 
     $> cd $HOME
     $> mkdir products
-    $> wget http://scisoft.fnal.gov/scisoft/packages/ups/v5_2_0/ups-5.2.0-Linux64bit%2B2.6-2.12.tar.bz2
+    $> wget https://scisoft.fnal.gov/scisoft/packages/ups/v5_2_0/ups-5.2.0-Linux64bit%2B2.6-2.12.tar.bz2
     $> tar xf ups-5.2.0-Linux64bit+2.6-2.12.tar.bz2
     $> rm ups-5.2.0-Linux64bit+2.6-2.12.tar.bz2
-    $> wget http://scisoft.fnal.gov/scisoft/packages/igprof/v5_9_16b/igprof-5.9.16b-slf6-x86_64-e15.tar.bz2
+    $> wget https://scisoft.fnal.gov/scisoft/packages/igprof/v5_9_16b/igprof-5.9.16b-slf6-x86_64-e15.tar.bz2
     $> tar xf igprof-5.9.16b-slf6-x86_64-e15.tar.bz2
     $> rm igprof-5.9.16b-slf6-x86_64-e15.tar.bz2
 
@@ -33,7 +33,7 @@ Other useful options:
 -   To produce the text file of the report,
         igprof-analyse -d -v -g igprof_lar.gz >&amp; igprof_lar.res
 
-    how to interpret the ascii report, see [IgProf output format](http://igprof.org/text-output-format.html)
+    how to interpret the ascii report, see [IgProf output format](https://igprof.org/text-output-format.html)
 
 <!-- -->
 
@@ -44,12 +44,12 @@ Other useful options:
         -   MEM_TOTAL: the total amount of memory allocated by any function - a snapshot of poor memory locality
         -   MEM_LIVE: memory that has not been freed - snapshot of the heap, i.e. a heap profile.
         -   MEM_MAX: the largest single allocation by any function
-    -   to navigate profiling reports on web, see instruction at [IgProf analysis](http://igprof.org/analysis.html)  
+    -   to navigate profiling reports on web, see instruction at [IgProf analysis](https://igprof.org/analysis.html)  
         and a [dunetpc example page](https://g4cpt.fnal.gov/larsoft/dunetpc_v06_57_00/igprof.html)
 
 5\. Related links
 
--   [IgProf home page](http://igprof.org/)
--   installation: see [installation instructions](http://igprof.org/install.html)
+-   [IgProf home page](https://igprof.org/)
+-   installation: see [installation instructions](https://igprof.org/install.html)
 
 For a more recent example, see [ProtoDUNE profiling](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00)#Profiling-memory-and-CPU-performance)

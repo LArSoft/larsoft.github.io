@@ -15,14 +15,14 @@
 | a simple service, with experiment-specific implementations                       | `ShowerCalibrationGalore`                                           | larexamples:source:larexamples/Services/ShowerCalibrationGalore                |                                                                     |                                                |
 | similar to `ShowerCalibrationGalore`, but needs to know about new run and events | `TBD3`                                                              | nowhere yet                                                                    |                                                                     |                                                |
 | algorithm + module                                                               | a trivial reconstruction algorithm using services, with a unit test | `RemoveIsolatedSpacePoints`                                                    | larexamples:source:larexamples/Algorithms/RemoveIsolatedSpacePoints |                                                |
-| a trivial producer module with a integration test                                |                                                                     | will appear in the [*art* workbook](http://art.fnal.gov/art-workbook-versions) |                                                                     |                                                |
+| a trivial producer module with a integration test                                |                                                                     | will appear in the [*art* workbook](https://art.fnal.gov/art-workbook-versions) |                                                                     |                                                |
 | a trivial producer module with a `lar_ci` integration test                       | `TBD5`                                                              | nowhere yet                                                                    |                                                                     |                                                |
 | a module producing a new data product and its associations                       | `TotallyCheatTracks`                                                | larexamples:source:larexamples/Algorithms/TotallyCheatTracks                   |                                                                     |                                                |
 | analysis module                                                                  | [ accesses reconstructed and simulated data]( AnalysisExample                                                )                                  | `AnalysisExample`                                                   | larexamples:source:larexamples/AnalysisExample |
 
 Tests are in the matching `test/...` directory (for example, a service in `larexamples/Services/AtomicNumber/Services` will have its tests in `test/Services/AtomicNumberService/Services`).
 
-A [section in LArSoft doxygen page](http://nusoft.fnal.gov/larsoft/doxsvn/html/modules.html) also lists most of the examples.
+A [section in LArSoft doxygen page](https://nusoft.fnal.gov/larsoft/doxsvn/html/modules.html) also lists most of the examples.
 
 ## Services
 

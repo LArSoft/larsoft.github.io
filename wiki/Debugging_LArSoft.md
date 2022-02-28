@@ -63,7 +63,7 @@ The packages in UPS ship with source code all right, and it's only matter of tel
 (one per line). TotalView can use environment directories, and things like `NUTOOLS_DIR` are set up by UPS already. Enclosing them in `$tree()` makes TotalView search not only that directory but also the subdirectories.  
 At that point the assembler code yields to some C code and everything is brighter.
 
-## Instructions for [totalview](http://www.roguewave.com/support/product-documentation/totalview-family.aspx#totalview) GUI debugging
+## Instructions for [totalview](https://www.roguewave.com/support/product-documentation/totalview-family.aspx#totalview) GUI debugging
 
 To run totalview do
 

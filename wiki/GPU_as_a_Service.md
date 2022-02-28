@@ -200,4 +200,4 @@ Finally, one must remember to reset the Triton client before repeating the steps
          triton_client->reset();
 ```
 
-### In [GPU as a Service Part 2](GPU as a Service part two), we explain how to set up an inference model in the GPU server.
+### In [GPU as a Service Part 2](GPU_as_a_Service_part_two), we explain how to set up an inference model in the GPU server.

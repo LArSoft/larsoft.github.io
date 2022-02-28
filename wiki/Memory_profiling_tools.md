@@ -7,12 +7,12 @@
 -   open source
 -   mature
 -   does not require recompilation (debugging symbols are used if present)
--   user guide: http://valgrind.org/docs/manual/manual.html
+-   user guide: https://valgrind.org/docs/manual/manual.html
 
 is a way to determine which method is using the most resources in a job.  
-A `valgrind` binary is now distributed with [LArSoft bundle](http://scisoft.fnal.gov/scisoft/bundles/larsoft): you can set it up with `setup valgrind v3_13_0` (or the right version: ask `ups list -aK+ valgrind`). Check out [instructions](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Getting started with valgrind) at project:art wiki as well.
+A `valgrind` binary is now distributed with [LArSoft bundle](https://scisoft.fnal.gov/scisoft/bundles/larsoft): you can set it up with `setup valgrind v3_13_0` (or the right version: ask `ups list -aK+ valgrind`). Check out [instructions](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Getting started with valgrind) at project:art wiki as well.
 
-To get the latest version of valgrind (which at the time of writing, 20170808, is 3.13.0), instead, [download](http://valgrind.org/downloads/current.html) and install valgrind in your home directory:
+To get the latest version of valgrind (which at the time of writing, 20170808, is 3.13.0), instead, [download](https://valgrind.org/downloads/current.html) and install valgrind in your home directory:
 
     # Download valgrind
     tar xjvf valgrind-<version>.tar.bz2
@@ -24,7 +24,7 @@ This will install valgrind in `~/bin` and `~/lib` of your account.
 
 ## Memory leaks
 
-[Valgrind](http://valgrind.org/docs/manual/manual.html) is actually a suite of tools. The default tool is [memcheck](http://valgrind.org/docs/manual/mc-manual.html), which hunts for memory leaks:
+[Valgrind](https://valgrind.org/docs/manual/manual.html) is actually a suite of tools. The default tool is [memcheck](https://valgrind.org/docs/manual/mc-manual.html), which hunts for memory leaks:
 
     valgrind `which lar` -c prodgenie.fcl | tee memcheck.txt
 
@@ -44,7 +44,7 @@ The *memcheck* tool should also be supported by `larrun.sh` as `larrun.sh --memc
 
 ## Memory use
 
-If you're looking for which part of your program is using large chunks of memory, the appropriate tool is [massif](http://valgrind.org/docs/manual/ms-manual.html).
+If you're looking for which part of your program is using large chunks of memory, the appropriate tool is [massif](https://valgrind.org/docs/manual/ms-manual.html).
 
     valgrind --tool=massif --time-unit=B `which lar` -c prodgenie.fcl | tee massif.txt
 
@@ -66,7 +66,7 @@ The largest figure in `/proc/PID/status` (&ldquo;VmSize&amp;rdquo;) includes sha
 
 ## Execution speed
 
-If one is looking for which portions of the program are being called most often, the appropriate tool is [callgrind](http://valgrind.org/docs/manual/cl-manual.html).
+If one is looking for which portions of the program are being called most often, the appropriate tool is [callgrind](https://valgrind.org/docs/manual/cl-manual.html).
 
     valgrind --tool=callgrind  `which lar` -c prodgenie.fcl | tee callgrind.txt
 

@@ -1,10 +1,10 @@
 # The developer environment
 
-As mentioned elsewhere, all LArSoft code is archived in a set of repositories based on the [git version control system](http://git-scm.com/). There are numerous resources on the web on how to use git, starting with the authoritative [Pro Git Book](http://git-scm.com/book) and [git reference manual](http://git-scm.com/docs) provided on the official git website. A search on “git documentation” yields many more.
+As mentioned elsewhere, all LArSoft code is archived in a set of repositories based on the [git version control system](https://git-scm.com/). There are numerous resources on the web on how to use git, starting with the authoritative [Pro Git Book](https://git-scm.com/book) and [git reference manual](https://git-scm.com/docs) provided on the official git website. A search on “git documentation” yields many more.
 
 Fermilab maintains what we will refer to as the set of “reference” repositories. This code in these repositories will be considered the authoritative copy of LArSoft.
 
-The LArSoft project has adopted the git branching model described by Vincent Driessen at [nvie.com](http://nvie.com/posts/a-successful-git-branching-model) to assist with managing the development workflow and maintaining a stable development environment. Within this framework, the git repositories have the following branch structure:
+The LArSoft project has adopted the git branching model described by Vincent Driessen at [nvie.com](https://nvie.com/posts/a-successful-git-branching-model) to assist with managing the development workflow and maintaining a stable development environment. Within this framework, the git repositories have the following branch structure:
 
 -   A “main” branch that will have only tagged releases. Used only by the software manager.
 -   A “develop” branch that will have the working head of the repository. Used by all developers.

@@ -158,7 +158,7 @@ The details of the follow-up work, as for the code analysis meetings, should be 
 
 ## Reference
 
-The above process is based on the recommendations at http://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=5765 which modified the original process discussed at  
+The above process is based on the recommendations at https://cd-docdb.fnal.gov/cgi-bin/ShowDocument?docid=5765 which modified the original process discussed at  
 https://indico.fnal.gov/event/11891/contributions/10470/attachments/6858/8894/larsoft-steering-group-code-review-ideas-2016-04-08.pdf
 
 ## History

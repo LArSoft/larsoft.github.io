@@ -1,6 +1,6 @@
 # Guidelines on using the geometry
 
-Detailed information is available on the [Geometry Package](Geometry_Package) and at http://larsoft.org/important-concepts-in-larsoft/geometry/
+Detailed information is available on the [Geometry Package](Geometry_Package) and at https://larsoft.org/important-concepts-in-larsoft/geometry/
 
 -   always use complete ID classes to identify a part of the detector; for example, identify a plane with a `geo::PlaneID`, that also includes information about the cryostat and TPC the plane belongs to, rather than the simple plane index in the TPC; complete ID types are defined in `SimpleTypesAndConstants/geo_types.h` in `larcore`
     -   use geometry methods that have geometry IDs as arguments: prefer `geo::GeometryCore::Nplanes(geo::TPCID const&amp;)` to `geo::GeometryCore::Nplanes()`, as the latter will use a very specific TPC, and the choice of which one is beyond your control

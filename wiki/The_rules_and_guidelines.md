@@ -8,7 +8,7 @@ This is a working set of rules and guidelines. Suggestions for improvements are 
 
 1.  All data formats which are a) stored in the output file, b) passed between job control modules or c) written to `histos.root` should be generalizable for N wire planes and / or M PMTs. Obviously, the number of wires N_w per plane must be generalizable.
     -   No fixed size arrays for things that relate to planes, wires, PMTs, number of TPCs.
-    -   No “Induction” and “Collection” data members in base classes for reconstruction or simulation. (For usability it is acceptable to have `GetCollectionPlane()` and `GetInductionPlane()` as methods of the class to return, for example, the first and last wire plane). One can test whether a plane is induction or collection using the [Geometry interface](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1GeometryCore.html) already, [`geo::PlaneGeo::SignalType()`](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1PlaneGeo.html#afee6843450e4e10af008a8dbce02d7b3), so if you have a plane number you can ask the Geometry if it is induction or collection.
+    -   No “Induction” and “Collection” data members in base classes for reconstruction or simulation. (For usability it is acceptable to have `GetCollectionPlane()` and `GetInductionPlane()` as methods of the class to return, for example, the first and last wire plane). One can test whether a plane is induction or collection using the [Geometry interface](https://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1GeometryCore.html) already, [`geo::PlaneGeo::SignalType()`](https://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1PlaneGeo.html#afee6843450e4e10af008a8dbce02d7b3), so if you have a plane number you can ask the Geometry if it is induction or collection.
     -   No hard-coded assumptions in data containers about positions, spacings, etc. That information should only come from the Geometry, as is stated in the Geometry package documentation.
 2.  An example of something that breaks from the N+M generalizability guideline is the front end electronics simulation. That will be specific to a given detector. So for that simulation it is ok, but still not great practice and certainly not to be encouraged. That is the last step of the simulation. But, in the Geant4 and all other parts of the simulation, keep it detector agnostic.
 3.  All reconstruction code should be written as generally as possible. Setting up the data ready to be processed should be done for N planes. Output should be given for N planes. Actually developing the algorithm to run for N planes may be more difficult – in this case, the package developer should:
@@ -18,7 +18,7 @@ This is a working set of rules and guidelines. Suggestions for improvements are 
 
 ## Configuration
 
-All LArSoft users are expected to follow the guidelines for developing configurations and configuration-aware C code as described at http://larsoft.org/configuration/ which includes two presentations, one with video.
+All LArSoft users are expected to follow the guidelines for developing configurations and configuration-aware C code as described at https://larsoft.org/configuration/ which includes two presentations, one with video.
 
 ## Coding Conventions
 
@@ -30,7 +30,7 @@ Conventions to keep in mind when writing code for LArSoft include the following:
 4.  Variable names should be reasonably descriptive for the scope in which they are used - `i` is ok in a small for loop, not ok in one spanning 20 lines or more.
 5.  Typedefs for predefined types are discouraged, i.e. `typedef int Int_t`, `typedef std::vector<double> dubvec`. Typedefs should be reserved for legitimate new types, i.e., `Origin_t` in `SimulationBase/MCTruth.h`.
 6.  **Comments are mandatory** - each new object should have a description of its purpose in the header file.
-7.  Comments should be of a format that enables [doxygen](http://www.stack.nl/~dimitri/doxygen/docblocks.html) to interpret them.
+7.  Comments should be of a format that enables [doxygen](https://www.stack.nl/~dimitri/doxygen/docblocks.html) to interpret them.
 8.  Use the [message facility](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility) (see also its [configuration tutorial](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Tutorial_for_MessageFacility_v12_Configuration)) for output to the screen.
 9.  Non-module classes should use consistent header and implementation file names, e.g., al algorithm implemented in class `MyAlgo` should be written into `MyAlgo.h` and `MyAlgo.cxx`.
 10. Module types and file names should be consistent. For example, a module named `MyModule` should be declared, defined, and implemented in `MyModule_module.cc`.

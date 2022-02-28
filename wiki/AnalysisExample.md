@@ -6,16 +6,16 @@ This page goes along with the [AnalysisExample](https://cdcvs.fnal.gov/redmine/p
 
 #### Assumptions
 
-- You are moderately familiar with [UNIX](http://unix.t-a-y-l-o-r.com/index.html).  
-- You have a passing acquaintance with [ROOT](http://root.cern.ch).  
+- You are moderately familiar with [UNIX](https://unix.t-a-y-l-o-r.com/index.html).  
+- You have a passing acquaintance with [ROOT](https://root.cern.ch).  
 - You've at least glanced at some of the other pages in this wiki.  
-- You're willing to roll up your sleeves and get your hands dirty with [C](http://www.cplusplus.com/doc/tutorial/) and [STL](http://www.cs.brown.edu/people/jak/proglang/cpp/stltut/tut.html).  
+- You're willing to roll up your sleeves and get your hands dirty with [C](https://www.cplusplus.com/doc/tutorial/) and [STL](https://www.cs.brown.edu/people/jak/proglang/cpp/stltut/tut.html).  
 - You're working with a file that contains LArSoft art::Event records.  
 - Your goal is to analyze a file created by the LArSoft package, or perhaps try to understand some basic LArSoft concepts.
 
 #### Cautions
 
-- If you've been given a file that contains a ROOT n-tuple, then you don't need this page. Just start using ROOT (there's a nice [tutorial](http://www.nevis.columbia.edu/~seligman/root-class/)) and work with the n-tuple.
+- If you've been given a file that contains a ROOT n-tuple, then you don't need this page. Just start using ROOT (there's a nice [tutorial](https://www.nevis.columbia.edu/~seligman/root-class/)) and work with the n-tuple.
 
 - If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You'll learn something about the development environment and how to read data from LArSoft event records; you won't learn how to [create producer or filter packages](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#artEDProducer), how to [write data](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#artAssns), how to [save your work in a git repository](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide), etc. You probably want to read [Developing with LArSoft](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Developing_With_LArSoft) instead.
 
@@ -25,7 +25,7 @@ Aside from AnalysisExample, there are other packages you may want to consider fo
 
 - [AnalysisTree](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/AnalysisTree_variables#What-is-AnalysisTree) is primarily meant for MicroBooNE users. It reads a file of events and creates a generic n-tuple. The n-tuple is fairly complete, and there's a good chance that the data you're looking for is in there. However, AnalysisTree's n-tuple does not have every bit of data recorded in LArSoft (e.g., the sim::SimChannel information used to derive dE/dx in AnalysisExample).
 
-- [LArLite](http://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=3183) is a MicroBooNE-based tool for simplified data analysis on LArSoft events. It's more user-friendly than LArSoft. However, LArSoft event files have to be converted into LArLite's format before you can use the tool. Also, as with AnalysisTree, not every data item is copied from a LArSoft event record into a LArLite file (though the developer Kazuhiro Terao responds to requests very quickly).
+- [LArLite](https://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=3183) is a MicroBooNE-based tool for simplified data analysis on LArSoft events. It's more user-friendly than LArSoft. However, LArSoft event files have to be converted into LArLite's format before you can use the tool. Also, as with AnalysisTree, not every data item is copied from a LArSoft event record into a LArLite file (though the developer Kazuhiro Terao responds to requests very quickly).
 
 - [Gallery](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/) is a package for reading files that contain art::Event records. The package itself does not depend on art, and can be simply run without using FHiCL files and the like. There are some nice examples of how to use Gallery [here](https://github.com/marcpaterno/gallery-demo). However, you have to be familiar with [art input protocols](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft) (as demonstrated in the AnalysisExample code). Also, Gallery does not support art Services and Algorithms; you have to use other tools if you need access to, for example, detector information or simulation parameters (also demonstrated in AnalysisExample).
 
@@ -192,7 +192,7 @@ Instead of writing a new product from scratch, we're going to copy AnalysisExamp
 
 ### Change the name
 
-We've copied the package. Now we have to copy and edit the CMakeLists.txt files for the new product and for the products on which it depends. I'm going to use the UNIX utility [sed](http://www.grymoire.com/Unix/Sed.html) to make the changes.
+We've copied the package. Now we have to copy and edit the CMakeLists.txt files for the new product and for the products on which it depends. I'm going to use the UNIX utility [sed](https://www.grymoire.com/Unix/Sed.html) to make the changes.
 
     # Copy the larexamples/AnalysisExample CMakeLists.txt files
     cp -v ${MRB_SOURCE}/larexamples/CMakeLists.txt ${MRB_SOURCE}/${myProject}
@@ -305,9 +305,9 @@ Here's what I do when I login (I work on MicroBooNE):
 
 The following resources may help you with ROOT:
 
-- [ROOT web site](http://root.cern.ch/)  
-- [ROOT User's Guide](http://root.cern.ch/drupal/content/users-guide)  
-- the Nevis [ROOT tutorial](http://www.nevis.columbia.edu/~seligman/root-class/)
+- [ROOT web site](https://root.cern.ch/)  
+- [ROOT User's Guide](https://root.cern.ch/drupal/content/users-guide)  
+- the Nevis [ROOT tutorial](https://www.nevis.columbia.edu/~seligman/root-class/)
 
 In addition to this, you'll probably have to become a “code detective” and use the code and comments in other packages to understand what to do in your own code.
 
@@ -334,7 +334,7 @@ Good luck!
 ## Other links
 
 [Using ART in LArSoft](Using_art_in_LArSoft)  
-[Doxgen LArSoft documentation](http://nusoft.fnal.gov/larsoft/doxsvn/html/)  
+[Doxgen LArSoft documentation](https://nusoft.fnal.gov/larsoft/doxsvn/html/)  
 [Running jobs](Running_Jobs)  
 [FHiCL Configuration validation](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/Configuration_validation_and_fhiclcpp_types)  
 [FHiCL Configuration description](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Configuration_validation_and_description)

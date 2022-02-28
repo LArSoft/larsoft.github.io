@@ -2,7 +2,7 @@
 
 ## Unsigned comparison, and `std::abs()` ambiguity
 
-There are [clear rules in C](http://en.cppreference.com/w/cpp/language/operator_arithmetic), which are not always intuitive, about what type comes out of arithmetic operations between different types. Some are listed in this table:
+There are [clear rules in C](https://en.cppreference.com/w/cpp/language/operator_arithmetic), which are not always intuitive, about what type comes out of arithmetic operations between different types. Some are listed in this table:
 
 |                 *op1*                 |                 *op2*                 |             *op1* + *op2*             |
 |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|

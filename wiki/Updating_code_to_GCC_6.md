@@ -133,7 +133,7 @@ Here is a simple example of a missing header. This particular problem can be res
 
   
 Missing headers are not always this easy to spot. See \#16112 for another example.  
-This site can be very helpful in identifying the correct C header: http://en.cppreference.com/w/cpp/algorithm
+This site can be very helpful in identifying the correct C header: https://en.cppreference.com/w/cpp/algorithm
 
 ## Missing parenthesis
 

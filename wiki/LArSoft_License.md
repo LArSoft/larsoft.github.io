@@ -2,7 +2,7 @@
 
 
 
-LArSoft proposes using the [Apache v2](http://www.apache.org/licenses/LICENSE-2.0) license. This page contains a list of products that larsoft links against.
+LArSoft proposes using the [Apache v2](https://www.apache.org/licenses/LICENSE-2.0) license. This page contains a list of products that larsoft links against.
 
 **THIS PAGE NEEDS UPDATING**
 
@@ -79,7 +79,7 @@ LArSoft proposes using the [Apache v2](http://www.apache.org/licenses/LICENSE-2.
 -   “cry” “v1_7k”
     -   https://nuclear.llnl.gov/simulation/
 -   “geant4” “v4_10_3_p03c”
-    -   http://geant4.web.cern.ch/
+    -   https://geant4.web.cern.ch/
 -   “xerces_c” “v3_2_0a”
     -   https://xerces.apache.org/
 
@@ -132,7 +132,7 @@ The art framework is under the [BSD license](https://cdcvs.fnal.gov/redmine/proj
 -   “gcc” “v7_3_0”
     -   https://gcc.gnu.org/
 -   “clang” “v5_0_1”
-    -   http://llvm.org/
+    -   https://llvm.org/
 -   “boost” “v1_66_0a”
     -   https://www.boost.org/
 -   “sqlite” “v3_20_01_00”
@@ -144,13 +144,13 @@ The art framework is under the [BSD license](https://cdcvs.fnal.gov/redmine/proj
 -   “cppunit” “v1_13_2c”
     -   https://dev-www.libreoffice.org/src/cppunit/
 -   “clhep” “v2_3_4_6”
-    -   http://proj-clhep.web.cern.ch/proj-clhep/
+    -   https://proj-clhep.web.cern.ch/proj-clhep/
 -   “range” “v3_0_3_0”
     -   https://github.com/ericniebler/range-v3
 -   “root” “v6_12_06a”
     -   https://root.cern.ch/
 -   “fftw” “v3_3_6_pl2”
-    -   http://www.fftw.org/
+    -   https://www.fftw.org/
 -   “gsl” “v2_4”
     -   https://www.gnu.org/software/gsl/
 -   “pythia” “v6_4_28k”
@@ -158,11 +158,11 @@ The art framework is under the [BSD license](https://cdcvs.fnal.gov/redmine/proj
 -   “postgresql” “v9_6_6a”
     -   https://www.postgresql.org/
 -   pyscopg
-    -   http://initd.org/psycopg/
+    -   https://initd.org/psycopg/
 -   “mysql_client” “v5_5_58a”
     -   https://www.mysql.com/
     -   https://dev.mysql.com/downloads/mysql/
 -   “libxml2” “v2_9_5”
-    -   http://xmlsoft.org/
+    -   https://xmlsoft.org/
 -   “xrootd” “v4_8_0b”
-    -   http://xrootd.org/
+    -   https://xrootd.org/

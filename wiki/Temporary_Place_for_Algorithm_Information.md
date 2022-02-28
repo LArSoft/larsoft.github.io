@@ -21,4 +21,4 @@ Algorithm Category (may select multiple categories)
 3D hit reconstruction  
 Other
 
-Remember, once you complete this information, please send an email to Katherine Lato to have this information appear at http://larsoft.org/list
+Remember, once you complete this information, please send an email to Katherine Lato to have this information appear at https://larsoft.org/list

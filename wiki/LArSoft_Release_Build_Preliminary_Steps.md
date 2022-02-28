@@ -20,7 +20,7 @@ Send an announcement to the larsoft mailing list listing any feature branches wh
     -   This package replaces laradmin
     -   By default, only the scripts used when building patch releases are in the path.
 -   The latest release of larreltools will be available on larsoft cvmfs
--   larreltools is available from [SciSoft](http://scisoft.fnal.gov/scisoft/packages/larreltools/)
+-   larreltools is available from [SciSoft](https://scisoft.fnal.gov/scisoft/packages/larreltools/)
 
 ## Make a new working directory and checkout the code
 

@@ -32,7 +32,7 @@
 Some pages in LArSoft have a combination of useful and out-of-date information. It would be good to at least remove the out-of-date material, even better would be to update it. The following is a list. Feel free to revise any of the pages and suggest where they should go. (Note, some information may belong partly on larsoft.org and partly in redmine.)
 
 -   [OBSOLETE Using LArSoft on the GPVM nodes](OBSOLETE_Using_LArSoft_on_the_GPVM_nodes) - review and update (and place in \[\[Developing with LArSoft\]\] or \[\[Using LArSoft\]\])
--   [Geometry](Geometry) - should this be split between [larsoft.org](http://larsoft.org/important-concepts-in-larsoft/geometry/) and \[\[Developing with LArSoft\]\] could be under Designing, or under Examples.
+-   [Geometry](Geometry) - should this be split between [larsoft.org](https://larsoft.org/important-concepts-in-larsoft/geometry/) and \[\[Developing with LArSoft\]\] could be under Designing, or under Examples.
 -   [Reconstruction](Reconstruction) - merge into larsoft.org?
 -   [Simulation](Simulation) - update code references, split?
 -   [Space Points](Space_Points) - out of date?

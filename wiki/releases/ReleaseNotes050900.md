@@ -3,7 +3,7 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-[Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_09_00/larsoft-v05_09_00.html)
+[Download instructions](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v05_09_00/larsoft-v05_09_00.html)
 
 ## Purpose
 
@@ -100,7 +100,7 @@
 -   2016-04-07 Michael Wallbank : Improve the identification of a 2D bad view before making the 3D showers. During the course of today I've realised the current method is far far from optimal and needs serious reconsideration. Next week I'll come back to this…
 -   2016-04-06 Michael Wallbank : Hugely improved the dynamic blurring using the hit 'width'; now use a convolution of the regular Gaussian with the hit RMS. Also rewrote large parts (GaussianBlur and Convolve functions are now one, since I don't make a new kernel each hit map any more…) and all the kernels which could possibly be needed are created by the class constructor and owned by the class before any events are received. The process of all this has further optimised: fHitMap is now a 2D vector of fixed size rather than 2D map, speed has increased by factor of \~5
 -   2016-04-06 Michael Wallbank : Merge branch 'develop' into feature/wallbank_EMShowerImprovements
--   2016-04-04 Michael Wallbank : Merge branch 'feature/wallbank_EMShowerImprovements' of http://cdcvs.fnal.gov/projects/larreco into feature/wallbank_EMShowerImprovements
+-   2016-04-04 Michael Wallbank : Merge branch 'feature/wallbank_EMShowerImprovements' of https://cdcvs.fnal.gov/projects/larreco into feature/wallbank_EMShowerImprovements
 -   2016-04-04 Michael Wallbank : Merge branch 'develop' into feature/wallbank_EMShowerImprovements
 -   2016-04-01 Tingjun Yang : Merge branch 'develop' of ssh://cdcvs.fnal.gov/cvs/projects/larreco into feature/rnd_PmaImprovements
 -   2016-03-29 Mike Wallbank : Improved dynamic blurring: take into account the hit 'width', its spread in time, when applying the blurring to even better apply the Gaussian smear

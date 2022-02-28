@@ -3,7 +3,7 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-[Download instructions](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc4/larsoft-v06_00_00_rc4.html)
+[Download instructions](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_00_00_rc4/larsoft-v06_00_00_rc4.html)
 
 ## Purpose
 
@@ -36,7 +36,7 @@ Several products have been split into separate parts. The new products make a su
 -   This release uses a new product stack built with gcc v4_9_3a (e10)
 -   art v2_00_02 (s33) [art:Release_Notes_20002](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20002)
 -   nutools v2_00_00 [nutools:NuTools_Release_Notes#nutools-v2_00_00](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_00_00)
--   [larsoftobj v1_02_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_02_00/larsoftobj-v1_02_00.html)
+-   [larsoftobj v1_02_00](https://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_02_00/larsoftobj-v1_02_00.html)
 
 # Change List
 

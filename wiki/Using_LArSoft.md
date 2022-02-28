@@ -1,7 +1,7 @@
 
 
 -   [Quick_Links](Quick_Links)
--   [Concepts in LArSoft](http://larsoft.org/important-concepts-in-larsoft/)
+-   [Concepts in LArSoft](https://larsoft.org/important-concepts-in-larsoft/)
 
 # Preliminaries
 
@@ -14,7 +14,7 @@
 
 First-time, or infrequent, users will be well-served to go through the following steps in order:
 
-1.  Start by reading [Concepts in LArSoft](https://larsoft.org/important-concepts-in-larsoft/), the [training material at larsoft.org](http://larsoft.org/training) and other information available at [larsoft.org](http://larsoft.org)
+1.  Start by reading [Concepts in LArSoft](https://larsoft.org/important-concepts-in-larsoft/), the [training material at larsoft.org](https://larsoft.org/training) and other information available at [larsoft.org](https://larsoft.org)
     1.  Also look at your experiment's [Quick Links](Quick_Links) for experiment-specific information.
 2.  Choose the correct release from the [List of LArSoft Releases and Release Notes](LArSoft release list).
     1.  If you can use a tagged release as is (aside from fcl files which can be modified and used from any directory), you can now run LArSoft.
@@ -28,7 +28,7 @@ First-time, or infrequent, users will be well-served to go through the following
 5.  To install a local copy of the pre-built products, or to build and install a local copy of the products for the core LArSoft suite, follow the [Installation Procedures on the Getting LArSoft page](Getting LArSoft).
     1.  To use cvmfs to access the binaries and header files in a tagged release (thereby avoiding the need to install or build a local copy), follow the [ LArSoft cvmfs ](_LArSoft_cvmfs_) instructions.
     2.  Sometimes your local code will fail to build against a new LArSoft release because there are “breaking changes” in the release, which are modifications that require adaptations to the code that references that modified code. These changes and the corrective actions needed are documented on the [Breaking Changes](releases/Breaking_Changes) page.
-    3.  Comments in the code are incorporated into documentation at [LArSoft Doxygen](https://nusoft.fnal.gov/larsoft/doxsvn/html/index.html) using [the Doxygen tool.](http://www.doxygen.nl/helpers.html)
+    3.  Comments in the code are incorporated into documentation at [LArSoft Doxygen](https://nusoft.fnal.gov/larsoft/doxsvn/html/index.html) using [the Doxygen tool.](https://www.doxygen.nl/helpers.html)
 6.  Recommended.
     1.  Install and run [igprof profiler](igprof_profiler).
 

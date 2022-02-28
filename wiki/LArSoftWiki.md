@@ -19,7 +19,7 @@ For general information on LArSoft, including links to videos and presentations,
 
 > Developing LArSoft code itself. Using LArSoft to write experiment-specific code against an existing LArSoft release.
 
--   [CI results display page](http://lar-ci-history.fnal.gov/LarCI/app)
+-   [CI results display page](https://lar-ci-history.fnal.gov/LarCI/app)
 
 ## Investigating Slack channel
 

@@ -24,7 +24,7 @@ The larsim:source:larsim/EventGenerator package contains a module for each of th
 
 ## Cosmic Ray Generation with CRY
 
-CRY is a third party package to simulate cosmic rays. It is documented at http://nuclear.llnl.gov/simulation/
+CRY is a third party package to simulate cosmic rays. It is documented at https://nuclear.llnl.gov/simulation/
 
 The CosmicsGen module calls the CRYHelper object in the [NuSoft/EventGeneratorBase](https://cdcvs.fnal.gov/redmine/projects/nusoftart/wiki) package. The module also produces several sanity check type histograms that are placed in the output file from the job.
 
@@ -34,7 +34,7 @@ To create a file containing cosmic ray interactions for each event, do
 
 ## Neutrino Interaction Generation with GENIE
 
-[GENIE](http://projects.hepforge.org/genie/) is the external neutrino interaction generator we are using to produce neutrinos in the Monte Carlo simulation. The GENIEGen module makes use of the [GENIEHelper](https://cdcvs.fnal.gov/redmine/projects/nusoftart/wiki/GENIEHelper) object in the [NuSoft/EventGeneratorBase](https://cdcvs.fnal.gov/redmine/projects/nusoftart/wiki) package. The module uses GENIEHelper both to determine how many interactions to produce in each spill and to fill the Monte Carlo truth information for the interaction and flux information.
+[GENIE](https://projects.hepforge.org/genie/) is the external neutrino interaction generator we are using to produce neutrinos in the Monte Carlo simulation. The GENIEGen module makes use of the [GENIEHelper](https://cdcvs.fnal.gov/redmine/projects/nusoftart/wiki/GENIEHelper) object in the [NuSoft/EventGeneratorBase](https://cdcvs.fnal.gov/redmine/projects/nusoftart/wiki) package. The module uses GENIEHelper both to determine how many interactions to produce in each spill and to fill the Monte Carlo truth information for the interaction and flux information.
 
 The default behavior is for GENIE to produce events in accordance with a spill intensity of 50e12 POT. If you instead wish to produce a predefined number, *n*, interactions in a spill you have to set the EventsPerSpill parameter to be *n* instead of 0 (the default that signals the use of POT per spill instead).
 
@@ -175,6 +175,6 @@ No defaults are given for this module as it is completely up to the user to deci
 
 See the following files for example usage:
 
--   larsim:source:larsim/EventGenerator/GENIE/prodgenie.fcl
--   larsim:source:larsim/EventGenerator/prodsingle.fcl
--   larsim:source:larsim/EventGenerator/CRY/prodcosmics.fcl
+-   [larsim/EventGenerator/GENIE/prodgenie.fcl](https://github.com/LArSoft/larsim/blob/220eca2a2e3ea88459e6653fadfb34a82a0c1fc0/larsim/EventGenerator/GENIE/prodgenie.fcl)
+-   [larsim/EventGenerator/prodsingle.fcl](https://github.com/LArSoft/larsim/blob/220eca2a2e3ea88459e6653fadfb34a82a0c1fc0/larsim/EventGenerator/prodsingle.fcl)
+-   [larsim/EventGenerator/CRY/prodcosmics.fcl](https://github.com/LArSoft/larsim/blob/220eca2a2e3ea88459e6653fadfb34a82a0c1fc0/larsim/EventGenerator/CRY/prodcosmics.fcl)

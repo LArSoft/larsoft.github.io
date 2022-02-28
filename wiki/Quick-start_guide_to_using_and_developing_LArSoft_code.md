@@ -34,7 +34,7 @@ Detailed information about mrb is available from the [mrb reference guide](https
 <!-- -->
 
 -   If you have not used git before, you will need to customize your git environment.  
-    > - See http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+    > - See https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
 # The ultra-quick-start guide:
 
@@ -443,16 +443,16 @@ This directory is mounted on the relevant gpvm machines and Fermilab grid worker
 In addition, a mirror of this directory is available on cvmfs at /cvmfs/fermilab.opensciencegrid.org/products/larsoft/  
 We encourage users to [ install and use a cvmfs client ](LArSoft_cvmfs_page) instead of installing the binary distribution wherever possible.
 
-Binary distributions are available under http://scisoft.fnal.gov/
+Binary distributions are available under https://scisoft.fnal.gov/
 
 If you need to pull everything (LArSoft plus all external packages) in order to create a new installation of the software (for instance, for an off-site installation to support a local analysis group), we recommend using the download script available from SciSoft.
 
-    curl -O  http://scisoft.fnal.gov/bundles/tools/pullProducts
+    curl -O  https://scisoft.fnal.gov/bundles/tools/pullProducts
     chmod +x pullProducts
     ./pullProducts <product_dir> <slf6|d14|d13> larsoft-<version> s8-e7 <debug|prof>
 
   
-> - See [http://scisoft.fnal.gov/scisoft/bundles/larsoft/`<version>`/larsoft-`<version>`.html](http://scisoft.fnal.gov/scisoft/bundles/larsoft) for explicit instructions for each release.  
+> - See [https://scisoft.fnal.gov/scisoft/bundles/larsoft/`<version>`/larsoft-`<version>`.html](https://scisoft.fnal.gov/scisoft/bundles/larsoft) for explicit instructions for each release.  
 > - This will pull the relocatable ups products and install them in <product_dir> where you should specify the full path to the product directory.  
 > - The prof distribution requires about 20G  
 > - Typing ./pullProducts without any options will echo the usage guide.  

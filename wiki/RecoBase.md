@@ -4,7 +4,7 @@
 
 ## <span style="color:#aa5500;">Notice:</span> The content of this page dates from 2014! For more up to date info…
 
-… please see the **Reconstruction** section of http://larsoft.org/important-concepts-in-larsoft/data-products/ — the links work on that page.
+… please see the **Reconstruction** section of https://larsoft.org/important-concepts-in-larsoft/data-products/ — the links work on that page.
 
 ## Old wiki page
 

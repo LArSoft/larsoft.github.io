@@ -29,7 +29,7 @@ Builds:
 
 ### Copy files from Jenkins
 
--   use [copyFromJenkins](http://scisoft.fnal.gov/scisoft/bundles/tools/copyFromJenkins)
+-   use [copyFromJenkins](https://scisoft.fnal.gov/scisoft/bundles/tools/copyFromJenkins)
 -   create a temporary directory on some local scratch disk
 -   cd to that directory
 -   …/copyFromJenkins -N -q s86-e17 -q s86-c2 build-larsoft
@@ -52,14 +52,14 @@ Instructions for settting up an Ubuntu vagrant box: [ubuntu-vm:Ubuntu_VM](https:
     vagrant ssh
     mkdir devel
     cd devel
-    git clone http://cdcvs.fnal.gov/projects/larutils
+    git clone https://cdcvs.fnal.gov/projects/larutils
 
 - build in a working directory
 
     vagrant ssh
     mkdir build
     cd build
-    git clone http://cdcvs.fnal.gov/projects/artutilscripts
+    git clone https://cdcvs.fnal.gov/projects/artutilscripts
     env WORKSPACE=`pwd` LARVER=<larsoft_version> LAROBJ=<larsoftobj_version> QUAL=<qual_set> BUILDTYPE=debug ../devel/larutils/buildScripts/build-larsoft.sh
     mv copyBack/ /vagrant/ldbg
     env WORKSPACE=`pwd` LARVER=<larsoft_version> LAROBJ=<larsoftobj_version> QUAL=<qual_set> BUILDTYPE=prof ../devel/larutils/buildScripts/build-larsoft.sh
@@ -67,7 +67,7 @@ Instructions for settting up an Ubuntu vagrant box: [ubuntu-vm:Ubuntu_VM](https:
 
 ## Make the binary build available on SciSoft
 
--   use [copyToSciSoft](http://scisoft.fnal.gov/scisoft/bundles/tools/copyToSciSoft)
+-   use [copyToSciSoft](https://scisoft.fnal.gov/scisoft/bundles/tools/copyToSciSoft)
 -   from the temporary directory
 -   …/copyToSciSoft \*.bz2
     -   only files which are not already on SciSoft will be copied

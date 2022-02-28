@@ -2,13 +2,13 @@
 
 ## Requirements
 
-The following information must be included as [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html) formatted text in every header or module file.
+The following information must be included as [Doxygen](https://www.stack.nl/~dimitri/doxygen/manual/docblocks.html) formatted text in every header or module file.
 
 -   Introduction / motivation / overview of what the code does
 -   Input data
 -   Output data
 -   Configuration data / classes / services used (directly)
--   Algorithm description (Can be reference to [larsoft.org](http://larsoft.org/list) entry)
+-   Algorithm description (Can be reference to [larsoft.org](https://larsoft.org/list) entry)
 -   Assumptions, pre-requisites
 -   Limitations
 -   References
@@ -16,10 +16,10 @@ The following information must be included as [Doxygen](http://www.stack.nl/~dim
 
 ## Guidelines
 
-Each major algorithm should have an entry in http://larsoft.org/list. (Do this by https://larsoft.org/add )
+Each major algorithm should have an entry in https://larsoft.org/list. (Do this by https://larsoft.org/add )
 
-Every file should have inline comments at sufficient frequency to allow readers unfamiliar with the code to be able to read and understand the code without undue effort. These comments should not be [Doxygen](http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html) formatted.
+Every file should have inline comments at sufficient frequency to allow readers unfamiliar with the code to be able to read and understand the code without undue effort. These comments should not be [Doxygen](https://www.stack.nl/~dimitri/doxygen/manual/docblocks.html) formatted.
 
-Each major algorithm should have a tech note describing technical details of the algorithm (can be internal to LArSoft community or published such as in http://techpubs.fnal.gov/
+Each major algorithm should have a tech note describing technical details of the algorithm (can be internal to LArSoft community or published such as in https://techpubs.fnal.gov/
 
 Comments/suggestions on this page are welcome. Please contact Erica Snider or Katherine Lato.

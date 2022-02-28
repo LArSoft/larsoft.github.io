@@ -69,7 +69,7 @@ An experiment may need a special branch for long term development when their cod
 
 Developers are expected to follow a specific development workflow in order to maintain the integrity of the reference “develop” branch. Git offers many features and capabilities that make it extremely easy to isolate one's work from the rest of the world, to preserve that work in the reference repository and to share it with others without affecting the reference develop branch, while at the same time following and incorporating changes on the reference develop branch. The workflow and branching model is designed to offer a high degree of stability in the development environment. Developers must adhere to this workflow.
 
-The development workflow adopted by LArSoft is based on that documented by Vincent Driessen at http://nvie.com/posts/a-successful-git-branching-model/, and implemented by the git extensions in the [git flow](http://github.com/nvie/gitflow) product.
+The development workflow adopted by LArSoft is based on that documented by Vincent Driessen at https://nvie.com/posts/a-successful-git-branching-model/, and implemented by the git extensions in the [git flow](https://github.com/nvie/gitflow) product.
 
 ![Git-branching-model.png](/assets/img/larsoft/Git-branching-model.png)
 Branch structure and workflow to be used for LArSoft development

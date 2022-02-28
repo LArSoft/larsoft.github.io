@@ -1,10 +1,10 @@
 # Installation procedures
 
-Each release of LArSoft has a release page on [SciSoft](http://scisoft.fnal.gov/scisoft/bundles/larsoft/)
+Each release of LArSoft has a release page on [SciSoft](https://scisoft.fnal.gov/scisoft/bundles/larsoft/)
 
 <pre>
 
-http://scisoft.fnal.gov/scisoft/bundles/larsoft/<version>/larsoft-<version>.html
+https://scisoft.fnal.gov/scisoft/bundles/larsoft/<version>/larsoft-<version>.html
 
 </pre>
 
@@ -53,4 +53,4 @@ A link to this script, and any instructions particular to the release, will be f
 ## Old Download instructions
 
 -   Download instructions are linked from the release notes for the release of interest. [LArSoft release list](releases/LArSoft_release_list)
--   [Full contents of LArSoft distribution directory](http://scisoft.fnal.gov/scisoft/bundles/larsoft)
+-   [Full contents of LArSoft distribution directory](https://scisoft.fnal.gov/scisoft/bundles/larsoft)

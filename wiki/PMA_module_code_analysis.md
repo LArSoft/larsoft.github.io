@@ -1,6 +1,6 @@
 # PMA module code analysis Report
 
-June 2016 [report from pattern matching analysis](http://cd-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5766&amp;filename=ReportfromPatternMatchingAlgorithmCodeAnalysis.pdf&amp;version=1)
+June 2016 [report from pattern matching analysis](https://cd-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5766&amp;filename=ReportfromPatternMatchingAlgorithmCodeAnalysis.pdf&amp;version=1)
 
 ## PMA Code Analysis Background
 

@@ -4,7 +4,7 @@
 
 The maintainer of this package is Brian Rebel.
 
-The purpose of this package is to model the detector response to a primary event using the [Geant4](http://geant4.web.cern.ch/geant4/) toolkit. The main module within this package is also called LArG4.
+The purpose of this package is to model the detector response to a primary event using the [Geant4](https://geant4.web.cern.ch/geant4/) toolkit. The main module within this package is also called LArG4.
 
 There's documentation within the README file inside the package, but here's the basic command:
 

@@ -3,8 +3,8 @@
 
 
 [list of LArSoft releases](LArSoft_release_list)  
-Download instructions for [larsoft v06_38_00_01](http://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_38_00_01/larsoft-v06_38_00_01.html)  
-Download instructions for [just larsoftobj v1_20_00](http://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_20_00/larsoftobj-v1_20_00.html)
+Download instructions for [larsoft v06_38_00_01](https://scisoft.fnal.gov/scisoft/bundles/larsoft/v06_38_00_01/larsoft-v06_38_00_01.html)  
+Download instructions for [just larsoftobj v1_20_00](https://scisoft.fnal.gov/scisoft/bundles/larsoftobj/v1_20_00/larsoftobj-v1_20_00.html)
 
 ## Purpose
 
@@ -32,8 +32,8 @@ Download instructions for [just larsoftobj v1_20_00](http://scisoft.fnal.gov/sci
 |---------|---------------|------------|------------------------------------------------------------|
 | Product | Version       | Qualifiers | Notes                                                      |
 | nutools | v2_13_03      | e14        | [nutools:NuTools_Release_Notes#nutools-v2_13_03](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_13_03)     |
-| genie   | v2_12_6       | e14        | http://releases.genie-mc.org/                              |
-| geant4  | v4_10_3_p01a | e14        | http://geant4.web.cern.ch/geant4/support/Patch4.10.3-1.txt |
+| genie   | v2_12_6       | e14        | https://releases.genie-mc.org/                              |
+| geant4  | v4_10_3_p01a | e14        | https://geant4.web.cern.ch/geant4/support/Patch4.10.3-1.txt |
 
 # Change List
 

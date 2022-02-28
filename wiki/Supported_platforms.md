@@ -4,7 +4,7 @@
 
 *Builds are actively supported on these platforms, the code runs and works as intended (as evidenced by the CI system), and source and binary installs of LArSoft and all the products on which it depends are made available on a regular basis. Unless noted otherwise, installations for supported platforms will also be available via `cvmfs` on `/cvmfs/larsoft.opensciencegrid.org/products`. Other `cvmfs` installations may be available — check with offline support for your experiment.*
 
--   The reference system is SL7 (see [the Fermi Linux site](http://www.scientificlinux.org/at-fermilab/) for details.)
+-   The reference system is SL7 (see [the Fermi Linux site](https://www.scientificlinux.org/at-fermilab/) for details.)
 
 <!-- -->
 

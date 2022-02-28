@@ -45,7 +45,7 @@ The command below is used to encode the webhook secret for the GITHUB_WEBOOK_TOK
 The github_webhook script receives a JSON stream from GitHub, validates it, extracts the repo and pull request number, and triggers a Jenkins job with that info as parameters.
 
 -   The url of the cgi scipt  
-    http://scd.ci.fnal.gov/cgi-bin/github_webhook
+    https://scd.ci.fnal.gov/cgi-bin/github_webhook
 -   The fork of cmssdt-web where the github_webhook  
     https://github.com/gartung/cmssdt-web.git
 -   The NAS directory for the website  
