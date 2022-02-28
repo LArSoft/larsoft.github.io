@@ -74,7 +74,7 @@ If off-site, the appropriate script should be modified to reflect the locations 
     -   [MicroBooNE](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide)
 -   Note that you must use an experiment-specific setup script for the initial setup (not including the setup of larsoft).
 
-\>
+>
 
     export GROUP=dune # (or uboone)
     source /grid/fermiapp/$GROUP/software/setup_$GROUP.sh
@@ -118,8 +118,8 @@ If off-site, the appropriate script should be modified to reflect the locations 
 
 ### Create a working area
 
-\>After you have performed the initial setup:  
-\>
+>After you have performed the initial setup:  
+>
 
     mkdir <working_dir>
     cd <working_dir>
@@ -136,7 +136,7 @@ If off-site, the appropriate script should be modified to reflect the locations 
 ### Check out, develop and build LArSoft code
 
 > After performing the initial setup and creating the working area, from `<working_dir>`:  
-\>
+>
 
     source ./localProducts_XXX/setup
     cd srcs
@@ -160,7 +160,7 @@ If off-site, the appropriate script should be modified to reflect the locations 
 ### Run the software you just built
 
 > Starting from the build directory immediately after running `mrb build`:  
-\>
+>
 
     mrb install  # if this was not run previously
     cd ..        # should now be in the top-level directory of working area
@@ -195,14 +195,14 @@ If off-site, the appropriate script should be modified to reflect the locations 
 The first time you start a mrb project, you'll need to define various things. (The setup for an existing working area is slightly different, and is described [here](Quick-start_guide_to_using_and_developing_LArSoft_code_#Setup-work-environment-for-an-existing-working-area-from-a-fresh-login)
 
 There are experiment-specific setup scripts to perform setup. For example.  
-\>
+>
 
     /grid/fermiapp/lbne/software/setup_lbne.sh
     /grid/fermiapp/lbne/software/setup_lbne.csh
 
   
 > AND:  
-\>
+>
 
     /grid/fermiapp/uboone/software/setup_uboone.sh
     /grid/fermiapp/uboone/software/setup_uboone.csh
