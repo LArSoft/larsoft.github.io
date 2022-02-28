@@ -136,7 +136,7 @@
 -   2015-03-25 Alex Himmel : Add the checksum to the classes_def.xml file.
 -   2015-03-25 Alex Himmel : Add this new data product to the dictionary, modify as necessary to place nice with ROOT.
 -   2015-03-25 Alex Himmel : Rename for (slightly) less verbosity.
--   2015-03-23 Gleb Sinev : this -\> \*this in Waveform() in RawOpDetWaveform.h.
+-   2015-03-23 Gleb Sinev : this -> -this in Waveform() in RawOpDetWaveform.h.
 -   2015-03-23 Gleb Sinev : Merge branch 'feature/SharedOpticalRawDigit' of http://cdcvs.fnal.gov/projects/lardata into feature/SharedOpticalRawDigit
 -   2015-03-23 Alex Himmel : Reverse order of constructor arguments to better match pre-existing object.
 -   2015-03-23 Alex Himmel : Use a double to store absolute time in us, which is unambiguous across experiments.

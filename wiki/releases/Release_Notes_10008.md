@@ -6,5 +6,5 @@ This is a complete tag of everything at the head of develop as of April 23, 2014
 
 -   Neither tcsh nor zsh are supported at this time.
 -   OSX Mavericks is NOT supported at this time.  
-    \> \* Mountain Lion is supported and recommended for OSX builds.  
-    \> \* Mavericks support will arrive with larsoft v1_01_00.
+    > - Mountain Lion is supported and recommended for OSX builds.  
+    > - Mavericks support will arrive with larsoft v1_01_00.

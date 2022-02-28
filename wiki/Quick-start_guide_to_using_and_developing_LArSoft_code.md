@@ -15,10 +15,10 @@ Detailed information about mrb is available from the [mrb reference guide](https
 ## Before you start
 
 -   To see list the available versions of a product, including all available qualifiers  
-    \> \* set up ups as described below  
-    \> \* use **ups list -aK+ <productname>** or **ups list -aK+ <productname> <version>**
+    > - set up ups as described below  
+    > - use **ups list -aK+ <productname>** or **ups list -aK+ <productname> <version>**
 -   To verify that all dependencies are available, use ups depend:  
-    \> \* **ups depend <productname> <version> -q <qualifiers>**
+    > - **ups depend <productname> <version> -q <qualifiers>**
 
 <!-- -->
 
@@ -27,14 +27,14 @@ Detailed information about mrb is available from the [mrb reference guide](https
 <!-- -->
 
 -   You need modern versions of git and gitflow  
-    \> \* git must be version 1.8 or newer  
-    \> \* git 1.8.5.6 is available in /grid/fermiapp/products/larsoft  
-    \> \* gitflow 0.4.2.pre is available in /grid/fermiapp/products/larsoft
+    > - git must be version 1.8 or newer  
+    > - git 1.8.5.6 is available in /grid/fermiapp/products/larsoft  
+    > - gitflow 0.4.2.pre is available in /grid/fermiapp/products/larsoft
 
 <!-- -->
 
 -   If you have not used git before, you will need to customize your git environment.  
-    \> \* See http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+    > - See http://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
 # The ultra-quick-start guide:
 
@@ -109,9 +109,9 @@ If off-site, the appropriate script should be modified to reflect the locations 
 -   Now run
         lar -c xxx.fcl ...
 
-\> \* Note that the build procedure will un-setup any products that are being built, so those  
+> - Note that the build procedure will un-setup any products that are being built, so those  
 \> need to be set-up again before they can be used.  
-\> \* The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See  
+> - The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See  
 \> the list of releases for the most current version, or use @ups list -aK+ \<dunetpc \| uboonecode\>
 
 ## To build and work with larsoft itself
@@ -126,10 +126,10 @@ If off-site, the appropriate script should be modified to reflect the locations 
     mrb newDev -v vx_yy_zz -q e7:prof    # (or -q e7:debug)
 
   
-\> \* where 'vx_yy_zz' is the base version for the release you are working with.  
-\> \* Select from the [list of releases](LArSoftWiki#releases), or use 'ups list -aK+ larsoft' to get a complete list of available releases.  
-\> \* Current release is v04_06_00 (See [LArSoftWiki](LArSoftWiki) for most recent release)  
-\> \* Alternatively, you can 'setup larsoft <version> -q \<e7:debug\|e7:prof\>' before running 'mrb newDev', in which case you can omit the '-v' and '-q' from the 'mrb' command.
+> - where 'vx_yy_zz' is the base version for the release you are working with.  
+> - Select from the [list of releases](LArSoftWiki#releases), or use 'ups list -aK+ larsoft' to get a complete list of available releases.  
+> - Current release is v04_06_00 (See [LArSoftWiki](LArSoftWiki) for most recent release)  
+> - Alternatively, you can 'setup larsoft <version> -q \<e7:debug\|e7:prof\>' before running 'mrb newDev', in which case you can omit the '-v' and '-q' from the 'mrb' command.
 
 -   If you only want to run using the base LArSoft release and uBooNE or DUNE code, then skip ahead to the “To build experiment-specific code for DUNE or uBooNE against an existing LArSoft release” step
 
@@ -151,9 +151,9 @@ If off-site, the appropriate script should be modified to reflect the locations 
     mrb install -j4    # -jN => N parallel processes for the build (if the machine has enough cores)
 
   
-\> \* `mrb install` (abbreviates to `mrb i`) will build then install results in localProducts_XXX. This  
+> - `mrb install` (abbreviates to `mrb i`) will build then install results in localProducts_XXX. This  
 \> is the preferred command if you need to run what you are building.  
-\> \* You can also use `mrb build` (or `mrb b`) if you just want the build with no install. Be aware, however, that you cannot run using the resulting build products.
+> - You can also use `mrb build` (or `mrb b`) if you just want the build with no install. Be aware, however, that you cannot run using the resulting build products.
 
 \> The list of repositories and their contents [can be found on this page ]( LArSoft repositories packages and dependencies ).
 
@@ -183,9 +183,9 @@ If off-site, the appropriate script should be modified to reflect the locations 
     # Now run
     lar -c xxx.fcl ...
 
-\> \* Note that the build procedure will un-setup any products that are being built, so those  
+> - Note that the build procedure will un-setup any products that are being built, so those  
 \> need to be set-up again before they can be used.  
-\> \* The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See  
+> - The version of `uboonecode` and `dunetpc` is set in the associated `ups/product_deps` file. See  
 \> the list of releases for the most current version, or use @ups list -aK+ \<dunetpc \| uboonecode\>
 
 # Annotated quick-start guide
@@ -208,17 +208,17 @@ There are experiment-specific setup scripts to perform setup. For example.
     /grid/fermiapp/uboone/software/setup_uboone.csh
 
 -   The generic setup steps are:  
-    \> \* setup ups  
-    \> \* set the $PRODUCTS path if necessary  
-    \> \* setup git  
-    \> \* setup gitflow  
-    \> \* define MRB_PROJECT  
-    \> \* setup mrb  
-    \> \* setup <project> <version>  
-    \> \* define MRB_PROJECT  
-    \> \> \* MRB_PROJECT is meant to define your project. `mrb newDev` will **require** that MRB_PROJECT be the name of a ups product.  
-    \> \> \* Eventually, you will be able to use the experiment name for the project.  
-    \> \> \* For now, just use “larsoft” in all cases.
+    > - setup ups  
+    > - set the $PRODUCTS path if necessary  
+    > - setup git  
+    > - setup gitflow  
+    > - define MRB_PROJECT  
+    > - setup mrb  
+    > - setup <project> <version>  
+    > - define MRB_PROJECT  
+    \> > - MRB_PROJECT is meant to define your project. `mrb newDev` will **require** that MRB_PROJECT be the name of a ups product.  
+    \> > - Eventually, you will be able to use the experiment name for the project.  
+    \> > - For now, just use “larsoft” in all cases.
 
 <!-- -->
 
@@ -243,8 +243,8 @@ Case 1: you have setup <MRB_PROJECT> <version> (the recommended procedure)
     mrb newDev 
 
   
-\> \* this creates <working_dir>/build, <working_dir>/srcs, and <working_dir>/localProducts*<span style="text-align:left;">MRB_PROJECT\></span>*<version>_<qualifiers>  
-\> \* We refer to <working_dir>/localProducts… as <localProdDir>
+> - this creates <working_dir>/build, <working_dir>/srcs, and <working_dir>/localProducts*<span style="text-align:left;">MRB_PROJECT\></span>*<version>_<qualifiers>  
+> - We refer to <working_dir>/localProducts… as <localProdDir>
 
 -   source <localProdDir>/setup
 
@@ -255,8 +255,8 @@ Case 2: you did not setup <MRB_PROJECT> <version>
     mrb newDev -v <version> -q <qualifiers>
 
   
-\> \* this creates <working_dir>/build, <working_dir>/srcs, and <working_dir>/localProducts*<span style="text-align:left;">MRB_PROJECT\></span>*<version>_<qualifiers>  
-\> \* We refer to <working_dir>/localProducts… as <localProdDir>
+> - this creates <working_dir>/build, <working_dir>/srcs, and <working_dir>/localProducts*<span style="text-align:left;">MRB_PROJECT\></span>*<version>_<qualifiers>  
+> - We refer to <working_dir>/localProducts… as <localProdDir>
 
 -   source <localProdDir>/setup
 
@@ -267,9 +267,9 @@ Case 2: you did not setup <MRB_PROJECT> <version>
     mrb newDev -T <working_dir> -S <source_dir>
 
   
-\> \* this creates <working_dir>/build and <working_dir>/localProducts*<span style="text-align:left;">MRB_PROJECT\></span>*<version>_<qualifiers>  
-\> \* We refer to <working_dir>/localProducts… as <localProdDir>  
-\> \* Note that you may also need to specify -v <version> and -q <qualifiers> as above
+> - this creates <working_dir>/build and <working_dir>/localProducts*<span style="text-align:left;">MRB_PROJECT\></span>*<version>_<qualifiers>  
+> - We refer to <working_dir>/localProducts… as <localProdDir>  
+> - Note that you may also need to specify -v <version> and -q <qualifiers> as above
 
 -   source <localProdDir>/setup
 
@@ -278,9 +278,9 @@ Case 2: you did not setup <MRB_PROJECT> <version>
 To set up the working environment for an existing working area, you need to source the setup script in the local products area created in the previous step. The local setup defines environment variables needed by mrb, and adds the local products area to the $PRODUCTS path so that ups can find local versions of products (created during the build/install step). The generic steps are the following:
 
 -   perform the initial setup above  
-    \> \* set up ups  
-    \> \* set the $PRODUCTS path  
-    \> \* make sure you have gitflow and git 1.8 or newer
+    > - set up ups  
+    > - set the $PRODUCTS path  
+    > - make sure you have gitflow and git 1.8 or newer
 -   source <localProdDir>/setup  
     On uboonegpvm0X and lbnegpvm0X:
         source /grid/fermiapp/products/larsoft/setup
@@ -306,12 +306,12 @@ To set up the working environment for an existing working area, you need to sour
 -   Please note that all Fermilab redmine repository names are lower case.
 -   mrb presumes your package is in Fermilab redmine unless you specify the full repository name.
 -   You may supply either a package name or a repository name  
-    \> \* if there is only a package name, presume this is a Fermilab redmine project  
-    \> \* if there is a full repository name, use the repository name
+    > - if there is only a package name, presume this is a Fermilab redmine project  
+    > - if there is a full repository name, use the repository name
 -   You may checkout a branch or tag  
-    \> \* mrb g -t <tag> <package>  
-    \> \* mrb g -b <branch> <package>  
-    \> \* note that -t and -b must precede the package name
+    > - mrb g -t <tag> <package>  
+    > - mrb g -b <branch> <package>  
+    > - note that -t and -b must precede the package name
 
 ## Build code in your working area
 
@@ -321,14 +321,14 @@ To set up the working environment for an existing working area, you need to sour
         mrb b [-jN]                # Must be done in the same shell
 
       
-    \> \* where N is the number of parallel build streams to use  
-    \> \* mrb b (build) calls buildtool, which is very powerful
+    > - where N is the number of parallel build streams to use  
+    > - mrb b (build) calls buildtool, which is very powerful
         mrb install                # Abbrev mrb i. Must be done in the same bash shell
 
       
-    \> \* optional  
-    \> \* The mrb install command will make a ups product in your <localProdDir> for the package you are building.  
-    \> \* You can also just type “make install \[-jN\]”
+    > - optional  
+    > - The mrb install command will make a ups product in your <localProdDir> for the package you are building.  
+    > - You can also just type “make install \[-jN\]”
 
 <!-- -->
 
@@ -452,10 +452,10 @@ If you need to pull everything (LArSoft plus all external packages) in order to 
     ./pullProducts <product_dir> <slf6|d14|d13> larsoft-<version> s8-e7 <debug|prof>
 
   
-\> \* See [http://scisoft.fnal.gov/scisoft/bundles/larsoft/`<version>`/larsoft-`<version>`.html](http://scisoft.fnal.gov/scisoft/bundles/larsoft) for explicit instructions for each release.  
-\> \* This will pull the relocatable ups products and install them in <product_dir> where you should specify the full path to the product directory.  
-\> \* The prof distribution requires about 20G  
-\> \* Typing ./pullProducts without any options will echo the usage guide.  
+> - See [http://scisoft.fnal.gov/scisoft/bundles/larsoft/`<version>`/larsoft-`<version>`.html](http://scisoft.fnal.gov/scisoft/bundles/larsoft) for explicit instructions for each release.  
+> - This will pull the relocatable ups products and install them in <product_dir> where you should specify the full path to the product directory.  
+> - The prof distribution requires about 20G  
+> - Typing ./pullProducts without any options will echo the usage guide.  
 You can find detailed instructions for downloading and installing binary and source distributions [ on the download page ]( Download instructions ).
 
 # Building the larsoft “suite”

@@ -39,7 +39,7 @@ The following types of code analysis meetings differ in the target, and therefor
 -   Compliance with coding practices and styles (as defined by LArSoft and more general guidelines)
 -   Compliance with C best practices
 -   Physics performance review  
-    \> \* In general, such reviews are left to the experiments, and are not considered in this document
+    > - In general, such reviews are left to the experiments, and are not considered in this document
 
 Although a single “code analysis” may include more than one of the above, each additional type may require added preparatory work, experts and time during the meeting.
 
@@ -102,12 +102,12 @@ Most code analysis, however, will require most or all of the following in advanc
 -   A set of representative configurations and input data from the authors to allow the code to be run
 -   Aids in viewing the code during the meeting, such as diagrams, cloned repositories, etc.
 -   Reports from a static analysis tool
--   Output from preliminary time and memory use profiling
--   \* An initial examination of the output prior to the meetings can identify and possibly address easy to fix issues early in the process.  
-    \> \* The results can also be used to help understand the control flow of the code.
+-   Output from preliminary time and memory use profiling  
+    > - An initial examination of the output prior to the meetings can identify and possibly address easy to fix issues early in the process.  
+    > - The results can also be used to help understand the control flow of the code.
 -   If changes are to be made, identify a set of tests to validate changes  
-    \> \* Typically tests for bitwise identical output are the most useful, since physics validation and changes that result in changes to the physics are outside the scope of these code analysis meetings.  
-    \> \* To the extent feasible, each expert should preview the code on his or her own.
+    > - Typically tests for bitwise identical output are the most useful, since physics validation and changes that result in changes to the physics are outside the scope of these code analysis meetings.  
+    > - To the extent feasible, each expert should preview the code on his or her own.
 
 ## Code Analysis Meetings
 
@@ -116,8 +116,8 @@ Meetings will broadly perform or cover the following items.
 -   A review of the charge and discussion of special interests of the authors or code analysis requestors.
 -   A discussion of how to divide the time between the various topic areas and code elements to be addressed
 -   An overview presentation or discussion by the authors of the algorithm and functioning of the code to be examined.  
-    \> \* Any major concept and abstractions used by the code should be included in this.  
-    \> \* The intent of this presentation is to discuss what the code does, so need not go into details such as the class structure, for instance.
+    > - Any major concept and abstractions used by the code should be included in this.  
+    > - The intent of this presentation is to discuss what the code does, so need not go into details such as the class structure, for instance.
 -   Analysis of the code. How this is done is up to those participating in the meeting.
 
 Previous experience suggests that sessions of about half a day in duration are the most effective. Multiple such sessions can be organized as needed. Care should be exercised in scheduling and throughout the planning, however, so as to keep the entire process as light-weight as possible. Single session meetings, for instance, should possibly be the norm. In all cases, the time to be committed should be agreed upon in advance.
@@ -130,13 +130,13 @@ The direct product of the preparatory work and meetings should include the follo
 
 -   A written report of the conclusions from the code analysis. The report lists:
 
-\> \* Recommended changes;  
-\> \* Problems or other issues that require further investigation, thought or discussion;  
-\> \* Conclusions regarding any targets of opportunity discussed;  
-\> \* Any findings that are not reflected among the items above, including discussion of potential trade-offs in any areas addressed by the code analysis;  
-\> \* The metrics of success for the code analysis, when they exist;  
-\> \* Any comments on the process offered.  
-\> \* A reference to comments in GitHub can be included in any of the relevant sections.
+> - Recommended changes;  
+> - Problems or other issues that require further investigation, thought or discussion;  
+> - Conclusions regarding any targets of opportunity discussed;  
+> - Any findings that are not reflected among the items above, including discussion of potential trade-offs in any areas addressed by the code analysis;  
+> - The metrics of success for the code analysis, when they exist;  
+> - Any comments on the process offered.  
+> - A reference to comments in GitHub can be included in any of the relevant sections.
 
 -   (Encouraged, but optional) Annotations to the code indicating recommended changes, or issues to investigate or discuss further.
 
@@ -153,8 +153,8 @@ The details of the follow-up work, as for the code analysis meetings, should be 
 -   A set of milestones entered into the LArSoft issue tracker that describe overall targets for the follow-up work. Each of the tasks should be under one of the milestones.
 -   Regular reports on the progress toward these milestones given at an appropriate meeting (experiment or LArSoft).
 -   Reporting of lessons learned in a document available to the LArSoft community.  
-    \> \* All such lessons learned should be accumulated in a single location.  
-    \> \* A brief report of such lessons learned may be appropriate in cases when they are or broad interest.
+    > - All such lessons learned should be accumulated in a single location.  
+    > - A brief report of such lessons learned may be appropriate in cases when they are or broad interest.
 
 ## Reference
 
