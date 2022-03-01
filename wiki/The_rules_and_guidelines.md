@@ -172,7 +172,7 @@ Let's assume we have an algorithm whose workflow is split in different phases: i
 This requires the algorithm to keep the results until they are retrieved.  
 To implement correctly the algorithm, there are two main options, plus a “backup” one:
 
-\# every method returning results also removes them from the object; the best way to implement this is actually merging the run and result retrieval phases:
+# every method returning results also removes them from the object; the best way to implement this is actually merging the run and result retrieval phases:
 
 ```cpp
     class MyAlgorithm {
@@ -239,7 +239,7 @@ The following variant keeps the two phases separate:
   
 This still presents memory hoarding if the caller decides not to `getResults()`, and it gives wrong results if `getResults()` is called more than once. For these reasons, it is disfavoured respect to the first variant.
 
-\# require the caller to clear the data when done:
+# require the caller to clear the data when done:
 
 ```cpp
     class MyAlgorithm {
@@ -284,7 +284,7 @@ paired with a different version of `produce()`:
 The main weakness of this approach is that it can't verify that the caller actually `clear()`ed the data, and it is therefore *not recommended*.  
 Note that this will *not* avoid a copy of the vertices, since the *art* producer will be forced to create a copy to be entrusted to the event.
 
-\# if the algorithm does not allow this approach, one can instantiate the algorithm on every event anew; this is typically not that expensive, and since the algorithm is automatically destroyed after each event, no hoarding is possible:
+# if the algorithm does not allow this approach, one can instantiate the algorithm on every event anew; this is typically not that expensive, and since the algorithm is automatically destroyed after each event, no hoarding is possible:
 
 ```cpp
     void MyProducer::produce(art::Event&amp; event) {
