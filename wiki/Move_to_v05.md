@@ -38,11 +38,14 @@ v05_00_00 is a major change
 Now merge v05_00_00_rc with v05_00_branch.  
 Requires careful checking.
 
-Summary of the branches:  
-\| `develop` \| based on `v04_36_01` \| it contains “all the new commits” \|  
-\| `v05_00_branch` \| based on `v04_36_01` \| it contains “all the new commits” and the refactoring \|  
-\| `v05_00_00_rc` \| based on `v04_30_00` \| has core service changes \|  
-\| `v05_00_refactor` \| based on `v05_00_branch` \| has a bad name; and will have core service changes \|
+Summary of the branches:
+
+|                   |                          |                                                       |
+|-------------------|--------------------------|-------------------------------------------------------|
+| `develop`         | based on `v04_36_01`     | it contains “all the new commits”                     |
+| `v05_00_branch`   | based on `v04_36_01`     | it contains “all the new commits” and the refactoring |
+| `v05_00_00_rc`    | based on `v04_30_00`     | has core service changes                              |
+| `v05_00_refactor` | based on `v05_00_branch` | has a bad name; and will have core service changes    |
 
 This pass 2 is about creating the branch `v05_00_refactor`.  
 Once created, the v05_00_refactor branch was merged with v05_00_branch and removed.
@@ -65,14 +68,17 @@ First thing: restore the `product_deps` file from `v05_00_branch`: it's newer, a
 
   
 The last step should work seamlessly.  
-Interpretation of `git status` (the example is from the merge of `lardata`):  
-\| <span style="color: green;">`modified:   lardata/AnalysisAlg/CalorimetryAlg.cxx`</span> \| core service changes happened on top of the refactored file: this implies the file has not changed since `v05_00_00_rc` used it to apply core service changes \|  
-\| <span style="color: green;">`new file:   lardata/DetectorInfo/DetectorClocksException.h`</span> \| the file was added by the core service changes (or moved by them, that for `git` is a new file and a file detection; see next item) \|  
-\| <span style="color: red  ;">`both deleted:    Utilities/timeservice.fcl`</span> \| the file was deleted in both branches, likely an effect of the refactoring (or moved: as above) \|  
-\| <span style="color: red  ;">`both modified:   lardata/AnalysisAlg/CMakeLists.txt`</span> \| a conflict on an existing file: file needs editing \|  
-\| <span style="color: red  ;">`both added:      lardata/CMakeLists.txt`</span> \| a conflict on a “new” file: file needs editing \|  
-\| <span style="color: red  ;">`added by them:   lardata/DetectorInfo/ClockConstants.h`</span> \| added (or moved) by the core service changes; see lessons learned! \|  
-\| <span style="color: red  ;">`added by us:     lardata/DetectorInfo/DetectorPropertiesStandard.h`</span> \| new file, likely from addition to `develop` after `v04_30_00` \|
+Interpretation of `git status` (the example is from the merge of `lardata`):
+
+|                                                                                                         |                                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span style="color: green;">`modified:   lardata/AnalysisAlg/CalorimetryAlg.cxx`</span>                 | core service changes happened on top of the refactored file: this implies the file has not changed since `v05_00_00_rc` used it to apply core service changes |
+| <span style="color: green;">`new file:   lardata/DetectorInfo/DetectorClocksException.h`</span>         | the file was added by the core service changes (or moved by them, that for `git` is a new file and a file detection; see next item)                           |
+| <span style="color: red  ;">`both deleted:    Utilities/timeservice.fcl`</span>                         | the file was deleted in both branches, likely an effect of the refactoring (or moved: as above)                                                               |
+| <span style="color: red  ;">`both modified:   lardata/AnalysisAlg/CMakeLists.txt`</span>                | a conflict on an existing file: file needs editing                                                                                                            |
+| <span style="color: red  ;">`both added:      lardata/CMakeLists.txt`</span>                            | a conflict on a “new” file: file needs editing                                                                                                                |
+| <span style="color: red  ;">`added by them:   lardata/DetectorInfo/ClockConstants.h`</span>             | added (or moved) by the core service changes; see lessons learned!                                                                                            |
+| <span style="color: red  ;">`added by us:     lardata/DetectorInfo/DetectorPropertiesStandard.h`</span> | new file, likely from addition to `develop` after `v04_30_00`                                                                                                 |
 
 Sometimes there will be pairs of untracked files (e.g., `timeservice.fcl~HEAD` and `timeservice.fcl~v05_00_00_rc`), that seems to be the case where `git` does not really know what to do.
 
