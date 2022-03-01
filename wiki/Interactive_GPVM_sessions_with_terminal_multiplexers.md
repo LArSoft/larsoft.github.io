@@ -90,9 +90,9 @@ The X connection is tunnelled through the SSH connection. On each new SSH connec
 When you close the SSH connection, the X connection is also broken, and when you open a new SSH connection, the X connection might be different (e.g., `localhost:11.0`).  
 In that case, the existing `tmux` shells will still remember the old `DISPLAY` setting and will try to use that broken connection. So you start `root` and you get an X error and a batch session. The solution is to fix that `DISPLAY` variable first:
 
-# open a new `tmux` window
+1. open a new `tmux` window
 
-# print the `DISPLAY` value (the new window will have the updated one!):
+1. print the `DISPLAY` value (the new window will have the updated one!):
 
 <pre>
 
@@ -101,9 +101,9 @@ localhost:11.0
 
 </pre>
 
-# copy that text and close the `tmux` window you just created
+1. copy that text and close the `tmux` window you just created
 
-# in the old shell, update the `DISPLAY` variable:
+1. in the old shell, update the `DISPLAY` variable:
 
 <pre>
 
