@@ -29,6 +29,6 @@ Some of the steps you should consider to review your (or others') code:
 -   note if a call that can return an error state is not checked against it (e.g., calling `geo::GeometryCore::NearestWireID()` without checking if the returned ID `.isValid`)
 -   check the `try`/@catch@ blocks to make sure errors are correctly dealt with as well; if some code ignores an exception, it must explain why!
 -   any code using `geo::GeometryCore::DetectorName()` automatically triggers a red alert, as it implies detector dependency
--   (there is not only geometry!) evety time a… time is used, check that it uses the correct time reference (first tick, $t_{0}$) and the correct range (how many ticks?); such information can be retrieved via `TimeService` and `DetectorProperties` services
+-   (there is not only geometry!) every time a… time is used, check that it uses the correct time reference (first tick, t <sub>0</sub>) and the correct range (how many ticks?); such information can be retrieved via `TimeService` and `DetectorProperties` services
 
 Every time you find you need to check, consider also adding a comment that explains why the core is correct as is.
