@@ -34,6 +34,8 @@ Once you commit a change, it can take up to 10 minutes before the change is acti
 * You will find the upload status in the bottom right corner of [LArSoft github.io](https://github.com/LArSoft/larsoft.github.io)
 * The status does not change in real time, you need to refresh the page.
 * Possible status types are active, pending, in progress, and failure.
+* Note that if the status is "active", that may be for a previous update. You can check by clicking on "github-pages" next to the status report.
 * If the upload has failed investigate the failure by clicking on "github-pages" next to the status report.
+
 
 
