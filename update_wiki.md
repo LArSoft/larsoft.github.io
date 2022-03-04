@@ -14,14 +14,14 @@ Bare links will not display properly on the Jekyll pages.
 ```
 at https://github.com/LArSoft/larsoft.github.io/wiki 
 ```
-Instead use, the `[]()` format
+Instead use the `[]()` format
 ```
 [LArsoft github.io repository](https://github.com/LArSoft/larsoft.github.io/wiki)
 ```
 
 All links should be https.
 Please do not embed email addresses.
-We will be using subdirectories within the wiki directory to make support easier.
+We will be using subdirectories within the wiki directory to make support and navigation easier.
 
 We are currently using the Jekyll "minimal" theme.
 This theme allows us to use certain style commands for extended functionality.
