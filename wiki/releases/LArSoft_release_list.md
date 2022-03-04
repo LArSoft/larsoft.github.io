@@ -1,6 +1,6 @@
 # LArSoft release list
 
-[LArSoft release naming and retention policy](LArSoft release naming policy)
+[LArSoft release naming and retention policy](LArSoft_release_naming_policy)
 
 When breaking changes are introduced in the code, they are usually documented more extensively in the [Breaking Changes](Breaking_Changes) page.  
 Consider taking a look at it on each update, since the breakage could be subtler than just a compilation error.  

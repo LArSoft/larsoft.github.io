@@ -4,7 +4,7 @@
 
 ## Release types
 
--   [LArSoft release naming and retention policy](LArSoft release naming policy)
+-   [LArSoft release naming and retention policy](LArSoft_release_naming_policy)
 -   tagged
     -   vxx_yy_zz
     -   These are made weekly against the head of develop.
