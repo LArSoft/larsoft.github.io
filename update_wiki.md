@@ -23,6 +23,10 @@ All links should be https.
 Please do not embed email addresses.
 We will be using subdirectories within the wiki directory to make support easier.
 
+We are currently using the Jekyll "minimal" theme.
+This theme allows us to use certain style commands for extended functionality.
+The style commands do not work in all themes.
+
 * [Notes on github markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [About Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 
