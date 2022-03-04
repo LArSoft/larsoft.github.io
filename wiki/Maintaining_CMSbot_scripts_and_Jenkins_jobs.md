@@ -84,4 +84,4 @@ This was made by concatenating the public and private keys together with
 
 'cat /web/sites/s/scd-ci.fnal.gov/data/usercert.pem /web/sites/s/scd-ci.fnal.gov/data/userkey.pem \> /web/sites/s/scd-ci.fnal.gov/data/ci_cert.pem'
 
-The jobs are organized into a Jenkins project folder https://buildmaster.fnal.gov/buildmaster/view/GitHub%20Integration/job/GithubIntegration/
+The jobs are organized into a Jenkins project folder https://buildmaster.fnal.gov/buildmaster/view/GitHub_Integration/job/GithubIntegration/

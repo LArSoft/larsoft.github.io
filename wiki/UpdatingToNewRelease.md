@@ -16,7 +16,7 @@ UPS - Unix Product Support
 
 -   [mrb user guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/mrbUserGuide)
 -   [mrb reference guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/mrbRefereceGuide)
--   [mrb trouble shooting](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/Trouble Shooting)
+-   [mrb trouble shooting](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/Trouble_Shooting)
 -   [UPS Documentation](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/Documentation)
 
 ## Preliminaries

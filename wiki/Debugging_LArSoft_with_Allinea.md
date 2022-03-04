@@ -6,7 +6,7 @@ This information is based on [Dune's writeup](https://cdcvs.fnal.gov/redmine/pro
 
 Allinea Forge is a commercially-available suite including a [debugger](https://www.allinea.com/sites/default/files/uploads/Datasheets/allinea_ddt.pdf) (`ddt`) and a [profiling tool](https://www.allinea.com/products/map/features) (`map`). The `ddt` debugger is a GUI frontend to the `gdb` debugging tool.
 
-Fermilab has a few licenses available. Debugging videos demos and tutorials are available at: https://www.allinea.com/debugger-videos.
+Fermilab has a few licenses available. Debugging videos demos and tutorials are [available](https://www.allinea.com/debugger-videos).
 
 On the interactive GPVM machines at Fermilab, it is available as a pre-installed UPS product.  
 There is no default version, so you have to specify the version on the setup line. It is generally deployed in `/grid/fermiapp/products/local`, which you may have to add to the `PRODUCTS` path if your experiment setup doesn't already (DUNE also deploys it in their own UPS repository). As an alternative, you can add the argument `-z /grid/fermiapp/products/local` to your UPS commands. These two commands will first have you discover the available versions, and then set one up:
@@ -20,14 +20,14 @@ The above is obsolete. Now you just need to setup forge_tools:
     setup forge_tools
 
   
-If you need to install Allinea forge on a computer that doesn't yet have it using `upd`, follow the instructions here: https://cdcvs.fnal.gov/redmine/projects/art/wiki/Getting_started_with_Allinea_MAP_and_DDT
+If you need to install Allinea forge on a computer that doesn't yet have it using `upd`, follow the instructions [here](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Getting_started_with_Allinea_MAP_and_DDT)
 
 The debugger is called `ddt`, and it has built-in help for starting it
 
     ddt --help
 
   
-in addition to the web manual (both `ddt` and `map`) at https://www.allinea.com/user-guide/forge/userguide.html
+in addition to the [web manual](https://www.allinea.com/user-guide/forge/userguide.html) (both `ddt` and `map`)
 
 ## Tips
 
