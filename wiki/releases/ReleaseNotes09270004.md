@@ -35,7 +35,7 @@ Once this is done, you do not need to do it again unless you add or remove a pac
 
 ## New features
 
--   See the art 3.09 [release notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_309) and \[\[art:309_breaking_changes\|breaking changes\]\]
+-   See the art 3.09 [release notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_309) and [breaking changes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/309_breaking_changes)
 
 ## Updates for experiment code
 

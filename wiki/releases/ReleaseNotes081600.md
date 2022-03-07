@@ -13,7 +13,7 @@ Download instructions for [just larsoftobj v08_11_00](https://scisoft.fnal.gov/s
 
 ## New features
 
--   **Please read the [update notes](Update_to_art_v3_02).** These are an addition to changes documented in the \[\[art:Series_302\|art v3_02\]\] release notes.
+-   **Please read the [update notes](Update_to_art_v3_02).** These are an addition to changes documented in the [art v3_02](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_302) release notes.
 -   With this release, art has been split into art and art_root_io.
     -   A migration script is provided in art_root_io.
 -   macOS support

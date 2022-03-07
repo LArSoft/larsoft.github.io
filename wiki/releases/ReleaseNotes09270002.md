@@ -18,7 +18,7 @@ Download instructions for [just larsoftobj v09_06_01_02](https://scisoft.fnal.go
 
 ## New features
 
--   See the art 3.09 [release notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_309) and \[\[art:309_breaking_changes\|breaking changes\]\]
+-   See the art 3.09 [release notes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_309) and [breaking changes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/309_breaking_changes)
 
 ## Updates for experiment code
 

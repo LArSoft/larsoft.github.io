@@ -14,7 +14,7 @@ Download instructions for [just larsoftobj v1_18_00](https://scisoft.fnal.gov/sc
 ## New features
 
 -   Support added for Sierra with SIP disabled and Ubuntu LTS 16
--   Please see the [Breaking Changes Notes](Breaking_Changes#Update-to-GCC-6) and the \[\[Updating code to GCC 6\|GCC 6 migration\]\] page
+-   Please see the [Breaking Changes Notes](Breaking_Changes#Update-to-GCC-6) and the [GCC 6 migration](Updating code to GCC 6) page
 -   feature/team_for_gcc630 is available for argoneutcode, dunetpc, lariatsoft, and uboonecode.
 
 ## Bug fixes

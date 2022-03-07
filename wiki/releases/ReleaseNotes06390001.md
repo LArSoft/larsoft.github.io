@@ -47,7 +47,7 @@ The production.sh unit test fails. This needs to be investigated by experts.
 
 ### dunetpc
 
-dunetpc uses ServiceRegistry directly and needs a rewrite to accomodate changes in [art v2_07_03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20703) See the list of \[\[art:List_of_breaking_changes\|breaking changes\]\]
+dunetpc uses ServiceRegistry directly and needs a rewrite to accomodate changes in [art v2_07_03](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_20703) See the list of [breaking changes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/List_of_breaking_changes)
 
 ## Updated dependencies
 
