@@ -11,7 +11,7 @@ LArSoft itself and each experiment have a release manager.
 \| DUNE \| Dave Adams \|  
 \| Argoneut \| Tingjun Yang \|  
 \| LArIAT \| Jonathan Asaadi/Andrzej Szelc \|  
-\| [SBND](https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/) \| \[\[sbndcode:List of SBND code releases\|Tom Brooks\]\] \|  
+\| [SBND](https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/) \| [Tom Brooks](https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/List of SBND code releases) \|  
 \| ICARUS \| Tracy Usher \|
 
 ## Relevant Meetings

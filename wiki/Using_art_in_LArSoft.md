@@ -30,7 +30,7 @@ There are also `--print-available-modules` and `--print-available-services` opti
 
 ### [`art::EDProducer`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDProducer.h)
 
-This is a type of module that makes data products and stores them in the `art::Event`. The module takes a [fhicl::ParameterSet](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/wiki) or \[\[art:Configuration validation and description\|art::EDProducer::Table\]\] in the constructor and uses that to configure that module.
+This is a type of module that makes data products and stores them in the `art::Event`. The module takes a [fhicl::ParameterSet](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/wiki) or [art::EDProducer::Table](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Configuration validation and description) in the constructor and uses that to configure that module.
 
 The module can also implement a reconfigure method to allow for run time reconfiguration, for example while running the event display. This feature is not well supported in LArSoft, and you should not rely on it.
 
@@ -38,7 +38,7 @@ The user must supply the implementation for the `art::EDProducer::produce()` met
 
 ### [`art::EDAnalyzer`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDAnalyzer.h)
 
-This is a type of module that analyzes data products but cannot write them in an `art::Event`. The module takes a [fhicl::ParameterSet](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/wiki) or \[\[art:Configuration validation and description\|art::EDAnalyzer::Table\]\] in the constructor and uses that to configure that module.
+This is a type of module that analyzes data products but cannot write them in an `art::Event`. The module takes a [fhicl::ParameterSet](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/wiki) or [art::EDAnalyzer::Table](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Configuration validation and description) in the constructor and uses that to configure that module.
 
 The user must supply the implementation for the `art::EDAnalyzer::analyze()` method.  
 h3(count). [`art::EDFilter`](https://cdcvs.fnal.gov/redmine/projects/art/repository/revisions/master/entry/art/Framework/Core/EDFilter.h)

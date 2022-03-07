@@ -2,7 +2,7 @@
 
 
 
-Use of art [v3_00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_300) involves a number of \[\[art:300_breaking_changes\|breaking changes\]\].  
+Use of art [v3_00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Series_300) involves a number of [breaking changes](https://cdcvs.fnal.gov/redmine/projects/art/wiki/300_breaking_changes).  
 Please see Kyle's presentation on [problems found in the code](https://indico.fnal.gov/event/18618/contribution/5/material/slides/0.pdf).
 
 ## Header changes
@@ -49,7 +49,7 @@ Please see Kyle's presentation on [problems found in the code](https://indico.fn
 
 ## NuTools update notes
 
--   nutools [v2_26_00](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_26_00-9272018) has been built with art \[\[art:Release_Notes_30000\|v3_00_00\]\].
+-   nutools [v2_26_00](https://cdcvs.fnal.gov/redmine/projects/nutools/wiki/NuTools_Release_Notes#nutools-v2_26_00-9272018) has been built with art [v3_00_00](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Release_Notes_30000).
     -   This release also has changes that enable the GENIE interface to be compiled with either genie v2 or genie v3.
     -   This release was built with genie v2_12_10c.
     -   This release includes dk2nudata v01_07_02 and dk2nugenie v01_07_02b.

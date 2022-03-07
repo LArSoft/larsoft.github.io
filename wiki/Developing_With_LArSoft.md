@@ -12,7 +12,7 @@ Any collaborator can develop or modify code and contribute it to LArSoft. On thi
 
 ## Platforms
 
-LArSoft currently supports the platforms listed [here](Supported_platforms). **Users who wish to develop on an unsupported platform are encouraged to use \[\[Developing_LArSoft_on_Unsupported_Operating_Systems_with_Docker\|this Docker container approach\]\].**
+LArSoft currently supports the platforms listed [here](Supported_platforms). **Users who wish to develop on an unsupported platform are encouraged to use** [this Docker container approach](Developing_LArSoft_on_Unsupported_Operating_Systems_with_Docker).
 
 ## Designing
 
@@ -25,7 +25,7 @@ To design LArSoft code, it's important to understand the core LArSoft suite and 
 
 ### LArSoft packages and repositories
 
--   [ LArSoft repositories, packages and dependencies ](_LArSoft_repositories,_packages_and_dependencies_)
+-   [LArSoft repositories packages and dependencies](LArSoft_repositories_packages_and_dependencies)
 -   [Geometry Package](Geometry_Package)
 -   [LArSoft art-independent code and repositories](LArSoft_art-independent_code_and_repositories)
 
@@ -38,7 +38,7 @@ To design LArSoft code, it's important to understand the core LArSoft suite and 
 
 ### *gallery*
 
-*gallery* provides lightweight access to event data in art/ROOT files outside the art event processing framework executable. It is not an alternative framework; rather, it provides a library that can be used to write programs that need to read (but not write) art/ROOT files. Information is available at: https://art.fnal.gov/gallery/
+*gallery* provides lightweight access to event data in art/ROOT files outside the art event processing framework executable. It is not an alternative framework; rather, it provides a library that can be used to write programs that need to read (but not write) art/ROOT files. Information is available [here](https://art.fnal.gov/gallery/)
 
 ### External packages
 
@@ -133,7 +133,6 @@ NOTE: These are instructions for working with the legacy Redmine-based git repos
 
 -   [memory profiling tools](memory_profiling_tools)
 -   [time profiling tools](time_profiling_tools)
--   [OBSOLETE profiling utilities](OBSOLETE_profiling_utilities)
 
 #### Debugging
 
@@ -149,7 +148,7 @@ NOTE: These are instructions for working with the legacy Redmine-based git repos
 
 -   **[Look for experiment specific guides to using and developing LArSoft code ](Quick Links)**
 -   Choose the correct release from the [List of LArSoft Releases and Release Notes](LArSoft release list).
--   [What to do when there is a new release ](UpdatingToNewRelease) (a.k.a. **\[\[UpdatingToNewRelease\|update LArSoft version\]\]**)
+-   [What to do when there is a new release ](UpdatingToNewRelease) (a.k.a. **update LArSoft version**)
 
 To get write access to the repositories, speak to the offline coordinator for your experiment. If you have a question, send email to the SciSoft Team.
 
