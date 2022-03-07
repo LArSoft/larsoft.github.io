@@ -21,7 +21,7 @@ To design LArSoft code, it's important to understand the core LArSoft suite and 
 ### LArSoft architecture and design principles
 
 -   [Latest architecture document as PDF download](https://cdcvs.fnal.gov/redmine/projects/larsoft-architecture/repository/revisions/master/raw/output/LArSoftArchitecture.pdf)
--   [Design principles on larsoft.org](https//larsoft.org/important-concepts-in-larsoft/design/)
+-   [Design principles on larsoft.org](https://larsoft.org/important-concepts-in-larsoft/design/)
 
 ### LArSoft packages and repositories
 
