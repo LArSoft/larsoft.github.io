@@ -2,6 +2,8 @@
 
 # Space Points.
 
+NOTE: This page was brought over in 2015 and never linked. Some of this information is out of date. Please examine doxygen or the source code for up to date information on space points.
+
 This article describes various aspects of space points, what they are, how they are created, how they used.
 
 ## SpacePoint class.

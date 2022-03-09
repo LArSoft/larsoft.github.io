@@ -2,6 +2,8 @@
 
 # Reconstruction
 
+This information is OBSOLETE. Better information is available at: https://larsoft.org/important-concepts-in-larsoft/data-products/
+
 The reconstruction chain is illustrated in the following picture
 
 <img src="reco_chain.png" style="width:40.0%" alt="" />

@@ -29,11 +29,7 @@
 
 ## Pages to update and move
 
-Some pages in LArSoft have a combination of useful and out-of-date information. It would be good to at least remove the out-of-date material, even better would be to update it. The following is a list. Feel free to revise any of the pages and suggest where they should go. (Note, some information may belong partly on larsoft.org and partly in redmine.)
-
--   [OBSOLETE Using LArSoft on the GPVM nodes](OBSOLETE_Using_LArSoft_on_the_GPVM_nodes) - review and update (and place in [Developing with LArSoft](Developing_with_LArSoft) or [Using LArSoft](Using_LArSoft))
--   [Reconstruction](Reconstruction) - merge into larsoft.org?
--   [Space Points](Space_Points) - out of date?
+None at this time.
 
 ## [OBSOLETE FNAL Redmine tricks](OBSOLETE_FNAL_Redmine_tricks)
 
