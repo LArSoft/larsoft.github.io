@@ -54,9 +54,9 @@ These are package written and maintained by the general physics and computing co
 | [boost](https://www.boost.org/)                                                                      | `boost::`               | General programming tools for C                             | `$BOOST_INC/boost`      |                |
 | [Message Facility wiki documentation](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki) | `mf::`                  | Service for console messages                                | `$MESSAGEFACILITY_INC`  |                |
 | [FHiCL Configuration](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Wiki#Job-configuration)      | `fhicl::`               | Configuration language and parsing tools                    | `$FHICLCPP_INC`         |                |
-| [ nutools and LArSoft](NuSoft and LArSoft                                                                              ) | `simb::`                                                    | Neutrino platform tools | `$NUTOOLS_INC` |
+| [ nutools and LArSoft](NuSoft_and_LArSoft                                                                              ) | `simb::`                                                    | Neutrino platform tools | `$NUTOOLS_INC` |
 
-ROOT and Geant4 do not use namespaces. In general, ROOT classes begin with “T” (e.g., [TTree](https://root.cern.ch/root/html522/TTree.html), [TH1](https://root.cern.ch/root/html522/TH1.html)) while [Geant4 classes](https://geant4www.triumf.ca/lxr/) begin with “G4” (e.g., [G4Track](https://geant4www.triumf.ca/lxr/source//track/include/G4Track.hh), [G4Step](https://geant4www.triumf.ca/lxr/source//track/include/G4Step.hh)). Exception: Some of the newer ROOT sub-packages have namespaces (such as `ROOT::Math::`, `ROOT::Fit::`, `ROOT::Minuit2::`, `Reflex::`, `TMVA::`).
+ROOT and Geant4 do not use namespaces. In general, ROOT classes begin with “T” (e.g., [TTree](https://root.cern.ch/root/html522/TTree.html), [TH1](https://root.cern.ch/root/html522/TH1.html)) while [Geant4 classes](https://geant4.kek.jp/LXR/) begin with “G4” (e.g., [G4Track](https://geant4.kek.jp/lxr/source//track/include/G4Track.hh), [G4Step](https://geant4.kek.jp/lxr/source//track/include/G4Step.hh)). Exception: Some of the newer ROOT sub-packages have namespaces (such as `ROOT::Math::`, `ROOT::Fit::`, `ROOT::Minuit2::`, `Reflex::`, `TMVA::`).
 
 Some of these packages duplicate functionality; e.g., 4-vectors are implemented in both [ROOT](https://root.cern.ch/root/html522/TLorentzVector.html) and [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/doc/CLHEP_2_1_2_2/doxygen/html/LorentzVector_8h.html). Given a choice, use a package that's higher in the above tables over one that's lower; e.g., choose ROOT classes over their CLHEP equivalents.
 
@@ -76,15 +76,15 @@ Whether you are writing new code or modifying existing code, please follow the g
 
 ### Guidelines
 
-1.  [Coding guidelines](The rules and guidelines)
+1.  [Coding guidelines](The_rules_and_guidelines)
 2.  [Code documentation requirements and guidelines](Code_documentation_requirements_and_guidelines)
 3.  [Process for contributing code to LArSoft](Process_for_contributing_code_to_LArSoft)
 4.  [Guidelines on writing (and using) services in LArSoft](Writing LArSoft service) *<span class="general in"></span>*
-5.  [Guidelines on writing (and using) algorithms in LArSoft](Writing LArSoft algorithms) *<span class="algorithm any to specific not"></span>*
+5.  [Guidelines on writing (and using) algorithms in LArSoft](Writing_LArSoft_algorithms) *<span class="algorithm any to specific not"></span>*
 6.  [Guidelines on using the geometry](Guidelines_on_using_the_geometry)
-7.  [Error handling policy ](LArSoft Error Handling)
-8.  [Examples!](LArSoft examples)
-9.  [some C suggestions](Some C good practices)
+7.  [Error handling policy ](LArSoft_Error_Handling)
+8.  [Examples!](LArSoft_examples)
+9.  [some C suggestions](Some_C_good_practices)
 10. [Using git repositories](Using_git_repositories)
 
 ------------------------------------------------------------------------
@@ -99,9 +99,9 @@ Whether you are writing new code or modifying existing code, please follow the g
 
 ### How to…
 
--   … [create and use associations](Use associations)
+-   … [create and use associations](Use_Associations)
 -   … [use the new ROOT vectors and linear algebra classes in the code](From_ROOT_vectors_(TVector3)_to_ROOT_GenVector) (GenVector, SMatrix)
--   … [build with mrb 5 and cetbuildtools 8](build_with_mrb_5_and_cetbuildtools_8)
+-   … [build with mrb 5 and cetbuildtools 8](Build_with_mrb_5_and_cetbuildtools_8)
 
 ------------------------------------------------------------------------
 
@@ -131,8 +131,8 @@ NOTE: These are instructions for working with the legacy Redmine-based git repos
 
 #### Profiling
 
--   [memory profiling tools](memory_profiling_tools)
--   [time profiling tools](time_profiling_tools)
+-   [memory profiling tools](Memory_profiling_tools)
+-   [time profiling tools](Time_profiling_tools)
 
 #### Debugging
 
