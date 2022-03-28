@@ -1,3 +1,8 @@
+---
+google-site-verification-chg: mWu4AzUH2LiVvIlufi6W4Goyu4kKB0pKd
+---
+
+<meta name="google-site-verification" content="{{ page.google-site-verification-chg }}"/>
 
 # LArSoft Documentation
 
