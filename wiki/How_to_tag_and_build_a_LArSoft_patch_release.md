@@ -78,21 +78,20 @@ Please make a service desk ticket asking for these permissions. Use the SciSoft 
 <!-- -->
 
 -   ONLY update the version if there is a change.
--   cd to each directory separately
--   git diff LARSOFT_SUITE_vaa_bb_cc\[_dd\]
-    -   You are comparing against the previous patch release on this branch.
-    -   If this is the first patch release, compare against the original release.
-    -   Sometimes the only change is an updated dependency.
-    -   If there are no changes, use mrb uv to restore the previous release version and then move this package out of the way.
-            cd $MRB_SOURCE
-            mkdir ../notag
-            mv xxx ../notag
-            mrb uc
-    -   Move all experiment code out of the way. (*mv ub\* ../notag/* for MicroBooNE)
-
-<!-- -->
-
--   As of mrb v3_02_01, the “mrb uv” command will update larsoftobj/bundle/CMakeLists.txt, larsoft/releaseDB/CMakeLists, and <my experiment>/releaseDB/CMakeLists.txt as well as ups/product_deps.
+-   The instructions below are meant to be used after you have updated versions with **updatePatchVersion**.
+    -   cd to each directory separately
+    -   git diff LARSOFT_SUITE_vaa_bb_cc\[_dd\]
+        -   You are comparing against the previous patch release on this branch.
+        -   If this is the first patch release, compare against the original release.
+        -   Sometimes the only change is an updated dependency.
+        -   If there are no changes, use mrb uv to restore the previous release version and then move this package out of the way.
+                cd $MRB_SOURCE
+                mkdir ../notag
+                mv xxx ../notag
+                mrb uc
+-   If you are only making a larsoft release, move all experiment code out of the way before tagging. (*mv ub\* ../notag/* for MicroBooNE)
+-   If you understand the larsoft dependency order, then it is possible to move packages out of the way before running `updatePatchVersion`, but this works best once you have a good understanding of how the LArSoft dependencies work.
+-   `mrb uv` will update larsoftobj/bundle/CMakeLists.txt, larsoft/releaseDB/CMakeLists, and <my experiment>/releaseDB/CMakeLists.txt as well as ups/product_deps and the package top level CMakeLists.txt file.
     -   commit changes in the releaseDB or bundle subdirectories, but do not commit changes in ups/product_deps or the top level CMakeLists.txt file.
 -   DO NOT commit the changes to ups/product_deps or the top level CMakeLists.txt file. tagPatchRel will commit these changes.
 
@@ -103,6 +102,7 @@ Please make a service desk ticket asking for these permissions. Use the SciSoft 
     -   larcorealg
     -   lardataobj
     -   lardataalg
+    -   larvecutils (introduced in larsoft v09_40_00)
     -   larsoftobj
 
 <!-- -->
@@ -128,6 +128,7 @@ Please make a service desk ticket asking for these permissions. Use the SciSoft 
     -   larpandora (depends on larreco and larpandoracontent)
     -   lareventdisplay (depends on larreco)
     -   larexamples (depends on larsim)
+    -   webevd (depends on lardata)
     -   larsoft
 
 <!-- -->

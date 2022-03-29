@@ -12,7 +12,7 @@
     -   [Installing products on cvmfs](Installing_products_on_cvmfs)
 -   [Informal list of experiment contacts](Informal_list_of_experiment_contacts)
 -   [Policy for development from a tagged release](Policy_for_development_from_a_tagged_release)
--   [Procedure to create a new version of larsoft_data, uboone_data, etc.](Procedure to create a new version of larsoft_data)
+-   [Procedure to create a new version of larsoft_data, uboone_data, etc.](Procedure_to_create_a_new_version_of_larsoft_data)
 -   [Installation procedures](Installation_procedures)
 -   [LArSoft cvmfs](LArSoft_cvmfs)
 -   [Using the cetmodules migration script](Using_the_cetmodules_migration_script)
