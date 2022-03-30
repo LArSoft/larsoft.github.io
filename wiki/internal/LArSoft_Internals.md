@@ -31,16 +31,15 @@
 
 None at this time.
 
-## [OBSOLETE FNAL Redmine tricks](OBSOLETE_FNAL_Redmine_tricks)
+## GitHub markdown tips placeholder
 
 -   replace with github wiki tips?
 
 ## Ongoing Projects
 
-[Architecture revision](Architecture_revision)
+[OBSOLETE Architecture revision](OBSOLETE_Architecture_revision)
 
 -   [Data products architecture and design](Data_products_architecture_and_design)
-    -   [action items](DataProductsArchitectureActionItems)
 -   [Data product revision (phase II)](Data_product_revision_(phase_II))
 
 [Usability improvements](Usability_improvements)
