@@ -39,7 +39,7 @@ None at this time.
 
 ### OBSOLETE Architecture revision
 
--   [Data products architecture and design](Data_products_architecture_and_design)
+-   [Data products architecture and design](/wiki/Data_products_architecture_and_design)
 -   [Data product revision (phase II)](Data_product_revision_(phase_II))
 
 ### [Usability improvements](Usability_improvements)

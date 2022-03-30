@@ -10,28 +10,8 @@ Guiding philosophy: the code should build consistently before the tagging proces
 
 ## [Overview of Building a LArSoft Release](Overview_of_Building_a_LArSoft_Release)
 
-## [Informal list of experiment contacts](Informal_list_of_experiment_contacts)
-
-## Archival instructions for working with redmine repositories.
-
-Although these instructions are archival, much of the information remains relevant.
-
-### [Overview of Building a LArSoft Release from redmine](Overview_of_Building_a_LArSoft_Release_from_redmine)
-
-### [LArSoft Release Build Preliminary Steps](LArSoft_Release_Build_Preliminary_Steps)
-
-### [Create a Working Branch](Create_a_Working_Branch)
-
-### [Update versions](Update_versions)
-
-### [Run the quick CI tests](Run_the_quick_CI_tests)
-
-### [Create Tags for a LArSoft Release Build](Create_Tags_for_a_LArSoft_Release_Build)
-
-### [LArSoft Release Official Build](LArSoft_Release_Official_Build)
-
 ### [Install for cvmfs](Install_for_cvmfs)
 
-### [LArSoft Release Final Steps](LArSoft_Release_Final_Steps)
-
 ### [Special Instructions for Major Releases](Special_Instructions_for_Major_Releases)
+
+## [Informal list of experiment contacts](Informal_list_of_experiment_contacts)

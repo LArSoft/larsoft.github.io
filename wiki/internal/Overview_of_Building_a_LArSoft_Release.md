@@ -46,18 +46,18 @@ Start an ssh-agent for ease of working with github.
 
 To work with github, larreltools v1_08_02 or later is required.
 
-Decide if we think this is a bug fix or feature release. Note that feature branches are sometimes just bug fixes. This decision will be reflected in the directory name and release branch names. This example presumes a minor release against v08_41_00.
+Decide if we think this is a bug fix or feature release. Note that feature branches are sometimes just bug fixes. This decision will be reflected in the directory name and release branch names. This example presumes a minor release against v09_46_00.
 
 The “startLArSoftRel” command will create a directory structure and populate the srcs directory. Experiment code is in redmine, but larsoft is on github. Note that icaruscode and uboonecode have a conflicting name (crtsimhitproducer) and cannot be tested together. LArIAT is has changed release managers and is not up to date at this time.
 
     cd ~/scratch/larsoft
-    startLArSoftRel `pwd` v08_42_00
+    startLArSoftRel `pwd` v09_47_00
 
 ## Make a develop build
 
-At this time, our default build is e19. Start with that and make sure the combined head of develop builds. Also be sure to test with c7 before tagging. Notice that $MRB_SOURCE contains both larsoft and experiment code. It may be necessary to update versions and/or merge feature branches in the experiment code. On rare occasions, I have found it necessary to make small bug fixes in the experiment CMakeLists.txt files.
+At this time, our default build is e20. Start with that and make sure the combined head of develop builds. Also be sure to test with c7 before tagging. Notice that $MRB_SOURCE contains both larsoft and experiment code. It may be necessary to update versions and/or merge feature branches in the experiment code. On rare occasions, I have found it necessary to make small bug fixes in the experiment CMakeLists.txt files.
 
-    source ..../e19p/local*/setup
+    source ..../e20/local*/setup
     cd $MRB_BUILDDIR
     mrbsetenv
     mrb t -j20
@@ -71,7 +71,7 @@ If there are problems with the build or tests, fix them now.
 
 All changes in LArSoft packages should be made on the release branch.
 
-    manageLArGithub start v08_42_00
+    manageLArGithub start v09_46_00
 
 ## Are there outstanding changes?
 
@@ -101,14 +101,14 @@ At this time, check larbatch, larutils, and larpandoracontent. Move them out of 
 
 Then update the package versions, and determine which packages do not need updates.
 
-    manageLArGithub update micro  (v08_41_00 becomes v08_41_01, v08_41_01 becomes v08_41_02, etc.)
+    manageLArGithub update micro  (v09_41_00 becomes v09_41_01, v09_41_01 becomes v09_41_02, etc.)
     OR
-    manageLArGithub update minor  (v08_41_00 becomes v08_42_00, v08_41_02 becomes v08_42_00, etc.)
+    manageLArGithub update minor  (v09_41_00 becomes v09_42_00, v09_41_02 becomes v09_42_00, etc.)
 
-Step through the packages in [build order](How_to_tag_and_build_a_LArSoft_patch_release#Dependency-order) (starting from the bottom). Neither larutils nor larbatch are part of the dependency tree. Make sure you also check them.
+Step through the packages in [build order](How_to_tag_and_build_a_LArSoft_patch_release#Dependency-order) (starting from the bottom). Neither larutils nor larbatch are part of the dependency tree. Make sure you also check them. In this example, the previous larsoft release is v09_45_01.
 
     cd $MRB_SOURCE/<package> 
-    git diff LARSOFT_SUITE_v08_41_01
+    git diff LARSOFT_SUITE_v09_45_01
 
 If the only change is the version number that you just updated, then restore the old version number and move the package to notag
 
@@ -140,7 +140,7 @@ The tagging process will commit changes in ups/product_deps with an appropriate 
 
 We can do this from the command line via the manage script. We are going to push directly to github. Be very careful.
 
-    manageLArGithub tag v08_42_00
+    manageLArGithub tag v09_46_00
 
 ## Upload config files to SciSoft
 
@@ -171,12 +171,12 @@ Option 1 - run buildFW directly
 
     curl -O https://scisoft.fnal.gov/scisoft/bundles/tools/buildFW
     chmod +x buildFW
-    ./buildFW -t -b e19 -s s94 `pwd` prof larsoft-v08_42_00
+    ./buildFW -t -b e20 -s s112 `pwd` prof larsoft-v09_46_00
 
   
 Option 2 - execute the build script
 
-    env WORKSPACE=`pwd` LARVER=v08_42_00 QUAL=s94-e19 BUILDTYPE=prof ..../path/to/larutils/buildScripts/build-larsoft.sh
+    env WORKSPACE=`pwd` LARVER=v09_46_00 QUAL=s112-e20 BUILDTYPE=prof ..../path/to/larutils/buildScripts/build-larsoft.sh
 
 ### Download the binaries
 
@@ -185,20 +185,20 @@ I recommend downloading the files from Jenkins into your account on scisoftporta
     ssh scisoftportal.fnal.gov
     mkdir tmp
     cd tmp
-    .../copyFromJenkins -N -q s94-e19 -q s94-e19-py2 -q s94-c7 -q s93-c7-py2 build-larsoft
+    .../copyFromJenkins -N -q s112-e20  -q s112-c7  build-larsoft
     ls *.txt (This is just a check)
     .../copyToSciSoft --local *
     rm *
 
-## Ubuntu LTS 18 build
+## Ubuntu LTS 20 build
 
-We provide a build for Ubuntu LTS 18 on a best effort basis. I use vagrant on scisoftbuild01. See /home/garren/scratch/vagrant/u18.
+We provide a build for Ubuntu LTS 20 on a best effort basis. I use vagrant on scisoftbuild01. See /home/garren/scratch/vagrant/u20.
 
-The scripts I use are in /home/garren/scratch/vagrant/u18/scripts. Builds must be done on the internal file system, not in the shared /vagrant directory. As presently configured, my box is only big enough to build for a single qualifier at at time. The scripts presume the directory structure established by /vagrant/initialSetup.sh.
+The scripts I use are in /home/garren/scratch/vagrant/u20/scripts. Builds must be done on the internal file system, not in the shared /vagrant directory. As presently configured, my box is only big enough to build for a single qualifier at at time. The scripts presume the directory structure established by /vagrant/initialSetup.sh.
 
     vagrant ssh
     cd build
-    /vagrant/buildLArSoft.sh v08_42_00 s94 e19 >&amp; larsoft.log
+    /vagrant/buildLArSoft.sh v09_46_00 s112 e20 >&amp; larsoft.log
 
   
 You might be able to run copyToSciSoft from within the box, but I think access gets blocked. So I move the files to /vagrant/tar, exit vagrant, and then run copyToSciSoft from scisoftbuild01.
@@ -215,11 +215,10 @@ The installBundle.sh script will download for all supported platforms. It will a
 
     ssh cvmfslarsoft@oasiscfs.fnal.gov
     cat README
-    ./scripts/installBundle.sh larsoft v08_38_00 s93-e17
-    ./scripts/installBundle.sh larsoft v08_38_00 s93-e19
+    ./scripts/installBundle.sh larsoft v09_46_00 s112-e20
     ll /cvmfs/larsoft.opensciencegrid.org/products/.working
     ll /cvmfs/larsoft.opensciencegrid.org/products/mrb
-    ll /cvmfs/larsoft.opensciencegrid.org/products/larsoft/v08_38_00
+    ll /cvmfs/larsoft.opensciencegrid.org/products/larsoft/v09_46_00
     (These are checks.)
     time cvmfs_server publish larsoft.opensciencegrid.org
     (The time command is optional, but informative.)
@@ -231,8 +230,7 @@ Because there continue to be problems with cvmfs on the macOS Jenkins slaves, we
     ssh -l larsoft uboonegpvm02.fnal.gov
     mkdir work/kyle
     cd work/kyle
-    ../scripts/installRelease.sh v08_38_00 s93-c2
-    ../scripts/installRelease.sh v08_38_00 s93-c7
+    ../scripts/installRelease.sh v09_46_00 s112-c7
     rm *
 
 ### doxygen
@@ -256,7 +254,7 @@ When copying the generated release notes, it is important to use cat so that lin
 The top line of the the generated ReleaseNotes file is copied to the [LArSoft_release_list](releases/LArSoft_release_list) table. The remainder of the file is used to make the actual release notes. Notes about each release must be added by hand to the top section of the release notes.
 
     make-release-notes <top directory> <tag> <previous tag>
-    (e.g., make-release-notes `pwd` v08_42_00 v08_41_01)
+    (e.g., make-release-notes `pwd` v09_46_00 v09_45_01)
     cd <tag>
     cat ReleaseNotes-<tag>
 
@@ -269,7 +267,7 @@ Once the binaries are on cvmfs and the release notes have been generated, it is 
 The argument given to the merge command is the name of the release/vxx_yy_zz branch.
 
     cd $MRB_SOURCE
-    manageLArGithub merge v08_38_00
+    manageLArGithub merge v09_46_00
 
 ### announcement
 
