@@ -30,7 +30,7 @@ The style commands do not work in all themes.
 * [Notes on github markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [About Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 
-Once you commit a change, it can take up to 10 minutes before the change is active on the [LArSoft Jekyll pages](https://larsoft.github.io/)
+Once you commit a change, it can take up to 20 minutes before the change is active on the [LArSoft Jekyll pages](https://larsoft.github.io/)
 * You will find the upload status in the bottom right corner of [LArSoft github.io](https://github.com/LArSoft/larsoft.github.io)
 * The status does not change in real time, you need to refresh the page.
 * Possible status types are active, pending, in progress, and failure.
