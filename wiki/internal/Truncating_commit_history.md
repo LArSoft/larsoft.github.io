@@ -5,12 +5,11 @@
 ## Redmine to Github migration of all relevant branches.
 
 This is a copy of script used for truncating the history and rewriting the hashes before pushing to Github.  
-https://cdcvs.fnal.gov/redmine/attachments/57545/updateFBR.sh (current version)
+[updateFBR.sh](https://github.com/LArSoft/laradmin/blob/bc876e294e0ab6673c21cdd3def613eb59894000/archive/updateFBR.sh)
 
 ## Truncating development branch history
 
-Truncating the history of an existing branch in a development clone could use this script:  
-https://cdcvs.fnal.gov/redmine/attachments/55374/truncate-history.sh
+Truncating the history of an existing branch in a development clone could use [truncate-history.sh](https://scisoft.fnal.gov/scisoft/bundles/tools/truncate-history.sh)
 
 ## Runtimes for example feature branch
 

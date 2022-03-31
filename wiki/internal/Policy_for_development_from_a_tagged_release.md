@@ -11,13 +11,13 @@ It is important to note that changes on this fork are ***not*** in general merge
 1.  The experiments' software coordinator should put in a request to the SciSoft team specifying the tagged release vxx_yy_zz.
 2.  **Only** the LArSoft code manager will create a branch named vxx_yy_zz_br in each of the core larsoft repositories (excluding larbatch, larutils, and larpandoracontent).
 3.  “Feature branches” are then rooted on a new feature_vxx_yy_zz branch feature_vxx_yy_zz/<my_branch_name>.
-4.  Changes are then merged into vxx_yy_zz_br according to the [Getting new code into a LArSoft release](Getting_new_code_into_a_LArSoft_release) guidelines.
+4.  Changes are then merged into vxx_yy_zz_br according to the [Getting new code into a LArSoft release](/wiki/Getting_new_code_into_a_LArSoft_release) guidelines.
 
 Note, larbatch and larutils should always be the most recent release. Also note that larpandoracontent is controlled by the Pandora team and will not be updated as part of a patch release.
 
 Branch vxx_yy_zz_br will be used to create tagged releases vxx_yy_zz_mm, per the release naming policy. See [How to tag and build a LArSoft patch release](How_to_tag_and_build_a_LArSoft_patch_release)
 
-See the [LArSoft git Guidelines](LArSoft_git_Guidelines) for notes about working with these special branches.
+See the [LArSoft git Guidelines](/wiki/LArSoft_git_Guidelines) for notes about working with these special branches.
 
 ## Why hotfix doesn't work here
 
