@@ -31,7 +31,7 @@ The next section provides detailed information on each of the above steps, as we
 
 ## Detailed information, instructions and resources
 
-### An [overview of the pull request testing and approval process](pull request testing and approval workflow)
+### An [overview of the pull request testing and approval process](Pull_request_testing_and_approval_workflow)
 
 ### For LArSoft users and developers: how to check out repositories, requirements and steps to submit changes, move existing code
 
@@ -64,4 +64,4 @@ The next section provides detailed information on each of the above steps, as we
 
 ## Working notes (mostly archival)
 
--   The [GitHub migration plan](GitHub_migration_plan)
+-   The [Github Migration Plan](Github_Migration_Plan)

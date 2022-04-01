@@ -12,19 +12,19 @@ In the following:
 
 ## Where are the primary LArSoft repositories?
 
-The LArSoft repositories are owned by the LArSoft organization on Github: https://github.com/LArSoft
+The LArSoft repositories are owned by the LArSoft organization on [Github](https://github.com/LArSoft)
 
 ## How do I join GitHub and configure my personal GitHub account?
 
 In order to develop and contribute LArSoft code, you will need to have a personal GitHub account.
 
--   If you don't have one already, go to: https://github.com/join
+-   If you don't have one already, go to [GitHub join](https://github.com/join)
     -   Follow the instructions to create a new account. Make sure you either use a  
         username that people will easily recognize, or specify your real name, so that people know who issued the pull request.
 
 <!-- -->
 
--   If you have an account, use the “Sign in” dialog at https://github.com/login
+-   If you have an account, use the “Sign in” dialog at [GitHub login](https://github.com/login)
 
 <!-- -->
 
@@ -38,7 +38,7 @@ In order to develop and contribute LArSoft code, you will need to have a persona
 
 <!-- -->
 
--   To simplify pushing commits to your GitHub account, you can register your ssh key with your GitHub account. See https://help.github.com/articles/generating-ssh-keys for instructions on how to do this. (Note the different tabs on each topic page for Mac, Linux, etc.)
+-   To simplify pushing commits to your GitHub account, you can register your ssh key with your GitHub account. See [generating ssh keys](https://help.github.com/articles/generating-ssh-keys) for instructions on how to do this. (Note the different tabs on each topic page for Mac, Linux, etc.)
 
 ## How do I check out LArSoft repositories from GitHub?
 
@@ -58,7 +58,7 @@ Only a small number of people (the Level 1 managers) can push to the upstream LA
 3.  committing changes to the local repository and pushing them to your personal repository
 4.  submitting a pull request to the upstream repository.
 
-To assist with the various GitHub operations needed, you can use `hub`, a command-line utility that performs GitHub operations from local repositories. `hub` can, for instance, fork the upstream repositories to your GitHub account, or create pull requests from your local repositories. It is packaged as a dependency of the latest MRB, so is available whenever MRB is set up. More information on `hub` can be found at https://hub.github.com.
+To assist with the various GitHub operations needed, you can use `hub`, a command-line utility that performs GitHub operations from local repositories. `hub` can, for instance, fork the upstream repositories to your GitHub account, or create pull requests from your local repositories. It is packaged as a dependency of the latest MRB, so is available whenever MRB is set up. More information on `hub` can be found at [hub.github.com](https://hub.github.com).
 
 The GitHub CLI, gh, is now available as an alternative to hub. See [this talk](https://indico.fnal.gov/event/53302/contributions/234977/attachments/152351/197249/gh-feb22.pdf) for more info.
 
@@ -93,8 +93,8 @@ Before executing any of the steps below, these commands must be run in the curre
 
 For additional examples of using `hub`, see:
 
--   https://hub.github.com
--   https://hub.github.com/hub.1.html
+-   [github.com](https://hub.github.com)
+-   [hub.1](https://hub.github.com/hub.1.html)
 
 ### What do I do if there is a problem with the pull request?
 

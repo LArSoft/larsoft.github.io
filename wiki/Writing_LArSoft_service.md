@@ -97,7 +97,7 @@ The service interface is a (possibly abstract[^1]) class that describes all the 
 ```
 
   
-For a complete example, see [lar::example::ShowerCalibrationGalore](https://nusoft.fnal.gov/larsoft/doxsvn/html/group__ShowerCalibrationGalore.html#details), or `geo::ExptGeoHelperInterface` in `larcore` (Redmine link to [larcore/Geometry/ExptGeoHelperInterface.h](https://cdcvs.fnal.gov/redmine/projects/larcore/repository/revisions/develop/entry/larcore/Geometry/ExptGeoHelperInterface.h) ).
+For a complete example, see [lar::example::ShowerCalibrationGalore](https://nusoft.fnal.gov/larsoft/doxsvn/html/group__ShowerCalibrationGalore.html#details), or `geo::ExptGeoHelperInterface` in `larcore` (Redmine link to [larcore/Geometry/ExptGeoHelperInterface.h](https://github.com/LArSoft/larcore/blob/develop/larcore/Geometry/ExptGeoHelperInterface.h) ).
 
 An module or algorithm can use this service by:
 
@@ -291,10 +291,10 @@ Therefore, note that users do not interact at all (and don't even know the exist
 A fully developed example of this scheme is the actual implementation of `DetectorProperties` service (and of `DetectorClocks` and `LArProperties` as well).  
 The service providers are contained in `lardataalg/DetectorInfo`, while the *art* services are in `lardata/DetectorInfoService`:
 
--   [`detinfo::DetectorProperties`](https://cdcvs.fnal.gov/redmine/projects/lardataalg/repository/revisions/develop/entry/lardataalg/DetectorInfo/DetectorProperties.h) is the provider interface; algorithms will use constant pointers to it
--   [`detinfo::DetectorPropertiesService`](https://cdcvs.fnal.gov/redmine/projects/lardata/repository/revisions/develop/entry/lardata/DetectorInfoServices/DetectorPropertiesService.h) is the service interface; modules will ask for it (`lar::providerFrom<DetectorPropertiesService>()` or `art::ServiceHandle<DetectorPropertiesService>`); in the configuration, `services.DetectorPropertiesService` will specify the service configuration
--   [`detinfo::DetectorPropertiesServiceStandard`](https://cdcvs.fnal.gov/redmine/projects/lardata/repository/revisions/develop/entry/lardata/DetectorInfoServices/DetectorPropertiesServiceStandard.h) is a *art* service implementation; in the configuration, there will be a line equivalent to `services.DetectorPropertiesService.service_provider: DetectorPropertiesServiceStandard` (note that the `service_provider` term is a *art* choice that clashes with LArSoft's unfortunate choice of the word “provider” to denote the framework-independent class described above); it is invisible to algorithms and modules
--   [`detinfo::DetectorPropertiesStandard`](https://cdcvs.fnal.gov/redmine/projects/lardataalg/repository/revisions/develop/entry/lardataalg/DetectorInfo/DetectorPropertiesStandard.h) is a provider implementation; it is invisible with respect to configuration, algorithms and modules; an instance of it will be owned by `detinfo::DetectorPropertiesServiceStandard`
+-   [`detinfo::DetectorProperties`](https://github.com/LArSoft/lardataalg/blob/develop/lardataalg/DetectorInfo/DetectorProperties.h) is the provider interface; algorithms will use constant pointers to it
+-   [`detinfo::DetectorPropertiesService`](https://github.com/LArSoft/lardata/blob/develop/lardata/DetectorInfoServices/DetectorPropertiesService.h) is the service interface; modules will ask for it (`lar::providerFrom<DetectorPropertiesService>()` or `art::ServiceHandle<DetectorPropertiesService>`); in the configuration, `services.DetectorPropertiesService` will specify the service configuration
+-   [`detinfo::DetectorPropertiesServiceStandard`](https://github.com/LArSoft/lardata/blob/develop/lardata/DetectorInfoServices/DetectorPropertiesServiceStandard.h) is a *art* service implementation; in the configuration, there will be a line equivalent to `services.DetectorPropertiesService.service_provider: DetectorPropertiesServiceStandard` (note that the `service_provider` term is a *art* choice that clashes with LArSoft's unfortunate choice of the word “provider” to denote the framework-independent class described above); it is invisible to algorithms and modules
+-   [`detinfo::DetectorPropertiesStandard`](https://github.com/LArSoft/lardataalg/blob/develop/lardataalg/DetectorInfo/DetectorPropertiesStandard.h) is a provider implementation; it is invisible with respect to configuration, algorithms and modules; an instance of it will be owned by `detinfo::DetectorPropertiesServiceStandard`
 
 The interface classes (of provider and service) do not need to have an implementation file (in case of `DetectorProperties`, they don't).
 

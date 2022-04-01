@@ -52,7 +52,7 @@ There are a few of rules to keep in mind about FHiCL:
 
 ### Example configuration file: `detsimmodules.fcl`
 
-An example of a file with predefined configurations for modules is in the [larsim/DetSim/detsimmodules.fcl](https://cdcvs.fnal.gov/redmine/projects/larsim/repository/revisions/develop/entry/DetSim/detsimmodules.fcl) file.  
+An example of a file with predefined configurations for modules is in the [larsim/DetSim/detsimmodules.fcl](https://github.com/LArSoft/larsim/blob/develop/DetSim/detsimmodules.fcl) file.  
 All the definitions are inside a prologue block.  
 The following is an excerpt taken from LArSoft `v05_00_00` (experiments now use their specific `detsimmodule_Xxxx.fcl` configuration file though):
 
@@ -84,9 +84,9 @@ The following is an excerpt taken from LArSoft `v05_00_00` (experiments now use 
 
 ### Configuring the [message service](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility#Using-MessageFacility)
 
-Several standard configurations for the message service are in [lardata/Utilities/messageservice.fcl](https://cdcvs.fnal.gov/redmine/projects/lardata/repository/revisions/develop/entry/Utilities/messageservice.fcl). There is one configuration for each level of message output - Debug, Info, Warning, and Error. These configurations will be applied to each message level that is specified and those of higher priority. For example, the Info configuration will print out Info, Warning and Error level messages while the Warning configuration only print outs Warning and Error level messages. The “standard” debug configurations will cause the messages to go to a specified output file, `debug.log`. The Error configuration redirect to standard error stream (like `std::cerr`), while the others print into the standard output (`std::cout`). All impose some limits on the repetition of some frequent messages.  
+Several standard configurations for the message service are in [lardata/Utilities/messageservice.fcl](https://github.com/LArSoft/lardata/blob/develop/Utilities/messageservice.fcl). There is one configuration for each level of message output - Debug, Info, Warning, and Error. These configurations will be applied to each message level that is specified and those of higher priority. For example, the Info configuration will print out Info, Warning and Error level messages while the Warning configuration only print outs Warning and Error level messages. The “standard” debug configurations will cause the messages to go to a specified output file, `debug.log`. The Error configuration redirect to standard error stream (like `std::cerr`), while the others print into the standard output (`std::cout`). All impose some limits on the repetition of some frequent messages.  
 Remember that to use one of these “standard” configurations you need to include it in your FCL file: they are standard, not default.  
-If you want to define your own configuration, please take a look at the comments in [lardata/Utilities/messageservice.fcl](https://cdcvs.fnal.gov/redmine/projects/lardata/repository/revisions/develop/entry/Utilities/messageservice.fcl) file to determine how to do so.
+If you want to define your own configuration, please take a look at the comments in [lardata/Utilities/messageservice.fcl](https://github.com/LArSoft/lardata/blob/develop/Utilities/messageservice.fcl) file to determine how to do so.
 
 Examples of how to include the usual use of the message service configurations are in the example files below.
 
@@ -141,7 +141,7 @@ Also remember that, depending on the configuration, the debug output could be no
 
 ### Example job script: `prodgenie.fcl`
 
-To see an example job script to produce Monte Carlo events, go to: [larsim/EventGenerator/GENIE/prodgenie.fcl](https://cdcvs.fnal.gov/redmine/projects/larsim/repository/revisions/develop/entry/EventGenerator/GENIE/prodgenie.fcl) . The job defined by this script will generate neutrino interactions using GENIE, run them through Geant4, do the electron transport and then simulate the electronics.
+To see an example job script to produce Monte Carlo events, go to: [larsim/EventGenerator/GENIE/prodgenie.fcl](https://github.com/LArSoft/larsim/blob/develop/EventGenerator/GENIE/prodgenie.fcl) . The job defined by this script will generate neutrino interactions using GENIE, run them through Geant4, do the electron transport and then simulate the electronics.
 
 ### How to override a default parameter
 

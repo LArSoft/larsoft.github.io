@@ -217,7 +217,7 @@ Note that the vector is of constant pointers of the requested type. You shouldn'
 
 This is a utility that will search a list of predefined directories for a relative location of a file. For instance, if you want to use the geometry definition for a detector, `mydet.gdml`, as the input for the `Geometry` service, you would pass the geometry service the value `"mydet.gdml"` as a `std::string`. The `cet::search_path` object then searches through the previously defined `$FW_SEARCH_PATH` variable to see if it can locate the specified file. It will then allow access to information about the file, including its full path. This is helpful when writing code that needs data files that could be on a different path depending on the execution environment (e.g. a BlueArc area when running locally, but dCache when running on the grid), or for generic code that can't know where customisation points are (e.g. a experiment-specific data area), or for versioned data whose path includes a version number and therefore can change (e.g. the deployed UPS products). The necessary variables are set when a user sets up the environment.
 
-An example of using `cet::search_path` to find a file your code needs can be found in [LArSoft's `ShowerCalibrationGaloreByPID` example (`OpenROOTdirectory` method)](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/revisions/develop/entry/larexamples/Services/ShowerCalibrationGalore/Providers/ShowerCalibrationGaloreFromPID.cxx).  
+An example of using `cet::search_path` to find a file your code needs can be found in [LArSoft's `ShowerCalibrationGaloreByPID` example (`OpenROOTdirectory` method)](https://github.com/LArSoft/larexamples/blob/develop/larexamples/Services/ShowerCalibrationGalore/Providers/ShowerCalibrationGaloreFromPID.cxx).  
 Here is another:
 
 ```cpp
@@ -249,7 +249,7 @@ The interpretation of that information can follow one of two possible approaches
     -   *art*'s [art:Configuration validation and description](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Configuration_validation_and_description) wiki page describes how to set up a self-validating configuration in a *art* module or service
     -   FHiCL's [fhicl-cpp:Configuration validation and fhiclcpp types](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/Configuration_validation_and_fhiclcpp_types) wiki page describes how to write the content of that configuration
 
-[All the examples in `larexamples`](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/revisions/develop/entry/larexamples) use the self-validating configuration.
+[All the examples in `larexamples`](https://github.com/LArSoft/larexamples/blob/develop/larexamples) use the self-validating configuration.
 
 In both approaches, each element of the configuration is translated into a C data type, whether a trivial type or a class. Some examples:  
 \| type \| `fhicl::ParameterSet` approach \| `fhicl::Table` approach \|  

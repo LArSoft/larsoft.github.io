@@ -2,7 +2,7 @@
 
 # Getting started with an analysis task
 
-This page goes along with the [AnalysisExample](https://cdcvs.fnal.gov/redmine/projects/larexamples/repository/revisions/develop/show/larexamples/AnalysisExample) package in LArSoft. It provides an example of how to get started writing code to perform an analysis task on an event file created by LArSoft. It's meant for newcomers to LArSoft.
+This page goes along with the [AnalysisExample](https://github.com/LArSoft/larexamples/blob/develop/larexamples/AnalysisExample) package in LArSoft. It provides an example of how to get started writing code to perform an analysis task on an event file created by LArSoft. It's meant for newcomers to LArSoft.
 
 #### Assumptions
 
@@ -17,7 +17,7 @@ This page goes along with the [AnalysisExample](https://cdcvs.fnal.gov/redmine/p
 
 - If you've been given a file that contains a ROOT n-tuple, then you don't need this page. Just start using ROOT (there's a nice [tutorial](https://www.nevis.columbia.edu/~seligman/root-class/)) and work with the n-tuple.
 
-- If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You'll learn something about the development environment and how to read data from LArSoft event records; you won't learn how to [create producer or filter packages](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#artEDProducer), how to [write data](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#artAssns), how to [save your work in a git repository](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide), etc. You probably want to read [Developing with LArSoft](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Developing_With_LArSoft) instead.
+- If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You'll learn something about the development environment and how to read data from LArSoft event records; you won't learn how to [create producer or filter packages](Using_art_in_LArSoft#artEDProducer), how to [write data](Using_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](Using_art_in_LArSoft#artAssns), how to [save your work in a git repository](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide), etc. You probably want to read [Developing with LArSoft](Developing_With_LArSoft) instead.
 
 #### Alternatives
 
@@ -27,9 +27,9 @@ Aside from AnalysisExample, there are other packages you may want to consider fo
 
 - [LArLite](https://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=3183) is a MicroBooNE-based tool for simplified data analysis on LArSoft events. It's more user-friendly than LArSoft. However, LArSoft event files have to be converted into LArLite's format before you can use the tool. Also, as with AnalysisTree, not every data item is copied from a LArSoft event record into a LArLite file (though the developer Kazuhiro Terao responds to requests very quickly).
 
-- [Gallery](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/) is a package for reading files that contain art::Event records. The package itself does not depend on art, and can be simply run without using FHiCL files and the like. There are some nice examples of how to use Gallery [here](https://github.com/marcpaterno/gallery-demo). However, you have to be familiar with [art input protocols](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft) (as demonstrated in the AnalysisExample code). Also, Gallery does not support art Services and Algorithms; you have to use other tools if you need access to, for example, detector information or simulation parameters (also demonstrated in AnalysisExample).
+- [Gallery](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/) is a package for reading files that contain art::Event records. The package itself does not depend on art, and can be simply run without using FHiCL files and the like. There are some nice examples of how to use Gallery [here](https://github.com/marcpaterno/gallery-demo). However, you have to be familiar with [art input protocols](Using_art_in_LArSoft) (as demonstrated in the AnalysisExample code). Also, Gallery does not support art Services and Algorithms; you have to use other tools if you need access to, for example, detector information or simulation parameters (also demonstrated in AnalysisExample).
 
-- AnalysisExample, an [art::EDAnalyzer](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/Using_art_in_LArSoft#artEDAnalyzer), gives you access to all the data objects in LArSoft event records, and all of the art/LArSoft methods and services. It's also useful as a way to learn how to use the LArSoft framework. However, it is not as simple to use as the previous tools; simplicity is not a virtue of LArSoft.
+- AnalysisExample, an [art::EDAnalyzer](Using_art_in_LArSoft#artEDAnalyzer), gives you access to all the data objects in LArSoft event records, and all of the art/LArSoft methods and services. It's also useful as a way to learn how to use the LArSoft framework. However, it is not as simple to use as the previous tools; simplicity is not a virtue of LArSoft.
 
 #### Be patient
 
@@ -99,7 +99,7 @@ As a quick check, let's compile the code to see if there are any outstanding pro
 
     mrb install                               # Compile the code in ${MRB_SOURCE} and put the results in ${MRB_INSTALL}
 
-The `larexamples` product includes other example code in addition to AnalysisExample; you'll see that code compile as well. If you'd like to learn more about those Algorithm and Service examples, see [LArSoft Examples](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/LArSoft_examples).
+The `larexamples` product includes other example code in addition to AnalysisExample; you'll see that code compile as well. If you'd like to learn more about those Algorithm and Service examples, see [LArSoft Examples](LArSoft_examples).
 
 ### The `larexamples` version tag
 
@@ -117,7 +117,7 @@ For this particular example, it probably doesn't make much difference; the `lare
 
 Why not? Because if you were to `git push` any of the those changes, they'd affect the “official” version of `AnalysisExample`, which exists as an example for everyone to use for their analysis (you figured that out, didn't you?). You don't want to alter AnalysisExample. You want to copy it and make changes to your copy.
 
-As noted above, the mrb+git system organizes packages (e.g., HitFinder, ClusterFinder) into groups or products that can be set up with [UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/UPSV4TOC) (e.g., `larreco`); here's a list of the [groups](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_LArSoft_repositories_packages_and_dependencies_). I'm going to assume that you'll create a product of your own. Let's call it `myntuples`; product names must be in lower-case.
+As noted above, the mrb+git system organizes packages (e.g., HitFinder, ClusterFinder) into groups or products that can be set up with [UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/UPSV4TOC) (e.g., `larreco`); here's a list of the [groups](LArSoft_repositories_packages_and_dependencies). I'm going to assume that you'll create a product of your own. Let's call it `myntuples`; product names must be in lower-case.
 
 In your product will be all the ntuple packages you're going to create based on AnalysisExample; e.g., MyEnergyStudy, MyEfficiencyHistograms. Or perhaps you'll just create one package, but with many modules; e.g., create a MyNtuples package and within it create files like MyEnergyStudy_module.cc, MyEfficiencyHistograms_module.cc. Either approach will work.
 
@@ -305,9 +305,9 @@ Here's what I do when I login (I work on MicroBooNE):
 
 The following resources may help you with ROOT:
 
-- [ROOT web site](https://root.cern.ch/)  
-- [ROOT User's Guide](https://root.cern.ch/drupal/content/users-guide)  
-- the Nevis [ROOT tutorial](https://www.nevis.columbia.edu/~seligman/root-class/)
+-   [ROOT web site](https://root.cern.ch/)
+-   [ROOT User's Guide](https://root.cern.ch/drupal/content/users-guide)
+-   the Nevis [ROOT tutorial](https://www.nevis.columbia.edu/~seligman/root-class/)
 
 In addition to this, you'll probably have to become a “code detective” and use the code and comments in other packages to understand what to do in your own code.
 
@@ -317,7 +317,7 @@ If you want to browse the code in one of the package groups (e.g., `larsim`, `la
 
     https://cdcvs.fnal.gov/redmine/projects/<group-name>/repository
 
-So if you want to look at the package group `larreco`, you'd visit the URL https://cdcvs.fnal.gov/redmine/projects/larreco/repository
+So if you want to look at the package group `larreco`, you'd visit the [larreco URL](https://github.com/LArSoft/larreco)
 
 ### Browsing code in UNIX
 

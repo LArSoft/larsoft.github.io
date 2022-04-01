@@ -2,7 +2,7 @@
 
 **cms-bot** started as a single script used to drive PR approval and grew to be the core of the whole release engineering process for CMSSW.
 
-This fork of cms-bot (https://github.com/FNALbuild/cms-bot) has been modified to work with the Fermilab Jenkins infrastructure.
+This [fork of cms-bot](https://github.com/FNALbuild/cms-bot) has been modified to work with the Fermilab Jenkins infrastructure.
 
 # Setup
 
@@ -10,7 +10,7 @@ Instructions on having your repos tested on the Fermilab Jenkins CI infrastructu
 
 ## Setting up Pull Requests and/or Push CI testing for your organizations repositories
 
-### Notify The Scisoft Team
+### Notify the SciSoft Team
 
 -   This will ensure that the appropriate people are aware that you want to start testing pull requests and/or pushes for your repos and the Jenkins jobs can be configured for this.
 
@@ -44,12 +44,12 @@ If the result is over two lines use triple quotes to enclose the string, eg.
     xxxxx"""
 
 -   The manually configured webhook would have the following properties.
-    -   Payload URL: https://scd-ci.fnal.gov/cgi-bin/github_webhook
-    -   Content type: application/json
-    -   Secret: any password of your choice
-    -   Let me select individual events: Select
-    -   Issues, Issue comment, Pull request
-    -   Pushes (for push based events)
+         Payload URL: https://scd-ci.fnal.gov/cgi-bin/github_webhook
+         Content type: application/json
+         Secret: any password of your choice
+         Let me select individual events: Select
+         Issues, Issue comment, Pull request 
+         Pushes (for push based events)
 
 ### Pull request Testing:
 

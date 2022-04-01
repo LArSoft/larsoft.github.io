@@ -33,7 +33,7 @@ The following text will describe the allocation of an hypothetical reconstructio
 
 The category of algorithmic code includes not only actual algorithms, but any code providing some functionality. It is required to be framework-independent insofar as its full core functionality can be made available on “any” framework context. This category includes:
 
--   LArSoft core code that need to be framework-independent; for example: [`LArCoreAlg`](https://cdcvs.fnal.gov/redmine/projects/larcorealg)
+-   LArSoft core code that need to be framework-independent; for example: [`LArCoreAlg`](https://github.com/LArSoft/larcorealg)
 -   third party code (e.g. the pandora toolkit); for example, `pandora SDK, recotf`
 
 While it is preferred that a repository of algorithmic code be integrated with the LArSoft build system, this is a requirement only for the core software and not for the third party code.
@@ -41,8 +41,8 @@ While it is preferred that a repository of algorithmic code be integrated with t
 The `RecoTF` software will include an algorithmic code repository, called `recotf`. This repository may include code explicitly depending on:
 
 -   the “external” libraries it needs (e.g. `TensorFlow`)
--   the CET build system (`[cetbuildtools](https://cdcvs.fnal.gov/redmine/projects/cetbuildtools) CMake macros`)
--   code from any LArSoft algorithmic repository it needs (e.g. `[LArDataObj,](https://cdcvs.fnal.gov/redmine/projects/lardataobj) [LArCoreAlg](https://cdcvs.fnal.gov/redmine/projects/larcorealg`,) …)
+-   the CET build system (`[cetbuildtools](https://github.com/art-framework-suite/cetbuildtools) CMake macros`)
+-   code from any LArSoft algorithmic repository it needs (e.g. `[LArDataObj,](https://github.com/LArSoft/lardataobj) [LArCoreAlg](https://github.com/LArSoft/larcorealg`,) …)
 -   the CET infrastructure (`[fhicl-cpp,](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp) [messagefacility](https://cdcvs.fnal.gov/redmine/projects/messagefacility)) `
 -   the [`canvas`](https://cdcvs.fnal.gov/redmine/projects/canvas) libraries
 
@@ -58,9 +58,9 @@ These items are in order of decreasing likelihood of being needed. We encourage 
 This category includes code to enable the use of algorithmic code (above) into a specific framework.  
 This category includes:
 
--   interfaces to third party code (e.g. the pandora toolkit); for example, `[LArPandora,](https://cdcvs.fnal.gov/redmine/projects/larpandora) larrecotf`
+-   interfaces to third party code (e.g. the pandora toolkit); for example, `[LArPandora,](https://github.com/LArSoft/larpandora) larrecotf`
 
-The code must blend in with LArSoft build system and environment ([cetbuildtools,](https://cdcvs.fnal.gov/redmine/projects/cetbuildtools) [mrb](https://cdcvs.fnal.gov/redmine/projects/mrb)).
+The code must blend in with LArSoft build system and environment ([cetbuildtools,](https://github.com/art-framework-suite/cetbuildtools) [mrb](https://github.com/art-framework-suite/mrb)).
 
 The `RecoTF` software will include algorithm-framework interface code repositories; for example, `larrecotf` (to *art* framework and LArSoft toolkit), `wcrecotf` (to a WireCell framework) etc. Of course, we prescribe only on `larrecotf`, which needs to depend on:
 
@@ -71,10 +71,10 @@ The `RecoTF` software will include algorithm-framework interface code repositori
 
 ### LArSoft core code
 
-LArSoft already includes a lot of code, with a backbone of core repositories in a dependency chain: `[LArCore,](https://cdcvs.fnal.gov/redmine/projects/larcore) [LArData,](https://cdcvs.fnal.gov/redmine/projects/lardata) [LArEvt,](https://cdcvs.fnal.gov/redmine/projects/larevt) [LArSim,](https://cdcvs.fnal.gov/redmine/projects/larsim) [LArReco,](https://cdcvs.fnal.gov/redmine/projects/larreco) [LArAna](https://cdcvs.fnal.gov/redmine/projects/larana`) (in dependency order).  
-These repositories functionally merge the two categories above. Where factorization has taken place, each of these repositories has a matching algorithmic code repository. Where factorization is complete (as for `larcore`), one of the repositories is fully in the algorithmic code category ([`LArCoreAlg`](https://cdcvs.fnal.gov/redmine/projects/larcorealg)), and the other is in the algorithm-framework interface category ([`LArCore`).](https://cdcvs.fnal.gov/redmine/projects/larcore) <sup>1</sup>
+LArSoft already includes a lot of code, with a backbone of core repositories in a dependency chain: `[LArCore,](https://github.com/LArSoft/larcore) [LArData,](https://github.com/LArSoft/lardata) [LArEvt,](https://github.com/LArSoft/larevt) [LArSim,](https://github.com/LArSoft/larsim) [LArReco,](https://cdcvs.fnal.gov/redmine/projects/larreco) [LArAna](https://cdcvs.fnal.gov/redmine/projects/larana`) (in dependency order).  
+These repositories functionally merge the two categories above. Where factorization has taken place, each of these repositories has a matching algorithmic code repository. Where factorization is complete (as for `larcore`), one of the repositories is fully in the algorithmic code category ([`LArCoreAlg`](https://github.com/LArSoft/larcorealg)), and the other is in the algorithm-framework interface category ([`LArCore`).](https://github.com/LArSoft/larcore) <sup>1</sup>
 
-The `RecoTF` software will not entwine with this category: LArSoft users will be able to pull in `RecoTF` facilities through FHiCL configuration pulling in the run-time plug-ins provided in” `larrecotf`.“:https://cdcvs.fnal.gov/redmine/projects/larcore
+The `RecoTF` software will not entwine with this category: LArSoft users will be able to pull in `RecoTF` facilities through FHiCL configuration pulling in the run-time plug-ins provided in” `larrecotf`.“:hhttps://github.com/LArSoft/larcore
 
 ## Naming convention
 
