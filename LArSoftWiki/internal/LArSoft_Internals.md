@@ -13,7 +13,7 @@
 -   [Informal list of experiment contacts](Informal_list_of_experiment_contacts)
 -   [Policy for development from a tagged release](Policy_for_development_from_a_tagged_release)
 -   [Procedure to create a new version of larsoft_data, uboone_data, etc.](Procedure_to_create_a_new_version_of_larsoft_data)
--   [Installation procedures](/wiki/Installation_procedures)
+-   [Installation procedures](/LArSoftWiki/Installation_procedures)
 -   [LArSoft cvmfs](LArSoft_cvmfs)
 -   [Using the cetmodules migration script](Using_the_cetmodules_migration_script)
 
@@ -39,7 +39,7 @@ None at this time.
 
 ### OBSOLETE Architecture revision
 
--   [Data products architecture and design](/wiki/Data_products_architecture_and_design)
+-   [Data products architecture and design](/LArSoftWiki/Data_products_architecture_and_design)
 -   [Data product revision (phase II)](Data_product_revision_(phase_II))
 
 ### [Usability improvements](Usability_improvements)

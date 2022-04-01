@@ -11,7 +11,7 @@
 -   use recommended directory structure
 -   use complete library names
 -   this first v05 release was built from the v04_36_01 tag
-    -   [log of the process](/wiki/internal/Move_to_v05)
+    -   [log of the process](/LArSoftWiki/internal/Move_to_v05)
 
 ## New features
 
