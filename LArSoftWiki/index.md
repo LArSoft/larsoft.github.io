@@ -31,6 +31,6 @@ Now that Manchester has retired the server for larforum, LArSoft is looking into
 
 > Local installation of LArSoft, and builds.
 
-## [LArSoft Internals](LArSoftInternals/LArSoft_Internals)
+## [LArSoft Internals](LArSoftInternals/)
 
 > Topics of interest to people supporting LArSoft.
