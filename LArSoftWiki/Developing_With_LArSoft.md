@@ -79,7 +79,7 @@ Whether you are writing new code or modifying existing code, please follow the g
 1.  [Coding guidelines](The_rules_and_guidelines)
 2.  [Code documentation requirements and guidelines](Code_documentation_requirements_and_guidelines)
 3.  [Process for contributing code to LArSoft](Process_for_contributing_code_to_LArSoft)
-4.  [Guidelines on writing (and using) services in LArSoft](Writing LArSoft service) *<span class="general in"></span>*
+4.  [Guidelines on writing (and using) services in LArSoft](Writing_LArSoft_service) *<span class="general in"></span>*
 5.  [Guidelines on writing (and using) algorithms in LArSoft](Writing_LArSoft_algorithms) *<span class="algorithm any to specific not"></span>*
 6.  [Guidelines on using the geometry](Guidelines_on_using_the_geometry)
 7.  [Error handling policy ](LArSoft_Error_Handling)
