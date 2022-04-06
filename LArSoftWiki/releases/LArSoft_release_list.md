@@ -14,7 +14,7 @@ Release versions in **bold font** will be preserved according to the [production
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges         ) |
 | v09_47_00_01 | v09_17_01 | 04/05/2022 |  |  | [Release Notes](ReleaseNotes09470001) |
-| v09_47_00         | v09_17_01          | 03/30/2022 |                     |                                                            | [ Release Notes](ReleaseNotes094700    )                        |
+| v09_47_00         | v09_17_01          | 03/30/2022 |     **TEST RELEASE**                |   test release with tensorflow v2_6_0                                                         | [ Release Notes](ReleaseNotes094700    )                        |
 | **v09_37_01_02**  | **v09_12_00_01**   | 03/24/2022 |                     | SBN2021C production                                        | [ Release Notes](ReleaseNotes09370102  )                        |
 | v09_46_00         | v09_17_00          | 03/16/2022 |                     |                                                            | [ Release Notes](ReleaseNotes094600    )                        |
 | v09_45_00         | v09_17_00          | 03/10/2022 |                     |                                                            | [ Release Notes](ReleaseNotes094500    )                        |
