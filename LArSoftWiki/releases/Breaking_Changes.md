@@ -1,5 +1,7 @@
 # Breaking Changes
 
+* TOC
+{:toc}
 This is an attempt to track all the “breaking” changes which will require a general maintenance action to have the code back working.
 
 ## Table of recent changes
