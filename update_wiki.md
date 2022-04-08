@@ -23,6 +23,11 @@ All links should be https.
 Please do not embed email addresses.
 We will be using subdirectories within the wiki directory to make support and navigation easier.
 
+It is possible to add a Table of Contents.  This will be placed at the top of the page, BEFORE the page contents.
+See this commit to the [Breaking Changes page](https://github.com/LArSoft/larsoft.github.io/commit/9b62ce76d5e15cdecfe53384ca62a498e25064e4) for an example.
+An explanation is [here](https://ouyi.github.io/post/2017/12/31/jekyll-table-of-contents.html#generating-the-toc).
+Note that the table of contents will not show up in a preview, it will be generated when the page is rendered for display.
+
 We are currently using the Jekyll "minimal" theme.
 This theme allows us to use certain style commands for extended functionality.
 The style commands do not work in all themes.
