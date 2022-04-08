@@ -36,6 +36,20 @@ This is an attempt to track all the “breaking” changes which will require a 
 
 For ease of navigation, older breaking changes have been moved to [Breaking Changes prior to v07_00_00](Breaking_Changes_prior_to_v07_00_00)
 
+## larsoft v09_48_00 with wirecell v0_18_0
+
+**When was committed**: [v09_48_00](https://github.com/LArSoft/larsoft/releases/tag/v09_48_00)
+**Motivation**:  wirecell 0.18.0 with new FFT API
+**Affects**: user or experiment code  
+**Failure when not fixed**: cmake error
+```
+CMakeFiles/WireCellubsim.dir/ReweightedDepoTransform.cxx.o: In function `boost::stacktrace::frame::name[abi:cxx11]() const':
+/products/boost/v1_75_0/Linux64bit+3.10-2.17-e20-prof/include/boost/stacktrace/detail/frame_unwind.ipp:94: undefined reference to `dladdr'
+CMakeFiles/WireCellubsim.dir/ReweightedDepoTransform.cxx.o: In function `boost::stacktrace::detail::location_from_symbol::location_from_symbol(void const*)':
+/products/boost/v1_75_0/Linux64bit+3.10-2.17-e20-prof/include/boost/stacktrace/detail/location_from_symbol.hpp:31: undefined reference to `dladdr'
+```
+**Fix**:  add ${CMAKE_DL_LIBS} to the appropriate link list
+
 ## larsoft v09_43_00
 
 **When was committed**: [v09_43_00](ReleaseNotes094300)  
