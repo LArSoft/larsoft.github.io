@@ -8,9 +8,5 @@ LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 
 ## Coming soon
 
--   wirecell v0_18_0
-
-<!-- -->
-
 -   build larsoft with cetmodules
 -   new build of tensorflow
