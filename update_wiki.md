@@ -3,10 +3,14 @@
 Notice that the LArSoft wiki pages are in the wiki subdirectory. 
 The top level of the repository is reserved for the index and these instructions about updating the pages.
 
-We recommend editing the wiki pages in place in the [LArsoft github.io repository](https://github.com/LArSoft/larsoft.github.io/wiki)
+If you want to modify or create a new page, please open a [pull request](https://github.com/LArSoft/larsoft.github.io).
+Members of the documentation group and patch release managers are able to edit these pages directly.
 
-Editing the files in place allows you to use the preview option.
-However, be aware that there are some differences in allowed syntax between Jekyll pages and basic github markdown.
+For other requests, comments, or questions, please create a redmine issue or contact the SciSoft team.
+
+## Notes about formatting
+
+Be aware that there are some differences in allowed syntax between Jekyll pages and basic github markdown.
 
 Notice that lines will concatenate unless you put a blank line before any line that should start its own "paragraph".
 
@@ -34,6 +38,12 @@ The style commands do not work in all themes.
 
 * [Notes on github markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [About Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+
+## For people with direct edit access
+
+For small changes, we recommend editing the wiki pages in place in the [LArsoft github.io repository](https://github.com/LArSoft/larsoft.github.io/wiki)
+
+Editing the files in place allows you to use the preview option.
 
 Once you commit a change, it can take up to 20 minutes before the change is active on the [LArSoft Jekyll pages](https://larsoft.github.io/)
 * You will find the upload status in the bottom right corner of [LArSoft github.io](https://github.com/LArSoft/larsoft.github.io)
