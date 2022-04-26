@@ -21,7 +21,7 @@ First-time, or infrequent, users will be well-served to go through the following
     2.  If you need to modify the code locally, or use code not yet in a tagged release, then additional steps (below) are required.
 3.  Create a working area. This is described in the presentation from the 2019 workshop session on [LArSoft technical details](https://indico.fnal.gov/event/20453/session/5/contribution/2/material/slides/0.pdf).
     1.  To find out which repositories contain the code you need to modify for your task, examine the [List of repositories and their relationships](LArSoft_repositories_packages_and_dependencies).
-    2.  If you have questions, ask the LArSoft module authors and [release managers and offline coordinators](Librarians).
+    2.  If you have questions, ask the relevant code authors and [offline coordinators](Librarians) and [release managers](/LArSoftWiki/LArSoftInternals/Informal_list_of_experiment_contacts).
 4.  To modify the code, clone the reference software into your working area from the [LArSoft github](https://github.com/LArSoft) repositories.
     1.  This is where to find [Experiment-specific code](Experiment-specific_code).
     2.  And this is the [Sub-package locations](Sub-package_locations) (e.g., in which repository can I find the `HitFinder` sub-package?)
