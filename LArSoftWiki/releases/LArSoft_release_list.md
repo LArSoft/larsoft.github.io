@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges         ) |
+| v09_49_00 | v09_17_03 | 04/27/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_49_00) |
 | v09_48_01 | v09_17_02 | 04/14/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_48_01) |
 | v09_48_00 | v09_17_02 | 04/08/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_48_00) |
 | v09_47_00_01 | v09_17_01 | 04/05/2022 |   **TEST RELEASE**  |  test release with tensorflow v2_6_0 | [Release Notes](ReleaseNotes09470001) |
