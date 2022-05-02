@@ -18,7 +18,8 @@ This is an informal list of people we contact when there are problems with exper
     -   Johnny Ho
     -   Jonathan Asaadi
 -   sbndcode
-    -   Patrick Green (release manager)
+    -   Fran Nicolas (release manager)
+    -   Patrick Green 
     -   Dominic Brailsford
     -   Andrzej Szelc
 -   uboonecode
