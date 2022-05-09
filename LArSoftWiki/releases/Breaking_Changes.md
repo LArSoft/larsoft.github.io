@@ -4,33 +4,6 @@
 {:toc}
 This is an attempt to track all the “breaking” changes which will require a general maintenance action to have the code back working.
 
-## Table of recent changes
-
-| Date     | Version/commit | Description                                                                | Issue                                                       |         |
-|----------|----------------|----------------------------------------------------------------------------|-------------------------------------------------------------|---------|
-| 20220224 | `v09_43_00`    | [ larsoft v09_43_00](Breaking_Changes#larsoft-v09_43_00                                     )                                       |         |
-| 20210921 | `v09_31_00`    | [ mrb 5](Breaking_Changes#mrb-5                                                 )                                                   |         |
-| 20210407 | `v09_21_00`    | [ Refactor EventWeight interface to GENIE v3](Breaking_Changes#Refactor-EventWeight-interface-to-GENIE-v3            )              |         |
-| 20210204 | `v09_16_00`    | [ root v6_22_06a typo](Breaking_Changes#root-v6_22_06a-typo                                   )                                     |         |
-| 20210114 | `v09_13_00`    | [ larrecodnn new directory structure](Breaking_Changes#larrecodnn-new-directory-structure                    )                      |         |
-| 20210107 | `v09_12_00`    | [ Geometry configuration check](Breaking_Changes#Geometry-configuration-check                          )                            | \#24328 |
-| 20200819 | `v09_00_00`    | [ larsoft v09_00_00](Breaking_Changes#larsoft-v09_00_00                                     )                                       |         |
-| 20191113 | `v08_36_00`    | [ Update to nutools v3_05_00 with nuevdb](Breaking_Changes#Update-to-nutools-v3_05_00-with-nuevdb                )                  |         |
-| 20191113 | `v08_36_00`    | [ Using boost v1_70_0](Breaking_Changes#Using-boost-v1_70_0                                   )                                     |         |
-| 20191113 | `v08_36_00`    | [ update to art v3_03_01](Breaking_Changes#Update-to-art-v3_03_01                                )                                  |         |
-| 20191111 | `v08_35_01`    | [ Lengthen raw::RawDigit fSamples](Breaking_Changes#Lengthen-rawRawDigit-fSamples                         )                         |         |
-| 20191023 | `v08_33_00`    | [ Removal of Calorimetry hard-coded values](Breaking_Changes#Removal-of-Calorimetry-hard-coded-values              )                | \#23457 |
-| 20190820 | `v08_31_00`    | [ artdaq_core calls clock_gettime](Breaking_Changes#artdaq_core-calls-clock_gettime                       )                         |         |
-| 20190820 | `v08_31_00`    | [ macOS missing TGX11](Breaking_Changes#macOS-missing-TGX11                                   )                                     |         |
-| 20190820 | `v08_31_00`    | [ root IO rules](Breaking_Changes#root-IO-rules                                         )                                           | \#23013 |
-| 20190814 | `v08_28_01`    | [ code cleanup](Breaking_Changes#code-cleanup                                          )                                            |         |
-| 20190809 | `v08_28_00`    | [ genie v3_00_06](Breaking_Changes#genie-v3_00_06                                        )                                          |         |
-| 20190725 | `v08_27_00`    | [ nutools v3_02_00](Breaking_Changes#nutools-v3_02_00                                      )                                        |         |
-| 20190610 | `v08_22_00`    | [ nutools v3_00_00](Breaking_Changes#nutools-v3_00_00                                      )                                        |         |
-| 201904xx | `v08_15_00`    | [ New PhotonVisibilityService features](Breaking_Changes#New-PhotonVisibilityService-features                  )                    |         |
-| 2019     |                | [Update to art v3_02](Update_to_art_v3_02)                                                |                                                             |         |
-| 20181213 | `v08_00_00`    | [Update from art v2 to art v3](Update_from_art_v2_to_art_v3)                                       |                                                             |         |
-| 20181129 | `v07_12_00`    | [ Remove deprecated members and methods from recob::Track](Breaking_Changes#Remove-deprecated-members-and-methods-from-recobTrack ) |         |
 
 ## Changes for larsoft v06_xx_yy and previous
 
