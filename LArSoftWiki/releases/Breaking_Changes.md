@@ -36,6 +36,19 @@ This is an attempt to track all the “breaking” changes which will require a 
 
 For ease of navigation, older breaking changes have been moved to [Breaking Changes prior to v07_00_00](Breaking_Changes_prior_to_v07_00_00)
 
+## larsoft v09_50_00 with cetmodules 3.12.00
+
+- Some headers are no longer supplied "for the convenience of upstream users".  These must be included where used.
+  - `#include "larcore/CoreUtils/ServiceUtil.h"` for `lar::providerFrom`
+  - `#include "art/Framework/Services/Registry/ServiceHandle.h"` for `art::ServiceHandle`
+  - `#include "larcore/Geometry/Geometry.h"` for `geo::Geometry`
+  - `#include "art/Framework/Principal/Run.h"`
+- The larcorealg test headers  now have larcorealg in their path
+  - `test/Geometry/geometry_unit_test_base.h` has been moved to `larcorealg/TestUtils/geometry_unit_test_base.h`
+  - All other `test/Geometry/` headers are now `larcorealg/test/Geometry/`
+- `lardataobj_OpticalDetectorData` was unnecessary and effectively empty.  It can safely be remove from link lists.
+
+
 ## larsoft v09_48_00 with wirecell v0_18_0
 
 **When was committed**: [v09_48_00](https://github.com/LArSoft/larsoft/releases/tag/v09_48_00)
@@ -52,11 +65,11 @@ CMakeFiles/WireCellubsim.dir/ReweightedDepoTransform.cxx.o: In function `boost::
 
 ## larsoft v09_43_00
 
-**When was committed**: [v09_43_00](ReleaseNotes094300)  
-**Motivation**: build the larsoftobj packages with cetmodules  
-**Affects**: user or experiment code  
-**Failure when not fixed**: cmake error
-
+- **When was committed**: [v09_43_00](ReleaseNotes094300)  
+- **Motivation**: build the larsoftobj packages with cetmodules  
+- **Affects**: user or experiment code  
+- **Failure when not fixed**: cmake error
+```
     635: CMake Error at /cvmfs/larsoft.opensciencegrid.org/products/cetmodules/v3_06_01/Modules/private/CetOverrideFindPackage.cmake:174 (_find_package):
     636:   Found package configuration file:
     637: 
@@ -67,15 +80,15 @@ CMakeFiles/WireCellubsim.dir/ReweightedDepoTransform.cxx.o: In function `boost::
     642: 
     643:   The following imported targets are referenced, but are missing:
     644:   larcoreobj::SummaryData
-
-  
-**Fix**:  
-Use this call order in the top level CMakeLists.txt file.
-
+```
+- **Fix**:  
+  - Use this call order in the top level CMakeLists.txt file.
+```
     find_ups_product(larcoreobj)
     find_ups_product(larcorealg)
     find_ups_product(lardataobj)
     find_ups_product(lardataalg)
+```
 
 ## mrb 5
 
