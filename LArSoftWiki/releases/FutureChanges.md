@@ -4,7 +4,10 @@ These are short term plans.
 
 LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 
-## week of May 2
+## week of May 23
+
+- artg4tk 
+  - see [26931](https://cdcvs.fnal.gov/redmine/issues/26931)
 
 
 ## Coming soon
