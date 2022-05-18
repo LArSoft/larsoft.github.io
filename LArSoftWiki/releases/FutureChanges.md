@@ -8,6 +8,8 @@ LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 
 - artg4tk 
   - see [26931](https://cdcvs.fnal.gov/redmine/issues/26931)
+- cetbuildtools v8_20_00 
+- cetmodules v3_13_02
 
 
 ## Coming soon
