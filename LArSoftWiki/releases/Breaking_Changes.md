@@ -9,6 +9,25 @@ This is an attempt to track all the “breaking” changes which will require a 
 
 For ease of navigation, older breaking changes have been moved to [Breaking Changes prior to v07_00_00](Breaking_Changes_prior_to_v07_00_00)
 
+## larsoft v09_52_00 - larpandora built with cetmodules
+
+- Some headers will need to be included where used.
+- Some libraries will need to be added to link lists
+- Unless find_package(larpandora) is used, define the libraries:
+```
+cet_find_library( PANDORASDK NAMES PandoraSDK PATHS ENV PANDORA_LIB NO_DEFAULT_PATH)
+cet_find_library( PANDORAMONITORING NAMES PandoraMonitoring PATHS ENV PANDORA_LIB NO_DEFAULT_PATH)
+```
+#### undefined references to TFileDirectory and RootDirectorySentry
+```
+/cvmfs/larsoft.opensciencegrid.org/products/art_root_io/v1_08_03/include/art_root_io/TFileDirectory.h:88: undefined reference to `art::detail::RootDirectorySentry::~RootDirectorySentry()'
+```
+add
+```
+  art_root_io::TFileService_service
+  art_root_io::tfile_support
+```
+
 ## larsoft v09_50_00 with cetmodules 3.12.00
 
 - Some headers are no longer supplied "for the convenience of upstream users".  These must be included where used.
