@@ -84,7 +84,6 @@ Whether you are writing new code or modifying existing code, please follow the g
 6.  [Guidelines on using the geometry](Guidelines_on_using_the_geometry)
 7.  [Error handling policy ](LArSoft_Error_Handling)
 8.  [Examples!](LArSoft_examples)
-9.  [some C suggestions](Some_C_good_practices)
 10. [Using git repositories](Using_git_repositories)
 
 ------------------------------------------------------------------------
