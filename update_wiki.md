@@ -41,7 +41,7 @@ The style commands do not work in all themes.
 
 ## For people with direct edit access
 
-For small changes, we recommend editing the wiki pages in place in the [LArsoft github.io repository](https://github.com/LArSoft/larsoft.github.io/wiki)
+For small changes, we recommend editing the wiki pages in place in the [LArsoft github.io repository](https://github.com/LArSoft/larsoft.github.io/)
 
 Editing the files in place allows you to use the preview option.
 
