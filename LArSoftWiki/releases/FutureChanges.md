@@ -4,13 +4,10 @@ These are short term plans.
 
 LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 
-## week of May 23
+## week of May 31
 
-- artg4tk 
-  - see [26931](https://cdcvs.fnal.gov/redmine/issues/26931)
-- cetbuildtools v8_20_00 
-- cetmodules v3_13_02
-
+- ifdhc v2_6_4
+- ifdh_config v2_6_4
 
 ## Coming soon
 
