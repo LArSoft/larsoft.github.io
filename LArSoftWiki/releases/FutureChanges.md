@@ -8,6 +8,7 @@ LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 
 - ifdhc v2_6_4
 - ifdh_config v2_6_4
+- wirecell v0_20_0
 
 ## Coming soon
 
