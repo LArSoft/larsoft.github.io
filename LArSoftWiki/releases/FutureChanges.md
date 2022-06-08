@@ -4,11 +4,9 @@ These are short term plans.
 
 LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 
-## week of May 31
+## week of June 6
 
-- ifdhc v2_6_4
-- ifdh_config v2_6_4
-- wirecell v0_20_0
+- artg4tk v10_05_02
 
 ## Coming soon
 
