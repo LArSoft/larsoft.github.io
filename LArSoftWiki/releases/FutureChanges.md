@@ -4,9 +4,8 @@ These are short term plans.
 
 LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 
-## week of June 6
+## week of June 13
 
-- artg4tk v10_05_02
 
 ## Coming soon
 
