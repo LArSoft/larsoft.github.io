@@ -4,10 +4,10 @@ You may either download binaries to your computer from [SciSoft](https://scisoft
 
 ## Installation Procedures
 
--   [Supported Platforms](Supported_Platforms)
+-   [Supported Platforms](Supported_platforms)
 -   [ installing a LArSoft release ](Installation_procedures)
 -   [list of LArSoft releases](releases/LArSoft_release_list)
--   [LArSoft release naming and retention policy](LArSoft_release_naming_policy)
+-   [LArSoft release naming and retention policy](LArSoftInternals/LArSoft_release_naming_policy)
 
 ## LArSoft cvmfs
 
