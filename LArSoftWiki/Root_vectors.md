@@ -2,19 +2,19 @@
 
 ## Why?
 
-- @TVector3@, @TLorentzVector@, @TMatrixD@ and such have a large overhead in both memory usage and CPU usage
+- **TVector3, TLorentzVector, TMatrixD** and such have a large overhead in both memory usage and CPU usage
 
-  - contain data members that are useful only for ROOT I/O and other ROOT magics (like @TRef@)
+  - contain data members that are useful only for ROOT I/O and other ROOT magics (like **TRef**)
   
   - use virtual functions
  
   - perform additional operations on construction and destruction related to ROOT but not to their data
   
-  - the overhead is (relatively) worse for @TLorentzVector@ and @TVector2@
+  - the overhead is (relatively) worse for **TLorentzVector** and **TVector2**
   
-- they are bound to @double@ precision floating point numbers only
+- they are bound to **double** precision floating point numbers only
 
-These classes have their use: it's easy to write them directly in a ROOT tree, even on command line, and they can be a target of @TRef@. But unless these features are explicitly needed, their use is suboptimal.
+These classes have their use: it's easy to write them directly in a ROOT tree, even on command line, and they can be a target of **TRef**. But unless these features are explicitly needed, their use is suboptimal.
 
 
 ## Documentation
@@ -22,29 +22,16 @@ These classes have their use: it's easy to write them directly in a ROOT tree, e
 | Library | objects | used in LArSoft |
 |---------|---------|-----------------|
 | [GenVector](https://root.cern.ch/doc/master/group__GenVector.html) |[ROOT::Math::PositionVector2D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1PositionVector2D.html)| [geo::Point_t](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a8f50958e1ae782539f468fe82b56e680) |
-|  | [@ROOT::Math::DisplacementVector3D@](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector3D.html) | [@geo::Vector_t](https://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#ac78157942b179c6abb41ed24ccb4560a)|
+|  | [ROOT::Math::DisplacementVector3D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector3D.html) | [geo::Vector_t](https://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#ac78157942b179c6abb41ed24ccb4560a)|
+|   | [ROOT::Math::DisplacementVector3D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector3D.html) | [geo::Vector_t](https://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#ac78157942b179c6abb41ed24ccb4560a) |          | [ROOT::Math::PositionVector2D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1PositionVector2D.html)  [ROOT::Math::DisplacementVector2D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector2D.html) | 
+| | [geo::PlaneGeo::WidthDepthProjection_t](https://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1PlaneGeo.html#a066c372521b61e61bc86146ea4a9fc66) [geo::PlaneGeo::WireCoordProjection_t](https://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1PlaneGeo.html#a54262556246be9d7cd55b501d860d9c1) |
+| | [ROOT::Math::LorentzVector](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1LorentzVector.html) |
+| ROOT | [TVector2](https://root.cern.ch/doc/master/classTVector2.html) |
+| | [TVector3](https://root.cern.ch/doc/master/classTVector3.html) |
+| | [TLorentzVector](https://root.cern.ch/doc/master/classTLorentzVector.html) |
+| | [TMatrixD](https://root.cern.ch/doc/master/classTMatrixD.html) |
 
-|  | next | next |
-
-|. Library                                                                                                            
-|. objects                                                                                                                                                                                       | used in LArSoft              |
-|/5. "GenVector":https://root.cern.ch/doc/master/group__GenVector.html | 
-"@ROOT::Math::PositionVector3D@":https://root.cern.ch/doc/master/classROOT_1_1Math_1_1PositionVector3D.html |
-"@geo::Point_t@":http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a8f50958e1ae782539f468fe82b56e680 |
-
-
-|                                                                                                                            "@ROOT::Math::DisplacementVector3D@":https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector3D.html | "@geo::Vector_t@":http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#ac78157942b179c6abb41ed24ccb4560a |
-|                                                                                                                            "@ROOT::Math::PositionVector2D@":https://root.cern.ch/doc/master/classROOT_1_1Math_1_1PositionVector2D.html |
-|                                                                                                                            "@ROOT::Math::DisplacementVector2D@":https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector2D.html | "@geo::PlaneGeo::WidthDepthProjection_t@":http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1PlaneGeo.html#a066c372521b61e61bc86146ea4a9fc66 , "@geo::PlaneGeo::WireCoordProjection_t@":http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1PlaneGeo.html#a54262556246be9d7cd55b501d860d9c1 |
-|                                                                                                                            "@ROOT::Math::LorentzVector@":https://root.cern.ch/doc/master/classROOT_1_1Math_1_1LorentzVector.html |
-|/4. ROOT 
-| "@TVector2@":https://root.cern.ch/doc/master/classTVector2.html |
-
-|                                                                                                                           "@TVector3@":https://root.cern.ch/doc/master/classTVector3.html |
-|                                                                                                                           "@TLorentzVector@":https://root.cern.ch/doc/master/classTLorentzVector.html |
-|                                                                                                                           "@TMatrixD@":https://root.cern.ch/doc/master/classTMatrixD.html |
-
-## @TVector3@ vs. @ROOT::Math::DisplacementVector@ and @ROOT::Math::PositionVector@
+## TVector3 vs. ROOT::Math::DisplacementVector and ROOT::Math::PositionVector
 
 The vectors in GenVector library are template based and have fixed dimensionality, each one with an independent interface:
 * dimension 2 ("2D")
@@ -67,9 +54,9 @@ The two types of vector have different properties and do not share the full rang
 
 ## Data types
 
-While @TVector3@ is quite monolitic, GenVector vectors give us tons of possibilities. Which most of the time we don't need.
+While **TVector3** is quite monolitic, GenVector vectors give us tons of possibilities. Which most of the time we don't need.
 
-An old 3D vector with representation of @double@ could be used as:
+An old 3D vector with representation of **double** could be used as:
 <pre><code class="cpp">#include "TVector3.h"
 TVector3 v;</code></pre>
 The equivalent object in GenVector is a either a position or a displacement vector in cartesian "global" coordinates.
