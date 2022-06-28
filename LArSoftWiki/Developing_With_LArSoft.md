@@ -99,7 +99,7 @@ Whether you are writing new code or modifying existing code, please follow the g
 ### How to…
 
 -   … [create and use associations](Use_Associations)
--   … [use the new ROOT vectors and linear algebra classes in the code](From_ROOT_vectors_(TVector3)_to_ROOT_GenVector) (GenVector, SMatrix)
+-   … [use the new ROOT vectors and linear algebra classes in the code](Root_vectors)
 -   … [build with mrb 5 and cetbuildtools 8](Build_with_mrb_5_and_cetbuildtools_8)
 
 ------------------------------------------------------------------------
