@@ -2,7 +2,7 @@
 
 > [Quick Links](Quick_Links)
 
-**LArSoft git repositories have moved to GitHub!** [Learn the new procedures](Working with Github)
+**LArSoft git repositories have moved to GitHub!** [Learn the new procedures](Working_with_Github)
 
 For general information on LArSoft, including links to videos and presentations, start at https://larsoft.org/
 
@@ -20,12 +20,6 @@ For general information on LArSoft, including links to videos and presentations,
 > Developing LArSoft code itself. Using LArSoft to write experiment-specific code against an existing LArSoft release.
 
 -   [CI results display page](https://lar-ci-history.fnal.gov/LarCI/app)
-
-## Investigating Slack channel
-
-Now that Manchester has retired the server for larforum, LArSoft is looking into having a Slack channel for this informal communication.
-
-> A place for developers and newcomers to ask questions, seek advice, and discuss technical topics with LArTPC software experts.
 
 ## [Getting LArSoft](Getting_LArSoft)
 
