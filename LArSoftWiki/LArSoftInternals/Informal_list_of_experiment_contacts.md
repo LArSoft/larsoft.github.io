@@ -5,6 +5,7 @@ This is an informal list of people we contact when there are problems with exper
 -   argoneutcode
     -   Tingjun Yang
     -   Patrick Green (release manager)
+    -   Wanwei Wu (new release manager)
 -   dunetpc
     -   Thomas R. Junk
     -   Tingjun Yang
