@@ -6,7 +6,10 @@ Builds are made with Jenkins, and tagging is done on a local development machine
 
 We are using a procedure that mimics git flow instead of using it directly.
 
-Guiding philosophy: the code should build consistently before the tagging process starts. This means that we make a test build first and commit fixes to develop if necessary. We are also now running the quick CI tests locally.
+Guiding philosophy: the code should build consistently before the tagging process starts. 
+- A PR should pass the CI tests and have both level 1 and level 2 approval before it is merged.  
+  - See the overview for more details.
+- We also make a test build first and commit fixes on the local working branch if necessary.
 
 ## [Overview of Building a LArSoft Release](Overview_of_Building_a_LArSoft_Release)
 
