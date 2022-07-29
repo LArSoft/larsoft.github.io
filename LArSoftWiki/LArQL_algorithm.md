@@ -26,4 +26,4 @@ chi_0 (dE/dx)= A / \[ B + exp(C + D dE/dx) \]
 
 where alpha=0.0372 cm/kV, beta=0.0124 cm/kV, A=0.003384224, B=–6.57037, C=1.88418, and D=0.000129379 cm/MeV.
 
-More details can be found in the attached file.
+More details can be found in [F. Marinho et al 2022 JINST 17 C07009](http://arxiv.org/abs/2202.08905).
