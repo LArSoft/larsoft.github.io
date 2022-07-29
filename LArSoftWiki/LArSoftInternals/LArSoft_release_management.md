@@ -11,10 +11,11 @@
 -   release candidates
     -   release candidates are tagged releases with special naming
     -   vxx_yy_zz_rcN
--   patch releases
+-   patch and test releases
     -   vxx_yy_zz_aa
     -   Patch releases are built from a tagged release.
     -   If a release is named vaa_bb_cc, the first patch release will be vaa_bb_cc_01.
+    -   Test releases follow the same policy
 
 ## Tagged release
 
