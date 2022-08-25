@@ -4,9 +4,9 @@ These are short term plans.
 
 LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 
-## week of July 18
+## week of Aug. 29
 
-- ifdhc v2_6_6
+- ifdhc v2_6_8
 
 
 ## Coming soon
