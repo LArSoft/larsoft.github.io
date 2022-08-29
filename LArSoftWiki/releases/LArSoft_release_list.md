@@ -112,7 +112,7 @@ Release versions in **bold font** will be preserved according to the [production
 | v09_09_01         | v09_03_00          | 11/03/2020 |                     |                                                            | [ Release Notes](ReleaseNotes090901    )                        |
 | v09_09_00         | v09_03_00          | 10/28/2020 |                     |                                                            | [ Release Notes](ReleaseNotes090900    )                        |
 | v09_08_00         | v09_02_00          | 10/23/2020 |                     | first s102 (gallery v1_14_03) release                      | [ Release Notes](ReleaseNotes090800    )
-| **v08_05_00_17** | **v08_03_00_05** | 10/22/2020 |  | Update to nutools v2_27_09 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_18) |
+| **v08_05_00_17** | **v08_03_00_05** | 10/22/2020 |  | Update to nutools v2_27_09 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_17) |
 | v09_07_00         | v09_01_01          | 10/15/2020 |                     |                                                            | [ Release Notes](ReleaseNotes090700    )                        |
 | v09_06_00         | v09_01_01          | 10/07/2020 |                     |                                                            | [ Release Notes](ReleaseNotes090600    )                        |
 | v09_05_00         | v09_01_00          | 09/29/2020 |                     |                                                            | [ Release Notes](ReleaseNotes090500    )                        |
