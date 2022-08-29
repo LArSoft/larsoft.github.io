@@ -13,7 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges         ) |
-| **v08_05_00_18** | **v08_03_00_05** | 08/25/2022 |  | Update to genie v3_00_04d | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_18) |
+| **v08_05_00_18** | **v08_03_00_05** | 08/25/2022 |  | Update to genie v3_00_04_ub4 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_18) |
 | v09_58_00 | v09_22_00 | 08/25/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_58_00) |
 | v09_57_00 | v09_21_00 | 08/18/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_57_00) |
 | v09_56_00 | v09_20_00 | 07/28/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_56_00) |
