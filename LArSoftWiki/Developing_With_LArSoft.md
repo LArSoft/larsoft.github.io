@@ -159,7 +159,7 @@ To get write access to the repositories, speak to the offline coordinator for yo
 -   [Adding Product Dependencies](https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/AddingProductDependencies): how to edit the `product_deps` and `CMakeLists.txt` files to add dependencies
 -   [Various helpful tips for coding in the CET C environment](https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/CodeTips): things you hope you never need to know
 -   [cet-is-public:Building your own code with cmake](https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/Building_your_own_code_with_cmake): pointer to a *really* simple example
--   [Using find_global_symbol.sh to find unresolved symbols](Using_find_global_symbolsh_to_find_unresolved_symbols): automatic library search for symbols
+-   [Finding unresolved symbols](Finding_unresolved_symbols): automatic library search for symbols
 
 ### mrb (multi-repository build) tool
 

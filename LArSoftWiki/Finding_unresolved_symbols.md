@@ -1,6 +1,7 @@
+# Finding Unresolved Symbols
 
+How to use `find_global_symbol.sh` to find unresolved symbols
 
-# Using find_global_symbol.sh to find unresolved symbols
 
 ## How to know what library is needed to resolve a linking problem
 
