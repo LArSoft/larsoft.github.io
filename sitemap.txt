@@ -127,7 +127,6 @@ https://larsoft.github.io/LArSoftWiki/Use_Associations
 https://larsoft.github.io/LArSoftWiki/Using_HPC_with_LArSoft
 https://larsoft.github.io/LArSoftWiki/Using_LArSoft
 https://larsoft.github.io/LArSoftWiki/Using_art_in_LArSoft
-https://larsoft.github.io/LArSoftWiki/Using_find_global_symbolsh_to_find_unresolved_symbols
 https://larsoft.github.io/LArSoftWiki/Using_git_repositories
 https://larsoft.github.io/LArSoftWiki/VertexFinder
 https://larsoft.github.io/LArSoftWiki/Which_types_should_go_in_my_C++_function_arguments
@@ -648,6 +647,9 @@ https://larsoft.github.io/LArSoftWiki/releases/Release_Notes_10004
 https://larsoft.github.io/LArSoftWiki/releases/Release_Notes_10008
 https://larsoft.github.io/LArSoftWiki/releases/Release_Notes_10100
 https://larsoft.github.io/LArSoftWiki/releases/Retired_Production_Releases
+https://larsoft.github.io/LArSoftWiki/releases/LArSoft_v06_releases
+https://larsoft.github.io/LArSoftWiki/releases/LArSoft_v07_releases
 https://larsoft.github.io/LArSoftWiki/Root_vectors
+https://larsoft.github.io/LArSoftWiki/Finding_unresolved_symbols
 https://larsoft.github.io/index
 https://larsoft.github.io/update_wiki
