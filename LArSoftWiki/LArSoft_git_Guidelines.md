@@ -50,7 +50,7 @@ Once you have finished your work and merged your changes, please remove the remo
 ## working with special branches
 
 An experiment may need a special branch for long term development when their code has temporarily diverged from the head. These branches are requested by the experiment software coordinator and created by the LArSoft code manager.  
-(See [Policy for development from a tagged release](Policy_for_development_from_a_tagged_release).)
+(See [Policy for development from a tagged release](/LArSoftInternals/Policy_for_development_from_a_tagged_release).)
 
 -   Check out the base release
         mrb g -b vxx_yy_zz_branch <repository>
@@ -82,7 +82,7 @@ Within this framework, all git repositories have the following branch structure:
 -   An arbitrary set of “feature” branches on which all on-going work takes place. In most cases, these branches will be in local repositories, although “publishing” them to the reference repository is allowed whenever needed. Developers can create as many feature branches as desired. Certain names are reserved — “master”, “develop”, “release-\*” or “hotfix-\*”. For feature branches that are to be published, we recommend appending the responsible developer's initials to the branch name. (See above recommendation on naming.)
 -   A “hotfix” branch that is used to develop patches to tagged releases. These branches will use the naming convention “hotfit-\*” where “\*” denotes the release for which the fix is needed. If multiple hotfix branches are needed at the same time, then a single small letter will be added to the end of the name. Subsequent hotfix branches will be named alphabetically. Used or authorized only by the software manager.
 
-Note that all branches are created from the develop branch, with the exception of hotfix branches and other special cases approved by the larsoft team as defined in [Policy_for_development_from_a_tagged_release](Policy_for_development_from_a_tagged_release) created from the particular tag on the master branch. The hotfix branches should be merged into the develop branch at the conclusion of work on that branch. Release and hotfix branches are also merged into master.
+Note that all branches are created from the develop branch, with the exception of hotfix branches and other special cases approved by the larsoft team as defined in [Policy_for_development_from_a_tagged_release](/LArSoftInternals/Policy_for_development_from_a_tagged_release) created from the particular tag on the master branch. The hotfix branches should be merged into the develop branch at the conclusion of work on that branch. Release and hotfix branches are also merged into master.
 
 Developers who choose not to use git flow are expected to understand the details of the workflow model and adhere to the model conventions.
 
