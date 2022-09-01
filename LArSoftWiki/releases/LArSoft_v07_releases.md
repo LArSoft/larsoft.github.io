@@ -8,7 +8,7 @@ When breaking changes are introduced in the code, they are usually documented mo
 Consider taking a look at it on each update, since the breakage could be subtler than just a compilation error.  
 See [What to do when there is a new release](UpdatingToNewRelease)
 
-See [Supported Platforms](Supported_Platforms) for a list of supported platforms.
+See [Supported Platforms](/LArSoftWiki/Supported_platforms) for a list of supported platforms.
 
 Release versions in **bold font** will be preserved according to the [production release retention policy](LArSoft release naming policy).
 
