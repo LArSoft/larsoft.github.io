@@ -102,7 +102,7 @@ The parameters for each mode are described in full in the lightsource.fcl file.
 
 # A Word about Co-ordinate Systems
 
-As noted in the discussion on co-ordinate systems on the [Geometry](Geometry) page, the origin is not necessarily located in the center of the upstream end of the TPC.
+As noted in the discussion on co-ordinate systems on the [Geometry](Geometry_Package) page, the origin is not necessarily located in the center of the upstream end of the TPC.
 
 # List of Parameters
 
