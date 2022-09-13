@@ -45,7 +45,9 @@ In order to develop and contribute LArSoft code, you will need to have a persona
 The '`mrb gitCheckout`' command has been updated to work with Github.
 
 -   To check out LArSoft repositories from GitHub:
-        mrb gitCheckout --repo-type github <larsoft respository> 
+    ```
+        mrb gitCheckout --repo-type github <larsoft respository>
+    ```
 -   This creates a repository with one remote that points to the upstream repository on GitHub. You will not be able to push to this remote.
 -   As with other `mrb` checkout commands, specifying `larsoft_suite` as the repository will check out all LArSoft repositories.
 
@@ -69,26 +71,30 @@ Before executing any of the steps below, these commands must be run in the curre
 
 -   Fork the primary LArSoft repository(ies) to your personal GitHub account. This only needs to happen once per repository, per personal account.
     -   From an existing local clone:
+    ```
             cd $MRB_SOURCE/<repo name>
             hub fork --remote-name=origin
+    ```
     -   Fork and create a local clone in one operation:
+    ```
             cd $MRB_SOURCE
             mrb gitCheckout --repo-type github --fork <repository name> 
+    ```
 
 <!-- -->
 
 -   Submit a pull request from a local repository:
+    ```
         hub pull-request -m MESSAGE [--edit] [--base <target-branch>] [--head <source-branch>]
-
-      
+    ``` 
     The `target-branch` defaults to `develop` for LArSoft repositories. The `source-branch` defaults to the currently checked out branch.
 
 <!-- -->
 
 -   To check-out the head of a pull request into the local repository:
+    ```
         hub pr checkout <PR-NUMBER> [<BRANCH>]
-
-      
+    ```
     where `BRANCH` is a new branch into which the PR will be placed.
 
 For additional examples of using `hub`, see:
@@ -99,14 +105,14 @@ For additional examples of using `hub`, see:
 ### What do I do if there is a problem with the pull request?
 
 The most common problem initially, may be a code check failure due to trailing whitespace. The failure message will provide instructions for fixing the problem. Only files that you have changed will be checked for trailing whitespace. Run removeWhiteSpace.sh (found in larsoft) on the problematic files.
-
+```
     removeWhiteSpace.sh myfile.cxx myfile.h
-
+```
 Once the problem has been addressed, commit the changes, and push your feature branch to origin again.
-
+```
     git commit -m"some message" <my files>
     git push origin <my feature branch>
-
+```
 ## How do I create a merge request for a legacy feature branch that existed prior to the migration to GitHub?
 
 The GitHub repositories have commit histories that have been cleaned of old commits (ca. 2014), and all feature branches at the time of the migration. Because their commit histories have been rewritten, you cannot submit pull requests to `develop` from any legacy branch that existed prior to the migration, and therefore contains the old commit history.
@@ -116,15 +122,16 @@ For instructions on how to alter the histories of these branches so that they ca
 ## How do I update an existing fork?
 
 If you already have a fork of one of the LArSoft GitHub repositories, you will need to regularly pull changes from the upstream LArSoft repository. However, when you clone an existing fork, it will not reference the upstream repository. You need to add that yourself.
-
+```
     git clone https://github.com/<github_identity>/<larsoft_package>.git
     cd <larsoft_package>
     git remote add upstream  git@github.com:LArSoft/<larsoft_package>.git
     OR
     git remote add upstream https://github.com/LArSoft/<larsoft_package>.git
-
+```
   
 To merge upstream changes in develop with your develop branch:
-
+```
     git checkout develop
     git pull upstream develop
+```
