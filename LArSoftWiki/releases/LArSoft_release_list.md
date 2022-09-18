@@ -8,7 +8,7 @@ See [What to do when there is a new release](UpdatingToNewRelease)
 
 See [Supported Platforms](/LArSoftWiki/Supported_platforms) for a list of supported platforms.
 
-Release versions in **bold font** will be preserved according to the [production release retention policy](LArSoft release naming policy).
+Release versions in **bold font** will be preserved according to the [production release retention policy](/LArSoftWiki/LArSoftInternals/LArSoft_release_naming_policy).
 
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
