@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges         ) |
+| v09_61_00 | v09_24_00 | 10/19/2022 |  | clang format is enforced | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_61_00) |
 | v09_60_01 | v09_23_00 | 10/04/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_60_01) |
 | **v08_05_00_19** | **v08_03_00_05** | 09/30/2022 | uB MCC 9.1 production release | Update to nutools v2_27_11 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_19) |
 | v09_60_00 | v09_23_00 | 09/27/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_60_00) |
