@@ -2,12 +2,39 @@
 
 * TOC
 {:toc}
-This is an attempt to track all the “breaking” changes which will require a general maintenance action to have the code back working.
+This is an attempt to track all the “breaking” changes which require associated updates to experiment code.
 
 
 ## Changes for larsoft v06_xx_yy and previous
 
 For ease of navigation, older breaking changes have been moved to [Breaking Changes prior to v07_00_00](Breaking_Changes_prior_to_v07_00_00)
+
+## larsoft v09_63_00 - remove deprecated code in larcorealg
+
+- See the [9-20-2022 presentation](https://indico.fnal.gov/event/56265/contributions/251002/attachments/160060/210660/larsoft-coordination-2022-09-20.pdf)
+- PRs and feature branches are provided for the experiments.
+- argoneut
+  -  argoneutcode@feature/knoepfel_geometry_api_changes
+- uboone
+  - ubana@feature/knoepfel_geometry_api_changes 
+  - ubcv@feature/knoepfel_geometry_api_changes
+  - ubreco@feature/knoepfel_geometry_api_changes
+- dune
+  - DUNE/protoduneana#11
+  - DUNE/dunesim#25
+  - DUNE/dunereco#33 
+  - DUNE/duneprototypes#15 
+  - DUNE/duneopdet#18 
+  - DUNE/dunecore#36 
+  - DUNE/duneana#19"
+- icarus
+  - SBNSoftware/icaruscode#474 
+  - SBNSoftware/icarusalg#61
+- sbnd
+  - SBNSoftware/sbndcode#307
+- sbn
+  - SBNSoftware/sbncode#309 
+
 
 ## larsoft v09_52_00 - larpandora built with cetmodules
 
