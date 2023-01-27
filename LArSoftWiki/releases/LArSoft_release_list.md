@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges         ) |
+| **v08_05_00_20** | **v08_03_00_05** | 01/27/2023 | uB MCC 9.1 production release | Update ppfx to v02_11_05 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_20) |
 | v09_66_00 | v09_27_00 | 01/26/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_66_00) |
 | v09_65_03 | v09_27_00 | 01/19/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_65_03) |
 | v09_65_02 | v09_27_00 | 01/09/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_65_02) |
