@@ -24,7 +24,7 @@ Release versions in **bold font** will be preserved according to the [production
 | v09_65_01 | v09_27_00 | 12/20/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_65_01) |
 | v09_65_00 | v09_27_00 | 12/16/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_65_00) |
 | v09_64_01 | v09_26_01 | 12/15/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_64_01) |
-| v09_64_00 | v09_26_01 | 12/08/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_64_00) |
+| v09_64_00 | v09_26_01 | 12/08/2022 |  | first release with GENIE 3.02 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_64_00) |
 | v09_63_01 | v09_26_00 | 11/16/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_63_01) |
 | v09_63_00 | v09_26_00 | 11/10/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_63_00) |
 | v09_62_00 | v09_25_00 | 10/26/2022 |  | first release with art 3.09.04 (s117) | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_62_00) |
@@ -33,14 +33,12 @@ Release versions in **bold font** will be preserved according to the [production
 | **v08_05_00_19** | **v08_03_00_05** | 09/30/2022 | uB MCC 9.1 production release | Update to nutools v2_27_11 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_19) |
 | v09_60_00 | v09_23_00 | 09/27/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_60_00) |
 | v09_59_00 | v09_22_00 | 09/23/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_59_00) |
-| v09_58_02_01 | v09_22_00_01 | 09/21/2022 | **Test Release**  | test genie v3_02_00b | [Release Notes](ReleaseNotes09580201) |
 | v09_58_02 | v09_22_00 | 09/07/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_58_02) |
 | v09_58_01 | v09_22_00 | 09/01/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_58_01) |
 | **v08_05_00_18** | **v08_03_00_05** | 08/25/2022 | uB MCC 9.1 production release | Update to genie v3_00_04_ub4 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_18) |
 | v09_58_00 | v09_22_00 | 08/25/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_58_00) |
 | v09_57_00 | v09_21_00 | 08/18/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_57_00) |
 | v09_56_00 | v09_20_00 | 07/28/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_56_00) |
-| v09_55_01_01 | v09_20_00_01 | 07/25/2022 | **Test Release** | test genie v3_02_00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_55_01_01) |
 | v09_55_01 | v09_20_00 | 07/21/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_55_01) |
 | v09_55_00 | v09_20_00 | 07/14/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_55_00) |
 | v09_54_00 | v09_19_00 | 06/27/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_54_00) |
@@ -55,7 +53,6 @@ Release versions in **bold font** will be preserved according to the [production
 | v09_49_00 | v09_17_03 | 04/27/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_49_00) |
 | v09_48_01 | v09_17_02 | 04/14/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_48_01) |
 | v09_48_00 | v09_17_02 | 04/08/2022 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_48_00) |
-| v09_47_00_01 | v09_17_01 | 04/05/2022 |   **TEST RELEASE**  |  test release with tensorflow v2_6_0 | [Release Notes](ReleaseNotes09470001) |
 | v09_47_00         | v09_17_01          | 03/30/2022 |                  |                                                           | [ Release Notes](ReleaseNotes094700    )                        |
 | **v09_37_01_02**  | **v09_12_00_01**   | 03/24/2022 |                     | SBN2021C production                                        | [ Release Notes](ReleaseNotes09370102  )                        |
 | v09_46_00         | v09_17_00          | 03/16/2022 |                     |                                                            | [ Release Notes](ReleaseNotes094600    )                        |
