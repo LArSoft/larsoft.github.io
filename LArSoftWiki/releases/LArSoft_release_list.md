@@ -72,8 +72,6 @@ Release versions in **bold font** will be preserved according to the [production
 | v09_38_00         | v09_13_00          | 12/01/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093800    )                        |
 | v09_37_01         | v09_12_00          | 11/19/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093701    )                        |
 | v09_37_00         | v09_12_00          | 11/18/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093700    )                        |
-| v09_36_00_02      | v09_11_01_01       | 11/17/2021 | **Test Release**    |                                                            | [ Release Notes](ReleaseNotes09360002  )                        |
-| v09_36_00_01      | v09_11_01_01       | 11/12/2021 | **Test Release**    |                                                            | [ Release Notes](ReleaseNotes09360001  )                        |
 | v09_36_00         | v09_11_01          | 11/11/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093600    )                        |
 | v09_35_01         | v09_11_00          | 11/04/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093501    )                        |
 | v09_35_00         | v09_11_00          | 10/27/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093500    )                        |
