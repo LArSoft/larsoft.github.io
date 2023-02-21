@@ -86,14 +86,9 @@ Release versions in **bold font** will be preserved according to the [production
 | v09_28_05         | v09_07_01          | 09/07/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092805    )                        |
 | v09_28_04         | v09_07_01          | 09/01/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092804    )                        |
 | v09_28_03         | v09_07_01          | 09/01/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092803    )                        |
-| v09_28_02_01      | v09_07_01_01       | 08/25/2021 | **Test Release**    |                                                            | [ Release Notes](ReleaseNotes09280201  )                        |
 | v09_28_02         | v09_07_01          | 08/18/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092802    )                        |
 | v09_28_01         | v09_07_00          | 08/10/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092801    )                        |
-| v09_27_00_04      | v09_06_01_03       | 08/10/2021 | **Test Release**    |                                                            | [ Release Notes](ReleaseNotes09270004  )                        |
-| v09_27_00_03      | v09_06_01_03       | 08/07/2021 | **Test Release**    |                                                            | [ Release Notes](ReleaseNotes09270003  )                        |
 | v09_28_00         | v09_07_00          | 08/04/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092800    )                        |
-| v09_27_00_02      | v09_06_01_02       | 08/04/2021 | **Test Release**    |                                                            | [ Release Notes](ReleaseNotes09270002  )                        |
-| v09_27_00_01      | v09_06_01_01       | 07/28/2021 | **Test Release**    | build with art 3.09.3 and updated build tools              | [ Release Notes](ReleaseNotes09270001  )                        |
 | v09_27_00         | v09_06_01          | 07/21/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092700    )                        |
 | v09_26_01         | v09_06_01          | 07/14/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092601    )                        |
 | v09_26_00         | v09_06_00          | 07/06/2021 |                     | first release with root v6_22_08b                          | [ Release Notes](ReleaseNotes092600    )                        |
@@ -101,7 +96,6 @@ Release versions in **bold font** will be preserved according to the [production
 | v09_24_02         | v09_05_04          | 06/16/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092402    )                        |
 | v09_24_01         | v09_05_03          | 06/01/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092401    )                        |
 | v09_24_00         | v09_05_03          | 05/25/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092400    )                        |
-| v09_23_01_01      | v09_05_03_01       | 05/21/2021 | **Test Release**    |                                                            | [ Release Notes](ReleaseNotes09230101  )                        |
 | v09_23_01         | v09_05_03          | 05/20/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092301    )                        |
 | v09_23_00         | v09_05_03          | 05/18/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092300    )                        |
 | v09_22_03         | v09_05_03          | 05/04/2021 |                     |                                                            | [ Release Notes](ReleaseNotes092203    )                        |
