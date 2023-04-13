@@ -13,10 +13,10 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges         ) |
-| v09_80_00rc1 | v09_80_00rc1 | 04/13/2023 | **RELEASE CANDIDATE**  | art 3.12.00 | [Release Notes](ReleaseNotes098000rc1) |
+| v09_80_00rc1 | v09_80_00rc1 | 04/13/2023 | **RELEASE CANDIDATE**  | art 3.12.00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_80_00rc1) |
 | v09_72_01 | v09_29_01 | 04/12/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_72_01) |
 | v09_72_00 | v09_29_01 | 04/07/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_72_00) |
-| v09_80_00rc0 | v09_80_00rc0 | 03/29/2023 | **RELEASE CANDIDATE**  | art 3.12.00 | [Release Notes](ReleaseNotes098000rc0) |
+| v09_80_00rc0 | v09_80_00rc0 | 03/29/2023 | **RELEASE CANDIDATE**  | art 3.12.00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_80_00rc0) |
 | v09_71_00 | v09_29_00 | 03/27/2023 |  | first release with genie v3_04_00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_71_00) |
 | v09_70_00 | v09_29_00 | 03/23/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_70_00) |
 | v09_69_01_01 | v09_28_01 | 03/22/2023 | **TEST RELEASE** | test genie v3_04_00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_69_01_01) |
