@@ -7,7 +7,7 @@ LArSoft [pull requests](https://github.com/orgs/LArSoft/projects/2)
 
 ## Coming soon
 
-- art 3.12.00
+- e26 and c14
 
 
 [page source](https://github.com/LArSoft/larsoft.github.io/blob/main/LArSoftWiki/releases/FutureChanges.md)
