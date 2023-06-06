@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges         ) |
+| v09_75_01 | v09_31_01 | 06/06/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_75_01) |
 | v09_75_00 | v09_31_00 | 05/25/2023 |  | support for e26 and c14 added | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_75_00) |
 | v09_74_01 | v09_30_00 | 05/02/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_74_01) |
 | v09_74_00 | v09_30_00 | 04/27/2023 |  | first release with art 3.12.00 (s120) | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_74_00) |
