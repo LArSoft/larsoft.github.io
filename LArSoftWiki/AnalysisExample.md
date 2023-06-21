@@ -35,7 +35,7 @@ Aside from AnalysisExample, there are other packages you may want to consider fo
 
 The art/LArSoft framework is actively evolving. It's possible that some of the steps below no longer work as is (everything has been verified as of July-2017). If something goes wrong, the following resources may help:
 
--   [LArSoft Quick-Start Guide](Quick-start guide to using and developing LArSoft code)
+-   [LArSoft Quick-Start Guide](Quick-start_guide_to_using_and_developing_LArSoft_code)
 -   [MRB user guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbUserGuide)
 
 This page covers much the same ground as the [quick-start guide](Quick-start_guide_to_using_and_developing_LArSoft_code), but this tutorial is focused on analysis tasks, and it explains the reason why everything works as we go along. Hopefully you'll have enough clues to solve any problems that come up.
