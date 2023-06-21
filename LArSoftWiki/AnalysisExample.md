@@ -38,7 +38,7 @@ The art/LArSoft framework is actively evolving. It's possible that some of the s
 -   [LArSoft Quick-Start Guide](Quick-start guide to using and developing LArSoft code)
 -   [MRB user guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbUserGuide)
 
-This page covers much the same ground as the [quick-start guide](Quick-start guide to using and developing LArSoft code), but this tutorial is focused on analysis tasks, and it explains the reason why everything works as we go along. Hopefully you'll have enough clues to solve any problems that come up.
+This page covers much the same ground as the [quick-start guide](Quick-start_guide_to_using_and_developing_LArSoft_code), but this tutorial is focused on analysis tasks, and it explains the reason why everything works as we go along. Hopefully you'll have enough clues to solve any problems that come up.
 
 ## Set up the LArSoft environment
 
@@ -46,7 +46,7 @@ You have to set up the LArSoft development environment for your installation. Lo
 
 ## Set up a working directory
 
-This is described in the [quick-start guide](Quick-start guide to using and developing LArSoft code). You'll typically be working with files created by a specific release of LArSoft.
+This is described in the [quick-start guide](Quick-start_guide_to_using_and_developing_LArSoft_code). You'll typically be working with files created by a specific release of LArSoft.
 
 In this example, I'll assume you want your working directory to be `lardev` in your home directory, and you plan to work on files created with release v06_44_00. I'm also going to use shell variables when I can, so you can see what's optional and what you can easily change. Let's set up this brand-new development directory:
 
@@ -88,7 +88,7 @@ Since you have to type the same commands every time you want to work with LArSof
 
 ## Checkout the AnalysisExample package to your development directory
 
-The best way to get AnalysisExample and its associated documentation is by checking out the `larexamples` product from the repository. (As you will learn as you work with LArSoft, you can only checkout code on the “product” level; you cannot just checkout an individual package.) This is covered in the [quick-start guide](Quick-start guide to using and developing LArSoft code). I'm going to do this with variables, as I did above:
+The best way to get AnalysisExample and its associated documentation is by checking out the `larexamples` product from the repository. (As you will learn as you work with LArSoft, you can only checkout code on the “product” level; you cannot just checkout an individual package.) This is covered in the [quick-start guide](Quick-start_guide_to_using_and_developing_LArSoft_code). I'm going to do this with variables, as I did above:
 
     cd ${MRB_SOURCE}                          # Go to your srcs directory
     mrb gitCheckout -t LARSOFT_SUITE_${vers} larexamples  # Checkout the larexamples product, which includes AnalysisExample
@@ -274,7 +274,7 @@ It's time to start your work. Unless you happen to be looking at the dE/dx for p
 
 ### Quick set-up
 
-The [quick-start guide](Quick-start guide to using and developing LArSoft code) may give you the impression that you have to type in many shell commands every time you work with mrb+git; maybe this guide has given you that impression as well. Actually, once you've completed the one-time setups, and provided you don't plan to check in your code to the main git repository, things are pretty simple.
+The [quick-start guide](Quick-start_guide_to_using_and_developing_LArSoft_code) may give you the impression that you have to type in many shell commands every time you work with mrb+git; maybe this guide has given you that impression as well. Actually, once you've completed the one-time setups, and provided you don't plan to check in your code to the main git repository, things are pretty simple.
 
 Here's what I do when I login (I work on MicroBooNE):
 
