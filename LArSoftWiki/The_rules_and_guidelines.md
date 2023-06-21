@@ -58,7 +58,7 @@ If UPS is not found or Clang 7 is not installed in the UPS area, then you will n
 
 - **Emacs**
 
-Download attachment:ups-clang-format-v7.el and place it in a directory `<my_dir>`.
+Download [attachment:ups-claing-format-v7.el](ups-clang-format-v7.el) and place it in a directory `<my_dir>`.
 
 Add the following commands to your .emacs file:
 
@@ -68,7 +68,7 @@ Add the following commands to your .emacs file:
 This will allow you to use the `'M-x clang-format-buffer'` and `'M-x clang-format-region'` commands while editing files.
 
 -   **VIM**
-    -   Download attachment:ups-clang-format-v7.vim and place it in your `~/.vim/plugin/` subdirectory.
+    -   Download [attachment:ups-clang-format-v7.vim](ups-clang-format-v7.vim) and place it in your `~/.vim/plugin/` subdirectory.
     -   You can then use `'Ctrl-k'` while editing files to apply `clang-format` to the selected line or region.
 
 ### Expected behavior
