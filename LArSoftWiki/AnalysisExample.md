@@ -17,7 +17,7 @@ This page goes along with the [AnalysisExample](https://github.com/LArSoft/larex
 
 - If you've been given a file that contains a ROOT n-tuple, then you don't need this page. Just start using ROOT (there's a nice [tutorial](https://www.nevis.columbia.edu/~seligman/root-class/)) and work with the n-tuple.
 
-- If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You'll learn something about the development environment and how to read data from LArSoft event records; you won't learn how to [create producer or filter packages](Using_art_in_LArSoft#artEDProducer), how to [write data](Using_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](Using_art_in_LArSoft#artAssns), how to [save your work in a git repository] (https://larsoft.github.io/LArSoftWiki/Working_with_GitHub), etc. You probably want to read [Developing with LArSoft](Developing_With_LArSoft) instead.
+- If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You'll learn something about the development environment and how to read data from LArSoft event records; you won't learn how to [create producer or filter packages](Using_art_in_LArSoft#artEDProducer), how to [write data](Using_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](Using_art_in_LArSoft#artAssns), how to [save your work in a git repository(https://larsoft.github.io/LArSoftWiki/Working_with_GitHub), etc. You probably want to read [Developing with LArSoft](Developing_With_LArSoft) instead.
 
 #### Alternatives
 
