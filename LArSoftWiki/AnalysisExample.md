@@ -17,7 +17,7 @@ This page goes along with the [AnalysisExample](https://github.com/LArSoft/larex
 
 - If you've been given a file that contains a ROOT n-tuple, then you don't need this page. Just start using ROOT (there's a nice [tutorial](https://www.nevis.columbia.edu/~seligman/root-class/)) and work with the n-tuple.
 
-- If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You'll learn something about the development environment and how to read data from LArSoft event records; you won't learn how to [create producer or filter packages](Using_art_in_LArSoft#artEDProducer), how to [write data](Using_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](Using_art_in_LArSoft#artAssns), how to [save your work in a git repository](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide), etc. You probably want to read [Developing with LArSoft](Developing_With_LArSoft) instead.
+- If your goal is to make changes to LArSoft (e.g., write a new Reconstruction algorithm), bear in mind that this is just an analysis example. You'll learn something about the development environment and how to read data from LArSoft event records; you won't learn how to [create producer or filter packages](Using_art_in_LArSoft#artEDProducer), how to [write data](Using_art_in_LArSoft#Making-Objects-to-Store-in-the-Output) or [create associations](Using_art_in_LArSoft#artAssns), how to [save your work in a git repository] (https://larsoft.github.io/LArSoftWiki/Working_with_GitHub), etc. You probably want to read [Developing with LArSoft](Developing_With_LArSoft) instead.
 
 #### Alternatives
 
@@ -27,7 +27,7 @@ Aside from AnalysisExample, there are other packages you may want to consider fo
 
 - [LArLite](https://microboone-docdb.fnal.gov:8080/cgi-bin/ShowDocument?docid=3183) is a MicroBooNE-based tool for simplified data analysis on LArSoft events. It's more user-friendly than LArSoft. However, LArSoft event files have to be converted into LArLite's format before you can use the tool. Also, as with AnalysisTree, not every data item is copied from a LArSoft event record into a LArLite file (though the developer Kazuhiro Terao responds to requests very quickly).
 
-- [Gallery](https://cdcvs.fnal.gov/redmine/projects/gallery/wiki/) is a package for reading files that contain art::Event records. The package itself does not depend on art, and can be simply run without using FHiCL files and the like. There are some nice examples of how to use Gallery [here](https://github.com/marcpaterno/gallery-demo). However, you have to be familiar with [art input protocols](Using_art_in_LArSoft) (as demonstrated in the AnalysisExample code). Also, Gallery does not support art Services and Algorithms; you have to use other tools if you need access to, for example, detector information or simulation parameters (also demonstrated in AnalysisExample).
+- [Gallery](https://github.com/marcpaterno/gallery-demo/wiki) is a package for reading files that contain art::Event records. The package itself does not depend on art, and can be simply run without using FHiCL files and the like. There are some nice examples of how to use Gallery [here](https://github.com/marcpaterno/gallery-demo). However, you have to be familiar with [art input protocols](Using_art_in_LArSoft) (as demonstrated in the AnalysisExample code). Also, Gallery does not support art Services and Algorithms; you have to use other tools if you need access to, for example, detector information or simulation parameters (also demonstrated in AnalysisExample).
 
 - AnalysisExample, an [art::EDAnalyzer](Using_art_in_LArSoft#artEDAnalyzer), gives you access to all the data objects in LArSoft event records, and all of the art/LArSoft methods and services. It's also useful as a way to learn how to use the LArSoft framework. However, it is not as simple to use as the previous tools; simplicity is not a virtue of LArSoft.
 
@@ -233,7 +233,7 @@ Go ahead and compile. You'll see your new product being compiled as well. Afterw
 
 Read the file README.md, which will lead you to ADDITIONAL_NOTES.md, which in turn will take you to the rest of the files in the directory. There's lots of comments to get you started. These files are in `${MRB_SOURCE}/${myProject}/${myProject}/${myPackage}`.
 
-Assume you have an input (or “source”) file that contains simulated and reconstructed events created by a LArSoft simulation job: `~/larwork/events.root`. Then you can run the MyEnergyStudy.fcl command file with the following (for more about the `lar` command, see [Running Jobs](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/_Running_Jobs_)):
+Assume you have an input (or “source”) file that contains simulated and reconstructed events created by a LArSoft simulation job: `~/larwork/events.root`. Then you can run the MyEnergyStudy.fcl command file with the following (for more about the `lar` command, see [Running Jobs](https://larsoft.github.io/LArSoftWiki/Running_Jobs):
 
     lar -c MyEnergyStudy.fcl -s ~/larwork/events.root -T ~/larwork/myhistogram.root
 
