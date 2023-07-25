@@ -4,9 +4,9 @@ Discussed below are some more advanced topics related to developing LArSoft soft
 
 Please note that Docker licensing terms for Docker Desktop (since 2022) requires paid licenses for Docker Desktop used for government-funded research. Docker Desktop can be used with a personal email, but not a Fermilab account. If you are currently using Docker Desktop for work, there are free alternatives available:
 
-https://podman-desktop.io/
+[https://podman-desktop.io/](https://podman-desktop.io/)
 
-https://rancherdesktop.io/
+[https://rancherdesktop.io/](https://rancherdesktop.io/)
 
 
 ## Using Hub &amp; Git From the Host
