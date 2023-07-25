@@ -4,7 +4,14 @@
 
 ## Introduction
 
-The SciSoft team has dropped native MacOS from art suite 3.06 due to the significant and unsustainable development effort required, and SLF6 due to lack of support for modern Python (\>3.6). Also, to date (June 2020) we have not received an official request from an experiment or collaboration to support Ubuntu 20.04 LTS (Focal Fossa) or CentOS 8.
+Please note that Docker licensing terms for Docker Desktop (since 2022) requires paid licenses for Docker Desktop used for government-funded research. Docker Desktop can be used with a personal email, but not a Fermilab account. If you are currently using Docker Desktop for work, there are free alternatives available:
+
+https://podman-desktop.io/
+
+https://rancherdesktop.io/
+
+
+The SciSoft team has dropped native MacOS from art suite 3.06 due to the significant and unsustainable development effort required, and SLF6 due to lack of support for modern Python (\>3.6). Also, to date (June 2023) we have not received an official request from an experiment or collaboration to support Ubuntu 20.04 LTS (Focal Fossa) or CentOS 8.
 
 Individuals, however, do have several possible reasons for wishing to develop on an unsupported OS:
 
@@ -13,6 +20,8 @@ Individuals, however, do have several possible reasons for wishing to develop on
 -   To leverage otherwise unusable resources.
 
 For them, Docker provides a way to development on unsupported operating systems.
+
+
 
 ## A Suggested Scheme for LarSoft Development With Docker
 
