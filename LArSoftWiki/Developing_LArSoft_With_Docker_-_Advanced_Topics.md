@@ -2,6 +2,13 @@
 
 Discussed below are some more advanced topics related to developing LArSoft software using Docker containerization. More basic information is available on the main page, [Developing LArSoft on Unsupported Operating Systems With Docker](Developing_LArSoft_on_Unsupported_Operating_Systems_With_Docker).
 
+Please note that Docker licensing terms for Docker Desktop (since 2022) requires paid licenses for Docker Desktop used for government-funded research. Docker Desktop can be used with a personal email, but not a Fermilab account. If you are currently using Docker Desktop for work, there are free alternatives available:
+
+https://podman-desktop.io/
+
+https://rancherdesktop.io/
+
+
 ## Using Hub &amp; Git From the Host
 
 This is relatively straightforward: one just needs to obtain recent versions of the Hub and / or Git utilities. On MacOS, the version of Git should be fine, depending on your OS / XCode versions, and Hub should be obtained through Homebrew, *viz.*: `brew install hub`. The credentials file is identically the same as that used from within the container due to the mount commands used therefor. On Linux, obtain them through your native packaging system if possible. Otherwise—or if either are too old to be of use—Git is available in [binary](https://git-scm.com/downloads) and [source](https://github.com/git/git/releases) forms, and Hub has [several binary packages](https://github.com/github/hub/releases/latest) available.
