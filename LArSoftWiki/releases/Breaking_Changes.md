@@ -9,6 +9,13 @@ This is an attempt to track all the “breaking” changes which require associa
 
 For ease of navigation, older breaking changes have been moved to [Breaking Changes prior to v07_00_00](Breaking_Changes_prior_to_v07_00_00)
 
+## larsoft v09_77_00 - SpacePointSolver has new configurable parameter
+
+See [larreco PR 58](https://github.com/LArSoft/larreco/pull/58)
+Add MinNHits parameter to SpacePointSolver.fcl.  The default value of MinNHits is 20.  This number was previously hardcoded in 
+`larreco/SpacePointSolver/SpacePointSolver_module.cc`
+
+
 ## larsoft v09_63_00 - remove deprecated code in larcorealg
 
 - See the [9-20-2022 presentation](https://indico.fnal.gov/event/56265/contributions/251002/attachments/160060/210660/larsoft-coordination-2022-09-20.pdf)
