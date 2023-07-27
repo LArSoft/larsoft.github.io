@@ -12,6 +12,7 @@ For ease of navigation, older breaking changes have been moved to [Breaking Chan
 ## larsoft v09_77_00 - SpacePointSolver has new configurable parameter
 
 See [larreco PR 58](https://github.com/LArSoft/larreco/pull/58)
+
 Add MinNHits parameter to SpacePointSolver.fcl.  The default value of MinNHits is 20.  This number was previously hardcoded in 
 `larreco/SpacePointSolver/SpacePointSolver_module.cc`
 
