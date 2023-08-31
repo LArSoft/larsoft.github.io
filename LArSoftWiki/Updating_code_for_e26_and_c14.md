@@ -34,6 +34,7 @@ $<$<CXX_COMPILER_ID:GNU>:-Wno-maybe-uninitialized>
       |                         &
 ```
 Apply the suggested fix.
+
 ```
 -        for (auto const evt_weight : evtwgt_map){
 +        for (auto const& evt_weight : evtwgt_map){
