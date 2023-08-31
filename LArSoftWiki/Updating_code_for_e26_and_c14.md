@@ -15,7 +15,7 @@ As expected, the newer compilers find more infelicities in the code, some of whi
   110 |     float dir_y_prime, dir_z_prime;
       |           ^~~~~~~~~~~
 ```
-**Any such code should be reviewed by the authors.**
+**The code should be reviewed.**
 However, a temporary workaround is to use `-Wno-maybe-uninitialized`.  
 Note that `-Wno-maybe-uninitialized` is valid for GNU, not Clang.  Use the following in `cet_set_compiler_flags`:
 ```
@@ -46,13 +46,13 @@ In member function 'virtual void ub::LowLevelNueFilter::analyze(const art::Event
  1224 |               std::cout<<"pfparticle reco pdgcode "<<pdgcode<<" associated vertex ID is"<<PrimaryVertexID<<" XYZ= ["<<PrimaryVertexXYZ[0]<<","<<PrimaryVertexXYZ[1]<<","<<PrimaryVertexXYZ[2]<<"] !!!!!"<<std::endl;
       |
 ```
-**Any such code should be reviewed by the author.**
+**The code should be reviewed.**
 However, a temporary fix is to use the `-Wno-array-bounds` flag.  This flag is valid for GNU only.
 
 ## Issues found by c14
 
 - variable set but not used
-   - Review the code.
+   - **The code should be reviewed.**
    - The unused variable may be commented out, but this may indicate code that is not working as intended.
 - returning address of local temporary object
   ```
