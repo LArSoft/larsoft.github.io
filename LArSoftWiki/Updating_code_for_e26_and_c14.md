@@ -62,3 +62,10 @@ However, a temporary fix is to use the `-Wno-array-bounds` flag.  This flag is v
   ```
   **The code should be reviewed.**
   A temporary workaround is to use `-Wno-return-stack-address`.  This flag is only valid for Clang.
+
+- wirecell prior to 0.25.1
+  - versions of wirecell prior to 0.25.1 invoke `_Complex` if the `Persist.h` header is used.
+  - c14 complains that `'_Complex' is a C99 extension`
+  - When building with wirecell prior to 0.25.1, include `$<$<CXX_COMPILER_ID:Clang>:-Wno-c99-extensions>` in the call to `cet_set_compiler_flags`.
+  - This problem is fixed in wirecell 0.25.1
+  
