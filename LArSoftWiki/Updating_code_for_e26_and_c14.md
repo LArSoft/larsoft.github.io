@@ -53,5 +53,12 @@ However, a temporary fix is to use the `-Wno-array-bounds` flag.  This flag is v
 
 - variable set but not used
    - Review the code.
-   - The unused variable may be commented out, but this usually indicates code that is not working as intended.
-     
+   - The unused variable may be commented out, but this may indicate code that is not working as intended.
+- returning address of local temporary object
+  ```
+  /home/garren/scratch/larsoft/uboone/dev5/srcs/ubcrt/ubcrt/CRT/CRTBernFEBDAQCore/Overlays/BernZMQFragment.hh:95:74: error: returning address of local temporary object [-Werror,-Wreturn-stack-address]
+  const char* c_str() const { std::ostringstream ss; ss << *this; return ss.str().c_str(); }
+                                                                         ^~~~~~~~
+  ```
+  **The code should be reviewed.**
+  A temporary workaround is to use `-Wno-return-stack-address`.  This flag is only valid for Clang.
