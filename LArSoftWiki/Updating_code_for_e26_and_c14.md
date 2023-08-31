@@ -70,10 +70,10 @@ However, a temporary fix is to use the `-Wno-array-bounds` flag.  This flag is v
   - This problem is fixed in wirecell 0.25.1
   
 - implicit conversion changes value
+  - **The code should be reviewed.**
+  - Note that c14 will accept `-Wno-implicit-const-int-float-conversion`, but c7 does not recognize this flag.
   ```
   /home/garren/scratch/larsoft/uboone/dev5/srcs/ubana/ubana/searchingfornues/Selection/AnalysisTools/ContainmentAnalysis_tool.cc:304:11: error: implicit conversion from 'std::numeric_limits<int>::type' (aka 'int') to 'float' changes value from 2147483647 to 2147483648 [-Werror,-Wimplicit-const-int-float-conversion]
   _dvtx = std::numeric_limits<int>::max();
         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  ```
-**The code should be reviewed.**
-Note that c14 will accept `-Wno-implicit-const-int-float-conversion`, but c7 does not recognize this flag.
