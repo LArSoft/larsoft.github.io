@@ -48,3 +48,10 @@ In member function 'virtual void ub::LowLevelNueFilter::analyze(const art::Event
 ```
 **Any such code should be reviewed by the author.**
 However, a temporary fix is to use the `-Wno-array-bounds` flag.  This flag is valid for GNU only.
+
+## Issues found by c14
+
+- variable set but not used
+   - Review the code.
+   - The unused variable may be commented out, but this usually indicates code that is not working as intended.
+     
