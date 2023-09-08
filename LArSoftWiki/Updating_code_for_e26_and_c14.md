@@ -59,6 +59,10 @@ In file included from /home/garren/scratch/larsoft/dune/dev5/srcs/dunereco/duner
 The workaround is to add `-Wno-deprecated-declarations` to `cet_set_compiler_flags`. 
 **The code should be reviewed.**
 
+- error: ignoring return value
+  - **The code should be reviewed.**
+  - The workaround is to add `-Wno-unused-result` to `cet_set_compiler_flags`. 
+
 ## Issues found by c14
 
 - variable set but not used
