@@ -49,6 +49,15 @@ In member function 'virtual void ub::LowLevelNueFilter::analyze(const art::Event
 ```
 **The code should be reviewed.**
 However, a temporary fix is to use the `-Wno-array-bounds` flag.  This flag is valid for GNU only.
+- std::binary_function is deprecated 
+```
+In file included from /home/garren/scratch/larsoft/dune/dev5/srcs/dunereco/dunereco/FDSensOpt/IniSegAlg/IniSegAlg.cxx:9:
+/home/garren/scratch/larsoft/dune/dev5/srcs/dunereco/dunereco/FDSensOpt/IniSegAlg/IniSegAlg.h:97:21 error: ‘template<class _Arg1, class _Arg2, class _Result> struct std::binary_function’ is deprecated [-Werror=deprecated-declarations]
+   97 |         public std::binary_function< Hit2D, Hit2D, bool >
+      |                     ^~~~~~~~~~~~~~~
+```
+The workaround is to add `-Wno-deprecated-declarations` to `cet_set_compiler_flags`. 
+**The code should be reviewed.**
 
 ## Issues found by c14
 
