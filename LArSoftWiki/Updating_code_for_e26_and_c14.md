@@ -85,6 +85,9 @@ The workaround is to add `-Wno-deprecated-declarations` to `cet_set_compiler_fla
   
 - object backing the pointer will be destroyed at the end of the full-expression
   - **The code should be reviewed.**
+- c14: struct is non C compatible for linkage
+  - **The code should be reviewed.**
+  - Problem related to void init() member
 - implicit conversion changes value
   - **The code should be reviewed.**
   - Note that c14 will accept `-Wno-implicit-const-int-float-conversion`, but c7 does not recognize this flag.
