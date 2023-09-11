@@ -83,6 +83,8 @@ The workaround is to add `-Wno-deprecated-declarations` to `cet_set_compiler_fla
   - When building with wirecell prior to 0.25.1, include `$<$<CXX_COMPILER_ID:Clang>:-Wno-c99-extensions>` in the call to `cet_set_compiler_flags`.
   - This problem is fixed in wirecell 0.25.1
   
+- object backing the pointer will be destroyed at the end of the full-expression
+  - **The code should be reviewed.**
 - implicit conversion changes value
   - **The code should be reviewed.**
   - Note that c14 will accept `-Wno-implicit-const-int-float-conversion`, but c7 does not recognize this flag.
@@ -91,3 +93,4 @@ The workaround is to add `-Wno-deprecated-declarations` to `cet_set_compiler_fla
   _dvtx = std::numeric_limits<int>::max();
         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  ```
+
