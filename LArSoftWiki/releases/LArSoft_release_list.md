@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChan
+| v09_78_05 | v09_32_01 | 09/21/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_05) |
 | v09_78_04 | v09_32_00 | 09/13/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_04) |
 | v09_80_00rc2 | v09_31_02 | 08/30/2023 | **TEST RELEASE** | test wirecell 0.25.1 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_80_00rc2) |
 | v09_78_03 | v09_31_02 | 08/29/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_03) |
