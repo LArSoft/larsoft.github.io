@@ -68,7 +68,9 @@ using Point_t = ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<double>>;
 using Vector_t = ROOT::Math::DisplacementVector3D<ROOT::Math::Cartesian3D<double>>;
 
 Vector_t v;
-Point_t p;</code></pre>The declaration of the type is long enough that it deserves an alias. For example, **recob::Track** uses two aliases defined in **lardataobj/RecoBase/TrackingTypes.h**: **recob::tracking::Point_t** and UUrecob::tracking::Vector_t** (also available as **recob::Track** types).
+Point_t p;</code></pre>
+	
+The declaration of the type is long enough that it deserves an alias. For example, **recob::Track** uses two aliases defined in **lardataobj/RecoBase/TrackingTypes.h**: **recob::tracking::Point_t** and UUrecob::tracking::Vector_t** (also available as **recob::Track** types).
 
 For 2D vectors, the syntax is exactly the same, just with "2D" in place of "3D".
 
