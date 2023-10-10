@@ -83,6 +83,7 @@ TLorentzVector cp;</code></pre>can be replaced by<pre><code class="cpp">#include
 using Position4_t = ROOT::Math::LorentzVector<ROOT::Math::PxPyPzE4D<double>>;
 
 Position4_t x;</code></pre>which is a cartesian-like representation.
+</code>
 
 h2. Main interface differences
 
