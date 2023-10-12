@@ -90,7 +90,7 @@ using Position4_t = ROOT::Math::LorentzVector<ROOT::Math::PxPyPzE4D<double>>;
 Position4_t x;</code></pre>which is a cartesian-like representation.
 ```
 
-h2. Main interface differences
+## Main interface differences
 
 The (incomplete) list of interface changes:
 
@@ -115,11 +115,16 @@ These vectors can be also copied from any vector class supporting **X(), Y() and
 
 ### Access and increment of components
 
-Given that the mutable access by **operator[]** is not supported, code like<pre><code class="cpp">v[0] = 5.0;
+Given that the mutable access by **operator[]** is not supported, code like
+```
+v[0] = 5.0;
 v[1] *= 2.0;
-std::cout << "(" << v[0] << "; " << v[1] << "; " << v[2] << " )" << std::endl;</code></pre> becomes: <pre><code class="cpp">v.SetX(5.0);
+std::cout << "(" << v[0] << "; " << v[1] << "; " << v[2] << " )" << std::endl;
+v.SetX(5.0);
 v.SetY(v.Y() * 2.0);
-std::cout << "(" << v.X() << "; " << v.Y() << "; " << v.Z() << " )" << std::endl;</code></pre>
+std::cout << "(" << v.X() << "; " << v.Y() << "; " << v.Z() << " )" << std::endl;
+```
+
 For output, LArSoft will also provide direct output support: **std::cout << v << std::endl;**.
 
 
