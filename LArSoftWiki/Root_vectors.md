@@ -28,7 +28,7 @@ These classes have their use: it's easy to write them directly in a ROOT tree, e
 | ROOT | [TVector2](https://root.cern.ch/doc/master/classTVector2.html) |
 | | [TVector3](https://root.cern.ch/doc/master/classTVector3.html) |
 | | [TLorentzVector](https://root.cern.ch/doc/master/classTLorentzVector.html) |
-| | [TMatrixD](https://root.cern.ch/doc/master/classTMatrixD.html) |
+| | [TMatrixD](https://root.cern.ch/doc/master/classTMatrixD_8h.html) |
 
 ## TVector3 vs. ROOT::Math::DisplacementVector and ROOT::Math::PositionVector
 
@@ -136,7 +136,7 @@ If the need arise, please [open a LArSoft feature request](https://cdcvs.fnal.go
 
 ### Computing the middle point
 
-The simple operation `$vec{x} = frac{sum_{k=1}^{N} vec{x}_{k}}{N}$)` is not as simple any more for position vectors, which can't be added nor scaled. An utility has been provided in the form of a [function](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a36b47c9bd80494201a449169e6e8b581) or [a more versatile class](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1MiddlePointAccumulator.html) .
+The simple operation `$vec{x} = frac{sum_{k=1}^{N} vec{x}_{k}}{N}$)` is not as simple any more for position vectors, which can't be added nor scaled. An utility has been provided in the form of a [function](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a36b47c9bd80494201a449169e6e8b581).
 
 ### Example: from recob::Track::Extent() update
 
