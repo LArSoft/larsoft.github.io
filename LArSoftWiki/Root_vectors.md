@@ -57,10 +57,13 @@ The two types of vector have different properties and do not share the full rang
 While **TVector3** is quite monolitic, GenVector vectors give us tons of possibilities. Which most of the time we don't need.
 
 An old 3D vector with representation of **double** could be used as:
-<pre><code class="cpp">#include "TVector3.h"
-TVector3 v;</code></pre>
+```
+#include "TVector3.h"
+TVector3 v;
+```
 The equivalent object in GenVector is a either a position or a displacement vector in cartesian "global" coordinates.
-<pre><code class="cpp">#include "Math/GenVector/Cartesian3D.h"
+```
+#include "Math/GenVector/Cartesian3D.h"
 #include "Math/GenVector/PositionVector3D.h"
 #include "Math/GenVector/DisplacementVector3D.h"
 
@@ -68,14 +71,16 @@ using Point_t = ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<double>>;
 using Vector_t = ROOT::Math::DisplacementVector3D<ROOT::Math::Cartesian3D<double>>;
 
 Vector_t v;
-Point_t p;</code></pre>
+Point_t p;
+```
 	
 The declaration of the type is long enough that it deserves an alias. For example, **recob::Track** uses two aliases defined in **lardataobj/RecoBase/TrackingTypes.h**: **recob::tracking::Point_t** and UUrecob::tracking::Vector_t** (also available as **recob::Track** types).
 
 For 2D vectors, the syntax is exactly the same, just with "2D" in place of "3D".
 
 For 3+1 ("Lorentz") vectors, the old:
-<pre><code class="cpp">#include "TLorentzVector.h"
+```
+#include "TLorentzVector.h"
 
 TLorentzVector cp;</code></pre>can be replaced by<pre><code class="cpp">#include "Math/GenVector/PxPyPzE4D.h"
 #include "Math/GenVector/LorentzVector.h"
@@ -83,7 +88,7 @@ TLorentzVector cp;</code></pre>can be replaced by<pre><code class="cpp">#include
 using Position4_t = ROOT::Math::LorentzVector<ROOT::Math::PxPyPzE4D<double>>;
 
 Position4_t x;</code></pre>which is a cartesian-like representation.
-</code>
+```
 
 h2. Main interface differences
 
@@ -95,14 +100,17 @@ The (incomplete) list of interface changes:
 ## Updating code
 
 It is likely that when you start using GenVector classes you will have to add to the link list of your module or library in **CMakeLists.txt** the line:
-<pre>  ROOT::GenVector</pre>
+```
+  ROOT::GenVector
+```
 
 ### Creation of a new point/vector
 
 The interface to create a GenVector 3D object is similar to **TVector3**, by component:
-<pre><code class="cpp">geo::Point_t point { 1.0, 2.0, 0.0 }; // point at the specified coordinates
+```
+geo::Point_t point { 1.0, 2.0, 0.0 }; // point at the specified coordinates
 geo::Vector_t x { 0.0, 1.0, 0.0 }; // unit vector describing the y axis 
-</code></pre>
+```
 These vectors can be also copied from any vector class supporting **X(), Y() and Z()** accessors.
 
 ### Access and increment of components
@@ -123,16 +131,14 @@ If the need arise, please [open a LArSoft feature request](https://cdcvs.fnal.go
 
 ### Computing the middle point
 
-The simple operation 
-<pre>
-\$\vec{x} = \frac{\sum_{k=1}^{N} \vec{x}_{k}}{N}$)
-</pre> is not as simple any more for position vectors, which can't be added nor scaled. An utility has been provided in the form of a [function](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a36b47c9bd80494201a449169e6e8b581) or [a more versatile class](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1MiddlePointAccumulator.html) .
+The simple operation `$vec{x} = frac{sum_{k=1}^{N} vec{x}_{k}}{N}$)` is not as simple any more for position vectors, which can't be added nor scaled. An utility has been provided in the form of a [function](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a36b47c9bd80494201a449169e6e8b581) or [a more versatile class](http://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1MiddlePointAccumulator.html) .
 
 ### Example: from recob::Track::Extent() update
 
 At a certain point, **viod recob::Track::Extent(TVector3&, TVector3&) const** was deprecated, and a replacement **std::pair<Point_t, Point_t> recob::Track::Extent() const** was suggested instead.
 Here is an example of code update: **larana/T0Finder/PhotonCounterT0Matching_module.cc**. Note that the headers were not changed because the data types we use are already defined in **Track.h**. The old code was:
-<pre><code class="cpp">   std::vector<double> trackStart;
+```
+  std::vector<double> trackStart;
   std::vector<double> trackEnd;
   // ...
       tracklist[iTrk]->Extent(trackStart,trackEnd); 
@@ -146,7 +152,9 @@ Here is an example of code update: **larana/T0Finder/PhotonCounterT0Matching_mod
 		  trkTimeStart , trkTimeEnd , trkTimeLengh , trkTimeCentre, // times in us!
 		  TrackLength);     
 
-</code></pre>and the updated code is:<pre><code class="cpp">
+```
+and the updated code is:
+```
       auto const& [ trackStart, trackEnd ] = tracklist[iTrk]->Extent(); // both recob::Track::Point_t
       std::vector< art::Ptr<recob::Hit> > allHits = fmtht.at(iTrk);
       size_t nHits = allHits.size();
@@ -156,6 +164,7 @@ Here is an example of code update: **larana/T0Finder/PhotonCounterT0Matching_mod
 		  trackStart.Y(), trackEnd.Y(), TrackLength_Y, TrackCentre_Y,
 		  trackStart.Z(), trackEnd.Z(), TrackLength_Z, TrackCentre_Z,
 		  trkTimeStart , trkTimeEnd , trkTimeLengh , trkTimeCentre, // times in us!
-		  TrackLength);</code></pre>
+		  TrackLength);
+```
 The most important change in the use of vectors is that the new ones do not support the indexing **operator[]**. Instead, they support the methods **X(), Y() and Z()**.
-<pre><code class="cpp"></code></pre>
+
