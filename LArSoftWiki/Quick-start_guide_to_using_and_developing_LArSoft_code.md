@@ -5,9 +5,9 @@
 LArSoft is not a stand-alone product. It is intended to be used as part of an experiment, so the set-up instructions for the experiment you are working with is the best place to start. To find a specific project, first check the [Quick Links](Quick_Links), then look on your experiment's pages in redmine for instructions on installing LArSoft software. (Go to: https://cdcvs.fnal.gov/redmine/projects and search for your experiment.)
 
 The following is provided just to provide the general information that can be adapted by each experiment.  
-These instructions are for working with larsoft release v1_00_00 and later, and mrb v1_00_00 and later. The instructions assume that LArSoft is installed locally using the download and installation instructions linked from the download page (see [Download instructions](Getting LArSoft)). Changes needed for off-site installations will be noted. This documentation is evolving as we receive feedback. Please open an issue ticket if you have suggestions or complaints.
+These instructions are for working with larsoft release v1_00_00 and later, and mrb v1_00_00 and later. The instructions assume that LArSoft is installed locally using the download and installation instructions linked from the download page, see [Download instructions](https://larsoft.github.io/LArSoftWiki/Getting_LArSoft). Changes needed for off-site installations will be noted. This documentation is evolving as we receive feedback. Please open an issue ticket if you have suggestions or complaints.
 
-Please note that all Fermilab redmine repository names are lower case. See the [LArSoft product list](LArSoft repositories packages and dependencies).
+Please note that all Fermilab redmine repository names are lower case. See the [LArSoft product list](https://larsoft.github.io/LArSoftWiki/LArSoft_repositories_packages_and_dependencies).
 
 See [The developer environment](The_developer_environment) page for important information about the git branching model that should be used when developing LArSoft code.  
 Detailed information about mrb is available from the [mrb reference guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbRefereceGuide). Information about UPS is available from [getting started using UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/Getting_Started_Using_UPS)
@@ -56,7 +56,7 @@ or
 
 If off-site, the appropriate script should be modified to reflect the locations of local product installations.
 
--   Perform the next step **only** if you want to run code in a frozen LArSoft release **and** are interested in running jobs specific to experiments other than DUNE and uBooNE. All other users should skip to the [Create a working area](Quick-start guide to using and developing LArSoft code#Create-a-working-area-2) step.
+-   Perform the next step **only** if you want to run code in a frozen LArSoft release **and** are interested in running jobs specific to experiments other than DUNE and uBooNE. All other users should skip to the Create a working area step.
 
 ### Run non-DUNE or non-uBoonE jobs using only a frozen LArSoft release
 
@@ -127,7 +127,7 @@ If off-site, the appropriate script should be modified to reflect the locations 
 
   
 > - where 'vx_yy_zz' is the base version for the release you are working with.  
-> - Select from the [list of releases](/LArSoftWiki/index#releases), or use 'ups list -aK+ larsoft' to get a complete list of available releases.  
+> - Select from the [list of releases](https://LarSoft.github.io/LArSoftWiki/releases/LArSoft_release_list), or use 'ups list -aK+ larsoft' to get a complete list of available releases.  
 > - Current release is v04_06_00 (See [LArSoftWiki](/LArSoftWiki/index) for most recent release)  
 > - Alternatively, you can 'setup larsoft <version> -q \<e7:debug\|e7:prof\>' before running 'mrb newDev', in which case you can omit the '-v' and '-q' from the 'mrb' command.
 
@@ -155,7 +155,7 @@ If off-site, the appropriate script should be modified to reflect the locations 
 > is the preferred command if you need to run what you are building.  
 > - You can also use `mrb build` (or `mrb b`) if you just want the build with no install. Be aware, however, that you cannot run using the resulting build products.
 
-> The list of repositories and their contents [can be found on this page ]( LArSoft repositories packages and dependencies ).
+> The list of repositories and their contents [can be found on this page ](https://larsoft.github.io/LArSoftWiki/LArSoft_repositories_packages_and_dependencies).
 
 ### Run the software you just built
 
