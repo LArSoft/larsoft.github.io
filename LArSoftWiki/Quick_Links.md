@@ -32,4 +32,4 @@ Quick Start Guides - experiment specific
 
 [Presentations in Indico](https://indico.fnal.gov/categoryDisplay.py?categId=233)
 
-[LArSoft documentation from the code (Doxygen)](https://nusoft.fnal.gov/larsoft/doxsvn/html)
+[LArSoft documentation from the code (Doxygen)](https://nusoft.fnal.gov/larsoft/doxsvn/html/index.html)
