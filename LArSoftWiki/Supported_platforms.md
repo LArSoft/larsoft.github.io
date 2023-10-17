@@ -15,7 +15,7 @@
 <!-- -->
 
 -   Docker images
-    -   SL7 images available at https://hub.docker.com/u/fnalart/
+    -   SL7 images available at (https://hub.docker.com/u/fnalart/)
     -   Can be run on any machine that supports Docker
     -   Images for new releases will be created on request.
 
@@ -56,9 +56,9 @@ The ultimate list will be determined in consultation with the experiments and as
     -   Note: At present, using Mojave requires:
         -   Disabling System Integrity Protection (SIP). (Disabling SIP is currently allowed at Fermilab. Check the security policies at your institution before taking this step.)
         -   [Homebrew](https://cdcvs.fnal.gov/redmine/projects/cet-is/wiki/Homebrew_keg_only_install_of_openssl) keg-only installation of `openssl`.
-    -   See https://cdcvs.fnal.gov/redmine/projects/el-capitan-support/wiki/Installing_OpenSSL_on_El_Capitan for full details
+    -   See (https://cdcvs.fnal.gov/redmine/projects/el-capitan-support/wiki/Installing_OpenSSL_on_El_Capitan) for full details
     -   **Xcode 10.1** (System headers were changed in Xcode 10.2. It cannot be used at this time.)
-        -   See https://sft.its.cern.ch/jira/projects/ROOT/issues/ROOT-10085
+        -   See (https://sft.its.cern.ch/jira/projects/ROOT/issues/ROOT-10085)
 -   OSX Yosemite
     -   “Starting from Nov. 10, 2017, any Mac computer running macOS Yosemite (v10.10) will be blocked from accessing the Fermilab network.”
     -   Fermilab offers limited support for scientific applications under Mac OSX. (See the [SCD policy statement here.](https://cd-docdb.fnal.gov:440/cgi-bin/ShowDocument?docid=5326) ) While core LArSoft and experiment production code is tested and works, some products used by LArSoft (e.g., ifdhc) may offer functionality under SL that is not available under any given flavor of OSX.
@@ -68,21 +68,21 @@ The ultimate list will be determined in consultation with the experiments and as
     -   Note: At present, using El Capitan requires:
         -   Disabling System Integrity Protection (SIP). (Disabling SIP is currently allowed at Fermilab. Check the security policies at your institution before taking this step.)
         -   [Homebrew](https://cdcvs.fnal.gov/redmine/projects/cet-is/wiki/Homebrew_keg_only_install_of_openssl) keg-only installation of `openssl`.
-    -   See https://cdcvs.fnal.gov/redmine/projects/el-capitan-support/wiki/Installing_OpenSSL_on_El_Capitan for full details
+    -   See (https://cdcvs.fnal.gov/redmine/projects/el-capitan-support/wiki/Installing_OpenSSL_on_El_Capitan) for full details
 -   Mac OSX 10.12 “Sierra”
     -   Support dropped as of larsoft v08_16_00 (April 19, 2019)
     -   Best-effort support is available with clang 5.0.1 (c2) builds.
     -   Note: At present, using Sierra requires:
         -   Disabling System Integrity Protection (SIP). (Disabling SIP is currently allowed at Fermilab. Check the security policies at your institution before taking this step.)
         -   [Homebrew](https://cdcvs.fnal.gov/redmine/projects/cet-is/wiki/Homebrew_keg_only_install_of_openssl) keg-only installation of `openssl`.
-    -   See https://cdcvs.fnal.gov/redmine/projects/el-capitan-support/wiki/Installing_OpenSSL_on_El_Capitan for full details
+    -   See (https://cdcvs.fnal.gov/redmine/projects/el-capitan-support/wiki/Installing_OpenSSL_on_El_Capitan) for full details
     -   Support for Sierra is dropped for releases built with art 3.02 and higher.
 -   macOS 10.13 High Sierra
     -   Best-effort support is available with clang 5.0.1 (c2) builds.
     -   Note: At present, using High Sierra requires:
         -   Disabling System Integrity Protection (SIP). (Disabling SIP is currently allowed at Fermilab. Check the security policies at your institution before taking this step.)
         -   [Homebrew](https://cdcvs.fnal.gov/redmine/projects/cet-is/wiki/Homebrew_keg_only_install_of_openssl) keg-only installation of `openssl`.
-    -   See https://cdcvs.fnal.gov/redmine/projects/el-capitan-support/wiki/Installing_OpenSSL_on_El_Capitan for full details
+    -   See (https://cdcvs.fnal.gov/redmine/projects/el-capitan-support/wiki/Installing_OpenSSL_on_El_Capitan) for full details
 -   Ubuntu LTS 18 (u18).
 -   Ubuntu LTS 16 (u16).
     -   Best-effort support for Ubuntu 16 LTS is available as of April 13, 2017 (larsoft v06_32_00) built with gcc 6.3.0 (e14).
