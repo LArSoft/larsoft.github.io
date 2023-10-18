@@ -29,7 +29,7 @@ Before new major releases of software are put into production each experiment si
 <!-- -->
 
 -   Retention policy for production releases
-    -   Production releases will announced as such to the LArSoft community and identified on the [LArSoft release list](releases/LArSoft_release_list) page.
+    -   Production releases will announced as such to the LArSoft community and identified on the [LArSoft release list](https://larsoft.github.io/LArSoftWiki/releases/LArSoft_release_list) page.
         -   The determination of what releases qualify as “production” will be made by the experiments.
         -   The affirmation of a single experiment is sufficient to declare a release as “production”.
     -   Production releases will be retained indefinitely.
@@ -53,4 +53,4 @@ Before new major releases of software are put into production each experiment si
     -   Nightly releases will be retained for no more than one week.
     -   Proposed changes to this period should be discussed at a LArSoft Stakeholders or Steering Committee meeting.
 
-Policies were established and approved at the May 6, 2014 LArSoft Librarian's Meeting: https://indico.fnal.gov/event/8490/
+Policies were established and approved at the May 6, 2014 LArSoft Librarian's Meeting: (https://indico.fnal.gov/event/8490/)
