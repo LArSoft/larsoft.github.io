@@ -6,7 +6,7 @@
 
 When breaking changes are introduced in the code, they are usually documented more extensively in the [Breaking Changes](Breaking_Changes) page.  
 Consider taking a look at it on each update, since the breakage could be subtler than just a compilation error.  
-See [What to do when there is a new release](UpdatingToNewRelease)
+See [What to do when there is a new release](https://larsoft.github.io/LArSoftWiki/UpdatingToNewRelease)
 
 See [Supported Platforms](/LArSoftWiki/Supported_platforms) for a list of supported platforms.
 
@@ -46,4 +46,4 @@ Release versions in **bold font** will be preserved according to the [production
 
 [Retired Non-Production Releases](Older_Releases)
 
-[Notes about updating from art v2 to art v3](Update_from_art_v2_to_art_v3)
+[Notes about updating from art v2 to art v3](https://larsoft.github.io/LArSoftWiki/Update_to_art_v3_02)
