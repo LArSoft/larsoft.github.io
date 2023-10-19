@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChan
+| v09_79_01 | v09_33_00 | 10/19/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_79_01) |
 | v09_79_00 | v09_33_00 | 10/05/2023 |  | compilers are now e26 and c14 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_79_00) |
 | v09_78_06 | v09_32_01 | 09/26/2023 |  | final release for c7 and e20 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_06) |
 | v09_78_05 | v09_32_01 | 09/21/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_05) |
