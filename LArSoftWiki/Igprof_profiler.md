@@ -52,4 +52,4 @@ Other useful options:
 -   [IgProf home page](https://igprof.org/)
 -   installation: see [installation instructions](https://igprof.org/install.html)
 
-For a more recent example, see [ProtoDUNE profiling](ProtoDUNE_and_DUNE_Far_Detector_simulation_and_reconstruction_workflows_(v06_57_00)#Profiling-memory-and-CPU-performance)
+For a more recent example, see [ProtoDUNE profiling](https://larsoft.github.io//LArSoftWiki/LArSoftInternals/ProtoDUNE_and_DUNE_Far_Detector_v06_57_00)
