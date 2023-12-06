@@ -29,12 +29,14 @@ In order to develop and contribute LArSoft code, you will need to have a persona
 <!-- -->
 
 -   On your development machine, add your personal information and your GitHub account to your local git configuration:
+    -   Note that git uses \`$VISUAL\`, not \`$CVS_EDITOR\` for the commit  
+        message editor, so you might want to adapt your shell profile as well.
+```
             git config --global user.name "<First Name> <Last Name>"
             git config --global user.email <Your-Email-Address>
             git config --global user.github <Your-GitHub-Account-Username>
+```
 
-    -   Note that git uses \`$VISUAL\`, not \`$CVS_EDITOR\` for the commit  
-        message editor, so you might want to adapt your shell profile as well.
 
 <!-- -->
 
