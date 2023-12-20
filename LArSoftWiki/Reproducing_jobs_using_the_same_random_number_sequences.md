@@ -22,8 +22,8 @@ In LArSoft (and in fact also in NOvA), a service is available called <span style
 
 The *art* service `rndm::NuRandomService` (in *nutools*) is documented via Doxygen, in two parts:
 
--   [the configuration of the service](https://nusoft.fnal.gov/larsoft/doxsvn/html/classrndm_1_1SeedMaster.html#details) (if you are wondering: the “`SeedMaster`” is the art-independent part that provides most of the seed management functionality)
--   [the usage of service interface in the code](https://nusoft.fnal.gov/larsoft/doxsvn/html/classrndm_1_1NuRandomService.html#details)
+-   [the configuration of the service](https://code-doc.larsoft.org/doc/latest/html/classrndm_1_1SeedMaster.html#details) (if you are wondering: the “`SeedMaster`” is the art-independent part that provides most of the seed management functionality)
+-   [the usage of service interface in the code](https://code-doc.larsoft.org/doc/latest/html/classrndm_1_1NuRandomService.html#details)
 
 The information on this page focuses on usage (the first item) and it assumes that the underlying code is properly using the service to set up its random streams.
 

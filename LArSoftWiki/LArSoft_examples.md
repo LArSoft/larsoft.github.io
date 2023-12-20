@@ -22,7 +22,7 @@
 
 Tests are in the matching `test/...` directory (for example, a service in `larexamples/Services/AtomicNumber/Services` will have its tests in `test/Services/AtomicNumberService/Services`).
 
-A [section in LArSoft doxygen page](https://nusoft.fnal.gov/larsoft/doxsvn/html/modules.html) also lists most of the examples.
+A [section in LArSoft doxygen page](https://code-doc.larsoft.org/doc/latest/html/modules.html) also lists most of the examples.
 
 ## Services
 

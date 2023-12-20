@@ -21,9 +21,9 @@ These classes have their use: it's easy to write them directly in a ROOT tree, e
 
 | Library | objects | used in LArSoft |
 |---------|---------|-----------------|
-| [GenVector](https://root.cern.ch/doc/master/group__GenVector.html) |[ROOT::Math::PositionVector2D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1PositionVector2D.html)| [geo::Point_t](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a8f50958e1ae782539f468fe82b56e680) |
-|  | [ROOT::Math::DisplacementVector3D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector3D.html) | [geo::Vector_t](https://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#ac78157942b179c6abb41ed24ccb4560a)|
-| | [ROOT::Math::PositionVector2D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1PositionVector2D.html)  [ROOT::Math::DisplacementVector2D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector2D.html) | [geo::PlaneGeo::WidthDepthProjection_t](https://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1PlaneGeo.html#a066c372521b61e61bc86146ea4a9fc66) [geo::PlaneGeo::WireCoordProjection_t](https://nusoft.fnal.gov/larsoft/doxsvn/html/classgeo_1_1PlaneGeo.html#a54262556246be9d7cd55b501d860d9c1) |
+| [GenVector](https://root.cern.ch/doc/master/group__GenVector.html) |[ROOT::Math::PositionVector2D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1PositionVector2D.html)| [geo::Point_t](https://code-doc.larsoft.org/doc/latest/html/namespacegeo.html#a8f50958e1ae782539f468fe82b56e680) |
+|  | [ROOT::Math::DisplacementVector3D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector3D.html) | [geo::Vector_t](https://code-doc.larsoft.org/doc/latest/html/namespacegeo.html#ac78157942b179c6abb41ed24ccb4560a)|
+| | [ROOT::Math::PositionVector2D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1PositionVector2D.html)  [ROOT::Math::DisplacementVector2D](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1DisplacementVector2D.html) | [geo::PlaneGeo::WidthDepthProjection_t](https://code-doc.larsoft.org/doc/latest/html/classgeo_1_1PlaneGeo.html#a066c372521b61e61bc86146ea4a9fc66) [geo::PlaneGeo::WireCoordProjection_t](https://code-doc.larsoft.org/doc/latest/html/classgeo_1_1PlaneGeo.html#a54262556246be9d7cd55b501d860d9c1) |
 | | [ROOT::Math::LorentzVector](https://root.cern.ch/doc/master/classROOT_1_1Math_1_1LorentzVector.html) |
 | ROOT | [TVector2](https://root.cern.ch/doc/master/classTVector2.html) |
 | | [TVector3](https://root.cern.ch/doc/master/classTVector3.html) |
@@ -136,7 +136,7 @@ If the need arise, please [open a LArSoft feature request](https://cdcvs.fnal.go
 
 ### Computing the middle point
 
-The simple operation `$vec{x} = frac{sum_{k=1}^{N} vec{x}_{k}}{N}$)` is not as simple any more for position vectors, which can't be added nor scaled. An utility has been provided in the form of a [function](http://nusoft.fnal.gov/larsoft/doxsvn/html/namespacegeo.html#a36b47c9bd80494201a449169e6e8b581).
+The simple operation `$vec{x} = frac{sum_{k=1}^{N} vec{x}_{k}}{N}$)` is not as simple any more for position vectors, which can't be added nor scaled. An utility has been provided in the form of a [function](https://code-doc.larsoft.org/doc/latest/html/namespacegeo.html#a36b47c9bd80494201a449169e6e8b581).
 
 ### Example: from recob::Track::Extent() update
 

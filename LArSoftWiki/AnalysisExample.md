@@ -334,7 +334,7 @@ Good luck!
 ## Other links
 
 [Using ART in LArSoft](Using_art_in_LArSoft)  
-[Doxgen LArSoft documentation](https://nusoft.fnal.gov/larsoft/doxsvn/html/)  
+[Doxgen LArSoft documentation](https://code-doc.larsoft.org/doc/latest/html/)  
 [Running jobs](Running_Jobs)  
 [FHiCL Configuration validation](https://cdcvs.fnal.gov/redmine/projects/fhicl-cpp/wiki/Configuration_validation_and_fhiclcpp_types)  
 [FHiCL Configuration description](https://cdcvs.fnal.gov/redmine/projects/art/wiki/Configuration_validation_and_description)

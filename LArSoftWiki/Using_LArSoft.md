@@ -28,7 +28,7 @@ First-time, or infrequent, users will be well-served to go through the following
 5.  To install a local copy of the pre-built products, or to build and install a local copy of the products for the core LArSoft suite, follow the [Installation Procedures on the Getting LArSoft page](Getting_LArSoft).
     1.  To use cvmfs to access the binaries and header files in a tagged release (thereby avoiding the need to install or build a local copy), follow the [LArSoft cvmfs page](LArSoft_cvmfs_page) instructions.
     2.  Sometimes your local code will fail to build against a new LArSoft release because there are “breaking changes” in the release, which are modifications that require adaptations to the code that references that modified code. These changes and the corrective actions needed are documented on the [Breaking_Changes](releases/Breaking_Changes) page.
-    3.  Comments in the code are incorporated into documentation at [LArSoft Doxygen](https://nusoft.fnal.gov/larsoft/doxsvn/html/index.html) using [the Doxygen tool.](https://www.doxygen.nl/helpers.html)
+    3.  Comments in the code are incorporated into documentation at [LArSoft Doxygen](https://code-doc.larsoft.org/doc/latest/html/index.html) using [the Doxygen tool.](https://www.doxygen.nl/helpers.html)
 6.  Recommended.
     1.  Install and run [Igprof profiler](Igprof_profiler).
 

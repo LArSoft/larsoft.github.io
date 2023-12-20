@@ -113,7 +113,7 @@ Whether you are writing new code or modifying existing code, please follow the g
 
 #### Documenting and browsing code
 
--   [LArSoft Doxygen](https://nusoft.fnal.gov/larsoft/doxsvn/html/index.html) - comments in the code are incorporated into documentation using [the Doxygen tool.](https://www.doxygen.nl/helpers.html)
+-   [LArSoft Doxygen](https://code-doc.larsoft.org/doc/latest/html/index.html) - comments in the code are incorporated into documentation using [the Doxygen tool.](https://www.doxygen.nl/helpers.html)
 -   [LXR Cross Referencer](https://cdcvs.fnal.gov/lxr/) - general purpose source code indexer and cross-referencer that provides web-based browsing of source code with links to the definition and usage of any identifier. Supports multiple languages. Includes LArSoft code. Note, pages may take several seconds to load.
 
 #### [Working with GitHub](Working_with_GitHub) and contributing code via LArSoft pull requests

@@ -165,7 +165,7 @@ or, in a more C-aware style using functions from the `algorithm` or `larcorealg/
 ```
 
   
-([`util::takeAddress()`](https://nusoft.fnal.gov/larsoft/doxsvn/html/namespaceutil.html#a1b7b3801e849acc3b819c67e57bff2f3) is defined in <span style="font-style: monospace;">larcorealg:source:larcorealg/CoreUtils/operations.h</span>).
+([`util::takeAddress()`](https://code-doc.larsoft.org/doc/latest/html/namespaceutil.html#a1b7b3801e849acc3b819c67e57bff2f3) is defined in <span style="font-style: monospace;">larcorealg:source:larcorealg/CoreUtils/operations.h</span>).
 
 Also remember that as long as the pointers in your collection are from the data product, you can track back the index of the item in the data product (for example, `prodPtr - &amp;prodvec.front()` for your vector of pointers, and `prodIter - prodvec.begin()`, or `std::distance(prodvec.begin(), prodIter)`, for iterator vectors).
 
@@ -433,7 +433,7 @@ If instead, you want to add some message printing for info level messages you ca
 ### art::Exception
 
 art::Exception is defined in canvas (./canvas/Utilities/Exception.h).  
-[Doxygen source file](https://nusoft.fnal.gov/larsoft/doxsvn/html/Exception_8h_source.html)
+[Doxygen source file](https://code-doc.larsoft.org/doc/latest/html/Exception_8h_source.html)
 
 The use of the art::Exception can be configured to skip a module, or skip to the next event, run, etc. Different exception classes can be set to do different things. Since LArSoft is built upon art, the art::Exception is preferred to the cet::exception.
 
