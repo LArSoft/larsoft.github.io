@@ -13,7 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
-| v09_90_00rc1 | v09_34_02 | 12/19/2023 | **RELEASE CANDIDATE**  |  build with art 3.14.03 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_90_00rc1) |
+| v09_90_00rc1 | v09_90_00rc1 | 12/19/2023 | **RELEASE CANDIDATE**  |  build with art 3.14.03 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_90_00rc1) |
 | v09_82_00 | v09_34_02 | 12/13/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_82_00) |
 | **v08_05_00_23** | **v08_03_00_06** | 12/12/2023 | uB MCC 9.1 production release | Semianalytical light simulation updates and bug fixes | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_23) |
 | v09_90_00rc0 | v09_90_00rc0 | 12/08/2023 | **RELEASE CANDIDATE**  | build with art 3.14.01 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_90_00rc0) |
