@@ -29,7 +29,7 @@ Additional requirements for a well-written LArSoft algorithm include:
 -   has well-documented interfaces
 -   has comments where-ever the code is less than trivial
 -   follows good coding practices and [LArSoft guidelines](https://cdcvs.fnal.gov/redmine/projects/larsoft/wiki/The_rules_and_guidelines)
--   follows LArSoft's [interoperability recommendations](Architecture_revision#Interoperability)
+-   follows the LArSoft [interoperability recommendations](Architecture_revision#Interoperability)
 
 ### Developing a new algorithm
 
