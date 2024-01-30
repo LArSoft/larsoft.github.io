@@ -49,7 +49,7 @@ These are package written and maintained by the general physics and computing co
 | [C](https://www.cplusplus.com/reference/)                                                            | `std::`                 | Extensions to base C that are part of the standard language |                         |                |
 | [ROOT](https://root.cern.ch)                                                                        | See below               | Data-analysis tools                                         | `$ROOT_INC`             |                |
 | [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/)                                                  | `CLHEP::`               | Class Library for High-Energy Physics                       | `$CLHEP_INC/CLHEP`      |                |
-| [Geant4](https://geant4.web.cern.ch/geant4/)                                                         | See below               | Detector simulations                                        | `$G4INCLUDE`            |                |
+| [Geant4](https://geant4.web.cern.ch)                                                         | See below               | Detector simulations                                        | `$G4INCLUDE`            |                |
 | [GENIE](https://hep.ph.liv.ac.uk/~costasa/genie/index.html)                                                                   | `genie::`               | Neutrino Monte-Carlo Generator                              | `$GENIE_INC/GENIE`      |                |
 | [boost](https://www.boost.org/)                                                                      | `boost::`               | General programming tools for C                             | `$BOOST_INC/boost`      |                |
 | [Message Facility wiki documentation](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility) | `mf::`                  | Service for console messages                                | `$MESSAGEFACILITY_INC`  |                |
@@ -113,7 +113,7 @@ Whether you are writing new code or modifying existing code, please follow the g
 
 #### Documenting and browsing code
 
--   [LArSoft Doxygen](https://code-doc.larsoft.org/doc/latest/html/index.html) - comments in the code are incorporated into documentation using [the Doxygen tool.](https://www.doxygen.nl/helpers.html)
+-   [LArSoft Doxygen](https://code-doc.larsoft.org/docs/latest/html/index.html) - comments in the code are incorporated into documentation using [the Doxygen tool.](https://www.doxygen.nl/helpers.html)
 -   [LXR Cross Referencer](https://cdcvs.fnal.gov/lxr/) - general purpose source code indexer and cross-referencer that provides web-based browsing of source code with links to the definition and usage of any identifier. Supports multiple languages. Includes LArSoft code. Note, pages may take several seconds to load.
 
 #### [Working with GitHub](Working_with_GitHub) and contributing code via LArSoft pull requests
