@@ -17,7 +17,6 @@
 5.  For major changes as determined in step (2), the proposal should be presented at the biweekly [LArSoft Coordination Meeting.](https://indico.fnal.gov/categoryDisplay.py?categId=405) Depending on the feedback, more than one presentation may be useful.
 6.  The developer writes the code, including comments, tests, and examples as needed, and keeps the LArSoft team informed on the status of work.
     -   Any redmine pages or other technical documentation should be written during this time as well.
-    -   For new algorithms and services, an entry in the [list of algorithms](https://larsoft.org/algorithms-list/) should be made.
 7.  When development is completed, request that it be merged onto the develop branch since this is a breaking change.
 
 ## Process to move functionality in LArSoft code
@@ -28,7 +27,7 @@ For various reasons, the code location of functionality sometimes changes. To en
 2.  Create a ticket to establish the new location of the functionality
     -   announce the coming change and deprecation at the LArSoft coordination meeting
     -   copy the method in the new position
-    -   modify the method in the old position to refer to the new one (when possible), and designate the former as [deprecated](deprecated)
+    -   modify the method in the old position to refer to the new one (when possible), and designate the former as deprecated.
     -   create a ticket following the first one by one month or so, whose resolution will consist in removing the deprecated method. The time required for this depends on the extent of the change required.
     -   mark the original issue as resolved
 3.  After the established time, deal with the second ticket
