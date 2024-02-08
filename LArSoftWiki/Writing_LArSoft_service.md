@@ -1,6 +1,6 @@
 
 
-**<span style="color: orange;">Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](https://code-doc.larsoft.org/doc/latest/html/group__larexamples__Services.html) .</span>**
+**<span style="color: orange;">Full examples are available in `larexamples` repositories, extensively commented. You can also access that from [LArSoft Doxygen pages](https://code-doc.larsoft.org/docs/latest/html/group__larexamples__Services.html) .</span>**
 
 # Guidelines on writing (and using) services in LArSoft
 
@@ -26,7 +26,7 @@ A specimen of this protocol can be seen in `Geometry` service:
 -   the provider, `geo::GeometryCore`, can load given a configuration in FHiCL parameter set format, and can answer all the questions about the geometry (“which wire is the closest to this point?”)
 -   the service, `geo::Geometry`, creates, configures and owns a `geo::GeometryCore` instance, hooks to the framework to know when a run change happens, and in that case asks the provider to update accordingly
 
-To write services from scratch, one can start with the [examples in larexample repository](LArSoft examples#Services).
+To write services from scratch, one can start with the [examples in larexample repository](LArSoft_examples#Services).
 
 > The `Geometry` service is actually not quite following all LArSoft prescriptions, for legacy reasons.  
 > In particular, `geo::Geometry` service doesn't follow the standard name pattern (that would have it `geo::GeometryService`) and, more important, is actually able to provide directly all the geometry functionality since it inherits the interface from `geo::GeometryCore`. This is **not** the recommended implementation.
@@ -97,7 +97,7 @@ The service interface is a (possibly abstract[^1]) class that describes all the 
 ```
 
   
-For a complete example, see [lar::example::ShowerCalibrationGalore](https://code-doc.larsoft.org/doc/latest/html/group__ShowerCalibrationGalore.html#details), or `geo::ExptGeoHelperInterface` in `larcore` (Redmine link to [larcore/Geometry/ExptGeoHelperInterface.h](https://github.com/LArSoft/larcore/blob/develop/larcore/Geometry/ExptGeoHelperInterface.h) ).
+For a complete example, see [lar::example::ShowerCalibrationGalore](https://code-doc.larsoft.org/docs/latest/html/group__ShowerCalibrationGalore.html#details), or `geo::ExptGeoHelperInterface` in `larcore` (Redmine link to [larcore/Geometry/ExptGeoHelperInterface.h](https://github.com/LArSoft/larcore/blob/develop/larcore/Geometry/ExptGeoHelperInterface.h) ).
 
 An module or algorithm can use this service by:
 
@@ -298,7 +298,7 @@ The service providers are contained in `lardataalg/DetectorInfo`, while the *art
 
 The interface classes (of provider and service) do not need to have an implementation file (in case of `DetectorProperties`, they don't).
 
-*Note:* %{font-family: monospace}[ShowerCalibrationGalore](https://code-doc.larsoft.org/doc/latest/html/group__ShowerCalibrationGalore.html%) in `larexamples` is also a fully developed and thoroughly documented example of this pattern.
+*Note:* %{font-family: monospace}[ShowerCalibrationGalore](https://code-doc.larsoft.org/docs/latest/html/group__ShowerCalibrationGalore.html) in `larexamples` is also a fully developed and thoroughly documented example of this pattern.
 
 ## Prescriptions for the use of LArSoft services
 
