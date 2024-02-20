@@ -1,8 +1,8 @@
 
 
-# Geometry Package
+# PreV10 Geometry Package
 
-Different detectors are represented in the Geometry Package of LArSoft.
+Different detectors are represented in the Geometry Package of LArSoft. This information applies to Version before version 10 of LArSoft.
 
 ## How a LArTPC works
 
