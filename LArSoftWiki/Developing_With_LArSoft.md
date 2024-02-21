@@ -26,7 +26,8 @@ To design LArSoft code, it's important to understand the core LArSoft suite and 
 ### LArSoft packages and repositories
 
 -   [LArSoft repositories packages and dependencies](LArSoft_repositories_packages_and_dependencies)
--   [Geometry Package](Geometry_Package)
+-   [LArSoft_V10+_Geometry_System](LArSoft_V10+_Geometry_System)
+-   [PreV10_Geometry_Package](Geometry_Package)
 -   [LArSoft art-independent code and repositories](LArSoft_art-independent_code_and_repositories)
 
 ### The *art* framework
@@ -40,35 +41,6 @@ To design LArSoft code, it's important to understand the core LArSoft suite and 
 
 *gallery* provides lightweight access to event data in art/ROOT files outside the art event processing framework executable. It is not an alternative framework; rather, it provides a library that can be used to write programs that need to read (but not write) art/ROOT files. Information is available [here](https://art.fnal.gov/gallery/)
 
-### External packages
-
-These are package written and maintained by the general physics and computing communities for
-
-| Package                                                                                             | Namespace               | Short description                                           | Location of headers     |                |
-|-----------------------------------------------------------------------------------------------------|-------------------------|-------------------------------------------------------------|-------------------------|----------------|
-| [C](https://www.cplusplus.com/reference/)                                                            | `std::`                 | Extensions to base C that are part of the standard language |                         |                |
-| [ROOT](https://root.cern.ch)                                                                        | See below               | Data-analysis tools                                         | `$ROOT_INC`             |                |
-| [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/)                                                  | `CLHEP::`               | Class Library for High-Energy Physics                       | `$CLHEP_INC/CLHEP`      |                |
-| [Geant4](https://geant4.web.cern.ch)                                                         | See below               | Detector simulations                                        | `$G4INCLUDE`            |                |
-| [GENIE](https://hep.ph.liv.ac.uk/~costasa/genie/index.html)                                                                   | `genie::`               | Neutrino Monte-Carlo Generator                              | `$GENIE_INC/GENIE`      |                |
-| [boost](https://www.boost.org/)                                                                      | `boost::`               | General programming tools for C                             | `$BOOST_INC/boost`      |                |
-| [Message Facility wiki documentation](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility) | `mf::`                  | Service for console messages                                | `$MESSAGEFACILITY_INC`  |                |
-| [FHiCL Configuration](https://larsoft.org/configuration/) | `fhicl::`               | Configuration language and parsing tools                    | `$FHICLCPP_INC`         |                |
-| [ nutools and LArSoft](NuSoft_and_LArSoft                                                                              ) | `simb::`                                                    | Neutrino platform tools | `$NUTOOLS_INC` |
-
-ROOT and Geant4 do not use namespaces. In general, ROOT classes begin with “T” (e.g., [TTree](https://root.cern.ch/root/html522/TTree.html), [TH1](https://root.cern.ch/root/html522/TH1.html)) while [Geant4 classes](https://geant4.kek.jp/LXR/) begin with “G4” (e.g., [G4Track](https://geant4.kek.jp/lxr/source//track/include/G4Track.hh), [G4Step](https://geant4.kek.jp/lxr/source//track/include/G4Step.hh)). Exception: Some of the newer ROOT sub-packages have namespaces (such as `ROOT::Math::`, `ROOT::Fit::`, `ROOT::Minuit2::`, `Reflex::`, `TMVA::`).
-
-Some of these packages duplicate functionality; e.g., 4-vectors are implemented in both [ROOT](https://root.cern.ch/root/html522/TLorentzVector.html) and [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/doc/CLHEP_2_1_2_2/doxygen/html/LorentzVector_8h.html). Given a choice, use a package that's higher in the above tables over one that's lower; e.g., choose ROOT classes over their CLHEP equivalents.
-
-### Policy for including new external packages in LArSoft
-
-To include new external software packages into the LArSoft distribution, or to create a new external dependency:
-
--   An experiment makes an official request via redmine issue ticket.
--   LArSoft verifies that it has permission to use the tool for research.
--   LArSoft verifies that the package will be be used by more than one experiment. Note: if only one experiment intends to use the package, the SciSoft team can help, but the end product would reside in the experiment’s code, not in LArSoft.
--   LArSoft has to be able to build the tool such that it has binary compatibility with other products which will be used at the same time. This means that any dependencies (e.g., python) must be the same as those used by the matching LArSoft distribution. In addition, if the product contains C or Fortran code, the product must be buildable with the same compiler used by the matching LArSoft release.
--   If the package is built into LArSoft code, it must not have a license that affects the license of the LArSoft code. We must be able to distribute our LArSoft code without having to add their license to our code or change the way we distribute LArSoft code with it in there. For a package that isn’t linked into any part of the main LArSoft distribution, such as an analysis tool, LArSoft still needs to have permission to use the package for research, but isn’t worried about the licensing affecting LArSoft code.
 
 ## Writing code
 
@@ -192,3 +164,34 @@ After designing, coding, building and testing a piece of software, submit it to 
 -   [Getting new code into a LArSoft release](Getting_new_code_into_a_LArSoft_release) *<span class="releases LArSoft to changes making for policies and Procedures"></span>*
 
 Also look at [Process for contributing code to LArSoft](Process_for_contributing_code_to_LArSoft).
+
+### External packages
+
+These are package written and maintained by the general physics and computing communities for
+
+| Package                                                                                             | Namespace               | Short description                                           | Location of headers     |                |
+|-----------------------------------------------------------------------------------------------------|-------------------------|-------------------------------------------------------------|-------------------------|----------------|
+| [C](https://www.cplusplus.com/reference/)                                                            | `std::`                 | Extensions to base C that are part of the standard language |                         |                |
+| [ROOT](https://root.cern.ch)                                                                        | See below               | Data-analysis tools                                         | `$ROOT_INC`             |                |
+| [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/)                                                  | `CLHEP::`               | Class Library for High-Energy Physics                       | `$CLHEP_INC/CLHEP`      |                |
+| [Geant4](https://geant4.web.cern.ch)                                                         | See below               | Detector simulations                                        | `$G4INCLUDE`            |                |
+| [GENIE](https://hep.ph.liv.ac.uk/~costasa/genie/index.html)                                                                   | `genie::`               | Neutrino Monte-Carlo Generator                              | `$GENIE_INC/GENIE`      |                |
+| [boost](https://www.boost.org/)                                                                      | `boost::`               | General programming tools for C                             | `$BOOST_INC/boost`      |                |
+| [Message Facility wiki documentation](https://cdcvs.fnal.gov/redmine/projects/messagefacility/wiki/Using_MessageFacility) | `mf::`                  | Service for console messages                                | `$MESSAGEFACILITY_INC`  |                |
+| [FHiCL Configuration](https://larsoft.org/configuration/) | `fhicl::`               | Configuration language and parsing tools                    | `$FHICLCPP_INC`         |                |
+| [ nutools and LArSoft](NuSoft_and_LArSoft                                                                              ) | `simb::`                                                    | Neutrino platform tools | `$NUTOOLS_INC` |
+
+ROOT and Geant4 do not use namespaces. In general, ROOT classes begin with “T” (e.g., [TTree](https://root.cern.ch/root/html522/TTree.html), [TH1](https://root.cern.ch/root/html522/TH1.html)) while [Geant4 classes](https://geant4.kek.jp/LXR/) begin with “G4” (e.g., [G4Track](https://geant4.kek.jp/lxr/source//track/include/G4Track.hh), [G4Step](https://geant4.kek.jp/lxr/source//track/include/G4Step.hh)). Exception: Some of the newer ROOT sub-packages have namespaces (such as `ROOT::Math::`, `ROOT::Fit::`, `ROOT::Minuit2::`, `Reflex::`, `TMVA::`).
+
+Some of these packages duplicate functionality; e.g., 4-vectors are implemented in both [ROOT](https://root.cern.ch/root/html522/TLorentzVector.html) and [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/doc/CLHEP_2_1_2_2/doxygen/html/LorentzVector_8h.html). Given a choice, use a package that's higher in the above tables over one that's lower; e.g., choose ROOT classes over their CLHEP equivalents.
+
+### Policy for including new external packages in LArSoft
+
+To include new external software packages into the LArSoft distribution, or to create a new external dependency:
+
+-   An experiment makes an official request via redmine issue ticket.
+-   LArSoft verifies that it has permission to use the tool for research.
+-   LArSoft verifies that the package will be be used by more than one experiment. Note: if only one experiment intends to use the package, the SciSoft team can help, but the end product would reside in the experiment’s code, not in LArSoft.
+-   LArSoft has to be able to build the tool such that it has binary compatibility with other products which will be used at the same time. This means that any dependencies (e.g., python) must be the same as those used by the matching LArSoft distribution. In addition, if the product contains C or Fortran code, the product must be buildable with the same compiler used by the matching LArSoft release.
+-   If the package is built into LArSoft code, it must not have a license that affects the license of the LArSoft code. We must be able to distribute our LArSoft code without having to add their license to our code or change the way we distribute LArSoft code with it in there. For a package that isn’t linked into any part of the main LArSoft distribution, such as an analysis tool, LArSoft still needs to have permission to use the package for research, but isn’t worried about the licensing affecting LArSoft code.
+
