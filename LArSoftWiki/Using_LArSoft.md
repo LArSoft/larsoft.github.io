@@ -38,7 +38,7 @@ Start by reviewing the information on [the overview page for using LArSoft with 
 
 ## Some hints
 
--   [Rerun part of all a job on an output file of that job](Rerun_part_of_all_a_job_on_an_output_file_of_that_job).
+-   [Rerun part or all a job on an output file of that job](Rerun_part_of_all_a_job_on_an_output_file_of_that_job).
 -   Tips on [Interactive GPVM sessions with terminal multiplexers](Interactive_GPVM_sessions_with_terminal_multiplexers)
 -   [Reproducing jobs using the same random number sequences](Reproducing_jobs_using_the_same_random_number_sequences)
 -   [Rerunning a job starting from its output](Rerunning_a_job_starting_from_its_output)
