@@ -20,7 +20,7 @@ These sub-systems are described in more detail below.
 
 # Core Geometry 
 
-The class that describes the physical geometrical volumes is the geo::GeometryCore provider, which is normally accessed within a framework job through the geo::Geometry service.  (For details on the structure of LArSoft services and providers, see [Here][https://larsoft.github.io/LArSoftWiki/Writing_LArSoft_service).) The `geo::GeometryCore` is not experiment-customizable but is intended to represent the physical volumes common to all LAr TPC detectors supported by LArSoft.  It is responsible for:
+The class that describes the physical geometrical volumes is the geo::GeometryCore provider, which is normally accessed within a framework job through the geo::Geometry service.  (For details on the structure of LArSoft services and providers, see [Here](https://larsoft.github.io/LArSoftWiki/Writing_LArSoft_service).) The `geo::GeometryCore` is not experiment-customizable but is intended to represent the physical volumes common to all LAr TPC detectors supported by LArSoft.  It is responsible for:
 
 * managing the ROOT geometry description and its GDML source
 * providing access to the LArSoft description of physical-volume detector components
@@ -84,6 +84,7 @@ Note that the wire readout element `geo::WireGeo` represents a single physical w
 ## Element identifiers
 Each geometry element is identified by a unique combination of numbers according to its inclusion in the geometrical hierarchy.  The identifier of an element is a C++ class that inherits from the identifier of its parent (if one exists).  The hierarchy is shown below.
 ![hierarchy of classes](element_hierarchy.png)
+Figure 1
 
 With this pattern, any interface expecting a certain ID type can also accept arguments of derived types.  For example:
 
