@@ -15,7 +15,9 @@ The existing geometry model is supported by three sub-systems, each with a separ
   - Provides access to view and signal type of planes for wire readouts
   - Provides the “coordinate” of a point corresponding to the nearest wire or pixel
 - An auxiliary geometry (`geo::AuxDetGeometryCore`) that supports geometry elements outside of the cryostats.
+- 
 For jobs that run in art, a geometry configuration writer service can be enabled that will store the current geometry configuration in run records, so that subsequent jobs can check that the geometry used is the same.
+
 These sub-systems are described in more detail below.
 
 # Core Geometry 
@@ -43,7 +45,7 @@ LArSoft assumes that optical detectors are directly contained by cryostats.  Con
 # Readout geometry
  Whereas all TPCs contain cathodes and anodes, the manner in which signals are read from the anodes varies.  Because of this variation in readout approaches, as of LArSoft v10, the readout geometry is separated from and layered on top of the main geometry system.  This allows the readout geometry to still be aware of universal LArTPC geometry concepts while supporting the specific readout approach.
 
-LArSoft supports the abstract `geo::WireReadoutGeom` provider, which is enabled in the art framework as the `geo::WireReadout` service.  Experiments inherit from the `geo::WireReadoutGeom` provider to express wire-readout behavior specific to their detector(s).  Like the main geometry system, readout elements may be iterated through using the interface discussed below [LINK TO “Element iteration”].
+LArSoft supports the abstract `geo::WireReadoutGeom` provider, which is enabled in the art framework as the `geo::WireReadout` service.  Experiments inherit from the `geo::WireReadoutGeom` provider to express wire-readout behavior specific to their detector(s).  Like the main geometry system, readout elements may be iterated through using the interface discussed below in [element_iteration](#element_iteration).
 
 To use the readout geometry in an art job, users should include the following in their job configuration:
 ```
@@ -109,6 +111,7 @@ The identifier system is not closed: a user may wish to inherit from one of the 
 
 N.B. The auxiliary detector system is not included as part of the element identifier hierarchy.
 
+<a id="element_iteration"></a>
 # Element iteration
 
 An important feature of the geometry system is the ability to iterate through the geometry elements, as defined [HERE].  This is done by using the `Iterate<T>` interface provided by `geo::GeometryCore` and `geo::WireReadoutGeom` providers.  For example, to iterate through wire IDs:
