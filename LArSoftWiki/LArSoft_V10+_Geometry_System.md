@@ -21,7 +21,7 @@ For jobs that run in art, a geometry configuration writer service can be enabled
 
 These sub-systems are described in more detail below.
 
-# Core Geometry 
+## Core Geometry 
 
 The class that describes the physical geometrical volumes is the geo::GeometryCore provider, which is normally accessed within a framework job through the geo::Geometry service.  (For details on the structure of LArSoft services and providers, see [Here](https://larsoft.github.io/LArSoftWiki/Writing_LArSoft_service).) The `geo::GeometryCore` is not experiment-customizable but is intended to represent the physical volumes common to all LAr TPC detectors supported by LArSoft.  It is responsible for:
 
@@ -40,10 +40,10 @@ services.Geometry: {
   ... 
 }
 ```
-## Optical geometry
+### Optical geometry
 LArSoft assumes that optical detectors are directly contained by cryostats.  Consequently all optical-geometry information is provided through the `geo::GeometryCore` provider.
 
-# Readout geometry
+## Readout geometry
  Whereas all TPCs contain cathodes and anodes, the manner in which signals are read from the anodes varies.  Because of this variation in readout approaches, as of LArSoft v10, the readout geometry is separated from and layered on top of the main geometry system.  This allows the readout geometry to still be aware of universal LArTPC geometry concepts while supporting the specific readout approach.
 
 LArSoft supports the abstract `geo::WireReadoutGeom` provider, which is enabled in the art framework as the `geo::WireReadout` service.  Experiments inherit from the `geo::WireReadoutGeom` provider to express wire-readout behavior specific to their detector(s).  Like the main geometry system, readout elements may be iterated through using the interface discussed below in [element iteration](#element_iteration).
@@ -59,7 +59,7 @@ services.WireReadout: {
 ```
 LArSoft will soon support the `geo::PixelReadoutGeom` provider for pixel readouts. 
 
-# Auxiliary geometry
+## Auxiliary geometry
 
 As mentioned [HERE](#aux_geo), LArSoft supports an auxiliary geometry system (represented by the  `geo::AuxDetGeometryCore class`) that contains elements not part of the LArTPC cryostats.  When constructing the auxiliary geometry, any elements labeled “volAuxDet” within the GDML file will be represented as `geo::AuxDetGeo` objects and owned by the `geo::AuxDetGeometryCore` instance.  Each of the `geo::AuxDetGeo` objects in turn contain `geo::AuxDetSensitiveGeo` objects, which correspond to volumes within the GDML that are marked sensitive for Geant4’s use.  How these volumes are used is experiment-specific, and users should refer to their experiment’s guidance.  
 
@@ -74,7 +74,7 @@ services.AuxDetGeometry: {
 ```
 Initialization of the auxiliary geometry system is a specialized topic and discussed more fully below in [Writing your own auxiliary geometry initializer](#write_init). 
 
-# Geometry configuration writer
+## Geometry configuration writer
 
 In the context of multi-stage workflow, it is necessary to use the same geometry for each stage.  To help ensure this, there is a dedicated art framework service called `GeometryConfigurationWriter`, which inserts basic metadata about the geometry into each art::Run object.  When encountering a new run, the metadata of the current geometry is checked against any stored metadata from a previous stage.  If an incompatibility is detected, an exception will be thrown by the service, ending the framework job.  To enable this service as part of a framework job, a user should include the following as part of a job configuration:
 
@@ -118,7 +118,7 @@ The identifier system is not closed: a user may wish to inherit from one of the 
 N.B. The auxiliary detector system is not included as part of the element identifier hierarchy.
 
 <a id="element_iteration"></a>
-# Element iteration
+## Element iteration
 
 An important feature of the geometry system is the ability to iterate through the geometry elements, as defined [HERE](#core_geo). This is done by using the `Iterate<T>` interface provided by `geo::GeometryCore` and `geo::WireReadoutGeom` providers.  For example, to iterate through wire IDs:
 
@@ -148,7 +148,7 @@ for (auto const& wireGeo : wireReadoutGeom->Iterate<geo::WireGeo>(geo::CryostatI
 }
 ```
 
-# Iteration order and sorting
+## Iteration order and sorting
 
 The order in which the above iteration occurs depends on the sorting algorithm specified by the user when constructing the geometry system.  This specification happens when (a) explicitly constructing the geometry system in C++ code,  or (b) constructing the geometry through a framework configuration file.
 
@@ -159,11 +159,11 @@ Sorting happens upon construction of the geometry system.  After all geometry el
 In this section we cover how to customize the LArSoft geometry facilities whenever the available ones are insufficient.  Each of the three subsystems have element sorters that can be customized; the auxiliary geometry initialization step itself can be customized; and last, we discuss how to write and visualize your own GDML-based geometry.
 
 <a id="write_aux"></a>
-# Writing your own geometry element sorter
+## Writing your own geometry element sorter
 
 As of LArSoft v10, all elements of the physical, readout, and auxiliary geometry systems are sorted according to user-defined concrete sorter classes.  Each sorter class contains virtual functions that, when overridden, provide the sorting behavior desired for a given level of the geometry hierarchy.  Each sorting algorithm must model the [Compare requirement](https://en.cppreference.com/w/cpp/named_req/Compare) as specified by the C++ standard template library and as used by the [std::sort](https://en.cppreference.com/w/cpp/algorithm/sort) algorithm.  The form of these sorters is shown below for the different geometry systems.  Sibling volumes may not influence the sorting of a given volume’s subvolumes (e.g. sorting the TPCs of one cryostat should not be influenced by a different cryostat).
 
-Physical geometry sorter (standard sorter available)
+#### Physical geometry sorter (standard sorter available)
 
 ```c++
 #include "larcorealg/Geometry/GeoObjectSorter.h"
@@ -178,7 +178,7 @@ private:
 };
 ```
 
-Wire readout sorter (standard sorter available)
+#### Wire readout sorter (standard sorter available)
 
 ```c++
 #include "larcorealg/Geometry/WireReadoutSorter.h"
@@ -193,7 +193,7 @@ private:
 };
 ```
 
-Auxiliary geometry sorter (standard sorter available)
+#### Auxiliary geometry sorter (standard sorter available)
 
 ```c++
 #include "larcorealg/Geometry/AuxDetGeoObjectSorter.h"
@@ -209,7 +209,7 @@ private:
 ```
 
 <a id="write_init"></a>
-# Writing your own auxiliary geometry initializer
+## Writing your own auxiliary geometry initializer
 
 As mentioned above, the auxiliary geometry system is intended to support geometry concepts that are not contained within LArTPC cryostats.  To associate GDML volume names to in-memory element indices, it is possible to create an initializer class that inherits from `geo::AuxDetInitializer.`  Such a class must have the form:
 
@@ -237,7 +237,7 @@ struct geo::AuxDetReadoutInitializers {
 
 In the context of an art framework job, the initializer should be expressed as an art tool, which will then be loaded when the `geo::AuxDetGeometry` service is constructed.
 
-# Writing and visualizing your own geometry
+## Writing and visualizing your own geometry
 
 Refer to: [https://cdcvs.fnal.gov/redmine/projects/larg4/wiki](https://cdcvs.fnal.gov/redmine/projects/larg4/wiki ) 
 
