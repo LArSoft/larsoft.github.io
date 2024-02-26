@@ -70,7 +70,7 @@ services.AuxDetGeometry: {
   ... 
 }
 ```
-Initialization of the auxiliary geometry system is a specialized topic and discussed more fully below in [Writing your own auxiliary geometry_initializer](#write_aux). 
+Initialization of the auxiliary geometry system is a specialized topic and discussed more fully below in [Writing your own auxiliary geometry initializer](#write_init). 
 
 # Geometry configuration writer
 
@@ -202,6 +202,7 @@ class MyAuxDetSorter : public geo::AuxDetGeoObjectSorter {
   };
 ```
 
+<a id="write_init"></a>
 # Writing your own auxiliary geometry initializer
 
 As mentioned above, the auxiliary geometry system is intended to support geometry concepts that are not contained within LArTPC cryostats.  To associate GDML volume names to in-memory element indices, it is possible to create an initializer class that inherits from `geo::AuxDetInitializer.`  Such a class must have the form:
