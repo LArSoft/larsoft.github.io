@@ -49,6 +49,7 @@ LArSoft assumes that optical detectors are directly contained by cryostats.  Con
 LArSoft supports the abstract `geo::WireReadoutGeom` provider, which is enabled in the art framework as the `geo::WireReadout` service.  Experiments inherit from the `geo::WireReadoutGeom` provider to express wire-readout behavior specific to their detector(s).  Like the main geometry system, readout elements may be iterated through using the interface discussed below in [element iteration](#element_iteration).
 
 To use the readout geometry in an art job, users should include the following in their job configuration:
+
 ```
 services.WireReadout: { 
   service_provider: ExperimentSpecificWireReadout
@@ -63,6 +64,7 @@ LArSoft will soon support the `geo::PixelReadoutGeom` provider for pixel readout
 As mentioned [HERE](#aux_geo), LArSoft supports an auxiliary geometry system (represented by the  `geo::AuxDetGeometryCore class`) that contains elements not part of the LArTPC cryostats.  When constructing the auxiliary geometry, any elements labeled “volAuxDet” within the GDML file will be represented as `geo::AuxDetGeo` objects and owned by the `geo::AuxDetGeometryCore` instance.  Each of the `geo::AuxDetGeo` objects in turn contain `geo::AuxDetSensitiveGeo` objects, which correspond to volumes within the GDML that are marked sensitive for Geant4’s use.  How these volumes are used is experiment-specific, and users should refer to their experiment’s guidance.  
 
 As of LArSoft v10, the auxiliary geometry is not automatically loaded with the rest of the main geometry system.  To load it in an art framework job, the following should be part of the job configuration:
+
 ```
 services.AuxDetGeometry: {
   SortingParameters: { tool_type: MyAuxDetSorter ... }
@@ -75,6 +77,7 @@ Initialization of the auxiliary geometry system is a specialized topic and discu
 # Geometry configuration writer
 
 In the context of multi-stage workflow, it is necessary to use the same geometry for each stage.  To help ensure this, there is a dedicated art framework service called `GeometryConfigurationWriter`, which inserts basic metadata about the geometry into each art::Run object.  When encountering a new run, the metadata of the current geometry is checked against any stored metadata from a previous stage.  If an incompatibility is detected, an exception will be thrown by the service, ending the framework job.  To enable this service as part of a framework job, a user should include the following as part of a job configuration:
+
 ```
 services.GeometryConfigurationWriter: {}
 ```
@@ -93,7 +96,7 @@ Each geometry element is identified by a unique combination of numbers according
 
 With this pattern, any interface expecting a certain ID type can also accept arguments of derived types.  For example:
 
-```
+```c++
 // Get TPC 2 from cryostat 1
 geo::TPCGeo const& tpc1 = geom->TPC(geo::TPCID{1, 2});
 
@@ -102,8 +105,8 @@ geo::TPCGeo const& tpc2 = geom->TPC(geo::WireID{1, 2, 3, 4});
 
 // They refer to the same TPC.
 assert(tpc1 == tpc2);
-
 ```
+
 All identifiers are zero-based and numbered compactly.  For example:
 - The first cryostat has an ID of `geo::CryostatID{0}`.
 - The first TPC in the first cryostat has an ID of `geo::TPCID{0, 0}`, where the first number is the index of the first cryostat, and the second number is the index of the first TPC within that cryostat.
@@ -119,7 +122,7 @@ N.B. The auxiliary detector system is not included as part of the element identi
 
 An important feature of the geometry system is the ability to iterate through the geometry elements, as defined [HERE](#core_geo). This is done by using the `Iterate<T>` interface provided by `geo::GeometryCore` and `geo::WireReadoutGeom` providers.  For example, to iterate through wire IDs:
 
-```
+```c++
 // Iterate through all wire IDs in the detector
 for (auto const& wireID : wireReadoutGeom->Iterate<geo::WireID>()) { 
   ...
@@ -133,7 +136,7 @@ for (auto const& wireID : wireReadoutGeom->Iterate<geo::WireID>(geo::CryostatID{
 
 The iteration system is also designed to work seamlessly with geometry elements as well, so that if iteration over the elements themselves were desired, the ID suffix of “Iterate<*ID>”  can be replaced with “Iterate<*Geo>”:
 
-```
+```c++
 // Iterate through all wire objects in the detector
 for (auto const& wireGeo : wireReadoutGeom->Iterate<geo::WireGeo>()) { 
   ...
@@ -161,45 +164,48 @@ In this section we cover how to customize the LArSoft geometry facilities whenev
 As of LArSoft v10, all elements of the physical, readout, and auxiliary geometry systems are sorted according to user-defined concrete sorter classes.  Each sorter class contains virtual functions that, when overridden, provide the sorting behavior desired for a given level of the geometry hierarchy.  Each sorting algorithm must model the [Compare requirement](https://en.cppreference.com/w/cpp/named_req/Compare) as specified by the C++ standard template library and as used by the [std::sort](https://en.cppreference.com/w/cpp/algorithm/sort) algorithm.  The form of these sorters is shown below for the different geometry systems.  Sibling volumes may not influence the sorting of a given volume’s subvolumes (e.g. sorting the TPCs of one cryostat should not be influenced by a different cryostat).
 
 Physical geometry sorter (standard sorter available)
-```
+
+```c++
 #include "larcorealg/Geometry/GeoObjectSorter.h"
 
 class MyGeoObjectSorter : public geo::GeoObjectSorter {
-  public:
-    explicit MyGeoObjectSorter(fhicl::ParameterSet const&);
-  private:
-    bool compareCryostats(CryostatGeo const& c1, CryostatGeo const& c2) const override;
-    bool compareTPCs(TPCGeo const& t1, TPCGeo const& t2) const override;
-    bool compareOpDets(OpDetGeo const& od1, OpDetGeo const& od2) const override; // optional
-  };
+public:
+  explicit MyGeoObjectSorter(fhicl::ParameterSet const&);
+private:
+  bool compareCryostats(CryostatGeo const& c1, CryostatGeo const& c2) const override;
+  bool compareTPCs(TPCGeo const& t1, TPCGeo const& t2) const override;
+  bool compareOpDets(OpDetGeo const& od1, OpDetGeo const& od2) const override; // optional
+};
 ```
 
 Wire readout sorter (standard sorter available)
-```
+
+```c++
 #include "larcorealg/Geometry/WireReadoutSorter.h"
 
 class MyWireReadoutSorter : public geo::WireReadoutSorter {
-  public:
-    explicit MyWireReadoutSorter(fhicl::ParameterSet const&);
-  private:
-    // comparePlanes not currently supported
-    // bool comparePlanes(PlaneGeo const& p1, PlaneGeo const& p2) const override;
-    bool compareWires(WireGeo const& w1, WireGeo const& w2) const override;
-  };
+public:
+  explicit MyWireReadoutSorter(fhicl::ParameterSet const&);
+private:
+  // comparePlanes not currently supported
+  // bool comparePlanes(PlaneGeo const& p1, PlaneGeo const& p2) const override;
+  bool compareWires(WireGeo const& w1, WireGeo const& w2) const override;
+};
 ```
 
 Auxiliary geometry sorter (standard sorter available)
-```
+
+```c++
 #include "larcorealg/Geometry/AuxDetGeoObjectSorter.h"
 
 class MyAuxDetSorter : public geo::AuxDetGeoObjectSorter {
-  public:
-    explicit MyAuxDetSorter(fhicl::ParameterSet const&);
-  private:
-    bool compareAuxDets(AuxDetGeo const& ad1, AuxDetGeo const& ad2) const override;
-    bool compareAuxDetSensitives(AuxDetSensitiveGeo const& ad1,
-                                 AuxDetSensitiveGeo const& ad2) const override;
-  };
+public:
+  explicit MyAuxDetSorter(fhicl::ParameterSet const&);
+private:
+  bool compareAuxDets(AuxDetGeo const& ad1, AuxDetGeo const& ad2) const override;
+  bool compareAuxDetSensitives(AuxDetSensitiveGeo const& ad1,
+                               AuxDetSensitiveGeo const& ad2) const override;
+};
 ```
 
 <a id="write_init"></a>
@@ -207,23 +213,25 @@ class MyAuxDetSorter : public geo::AuxDetGeoObjectSorter {
 
 As mentioned above, the auxiliary geometry system is intended to support geometry concepts that are not contained within LArTPC cryostats.  To associate GDML volume names to in-memory element indices, it is possible to create an initializer class that inherits from `geo::AuxDetInitializer.`  Such a class must have the form:
 
-```
+```c++
 #include "larcorealg/Geometry/AuxDetReadoutGeom.h"
 
 class MyAuxDetInitializer : public geo::AuxDetInitializer {
-    geo::AuxDetReadoutInitializers 
-    initialize(std::vector<AuxDetGeo> const& ads) const override;
+  geo::AuxDetReadoutInitializers 
+  initialize(std::vector<AuxDetGeo> const& ads) const override;
 };
+```
 
 where
 
+```c++
 struct geo::AuxDetReadoutInitializers {
-    std::map<std::size_t, std::string> ADGeoToName; ///< map the AuxDetGeo index to the name                                                                                                                                                                                   
-    std::map<std::string, std::size_t> NameToADGeo; ///< map the names to the AuxDetGeo index                                                                                                                                                                                  
-    std::map<std::size_t, std::vector<chanAndSV>>
-      ADGeoToChannelAndSV; ///< map the AuxDetGeo index to a vector of pairs corresponding                                                                                                                                                                                     
-                           ///< to the channel and AuxDetSensitiveGeo index                                                                                                                                                                                                    
-  };
+  std::map<std::size_t, std::string> ADGeoToName; ///< map the AuxDetGeo index to the name
+  std::map<std::string, std::size_t> NameToADGeo; ///< map the names to the AuxDetGeo index
+  std::map<std::size_t, std::vector<chanAndSV>>
+      ADGeoToChannelAndSV; ///< map the AuxDetGeo index to a vector of pairs corresponding
+                           ///< to the channel and AuxDetSensitiveGeo index
+};
 ```
 
 
@@ -243,7 +251,8 @@ The ROOT binding for GDML is integrated within the ROOT framework. Information o
 For a simple example, set up a ROOT installation, taking special care of using the —enable-gdml option when compiling. You may want to example ROOT’s web catalog on how to load a gdml file using the TGeoManager class: [https://root.cern.ch/doc/master/classTGeoManager.html](https://root.cern.ch/doc/master/classTGeoManager.html)
 
 The simplest way is:
-```
+
+```c++
 { 
   gSystem->Load("libGeom"); 
   gSystem->Load("libGdml");   
