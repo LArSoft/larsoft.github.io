@@ -14,8 +14,9 @@ The existing geometry model is supported by three sub-systems, each with a separ
   - maps logical readout channels to and from wires or pixels
   - Provides access to view and signal type of planes for wire readouts
   - Provides the “coordinate” of a point corresponding to the nearest wire or pixel
+<a id="aux_geo"></a>
 - An auxiliary geometry (`geo::AuxDetGeometryCore`) that supports geometry elements outside of the cryostats.
-- 
+  
 For jobs that run in art, a geometry configuration writer service can be enabled that will store the current geometry configuration in run records, so that subsequent jobs can check that the geometry used is the same.
 
 These sub-systems are described in more detail below.
@@ -59,7 +60,7 @@ LArSoft will soon support the `geo::PixelReadoutGeom` provider for pixel readout
 
 # Auxiliary geometry
 
-As mentioned [HERE], LArSoft supports an auxiliary geometry system (represented by the  `geo::AuxDetGeometryCore class`) that contains elements not part of the LArTPC cryostats.  When constructing the auxiliary geometry, any elements labeled “volAuxDet” within the GDML file will be represented as `geo::AuxDetGeo` objects and owned by the `geo::AuxDetGeometryCore` instance.  Each of the `geo::AuxDetGeo` objects in turn contain `geo::AuxDetSensitiveGeo` objects, which correspond to volumes within the GDML that are marked sensitive for Geant4’s use.  How these volumes are used is experiment-specific, and users should refer to their experiment’s guidance.  
+As mentioned [HERE](#aux_geo), LArSoft supports an auxiliary geometry system (represented by the  `geo::AuxDetGeometryCore class`) that contains elements not part of the LArTPC cryostats.  When constructing the auxiliary geometry, any elements labeled “volAuxDet” within the GDML file will be represented as `geo::AuxDetGeo` objects and owned by the `geo::AuxDetGeometryCore` instance.  Each of the `geo::AuxDetGeo` objects in turn contain `geo::AuxDetSensitiveGeo` objects, which correspond to volumes within the GDML that are marked sensitive for Geant4’s use.  How these volumes are used is experiment-specific, and users should refer to their experiment’s guidance.  
 
 As of LArSoft v10, the auxiliary geometry is not automatically loaded with the rest of the main geometry system.  To load it in an art framework job, the following should be part of the job configuration:
 ```
@@ -69,7 +70,7 @@ services.AuxDetGeometry: {
   ... 
 }
 ```
-Initialization of the auxiliary geometry system is a specialized topic and discussed more fully below [LINK TO “Writing your own auxiliary geometry initializer”].
+Initialization of the auxiliary geometry system is a specialized topic and discussed more fully below in [Writing_your_own_auxiliary_geometry_initializer](#write_aux). 
 
 # Geometry configuration writer
 
@@ -81,12 +82,12 @@ services.GeometryConfigurationWriter: {}
 
 LArSoft supports the `geo::CryostatGeo, geo::TPCGeo, and geo::OpDetGeo` classes (representing physical geometry characteristics), and the `geo::PlaneGeo` and `geo::WireGeo` classes (representing readout elements).  (Additional elements will become available when pixel readouts are fully implemented.) Although the exact interface depends on the class, each class provides position and physical-extent information as well as an identifier to disambiguate one instance from another.  In addition, the geometry system provides a reverse lookup mapping so that, given a particular point in 3D space, the corresponding (or closest) geometry element can be inspected.
 
-Note that the wire readout element `geo::WireGeo` represents a single physical wire placement in a single TPC. Cases where multiple physical wires are connected to the same logical readout channel are handled in the mapping between wires and logical readout channels. Cases where one physical wire is split between two logical readout channels also occur. These are currently handled by creating two logical wires, one for each logical readout channel. See [HERE “Designing a geometry to fit in LArSoft”] for more details.
+Note that the wire readout element `geo::WireGeo` represents a single physical wire placement in a single TPC. Cases where multiple physical wires are connected to the same logical readout channel are handled in the mapping between wires and logical readout channels. Cases where one physical wire is split between two logical readout channels also occur. These are currently handled by creating two logical wires, one for each logical readout channel.
 
 ## Element identifiers
 Each geometry element is identified by a unique combination of numbers according to its inclusion in the geometrical hierarchy.  The identifier of an element is a C++ class that inherits from the identifier of its parent (if one exists).  The hierarchy is shown below.
 ![hierarchy of classes](element_hierarchy.png)
-Figure 1
+<center>Figure 1</center>
 
 With this pattern, any interface expecting a certain ID type can also accept arguments of derived types.  For example:
 
@@ -151,6 +152,7 @@ Sorting happens upon construction of the geometry system.  After all geometry el
 
 In this section we cover how to customize the LArSoft geometry facilities whenever the available ones are insufficient.  Each of the three subsystems have element sorters that can be customized; the auxiliary geometry initialization step itself can be customized; and last, we discuss how to write and visualize your own GDML-based geometry.
 
+<a id="write_aux"></a>
 # Writing your own geometry element sorter
 
 As of LArSoft v10, all elements of the physical, readout, and auxiliary geometry systems are sorted according to user-defined concrete sorter classes.  Each sorter class contains virtual functions that, when overridden, provide the sorting behavior desired for a given level of the geometry hierarchy.  Each sorting algorithm must model the Compare requirement as specified by the C++ standard template library and as used by the `std::sort` algorithm.  The form of these sorters is shown below for the different geometry systems.  Sibling volumes may not influence the sorting of a given volume’s subvolumes (e.g. sorting the TPCs of one cryostat should not be influenced by a different cryostat).
