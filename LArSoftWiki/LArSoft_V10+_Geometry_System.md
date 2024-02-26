@@ -46,7 +46,7 @@ LArSoft assumes that optical detectors are directly contained by cryostats.  Con
 # Readout geometry
  Whereas all TPCs contain cathodes and anodes, the manner in which signals are read from the anodes varies.  Because of this variation in readout approaches, as of LArSoft v10, the readout geometry is separated from and layered on top of the main geometry system.  This allows the readout geometry to still be aware of universal LArTPC geometry concepts while supporting the specific readout approach.
 
-LArSoft supports the abstract `geo::WireReadoutGeom` provider, which is enabled in the art framework as the `geo::WireReadout` service.  Experiments inherit from the `geo::WireReadoutGeom` provider to express wire-readout behavior specific to their detector(s).  Like the main geometry system, readout elements may be iterated through using the interface discussed below in [element_iteration](#element_iteration).
+LArSoft supports the abstract `geo::WireReadoutGeom` provider, which is enabled in the art framework as the `geo::WireReadout` service.  Experiments inherit from the `geo::WireReadoutGeom` provider to express wire-readout behavior specific to their detector(s).  Like the main geometry system, readout elements may be iterated through using the interface discussed below in [element iteration](#element_iteration).
 
 To use the readout geometry in an art job, users should include the following in their job configuration:
 ```
@@ -70,7 +70,7 @@ services.AuxDetGeometry: {
   ... 
 }
 ```
-Initialization of the auxiliary geometry system is a specialized topic and discussed more fully below in [Writing_your_own_auxiliary_geometry_initializer](#write_aux). 
+Initialization of the auxiliary geometry system is a specialized topic and discussed more fully below in [Writing your own auxiliary geometry_initializer](#write_aux). 
 
 # Geometry configuration writer
 
@@ -78,6 +78,8 @@ In the context of multi-stage workflow, it is necessary to use the same geometry
 ```
 services.GeometryConfigurationWriter: {}
 ```
+
+<a id="core_geo"></a>
 # 2. Core Geometry elements
 
 LArSoft supports the `geo::CryostatGeo, geo::TPCGeo, and geo::OpDetGeo` classes (representing physical geometry characteristics), and the `geo::PlaneGeo` and `geo::WireGeo` classes (representing readout elements).  (Additional elements will become available when pixel readouts are fully implemented.) Although the exact interface depends on the class, each class provides position and physical-extent information as well as an identifier to disambiguate one instance from another.  In addition, the geometry system provides a reverse lookup mapping so that, given a particular point in 3D space, the corresponding (or closest) geometry element can be inspected.
@@ -115,7 +117,7 @@ N.B. The auxiliary detector system is not included as part of the element identi
 <a id="element_iteration"></a>
 # Element iteration
 
-An important feature of the geometry system is the ability to iterate through the geometry elements, as defined [HERE].  This is done by using the `Iterate<T>` interface provided by `geo::GeometryCore` and `geo::WireReadoutGeom` providers.  For example, to iterate through wire IDs:
+An important feature of the geometry system is the ability to iterate through the geometry elements, as defined [HERE](#core_geo). This is done by using the `Iterate<T>` interface provided by `geo::GeometryCore` and `geo::WireReadoutGeom` providers.  For example, to iterate through wire IDs:
 
 ```
 // Iterate through all wire IDs in the detector
@@ -148,6 +150,7 @@ for (auto const& wireGeo : wireReadoutGeom->Iterate<geo::WireGeo>(geo::CryostatI
 The order in which the above iteration occurs depends on the sorting algorithm specified by the user when constructing the geometry system.  This specification happens when (a) explicitly constructing the geometry system in C++ code,  or (b) constructing the geometry through a framework configuration file.
 
 Sorting happens upon construction of the geometry system.  After all geometry elements have been loaded into memory, the geometry tree is traversed downward from the top-most volume, sorting each set of elements as they are visited.  For example, all cryostats are sorted first, then all TPCs contained by each cryostat are sorted, etc.  LArSoft provides standard, default sorters for each of its geometry systems.  Those interested in creating and enabling their own sorting algorithms should refer to the section below on writing your own geometry element sorter.
+
 # 3. Customizing a geometry to fit in LArSoft
 
 In this section we cover how to customize the LArSoft geometry facilities whenever the available ones are insufficient.  Each of the three subsystems have element sorters that can be customized; the auxiliary geometry initialization step itself can be customized; and last, we discuss how to write and visualize your own GDML-based geometry.
@@ -155,7 +158,7 @@ In this section we cover how to customize the LArSoft geometry facilities whenev
 <a id="write_aux"></a>
 # Writing your own geometry element sorter
 
-As of LArSoft v10, all elements of the physical, readout, and auxiliary geometry systems are sorted according to user-defined concrete sorter classes.  Each sorter class contains virtual functions that, when overridden, provide the sorting behavior desired for a given level of the geometry hierarchy.  Each sorting algorithm must model the Compare requirement as specified by the C++ standard template library and as used by the `std::sort` algorithm.  The form of these sorters is shown below for the different geometry systems.  Sibling volumes may not influence the sorting of a given volume’s subvolumes (e.g. sorting the TPCs of one cryostat should not be influenced by a different cryostat).
+As of LArSoft v10, all elements of the physical, readout, and auxiliary geometry systems are sorted according to user-defined concrete sorter classes.  Each sorter class contains virtual functions that, when overridden, provide the sorting behavior desired for a given level of the geometry hierarchy.  Each sorting algorithm must model the [Compare requirement](https://en.cppreference.com/w/cpp/named_req/Compare) as specified by the C++ standard template library and as used by the [std::sort](https://en.cppreference.com/w/cpp/algorithm/sort) algorithm.  The form of these sorters is shown below for the different geometry systems.  Sibling volumes may not influence the sorting of a given volume’s subvolumes (e.g. sorting the TPCs of one cryostat should not be influenced by a different cryostat).
 
 Physical geometry sorter (standard sorter available)
 ```
@@ -199,7 +202,7 @@ class MyAuxDetSorter : public geo::AuxDetGeoObjectSorter {
   };
 ```
 
-Writing your own auxiliary geometry initializer
+# Writing your own auxiliary geometry initializer
 
 As mentioned above, the auxiliary geometry system is intended to support geometry concepts that are not contained within LArTPC cryostats.  To associate GDML volume names to in-memory element indices, it is possible to create an initializer class that inherits from `geo::AuxDetInitializer.`  Such a class must have the form:
 
@@ -225,7 +228,7 @@ struct geo::AuxDetReadoutInitializers {
 
 In the context of an art framework job, the initializer should be expressed as an art tool, which will then be loaded when the `geo::AuxDetGeometry` service is constructed.
 
-Writing and visualizing your own geometry
+# Writing and visualizing your own geometry
 
 Refer to: [https://cdcvs.fnal.gov/redmine/projects/larg4/wiki](https://cdcvs.fnal.gov/redmine/projects/larg4/wiki ) 
 
@@ -254,7 +257,7 @@ For a given detector, experiments maintain their detector-geometry description i
 
 The numbering part of the string, such as `volTPC+instance number`, is arbitrary, but strings have to be unique. The Geometry part of it must follow the convention outlined in the description of Figure 1. More information is under development at [Creating_GDML](Creating_GDML).
 
-More than one wire might be in the same TPC readout channel when TPCs share anode plane assemblies (APAs). For experiments like MicroBooNE, whose TPCs don’t share APAs, each channel is assigned to a single wire. Similarly, ProtoDUNE dual-phase has multiple TPCs, but none with shared APAs. ProtoDUNE single-phase, however, has multiple TPCs that do share APAs, and therefore two physical wires for each logical readout channel for wires in the stereo induction planes. The code cannot in general assume that one TPC readout channel maps to a single wire. [used to assume that each wire was on one TPC readout channel, but that assumption is no longer valid.]
+More than one wire might be in the same TPC readout channel when TPCs share anode plane assemblies (APAs). For experiments like MicroBooNE, whose TPCs don’t share APAs, each channel is assigned to a single wire. Similarly, ProtoDUNE dual-phase has multiple TPCs, but none with shared APAs. ProtoDUNE single-phase, however, has multiple TPCs that do share APAs, and therefore two physical wires for each logical readout channel for wires in the stereo induction planes. The code cannot in general assume that one TPC readout channel maps to a single wire.
 
 The abstraction of drift direction can be framed in a broader context. The drift direction is from the TPC active volume to the wire planes ⇒ owned by the TPC, defined by the geometry source. The coordinate measured by a wire plane (“wire coordinate”, wc) is orthogonal to the wires ⇒ owned by the plane, defined by the geometry sorting. Plane “width” and “depth” directions follow the plane frame sides ⇒ owned by the plane, defined by geometry source + convention. We still make some basic assumptions:
 - y is “up” (where cosmic rays pour from)
