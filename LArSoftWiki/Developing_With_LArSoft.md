@@ -53,9 +53,10 @@ Whether you are writing new code or modifying existing code, please follow the g
 3.  [Process for contributing code to LArSoft](Process_for_contributing_code_to_LArSoft)
 4.  [Guidelines on writing (and using) services in LArSoft](Writing_LArSoft_service) *<span class="general in"></span>*
 5.  [Guidelines on writing (and using) algorithms in LArSoft](Writing_LArSoft_algorithms) *<span class="algorithm any to specific not"></span>*
-6.  [Guidelines on using the geometry](Guidelines_on_using_the_geometry)
-7.  [Error handling policy ](LArSoft_Error_Handling)
-8.  [Examples!](LArSoft_examples)
+6.  [Guidelines on using the geometry V10+](https://larsoft.github.io/LArSoftWiki/Guidelines_on_using_the_geometry_v10)
+7.  [Guidelines on using the geometry preV10](Guidelines_on_using_the_geometry)
+8.  [Error handling policy ](LArSoft_Error_Handling)
+9.  [Examples!](LArSoft_examples)
 10. [Using git repositories](Using_git_repositories)
 
 ------------------------------------------------------------------------
