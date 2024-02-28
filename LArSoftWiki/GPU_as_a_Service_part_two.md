@@ -128,4 +128,4 @@ The last section in `config.pbtxt` specifies how many instances of the model to 
 
 The tutorial described above provides a minimal example configuration for setting up a model on the inference server. For more configuration options and information on other supported backends and datatypes, please refer to the [Nvidia Triton inference server documentation](https://github.com/triton-inference-server/server/blob/main/README.md#documentation)
 
-### In [GPU as a Service Part 3](GPU as a Service part three), we describe how to test the client and model configuration locally, or via a dedicated test server at Fermilab.
+### In [GPU as a Service Part 3](GPU_as_a_Service_part_three), we describe how to test the client and model configuration locally, or via a dedicated test server at Fermilab.
