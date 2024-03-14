@@ -18,9 +18,9 @@ As the unit of a modular system, an algorithm should:
 
 -   perform one single task
 -   delegate subtasks to other algorithms
--   minimize its dependencies (see in particular our [factorization guidelines](Architecture_revision#Factorization))
-
-Independent algorithms are more portable and easy to test. Small, independent algorithms also form a strong foundation for solving complex problems. Some criteria for developing well-factorized and portable code are collected in our [architecture guidelines](Data_products_architecture_and_design).
+-   minimize its dependencies
+  
+Independent algorithms are more portable and easy to test. Small, independent algorithms also form a strong foundation for solving complex problems. Some criteria for developing well-factorized and portable code are collected in our [data architecture](https://larsoft.github.io/LArSoftWiki/Data_products_architecture_and_design).
 
 Additional requirements for a well-written LArSoft algorithm include:
 
@@ -28,8 +28,8 @@ Additional requirements for a well-written LArSoft algorithm include:
 -   delivers standard LArSoft data products as output
 -   has well-documented interfaces
 -   has comments where-ever the code is less than trivial
--   follows good coding practices and [LArSoft guidelines](The_rules_and_guidelines)
--   follows the LArSoft [interoperability recommendations](Architecture_revision#Interoperability)
+-   follows good design and coding practices as described in [Designing in LArSoft](https://larsoft.org/important-concepts-in-larsoft/design/)
+-   follows the LArSoft interoperability recommendations
 
 ### Developing a new algorithm
 
