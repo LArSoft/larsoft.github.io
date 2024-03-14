@@ -31,6 +31,8 @@ The command below is used to encode the webhook secret for the GITHUB_WEBOOK_TOK
 
 ## The GitHub webhook processing cgi script website
 
+Please note that a VPN connection to Fermilab is required to access many of these links.
+
 The github_webhook script receives a JSON stream from GitHub, validates it, extracts the repo and pull request number, and triggers a Jenkins job with that info as parameters.
 
 -   The url of the [cgi scipt](https://scd.ci.fnal.gov/cgi-bin/github_webhook)
