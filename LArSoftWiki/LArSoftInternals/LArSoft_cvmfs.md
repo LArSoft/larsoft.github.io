@@ -5,8 +5,6 @@
 
 ## General instructions for managing software
 
--   login as cvmfslarsoft@oasiscfs
-    -   you will be in the /home/cvmfslarsoft directory
 -   FIFE instructions
     -   copied from [fife:Introduction_to_FIFE_and_Component_Services#OASISCVMFS-process-for-VOs-that-have-Fermilab-as-a-host-institution](https://cdcvs.fnal.gov/redmine/projects/fife/wiki/Introduction_to_FIFE_and_Component_Services#OASISCVMFS-process-for-VOs-that-have-Fermilab-as-a-host-institution)
     -   The files for the repository are found in /cvmfs/larsoft.opensciencegrid.org.
@@ -22,6 +20,8 @@
 
 ## Install a larsoft release
 
+-   login as cvmfslarsoft@oasiscfs
+    -   you will be in the /home/cvmfslarsoft directory
 -   The product directory is /cvmfs/larsoft.opensciencegrid.org/products
 -   To install any larsoft release:
         cvmfs_server transaction larsoft.opensciencegrid.org
