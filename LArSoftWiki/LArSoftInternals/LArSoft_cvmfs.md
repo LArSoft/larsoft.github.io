@@ -20,7 +20,7 @@
 
 ## Install a larsoft release
 
--   login as cvmfslarsoft@oasiscfs
+-   login as cvmfslarsoft@oasiscfs.fnal.gov
     -   you will be in the /home/cvmfslarsoft directory
 -   The product directory is /cvmfs/larsoft.opensciencegrid.org/products
 -   To install any larsoft release:
