@@ -58,6 +58,12 @@ Start by reviewing the information on [the overview page for using LArSoft with 
     -   [Part Two: Setting up the model on the Triton inference server](GPU_as_a_Service_part_two)
     -   [Part Three: Testing the Triton client and model configuration with an inference server](GPU_as_a_Service_part_three)
 
+## Machine Learning in LArSoft
+
+- [NuGraph2 GNN event reconstruction integration](https://larsoft.github.io/LArSoftWiki/NuGraph2_integration)
+- [CNN-based neutrino classification using CVN Integration in LArSoft](https://larsoft.github.io/LArSoftWiki/CVN_integration))
+- [Waveform region-of-interest finding for supernova event triggering integration](https://larsoft.github.io/LArSoftWiki/Using_raw_waveform)
+
 # How-to
 
 -   [ Getting started with an analysis task: an example ](AnalysisExample)
