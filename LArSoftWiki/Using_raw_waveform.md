@@ -1,4 +1,5 @@
-﻿Using the 1DCNN raw waveform algorithm 
+# Using the 1DCNN raw waveform algorithm 
+ 
 For general information, see [Waveform region-of-interest finding for supernova event triggering](https://larsoft.org/waveform-region/) on larsoft.org.
 
 To see how you can use the 1DCNN ROI finder in your LarSoft module, let us start by looking at what needs to be in the fhicl configuration file. First of all, you will need a section specifying parameters related to the model. In the example below, we have three sections, one for each view – U, V, & Z, since there are separate models for each view:
