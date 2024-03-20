@@ -13,10 +13,9 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
-| **v09_72_00_01** | **v09_29_01** | 03/11/2024 |  | ICARUS production | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_72_00_01) |
 | v09_87_00 | v09_35_01 | 03/20/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_87_00) |
-| v10_00_00rc1 | v10_00_00rc1 | 03/07/2024 | **RELEASE CANDIDATE**  | refactoring LArSoft geometry | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_00_00rc1) |
-| v09_86_00 | v09_35_00 | 03/07/2024 |  | First release with art 3.14.04 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_86_00) |
+| **v09_72_00_01** | **v09_29_01** | 03/11/2024 |  | ICARUS production | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_72_00_01) |
+| v10_00_00rc1 | v10_00_00rc1 | 03/07/2024 | **RELEASE CANDIDATE**  | refactoring LArSoft geometry | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_00_00rc1) || v09_86_00 | v09_35_00 | 03/07/2024 |  | First release with art 3.14.04 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_86_00) |
 | v09_85_00 | v09_34_05 | 03/05/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_85_00) |
 | v09_84_00 | v09_34_05 | 02/28/2024 |  | build with art 3.12.01 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_84_00) |
 | v09_83_01 | v09_34_04 | 02/12/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_83_01) |
