@@ -1,4 +1,7 @@
 # NuGraph2 Integration
+
+For general information, please examine [NuGraph2 GNN event reconstruction](https://larsoft.org/nugraph-gnn/)
+
 NuGraph2 model has been integrated in LArSoft release:
 - [v09_83_01](https://github.com/LArSoft/larsoft/releases/tag/v09_83_01)
 - It’s located in the larrecodnn/NuGraph package
