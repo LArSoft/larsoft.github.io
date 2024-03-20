@@ -8,16 +8,16 @@ Experiment-specific code, such as fcl and geometry (GDML) files, field, are in t
 <td>*Product /<br />
 repository<br />
 name*</td>
-<td><strong>Repository url (all in Redmine)</strong></td>
+<td><strong>Repository url </strong></td>
 <td>lxr link<br />
 (not yet avail)</td>
-<td>Redmine browser</td>
+<td>browse</td>
 </tr>
 <tr class="even">
 <td>dunetpc</td>
 <td>ssh://p-dunetpc@cdcvs.fnal.gov/cvs/projects/dunetpc</td>
 <td>—</td>
-<td><a href="https://cdcvs.fnal.gov/redmine/projects/dunetpc/repository">redmine</a></td>
+<td><a href="https://github.com/DUNE/">github</a></td>
 </tr>
 <tr class="odd">
 <td>uboonecode</td>
@@ -41,7 +41,7 @@ name*</td>
 <td>icaruscode</td>
 <td>ssh://p-icaruscode@cdcvs.fnal.gov/cvs/projects/icaruscode</td>
 <td>—</td>
-<td><a href="https://cdcvs.fnal.gov/redmine/projects/icaruscode/repository">redmine</a></td>
+<td><a href="https://github.com/SBNSoftware">github</a></td>
 </tr>
 </tbody>
 </table>
