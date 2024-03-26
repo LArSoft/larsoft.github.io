@@ -26,8 +26,8 @@ To design LArSoft code, it's important to understand the core LArSoft suite and 
 ### LArSoft packages and repositories
 
 -   [LArSoft repositories packages and dependencies](LArSoft_repositories_packages_and_dependencies)
--   [LArSoft_V10+_Geometry_System](LArSoft_V10+_Geometry_System)
--   [PreV10_Geometry_Package](Geometry_Package)
+-   [LArSoft V10+ Geometry System](LArSoft_V10+_Geometry_System)
+-   [PreV10 Geometry Package](Geometry_Package)
 -   [LArSoft art-independent code and repositories](LArSoft_art-independent_code_and_repositories)
 
 ### The *art* framework
