@@ -2,12 +2,12 @@
 
 
 
-LArSoft is not a stand-alone product. It is intended to be used as part of an experiment, so the set-up instructions for the experiment you are working with is the best place to start. To find a specific project, first check the [Quick Links](Quick_Links), then look on your experiment's pages in redmine for instructions on installing LArSoft software. (Go to: https://cdcvs.fnal.gov/redmine/projects and search for your experiment.)
+LArSoft is not a stand-alone product. It is intended to be used as part of an experiment, so the set-up instructions for the experiment you are working with is the best place to start. To find a specific project, first check the [Quick Links](Quick_Links), then look on your experiment's wiki pages for instructions on installing LArSoft software. (If in redmine, go to: https://cdcvs.fnal.gov/redmine/projects and search for your experiment. If on github, do a google search for your experiment getting started pages.)
 
 The following is provided just to provide the general information that can be adapted by each experiment.  
 These instructions are for working with larsoft release v1_00_00 and later, and mrb v1_00_00 and later. The instructions assume that LArSoft is installed locally using the download and installation instructions linked from the download page, see [Download instructions](https://larsoft.github.io/LArSoftWiki/Getting_LArSoft). Changes needed for off-site installations will be noted. This documentation is evolving as we receive feedback. Please open an issue ticket if you have suggestions or complaints.
 
-Please note that all Fermilab redmine repository names are lower case. See the [LArSoft product list](https://larsoft.github.io/LArSoftWiki/LArSoft_repositories_packages_and_dependencies).
+Please note that all Fermilab repository names are lower case. See the [LArSoft product list](https://larsoft.github.io/LArSoftWiki/LArSoft_repositories_packages_and_dependencies).
 
 See [The developer environment](The_developer_environment) page for important information about the git branching model that should be used when developing LArSoft code.  
 Detailed information about mrb is available from the [mrb reference guide](https://cdcvs.fnal.gov/redmine/projects/mrb/wiki/MrbRefereceGuide). Information about UPS is available from [getting started using UPS](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/Getting_Started_Using_UPS)
@@ -70,8 +70,7 @@ If off-site, the appropriate script should be modified to reflect the locations 
 ### Build uboonecode or dunetpc
 
 -   The instructions in this section are necessarily generic. You may wish to check the instructions for your experiment.
-    -   [DUNE](https://cdcvs.fnal.gov/redmine/projects/dunetpc/wiki/_Tutorial_)
-    -   [MicroBooNE](https://cdcvs.fnal.gov/redmine/projects/uboonecode/wiki/Uboone_guide)
+-   See the [Quick Links page](https://larsoft.github.io/LArSoftWiki/Quick_Links)
 -   Note that you must use an experiment-specific setup script for the initial setup (not including the setup of larsoft).
 
 >
@@ -192,7 +191,7 @@ If off-site, the appropriate script should be modified to reflect the locations 
 
 ## Initial setup
 
-The first time you start a mrb project, you'll need to define various things. (The setup for an existing working area is slightly different, and is described [here](Quick-start_guide_to_using_and_developing_LArSoft_code_#Setup-work-environment-for-an-existing-working-area-from-a-fresh-login)
+The first time you start a mrb project, you'll need to define various things. (The setup for an existing working area is slightly different and is described below.)
 
 There are experiment-specific setup scripts to perform setup. For example.  
 >
@@ -456,7 +455,7 @@ If you need to pull everything (LArSoft plus all external packages) in order to 
 > - This will pull the relocatable ups products and install them in <product_dir> where you should specify the full path to the product directory.  
 > - The prof distribution requires about 20G  
 > - Typing ./pullProducts without any options will echo the usage guide.  
-You can find detailed instructions for downloading and installing binary and source distributions [ on the download page ]( Download instructions ).
+You can find detailed instructions for downloading and installing binary and source distributions [ on the download page ](https://larsoft.github.io/LArSoftWiki/Getting_LArSoft).
 
 # Building the larsoft “suite”
 
