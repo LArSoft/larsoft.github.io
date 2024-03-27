@@ -6,7 +6,9 @@ Quick Start Guides - experiment specific
 
 [DUNE](https://dune.github.io/computing-basics/04-intro-art-larsoft/index.html)
 
+<!--old info on protoDUNE and no one is using
 [ProtoDUNE—DUNE 35-t](https://cdcvs.fnal.gov/redmine/projects/35ton/wiki/Getting_Started_Examples)
+-->
 
 [SBND](https://sbnsoftware.github.io/AnalysisInfrastructure/how-to-develop) 
 [redmine SBND info](https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/How_to_setup_your_directory_and_launch_your_first_job)
@@ -33,4 +35,4 @@ Quick Start Guides - experiment specific
 
 [Presentations in Indico](https://indico.fnal.gov/categoryDisplay.py?categId=233)
 
-[LArSoft documentation from the code (Doxygen)](https://code-doc.larsoft.org/doc/latest/html/index.html)
+[LArSoft documentation from the code (Doxygen)](https://code-doc.larsoft.org/docs/latest/html/index.html)
