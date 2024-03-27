@@ -17,7 +17,7 @@ Experiment-specific code, such as fcl and geometry (GDML) files, field, are in t
 <tr class="odd">
 <td>uboone</td>
 <td>ssh://p-uboonecode@cdcvs.fnal.gov/cvs/projects/uboonecode</td>
-<td><a href="https://cdcvs.fnal.gov/redmine/projects/uboonecode/repository">redmine</a></td>
+<td><a href="https://cdcvs.fnal.gov/redmine/projects/uboonecode">redmine</a></td>
 </tr>
 <tr class="even">
 <td>lariat</td>
@@ -25,9 +25,9 @@ Experiment-specific code, such as fcl and geometry (GDML) files, field, are in t
 <td><a href="https://cdcvs.fnal.gov/redmine/projects/lardbt/repository">redmine</a></td>
 </tr>
 <tr class="odd">
-<td>lar1nd</td>
-<td>ssh://p-lar1ndcode@cdcvs.fnal.gov/cvs/projects/lar1ndcode</td>
-<td><a href="https://cdcvs.fnal.gov/redmine/projects/lar1ndcode/repository">redmine</a></td>
+<td>sbnd</td>
+<td>ssh://p-spndcode@cdcvs.fnal.gov/cvs/projects/spndcode</td>
+<td><a href="https://github.com/SBNSoftware">github</a></td>
 </tr>
 <tr class="even">
 <td>icarus</td>
