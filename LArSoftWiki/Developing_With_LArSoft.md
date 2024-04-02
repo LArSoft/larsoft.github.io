@@ -8,6 +8,7 @@ Any collaborator can develop or modify code and contribute it to LArSoft. On thi
 
 -   [Overview page for using LArSoft with GitHub](Working_with_GitHub)
 -   [LArSoft repositories packages and dependencies](LArSoft_repositories_packages_and_dependencies)
+-   [Overview page of LArSoft with SPACK](https://larsoft.github.io/LArSoftWiki/LArSoft_with_SPACK)
 -   [Concepts in LArSoft](https://larsoft.org/important-concepts-in-larsoft/)
 
 ## Platforms
