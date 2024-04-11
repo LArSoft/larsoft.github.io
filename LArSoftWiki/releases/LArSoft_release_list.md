@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v09_89_01 | v09_35_02 | 04/10/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_89_01) |
 | v09_89_00 | v09_35_02 | 04/02/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_89_00) |
 | v09_88_00 | v09_35_02 | 03/27/2024 |  | s131 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_88_00) |
 | v09_87_00 | v09_35_01 | 03/20/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_87_00) |
