@@ -25,28 +25,14 @@
     -   The [watchers.yaml](https://github.com/LArSoft/cms-bot/blob/master/repos/LArSoft/larsoft/watchers.yaml) file defines GitHub user names of group names that would like to receive @ mentions when a PR in directory is created. For larsoft repos this is the repo name.
     -   The [super-users.yaml](https://github.com/LArSoft/cms-bot/blob/master/repos/LArSoft/larsoft/super-users.yaml) file defines GitHub user names to Github repo/group names that have extra privileges for CI jobs. For the larsoft repos, the LArSoft/core GitHub group is used and can address the group using @LArSoft/core mentions.
 
-The command below is used to encode the webhook secret for the GITHUB_WEBOOK_TOKEN entry in repo_config.py.
 
-    curl -d TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://scd-ci.fnal.gov/cgi-bin/encrypt_github_token
+## The GitHub Integration webhook jobs
 
-## The GitHub webhook processing cgi script website
+The webhooks are controled by the *webhook jobs in the Jenkins Github Integration folder
 
-Please note that a VPN connection to Fermilab is required to access many of these links.
+These jobs configure the corresponding webhook. 
 
-The github_webhook script receives a JSON stream from GitHub, validates it, extracts the repo and pull request number, and triggers a Jenkins job with that info as parameters.
-
--   The url of the [cgi scipt](https://scd.ci.fnal.gov/cgi-bin/github_webhook)
--   The fork of [cmssdt-web](https://github.com/gartung/cmssdt-web.git) where the github_webhook
--   The NAS directory for the website  
-    /web/sites/s/scd-ci.fnal.gov  
-    The NAS directory for the symbolic links to the cgi script(s)  
-    /web/sites/s/scd-ci.fnal.gov/cgi-bin
--   The NAS directory for the cmssdt-web clone  
-    /web/sites/s/scd-ci.fnal.gov/data/cmssdt-web
--   The NAS directory for the cmsbot clone the cgi-bin script(s) are linked from  
-    /web/sites/s/scd-ci.fnal.gov/data/cms-bot
--   The NAS directory for the private data is stored, eq CILogin certs for triggering Jenkins job.  
-    /web/sites/s/scd-ci.fnal.gov/data/
+These jobs then call the scipt that validates the user and checks the comment.
 
 ## \* Scripts used to set up labels for pull requests/issues and the set up web hooks for GitHub repo(s).
 
