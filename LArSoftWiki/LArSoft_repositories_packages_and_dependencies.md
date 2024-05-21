@@ -14,7 +14,13 @@ Note that arrows in the dependency diagram point to repositories that resolve di
 
 ![structural.png](/assets/img/larsoft/structural.png)
 
-![dependencies.png](/assets/img/larsoft/dependencies.png)
+![depend-v10.png](/assets/img/larsoft/depend-v10.png)
+
+![depend-v10.png](/assets/img/larsoft/depend-within.png)
+
+![depend-v10.png](/assets/img/larsoft/depend-ext.png)
+
+![depend-v10.png](/assets/img/larsoft/depend-genie.png)
 
 ## larg4
 
