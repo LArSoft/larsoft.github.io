@@ -22,6 +22,26 @@ Note that arrows in the dependency diagram point to repositories that resolve di
 
 ![depend-v10.png](/assets/img/larsoft/depend-genie.png)
 
+## larsoft
+
+-   An umbrella product which is used to setup all the individual larsoft products
+
+## larsoftobj
+
+-   umbrella that sets up all the individual lar\*obj and lar\*alg
+
+## lareventdisplay 
+
+- code related to the native LArSoft event display
+
+## larexamples 
+
+- general use case examples using LArSoft code
+
+## larvecutils 
+
+- code that utilizes OpenMP SIMD vectorization and is compatible with AVX-512 compilation under the Intel compiler.  
+
 ## larg4
 
 -   interface to Geant4
@@ -33,10 +53,6 @@ Note that arrows in the dependency diagram point to repositories that resolve di
 ## larpandora
 
 -   LArSoft interface to the pandora reconstruction package
-
-## larsoft
-
--   An umbrella product which is used to setup all the individual larsoft products
 
 ## larana
 
@@ -76,9 +92,6 @@ The following repositories have no framework dependencies, and can be built and 
 
 -   Simulations for radiologicals
 
-## larsoftobj
-
--   umbrella that sets up all the individual lar\*obj and lar\*alg
 
 ## lardataalg
 
