@@ -38,10 +38,6 @@ Note that arrows in the dependency diagram point to repositories that resolve di
 
 - general use case examples using LArSoft code
 
-## larvecutils 
-
-- code that utilizes OpenMP SIMD vectorization and is compatible with AVX-512 compilation under the Intel compiler.  
-
 ## larg4
 
 -   interface to Geant4
@@ -79,6 +75,10 @@ Note that arrows in the dependency diagram point to repositories that resolve di
 -   Low level utilities, functions and services
 
 The following repositories have no framework dependencies, and can be built and used in alternate frameworks and development environments
+
+## larvecutils 
+
+- code that utilizes OpenMP SIMD vectorization and is compatible with AVX-512 compilation under the Intel compiler.
 
 ## larrecodnn
 
