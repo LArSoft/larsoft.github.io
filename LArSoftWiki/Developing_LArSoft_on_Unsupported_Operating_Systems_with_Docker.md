@@ -44,7 +44,7 @@ We recommend:
 
 ## Relevant Docker Concepts and Components
 
-One is encouraged to read as much of the [guides](https://docs.docker.com/develop/), [manuals](https://docs.docker.com/engine/), and [reference material](https://docs.docker.com/reference/) as required to obtain the best overall picture of Docker and its associated tools and how to use them. However, we present a short introduction to the most important concepts here. The major conceptual components of a Docker system from the point of view of the task at hand are:
+One is encouraged to read as much of the [guides](https://docs.docker.com/guides/), [manuals](https://docs.docker.com/engine/), and [reference material](https://docs.docker.com/reference/) as required to obtain the best overall picture of Docker and its associated tools and how to use them. However, we present a short introduction to the most important concepts here. The major conceptual components of a Docker system from the point of view of the task at hand are:
 
 ### The Image
 
@@ -83,13 +83,13 @@ We can think of a specific LArSoft development environment as consisting of seve
 
 ### The Image
 
-The [base operating system and system-level prerequisites](Developing_LArSoft_on_Unsupported_Operating_Systems_with_Docker#base_os) are already available as a [FNAL Docker image](https://hub.docker.com/repository/docker/fnalart/os_base), based on a specific tagged, [official](https://docs.docker.com/docker-hub/official_images/) [CentOS](https://hub.docker.com/_/centos?tab=tags&amp;page=1&amp;name=7.8.2003) image from [Docker Hub](https://hub.docker.com). This image contains, in addition to the relatively minimal OS installation provided by the base image:
+The base operating system and system-level prerequisites are already available as a [FNAL Docker image](https://hub.docker.com/repository/docker/fnalart/os_base), based on a specific tagged, official [CentOS](https://hub.docker.com/_/centos?tab=tags&amp;page=1&amp;name=7.8.2003) image from [Docker Hub](https://hub.docker.com). This image contains, in addition to the relatively minimal OS installation provided by the base image:
 
 -   The latest updates available at the time the image was produced.
 -   The LSB utilities for system introspection (`lsb_release`, *et al.*).
 -   Kerberos software, libraries and configuration necessary for interacting with FNAL services and interactive machines.
 -   Terminal multiplexers:
-    -   [screen](https://www.gnu.org/software/screen/)
+    -   [screen](https://en.wikipedia.org/wiki/GNU_Screen)
     -   [tmux](https://github.com/tmux/tmux/wiki)
 -   Common and popular editors, including:
     -   [vim](https://www.vim.org/)
@@ -138,7 +138,7 @@ We use the following conventions while demonstrating command input or output:
 -   As much read-write storage space as required for the development to be undertaken (often 10-15 GiB or more), plus a few hundred MiB.
 -   The ability to install software (or have it installed) on the host system.
 -   [Install Docker](https://cdcvs.fnal.gov/redmine/projects/vms-and-containers/wiki/Using_Docker).
--   An understanding of the terms *[image](Developing_LArSoft_on_Unsupported_Operating_Systems_with_Docker#The-Image)*, *[container](Developing_LArSoft_on_Unsupported_Operating_Systems_with_Docker#The-Container)* and, *[volume](Developing_LArSoft_on_Unsupported_Operating_Systems_with_Docker#The-Volume)* is necessary for productive use of this approach and adaption to one's own preferred workflow and environment.
+-   An understanding of the terms image, container, and volume is necessary for productive use of this approach and adaption to one's own preferred workflow and environment.
 -   A suitable choice of base image from which to create containers. We recommend using `fnalart/os_base:centos7` as referenced above, as it should already be configured with all system-level library, tool and development packages to support developing LArSoft.
 
 ### Image Retrieval
@@ -254,6 +254,7 @@ For other, more complex configurations that might be more suited to your needs, 
     (-dc-) $ mrbsetenv
     (-dc-) $ # Continue normal development...
 ```
+<a name="Advanced_Topics"></a>
 
 ## Advanced Topics
 
