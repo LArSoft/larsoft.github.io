@@ -8,10 +8,13 @@ Please note that Docker licensing terms for Docker Desktop (since 2022) requires
 
 [https://rancherdesktop.io/](https://rancherdesktop.io/)
 
+<a name="Using-Hub-amp-Git-From-the-Host"></a>
 
 ## Using Hub &amp; Git From the Host
 
 This is relatively straightforward: one just needs to obtain recent versions of the Hub and / or Git utilities. On MacOS, the version of Git should be fine, depending on your OS / XCode versions, and Hub should be obtained through Homebrew, *viz.*: `brew install hub`. The credentials file is identically the same as that used from within the container due to the mount commands used therefor. On Linux, obtain them through your native packaging system if possible. Otherwise—or if either are too old to be of use—Git is available in [binary](https://git-scm.com/downloads) and [source](https://github.com/git/git/releases) forms, and Hub has [several binary packages](https://github.com/github/hub/releases/latest) available.
+
+<a name="Alternative-MRB-Layouts"></a>
 
 ## Alternative MRB Layouts
 
@@ -111,4 +114,6 @@ Assuming the same `docker run` command as above:
     (-dc-) $ # Continue normal development...
 ```
 
+<a name="Running-GUI-Applications-in-Docker">
+    
 ## Running GUI Applications in Docker
