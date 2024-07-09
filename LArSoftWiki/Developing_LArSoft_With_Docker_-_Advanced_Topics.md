@@ -114,6 +114,3 @@ Assuming the same `docker run` command as above:
     (-dc-) $ # Continue normal development...
 ```
 
-<a name="Running-GUI-Applications-in-Docker">
-    
-## Running GUI Applications in Docker
