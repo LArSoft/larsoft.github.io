@@ -260,4 +260,3 @@ For other, more complex configurations that might be more suited to your needs, 
 
 -   [Using Hub &amp; Git from the host](Developing_LArSoft_With_Docker_-_Advanced_Topics#Using-Hub-amp-Git-From-the-Host).
 -   <span id="alt_mrb_layouts">[Alternative MRB layouts](Developing_LArSoft_With_Docker_-_Advanced_Topics#Alternative-MRB-Layouts)</span>.
--   [Running GUI applications in Docker](Developing_LArSoft_With_Docker_-_Advanced_Topics#Running-GUI-Applications-in-Docker).
