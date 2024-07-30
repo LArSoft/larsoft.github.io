@@ -2,11 +2,13 @@
 
 # Supported platforms
 
-Meaning of “supported platforms”:  Builds are actively supported on these platforms, the code runs and works as intended (as evidenced by tests under the CI system), and source and binary installs of LArSoft and all the products on which it depends are made available on a regular basis. Unless noted otherwise, installations for supported platforms will also be available via cvmfs at /cvmfs/larsoft.opensciencegrid.org/products. Other cvmfs installations may be available — check with offline support for your experiment.
+Meaning of “supported platforms”:  Builds are actively supported on these platforms, the code runs and works as intended (as evidenced by tests under the CI system), and source and binary installs of LArSoft and all the products on which it depends are made available on a regular basis. Unless noted otherwise, installations for supported platforms will also be available via cvmfs as noted below. Other cvmfs installations may be available — check with offline support for your experiment.
 
-- SL7: The current reference system for LArSoft builds. Note that SL7 is beyond end of life as of June 30, 2024, and is no longer supported by Fermilab or the upstream vendor, so can only be  run within a secure container. See the LArSoft wiki page [Developing LArSoft on Unsupported Operating Systems with Docker](https://larsoft.github.io/LArSoftWiki/Developing_LArSoft_on_Unsupported_Operating_Systems_with_Docker), or your experiment wiki for Instructions on using LArSoft within a container.   
-- Binary distributions of LArSoft for SL7 are available at [Opensciencegrid.org](https://cvmfs/larsoft.opensciencegrid.org)
-Any SL7 or Centos7 based release is expected to work, with the caveat noted above.
+SL7:
+- The current reference system for LArSoft builds. Note that SL7 is beyond end of life as of June 30, 2024, and is no longer supported by Fermilab or the upstream vendor, so can only be  run within a secure container. See the LArSoft wiki page [Developing LArSoft on Unsupported Operating Systems with Docker](https://larsoft.github.io/LArSoftWiki/Developing_LArSoft_on_Unsupported_Operating_Systems_with_Docker), or your experiment wiki for Instructions on using LArSoft within a container.   
+- Binary distributions of LArSoft for SL7 are available at cvmfs/larsoft.opensciencegrid.org/productsdirectory area on the experiment gpvm’s.
+Note: you must have /cvmfs mounted for the above link to work. 
+- Any SL7 or Centos7 based release is expected to work, with the caveat noted above.
 
 
 # Best effort
