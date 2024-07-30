@@ -1,15 +1,16 @@
 ﻿# Overview page of LArSoft with SPACK
 
+This information is changing rapidly as we continue the migration to Spack as a replacement for UPS. Once in production, more complete information will be provided. All builds are now performed using SL7 run within a container
 
-These instructions are temporary until Spack is in production and complete documentation pages are available.
+## Migration to Spack from UPS
 
+LArSoft will migrate to spack-based builds and development under AL9. The plan is to complete this migration before SL7 EOL (June 30, 2024), or to allow running using SL7 within containers should the migration extend beyond SL7 EOL. UPS will not be supported under AL9.
+ 
+Migration work is currently focused on allowing development of LArSoft,  and establishing release procedures under Spack.
 
-## The migration plan:
+## Spack builds of LArSoft
 
-- Migration to spack-based builds and development before SL7 EOL
-- SL7 build machines scheduled to shut-down mid-May 
-- Decided: Containers can be used for code that requires UPS under SL7 
-- Firm: No plan to support UPS under AL9. 
+Until the Spack migration is completed, there will be a limited number of Spack-based LArSoft builds available for either SL7 or AL9. 
 
 
 ## The current spack build of LArSoft
