@@ -37,7 +37,7 @@ The ultimate list will be determined in consultation with the experiments and as
 # No longer supported
 
 - SL7 when not run within containers. Once the migration to AL9 is completed, there will only be limited SL7 support for production releases for those experiments that are unable to migrate to AL9.
-- -   Note on MacOS: regular builds of LArSoft under MacOS has required a disproportionate level of effort from the support team. In addition, the requirement that SIP be disabled in order to build and run LArSoft under any macOS release, as is currently the case, prevents “full support” of MacOS even without the attendant build issues. As a result, the SciSoft team has dropped support for MacOS builds until further notice. Users who need to execute LArSoft under MacOS should use an appropriate virtual OS.
+- Note on MacOS: regular builds of LArSoft under MacOS has required a disproportionate level of effort from the support team. In addition, the requirement that SIP be disabled in order to build and run LArSoft under any macOS release, as is currently the case, prevents “full support” of MacOS even without the attendant build issues. As a result, the SciSoft team has dropped support for MacOS builds until further notice. Users who need to execute LArSoft under MacOS should use an appropriate virtual OS.
 -  any macOS release
 -   Ubuntu LTS 20 (u20)
     -   Best-effort support for Ubuntu LTS 20 was available for some e20 builds.
