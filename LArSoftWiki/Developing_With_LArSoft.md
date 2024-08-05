@@ -13,7 +13,7 @@ Any collaborator can develop or modify code and contribute it to LArSoft. On thi
 
 ## Platforms
 
-LArSoft currently supports the platforms listed [here](Supported_platforms). **Users who wish to develop on an unsupported platform may use** [a Docker container approach](Developing_LArSoft_on_Unsupported_Operating_Systems_with_Docker).
+LArSoft currently supports the platforms listed [here](Supported_platforms). **Users who wish to develop on an unsupported platform may use** [a container approach](Developing_LArSoft_with_Containers).
 
 ## Designing
 
