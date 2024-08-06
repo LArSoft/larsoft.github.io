@@ -7,7 +7,7 @@
 
 -   Fermilab computing accounts: see [the process to request access to Fermilab](https://get-connected.fnal.gov/faq/#SABprocess) and [Fermilab computing access](Fermilab_computing_access).
 -   See [Load Balanced Access to General Purpose VMs](Load_Balanced_Access_to_General_Purpose_VMs) for information on accessing experiment VMs at Fermilab (e.g., lbnegpvm0X, uboonegpvm0X, etc., collectively known as GPCF.)
--   [Supported platforms](Supported_platforms)
+-   LArSoft currently supports the platforms listed [here](Supported_platforms). **Users who wish to develop on an unsupported platform may use** [a container approach](Developing_LArSoft_with_Containers).
 -   To join the LArSoft mailing list, please follow [these instructions](https://listserv.fnal.gov/users.asp#subscribe_to_list) using the list name LARSOFT.
 
 # Using LArSoft
