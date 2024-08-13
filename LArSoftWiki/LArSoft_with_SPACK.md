@@ -4,9 +4,9 @@ This information is changing rapidly as we continue the migration to Spack as a 
 
 ## Migration to Spack from UPS
 
-LArSoft will migrate to spack-based builds and development under AL9. The plan is to complete this migration before SL7 EOL (June 30, 2024), or to allow running using SL7 within containers should the migration extend beyond SL7 EOL. UPS will not be supported under AL9.
- 
-Migration work is currently focused on allowing development of LArSoft,  and establishing release procedures under Spack.
+LArSoft will migrate to spack-based builds and development under AL9. Migration work is currently focused on allowing development of LArSoft, and establishing release procedures under Spack. UPS will not be supported under SL7.
+
+Since SL7 reached EOL on June 30, 2024, the plan is to allow running SL7 within containers while we complete the migration. 
 
 ## Spack builds of LArSoft
 
