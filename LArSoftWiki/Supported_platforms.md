@@ -21,7 +21,7 @@ SL7:
 
 - Alma Linux 9 (AL9)
 AL9 will become the reference system for LArSoft, but depends upon the complete [Migration from UPS to Spack](https://larsoft.github.io/LArSoftWiki/LArSoft_with_SPACK). Until the migration is completed, only occasional releases will be made available for AL9.
-UPS will no longer be available under AL9
+UPS will not be supported under AL9
 
 # Known to work
 
