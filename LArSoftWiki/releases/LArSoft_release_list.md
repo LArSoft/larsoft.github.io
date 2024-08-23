@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| **v08_05_00_25** | **v08_03_00_06** | 08/23/2024 | uB MCC 9.1 production release | Pandora DL Vertexing, Penelope EM simulation | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_25) |
 | v09_91_04 | v09_35_06 | 08/22/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_04) |
 | v09_91_03 | v09_35_05 | 07/18/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_03) |
 | v09_91_02 | v09_35_05 | 07/10/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_02) |
@@ -20,7 +21,7 @@ Release versions in **bold font** will be preserved according to the [production
 | v10_00_00rc4 | v10_00_00rc4 | 06/19/2024 | **RELEASE CANDIDATE**  | bug fix | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_00_00rc4) |
 | v09_91_00 | v09_35_04 | 06/17/2024 |  | first release with genie 3.04.02 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_00) |
 | v10_00_00rc3 | v10_00_00rc3 | 06/06/2024 |  **RELEASE CANDIDATE**  | bug fix for geometry refactoring | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_00_00rc3) |
-| v08_05_00_24 | v08_03_00_06 | 06/05/2024 | uB MCC 9.1 production release | Update ppfx version to v02_11_07 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_24) |
+| **v08_05_00_24** | **v08_03_00_06** | 06/05/2024 | uB MCC 9.1 production release | Update ppfx version to v02_11_07 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_24) |
 | v09_90_02 | v09_35_04 | 06/05/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_90_02) |
 | v09_90_01_01 | v09_35_03 | 05/15/2024 | **TEST RELEASE** | test genie 3.04.02 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_90_01_01) |
 | v10_00_00rc2 | v10_00_00rc2 | 05/13/2024 | **RELEASE CANDIDATE**  | refactoring LArSoft geometry | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_00_00rc2) |
