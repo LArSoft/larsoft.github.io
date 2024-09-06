@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v09_91_05 | v09_35_06 | 09/05/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_05) |
 | **v08_05_00_25** | **v08_03_00_06** | 08/23/2024 | uB MCC 9.1 production release | Pandora DL Vertexing, Penelope EM simulation | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_25) |
 | v09_91_04 | v09_35_06 | 08/22/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_04) |
 | v09_91_03 | v09_35_05 | 07/18/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_03) |
