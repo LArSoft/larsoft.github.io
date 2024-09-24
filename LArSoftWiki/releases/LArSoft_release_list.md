@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v09_93_00 | v09_36_00 | 09/24/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_93_00) |
 | v09_92_00 | v09_36_00 | 09/16/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_92_00) |
 | v09_91_06 | v09_35_06 | 09/12/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_06) |
 | **v08_05_00_26** | **v08_03_00_06** | 09/10/2024 | uB MCC 9.1 production release | Revert pandora DL Vertexing | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_26) |
