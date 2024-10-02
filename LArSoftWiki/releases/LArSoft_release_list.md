@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_00_01 | v10_00_00 | 10/01/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_00_01) |
 | v10_00_00 | v10_00_00 | 09/26/2024 |  | **Deployment of refactored LArSoft geometry system** | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_00_00) |
 | **v08_05_00_27** | **v08_03_00_06** | 09/24/2024 | uB MCC 9.1 production release | Re-add pandora DL Vertexing | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v08_05_00_27) |
 | v09_93_00 | v09_36_00 | 09/24/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_93_00) |
