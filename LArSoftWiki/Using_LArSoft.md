@@ -43,13 +43,26 @@ Start by reviewing the information on [the overview page for using LArSoft with 
 -   [Reproducing jobs using the same random number sequences](Reproducing_jobs_using_the_same_random_number_sequences)
 -   [Rerunning a job starting from its output](Rerunning_a_job_starting_from_its_output)
 -   About [fast cloning](Fast_cloning)
--   [Working with GitHub](Working_with_GitHub) for LArSoft
+-   [Working with GitHub](Working_with_GitHub) for LArSoft 
+
+
+[artg4tk](https://cdcvs.fnal.gov/redmine/projects/artg4tk/wiki/Artg4tk)
+[LArG4](https://cdcvs.fnal.gov/redmine/projects/larg4/wiki)
+[larg4 repository](https://github.com/LArSoft/larg4),
 
 # Documentation
 
 -   Description of [Event Displays](Event_Displays) options with links to further information.
 -   Description of [The user environment](The_user_environment) with examples.
 -   Description of [The developer environment](The_developer_environment) with a picture.
+-   Using Geant4 with LArSoft
+   
+       LArSoft interfaces to Geant4 via the tools provided in the [larg4 repository](https://github.com/LArSoft/larg4), which are built on top of [artg4tk](https://cdcvs.fnal.gov/redmine/projects/artg4tk/wiki/Artg4tk), the more general interface between Geant4 and art. Two modules, larg4Main and larg4SingleGen, are available in larg4 to allow simulation or particles from arbitrary MCTruth collections in the event, and a list of particles specified in a FHiCL file, respectively.
+    
+    A legacy (and now deprecated) interface to Geant4 exists within the larsim/LegacyLArG4 area. Some detectors still use this  “legacy-LArG4” interface. Information on migrating from legacy-LArG4 to the re-factored larg4 can be found on the  [larg4 wiki](https://cdcvs.fnal.gov/redmine/projects/larg4/wiki) page.
+    
+    Important information about the requirements for GDML files used by the re-factored larg4 can also be found on the  [larg4 wiki](https://cdcvs.fnal.gov/redmine/projects/larg4/wiki). 
+
 
 ## Using HPC with LArSoft
 
