@@ -57,7 +57,7 @@ Start by reviewing the information on [the overview page for using LArSoft with 
 -   Description of [The developer environment](The_developer_environment) with a picture.
 -   Using Geant4 with LArSoft
    
-       LArSoft interfaces to Geant4 via the tools provided in the [larg4 repository](https://github.com/LArSoft/larg4), which are built on top of [artg4tk](https://cdcvs.fnal.gov/redmine/projects/artg4tk/wiki/Artg4tk), the more general interface between Geant4 and art. Two modules, larg4Main and larg4SingleGen, are available in larg4 to allow simulation or particles from arbitrary MCTruth collections in the event, and a list of particles specified in a FHiCL file, respectively.
+       LArSoft interfaces to Geant4 via the tools provided in the [larg4 repository](https://github.com/LArSoft/larg4), which are built on top of [artg4tk](https://cdcvs.fnal.gov/redmine/projects/artg4tk/wiki/Artg4tk), the more general interface between Geant4 and art. Two modules, larg4Main and larg4SingleGen, are available in larg4 to allow simulation or particles from arbitrary MCTruth collections in the event (and therefore from arbitrary event generators), and a list of particles specified in a FHiCL file, respectively.
     
     A legacy (and now deprecated) interface to Geant4 exists within the larsim/LegacyLArG4 area. Some detectors still use this  “legacy-LArG4” interface. Information on migrating from legacy-LArG4 to the re-factored larg4 can be found on the  [larg4 wiki](https://cdcvs.fnal.gov/redmine/projects/larg4/wiki) page.
     
