@@ -37,7 +37,7 @@
 <tr class="odd">
 <td>Create/modify PR</td>
 <td>User</td>
-<td>Create a new pull request using <code>hub</code> or the GitHub GUI. Modify one using the GitHub GUI</td>
+<td>Create a new pull request using <code>gh</code> or the GitHub GUI. Modify one using the GitHub GUI</td>
 </tr>
 <tr class="even">
 <td>Code checks</td>
