@@ -25,68 +25,23 @@
 
 ## Workflow
 
-<table>
-<thead>
-<tr class="header">
-<th>Step</th>
-<th>Responsible role</th>
-<th>Procedure</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Create/modify PR</td>
-<td>User</td>
-<td>Create a new pull request using <code>gh</code> or the GitHub GUI. Modify one using the GitHub GUI</td>
-</tr>
-<tr class="even">
-<td>Code checks</td>
-<td>Level 2 manager</td>
-<td>* Verify the user is authorized to commit code. If not, proceed to “reject PR” step<br />
-* Review the code to verify compliance with plans, architecture, etc. If not compliant, proceed to “reject PR” step<br />
-* Post “code-checks” comment to the PR to launch code checks a stand-alone build<br />
-The CI system will run code checks and build.<br />
-The FNALbuild account will post “+code-checks” if successful, “-code-checks” if it failed<br />
-* If the code-checks failed, refer the PR back to the user for corrective actions, and proceed to the “reject PR” step<br />
-* If the code-checks succeeded, proceed to the next step</td>
-</tr>
-<tr class="odd">
-<td>Build and test</td>
-<td>Level 2 manager</td>
-<td>* Post the appropriate “trigger build” comment to the PR. See [[Pull_request_comments_that_trigger_CI_actions]] for more information<br />
-The CI system will build the code against <code>develop</code> for all repositories and experiments, and run all unit and CI tests.<br />
-The FNALbuild account will post “+tests” if successful, “-tests” for any failures.<br />
-* If the build and test failed, refer the PR back to the user for corrective actions, and proceed to the “reject PR” step<br />
-* If the build and test succeeded, proceed to the next step</td>
-</tr>
-<tr class="even">
-<td>Level 2 approval</td>
-<td>Level 2 manager</td>
-<td>* Post any of the following three comments:<br />
-“+1”<br />
-“+<category>”, where “category” is an arbitrary string that by convention refers to a an area covered by a particular Level 2 manager<br />
-“approved”</td>
-</tr>
-<tr class="odd">
-<td>Approval to merge</td>
-<td>Level 1 manager</td>
-<td>* Post the comment “merge” to trigger a merge of the PR to the target branch</td>
-</tr>
-<tr class="even">
-<td>Approval to close</td>
-<td>Level 1 manager</td>
-<td>* Post the comment “close” to trigger closing the PR</td>
-</tr>
-<tr class="odd">
-<td>Reject PR</td>
-<td>Level 1 or<br />
-Level 2 manager</td>
-<td>A PR should be rejected if it should not or cannot be merged. Reasons could include no authorization, significant structural problems, changes not consistent on-going plans, etc.</td>
-</tr>
-<tr class="even">
-<td>Remove approval</td>
-<td>Level 1 manager</td>
-<td>In rare instances, issues may be raised after approval has been granted. If the PR is not already merged, delete the comment or comments approving the PR and change the labels. This must all be done by hand.</td>
-</tr>
-</tbody>
-</table>
+| Step   | Resonsible Role | Procedure        |
+|-------------------|--------------------|---------------------------------------------------------------------------------------|
+| Create/modify PR | User | Create a new pull request using `gh` or the GitHub GUI. Modify one using `git` or the GitHub GUI. |
+| Code checks | Level 2 manager |  Verify the user is authorized to commit code. If not, proceed to “reject PR” step. | 
+|  |  |  Review the code to verify compliance with plans, architecture, etc. If not compliant, proceed to “reject PR” step. |
+|  |  | Post `code-checks` comment to the PR to launch code checks a stand-alone build. The CI system will run code checks and build.The FNALbuild account will post `+code-checks` if successful, `-code-checks` if it failed |
+|  |  |  If the code-checks failed, refer the PR back to the user for corrective actions, and proceed to the “reject PR” step. |
+|  |  |  If the code-checks succeeded, proceed to the next step. |
+| Build and test | Level 2 manager | Post the appropriate `trigger build` comment to the PR.   The CI system will build the code against develop for all repositories and experiments, and run all unit and CI tests.  The FNALbuild account will post `+tests` if successful, `-tests` for any failures. |
+|  |  | If the build and test failed, refer the PR back to the user for corrective actions. |
+|  |  | If the build and test succeeded, proceed to the next step. |
+|  |  | See [Pull_request_comments_that_trigger_CI_actions](Pull_request_comments_that_trigger_CI_actions) for more information. |
+| Level 2 approval | Level 2 manager |  Post any of the following comments: `+1` or `approve`  |
+|  |  | You may also post `+<category>`, where `category` is an arbitrary string that by convention refers to a an area covered by a particular Level 2 manager. | 
+| Approval to merge | Level 1 manager | Post the comment `approve`. | 
+|  |  | Use the github merge button to merge with develop if appropriate. | 
+|  |  | In some situations, such as multiple related PRs, we do not merge on GitHub.  Instead, they will be merged as part of the release procedure. | 
+| Approval to close | Level 1 manager |  This should be rare.  Post the comment `close` to trigger closing the PR. | 
+| Reject PR | Level 1 or Level 2 manager | A PR should be rejected if it should not or cannot be merged. Reasons could include no authorization, significant structural problems, changes not consistent on-going plans, etc. | 
+| Remove approval | Level 1 manager | In rare instances, issues may be raised after approval has been granted. If the PR is not already merged, delete the comment or comments approving the PR and change the labels. This must all be done by hand. | 
