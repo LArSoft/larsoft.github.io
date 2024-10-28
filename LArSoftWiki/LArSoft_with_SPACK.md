@@ -21,7 +21,12 @@ UPS will not be supported under AL9, and SL7 reach EOL on June 30, 2024. Consequ
 
 Until the Spack migration is completed, there will be a limited number of Spack-based LArSoft builds available for either SL7 or AL9. 
 
-The most recent version of LArSoft built under Spack is v09.90.01. To set up on AL9:
+The most recent version of LArSoft built under Spack is v10.00.03. To set up under AL9:
+* source /cvmfs/larsoft.opensciencegrid.org/spack-v0.22.0-fermi/setup-env.sh
+* spack env activate larsoft-10-00-03-tensorflow-2-15-0-gcc-12-2-0-cxx17-prof-gcc-11-4-1-almalinux9-x86_64_v2
+* spack load larsoft
+
+The most recent v09 series release is v09.90.01. To set up on AL9:
 * source /cvmfs/larsoft.opensciencegrid.org/spack-v0.22.0-fermi/setup-env.sh
 * spack env activate larsoft-09-90-01-gcc-12-2-0-cxx17-prof-gcc-11-4-1
 * spack load larsoft
