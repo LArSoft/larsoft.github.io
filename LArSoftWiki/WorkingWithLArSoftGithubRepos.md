@@ -115,12 +115,6 @@ Once the problem has been addressed, commit the changes, and push your feature b
     git commit -m"some message" <my files>
     git push origin <my feature branch>
 ```
-## How do I create a merge request for a legacy feature branch that existed prior to the migration to GitHub?
-
-The GitHub repositories have commit histories that have been cleaned of old commits (ca. 2014), and all feature branches at the time of the migration. Because their commit histories have been rewritten, you cannot submit pull requests to `develop` from any legacy branch that existed prior to the migration, and therefore contains the old commit history.
-
-For instructions on how to alter the histories of these branches so that they can be merged with the GitHub repositories, see the instructions on the [Migrating_Redmine_Feature_Branches](Migrating_Redmine_Feature_Branches) page.
-
 ## How do I update an existing fork?
 
 If you already have a fork of one of the LArSoft GitHub repositories, you will need to regularly pull changes from the upstream LArSoft repository. However, when you clone an existing fork, it will not reference the upstream repository. You need to add that yourself.
@@ -137,3 +131,11 @@ To merge upstream changes in develop with your develop branch:
     git checkout develop
     git pull upstream develop
 ```
+## How do I create a merge request for a legacy feature branch that existed prior to the migration to GitHub?
+
+These instructions are no longer relevant for LArSoft repositories since the code has diverged significantly.  We retain these instuctions in case they are relevant to other efforts.
+
+The GitHub repositories have commit histories that have been cleaned of old commits (ca. 2014), and all feature branches at the time of the migration. Because their commit histories have been rewritten, you cannot submit pull requests to `develop` from any legacy branch that existed prior to the migration, and therefore contains the old commit history.
+
+For instructions on how to alter the histories of these branches so that they can be merged with the GitHub repositories, see the instructions on the [Migrating_Redmine_Feature_Branches](Migrating_Redmine_Feature_Branches) page.
+
