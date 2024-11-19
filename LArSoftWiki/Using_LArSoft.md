@@ -25,6 +25,7 @@ First-time, or infrequent, users will be well-served to go through the following
 4.  To modify the code, clone the reference software into your working area from the [LArSoft github](https://github.com/LArSoft) repositories.
     1.  This is where to find [Experiment-specific code](Experiment-specific_code).
     2.  And this is the [Sub-package locations](Sub-package_locations) (e.g., in which repository can I find the `HitFinder` sub-package?)
+    3.  See the [Developing With LArSoft](Developing_With_LArSoft) page for more details and guidelines on how to modify or develop new code for LArSoft.
 5.  To install a local copy of the pre-built products, or to build and install a local copy of the products for the core LArSoft suite, follow the [Installation Procedures on the Getting LArSoft page](Getting_LArSoft).
     1.  To use cvmfs to access the binaries and header files in a tagged release (thereby avoiding the need to install or build a local copy), follow the [LArSoft cvmfs page](LArSoft_cvmfs_page) instructions.
     2.  Sometimes your local code will fail to build against a new LArSoft release because there are “breaking changes” in the release, which are modifications that require adaptations to the code that references that modified code. These changes and the corrective actions needed are documented on the [Breaking_Changes](releases/Breaking_Changes) page.
