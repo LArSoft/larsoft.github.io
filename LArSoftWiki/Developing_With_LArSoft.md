@@ -15,6 +15,13 @@ Any collaborator can develop or modify code and contribute it to LArSoft. On thi
 
 LArSoft currently supports the platforms listed [here](Supported_platforms). **Users who wish to develop on an unsupported platform may use** [a container approach](Developing_LArSoft_with_Containers).
 
+## Compilers and language standards
+
+Standard builds of LArSoft use the gcc and clang compilers, where the latter is used primarily to ensure language standards compliance. The versions of these compilers changes from time to time. Please refer to the distribution manifest for a particular release. The manifests files can be accessed by drilling down on the [LArSoft bundles page on SciSoft.fnal.gov](https://scisoft.fnal.gov/scisoft/bundles/larsoft)
+
+The language standard for all LArSoft code is C++20.
+
+
 ## Designing
 
 To design LArSoft code, it's important to understand the core LArSoft suite and all the components used by it. Reference the items below when designing new software.
@@ -173,7 +180,7 @@ These are package written and maintained by the general physics and computing co
 
 | Package                                                                                             | Namespace               | Short description                                           | Location of headers     |                |
 |-----------------------------------------------------------------------------------------------------|-------------------------|-------------------------------------------------------------|-------------------------|----------------|
-| [C](https://www.cplusplus.com/reference/)                                                            | `std::`                 | Extensions to base C that are part of the standard language |                         |                |
+| [C library](https://www.cplusplus.com/reference/)                                                            | `std::`                 | Extensions to base C that are part of the standard language |                         |                |
 | [ROOT](https://root.cern.ch)                                                                        | See below               | Data-analysis tools                                         | `$ROOT_INC`             |                |
 | [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/)                                                  | `CLHEP::`               | Class Library for High-Energy Physics                       | `$CLHEP_INC/CLHEP`      |                |
 | [Geant4](https://geant4.web.cern.ch)                                                         | See below               | Detector simulations                                        | `$G4INCLUDE`            |                |
@@ -184,6 +191,8 @@ These are package written and maintained by the general physics and computing co
 | [ nutools and LArSoft](NuSoft_and_LArSoft                                                                              ) | `simb::`                                                    | Neutrino platform tools | `$NUTOOLS_INC` |
 
 ROOT and Geant4 do not use namespaces. In general, ROOT classes begin with “T” (e.g., [TTree](https://root.cern.ch/root/html522/TTree.html), [TH1](https://root.cern.ch/root/html522/TH1.html)) while [Geant4 classes](https://geant4.kek.jp/LXR/) begin with “G4” (e.g., [G4Track](https://geant4.kek.jp/lxr/source//track/include/G4Track.hh), [G4Step](https://geant4.kek.jp/lxr/source//track/include/G4Step.hh)). Exception: Some of the newer ROOT sub-packages have namespaces (such as `ROOT::Math::`, `ROOT::Fit::`, `ROOT::Minuit2::`, `Reflex::`, `TMVA::`).
+
+Geant4 is accessed through the LArG4 interface package. More information is available at the [LArG4 wiki](https://cdcvs.fnal.gov/redmine/projects/larg4/wiki)
 
 Some of these packages duplicate functionality; e.g., 4-vectors are implemented in both [ROOT](https://root.cern.ch/root/html522/TLorentzVector.html) and [CLHEP](https://proj-clhep.web.cern.ch/proj-clhep/doc/CLHEP_2_1_2_2/doxygen/html/LorentzVector_8h.html). Given a choice, use a package that's higher in the above tables over one that's lower; e.g., choose ROOT classes over their CLHEP equivalents.
 
