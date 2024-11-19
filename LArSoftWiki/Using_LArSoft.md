@@ -46,10 +46,6 @@ Start by reviewing the information on [the overview page for using LArSoft with 
 -   [Working with GitHub](Working_with_GitHub) for LArSoft 
 
 
-[artg4tk](https://cdcvs.fnal.gov/redmine/projects/artg4tk/wiki/Artg4tk)
-[LArG4](https://cdcvs.fnal.gov/redmine/projects/larg4/wiki)
-[larg4 repository](https://github.com/LArSoft/larg4),
-
 # Documentation
 
 -   Description of [Event Displays](Event_Displays) options with links to further information.
