@@ -1,8 +1,10 @@
 # Fermilab Computing Access
 
-**For up-to-date information, please consult https://fermi.servicenowservices.com/wp/ The following is just for your convenience.**
+**For up-to-date information, 
+please consult the knowledge base at [The Fermilab Service Desk](https://fermi.servicenowservices.com/wp). This requires logging in with your Services account and searching for "kerberos". 
+The following is just for your convenience.**
 
-Users must have a valid kerberos ticket to access Fermilab computing at the time an attempt to log into a Fermilab machine. The ticket is obtained by executing the following command at a terminal prompt:
+Users must have a valid kerberos ticket to access Fermilab computing at the time of an attempt to log into a Fermilab machine. The ticket is obtained by executing the following command at a terminal prompt:
 
     $ kinit <principal>@FNAL.GOV
 
