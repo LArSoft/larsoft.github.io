@@ -94,7 +94,7 @@ Release versions in **bold font** will be preserved according to the [production
 | v09_73_00 | v09_29_01 | 04/26/2023 |  | last release with art 3.09.04 (s117) | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_73_00) |
 | v09_80_00rc1 | v09_80_00rc1 | 04/13/2023 | **RELEASE CANDIDATE**  | art 3.12.00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_80_00rc1) |
 | v09_72_01 | v09_29_01 | 04/12/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_72_01) |
-| **v09_72_00** | **v09_29_01** | 04/07/2023 | ICARUS production |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_72_00) |
+| **v09_72_00** | **v09_29_01** | 04/07/2023 | ICARUS production, DUNE for ICEBERG |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_72_00) |
 | v09_80_00rc0 | v09_80_00rc0 | 03/29/2023 | **RELEASE CANDIDATE**  | art 3.12.00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_80_00rc0) |
 | v09_71_00 | v09_29_00 | 03/27/2023 |  | first release with genie v3_04_00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_71_00) |
 | v09_70_00 | v09_29_00 | 03/23/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_70_00) |
@@ -157,7 +157,7 @@ Release versions in **bold font** will be preserved according to the [production
 | **v09_37_01_01**  | **v09_12_00**      | 12/10/2021 |                     | SBN2021C production                                        | [ Release Notes](ReleaseNotes09370101  )                        |
 | v09_39_01         | v09_14_00          | 12/08/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093901    )                        |
 | v09_39_00         | v09_14_00          | 12/07/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093900    )                        |
-| v09_38_00         | v09_13_00          | 12/01/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093800    )                        |
+| **v09_38_00**         | v09_13_00          | 12/01/2021 |                 |         DUNE for ICEBERG             | [ Release Notes(ReleaseNotes093800) |
 | v09_37_01         | v09_12_00          | 11/19/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093701    )                        |
 | v09_37_00         | v09_12_00          | 11/18/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093700    )                        |
 | v09_36_00         | v09_11_01          | 11/11/2021 |                     |                                                            | [ Release Notes](ReleaseNotes093600    )                        |
