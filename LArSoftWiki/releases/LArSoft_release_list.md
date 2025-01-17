@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_03_00 | v10_00_02 | 01/17/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_03_00) |
 | **v09_89_02** | v09_35_02 | 01/07/2025 |  | for ICARUS | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_89_02) |
 | v10_02_02 | v10_00_01 | 12/20/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_02_02) |
 | v10_02_01 | v10_00_01 | 12/18/2024 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_02_01) |
