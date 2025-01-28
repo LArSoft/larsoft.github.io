@@ -1,6 +1,6 @@
 ﻿# Overview page of LArSoft with SPACK
 
-Sept 11, 2024
+Jan 28, 2025
 
 At present, LArSoft is in the process of migrating from the Fermilab developed UPS packaging tool to the community developed and supported [Spack](https://spack.io/) packaging tool. The use of Spack as the LArSoft package manager is expected to provide greatly improved flexibility to the experiments in building their software stacks relative to the standard tools provided by the LArSoft team, and will reduce the effort required to support the LArSoft software stack, thereby freeing effort to work on other high priority tasks. 
 
