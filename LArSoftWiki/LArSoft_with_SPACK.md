@@ -4,11 +4,11 @@ Sept 11, 2024
 
 At present, LArSoft is in the process of migrating from the Fermilab developed UPS packaging tool to the community developed and supported [Spack](https://spack.io/) packaging tool. The use of Spack as the LArSoft package manager is expected to provide greatly improved flexibility to the experiments in building their software stacks relative to the standard tools provided by the LArSoft team, and will reduce the effort required to support the LArSoft software stack, thereby freeing effort to work on other high priority tasks. 
 
-The new system will provide the [multi-product development tool (mpd)](https://github.com/FNALssi/spack-mpd), a Spack extension that allows users to develop CMake based packages in concert with Spack-provided external software. Users are invited to use the current, beta-quality version of mpd.
+The new system will provide the [multi-product development tool (mpd)](https://github.com/FNALssi/spack-mpd), a Spack extension that allows users to develop CMake based packages in concert with Spack-provided external software. Users are invited to use the current, beta-quality version of mpd. 
 
-Release mechanisms and procedures are still under development. A promising solution to the single remaining technical hurdle for creating releases with Spack is currently being tested. Notably, this solution works in small scale tests, implying there are no longer any outstanding technical gaps to a complete Spack solution. Full technical and procedural details will be provided as they become available.
+Release mechanisms and procedures are still under development, where efforts are focused on exploring a new continuous integration solution.Full technical and procedural details will be provided as they become available.
 
-All of this information is changing rapidly, so check back frequently for updates.
+For additional details, see the presentations and "Plan for Standard Builds" document discussed at [the Dec. 10, 2024 LArSoft Coordination Meeting](https://indico.fnal.gov/event/67311/)
 
 
 ## The interim solution
