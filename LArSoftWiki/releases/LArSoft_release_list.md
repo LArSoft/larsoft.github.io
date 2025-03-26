@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_21_00rc0 | v10_21_00rc0 | 03/25/2025 |  | genie 3.06.00 release candidate | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_21_00rc0) |
 | v10_04_07 | v10_00_05 | 03/20/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_07) |
 | v10_04_06 | v10_00_05 | 03/12/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_06) |
 | v10_04_05 | v10_00_05 | 03/05/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_05) |
