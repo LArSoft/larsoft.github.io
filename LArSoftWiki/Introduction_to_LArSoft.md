@@ -14,5 +14,5 @@ LArSoft is both a project/collaboration and a body of code.
 The role of the experiments is to define the requirements, schedules and priorities. Experiment responsibilities include providing effort to develop core LArSoft software, contributing effort to coordinate at the implementation level (code), and being solely responsible for experiment-specific software interfacing to LArSoft.
 
 A good place to start is at [larsoft.org](https://larsoft.org) or [larsoft training](https://larsoft.org/training/).
-For a detailed overview of LArSoft, see the [slide deck pdf file](https://indico.fnal.gov/event/49621/attachments/144683/257674/LArSoft%20introduction%20April%202025.pdf) at: [Indico](https://indico.fnal.gov/event/49621/).
+For a detailed overview of LArSoft, see the slide deck pdf file at [Indico](https://indico.fnal.gov/event/49621/).
 
