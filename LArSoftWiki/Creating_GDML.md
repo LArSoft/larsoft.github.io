@@ -4,6 +4,9 @@
 
 This material is under development.
 
+For background information on LArSoft geometry, please go to: [larsoft.org geometry page](https://larsoft.org/larsoft_geometry_v10_plus/) and to the 
+[Wiki page LArSoft V10+ Geometry System](https://larsoft.github.io/LArSoftWiki/LArSoft_V10+_Geometry_System.html)
+
 For a given detector, LArSoft maintains its detector-geometry description in a GDML file. The concepts behind GDML (such as the hierarchy of shapes, materials, and physical volumes) will be familiar to anyone who's worked with other physics modeling packages, such as Geant4 or GeoModel. In LArSoft, the use of GDML is affected by the need to preserve geometry files associated with existing detectors and some limitations with ROOT. The ability to create new GDML files is provided for detector optimization studies, i.e. changing wire spacings, number of planes, etc. Altering the number of volumes in the GDML files may have unknown consequences on the running of the code that depends on the geometry.
 
 The [GDML](https://gdml.web.cern.ch/GDML) files describe the geometry of the different LAr TPC detectors in LArSoft. May want to start by looking at the GDML manual at: https://lcgapp.cern.ch/project/simu/framework/GDML/doc/GDMLmanual.pdf
@@ -63,16 +66,6 @@ or
     # ./make-gdml.pl -i argoneut-gdml-fragments.xml -o argoneut.gdml
 
 ## The details
-
-### Volume hierarchy and naming conventions
-
-All volumes in the GDML file are part of a specific hierarchy and need to have a name that follows the following conventions in order for the source:trunk/Geometry/Geometry.h service to function properly. The volume hierarchy is shown in the following block diagram:
-
-![geometry_volumes.png](/assets/img/larsoft/geometry_volumes.png)
-
-As seen in the picture, the names of all the volumes have the prefix “vol”. Also, the number in the “()” after the volume names indicates the number of those volumes that can exist in the geometry. For example, there can be only one volWorld volume and one volDetEnclosure volume, which is the hall where the detector resides, but many “(n)” volCryostat volumes in the volDetEnclosure. The “XXX” after some of the volume names indicates that there is freedom to add extra information at the end of the specified name. For example, detector planes with vertical wires could be named “volTPCPlaneVert”, but only the “volTPCPlane” portion of the name is used to indicated to the service that it found a plane volume.
-
-The highest level volume is the volWorld. It contains all elements of the geometry that is to be accounted for in the simulation and should be sized adequately to account for any features of the detector surroundings that are important for the simulation. For example, if there is a huge mass of rock near the detector that could alter the cosmic ray flux from that direction, it should be simulated. The world volume contains the detector enclosure volume, volDetEnclosure. Again, there is only one world volume and only one detector enclosure volume. The volDetEnclosure can contain many volCryostat volumes, which in turn can each contain many volTPC volumes. Each volTPC contains only one volTPCActive, which defines the active volume of liquid argon that is read out by the detector. Any liquid argon that is outside of the drift field would not be part of volTPCActive. Moreover, it is assumed that volTPCActive is simply a volume, ie a box, of liquid argon with no subvolumes in it. The volTPC volume also contains many volTPCPlaneXXX volumes that describe the wire planes. The volTPCPlaneXXX volume contains many volTPCWireXXX volumes that each describe a wire in the detector.
 
 ### Procedure
 
