@@ -2,26 +2,19 @@
 
 This is an informal list of people we contact when there are problems with experiment code.
 
--   argoneutcode
-    -   Tingjun Yang
-    -   Patrick Green (release manager)
-    -   Wanwei Wu (new release manager)
 -   dunetpc
     -   Thomas R. Junk
-    -   Tingjun Yang
     -   Jacob Calcultt (release manager)
     -   Etienne Chardonnet
 -   icaruscode
     -   Tracy Usher
     -   Sergey Martynenko (BNL) (release manager)
     -   Matthew Rosenberg (Pitt) (release manager)
--   lariatsoft
-    -   Johnny Ho
-    -   Jonathan Asaadi
 -   sbndcode
-    -   Fran Nicolas (release manager)
+    -   Steven Gardiner 
     -   Patrick Green 
     -   Dominic Brailsford
+    -   Nathaniel Rowe (release manager as of April 2025)
     -   Andrzej Szelc
 -   uboonecode
     -   Herb Greenlee
@@ -29,3 +22,9 @@ This is an informal list of people we contact when there are problems with exper
 -   sbn
     -   Miquel Nebot-Guinot 
     -   Ibrahim Safa (release manager)
+-   argoneutcode - no longer active
+    -   Patrick Green (release manager)
+    -   Wanwei Wu (new release manager)
+-   lariatsoft - no longer active
+    -   Johnny Ho
+    -   Jonathan Asaadi
