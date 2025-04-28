@@ -21,9 +21,11 @@ This is an informal list of people we contact when there are problems with exper
 -   sbn
     -   Miquel Nebot-Guinot 
     -   Ibrahim Safa (release manager)
--   argoneutcode - no longer active
+
+These experiments are now frozen
+-   argoneutcode
     -   Patrick Green (release manager)
     -   Wanwei Wu (new release manager)
--   lariatsoft - no longer active
+-   lariatsoft 
     -   Johnny Ho
     -   Jonathan Asaadi
