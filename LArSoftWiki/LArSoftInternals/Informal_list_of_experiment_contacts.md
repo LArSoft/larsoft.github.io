@@ -18,7 +18,6 @@ This is an informal list of people we contact when there are problems with exper
     -   Andrzej Szelc
 -   uboonecode
     -   Herb Greenlee
-    -   Ran Itay (release manager)
 -   sbn
     -   Miquel Nebot-Guinot 
     -   Ibrahim Safa (release manager)
