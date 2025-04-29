@@ -14,6 +14,7 @@ Release versions in **bold font** will be preserved according to the [production
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
 | v10_06_00 | v10_01_00 | 04/29/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_06_00) |
+| **v09_91_04_01** | v09_35_06 | 04/21/2025 |  | for DUNE | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_04_01) |
 | v10_05_00 | v10_00_06 | 04/16/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_05_00) |
 | v10_04_08 | v10_00_06 | 04/01/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_08) |
 | v10_21_00rc0 | v10_21_00rc0 | 03/25/2025 |  | genie 3.06.00 release candidate | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_21_00rc0) |
