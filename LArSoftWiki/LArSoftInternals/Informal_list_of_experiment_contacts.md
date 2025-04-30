@@ -4,12 +4,12 @@ This is an informal list of people we contact when there are problems with exper
 
 -   dunetpc
     -   Thomas R. Junk
-    -   Jacob Calcultt (release manager)
+    -   Matthew Muether
+    -   Dominic Brailsford (release manager)
     -   Etienne Chardonnet
 -   icaruscode
     -   Tracy Usher
-    -   Sergey Martynenko (BNL) (release manager)
-    -   Matthew Rosenberg (Pitt) (release manager)
+    -   Leo Aliaga (release manager) 
 -   sbndcode
     -   Steven Gardiner 
     -   Patrick Green 
@@ -19,8 +19,9 @@ This is an informal list of people we contact when there are problems with exper
 -   uboonecode
     -   Herb Greenlee
 -   sbn
-    -   Miquel Nebot-Guinot 
-    -   Ibrahim Safa (release manager)
+    -   Giuseppe Cerati
+    -   Steven Gardiner
+    -   John Plows (release manager)
 
 These experiments are now frozen
 -   argoneutcode
