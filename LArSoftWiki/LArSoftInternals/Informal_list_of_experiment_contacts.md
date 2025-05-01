@@ -5,8 +5,9 @@ This is an informal list of people we contact when there are problems with exper
 -   dunetpc
     -   Thomas R. Junk
     -   Matthew Muether
-    -   Dominic Brailsford (release manager)
-    -   Etienne Chardonnet
+    -   Dominic Brailsford
+    -   Laura Paulucci
+    -   Andrew Olivier (release manager)
 -   icaruscode
     -   Tracy Usher
     -   Leo Aliaga (release manager) 
