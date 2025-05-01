@@ -18,6 +18,7 @@ Permissions will be removed when someone ceases to have this responsibility.
 Please make a service desk ticket asking for these permissions. Use the SciSoft at Service Now link at the bottom of the [SciSoft home page](https://scisoft.fnal.gov/).
 
 [LArSoft responsiblities for patch releases](LArSoft_responsiblities_for_patch_releases)
+
 [More about SciSoft](More_about_SciSoft)
 
 ## Request a release
