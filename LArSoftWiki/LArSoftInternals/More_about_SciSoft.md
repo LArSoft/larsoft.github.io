@@ -25,9 +25,9 @@ The copyToSciSoft script makes all necessary directories and copies the files in
 -   Requests for new versions of existing packages should be made through the [SciSoft issues tracker](https://cdcvs.fnal.gov/redmine/projects/scisoft/issues/new).
 -   Bug reports for experiments or projects should be made via the redmine site for that experiment or project.
 -    If you wish to do any of the following, please open a [Service Now ticket](https://fermi.servicenowservices.com/nav_to.do?uri=%2Fservice_offering.do%3Fsys_id%3Dc548068a6fd81200c8b668826e3ee4ec%26sysparm_view%3Dess%26sysparm_affiliation%3D)
-   -    request space on SciSoft for a new experiment or project
-   -    add or remove people from a permission list
-   -    add the build of a new package to SciSoft for an existing experiment or project
+      -    request space on SciSoft for a new experiment or project
+      -    add or remove people from a permission list
+      -    add the build of a new package to SciSoft for an existing experiment or project
 -   User instructions for uploading packages and distribution bundles are on [redmine](https://cdcvs.fnal.gov/redmine/projects/scisoft/wiki/SciSoft).
 -   All other questions may be directed to the SciSoft team
 
