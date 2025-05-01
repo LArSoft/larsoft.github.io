@@ -8,8 +8,6 @@ For security reasons, the ability to upload files is strictly controlled. Only a
 
 To upload tarballs for an existing package, use copyToSciSoft.
 
-copyToSciSoft hdf5-1.10.1b-source.tar.bz2
-
 ## Update an existing bundle on SciSoft
 
 To add a new bundle release, simply use copyToSciSoft to upload the manifests, related tarballs, build config, and bundle description html files. The build config files are used by buildFW.
