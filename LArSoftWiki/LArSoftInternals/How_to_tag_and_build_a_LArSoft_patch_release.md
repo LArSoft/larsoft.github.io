@@ -13,6 +13,7 @@ Permissions will be removed when someone ceases to have this responsibility.
     -   ability to login to larsoft cvmfs
     -   ability to upload to SciSoft with the larsoft role
     -   abiltiy to run Jenkins jobs
+        - Note that if you already run Jenkins jobs for your experiment, you have the necessary permissions.
 
 Please make a service desk ticket asking for these permissions. Use the SciSoft at Service Now link at the bottom of the [SciSoft home page](https://scisoft.fnal.gov/).
 
