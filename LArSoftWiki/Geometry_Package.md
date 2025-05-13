@@ -2,7 +2,7 @@
 
 # PreV10 Geometry Package
 
-Different detectors are represented in the Geometry Package of LArSoft. This information applies to Version before version 10 of LArSoft.
+Different detectors are represented in the Geometry Package of LArSoft. This information applies to versions before version 10 of LArSoft.
 
 ## How a LArTPC works
 
@@ -188,10 +188,6 @@ The abstraction of drift direction can be framed in a broader context. The drift
 -   perfectly spaced rigid wires
 -   shape of wire plane frame is rectangle
 
-## Future projects
-
-VolTPC may need to include the volume between the planes since there can be argon there, so there can be charged depositions there. (The 35-ton TPC paper studies this very effect.) If experiments have a mesh, they have this issue, or if a frame acts like a mesh.
-
 ## Writing and visualizing your own geometry
 
 The Geometry Description Markup Language is an application-independent geometry description format based on XML. https://gdml.web.cern.ch/GDML/ There exist two toolkit bindings for GDML, the Geant4 binding and the ROOT binding, both integrated within the respective frameworks. Both bindings support reading and writing GDML files.
@@ -213,5 +209,3 @@ gGeoManager->FindVolumeFast("volWorld")->Draw("ogl");
 
 This will display your geometry onscreen, supposing your World Volume is named volWorld. Note, the string ‘volWorld’ relates back to the description of Figure 1. The code can be searched to find strings that are used in the GDML files. For a given detector, experiments maintain their detector-geometry description in [GDML](https://gdml.web.cern.ch/GDML/) files. The concepts behind GDML (such as the hierarchy of shapes, materials, and physical volumes) will be familiar to anyone who's worked with other physics modeling packages, such as [Geant4](https://geant4.web.cern.ch/geant4/) or [GeoModel](https://atlas.web.cern.ch/Atlas/GROUPS/DATABASE/detector_description/Geometry_Kernel_Classes.pdf). In LArSoft, the use of GDML is affected by the need to preserve geometry files associated with existing detectors and some limitations with ROOT.
 
-The numbering part of the string, such as volTPC+instance number, is arbitrary, but strings have to be unique. The Geometry part of it must follow the convention outlined in the description of Figure 1.  
-More information is under development at [Creating_GDML](Creating_GDML)
