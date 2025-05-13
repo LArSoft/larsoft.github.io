@@ -3,6 +3,9 @@
 # Goal of this page
 This page is for people who need to use or write their own detector geometry. Section 1 describes the overall structure of the geometry system. An overview of the specific classes, identifiers, navigation and iteration tools follows in Sect. 2. (Please refer to the classes themselves for details of the information available from each class.) Sect. 3 then describes the features that allow customization of the geometry for specific LArTPC-based experiments.
 
+# Background on geometry
+The background on the geometry for LArSoft v10+ can be found at: [LArSoft.org/LArSoft Geometry V10+](https://larsoft.org/larsoft_geometry_v10_plus/)
+
 # 1. High-level structure of the LArSoft geometry
 The existing geometry model is supported by three sub-systems, each with a separate art service / LArSoft service provider:
 
