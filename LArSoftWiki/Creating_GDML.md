@@ -2,7 +2,7 @@
 
 # Creating GDML
 
-This material is under development.
+This material is not being used as far as we can tell. If that isn't true, please contact a member of the LArSoft or SciSoft team. 
 
 For background information on LArSoft geometry, please go to: [larsoft.org geometry page](https://larsoft.org/larsoft_geometry_v10_plus/) and to the 
 [Wiki page LArSoft V10+ Geometry System](https://larsoft.github.io/LArSoftWiki/LArSoft_V10+_Geometry_System.html)
