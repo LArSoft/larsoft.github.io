@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_07_00 | v10_01_00 | 05/13/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_07_00) |
 | v10_06_00 | v10_01_00 | 04/29/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_06_00) |
 | **v09_91_04_01** | v09_35_06 | 04/21/2025 |  | for DUNE | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_04_01) |
 | v10_05_00 | v10_00_06 | 04/16/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_05_00) |
