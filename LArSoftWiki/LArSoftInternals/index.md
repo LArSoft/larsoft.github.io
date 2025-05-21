@@ -16,6 +16,7 @@
 -   [Installation procedures](/LArSoftWiki/Installation_procedures)
 -   [LArSoft cvmfs](LArSoft_cvmfs)
 -   [Using the cetmodules migration script](Using_the_cetmodules_migration_script)
+-   [Requesting permission to upload files to SciSoft](More_about_SciSoft)
 
 ## Repository cleanup
 
