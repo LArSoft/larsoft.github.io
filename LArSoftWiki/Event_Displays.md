@@ -25,7 +25,7 @@ The LArSoft event display strategy is to provide support for community developed
     In use at ProtoDUNE. Has been updating based on feature requests.  
     Runs in LArSoft & Gallery.  
     2D display of the raw digits is provided by rotating to the correct angle and using an orthographic projection.  
-    UPS product distributed with LArSoft.  
+    product distributed with LArSoft.  
     [Redmine page](https://cdcvs.fnal.gov/redmine/projects/dunetpc/wiki/Instructions_for_WebEVD)  
     From the CERN collaboration meeting in [January, 2020](https://cdcvs.fnal.gov/redmine/attachments/62229/webevd.pdf)
 4.  EVE based for SBND  
