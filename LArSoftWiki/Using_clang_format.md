@@ -9,6 +9,8 @@ LArSoft has adopted `clang-format` as a code-formatting tool to ensure a uniform
 
 ## Using clang format with an editor
 
+**NOTE:** These instructions are old and do not reflect the current clang format.
+
 Although `clang-format` can be made available by explicitly setting up the `clang` UPS product, the recommended way of using `clang-format` is to integrate it into your editor.
 
 ### Prerequisites
