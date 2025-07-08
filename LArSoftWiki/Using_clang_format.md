@@ -4,7 +4,13 @@
 
 LArSoft has adopted `clang-format` as a code-formatting tool to ensure a uniform code layout. 
 
-## Using clang format with mrb
+## Using clang format in the UPS environment
+
+- setup your working environment
+- `setup cetmodules v3_24_01`
+   - Any sufficiently modern release of cetmodules (v3_24_01 or later) will work.
+- `format-code <file or subdirectory>`
+   - `format-code` is found in cetmodules and will be using `clang  v15_0_7`
 
 
 ## Using clang format with an editor
