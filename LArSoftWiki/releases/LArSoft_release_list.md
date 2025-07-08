@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_08_03 | v10_02_00 | 07/08/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_08_03) |
 | v10_08_02 | v10_02_00 | 06/25/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_08_02) |
 | **v10_06_00_01** | v10_01_00 | 06/23/2025 | | patch release for SBN | see [#29815](https://cdcvs.fnal.gov/redmine/issues/29815) |
 | v10_21_00rc1 | v10_21_00rc1 | 06/16/2025 |  | genie 3.06.00 release candidate | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_21_00rc1) |
