@@ -43,7 +43,10 @@ Conventions to keep in mind when writing code for LArSoft include the following:
 
 ## Uniform code format
 
-LArSoft is considering adopting `clang-format` as a code-formatting tool to ensure a uniform code layout. Although `clang-format` can be made available by explicitly setting up the `clang` UPS product, the recommended way of using `clang-format` is to integrate it into your editor.
+LArSoft has adopted `clang-format` as a code-formatting tool to ensure a uniform code layout. 
+
+N.B.  The instructions for using clang-format with your editor are old.  This is no longer the recommendation.
+Although `clang-format` can be made available by explicitly setting up the `clang` UPS product, the recommended way of using `clang-format` is to integrate it into your editor.
 
 ### Prerequisites
 
