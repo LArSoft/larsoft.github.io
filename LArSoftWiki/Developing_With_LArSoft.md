@@ -156,6 +156,12 @@ To get write access to the repositories, speak to the offline coordinator for yo
 -   [About qualifiers](https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/AboutQualifiers): the things after “-q” in setup <prod> <ver> -q <qual>
 -   [More Relocatable UPS Documentation](https://cdcvs.fnal.gov/redmine/projects/ups/wiki/Documentation)
 
+## Spack
+
+- [Spack tutorial](https://spack-tutorial.readthedocs.io/en/latest/)
+
+- [Spack packages and recipes](https://spack-tutorial.readthedocs.io/en/latest/tutorial_packaging.html#what-is-a-spack-package)
+
 ## Testing
 
 High-level description of testing is available at [larsoft.org](https://larsoft.org/larsoft-testing/)
