@@ -2,11 +2,13 @@
 
 # Debugging LArSoft with Allinea
 
-This information is based on [Dune's writeup](https://cdcvs.fnal.gov/redmine/projects/dune/wiki/Getting_Started_with_the_Allinea_Forge_Debugger_and_Profiler)
+This information is based on Dune's writeup
 
 Allinea Forge is a commercially-available suite including a [debugger](https://www.allinea.com/sites/default/files/uploads/Datasheets/allinea_ddt.pdf) (`ddt`) and a [profiling tool](https://www.allinea.com/products/map/features) (`map`). The `ddt` debugger is a GUI frontend to the `gdb` debugging tool.
 
-Fermilab has a few licenses available. Debugging videos demos and tutorials are [available](https://www.allinea.com/debugger-videos).
+**Fermilab no longer has licenses available.**
+
+Debugging videos demos and tutorials are [available](https://www.allinea.com/debugger-videos).
 
 On the interactive GPVM machines at Fermilab, it is available as a pre-installed UPS product.  
 There is no default version, so you have to specify the version on the setup line. It is generally deployed in `/grid/fermiapp/products/local`, which you may have to add to the `PRODUCTS` path if your experiment setup doesn't already (DUNE also deploys it in their own UPS repository). As an alternative, you can add the argument `-z /grid/fermiapp/products/local` to your UPS commands. These two commands will first have you discover the available versions, and then set one up:
