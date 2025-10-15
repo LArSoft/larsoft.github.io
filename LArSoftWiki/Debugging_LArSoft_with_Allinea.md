@@ -2,11 +2,12 @@
 
 # Debugging LArSoft with Allinea
 
-This information is based on Dune's writeup
+**Fermilab no longer has licenses available.**
+
+This information is maintained in case someone has a license elsewhere.
 
 Allinea Forge is a commercially-available suite including a [debugger](https://www.allinea.com/sites/default/files/uploads/Datasheets/allinea_ddt.pdf) (`ddt`) and a [profiling tool](https://www.allinea.com/products/map/features) (`map`). The `ddt` debugger is a GUI frontend to the `gdb` debugging tool.
 
-**Fermilab no longer has licenses available.**
 
 Debugging videos demos and tutorials are [available](https://www.allinea.com/debugger-videos).
 

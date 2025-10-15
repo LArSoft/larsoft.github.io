@@ -117,8 +117,6 @@ NOTE: These are instructions for working with the legacy Redmine-based git repos
 
 #### Debugging
 
--   [Debugging LArSoft with Allinea](Debugging_LArSoft_with_Allinea)
--   [Debugging LArSoft](Debugging_LArSoft) with RogueWave TotalView. (**TotalView is no longer being paid for. Please use Allinea above instead.**)
 -   [Debugging with gdb](Debugging_with_gdb)
 
 ------------------------------------------------------------------------
