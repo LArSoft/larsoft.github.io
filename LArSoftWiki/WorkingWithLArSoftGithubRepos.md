@@ -93,16 +93,27 @@ Before executing any of the steps below, these commands must be run in the curre
 
 <!-- -->
 
+- Using gh to creat a pull request
+  - gh will create the pull request and make the fork in one operation.
+  - From an existing local clone:
+  ```
+  gh pr create -t"title of the PR"
+  ```
+  You will be promted to fill in more information.
+
 -   To check-out the head of a pull request into the local repository:
     ```
         hub pr checkout <PR-NUMBER> [<BRANCH>]
+    OR
+       gh pr checkout [-b <BRANCH>] <PR-NUMBER>
     ```
     where `BRANCH` is a new branch into which the PR will be placed.
 
-For additional examples of using `hub`, see:
+For additional examples of using `hub` and `gh`, see:
 
 -   [github.com](https://hub.github.com)
 -   [hub.1](https://hub.github.com/hub.1.html)
+-   [gh](https://cli.github.com/manual/gh)
 
 ### What do I do if there is a problem with the pull request?
 
