@@ -4,39 +4,51 @@
 
 # Guidelines on writing (and using) services in LArSoft
 
-A LArSoft service is a class, with a single instance managed by the framework, that performs an operation. A service is used by LArSoft algorithms and *art* modules.
+An *art* service is a class that performs an operation, is configurable via FHiCL, and has a single instance that is managed by the *art* framework. 
+To define a service class for use in *art*, the implementation must satisfy the following:
 
-In the context of the *art* framework, a service is implemented as a class with the following requirements:
-
-1.  special macros are used to declare and then define factory functions and other things specific to *art*
-2.  an implementation file name that follows a pattern like `MyService_service.cc`
-3.  a constructor is available with a specific signature, like
+1.  Defines a constructor with a specific signature, like
 ```cpp
 
           MyService(fhicl::ParameterSet const&amp;, art::ActivityRegistry&amp;);
 ```
+2.  Has an implementation file with a name that follows a pattern like `MyService_service.cc`
+3.  Uses special macros to declare and then define factory functions and other things specific to *art* services
 
-The best practice is to make a service provider (see below) that is as independent as possible from the framework and to use the *art* service class to provide the interface between the service provider and the framework. In other words,
+A service may be used within any *art* module in LArSoft.
 
--   **service provider** (or simply *provider*) class performs the operations the users need (e.g., “give me the current intensity of the electric field”)
--   **framework service** (or simple *service*) class interacts with the framework; when we think of our supported framework, *art*, this class has the requirements described above, owns and manages the lifetime of the provider, and makes sure the provider is informed of the events it's interested on (e.g. “it's a new run, this is the new electric field”, or “it's a new run, here is where you can ask about the new electric field”)
+In the context of LArSoft, the best practice is to create a "service provider" class (or simply "provider") in addition to the service class itself with the following relationship between the two: 
+<!--
+The provider performs the operations neededThe service class provides the interface between the *art* framework and the provider, allowing thThe provider performs the w that is independent the *art* framework, and to use the *art* service class to provide the interface between the service provider and the framework. In other words,
+-->
+
+-   The **service provider** class performs the operations needed by the user (e.g., “give me the electric field at this point”), and is written to be completely independent of the *art* framework and any *art* framework interface code. The provider, for instance, cannot depend on any service directly, though may depend on other providers.
+-   The ***art* service** (or simply *service*) class interacts with the *art* framework to configure the provider, update it at user-specified framework events (e.g., "it's a new run, time to update the electric field map"), and makes the provider available to be passed to algorithm code. The service class owns and manages the lifetime of the provider. 
+
+This separation between the provider (i.e., the desired functionality) and the service (i.e., the framework interface) is an extension of a core design principle of LArSoft -- the separation of algorithm and framework code. Without this separation at the service level, it would be impossible to write framework-independent algorithms that required services.
+
+Another best design practice is for the service to contain the provider either by reference or by value. For historical reasons, some services inherit from the provider class, though this design pattern is strongly discouraged. In either case, the service must implement a `provider()` method that returns a reference to the provider.
 
 A specimen of this protocol can be seen in `Geometry` service:
 
--   the provider, `geo::GeometryCore`, can load given a configuration in FHiCL parameter set format, and can answer all the questions about the geometry (“which wire is the closest to this point?”)
--   the service, `geo::Geometry`, creates, configures and owns a `geo::GeometryCore` instance, hooks to the framework to know when a run change happens, and in that case asks the provider to update accordingly
+-   The provider, `geo::GeometryCore`, can initialize itself given a FHiCL parameter-set with configuration information, read a GDML from which the transient geometry representation is built, and answer all the questions about the geometry (e.g., “which wire is the closest to this point?”)
+-   The service, `geo::Geometry`, "owns" a `geo::GeometryCore` instance (by inheritance in this case), and uses hooks to the *art* framework to obtain the FHiCL parameter-set with configuration information, which is then passed to the`geo::GeometryCore` provider. (It could in principle also update `geo::GeometryCore` at changes in run number, among other *art* framework state transitions, but once initialized, the geometry cannot be changed within a job.)
+
+(Note that the description of the geometry service above is intended to convey the essence of the design. The details are more complex.)
 
 To write services from scratch, one can start with the [examples in larexample repository](LArSoft_examples#Services).
 
+<!--
 > The `Geometry` service is actually not quite following all LArSoft prescriptions, for legacy reasons.  
 > In particular, `geo::Geometry` service doesn't follow the standard name pattern (that would have it `geo::GeometryService`) and, more important, is actually able to provide directly all the geometry functionality since it inherits the interface from `geo::GeometryCore`. This is **not** the recommended implementation.
+--> 
 
-To get to the functionality, a user needs to ask the framework about the service, and about the provider to the service:
+To get to the provider, a user first needs to ask the framework for the service instance, and then the service for the provider:
 
 ```cpp
 
-    art::ServiceHandle<geo::Geometry> GeoHandler;
-    geo::Geometry const&amp; GeoService = *GeoHandler;
+    art::ServiceHandle<geo::Geometry> GeoHandle;
+    geo::Geometry const&amp; GeoService = *GeoHandle;
     geo::GeometryCore const* geom = GeoService->provider();
 ```
 
@@ -56,12 +68,13 @@ LArSoft provides a utility function `providerFrom()` in `larcore/CoreUtils/Servi
     geo::GeometryCore const* geom = lar::providerFrom<geo::Geometry>();
 ```
 
-  
+<!--  
 Both the forms can be made even more compact, at the expense of readability, by replacing the provider class name with `auto`: `geo::GeometryCore const* geom` becomes `auto const*`: faster to write, but then one has to figure out where to find the documentation of the interface (hint: start from the service documentation, and a pointer will lead you to the provider).
+-->
 
 ## Models for writing services
 
-The plain *art* service is like described above: any class with a public constructor with a specific signature and a special *art* macro.  
+A plain *art* service is like described above: any class with a public constructor with a specific signature and a special *art* macro.  
 In LArSoft, we may need more flexibility than just a single service with a single implementation:
 
 -   have different implementations for the same service (for example, a generic implementation and a special implementation for ProtoDUNE detector)
