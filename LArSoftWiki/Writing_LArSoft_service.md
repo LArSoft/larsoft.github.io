@@ -10,7 +10,7 @@ To define a service class for use in *art*, the implementation must satisfy the 
 1.  Defines a constructor with a specific signature, like
 ```cpp
 
-          MyService(fhicl::ParameterSet const&amp;, art::ActivityRegistry&amp;);
+          MyService(fhicl::ParameterSet const&;, art::ActivityRegistry&;);
 ```
 2.  Has an implementation file with a name that follows a pattern like `MyService_service.cc`
 3.  Uses special macros to declare and then define factory functions and other things specific to *art* services
@@ -48,7 +48,7 @@ To get to the provider, a user first needs to ask the framework for the service 
 ```cpp
 
     art::ServiceHandle<geo::Geometry> GeoHandle;
-    geo::Geometry const&amp; GeoService = *GeoHandle;
+    geo::Geometry const&; GeoService = *GeoHandle;
     geo::GeometryCore const* geom = GeoService->provider();
 ```
 
@@ -106,7 +106,7 @@ An example of a service provider may be:
     class DetectorProperties {
         public:
       /// Constructor: reads the configuration from a parameter set
-      DetectorProperties(fhicl::ParameterSet const&amp; pset)
+      DetectorProperties(fhicl::ParameterSet const&; pset)
         : fEfield(pset.get<float>("Efield"))
         , fTemperature(pset.get<float>("Temperature"))
         {}
@@ -136,7 +136,7 @@ The corresponding *art* service used to access the provider could then be the fo
       using provider_type = DetectorProperties; ///< type of the service provider
 
       // Standard art service constructor
-      DetectorPropertiesService(fhicl::ParameterSet const&amp;, art::ActivityRegistry&amp;);
+      DetectorPropertiesService(fhicl::ParameterSet const&;, art::ActivityRegistry&;);
 
       /// Return a pointer to a (constant) detector properties provider
       provider_type const* provider() const { return fProvider.get(); }
@@ -156,7 +156,7 @@ and a possible constructor implementation may be:
 
 
     DetectorPropertiesService::DetectorPropertiesService
-      (fhicl::ParameterSet const&amp; pset, art::ActivityRegistry&amp;)
+      (fhicl::ParameterSet const&; pset, art::ActivityRegistry&;)
       : fProvider(new DetectorProperties(pset))
     {
     }
@@ -286,12 +286,9 @@ or pick the class directly with
 
 ```cpp
 
-    DetectorProperties const* detProp = &amp;(*art::ServiceHandle<DetectorProperties>());
+    DetectorProperties const* detProp = &;(*art::ServiceHandle<DetectorProperties>());
     float temperature = detProp->Temperature();
 ```
-
-  
-Note that in both cases the service class is dependent on the framework via the *art* service macros and the service registry.
 
 To choose the implementation of the service to make available in the job, the configuration will include something like:
 
@@ -322,7 +319,7 @@ An implementation class will have a declaration like:
     class DetectorPropertiesStandard: public DetectorProperties {
         public:
 
-      DetectorPropertiesStandard(fhicl::ParameterSet const&amp;, art::ActivityRegistry&amp;);
+      DetectorPropertiesStandard(fhicl::ParameterSet const&;, art::ActivityRegistry&;);
 
       /// Return the electric field in the TPC, in kV/cm; field is assumed the same in all TPCs
       virtual float Efield() const override { return fEfield; }
@@ -340,9 +337,11 @@ An implementation class will have a declaration like:
     DECLARE_ART_SERVICE_INTERFACE_IMPL(DetectorPropertiesStandard, DetectorProperties, LEGACY)
 ```
 
-Again, this uses a standard *art* service feature, but is a non-standard LArSoft service design.
+Note that in all such cases, the service class depends on the framework at the very least via the *art* service macros.
 
-<!--
+Again, this design pattern uses a standard *art* service feature, but is a non-standard LArSoft service design.
+
+<!-- -------------------------------------------------------------- 
 ### Service factorization model
 
 ![](https://cdcvs.fnal.gov/redmine/attachments/download/29534/ServiceDependency.svg)
@@ -367,7 +366,7 @@ An example of service provider may be:
     class DetectorProperties {
         public:
       /// Constructor: reads the configuration from a parameter set
-      DetectorProperties(fhicl::ParameterSet const&amp; pset)
+      DetectorProperties(fhicl::ParameterSet const&; pset)
         : fEfield(pset.get<float>("Efield"))
         , fTemperature(pset.get<float>("Temperature"))
         {}
@@ -397,7 +396,7 @@ To be able to use this service provider as a *art* service, an additional class 
       using provider_type = DetectorProperties; ///< type of the service provider
 
       // Standard art service constructor
-      DetectorPropertiesService(fhicl::ParameterSet const&amp;, art::ActivityRegistry&amp;);
+      DetectorPropertiesService(fhicl::ParameterSet const&;, art::ActivityRegistry&;);
 
       /// Return a pointer to a (constant) detector properties provider
       provider_type const* provider() const { return fProvider.get(); }
@@ -417,7 +416,7 @@ and a possible constructor implementation may be:
 
 
     DetectorPropertiesService::DetectorPropertiesService
-      (fhicl::ParameterSet const&amp; pset, art::ActivityRegistry&amp;)
+      (fhicl::ParameterSet const&; pset, art::ActivityRegistry&;)
       : fProvider(new DetectorProperties(pset))
     {
     }
@@ -474,12 +473,12 @@ The interface classes (of provider and service) do not need to have an implement
 
 *Note:* %{font-family: monospace}[ShowerCalibrationGalore](https://code-doc.larsoft.org/docs/latest/html/group__ShowerCalibrationGalore.html) in `larexamples` is also a fully developed and thoroughly documented example of this pattern.
 
---> 
+----------------------------------------------  --> 
 
 ## Prescriptions for the use of LArSoft services
 
-In the factorization development model, user code typically lives in an algorithm class that is interfaced to the framework by whatever the framework provides for the job (in *art*, that is a module).  
-The algorithm is prescribed to be portable and with minimal dependencies: it should not usSe a framework service, because that will require the framework to be present. Therefore, the algorithm code has to use *providers* directly.
+In the LArSoft factorization model, user code typically lives in an algorithm class that is interfaced to the framework by whatever the framework provides for the purpose. (In *art*, that is a module).  
+The algorithm is designed to be portable with minimal dependencies. It should not use a framework service directly, because that will require the framework to be present. Therefore, the algorithm code may only use *providers* directly.
 
 A recommended pattern is to have an algorithm class with a method that receives and stores pointers to the required providers.  
 In the following example, that method is called `Setup()`:
@@ -491,7 +490,7 @@ In the following example, that method is called `Setup()`:
       /// Never forget plenty of documentation!!
       class MyAlgorithm {
           public:
-        MyAlgorithm(fhicl::ParameterSet const&amp; pset);
+        MyAlgorithm(fhicl::ParameterSet const&; pset);
 
         void Setup(pns1::NeededProvider1 const* pProv1, pns2::NeededProvider2 const* pProv2)
           {
@@ -522,11 +521,11 @@ An *art* module using this algorithm would look like this:
 
     class MyModule: public art::EDAnalyzer {
         public:
-      MyModule(fhicl::ParameterSet const&amp; pset)
+      MyModule(fhicl::ParameterSet const&; pset)
         : pAlgo(new ns::MyAlgorithm(pset))
         {}
 
-      virtual void analyze(art::Event const&amp;) override
+      virtual void analyze(art::Event const&;) override
         {
           // make sure the algorithm is provided the services it needs
           pAlgo->Setup(
@@ -578,7 +577,7 @@ The service can delay the creation of the provider until then. For example:
         public:
       using provider_type = MyProvider;
 
-      MyLazyService(fhicl::ParameterSet const&amp; pset, art::ActivityRegistry&amp;)
+      MyLazyService(fhicl::ParameterSet const&; pset, art::ActivityRegistry&;)
         : config(pset)
         {}
 
@@ -636,8 +635,6 @@ Once the supported framework, *art*, defines its multi threading policy, this mo
 
 ------------------------------------------------------------------------
 
-*For questions, contact Gianluca Petrillo.*
+*For questions, contact Erica Snider.*
 
-[^1]: An abstract class, in C sense, is a class that has virtual methods it does not provide a definition of. Derived classes must provide such definitions.
-
-[^2]: Some LArSoft utilities enforce the recommendation of having service provider classes non-copiable and unmovable. The derivation from `lar::UncopiableAndUnmovableClass` achieves that goal.
+[^1]: Some LArSoft utilities enforce the recommendation of having service provider classes non-copiable and unmovable. The derivation from `lar::UncopiableAndUnmovableClass` achieves that goal.
