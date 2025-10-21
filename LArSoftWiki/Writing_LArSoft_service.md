@@ -23,13 +23,13 @@ The provider performs the operations neededThe service class provides the interf
 -->
 
 -   The **service provider** class performs the operations needed by the user (e.g., “give me the electric field at this point”), and is written to be completely independent of the *art* framework and any *art* framework interface code. The provider, for instance, cannot depend on any service directly, though may depend on other providers.
--   The ***art* service** (or simply *service*) class interacts with the *art* framework to configure the provider, update it at user-specified framework events (e.g., "it's a new run, time to update the electric field map"), and makes the provider available to be passed to algorithm code. The service class owns and manages the lifetime of the provider. 
+-   The ***art* service** class (or simply *service*) interacts with the *art* framework to configure the provider, update it at user-specified framework events (e.g., "it's a new run, time to update the electric field map"), and makes the provider available to be passed to algorithm code. The service class owns and manages the lifetime of the provider. 
 
-This separation between the provider (i.e., the desired functionality) and the service (i.e., the framework interface) is an extension of a core design principle of LArSoft -- the separation of algorithm and framework code. Without this separation at the service level, it would be impossible to write framework-independent algorithms that required services.
+This separation between the provider (i.e., the desired functionality) and the service (i.e., the framework interface) is a core design principle of LArSoft -- the separation of algorithm and framework code. Without this separation at the service level, it would be impossible to write framework-independent algorithms that required services.
 
 Another best design practice is for the service to contain the provider either by reference or by value. For historical reasons, some services inherit from the provider class, though this design pattern is strongly discouraged. In either case, the service must implement a `provider()` method that returns a reference to the provider.
 
-A specimen of this protocol can be seen in `Geometry` service:
+An example of this protocol can be seen in `Geometry` service:
 
 -   The provider, `geo::GeometryCore`, can initialize itself given a FHiCL parameter-set with configuration information, read a GDML from which the transient geometry representation is built, and answer all the questions about the geometry (e.g., “which wire is the closest to this point?”)
 -   The service, `geo::Geometry`, "owns" a `geo::GeometryCore` instance (by inheritance in this case), and uses hooks to the *art* framework to obtain the FHiCL parameter-set with configuration information, which is then passed to the`geo::GeometryCore` provider. (It could in principle also update `geo::GeometryCore` at changes in run number, among other *art* framework state transitions, but once initialized, the geometry cannot be changed within a job.)
@@ -72,22 +72,183 @@ LArSoft provides a utility function `providerFrom()` in `larcore/CoreUtils/Servi
 Both the forms can be made even more compact, at the expense of readability, by replacing the provider class name with `auto`: `geo::GeometryCore const* geom` becomes `auto const*`: faster to write, but then one has to figure out where to find the documentation of the interface (hint: start from the service documentation, and a pointer will lead you to the provider).
 -->
 
+
+
 ## Models for writing services
 
-A plain *art* service is like described above: any class with a public constructor with a specific signature and a special *art* macro.  
-In LArSoft, we may need more flexibility than just a single service with a single implementation:
+The service / provider model provides a high degree of configurability and customization through abstraction at both the service and provider levels. 
+In the following, we provide examples of the two most common service design models, one without that abstraction, and one with. A third model, one that exploits abstraction at the service level, but that has no provider, is also present in a few legacy services, and so is shown at the end for illustrative purposes. This design does not comply with LArSoft service design guidelines, so should not be used for new services.
 
--   have different implementations for the same service (for example, a generic implementation and a special implementation for ProtoDUNE detector)
--   have the class providing the service be independent of the framework; this was also described above
+### Basic service factorization model
+
+![](https://cdcvs.fnal.gov/redmine/attachments/download/29534/ServiceDependency.svg)
+
+The most simple scheme for LArSoft services design is the following: 
+
+-   the service creates and owns an instance of the provider 
+-   the provider is a free class that knows only about its own job
+
+As previously noted, the *art* service class is expected to have:
+
+-   a method `provider()` returning a constant pointer to a provider instance users can use
+-   a type definition `provider_type` indicating the type of the provider
+
+LArSoft offers a simple function to obtain the provider of any service that meets these requirements, `lar::providerFrom()`. Regardless, only the provider should be used directly within algorithm code. The service should live only in *art* modules and be used only to access the provider and manage *art* state transitions. 
+<!--
+the service should provide *some* method to obtain the provider that the users can use directly.
+-->
+
+An example of a service provider may be:
+
+```cpp
+
+    /// Configuration parameter documentation goes here
+    class DetectorProperties {
+        public:
+      /// Constructor: reads the configuration from a parameter set
+      DetectorProperties(fhicl::ParameterSet const&amp; pset)
+        : fEfield(pset.get<float>("Efield"))
+        , fTemperature(pset.get<float>("Temperature"))
+        {}
+
+      /// Return the electric field as configured [kV/cm]
+      float Efield() const { return fEfield; }
+
+      /// Return the argon temperature as configured [K]
+      float Temperature() const { return fTemperature; }
+
+        private:
+      float fEfield;      ///< value of electric field [kV/cm]
+      float fTemperature; ///< value of argon temperature [K]
+
+    }; // class DetectorProperties
+```
+
+  
+This class has no dependency on the framework (although it *does* depend on some non-standard libraries, such as the FHiCL C++ interface library). It can be instantiated in a simple unit test with no knowledge of any framework.
+
+The corresponding *art* service used to access the provider could then be the following:
+
+```cpp
+
+    class DetectorPropertiesService {
+        public:
+      using provider_type = DetectorProperties; ///< type of the service provider
+
+      // Standard art service constructor
+      DetectorPropertiesService(fhicl::ParameterSet const&amp;, art::ActivityRegistry&amp;);
+
+      /// Return a pointer to a (constant) detector properties provider
+      provider_type const* provider() const { return fProvider.get(); }
+
+        private:
+      std::unique_ptr<DetectorProperties> fProvider; ///< owned provider
+
+    }; // class DetectorPropertiesService
+
+    DECLARE_ART_SERVICE(DetectorPropertiesService, LEGACY)
+```
+
+  
+and a possible constructor implementation may be:
+
+```cpp
+
+
+    DetectorPropertiesService::DetectorPropertiesService
+      (fhicl::ParameterSet const&amp; pset, art::ActivityRegistry&amp;)
+      : fProvider(new DetectorProperties(pset))
+    {
+    }
+
+    DEFINE_ART_SERVICE(DetectorPropertiesService)
+```
+
+  
+<!-- An example of this factorization can be seen in the geometry service.  -->
+
+In this example, the service *contains* a instance of the provider, the recommended pattern. Another example of this type of factorization can be found in the `Geometry` service. In that case, however, the service *inherits* from the provider, rather than containing it. This is an implementation forced by a backwards compatibility requirement and is *not* the recommended method, since it strongly couples provider and service. (They are forced to have the same life time, for instance.)
+
+
+### Service interface factorization (e.g., experiment-specific, framework-independent service implementations)
+
+![](https://cdcvs.fnal.gov/redmine/attachments/download/29535/ServiceInterfaceDependency.svg)
+
+To provide context-depedent behavior for services, the *art* framework allows the creation of abstract *service interface* classes that define the user interface for the service, but with an implementation that is defined at run-time via the FHiCL configuration:
+
+```python
+
+    services: {
+      IService: {
+        service_provider: "ImplAService"
+
+        # ... on with the rest of the service configuration
+
+      } # IService
+    } # services
+```
+In this example, the calling code is written to the service interface class `IService`, while the run-time implementation, which inherits from the interface class, is determined by the value `service_provider` set in the FHiCL configuration for `IService`. (The "service_provider" in this case should not to be confused with the "provider" that is part of the LArSoft design rules for services. The former is specific to the FHiCL configuration and refers to the concrete, *art* service class that implements the service interface, while the latter is an *art*-independent class that implements the functionality the user needs in (*art*-independent) algorithm code.) The use of service interfaces for services in LArSoft allows the creation of experiment or detector-dependent implementations for the service. 
+
+<!--
+The factorization model can be extended to *service interfaces* (which are summarized above).  
+The way to achieve that is by writing an additional, special configuration parameter for the service:
+
+```python
+
+    services: {
+      IService: {
+        service_provider: "ImplAService"
+
+        # ... on with the rest of the service configuration
+
+      } # IService
+    } # services
+```
+-->
+
+As before, the functionality of the service in this model is split between an *art* service class that interfaces with *art*, and an *art*-independent provider class that provides the functionality needed by algorithms.  The *art*-independent provider class in this case must also have an abstract base class. The picture at the interface side is then: 
+<!-- . each service implementation will be split factored into a service and provider class, just as in the case of the basic service design. In order to  ***** applies to both the interface and to all the implementations: each of them will be split into a service and a provider.  
+for the interface side, both service and provider are abstract classes where: -->
+
+-   the service exposes the interface that returns the provider
+-   the provider exposes the full interface of the needed functionality
+
+For the implementation side, each concrete service follows the basic design scheme, except that:
+
+-   the service and provider classes inherit from their respective abstract interface classes
+-   the `provider()` method in the service class returns a pointer to the provider *interface* class, *not* to the implementation class
+
+Note that when using this model, users do not interact at all (and don't even know the existence of) the implementation classes. The name of the service implementation appears only in the configuration file, and the name of the provider implementation does not appear at all (unless defined as an *art* tool, a case that is not discusssed here). In fact, anything added in the implementations that is not already present in the interface will be inaccessible to the user.
+
+A fully developed example of this scheme is the actual implementation of `DetectorProperties` service (and of `DetectorClocks` and `LArProperties` as well).  
+The service providers are contained in the *art*-independent repository area `lardataalg/DetectorInfo`, while the *art* services are in `lardata/DetectorInfoService`:
+
+-   [`detinfo::DetectorProperties`](https://github.com/LArSoft/lardataalg/blob/develop/lardataalg/DetectorInfo/DetectorProperties.h) is the provider interface; algorithms will use constant pointers to it
+-   [`detinfo::DetectorPropertiesService`](https://github.com/LArSoft/lardata/blob/develop/lardata/DetectorInfoServices/DetectorPropertiesService.h) is the service interface; modules will ask for it (`lar::providerFrom<DetectorPropertiesService>()` or `art::ServiceHandle<DetectorPropertiesService>`); in the configuration, `services.DetectorPropertiesService` will specify the service configuration
+-   [`detinfo::DetectorPropertiesServiceStandard`](https://github.com/LArSoft/lardata/blob/develop/lardata/DetectorInfoServices/DetectorPropertiesServiceStandard.h) is a *art* service implementation; in the configuration, there will be a line equivalent to `services.DetectorPropertiesService.service_provider: DetectorPropertiesServiceStandard` (note that the `service_provider` term is a *art* choice that clashes with LArSoft's unfortunate choice of the word “provider” to denote the framework-independent class described above); it is invisible to algorithms and modules
+-   [`detinfo::DetectorPropertiesStandard`](https://github.com/LArSoft/lardataalg/blob/develop/lardataalg/DetectorInfo/DetectorPropertiesStandard.h) is a provider implementation; it is invisible with respect to configuration, algorithms and modules; an instance of it will be owned by `detinfo::DetectorPropertiesServiceStandard`
+
+The interface classes (of provider and service) do not need to have an implementation file (in case of `DetectorProperties`, they don't).
+
+*Note:* [ShowerCalibrationGalore](https://code-doc.larsoft.org/docs/latest/html/group__ShowerCalibrationGalore.html) in `larexamples` is also a fully developed and thoroughly documented example of this pattern.
+
+
+<!--
+LArSoft ofter requires more flexibility that a simple 
+A plain *art* service, as described above, can be any class with a public constructor with a specific signature and a special *art* macro.  
+In LArSoft, we often need more flexibility than a simple service provides. We may, for instance, need different detector or algorithm-dependent implementations 
+for a given service (for instance, a photon visibility service with multiple visibility map algorithms, and / or detector-dependent variants)
 
 The following paragraphs describe the three combinations of features on top of the plain *art* service.
+-->
 
-### Service interface with many implementations (e.g., experiment-specific)
+### Non-standard service interface with no provider (legacy services only)
 
-This model allows different ways to implement the same service. This is an *art* feature, and nothing of this is specific to LArSoft.  
-At run time, a single implementation will be chosen by *art* depending on the service configuration (from the FHiCL configuration file).
+This model user an abstract *art* service interface class to define directly the functionality needed by the user. Though it allows for experiment or detector-dependent implementations, the design embeds the implementation of the needed functionality within framework interface code, and is therefore a pattern to be avoided. We show it here for illustrative purposes only, since some legacy services use this model. The main distinction from the basic service deisgn is simply that the provider interface is moved into the service class itself.
 
-The service interface is a (possibly abstract[^1]) class that describes all the service is expected to be able to do. For example[^2]:
+<!-- At run time, a single implementation will be chosen by *art* depending on the service configuration (from the FHiCL configuration file). -->
+
+For example, a service interface class could be defined as follows:  
 
 ```cpp
 
@@ -130,10 +291,9 @@ or pick the class directly with
 ```
 
   
-Note that in both cases the service class is dependent on the framework (at very least via the *art* service macros).
+Note that in both cases the service class is dependent on the framework via the *art* service macros and the service registry.
 
-The user will have to choose which implementation of the service to make available in the job.  
-The job configuration will include something like:
+To choose the implementation of the service to make available in the job, the configuration will include something like:
 
     services: {
       DetectorProperties: # this is the name of the service interface
@@ -180,8 +340,9 @@ An implementation class will have a declaration like:
     DECLARE_ART_SERVICE_INTERFACE_IMPL(DetectorPropertiesStandard, DetectorProperties, LEGACY)
 ```
 
-Again, this is a standard *art* facility.
+Again, this uses a standard *art* service feature, but is a non-standard LArSoft service design.
 
+<!--
 ### Service factorization model
 
 ![](https://cdcvs.fnal.gov/redmine/attachments/download/29534/ServiceDependency.svg)
@@ -312,6 +473,8 @@ The service providers are contained in `lardataalg/DetectorInfo`, while the *art
 The interface classes (of provider and service) do not need to have an implementation file (in case of `DetectorProperties`, they don't).
 
 *Note:* %{font-family: monospace}[ShowerCalibrationGalore](https://code-doc.larsoft.org/docs/latest/html/group__ShowerCalibrationGalore.html) in `larexamples` is also a fully developed and thoroughly documented example of this pattern.
+
+--> 
 
 ## Prescriptions for the use of LArSoft services
 
