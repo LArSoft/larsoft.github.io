@@ -31,7 +31,6 @@ Release versions in **bold font** will be preserved according to the [production
 | v10_08_03 | v10_02_00 | 07/08/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_08_03) |
 | v10_08_02 | v10_02_00 | 06/25/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_08_02) |
 | **v10_06_00_01** | v10_01_00 | 06/23/2025 | | patch release for SBN | see [#29815](https://cdcvs.fnal.gov/redmine/issues/29815) |
-| v10_21_00rc1 | v10_21_00rc1 | 06/16/2025 |  | genie 3.06.00 release candidate | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_21_00rc1) |
 | v10_08_01 | v10_02_00 | 06/12/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_08_01) |
 | v10_08_00 | v10_02_00 | 05/20/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_08_00) |
 | v10_07_00 | v10_01_00 | 05/13/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_07_00) |
@@ -39,7 +38,6 @@ Release versions in **bold font** will be preserved according to the [production
 | **v09_91_04_01** | v09_35_06 | 04/21/2025 |  | for DUNE | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_91_04_01) |
 | v10_05_00 | v10_00_06 | 04/16/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_05_00) |
 | v10_04_08 | v10_00_06 | 04/01/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_08) |
-| v10_21_00rc0 | v10_21_00rc0 | 03/25/2025 |  | genie 3.06.00 release candidate | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_21_00rc0) |
 | **v10_04_07** | v10_00_05 | 03/20/2025 | uB MCC 9.10 production base release |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_07) |
 | v10_04_06 | v10_00_05 | 03/12/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_06) |
 | v10_04_05 | v10_00_05 | 03/05/2025 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_05) |
