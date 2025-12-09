@@ -14,7 +14,7 @@ This is an informal list of people we contact when there are problems with exper
 -   sbndcode
     -   Steven Gardiner 
     -   Patrick Green 
-    -   Dominic Brailsford
+    -   Henry Lay
     -   Nathaniel Rowe (release manager as of April 2025)
     -   Andrzej Szelc
 -   uboonecode
