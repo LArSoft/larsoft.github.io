@@ -118,7 +118,6 @@ Release versions in **bold font** will be preserved according to the [production
 | v09_78_06 | v09_32_01 | 09/26/2023 |  | final release for c7 and e20 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_06) |
 | v09_78_05 | v09_32_01 | 09/21/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_05) |
 | v09_78_04 | v09_32_00 | 09/13/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_04) |
-| v09_80_00rc2 | v09_31_02 | 08/30/2023 | **TEST RELEASE** | test wirecell 0.25.1 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_80_00rc2) |
 | v09_78_03 | v09_31_02 | 08/29/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_03) |
 | v09_78_02 | v09_31_02 | 08/23/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_02) |
 | v09_78_01 | v09_31_02 | 08/17/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_78_01) |
@@ -134,10 +133,8 @@ Release versions in **bold font** will be preserved according to the [production
 | v09_74_01 | v09_30_00 | 05/02/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_74_01) |
 | v09_74_00 | v09_30_00 | 04/27/2023 |  | first release with art 3.12.00 (s120) | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_74_00) |
 | v09_73_00 | v09_29_01 | 04/26/2023 |  | last release with art 3.09.04 (s117) | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_73_00) |
-| v09_80_00rc1 | v09_80_00rc1 | 04/13/2023 | **RELEASE CANDIDATE**  | art 3.12.00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_80_00rc1) |
 | v09_72_01 | v09_29_01 | 04/12/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_72_01) |
 | **v09_72_00** | **v09_29_01** | 04/07/2023 | ICARUS production, DUNE for ICEBERG |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_72_00) |
-| v09_80_00rc0 | v09_80_00rc0 | 03/29/2023 | **RELEASE CANDIDATE**  | art 3.12.00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_80_00rc0) |
 | v09_71_00 | v09_29_00 | 03/27/2023 |  | first release with genie v3_04_00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_71_00) |
 | v09_70_00 | v09_29_00 | 03/23/2023 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_70_00) |
 | v09_69_01_01 | v09_28_01 | 03/22/2023 | **TEST RELEASE** | test genie v3_04_00 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_69_01_01) |
