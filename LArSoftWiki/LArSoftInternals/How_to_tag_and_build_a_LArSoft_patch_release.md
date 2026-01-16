@@ -52,9 +52,9 @@ Please make a service desk ticket asking for these permissions. Use the SciSoft 
     -   If an experiment has been specified, the script will also checkout the experiment code.
         -   The same branch name will be used when cloning the experiment code unless a second branch name is supplied.
     -   The directory structure will include a single source code directory with subdirectories for the specified basequal.
-        -   The basequal defaults to e20 if it is not specified.
-        -   To use more than one basequal (e.g., c7 and e20), issue the command more than once.
-        -   LArSoft releases are currently (Feb. 2022) expected to build for both c7 and e20.
+        -   The basequal defaults to e26 if it is not specified.
+        -   To use more than one basequal, issue the command more than once.
+        -   LArSoft releases are currently (Jan. 2026) expected to build for both c14 and e26.
     -   Use “dogit branch” to double check that you are on the expected branch of all packages.
 
 ### Local development
