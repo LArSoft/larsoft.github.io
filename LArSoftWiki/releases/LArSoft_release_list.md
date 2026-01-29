@@ -14,6 +14,7 @@ Release versions in **bold font** will be preserved according to the [production
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
 | **v10_04_07_02** | v10_00_05 | 01/26/2026 | MicroBooNE production release | Fix NuGraph rare crash | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_07_02) |
+| **v09_89_02_01** | v09_35_02 | 01/29/2026 | ICARUS production |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v09_89_02_01) |
 | v10_17_00 | v10_06_00 | 01/15/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_17_00) |
 | v10_14_02_01 | v10_04_02 | 01/14/2026 |  |  for SBND | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_14_02_01) |
 | v10_16_00 | v10_06_00 | 01/06/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_16_00) |
