@@ -120,10 +120,10 @@ Please make a service desk ticket asking for these permissions. Use the SciSoft 
     -   larsoftobj
     -   lardata
     -   larevt
-    -   larwirecell (depends on larevt)
     -   larg4 (depends on larevt)
     -   larsim
     -   larsimrad (depends on larsim)
+    -   larsimdnn (depends on larsim)
     -   larreco
     -   larrecodnn (depends on larreco)
     -   larana (depends on larreco)
@@ -131,7 +131,7 @@ Please make a service desk ticket asking for these permissions. Use the SciSoft 
     -   larpandora (depends on larreco and larpandoracontent)
     -   lareventdisplay (depends on larreco)
     -   larexamples (depends on larsim)
-    -   webevd (depends on lardata)
+    -   larwirecell (depends on larsim)
     -   larsoft
 
 <!-- -->
@@ -190,14 +190,17 @@ Please make a service desk ticket asking for these permissions. Use the SciSoft 
 -   This step requires login privileges.
 -   <code>ssh cvmfslarsoft@oasiscfs.fnal.gov</code>
 -   The README provides an overview of the necessary steps.
+    -  make a temporary BUSY file with your name
     -   start a transaction
     -   install using installBundle.sh
     -   publish
+    -   remove the temporary BUSY file
 -   ./scripts/installBundle.sh larsoft vaa_bb_cc_zz sNN-eY
     -   Note that if you call installBundle.sh with sNN-e20, it will install both e20 and c7 variants.
     -   The script will attempt to install the release for all supported platforms and clean up after itself.
     -   **If some expected distributions are not available, then manifests will be left in the .working subdirectory. Check and remove them if necessary.**
 -   Do not leave a transaction open. You can abort the changes you made if there is a problem.
+-   We use the temporary BUSY file so that others know you are working and will come back later.
 
 ## Presentations
 
