@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_17_02 | v10_06_00 | 02/11/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_17_02) |
 | v10_17_01 | v10_06_00 | 02/05/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_17_01) |
 | **v10_14_02_02** | v10_04_02 | 02/03/2026 | Patch release for SBN | Uses genie v3_06_02_sbn2, see [#30250](https://cdcvs.fnal.gov/redmine/issues/30250) | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_14_02_02) |
 | **v10_04_07_02** | v10_00_05 | 01/26/2026 | MicroBooNE production release | Fix NuGraph rare crash | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_04_07_02) |
