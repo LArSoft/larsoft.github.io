@@ -1,13 +1,14 @@
 # Breaking Changes
 
-* TOC
-{:toc}
 This is an attempt to track all the “breaking” changes which require associated updates to experiment code.
 
+## LArSoft v10_20_00 with geant4 v4_11_2_p02
 
-## Changes for larsoft v06_xx_yy and previous
+- See the [v10_20_00 Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_20_00)
+- Required changed are minimal.
+- However, LegacyLArG4 has been removed.
+- Note that fcl files depending directly or indirectly on LegacyLArG4/largeantmodules.fcl will no longer work.
 
-For ease of navigation, older breaking changes have been moved to [Breaking Changes prior to v07_00_00](Breaking_Changes_prior_to_v07_00_00)
 
 ## larsoft v09_77_00 - SpacePointSolver has new configurable parameter
 
@@ -371,3 +372,8 @@ New recob::Track interface introduced in early 2017. This came with the deprecat
 Several different cases are possible. Please see [this presentation](https://indico.fnal.gov/event/19103/contribution/1/material/slides/0.pdf) for an overview and a list of the most common changes.
 
 **Contact**: The Scisoft Team
+
+
+## Changes for larsoft v06_xx_yy and previous
+
+For ease of navigation, older breaking changes have been moved to [Breaking Changes prior to v07_00_00](Breaking_Changes_prior_to_v07_00_00)
