@@ -7,7 +7,7 @@ This is an informal list of people we contact when there are problems with exper
     -   Matthew Muether
     -   Dominic Brailsford
     -   Laura Paulucci
-    -   Andrew Olivier (release manager)
+    -   Wooyoung Jan (release manager)
 -   icaruscode
     -   Tracy Usher
     -   Leo Aliaga (release manager) 
