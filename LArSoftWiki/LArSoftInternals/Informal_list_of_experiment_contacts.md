@@ -29,5 +29,5 @@ These experiments are now frozen
     -   Patrick Green (release manager)
     -   Wanwei Wu (new release manager)
 -   lariatsoft 
-    -   Johnny Ho
-    -   Jonathan Asaadi
+    -   Will Foreman
+    -   Elena Gramellini
