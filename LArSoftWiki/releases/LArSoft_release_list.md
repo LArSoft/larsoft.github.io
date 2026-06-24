@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_21_01 | v10_06_01 | 06/24/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_21_01) |
 | v10_21_00 | v10_06_01 | 06/12/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_21_00) 
 | v10_20_09_01 | v10_06_01_01 | 05/29/2026 | **TEST RELEASE** | test release with geant4 11.4 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_20_09_01) |
 | v10_20_09 | v10_06_01 | 05/22/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_20_09) |
