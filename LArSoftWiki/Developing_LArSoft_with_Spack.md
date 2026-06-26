@@ -79,7 +79,6 @@ Starting in your working directory:
 Starting from a selected project:
 ```
     spack mpd git-clone <repository>
-    #
-    # The above should refresh the project, so no need for spack mpd refresh...
+    spack mpd refresh
     spack mpd build
 ```
