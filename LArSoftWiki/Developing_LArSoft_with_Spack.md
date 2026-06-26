@@ -24,19 +24,19 @@ Starting in your working directory:
 ```bash
     source source /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/setup-env.sh
     mkdir <working_area>
-    #
+    
     # Make a development spack with current spack as upstream
     #
     spack subspack $PWD/spack
-    #
+    
     # Set up the local spack
     #
     source spack/setup-env.sh
-    #
+    
     # List the available environments. Will choose one later.
     #
     spack env list
-    #
+    
     # Initialize mpd (only needs to be done once per working area), and create
     # a new project (which creates a directory with the project name)
     #
@@ -48,15 +48,15 @@ Starting in your working directory:
     #
     spack mpd init
     spack mpd n -C gcc@12.5.0 -d cetmodules@3 -T ./<project_name>  -E  /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_20_09-unified-cuda-python-3_11-trimmed-rc2
-    #
+    
     # Ready to go! Add a package to develop
     #
     spack mpd git-clone <repository or suite>
-    #
+    
     # Refresh project using current source area and generator=ninja variant
     #
     spack mpd refresh generator=ninja
-    #
+    
     # Now build!
     #
     spack mpd build      
