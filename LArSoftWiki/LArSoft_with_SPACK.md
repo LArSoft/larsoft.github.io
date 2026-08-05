@@ -37,12 +37,14 @@ The most recent v09 series release is v09.90.01. To set up on AL9:
 ## Summary of Migration Plan to Spack
 
 * Spack development
-  * Production release will be v1.0. Need to wait for this to be released before formal migration can occur.
-    * Timescale is summer 2025
+  * Production release will be v1 series. 
+    * *Status:  Released July 2025*
   * Write, validate document that describes detailed, technical procedure for creating a release of LArSoft using a well defined set of tools and steps
     * Expect extension to experiment code from this point will be straight-forward
+    * *Status:  Completed*
   * Write, validate documentation on MPD and Fermilab Spack environment
     * Separately provide documentation for release managers and end users
+    * *Status:  In-progress*
 * Pre Spack v1.0 work for experiments
   * Select a Spack release on which to base work. Spack team will offer recommendations
   * Create experiment-specific repository for base experiment code recipes
@@ -51,12 +53,14 @@ The most recent v09 series release is v09.90.01. To set up on AL9:
     * PR recipes either to Spack, LArSoft or experiment recipe repositories, as appropriate
   * Identify cases where migration to AL9 is not possible
     * Define procedures for handling these presumably rare cases
+  * *Status:  completed to extent necessary to begin migration*
 * Post Spack 1.0 work
   * LArSoft: 
     * Make  AL9 releases of LArSoft under Spack based on release policy
     * In parallel, make SL7 releases under UPS
     * Work with experiments to define time window during which SL7 builds will be released
       * External factors may impose a timeline on phase-out of SL7 containers
+    * *Status: In progress*
   * Experiments
     * Complete necessary recipe changes
     * Start building AL9 releases of experiment code using Spack
@@ -64,6 +68,7 @@ The most recent v09 series release is v09.90.01. To set up on AL9:
       * Validate physics under AL9
     * In parallel, create SL7 releases under UPS
     * When AL9 validations are completed, cease SL7/UPS builds of experiment code
+    * *Status: Nearly complete for some experiments (DUNE, SBND), in-progress for others*
   * LArSoft
     * Cease regular SL7 builds when all experiments have migrated
 
