@@ -21,10 +21,12 @@ UPS will not be supported under AL9, and SL7 reach EOL on June 30, 2024. Consequ
 
 Until regular builds begin, there are only a limited be a limited number of Spack-based LArSoft builds available for either SL7 or AL9. 
 
-The most recent version of LArSoft built under Spack is v10_20_00_rc2. To set up under AL9:
-* source /cvmfs/larsoft.opensciencegrid.org/spack-v0.22.0-fermi/setup-env.sh
-* spack env activate /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_20_09-unified-cuda-python-3_11-trimmed-rc2
+As of this writing, most recent version of LArSoft built under Spack is v10_21_00_rc2. To set up under AL9:
+* source /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/setup-env.sh
+* spack env activate larsoft-v10_21_00-unified-cuda-python-3_11-trimmed-rc2
 * spack load larsoft
+
+To set up a working area for developing code against this release of LArSoft while minimizing the code that is re-built, we recommend following the instructions for [Developing LArSoft with Spack and MPD](https://larsoft.github.io/LArSoftWiki/Developing_LArSoft_with_Spack).
 
 The most recent v09 series release is v09.90.01. To set up on AL9:
 * source /cvmfs/larsoft.opensciencegrid.org/spack-v0.22.0-fermi/setup-env.sh
