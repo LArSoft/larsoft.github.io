@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_23_00 | v10_06_03 | 08/07/2026 |  | adding support for e28 (c++20) | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_23_00) |
 | **v10_14_02_03** | **v10_04_02** | 07/22/2026 | SBN production release | Add config parameter in larpandoracontent | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_14_02_03) |
 | v10_20_09_04 | v10_06_01_01 | 07/21/2026 | **TEST RELEASE**  | test release with geant4 11.4 patch 2 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_20_09_04) |
 | v10_22_00 | v10_06_02 | 07/09/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_22_00) |
