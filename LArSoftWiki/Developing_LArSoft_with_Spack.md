@@ -82,3 +82,11 @@ Starting from a selected project:
     spack mpd refresh
     spack mpd build
 ```
+### Update the list of LArSoft environments visible in the sub-spack
+
+Creating a sub-spack freezes the list of environments that the local development version of Spack knows about. The list can be updated by creating symlinks back to the upstream spack environment list:
+```
+    cd <dev area>/spack/var/spack/environments
+    ln -s /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v<VERSION NUMBER>/var/spack/environments/* .
+```
+
