@@ -24,7 +24,7 @@ We will post the LArSoft Spack environments to a location to be announced. Until
 To set up a working area for developing code against this release of LArSoft while minimizing the code that is re-built, we recommend following the instructions for [Developing LArSoft with Spack and MPD](https://larsoft.github.io/LArSoftWiki/Developing_LArSoft_with_Spack).
 
 
-## Summary of Migration Plan to Spack
+## Summary of Spack Migration Plan
 
 * Spack development
   * Production release will be v1 series. 
@@ -47,16 +47,21 @@ To set up a working area for developing code against this release of LArSoft whi
 * Post Spack 1.0 work
   * LArSoft: 
     * Make  AL9 releases of LArSoft under Spack based on release policy
+      * *Status:  on-going* 
     * In parallel, make SL7 releases under UPS
+      * *Status:  on-going* 
     * Work with experiments to define time window during which SL7 builds will be released
       * External factors may impose a timeline on phase-out of SL7 containers
     * *Status: In progress*
   * Experiments
     * Complete necessary recipe changes
+      * *Status:  in progress* 
     * Start building AL9 releases of experiment code using Spack
       * Validate software development procedures
       * Validate physics under AL9
+      * *Status:  in progress*
     * In parallel, create SL7 releases under UPS
+      * *Status:  on-going* 
     * When AL9 validations are completed, cease SL7/UPS builds of experiment code
     * *Status: Nearly complete for some experiments (DUNE, SBND), in-progress for others*
   * LArSoft
