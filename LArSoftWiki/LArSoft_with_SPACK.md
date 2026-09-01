@@ -1,37 +1,27 @@
 ﻿# Overview page of LArSoft with SPACK
 
-August 5, 2026
+September 1, 2026
 
-LArSoft is in the process of migrating from the Fermilab developed UPS packaging tool to the community developed and supported [Spack](https://spack.io/) packaging tool. The use of Spack as the LArSoft package manager is expected to provide greatly improved flexibility to the experiments in building their software stacks relative to the standard tools provided by the LArSoft team, and will reduce the effort required to support the LArSoft software stack, thereby freeing effort to work on other high priority tasks. 
+LArSoft is in the process of migrating from the Fermilab developed UPS packaging tool to the community developed and supported [Spack](https://spack.io/) packaging tool. The use of Spack as the LArSoft package manager is expected to provide greatly improved flexibility to the experiments in building their software stacks relative to the standard tools provided by the LArSoft team, and will reduce the effort required to support the LArSoft software stack, thereby freeing effort to work on other tasks. 
 
 The new system provides the [multi-product development tool (mpd)](https://github.com/FNALssi/spack-mpd), a Spack extension that allows users to develop CMake based packages in concert with Spack-provided external software. MPD offers a similar set of features as that of the UPS-based MRB tool.
 
-Release mechanisms and procedures are well defined, and some experiments have nearly completed the migration process. Regular releases of LArSoft under Spack will begin during Q3 2026, independently of the migration status of the experiments. Migration team efforts are currently focused on updating the continuous integration system to work with Spack. 
+Spack is in production for LArSoft as of August 26, 2026. (Experiments will make their own decisions about when Spack is in production for them.) From that time, all releases of LArSoft will be built under Spack. Until UPS is fully retired, we will also continue to build LArSoft under UPS as well. At the time of writing, the Spack build will lag the UPS build by a day or two. Migration team members are still available to assist experiments in bringing Spack into production in their software.
 
 For additional details on release procedures and developing with Spack, see the presentations and "Plan for Standard Builds" document discussed at [the Dec. 10, 2024 LArSoft Coordination Meeting](https://indico.fnal.gov/event/67311/), the [Spack-at-FNAL git repository](https://github.com/FNALssi/spack-at-fnal), and the [Spack-MPD git repository](https://github.com/FNALssi/spack-mpd/tree/main). A quick-start guide for using MPD can be found on [Developing LArSoft with Spack and MPD wiki page](https://larsoft.github.io/LArSoftWiki/Developing_LArSoft_with_Spack).
 
 
-## The interim solution
+## The interim solution remains supported
 
-UPS will not be supported under AL9, and SL7 reach EOL on June 30, 2024. Consequently, until Spack is fully deployed, all LArSoft builds must be performed within SL7 containers. See the [Developing LArSoft with Containers](https://larsoft.github.io/LArSoftWiki/Developing_LArSoft_with_Containers) page for more information on how to do that.
+Until Spack is fully deployed at all experiments, we will continue to provide UPS-based builds of LArSoft. All such builds and running of LArSoft must be performed within SL7 containers. See the [Developing LArSoft with Containers](https://larsoft.github.io/LArSoftWiki/Developing_LArSoft_with_Containers) page for more information on how to do that.
 
 
 
 ## Spack builds of LArSoft
 
-Until regular builds begin, there are only a limited be a limited number of Spack-based LArSoft builds available for either SL7 or AL9. 
-
-As of this writing, most recent version of LArSoft built under Spack is v10_21_00_rc2. To set up under AL9:
-* source /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/setup-env.sh
-* spack env activate larsoft-v10_21_00-unified-cuda-python-3_11-trimmed-rc2
-* spack load larsoft
+We will post the LArSoft Spack environments to a location to be announced. Until then, you can find the list of environments by using `spack env list`, or looking in /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v<THE LATEST VERSION>/var/spack/environments. 
 
 To set up a working area for developing code against this release of LArSoft while minimizing the code that is re-built, we recommend following the instructions for [Developing LArSoft with Spack and MPD](https://larsoft.github.io/LArSoftWiki/Developing_LArSoft_with_Spack).
-
-The most recent v09 series release is v09.90.01. To set up on AL9:
-* source /cvmfs/larsoft.opensciencegrid.org/spack-v0.22.0-fermi/setup-env.sh
-* spack env activate larsoft-09-90-01-gcc-12-2-0-cxx17-prof-gcc-11-4-1
-* spack load larsoft
 
 
 ## Summary of Migration Plan to Spack
@@ -44,7 +34,7 @@ The most recent v09 series release is v09.90.01. To set up on AL9:
     * *Status:  Completed*
   * Write, validate documentation on MPD and Fermilab Spack environment
     * Separately provide documentation for release managers and end users
-    * *Status:  In-progress*
+    * *Status:  Completed*
 * Pre Spack v1.0 work for experiments
   * Select a Spack release on which to base work. Spack team will offer recommendations
   * Create experiment-specific repository for base experiment code recipes
