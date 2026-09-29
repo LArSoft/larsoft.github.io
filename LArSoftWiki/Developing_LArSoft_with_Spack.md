@@ -11,21 +11,32 @@ A typical working area for developing LArSoft with spack mpd has the following s
             local/
             srcs/
         project_dir_2/
+            ...
 ```
 
-The code to be developed lives in the `srcs` directories. Each project is developed in isolation from the others, though they will share a common Spack instance.
+An mpd "project" is an area that contains the code that you want to develop at a given time, along
+with the build artifacts, installed repositories, and the associated environment created during 
+concretization. There can be multiple projects within a working area, but you can only build one 
+project at a time. You tell `mpd` which project you are working on with the `spack mpd select` command.
+All projects in a given working area share a common local Spack instance. The actual code to be developed 
+lives in the `srcs` directories. The `local` directories contain the environment for your project 
+created during concretization, along along with any packages you `spack mpd install`. The `build`
+areas are used by `mpd` to perform the build. 
 
 All examples assume that you have access to `/cvmfs/larsoft.opensciencegrid.org/spack-fnal-*`. If not, then follow the [bootstrap instructions here]() to install a local instance of Spack.
 
 ### Create a workspace and a "project" with Spack
 
-Starting in your working directory: 
+Starting in your top-level working directory: 
 
 ```bash
     source source /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/setup-env.sh
     mkdir <working_area>
+    cd <working_area>
     
-    # Make a development spack with current spack as upstream
+    # Make a development (i.e., local) Spack instance with the current spack as upstream.
+    # The local instance ensures that you have write access, which is required for some
+    # Spack opereations.
     #
     spack subspack $PWD/spack
     
@@ -37,16 +48,19 @@ Starting in your working directory:
     #
     spack env list
     
-    # Initialize mpd (only needs to be done once per working area), and create
-    # a new project (which creates a directory with the project name)
+    # Initialize mpd (only needs to be done once per working area)
+    #
+    spack mpd init
+
+    # Create a new mpd "project" and create the project directory with the project name.
+    # This operation will also `mpd' "select" it. 
     #
     # In this example
     # - compiler is gcc v12.5.0
     # - project depends on cetmodules v3
     # - Creates <project_name> directory in working area
-    # - project build on the environment larsoft-v10_20_09-unified-cuda-python-3_11-trimmed-rc2
+    # - project builds on the environment larsoft-v10_20_09-unified-cuda-python-3_11-trimmed-rc2
     #
-    spack mpd init
     spack mpd n -C gcc@12.5.0 -d cetmodules@3 -T ./<project_name>  -E  /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/var/spack/environments/larsoft-v10_20_09-unified-cuda-python-3_11-trimmed-rc2
     
     # Ready to go! Add a package to develop
@@ -54,6 +68,9 @@ Starting in your working directory:
     spack mpd git-clone <repository or suite>
     
     # Refresh project using current source area and generator=ninja variant
+    # This performs the concretization step, so can take a little time. You 
+    # need to do this if you change dependencies, or change the repositories you
+    # are developing.
     #
     spack mpd refresh generator=ninja
     
