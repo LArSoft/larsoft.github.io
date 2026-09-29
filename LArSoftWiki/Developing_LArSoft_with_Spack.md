@@ -30,7 +30,7 @@ All examples assume that you have access to `/cvmfs/larsoft.opensciencegrid.org/
 Starting in your top-level working directory: 
 
 ```bash
-    source source /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/setup-env.sh
+    source /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v1.1.1/setup-env.sh
     mkdir <working_area>
     cd <working_area>
     
