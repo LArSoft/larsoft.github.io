@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_14_02_04 | v10_04_02 | 10/07/2026 | SBN production release | build with wirecell v0_32_2 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_14_02_04) |
 | v10_27_00 | v10_07_00 | 10/02/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_27_00) |
 | v11_00_00rc1 | v11_00_00rc0 | 09/21/2026 |  | **TESTING art 3.15**  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v11_00_00rc1) |
 | v10_26_00 | v10_07_00 | 09/15/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_26_00) |
