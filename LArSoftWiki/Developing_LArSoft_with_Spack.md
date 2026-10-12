@@ -23,7 +23,7 @@ lives in the `srcs` directories. The `local` directories contain the environment
 created during concretization, along along with any packages you `spack mpd install`. The `build`
 areas are used by `mpd` to perform the build. 
 
-All examples assume that you have access to `/cvmfs/larsoft.opensciencegrid.org/spack-fnal-*`. If not, then follow the [bootstrap instructions here]() to install a local instance of Spack.
+All examples assume that you have access to `/cvmfs/larsoft.opensciencegrid.org/spack-fnal-*`. If not, then follow the [bootstrap instructions here](https://github.com/FNALssi/spack-mpd/blob/main/README.md) to install a local instance of Spack.
 
 ### Create a workspace and a "project" with Spack
 
