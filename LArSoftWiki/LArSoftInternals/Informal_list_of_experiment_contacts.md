@@ -11,17 +11,17 @@ This is an informal list of people we contact when there are problems with exper
 -   icaruscode
     -   Tracy Usher
     -   Leo Aliaga (release manager) 
--   sbndcode
-    -   Steven Gardiner 
+-   sbndcode 
     -   Patrick Green 
     -   Henry Lay
+    -   John Plows
     -   Nathaniel Rowe (release manager as of April 2025)
     -   Andrzej Szelc
 -   uboonecode
     -   Herb Greenlee
 -   sbn
     -   Giuseppe Cerati
-    -   Steven Gardiner
+    -   John Plows
     -   John Plows (release manager)
 
 These experiments are now frozen
@@ -31,3 +31,5 @@ These experiments are now frozen
 -   lariatsoft 
     -   Will Foreman
     -   Elena Gramellini
+
+Updated Oct 15, 2026
