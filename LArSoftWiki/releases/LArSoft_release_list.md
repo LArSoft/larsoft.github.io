@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_28_00 | v10_07_00 | 10/17/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_28_00) |
 | v10_14_02_05 | v10_04_02 | 10/12/2026 | SBND gen2 production release | genie v3_06_02_sbn4 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_14_02_05) |
 | v10_14_02_04 | v10_04_02 | 10/07/2026 | SBND gen2 production release | build with wirecell v0_32_2 | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_14_02_04) |
 | v10_27_00 | v10_07_00 | 10/02/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_27_00) |
