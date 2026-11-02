@@ -13,6 +13,7 @@ Release versions in **bold font** will be preserved according to the [production
 | LArSoft Release   | LArSoftObj Release | Date       | Purpose             | Changes / notes                                            | Full release notes        |
 |-------------------|--------------------|------------|---------------------|------------------------------------------------------------|---------------------------|
 | future            |                    |            |                     |                                                            | [ Changes Expected for Future Releases](FutureChanges) |
+| v10_30_00 | v10_08_00 | 11/02/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_30_00) |
 | v10_14_02_06 | v10_04_02 | 10/29/2026 | SBND gen2 production release | Update larpandoracontent | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_14_02_06) |
 | v10_29_00 | v10_07_00 | 10/22/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_29_00) |
 | v10_28_00 | v10_07_00 | 10/17/2026 |  |  | [Release Notes](https://github.com/LArSoft/larsoft/releases/tag/v10_28_00) |
