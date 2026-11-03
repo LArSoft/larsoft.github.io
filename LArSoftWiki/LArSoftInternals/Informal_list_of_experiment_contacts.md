@@ -4,7 +4,6 @@ This is an informal list of people we contact when there are problems with exper
 
 -   dunetpc
     -   Thomas R. Junk
-    -   Matthew Muether
     -   Dominic Brailsford
     -   Laura Paulucci
     -   Wooyoung Jan (release manager)
