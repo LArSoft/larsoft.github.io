@@ -106,4 +106,19 @@ Creating a sub-spack freezes the list of environments that the local development
     cd <dev area>/spack/var/spack/environments
     ln -s /cvmfs/larsoft.opensciencegrid.org/spack-fnal-v<VERSION NUMBER>/var/spack/environments/* .
 ```
+### Finding and editing a recipe file
 
+```
+    spack repo list                            # lists paths to all configured repositories
+    spack location --repo <name>               # root directory of repository 'name'
+    spack location --package-dir <package>     # directory containing 'package.py' file
+    spack edit <package>                       # edit recipe for 'package'
+```
+
+### Finding and editing an environment file
+
+```
+    spack location -e [<environment>]           # path to directory with 'spack.yaml' file for active [or specified] env
+    spack env status                            # name or path of currently active environment
+    spack [-e <environment>] config edit        # edit 'spack.yaml' file for active [or specified] environment
+```
